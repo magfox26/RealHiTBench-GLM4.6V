@@ -1,0 +1,52 @@
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+% \usepackage[table,xcdraw]{xcolor}
+% Beamer presentation requires \usepackage{colortbl} instead of \usepackage[table,xcdraw]{xcolor}
+\begin{table}[]
+\begin{tabular}{@{}lrrrrrr@{}}
+\textbf{Table 5 Scientific procedures by species of animal and level of anaesthesia} &  &  &  &  &  &  \\
+\textit{} &  &  &  &  &  &  \\
+\textbf{Great Britain 2011} &  &  &  &  &  & \textbf{Number of procedures} \\
+\rowcolor[HTML]{FFFF99} 
+\textbf{Species of animal} & \multicolumn{1}{c}{\cellcolor[HTML]{FFFF99}\textbf{}} & \multicolumn{4}{c}{\cellcolor[HTML]{FFFF99}\textbf{Type of anaesthesia}} & \multicolumn{1}{c}{\cellcolor[HTML]{FFFF99}\textbf{Total}} \\
+\rowcolor[HTML]{FFFF99} 
+ & \multicolumn{1}{c}{\cellcolor[HTML]{FFFF99}\textbf{No anaesthesia}} & \multicolumn{1}{c}{\cellcolor[HTML]{FFFF99}General anaesthesia, with recovery} & \multicolumn{1}{c}{\cellcolor[HTML]{FFFF99}Local anaesthesia} & \multicolumn{1}{c}{\cellcolor[HTML]{FFFF99}General anaesthesia at end of procedure, without recovery} & \multicolumn{1}{c}{\cellcolor[HTML]{FFFF99}General anaesthesia throughout, without recovery} & \multicolumn{1}{c}{\cellcolor[HTML]{FFFF99}\textbf{}} \\
+{\color[HTML]{99CC00} \textbf{Mammal}} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} \\
+\rowcolor[HTML]{FFCC99} 
+\textbf{Ferret} & 83 & 565 & - & 31 & 12 & \textbf{691} \\
+\textbf{Other carnivore} & 402 & 393 & - & - & - & \textbf{795} \\
+\rowcolor[HTML]{FFCC99} 
+\textbf{Horse and other equids} & 362 & - & 8,014 & 4 & - & \textbf{8,380} \\
+\textbf{Pig} & 3,269 & 606 & 25 & 19 & 421 & \textbf{4,340} \\
+\rowcolor[HTML]{FFCC99} 
+\textbf{Sheep} & 36,362 & 1,019 & 259 & 51 & 23 & \textbf{37,714} \\
+\textbf{All other ungulates} & 5,418 & 87 & 110 & - & 2 & \textbf{5,617} \\
+\rowcolor[HTML]{FFCC99} 
+\textbf{Primate} &  &  &  &  &  & \textbf{} \\
+New World monkey & 195 & 53 & - & 33 & 70 & \textbf{351} \\
+\rowcolor[HTML]{FFCC99} 
+Old World monkey & 1,497 & 598 & - & 6 & 23 & \textbf{2,124} \\
+\rowcolor[HTML]{FFCC99} 
+\textbf{Mouse} & 1,984,204 & 396,591 & 144,433 & 106,142 & 48,393 & \textbf{2,679,763} \\
+\textbf{Rat} & 143,674 & 76,465 & 712 & 27,083 & 23,601 & \textbf{271,535} \\
+\rowcolor[HTML]{FFCC99} 
+\textbf{All other rodents} & 11,722 & 2,863 & 548 & 1,721 & 1,081 & \textbf{17,935} \\
+\textbf{Rabbit} & 9,010 & 760 & 1,861 & 1,678 & 2,152 & \textbf{15,461} \\
+\cellcolor[HTML]{FFCC99}\textbf{Cat} & \cellcolor[HTML]{FFCC99}148 & \cellcolor[HTML]{FFCC99}87 & \cellcolor[HTML]{FFCC99}- & \cellcolor[HTML]{FFCC99}- & \cellcolor[HTML]{FFCC99}- & \textbf{235} \\
+\textbf{Dog} & 3,944 & 264 & 35 & 188 & 121 & \textbf{4,552} \\
+\textbf{All other mammals} & 401 & 3 & 131 & - & 10 & \textbf{545} \\
+\rowcolor[HTML]{FFCC99} 
+{\color[HTML]{99CC00} \textbf{Bird}} & 45,092 & 340 & 88 & 116,052 & 1,046 & \textbf{162,618} \\
+{\color[HTML]{99CC00} \textbf{Reptile}} & 383 & - & - & - & - & \textbf{383} \\
+\rowcolor[HTML]{FFCC99} 
+{\color[HTML]{99CC00} \textbf{Amphibian}} & 15,304 & 430 & - & 107 & 74 & \textbf{15,915} \\
+{\color[HTML]{99CC00} \textbf{Fish}} & 434,251 & 77,343 & 85 & 51,516 & 708 & \textbf{563,903} \\
+\rowcolor[HTML]{FFFF99} 
+\textbf{Total} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFF99}\textbf{2,695,721}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFF99}\textbf{558,467}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFF99}\textbf{156,301}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFF99}\textbf{304,631}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFF99}\textbf{77,737}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFF99}\textbf{3,792,857}} \\
+Increase on 2010 & 127,435 & {\color[HTML]{FF0000} -63,997} & {\color[HTML]{FF0000} -50,049} & 72,294 & {\color[HTML]{FF0000} -17,552} & 68,131 \\
+Percentage change from 2010 & 5\% & {\color[HTML]{FF0000} -10\%} & {\color[HTML]{FF0000} -24\%} & 31\% & {\color[HTML]{FF0000} -18\%} & 2\% \\
+Percentage of total for 2011 & 71\% & 15\% & 4\% & 8\% & 2\% & 100\% \\
+2010 Totals & \multicolumn{1}{l}{2,568,286} & \multicolumn{1}{l}{622,464} & \multicolumn{1}{l}{206,350} & \multicolumn{1}{l}{232,337} & \multicolumn{1}{l}{95,289} & \multicolumn{1}{l}{3,724,726} \\
+Note. Neuromuscular blocking agents (NMBA) were used in 2,547  procedures in 2011.  All of these procedures involved the use of general anaesthesia. &  &  &  &  &  & 
+\end{tabular}
+\end{table}

@@ -1,0 +1,211 @@
+[
+  {
+    "Variable": null,
+    "Unnamed: 1": null,
+    "n": null,
+    "%": null,
+    "Optimal CT": "n",
+    "Unnamed: 5": "%",
+    "Univariate Analysis": "OR",
+    "Unnamed: 7": "IC95%",
+    "Unnamed: 8": "p"
+  },
+  {
+    "Variable": "Age Group",
+    "Unnamed: 1": null,
+    "n": null,
+    "%": null,
+    "Optimal CT": null,
+    "Unnamed: 5": null,
+    "Univariate Analysis": null,
+    "Unnamed: 7": null,
+    "Unnamed: 8": null
+  },
+  {
+    "Variable": null,
+    "Unnamed: 1": "60 to 64 years",
+    "n": "195",
+    "%": "75,6",
+    "Optimal CT": "59",
+    "Unnamed: 5": "30,3",
+    "Univariate Analysis": "1,00",
+    "Unnamed: 7": null,
+    "Unnamed: 8": null
+  },
+  {
+    "Variable": null,
+    "Unnamed: 1": "65 to 70 years",
+    "n": "63",
+    "%": "24,4",
+    "Optimal CT": "16",
+    "Unnamed: 5": "25,4",
+    "Univariate Analysis": "0,78",
+    "Unnamed: 7": "0,41-1,49",
+    "Unnamed: 8": "0,461"
+  },
+  {
+    "Variable": "Gender",
+    "Unnamed: 1": null,
+    "n": null,
+    "%": null,
+    "Optimal CT": null,
+    "Unnamed: 5": null,
+    "Univariate Analysis": null,
+    "Unnamed: 7": null,
+    "Unnamed: 8": null
+  },
+  {
+    "Variable": null,
+    "Unnamed: 1": "Male",
+    "n": "149",
+    "%": "57,8",
+    "Optimal CT": "55",
+    "Unnamed: 5": "36,9",
+    "Univariate Analysis": "1,00",
+    "Unnamed: 7": null,
+    "Unnamed: 8": null
+  },
+  {
+    "Variable": null,
+    "Unnamed: 1": "Female",
+    "n": "109",
+    "%": "42,2",
+    "Optimal CT": "20",
+    "Unnamed: 5": "18,4",
+    "Univariate Analysis": "0,38",
+    "Unnamed: 7": "0,21-0,69",
+    "Unnamed: 8": "0,001*"
+  },
+  {
+    "Variable": "Marital Status",
+    "Unnamed: 1": null,
+    "n": null,
+    "%": null,
+    "Optimal CT": null,
+    "Unnamed: 5": null,
+    "Univariate Analysis": null,
+    "Unnamed: 7": null,
+    "Unnamed: 8": null
+  },
+  {
+    "Variable": null,
+    "Unnamed: 1": "With Spouse",
+    "n": "157",
+    "%": "60,9",
+    "Optimal CT": "53",
+    "Unnamed: 5": "33,8",
+    "Univariate Analysis": "1,00",
+    "Unnamed: 7": null,
+    "Unnamed: 8": null
+  },
+  {
+    "Variable": null,
+    "Unnamed: 1": "Without Spouse",
+    "n": "101",
+    "%": "39,1",
+    "Optimal CT": "22",
+    "Unnamed: 5": "21,8",
+    "Univariate Analysis": "0,55",
+    "Unnamed: 7": "0,31-0,97",
+    "Unnamed: 8": "0,040*"
+  },
+  {
+    "Variable": "Skin Color",
+    "Unnamed: 1": null,
+    "n": null,
+    "%": null,
+    "Optimal CT": null,
+    "Unnamed: 5": null,
+    "Univariate Analysis": null,
+    "Unnamed: 7": null,
+    "Unnamed: 8": null
+  },
+  {
+    "Variable": null,
+    "Unnamed: 1": "White",
+    "n": "189",
+    "%": "73,3",
+    "Optimal CT": "60",
+    "Unnamed: 5": "32,8",
+    "Univariate Analysis": "1,00",
+    "Unnamed: 7": null,
+    "Unnamed: 8": null
+  },
+  {
+    "Variable": null,
+    "Unnamed: 1": "Non-White",
+    "n": "69",
+    "%": "26,7",
+    "Optimal CT": "15",
+    "Unnamed: 5": "21,7",
+    "Univariate Analysis": "0,60",
+    "Unnamed: 7": "0,31-1,14",
+    "Unnamed: 8": "0,119*"
+  },
+  {
+    "Variable": "Education Level",
+    "Unnamed: 1": null,
+    "n": null,
+    "%": null,
+    "Optimal CT": null,
+    "Unnamed: 5": null,
+    "Univariate Analysis": null,
+    "Unnamed: 7": null,
+    "Unnamed: 8": null
+  },
+  {
+    "Variable": null,
+    "Unnamed: 1": "Higher Education",
+    "n": "149",
+    "%": "57,8",
+    "Optimal CT": "51",
+    "Unnamed: 5": "34,2",
+    "Univariate Analysis": "1,00",
+    "Unnamed: 7": null,
+    "Unnamed: 8": null
+  },
+  {
+    "Variable": null,
+    "Unnamed: 1": "Up to High School",
+    "n": "109",
+    "%": "42,2",
+    "Optimal CT": "24",
+    "Unnamed: 5": "22,0",
+    "Univariate Analysis": "0,54",
+    "Unnamed: 7": "0,31-0,96",
+    "Unnamed: 8": "0,034*"
+  },
+  {
+    "Variable": "Family Income",
+    "Unnamed: 1": null,
+    "n": null,
+    "%": null,
+    "Optimal CT": null,
+    "Unnamed: 5": null,
+    "Univariate Analysis": null,
+    "Unnamed: 7": null,
+    "Unnamed: 8": null
+  },
+  {
+    "Variable": null,
+    "Unnamed: 1": "5 or more salaries",
+    "n": "150",
+    "%": "58,1",
+    "Optimal CT": "52",
+    "Unnamed: 5": "34,7",
+    "Univariate Analysis": "1,00",
+    "Unnamed: 7": null,
+    "Unnamed: 8": null
+  },
+  {
+    "Variable": null,
+    "Unnamed: 1": "Up to 4 salaries",
+    "n": "108",
+    "%": "41,9",
+    "Optimal CT": "23",
+    "Unnamed: 5": "21,3",
+    "Univariate Analysis": "0,51",
+    "Unnamed: 7": "0,29-0,90",
+    "Unnamed: 8": "0,021*"
+  }
+]

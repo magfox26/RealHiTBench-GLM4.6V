@@ -1,0 +1,33 @@
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+% \usepackage[table,xcdraw]{xcolor}
+% Beamer presentation requires \usepackage{colortbl} instead of \usepackage[table,xcdraw]{xcolor}
+\begin{table}[]
+\begin{tabular}{@{}lllllc@{}}
+\rowcolor[HTML]{D0CECE} 
+\textbf{} & \textbf{Shared} & \textbf{Tor} & \textbf{Mary} & \multicolumn{1}{c}{\cellcolor[HTML]{D0CECE}\textbf{}} & \textbf{"+/-"} \\
+ &  &  &  & \multicolumn{1}{c}{} &  \\
+\cellcolor[HTML]{FFF2CC}\textbf{Beverage} & \cellcolor[HTML]{FFF2CC} & \cellcolor[HTML]{FFF2CC} & \cellcolor[HTML]{FFF2CC} &  &  \\
+Coffee Fltr &  & \$12.78 &  &  & \$12.78 \\
+Coffee T &  & \$14.99 &  &  & \$14.99 \\
+Coffee M &  &  & \$29.99 &  & \$29.99 \\
+Herbal Tea & \$34.27 &  &  &  & \$34.27 \\
+Tea &  &  &  &  & \$0.00 \\
+Pop T & \$9.99 &  &  &  & \$9.99 \\
+Pop M &  &  &  &  & \$0.00 \\
+Water &  &  &  &  & \$0.00 \\
+\cellcolor[HTML]{FFF2CC}\textbf{Dairy} & \cellcolor[HTML]{FFF2CC} & \cellcolor[HTML]{FFF2CC} & \cellcolor[HTML]{FFF2CC} & \multicolumn{1}{c}{} &  \\
+Butter M &  &  & \$14.99 & \multicolumn{1}{c}{} & \$14.99 \\
+Butter T &  &  &  & \multicolumn{1}{c}{} & \$0.00 \\
+Eggs & \$2.99 &  & \$12.22 & \multicolumn{1}{c}{} & \$15.21 \\
+Ice cream & \$15.76 &  &  & \multicolumn{1}{c}{} & \$15.76 \\
+Milk 0\% &  & \$9.99 & \$35.00 & \multicolumn{1}{c}{} & \$44.99 \\
+milk 1\% &  & \$12.00 &  & \multicolumn{1}{c}{} & \$12.00 \\
+milk 2\% & \$22.98 &  &  & \multicolumn{1}{c}{} & \$22.98 \\
+Chop Sticks &  &  &  & \multicolumn{1}{c}{} & \$0.00 \\
+\cellcolor[HTML]{FFF2CC}\textbf{House} & \cellcolor[HTML]{FFF2CC} & \cellcolor[HTML]{FFF2CC} & \cellcolor[HTML]{FFF2CC} &  &  \\
+Chef Knife &  &  &  &  &  \\
+HP Ink &  &  &  &  &  \\
+Chop Sticks & \$8.65 &  & \$18.99 &  & \$27.64
+\end{tabular}
+\end{table}

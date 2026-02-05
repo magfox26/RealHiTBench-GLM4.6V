@@ -1,0 +1,531 @@
+% Please add the following required packages to your document preamble:
+% \usepackage[table,xcdraw]{xcolor}
+% Beamer presentation requires \usepackage{colortbl} instead of \usepackage[table,xcdraw]{xcolor}
+% \usepackage[normalem]{ulem}
+% \useunder{\uline}{\ul}{}
+\begin{table}[]
+\begin{tabular}{llllrrrrrrrrrrrrrrrrrrrr}
+\rowcolor[HTML]{BBA8AC} 
+\textbf{UK Regular Forces Strength} &  &  &  & \multicolumn{1}{l}{\cellcolor[HTML]{BBA8AC}} & \multicolumn{1}{l}{\cellcolor[HTML]{BBA8AC}} & \multicolumn{1}{l}{\cellcolor[HTML]{BBA8AC}} & \multicolumn{1}{l}{\cellcolor[HTML]{BBA8AC}} & \multicolumn{1}{l}{\cellcolor[HTML]{BBA8AC}} & \multicolumn{1}{l}{\cellcolor[HTML]{BBA8AC}} & \multicolumn{1}{l}{\cellcolor[HTML]{BBA8AC}} & \multicolumn{1}{l}{\cellcolor[HTML]{BBA8AC}} & \multicolumn{1}{l}{\cellcolor[HTML]{BBA8AC}} & \multicolumn{1}{l}{\cellcolor[HTML]{BBA8AC}} & \multicolumn{1}{l}{\cellcolor[HTML]{BBA8AC}} & \multicolumn{1}{l}{\cellcolor[HTML]{BBA8AC}} & \multicolumn{1}{l}{\cellcolor[HTML]{BBA8AC}} & \multicolumn{1}{l}{\cellcolor[HTML]{BBA8AC}} & \multicolumn{1}{l}{\cellcolor[HTML]{BBA8AC}} & \multicolumn{1}{l}{\cellcolor[HTML]{BBA8AC}} & \multicolumn{1}{l}{\cellcolor[HTML]{BBA8AC}} & \multicolumn{1}{l}{\cellcolor[HTML]{BBA8AC}} & \multicolumn{1}{l}{\cellcolor[HTML]{BBA8AC}} & \multicolumn{1}{l}{\cellcolor[HTML]{BBA8AC}} \\
+\rowcolor[HTML]{FFFFFF} 
+\textbf{} & \textbf{} & \textbf{} & \textbf{} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}\textbf{}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}\textbf{}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}\textbf{}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}\textbf{}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}\textbf{}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}\textbf{}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}\textbf{}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}\textbf{}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}\textbf{}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}\textbf{}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}\textbf{}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}\textbf{}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}\textbf{}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}\textbf{}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}\textbf{}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}\textbf{}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}\textbf{}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}\textbf{}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}\textbf{}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}\textbf{}} \\
+\rowcolor[HTML]{FFFFFF} 
+\multicolumn{24}{l}{\cellcolor[HTML]{FFFFFF}\textbf{Table 1 - Strength of UK Regular Forces by NATO Rank and Gender}} \\
+\rowcolor[HTML]{FFFFFF} 
+\textbf{Source: Defence Statistics (Tri-Service)} & \textbf{} & \textbf{} & \textbf{} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}\textbf{}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}\textbf{}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}\textbf{}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}\textbf{}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}\textbf{}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}\textbf{}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}\textbf{}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}\textbf{}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}\textbf{}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}\textbf{}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}\textbf{}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}\textbf{}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}\textbf{}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}\textbf{}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}\textbf{}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}\textbf{}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}\textbf{}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}\textbf{}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}\textbf{}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}\textbf{}} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  &  & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & {\color[HTML]{0000EE} {\ul \textbf{Glossary of terms}}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} \\
+\rowcolor[HTML]{FFFFFF} 
+{\color[HTML]{0000FF} \textbf{}} &  &  & {\color[HTML]{0000EE} {\ul \textbf{Return to Contents}}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} \\
+\rowcolor[HTML]{FFFFFF} 
+{\color[HTML]{0000FF} \textbf{}} &  &  &  & \multicolumn{2}{c}{\cellcolor[HTML]{FFFFFF}\textbf{1 Apr 12}} & \multicolumn{2}{c}{\cellcolor[HTML]{FFFFFF}\textbf{1 Oct 12}} & \multicolumn{2}{c}{\cellcolor[HTML]{FFFFFF}\textbf{1 Apr 13}} & \multicolumn{2}{c}{\cellcolor[HTML]{FFFFFF}\textbf{1 Oct 13}} & \multicolumn{2}{c}{\cellcolor[HTML]{FFFFFF}\textbf{1 Apr 14}} & \multicolumn{2}{c}{\cellcolor[HTML]{FFFFFF}\textbf{1 Oct 14}} & \multicolumn{2}{c}{\cellcolor[HTML]{FFFFFF}\textbf{1 Apr 15}} & \multicolumn{2}{c}{\cellcolor[HTML]{FFFFFF}\textbf{1 Oct 15}} & \multicolumn{2}{c}{\cellcolor[HTML]{FFFFFF}\textbf{1 Apr 16}} & \multicolumn{2}{c}{\cellcolor[HTML]{FFFFFF}\textbf{1 Oct 16}} \\
+\rowcolor[HTML]{FFFFFF} 
+{\color[HTML]{0000FF} \textbf{}} &  &  &  & Number & \textit{\%} & Number & \textit{\%} & Number & \textit{\%} & Number & \textit{\%} & Number & \textit{\%} & Number & \textit{\%} & Number & \textit{\%} & Number & \textit{\%} & Number & \textit{\%} & Number & \textit{\%} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\
+\rowcolor[HTML]{BBA8AC} 
+\textbf{All Services} & \textbf{} &  &  & \textbf{179 800} & \textit{\textbf{100.0}} & \textbf{175 940} & \textit{\textbf{100.0}} & \textbf{170 710} & \textit{\textbf{100.0}} & \textbf{166 460} & \textit{\textbf{100.0}} & \textbf{159 630} & \textit{\textbf{100.0}} & \textbf{156 630} & \textit{\textbf{100.0}} & \textbf{153 720} & \textit{\textbf{100.0}} & \textbf{152 150} & \textit{\textbf{100.0}} & \textbf{151 000} & \textit{\textbf{100.0}} & \textbf{150 250} & \textit{\textbf{100.0}} \\
+\rowcolor[HTML]{FFFFFF} 
+\textbf{} & \textbf{} & \textbf{} & \textbf{of which female} & 17 370 & \textit{9.7} & 17 060 & \textit{9.7} & 16 610 & \textit{9.7} & 16 310 & \textit{9.8} & 15 840 & \textit{9.9} & 15 740 & \textit{10.0} & 15 550 & \textit{10.1} & 15 400 & \textit{10.1} & 15 380 & \textit{10.2} & 15 280 & \textit{10.2} \\
+\rowcolor[HTML]{FFFFFF} 
+\textbf{} & \textbf{} & \textbf{} & \textbf{of which male} & 162 430 & \textit{90.3} & 158 880 & \textit{90.3} & 154 100 & \textit{90.3} & 150 160 & \textit{90.2} & 143 790 & \textit{90.1} & 140 890 & \textit{90.0} & 138 170 & \textit{89.9} & 136 750 & \textit{89.9} & 135 620 & \textit{89.8} & 134 970 & \textit{89.8} \\
+\rowcolor[HTML]{E0D8D8} 
+\textbf{} & \textbf{Officers} & \textbf{} & \textbf{} & \textbf{30 700} & \textit{\textbf{}} & \textbf{30 010} & \textit{\textbf{}} & \textbf{29 060} & \textit{\textbf{}} & \textbf{28 540} & \textit{\textbf{}} & \textbf{27 850} & \textit{\textbf{}} & \textbf{27 680} & \textit{\textbf{}} & \textbf{27 230} & \textit{\textbf{}} & \textbf{27 140} & \textit{\textbf{}} & \textbf{26 820} & \textit{\textbf{}} & \textbf{27 120} & \textit{\textbf{}} \\
+\rowcolor[HTML]{FFFFFF} 
+\textbf{} & \textbf{} & \textbf{} & \textbf{of which female} & 3 820 & \textit{12.4} & 3 760 & \textit{12.5} & 3 670 & \textit{12.6} & 3 610 & \textit{12.6} & 3 540 & \textit{12.7} & 3 520 & \textit{12.7} & 3 470 & \textit{12.7} & 3 460 & \textit{12.8} & 3 440 & \textit{12.8} & 3 490 & \textit{12.9} \\
+\rowcolor[HTML]{FFFFFF} 
+\textbf{} & \textbf{} & \textbf{} & \textbf{of which male} & 26 890 & \textit{87.6} & 26 250 & \textit{87.5} & 25 390 & \textit{87.4} & 24 930 & \textit{87.4} & 24 320 & \textit{87.3} & 24 160 & \textit{87.3} & 23 760 & \textit{87.3} & 23 670 & \textit{87.2} & 23 380 & \textit{87.2} & 23 640 & \textit{87.1} \\
+\rowcolor[HTML]{F2EEEE} 
+\textbf{} & \textbf{} & \textbf{OF-9} & \textbf{} & \textbf{10} & \textit{\textbf{}} & \textbf{9} & \textit{\textbf{}} & \textbf{9} & \textit{\textbf{}} & \textbf{9} & \textit{\textbf{}} & \textbf{8} & \textit{\textbf{}} & \textbf{8} & \textit{\textbf{}} & \textbf{7} & \textit{\textbf{}} & \textbf{7} & \textit{\textbf{}} & \textbf{7} & \textit{\textbf{}} & \textbf{9} & \textit{\textbf{}} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which female & - & \textit{-} & - & \textit{-} & - & \textit{-} & - & \textit{-} & - & \textit{-} & - & \textit{-} & - & \textit{-} & - & \textit{-} & - & \textit{-} & - & \textit{-} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which male & 10 & \textit{100.0} & 9 & \textit{100.0} & 9 & \textit{100.0} & 9 & \textit{100.0} & 8 & \textit{100.0} & 8 & \textit{100.0} & 7 & \textit{100.0} & 7 & \textit{100.0} & 7 & \textit{100.0} & 9 & \textit{100.0} \\
+\rowcolor[HTML]{F2EEEE} 
+\textbf{} & \textbf{} & \textbf{OF-8} & \textbf{} & \textbf{25} & \textit{\textbf{}} & \textbf{25} & \textit{\textbf{}} & \textbf{28} & \textit{\textbf{}} & \textbf{28} & \textit{\textbf{}} & \textbf{27} & \textit{\textbf{}} & \textbf{27} & \textit{\textbf{}} & \textbf{31} & \textit{\textbf{}} & \textbf{30} & \textit{\textbf{}} & \textbf{31} & \textit{\textbf{}} & \textbf{28} & \textit{\textbf{}} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which female & - & \textit{-} & - & \textit{-} & - & \textit{-} & - & \textit{-} & - & \textit{-} & - & \textit{-} & - & \textit{-} & - & \textit{-} & - & \textit{-} & - & \textit{-} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which male & 25 & \textit{100.0} & 25 & \textit{100.0} & 28 & \textit{100.0} & 28 & \textit{100.0} & 27 & \textit{100.0} & 27 & \textit{100.0} & 31 & \textit{100.0} & 30 & \textit{100.0} & 31 & \textit{100.0} & 28 & \textit{100.0} \\
+\rowcolor[HTML]{F2EEEE} 
+\textbf{} & \textbf{} & \textbf{OF-7} & \textbf{} & \textbf{101} & \textit{\textbf{}} & \textbf{103} & \textit{\textbf{}} & \textbf{97} & \textit{\textbf{}} & \textbf{96} & \textit{\textbf{}} & \textbf{95} & \textit{\textbf{}} & \textbf{103} & \textit{\textbf{}} & \textbf{97} & \textit{\textbf{}} & \textbf{97} & \textit{\textbf{}} & \textbf{95} & \textit{\textbf{}} & \textbf{93} & \textit{\textbf{}} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which female & - & \textit{-} & - & \textit{-} & - & \textit{-} & 1 & \textit{1.0} & 2 & \textit{2.1} & 2 & \textit{1.9} & 2 & \textit{2.1} & 3 & \textit{3.1} & 3 & \textit{3.2} & 3 & \textit{3.2} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which male & 101 & \textit{100.0} & 103 & \textit{100.0} & 97 & \textit{100.0} & 95 & \textit{99.0} & 93 & \textit{97.9} & 101 & \textit{98.1} & 95 & \textit{97.9} & 94 & \textit{96.9} & 92 & \textit{96.8} & 90 & \textit{96.8} \\
+\rowcolor[HTML]{F2EEEE} 
+\textbf{} & \textbf{} & \textbf{OF-6} & \textbf{} & \textbf{330} & \textit{\textbf{}} & \textbf{326} & \textit{\textbf{}} & \textbf{303} & \textit{\textbf{}} & \textbf{311} & \textit{\textbf{}} & \textbf{308} & \textit{\textbf{}} & \textbf{311} & \textit{\textbf{}} & \textbf{312} & \textit{\textbf{}} & \textbf{305} & \textit{\textbf{}} & \textbf{299} & \textit{\textbf{}} & \textbf{311} & \textit{\textbf{}} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which female & 6 & \textit{1.8} & 8 & \textit{2.5} & 5 & \textit{1.7} & 5 & \textit{1.6} & 6 & \textit{1.9} & 7 & \textit{2.3} & 9 & \textit{2.9} & 10 & \textit{3.3} & 9 & \textit{3.0} & 9 & \textit{2.9} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which male & 324 & \textit{98.2} & 318 & \textit{97.5} & 298 & \textit{98.3} & 306 & \textit{98.4} & 302 & \textit{98.1} & 304 & \textit{97.7} & 303 & \textit{97.1} & 295 & \textit{96.7} & 290 & \textit{97.0} & 302 & \textit{97.1} \\
+\rowcolor[HTML]{F2EEEE} 
+\textbf{} & \textbf{} & \textbf{OF-5} & \textbf{} & \textbf{1 140} & \textit{\textbf{}} & \textbf{1 140} & \textit{\textbf{}} & \textbf{1 110} & \textit{\textbf{}} & \textbf{1 120} & \textit{\textbf{}} & \textbf{1 080} & \textit{\textbf{}} & \textbf{1 080} & \textit{\textbf{}} & \textbf{1 080} & \textit{\textbf{}} & \textbf{1 060} & \textit{\textbf{}} & \textbf{1 060} & \textit{\textbf{}} & \textbf{1 060} & \textit{\textbf{}} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which female & 40 & \textit{3.9} & 40 & \textit{3.8} & 50 & \textit{4.6} & 60 & \textit{4.9} & 50 & \textit{4.6} & 60 & \textit{5.2} & 60 & \textit{5.3} & 60 & \textit{5.8} & 60 & \textit{6.1} & 70 & \textit{6.2} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which male & 1 100 & \textit{96.1} & 1 090 & \textit{96.2} & 1 060 & \textit{95.4} & 1 060 & \textit{95.1} & 1 030 & \textit{95.4} & 1 020 & \textit{94.8} & 1 020 & \textit{94.7} & 1 000 & \textit{94.2} & 1 000 & \textit{93.9} & 990 & \textit{93.8} \\
+\rowcolor[HTML]{F2EEEE} 
+\textbf{} & \textbf{} & \textbf{OF-4} & \textbf{} & \textbf{3 920} & \textit{\textbf{}} & \textbf{3 950} & \textit{\textbf{}} & \textbf{3 750} & \textit{\textbf{}} & \textbf{3 820} & \textit{\textbf{}} & \textbf{3 720} & \textit{\textbf{}} & \textbf{3 770} & \textit{\textbf{}} & \textbf{3 680} & \textit{\textbf{}} & \textbf{3 710} & \textit{\textbf{}} & \textbf{3 640} & \textit{\textbf{}} & \textbf{3 740} & \textit{\textbf{}} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which female & 240 & \textit{6.2} & 260 & \textit{6.6} & 250 & \textit{6.6} & 270 & \textit{7.0} & 270 & \textit{7.3} & 290 & \textit{7.6} & 280 & \textit{7.7} & 300 & \textit{8.2} & 310 & \textit{8.4} & 330 & \textit{8.7} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which male & 3 680 & \textit{93.8} & 3 700 & \textit{93.4} & 3 500 & \textit{93.4} & 3 560 & \textit{93.0} & 3 450 & \textit{92.7} & 3 480 & \textit{92.4} & 3 390 & \textit{92.3} & 3 410 & \textit{91.8} & 3 340 & \textit{91.6} & 3 410 & \textit{91.3} \\
+\rowcolor[HTML]{F2EEEE} 
+\textbf{} & \textbf{} & \textbf{OF-3} & \textbf{} & \textbf{9 050} & \textit{\textbf{}} & \textbf{8 930} & \textit{\textbf{}} & \textbf{8 650} & \textit{\textbf{}} & \textbf{8 550} & \textit{\textbf{}} & \textbf{8 360} & \textit{\textbf{}} & \textbf{8 370} & \textit{\textbf{}} & \textbf{8 190} & \textit{\textbf{}} & \textbf{8 200} & \textit{\textbf{}} & \textbf{8 170} & \textit{\textbf{}} & \textbf{8 230} & \textit{\textbf{}} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which female & 1 130 & \textit{12.5} & 1 150 & \textit{12.9} & 1 140 & \textit{13.2} & 1 170 & \textit{13.7} & 1 140 & \textit{13.7} & 1 180 & \textit{14.1} & 1 170 & \textit{14.3} & 1 200 & \textit{14.6} & 1 200 & \textit{14.6} & 1 220 & \textit{14.8} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which male & 7 920 & \textit{87.5} & 7 780 & \textit{87.1} & 7 510 & \textit{86.8} & 7 380 & \textit{86.3} & 7 220 & \textit{86.3} & 7 190 & \textit{85.9} & 7 020 & \textit{85.7} & 7 010 & \textit{85.4} & 6 980 & \textit{85.4} & 7 010 & \textit{85.2} \\
+\rowcolor[HTML]{F2EEEE} 
+\textbf{} & \textbf{} & \textbf{OF-2} & \textbf{} & \textbf{12 030} & \textit{\textbf{}} & \textbf{11 660} & \textit{\textbf{}} & \textbf{11 440} & \textit{\textbf{}} & \textbf{11 000} & \textit{\textbf{}} & \textbf{10 720} & \textit{\textbf{}} & \textbf{10 350} & \textit{\textbf{}} & \textbf{9 950} & \textit{\textbf{}} & \textbf{9 680} & \textit{\textbf{}} & \textbf{9 410} & \textit{\textbf{}} & \textbf{9 250} & \textit{\textbf{}} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which female & 1 800 & \textit{15.0} & 1 750 & \textit{15.0} & 1 720 & \textit{15.1} & 1 630 & \textit{14.8} & 1 590 & \textit{14.8} & 1 500 & \textit{14.5} & 1 430 & \textit{14.3} & 1 360 & \textit{14.0} & 1 320 & \textit{14.0} & 1 290 & \textit{14.0} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which male & 10 230 & \textit{85.0} & 9 920 & \textit{85.0} & 9 710 & \textit{84.9} & 9 370 & \textit{85.2} & 9 130 & \textit{85.2} & 8 840 & \textit{85.5} & 8 520 & \textit{85.7} & 8 320 & \textit{86.0} & 8 090 & \textit{86.0} & 7 960 & \textit{86.0} \\
+\rowcolor[HTML]{F2EEEE} 
+\textbf{} & \textbf{} & \textbf{OF-1 / OF (D)} & \textbf{} & \textbf{4 090} & \textit{\textbf{}} & \textbf{3 860} & \textit{\textbf{}} & \textbf{3 680} & \textit{\textbf{}} & \textbf{3 610} & \textit{\textbf{}} & \textbf{3 530} & \textit{\textbf{}} & \textbf{3 660} & \textit{\textbf{}} & \textbf{3 890} & \textit{\textbf{}} & \textbf{4 040} & \textit{\textbf{}} & \textbf{4 100} & \textit{\textbf{}} & \textbf{4 410} & \textit{\textbf{}} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which female & 590 & \textit{14.4} & 540 & \textit{14.1} & 500 & \textit{13.7} & 480 & \textit{13.3} & 480 & \textit{13.5} & 480 & \textit{13.2} & 520 & \textit{13.4} & 530 & \textit{13.0} & 540 & \textit{13.1} & 570 & \textit{13.0} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which male & 3 500 & \textit{85.6} & 3 310 & \textit{85.9} & 3 170 & \textit{86.3} & 3 130 & \textit{86.7} & 3 060 & \textit{86.5} & 3 180 & \textit{86.8} & 3 370 & \textit{86.6} & 3 510 & \textit{87.0} & 3 560 & \textit{86.9} & 3 840 & \textit{87.0} \\
+\rowcolor[HTML]{E0D8D8} 
+\textbf{} & \textbf{Other Ranks} & \textbf{} & \textbf{} & \textbf{149 100} & \textit{\textbf{}} & \textbf{145 930} & \textit{\textbf{}} & \textbf{141 650} & \textit{\textbf{}} & \textbf{137 920} & \textit{\textbf{}} & \textbf{131 770} & \textit{\textbf{}} & \textbf{128 950} & \textit{\textbf{}} & \textbf{126 490} & \textit{\textbf{}} & \textbf{125 020} & \textit{\textbf{}} & \textbf{124 180} & \textit{\textbf{}} & \textbf{123 130} & \textit{\textbf{}} \\
+\rowcolor[HTML]{FFFFFF} 
+\textbf{} & \textbf{} & \textbf{} & \textbf{of which female} & 13 560 & \textit{9.1} & 13 300 & \textit{9.1} & 12 940 & \textit{9.1} & 12 700 & \textit{9.2} & 12 300 & \textit{9.3} & 12 220 & \textit{9.5} & 12 080 & \textit{9.6} & 11 940 & \textit{9.6} & 11 940 & \textit{9.6} & 11 800 & \textit{9.6} \\
+\rowcolor[HTML]{FFFFFF} 
+\textbf{} & \textbf{} & \textbf{} & \textbf{of which male} & 135 540 & \textit{90.9} & 132 630 & \textit{90.9} & 128 710 & \textit{90.9} & 125 220 & \textit{90.8} & 119 470 & \textit{90.7} & 116 730 & \textit{90.5} & 114 410 & \textit{90.4} & 113 080 & \textit{90.4} & 112 240 & \textit{90.4} & 111 330 & \textit{90.4} \\
+\rowcolor[HTML]{F2EEEE} 
+\textbf{} & \textbf{} & \textbf{OR-9} & \textbf{} & \textbf{3 230} & \textit{\textbf{}} & \textbf{3 130} & \textit{\textbf{}} & \textbf{3 010} & \textit{\textbf{}} & \textbf{3 020} & \textit{\textbf{}} & \textbf{2 970} & \textit{\textbf{}} & \textbf{3 090} & \textit{\textbf{}} & \textbf{3 100} & \textit{\textbf{}} & \textbf{3 090} & \textit{\textbf{}} & \textbf{3 150} & \textit{\textbf{}} & \textbf{3 180} & \textit{\textbf{}} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which female & 160 & \textit{5.1} & 150 & \textit{4.7} & 140 & \textit{4.5} & 150 & \textit{5.0} & 150 & \textit{5.1} & 150 & \textit{4.9} & 160 & \textit{5.1} & 160 & \textit{5.3} & 170 & \textit{5.4} & 180 & \textit{5.5} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which male & 3 070 & \textit{94.9} & 2 980 & \textit{95.3} & 2 880 & \textit{95.5} & 2 870 & \textit{95.0} & 2 810 & \textit{94.9} & 2 930 & \textit{95.1} & 2 940 & \textit{94.9} & 2 920 & \textit{94.7} & 2 980 & \textit{94.6} & 3 000 & \textit{94.5} \\
+\rowcolor[HTML]{F2EEEE} 
+\textbf{} & \textbf{} & \textbf{OR-8} & \textbf{} & \textbf{5 090} & \textit{\textbf{}} & \textbf{5 020} & \textit{\textbf{}} & \textbf{4 720} & \textit{\textbf{}} & \textbf{4 670} & \textit{\textbf{}} & \textbf{4 400} & \textit{\textbf{}} & \textbf{4 330} & \textit{\textbf{}} & \textbf{4 110} & \textit{\textbf{}} & \textbf{4 200} & \textit{\textbf{}} & \textbf{4 050} & \textit{\textbf{}} & \textbf{4 190} & \textit{\textbf{}} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which female & 240 & \textit{4.8} & 270 & \textit{5.3} & 260 & \textit{5.4} & 270 & \textit{5.8} & 270 & \textit{6.1} & 280 & \textit{6.6} & 280 & \textit{6.8} & 310 & \textit{7.4} & 320 & \textit{8.0} & 340 & \textit{8.1} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which male & 4 840 & \textit{95.2} & 4 750 & \textit{94.7} & 4 460 & \textit{94.6} & 4 400 & \textit{94.2} & 4 140 & \textit{93.9} & 4 040 & \textit{93.4} & 3 830 & \textit{93.2} & 3 880 & \textit{92.6} & 3 720 & \textit{92.0} & 3 850 & \textit{91.9} \\
+\rowcolor[HTML]{F2EEEE} 
+\textbf{} & \textbf{} & \textbf{OR-7} & \textbf{} & \textbf{12 230} & \textit{\textbf{}} & \textbf{12 040} & \textit{\textbf{}} & \textbf{11 720} & \textit{\textbf{}} & \textbf{11 390} & \textit{\textbf{}} & \textbf{10 910} & \textit{\textbf{}} & \textbf{10 660} & \textit{\textbf{}} & \textbf{10 460} & \textit{\textbf{}} & \textbf{10 540} & \textit{\textbf{}} & \textbf{10 490} & \textit{\textbf{}} & \textbf{10 510} & \textit{\textbf{}} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which female & 820 & \textit{6.7} & 840 & \textit{7.0} & 830 & \textit{7.1} & 850 & \textit{7.5} & 830 & \textit{7.6} & 820 & \textit{7.7} & 830 & \textit{7.9} & 850 & \textit{8.1} & 840 & \textit{8.0} & 860 & \textit{8.2} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which male & 11 400 & \textit{93.3} & 11 200 & \textit{93.0} & 10 880 & \textit{92.9} & 10 540 & \textit{92.5} & 10 080 & \textit{92.4} & 9 840 & \textit{92.3} & 9 640 & \textit{92.1} & 9 690 & \textit{91.9} & 9 650 & \textit{92.0} & 9 640 & \textit{91.8} \\
+\rowcolor[HTML]{F2EEEE} 
+\textbf{} & \textbf{} & \textbf{OR-6} & \textbf{} & \textbf{19 710} & \textit{\textbf{}} & \textbf{18 790} & \textit{\textbf{}} & \textbf{18 650} & \textit{\textbf{}} & \textbf{17 440} & \textit{\textbf{}} & \textbf{17 100} & \textit{\textbf{}} & \textbf{16 200} & \textit{\textbf{}} & \textbf{16 300} & \textit{\textbf{}} & \textbf{15 680} & \textit{\textbf{}} & \textbf{16 320} & \textit{\textbf{}} & \textbf{16 080} & \textit{\textbf{}} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which female & 1 960 & \textit{9.9} & 1 900 & \textit{10.1} & 1 890 & \textit{10.1} & 1 810 & \textit{10.4} & 1 850 & \textit{10.8} & 1 780 & \textit{11.0} & 1 810 & \textit{11.1} & 1 770 & \textit{11.3} & 1 850 & \textit{11.3} & 1 820 & \textit{11.3} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which male & 17 760 & \textit{90.1} & 16 880 & \textit{89.9} & 16 760 & \textit{89.9} & 15 620 & \textit{89.6} & 15 240 & \textit{89.2} & 14 420 & \textit{89.0} & 14 490 & \textit{88.9} & 13 910 & \textit{88.7} & 14 470 & \textit{88.7} & 14 260 & \textit{88.7} \\
+\rowcolor[HTML]{F2EEEE} 
+\textbf{} & \textbf{} & \textbf{OR-4} & \textbf{} & \textbf{28 890} & \textit{\textbf{}} & \textbf{28 090} & \textit{\textbf{}} & \textbf{27 540} & \textit{\textbf{}} & \textbf{27 240} & \textit{\textbf{}} & \textbf{26 170} & \textit{\textbf{}} & \textbf{25 720} & \textit{\textbf{}} & \textbf{24 980} & \textit{\textbf{}} & \textbf{24 730} & \textit{\textbf{}} & \textbf{24 580} & \textit{\textbf{}} & \textbf{24 640} & \textit{\textbf{}} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which female & 3 440 & \textit{11.9} & 3 360 & \textit{12.0} & 3 320 & \textit{12.1} & 3 300 & \textit{12.1} & 3 170 & \textit{12.1} & 3 150 & \textit{12.3} & 3 020 & \textit{12.1} & 2 940 & \textit{11.9} & 2 840 & \textit{11.6} & 2 780 & \textit{11.3} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which male & 25 440 & \textit{88.1} & 24 730 & \textit{88.0} & 24 220 & \textit{87.9} & 23 940 & \textit{87.9} & 23 000 & \textit{87.9} & 22 570 & \textit{87.7} & 21 960 & \textit{87.9} & 21 800 & \textit{88.1} & 21 740 & \textit{88.4} & 21 870 & \textit{88.7} \\
+\rowcolor[HTML]{F2EEEE} 
+\textbf{} & \textbf{} & \textbf{OR-3} & \textbf{} & \textbf{16 870} & \textit{\textbf{}} & \textbf{16 610} & \textit{\textbf{}} & \textbf{16 000} & \textit{\textbf{}} & \textbf{15 580} & \textit{\textbf{}} & \textbf{14 880} & \textit{\textbf{}} & \textbf{14 490} & \textit{\textbf{}} & \textbf{14 760} & \textit{\textbf{}} & \textbf{14 330} & \textit{\textbf{}} & \textbf{14 630} & \textit{\textbf{}} & \textbf{14 080} & \textit{\textbf{}} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which female & 1 260 & \textit{7.5} & 1 290 & \textit{7.8} & 1 200 & \textit{7.5} & 1 170 & \textit{7.5} & 1 180 & \textit{7.9} & 1 130 & \textit{7.8} & 1 160 & \textit{7.8} & 1 110 & \textit{7.7} & 1 210 & \textit{8.3} & 1 200 & \textit{8.5} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which male & 15 620 & \textit{92.5} & 15 320 & \textit{92.2} & 14 800 & \textit{92.5} & 14 410 & \textit{92.5} & 13 710 & \textit{92.1} & 13 360 & \textit{92.2} & 13 600 & \textit{92.2} & 13 220 & \textit{92.3} & 13 420 & \textit{91.7} & 12 880 & \textit{91.5} \\
+\rowcolor[HTML]{F2EEEE} 
+\textbf{} & \textbf{} & \textbf{OR-1/OR-2} & \textbf{} & \textbf{63 080} & \textit{\textbf{}} & \textbf{62 260} & \textit{\textbf{}} & \textbf{60 010} & \textit{\textbf{}} & \textbf{58 590} & \textit{\textbf{}} & \textbf{55 340} & \textit{\textbf{}} & \textbf{54 470} & \textit{\textbf{}} & \textbf{52 780} & \textit{\textbf{}} & \textbf{52 460} & \textit{\textbf{}} & \textbf{50 960} & \textit{\textbf{}} & \textbf{50 460} & \textit{\textbf{}} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which female & 5 660 & \textit{9.0} & 5 490 & \textit{8.8} & 5 300 & \textit{8.8} & 5 150 & \textit{8.8} & 4 850 & \textit{8.8} & 4 900 & \textit{9.0} & 4 830 & \textit{9.2} & 4 810 & \textit{9.2} & 4 700 & \textit{9.2} & 4 630 & \textit{9.2} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which male & 57 420 & \textit{91.0} & 56 770 & \textit{91.2} & 54 710 & \textit{91.2} & 53 440 & \textit{91.2} & 50 490 & \textit{91.2} & 49 570 & \textit{91.0} & 47 950 & \textit{90.8} & 47 650 & \textit{90.8} & 46 260 & \textit{90.8} & 45 830 & \textit{90.8} \\
+\rowcolor[HTML]{BBA8AC} 
+\textbf{Royal Navy / Royal Marines} & \textbf{} &  &  & \textbf{35 540} & \textit{\textbf{100.0}} & \textbf{34 680} & \textit{\textbf{100.0}} & \textbf{33 960} & \textit{\textbf{100.0}} & \textbf{33 520} & \textit{\textbf{100.0}} & \textbf{33 330} & \textit{\textbf{100.0}} & \textbf{32 900} & \textit{\textbf{100.0}} & \textbf{32 740} & \textit{\textbf{100.0}} & \textbf{32 480} & \textit{\textbf{100.0}} & \textbf{32 500} & \textit{\textbf{100.0}} & \textbf{32 500} & \textit{\textbf{100.0}} \\
+\rowcolor[HTML]{FFFFFF} 
+\textbf{} & \textbf{} & \textbf{} & \textbf{of which female} & 3 280 & \textit{\textbf{9.2}} & 3 160 & \textit{\textbf{9.1}} & 3 080 & \textit{\textbf{9.1}} & 3 010 & \textit{\textbf{9.0}} & 3 020 & \textit{\textbf{9.1}} & 3 030 & \textit{\textbf{9.2}} & \textbf{3 040} & \textit{\textbf{9.3}} & 3 040 & \textit{\textbf{9.3}} & 3 040 & \textit{\textbf{9.3}} & 3 030 & \textit{\textbf{9.3}} \\
+\rowcolor[HTML]{FFFFFF} 
+\textbf{} & \textbf{} & \textbf{} & \textbf{of which male} & 32 270 & \textit{\textbf{90.8}} & 31 530 & \textit{\textbf{90.9}} & 30 880 & \textit{\textbf{90.9}} & 30 500 & \textit{\textbf{91.0}} & 30 320 & \textit{\textbf{90.9}} & 29 870 & \textit{\textbf{90.8}} & \textbf{29 700} & \textit{\textbf{90.7}} & 29 450 & \textit{\textbf{90.7}} & 29 460 & \textit{\textbf{90.7}} & 29 470 & \textit{\textbf{90.7}} \\
+\rowcolor[HTML]{E0D8D8} 
+\textbf{} & \textbf{Officers} & \textbf{} & \textbf{} & \textbf{7 190} & \textit{\textbf{}} & \textbf{7 100} & \textit{\textbf{}} & \textbf{6 940} & \textit{\textbf{}} & \textbf{6 880} & \textit{\textbf{}} & \textbf{6 800} & \textit{\textbf{}} & \textbf{6 820} & \textit{\textbf{}} & \textbf{6 780} & \textit{\textbf{}} & \textbf{6 820} & \textit{\textbf{}} & \textbf{6 770} & \textit{\textbf{}} & \textbf{6 830} & \textit{\textbf{}} \\
+\rowcolor[HTML]{FFFFFF} 
+\textbf{} & \textbf{} & \textbf{} & \textbf{of which female} & 700 & \textit{\textbf{9.7}} & 690 & \textit{\textbf{9.8}} & 690 & \textit{\textbf{9.9}} & 690 & \textit{\textbf{10.0}} & 680 & \textit{\textbf{10.0}} & 690 & \textit{\textbf{10.1}} & 690 & \textit{\textbf{10.2}} & 700 & \textit{\textbf{10.3}} & 700 & \textit{\textbf{10.4}} & 730 & \textit{\textbf{10.6}} \\
+\rowcolor[HTML]{FFFFFF} 
+\textbf{} & \textbf{} & \textbf{} & \textbf{of which male} & 6 500 & \textit{\textbf{90.3}} & 6 410 & \textit{\textbf{90.2}} & 6 250 & \textit{\textbf{90.1}} & 6 190 & \textit{\textbf{90.0}} & 6 120 & \textit{\textbf{90.0}} & 6 140 & \textit{\textbf{89.9}} & 6 090 & \textit{\textbf{89.8}} & 6 120 & \textit{\textbf{89.7}} & 6 070 & \textit{\textbf{89.6}} & 6 100 & \textit{\textbf{89.4}} \\
+\rowcolor[HTML]{F2EEEE} 
+\textbf{} & \textbf{} & \textbf{OF-9} & \textbf{} & \textbf{2} & \textit{\textbf{}} & \textbf{2} & \textit{\textbf{}} & \textbf{2} & \textit{\textbf{}} & \textbf{1} & \textit{\textbf{}} & \textbf{1} & \textit{\textbf{}} & \textbf{1} & \textit{\textbf{}} & \textbf{1} & \textit{\textbf{}} & \textbf{1} & \textit{\textbf{}} & \textbf{1} & \textit{\textbf{}} & \textbf{2} & \textit{\textbf{}} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which female & - & \textit{-} & - & \textit{-} & - & \textit{-} & - & \textit{-} & - & \textit{-} & - & \textit{-} & - & \textit{-} & - & \textit{-} & - & \textit{-} & - & \textit{-} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which male & 2 & \textit{100.0} & 2 & \textit{100.0} & 2 & \textit{100.0} & 1 & \textit{100.0} & 1 & \textit{100.0} & 1 & \textit{100.0} & 1 & \textit{100.0} & 1 & \textit{100.0} & 1 & \textit{100.0} & 2 & \textit{100.0} \\
+\rowcolor[HTML]{F2EEEE} 
+\textbf{} & \textbf{} & \textbf{OF-8} & \textbf{} & \textbf{8} & \textit{\textbf{}} & \textbf{7} & \textit{\textbf{}} & \textbf{9} & \textit{\textbf{}} & \textbf{9} & \textit{\textbf{}} & \textbf{8} & \textit{\textbf{}} & \textbf{10} & \textit{\textbf{}} & \textbf{11} & \textit{\textbf{}} & \textbf{9} & \textit{\textbf{}} & \textbf{10} & \textit{\textbf{}} & \textbf{6} & \textit{\textbf{}} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which female & - & \textit{-} & - & \textit{-} & - & \textit{-} & - & \textit{-} & - & \textit{-} & - & \textit{-} & - & \textit{-} & - & \textit{-} & - & \textit{-} & - & \textit{-} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which male & 8 & \textit{100.0} & 7 & \textit{100.0} & 9 & \textit{100.0} & 9 & \textit{100.0} & 8 & \textit{100.0} & 10 & \textit{100.0} & 11 & \textit{100.0} & 9 & \textit{100.0} & 10 & \textit{100.0} & 6 & \textit{100.0} \\
+\rowcolor[HTML]{F2EEEE} 
+\textbf{} & \textbf{} & \textbf{OF-7} & \textbf{} & \textbf{31} & \textit{\textbf{}} & \textbf{33} & \textit{\textbf{}} & \textbf{30} & \textit{\textbf{}} & \textbf{28} & \textit{\textbf{}} & \textbf{29} & \textit{\textbf{}} & \textbf{29} & \textit{\textbf{}} & \textbf{29} & \textit{\textbf{}} & \textbf{29} & \textit{\textbf{}} & \textbf{27} & \textit{\textbf{}} & \textbf{28} & \textit{\textbf{}} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which female & - & \textit{-} & - & \textit{-} & - & \textit{-} & - & \textit{-} & - & \textit{-} & - & \textit{-} & - & \textit{-} & - & \textit{-} & - & \textit{-} & - & \textit{-} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which male & 31 & \textit{100.0} & 33 & \textit{100.0} & 30 & \textit{100.0} & 28 & \textit{100.0} & 29 & \textit{100.0} & 29 & \textit{100.0} & 29 & \textit{100.0} & 29 & \textit{100.0} & 27 & \textit{100.0} & 28 & \textit{100.0} \\
+\rowcolor[HTML]{F2EEEE} 
+\textbf{} & \textbf{} & \textbf{OF-6} & \textbf{} & \textbf{80} & \textit{\textbf{}} & \textbf{82} & \textit{\textbf{}} & \textbf{75} & \textit{\textbf{}} & \textbf{80} & \textit{\textbf{}} & \textbf{75} & \textit{\textbf{}} & \textbf{77} & \textit{\textbf{}} & \textbf{85} & \textit{\textbf{}} & \textbf{85} & \textit{\textbf{}} & \textbf{82} & \textit{\textbf{}} & \textbf{85} & \textit{\textbf{}} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which female & - & \textit{-} & - & \textit{-} & - & \textit{-} & - & \textit{-} & - & \textit{-} & - & \textit{-} & 1 & \textit{1.2} & 1 & \textit{1.2} & 1 & \textit{1.2} & 1 & \textit{1.2} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which male & 80 & \textit{100.0} & 82 & \textit{100.0} & 75 & \textit{100.0} & 80 & \textit{100.0} & 75 & \textit{100.0} & 77 & \textit{100.0} & 84 & \textit{98.8} & 84 & \textit{98.8} & 81 & \textit{98.8} & 84 & \textit{98.8} \\
+\rowcolor[HTML]{F2EEEE} 
+\textbf{} & \textbf{} & \textbf{OF-5} & \textbf{} & \textbf{300} & \textit{\textbf{}} & \textbf{280} & \textit{\textbf{}} & \textbf{280} & \textit{\textbf{}} & \textbf{270} & \textit{\textbf{}} & \textbf{260} & \textit{\textbf{}} & \textbf{270} & \textit{\textbf{}} & \textbf{270} & \textit{\textbf{}} & \textbf{280} & \textit{\textbf{}} & \textbf{280} & \textit{\textbf{}} & \textbf{270} & \textit{\textbf{}} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which female & $\sim$ & \textit{-} & $\sim$ & \textit{-} & $\sim$ & \textit{-} & $\sim$ & \textit{-} & 10 & \textit{2.6} & 10 & \textit{3.3} & 10 & \textit{2.9} & 10 & \textit{2.9} & 10 & \textit{3.2} & 10 & \textit{3.3} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which male & 290 & \textit{99.0} & 280 & \textit{99.3} & 280 & \textit{98.9} & 260 & \textit{98.5} & 260 & \textit{97.4} & 260 & \textit{96.7} & 260 & \textit{97.1} & 270 & \textit{97.1} & 270 & \textit{96.8} & 260 & \textit{96.7} \\
+\rowcolor[HTML]{F2EEEE} 
+\textbf{} & \textbf{} & \textbf{OF-4} & \textbf{} & \textbf{1 060} & \textit{\textbf{}} & \textbf{1 100} & \textit{\textbf{}} & \textbf{1 020} & \textit{\textbf{}} & \textbf{1 050} & \textit{\textbf{}} & \textbf{1 030} & \textit{\textbf{}} & \textbf{1 040} & \textit{\textbf{}} & \textbf{1 000} & \textit{\textbf{}} & \textbf{1 030} & \textit{\textbf{}} & \textbf{1 000} & \textit{\textbf{}} & \textbf{1 040} & \textit{\textbf{}} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which female & 30 & \textit{3.2} & 40 & \textit{3.9} & 40 & \textit{4.2} & 40 & \textit{4.1} & 40 & \textit{4.3} & 50 & \textit{4.7} & 50 & \textit{5.1} & 50 & \textit{5.1} & 50 & \textit{5.2} & 60 & \textit{6.1} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which male & 1 030 & \textit{96.8} & 1 050 & \textit{96.1} & 980 & \textit{95.8} & 1 000 & \textit{95.9} & 980 & \textit{95.7} & 990 & \textit{95.3} & 950 & \textit{94.9} & 970 & \textit{94.9} & 950 & \textit{94.8} & 980 & \textit{93.9} \\
+\rowcolor[HTML]{F2EEEE} 
+\textbf{} & \textbf{} & \textbf{OF-3} & \textbf{} & \textbf{2 100} & \textit{\textbf{}} & \textbf{2 010} & \textit{\textbf{}} & \textbf{2 040} & \textit{\textbf{}} & \textbf{1 970} & \textit{\textbf{}} & \textbf{2 000} & \textit{\textbf{}} & \textbf{1 930} & \textit{\textbf{}} & \textbf{1 970} & \textit{\textbf{}} & \textbf{1 900} & \textit{\textbf{}} & \textbf{2 020} & \textit{\textbf{}} & \textbf{1 930} & \textit{\textbf{}} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which female & 190 & \textit{9.1} & 190 & \textit{9.2} & 190 & \textit{9.3} & 200 & \textit{10.1} & 200 & \textit{10.0} & 200 & \textit{10.3} & 220 & \textit{10.9} & 220 & \textit{11.4} & 230 & \textit{11.6} & 220 & \textit{11.4} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which male & 1 910 & \textit{90.9} & 1 830 & \textit{90.8} & 1 850 & \textit{90.7} & 1 770 & \textit{89.9} & 1 800 & \textit{90.0} & 1 730 & \textit{89.7} & 1 760 & \textit{89.1} & 1 680 & \textit{88.6} & 1 780 & \textit{88.4} & 1 710 & \textit{88.6} \\
+\rowcolor[HTML]{F2EEEE} 
+\textbf{} & \textbf{} & \textbf{OF-2} & \textbf{} & \textbf{2 870} & \textit{\textbf{}} & \textbf{2 910} & \textit{\textbf{}} & \textbf{2 770} & \textit{\textbf{}} & \textbf{2 830} & \textit{\textbf{}} & \textbf{2 670} & \textit{\textbf{}} & \textbf{2 690} & \textit{\textbf{}} & \textbf{2 530} & \textit{\textbf{}} & \textbf{2 490} & \textit{\textbf{}} & \textbf{2 300} & \textit{\textbf{}} & \textbf{2 240} & \textit{\textbf{}} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which female & 380 & \textit{13.4} & 380 & \textit{13.1} & 380 & \textit{13.5} & 370 & \textit{13.0} & 360 & \textit{13.4} & 350 & \textit{13.0} & 320 & \textit{12.6} & 320 & \textit{12.7} & 300 & \textit{12.9} & 290 & \textit{13.1} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which male & 2 490 & \textit{86.6} & 2 530 & \textit{86.9} & 2 400 & \textit{86.5} & 2 460 & \textit{87.0} & 2 320 & \textit{86.6} & 2 340 & \textit{87.0} & 2 210 & \textit{87.4} & 2 170 & \textit{87.3} & 2 000 & \textit{87.1} & 1 950 & \textit{86.9} \\
+\rowcolor[HTML]{F2EEEE} 
+\textbf{} & \textbf{} & \textbf{OF-1 / OF (D)} & \textbf{} & \textbf{740} & \textit{\textbf{}} & \textbf{680} & \textit{\textbf{}} & \textbf{710} & \textit{\textbf{}} & \textbf{650} & \textit{\textbf{}} & \textbf{720} & \textit{\textbf{}} & \textbf{780} & \textit{\textbf{}} & \textbf{870} & \textit{\textbf{}} & \textbf{1 000} & \textit{\textbf{}} & \textbf{1 060} & \textit{\textbf{}} & \textbf{1 220} & \textit{\textbf{}} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which female & 80 & \textit{11.4} & 80 & \textit{11.8} & 80 & \textit{10.6} & 80 & \textit{11.7} & 70 & \textit{10.2} & 80 & \textit{10.1} & 90 & \textit{10.7} & 110 & \textit{10.7} & 110 & \textit{10.8} & 140 & \textit{11.4} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which male & 650 & \textit{88.6} & 600 & \textit{88.2} & 630 & \textit{89.4} & 580 & \textit{88.3} & 650 & \textit{89.8} & 700 & \textit{89.9} & 770 & \textit{89.3} & 900 & \textit{89.3} & 940 & \textit{89.2} & 1 080 & \textit{88.6} \\
+\rowcolor[HTML]{E0D8D8} 
+\textbf{} & \textbf{Other Ranks} & \textbf{} & \textbf{} & \textbf{28 350} & \textit{\textbf{}} & \textbf{27 580} & \textit{\textbf{}} & \textbf{27 020} & \textit{\textbf{}} & \textbf{26 640} & \textit{\textbf{}} & \textbf{26 530} & \textit{\textbf{}} & \textbf{26 080} & \textit{\textbf{}} & \textbf{25 960} & \textit{\textbf{}} & \textbf{25 670} & \textit{\textbf{}} & \textbf{25 730} & \textit{\textbf{}} & \textbf{25 660} & \textit{\textbf{}} \\
+\rowcolor[HTML]{FFFFFF} 
+\textbf{} & \textbf{} & \textbf{} & \textbf{of which female} & 2 580 & \textit{\textbf{9.1}} & 2 460 & \textit{\textbf{8.9}} & 2 390 & \textit{\textbf{8.8}} & 2 320 & \textit{\textbf{8.7}} & 2 330 & \textit{\textbf{8.8}} & 2 350 & \textit{\textbf{9.0}} & 2 360 & \textit{\textbf{9.1}} & 2 340 & \textit{\textbf{9.1}} & 2 330 & \textit{\textbf{9.1}} & 2 300 & \textit{\textbf{9.0}} \\
+\rowcolor[HTML]{FFFFFF} 
+\textbf{} & \textbf{} & \textbf{} & \textbf{of which male} & 25 770 & \textit{\textbf{90.9}} & 25 120 & \textit{\textbf{91.1}} & 24 630 & \textit{\textbf{91.2}} & 24 320 & \textit{\textbf{91.3}} & 24 200 & \textit{\textbf{91.2}} & 23 740 & \textit{\textbf{91.0}} & 23 610 & \textit{\textbf{90.9}} & 23 330 & \textit{\textbf{90.9}} & 23 400 & \textit{\textbf{90.9}} & 23 360 & \textit{\textbf{91.0}} \\
+\rowcolor[HTML]{F2EEEE} 
+\textbf{} & \textbf{} & \textbf{OR-9} & \textbf{} & \textbf{690} & \textit{\textbf{}} & \textbf{660} & \textit{\textbf{}} & \textbf{640} & \textit{\textbf{}} & \textbf{660} & \textit{\textbf{}} & \textbf{660} & \textit{\textbf{}} & \textbf{790} & \textit{\textbf{}} & \textbf{840} & \textit{\textbf{}} & \textbf{860} & \textit{\textbf{}} & \textbf{920} & \textit{\textbf{}} & \textbf{950} & \textit{\textbf{}} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which female & 30 & \textit{4.2} & 20 & \textit{3.8} & 20 & \textit{3.9} & 30 & \textit{4.5} & 30 & \textit{4.5} & 30 & \textit{3.8} & 30 & \textit{3.8} & 30 & \textit{3.5} & 30 & \textit{3.2} & 30 & \textit{3.5} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which male & 660 & \textit{95.8} & 640 & \textit{96.2} & 620 & \textit{96.1} & 630 & \textit{95.5} & 630 & \textit{95.5} & 760 & \textit{96.2} & 810 & \textit{96.2} & 830 & \textit{96.5} & 900 & \textit{96.8} & 910 & \textit{96.5} \\
+\rowcolor[HTML]{F2EEEE} 
+\textbf{} & \textbf{} & \textbf{OR-8} & \textbf{} & \textbf{770} & \textit{\textbf{}} & \textbf{730} & \textit{\textbf{}} & \textbf{730} & \textit{\textbf{}} & \textbf{710} & \textit{\textbf{}} & \textbf{670} & \textit{\textbf{}} & \textbf{510} & \textit{\textbf{}} & \textbf{460} & \textit{\textbf{}} & \textbf{450} & \textit{\textbf{}} & \textbf{410} & \textit{\textbf{}} & \textbf{410} & \textit{\textbf{}} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which female & $\sim$ & \textit{-} & $\sim$ & \textit{-} & $\sim$ & \textit{-} & $\sim$ & \textit{-} & $\sim$ & \textit{-} & $\sim$ & \textit{-} & $\sim$ & \textit{-} & $\sim$ & \textit{-} & $\sim$ & \textit{-} & $\sim$ & \textit{-} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which male & 760 & \textit{99.5} & 730 & \textit{99.6} & 730 & \textit{99.6} & 710 & \textit{99.9} & 670 & \textit{99.7} & 510 & \textit{99.6} & 460 & \textit{99.8} & 440 & \textit{99.8} & 410 & \textit{99.5} & 410 & \textit{99.5} \\
+\rowcolor[HTML]{F2EEEE} 
+\textbf{} & \textbf{} & \textbf{OR-7} & \textbf{} & \textbf{3 530} & \textit{\textbf{}} & \textbf{3 430} & \textit{\textbf{}} & \textbf{3 300} & \textit{\textbf{}} & \textbf{3 180} & \textit{\textbf{}} & \textbf{3 090} & \textit{\textbf{}} & \textbf{2 970} & \textit{\textbf{}} & \textbf{2 880} & \textit{\textbf{}} & \textbf{2 840} & \textit{\textbf{}} & \textbf{2 820} & \textit{\textbf{}} & \textbf{2 790} & \textit{\textbf{}} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which female & 180 & \textit{5.2} & 180 & \textit{5.2} & 180 & \textit{5.4} & 170 & \textit{5.3} & 170 & \textit{5.4} & 160 & \textit{5.5} & 170 & \textit{5.8} & 170 & \textit{5.9} & 170 & \textit{5.9} & 160 & \textit{5.7} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which male & 3 340 & \textit{94.8} & 3 250 & \textit{94.8} & 3 120 & \textit{94.6} & 3 010 & \textit{94.7} & 2 920 & \textit{94.6} & 2 800 & \textit{94.5} & 2 720 & \textit{94.2} & 2 670 & \textit{94.1} & 2 660 & \textit{94.1} & 2 630 & \textit{94.3} \\
+\rowcolor[HTML]{F2EEEE} 
+\textbf{} & \textbf{} & \textbf{OR-6} & \textbf{} & \textbf{4 200} & \textit{\textbf{}} & \textbf{4 050} & \textit{\textbf{}} & \textbf{3 880} & \textit{\textbf{}} & \textbf{3 730} & \textit{\textbf{}} & \textbf{3 650} & \textit{\textbf{}} & \textbf{3 640} & \textit{\textbf{}} & \textbf{3 610} & \textit{\textbf{}} & \textbf{3 610} & \textit{\textbf{}} & \textbf{3 610} & \textit{\textbf{}} & \textbf{3 740} & \textit{\textbf{}} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which female & 320 & \textit{7.5} & 310 & \textit{7.7} & 290 & \textit{7.5} & 300 & \textit{8.0} & 310 & \textit{8.6} & 320 & \textit{8.7} & 320 & \textit{8.8} & 330 & \textit{9.1} & 330 & \textit{9.1} & 340 & \textit{9.0} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which male & 3 880 & \textit{92.5} & 3 740 & \textit{92.3} & 3 590 & \textit{92.5} & 3 430 & \textit{92.0} & 3 340 & \textit{91.4} & 3 320 & \textit{91.3} & 3 290 & \textit{91.2} & 3 280 & \textit{90.9} & 3 280 & \textit{90.9} & 3 400 & \textit{91.0} \\
+\rowcolor[HTML]{F2EEEE} 
+\textbf{} & \textbf{} & \textbf{OR-4} & \textbf{} & \textbf{6 020} & \textit{\textbf{}} & \textbf{5 850} & \textit{\textbf{}} & \textbf{5 750} & \textit{\textbf{}} & \textbf{5 770} & \textit{\textbf{}} & \textbf{5 650} & \textit{\textbf{}} & \textbf{5 690} & \textit{\textbf{}} & \textbf{5 560} & \textit{\textbf{}} & \textbf{5 510} & \textit{\textbf{}} & \textbf{5 440} & \textit{\textbf{}} & \textbf{5 500} & \textit{\textbf{}} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which female & 720 & \textit{12.0} & 710 & \textit{12.2} & 690 & \textit{12.0} & 680 & \textit{11.9} & 670 & \textit{11.8} & 700 & \textit{12.3} & 660 & \textit{11.9} & 630 & \textit{11.5} & 620 & \textit{11.4} & 630 & \textit{11.4} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which male & 5 300 & \textit{88.0} & 5 130 & \textit{87.8} & 5 060 & \textit{88.0} & 5 080 & \textit{88.1} & 4 980 & \textit{88.2} & 4 990 & \textit{87.7} & 4 900 & \textit{88.1} & 4 870 & \textit{88.5} & 4 820 & \textit{88.6} & 4 880 & \textit{88.6} \\
+\rowcolor[HTML]{F2EEEE} 
+\textbf{} & \textbf{} & \textbf{OR-3} & \textbf{} & \textbf{610} & \textit{\textbf{}} & \textbf{650} & \textit{\textbf{}} & \textbf{590} & \textit{\textbf{}} & \textbf{640} & \textit{\textbf{}} & \textbf{660} & \textit{\textbf{}} & \textbf{630} & \textit{\textbf{}} & \textbf{670} & \textit{\textbf{}} & \textbf{700} & \textit{\textbf{}} & \textbf{670} & \textit{\textbf{}} & \textbf{750} & \textit{\textbf{}} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which female & - & \textit{-} & - & \textit{-} & - & \textit{-} & - & \textit{-} & - & \textit{-} & - & \textit{-} & - & \textit{-} & - & \textit{-} & - & \textit{-} & $\sim$ & \textit{-} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which male & 610 & \textit{100.0} & 650 & \textit{100.0} & 590 & \textit{100.0} & 640 & \textit{100.0} & 660 & \textit{100.0} & 630 & \textit{100.0} & 670 & \textit{100.0} & 700 & \textit{100.0} & 670 & \textit{100.0} & 740 & \textit{99.6} \\
+\rowcolor[HTML]{F2EEEE} 
+\textbf{} & \textbf{} & \textbf{OR-1/OR-2} & \textbf{} & \textbf{12 560} & \textit{\textbf{}} & \textbf{12 210} & \textit{\textbf{}} & \textbf{12 120} & \textit{\textbf{}} & \textbf{11 960} & \textit{\textbf{}} & \textbf{12 140} & \textit{\textbf{}} & \textbf{11 860} & \textit{\textbf{}} & \textbf{11 940} & \textit{\textbf{}} & \textbf{11 710} & \textit{\textbf{}} & \textbf{11 840} & \textit{\textbf{}} & \textbf{11 530} & \textit{\textbf{}} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which female & 1 320 & \textit{10.5} & 1 230 & \textit{10.1} & 1 200 & \textit{9.9} & 1 140 & \textit{9.6} & 1 150 & \textit{9.5} & 1 140 & \textit{9.6} & 1 180 & \textit{9.9} & 1 180 & \textit{10.0} & 1 180 & \textit{10.0} & 1 140 & \textit{9.9} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which male & 11 230 & \textit{89.5} & 10 980 & \textit{89.9} & 10 910 & \textit{90.1} & 10 820 & \textit{90.4} & 10 990 & \textit{90.5} & 10 720 & \textit{90.4} & 10 760 & \textit{90.1} & 10 540 & \textit{90.0} & 10 660 & \textit{90.0} & 10 380 & \textit{90.1} \\
+\rowcolor[HTML]{BBA8AC} 
+\textbf{Royal Navy} & \textbf{} & \textbf{} & \textbf{} & \textbf{27 660} & \textit{\textbf{100.0}} & \textbf{26 880} & \textit{\textbf{100.0}} & \textbf{26 270} & \textit{\textbf{100.0}} & \textbf{25 740} & \textit{\textbf{100.0}} & \textbf{25 520} & \textit{\textbf{100.0}} & \textbf{25 140} & \textit{\textbf{100.0}} & \textbf{25 080} & \textit{\textbf{100.0}} & \textbf{24 880} & \textit{\textbf{100.0}} & \textbf{24 970} & \textit{\textbf{100.0}} & \textbf{25 060} & \textit{\textbf{100.0}} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which female & 3 170 & \textit{\textbf{11.5}} & 3 050 & \textit{11.4} & 2 970 & \textit{11.3} & 2 910 & \textit{11.3} & 2 910 & \textit{11.4} & 2 920 & \textit{11.6} & 2 930 & \textit{11.7} & 2 920 & \textit{11.7} & 2 930 & \textit{11.7} & 2 910 & \textit{11.6} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which male & 24 480 & \textit{\textbf{88.5}} & 23 830 & \textit{88.6} & 23 300 & \textit{88.7} & 22 830 & \textit{88.7} & 22 610 & \textit{88.6} & 22 230 & \textit{88.4} & 22 140 & \textit{88.3} & 21 960 & \textit{88.3} & 22 040 & \textit{88.3} & 22 140 & \textit{88.4} \\
+\rowcolor[HTML]{E0D8D8} 
+\textbf{} & \textbf{Officers} & \textbf{} & \textbf{} & \textbf{6 350} & \textit{\textbf{}} & \textbf{6 250} & \textit{\textbf{}} & \textbf{6 130} & \textit{\textbf{}} & \textbf{6 040} & \textit{\textbf{}} & \textbf{6 000} & \textit{\textbf{}} & \textbf{5 980} & \textit{\textbf{}} & \textbf{5 960} & \textit{\textbf{}} & \textbf{5 990} & \textit{\textbf{}} & \textbf{5 950} & \textit{\textbf{}} & \textbf{6 000} & \textit{\textbf{}} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which female & 700 & \textit{11.0} & 690 & \textit{11.1} & 690 & \textit{11.2} & 690 & \textit{11.4} & 680 & \textit{11.4} & 690 & \textit{11.5} & 690 & \textit{11.6} & 700 & \textit{11.7} & 700 & \textit{11.8} & 730 & \textit{12.1} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which male & 5 650 & \textit{89.0} & 5 560 & \textit{88.9} & 5 440 & \textit{88.8} & 5 360 & \textit{88.6} & 5 310 & \textit{88.6} & 5 300 & \textit{88.5} & 5 270 & \textit{88.4} & 5 290 & \textit{88.3} & 5 250 & \textit{88.2} & 5 280 & \textit{87.9} \\
+\rowcolor[HTML]{E0D8D8} 
+\textbf{} & \textbf{Other Ranks} & \textbf{} & \textbf{} & \textbf{21 300} & \textit{\textbf{}} & \textbf{20 640} & \textit{\textbf{}} & \textbf{20 140} & \textit{\textbf{}} & \textbf{19 690} & \textit{\textbf{}} & \textbf{19 520} & \textit{\textbf{}} & \textbf{19 160} & \textit{\textbf{}} & \textbf{19 120} & \textit{\textbf{}} & \textbf{18 890} & \textit{\textbf{}} & \textbf{19 020} & \textit{\textbf{}} & \textbf{19 050} & \textit{\textbf{}} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which female & 2 480 & \textit{11.6} & 2 360 & \textit{11.4} & 2 290 & \textit{11.4} & 2 220 & \textit{11.3} & 2 230 & \textit{11.4} & 2 230 & \textit{11.6} & 2 240 & \textit{11.7} & 2 220 & \textit{11.7} & 2 220 & \textit{11.7} & 2 180 & \textit{11.5} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which male & 18 830 & \textit{88.4} & 18 280 & \textit{88.6} & 17 860 & \textit{88.6} & 17 470 & \textit{88.7} & 17 300 & \textit{88.6} & 16 930 & \textit{88.4} & 16 880 & \textit{88.3} & 16 680 & \textit{88.3} & 16 800 & \textit{88.3} & 16 870 & \textit{88.5} \\
+\rowcolor[HTML]{BBA8AC} 
+\textbf{Royal Marines} & \textbf{} & \textbf{} & \textbf{} & \textbf{7 890} & \textit{\textbf{100.0}} & \textbf{7 800} & \textit{\textbf{100.0}} & \textbf{7 690} & \textit{\textbf{100.0}} & \textbf{7 780} & \textit{\textbf{100.0}} & \textbf{7 810} & \textit{\textbf{100.0}} & \textbf{7 760} & \textit{\textbf{100.0}} & \textbf{7 660} & \textit{\textbf{100.0}} & \textbf{7 600} & \textit{\textbf{100.0}} & \textbf{7 530} & \textit{\textbf{100.0}} & \textbf{7 440} & \textit{\textbf{100.0}} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which female & 100 & \textit{\textbf{1.3}} & 100 & \textit{1.3} & 100 & \textit{1.3} & 110 & \textit{1.4} & 110 & \textit{1.4} & 120 & \textit{1.5} & 110 & \textit{1.5} & 120 & \textit{1.5} & 110 & \textit{1.5} & 120 & \textit{1.6} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which male & 7 790 & \textit{\textbf{98.7}} & 7 700 & \textit{98.7} & 7 590 & \textit{98.7} & 7 670 & \textit{98.6} & 7 710 & \textit{98.6} & 7 640 & \textit{98.5} & 7 550 & \textit{98.5} & 7 490 & \textit{98.5} & 7 420 & \textit{98.5} & 7 320 & \textit{98.4} \\
+\rowcolor[HTML]{E0D8D8} 
+\textbf{} & \textbf{Officers} & \textbf{} & \textbf{} & \textbf{840} & \textit{\textbf{}} & \textbf{850} & \textit{\textbf{}} & \textbf{810} & \textit{\textbf{}} & \textbf{830} & \textit{\textbf{}} & \textbf{810} & \textit{\textbf{}} & \textbf{840} & \textit{\textbf{}} & \textbf{820} & \textit{\textbf{}} & \textbf{830} & \textit{\textbf{}} & \textbf{820} & \textit{\textbf{}} & \textbf{820} & \textit{\textbf{}} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which female & - & \textit{-} & - & \textit{-} & - & \textit{-} & - & \textit{-} & - & \textit{-} & - & \textit{-} & - & \textit{-} & - & \textit{-} & - & \textit{-} & - & \textit{-} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which male & 840 & \textit{100.0} & 850 & \textit{100.0} & 810 & \textit{100.0} & 830 & \textit{100.0} & 810 & \textit{100.0} & 840 & \textit{100.0} & 820 & \textit{100.0} & 830 & \textit{100.0} & 820 & \textit{100.0} & 820 & \textit{100.0} \\
+\rowcolor[HTML]{E0D8D8} 
+\textbf{} & \textbf{Other Ranks} & \textbf{} & \textbf{} & \textbf{7 050} & \textit{\textbf{}} & \textbf{6 940} & \textit{\textbf{}} & \textbf{6 870} & \textit{\textbf{}} & \textbf{6 950} & \textit{\textbf{}} & \textbf{7 010} & \textit{\textbf{}} & \textbf{6 920} & \textit{\textbf{}} & \textbf{6 840} & \textit{\textbf{}} & \textbf{6 770} & \textit{\textbf{}} & \textbf{6 710} & \textit{\textbf{}} & \textbf{6 620} & \textit{\textbf{}} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which female & 100 & \textit{1.4} & 100 & \textit{1.5} & 100 & \textit{1.5} & 110 & \textit{1.6} & 110 & \textit{1.5} & 120 & \textit{1.7} & 110 & \textit{1.6} & 120 & \textit{1.7} & 110 & \textit{1.6} & 120 & \textit{1.8} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which male & 6 940 & \textit{98.6} & 6 840 & \textit{98.5} & 6 770 & \textit{98.5} & 6 840 & \textit{98.4} & 6 900 & \textit{98.5} & 6 800 & \textit{98.3} & 6 730 & \textit{98.4} & 6 660 & \textit{98.3} & 6 600 & \textit{98.4} & 6 500 & \textit{98.2} \\
+\rowcolor[HTML]{BBA8AC} 
+\textbf{Army} & \textbf{} &  &  & \textbf{104 250} & \textit{\textbf{100.0}} & \textbf{102 760} & \textit{\textbf{100.0}} & \textbf{99 730} & \textit{\textbf{100.0}} & \textbf{97 030} & \textit{\textbf{100.0}} & \textbf{91 070} & \textit{\textbf{100.0}} & \textbf{89 200} & \textit{\textbf{100.0}} & \textbf{87 060} & \textit{\textbf{100.0}} & \textbf{86 080} & \textit{\textbf{100.0}} & \textbf{85 040} & \textit{\textbf{100.0}} & \textbf{84 490} & \textit{\textbf{100.0}} \\
+\rowcolor[HTML]{FFFFFF} 
+\textbf{} & \textbf{} & \textbf{} & \textbf{of which female} & 8 570 & \textit{8.2} & 8 560 & \textit{8.3} & 8 400 & \textit{8.4} & 8 340 & \textit{8.6} & 7 970 & \textit{8.7} & 7 910 & \textit{8.9} & 7 790 & \textit{9.0} & 7 680 & \textit{8.9} & 7 660 & \textit{9.0} & 7 600 & \textit{9.0} \\
+\rowcolor[HTML]{FFFFFF} 
+\textbf{} & \textbf{} & \textbf{} & \textbf{of which male} & 95 680 & \textit{91.8} & 94 200 & \textit{91.7} & 91 320 & \textit{91.6} & 88 680 & \textit{91.4} & 83 100 & \textit{91.3} & 81 290 & \textit{91.1} & 79 270 & \textit{91.0} & 78 400 & \textit{91.1} & 77 380 & \textit{91.0} & 76 880 & \textit{91.0} \\
+\rowcolor[HTML]{E0D8D8} 
+\textbf{} & \textbf{Officers} & \textbf{} & \textbf{} & \textbf{14 480} & \textit{\textbf{}} & \textbf{14 340} & \textit{\textbf{}} & \textbf{13 890} & \textit{\textbf{}} & \textbf{13 680} & \textit{\textbf{}} & \textbf{13 200} & \textit{\textbf{}} & \textbf{13 120} & \textit{\textbf{}} & \textbf{12 830} & \textit{\textbf{}} & \textbf{12 840} & \textit{\textbf{}} & \textbf{12 590} & \textit{\textbf{}} & \textbf{12 820} & \textit{\textbf{}} \\
+\rowcolor[HTML]{FFFFFF} 
+\textbf{} & \textbf{} & \textbf{} & \textbf{of which female} & 1 680 & \textit{11.6} & 1 660 & \textit{11.6} & 1 640 & \textit{11.8} & 1 620 & \textit{11.8} & 1 560 & \textit{11.8} & 1 560 & \textit{11.9} & 1 520 & \textit{11.9} & 1 520 & \textit{11.8} & 1 480 & \textit{11.8} & 1 500 & \textit{11.7} \\
+\rowcolor[HTML]{FFFFFF} 
+\textbf{} & \textbf{} & \textbf{} & \textbf{of which male} & 12 790 & \textit{88.4} & 12 680 & \textit{88.4} & 12 250 & \textit{88.2} & 12 060 & \textit{88.2} & 11 640 & \textit{88.2} & 11 560 & \textit{88.1} & 11 310 & \textit{88.1} & 11 320 & \textit{88.2} & 11 110 & \textit{88.2} & 11 310 & \textit{88.3} \\
+\rowcolor[HTML]{F2EEEE} 
+\textbf{} & \textbf{} & \textbf{OF-9} & \textbf{} & \textbf{5} & \textit{\textbf{}} & \textbf{5} & \textit{\textbf{}} & \textbf{5} & \textit{\textbf{}} & \textbf{5} & \textit{\textbf{}} & \textbf{5} & \textit{\textbf{}} & \textbf{5} & \textit{\textbf{}} & \textbf{4} & \textit{\textbf{}} & \textbf{4} & \textit{\textbf{}} & \textbf{4} & \textit{\textbf{}} & \textbf{4} & \textit{\textbf{}} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which female & - & \textit{-} & - & \textit{-} & - & \textit{-} & - & \textit{-} & - & \textit{-} & - & \textit{-} & - & \textit{-} & - & \textit{-} & - & \textit{-} & - & \textit{-} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which male & 5 & \textit{100.0} & 5 & \textit{100.0} & 5 & \textit{100.0} & 5 & \textit{100.0} & 5 & \textit{100.0} & 5 & \textit{100.0} & 4 & \textit{100.0} & 4 & \textit{100.0} & 4 & \textit{100.0} & 4 & \textit{100.0} \\
+\rowcolor[HTML]{F2EEEE} 
+\textbf{} & \textbf{} & \textbf{OF-8} & \textbf{} & \textbf{9} & \textit{\textbf{}} & \textbf{11} & \textit{\textbf{}} & \textbf{10} & \textit{\textbf{}} & \textbf{11} & \textit{\textbf{}} & \textbf{11} & \textit{\textbf{}} & \textbf{9} & \textit{\textbf{}} & \textbf{10} & \textit{\textbf{}} & \textbf{11} & \textit{\textbf{}} & \textbf{12} & \textit{\textbf{}} & \textbf{13} & \textit{\textbf{}} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which female & - & \textit{-} & - & \textit{-} & - & \textit{-} & - & \textit{-} & - & \textit{-} & - & \textit{-} & - & \textit{-} & - & \textit{-} & - & \textit{-} & - & \textit{-} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which male & 9 & \textit{100.0} & 11 & \textit{100.0} & 10 & \textit{100.0} & 11 & \textit{100.0} & 11 & \textit{100.0} & 9 & \textit{100.0} & 10 & \textit{100.0} & 11 & \textit{100.0} & 12 & \textit{100.0} & 13 & \textit{100.0} \\
+\rowcolor[HTML]{F2EEEE} 
+\textbf{} & \textbf{} & \textbf{OF-7} & \textbf{} & \textbf{42} & \textit{\textbf{}} & \textbf{42} & \textit{\textbf{}} & \textbf{44} & \textit{\textbf{}} & \textbf{44} & \textit{\textbf{}} & \textbf{39} & \textit{\textbf{}} & \textbf{45} & \textit{\textbf{}} & \textbf{41} & \textit{\textbf{}} & \textbf{46} & \textit{\textbf{}} & \textbf{45} & \textit{\textbf{}} & \textbf{40} & \textit{\textbf{}} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which female & - & \textit{-} & - & \textit{-} & - & \textit{-} & - & \textit{-} & - & \textit{-} & - & \textit{-} & - & \textit{-} & 1 & \textit{2.2} & 1 & \textit{2.2} & 1 & \textit{2.5} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which male & 42 & \textit{100.0} & 42 & \textit{100.0} & 44 & \textit{100.0} & 44 & \textit{100.0} & 39 & \textit{100.0} & 45 & \textit{100.0} & 41 & \textit{100.0} & 45 & \textit{97.8} & 44 & \textit{97.8} & 39 & \textit{97.5} \\
+\rowcolor[HTML]{F2EEEE} 
+\textbf{} & \textbf{} & \textbf{OF-6} & \textbf{} & \textbf{168} & \textit{\textbf{}} & \textbf{163} & \textit{\textbf{}} & \textbf{153} & \textit{\textbf{}} & \textbf{156} & \textit{\textbf{}} & \textbf{158} & \textit{\textbf{}} & \textbf{156} & \textit{\textbf{}} & \textbf{153} & \textit{\textbf{}} & \textbf{147} & \textit{\textbf{}} & \textbf{143} & \textit{\textbf{}} & \textbf{147} & \textit{\textbf{}} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which female & 1 & \textit{0.6} & 2 & \textit{1.2} & 1 & \textit{0.7} & 1 & \textit{0.6} & 2 & \textit{1.3} & 3 & \textit{1.9} & 4 & \textit{2.6} & 4 & \textit{2.7} & 4 & \textit{2.8} & 4 & \textit{2.7} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which male & 167 & \textit{99.4} & 161 & \textit{98.8} & 152 & \textit{99.3} & 155 & \textit{99.4} & 156 & \textit{98.7} & 153 & \textit{98.1} & 149 & \textit{97.4} & 143 & \textit{97.3} & 139 & \textit{97.2} & 143 & \textit{97.3} \\
+\rowcolor[HTML]{F2EEEE} 
+\textbf{} & \textbf{} & \textbf{OF-5} & \textbf{} & \textbf{530} & \textit{\textbf{}} & \textbf{530} & \textit{\textbf{}} & \textbf{530} & \textit{\textbf{}} & \textbf{540} & \textit{\textbf{}} & \textbf{520} & \textit{\textbf{}} & \textbf{510} & \textit{\textbf{}} & \textbf{510} & \textit{\textbf{}} & \textbf{490} & \textit{\textbf{}} & \textbf{490} & \textit{\textbf{}} & \textbf{490} & \textit{\textbf{}} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which female & 20 & \textit{4.5} & 20 & \textit{4.3} & 30 & \textit{5.1} & 30 & \textit{5.5} & 30 & \textit{5.0} & 30 & \textit{5.3} & 30 & \textit{5.6} & 30 & \textit{6.3} & 30 & \textit{6.8} & 30 & \textit{6.9} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which male & 510 & \textit{95.5} & 510 & \textit{95.7} & 500 & \textit{94.9} & 510 & \textit{94.5} & 490 & \textit{95.0} & 480 & \textit{94.7} & 480 & \textit{94.4} & 460 & \textit{93.7} & 460 & \textit{93.2} & 460 & \textit{93.1} \\
+\rowcolor[HTML]{F2EEEE} 
+\textbf{} & \textbf{} & \textbf{OF-4} & \textbf{} & \textbf{1 760} & \textit{\textbf{}} & \textbf{1 760} & \textit{\textbf{}} & \textbf{1 690} & \textit{\textbf{}} & \textbf{1 720} & \textit{\textbf{}} & \textbf{1 670} & \textit{\textbf{}} & \textbf{1 680} & \textit{\textbf{}} & \textbf{1 650} & \textit{\textbf{}} & \textbf{1 670} & \textit{\textbf{}} & \textbf{1 660} & \textit{\textbf{}} & \textbf{1 680} & \textit{\textbf{}} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which female & 120 & \textit{6.9} & 120 & \textit{7.1} & 120 & \textit{7.3} & 130 & \textit{7.5} & 130 & \textit{7.8} & 130 & \textit{7.8} & 120 & \textit{7.6} & 130 & \textit{7.9} & 130 & \textit{8.0} & 130 & \textit{7.9} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which male & 1 640 & \textit{93.1} & 1 630 & \textit{92.9} & 1 570 & \textit{92.7} & 1 590 & \textit{92.5} & 1 540 & \textit{92.2} & 1 550 & \textit{92.2} & 1 530 & \textit{92.4} & 1 540 & \textit{92.1} & 1 530 & \textit{92.0} & 1 550 & \textit{92.1} \\
+\rowcolor[HTML]{F2EEEE} 
+\textbf{} & \textbf{} & \textbf{OF-3} & \textbf{} & \textbf{4 520} & \textit{\textbf{}} & \textbf{4 600} & \textit{\textbf{}} & \textbf{4 340} & \textit{\textbf{}} & \textbf{4 380} & \textit{\textbf{}} & \textbf{4 150} & \textit{\textbf{}} & \textbf{4 300} & \textit{\textbf{}} & \textbf{4 100} & \textit{\textbf{}} & \textbf{4 230} & \textit{\textbf{}} & \textbf{4 050} & \textit{\textbf{}} & \textbf{4 260} & \textit{\textbf{}} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which female & 540 & \textit{11.9} & 560 & \textit{12.2} & 550 & \textit{12.7} & 580 & \textit{13.1} & 540 & \textit{13.0} & 580 & \textit{13.4} & 550 & \textit{13.4} & 580 & \textit{13.8} & 550 & \textit{13.7} & 600 & \textit{14.0} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which male & 3 980 & \textit{88.1} & 4 040 & \textit{87.8} & 3 790 & \textit{87.3} & 3 810 & \textit{86.9} & 3 620 & \textit{87.0} & 3 720 & \textit{86.6} & 3 550 & \textit{86.6} & 3 650 & \textit{86.2} & 3 500 & \textit{86.3} & 3 660 & \textit{86.0} \\
+\rowcolor[HTML]{F2EEEE} 
+\textbf{} & \textbf{} & \textbf{OF-2} & \textbf{} & \textbf{5 030} & \textit{\textbf{}} & \textbf{4 710} & \textit{\textbf{}} & \textbf{4 770} & \textit{\textbf{}} & \textbf{4 450} & \textit{\textbf{}} & \textbf{4 490} & \textit{\textbf{}} & \textbf{4 220} & \textit{\textbf{}} & \textbf{4 110} & \textit{\textbf{}} & \textbf{4 010} & \textit{\textbf{}} & \textbf{4 030} & \textit{\textbf{}} & \textbf{3 940} & \textit{\textbf{}} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which female & 670 & \textit{13.4} & 610 & \textit{13.0} & 630 & \textit{13.2} & 580 & \textit{13.0} & 590 & \textit{13.1} & 540 & \textit{12.7} & 520 & \textit{12.7} & 490 & \textit{12.2} & 500 & \textit{12.3} & 470 & \textit{11.8} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which male & 4 360 & \textit{86.6} & 4 100 & \textit{87.0} & 4 140 & \textit{86.8} & 3 870 & \textit{87.0} & 3 910 & \textit{86.9} & 3 680 & \textit{87.3} & 3 580 & \textit{87.3} & 3 520 & \textit{87.8} & 3 540 & \textit{87.7} & 3 480 & \textit{88.2} \\
+\rowcolor[HTML]{F2EEEE} 
+\textbf{} & \textbf{} & \textbf{OF-1 / OF (D)} & \textbf{} & \textbf{2 410} & \textit{\textbf{}} & \textbf{2 520} & \textit{\textbf{}} & \textbf{2 340} & \textit{\textbf{}} & \textbf{2 370} & \textit{\textbf{}} & \textbf{2 160} & \textit{\textbf{}} & \textbf{2 200} & \textit{\textbf{}} & \textbf{2 250} & \textit{\textbf{}} & \textbf{2 230} & \textit{\textbf{}} & \textbf{2 160} & \textit{\textbf{}} & \textbf{2 240} & \textit{\textbf{}} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which female & 330 & \textit{13.6} & 340 & \textit{13.3} & 310 & \textit{13.3} & 300 & \textit{12.8} & 280 & \textit{12.9} & 280 & \textit{12.9} & 300 & \textit{13.1} & 280 & \textit{12.5} & 270 & \textit{12.3} & 270 & \textit{12.0} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which male & 2 080 & \textit{86.4} & 2 180 & \textit{86.7} & 2 030 & \textit{86.7} & 2 070 & \textit{87.2} & 1 880 & \textit{87.1} & 1 910 & \textit{87.1} & 1 960 & \textit{86.9} & 1 950 & \textit{87.5} & 1 890 & \textit{87.7} & 1 970 & \textit{88.0} \\
+\rowcolor[HTML]{E0D8D8} 
+\textbf{} & \textbf{Other Ranks} & \textbf{} & \textbf{} & \textbf{89 780} & \textit{\textbf{}} & \textbf{88 420} & \textit{\textbf{}} & \textbf{85 840} & \textit{\textbf{}} & \textbf{83 340} & \textit{\textbf{}} & \textbf{77 860} & \textit{\textbf{}} & \textbf{76 090} & \textit{\textbf{}} & \textbf{74 230} & \textit{\textbf{}} & \textbf{73 240} & \textit{\textbf{}} & \textbf{72 450} & \textit{\textbf{}} & \textbf{71 670} & \textit{\textbf{}} \\
+\rowcolor[HTML]{FFFFFF} 
+\textbf{} & \textbf{} & \textbf{} & \textbf{of which female} & 6 890 & \textit{7.7} & 6 900 & \textit{7.8} & 6 760 & \textit{7.9} & 6 720 & \textit{8.1} & 6 400 & \textit{8.2} & 6 350 & \textit{8.3} & 6 270 & \textit{8.4} & 6 160 & \textit{8.4} & 6 170 & \textit{8.5} & 6 100 & \textit{8.5} \\
+\rowcolor[HTML]{FFFFFF} 
+\textbf{} & \textbf{} & \textbf{} & \textbf{of which male} & 82 890 & \textit{92.3} & 81 520 & \textit{92.2} & 79 080 & \textit{92.1} & 76 620 & \textit{91.9} & 71 460 & \textit{91.8} & 69 730 & \textit{91.7} & 67 960 & \textit{91.6} & 67 080 & \textit{91.6} & 66 270 & \textit{91.5} & 65 570 & \textit{91.5} \\
+\rowcolor[HTML]{F2EEEE} 
+\textbf{} & \textbf{} & \textbf{OR-9} & \textbf{} & \textbf{1 490} & \textit{\textbf{}} & \textbf{1 450} & \textit{\textbf{}} & \textbf{1 390} & \textit{\textbf{}} & \textbf{1 390} & \textit{\textbf{}} & \textbf{1 340} & \textit{\textbf{}} & \textbf{1 340} & \textit{\textbf{}} & \textbf{1 310} & \textit{\textbf{}} & \textbf{1 290} & \textit{\textbf{}} & \textbf{1 280} & \textit{\textbf{}} & \textbf{1 300} & \textit{\textbf{}} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which female & 100 & \textit{6.9} & 90 & \textit{6.2} & 70 & \textit{5.3} & 80 & \textit{5.9} & 80 & \textit{6.0} & 80 & \textit{5.9} & 80 & \textit{6.1} & 90 & \textit{6.7} & 90 & \textit{6.9} & 90 & \textit{6.9} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which male & 1 380 & \textit{93.1} & 1 360 & \textit{93.8} & 1 320 & \textit{94.7} & 1 300 & \textit{94.1} & 1 260 & \textit{94.0} & 1 260 & \textit{94.1} & 1 230 & \textit{93.9} & 1 210 & \textit{93.3} & 1 190 & \textit{93.1} & 1 210 & \textit{93.1} \\
+\rowcolor[HTML]{F2EEEE} 
+\textbf{} & \textbf{} & \textbf{OR-8} & \textbf{} & \textbf{4 320} & \textit{\textbf{}} & \textbf{4 290} & \textit{\textbf{}} & \textbf{3 990} & \textit{\textbf{}} & \textbf{3 960} & \textit{\textbf{}} & \textbf{3 730} & \textit{\textbf{}} & \textbf{3 820} & \textit{\textbf{}} & \textbf{3 640} & \textit{\textbf{}} & \textbf{3 750} & \textit{\textbf{}} & \textbf{3 640} & \textit{\textbf{}} & \textbf{3 770} & \textit{\textbf{}} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which female & 240 & \textit{5.6} & 260 & \textit{6.1} & 250 & \textit{6.4} & 270 & \textit{6.8} & 260 & \textit{7.1} & 280 & \textit{7.4} & 280 & \textit{7.6} & 310 & \textit{8.2} & 320 & \textit{8.8} & 340 & \textit{9.0} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which male & 4 080 & \textit{94.4} & 4 020 & \textit{93.9} & 3 730 & \textit{93.6} & 3 690 & \textit{93.2} & 3 470 & \textit{92.9} & 3 530 & \textit{92.6} & 3 370 & \textit{92.4} & 3 440 & \textit{91.8} & 3 310 & \textit{91.2} & 3 440 & \textit{91.0} \\
+\rowcolor[HTML]{F2EEEE} 
+\textbf{} & \textbf{} & \textbf{OR-7} & \textbf{} & \textbf{5 790} & \textit{\textbf{}} & \textbf{5 780} & \textit{\textbf{}} & \textbf{5 700} & \textit{\textbf{}} & \textbf{5 540} & \textit{\textbf{}} & \textbf{5 280} & \textit{\textbf{}} & \textbf{5 210} & \textit{\textbf{}} & \textbf{5 210} & \textit{\textbf{}} & \textbf{5 290} & \textit{\textbf{}} & \textbf{5 290} & \textit{\textbf{}} & \textbf{5 320} & \textit{\textbf{}} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which female & 460 & \textit{8.0} & 490 & \textit{8.4} & 490 & \textit{8.6} & 500 & \textit{9.0} & 480 & \textit{9.2} & 470 & \textit{9.1} & 470 & \textit{9.0} & 480 & \textit{9.1} & 470 & \textit{8.9} & 490 & \textit{9.2} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which male & 5 320 & \textit{92.0} & 5 300 & \textit{91.6} & 5 210 & \textit{91.4} & 5 040 & \textit{91.0} & 4 800 & \textit{90.8} & 4 730 & \textit{90.9} & 4 740 & \textit{91.0} & 4 810 & \textit{90.9} & 4 820 & \textit{91.1} & 4 830 & \textit{90.8} \\
+\rowcolor[HTML]{F2EEEE} 
+\textbf{} & \textbf{} & \textbf{OR-6} & \textbf{} & \textbf{9 760} & \textit{\textbf{}} & \textbf{9 160} & \textit{\textbf{}} & \textbf{9 270} & \textit{\textbf{}} & \textbf{8 450} & \textit{\textbf{}} & \textbf{8 230} & \textit{\textbf{}} & \textbf{7 550} & \textit{\textbf{}} & \textbf{7 760} & \textit{\textbf{}} & \textbf{7 280} & \textit{\textbf{}} & \textbf{7 880} & \textit{\textbf{}} & \textbf{7 540} & \textit{\textbf{}} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which female & 900 & \textit{9.2} & 860 & \textit{9.4} & 870 & \textit{9.4} & 800 & \textit{9.5} & 810 & \textit{9.8} & 750 & \textit{9.9} & 770 & \textit{9.9} & 710 & \textit{9.8} & 780 & \textit{9.9} & 730 & \textit{9.7} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which male & 8 860 & \textit{90.8} & 8 300 & \textit{90.6} & 8 400 & \textit{90.6} & 7 650 & \textit{90.5} & 7 420 & \textit{90.2} & 6 800 & \textit{90.1} & 6 990 & \textit{90.1} & 6 570 & \textit{90.2} & 7 100 & \textit{90.1} & 6 810 & \textit{90.3} \\
+\rowcolor[HTML]{F2EEEE} 
+\textbf{} & \textbf{} & \textbf{OR-4} & \textbf{} & \textbf{14 990} & \textit{\textbf{}} & \textbf{14 510} & \textit{\textbf{}} & \textbf{14 420} & \textit{\textbf{}} & \textbf{14 240} & \textit{\textbf{}} & \textbf{13 520} & \textit{\textbf{}} & \textbf{13 190} & \textit{\textbf{}} & \textbf{12 750} & \textit{\textbf{}} & \textbf{12 520} & \textit{\textbf{}} & \textbf{12 480} & \textit{\textbf{}} & \textbf{12 550} & \textit{\textbf{}} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which female & 1 430 & \textit{9.6} & 1 390 & \textit{9.6} & 1 400 & \textit{9.7} & 1 400 & \textit{9.9} & 1 310 & \textit{9.7} & 1 280 & \textit{9.7} & 1 230 & \textit{9.7} & 1 210 & \textit{9.7} & 1 150 & \textit{9.2} & 1 130 & \textit{9.0} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which male & 13 560 & \textit{90.4} & 13 120 & \textit{90.4} & 13 020 & \textit{90.3} & 12 830 & \textit{90.1} & 12 210 & \textit{90.3} & 11 910 & \textit{90.3} & 11 520 & \textit{90.3} & 11 310 & \textit{90.3} & 11 330 & \textit{90.8} & 11 420 & \textit{91.0} \\
+\rowcolor[HTML]{F2EEEE} 
+\textbf{} & \textbf{} & \textbf{OR-3} & \textbf{} & \textbf{16 050} & \textit{\textbf{}} & \textbf{15 750} & \textit{\textbf{}} & \textbf{15 190} & \textit{\textbf{}} & \textbf{14 740} & \textit{\textbf{}} & \textbf{14 030} & \textit{\textbf{}} & \textbf{13 680} & \textit{\textbf{}} & \textbf{13 880} & \textit{\textbf{}} & \textbf{13 450} & \textit{\textbf{}} & \textbf{13 780} & \textit{\textbf{}} & \textbf{13 150} & \textit{\textbf{}} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which female & 1 260 & \textit{7.8} & 1 290 & \textit{8.2} & 1 200 & \textit{7.9} & 1 170 & \textit{7.9} & 1 180 & \textit{8.4} & 1 130 & \textit{8.2} & 1 160 & \textit{8.3} & 1 110 & \textit{8.2} & 1 210 & \textit{8.8} & 1 190 & \textit{9.1} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which male & 14 800 & \textit{92.2} & 14 460 & \textit{91.8} & 13 990 & \textit{92.1} & 13 570 & \textit{92.1} & 12 850 & \textit{91.6} & 12 550 & \textit{91.8} & 12 720 & \textit{91.7} & 12 340 & \textit{91.8} & 12 570 & \textit{91.2} & 11 960 & \textit{90.9} \\
+\rowcolor[HTML]{F2EEEE} 
+\textbf{} & \textbf{} & \textbf{OR-1/OR-2} & \textbf{} & \textbf{37 380} & \textit{\textbf{}} & \textbf{37 480} & \textit{\textbf{}} & \textbf{35 880} & \textit{\textbf{}} & \textbf{35 040} & \textit{\textbf{}} & \textbf{31 730} & \textit{\textbf{}} & \textbf{31 300} & \textit{\textbf{}} & \textbf{29 670} & \textit{\textbf{}} & \textbf{29 660} & \textit{\textbf{}} & \textbf{28 110} & \textit{\textbf{}} & \textbf{28 040} & \textit{\textbf{}} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which female & 2 500 & \textit{6.7} & 2 520 & \textit{6.7} & 2 470 & \textit{6.9} & 2 500 & \textit{7.1} & 2 280 & \textit{7.2} & 2 360 & \textit{7.5} & 2 280 & \textit{7.7} & 2 260 & \textit{7.6} & 2 150 & \textit{7.7} & 2 130 & \textit{7.6} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which male & 34 880 & \textit{93.3} & 34 960 & \textit{93.3} & 33 410 & \textit{93.1} & 32 540 & \textit{92.9} & 29 460 & \textit{92.8} & 28 940 & \textit{92.5} & 27 400 & \textit{92.3} & 27 400 & \textit{92.4} & 25 960 & \textit{92.3} & 25 910 & \textit{92.4} \\
+\rowcolor[HTML]{BBA8AC} 
+\textbf{Royal Air Force} & \textbf{} &  &  & \textbf{40 000} & \textit{\textbf{100.0}} & \textbf{38 500} & \textit{\textbf{100.0}} & \textbf{37 030} & \textit{\textbf{100.0}} & \textbf{35 920} & \textit{\textbf{100.0}} & \textbf{35 230} & \textit{\textbf{100.0}} & \textbf{34 520} & \textit{\textbf{100.0}} & \textbf{33 930} & \textit{\textbf{100.0}} & \textbf{33 580} & \textit{\textbf{100.0}} & \textbf{33 460} & \textit{\textbf{100.0}} & \textbf{33 270} & \textit{\textbf{100.0}} \\
+\rowcolor[HTML]{FFFFFF} 
+\textbf{} & \textbf{} & \textbf{} & \textbf{of which female} & 5 520 & \textit{13.8} & 5 350 & \textit{13.9} & 5 130 & \textit{13.9} & 4 950 & \textit{13.8} & 4 860 & \textit{13.8} & 4 800 & \textit{13.9} & 4 720 & \textit{13.9} & 4 680 & \textit{13.9} & 4 680 & \textit{14.0} & 4 650 & \textit{14.0} \\
+\rowcolor[HTML]{FFFFFF} 
+\textbf{} & \textbf{} & \textbf{} & \textbf{of which male} & 34 480 & \textit{86.2} & 33 150 & \textit{86.1} & 31 890 & \textit{86.1} & 30 970 & \textit{86.2} & 30 370 & \textit{86.2} & 29 730 & \textit{86.1} & 29 210 & \textit{86.1} & 28 900 & \textit{86.1} & 28 780 & \textit{86.0} & 28 620 & \textit{86.0} \\
+\rowcolor[HTML]{E0D8D8} 
+\textbf{} & \textbf{Officers} & \textbf{} & \textbf{} & \textbf{9 030} & \textit{\textbf{}} & \textbf{8 560} & \textit{\textbf{}} & \textbf{8 230} & \textit{\textbf{}} & \textbf{7 980} & \textit{\textbf{}} & \textbf{7 850} & \textit{\textbf{}} & \textbf{7 740} & \textit{\textbf{}} & \textbf{7 630} & \textit{\textbf{}} & \textbf{7 480} & \textit{\textbf{}} & \textbf{7 460} & \textit{\textbf{}} & \textbf{7 470} & \textit{\textbf{}} \\
+\rowcolor[HTML]{FFFFFF} 
+\textbf{} & \textbf{} & \textbf{} & \textbf{of which female} & 1 440 & \textit{15.9} & 1 400 & \textit{16.4} & 1 340 & \textit{16.3} & 1 300 & \textit{16.3} & 1 290 & \textit{16.5} & 1 270 & \textit{16.5} & 1 260 & \textit{16.5} & 1 240 & \textit{16.6} & 1 250 & \textit{16.7} & 1 250 & \textit{16.8} \\
+\rowcolor[HTML]{FFFFFF} 
+\textbf{} & \textbf{} & \textbf{} & \textbf{of which male} & 7 600 & \textit{84.1} & 7 160 & \textit{83.6} & 6 890 & \textit{83.7} & 6 680 & \textit{83.7} & 6 550 & \textit{83.5} & 6 470 & \textit{83.5} & 6 370 & \textit{83.5} & 6 240 & \textit{83.4} & 6 210 & \textit{83.3} & 6 220 & \textit{83.2} \\
+\rowcolor[HTML]{F2EEEE} 
+\textbf{} & \textbf{} & \textbf{OF-9} & \textbf{} & \textbf{3} & \textit{\textbf{}} & \textbf{2} & \textit{\textbf{}} & \textbf{2} & \textit{\textbf{}} & \textbf{3} & \textit{\textbf{}} & \textbf{2} & \textit{\textbf{}} & \textbf{2} & \textit{\textbf{}} & \textbf{2} & \textit{\textbf{}} & \textbf{2} & \textit{\textbf{}} & \textbf{2} & \textit{\textbf{}} & \textbf{3} & \textit{\textbf{}} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which female & - & \textit{-} & - & \textit{-} & - & \textit{-} & - & \textit{-} & - & \textit{-} & - & \textit{-} & - & \textit{-} & - & \textit{-} & - & \textit{-} & - & \textit{-} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which male & 3 & \textit{100.0} & 2 & \textit{100.0} & 2 & \textit{100.0} & 3 & \textit{100.0} & 2 & \textit{100.0} & 2 & \textit{100.0} & 2 & \textit{100.0} & 2 & \textit{100.0} & 2 & \textit{100.0} & 3 & \textit{100.0} \\
+\rowcolor[HTML]{F2EEEE} 
+\textbf{} & \textbf{} & \textbf{OF-8} & \textbf{} & \textbf{8} & \textit{\textbf{}} & \textbf{7} & \textit{\textbf{}} & \textbf{9} & \textit{\textbf{}} & \textbf{8} & \textit{\textbf{}} & \textbf{8} & \textit{\textbf{}} & \textbf{8} & \textit{\textbf{}} & \textbf{10} & \textit{\textbf{}} & \textbf{10} & \textit{\textbf{}} & \textbf{9} & \textit{\textbf{}} & \textbf{9} & \textit{\textbf{}} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which female & - & \textit{-} & - & \textit{-} & - & \textit{-} & - & \textit{-} & - & \textit{-} & - & \textit{-} & - & \textit{-} & - & \textit{-} & - & \textit{-} & - & \textit{-} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which male & 8 & \textit{100.0} & 7 & \textit{100.0} & 9 & \textit{100.0} & 8 & \textit{100.0} & 8 & \textit{100.0} & 8 & \textit{100.0} & 10 & \textit{100.0} & 10 & \textit{100.0} & 9 & \textit{100.0} & 9 & \textit{100.0} \\
+\rowcolor[HTML]{F2EEEE} 
+\textbf{} & \textbf{} & \textbf{OF-7} & \textbf{} & \textbf{28} & \textit{\textbf{}} & \textbf{28} & \textit{\textbf{}} & \textbf{23} & \textit{\textbf{}} & \textbf{24} & \textit{\textbf{}} & \textbf{27} & \textit{\textbf{}} & \textbf{29} & \textit{\textbf{}} & \textbf{27} & \textit{\textbf{}} & \textbf{22} & \textit{\textbf{}} & \textbf{23} & \textit{\textbf{}} & \textbf{25} & \textit{\textbf{}} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which female & - & \textit{-} & - & \textit{-} & - & \textit{-} & 1 & \textit{4.2} & 2 & \textit{7.4} & 2 & \textit{6.9} & 2 & \textit{7.4} & 2 & \textit{9.1} & 2 & \textit{8.7} & 2 & \textit{8.0} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which male & 28 & \textit{100.0} & 28 & \textit{100.0} & 23 & \textit{100.0} & 23 & \textit{95.8} & 25 & \textit{92.6} & 27 & \textit{93.1} & 25 & \textit{92.6} & 20 & \textit{90.9} & 21 & \textit{91.3} & 23 & \textit{92.0} \\
+\rowcolor[HTML]{F2EEEE} 
+\textbf{} & \textbf{} & \textbf{OF-6} & \textbf{} & \textbf{82} & \textit{\textbf{}} & \textbf{81} & \textit{\textbf{}} & \textbf{75} & \textit{\textbf{}} & \textbf{75} & \textit{\textbf{}} & \textbf{75} & \textit{\textbf{}} & \textbf{78} & \textit{\textbf{}} & \textbf{74} & \textit{\textbf{}} & \textbf{73} & \textit{\textbf{}} & \textbf{74} & \textit{\textbf{}} & \textbf{79} & \textit{\textbf{}} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which female & 5 & \textit{6.1} & 6 & \textit{7.4} & 4 & \textit{5.3} & 4 & \textit{5.3} & 4 & \textit{5.3} & 4 & \textit{5.1} & 4 & \textit{5.4} & 5 & \textit{6.8} & 4 & \textit{5.4} & 4 & \textit{5.1} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which male & 77 & \textit{93.9} & 75 & \textit{92.6} & 71 & \textit{94.7} & 71 & \textit{94.7} & 71 & \textit{94.7} & 74 & \textit{94.9} & 70 & \textit{94.6} & 68 & \textit{93.2} & 70 & \textit{94.6} & 75 & \textit{94.9} \\
+\rowcolor[HTML]{F2EEEE} 
+\textbf{} & \textbf{} & \textbf{OF-5} & \textbf{} & \textbf{310} & \textit{\textbf{}} & \textbf{330} & \textit{\textbf{}} & \textbf{300} & \textit{\textbf{}} & \textbf{310} & \textit{\textbf{}} & \textbf{300} & \textit{\textbf{}} & \textbf{300} & \textit{\textbf{}} & \textbf{290} & \textit{\textbf{}} & \textbf{290} & \textit{\textbf{}} & \textbf{300} & \textit{\textbf{}} & \textbf{300} & \textit{\textbf{}} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which female & 20 & \textit{5.8} & 20 & \textit{5.5} & 20 & \textit{7.0} & 20 & \textit{6.8} & 20 & \textit{5.7} & 20 & \textit{6.7} & 20 & \textit{6.8} & 20 & \textit{7.9} & 20 & \textit{7.7} & 20 & \textit{248.7} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which male & 300 & \textit{94.2} & 310 & \textit{94.5} & 280 & \textit{93.0} & 290 & \textit{93.2} & 280 & \textit{94.3} & 280 & \textit{93.3} & 270 & \textit{93.2} & 270 & \textit{92.1} & 280 & \textit{92.3} & 280 & \textit{1.0} \\
+\rowcolor[HTML]{F2EEEE} 
+\textbf{} & \textbf{} & \textbf{OF-4} & \textbf{} & \textbf{1 100} & \textit{\textbf{}} & \textbf{1 100} & \textit{\textbf{}} & \textbf{1 040} & \textit{\textbf{}} & \textbf{1 060} & \textit{\textbf{}} & \textbf{1 020} & \textit{\textbf{}} & \textbf{1 050} & \textit{\textbf{}} & \textbf{1 020} & \textit{\textbf{}} & \textbf{1 020} & \textit{\textbf{}} & \textbf{980} & \textit{\textbf{}} & \textbf{1 020} & \textit{\textbf{}} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which female & 90 & \textit{7.9} & 90 & \textit{8.3} & 80 & \textit{7.9} & 100 & \textit{9.0} & 100 & \textit{9.6} & 100 & \textit{10.0} & 110 & \textit{10.5} & 120 & \textit{11.9} & 120 & \textit{12.3} & 130 & \textit{1551.4} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which male & 1 010 & \textit{92.1} & 1 010 & \textit{91.7} & 950 & \textit{92.1} & 960 & \textit{91.0} & 920 & \textit{90.4} & 950 & \textit{90.0} & 910 & \textit{89.5} & 900 & \textit{88.1} & 860 & \textit{87.7} & 890 & \textit{153.7} \\
+\rowcolor[HTML]{F2EEEE} 
+\textbf{} & \textbf{} & \textbf{OF-3} & \textbf{} & \textbf{2 430} & \textit{\textbf{}} & \textbf{2 320} & \textit{\textbf{}} & \textbf{2 260} & \textit{\textbf{}} & \textbf{2 200} & \textit{\textbf{}} & \textbf{2 200} & \textit{\textbf{}} & \textbf{2 140} & \textit{\textbf{}} & \textbf{2 120} & \textit{\textbf{}} & \textbf{2 080} & \textit{\textbf{}} & \textbf{2 100} & \textit{\textbf{}} & \textbf{2 040} & \textit{\textbf{}} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which female & 400 & \textit{16.6} & 410 & \textit{17.6} & 400 & \textit{17.6} & 400 & \textit{18.2} & 410 & \textit{18.4} & 400 & \textit{18.7} & 400 & \textit{19.0} & 400 & \textit{19.1} & 410 & \textit{19.5} & 400 & \textit{241.3} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which male & 2 030 & \textit{83.4} & 1 910 & \textit{82.4} & 1 870 & \textit{82.4} & 1 800 & \textit{81.8} & 1 800 & \textit{81.6} & 1 740 & \textit{81.3} & 1 720 & \textit{81.0} & 1 680 & \textit{80.9} & 1 700 & \textit{80.5} & 1 640 & \textit{28.0} \\
+\rowcolor[HTML]{F2EEEE} 
+\textbf{} & \textbf{} & \textbf{OF-2} & \textbf{} & \textbf{4 130} & \textit{\textbf{}} & \textbf{4 040} & \textit{\textbf{}} & \textbf{3 890} & \textit{\textbf{}} & \textbf{3 720} & \textit{\textbf{}} & \textbf{3 560} & \textit{\textbf{}} & \textbf{3 450} & \textit{\textbf{}} & \textbf{3 310} & \textit{\textbf{}} & \textbf{3 180} & \textit{\textbf{}} & \textbf{3 070} & \textit{\textbf{}} & \textbf{3 060} & \textit{\textbf{}} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which female & 740 & \textit{18.0} & 750 & \textit{18.6} & 720 & \textit{18.5} & 680 & \textit{18.3} & 640 & \textit{18.1} & 620 & \textit{18.0} & 590 & \textit{17.7} & 550 & \textit{17.4} & 530 & \textit{17.1} & 530 & \textit{27.1} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which male & 3 380 & \textit{82.0} & 3 290 & \textit{81.4} & 3 170 & \textit{81.5} & 3 040 & \textit{81.7} & 2 910 & \textit{81.9} & 2 830 & \textit{82.0} & 2 730 & \textit{82.3} & 2 620 & \textit{82.6} & 2 550 & \textit{82.9} & 2 530 & \textit{11.4} \\
+\rowcolor[HTML]{F2EEEE} 
+\textbf{} & \textbf{} & \textbf{OF-1 / OF (D)} & \textbf{} & \textbf{940} & \textit{\textbf{}} & \textbf{660} & \textit{\textbf{}} & \textbf{630} & \textit{\textbf{}} & \textbf{590} & \textit{\textbf{}} & \textbf{650} & \textit{\textbf{}} & \textbf{690} & \textit{\textbf{}} & \textbf{770} & \textit{\textbf{}} & \textbf{810} & \textit{\textbf{}} & \textbf{880} & \textit{\textbf{}} & \textbf{940} & \textit{\textbf{}} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which female & 180 & \textit{19.1} & 130 & \textit{19.4} & 120 & \textit{18.6} & 100 & \textit{17.2} & 120 & \textit{18.7} & 120 & \textit{17.7} & 140 & \textit{17.5} & 140 & \textit{17.5} & 160 & \textit{18.0} & 160 & \textit{17.2} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which male & 760 & \textit{80.9} & 540 & \textit{80.6} & 510 & \textit{81.4} & 490 & \textit{82.8} & 530 & \textit{81.3} & 570 & \textit{82.3} & 640 & \textit{82.5} & 670 & \textit{82.5} & 720 & \textit{82.0} & 780 & \textit{82.8} \\
+\rowcolor[HTML]{E0D8D8} 
+\textbf{} & \textbf{Other Ranks} & \textbf{} & \textbf{} & \textbf{30 970} & \textit{\textbf{}} & \textbf{29 930} & \textit{\textbf{}} & \textbf{28 790} & \textit{\textbf{}} & \textbf{27 930} & \textit{\textbf{}} & \textbf{27 380} & \textit{\textbf{}} & \textbf{26 780} & \textit{\textbf{}} & \textbf{26 300} & \textit{\textbf{}} & \textbf{26 110} & \textit{\textbf{}} & \textbf{26 000} & \textit{\textbf{}} & \textbf{25 790} & \textit{\textbf{}} \\
+\rowcolor[HTML]{FFFFFF} 
+\textbf{} & \textbf{} & \textbf{} & \textbf{of which female} & 4 090 & \textit{13.2} & 3 940 & \textit{13.2} & 3 790 & \textit{13.2} & 3 650 & \textit{13.1} & 3 560 & \textit{13.0} & 3 520 & \textit{13.1} & 3 460 & \textit{13.2} & 3 440 & \textit{13.2} & 3 440 & \textit{13.2} & 3 390 & \textit{13.2} \\
+\rowcolor[HTML]{FFFFFF} 
+\textbf{} & \textbf{} & \textbf{} & \textbf{of which male} & 26 880 & \textit{86.8} & 25 990 & \textit{86.8} & 25 000 & \textit{86.8} & 24 290 & \textit{86.9} & 23 820 & \textit{87.0} & 23 260 & \textit{86.9} & 22 840 & \textit{86.8} & 22 660 & \textit{86.8} & 22 560 & \textit{86.8} & 22 400 & \textit{86.8} \\
+\rowcolor[HTML]{F2EEEE} 
+\textbf{} & \textbf{} & \textbf{OR-9} & \textbf{} & \textbf{1 060} & \textit{\textbf{}} & \textbf{1 020} & \textit{\textbf{}} & \textbf{980} & \textit{\textbf{}} & \textbf{970} & \textit{\textbf{}} & \textbf{970} & \textit{\textbf{}} & \textbf{950} & \textit{\textbf{}} & \textbf{950} & \textit{\textbf{}} & \textbf{940} & \textit{\textbf{}} & \textbf{940} & \textit{\textbf{}} & \textbf{930} & \textit{\textbf{}} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which female & 30 & \textit{3.0} & 30 & \textit{3.2} & 40 & \textit{3.8} & 40 & \textit{3.9} & 40 & \textit{4.3} & 40 & \textit{4.4} & 40 & \textit{4.7} & 50 & \textit{4.9} & 50 & \textit{5.6} & 50 & \textit{5.6} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which male & 1 030 & \textit{97.0} & 980 & \textit{96.8} & 940 & \textit{96.2} & 930 & \textit{96.1} & 930 & \textit{95.7} & 910 & \textit{95.6} & 900 & \textit{95.3} & 890 & \textit{95.1} & 890 & \textit{94.4} & 880 & \textit{94.4} \\
+\rowcolor[HTML]{F2EEEE} 
+ &  & \textbf{OR-8} &  & \textit{*} & \textit{} & \textit{*} & \textit{} & \textit{*} & \textit{} & \textit{*} & \textit{} & \textit{*} & \textit{} & \textit{*} & \textit{} & \textit{*} & \textit{} & \textit{*} & \textit{} & \textit{*} & \textit{} & \textit{*} & \textit{} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which female & * & .. & * & .. & * & .. & * & .. & * & .. & * & .. & * & .. & * & .. & * & .. & * & .. \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which male & * & .. & * & .. & * & .. & * & .. & * & .. & * & .. & * & .. & * & .. & * & .. & * & .. \\
+\rowcolor[HTML]{F2EEEE} 
+\textbf{} & \textbf{} & \textbf{OR-7} & \textbf{} & \textbf{2 910} & \textit{\textbf{}} & \textbf{2 820} & \textit{\textbf{}} & \textbf{2 720} & \textit{\textbf{}} & \textbf{2 680} & \textit{\textbf{}} & \textbf{2 540} & \textit{\textbf{}} & \textbf{2 480} & \textit{\textbf{}} & \textbf{2 370} & \textit{\textbf{}} & \textbf{2 420} & \textit{\textbf{}} & \textbf{2 380} & \textit{\textbf{}} & \textbf{2 400} & \textit{\textbf{}} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which female & 180 & \textit{6.1} & 180 & \textit{6.2} & 160 & \textit{6.0} & 180 & \textit{6.9} & 180 & \textit{7.1} & 190 & \textit{7.5} & 190 & \textit{8.1} & 200 & \textit{8.5} & 210 & \textit{8.7} & 220 & \textit{9.2} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which male & 2 740 & \textit{93.9} & 2 640 & \textit{93.8} & 2 560 & \textit{94.0} & 2 490 & \textit{93.1} & 2 360 & \textit{92.9} & 2 300 & \textit{92.5} & 2 180 & \textit{91.9} & 2 220 & \textit{91.5} & 2 180 & \textit{91.3} & 2 180 & \textit{90.8} \\
+\rowcolor[HTML]{F2EEEE} 
+\textbf{} & \textbf{} & \textbf{OR-6} & \textbf{} & \textbf{5 760} & \textit{\textbf{}} & \textbf{5 580} & \textit{\textbf{}} & \textbf{5 500} & \textit{\textbf{}} & \textbf{5 260} & \textit{\textbf{}} & \textbf{5 210} & \textit{\textbf{}} & \textbf{5 010} & \textit{\textbf{}} & \textbf{4 930} & \textit{\textbf{}} & \textbf{4 780} & \textit{\textbf{}} & \textbf{4 830} & \textit{\textbf{}} & \textbf{4 800} & \textit{\textbf{}} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which female & 740 & \textit{12.9} & 730 & \textit{13.1} & 730 & \textit{13.2} & 710 & \textit{13.6} & 730 & \textit{14.0} & 720 & \textit{14.3} & 720 & \textit{14.6} & 730 & \textit{15.2} & 740 & \textit{15.4} & 750 & \textit{15.6} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which male & 5 020 & \textit{87.1} & 4 840 & \textit{86.9} & 4 770 & \textit{86.8} & 4 540 & \textit{86.4} & 4 480 & \textit{86.0} & 4 290 & \textit{85.7} & 4 210 & \textit{85.4} & 4 050 & \textit{84.8} & 4 090 & \textit{84.6} & 4 050 & \textit{84.4} \\
+\rowcolor[HTML]{F2EEEE} 
+\textbf{} & \textbf{} & \textbf{OR-4} & \textbf{} & \textbf{7 880} & \textit{\textbf{}} & \textbf{7 730} & \textit{\textbf{}} & \textbf{7 370} & \textit{\textbf{}} & \textbf{7 230} & \textit{\textbf{}} & \textbf{7 000} & \textit{\textbf{}} & \textbf{6 840} & \textit{\textbf{}} & \textbf{6 670} & \textit{\textbf{}} & \textbf{6 700} & \textit{\textbf{}} & \textbf{6 660} & \textit{\textbf{}} & \textbf{6 590} & \textit{\textbf{}} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which female & 1 290 & \textit{16.4} & 1 260 & \textit{16.3} & 1 240 & \textit{16.8} & 1 210 & \textit{16.7} & 1 190 & \textit{17.0} & 1 180 & \textit{17.2} & 1 130 & \textit{16.9} & 1 090 & \textit{16.3} & 1 070 & \textit{16.1} & 1 020 & \textit{15.5} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which male & 6 580 & \textit{83.6} & 6 480 & \textit{83.7} & 6 130 & \textit{83.2} & 6 030 & \textit{83.3} & 5 810 & \textit{83.0} & 5 670 & \textit{82.8} & 5 550 & \textit{83.1} & 5 610 & \textit{83.7} & 5 590 & \textit{83.9} & 5 570 & \textit{84.5} \\
+\rowcolor[HTML]{F2EEEE} 
+\textbf{} & \textbf{} & \textbf{OR-3} & \textbf{} & \textbf{210} & \textit{\textbf{}} & \textbf{210} & \textit{\textbf{}} & \textbf{220} & \textit{\textbf{}} & \textbf{200} & \textit{\textbf{}} & \textbf{200} & \textit{\textbf{}} & \textbf{180} & \textit{\textbf{}} & \textbf{200} & \textit{\textbf{}} & \textbf{180} & \textit{\textbf{}} & \textbf{180} & \textit{\textbf{}} & \textbf{180} & \textit{\textbf{}} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which female & - & \textit{-} & $\sim$ & \textit{-} & $\sim$ & \textit{-} & $\sim$ & \textit{-} & - & \textit{-} & - & \textit{-} & - & \textit{-} & - & \textit{-} & - & \textit{-} & - & \textit{-} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which male & 210 & \textit{100.0} & 200 & \textit{99.5} & 220 & \textit{99.5} & 200 & \textit{99.5} & 200 & \textit{100.0} & 180 & \textit{100.0} & 200 & \textit{100.0} & 180 & \textit{100.0} & 180 & \textit{100.0} & 180 & \textit{100.0} \\
+\rowcolor[HTML]{F2EEEE} 
+\textbf{} & \textbf{} & \textbf{OR-1/OR-2} & \textbf{} & \textbf{13 150} & \textit{\textbf{}} & \textbf{12 580} & \textit{\textbf{}} & \textbf{12 010} & \textit{\textbf{}} & \textbf{11 600} & \textit{\textbf{}} & \textbf{11 470} & \textit{\textbf{}} & \textbf{11 310} & \textit{\textbf{}} & \textbf{11 170} & \textit{\textbf{}} & \textbf{11 090} & \textit{\textbf{}} & \textbf{11 000} & \textit{\textbf{}} & \textbf{10 890} & \textbf{} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which female & 1 840 & \textit{14.0} & 1 740 & \textit{13.9} & 1 620 & \textit{13.5} & 1 500 & \textit{13.0} & 1 420 & \textit{12.4} & 1 400 & \textit{12.4} & 1 380 & \textit{12.3} & 1 370 & \textit{12.4} & 1 360 & \textit{12.4} & 1 350 & 12.4 \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  & of which male & 11 310 & \textit{86.0} & 10 830 & \textit{86.1} & 10 390 & \textit{86.5} & 10 090 & \textit{87.0} & 10 050 & \textit{87.6} & 9 910 & \textit{87.6} & 9 790 & \textit{87.7} & 9 710 & \textit{87.6} & 9 640 & \textit{87.6} & 9 540 & 87.6 \\
+\rowcolor[HTML]{FFFFFF} 
+1. & Figures are for paid rank. A Table of NATO Rank Codes and UK Service Ranks can be seen in the Glossary of terms. &  &  &  & \textit{} &  & \textit{} &  & \textit{} &  & \textit{} &  & \textit{} &  & \textit{} &  & \textit{} &  & \textit{} &  & \textit{} &  & \textit{} \\
+\rowcolor[HTML]{FFFFFF} 
+2. & Strengths for Senior Officers (OF-6 to OF-9) have been left unrounded because statistics for these personnel are considered non-sensitive and are already in the public domain. &  &  & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} \\
+\rowcolor[HTML]{FFFFFF} 
+3. & The OR hierarchy is used differently by each Service. The Royal Marines and the Army use all OR ranks; the Royal Navy excludes OR3; and the Royal Air Force excludes OR8 and largely excludes OR3. &  &  & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} \\
+\rowcolor[HTML]{FFFFFF} 
+4. & Caution is advised when interpreting the officer percentages due to small numbers used in the percentage calculations. &  &  & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}}
+\end{tabular}
+\caption{}
+\label{tab:my-table}
+\end{table}

@@ -1,0 +1,2359 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <meta name="generator" content="PhpSpreadsheet, https://github.com/PHPOffice/PhpSpreadsheet">
+      <meta name="author" content="mac" />
+      <meta name="company" content="Microsoft Corporation" />
+    <style type="text/css">
+      html { font-family:Calibri, Arial, Helvetica, sans-serif; font-size:11pt; background-color:white }
+      a.comment-indicator:hover + div.comment { background:#ffd; position:absolute; display:block; border:1px solid black; padding:0.5em }
+      a.comment-indicator { background:red; display:inline-block; border:1px solid black; width:0.5em; height:0.5em }
+      div.comment { display:none }
+      table { border-collapse:collapse; page-break-after:always }
+      .gridlines td { border:1px dotted black }
+      .gridlines th { border:1px dotted black }
+      .b { text-align:center }
+      .e { text-align:center }
+      .f { text-align:right }
+      .inlineStr { text-align:left }
+      .n { text-align:right }
+      .s { text-align:left }
+      td.style0 { vertical-align:middle; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style0 { vertical-align:middle; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style1 { vertical-align:middle; text-align:center; border-bottom:1px solid #91ABDF !important; border-top:1px solid #91ABDF !important; border-left:1px solid #91ABDF !important; border-right:none #000000; font-weight:bold; color:#FFFFFF; font-family:'宋体'; font-size:8pt; background-color:#4874CB }
+      th.style1 { vertical-align:middle; text-align:center; border-bottom:1px solid #91ABDF !important; border-top:1px solid #91ABDF !important; border-left:1px solid #91ABDF !important; border-right:none #000000; font-weight:bold; color:#FFFFFF; font-family:'宋体'; font-size:8pt; background-color:#4874CB }
+      td.style2 { vertical-align:bottom; border-bottom:1px solid #91ABDF !important; border-top:1px solid #91ABDF !important; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#FFFFFF; font-family:'宋体'; font-size:8pt; background-color:#4874CB }
+      th.style2 { vertical-align:bottom; border-bottom:1px solid #91ABDF !important; border-top:1px solid #91ABDF !important; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#FFFFFF; font-family:'宋体'; font-size:8pt; background-color:#4874CB }
+      td.style3 { vertical-align:bottom; text-align:center; border-bottom:1px solid #91ABDF !important; border-top:1px solid #91ABDF !important; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#FFFFFF; font-family:'宋体'; font-size:8pt; background-color:#4874CB }
+      th.style3 { vertical-align:bottom; text-align:center; border-bottom:1px solid #91ABDF !important; border-top:1px solid #91ABDF !important; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#FFFFFF; font-family:'宋体'; font-size:8pt; background-color:#4874CB }
+      td.style4 { vertical-align:bottom; text-align:center; border-bottom:1px solid #91ABDF !important; border-top:1px solid #91ABDF !important; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#FF0000; font-family:'宋体'; font-size:8pt; background-color:#4874CB }
+      th.style4 { vertical-align:bottom; text-align:center; border-bottom:1px solid #91ABDF !important; border-top:1px solid #91ABDF !important; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#FF0000; font-family:'宋体'; font-size:8pt; background-color:#4874CB }
+      td.style5 { vertical-align:middle; text-align:center; border-bottom:1px solid #91ABDF !important; border-top:1px solid #91ABDF !important; border-left:1px solid #91ABDF !important; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:8pt; background-color:#DAE3F4 }
+      th.style5 { vertical-align:middle; text-align:center; border-bottom:1px solid #91ABDF !important; border-top:1px solid #91ABDF !important; border-left:1px solid #91ABDF !important; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:8pt; background-color:#DAE3F4 }
+      td.style6 { vertical-align:bottom; border-bottom:1px solid #91ABDF !important; border-top:1px solid #91ABDF !important; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:8pt; background-color:#DAE3F4 }
+      th.style6 { vertical-align:bottom; border-bottom:1px solid #91ABDF !important; border-top:1px solid #91ABDF !important; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:8pt; background-color:#DAE3F4 }
+      td.style7 { vertical-align:bottom; text-align:center; border-bottom:1px solid #91ABDF !important; border-top:1px solid #91ABDF !important; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:8pt; background-color:#DAE3F4 }
+      th.style7 { vertical-align:bottom; text-align:center; border-bottom:1px solid #91ABDF !important; border-top:1px solid #91ABDF !important; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:8pt; background-color:#DAE3F4 }
+      td.style8 { vertical-align:middle; text-align:center; border-bottom:1px solid #91ABDF !important; border-top:1px solid #91ABDF !important; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#FF0000; font-family:'宋体'; font-size:8pt; background-color:#DAE3F4 }
+      th.style8 { vertical-align:middle; text-align:center; border-bottom:1px solid #91ABDF !important; border-top:1px solid #91ABDF !important; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#FF0000; font-family:'宋体'; font-size:8pt; background-color:#DAE3F4 }
+      td.style9 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:1px solid #91ABDF !important; border-left:1px solid #91ABDF !important; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:8pt; background-color:white }
+      th.style9 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:1px solid #91ABDF !important; border-left:1px solid #91ABDF !important; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:8pt; background-color:white }
+      td.style10 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:1px solid #91ABDF !important; border-top:1px solid #91ABDF !important; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:8pt; background-color:white }
+      th.style10 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:1px solid #91ABDF !important; border-top:1px solid #91ABDF !important; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:8pt; background-color:white }
+      td.style11 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:1px solid #91ABDF !important; border-top:1px solid #91ABDF !important; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:8pt; background-color:white }
+      th.style11 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:1px solid #91ABDF !important; border-top:1px solid #91ABDF !important; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:8pt; background-color:white }
+      td.style12 { vertical-align:bottom; text-align:center; border-bottom:1px solid #91ABDF !important; border-top:1px solid #91ABDF !important; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:8pt; background-color:white }
+      th.style12 { vertical-align:bottom; text-align:center; border-bottom:1px solid #91ABDF !important; border-top:1px solid #91ABDF !important; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:8pt; background-color:white }
+      td.style13 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:1px solid #91ABDF !important; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:8pt; background-color:white }
+      th.style13 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:1px solid #91ABDF !important; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:8pt; background-color:white }
+      td.style14 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:1px solid #91ABDF !important; border-top:1px solid #91ABDF !important; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:8pt; background-color:#DAE3F4 }
+      th.style14 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:1px solid #91ABDF !important; border-top:1px solid #91ABDF !important; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:8pt; background-color:#DAE3F4 }
+      td.style15 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:1px solid #91ABDF !important; border-top:1px solid #91ABDF !important; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:8pt; background-color:#DAE3F4 }
+      th.style15 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:1px solid #91ABDF !important; border-top:1px solid #91ABDF !important; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:8pt; background-color:#DAE3F4 }
+      td.style16 { vertical-align:bottom; text-align:center; border-bottom:1px solid #91ABDF !important; border-top:1px solid #91ABDF !important; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:8pt; background-color:#DAE3F4 }
+      th.style16 { vertical-align:bottom; text-align:center; border-bottom:1px solid #91ABDF !important; border-top:1px solid #91ABDF !important; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:8pt; background-color:#DAE3F4 }
+      td.style17 { vertical-align:middle; text-align:center; border-bottom:1px solid #91ABDF !important; border-top:none #000000; border-left:1px solid #91ABDF !important; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:8pt; background-color:white }
+      th.style17 { vertical-align:middle; text-align:center; border-bottom:1px solid #91ABDF !important; border-top:none #000000; border-left:1px solid #91ABDF !important; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:8pt; background-color:white }
+      td.style18 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:1px solid #91ABDF !important; border-left:1px solid #91ABDF !important; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:8pt; background-color:#DAE3F4 }
+      th.style18 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:1px solid #91ABDF !important; border-left:1px solid #91ABDF !important; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:8pt; background-color:#DAE3F4 }
+      td.style19 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:1px solid #91ABDF !important; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:8pt; background-color:#DAE3F4 }
+      th.style19 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:1px solid #91ABDF !important; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:8pt; background-color:#DAE3F4 }
+      td.style20 { vertical-align:middle; text-align:center; border-bottom:1px solid #91ABDF !important; border-top:none #000000; border-left:1px solid #91ABDF !important; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:8pt; background-color:#DAE3F4 }
+      th.style20 { vertical-align:middle; text-align:center; border-bottom:1px solid #91ABDF !important; border-top:none #000000; border-left:1px solid #91ABDF !important; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:8pt; background-color:#DAE3F4 }
+      td.style21 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:1px solid #91ABDF !important; border-top:1px solid #91ABDF !important; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'宋体'; font-size:8pt; background-color:#4874CB }
+      th.style21 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:1px solid #91ABDF !important; border-top:1px solid #91ABDF !important; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'宋体'; font-size:8pt; background-color:#4874CB }
+      td.style22 { vertical-align:middle; text-align:center; border-bottom:1px solid #91ABDF !important; border-top:1px solid #91ABDF !important; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#FFFFFF; font-family:'宋体'; font-size:8pt; background-color:#4874CB }
+      th.style22 { vertical-align:middle; text-align:center; border-bottom:1px solid #91ABDF !important; border-top:1px solid #91ABDF !important; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#FFFFFF; font-family:'宋体'; font-size:8pt; background-color:#4874CB }
+      td.style23 { vertical-align:middle; text-align:center; border-bottom:1px solid #91ABDF !important; border-top:1px solid #91ABDF !important; border-left:none #000000; border-right:1px solid #91ABDF !important; font-weight:bold; color:#FFFFFF; font-family:'宋体'; font-size:8pt; background-color:#4874CB }
+      th.style23 { vertical-align:middle; text-align:center; border-bottom:1px solid #91ABDF !important; border-top:1px solid #91ABDF !important; border-left:none #000000; border-right:1px solid #91ABDF !important; font-weight:bold; color:#FFFFFF; font-family:'宋体'; font-size:8pt; background-color:#4874CB }
+      td.style24 { vertical-align:middle; text-align:center; border-bottom:1px solid #91ABDF !important; border-top:1px solid #91ABDF !important; border-left:none #000000; border-right:none #000000; color:#FF0000; font-family:'宋体'; font-size:8pt; background-color:#DAE3F4 }
+      th.style24 { vertical-align:middle; text-align:center; border-bottom:1px solid #91ABDF !important; border-top:1px solid #91ABDF !important; border-left:none #000000; border-right:none #000000; color:#FF0000; font-family:'宋体'; font-size:8pt; background-color:#DAE3F4 }
+      td.style25 { vertical-align:middle; text-align:center; border-bottom:1px solid #91ABDF !important; border-top:1px solid #91ABDF !important; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:8pt; background-color:#DAE3F4 }
+      th.style25 { vertical-align:middle; text-align:center; border-bottom:1px solid #91ABDF !important; border-top:1px solid #91ABDF !important; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:8pt; background-color:#DAE3F4 }
+      td.style26 { vertical-align:middle; text-align:center; border-bottom:1px solid #91ABDF !important; border-top:1px solid #91ABDF !important; border-left:none #000000; border-right:1px solid #91ABDF !important; color:#000000; font-family:'Wingdings'; font-size:8pt; background-color:#DAE3F4 }
+      th.style26 { vertical-align:middle; text-align:center; border-bottom:1px solid #91ABDF !important; border-top:1px solid #91ABDF !important; border-left:none #000000; border-right:1px solid #91ABDF !important; color:#000000; font-family:'Wingdings'; font-size:8pt; background-color:#DAE3F4 }
+      td.style27 { vertical-align:middle; text-align:center; border-bottom:1px solid #91ABDF !important; border-top:1px solid #91ABDF !important; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:8pt; background-color:white }
+      th.style27 { vertical-align:middle; text-align:center; border-bottom:1px solid #91ABDF !important; border-top:1px solid #91ABDF !important; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:8pt; background-color:white }
+      td.style28 { vertical-align:middle; text-align:center; border-bottom:1px solid #91ABDF !important; border-top:1px solid #91ABDF !important; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:8pt; background-color:#DAE3F4 }
+      th.style28 { vertical-align:middle; text-align:center; border-bottom:1px solid #91ABDF !important; border-top:1px solid #91ABDF !important; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:8pt; background-color:#DAE3F4 }
+      td.style29 { vertical-align:middle; text-align:right; padding-right:0px; border-bottom:1px solid #91ABDF !important; border-top:1px solid #91ABDF !important; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:8pt; background-color:#DAE3F4 }
+      th.style29 { vertical-align:middle; text-align:right; padding-right:0px; border-bottom:1px solid #91ABDF !important; border-top:1px solid #91ABDF !important; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:8pt; background-color:#DAE3F4 }
+      td.style30 { vertical-align:middle; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style30 { vertical-align:middle; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style31 { vertical-align:middle; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style31 { vertical-align:middle; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style32 { vertical-align:bottom; border-bottom:1px solid #91ABDF !important; border-top:1px solid #91ABDF !important; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:8pt; background-color:white }
+      th.style32 { vertical-align:bottom; border-bottom:1px solid #91ABDF !important; border-top:1px solid #91ABDF !important; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:8pt; background-color:white }
+      td.style33 { vertical-align:bottom; border-bottom:1px solid #91ABDF !important; border-top:1px solid #91ABDF !important; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:8pt; background-color:#DAE3F4 }
+      th.style33 { vertical-align:bottom; border-bottom:1px solid #91ABDF !important; border-top:1px solid #91ABDF !important; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:8pt; background-color:#DAE3F4 }
+      td.style34 { vertical-align:bottom; text-align:center; border-bottom:1px solid #91ABDF !important; border-top:1px solid #91ABDF !important; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:8pt; background-color:white }
+      th.style34 { vertical-align:bottom; text-align:center; border-bottom:1px solid #91ABDF !important; border-top:1px solid #91ABDF !important; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:8pt; background-color:white }
+      td.style35 { vertical-align:middle; text-align:center; border-bottom:1px solid #91ABDF !important; border-top:1px solid #91ABDF !important; border-left:none #000000; border-right:1px solid #91ABDF !important; color:#000000; font-family:'宋体'; font-size:8pt; background-color:#DAE3F4 }
+      th.style35 { vertical-align:middle; text-align:center; border-bottom:1px solid #91ABDF !important; border-top:1px solid #91ABDF !important; border-left:none #000000; border-right:1px solid #91ABDF !important; color:#000000; font-family:'宋体'; font-size:8pt; background-color:#DAE3F4 }
+      table.sheet0 col.col0 { width:61.67777707pt }
+      table.sheet0 col.col1 { width:89.46666564pt }
+      table.sheet0 col.col2 { width:175.54444243pt }
+      table.sheet0 col.col3 { width:42pt }
+      table.sheet0 col.col4 { width:67.09999923pt }
+      table.sheet0 col.col5 { width:42pt }
+      table.sheet0 col.col6 { width:42pt }
+      table.sheet0 col.col7 { width:42pt }
+      table.sheet0 col.col8 { width:42pt }
+      table.sheet0 tr { height:15pt }
+    </style>
+  </head>
+
+  <body>
+<style>
+@page { margin-left: 0.75in; margin-right: 0.75in; margin-top: 1in; margin-bottom: 1in; }
+body { margin-left: 0.75in; margin-right: 0.75in; margin-top: 1in; margin-bottom: 1in; }
+</style>
+    <table border="0" cellpadding="0" cellspacing="0" id="sheet0" class="sheet0 gridlines">
+        <col class="col0">
+        <col class="col1">
+        <col class="col2">
+        <col class="col3">
+        <col class="col4">
+        <col class="col5">
+        <col class="col6">
+        <col class="col7">
+        <col class="col8">
+        <tbody>
+          <tr class="row0">
+            <td class="column0 style1 s">DATE</td>
+            <td class="column1 style2 s">TYPE</td>
+            <td class="column2 style3 s">TRANSACTION DESCRIPTION</td>
+            <td class="column3 style4 s">DEBIT ( - )</td>
+            <td class="column4 style21 s">CHECK #</td>
+            <td class="column5 style22 s">CREDIT ( + )</td>
+            <td class="column6 style22 s">BALANCE</td>
+            <td class="column7 style23 s">RECONCILE</td>
+            <td class="column8 style30 null"></td>
+          </tr>
+          <tr class="row1">
+            <td class="column0 style5 null"></td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style7 null"></td>
+            <td class="column3 style8 s">Carry Over Amount from Previous Month =</td>
+            <td class="column4 style24 null"></td>
+            <td class="column5 style25 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 8,931.97 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row2">
+            <td class="column0 style9 n style17" rowspan="7">12/1/2016</td>
+            <td class="column1 style10 s">GAS CHARGES</td>
+            <td class="column2 style11 s">CHECKCARD 1129 SUNOCO 0980600100 MARLBOROUGH MA 24231686335889335978051 CKCD 5542 4135751004821839</td>
+            <td class="column3 style12 n">27.16</td>
+            <td class="column4 style27 null"></td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 8,904.81 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row3">
+            <td class="column1 style14 s">GAS CHARGES</td>
+            <td class="column2 style15 s">CHECKCARD 1129 SUNOCO 0980600100 MARLBOROUGH MA 24231686335889335978010 CKCD 5541 4135751004821839</td>
+            <td class="column3 style16 n">145</td>
+            <td class="column4 style28 null"></td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 8,759.81 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row4">
+            <td class="column1 style10 s">GAS CHARGES</td>
+            <td class="column2 style11 s">CHECKCARD 1129 EXXONMOBIL 97540942 WEST BARNSTABMA 24164056335378012199196 CKCD 5542 4135751004821839</td>
+            <td class="column3 style12 n">65.13</td>
+            <td class="column4 style27 null"></td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 8,694.68 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row5">
+            <td class="column1 style14 s">GAS CHARGES</td>
+            <td class="column2 style15 s">CHECKCARD 1130 BP#6459705ASA PETROLEUM LINDEN NJ 24122546335740335260438 CKCD 5542 4135751004821839</td>
+            <td class="column3 style16 n">25</td>
+            <td class="column4 style28 null"></td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 8,669.68 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row6">
+            <td class="column1 style10 s">PAYROLL</td>
+            <td class="column2 style11 s">Check 1013</td>
+            <td class="column3 style12 n">1200</td>
+            <td class="column4 style27 s">Check 1013</td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 7,469.68 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8 style31 null"></td>
+          </tr>
+          <tr class="row7">
+            <td class="column1 style14 s">BANK FEES</td>
+            <td class="column2 style15 s">CHECK ORDER00035 DES:FEE ID:06Q24541 INDN:OKAMI LOGISTICS LLC CO ID:0000000035 PPD PMT INFO: PRODUCT(S): 66.35 S&amp;H: 0.00 NJ TAX: 4.65</td>
+            <td class="column3 style16 n">71</td>
+            <td class="column4 style29 null"></td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 7,398.68 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row8">
+            <td class="column1 style10 s">BANK FEES</td>
+            <td class="column2 style11 s">Wire Transfer Fee</td>
+            <td class="column3 style12 n">15</td>
+            <td class="column4 style27 null"></td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 7,383.68 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row9">
+            <td class="column0 style18 n style20" rowspan="5">12/2/2016</td>
+            <td class="column1 style14 s">DEPOSITS</td>
+            <td class="column2 style15 s">WIRE TYPE:BOOK IN DATE:161202 TIME:1423 ET TRN:2016120200327936 SNDR REF:16C2D0133NRC1T77 ORIG:METROPOLITAN WAREHOUSE &amp; ID:381032737785</td>
+            <td class="column3 style16 n">0</td>
+            <td class="column4 style28 null"></td>
+            <td class="column5 style15 n">1340</td>
+            <td class="column6 style25 n">&nbsp;$ 8,723.68 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row10">
+            <td class="column1 style10 s">GAS CHARGES</td>
+            <td class="column2 style11 s">CHECKCARD 1130 SUNOCO 0980600100 MARLBOROUGH MA 24231686336889336264419 CKCD 5542 4135751004561526</td>
+            <td class="column3 style12 n">70.02</td>
+            <td class="column4 style27 null"></td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 8,653.66 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row11">
+            <td class="column1 style14 s">GAS CHARGES</td>
+            <td class="column2 style15 s">CHECKCARD 1130 SUNOCO 0980600100 MARLBOROUGH MA 24231686336889336264427 CKCD 5541 4135751004561526</td>
+            <td class="column3 style16 n">70.13</td>
+            <td class="column4 style28 null"></td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 8,583.53 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row12">
+            <td class="column1 style10 s">TRUCK EXPENSES</td>
+            <td class="column2 style11 s">CHECKCARD 1201 NEW JERSEY E-ZPASS NEWARK NJ 24610436336004088020719 CKCD 4784 4135751004561526</td>
+            <td class="column3 style12 n">150</td>
+            <td class="column4 style27 null"></td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 8,433.53 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row13">
+            <td class="column1 style14 s">OFFICE EXPENSES</td>
+            <td class="column2 style15 s">BKOFAMERICA ATM 12/02 #000001231 WITHDRWL MARLBOROUGH - PO MARLBOROUGH MA CKCD 4135751004561526</td>
+            <td class="column3 style16 n">200</td>
+            <td class="column4 style28 null"></td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 8,233.53 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row14">
+            <td class="column0 style9 n style17" rowspan="20">12/5/2016</td>
+            <td class="column1 style10 s">DEPOSITS</td>
+            <td class="column2 style11 s">Counter Credit</td>
+            <td class="column3 style12 n">0</td>
+            <td class="column4 style27 null"></td>
+            <td class="column5 style11 n">3000</td>
+            <td class="column6 style25 n">&nbsp;$ 11,233.53 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row15">
+            <td class="column1 style14 s">GAS CHARGES</td>
+            <td class="column2 style15 s">CHECKCARD 1201 SUNOCO 0980600100 MARLBOROUGH MA 24231686337889337745076 CKCD 5542 4135751004561526</td>
+            <td class="column3 style16 n">36.81</td>
+            <td class="column4 style28 null"></td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 11,196.72 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row16">
+            <td class="column1 style10 s">GAS CHARGES</td>
+            <td class="column2 style11 s">CHECKCARD 1201 SUNOCO 0980600100 MARLBOROUGH MA 24231686337889337745084 CKCD 5541 4135751004561526</td>
+            <td class="column3 style12 n">120.34</td>
+            <td class="column4 style27 null"></td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 11,076.38 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row17">
+            <td class="column1 style14 s">GAS CHARGES</td>
+            <td class="column2 style15 s">CHECKCARD 1202 BP#6459705ASA PETROLEUM LINDEN NJ 24122546337740337310197 CKCD 5542 4135751004821839</td>
+            <td class="column3 style16 n">51.12</td>
+            <td class="column4 style28 null"></td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 11,025.26 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row18">
+            <td class="column1 style10 s">GAS CHARGES</td>
+            <td class="column2 style11 s">CHECKCARD 1202 SUNOCO 0980600100 MARLBOROUGH MA 24231686338889338246545 CKCD 5541 4135751004561526</td>
+            <td class="column3 style12 n">90.63</td>
+            <td class="column4 style27 null"></td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 10,934.63 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row19">
+            <td class="column1 style14 s">GAS CHARGES</td>
+            <td class="column2 style15 s">CHECKCARD 1202 EXXONMOBIL 48142731 WESTBOROUGH MA 24164056338378008734342 CKCD 5542 4135751004561526</td>
+            <td class="column3 style16 n">44.87</td>
+            <td class="column4 style28 null"></td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 10,889.76 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row20">
+            <td class="column1 style10 s">TRAVEL EXPENSES</td>
+            <td class="column2 style11 s">CHECKCARD 1203 DAYS INN SHREWBURY SHREWSBURY MA 24071056339987186115651 CKCD 3510 4135751004561526</td>
+            <td class="column3 style12 n">268.04</td>
+            <td class="column4 style27 null"></td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 10,621.72 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row21">
+            <td class="column1 style14 s">GAS CHARGES</td>
+            <td class="column2 style15 s">CHECKCARD 1203 EXXONMOBIL 97456628 WESTBOROUGH MA 24164056339837010370949 CKCD 5541 4135751004561526</td>
+            <td class="column3 style16 n">40</td>
+            <td class="column4 style28 null"></td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 10,581.72 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row22">
+            <td class="column1 style10 s">TRUCK EXPENSES</td>
+            <td class="column2 style11 s">AUTOZONE 1677 12/03 #000732128 PURCHASE AUTOZONE 1677 56 EDISON NJ CKCD 5533 4135751004821839</td>
+            <td class="column3 style12 n">75.93</td>
+            <td class="column4 style27 null"></td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 10,505.79 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row23">
+            <td class="column1 style14 s">OFFICE EXPENSES</td>
+            <td class="column2 style15 s">Online Banking transfer to CHK 4720 Confirmation# 3392315902</td>
+            <td class="column3 style16 n">300</td>
+            <td class="column4 style28 null"></td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 10,205.79 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row24">
+            <td class="column1 style10 s">GAS CHARGES</td>
+            <td class="column2 style11 s">WAWA 8323 12/05 #000673104 PURCHASE WAWA 8323 AVENEL NJ CKCD 5542 4135751004821839</td>
+            <td class="column3 style12 n">43.17</td>
+            <td class="column4 style27 null"></td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 10,162.62 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row25">
+            <td class="column1 style14 s">TRUCK EXPENSES</td>
+            <td class="column2 style15 s">AUTOZONE 4794 12/05 #000637917 PURCHASE AUTOZONE 4794 59 ELIZABETH NJ CKCD 5533 4135751004821839</td>
+            <td class="column3 style16 n">18.63</td>
+            <td class="column4 style28 null"></td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 10,143.99 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row26">
+            <td class="column1 style10 s">PAYROLL</td>
+            <td class="column2 style11 s">Check 1008</td>
+            <td class="column3 style12 n">600</td>
+            <td class="column4 style27 s">Check 1008</td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 9,543.99 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row27">
+            <td class="column1 style14 s">PAYROLL</td>
+            <td class="column2 style15 s">Check 1009</td>
+            <td class="column3 style16 n">675</td>
+            <td class="column4 style28 s">Check 1009</td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 8,868.99 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row28">
+            <td class="column1 style10 s">PAYROLL</td>
+            <td class="column2 style11 s">Check 1010</td>
+            <td class="column3 style12 n">600</td>
+            <td class="column4 style27 s">Check 1010</td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 8,268.99 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row29">
+            <td class="column1 style14 s">PAYROLL</td>
+            <td class="column2 style15 s">Check 1011</td>
+            <td class="column3 style16 n">350</td>
+            <td class="column4 style28 s">Check 1011</td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 7,918.99 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row30">
+            <td class="column1 style10 s">PAYROLL</td>
+            <td class="column2 style11 s">Check 1014</td>
+            <td class="column3 style12 n">550</td>
+            <td class="column4 style27 s">Check 1014</td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 7,368.99 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row31">
+            <td class="column1 style14 s">PAYROLL</td>
+            <td class="column2 style15 s">Check 1015</td>
+            <td class="column3 style16 n">520</td>
+            <td class="column4 style28 s">Check 1015</td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 6,848.99 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row32">
+            <td class="column1 style10 s">PAYROLL</td>
+            <td class="column2 style11 s">Check 1016</td>
+            <td class="column3 style12 n">1191</td>
+            <td class="column4 style27 s">Check 1016</td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 5,657.99 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row33">
+            <td class="column1 style14 s">BANK FEES</td>
+            <td class="column2 style15 s">Wire Transfer Fee</td>
+            <td class="column3 style16 n">15</td>
+            <td class="column4 style28 null"></td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 5,642.99 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row34">
+            <td class="column0 style9 n style17" rowspan="7">12/6/2016</td>
+            <td class="column1 style10 s">DEPOSITS</td>
+            <td class="column2 style11 s">BKOFAMERICA ATM 12/06 #000001616 DEPOSIT LATIN AMERICAN B ELIZABETH NJ CKCD 4135751004821839</td>
+            <td class="column3 style12 n">0</td>
+            <td class="column4 style27 null"></td>
+            <td class="column5 style11 n">600</td>
+            <td class="column6 style25 n">&nbsp;$ 6,242.99 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row35">
+            <td class="column1 style14 s">GAS CHARGES</td>
+            <td class="column2 style15 s">CHECKCARD 1204 EXXONMOBIL 99163701 ELIZABETH NJ 24164056340837014785701 CKCD 5541 4135751004821839</td>
+            <td class="column3 style16 n">53.45</td>
+            <td class="column4 style28 null"></td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 6,189.54 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row36">
+            <td class="column1 style10 s">GAS CHARGES</td>
+            <td class="column2 style11 s">CHECKCARD 1205 BP#2089936COSTA &amp; JOAO CARTERET NJ 24122546340740340060487 CKCD 5541 4135751004561526</td>
+            <td class="column3 style12 n">44</td>
+            <td class="column4 style27 null"></td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 6,145.54 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row37">
+            <td class="column1 style14 s">GAS CHARGES</td>
+            <td class="column2 style15 s">CHECKCARD 1205 SPEEDWAY 03444 PERTH AMBOY NJ 24224436341102011889118 CKCD 5542 4256470000170017</td>
+            <td class="column3 style16 n">10</td>
+            <td class="column4 style28 null"></td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 6,135.54 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row38">
+            <td class="column1 style10 s">OFFICE EXPENSES</td>
+            <td class="column2 style11 s">CHECKCARD 1205 NJMVC RAHWAY RAHWAY NJ 24755426341123418605210 CKCD 9399 4256470000170017</td>
+            <td class="column3 style12 n">5036.5</td>
+            <td class="column4 style27 null"></td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 1,099.04 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row39">
+            <td class="column1 style14 s">TRAVEL EXPENSES</td>
+            <td class="column2 style15 s">CHECKCARD 1206 HOTELS.COM HOTELS.COM WA 24692166341000220195838 CKCD 4722 4135751004821839</td>
+            <td class="column3 style16 n">72.71</td>
+            <td class="column4 style28 null"></td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 1,026.33 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row40">
+            <td class="column1 style10 s">OFFICE EXPENSES</td>
+            <td class="column2 style11 s">CHECKCARD 1205 WAL-MART #3469 LINDEN NJ 24226386341400008482599 CKCD 5310 4256470000170017</td>
+            <td class="column3 style12 n">92.62</td>
+            <td class="column4 style27 null"></td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 933.71 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row41">
+            <td class="column0 style18 n style20" rowspan="4">12/7/2016</td>
+            <td class="column1 style14 s">DEPOSITS</td>
+            <td class="column2 style15 s">BKOFAMERICA ATM 12/06 #000007034 DEPOSIT ELIZABETH - JEFF ELIZABETH NJ CKCD 4135751004821839</td>
+            <td class="column3 style16 n">0</td>
+            <td class="column4 style28 null"></td>
+            <td class="column5 style15 n">200</td>
+            <td class="column6 style25 n">&nbsp;$ 1,133.71 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row42">
+            <td class="column1 style10 s">TRUCK EXPENSES</td>
+            <td class="column2 style11 s">CHECKCARD 1205 AUTOZONE #4794 ELIZABETH NJ 24445006341500305119304 CKCD 5533 4135751004821839</td>
+            <td class="column3 style12 n">16.54</td>
+            <td class="column4 style27 null"></td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 1,117.17 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row43">
+            <td class="column1 style14 s">TRAVEL EXPENSES</td>
+            <td class="column2 style15 s">CHECKCARD 1205 WING S FAIRL* FAIRLEE VT 24692166341000567691878 CKCD 5542 4135751004561526</td>
+            <td class="column3 style16 n">104.14</td>
+            <td class="column4 style28 null"></td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 1,013.03 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row44">
+            <td class="column1 style10 s">GAS CHARGES</td>
+            <td class="column2 style11 s">SHELL Service 12/07 #000964157 PURCHASE SHELL Service Sta SMITHFIELD RI CKCD 5541 4256470000170017</td>
+            <td class="column3 style12 n">150.01</td>
+            <td class="column4 style27 null"></td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 863.02 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row45">
+            <td class="column0 style18 n style20" rowspan="7">12/8/2016</td>
+            <td class="column1 style14 s">TRUCK EXPENSES</td>
+            <td class="column2 style15 s">CHECKCARD 1205 RAY CATENA MOTOR CAR EDISON NJ 74019516342904500104269 CKCD 5511 4135751004821839 5</td>
+            <td class="column3 style16 n">0</td>
+            <td class="column4 style28 null"></td>
+            <td class="column5 style15 n">44.81</td>
+            <td class="column6 style25 n">&nbsp;$ 907.83 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row46">
+            <td class="column1 style10 s">TRUCK EXPENSES</td>
+            <td class="column2 style11 s">CHECKCARD 1205 RAY CATENA MOTOR CAR EDISON NJ 24019516342904500104140 CKCD 5511 4135751004821839</td>
+            <td class="column3 style12 n">68.29</td>
+            <td class="column4 style27 null"></td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 839.54 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row47">
+            <td class="column1 style14 s">TRUCK EXPENSES</td>
+            <td class="column2 style15 s">CHECKCARD 1205 RAY CATENA MOTOR CAR EDISON NJ 24019516342904500104272 CKCD 5511 4135751004821839</td>
+            <td class="column3 style16 n">54.1</td>
+            <td class="column4 style28 null"></td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 785.44 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row48">
+            <td class="column1 style10 s">GAS CHARGES</td>
+            <td class="column2 style11 s">CHECKCARD 1206 SUNOCO 0980600100 MARLBOROUGH MA 24231686342889342134301 CKCD 5542 4256470000170017</td>
+            <td class="column3 style12 n">52.81</td>
+            <td class="column4 style27 null"></td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 732.63 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row49">
+            <td class="column1 style14 s">GAS CHARGES</td>
+            <td class="column2 style15 s">CHECKCARD 1206 SUNOCO 0980600100 MARLBOROUGH MA 24231686342889342134327 CKCD 5541 4256470000170017</td>
+            <td class="column3 style16 n">38.46</td>
+            <td class="column4 style28 null"></td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 694.17 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row50">
+            <td class="column1 style10 s">GAS CHARGES</td>
+            <td class="column2 style11 s">CHECKCARD 1207 US PETROLEUM FRAMINGHAM MA 24013396342000944530124 CKCD 5541 4256470000170017</td>
+            <td class="column3 style12 n">41.76</td>
+            <td class="column4 style27 null"></td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 652.41 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row51">
+            <td class="column1 style14 s">OFFICE EXPENSES</td>
+            <td class="column2 style15 s">BIG APPLE #204 12/08 #000721112 PURCHASE BIG APPLE #2041 KENNEBUNK ME CKCD 5542 4135751004561526</td>
+            <td class="column3 style16 n">52.6</td>
+            <td class="column4 style28 null"></td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 599.81 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row52">
+            <td class="column0 style9 n style17" rowspan="6">12/9/2016</td>
+            <td class="column1 style10 s">DEPOSITS</td>
+            <td class="column2 style11 s">WIRE TYPE:BOOK IN DATE:161209 TIME:1349 ET TRN:2016120900290769 SNDR REF:16C9820212DI0040 ORIG:METROPOLITAN WAREHOUSE &amp; ID:381032737785</td>
+            <td class="column3 style12 n">0</td>
+            <td class="column4 style27 null"></td>
+            <td class="column5 style11 n">4600</td>
+            <td class="column6 style25 n">&nbsp;$ 5,199.81 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row53">
+            <td class="column1 style14 s">DEPOSITS</td>
+            <td class="column2 style15 s">WIRE TYPE:BOOK IN DATE:161209 TIME:1350 ET TRN:2016120900290785 SNDR REF:16C982003P9K0K38 ORIG:METROPOLITAN WAREHOUSE &amp; ID:381032737785</td>
+            <td class="column3 style16 n">0</td>
+            <td class="column4 style28 null"></td>
+            <td class="column5 style15 n">970</td>
+            <td class="column6 style25 n">&nbsp;$ 6,169.81 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row54">
+            <td class="column1 style10 s">GAS CHARGES</td>
+            <td class="column2 style11 s">CHECKCARD 1207 SUNOCO 0980600100 MARLBOROUGH MA 24231686343889343502810 CKCD 5542 4135751004561526</td>
+            <td class="column3 style12 n">26.87</td>
+            <td class="column4 style27 null"></td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 6,142.94 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row55">
+            <td class="column1 style14 s">GAS CHARGES</td>
+            <td class="column2 style15 s">CHECKCARD 1207 495 TRUCK CENTER MARLBOROUGH MA 24777166343900019700019 CKCD 5511 4256470000170017</td>
+            <td class="column3 style16 n">9.46</td>
+            <td class="column4 style28 null"></td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 6,133.48 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row56">
+            <td class="column1 style10 s">PAYROLL</td>
+            <td class="column2 style11 s">MA TLR cash withdrawal from CHK 6523 Banking Ctr MARLBOROUGH-POST #0084426 MA Confirmation# 0331662766</td>
+            <td class="column3 style12 n">1900</td>
+            <td class="column4 style27 null"></td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 4,233.48 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row57">
+            <td class="column1 style14 s">PAYROLL</td>
+            <td class="column2 style15 s">Check 1017</td>
+            <td class="column3 style16 n">581</td>
+            <td class="column4 style28 s">Check 1017</td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 3,652.48 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row58">
+            <td class="column0 style9 n style17" rowspan="17">12/12/2016</td>
+            <td class="column1 style10 s">DEPOSITS</td>
+            <td class="column2 style11 s">WIRE TYPE:BOOK IN DATE:161212 TIME:1042 ET TRN:2016121200242957 SNDR REF:16CC91958J7K1080 ORIG:METROPOLITAN WAREHOUSE &amp; ID:381032737785</td>
+            <td class="column3 style12 n">0</td>
+            <td class="column4 style27 null"></td>
+            <td class="column5 style11 n">4000</td>
+            <td class="column6 style25 n">&nbsp;$ 7,652.48 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row59">
+            <td class="column1 style14 s">DEPOSITS</td>
+            <td class="column2 style15 s">WIRE TYPE:BOOK IN DATE:161212 TIME:1042 ET TRN:2016121200242964 SNDR REF:16CC92036O3L1Y78 ORIG:METROPOLITAN WAREHOUSE &amp; ID:381032737785</td>
+            <td class="column3 style16 n">0</td>
+            <td class="column4 style28 null"></td>
+            <td class="column5 style15 n">970</td>
+            <td class="column6 style25 n">&nbsp;$ 8,622.48 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row60">
+            <td class="column1 style10 s">GAS CHARGES</td>
+            <td class="column2 style11 s">CHECKCARD 1208 SUNOCO 0980600100 MARLBOROUGH MA 24231686344889344774706 CKCD 5541 4135751004561526</td>
+            <td class="column3 style12 n">141.04</td>
+            <td class="column4 style27 null"></td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 8,481.44 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row61">
+            <td class="column1 style14 s">GAS CHARGES</td>
+            <td class="column2 style15 s">CHECKCARD 1208 SUNOCO 0258197301 EDISON NJ 24231686344889344743933 CKCD 5542 4135751004821839</td>
+            <td class="column3 style16 n">20</td>
+            <td class="column4 style28 null"></td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 8,461.44 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row62">
+            <td class="column1 style10 s">GAS CHARGES</td>
+            <td class="column2 style11 s">CHECKCARD 1208 SUNOCO 0267953800 PORTSMOUTH NH 24231686344889344890155 CKCD 5541 4135751004561526</td>
+            <td class="column3 style12 n">15.99</td>
+            <td class="column4 style27 null"></td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 8,445.45 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row63">
+            <td class="column1 style14 s">GAS CHARGES</td>
+            <td class="column2 style15 s">CHECKCARD 1209 BP#9552548399 WEBSTER S ROCKLAND MA 24122546344740344080164 CKCD 5542 4256470000170017</td>
+            <td class="column3 style16 n">52</td>
+            <td class="column4 style28 null"></td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 8,393.45 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row64">
+            <td class="column1 style10 s">GAS CHARGES</td>
+            <td class="column2 style11 s">CHECKCARD 1209 SUNOCO 0980600100 MARLBOROUGH MA 24231686345889345360405 CKCD 5541 4135751004561526</td>
+            <td class="column3 style12 n">136.02</td>
+            <td class="column4 style27 null"></td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 8,257.43 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row65">
+            <td class="column1 style14 s">TRAVEL EXPENSES</td>
+            <td class="column2 style15 s">CHECKCARD 1210 DAYS INN SHREWBURY SHREWSBURY MA 24071056346987132380475 CKCD 3510 4256470000170017</td>
+            <td class="column3 style16 n">312.72</td>
+            <td class="column4 style28 null"></td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 7,944.71 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row66">
+            <td class="column1 style10 s">GAS CHARGES</td>
+            <td class="column2 style11 s">CHECKCARD 1210 SHELL OIL 57542981402 WARWICK RI 24316056346548853052845 CKCD 5542 4256470000170017</td>
+            <td class="column3 style12 n">48.94</td>
+            <td class="column4 style27 null"></td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 7,895.77 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row67">
+            <td class="column1 style14 s">GAS CHARGES</td>
+            <td class="column2 style15 s">SHELL Service 12/12 #000980059 PURCHASE SHELL Service Sta LISBON CT CKCD 5542 4256470000170017</td>
+            <td class="column3 style16 n">50.16</td>
+            <td class="column4 style28 null"></td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 7,845.61 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row68">
+            <td class="column1 style10 s">GAS CHARGES</td>
+            <td class="column2 style11 s">EVANS EXPRESS 12/12 #000645106 PURCHASE EVANS EXPRESS M ENFIELD NH CKCD 5541 4256470000170017</td>
+            <td class="column3 style12 n">111.32</td>
+            <td class="column4 style27 null"></td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 7,734.29 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row69">
+            <td class="column1 style14 s">PAYROLL</td>
+            <td class="column2 style15 s">Check 1018</td>
+            <td class="column3 style16 n">420</td>
+            <td class="column4 style28 s">Check 1018</td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 7,314.29 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row70">
+            <td class="column1 style10 s">PAYROLL</td>
+            <td class="column2 style11 s">Check 1019</td>
+            <td class="column3 style12 n">560</td>
+            <td class="column4 style27 s">Check 1019</td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 6,754.29 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row71">
+            <td class="column1 style14 s">PAYROLL</td>
+            <td class="column2 style15 s">Check 1020</td>
+            <td class="column3 style16 n">560</td>
+            <td class="column4 style28 s">Check 1020</td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 6,194.29 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row72">
+            <td class="column1 style10 s">PAYROLL</td>
+            <td class="column2 style11 s">Check 1021</td>
+            <td class="column3 style12 n">450</td>
+            <td class="column4 style27 s">Check 1021</td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 5,744.29 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row73">
+            <td class="column1 style14 s">BANK FEES</td>
+            <td class="column2 style15 s">Wire Transfer Fee</td>
+            <td class="column3 style16 n">15</td>
+            <td class="column4 style28 null"></td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 5,729.29 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row74">
+            <td class="column1 style10 s">BANK FEES</td>
+            <td class="column2 style11 s">Wire Transfer Fee</td>
+            <td class="column3 style12 n">15</td>
+            <td class="column4 style27 null"></td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 5,714.29 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row75">
+            <td class="column0 style18 n style20" rowspan="10">12/13/2016</td>
+            <td class="column1 style14 s">GAS CHARGES</td>
+            <td class="column2 style15 s">CHECKCARD 1212 GULF OIL 92043628 ENFIELD NH 24231686348837000444029 CKCD 5541 4256470000170017</td>
+            <td class="column3 style16 n">5.98</td>
+            <td class="column4 style28 null"></td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 5,708.31 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row76">
+            <td class="column1 style10 s">GAS CHARGES</td>
+            <td class="column2 style11 s">CHECKCARD 1212 A.L PRIME BYFIELD BYFIELD MA 24733096347258008571695 CKCD 5541 4135751004561526</td>
+            <td class="column3 style12 n">44.64</td>
+            <td class="column4 style27 null"></td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 5,663.67 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row77">
+            <td class="column1 style14 s">TRUCK EXPENSES</td>
+            <td class="column2 style15 s">CHECKCARD 1212 SQ *RICKS TOWING &amp; HUNTINGTON VT 24492156347741384252298 CKCD 5399 4256470000170017</td>
+            <td class="column3 style16 n">650</td>
+            <td class="column4 style28 null"></td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 5,013.67 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row78">
+            <td class="column1 style10 s">TRAVEL EXPENSES</td>
+            <td class="column2 style11 s">CHECKCARD 1213 HOTELS.COM HOTELS.COM WA 24692166348000781124683 CKCD 4722 4135751004561526</td>
+            <td class="column3 style12 n">72.64</td>
+            <td class="column4 style27 null"></td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 4,941.03 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row79">
+            <td class="column1 style14 s">OFFICE EXPENSES</td>
+            <td class="column2 style15 s">BKOFAMERICA ATM 12/13 #000003824 WITHDRWL JEFFERSON AVENUE ELIZABETH NJ CKCD 4135751004821839</td>
+            <td class="column3 style16 n">100</td>
+            <td class="column4 style28 null"></td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 4,841.03 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row80">
+            <td class="column1 style10 s">PAYROLL</td>
+            <td class="column2 style11 s">Check 1022</td>
+            <td class="column3 style12 n">520</td>
+            <td class="column4 style27 s">Check 1022</td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 4,321.03 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row81">
+            <td class="column1 style14 s">PAYROLL</td>
+            <td class="column2 style15 s">Check 1023</td>
+            <td class="column3 style16 n">1340</td>
+            <td class="column4 style28 s">Check 1023</td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 2,981.03 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row82">
+            <td class="column1 style10 s">PAYROLL</td>
+            <td class="column2 style11 s">Check 1024</td>
+            <td class="column3 style12 n">1716</td>
+            <td class="column4 style27 s">Check 1024</td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 1,265.03 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row83">
+            <td class="column1 style14 s">BANK FEES</td>
+            <td class="column2 style15 s">Wire Transfer Fee</td>
+            <td class="column3 style16 n">15</td>
+            <td class="column4 style28 null"></td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 1,250.03 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row84">
+            <td class="column1 style10 s">BANK FEES</td>
+            <td class="column2 style11 s">Wire Transfer Fee</td>
+            <td class="column3 style12 n">15</td>
+            <td class="column4 style27 null"></td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 1,235.03 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row85">
+            <td class="column0 style18 n style20" rowspan="3">12/14/2016</td>
+            <td class="column1 style14 s">DEPOSITS</td>
+            <td class="column2 style15 s">OVERDRAFT PROTECTION FROM 00381048074720</td>
+            <td class="column3 style16 n">0</td>
+            <td class="column4 style28 null"></td>
+            <td class="column5 style15 n">157.41</td>
+            <td class="column6 style25 n">&nbsp;$ 1,392.44 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row86">
+            <td class="column1 style10 s">ENTERPRISE RENTALS</td>
+            <td class="column2 style11 s">CHECKCARD 1213 ENTERPRISE RENT-A-CAR EDISON NJ 24164076348018534831511 CKCD 3405 4135751004821839</td>
+            <td class="column3 style12 n">900</td>
+            <td class="column4 style27 null"></td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 492.44 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row87">
+            <td class="column1 style14 s">DEPOSITS</td>
+            <td class="column2 style15 s">Overdraft Protection Transfer Fee</td>
+            <td class="column3 style16 n">12</td>
+            <td class="column4 style28 null"></td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 480.44 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row88">
+            <td class="column0 style9 n style17" rowspan="4">12/15/2016</td>
+            <td class="column1 style10 s">DEPOSITS</td>
+            <td class="column2 style11 s">BKOFAMERICA ATM 12/15 #000004897 DEPOSIT ELIZABETH ELIZABETH NJ CKCD 4135751004821839</td>
+            <td class="column3 style12 n">0</td>
+            <td class="column4 style27 null"></td>
+            <td class="column5 style11 n">500</td>
+            <td class="column6 style25 n">&nbsp;$ 980.44 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row89">
+            <td class="column1 style14 s">GAS CHARGES</td>
+            <td class="column2 style15 s">CHECKCARD 1213 SUNOCO 0980600100 MARLBOROUGH MA 24231686349889349371909 CKCD 5542 4135751004561526</td>
+            <td class="column3 style16 n">37.94</td>
+            <td class="column4 style28 null"></td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 942.50 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row90">
+            <td class="column1 style10 s">TRUCK EXPENSES</td>
+            <td class="column2 style11 s">CHECKCARD 1213 J &amp; B INT'L TRUCKS INC 802-655-1000 VT 24018686349500792048923 CKCD 5511 4256470000170017</td>
+            <td class="column3 style12 n">259.69</td>
+            <td class="column4 style27 null"></td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 682.81 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row91">
+            <td class="column1 style14 s">GAS CHARGES</td>
+            <td class="column2 style15 s">CHECKCARD 1213 EXXONMOBIL 99163701 ELIZABETH NJ 24164056349837017865360 CKCD 5541 4135751004821839</td>
+            <td class="column3 style16 n">53.45</td>
+            <td class="column4 style28 null"></td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 629.36 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row92">
+            <td class="column0 style9 n style17" rowspan="8">12/16/2016</td>
+            <td class="column1 style10 s">DEPOSITS</td>
+            <td class="column2 style11 s">WIRE TYPE:BOOK IN DATE:161216 TIME:1425 ET TRN:2016121600331028 SNDR REF:16CGA535757L2H75 ORIG:METROPOLITAN WAREHOUSE &amp; ID:381032737785</td>
+            <td class="column3 style12 n">0</td>
+            <td class="column4 style27 null"></td>
+            <td class="column5 style11 n">5000</td>
+            <td class="column6 style25 n">&nbsp;$ 5,629.36 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row93">
+            <td class="column1 style14 s">DEPOSITS</td>
+            <td class="column2 style15 s">WIRE TYPE:BOOK IN DATE:161216 TIME:1426 ET TRN:2016121600331047 SNDR REF:16CGA542876K2591 ORIG:METROPOLITAN WAREHOUSE &amp; ID:381032737785</td>
+            <td class="column3 style16 n">0</td>
+            <td class="column4 style28 null"></td>
+            <td class="column5 style15 n">3000</td>
+            <td class="column6 style25 n">&nbsp;$ 8,629.36 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row94">
+            <td class="column1 style10 s">DEPOSITS</td>
+            <td class="column2 style11 s">BKOFAMERICA ATM 12/16 #000007012 DEPOSIT MARLBOROUGH - PO MARLBOROUGH MA CKCD 4256470000170009</td>
+            <td class="column3 style12 n">0</td>
+            <td class="column4 style27 null"></td>
+            <td class="column5 style11 n">480</td>
+            <td class="column6 style25 n">&nbsp;$ 9,109.36 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row95">
+            <td class="column1 style14 s">OFFICE EXPENSES</td>
+            <td class="column2 style15 s">CHECKCARD 1213 SUPERIOR PIE MARLBOROUGH MA 24828246350080080501924 CKCD 5812 4135751004561526</td>
+            <td class="column3 style16 n">25</td>
+            <td class="column4 style28 null"></td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 9,084.36 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row96">
+            <td class="column1 style10 s">GAS CHARGES</td>
+            <td class="column2 style11 s">CHECKCARD 1214 EXXONMOBIL 99163701 ELIZABETH NJ 24164056350378018954016 CKCD 5542 4135751004821839</td>
+            <td class="column3 style12 n">21</td>
+            <td class="column4 style27 null"></td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 9,063.36 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row97">
+            <td class="column1 style14 s">GAS CHARGES</td>
+            <td class="column2 style15 s">CHECKCARD 1214 EXXONMOBIL 99163701 ELIZABETH NJ 24164056350378018954032 CKCD 5542 4135751004821839</td>
+            <td class="column3 style16 n">50.01</td>
+            <td class="column4 style28 null"></td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 9,013.35 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row98">
+            <td class="column1 style10 s">GAS CHARGES</td>
+            <td class="column2 style11 s">CHECKCARD 1214 SUNOCO 0980600100 MARLBOROUGH MA 24231686350889350873518 CKCD 5542 4135751004561526</td>
+            <td class="column3 style12 n">36.37</td>
+            <td class="column4 style32 null"></td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 8,976.98 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row99">
+            <td class="column1 style14 s">TRAVEL EXPENSES</td>
+            <td class="column2 style15 s">CHECKCARD 1215 HOTELS.COM HOTELS.COM WA 24692166350000755571096 CKCD 4722 4135751004821839</td>
+            <td class="column3 style16 n">83.35</td>
+            <td class="column4 style33 null"></td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 8,893.63 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row100">
+            <td class="column0 style9 n style17" rowspan="24">12/19/2016</td>
+            <td class="column1 style10 s">DEPOSITS</td>
+            <td class="column2 style11 s">BKOFAMERICA ATM 12/18 #000007168 DEPOSIT CONVERY BOULEVAR PERTH AMBOY NJ CKCD 4256470000170009</td>
+            <td class="column3 style12 n">0</td>
+            <td class="column4 style34 null"></td>
+            <td class="column5 style11 n">700</td>
+            <td class="column6 style25 n">&nbsp;$ 9,593.63 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row101">
+            <td class="column1 style14 s">GAS CHARGES</td>
+            <td class="column2 style15 s">CHECKCARD 1216 SUNOCO 0980600100 MARLBOROUGH MA 24231686352889352834243 CKCD 5542 4256470000170017</td>
+            <td class="column3 style16 n">37.42</td>
+            <td class="column4 style33 null"></td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 9,556.21 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row102">
+            <td class="column1 style10 s">GAS CHARGES</td>
+            <td class="column2 style11 s">CHECKCARD 1216 SUNOCO 0980600100 MARLBOROUGH MA 24231686352889352834250 CKCD 5541 4256470000170017</td>
+            <td class="column3 style12 n">91.3</td>
+            <td class="column4 style32 null"></td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 9,464.91 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row103">
+            <td class="column1 style14 s">TRAVEL EXPENSES</td>
+            <td class="column2 style15 s">CHECKCARD 1216 NORTHERN WELDING AND R CARIBOU ME 24071056353987153139511 CKCD 7538 4135751004561526</td>
+            <td class="column3 style16 n">132.5</td>
+            <td class="column4 style33 null"></td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 9,332.41 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row104">
+            <td class="column1 style10 s">GAS CHARGES</td>
+            <td class="column2 style11 s">CHECKCARD 1216 DYSART'S CITGO TRAVEL S ORONO ME 24610436353004135902602 CKCD 5542 4135751004561526</td>
+            <td class="column3 style12 n">11.04</td>
+            <td class="column4 style32 null"></td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 9,321.37 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row105">
+            <td class="column1 style14 s">GAS CHARGES</td>
+            <td class="column2 style15 s">CHECKCARD 1216 DYSART'S CITGO TRAVEL S ORONO ME 24610436353004135902610 CKCD 5542 4135751004561526</td>
+            <td class="column3 style16 n">100</td>
+            <td class="column4 style33 null"></td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 9,221.37 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row106">
+            <td class="column1 style10 s">GAS CHARGES</td>
+            <td class="column2 style11 s">CHECKCARD 1216 BUDGET GAS &amp; GARAGE MANCHESTER NH 24299106352002371403093 CKCD 5541 4256470000170017</td>
+            <td class="column3 style12 n">57</td>
+            <td class="column4 style32 null"></td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 9,164.37 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row107">
+            <td class="column1 style14 s">TRAVEL EXPENSES</td>
+            <td class="column2 style15 s">CHECKCARD 1217 DAYS INN SHREWBURY SHREWSBURY MA 24071056353987182004363 CKCD 3510 4256470000170017</td>
+            <td class="column3 style16 n">274.64</td>
+            <td class="column4 style33 null"></td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 8,889.73 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row108">
+            <td class="column1 style10 s">OFFICE EXPENSES</td>
+            <td class="column2 style11 s">CHECKCARD 1216 CASA VALLARTA NORTHBOROUGH MA 24224436352104015414873 CKCD 5812 4256470000170017</td>
+            <td class="column3 style12 n">39.25</td>
+            <td class="column4 style32 null"></td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 8,850.48 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row109">
+            <td class="column1 style14 s">GAS CHARGES</td>
+            <td class="column2 style15 s">CHECKCARD 1217 SUNOCO 0980600100 MARLBOROUGH MA 24231686353889353616309 CKCD 5542 4256470000170009</td>
+            <td class="column3 style16 n">100</td>
+            <td class="column4 style33 null"></td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 8,750.48 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row110">
+            <td class="column1 style10 s">TRUCK EXPENSES</td>
+            <td class="column2 style11 s">CHECKCARD 1217 495 TRUCK CENTER MARLBOROUGH MA 24777166353900010500019 CKCD 5511 4256470000170009</td>
+            <td class="column3 style12 n">45.24</td>
+            <td class="column4 style32 null"></td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 8,705.24 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row111">
+            <td class="column1 style14 s">GAS CHARGES</td>
+            <td class="column2 style15 s">SUNOCO 0980600 12/17 #000345135 PURCHASE SUNOCO 09806001 MARLBOROUGH MA CKCD 5542 4256470000170009</td>
+            <td class="column3 style16 n">34.02</td>
+            <td class="column4 style33 null"></td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 8,671.22 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row112">
+            <td class="column1 style10 s">GAS CHARGES</td>
+            <td class="column2 style11 s">SUNOCO 0980600 12/17 #000388706 PURCHASE SUNOCO 09806001 MARLBOROUGH MA CKCD 5542 4256470000170009</td>
+            <td class="column3 style12 n">23.84</td>
+            <td class="column4 style32 null"></td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 8,647.38 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row113">
+            <td class="column1 style14 s">ENTERPRISE RENTALS</td>
+            <td class="column2 style15 s">CHECKCARD 1217 ENTERPRISE RENT-A-CAR EDISON NJ 24164076353018535163643 CKCD 3405 4135751004821839</td>
+            <td class="column3 style16 n">1041.46</td>
+            <td class="column4 style33 null"></td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 7,605.92 </td>
+            <td class="column7 style26 s">ü</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row114">
+            <td class="column1 style10 s">ENTERPRISE CHARGES</td>
+            <td class="column2 style11 s">CHECKCARD 1217 ENTERPRISE RENT-A-CAR EDISON NJ 24164076353018535163650 CKCD 3405 4135751004821839</td>
+            <td class="column3 style12 n">1047</td>
+            <td class="column4 style32 null"></td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 6,558.92 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row115">
+            <td class="column1 style14 s">GAS CHARGES</td>
+            <td class="column2 style15 s">CHECKCARD 1217 SHELL OIL 57544283104 MARLBOROUGH MA 24316056353548938042894 CKCD 5542 4256470000170009</td>
+            <td class="column3 style16 n">50.2</td>
+            <td class="column4 style33 null"></td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 6,508.72 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row116">
+            <td class="column1 style10 s">GAS CHARGES</td>
+            <td class="column2 style11 s">CHECKCARD 1217 EXXONMOBIL 97441372 BROCKTON MA 24164056353837009849367 CKCD 5541 4256470000170017</td>
+            <td class="column3 style12 n">58.75</td>
+            <td class="column4 style32 null"></td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 6,449.97 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row117">
+            <td class="column1 style14 s">GAS CHARGES</td>
+            <td class="column2 style15 s">CHECKCARD 1218 BP#2434074507 BAYWAY PE ELIZABETH NJ 24122546354740354570358 CKCD 5542 4256470000170009</td>
+            <td class="column3 style16 n">45.92</td>
+            <td class="column4 style33 null"></td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 6,404.05 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row118">
+            <td class="column1 style10 s">PAYROLL</td>
+            <td class="column2 style11 s">Check 1029</td>
+            <td class="column3 style12 n">750</td>
+            <td class="column4 style32 s">Check 1029</td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 5,654.05 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row119">
+            <td class="column1 style14 s">PAYROLL</td>
+            <td class="column2 style15 s">Check 1031</td>
+            <td class="column3 style16 n">2685</td>
+            <td class="column4 style33 s">Check 1031</td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 2,969.05 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row120">
+            <td class="column1 style10 s">PAYROLL</td>
+            <td class="column2 style11 s">Check 1032</td>
+            <td class="column3 style12 n">580</td>
+            <td class="column4 style32 s">Check 1032</td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 2,389.05 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row121">
+            <td class="column1 style14 s">PAYROLL</td>
+            <td class="column2 style15 s">Check 1033</td>
+            <td class="column3 style16 n">840</td>
+            <td class="column4 style33 s">Check 1033</td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 1,549.05 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row122">
+            <td class="column1 style10 s">BANK FEES</td>
+            <td class="column2 style11 s">Wire Transfer Fee</td>
+            <td class="column3 style12 n">15</td>
+            <td class="column4 style32 null"></td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 1,534.05 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row123">
+            <td class="column1 style14 s">BANK FEES</td>
+            <td class="column2 style15 s">Wire Transfer Fee</td>
+            <td class="column3 style16 n">15</td>
+            <td class="column4 style33 null"></td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 1,519.05 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row124">
+            <td class="column0 style9 n style17" rowspan="6">12/20/2016</td>
+            <td class="column1 style10 s">DEPOSITS</td>
+            <td class="column2 style11 s">WIRE TYPE:BOOK IN DATE:161220 TIME:1107 ET TRN:2016122000268159 SNDR REF:16CK90620CAI2563 ORIG:METROPOLITAN WAREHOUSE &amp; ID:381032737785</td>
+            <td class="column3 style12 n">0</td>
+            <td class="column4 style32 null"></td>
+            <td class="column5 style11 n">5000</td>
+            <td class="column6 style25 n">&nbsp;$ 6,519.05 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row125">
+            <td class="column1 style14 s">DEPOSITS</td>
+            <td class="column2 style15 s">WIRE TYPE:BOOK IN DATE:161220 TIME:1107 ET TRN:2016122000268160 SNDR REF:16CK706040IK1Y52 ORIG:METROPOLITAN WAREHOUSE &amp; ID:381032737785</td>
+            <td class="column3 style16 n">0</td>
+            <td class="column4 style33 null"></td>
+            <td class="column5 style15 n">2090</td>
+            <td class="column6 style25 n">&nbsp;$ 8,609.05 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row126">
+            <td class="column1 style10 s">GAS CHARGES</td>
+            <td class="column2 style11 s">CHECKCARD 1219 CONOCO - INDUSTRIAL FUE CARTERET NJ 24015176354002662215358 CKCD 5541 4135751004561526</td>
+            <td class="column3 style12 n">36.63</td>
+            <td class="column4 style32 null"></td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 8,572.42 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row127">
+            <td class="column1 style14 s">GAS CHARGES</td>
+            <td class="column2 style15 s">2740 SOUTH KIN 12/20 #000639608 PURCHASE 2740 SOUTH KINGST SOUTH KINGSTO RI CKCD 5542 4135751004821839</td>
+            <td class="column3 style16 n">55.45</td>
+            <td class="column4 style33 null"></td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 8,516.97 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row128">
+            <td class="column1 style10 s">GAS CHARGES</td>
+            <td class="column2 style11 s">2740 SOUTH KIN 12/20 #000640727 PURCHASE 2740 SOUTH KINGST SOUTH KINGSTO RI CKCD 5542 4135751004821839</td>
+            <td class="column3 style12 n">39.92</td>
+            <td class="column4 style32 null"></td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 8,477.05 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row129">
+            <td class="column1 style14 s">PAYROLL</td>
+            <td class="column2 style15 s">Check 1030</td>
+            <td class="column3 style16 n">600</td>
+            <td class="column4 style33 null"></td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 7,877.05 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row130">
+            <td class="column0 style9 n style17" rowspan="7">12/21/2016</td>
+            <td class="column1 style10 s">GAS CHARGES</td>
+            <td class="column2 style11 s">CHECKCARD 1220 BP#2219608PINE STREET B ELIZABETH NJ 24122546355740355890184 CKCD 5542 4135751004821839</td>
+            <td class="column3 style12 n">47.79</td>
+            <td class="column4 style32 null"></td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 7,829.26 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row131">
+            <td class="column1 style14 s">ENTERPRISE RENTALS</td>
+            <td class="column2 style15 s">CHECKCARD 1220 ENTERPRISE RENT-A-CAR EDISON NJ 24164076355018535305879 CKCD 3405 4135751004821839</td>
+            <td class="column3 style16 n">544.2</td>
+            <td class="column4 style33 null"></td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 7,285.06 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row132">
+            <td class="column1 style10 s">PHONE SERVICE</td>
+            <td class="column2 style11 s">T-MOBILE #3802 12/21 #000000495 PURCHASE T-MOBILE #3802 UNION NJ CKCD 4812 4135751004821839</td>
+            <td class="column3 style12 n">162</td>
+            <td class="column4 style32 null"></td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 7,123.06 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row133">
+            <td class="column1 style14 s">PAYROLL</td>
+            <td class="column2 style15 s">Check 1007</td>
+            <td class="column3 style16 n">600</td>
+            <td class="column4 style33 s">Check 1007</td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 6,523.06 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row134">
+            <td class="column1 style10 s">PAYROLL</td>
+            <td class="column2 style11 s">Check 1044</td>
+            <td class="column3 style12 n">1866</td>
+            <td class="column4 style32 s">Check 1044</td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 4,657.06 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row135">
+            <td class="column1 style14 s">BANK FEES</td>
+            <td class="column2 style15 s">Wire Transfer Fee</td>
+            <td class="column3 style16 n">15</td>
+            <td class="column4 style33 null"></td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 4,642.06 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row136">
+            <td class="column1 style10 s">BANK FEES</td>
+            <td class="column2 style11 s">Wire Transfer Fee</td>
+            <td class="column3 style12 n">15</td>
+            <td class="column4 style32 null"></td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 4,627.06 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row137">
+            <td class="column0 style18 n style20" rowspan="10">12/22/2016</td>
+            <td class="column1 style14 s">GAS CHARGES</td>
+            <td class="column2 style15 s">CHECKCARD 1220 SUNOCO 0980600100 MARLBOROUGH MA 24231686356889356587280 CKCD 5541 4256470000170009</td>
+            <td class="column3 style16 n">166.58</td>
+            <td class="column4 style33 null"></td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 4,460.48 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row138">
+            <td class="column1 style10 s">GAS CHARGES</td>
+            <td class="column2 style11 s">CHECKCARD 1220 SUNOCO 0980600100 MARLBOROUGH MA 24231686356889356587272 CKCD 5541 4256470000170017</td>
+            <td class="column3 style12 n">76.79</td>
+            <td class="column4 style32 null"></td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 4,383.69 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row139">
+            <td class="column1 style14 s">OFFICE EXPENSES</td>
+            <td class="column2 style15 s">CHECKCARD 1221 ONE STOP INSURANCE AGT 732-520-2206 NJ 24765016356206000012348 CKCD 6300 4135751004561526</td>
+            <td class="column3 style16 n">1300</td>
+            <td class="column4 style33 null"></td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 3,083.69 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row140">
+            <td class="column1 style10 s">GAS CHARGES</td>
+            <td class="column2 style11 s">CHECKCARD 1221 CHILL N FILL INC CHICOPEE MA 24765016356006000417400 CKCD 5541 4256470000170009</td>
+            <td class="column3 style12 n">41.63</td>
+            <td class="column4 style32 null"></td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 3,042.06 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row141">
+            <td class="column1 style14 s">PAYROLL</td>
+            <td class="column2 style15 s">BKOFAMERICA ATM 12/21 #000004144 WITHDRWL BROAD STREET ELIZABETH NJ CKCD 4135751004821839</td>
+            <td class="column3 style16 n">600</td>
+            <td class="column4 style33 null"></td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 2,442.06 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row142">
+            <td class="column1 style10 s">GAS CHARGES</td>
+            <td class="column2 style11 s">SANDBORNVLE 12/22 #000056895 PURCHASE SANDBORNVLE SANBORNVILLE NH CKCD 5542 4256470000170017</td>
+            <td class="column3 style12 n">90</td>
+            <td class="column4 style32 null"></td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 2,352.06 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row143">
+            <td class="column1 style14 s">PHONE SERVICE</td>
+            <td class="column2 style15 s">T-MOBILE #3802 12/22 #000000501 PURCHASE T-MOBILE #3802 UNION NJ CKCD 4812 4135751004821839</td>
+            <td class="column3 style16 n">118</td>
+            <td class="column4 style33 null"></td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 2,234.06 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row144">
+            <td class="column1 style10 s">PAYROLL</td>
+            <td class="column2 style11 s">BKOFAMERICA ATM 12/22 #000008318 WITHDRWL MARLBORO - POST MARLBORO MA CKCD 4135751004561526</td>
+            <td class="column3 style12 n">80</td>
+            <td class="column4 style32 null"></td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 2,154.06 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row145">
+            <td class="column1 style14 s">PAYROLL</td>
+            <td class="column2 style15 s">BKOFAMERICA ATM 12/22 #000007920 WITHDRWL LATIN AMERICAN B ELIZABETH NJ CKCD 4135751004821839</td>
+            <td class="column3 style16 n">600</td>
+            <td class="column4 style33 null"></td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 1,554.06 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row146">
+            <td class="column1 style10 s">GAS CHARGES</td>
+            <td class="column2 style11 s">SHELL Service 12/22 #000011190 PURCHASE SHELL Service Sta WALDOBORO ME CKCD 5541 4256470000170017</td>
+            <td class="column3 style12 n">150</td>
+            <td class="column4 style32 null"></td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 1,404.06 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row147">
+            <td class="column0 style18 n style20" rowspan="11">12/23/2016</td>
+            <td class="column1 style14 s">DEPOSITS</td>
+            <td class="column2 style15 s">WIRE TYPE:BOOK IN DATE:161223 TIME:1314 ET TRN:2016122300300968 SNDR REF:16CNB4431BTI0843 ORIG:METROPOLITAN WAREHOUSE &amp; ID:381032737785</td>
+            <td class="column3 style16 null"></td>
+            <td class="column4 style33 null"></td>
+            <td class="column5 style15 n">7000</td>
+            <td class="column6 style25 n">&nbsp;$ 8,404.06 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row148">
+            <td class="column1 style10 s">DEPOSITS</td>
+            <td class="column2 style11 s">WIRE TYPE:BOOK IN DATE:161223 TIME:1314 ET TRN:2016122300300943 SNDR REF:16CNB455257J1C50 ORIG:METROPOLITAN WAREHOUSE &amp; ID:381032737785</td>
+            <td class="column3 style12 null"></td>
+            <td class="column4 style32 null"></td>
+            <td class="column5 style11 n">943.02</td>
+            <td class="column6 style25 n">&nbsp;$ 9,347.08 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row149">
+            <td class="column1 style14 s">GAS CHARGES</td>
+            <td class="column2 style15 s">CHECKCARD 1221 SUNOCO 0980600100 MARLBOROUGH MA 24231686357889357814542 CKCD 5542 4256470000170017</td>
+            <td class="column3 style16 n">67.3</td>
+            <td class="column4 style33 null"></td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 9,279.78 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row150">
+            <td class="column1 style10 s">GAS CHARGES</td>
+            <td class="column2 style11 s">CHECKCARD 1221 SHELL OIL 10014844004 ORANGE MA 24316056357548251019368 CKCD 5541 4256470000170017</td>
+            <td class="column3 style12 n">50</td>
+            <td class="column4 style32 null"></td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 9,229.78 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row151">
+            <td class="column1 style14 s">GAS CHARGES</td>
+            <td class="column2 style15 s">CHECKCARD 1222 BP#2049575EDISON OIL CO EDISON NJ 24122546357740357350060 CKCD 5542 4135751004821839</td>
+            <td class="column3 style16 n">70.55</td>
+            <td class="column4 style33 null"></td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 9,159.23 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row152">
+            <td class="column1 style10 s">TRAVEL EXPENSES</td>
+            <td class="column2 style11 s">CHECKCARD 1223 HOTELS.COM HOTELS.COM WA 24692166358000669205379 CKCD 4722 4135751004561526</td>
+            <td class="column3 style12 n">72.39</td>
+            <td class="column4 style32 null"></td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 9,086.84 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row153">
+            <td class="column1 style14 s">PAYROLL</td>
+            <td class="column2 style15 s">Check 1012</td>
+            <td class="column3 style16 n">640</td>
+            <td class="column4 style33 s">Check 1012</td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 8,446.84 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row154">
+            <td class="column1 style10 s">PAYROLL</td>
+            <td class="column2 style11 s">Check 1034</td>
+            <td class="column3 style12 n">900</td>
+            <td class="column4 style32 s">Check 1034</td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 7,546.84 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row155">
+            <td class="column1 style14 s">PAYROLL</td>
+            <td class="column2 style15 s">Check 1042</td>
+            <td class="column3 style16 n">519</td>
+            <td class="column4 style33 s">Check 1042</td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 7,027.84 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row156">
+            <td class="column1 style10 s">PAYROLL</td>
+            <td class="column2 style11 s">Check 1045</td>
+            <td class="column3 style12 n">120</td>
+            <td class="column4 style32 s">Check 1045</td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 6,907.84 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row157">
+            <td class="column1 style14 s">PAYROLL</td>
+            <td class="column2 style15 s">Check 1046</td>
+            <td class="column3 style16 n">660</td>
+            <td class="column4 style33 s">Check 1046</td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 6,247.84 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row158">
+            <td class="column0 style9 n style17" rowspan="31">12/27/2016</td>
+            <td class="column1 style10 s">DEPOSITS</td>
+            <td class="column2 style11 s">CHECKCARD 1223 ENTERPRISE RENT-A-CAR EDISON NJ 74164076358018535579905 CKCD 3405 4135751004821839 111111</td>
+            <td class="column3 style12 n">0</td>
+            <td class="column4 style32 null"></td>
+            <td class="column5 style11 n">532.58</td>
+            <td class="column6 style25 n">&nbsp;$ 6,780.42 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row159">
+            <td class="column1 style14 s">TRAVEL EXPENSES</td>
+            <td class="column2 style15 s">CHECKCARD 1222 DAYS INN SHREWBURY SHREWSBURY MA 24071056358987192817205 CKCD 3510 4256470000170017</td>
+            <td class="column3 style16 n">205.98</td>
+            <td class="column4 style33 null"></td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 6,574.44 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row160">
+            <td class="column1 style10 s">GAS CHARGES</td>
+            <td class="column2 style11 s">CHECKCARD 1223 EXXONMOBIL 99040388 EAST BRUNSWICNJ 24164056359378018699737 CKCD 5542 4135751004821839</td>
+            <td class="column3 style12 n">92</td>
+            <td class="column4 style32 null"></td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 6,482.44 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row161">
+            <td class="column1 style14 s">GAS CHARGES</td>
+            <td class="column2 style15 s">CHECKCARD 1223 SUNOCO 0980600100 MARLBOROUGH MA 24231686359889359662434 CKCD 5542 4256470000170009</td>
+            <td class="column3 style16 n">56.35</td>
+            <td class="column4 style33 null"></td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 6,426.09 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row162">
+            <td class="column1 style10 s">GAS CHARGES</td>
+            <td class="column2 style11 s">CHECKCARD 1223 GULF OIL 92043929 SIMSBURY CT 24231686358837001908862 CKCD 5542 4135751004561526</td>
+            <td class="column3 style12 n">54</td>
+            <td class="column4 style32 null"></td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 6,372.09 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row163">
+            <td class="column1 style14 s">OFFICE EXPENSES</td>
+            <td class="column2 style15 s">CHECKCARD 1223 CIRCLE K 07083 FREEPORT ME 24692166359000330271452 CKCD 5541 4256470000170017</td>
+            <td class="column3 style16 n">3.47</td>
+            <td class="column4 style33 null"></td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 6,368.62 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row164">
+            <td class="column1 style10 s">GAS CHARGES</td>
+            <td class="column2 style11 s">CHECKCARD 1223 EXXONMOBIL 47966379 BRICK NJ 24164056359378016174287 CKCD 5542 4135751004821839</td>
+            <td class="column3 style12 n">40</td>
+            <td class="column4 style32 null"></td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 6,328.62 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row165">
+            <td class="column1 style14 s">TRUCK EXPENSES</td>
+            <td class="column2 style15 s">CHECKCARD 1224 EZPASS PREPAID TOLL 800-333-8655 NY 24610436359004076139754 CKCD 4784 4135751004561526</td>
+            <td class="column3 style16 n">127.27</td>
+            <td class="column4 style33 null"></td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 6,201.35 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row166">
+            <td class="column1 style10 s">GAS CHARGES</td>
+            <td class="column2 style11 s">CHECKCARD 1223 SUNOCO 0435611900 BROOKLINE NH 24231686359889359398625 CKCD 5542 4256470000170009</td>
+            <td class="column3 style12 n">62.69</td>
+            <td class="column4 style32 null"></td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 6,138.66 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row167">
+            <td class="column1 style14 s">PAYROLL</td>
+            <td class="column2 style15 s">BKOFAMERICA ATM 12/23 #000008811 WITHDRWL MARLBORO - POST MARLBORO MA CKCD 4135751004561526</td>
+            <td class="column3 style16 n">240</td>
+            <td class="column4 style33 null"></td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 5,898.66 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row168">
+            <td class="column1 style10 s">GAS CHARGES</td>
+            <td class="column2 style11 s">CHECKCARD 1224 EXXONMOBIL 97422067 FAIRFIELD CT 24164056360378006227522 CKCD 5542 4135751004561526</td>
+            <td class="column3 style12 n">48.08</td>
+            <td class="column4 style32 null"></td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 5,850.58 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row169">
+            <td class="column1 style14 s">PHONE SERVICE</td>
+            <td class="column2 style15 s">T-MOBILE #3802 12/24 #000000609 PURCHASE T-MOBILE #3802 UNION NJ CKCD 4812 4135751004821839</td>
+            <td class="column3 style16 n">33.6</td>
+            <td class="column4 style33 null"></td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 5,816.98 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row170">
+            <td class="column1 style10 s">PAYROLL</td>
+            <td class="column2 style11 s">BKOFAMERICA ATM 12/24 #000008448 WITHDRWL JEFFERSON AVENUE ELIZABETH NJ CKCD 4135751004821839</td>
+            <td class="column3 style12 n">240</td>
+            <td class="column4 style32 null"></td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 5,576.98 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row171">
+            <td class="column1 style14 s">GAS CHARGES</td>
+            <td class="column2 style15 s">CHECKCARD 1225 EXXONMOBIL 97395339 WESTBROOK CT 24164056361378004324585 CKCD 5542 4135751004561526</td>
+            <td class="column3 style16 n">47.85</td>
+            <td class="column4 style33 null"></td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 5,529.13 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row172">
+            <td class="column1 style10 s">GAS CHARGES</td>
+            <td class="column2 style11 s">CHECKCARD 1227 SPEEDWAY 03478 HOPELAWN NJ 24224436362105005424986 CKCD 5542 4256470000170017</td>
+            <td class="column3 style12 n">40.56</td>
+            <td class="column4 style32 null"></td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 5,488.57 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row173">
+            <td class="column1 style14 s">TRAVEL EXPENSES</td>
+            <td class="column2 style15 s">CHECKCARD 1227 HOTELS.COM HOTELS.COM WA 24692166362000756593681 CKCD 4722 4135751004561526</td>
+            <td class="column3 style16 n">75.54</td>
+            <td class="column4 style33 null"></td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 5,413.03 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row174">
+            <td class="column1 style10 s">PAYROLL</td>
+            <td class="column2 style11 s">Check 1036</td>
+            <td class="column3 style12 n">1450</td>
+            <td class="column4 style32 s">Check 1036</td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 3,963.03 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row175">
+            <td class="column1 style14 s">PAYROLL</td>
+            <td class="column2 style15 s">Check 1039</td>
+            <td class="column3 style16 n">750</td>
+            <td class="column4 style33 s">Check 1039</td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 3,213.03 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row176">
+            <td class="column1 style10 s">PAYROLL</td>
+            <td class="column2 style11 s">Check 1040</td>
+            <td class="column3 style12 n">600</td>
+            <td class="column4 style32 s">Check 1040</td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 2,613.03 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row177">
+            <td class="column1 style14 s">PAYROLL</td>
+            <td class="column2 style15 s">Check 1047</td>
+            <td class="column3 style16 n">375</td>
+            <td class="column4 style33 s">Check 1047</td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 2,238.03 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row178">
+            <td class="column1 style10 s">PAYROLL</td>
+            <td class="column2 style11 s">Check 1049</td>
+            <td class="column3 style12 n">833.7</td>
+            <td class="column4 style32 s">Check 1049</td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 1,404.33 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row179">
+            <td class="column1 style14 s">PAYROLL</td>
+            <td class="column2 style15 s">Check 1050</td>
+            <td class="column3 style16 n">620</td>
+            <td class="column4 style33 s">Check 1050</td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 784.33 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row180">
+            <td class="column1 style10 s">PAYROLL</td>
+            <td class="column2 style11 s">Check 1051</td>
+            <td class="column3 style12 n">970</td>
+            <td class="column4 style32 s">Check 1051</td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ (185.67)</td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row181">
+            <td class="column1 style14 s">PAYROLL</td>
+            <td class="column2 style15 s">Check 1052</td>
+            <td class="column3 style16 n">100</td>
+            <td class="column4 style33 s">Check 1052</td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ (285.67)</td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row182">
+            <td class="column1 style10 s">PAYROLL</td>
+            <td class="column2 style11 s">Check 1053</td>
+            <td class="column3 style12 n">120</td>
+            <td class="column4 style32 s">Check 1053</td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ (405.67)</td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row183">
+            <td class="column1 style14 s">PAYROLL</td>
+            <td class="column2 style15 s">Check 1054</td>
+            <td class="column3 style16 n">960</td>
+            <td class="column4 style33 s">Check 1054</td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ (1,365.67)</td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row184">
+            <td class="column1 style10 s">BANK FEES</td>
+            <td class="column2 style11 s">NSF: RETURNED ITEM FEE FOR ACTIVITY OF 12-27 CHECK #0000001050 POSTING DATE 12-27-16 POSTING SEQ 00023</td>
+            <td class="column3 style12 n">35</td>
+            <td class="column4 style32 null"></td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ (1,400.67)</td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row185">
+            <td class="column1 style14 s">BANK FEES</td>
+            <td class="column2 style15 s">NSF: RETURNED ITEM FEE FOR ACTIVITY OF 12-27 CHECK #0000001051 POSTING DATE 12-27-16 POSTING SEQ 00024</td>
+            <td class="column3 style16 n">35</td>
+            <td class="column4 style33 null"></td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ (1,435.67)</td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row186">
+            <td class="column1 style10 s">BANK FEES</td>
+            <td class="column2 style11 s">NSF: RETURNED ITEM FEE FOR ACTIVITY OF 12-27 CHECK #0000001054 POSTING DATE 12-27-16 POSTING SEQ 00027</td>
+            <td class="column3 style12 n">35</td>
+            <td class="column4 style32 null"></td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ (1,470.67)</td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row187">
+            <td class="column1 style14 s">BANK FEES</td>
+            <td class="column2 style15 s">Wire Transfer Fee</td>
+            <td class="column3 style16 n">15</td>
+            <td class="column4 style33 null"></td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ (1,485.67)</td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row188">
+            <td class="column1 style10 s">BANK FEES</td>
+            <td class="column2 style11 s">Wire Transfer Fee</td>
+            <td class="column3 style12 n">15</td>
+            <td class="column4 style32 null"></td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ (1,500.67)</td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row189">
+            <td class="column0 style18 n style20" rowspan="12">12/28/2016</td>
+            <td class="column1 style14 s">DEPOSITS</td>
+            <td class="column2 style15 s">RETURN OF POSTED CHECK / ITEM (RECEIVED ON 12-27) CHECK #0000001051</td>
+            <td class="column3 style16 n">0</td>
+            <td class="column4 style33 null"></td>
+            <td class="column5 style15 n">970</td>
+            <td class="column6 style25 n">&nbsp;$ (530.67)</td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row190">
+            <td class="column1 style10 s">DEPOSITS</td>
+            <td class="column2 style11 s">RETURN OF POSTED CHECK / ITEM (RECEIVED ON 12-27) CHECK #0000001054</td>
+            <td class="column3 style12 n">0</td>
+            <td class="column4 style32 null"></td>
+            <td class="column5 style11 n">960</td>
+            <td class="column6 style25 n">&nbsp;$ 429.33 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row191">
+            <td class="column1 style14 s">DEPOSITS</td>
+            <td class="column2 style15 s">RETURN OF POSTED CHECK / ITEM (RECEIVED ON 12-27) CHECK #0000001050</td>
+            <td class="column3 style16 n">0</td>
+            <td class="column4 style33 null"></td>
+            <td class="column5 style15 n">620</td>
+            <td class="column6 style25 n">&nbsp;$ 1,049.33 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row192">
+            <td class="column1 style10 s">DEPOSITS</td>
+            <td class="column2 style11 s">WIRE TYPE:BOOK IN DATE:161228 TIME:0838 ET TRN:2016122800200588 SNDR REF:16CS70436ETL1J33 ORIG:METROPOLITAN WAREHOUSE &amp; ID:381032737785</td>
+            <td class="column3 style12 n">0</td>
+            <td class="column4 style32 null"></td>
+            <td class="column5 style11 n">5229.25</td>
+            <td class="column6 style25 n">&nbsp;$ 6,278.58 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row193">
+            <td class="column1 style14 s">GAS CHARGES</td>
+            <td class="column2 style15 s">CHECKCARD 1226 SUNOCO 0980600100 MARLBOROUGH MA 24231686362889362599057 CKCD 5541 4135751004561526</td>
+            <td class="column3 style16 n">154.5</td>
+            <td class="column4 style33 null"></td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 6,124.08 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row194">
+            <td class="column1 style10 s">GAS CHARGES</td>
+            <td class="column2 style11 s">CHECKCARD 1226 EXXONMOBIL 99163701 ELIZABETH NJ 24164056362378015326347 CKCD 5542 4135751004821839</td>
+            <td class="column3 style12 n">41.56</td>
+            <td class="column4 style32 null"></td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 6,082.52 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row195">
+            <td class="column1 style14 s">TRUCK EXPENSES</td>
+            <td class="column2 style15 s">CHECKCARD 1227 NEW JERSEY E-ZPASS NEWARK NJ 24610436362004061031516 CKCD 4784 4135751004561526</td>
+            <td class="column3 style16 n">171.45</td>
+            <td class="column4 style33 null"></td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 5,911.07 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row196">
+            <td class="column1 style10 s">GAS CHARGES</td>
+            <td class="column2 style11 s">CHECKCARD 1226 EXXONMOBIL 99163701 ELIZABETH NJ 24164056362837015326359 CKCD 5541 4135751004821839</td>
+            <td class="column3 style12 n">53.45</td>
+            <td class="column4 style32 null"></td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 5,857.62 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row197">
+            <td class="column1 style14 s">TRUCK EXPENSES</td>
+            <td class="column2 style15 s">CHECKCARD 1226 NAPA AUTO PARTS 0002067 ENOSBURG FALLVT 24431056362200588400142 CKCD 5533 4135751004561526</td>
+            <td class="column3 style16 n">3.38</td>
+            <td class="column4 style33 null"></td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 5,854.24 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row198">
+            <td class="column1 style10 s">TRAVEL EXPENSES</td>
+            <td class="column2 style11 s">CHECKCARD 1228 HOTELS.COM HOTELS.COM WA 24692166363000338035408 CKCD 4722 4135751004821839</td>
+            <td class="column3 style12 n">65.26</td>
+            <td class="column4 style32 null"></td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 5,788.98 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row199">
+            <td class="column1 style14 s">PAYROLL</td>
+            <td class="column2 style15 s">BKOFAMERICA ATM 12/28 #000002966 WITHDRWL MARLBOROUGH - PO MARLBOROUGH MA CKCD 4135751004561526</td>
+            <td class="column3 style16 n">180</td>
+            <td class="column4 style33 null"></td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 5,608.98 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row200">
+            <td class="column1 style10 s">PAYROLL</td>
+            <td class="column2 style11 s">BKOFAMERICA ATM 12/28 #000009721 WITHDRWL JEFFERSON AVENUE ELIZABETH NJ CKCD 4135751004821839</td>
+            <td class="column3 style12 n">160</td>
+            <td class="column4 style32 null"></td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 5,448.98 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row201">
+            <td class="column0 style18 n style20" rowspan="10">12/29/2016</td>
+            <td class="column1 style14 s">GAS CHARGES</td>
+            <td class="column2 style15 s">CHECKCARD 1227 EXXONMOBIL 97537401 PORTSMOUTH RI 24164056363837012325080 CKCD 5541 4256470000170009</td>
+            <td class="column3 style16 n">50.44</td>
+            <td class="column4 style33 null"></td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 5,398.54 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row202">
+            <td class="column1 style10 s">GAS CHARGES</td>
+            <td class="column2 style11 s">CHECKCARD 1227 EXXONMOBIL 48163026 GRISWOLD CT 24164056363378001151906 CKCD 5542 4256470000170017</td>
+            <td class="column3 style12 n">60</td>
+            <td class="column4 style32 null"></td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 5,338.54 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row203">
+            <td class="column1 style14 s">GAS CHARGES</td>
+            <td class="column2 style15 s">CHECKCARD 1227 SUNOCO 0042156000 RAWSONVILLE VT 24231686363889363580311 CKCD 5542 4135751004561526</td>
+            <td class="column3 style16 n">100</td>
+            <td class="column4 style33 null"></td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 5,238.54 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row204">
+            <td class="column1 style10 s">GAS CHARGES</td>
+            <td class="column2 style11 s">CHECKCARD 1227 EXXONMOBIL 99163701 ELIZABETH NJ 24164056363378016972072 CKCD 5542 4135751004821839</td>
+            <td class="column3 style12 n">70.05</td>
+            <td class="column4 style32 null"></td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 5,168.49 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row205">
+            <td class="column1 style14 s">OFFICE EXPENSES</td>
+            <td class="column2 style15 s">CHECKCARD 1228 CHINA GARDEN MARLBOROUGH MA 24733096363206103600066 CKCD 5814 4135751004561526</td>
+            <td class="column3 style16 n">21.85</td>
+            <td class="column4 style33 null"></td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 5,146.64 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row206">
+            <td class="column1 style10 s">PAYROLL</td>
+            <td class="column2 style11 s">Check 1058</td>
+            <td class="column3 style12 n">100</td>
+            <td class="column4 style32 s">Check 1058</td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 5,046.64 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row207">
+            <td class="column1 style14 s">PAYROLL</td>
+            <td class="column2 style15 s">Check 1061</td>
+            <td class="column3 style16 n">970</td>
+            <td class="column4 style33 s">Check 1061</td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 4,076.64 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row208">
+            <td class="column1 style10 s">PAYROLL</td>
+            <td class="column2 style11 s">Check 1062</td>
+            <td class="column3 style12 n">620</td>
+            <td class="column4 style32 s">Check 1062</td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 3,456.64 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row209">
+            <td class="column1 style14 s">OFFICE EXPENSES</td>
+            <td class="column2 style15 s">LIBERTY MUTUAL DES:3-371387-0 ID:7553299 INDN:OKAMI LOGISTICS *LLC CO ID:0000061050 CCD</td>
+            <td class="column3 style16 n">433</td>
+            <td class="column4 style33 null"></td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 3,023.64 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row210">
+            <td class="column1 style10 s">BANK FEES</td>
+            <td class="column2 style11 s">Wire Transfer Fee</td>
+            <td class="column3 style12 n">15</td>
+            <td class="column4 style32 null"></td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 3,008.64 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row211">
+            <td class="column0 style18 n style20" rowspan="10">12/30/2016</td>
+            <td class="column1 style14 s">DEPOSITS</td>
+            <td class="column2 style15 s">WIRE TYPE:BOOK IN DATE:161230 TIME:1022 ET TRN:2016123000235376 SNDR REF:16CU756586PJ2W98 ORIG:METROPOLITAN WAREHOUSE &amp; ID:381032737785</td>
+            <td class="column3 style16 n">0</td>
+            <td class="column4 style33 null"></td>
+            <td class="column5 style15 n">5000</td>
+            <td class="column6 style25 n">&nbsp;$ 8,008.64 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row212">
+            <td class="column1 style10 s">DEPOSITS</td>
+            <td class="column2 style11 s">WIRE TYPE:BOOK IN DATE:161230 TIME:1022 ET TRN:2016123000235374 SNDR REF:16CU75634G5K0365 ORIG:METROPOLITAN WAREHOUSE &amp; ID:381032737785</td>
+            <td class="column3 style12 n">0</td>
+            <td class="column4 style32 null"></td>
+            <td class="column5 style11 n">2000</td>
+            <td class="column6 style25 n">&nbsp;$ 10,008.64 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row213">
+            <td class="column1 style14 s">GAS CHARGES</td>
+            <td class="column2 style15 s">CHECKCARD 1229 BP#2049575EDISON OIL CO EDISON NJ 24122546364740364370466 CKCD 5542 4135751004821839</td>
+            <td class="column3 style16 n">100</td>
+            <td class="column4 style33 null"></td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 9,908.64 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row214">
+            <td class="column1 style10 s">GAS CHARGES</td>
+            <td class="column2 style11 s">CHECKCARD 1229 BP#2049575EDISON OIL CO EDISON NJ 24122546364740364370508 CKCD 5542 4135751004821839</td>
+            <td class="column3 style12 n">25</td>
+            <td class="column4 style32 null"></td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 9,883.64 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row215">
+            <td class="column1 style14 s">ENTERPRISE RENTALS</td>
+            <td class="column2 style15 s">CHECKCARD 1229 ENTERPRISE RENT-A-CAR EDISON NJ 24164076364018535969806 CKCD 3405 4135751004821839</td>
+            <td class="column3 style16 n">541.16</td>
+            <td class="column4 style33 null"></td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 9,342.48 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row216">
+            <td class="column1 style10 s">ENTERPRISE RENTALS</td>
+            <td class="column2 style11 s">CHECKCARD 1229 ENTERPRISE RENT-A-CAR EDISON NJ 24164076364018535969814 CKCD 3405 4135751004821839</td>
+            <td class="column3 style12 n">541</td>
+            <td class="column4 style32 null"></td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 8,801.48 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row217">
+            <td class="column1 style14 s">GAS CHARGES</td>
+            <td class="column2 style15 s">SUNOCO 0980600 12/30 #000147128 PURCHASE SUNOCO 09806001 MARLBOROUGH MA CKCD 5542 4135751004561526</td>
+            <td class="column3 style16 n">56</td>
+            <td class="column4 style33 null"></td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 8,745.48 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row218">
+            <td class="column1 style10 s">OFFICE EXPENSES</td>
+            <td class="column2 style11 s">THE HOME DEPOT 12/30 #000674324 PURCHASE THE HOME DEPOT #2 MARLBOROUGH MA CKCD 5200 4135751004561526</td>
+            <td class="column3 style12 n">47.63</td>
+            <td class="column4 style32 null"></td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 8,697.85 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row219">
+            <td class="column1 style14 s">PAYROLL</td>
+            <td class="column2 style15 s">Check 1025</td>
+            <td class="column3 style16 n">600</td>
+            <td class="column4 style33 s">Check 1025</td>
+            <td class="column5 style15 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 8,097.85 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row220">
+            <td class="column1 style10 s">PAYROLL</td>
+            <td class="column2 style11 s">Check 1027</td>
+            <td class="column3 style12 n">900</td>
+            <td class="column4 style32 s">Check 1027</td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style25 n">&nbsp;$ 7,197.85 </td>
+            <td class="column7 style35 null"></td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+        </tbody>
+    </table>
+  </body>
+</html>

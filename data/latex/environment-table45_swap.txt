@@ -1,0 +1,21 @@
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+\begin{table}[]
+\begin{tabular}{@{}lllllllllll@{}}
+\multicolumn{7}{c}{\textbf{LEAD CONC DURING JUL-DEC 2023  IN SOIL  in mg/Kg}} &  &  &  &  \\
+ & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} \\
+ & \textbf{JUL} & \textbf{AUGUST} & \textbf{SEP} & \textbf{OCT} & \textbf{NOV} & \textbf{DEC} & \textbf{AVG JUL-SEP} & \textbf{AVG OCT-DEC} & \textbf{AVG JUL-DEC} & \textbf{MAX PERMISSIBLE LIMIT} \\
+\textbf{OORGAUM} & 41 & 44 & 39 & 36 & 38 & 42 & 41.3 & 38.6 & 39.9 & 98 \\
+\textbf{TENANTS} & 21 & 19 & 30 & 34 & 33 & 30 & 23.3 & 32.3 & 27.8 &  \\
+\textbf{CHAMPION REEFS} & 140 & 132 & 119 & 124 & 135 & 139 & 130.3 & 132.6 & 131.4 &  \\
+\textbf{BALGHAT} & 27 & 31 & 33 & 34 & 37 & 44 & 30.3 & 38.3 & 34.3 &  \\
+ &  &  &  &  &  &  &  &  &  &  \\
+\multicolumn{7}{c}{\textbf{LEAD CONC DURINGJAN-JUNE 2023 IN SOIL  in mg/Kg}} &  &  &  &  \\
+ & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} \\
+ & \textbf{JAN} & \textbf{FEB} & \textbf{MARCH} & \textbf{APRIL} & \textbf{MAY} & \textbf{JUNE} & \textbf{AVG JAN-MARCH} & \textbf{AVG APRIL-JUNE} & \textbf{AVG JAN-JUNE} & \textbf{MAX PERMISSIBLE LIMIT} \\
+\textbf{OORGAUM} & 30 & 33 & 28 & 38 & 28 & 36 & 30.3 & 34 & 32.15 & 98 \\
+\textbf{TENANTS} & 23 & 29 & 27 & 33 & 25 & 32 & 26.3 & 30 & 28.15 &  \\
+\textbf{CHAMPION REEFS} & 112 & 134 & 123 & 106 & 88 & 98 & 123 & 97.3 & 110.15 &  \\
+\textbf{BALGHAT} & 30 & 28 & 26 & 43 & 32 & 21 & 28 & 32 & 30 & 
+\end{tabular}
+\end{table}

@@ -1,0 +1,498 @@
+% Please add the following required packages to your document preamble:
+% \usepackage[table,xcdraw]{xcolor}
+% Beamer presentation requires \usepackage{colortbl} instead of \usepackage[table,xcdraw]{xcolor}
+% \usepackage[normalem]{ulem}
+% \useunder{\uline}{\ul}{}
+\begin{table}[]
+\begin{tabular}{llrr}
+ & \textbf{Green areas - Local areas}                              & \multicolumn{1}{l}{}                         & \multicolumn{1}{l}{}                         \\
+ & Measure: Land area                                              & \multicolumn{1}{l}{}                         & \multicolumn{1}{l}{}                         \\
+ & Territorial level: TL2                                          & \multicolumn{1}{l}{}                         & \multicolumn{1}{l}{}                         \\
+ & Time period: 2021                                               & \multicolumn{1}{l}{}                         & \multicolumn{1}{l}{}                         \\
+ & Combined unit of measure: Square kilometres                     & \multicolumn{1}{l}{}                         & \multicolumn{1}{l}{}                         \\
+ &                                                                 & \multicolumn{1}{l}{}                         & \multicolumn{1}{l}{}                         \\
+ & \cellcolor[HTML]{E2F2FB}\textbf{Reference area}                 & \multicolumn{1}{l}{\cellcolor[HTML]{F1F1F1}} & \multicolumn{1}{l}{\cellcolor[HTML]{F1F1F1}} \\
+ & \cellcolor[HTML]{E2F2FB}Australia                               & \cellcolor[HTML]{F1F1F1}                     &                                              \\
+ & \cellcolor[HTML]{E2F2FB}·  New South Wales                      & \cellcolor[HTML]{F1F1F1}                     & 681,425,575                                  \\
+ & \cellcolor[HTML]{E2F2FB}·  Victoria                             & \cellcolor[HTML]{F1F1F1}                     & 165,533,844                                  \\
+ & \cellcolor[HTML]{E2F2FB}·  Queensland                           & \cellcolor[HTML]{F1F1F1}                     & 1,593,592,200                                \\
+ & \cellcolor[HTML]{E2F2FB}·  South Australia                      & \cellcolor[HTML]{F1F1F1}                     & 769,198,717                                  \\
+ & \cellcolor[HTML]{E2F2FB}·  Western Australia                    & \cellcolor[HTML]{F1F1F1}                     & 2,261,581,250                                \\
+ & \cellcolor[HTML]{E2F2FB}·  Tasmania                             & \cellcolor[HTML]{F1F1F1}                     & 64,445,729                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Northern Territory                   & \cellcolor[HTML]{F1F1F1}                     & 1,312,543,345                                \\
+ & \cellcolor[HTML]{E2F2FB}·  Australian Capital Territory         & \cellcolor[HTML]{F1F1F1}                     & 2,199,503                                    \\
+ & \cellcolor[HTML]{E2F2FB}Austria                                 & \cellcolor[HTML]{F1F1F1}                     &                                              \\
+ & \cellcolor[HTML]{E2F2FB}·  Burgenland                           & \cellcolor[HTML]{F1F1F1}                     & 2,065,049                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Lower Austria                        & \cellcolor[HTML]{F1F1F1}                     & 11,948,659                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Vienna                               & \cellcolor[HTML]{F1F1F1}                     & 208,162                                      \\
+ & \cellcolor[HTML]{E2F2FB}·  Carinthia                            & \cellcolor[HTML]{F1F1F1}                     & 8,234,367                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Styria                               & \cellcolor[HTML]{F1F1F1}                     & 14,558,152                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Upper Austria                        & \cellcolor[HTML]{F1F1F1}                     & 8,701,965                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Salzburg                             & \cellcolor[HTML]{F1F1F1}                     & 6,154,863                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Tyrol                                & \cellcolor[HTML]{F1F1F1}                     & 9,796,154                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Vorarlberg                           & \cellcolor[HTML]{F1F1F1}                     & 2,290,482                                    \\
+ & \cellcolor[HTML]{E2F2FB}Belgium                                 & \cellcolor[HTML]{F1F1F1}                     &                                              \\
+ & \cellcolor[HTML]{E2F2FB}·  Brussels-Capital Region              & \cellcolor[HTML]{F1F1F1}                     & 76,513                                       \\
+ & \cellcolor[HTML]{E2F2FB}·  Flemish Region                       & \cellcolor[HTML]{F1F1F1}                     & 7,525,798                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Walloon Region                       & \cellcolor[HTML]{F1F1F1}                     & 11,836,992                                   \\
+ & \cellcolor[HTML]{E2F2FB}Canada                                  & \cellcolor[HTML]{F1F1F1}                     &                                              \\
+ & \cellcolor[HTML]{E2F2FB}·  Newfoundland and Labrador            & \cellcolor[HTML]{F1F1F1}                     & 309,281,774                                  \\
+ & \cellcolor[HTML]{E2F2FB}·  Prince Edward Island                 & \cellcolor[HTML]{F1F1F1}                     & 3,978,405                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Nova Scotia                          & \cellcolor[HTML]{F1F1F1}                     & 51,465,150                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  New Brunswick                        & \cellcolor[HTML]{F1F1F1}                     & 68,901,107                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Quebec                               & \cellcolor[HTML]{F1F1F1}                     & 1,100,430,994                                \\
+ & \cellcolor[HTML]{E2F2FB}·  Ontario                              & \cellcolor[HTML]{F1F1F1}                     & 777,819,548                                  \\
+ & \cellcolor[HTML]{E2F2FB}·  Manitoba                             & \cellcolor[HTML]{F1F1F1}                     & 450,790,789                                  \\
+ & \cellcolor[HTML]{E2F2FB}·  Saskatchewan                         & \cellcolor[HTML]{F1F1F1}                     & 403,802,170                                  \\
+ & \cellcolor[HTML]{E2F2FB}·  Alberta                              & \cellcolor[HTML]{F1F1F1}                     & 522,555,079                                  \\
+ & \cellcolor[HTML]{E2F2FB}·  British Columbia                     & \cellcolor[HTML]{F1F1F1}                     & 753,384,712                                  \\
+ & \cellcolor[HTML]{E2F2FB}·  Yukon                                & \cellcolor[HTML]{F1F1F1}                     & 383,974,912                                  \\
+ & \cellcolor[HTML]{E2F2FB}·  Northwest Territories                & \cellcolor[HTML]{F1F1F1}                     & 755,773,143                                  \\
+ & \cellcolor[HTML]{E2F2FB}·  Nunavut                              & \cellcolor[HTML]{F1F1F1}                     & 320,058,334                                  \\
+ & \cellcolor[HTML]{E2F2FB}Chile                                   & \cellcolor[HTML]{F1F1F1}                     &                                              \\
+ & \cellcolor[HTML]{E2F2FB}·  Tarapacá                             & \cellcolor[HTML]{F1F1F1}                     & 4,897,330                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Antofagasta                          & \cellcolor[HTML]{F1F1F1}                     & 2,620,942                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Atacama                              & \cellcolor[HTML]{F1F1F1}                     & 7,065,116                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Coquimbo                             & \cellcolor[HTML]{F1F1F1}                     & 21,899,554                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Valparaíso                           & \cellcolor[HTML]{F1F1F1}                     & 11,644,599                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  O'Higgins                            & \cellcolor[HTML]{F1F1F1}                     & 10,589,050                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Maule                                & \cellcolor[HTML]{F1F1F1}                     & 20,848,252                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Biobío                               & \cellcolor[HTML]{F1F1F1}                     & 19,693,726                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Araucanía                            & \cellcolor[HTML]{F1F1F1}                     & 25,485,007                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Los Lagos                            & \cellcolor[HTML]{F1F1F1}                     & 41,369,370                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Aysén                                & \cellcolor[HTML]{F1F1F1}                     & 64,419,884                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Magallanes and Chilean Antarctica    & \cellcolor[HTML]{F1F1F1}                     & 81,440,385                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Santiago Metropolitan Region         & \cellcolor[HTML]{F1F1F1}                     & 8,686,309                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Los Ríos                             & \cellcolor[HTML]{F1F1F1}                     & 14,664,617                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Arica y Parinacota                   & \cellcolor[HTML]{F1F1F1}                     & 3,728,754                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Ñuble                                & \cellcolor[HTML]{F1F1F1}                     & 10,250,959                                   \\
+ & \cellcolor[HTML]{E2F2FB}Colombia                                & \cellcolor[HTML]{F1F1F1}                     &                                              \\
+ & \cellcolor[HTML]{E2F2FB}·  Antioquia                            & \cellcolor[HTML]{F1F1F1}                     & 60,877,162                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Atlántico                            & \cellcolor[HTML]{F1F1F1}                     & 2,768,608                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Bogotá Capital District              & \cellcolor[HTML]{F1F1F1}                     & 1,275,494                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Bolívar                              & \cellcolor[HTML]{F1F1F1}                     & 22,972,202                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Boyacá                               & \cellcolor[HTML]{F1F1F1}                     & 22,169,742                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Caldas                               & \cellcolor[HTML]{F1F1F1}                     & 7,277,672                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Caquetá                              & \cellcolor[HTML]{F1F1F1}                     & 87,950,273                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Cauca                                & \cellcolor[HTML]{F1F1F1}                     & 30,255,300                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Cesar                                & \cellcolor[HTML]{F1F1F1}                     & 21,496,062                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Córdoba                              & \cellcolor[HTML]{F1F1F1}                     & 23,642,059                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Cundinamarca                         & \cellcolor[HTML]{F1F1F1}                     & 21,359,734                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Chocó                                & \cellcolor[HTML]{F1F1F1}                     & 45,760,569                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Huila                                & \cellcolor[HTML]{F1F1F1}                     & 17,549,878                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  La Guajira                           & \cellcolor[HTML]{F1F1F1}                     & 18,101,434                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Magdalena                            & \cellcolor[HTML]{F1F1F1}                     & 19,954,383                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Meta                                 & \cellcolor[HTML]{F1F1F1}                     & 81,195,055                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Nariño                               & \cellcolor[HTML]{F1F1F1}                     & 29,014,570                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Norte de Santander                   & \cellcolor[HTML]{F1F1F1}                     & 21,394,076                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Quindío                              & \cellcolor[HTML]{F1F1F1}                     & 1,870,675                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Risaralda                            & \cellcolor[HTML]{F1F1F1}                     & 3,452,311                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Santander                            & \cellcolor[HTML]{F1F1F1}                     & 29,912,801                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Sucre                                & \cellcolor[HTML]{F1F1F1}                     & 8,686,840                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Tolima                               & \cellcolor[HTML]{F1F1F1}                     & 22,826,877                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Valle del Cauca                      & \cellcolor[HTML]{F1F1F1}                     & 18,352,829                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Arauca                               & \cellcolor[HTML]{F1F1F1}                     & 23,387,466                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Casanare                             & \cellcolor[HTML]{F1F1F1}                     & 42,579,203                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Putumayo                             & \cellcolor[HTML]{F1F1F1}                     & 25,507,306                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  San Andrés                           & \cellcolor[HTML]{F1F1F1}                     & 39,861                                       \\
+ & \cellcolor[HTML]{E2F2FB}·  Amazonas                             & \cellcolor[HTML]{F1F1F1}                     & 107,306,441                                  \\
+ & \cellcolor[HTML]{E2F2FB}·  Guainía                              & \cellcolor[HTML]{F1F1F1}                     & 69,911,214                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Guaviare                             & \cellcolor[HTML]{F1F1F1}                     & 55,121,310                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Vaupés                               & \cellcolor[HTML]{F1F1F1}                     & 52,714,527                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Vichada                              & \cellcolor[HTML]{F1F1F1}                     & 97,780,579                                   \\
+ & \cellcolor[HTML]{E2F2FB}Costa Rica                              & \cellcolor[HTML]{F1F1F1}                     &                                              \\
+ & \cellcolor[HTML]{E2F2FB}·  Central                              & \cellcolor[HTML]{F1F1F1}                     & 8,096,038                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Chorotega                            & \cellcolor[HTML]{F1F1F1}                     & 9,460,860                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Central Pacific                      & \cellcolor[HTML]{F1F1F1}                     & 3,566,383                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Brunca                               & \cellcolor[HTML]{F1F1F1}                     & 9,099,702                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Huetar Caribbean                     & \cellcolor[HTML]{F1F1F1}                     & 9,000,914                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  North Huetar                         & \cellcolor[HTML]{F1F1F1}                     & 9,499,720                                    \\
+ & \cellcolor[HTML]{E2F2FB}Czechia                                 & \cellcolor[HTML]{F1F1F1}                     &                                              \\
+ & \cellcolor[HTML]{E2F2FB}·  Prague                               & \cellcolor[HTML]{F1F1F1}                     & 240,839                                      \\
+ & \cellcolor[HTML]{E2F2FB}·  Central Bohemian Region              & \cellcolor[HTML]{F1F1F1}                     & 5,743,105                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Southwest                            & \cellcolor[HTML]{F1F1F1}                     & 12,652,595                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Northwest                            & \cellcolor[HTML]{F1F1F1}                     & 6,269,160                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Northeast                            & \cellcolor[HTML]{F1F1F1}                     & 8,157,097                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Southeast                            & \cellcolor[HTML]{F1F1F1}                     & 7,214,634                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Central Moravia                      & \cellcolor[HTML]{F1F1F1}                     & 6,085,420                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Moravia-Silesia                      & \cellcolor[HTML]{F1F1F1}                     & 3,837,871                                    \\
+ & \cellcolor[HTML]{E2F2FB}Denmark                                 & \cellcolor[HTML]{F1F1F1}                     &                                              \\
+ & \cellcolor[HTML]{E2F2FB}·  Capital region                       & \cellcolor[HTML]{F1F1F1}                     & 1,483,193                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Zealand                              & \cellcolor[HTML]{F1F1F1}                     & 2,942,842                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Southern Denmark                     & \cellcolor[HTML]{F1F1F1}                     & 5,767,022                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Central Denmark                      & \cellcolor[HTML]{F1F1F1}                     & 6,568,092                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Northern Denmark                     & \cellcolor[HTML]{F1F1F1}                     & 4,029,569                                    \\
+ & \cellcolor[HTML]{E2F2FB}Estonia                                 & \cellcolor[HTML]{F1F1F1}                     &                                              \\
+ & \cellcolor[HTML]{E2F2FB}·  Estonia                              & \cellcolor[HTML]{F1F1F1}                     & 34,429,534                                   \\
+ & \cellcolor[HTML]{E2F2FB}Finland                                 & \cellcolor[HTML]{F1F1F1}                     &                                              \\
+ & \cellcolor[HTML]{E2F2FB}·  Western Finland                      & \cellcolor[HTML]{F1F1F1}                     & 50,862,486                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Helsinki-Uusimaa                     & \cellcolor[HTML]{F1F1F1}                     & 7,313,987                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Southern Finland                     & \cellcolor[HTML]{F1F1F1}                     & 25,701,485                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Northern and Eastern Finland         & \cellcolor[HTML]{F1F1F1}                     & 187,994,550                                  \\
+ & \cellcolor[HTML]{E2F2FB}·  Åland                                & \cellcolor[HTML]{F1F1F1}                     & 1,287,365                                    \\
+ & \cellcolor[HTML]{E2F2FB}France                                  & \cellcolor[HTML]{F1F1F1}                     &                                              \\
+ & \cellcolor[HTML]{E2F2FB}·  Île-de-France                        & \cellcolor[HTML]{F1F1F1}                     & 5,261,797                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Centre-Val de Loire                  & \cellcolor[HTML]{F1F1F1}                     & 19,293,223                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Bourgogne-Franche-Comté              & \cellcolor[HTML]{F1F1F1}                     & 34,702,445                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Normandy                             & \cellcolor[HTML]{F1F1F1}                     & 17,243,610                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Hauts-de-France                      & \cellcolor[HTML]{F1F1F1}                     & 11,828,069                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Grand Est                            & \cellcolor[HTML]{F1F1F1}                     & 33,405,989                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Pays de la Loire                     & \cellcolor[HTML]{F1F1F1}                     & 17,951,404                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Brittany                             & \cellcolor[HTML]{F1F1F1}                     & 16,602,197                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Nouvelle-Aquitaine                   & \cellcolor[HTML]{F1F1F1}                     & 60,798,743                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Occitanie                            & \cellcolor[HTML]{F1F1F1}                     & 55,987,395                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Auvergne-Rhône-Alpes                 & \cellcolor[HTML]{F1F1F1}                     & 57,609,262                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Provence-Alpes-Côte d’Azur           & \cellcolor[HTML]{F1F1F1}                     & 25,971,806                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Corsica                              & \cellcolor[HTML]{F1F1F1}                     & 8,389,268                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Guadeloupe                           & \cellcolor[HTML]{F1F1F1}                     & 1,406,098                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Martinique                           & \cellcolor[HTML]{F1F1F1}                     & 982,097                                      \\
+ & \cellcolor[HTML]{E2F2FB}·  French Guiana                        & \cellcolor[HTML]{F1F1F1}                     & 81,481,444                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  La Réunion                           & \cellcolor[HTML]{F1F1F1}                     & 2,187,339                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Mayotte                              & \cellcolor[HTML]{F1F1F1}                     & 343,252                                      \\
+ & \cellcolor[HTML]{E2F2FB}Germany                                 & \cellcolor[HTML]{F1F1F1}                     &                                              \\
+ & \cellcolor[HTML]{E2F2FB}·  Baden-Württemberg                    & \cellcolor[HTML]{F1F1F1}                     & 25,052,960                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Bavaria                              & \cellcolor[HTML]{F1F1F1}                     & 46,694,829                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Berlin                               & \cellcolor[HTML]{F1F1F1}                     & 562,046                                      \\
+ & \cellcolor[HTML]{E2F2FB}·  Brandenburg                          & \cellcolor[HTML]{F1F1F1}                     & 19,012,318                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Bremen                               & \cellcolor[HTML]{F1F1F1}                     & 253,467                                      \\
+ & \cellcolor[HTML]{E2F2FB}·  Hamburg                              & \cellcolor[HTML]{F1F1F1}                     & 486,218                                      \\
+ & \cellcolor[HTML]{E2F2FB}·  Hesse                                & \cellcolor[HTML]{F1F1F1}                     & 15,260,413                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Mecklenburg-Vorpommern               & \cellcolor[HTML]{F1F1F1}                     & 11,545,842                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Lower Saxony                         & \cellcolor[HTML]{F1F1F1}                     & 27,867,931                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  North Rhine-Westphalia               & \cellcolor[HTML]{F1F1F1}                     & 20,775,664                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Rhineland-Palatinate                 & \cellcolor[HTML]{F1F1F1}                     & 14,704,612                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Saarland                             & \cellcolor[HTML]{F1F1F1}                     & 1,984,240                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Saxony                               & \cellcolor[HTML]{F1F1F1}                     & 10,521,217                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Saxony-Anhalt                        & \cellcolor[HTML]{F1F1F1}                     & 9,587,071                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Schleswig-Holstein                   & \cellcolor[HTML]{F1F1F1}                     & 8,642,897                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Thuringia                            & \cellcolor[HTML]{F1F1F1}                     & 9,490,581                                    \\
+ & \cellcolor[HTML]{E2F2FB}Greece                                  & \cellcolor[HTML]{F1F1F1}                     &                                              \\
+ & \cellcolor[HTML]{E2F2FB}·  Attica                               & \cellcolor[HTML]{F1F1F1}                     & 3,117,197                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  North Aegean                         & \cellcolor[HTML]{F1F1F1}                     & 3,540,740                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  South Aegean                         & \cellcolor[HTML]{F1F1F1}                     & 4,782,277                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Crete                                & \cellcolor[HTML]{F1F1F1}                     & 7,738,913                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Eastern Macedonia, Thrace            & \cellcolor[HTML]{F1F1F1}                     & 10,471,079                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Central Macedonia                    & \cellcolor[HTML]{F1F1F1}                     & 12,763,225                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Western Macedonia                    & \cellcolor[HTML]{F1F1F1}                     & 7,320,534                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Epirus                               & \cellcolor[HTML]{F1F1F1}                     & 8,564,318                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Thessaly                             & \cellcolor[HTML]{F1F1F1}                     & 10,016,550                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Ionian Islands                       & \cellcolor[HTML]{F1F1F1}                     & 2,149,034                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Western Greece                       & \cellcolor[HTML]{F1F1F1}                     & 9,975,667                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Central Greece                       & \cellcolor[HTML]{F1F1F1}                     & 13,490,503                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Peloponnese                          & \cellcolor[HTML]{F1F1F1}                     & 14,782,957                                   \\
+ & \cellcolor[HTML]{E2F2FB}Hungary                                 & \cellcolor[HTML]{F1F1F1}                     &                                              \\
+ & \cellcolor[HTML]{E2F2FB}·  Budapest                             & \cellcolor[HTML]{F1F1F1}                     & 284,663                                      \\
+ & \cellcolor[HTML]{E2F2FB}·  Pest                                 & \cellcolor[HTML]{F1F1F1}                     & 3,622,145                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Central Transdanubia                 & \cellcolor[HTML]{F1F1F1}                     & 5,484,404                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Western Transdanubia                 & \cellcolor[HTML]{F1F1F1}                     & 5,885,905                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Southern Transdanubia                & \cellcolor[HTML]{F1F1F1}                     & 6,813,193                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Northern Hungary                     & \cellcolor[HTML]{F1F1F1}                     & 8,380,413                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Northern Great Plain                 & \cellcolor[HTML]{F1F1F1}                     & 7,021,473                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Southern Great Plain                 & \cellcolor[HTML]{F1F1F1}                     & 7,148,159                                    \\
+ & \cellcolor[HTML]{E2F2FB}Ireland                                 & \cellcolor[HTML]{F1F1F1}                     &                                              \\
+ & \cellcolor[HTML]{E2F2FB}·  Northern and Western                 & \cellcolor[HTML]{F1F1F1}                     & 24,288,184                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Southern                             & \cellcolor[HTML]{F1F1F1}                     & 27,162,974                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Eastern and Midland                  & \cellcolor[HTML]{F1F1F1}                     & 12,285,652                                   \\
+ & \cellcolor[HTML]{E2F2FB}Italy                                   & \cellcolor[HTML]{F1F1F1}                     &                                              \\
+ & \cellcolor[HTML]{E2F2FB}·  Piedmont                             & \cellcolor[HTML]{F1F1F1}                     & 17,542,027                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Aosta Valley                         & \cellcolor[HTML]{F1F1F1}                     & 2,167,590                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Liguria                              & \cellcolor[HTML]{F1F1F1}                     & 5,129,260                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Lombardy                             & \cellcolor[HTML]{F1F1F1}                     & 13,173,740                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Abruzzo                              & \cellcolor[HTML]{F1F1F1}                     & 8,970,680                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Molise                               & \cellcolor[HTML]{F1F1F1}                     & 3,050,026                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Campania                             & \cellcolor[HTML]{F1F1F1}                     & 9,992,156                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Apulia                               & \cellcolor[HTML]{F1F1F1}                     & 9,994,438                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Basilicata                           & \cellcolor[HTML]{F1F1F1}                     & 7,083,894                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Calabria                             & \cellcolor[HTML]{F1F1F1}                     & 13,457,644                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Sicily                               & \cellcolor[HTML]{F1F1F1}                     & 17,947,404                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Sardinia                             & \cellcolor[HTML]{F1F1F1}                     & 20,114,511                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Autonomous prov. Bolzano             & \cellcolor[HTML]{F1F1F1}                     & 6,035,429                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Autonomous prov. Trento              & \cellcolor[HTML]{F1F1F1}                     & 5,479,592                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Veneto                               & \cellcolor[HTML]{F1F1F1}                     & 9,905,945                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Friuli-Venezia Giulia                & \cellcolor[HTML]{F1F1F1}                     & 5,496,398                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Emilia-Romagna                       & \cellcolor[HTML]{F1F1F1}                     & 13,518,562                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Tuscany                              & \cellcolor[HTML]{F1F1F1}                     & 18,653,442                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Umbria                               & \cellcolor[HTML]{F1F1F1}                     & 6,533,110                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Marche                               & \cellcolor[HTML]{F1F1F1}                     & 6,197,637                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Lazio                                & \cellcolor[HTML]{F1F1F1}                     & 12,961,038                                   \\
+ & \cellcolor[HTML]{E2F2FB}Japan                                   & \cellcolor[HTML]{F1F1F1}                     &                                              \\
+ & \cellcolor[HTML]{E2F2FB}·  Hokkaido                             & \cellcolor[HTML]{F1F1F1}                     & 64,945,702                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Tohoku                               & \cellcolor[HTML]{F1F1F1}                     & 55,636,060                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Northern-Kanto, Koshin               & \cellcolor[HTML]{F1F1F1}                     & 28,537,485                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Southern-Kanto                       & \cellcolor[HTML]{F1F1F1}                     & 7,101,817                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Hokuriku                             & \cellcolor[HTML]{F1F1F1}                     & 19,969,652                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Toukai                               & \cellcolor[HTML]{F1F1F1}                     & 23,173,493                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Kansai region                        & \cellcolor[HTML]{F1F1F1}                     & 21,301,271                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Chugoku                              & \cellcolor[HTML]{F1F1F1}                     & 27,625,360                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Shikoku                              & \cellcolor[HTML]{F1F1F1}                     & 16,553,623                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Kyushu, Okinawa                      & \cellcolor[HTML]{F1F1F1}                     & 35,833,563                                   \\
+ & \cellcolor[HTML]{E2F2FB}Korea                                   & \cellcolor[HTML]{F1F1F1}                     &                                              \\
+ & \cellcolor[HTML]{E2F2FB}·  Seoul Capital Area                   & \cellcolor[HTML]{F1F1F1}                     & 7,562,962                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Gyeongnam Region                     & \cellcolor[HTML]{F1F1F1}                     & 9,546,943                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Gyeongbuk Region                     & \cellcolor[HTML]{F1F1F1}                     & 15,935,681                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Jeolla Region                        & \cellcolor[HTML]{F1F1F1}                     & 13,830,645                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Chungcheong Region                   & \cellcolor[HTML]{F1F1F1}                     & 11,374,200                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Gangwon Region                       & \cellcolor[HTML]{F1F1F1}                     & 15,164,896                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Jeju                                 & \cellcolor[HTML]{F1F1F1}                     & 1,327,712                                    \\
+ & \cellcolor[HTML]{E2F2FB}Latvia                                  & \cellcolor[HTML]{F1F1F1}                     &                                              \\
+ & \cellcolor[HTML]{E2F2FB}·  Latvia                               & \cellcolor[HTML]{F1F1F1}                     & 49,302,616                                   \\
+ & \cellcolor[HTML]{E2F2FB}Lithuania                               & \cellcolor[HTML]{F1F1F1}                     &                                              \\
+ & \cellcolor[HTML]{E2F2FB}·  Capital Region                       & \cellcolor[HTML]{F1F1F1}                     & 6,971,678                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Central and Western Lithuania Region & \cellcolor[HTML]{F1F1F1}                     & 32,588,805                                   \\
+ & \cellcolor[HTML]{E2F2FB}Luxembourg                              & \cellcolor[HTML]{F1F1F1}                     &                                              \\
+ & \cellcolor[HTML]{E2F2FB}·  Luxembourg                           & \cellcolor[HTML]{F1F1F1}                     & 1,964,458                                    \\
+ & \cellcolor[HTML]{E2F2FB}Mexico                                  & \cellcolor[HTML]{F1F1F1}                     &                                              \\
+ & \cellcolor[HTML]{E2F2FB}·  Aguascalientes                       & \cellcolor[HTML]{F1F1F1}                     & 4,021,589                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Baja California                      & \cellcolor[HTML]{F1F1F1}                     & 47,512,299                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Baja California Sur                  & \cellcolor[HTML]{F1F1F1}                     & 51,674,833                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Campeche                             & \cellcolor[HTML]{F1F1F1}                     & 48,820,639                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Coahuila                             & \cellcolor[HTML]{F1F1F1}                     & 129,177,921                                  \\
+ & \cellcolor[HTML]{E2F2FB}·  Colima                               & \cellcolor[HTML]{F1F1F1}                     & 4,943,634                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Chiapas                              & \cellcolor[HTML]{F1F1F1}                     & 68,491,220                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Chihuahua                            & \cellcolor[HTML]{F1F1F1}                     & 203,682,982                                  \\
+ & \cellcolor[HTML]{E2F2FB}·  Mexico City                          & \cellcolor[HTML]{F1F1F1}                     & 805,415                                      \\
+ & \cellcolor[HTML]{E2F2FB}·  Durango                              & \cellcolor[HTML]{F1F1F1}                     & 110,614,237                                  \\
+ & \cellcolor[HTML]{E2F2FB}·  Guanajuato                           & \cellcolor[HTML]{F1F1F1}                     & 20,213,671                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Guerrero                             & \cellcolor[HTML]{F1F1F1}                     & 60,636,564                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Hidalgo                              & \cellcolor[HTML]{F1F1F1}                     & 16,902,285                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Jalisco                              & \cellcolor[HTML]{F1F1F1}                     & 65,096,886                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Mexico                               & \cellcolor[HTML]{F1F1F1}                     & 15,350,623                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Michoacan                            & \cellcolor[HTML]{F1F1F1}                     & 50,691,315                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Morelos                              & \cellcolor[HTML]{F1F1F1}                     & 3,621,586                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Nayarit                              & \cellcolor[HTML]{F1F1F1}                     & 23,781,249                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Nuevo Leon                           & \cellcolor[HTML]{F1F1F1}                     & 59,480,606                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Oaxaca                               & \cellcolor[HTML]{F1F1F1}                     & 87,533,716                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Puebla                               & \cellcolor[HTML]{F1F1F1}                     & 27,806,152                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Queretaro                            & \cellcolor[HTML]{F1F1F1}                     & 9,706,369                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Quintana Roo                         & \cellcolor[HTML]{F1F1F1}                     & 38,640,835                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  San Luis Potosi                      & \cellcolor[HTML]{F1F1F1}                     & 53,561,839                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Sinaloa                              & \cellcolor[HTML]{F1F1F1}                     & 39,935,809                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Sonora                               & \cellcolor[HTML]{F1F1F1}                     & 143,667,850                                  \\
+ & \cellcolor[HTML]{E2F2FB}·  Tabasco                              & \cellcolor[HTML]{F1F1F1}                     & 17,996,909                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Tamaulipas                           & \cellcolor[HTML]{F1F1F1}                     & 60,485,858                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Tlaxcala                             & \cellcolor[HTML]{F1F1F1}                     & 1,935,840                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Veracruz                             & \cellcolor[HTML]{F1F1F1}                     & 61,600,148                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Yucatan                              & \cellcolor[HTML]{F1F1F1}                     & 36,972,180                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Zacatecas                            & \cellcolor[HTML]{F1F1F1}                     & 60,624,418                                   \\
+ & \cellcolor[HTML]{E2F2FB}Netherlands                             & \cellcolor[HTML]{F1F1F1}                     &                                              \\
+ & \cellcolor[HTML]{E2F2FB}·  Groningen                            & \cellcolor[HTML]{F1F1F1}                     & 1,165,264                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Friesland                            & \cellcolor[HTML]{F1F1F1}                     & 2,614,015                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Drenthe                              & \cellcolor[HTML]{F1F1F1}                     & 1,671,781                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Overijssel                           & \cellcolor[HTML]{F1F1F1}                     & 2,538,437                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Gelderland                           & \cellcolor[HTML]{F1F1F1}                     & 3,845,842                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Flevoland                            & \cellcolor[HTML]{F1F1F1}                     & 508,042                                      \\
+ & \cellcolor[HTML]{E2F2FB}·  Utrecht (TL2021)                     & \cellcolor[HTML]{F1F1F1}                     & 1,093,037                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  North Holland                        & \cellcolor[HTML]{F1F1F1}                     & 1,611,400                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  South Holland (TL2021)               & \cellcolor[HTML]{F1F1F1}                     & 1,699,361                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Zeeland                              & \cellcolor[HTML]{F1F1F1}                     & 642,257                                      \\
+ & \cellcolor[HTML]{E2F2FB}·  North Brabant                        & \cellcolor[HTML]{F1F1F1}                     & 2,938,245                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Limburg                              & \cellcolor[HTML]{F1F1F1}                     & 1,220,888                                    \\
+ & \cellcolor[HTML]{E2F2FB}New Zealand                             & \cellcolor[HTML]{F1F1F1}                     &                                              \\
+ & \cellcolor[HTML]{E2F2FB}·  Northland                            & \cellcolor[HTML]{F1F1F1}                     & 11,989,443                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Auckland                             & \cellcolor[HTML]{F1F1F1}                     & 4,377,984                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Waikato                              & \cellcolor[HTML]{F1F1F1}                     & 22,573,776                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Bay of Plenty                        & \cellcolor[HTML]{F1F1F1}                     & 11,774,917                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Gisborne                             & \cellcolor[HTML]{F1F1F1}                     & 8,162,325                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Hawke's Bay                          & \cellcolor[HTML]{F1F1F1}                     & 13,578,628                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Taranaki                             & \cellcolor[HTML]{F1F1F1}                     & 7,135,986                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Manawatu-Wanganui                    & \cellcolor[HTML]{F1F1F1}                     & 21,624,760                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Wellington                           & \cellcolor[HTML]{F1F1F1}                     & 7,716,463                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Tasman-Nelson-Marlborough            & \cellcolor[HTML]{F1F1F1}                     & 19,112,397                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  West Coast                           & \cellcolor[HTML]{F1F1F1}                     & 21,215,047                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Canterbury                           & \cellcolor[HTML]{F1F1F1}                     & 35,339,024                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Otago                                & \cellcolor[HTML]{F1F1F1}                     & 28,969,782                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Southland                            & \cellcolor[HTML]{F1F1F1}                     & 29,764,139                                   \\
+ & \cellcolor[HTML]{E2F2FB}Norway                                  & \cellcolor[HTML]{F1F1F1}                     &                                              \\
+ & \cellcolor[HTML]{E2F2FB}·  Innlandet                            & \cellcolor[HTML]{F1F1F1}                     & 39,241,486                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Trøndelag                            & \cellcolor[HTML]{F1F1F1}                     & 33,520,624                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Northern Norway                      & \cellcolor[HTML]{F1F1F1}                     & 67,596,490                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Oslo and Viken                       & \cellcolor[HTML]{F1F1F1}                     & 19,559,651                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Agder and Sør-Østlandet              & \cellcolor[HTML]{F1F1F1}                     & 27,778,332                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Western Norway                       & \cellcolor[HTML]{F1F1F1}                     & 38,728,045                                   \\
+ & \cellcolor[HTML]{E2F2FB}Poland                                  & \cellcolor[HTML]{F1F1F1}                     &                                              \\
+ & \cellcolor[HTML]{E2F2FB}·  Lesser Poland                        & \cellcolor[HTML]{F1F1F1}                     & 10,654,497                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Silesia                              & \cellcolor[HTML]{F1F1F1}                     & 8,444,650                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Greater Poland                       & \cellcolor[HTML]{F1F1F1}                     & 14,264,086                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  West Pomerania                       & \cellcolor[HTML]{F1F1F1}                     & 14,402,399                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Lubusz                               & \cellcolor[HTML]{F1F1F1}                     & 10,421,904                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Lower Silesia                        & \cellcolor[HTML]{F1F1F1}                     & 11,171,528                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Opole region                         & \cellcolor[HTML]{F1F1F1}                     & 4,090,212                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Kuyavian-Pomerania                   & \cellcolor[HTML]{F1F1F1}                     & 7,834,312                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Warmian-Masuria                      & \cellcolor[HTML]{F1F1F1}                     & 15,766,534                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Pomerania                            & \cellcolor[HTML]{F1F1F1}                     & 11,160,965                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Lodzkie                              & \cellcolor[HTML]{F1F1F1}                     & 9,742,215                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Swietokrzyskie                       & \cellcolor[HTML]{F1F1F1}                     & 7,729,782                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Lublin Province                      & \cellcolor[HTML]{F1F1F1}                     & 12,813,927                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Podkarpacia                          & \cellcolor[HTML]{F1F1F1}                     & 13,047,623                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Podlaskie                            & \cellcolor[HTML]{F1F1F1}                     & 13,436,666                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Warsaw                               & \cellcolor[HTML]{F1F1F1}                     & 4,503,489                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Mazowiecki region                    & \cellcolor[HTML]{F1F1F1}                     & 17,803,491                                   \\
+ & \cellcolor[HTML]{E2F2FB}Portugal                                & \cellcolor[HTML]{F1F1F1}                     &                                              \\
+ & \cellcolor[HTML]{E2F2FB}·  North                                & \cellcolor[HTML]{F1F1F1}                     & 18,730,100                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Algarve                              & \cellcolor[HTML]{F1F1F1}                     & 4,474,974                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Centro                               & \cellcolor[HTML]{F1F1F1}                     & 25,617,183                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Metropolitan area of Lisbon          & \cellcolor[HTML]{F1F1F1}                     & 1,952,639                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Alentejo                             & \cellcolor[HTML]{F1F1F1}                     & 26,901,377                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Autonomous Region of the Azores      & \cellcolor[HTML]{F1F1F1}                     & 2,112,953                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Autonomous Region of Madeira         & \cellcolor[HTML]{F1F1F1}                     & 725,062                                      \\
+ & \cellcolor[HTML]{E2F2FB}Slovak Republic                         & \cellcolor[HTML]{F1F1F1}                     &                                              \\
+ & \cellcolor[HTML]{E2F2FB}·  Bratislava Region                    & \cellcolor[HTML]{F1F1F1}                     & 1,229,303                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  West Slovakia                        & \cellcolor[HTML]{F1F1F1}                     & 6,910,652                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Central Slovakia                     & \cellcolor[HTML]{F1F1F1}                     & 13,490,533                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  East Slovakia                        & \cellcolor[HTML]{F1F1F1}                     & 11,675,913                                   \\
+ & \cellcolor[HTML]{E2F2FB}Slovenia                                & \cellcolor[HTML]{F1F1F1}                     &                                              \\
+ & \cellcolor[HTML]{E2F2FB}·  Eastern Slovenia                     & \cellcolor[HTML]{F1F1F1}                     & 10,736,083                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Western Slovenia                     & \cellcolor[HTML]{F1F1F1}                     & 7,276,807                                    \\
+ & \cellcolor[HTML]{E2F2FB}Spain                                   & \cellcolor[HTML]{F1F1F1}                     &                                              \\
+ & \cellcolor[HTML]{E2F2FB}·  Galicia                              & \cellcolor[HTML]{F1F1F1}                     & 27,490,384                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Asturias                             & \cellcolor[HTML]{F1F1F1}                     & 10,276,319                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Cantabria                            & \cellcolor[HTML]{F1F1F1}                     & 5,035,587                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Basque Country                       & \cellcolor[HTML]{F1F1F1}                     & 6,231,804                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Navarra                              & \cellcolor[HTML]{F1F1F1}                     & 6,943,036                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  La Rioja                             & \cellcolor[HTML]{F1F1F1}                     & 3,702,048                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Aragon                               & \cellcolor[HTML]{F1F1F1}                     & 31,626,289                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Madrid                               & \cellcolor[HTML]{F1F1F1}                     & 5,429,624                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Castile and León                     & \cellcolor[HTML]{F1F1F1}                     & 57,411,241                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Castile-La Mancha                    & \cellcolor[HTML]{F1F1F1}                     & 46,614,470                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Extremadura                          & \cellcolor[HTML]{F1F1F1}                     & 33,444,556                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Catalonia                            & \cellcolor[HTML]{F1F1F1}                     & 24,913,928                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Valencian Community                  & \cellcolor[HTML]{F1F1F1}                     & 19,664,446                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Balearic Islands                     & \cellcolor[HTML]{F1F1F1}                     & 3,717,961                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Andalusia                            & \cellcolor[HTML]{F1F1F1}                     & 67,280,540                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Murcia                               & \cellcolor[HTML]{F1F1F1}                     & 7,531,621                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Ceuta                                & \cellcolor[HTML]{F1F1F1}                     & 12,869                                       \\
+ & \cellcolor[HTML]{E2F2FB}·  Melilla                              & \cellcolor[HTML]{F1F1F1}                     & 5,116                                        \\
+ & \cellcolor[HTML]{E2F2FB}·  Canary Islands                       & \cellcolor[HTML]{F1F1F1}                     & 4,501,380                                    \\
+ & \cellcolor[HTML]{E2F2FB}Sweden                                  & \cellcolor[HTML]{F1F1F1}                     &                                              \\
+ & \cellcolor[HTML]{E2F2FB}·  Stockholm                            & \cellcolor[HTML]{F1F1F1}                     & 5,549,767                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  East Middle Sweden                   & \cellcolor[HTML]{F1F1F1}                     & 33,042,627                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Småland with Islands                 & \cellcolor[HTML]{F1F1F1}                     & 31,391,623                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  South Sweden                         & \cellcolor[HTML]{F1F1F1}                     & 9,976,906                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  West Sweden                          & \cellcolor[HTML]{F1F1F1}                     & 25,173,529                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  North Middle Sweden                  & \cellcolor[HTML]{F1F1F1}                     & 61,303,466                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Central Norrland                     & \cellcolor[HTML]{F1F1F1}                     & 68,407,016                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Upper Norrland                       & \cellcolor[HTML]{F1F1F1}                     & 135,383,204                                  \\
+ & \cellcolor[HTML]{E2F2FB}Switzerland                             & \cellcolor[HTML]{F1F1F1}                     &                                              \\
+ & \cellcolor[HTML]{E2F2FB}·  Lake Geneva Region                   & \cellcolor[HTML]{F1F1F1}                     & 5,210,425                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Espace Mittelland                    & \cellcolor[HTML]{F1F1F1}                     & 7,791,274                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Northwestern Switzerland             & \cellcolor[HTML]{F1F1F1}                     & 1,396,671                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Zurich                               & \cellcolor[HTML]{F1F1F1}                     & 1,144,510                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Eastern Switzerland                  & \cellcolor[HTML]{F1F1F1}                     & 8,666,799                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Central Switzerland                  & \cellcolor[HTML]{F1F1F1}                     & 3,504,399                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Ticino                               & \cellcolor[HTML]{F1F1F1}                     & 2,383,458                                    \\
+ & \cellcolor[HTML]{E2F2FB}Türkiye                                 & \cellcolor[HTML]{F1F1F1}                     &                                              \\
+ & \cellcolor[HTML]{E2F2FB}·  Istanbul                             & \cellcolor[HTML]{F1F1F1}                     & 3,590,285                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Thrace                               & \cellcolor[HTML]{F1F1F1}                     & 7,264,921                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Southern Marmara - West              & \cellcolor[HTML]{F1F1F1}                     & 18,651,750                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Izmir                                & \cellcolor[HTML]{F1F1F1}                     & 9,281,680                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Southern Aegean                      & \cellcolor[HTML]{F1F1F1}                     & 26,003,396                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Northern Aegean                      & \cellcolor[HTML]{F1F1F1}                     & 30,165,649                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Eastern Marmara - South              & \cellcolor[HTML]{F1F1F1}                     & 18,799,708                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Eastern Marmara - North              & \cellcolor[HTML]{F1F1F1}                     & 16,844,796                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Ankara                               & \cellcolor[HTML]{F1F1F1}                     & 12,769,037                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Central Anatolia - West and South    & \cellcolor[HTML]{F1F1F1}                     & 23,558,015                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Mediterranean region - West          & \cellcolor[HTML]{F1F1F1}                     & 28,718,671                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Mediterranean region - Middle        & \cellcolor[HTML]{F1F1F1}                     & 22,187,185                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Mediterranean region - East          & \cellcolor[HTML]{F1F1F1}                     & 16,491,378                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Central Anatolia - Middle            & \cellcolor[HTML]{F1F1F1}                     & 13,492,996                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Central Anatolia - East              & \cellcolor[HTML]{F1F1F1}                     & 33,645,509                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Western Black Sea - West             & \cellcolor[HTML]{F1F1F1}                     & 9,446,129                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Western Black Sea - Middle and East  & \cellcolor[HTML]{F1F1F1}                     & 22,768,817                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Middle Black Sea                     & \cellcolor[HTML]{F1F1F1}                     & 26,209,945                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Eastern Black Sea                    & \cellcolor[HTML]{F1F1F1}                     & 33,673,307                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Northeastern Anatolia - West         & \cellcolor[HTML]{F1F1F1}                     & 33,160,923                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Northeastern Anatolia - East         & \cellcolor[HTML]{F1F1F1}                     & 21,712,960                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Eastern Anatolia - West              & \cellcolor[HTML]{F1F1F1}                     & 29,089,201                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Eastern Anatolia - East              & \cellcolor[HTML]{F1F1F1}                     & 30,626,575                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Southeastern Anatolia - West         & \cellcolor[HTML]{F1F1F1}                     & 8,197,496                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Southeastern Anatolia - Middle       & \cellcolor[HTML]{F1F1F1}                     & 13,260,356                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Southeastern Anatolia - East         & \cellcolor[HTML]{F1F1F1}                     & 18,189,337                                   \\
+ & \cellcolor[HTML]{E2F2FB}United Kingdom                          & \cellcolor[HTML]{F1F1F1}                     &                                              \\
+ & \cellcolor[HTML]{E2F2FB}·  North East England                   & \cellcolor[HTML]{F1F1F1}                     & 6,546,392                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  North West England                   & \cellcolor[HTML]{F1F1F1}                     & 11,642,488                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Yorkshire and The Humber             & \cellcolor[HTML]{F1F1F1}                     & 9,093,955                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  East Midlands                        & \cellcolor[HTML]{F1F1F1}                     & 7,164,175                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  West Midlands                        & \cellcolor[HTML]{F1F1F1}                     & 8,438,236                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  East of England                      & \cellcolor[HTML]{F1F1F1}                     & 7,801,163                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Greater London                       & \cellcolor[HTML]{F1F1F1}                     & 828,616                                      \\
+ & \cellcolor[HTML]{E2F2FB}·  South East England                   & \cellcolor[HTML]{F1F1F1}                     & 12,903,610                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  South West England                   & \cellcolor[HTML]{F1F1F1}                     & 18,222,988                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Wales                                & \cellcolor[HTML]{F1F1F1}                     & 19,286,728                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Scotland                             & \cellcolor[HTML]{F1F1F1}                     & 70,022,743                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Northern Ireland                     & \cellcolor[HTML]{F1F1F1}                     & 12,657,656                                   \\
+ & \cellcolor[HTML]{E2F2FB}United States                           & \cellcolor[HTML]{F1F1F1}                     &                                              \\
+ & \cellcolor[HTML]{E2F2FB}·  Alabama                              & \cellcolor[HTML]{F1F1F1}                     & 123,543,084                                  \\
+ & \cellcolor[HTML]{E2F2FB}·  Alaska                               & \cellcolor[HTML]{F1F1F1}                     & 1,088,968,834                                \\
+ & \cellcolor[HTML]{E2F2FB}·  Arizona                              & \cellcolor[HTML]{F1F1F1}                     & 213,303,911                                  \\
+ & \cellcolor[HTML]{E2F2FB}·  Arkansas                             & \cellcolor[HTML]{F1F1F1}                     & 107,932,790                                  \\
+ & \cellcolor[HTML]{E2F2FB}·  California                           & \cellcolor[HTML]{F1F1F1}                     & 281,559,806                                  \\
+ & \cellcolor[HTML]{E2F2FB}·  Colorado                             & \cellcolor[HTML]{F1F1F1}                     & 221,961,448                                  \\
+ & \cellcolor[HTML]{E2F2FB}·  Connecticut                          & \cellcolor[HTML]{F1F1F1}                     & 11,606,317                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Delaware                             & \cellcolor[HTML]{F1F1F1}                     & 2,962,119                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  District of Columbia                 & \cellcolor[HTML]{F1F1F1}                     & 80,648                                       \\
+ & \cellcolor[HTML]{E2F2FB}·  Florida                              & \cellcolor[HTML]{F1F1F1}                     & 111,155,369                                  \\
+ & \cellcolor[HTML]{E2F2FB}·  Georgia                              & \cellcolor[HTML]{F1F1F1}                     & 132,669,059                                  \\
+ & \cellcolor[HTML]{E2F2FB}·  Hawaii                               & \cellcolor[HTML]{F1F1F1}                     & 13,319,452                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Idaho                                & \cellcolor[HTML]{F1F1F1}                     & 183,470,551                                  \\
+ & \cellcolor[HTML]{E2F2FB}·  Illinois                             & \cellcolor[HTML]{F1F1F1}                     & 47,464,013                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Indiana                              & \cellcolor[HTML]{F1F1F1}                     & 41,833,595                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Iowa                                 & \cellcolor[HTML]{F1F1F1}                     & 40,636,349                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Kansas                               & \cellcolor[HTML]{F1F1F1}                     & 111,445,236                                  \\
+ & \cellcolor[HTML]{E2F2FB}·  Kentucky                             & \cellcolor[HTML]{F1F1F1}                     & 86,115,579                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Louisiana                            & \cellcolor[HTML]{F1F1F1}                     & 83,309,028                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Maine                                & \cellcolor[HTML]{F1F1F1}                     & 77,923,060                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Maryland                             & \cellcolor[HTML]{F1F1F1}                     & 18,988,879                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Massachusetts                        & \cellcolor[HTML]{F1F1F1}                     & 18,392,414                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Michigan                             & \cellcolor[HTML]{F1F1F1}                     & 115,486,545                                  \\
+ & \cellcolor[HTML]{E2F2FB}·  Minnesota                            & \cellcolor[HTML]{F1F1F1}                     & 118,595,949                                  \\
+ & \cellcolor[HTML]{E2F2FB}·  Mississippi                          & \cellcolor[HTML]{F1F1F1}                     & 104,658,924                                  \\
+ & \cellcolor[HTML]{E2F2FB}·  Missouri                             & \cellcolor[HTML]{F1F1F1}                     & 129,874,122                                  \\
+ & \cellcolor[HTML]{E2F2FB}·  Montana                              & \cellcolor[HTML]{F1F1F1}                     & 313,203,995                                  \\
+ & \cellcolor[HTML]{E2F2FB}·  Nebraska                             & \cellcolor[HTML]{F1F1F1}                     & 118,612,010                                  \\
+ & \cellcolor[HTML]{E2F2FB}·  Nevada                               & \cellcolor[HTML]{F1F1F1}                     & 203,619,359                                  \\
+ & \cellcolor[HTML]{E2F2FB}·  New Hampshire                        & \cellcolor[HTML]{F1F1F1}                     & 22,527,826                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  New Jersey                           & \cellcolor[HTML]{F1F1F1}                     & 15,150,981                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  New Mexico                           & \cellcolor[HTML]{F1F1F1}                     & 274,529,777                                  \\
+ & \cellcolor[HTML]{E2F2FB}·  New York                             & \cellcolor[HTML]{F1F1F1}                     & 107,304,172                                  \\
+ & \cellcolor[HTML]{E2F2FB}·  North Carolina                       & \cellcolor[HTML]{F1F1F1}                     & 107,215,582                                  \\
+ & \cellcolor[HTML]{E2F2FB}·  North Dakota                         & \cellcolor[HTML]{F1F1F1}                     & 80,356,296                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Ohio                                 & \cellcolor[HTML]{F1F1F1}                     & 64,163,902                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Oklahoma                             & \cellcolor[HTML]{F1F1F1}                     & 143,216,226                                  \\
+ & \cellcolor[HTML]{E2F2FB}·  Oregon                               & \cellcolor[HTML]{F1F1F1}                     & 231,794,463                                  \\
+ & \cellcolor[HTML]{E2F2FB}·  Pennsylvania                         & \cellcolor[HTML]{F1F1F1}                     & 102,342,765                                  \\
+ & \cellcolor[HTML]{E2F2FB}·  Rhode Island                         & \cellcolor[HTML]{F1F1F1}                     & 2,390,468                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  South Carolina                       & \cellcolor[HTML]{F1F1F1}                     & 69,380,006                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  South Dakota                         & \cellcolor[HTML]{F1F1F1}                     & 126,804,554                                  \\
+ & \cellcolor[HTML]{E2F2FB}·  Tennessee                            & \cellcolor[HTML]{F1F1F1}                     & 93,435,440                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Texas                                & \cellcolor[HTML]{F1F1F1}                     & 555,353,549                                  \\
+ & \cellcolor[HTML]{E2F2FB}·  Utah                                 & \cellcolor[HTML]{F1F1F1}                     & 146,388,287                                  \\
+ & \cellcolor[HTML]{E2F2FB}·  Vermont                              & \cellcolor[HTML]{F1F1F1}                     & 22,490,599                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Virginia                             & \cellcolor[HTML]{F1F1F1}                     & 93,963,494                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Washington                           & \cellcolor[HTML]{F1F1F1}                     & 142,009,577                                  \\
+ & \cellcolor[HTML]{E2F2FB}·  West Virginia                        & \cellcolor[HTML]{F1F1F1}                     & 61,202,453                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Wisconsin                            & \cellcolor[HTML]{F1F1F1}                     & 101,169,074                                  \\
+ & \cellcolor[HTML]{E2F2FB}·  Wyoming                              & \cellcolor[HTML]{F1F1F1}                     & 220,207,371                                  \\
+ & \cellcolor[HTML]{E2F2FB}Non-OECD economies                      & \cellcolor[HTML]{F1F1F1}                     &                                              \\
+ & \cellcolor[HTML]{E2F2FB}·  Bulgaria                             & \cellcolor[HTML]{F1F1F1}                     &                                              \\
+ & \cellcolor[HTML]{E2F2FB}·  ·  North West                        & \cellcolor[HTML]{F1F1F1}                     & 10,060,683                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  ·  North Central                     & \cellcolor[HTML]{F1F1F1}                     & 7,523,647                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  ·  North East                        & \cellcolor[HTML]{F1F1F1}                     & 6,547,133                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  ·  South East                        & \cellcolor[HTML]{F1F1F1}                     & 12,003,039                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  ·  South West                        & \cellcolor[HTML]{F1F1F1}                     & 17,634,636                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  ·  South Central                     & \cellcolor[HTML]{F1F1F1}                     & 17,015,836                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  Croatia                              & \cellcolor[HTML]{F1F1F1}                     &                                              \\
+ & \cellcolor[HTML]{E2F2FB}·  ·  Pannonian Croatia                 & \cellcolor[HTML]{F1F1F1}                     & 15,673,210                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  ·  Adriatic Croatia                  & \cellcolor[HTML]{F1F1F1}                     & 23,167,062                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  ·  City of Zagreb                    & \cellcolor[HTML]{F1F1F1}                     & 466,952                                      \\
+ & \cellcolor[HTML]{E2F2FB}·  ·  Northern Croatia                  & \cellcolor[HTML]{F1F1F1}                     & 5,749,501                                    \\
+ & \cellcolor[HTML]{E2F2FB}·  Romania                              & \cellcolor[HTML]{F1F1F1}                     &                                              \\
+ & \cellcolor[HTML]{E2F2FB}·  ·  North West                        & \cellcolor[HTML]{F1F1F1}                     & 26,515,682                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  ·  Center                            & \cellcolor[HTML]{F1F1F1}                     & 27,436,116                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  ·  North East                        & \cellcolor[HTML]{F1F1F1}                     & 23,292,342                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  ·  South East                        & \cellcolor[HTML]{F1F1F1}                     & 12,486,032                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  ·  South - Muntenia                  & \cellcolor[HTML]{F1F1F1}                     & 14,166,341                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  ·  Bucharest - Ilfov                 & \cellcolor[HTML]{F1F1F1}                     & 649,477                                      \\
+ & \cellcolor[HTML]{E2F2FB}·  ·  South West Oltenia                & \cellcolor[HTML]{F1F1F1}                     & 17,291,625                                   \\
+ & \cellcolor[HTML]{E2F2FB}·  ·  West                              & \cellcolor[HTML]{F1F1F1}                     & 22,301,686                                  
+\end{tabular}
+\end{table}

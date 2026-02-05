@@ -1,0 +1,994 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <meta name="generator" content="PhpSpreadsheet, https://github.com/PHPOffice/PhpSpreadsheet">
+      <meta name="author" content="yyuhhhh13" />
+      <meta name="company" content="Microsoft Corporation" />
+    <style type="text/css">
+      html { font-family:Calibri, Arial, Helvetica, sans-serif; font-size:11pt; background-color:white }
+      a.comment-indicator:hover + div.comment { background:#ffd; position:absolute; display:block; border:1px solid black; padding:0.5em }
+      a.comment-indicator { background:red; display:inline-block; border:1px solid black; width:0.5em; height:0.5em }
+      div.comment { display:none }
+      table { border-collapse:collapse; page-break-after:always }
+      .gridlines td { border:1px dotted black }
+      .gridlines th { border:1px dotted black }
+      .b { text-align:center }
+      .e { text-align:center }
+      .f { text-align:right }
+      .inlineStr { text-align:left }
+      .n { text-align:right }
+      .s { text-align:left }
+      td.style0 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style0 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style1 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style1 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style2 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'宋体'; font-size:14pt; background-color:white }
+      th.style2 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'宋体'; font-size:14pt; background-color:white }
+      td.style3 { vertical-align:bottom; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style3 { vertical-align:bottom; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style4 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style4 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style5 { vertical-align:bottom; text-align:left; padding-left:18px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style5 { vertical-align:bottom; text-align:left; padding-left:18px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style6 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style6 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style7 { vertical-align:bottom; text-align:left; padding-left:36px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style7 { vertical-align:bottom; text-align:left; padding-left:36px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style8 { vertical-align:bottom; text-align:left; padding-left:54px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style8 { vertical-align:bottom; text-align:left; padding-left:54px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style9 { vertical-align:bottom; text-align:left; padding-left:72px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style9 { vertical-align:bottom; text-align:left; padding-left:72px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style10 { vertical-align:bottom; text-align:left; padding-left:72px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style10 { vertical-align:bottom; text-align:left; padding-left:72px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style11 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style11 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style12 { vertical-align:bottom; text-align:left; padding-left:90px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style12 { vertical-align:bottom; text-align:left; padding-left:90px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style13 { vertical-align:bottom; text-align:left; padding-left:54px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style13 { vertical-align:bottom; text-align:left; padding-left:54px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style14 { vertical-align:bottom; text-align:left; padding-left:90px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style14 { vertical-align:bottom; text-align:left; padding-left:90px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      table.sheet0 col.col0 { width:363.96666249pt }
+      table.sheet0 col.col1 { width:61.67777707pt }
+      table.sheet0 col.col2 { width:61.67777707pt }
+      table.sheet0 col.col3 { width:61.67777707pt }
+      table.sheet0 col.col4 { width:61.67777707pt }
+      table.sheet0 col.col5 { width:61.67777707pt }
+      table.sheet0 col.col6 { width:61.67777707pt }
+      table.sheet0 col.col7 { width:61.67777707pt }
+      table.sheet0 col.col8 { width:61.67777707pt }
+      table.sheet0 col.col9 { width:61.67777707pt }
+      table.sheet0 col.col10 { width:61.67777707pt }
+      table.sheet0 col.col11 { width:61.67777707pt }
+      table.sheet0 col.col12 { width:61.67777707pt }
+      table.sheet0 col.col13 { width:61.67777707pt }
+      table.sheet0 col.col14 { width:61.67777707pt }
+      table.sheet0 col.col15 { width:61.67777707pt }
+      table.sheet0 col.col16 { width:61.67777707pt }
+      table.sheet0 col.col17 { width:61.67777707pt }
+      table.sheet0 col.col18 { width:61.67777707pt }
+      table.sheet0 tr { height:15pt }
+      table.sheet0 tr.row0 { height:20.4pt }
+      table.sheet0 tr.row18 { height:15pt }
+      table.sheet0 tr.row19 { height:15pt }
+      table.sheet0 tr.row20 { height:15pt }
+      table.sheet0 tr.row21 { height:15pt }
+      table.sheet0 tr.row22 { height:15pt }
+      table.sheet0 tr.row23 { height:15pt }
+      table.sheet0 tr.row24 { height:15pt }
+    </style>
+  </head>
+
+  <body>
+<style>
+@page { margin-left: 0.75in; margin-right: 0.75in; margin-top: 1in; margin-bottom: 1in; }
+body { margin-left: 0.75in; margin-right: 0.75in; margin-top: 1in; margin-bottom: 1in; }
+</style>
+    <table border="0" cellpadding="0" cellspacing="0" id="sheet0" class="sheet0 gridlines">
+        <col class="col0">
+        <col class="col1">
+        <col class="col2">
+        <col class="col3">
+        <col class="col4">
+        <col class="col5">
+        <col class="col6">
+        <col class="col7">
+        <col class="col8">
+        <col class="col9">
+        <col class="col10">
+        <col class="col11">
+        <col class="col12">
+        <col class="col13">
+        <col class="col14">
+        <col class="col15">
+        <col class="col16">
+        <col class="col17">
+        <col class="col18">
+        <tbody>
+          <tr class="row0">
+            <td class="column0 style2 s">Price Indexes* (2012=100)</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11">&nbsp;</td>
+            <td class="column12">&nbsp;</td>
+            <td class="column13">&nbsp;</td>
+            <td class="column14">&nbsp;</td>
+            <td class="column15">&nbsp;</td>
+            <td class="column16">&nbsp;</td>
+            <td class="column17">&nbsp;</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row1">
+            <td class="column0 style3 s">Blended Account</td>
+            <td class="column1 style4 s">2000</td>
+            <td class="column2 style4 s">2001</td>
+            <td class="column3 style4 s">2002</td>
+            <td class="column4 style4 s">2003</td>
+            <td class="column5 style4 s">2004</td>
+            <td class="column6 style4 s">2005</td>
+            <td class="column7 style4 s">2006</td>
+            <td class="column8 style4 s">2007</td>
+            <td class="column9 style4 s">2008</td>
+            <td class="column10 style4 s">2009</td>
+            <td class="column11 style4 s">2010</td>
+            <td class="column12 style4 s">2011</td>
+            <td class="column13 style4 s">2012</td>
+            <td class="column14 style4 s">2013</td>
+            <td class="column15 style4 s">2014</td>
+            <td class="column16 style4 s">2015*</td>
+            <td class="column17 style4 s">2016*</td>
+            <td class="column18 style4 s">2017*</td>
+          </tr>
+          <tr class="row2">
+            <td class="column0 style5 s">Health</td>
+            <td class="column1 style6 n">&nbsp;&nbsp;61.89 </td>
+            <td class="column2 style6 n">&nbsp;&nbsp;66.61 </td>
+            <td class="column3 style6 n">&nbsp;&nbsp;70.85 </td>
+            <td class="column4 style6 n">&nbsp;&nbsp;74.37 </td>
+            <td class="column5 style6 n">&nbsp;&nbsp;78.01 </td>
+            <td class="column6 style6 n">&nbsp;&nbsp;79.96 </td>
+            <td class="column7 style6 n">&nbsp;&nbsp;83.01 </td>
+            <td class="column8 style6 n">&nbsp;&nbsp;86.14 </td>
+            <td class="column9 style6 n">&nbsp;&nbsp;90.30 </td>
+            <td class="column10 style6 n">&nbsp;&nbsp;92.88 </td>
+            <td class="column11 style6 n">&nbsp;&nbsp;95.86 </td>
+            <td class="column12 style6 n">&nbsp;&nbsp;98.34 </td>
+            <td class="column13 style6 n">&nbsp;&nbsp;100.00 </td>
+            <td class="column14 style6 n">&nbsp;&nbsp;102.14 </td>
+            <td class="column15 style6 n">&nbsp;&nbsp;105.83 </td>
+            <td class="column16 style6 n">&nbsp;&nbsp;110.49 </td>
+            <td class="column17 style6 n">&nbsp;&nbsp;111.48 </td>
+            <td class="column18 style6 n">&nbsp;&nbsp;114.06 </td>
+          </tr>
+          <tr class="row3">
+            <td class="column0 style7 s">Health services</td>
+            <td class="column1 style6 n">&nbsp;&nbsp;60.69 </td>
+            <td class="column2 style6 n">&nbsp;&nbsp;65.52 </td>
+            <td class="column3 style6 n">&nbsp;&nbsp;69.91 </td>
+            <td class="column4 style6 n">&nbsp;&nbsp;73.52 </td>
+            <td class="column5 style6 n">&nbsp;&nbsp;77.28 </td>
+            <td class="column6 style6 n">&nbsp;&nbsp;79.28 </td>
+            <td class="column7 style6 n">&nbsp;&nbsp;82.37 </td>
+            <td class="column8 style6 n">&nbsp;&nbsp;85.58 </td>
+            <td class="column9 style6 n">&nbsp;&nbsp;89.89 </td>
+            <td class="column10 style6 n">&nbsp;&nbsp;92.52 </td>
+            <td class="column11 style6 n">&nbsp;&nbsp;95.68 </td>
+            <td class="column12 style6 n">&nbsp;&nbsp;98.30 </td>
+            <td class="column13 style6 n">&nbsp;&nbsp;100.00 </td>
+            <td class="column14 style6 n">&nbsp;&nbsp;102.24 </td>
+            <td class="column15 style6 n">&nbsp;&nbsp;106.15 </td>
+            <td class="column16 style6 n">&nbsp;&nbsp;111.12 </td>
+            <td class="column17 style6 n">&nbsp;&nbsp;112.19 </td>
+            <td class="column18 style6 n">&nbsp;&nbsp;114.88 </td>
+          </tr>
+          <tr class="row4">
+            <td class="column0 style8 s">Medical services by disease</td>
+            <td class="column1 style6 n">&nbsp;&nbsp;60.12 </td>
+            <td class="column2 style6 n">&nbsp;&nbsp;65.16 </td>
+            <td class="column3 style6 n">&nbsp;&nbsp;69.81 </td>
+            <td class="column4 style6 n">&nbsp;&nbsp;73.59 </td>
+            <td class="column5 style6 n">&nbsp;&nbsp;77.41 </td>
+            <td class="column6 style6 n">&nbsp;&nbsp;79.19 </td>
+            <td class="column7 style6 n">&nbsp;&nbsp;82.28 </td>
+            <td class="column8 style6 n">&nbsp;&nbsp;85.35 </td>
+            <td class="column9 style6 n">&nbsp;&nbsp;89.74 </td>
+            <td class="column10 style6 n">&nbsp;&nbsp;92.32 </td>
+            <td class="column11 style6 n">&nbsp;&nbsp;95.63 </td>
+            <td class="column12 style6 n">&nbsp;&nbsp;98.30 </td>
+            <td class="column13 style6 n">&nbsp;&nbsp;100.00 </td>
+            <td class="column14 style6 n">&nbsp;&nbsp;102.30 </td>
+            <td class="column15 style6 n">&nbsp;&nbsp;106.55 </td>
+            <td class="column16 style6 n">&nbsp;&nbsp;111.89 </td>
+            <td class="column17 style6 n">&nbsp;&nbsp;112.70 </td>
+            <td class="column18 style6 n">&nbsp;&nbsp;115.44 </td>
+          </tr>
+          <tr class="row5">
+            <td class="column0 style9 s">Infectious and parasitic diseases</td>
+            <td class="column1 style6 n">&nbsp;&nbsp;48.05 </td>
+            <td class="column2 style6 n">&nbsp;&nbsp;53.60 </td>
+            <td class="column3 style6 n">&nbsp;&nbsp;59.60 </td>
+            <td class="column4 style6 n">&nbsp;&nbsp;61.43 </td>
+            <td class="column5 style6 n">&nbsp;&nbsp;66.96 </td>
+            <td class="column6 style6 n">&nbsp;&nbsp;71.27 </td>
+            <td class="column7 style6 n">&nbsp;&nbsp;77.95 </td>
+            <td class="column8 style6 n">&nbsp;&nbsp;79.82 </td>
+            <td class="column9 style6 n">&nbsp;&nbsp;85.50 </td>
+            <td class="column10 style6 n">&nbsp;&nbsp;88.57 </td>
+            <td class="column11 style6 n">&nbsp;&nbsp;93.24 </td>
+            <td class="column12 style6 n">&nbsp;&nbsp;97.27 </td>
+            <td class="column13 style6 n">&nbsp;&nbsp;100.00 </td>
+            <td class="column14 style6 n">&nbsp;&nbsp;101.14 </td>
+            <td class="column15 style6 n">&nbsp;&nbsp;110.90 </td>
+            <td class="column16 style6 n">&nbsp;&nbsp;131.33 </td>
+            <td class="column17 style6 n">&nbsp;&nbsp;132.62 </td>
+            <td class="column18 style6 n">&nbsp;&nbsp;132.53 </td>
+          </tr>
+          <tr class="row6">
+            <td class="column0 style9 s">Neoplasms</td>
+            <td class="column1 style6 n">&nbsp;&nbsp;57.04 </td>
+            <td class="column2 style6 n">&nbsp;&nbsp;63.08 </td>
+            <td class="column3 style6 n">&nbsp;&nbsp;67.34 </td>
+            <td class="column4 style6 n">&nbsp;&nbsp;71.64 </td>
+            <td class="column5 style6 n">&nbsp;&nbsp;77.11 </td>
+            <td class="column6 style6 n">&nbsp;&nbsp;79.43 </td>
+            <td class="column7 style6 n">&nbsp;&nbsp;83.14 </td>
+            <td class="column8 style6 n">&nbsp;&nbsp;85.39 </td>
+            <td class="column9 style6 n">&nbsp;&nbsp;89.86 </td>
+            <td class="column10 style6 n">&nbsp;&nbsp;92.96 </td>
+            <td class="column11 style6 n">&nbsp;&nbsp;95.04 </td>
+            <td class="column12 style6 n">&nbsp;&nbsp;97.45 </td>
+            <td class="column13 style6 n">&nbsp;&nbsp;100.00 </td>
+            <td class="column14 style6 n">&nbsp;&nbsp;100.81 </td>
+            <td class="column15 style6 n">&nbsp;&nbsp;107.54 </td>
+            <td class="column16 style6 n">&nbsp;&nbsp;111.96 </td>
+            <td class="column17 style6 n">&nbsp;&nbsp;102.42 </td>
+            <td class="column18 style6 n">&nbsp;&nbsp;107.08 </td>
+          </tr>
+          <tr class="row7">
+            <td class="column0 style9 s">Endocrine; nutritional; and metabolic diseases and immunity disorders</td>
+            <td class="column1 style6 n">&nbsp;&nbsp;65.01 </td>
+            <td class="column2 style6 n">&nbsp;&nbsp;72.58 </td>
+            <td class="column3 style6 n">&nbsp;&nbsp;80.21 </td>
+            <td class="column4 style6 n">&nbsp;&nbsp;80.94 </td>
+            <td class="column5 style6 n">&nbsp;&nbsp;85.10 </td>
+            <td class="column6 style6 n">&nbsp;&nbsp;85.47 </td>
+            <td class="column7 style6 n">&nbsp;&nbsp;87.96 </td>
+            <td class="column8 style6 n">&nbsp;&nbsp;92.00 </td>
+            <td class="column9 style6 n">&nbsp;&nbsp;95.35 </td>
+            <td class="column10 style6 n">&nbsp;&nbsp;95.68 </td>
+            <td class="column11 style6 n">&nbsp;&nbsp;95.36 </td>
+            <td class="column12 style6 n">&nbsp;&nbsp;97.55 </td>
+            <td class="column13 style6 n">&nbsp;&nbsp;100.00 </td>
+            <td class="column14 style6 n">&nbsp;&nbsp;100.80 </td>
+            <td class="column15 style6 n">&nbsp;&nbsp;106.86 </td>
+            <td class="column16 style6 n">&nbsp;&nbsp;113.38 </td>
+            <td class="column17 style6 n">&nbsp;&nbsp;111.47 </td>
+            <td class="column18 style6 n">&nbsp;&nbsp;115.88 </td>
+          </tr>
+          <tr class="row8">
+            <td class="column0 style9 s">Mental illness</td>
+            <td class="column1 style6 n">&nbsp;&nbsp;73.46 </td>
+            <td class="column2 style6 n">&nbsp;&nbsp;75.12 </td>
+            <td class="column3 style6 n">&nbsp;&nbsp;78.17 </td>
+            <td class="column4 style6 n">&nbsp;&nbsp;81.18 </td>
+            <td class="column5 style6 n">&nbsp;&nbsp;82.99 </td>
+            <td class="column6 style6 n">&nbsp;&nbsp;85.42 </td>
+            <td class="column7 style6 n">&nbsp;&nbsp;88.24 </td>
+            <td class="column8 style6 n">&nbsp;&nbsp;93.47 </td>
+            <td class="column9 style6 n">&nbsp;&nbsp;97.97 </td>
+            <td class="column10 style6 n">&nbsp;&nbsp;99.30 </td>
+            <td class="column11 style6 n">&nbsp;&nbsp;99.45 </td>
+            <td class="column12 style6 n">&nbsp;&nbsp;99.88 </td>
+            <td class="column13 style6 n">&nbsp;&nbsp;100.00 </td>
+            <td class="column14 style6 n">&nbsp;&nbsp;100.06 </td>
+            <td class="column15 style6 n">&nbsp;&nbsp;109.28 </td>
+            <td class="column16 style6 n">&nbsp;&nbsp;112.64 </td>
+            <td class="column17 style6 n">&nbsp;&nbsp;100.95 </td>
+            <td class="column18 style6 n">&nbsp;&nbsp;110.99 </td>
+          </tr>
+          <tr class="row9">
+            <td class="column0 style9 s">Diseases of the nervous system and sense organs</td>
+            <td class="column1 style6 n">&nbsp;&nbsp;55.33 </td>
+            <td class="column2 style6 n">&nbsp;&nbsp;60.97 </td>
+            <td class="column3 style6 n">&nbsp;&nbsp;65.94 </td>
+            <td class="column4 style6 n">&nbsp;&nbsp;68.78 </td>
+            <td class="column5 style6 n">&nbsp;&nbsp;72.26 </td>
+            <td class="column6 style6 n">&nbsp;&nbsp;74.21 </td>
+            <td class="column7 style6 n">&nbsp;&nbsp;77.18 </td>
+            <td class="column8 style6 n">&nbsp;&nbsp;81.52 </td>
+            <td class="column9 style6 n">&nbsp;&nbsp;86.16 </td>
+            <td class="column10 style6 n">&nbsp;&nbsp;88.18 </td>
+            <td class="column11 style6 n">&nbsp;&nbsp;92.94 </td>
+            <td class="column12 style6 n">&nbsp;&nbsp;97.86 </td>
+            <td class="column13 style6 n">&nbsp;&nbsp;100.00 </td>
+            <td class="column14 style6 n">&nbsp;&nbsp;101.99 </td>
+            <td class="column15 style6 n">&nbsp;&nbsp;108.39 </td>
+            <td class="column16 style6 n">&nbsp;&nbsp;115.24 </td>
+            <td class="column17 style6 n">&nbsp;&nbsp;122.00 </td>
+            <td class="column18 style6 n">&nbsp;&nbsp;125.04 </td>
+          </tr>
+          <tr class="row10">
+            <td class="column0 style9 s">Diseases of the circulatory system</td>
+            <td class="column1 style6 n">&nbsp;&nbsp;69.34 </td>
+            <td class="column2 style6 n">&nbsp;&nbsp;75.14 </td>
+            <td class="column3 style6 n">&nbsp;&nbsp;79.51 </td>
+            <td class="column4 style6 n">&nbsp;&nbsp;82.12 </td>
+            <td class="column5 style6 n">&nbsp;&nbsp;86.72 </td>
+            <td class="column6 style6 n">&nbsp;&nbsp;87.73 </td>
+            <td class="column7 style6 n">&nbsp;&nbsp;88.92 </td>
+            <td class="column8 style6 n">&nbsp;&nbsp;90.69 </td>
+            <td class="column9 style6 n">&nbsp;&nbsp;95.29 </td>
+            <td class="column10 style6 n">&nbsp;&nbsp;98.83 </td>
+            <td class="column11 style6 n">&nbsp;&nbsp;101.94 </td>
+            <td class="column12 style6 n">&nbsp;&nbsp;101.58 </td>
+            <td class="column13 style6 n">&nbsp;&nbsp;100.00 </td>
+            <td class="column14 style6 n">&nbsp;&nbsp;101.60 </td>
+            <td class="column15 style6 n">&nbsp;&nbsp;106.58 </td>
+            <td class="column16 style6 n">&nbsp;&nbsp;112.83 </td>
+            <td class="column17 style6 n">&nbsp;&nbsp;114.40 </td>
+            <td class="column18 style6 n">&nbsp;&nbsp;115.35 </td>
+          </tr>
+          <tr class="row11">
+            <td class="column0 style9 s">Diseases of the respiratory system</td>
+            <td class="column1 style6 n">&nbsp;&nbsp;63.30 </td>
+            <td class="column2 style6 n">&nbsp;&nbsp;66.41 </td>
+            <td class="column3 style6 n">&nbsp;&nbsp;70.70 </td>
+            <td class="column4 style6 n">&nbsp;&nbsp;73.91 </td>
+            <td class="column5 style6 n">&nbsp;&nbsp;77.89 </td>
+            <td class="column6 style6 n">&nbsp;&nbsp;79.74 </td>
+            <td class="column7 style6 n">&nbsp;&nbsp;83.60 </td>
+            <td class="column8 style6 n">&nbsp;&nbsp;87.25 </td>
+            <td class="column9 style6 n">&nbsp;&nbsp;91.65 </td>
+            <td class="column10 style6 n">&nbsp;&nbsp;90.79 </td>
+            <td class="column11 style6 n">&nbsp;&nbsp;94.60 </td>
+            <td class="column12 style6 n">&nbsp;&nbsp;97.88 </td>
+            <td class="column13 style6 n">&nbsp;&nbsp;100.00 </td>
+            <td class="column14 style6 n">&nbsp;&nbsp;102.83 </td>
+            <td class="column15 style6 n">&nbsp;&nbsp;104.68 </td>
+            <td class="column16 style6 n">&nbsp;&nbsp;108.24 </td>
+            <td class="column17 style6 n">&nbsp;&nbsp;109.53 </td>
+            <td class="column18 style6 n">&nbsp;&nbsp;112.66 </td>
+          </tr>
+          <tr class="row12">
+            <td class="column0 style9 s">Diseases of the digestive system</td>
+            <td class="column1 style6 n">&nbsp;&nbsp;57.72 </td>
+            <td class="column2 style6 n">&nbsp;&nbsp;62.50 </td>
+            <td class="column3 style6 n">&nbsp;&nbsp;65.88 </td>
+            <td class="column4 style6 n">&nbsp;&nbsp;69.84 </td>
+            <td class="column5 style6 n">&nbsp;&nbsp;73.60 </td>
+            <td class="column6 style6 n">&nbsp;&nbsp;76.10 </td>
+            <td class="column7 style6 n">&nbsp;&nbsp;79.48 </td>
+            <td class="column8 style6 n">&nbsp;&nbsp;80.01 </td>
+            <td class="column9 style6 n">&nbsp;&nbsp;83.17 </td>
+            <td class="column10 style6 n">&nbsp;&nbsp;88.46 </td>
+            <td class="column11 style6 n">&nbsp;&nbsp;93.16 </td>
+            <td class="column12 style6 n">&nbsp;&nbsp;95.93 </td>
+            <td class="column13 style6 n">&nbsp;&nbsp;100.00 </td>
+            <td class="column14 style6 n">&nbsp;&nbsp;107.27 </td>
+            <td class="column15 style6 n">&nbsp;&nbsp;111.32 </td>
+            <td class="column16 style6 n">&nbsp;&nbsp;111.61 </td>
+            <td class="column17 style6 n">&nbsp;&nbsp;116.29 </td>
+            <td class="column18 style6 n">&nbsp;&nbsp;118.45 </td>
+          </tr>
+          <tr class="row13">
+            <td class="column0 style9 s">Diseases of the genitourinary system</td>
+            <td class="column1 style6 n">&nbsp;&nbsp;60.67 </td>
+            <td class="column2 style6 n">&nbsp;&nbsp;66.82 </td>
+            <td class="column3 style6 n">&nbsp;&nbsp;71.22 </td>
+            <td class="column4 style6 n">&nbsp;&nbsp;77.77 </td>
+            <td class="column5 style6 n">&nbsp;&nbsp;86.52 </td>
+            <td class="column6 style6 n">&nbsp;&nbsp;88.96 </td>
+            <td class="column7 style6 n">&nbsp;&nbsp;89.50 </td>
+            <td class="column8 style6 n">&nbsp;&nbsp;90.22 </td>
+            <td class="column9 style6 n">&nbsp;&nbsp;93.30 </td>
+            <td class="column10 style6 n">&nbsp;&nbsp;94.27 </td>
+            <td class="column11 style6 n">&nbsp;&nbsp;95.38 </td>
+            <td class="column12 style6 n">&nbsp;&nbsp;97.30 </td>
+            <td class="column13 style6 n">&nbsp;&nbsp;100.00 </td>
+            <td class="column14 style6 n">&nbsp;&nbsp;103.11 </td>
+            <td class="column15 style6 n">&nbsp;&nbsp;105.72 </td>
+            <td class="column16 style6 n">&nbsp;&nbsp;108.85 </td>
+            <td class="column17 style6 n">&nbsp;&nbsp;99.50 </td>
+            <td class="column18 style6 n">&nbsp;&nbsp;101.46 </td>
+          </tr>
+          <tr class="row14">
+            <td class="column0 style9 s">Complications of pregnancy; childbirth; and the puerperium</td>
+            <td class="column1 style6 n">&nbsp;&nbsp;61.73 </td>
+            <td class="column2 style6 n">&nbsp;&nbsp;63.80 </td>
+            <td class="column3 style6 n">&nbsp;&nbsp;65.11 </td>
+            <td class="column4 style6 n">&nbsp;&nbsp;71.49 </td>
+            <td class="column5 style6 n">&nbsp;&nbsp;71.29 </td>
+            <td class="column6 style6 n">&nbsp;&nbsp;71.92 </td>
+            <td class="column7 style6 n">&nbsp;&nbsp;77.71 </td>
+            <td class="column8 style6 n">&nbsp;&nbsp;80.77 </td>
+            <td class="column9 style6 n">&nbsp;&nbsp;84.89 </td>
+            <td class="column10 style6 n">&nbsp;&nbsp;89.46 </td>
+            <td class="column11 style6 n">&nbsp;&nbsp;96.07 </td>
+            <td class="column12 style6 n">&nbsp;&nbsp;95.89 </td>
+            <td class="column13 style6 n">&nbsp;&nbsp;100.00 </td>
+            <td class="column14 style6 n">&nbsp;&nbsp;106.19 </td>
+            <td class="column15 style6 n">&nbsp;&nbsp;102.98 </td>
+            <td class="column16 style6 n">&nbsp;&nbsp;107.46 </td>
+            <td class="column17 style6 n">&nbsp;&nbsp;113.85 </td>
+            <td class="column18 style6 n">&nbsp;&nbsp;115.59 </td>
+          </tr>
+          <tr class="row15">
+            <td class="column0 style9 s">Diseases of the skin and subcutaneous organs</td>
+            <td class="column1 style6 n">&nbsp;&nbsp;57.44 </td>
+            <td class="column2 style6 n">&nbsp;&nbsp;62.84 </td>
+            <td class="column3 style6 n">&nbsp;&nbsp;69.15 </td>
+            <td class="column4 style6 n">&nbsp;&nbsp;73.14 </td>
+            <td class="column5 style6 n">&nbsp;&nbsp;74.40 </td>
+            <td class="column6 style6 n">&nbsp;&nbsp;75.73 </td>
+            <td class="column7 style6 n">&nbsp;&nbsp;78.36 </td>
+            <td class="column8 style6 n">&nbsp;&nbsp;81.57 </td>
+            <td class="column9 style6 n">&nbsp;&nbsp;90.10 </td>
+            <td class="column10 style6 n">&nbsp;&nbsp;93.88 </td>
+            <td class="column11 style6 n">&nbsp;&nbsp;93.83 </td>
+            <td class="column12 style6 n">&nbsp;&nbsp;95.74 </td>
+            <td class="column13 style6 n">&nbsp;&nbsp;100.00 </td>
+            <td class="column14 style6 n">&nbsp;&nbsp;105.36 </td>
+            <td class="column15 style6 n">&nbsp;&nbsp;111.14 </td>
+            <td class="column16 style6 n">&nbsp;&nbsp;117.32 </td>
+            <td class="column17 style6 n">&nbsp;&nbsp;124.69 </td>
+            <td class="column18 style6 n">&nbsp;&nbsp;125.38 </td>
+          </tr>
+          <tr class="row16">
+            <td class="column0 style9 s">Diseases of the musculoskeletal system and connective tissue</td>
+            <td class="column1 style6 n">&nbsp;&nbsp;57.88 </td>
+            <td class="column2 style6 n">&nbsp;&nbsp;63.98 </td>
+            <td class="column3 style6 n">&nbsp;&nbsp;68.51 </td>
+            <td class="column4 style6 n">&nbsp;&nbsp;73.04 </td>
+            <td class="column5 style6 n">&nbsp;&nbsp;76.94 </td>
+            <td class="column6 style6 n">&nbsp;&nbsp;78.85 </td>
+            <td class="column7 style6 n">&nbsp;&nbsp;82.03 </td>
+            <td class="column8 style6 n">&nbsp;&nbsp;83.92 </td>
+            <td class="column9 style6 n">&nbsp;&nbsp;88.00 </td>
+            <td class="column10 style6 n">&nbsp;&nbsp;92.11 </td>
+            <td class="column11 style6 n">&nbsp;&nbsp;98.06 </td>
+            <td class="column12 style6 n">&nbsp;&nbsp;99.55 </td>
+            <td class="column13 style6 n">&nbsp;&nbsp;100.00 </td>
+            <td class="column14 style6 n">&nbsp;&nbsp;104.44 </td>
+            <td class="column15 style6 n">&nbsp;&nbsp;107.89 </td>
+            <td class="column16 style6 n">&nbsp;&nbsp;113.02 </td>
+            <td class="column17 style6 n">&nbsp;&nbsp;120.69 </td>
+            <td class="column18 style6 n">&nbsp;&nbsp;122.10 </td>
+          </tr>
+          <tr class="row17">
+            <td class="column0 style9 s">Injury and poisoning</td>
+            <td class="column1 style6 n">&nbsp;&nbsp;57.33 </td>
+            <td class="column2 style6 n">&nbsp;&nbsp;63.74 </td>
+            <td class="column3 style6 n">&nbsp;&nbsp;67.32 </td>
+            <td class="column4 style6 n">&nbsp;&nbsp;72.59 </td>
+            <td class="column5 style6 n">&nbsp;&nbsp;73.95 </td>
+            <td class="column6 style6 n">&nbsp;&nbsp;76.71 </td>
+            <td class="column7 style6 n">&nbsp;&nbsp;82.16 </td>
+            <td class="column8 style6 n">&nbsp;&nbsp;84.89 </td>
+            <td class="column9 style6 n">&nbsp;&nbsp;87.84 </td>
+            <td class="column10 style6 n">&nbsp;&nbsp;91.59 </td>
+            <td class="column11 style6 n">&nbsp;&nbsp;96.87 </td>
+            <td class="column12 style6 n">&nbsp;&nbsp;100.59 </td>
+            <td class="column13 style6 n">&nbsp;&nbsp;100.00 </td>
+            <td class="column14 style6 n">&nbsp;&nbsp;102.73 </td>
+            <td class="column15 style6 n">&nbsp;&nbsp;106.45 </td>
+            <td class="column16 style6 n">&nbsp;&nbsp;109.56 </td>
+            <td class="column17 style6 n">&nbsp;&nbsp;117.21 </td>
+            <td class="column18 style6 n">&nbsp;&nbsp;119.73 </td>
+          </tr>
+          <tr class="row18">
+            <td class="column0 style10 s">Symptoms; signs; and ill-defined conditions</td>
+            <td class="column1 style11 n">&nbsp;&nbsp;56.97 </td>
+            <td class="column2 style11 n">&nbsp;&nbsp;60.20 </td>
+            <td class="column3 style11 n">&nbsp;&nbsp;65.12 </td>
+            <td class="column4 style11 n">&nbsp;&nbsp;69.09 </td>
+            <td class="column5 style11 n">&nbsp;&nbsp;73.47 </td>
+            <td class="column6 style11 n">&nbsp;&nbsp;74.34 </td>
+            <td class="column7 style11 n">&nbsp;&nbsp;77.65 </td>
+            <td class="column8 style11 n">&nbsp;&nbsp;82.77 </td>
+            <td class="column9 style11 n">&nbsp;&nbsp;87.37 </td>
+            <td class="column10 style11 n">&nbsp;&nbsp;90.81 </td>
+            <td class="column11 style11 n">&nbsp;&nbsp;94.59 </td>
+            <td class="column12 style11 n">&nbsp;&nbsp;97.31 </td>
+            <td class="column13 style11 n">&nbsp;&nbsp;100.00 </td>
+            <td class="column14 style11 n">&nbsp;&nbsp;103.23 </td>
+            <td class="column15 style11 n">&nbsp;&nbsp;106.67 </td>
+            <td class="column16 style11 n">&nbsp;&nbsp;111.84 </td>
+            <td class="column17 style11 n">&nbsp;&nbsp;110.97 </td>
+            <td class="column18 style11 n">&nbsp;&nbsp;113.66 </td>
+          </tr>
+          <tr class="row19">
+            <td class="column0 style10 s">Other</td>
+            <td class="column1 style11 n">&nbsp;&nbsp;49.35 </td>
+            <td class="column2 style11 n">&nbsp;&nbsp;53.31 </td>
+            <td class="column3 style11 n">&nbsp;&nbsp;60.82 </td>
+            <td class="column4 style11 n">&nbsp;&nbsp;66.31 </td>
+            <td class="column5 style11 n">&nbsp;&nbsp;65.17 </td>
+            <td class="column6 style11 n">&nbsp;&nbsp;67.11 </td>
+            <td class="column7 style11 n">&nbsp;&nbsp;69.11 </td>
+            <td class="column8 style11 n">&nbsp;&nbsp;75.74 </td>
+            <td class="column9 style11 n">&nbsp;&nbsp;82.73 </td>
+            <td class="column10 style11 n">&nbsp;&nbsp;83.00 </td>
+            <td class="column11 style11 n">&nbsp;&nbsp;84.05 </td>
+            <td class="column12 style11 n">&nbsp;&nbsp;96.16 </td>
+            <td class="column13 style11 n">&nbsp;&nbsp;100.00 </td>
+            <td class="column14 style11 n">&nbsp;&nbsp;92.89 </td>
+            <td class="column15 style11 n">&nbsp;&nbsp;89.83 </td>
+            <td class="column16 style11 n">&nbsp;&nbsp;93.17 </td>
+            <td class="column17 style11 n">&nbsp;&nbsp;97.79 </td>
+            <td class="column18 style11 n">&nbsp;&nbsp;100.04 </td>
+          </tr>
+          <tr class="row20">
+            <td class="column0 style12 s">Diseases of the blood and blood-forming organs</td>
+            <td class="column1 style11 n">&nbsp;&nbsp;33.96 </td>
+            <td class="column2 style11 n">&nbsp;&nbsp;38.26 </td>
+            <td class="column3 style11 n">&nbsp;&nbsp;42.37 </td>
+            <td class="column4 style11 n">&nbsp;&nbsp;49.51 </td>
+            <td class="column5 style11 n">&nbsp;&nbsp;51.69 </td>
+            <td class="column6 style11 n">&nbsp;&nbsp;53.35 </td>
+            <td class="column7 style11 n">&nbsp;&nbsp;54.92 </td>
+            <td class="column8 style11 n">&nbsp;&nbsp;55.34 </td>
+            <td class="column9 style11 n">&nbsp;&nbsp;55.99 </td>
+            <td class="column10 style11 n">&nbsp;&nbsp;57.87 </td>
+            <td class="column11 style11 n">&nbsp;&nbsp;64.72 </td>
+            <td class="column12 style11 n">&nbsp;&nbsp;94.35 </td>
+            <td class="column13 style11 n">&nbsp;&nbsp;100.00 </td>
+            <td class="column14 style11 n">&nbsp;&nbsp;76.03 </td>
+            <td class="column15 style11 n">&nbsp;&nbsp;69.75 </td>
+            <td class="column16 style11 n">&nbsp;&nbsp;70.63 </td>
+            <td class="column17 style11 n">&nbsp;&nbsp;69.52 </td>
+            <td class="column18 style11 n">&nbsp;&nbsp;72.29 </td>
+          </tr>
+          <tr class="row21">
+            <td class="column0 style12 s">Congenital anomalies</td>
+            <td class="column1 style11 n">&nbsp;&nbsp;68.19 </td>
+            <td class="column2 style11 n">&nbsp;&nbsp;57.65 </td>
+            <td class="column3 style11 n">&nbsp;&nbsp;66.26 </td>
+            <td class="column4 style11 n">&nbsp;&nbsp;77.92 </td>
+            <td class="column5 style11 n">&nbsp;&nbsp;72.91 </td>
+            <td class="column6 style11 n">&nbsp;&nbsp;69.10 </td>
+            <td class="column7 style11 n">&nbsp;&nbsp;72.56 </td>
+            <td class="column8 style11 n">&nbsp;&nbsp;92.13 </td>
+            <td class="column9 style11 n">&nbsp;&nbsp;126.84 </td>
+            <td class="column10 style11 n">&nbsp;&nbsp;119.19 </td>
+            <td class="column11 style11 n">&nbsp;&nbsp;104.21 </td>
+            <td class="column12 style11 n">&nbsp;&nbsp;101.84 </td>
+            <td class="column13 style11 n">&nbsp;&nbsp;100.00 </td>
+            <td class="column14 style11 n">&nbsp;&nbsp;105.55 </td>
+            <td class="column15 style11 n">&nbsp;&nbsp;106.79 </td>
+            <td class="column16 style11 n">&nbsp;&nbsp;111.00 </td>
+            <td class="column17 style11 n">&nbsp;&nbsp;118.37 </td>
+            <td class="column18 style11 n">&nbsp;&nbsp;122.24 </td>
+          </tr>
+          <tr class="row22">
+            <td class="column0 style12 s">Certain conditions originating in the perinatal period</td>
+            <td class="column1 style11 n">&nbsp;&nbsp;56.15 </td>
+            <td class="column2 style11 n">&nbsp;&nbsp;64.77 </td>
+            <td class="column3 style11 n">&nbsp;&nbsp;83.36 </td>
+            <td class="column4 style11 n">&nbsp;&nbsp;82.09 </td>
+            <td class="column5 style11 n">&nbsp;&nbsp;55.32 </td>
+            <td class="column6 style11 n">&nbsp;&nbsp;61.43 </td>
+            <td class="column7 style11 n">&nbsp;&nbsp;59.25 </td>
+            <td class="column8 style11 n">&nbsp;&nbsp;78.24 </td>
+            <td class="column9 style11 n">&nbsp;&nbsp;102.89 </td>
+            <td class="column10 style11 n">&nbsp;&nbsp;93.02 </td>
+            <td class="column11 style11 n">&nbsp;&nbsp;77.96 </td>
+            <td class="column12 style11 n">&nbsp;&nbsp;84.79 </td>
+            <td class="column13 style11 n">&nbsp;&nbsp;100.00 </td>
+            <td class="column14 style11 n">&nbsp;&nbsp;110.22 </td>
+            <td class="column15 style11 n">&nbsp;&nbsp;93.62 </td>
+            <td class="column16 style11 n">&nbsp;&nbsp;88.00 </td>
+            <td class="column17 style11 n">&nbsp;&nbsp;118.48 </td>
+            <td class="column18 style11 n">&nbsp;&nbsp;117.79 </td>
+          </tr>
+          <tr class="row23">
+            <td class="column0 style12 s">Residual codes; unclassified; all E codes</td>
+            <td class="column1 style11 n">&nbsp;&nbsp;54.39 </td>
+            <td class="column2 style11 n">&nbsp;&nbsp;60.52 </td>
+            <td class="column3 style11 n">&nbsp;&nbsp;67.84 </td>
+            <td class="column4 style11 n">&nbsp;&nbsp;70.83 </td>
+            <td class="column5 style11 n">&nbsp;&nbsp;75.37 </td>
+            <td class="column6 style11 n">&nbsp;&nbsp;77.59 </td>
+            <td class="column7 style11 n">&nbsp;&nbsp;80.78 </td>
+            <td class="column8 style11 n">&nbsp;&nbsp;86.87 </td>
+            <td class="column9 style11 n">&nbsp;&nbsp;90.65 </td>
+            <td class="column10 style11 n">&nbsp;&nbsp;92.81 </td>
+            <td class="column11 style11 n">&nbsp;&nbsp;95.32 </td>
+            <td class="column12 style11 n">&nbsp;&nbsp;98.57 </td>
+            <td class="column13 style11 n">&nbsp;&nbsp;100.00 </td>
+            <td class="column14 style11 n">&nbsp;&nbsp;98.51 </td>
+            <td class="column15 style11 n">&nbsp;&nbsp;99.95 </td>
+            <td class="column16 style11 n">&nbsp;&nbsp;106.91 </td>
+            <td class="column17 style11 n">&nbsp;&nbsp;110.42 </td>
+            <td class="column18 style11 n">&nbsp;&nbsp;112.60 </td>
+          </tr>
+          <tr class="row24">
+            <td class="column0 style13 s">Medical services by provider</td>
+            <td class="column1 style11 n">&nbsp;&nbsp;64.36 </td>
+            <td class="column2 style11 n">&nbsp;&nbsp;67.79 </td>
+            <td class="column3 style11 n">&nbsp;&nbsp;70.56 </td>
+            <td class="column4 style11 n">&nbsp;&nbsp;73.14 </td>
+            <td class="column5 style11 n">&nbsp;&nbsp;76.44 </td>
+            <td class="column6 style11 n">&nbsp;&nbsp;79.88 </td>
+            <td class="column7 style11 n">&nbsp;&nbsp;83.01 </td>
+            <td class="column8 style11 n">&nbsp;&nbsp;87.07 </td>
+            <td class="column9 style11 n">&nbsp;&nbsp;90.91 </td>
+            <td class="column10 style11 n">&nbsp;&nbsp;93.83 </td>
+            <td class="column11 style11 n">&nbsp;&nbsp;95.99 </td>
+            <td class="column12 style11 n">&nbsp;&nbsp;98.27 </td>
+            <td class="column13 style11 n">&nbsp;&nbsp;100.00 </td>
+            <td class="column14 style11 n">&nbsp;&nbsp;101.85 </td>
+            <td class="column15 style11 n">&nbsp;&nbsp;103.41 </td>
+            <td class="column16 style11 n">&nbsp;&nbsp;105.74 </td>
+            <td class="column17 style11 n">&nbsp;&nbsp;108.62 </td>
+            <td class="column18 style11 n">&nbsp;&nbsp;110.99 </td>
+          </tr>
+          <tr class="row25">
+            <td class="column0 style9 s">Dental services</td>
+            <td class="column1 style6 n">&nbsp;&nbsp;61.94 </td>
+            <td class="column2 style6 n">&nbsp;&nbsp;64.45 </td>
+            <td class="column3 style6 n">&nbsp;&nbsp;67.33 </td>
+            <td class="column4 style6 n">&nbsp;&nbsp;70.08 </td>
+            <td class="column5 style6 n">&nbsp;&nbsp;73.54 </td>
+            <td class="column6 style6 n">&nbsp;&nbsp;77.62 </td>
+            <td class="column7 style6 n">&nbsp;&nbsp;81.66 </td>
+            <td class="column8 style6 n">&nbsp;&nbsp;85.86 </td>
+            <td class="column9 style6 n">&nbsp;&nbsp;90.28 </td>
+            <td class="column10 style6 n">&nbsp;&nbsp;92.97 </td>
+            <td class="column11 style6 n">&nbsp;&nbsp;95.53 </td>
+            <td class="column12 style6 n">&nbsp;&nbsp;97.75 </td>
+            <td class="column13 style6 n">&nbsp;&nbsp;100.00 </td>
+            <td class="column14 style6 n">&nbsp;&nbsp;103.44 </td>
+            <td class="column15 style6 n">&nbsp;&nbsp;105.66 </td>
+            <td class="column16 style6 n">&nbsp;&nbsp;108.34 </td>
+            <td class="column17 style6 n">&nbsp;&nbsp;111.41 </td>
+            <td class="column18 style6 n">&nbsp;&nbsp;113.22 </td>
+          </tr>
+          <tr class="row26">
+            <td class="column0 style9 s">Nursing homes</td>
+            <td class="column1 style6 n">&nbsp;&nbsp;66.17 </td>
+            <td class="column2 style6 n">&nbsp;&nbsp;70.33 </td>
+            <td class="column3 style6 n">&nbsp;&nbsp;73.00 </td>
+            <td class="column4 style6 n">&nbsp;&nbsp;75.44 </td>
+            <td class="column5 style6 n">&nbsp;&nbsp;78.60 </td>
+            <td class="column6 style6 n">&nbsp;&nbsp;81.54 </td>
+            <td class="column7 style6 n">&nbsp;&nbsp;83.96 </td>
+            <td class="column8 style6 n">&nbsp;&nbsp;87.91 </td>
+            <td class="column9 style6 n">&nbsp;&nbsp;91.34 </td>
+            <td class="column10 style6 n">&nbsp;&nbsp;94.42 </td>
+            <td class="column11 style6 n">&nbsp;&nbsp;96.31 </td>
+            <td class="column12 style6 n">&nbsp;&nbsp;98.62 </td>
+            <td class="column13 style6 n">&nbsp;&nbsp;100.00 </td>
+            <td class="column14 style6 n">&nbsp;&nbsp;100.81 </td>
+            <td class="column15 style6 n">&nbsp;&nbsp;101.94 </td>
+            <td class="column16 style6 n">&nbsp;&nbsp;104.05 </td>
+            <td class="column17 style6 n">&nbsp;&nbsp;106.81 </td>
+            <td class="column18 style6 n">&nbsp;&nbsp;109.53 </td>
+          </tr>
+          <tr class="row27">
+            <td class="column0 style14 s">Proprietary and government nursing homes</td>
+            <td class="column1 style6 n">&nbsp;&nbsp;66.17 </td>
+            <td class="column2 style6 n">&nbsp;&nbsp;70.33 </td>
+            <td class="column3 style6 n">&nbsp;&nbsp;73.00 </td>
+            <td class="column4 style6 n">&nbsp;&nbsp;75.44 </td>
+            <td class="column5 style6 n">&nbsp;&nbsp;78.60 </td>
+            <td class="column6 style6 n">&nbsp;&nbsp;81.54 </td>
+            <td class="column7 style6 n">&nbsp;&nbsp;83.95 </td>
+            <td class="column8 style6 n">&nbsp;&nbsp;87.91 </td>
+            <td class="column9 style6 n">&nbsp;&nbsp;91.34 </td>
+            <td class="column10 style6 n">&nbsp;&nbsp;94.42 </td>
+            <td class="column11 style6 n">&nbsp;&nbsp;96.31 </td>
+            <td class="column12 style6 n">&nbsp;&nbsp;98.62 </td>
+            <td class="column13 style6 n">&nbsp;&nbsp;100.00 </td>
+            <td class="column14 style6 n">&nbsp;&nbsp;100.81 </td>
+            <td class="column15 style6 n">&nbsp;&nbsp;101.94 </td>
+            <td class="column16 style6 n">&nbsp;&nbsp;104.05 </td>
+            <td class="column17 style6 n">&nbsp;&nbsp;106.81 </td>
+            <td class="column18 style6 n">&nbsp;&nbsp;109.54 </td>
+          </tr>
+          <tr class="row28">
+            <td class="column0 style14 s">Nonprofit nursing homes services to households</td>
+            <td class="column1 style6 n">&nbsp;&nbsp;66.18 </td>
+            <td class="column2 style6 n">&nbsp;&nbsp;70.34 </td>
+            <td class="column3 style6 n">&nbsp;&nbsp;73.00 </td>
+            <td class="column4 style6 n">&nbsp;&nbsp;75.44 </td>
+            <td class="column5 style6 n">&nbsp;&nbsp;78.61 </td>
+            <td class="column6 style6 n">&nbsp;&nbsp;81.54 </td>
+            <td class="column7 style6 n">&nbsp;&nbsp;83.96 </td>
+            <td class="column8 style6 n">&nbsp;&nbsp;87.90 </td>
+            <td class="column9 style6 n">&nbsp;&nbsp;91.33 </td>
+            <td class="column10 style6 n">&nbsp;&nbsp;94.43 </td>
+            <td class="column11 style6 n">&nbsp;&nbsp;96.31 </td>
+            <td class="column12 style6 n">&nbsp;&nbsp;98.62 </td>
+            <td class="column13 style6 n">&nbsp;&nbsp;100.00 </td>
+            <td class="column14 style6 n">&nbsp;&nbsp;100.81 </td>
+            <td class="column15 style6 n">&nbsp;&nbsp;101.94 </td>
+            <td class="column16 style6 n">&nbsp;&nbsp;104.04 </td>
+            <td class="column17 style6 n">&nbsp;&nbsp;106.81 </td>
+            <td class="column18 style6 n">&nbsp;&nbsp;109.53 </td>
+          </tr>
+          <tr class="row29">
+            <td class="column0 style7 s">Medical products, appliances and equipment</td>
+            <td class="column1 style6 n">&nbsp;&nbsp;90.32 </td>
+            <td class="column2 style6 n">&nbsp;&nbsp;91.71 </td>
+            <td class="column3 style6 n">&nbsp;&nbsp;91.79 </td>
+            <td class="column4 style6 n">&nbsp;&nbsp;92.47 </td>
+            <td class="column5 style6 n">&nbsp;&nbsp;93.26 </td>
+            <td class="column6 style6 n">&nbsp;&nbsp;93.83 </td>
+            <td class="column7 style6 n">&nbsp;&nbsp;95.85 </td>
+            <td class="column8 style6 n">&nbsp;&nbsp;97.36 </td>
+            <td class="column9 style6 n">&nbsp;&nbsp;98.34 </td>
+            <td class="column10 style6 n">&nbsp;&nbsp;99.90 </td>
+            <td class="column11 style6 n">&nbsp;&nbsp;99.40 </td>
+            <td class="column12 style6 n">&nbsp;&nbsp;99.11 </td>
+            <td class="column13 style6 n">&nbsp;&nbsp;100.00 </td>
+            <td class="column14 style6 n">&nbsp;&nbsp;100.25 </td>
+            <td class="column15 style6 n">&nbsp;&nbsp;100.18 </td>
+            <td class="column16 style6 n">&nbsp;&nbsp;99.63 </td>
+            <td class="column17 style6 n">&nbsp;&nbsp;99.36 </td>
+            <td class="column18 style6 n">&nbsp;&nbsp;99.88 </td>
+          </tr>
+          <tr class="row30">
+            <td class="column0 style8 s">Pharmaceutical and other medical products</td>
+            <td class="column1 style6 n">&nbsp;&nbsp;92.78 </td>
+            <td class="column2 style6 n">&nbsp;&nbsp;93.72 </td>
+            <td class="column3 style6 n">&nbsp;&nbsp;93.64 </td>
+            <td class="column4 style6 n">&nbsp;&nbsp;94.83 </td>
+            <td class="column5 style6 n">&nbsp;&nbsp;94.76 </td>
+            <td class="column6 style6 n">&nbsp;&nbsp;94.22 </td>
+            <td class="column7 style6 n">&nbsp;&nbsp;96.12 </td>
+            <td class="column8 style6 n">&nbsp;&nbsp;97.64 </td>
+            <td class="column9 style6 n">&nbsp;&nbsp;98.75 </td>
+            <td class="column10 style6 n">&nbsp;&nbsp;100.90 </td>
+            <td class="column11 style6 n">&nbsp;&nbsp;100.44 </td>
+            <td class="column12 style6 n">&nbsp;&nbsp;99.23 </td>
+            <td class="column13 style6 n">&nbsp;&nbsp;100.00 </td>
+            <td class="column14 style6 n">&nbsp;&nbsp;100.04 </td>
+            <td class="column15 style6 n">&nbsp;&nbsp;99.24 </td>
+            <td class="column16 style6 n">&nbsp;&nbsp;98.47 </td>
+            <td class="column17 style6 n">&nbsp;&nbsp;97.38 </td>
+            <td class="column18 style6 n">&nbsp;&nbsp;98.14 </td>
+          </tr>
+          <tr class="row31">
+            <td class="column0 style9 s">Pharmaceutical products (without prescription drugs)</td>
+            <td class="column1 style6 n">&nbsp;&nbsp;92.55 </td>
+            <td class="column2 style6 n">&nbsp;&nbsp;93.57 </td>
+            <td class="column3 style6 n">&nbsp;&nbsp;93.51 </td>
+            <td class="column4 style6 n">&nbsp;&nbsp;94.77 </td>
+            <td class="column5 style6 n">&nbsp;&nbsp;94.63 </td>
+            <td class="column6 style6 n">&nbsp;&nbsp;94.00 </td>
+            <td class="column7 style6 n">&nbsp;&nbsp;95.93 </td>
+            <td class="column8 style6 n">&nbsp;&nbsp;97.51 </td>
+            <td class="column9 style6 n">&nbsp;&nbsp;98.70 </td>
+            <td class="column10 style6 n">&nbsp;&nbsp;100.92 </td>
+            <td class="column11 style6 n">&nbsp;&nbsp;100.60 </td>
+            <td class="column12 style6 n">&nbsp;&nbsp;99.27 </td>
+            <td class="column13 style6 n">&nbsp;&nbsp;100.00 </td>
+            <td class="column14 style6 n">&nbsp;&nbsp;100.01 </td>
+            <td class="column15 style6 n">&nbsp;&nbsp;99.19 </td>
+            <td class="column16 style6 n">&nbsp;&nbsp;98.42 </td>
+            <td class="column17 style6 n">&nbsp;&nbsp;97.27 </td>
+            <td class="column18 style6 n">&nbsp;&nbsp;98.07 </td>
+          </tr>
+          <tr class="row32">
+            <td class="column0 style14 s">Nonprescription drugs</td>
+            <td class="column1 style6 n">&nbsp;&nbsp;92.55 </td>
+            <td class="column2 style6 n">&nbsp;&nbsp;93.57 </td>
+            <td class="column3 style6 n">&nbsp;&nbsp;93.51 </td>
+            <td class="column4 style6 n">&nbsp;&nbsp;94.77 </td>
+            <td class="column5 style6 n">&nbsp;&nbsp;94.63 </td>
+            <td class="column6 style6 n">&nbsp;&nbsp;94.00 </td>
+            <td class="column7 style6 n">&nbsp;&nbsp;95.93 </td>
+            <td class="column8 style6 n">&nbsp;&nbsp;97.51 </td>
+            <td class="column9 style6 n">&nbsp;&nbsp;98.70 </td>
+            <td class="column10 style6 n">&nbsp;&nbsp;100.92 </td>
+            <td class="column11 style6 n">&nbsp;&nbsp;100.60 </td>
+            <td class="column12 style6 n">&nbsp;&nbsp;99.27 </td>
+            <td class="column13 style6 n">&nbsp;&nbsp;100.00 </td>
+            <td class="column14 style6 n">&nbsp;&nbsp;100.01 </td>
+            <td class="column15 style6 n">&nbsp;&nbsp;99.19 </td>
+            <td class="column16 style6 n">&nbsp;&nbsp;98.42 </td>
+            <td class="column17 style6 n">&nbsp;&nbsp;97.27 </td>
+            <td class="column18 style6 n">&nbsp;&nbsp;98.07 </td>
+          </tr>
+          <tr class="row33">
+            <td class="column0 style9 s">Other medical products</td>
+            <td class="column1 style6 n">&nbsp;&nbsp;95.25 </td>
+            <td class="column2 style6 n">&nbsp;&nbsp;95.28 </td>
+            <td class="column3 style6 n">&nbsp;&nbsp;94.92 </td>
+            <td class="column4 style6 n">&nbsp;&nbsp;95.27 </td>
+            <td class="column5 style6 n">&nbsp;&nbsp;96.12 </td>
+            <td class="column6 style6 n">&nbsp;&nbsp;96.58 </td>
+            <td class="column7 style6 n">&nbsp;&nbsp;97.98 </td>
+            <td class="column8 style6 n">&nbsp;&nbsp;98.97 </td>
+            <td class="column9 style6 n">&nbsp;&nbsp;99.26 </td>
+            <td class="column10 style6 n">&nbsp;&nbsp;100.61 </td>
+            <td class="column11 style6 n">&nbsp;&nbsp;98.49 </td>
+            <td class="column12 style6 n">&nbsp;&nbsp;98.76 </td>
+            <td class="column13 style6 n">&nbsp;&nbsp;100.00 </td>
+            <td class="column14 style6 n">&nbsp;&nbsp;100.42 </td>
+            <td class="column15 style6 n">&nbsp;&nbsp;99.89 </td>
+            <td class="column16 style6 n">&nbsp;&nbsp;99.15 </td>
+            <td class="column17 style6 n">&nbsp;&nbsp;98.69 </td>
+            <td class="column18 style6 n">&nbsp;&nbsp;99.00 </td>
+          </tr>
+          <tr class="row34">
+            <td class="column0 style8 s">Therapeutic appliances and equipment</td>
+            <td class="column1 style6 n">&nbsp;&nbsp;88.23 </td>
+            <td class="column2 style6 n">&nbsp;&nbsp;89.95 </td>
+            <td class="column3 style6 n">&nbsp;&nbsp;90.16 </td>
+            <td class="column4 style6 n">&nbsp;&nbsp;90.44 </td>
+            <td class="column5 style6 n">&nbsp;&nbsp;91.90 </td>
+            <td class="column6 style6 n">&nbsp;&nbsp;93.37 </td>
+            <td class="column7 style6 n">&nbsp;&nbsp;95.49 </td>
+            <td class="column8 style6 n">&nbsp;&nbsp;96.98 </td>
+            <td class="column9 style6 n">&nbsp;&nbsp;97.86 </td>
+            <td class="column10 style6 n">&nbsp;&nbsp;98.88 </td>
+            <td class="column11 style6 n">&nbsp;&nbsp;98.34 </td>
+            <td class="column12 style6 n">&nbsp;&nbsp;98.97 </td>
+            <td class="column13 style6 n">&nbsp;&nbsp;100.00 </td>
+            <td class="column14 style6 n">&nbsp;&nbsp;100.48 </td>
+            <td class="column15 style6 n">&nbsp;&nbsp;101.24 </td>
+            <td class="column16 style6 n">&nbsp;&nbsp;100.92 </td>
+            <td class="column17 style6 n">&nbsp;&nbsp;101.62 </td>
+            <td class="column18 style6 n">&nbsp;&nbsp;101.86 </td>
+          </tr>
+          <tr class="row35">
+            <td class="column0 style9 s">Corrective eyeglasses and contact lenses</td>
+            <td class="column1 style6 n">&nbsp;&nbsp;83.23 </td>
+            <td class="column2 style6 n">&nbsp;&nbsp;85.90 </td>
+            <td class="column3 style6 n">&nbsp;&nbsp;86.46 </td>
+            <td class="column4 style6 n">&nbsp;&nbsp;86.71 </td>
+            <td class="column5 style6 n">&nbsp;&nbsp;88.57 </td>
+            <td class="column6 style6 n">&nbsp;&nbsp;90.80 </td>
+            <td class="column7 style6 n">&nbsp;&nbsp;93.49 </td>
+            <td class="column8 style6 n">&nbsp;&nbsp;95.43 </td>
+            <td class="column9 style6 n">&nbsp;&nbsp;96.80 </td>
+            <td class="column10 style6 n">&nbsp;&nbsp;97.57 </td>
+            <td class="column11 style6 n">&nbsp;&nbsp;98.23 </td>
+            <td class="column12 style6 n">&nbsp;&nbsp;99.12 </td>
+            <td class="column13 style6 n">&nbsp;&nbsp;100.00 </td>
+            <td class="column14 style6 n">&nbsp;&nbsp;100.52 </td>
+            <td class="column15 style6 n">&nbsp;&nbsp;102.27 </td>
+            <td class="column16 style6 n">&nbsp;&nbsp;102.29 </td>
+            <td class="column17 style6 n">&nbsp;&nbsp;103.96 </td>
+            <td class="column18 style6 n">&nbsp;&nbsp;104.14 </td>
+          </tr>
+          <tr class="row36">
+            <td class="column0 style9 s">Therapeutic medical equipment</td>
+            <td class="column1 style6 n">&nbsp;&nbsp;95.25 </td>
+            <td class="column2 style6 n">&nbsp;&nbsp;95.29 </td>
+            <td class="column3 style6 n">&nbsp;&nbsp;94.92 </td>
+            <td class="column4 style6 n">&nbsp;&nbsp;95.27 </td>
+            <td class="column5 style6 n">&nbsp;&nbsp;96.12 </td>
+            <td class="column6 style6 n">&nbsp;&nbsp;96.59 </td>
+            <td class="column7 style6 n">&nbsp;&nbsp;97.99 </td>
+            <td class="column8 style6 n">&nbsp;&nbsp;98.97 </td>
+            <td class="column9 style6 n">&nbsp;&nbsp;99.26 </td>
+            <td class="column10 style6 n">&nbsp;&nbsp;100.61 </td>
+            <td class="column11 style6 n">&nbsp;&nbsp;98.50 </td>
+            <td class="column12 style6 n">&nbsp;&nbsp;98.76 </td>
+            <td class="column13 style6 n">&nbsp;&nbsp;100.00 </td>
+            <td class="column14 style6 n">&nbsp;&nbsp;100.42 </td>
+            <td class="column15 style6 n">&nbsp;&nbsp;99.90 </td>
+            <td class="column16 style6 n">&nbsp;&nbsp;99.16 </td>
+            <td class="column17 style6 n">&nbsp;&nbsp;98.70 </td>
+            <td class="column18 style6 n">&nbsp;&nbsp;99.01 </td>
+          </tr>
+          <tr class="row37">
+            <td class="column0 style0 s"></td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11">&nbsp;</td>
+            <td class="column12">&nbsp;</td>
+            <td class="column13">&nbsp;</td>
+            <td class="column14">&nbsp;</td>
+            <td class="column15">&nbsp;</td>
+            <td class="column16">&nbsp;</td>
+            <td class="column17">&nbsp;</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row38">
+            <td class="column0 style0 s">NOTE: Disease-based price indexes measure the total amount paid (or total expenditures) to treat a specific condition, including changes in the underlying services used for treatment which are sensitive to changes in utilization or the mix of services for a treatment of a condition.  This is unlike traditional price index measures where a change in price relates to changes in the average price of a fixed basket of goods and services.  In the academic literature, the disease-based price is often referred to as a medical care expenditure (MCE) index (e.g., Berndt et al (2000) and Aizcorbe and Nestoriak (2010)) or the cost per case (e.g., Thorpe (2004) and Roehrig and Rousseau (2009)).  For additional details see Dunn, Rittmueller and Whitmire (2015).</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11">&nbsp;</td>
+            <td class="column12">&nbsp;</td>
+            <td class="column13">&nbsp;</td>
+            <td class="column14">&nbsp;</td>
+            <td class="column15">&nbsp;</td>
+            <td class="column16">&nbsp;</td>
+            <td class="column17">&nbsp;</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row39">
+            <td class="column0 style0 s">NOTE: The Medicare drug portion of this account no longer reflects imputations based off of MEPS data. Rather, the imputations are based off of the Medicare-portion of Marketscan (years 2000-2005) and Medicare Part-D (years 2006-present)</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11">&nbsp;</td>
+            <td class="column12">&nbsp;</td>
+            <td class="column13">&nbsp;</td>
+            <td class="column14">&nbsp;</td>
+            <td class="column15">&nbsp;</td>
+            <td class="column16">&nbsp;</td>
+            <td class="column17">&nbsp;</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row40">
+            <td class="column0 style0 s">*NOTE: The Blended Account data after the last quarter of 2015 are based on the updated International Classification of Diseases (ICD-10). Prior years’ data were based on the earlier classification system (ICD-9).  Users should exercise caution when comparing earlier estimates to data for 2015 or later. More information about this change can be found at the Agency for Healthcare Research and Quality: https://www.hcup-us.ahrq.gov/tools_software.jsp</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11">&nbsp;</td>
+            <td class="column12">&nbsp;</td>
+            <td class="column13">&nbsp;</td>
+            <td class="column14">&nbsp;</td>
+            <td class="column15">&nbsp;</td>
+            <td class="column16">&nbsp;</td>
+            <td class="column17">&nbsp;</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row41">
+            <td class="column0 style0 s">Last updated: 05/06/2020</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11">&nbsp;</td>
+            <td class="column12">&nbsp;</td>
+            <td class="column13">&nbsp;</td>
+            <td class="column14">&nbsp;</td>
+            <td class="column15">&nbsp;</td>
+            <td class="column16">&nbsp;</td>
+            <td class="column17">&nbsp;</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+        </tbody>
+    </table>
+  </body>
+</html>

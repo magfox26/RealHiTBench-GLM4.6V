@@ -1,0 +1,14 @@
+\begin{table}[]
+\begin{tabular}{lllllllllll}
+     &                                                & \multicolumn{3}{l}{Expt-1}           &  & \multicolumn{3}{l}{Expt-2}           &             &             \\
+     & Liver wt (mg)                                  & Replicate1 & Replicate2 & Replicate3 &  & Replicate1 & Replicate2 & Replicate3 & Mean        & SD          \\
+Set1 & Uninf mice (no DC trf)                         & 1420       & 1502       & 1508.5     &  & 1308.7     & 1402       & 1240.25    & 1396.908333 & 106.1872423 \\
+Set2 & Inf mice (no DC trnf)                          & 1950       & 1886       & 1936.6     &  & 1890       & 2209.5     & 2162.87    & 2005.828333 & 142.7085352 \\
+Set3 & Inf mice ( DC + PBS)                           & 1890       & 1909       & 1996.6     &  & 1887.8     & 2305       & 2069.56    & 2009.66     & 161.4218696 \\
+Set4 & Inf mice (DC + SAG)                            & 1310       & 1415       & 1565       &  & 1505.76    & 1475       & 1513.6     & 1464.06     & 90.15878881 \\
+Set5 & Inf mice  {[}DC (Ctrl siRNA) + SAG{]}          & 1456       & 1495       & 1609.9     &  & 1496.87    & 1432       & 1565.12    & 1509.148333 & 66.94963672 \\
+Set6 & Inf mice {[}DC (Runx1+3 siRNA) + SAG{]}        & 1836       & 1786       & 1896.7     &  & 1865.7     & 2412.5     & 2093.56    & 1981.743333 & 235.927645  \\
+Set7 & Inf mice {[}DC (Runx1+3 siRNA + Vec) + SAG{]}  & 1892       & 2250       & 1757.6     &  & 1857.5     & 2262.7     & 2034.7     & 2009.083333 & 211.1626616 \\
+Set8 & Inf mice {[}DC (Runx1+3 siRNA + CD40) + SAG{]} & 1386       & 1208       & 1442.7     &  & 1535.6     & 1523.86    & 1452.81    & 1424.828333 & 119.7515502
+\end{tabular}
+\end{table}

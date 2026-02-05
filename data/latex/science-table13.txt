@@ -1,0 +1,19 @@
+\begin{table}[]
+\begin{tabular}{llllllll}
+Chromosome           & Position  & Reference Allele & Alternate Allele        & Gene Symbol & Consequence         & HGVS Name (cDNA)                                      & HGVS Name (protein)                   \\
+Homozygous Recessive &           &                  &                         &             &                     &                                                       &                                       \\
+3                    & 48625292  & G                & A                       & COL7A1      & missense\_variant   & ENST00000328333.8:c.2791N\textgreater{}T              & ENSP00000332371.8:p.Arg931Cys         \\
+                     &           &                  &                         &             &                     &                                                       &                                       \\
+X-Linked             &           &                  &                         &             &                     &                                                       &                                       \\
+X                    & 15841230  & CAGCCGGAGCCGG    & C                       & ZRSR2       & inframe\_deletion   & ENST00000307771.7:c.1315\_1326del                     & ENSP00000303015.7:p.Ser445\_Arg448del \\
+                     &           &                  &                         &             &                     &                                                       &                                       \\
+Novel Heterozygous   &           &                  &                         &             &                     &                                                       &                                       \\
+4                    & 985149    & T                & C                       & SLC26A1     & missense\_variant   & ENST00000361661.2:c.343N\textgreater{}G               & ENSP00000354721.2:p.Met115Val         \\
+5                    & 134029525 & A                & C                       & SEC24A      & missense\_variant   & ENST00000398844.2:c.1888N\textgreater{}C              & ENSP00000381823.2:p.Thr630Pro         \\
+9                    & 35906615  & C                & CACCACCACCACCACCACCACCA & HRCT1       & frameshift\_variant & ENST00000354323.2:c.331\_332insACCACCACCACCACCACCACCA & ENSP00000346283.2:p.Pro111HisfsTer104 \\
+10                   & 17275595  & A                & T                       & VIM         & missense\_variant   & ENST00000544301.1:c.634N\textgreater{}T               & ENSP00000446007.1:p.Asn212Tyr         \\
+10                   & 117059610 & C                & T                       & ATRNL1      & missense\_variant   & ENST00000355044.3:c.2482N\textgreater{}T              & ENSP00000347152.3:p.Pro828Ser         \\
+10                   & 135193685 & G                & A                       & PAOX        & missense\_variant   & ENST00000278060.5:c.364N\textgreater{}A               & ENSP00000278060.5:p.Val122Met         \\
+11                   & 134038427 & G                & C                       & NCAPD3      & missense\_variant   & ENST00000534548.2:c.3310N\textgreater{}G              & ENSP00000433681.2:p.Leu1104Val       
+\end{tabular}
+\end{table}

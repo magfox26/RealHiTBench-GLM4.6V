@@ -1,0 +1,92 @@
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+% \usepackage[table,xcdraw]{xcolor}
+% Beamer presentation requires \usepackage{colortbl} instead of \usepackage[table,xcdraw]{xcolor}
+% \usepackage[normalem]{ulem}
+% \useunder{\uline}{\ul}{}
+\begin{table}[]
+\begin{tabular}{@{}lrrrr@{}}
+\textbf{Table 3 Scientific procedures by species of animal, and genetic status} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} \\
+\textbf{Summary Version} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} \\
+Note. For numbers of procedures by purpose, see full table available on the website & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} \\
+\textbf{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} \\
+\textbf{Great Britain 2011} & \multicolumn{1}{l}{\textbf{}} & \multicolumn{1}{l}{\textbf{}} & \multicolumn{1}{l}{\textbf{}} & \textbf{} \\
+\rowcolor[HTML]{FFFF99} 
+\textbf{Species of animal} & \multicolumn{3}{c}{\cellcolor[HTML]{FFFF99}\textbf{Genetic status}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFF99}\textbf{Total}} \\
+\rowcolor[HTML]{FFFF99} 
+ & \multicolumn{1}{c}{\cellcolor[HTML]{FFFF99}Genetically modified animal} & \multicolumn{1}{c}{\cellcolor[HTML]{FFFF99}Normal animal} & \multicolumn{1}{c}{\cellcolor[HTML]{FFFF99}Animal with harmful genetic defect} & \multicolumn{1}{c}{\cellcolor[HTML]{FFFF99}} \\
+{\color[HTML]{008000} \textbf{Mammal}} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} \\
+\rowcolor[HTML]{FFCC99} 
+\textbf{Mouse} & 1,528,388 & 828,857 & 322,518 & \textbf{2,679,763} \\
+\textbf{Rat} & 4,514 & 255,627 & 11,394 & \textbf{271,535} \\
+\rowcolor[HTML]{FFCC99} 
+\textbf{Guinea pig} & - & 11,537 & - & \textbf{11,537} \\
+\textbf{Hamster} & - & 1,994 & - & \textbf{1,994} \\
+\rowcolor[HTML]{FFCC99} 
+\textbf{Gerbil} & - & 508 & - & \textbf{508} \\
+\textbf{Other rodent} & - & 3,896 & - & \textbf{3,896} \\
+\rowcolor[HTML]{FFCC99} 
+\textbf{Rabbit} & 13 & 15,448 & - & \textbf{15,461} \\
+\textbf{Cat} & - & 235 & - & \textbf{235} \\
+\rowcolor[HTML]{FFCC99} 
+\textbf{Dog} &  &  &  & \textbf{} \\
+Beagle & - & 4,358 & - & \textbf{4,358} \\
+\rowcolor[HTML]{FFCC99} 
+Greyhound & - & - & - & \textbf{-} \\
+Other inc cross-breds & - & 194 & - & \textbf{194} \\
+\rowcolor[HTML]{FFCC99} 
+\textbf{Ferret} & - & 691 & - & \textbf{691} \\
+\textbf{Other carnivore} & - & 795 & - & \textbf{795} \\
+\rowcolor[HTML]{FFCC99} 
+\textbf{Horse and other equids} & - & 8,380 & - & \textbf{8,380} \\
+\textbf{Pig} & 34 & 4,306 & - & \textbf{4,340} \\
+\rowcolor[HTML]{FFCC99} 
+\textbf{Goat} & - & 196 & - & \textbf{196} \\
+\textbf{Sheep} & 6 & 37,708 & - & \textbf{37,714} \\
+\rowcolor[HTML]{FFCC99} 
+\textbf{Cattle} & - & 5,102 & - & \textbf{5,102} \\
+\textbf{Deer} & - & 50 & - & \textbf{50} \\
+\rowcolor[HTML]{FFCC99} 
+\textbf{Camelid} & - & 257 & - & \textbf{257} \\
+\textbf{Other ungulate} & - & 12 & - & \textbf{12} \\
+\rowcolor[HTML]{FFCC99} 
+\textbf{Primate} &  &  &  & \textbf{} \\
+\cellcolor[HTML]{FFCC99}Prosimian & - & - & - & \textbf{-} \\
+\rowcolor[HTML]{FFCC99} 
+\textbf{New World monkey} &  &  &  & \textbf{} \\
+marmoset, tamarin & - & 351 & - & \textbf{351} \\
+\rowcolor[HTML]{FFCC99} 
+Squirrel, owl, spider monkey & - & - & - & \textbf{-} \\
+Other New World monkey & - & - & - & \textbf{-} \\
+\rowcolor[HTML]{FFCC99} 
+\textbf{Old World monkey} &  &  &  & \textbf{} \\
+Macaque & - & 2,124 & - & \textbf{2,124} \\
+\rowcolor[HTML]{FFCC99} 
+Baboon & - & - & - & \textbf{-} \\
+Other Old World monkey & - & - & - & \textbf{-} \\
+\rowcolor[HTML]{FFCC99} 
+\textbf{Ape} &  &  &  & \textbf{} \\
+Gibbon & - & - & - & \textbf{-} \\
+\rowcolor[HTML]{FFCC99} 
+Great ape & - & - & - & \textbf{-} \\
+Other mammal & - & 545 & - & \textbf{545} \\
+\rowcolor[HTML]{FFCC99} 
+{\color[HTML]{008000} \textbf{Bird}} &  &  &  & \textbf{} \\
+Domestic fowl (Gallus domesticus) & 351 & 148,215 & 478 & \textbf{149,044} \\
+\rowcolor[HTML]{FFCC99} 
+Turkey & - & 3,409 & - & \textbf{3,409} \\
+Quail (Coturnix coturnix) & - & 34 & - & \textbf{34} \\
+\rowcolor[HTML]{FFCC99} 
+Quail (not Coturnix coturnix) & - & 883 & - & \textbf{883} \\
+Other bird & - & 9,248 & - & \textbf{9,248} \\
+\rowcolor[HTML]{FFCC99} 
+{\color[HTML]{008000} \textbf{Reptile}} & - & 383 & - & \textbf{383} \\
+{\color[HTML]{008000} \textbf{Amphibian}} & 1,043 & 12,002 & 2,870 & \textbf{15,915} \\
+\rowcolor[HTML]{FFCC99} 
+{\color[HTML]{008000} \textbf{Fish}} & 119,341 & 406,129 & 38,433 & \textbf{563,903} \\
+{\color[HTML]{008000} \textbf{Cephalopod}} & - & - & - & \textbf{-} \\
+\rowcolor[HTML]{FFFF99} 
+\textbf{Total} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFF99}\textbf{1,653,690}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFF99}\textbf{1,763,474}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFF99}\textbf{375,693}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFF99}\textbf{3,792,857}} \\
+Percentage of total for 2011 & \multicolumn{1}{l}{44\%} & \multicolumn{1}{l}{46\%} & \multicolumn{1}{l}{10\%} & \multicolumn{1}{l}{100\%}
+\end{tabular}
+\end{table}

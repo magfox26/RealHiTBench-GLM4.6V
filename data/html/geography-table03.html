@@ -1,0 +1,3987 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <meta name="generator" content="PhpSpreadsheet, https://github.com/PHPOffice/PhpSpreadsheet">
+      <meta name="company" content="Microsoft Corporation" />
+    <style type="text/css">
+      html { font-family:Calibri, Arial, Helvetica, sans-serif; font-size:11pt; background-color:white }
+      a.comment-indicator:hover + div.comment { background:#ffd; position:absolute; display:block; border:1px solid black; padding:0.5em }
+      a.comment-indicator { background:red; display:inline-block; border:1px solid black; width:0.5em; height:0.5em }
+      div.comment { display:none }
+      table { border-collapse:collapse; page-break-after:always }
+      .gridlines td { border:1px dotted black }
+      .gridlines th { border:1px dotted black }
+      .b { text-align:center }
+      .e { text-align:center }
+      .f { text-align:right }
+      .inlineStr { text-align:left }
+      .n { text-align:right }
+      .s { text-align:left }
+      td.style0 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style0 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style1 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style1 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style2 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style2 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style3 { vertical-align:top; text-align:left; padding-left:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#E2F2FB }
+      th.style3 { vertical-align:top; text-align:left; padding-left:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#E2F2FB }
+      td.style4 { vertical-align:top; text-align:left; padding-left:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#F1F1F1 }
+      th.style4 { vertical-align:top; text-align:left; padding-left:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#F1F1F1 }
+      td.style5 { vertical-align:top; text-align:left; padding-left:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#E2F2FB }
+      th.style5 { vertical-align:top; text-align:left; padding-left:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#E2F2FB }
+      td.style6 { vertical-align:top; text-align:right; padding-right:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#F1F1F1 }
+      th.style6 { vertical-align:top; text-align:right; padding-right:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#F1F1F1 }
+      td.style7 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style7 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style8 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style8 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style9 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; text-decoration:underline; color:#0563C1; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style9 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; text-decoration:underline; color:#0563C1; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style10 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; text-decoration:underline; color:#0563C1; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style10 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; text-decoration:underline; color:#0563C1; font-family:'宋体'; font-size:11pt; background-color:white }
+      table.sheet0 col.col0 { width:42pt }
+      table.sheet0 col.col1 { width:204.01110877pt }
+      table.sheet0 col.col2 { width:94.8888878pt }
+      table.sheet0 col.col3 { width:94.8888878pt }
+      table.sheet0 col.col4 { width:42pt }
+      table.sheet0 tr { height:15pt }
+      table.sheet0 tr.row6 { height:17pt }
+      table.sheet0 tr.row7 { height:17pt }
+      table.sheet0 tr.row8 { height:17pt }
+      table.sheet0 tr.row9 { height:17pt }
+      table.sheet0 tr.row10 { height:17pt }
+      table.sheet0 tr.row11 { height:17pt }
+      table.sheet0 tr.row12 { height:17pt }
+      table.sheet0 tr.row13 { height:17pt }
+      table.sheet0 tr.row14 { height:17pt }
+      table.sheet0 tr.row15 { height:17pt }
+      table.sheet0 tr.row16 { height:17pt }
+      table.sheet0 tr.row17 { height:17pt }
+      table.sheet0 tr.row18 { height:17pt }
+      table.sheet0 tr.row19 { height:17pt }
+      table.sheet0 tr.row20 { height:17pt }
+      table.sheet0 tr.row21 { height:17pt }
+      table.sheet0 tr.row22 { height:17pt }
+      table.sheet0 tr.row23 { height:17pt }
+      table.sheet0 tr.row24 { height:17pt }
+      table.sheet0 tr.row25 { height:17pt }
+      table.sheet0 tr.row26 { height:17pt }
+      table.sheet0 tr.row27 { height:17pt }
+      table.sheet0 tr.row28 { height:17pt }
+      table.sheet0 tr.row29 { height:17pt }
+      table.sheet0 tr.row30 { height:17pt }
+      table.sheet0 tr.row31 { height:17pt }
+      table.sheet0 tr.row32 { height:17pt }
+      table.sheet0 tr.row33 { height:17pt }
+      table.sheet0 tr.row34 { height:17pt }
+      table.sheet0 tr.row35 { height:17pt }
+      table.sheet0 tr.row36 { height:17pt }
+      table.sheet0 tr.row37 { height:17pt }
+      table.sheet0 tr.row38 { height:17pt }
+      table.sheet0 tr.row39 { height:17pt }
+      table.sheet0 tr.row40 { height:17pt }
+      table.sheet0 tr.row41 { height:17pt }
+      table.sheet0 tr.row42 { height:17pt }
+      table.sheet0 tr.row43 { height:17pt }
+      table.sheet0 tr.row44 { height:17pt }
+      table.sheet0 tr.row45 { height:17pt }
+      table.sheet0 tr.row46 { height:17pt }
+      table.sheet0 tr.row47 { height:17pt }
+      table.sheet0 tr.row48 { height:17pt }
+      table.sheet0 tr.row49 { height:17pt }
+      table.sheet0 tr.row50 { height:17pt }
+      table.sheet0 tr.row51 { height:17pt }
+      table.sheet0 tr.row52 { height:17pt }
+      table.sheet0 tr.row53 { height:17pt }
+      table.sheet0 tr.row54 { height:17pt }
+      table.sheet0 tr.row55 { height:17pt }
+      table.sheet0 tr.row56 { height:17pt }
+      table.sheet0 tr.row57 { height:17pt }
+      table.sheet0 tr.row58 { height:17pt }
+      table.sheet0 tr.row59 { height:17pt }
+      table.sheet0 tr.row60 { height:17pt }
+      table.sheet0 tr.row61 { height:17pt }
+      table.sheet0 tr.row62 { height:17pt }
+      table.sheet0 tr.row63 { height:17pt }
+      table.sheet0 tr.row64 { height:17pt }
+      table.sheet0 tr.row65 { height:17pt }
+      table.sheet0 tr.row66 { height:17pt }
+      table.sheet0 tr.row67 { height:17pt }
+      table.sheet0 tr.row68 { height:17pt }
+      table.sheet0 tr.row69 { height:17pt }
+      table.sheet0 tr.row70 { height:17pt }
+      table.sheet0 tr.row71 { height:17pt }
+      table.sheet0 tr.row72 { height:17pt }
+      table.sheet0 tr.row73 { height:17pt }
+      table.sheet0 tr.row74 { height:17pt }
+      table.sheet0 tr.row75 { height:17pt }
+      table.sheet0 tr.row76 { height:17pt }
+      table.sheet0 tr.row77 { height:17pt }
+      table.sheet0 tr.row78 { height:17pt }
+      table.sheet0 tr.row79 { height:17pt }
+      table.sheet0 tr.row80 { height:17pt }
+      table.sheet0 tr.row81 { height:17pt }
+      table.sheet0 tr.row82 { height:17pt }
+      table.sheet0 tr.row83 { height:17pt }
+      table.sheet0 tr.row84 { height:17pt }
+      table.sheet0 tr.row85 { height:17pt }
+      table.sheet0 tr.row86 { height:17pt }
+      table.sheet0 tr.row87 { height:17pt }
+      table.sheet0 tr.row88 { height:17pt }
+      table.sheet0 tr.row89 { height:17pt }
+      table.sheet0 tr.row90 { height:17pt }
+      table.sheet0 tr.row91 { height:17pt }
+      table.sheet0 tr.row92 { height:17pt }
+      table.sheet0 tr.row93 { height:17pt }
+      table.sheet0 tr.row94 { height:17pt }
+      table.sheet0 tr.row95 { height:17pt }
+      table.sheet0 tr.row96 { height:17pt }
+      table.sheet0 tr.row97 { height:17pt }
+      table.sheet0 tr.row98 { height:17pt }
+      table.sheet0 tr.row99 { height:17pt }
+      table.sheet0 tr.row100 { height:17pt }
+      table.sheet0 tr.row101 { height:17pt }
+      table.sheet0 tr.row102 { height:17pt }
+      table.sheet0 tr.row103 { height:17pt }
+      table.sheet0 tr.row104 { height:17pt }
+      table.sheet0 tr.row105 { height:17pt }
+      table.sheet0 tr.row106 { height:17pt }
+      table.sheet0 tr.row107 { height:17pt }
+      table.sheet0 tr.row108 { height:17pt }
+      table.sheet0 tr.row109 { height:17pt }
+      table.sheet0 tr.row110 { height:17pt }
+      table.sheet0 tr.row111 { height:17pt }
+      table.sheet0 tr.row112 { height:17pt }
+      table.sheet0 tr.row113 { height:17pt }
+      table.sheet0 tr.row114 { height:17pt }
+      table.sheet0 tr.row115 { height:17pt }
+      table.sheet0 tr.row116 { height:17pt }
+      table.sheet0 tr.row117 { height:17pt }
+      table.sheet0 tr.row118 { height:17pt }
+      table.sheet0 tr.row119 { height:17pt }
+      table.sheet0 tr.row120 { height:17pt }
+      table.sheet0 tr.row121 { height:17pt }
+      table.sheet0 tr.row122 { height:17pt }
+      table.sheet0 tr.row123 { height:17pt }
+      table.sheet0 tr.row124 { height:17pt }
+      table.sheet0 tr.row125 { height:17pt }
+      table.sheet0 tr.row126 { height:17pt }
+      table.sheet0 tr.row127 { height:17pt }
+      table.sheet0 tr.row128 { height:17pt }
+      table.sheet0 tr.row129 { height:17pt }
+      table.sheet0 tr.row130 { height:17pt }
+      table.sheet0 tr.row131 { height:17pt }
+      table.sheet0 tr.row132 { height:17pt }
+      table.sheet0 tr.row133 { height:17pt }
+      table.sheet0 tr.row134 { height:17pt }
+      table.sheet0 tr.row135 { height:17pt }
+      table.sheet0 tr.row136 { height:17pt }
+      table.sheet0 tr.row137 { height:17pt }
+      table.sheet0 tr.row138 { height:17pt }
+      table.sheet0 tr.row139 { height:17pt }
+      table.sheet0 tr.row140 { height:17pt }
+      table.sheet0 tr.row141 { height:17pt }
+      table.sheet0 tr.row142 { height:17pt }
+      table.sheet0 tr.row143 { height:17pt }
+      table.sheet0 tr.row144 { height:17pt }
+      table.sheet0 tr.row145 { height:17pt }
+      table.sheet0 tr.row146 { height:17pt }
+      table.sheet0 tr.row147 { height:17pt }
+      table.sheet0 tr.row148 { height:17pt }
+      table.sheet0 tr.row149 { height:17pt }
+      table.sheet0 tr.row150 { height:17pt }
+      table.sheet0 tr.row151 { height:17pt }
+      table.sheet0 tr.row152 { height:17pt }
+      table.sheet0 tr.row153 { height:17pt }
+      table.sheet0 tr.row154 { height:17pt }
+      table.sheet0 tr.row155 { height:17pt }
+      table.sheet0 tr.row156 { height:17pt }
+      table.sheet0 tr.row157 { height:17pt }
+      table.sheet0 tr.row158 { height:17pt }
+      table.sheet0 tr.row159 { height:17pt }
+      table.sheet0 tr.row160 { height:17pt }
+      table.sheet0 tr.row161 { height:17pt }
+      table.sheet0 tr.row162 { height:17pt }
+      table.sheet0 tr.row163 { height:17pt }
+      table.sheet0 tr.row164 { height:17pt }
+      table.sheet0 tr.row165 { height:17pt }
+      table.sheet0 tr.row166 { height:17pt }
+      table.sheet0 tr.row167 { height:17pt }
+      table.sheet0 tr.row168 { height:17pt }
+      table.sheet0 tr.row169 { height:17pt }
+      table.sheet0 tr.row170 { height:17pt }
+      table.sheet0 tr.row171 { height:17pt }
+      table.sheet0 tr.row172 { height:17pt }
+      table.sheet0 tr.row173 { height:17pt }
+      table.sheet0 tr.row174 { height:17pt }
+      table.sheet0 tr.row175 { height:17pt }
+      table.sheet0 tr.row176 { height:17pt }
+      table.sheet0 tr.row177 { height:17pt }
+      table.sheet0 tr.row178 { height:17pt }
+      table.sheet0 tr.row179 { height:17pt }
+      table.sheet0 tr.row180 { height:17pt }
+      table.sheet0 tr.row181 { height:17pt }
+      table.sheet0 tr.row182 { height:17pt }
+      table.sheet0 tr.row183 { height:17pt }
+      table.sheet0 tr.row184 { height:17pt }
+      table.sheet0 tr.row185 { height:17pt }
+      table.sheet0 tr.row186 { height:17pt }
+      table.sheet0 tr.row187 { height:17pt }
+      table.sheet0 tr.row188 { height:17pt }
+      table.sheet0 tr.row189 { height:17pt }
+      table.sheet0 tr.row190 { height:17pt }
+      table.sheet0 tr.row191 { height:17pt }
+      table.sheet0 tr.row192 { height:17pt }
+      table.sheet0 tr.row193 { height:17pt }
+      table.sheet0 tr.row194 { height:17pt }
+      table.sheet0 tr.row195 { height:17pt }
+      table.sheet0 tr.row196 { height:17pt }
+      table.sheet0 tr.row197 { height:17pt }
+      table.sheet0 tr.row198 { height:17pt }
+      table.sheet0 tr.row199 { height:17pt }
+      table.sheet0 tr.row200 { height:17pt }
+      table.sheet0 tr.row201 { height:17pt }
+      table.sheet0 tr.row202 { height:17pt }
+      table.sheet0 tr.row203 { height:17pt }
+      table.sheet0 tr.row204 { height:17pt }
+      table.sheet0 tr.row205 { height:17pt }
+      table.sheet0 tr.row206 { height:17pt }
+      table.sheet0 tr.row207 { height:17pt }
+      table.sheet0 tr.row208 { height:17pt }
+      table.sheet0 tr.row209 { height:17pt }
+      table.sheet0 tr.row210 { height:17pt }
+      table.sheet0 tr.row211 { height:17pt }
+      table.sheet0 tr.row212 { height:17pt }
+      table.sheet0 tr.row213 { height:17pt }
+      table.sheet0 tr.row214 { height:17pt }
+      table.sheet0 tr.row215 { height:17pt }
+      table.sheet0 tr.row216 { height:17pt }
+      table.sheet0 tr.row217 { height:17pt }
+      table.sheet0 tr.row218 { height:17pt }
+      table.sheet0 tr.row219 { height:17pt }
+      table.sheet0 tr.row220 { height:17pt }
+      table.sheet0 tr.row221 { height:17pt }
+      table.sheet0 tr.row222 { height:17pt }
+      table.sheet0 tr.row223 { height:17pt }
+      table.sheet0 tr.row224 { height:17pt }
+      table.sheet0 tr.row225 { height:17pt }
+      table.sheet0 tr.row226 { height:17pt }
+      table.sheet0 tr.row227 { height:17pt }
+      table.sheet0 tr.row228 { height:17pt }
+      table.sheet0 tr.row229 { height:17pt }
+      table.sheet0 tr.row230 { height:17pt }
+      table.sheet0 tr.row231 { height:17pt }
+      table.sheet0 tr.row232 { height:17pt }
+      table.sheet0 tr.row233 { height:17pt }
+      table.sheet0 tr.row234 { height:17pt }
+      table.sheet0 tr.row235 { height:17pt }
+      table.sheet0 tr.row236 { height:17pt }
+      table.sheet0 tr.row237 { height:17pt }
+      table.sheet0 tr.row238 { height:17pt }
+      table.sheet0 tr.row239 { height:17pt }
+      table.sheet0 tr.row240 { height:17pt }
+      table.sheet0 tr.row241 { height:17pt }
+      table.sheet0 tr.row242 { height:17pt }
+      table.sheet0 tr.row243 { height:17pt }
+      table.sheet0 tr.row244 { height:17pt }
+      table.sheet0 tr.row245 { height:17pt }
+      table.sheet0 tr.row246 { height:17pt }
+      table.sheet0 tr.row247 { height:17pt }
+      table.sheet0 tr.row248 { height:17pt }
+      table.sheet0 tr.row249 { height:17pt }
+      table.sheet0 tr.row250 { height:17pt }
+      table.sheet0 tr.row251 { height:17pt }
+      table.sheet0 tr.row252 { height:17pt }
+      table.sheet0 tr.row253 { height:17pt }
+      table.sheet0 tr.row254 { height:17pt }
+      table.sheet0 tr.row255 { height:17pt }
+      table.sheet0 tr.row256 { height:17pt }
+      table.sheet0 tr.row257 { height:17pt }
+      table.sheet0 tr.row258 { height:17pt }
+      table.sheet0 tr.row259 { height:17pt }
+      table.sheet0 tr.row260 { height:17pt }
+      table.sheet0 tr.row261 { height:17pt }
+      table.sheet0 tr.row262 { height:17pt }
+      table.sheet0 tr.row263 { height:17pt }
+      table.sheet0 tr.row264 { height:17pt }
+      table.sheet0 tr.row265 { height:17pt }
+      table.sheet0 tr.row266 { height:17pt }
+      table.sheet0 tr.row267 { height:17pt }
+      table.sheet0 tr.row268 { height:17pt }
+      table.sheet0 tr.row269 { height:17pt }
+      table.sheet0 tr.row270 { height:17pt }
+      table.sheet0 tr.row271 { height:17pt }
+      table.sheet0 tr.row272 { height:17pt }
+      table.sheet0 tr.row273 { height:17pt }
+      table.sheet0 tr.row274 { height:17pt }
+      table.sheet0 tr.row275 { height:17pt }
+      table.sheet0 tr.row276 { height:17pt }
+      table.sheet0 tr.row277 { height:17pt }
+      table.sheet0 tr.row278 { height:17pt }
+      table.sheet0 tr.row279 { height:17pt }
+      table.sheet0 tr.row280 { height:17pt }
+      table.sheet0 tr.row281 { height:17pt }
+      table.sheet0 tr.row282 { height:17pt }
+      table.sheet0 tr.row283 { height:17pt }
+      table.sheet0 tr.row284 { height:17pt }
+      table.sheet0 tr.row285 { height:17pt }
+      table.sheet0 tr.row286 { height:17pt }
+      table.sheet0 tr.row287 { height:17pt }
+      table.sheet0 tr.row288 { height:17pt }
+      table.sheet0 tr.row289 { height:17pt }
+      table.sheet0 tr.row290 { height:17pt }
+      table.sheet0 tr.row291 { height:17pt }
+      table.sheet0 tr.row292 { height:17pt }
+      table.sheet0 tr.row293 { height:17pt }
+      table.sheet0 tr.row294 { height:17pt }
+      table.sheet0 tr.row295 { height:17pt }
+      table.sheet0 tr.row296 { height:17pt }
+      table.sheet0 tr.row297 { height:17pt }
+      table.sheet0 tr.row298 { height:17pt }
+      table.sheet0 tr.row299 { height:17pt }
+      table.sheet0 tr.row300 { height:17pt }
+      table.sheet0 tr.row301 { height:17pt }
+      table.sheet0 tr.row302 { height:17pt }
+      table.sheet0 tr.row303 { height:17pt }
+      table.sheet0 tr.row304 { height:17pt }
+      table.sheet0 tr.row305 { height:17pt }
+      table.sheet0 tr.row306 { height:17pt }
+      table.sheet0 tr.row307 { height:17pt }
+      table.sheet0 tr.row308 { height:17pt }
+      table.sheet0 tr.row309 { height:17pt }
+      table.sheet0 tr.row310 { height:17pt }
+      table.sheet0 tr.row311 { height:17pt }
+      table.sheet0 tr.row312 { height:17pt }
+      table.sheet0 tr.row313 { height:17pt }
+      table.sheet0 tr.row314 { height:17pt }
+      table.sheet0 tr.row315 { height:17pt }
+      table.sheet0 tr.row316 { height:17pt }
+      table.sheet0 tr.row317 { height:17pt }
+      table.sheet0 tr.row318 { height:17pt }
+      table.sheet0 tr.row319 { height:17pt }
+      table.sheet0 tr.row320 { height:17pt }
+      table.sheet0 tr.row321 { height:17pt }
+      table.sheet0 tr.row322 { height:17pt }
+      table.sheet0 tr.row323 { height:17pt }
+      table.sheet0 tr.row324 { height:17pt }
+      table.sheet0 tr.row325 { height:17pt }
+      table.sheet0 tr.row326 { height:17pt }
+      table.sheet0 tr.row327 { height:17pt }
+      table.sheet0 tr.row328 { height:17pt }
+      table.sheet0 tr.row329 { height:17pt }
+      table.sheet0 tr.row330 { height:17pt }
+      table.sheet0 tr.row331 { height:17pt }
+      table.sheet0 tr.row332 { height:17pt }
+      table.sheet0 tr.row333 { height:17pt }
+      table.sheet0 tr.row334 { height:17pt }
+      table.sheet0 tr.row335 { height:17pt }
+      table.sheet0 tr.row336 { height:17pt }
+      table.sheet0 tr.row337 { height:17pt }
+      table.sheet0 tr.row338 { height:17pt }
+      table.sheet0 tr.row339 { height:17pt }
+      table.sheet0 tr.row340 { height:17pt }
+      table.sheet0 tr.row341 { height:17pt }
+      table.sheet0 tr.row342 { height:17pt }
+      table.sheet0 tr.row343 { height:17pt }
+      table.sheet0 tr.row344 { height:17pt }
+      table.sheet0 tr.row345 { height:17pt }
+      table.sheet0 tr.row346 { height:17pt }
+      table.sheet0 tr.row347 { height:17pt }
+      table.sheet0 tr.row348 { height:17pt }
+      table.sheet0 tr.row349 { height:17pt }
+      table.sheet0 tr.row350 { height:17pt }
+      table.sheet0 tr.row351 { height:17pt }
+      table.sheet0 tr.row352 { height:17pt }
+      table.sheet0 tr.row353 { height:17pt }
+      table.sheet0 tr.row354 { height:17pt }
+      table.sheet0 tr.row355 { height:17pt }
+      table.sheet0 tr.row356 { height:17pt }
+      table.sheet0 tr.row357 { height:17pt }
+      table.sheet0 tr.row358 { height:17pt }
+      table.sheet0 tr.row359 { height:17pt }
+      table.sheet0 tr.row360 { height:17pt }
+      table.sheet0 tr.row361 { height:17pt }
+      table.sheet0 tr.row362 { height:17pt }
+      table.sheet0 tr.row363 { height:17pt }
+      table.sheet0 tr.row364 { height:17pt }
+      table.sheet0 tr.row365 { height:17pt }
+      table.sheet0 tr.row366 { height:17pt }
+      table.sheet0 tr.row367 { height:17pt }
+      table.sheet0 tr.row368 { height:17pt }
+      table.sheet0 tr.row369 { height:17pt }
+      table.sheet0 tr.row370 { height:17pt }
+      table.sheet0 tr.row371 { height:17pt }
+      table.sheet0 tr.row372 { height:17pt }
+      table.sheet0 tr.row373 { height:17pt }
+      table.sheet0 tr.row374 { height:17pt }
+      table.sheet0 tr.row375 { height:17pt }
+      table.sheet0 tr.row376 { height:17pt }
+      table.sheet0 tr.row377 { height:17pt }
+      table.sheet0 tr.row378 { height:17pt }
+      table.sheet0 tr.row379 { height:17pt }
+      table.sheet0 tr.row380 { height:17pt }
+      table.sheet0 tr.row381 { height:17pt }
+      table.sheet0 tr.row382 { height:17pt }
+      table.sheet0 tr.row383 { height:17pt }
+      table.sheet0 tr.row384 { height:17pt }
+      table.sheet0 tr.row385 { height:17pt }
+      table.sheet0 tr.row386 { height:17pt }
+      table.sheet0 tr.row387 { height:17pt }
+      table.sheet0 tr.row388 { height:17pt }
+      table.sheet0 tr.row389 { height:17pt }
+      table.sheet0 tr.row390 { height:17pt }
+      table.sheet0 tr.row391 { height:17pt }
+      table.sheet0 tr.row392 { height:17pt }
+      table.sheet0 tr.row393 { height:17pt }
+      table.sheet0 tr.row394 { height:17pt }
+      table.sheet0 tr.row395 { height:17pt }
+      table.sheet0 tr.row396 { height:17pt }
+      table.sheet0 tr.row397 { height:17pt }
+      table.sheet0 tr.row398 { height:17pt }
+      table.sheet0 tr.row399 { height:17pt }
+      table.sheet0 tr.row400 { height:17pt }
+      table.sheet0 tr.row401 { height:17pt }
+      table.sheet0 tr.row402 { height:17pt }
+      table.sheet0 tr.row403 { height:17pt }
+      table.sheet0 tr.row404 { height:17pt }
+      table.sheet0 tr.row405 { height:17pt }
+      table.sheet0 tr.row406 { height:17pt }
+      table.sheet0 tr.row407 { height:17pt }
+      table.sheet0 tr.row408 { height:17pt }
+      table.sheet0 tr.row409 { height:17pt }
+      table.sheet0 tr.row410 { height:17pt }
+      table.sheet0 tr.row411 { height:17pt }
+      table.sheet0 tr.row412 { height:17pt }
+      table.sheet0 tr.row413 { height:17pt }
+      table.sheet0 tr.row414 { height:17pt }
+      table.sheet0 tr.row415 { height:17pt }
+      table.sheet0 tr.row416 { height:17pt }
+      table.sheet0 tr.row417 { height:17pt }
+      table.sheet0 tr.row418 { height:17pt }
+      table.sheet0 tr.row419 { height:17pt }
+      table.sheet0 tr.row420 { height:17pt }
+      table.sheet0 tr.row421 { height:17pt }
+      table.sheet0 tr.row422 { height:17pt }
+      table.sheet0 tr.row423 { height:17pt }
+      table.sheet0 tr.row424 { height:17pt }
+      table.sheet0 tr.row425 { height:17pt }
+      table.sheet0 tr.row426 { height:17pt }
+      table.sheet0 tr.row427 { height:17pt }
+      table.sheet0 tr.row428 { height:17pt }
+      table.sheet0 tr.row429 { height:17pt }
+      table.sheet0 tr.row430 { height:17pt }
+      table.sheet0 tr.row431 { height:17pt }
+      table.sheet0 tr.row432 { height:17pt }
+      table.sheet0 tr.row433 { height:17pt }
+      table.sheet0 tr.row434 { height:17pt }
+      table.sheet0 tr.row435 { height:17pt }
+      table.sheet0 tr.row436 { height:17pt }
+      table.sheet0 tr.row437 { height:17pt }
+      table.sheet0 tr.row438 { height:17pt }
+      table.sheet0 tr.row439 { height:17pt }
+      table.sheet0 tr.row440 { height:17pt }
+      table.sheet0 tr.row441 { height:17pt }
+      table.sheet0 tr.row442 { height:17pt }
+      table.sheet0 tr.row443 { height:17pt }
+      table.sheet0 tr.row444 { height:17pt }
+      table.sheet0 tr.row445 { height:17pt }
+      table.sheet0 tr.row446 { height:17pt }
+      table.sheet0 tr.row447 { height:17pt }
+      table.sheet0 tr.row448 { height:17pt }
+      table.sheet0 tr.row449 { height:17pt }
+      table.sheet0 tr.row450 { height:17pt }
+      table.sheet0 tr.row451 { height:17pt }
+      table.sheet0 tr.row452 { height:17pt }
+      table.sheet0 tr.row453 { height:17pt }
+      table.sheet0 tr.row454 { height:17pt }
+      table.sheet0 tr.row455 { height:17pt }
+      table.sheet0 tr.row456 { height:17pt }
+      table.sheet0 tr.row457 { height:17pt }
+      table.sheet0 tr.row458 { height:17pt }
+      table.sheet0 tr.row459 { height:17pt }
+      table.sheet0 tr.row460 { height:17pt }
+      table.sheet0 tr.row461 { height:17pt }
+      table.sheet0 tr.row462 { height:17pt }
+      table.sheet0 tr.row463 { height:17pt }
+      table.sheet0 tr.row464 { height:17pt }
+      table.sheet0 tr.row465 { height:17pt }
+      table.sheet0 tr.row466 { height:17pt }
+      table.sheet0 tr.row467 { height:17pt }
+      table.sheet0 tr.row468 { height:17pt }
+      table.sheet0 tr.row469 { height:17pt }
+      table.sheet0 tr.row470 { height:17pt }
+      table.sheet0 tr.row471 { height:17pt }
+      table.sheet0 tr.row472 { height:17pt }
+      table.sheet0 tr.row473 { height:17pt }
+      table.sheet0 tr.row474 { height:17pt }
+      table.sheet0 tr.row475 { height:17pt }
+      table.sheet0 tr.row476 { height:17pt }
+      table.sheet0 tr.row477 { height:17pt }
+      table.sheet0 tr.row478 { height:17pt }
+      table.sheet0 tr.row479 { height:17pt }
+      table.sheet0 tr.row480 { height:17pt }
+      table.sheet0 tr.row481 { height:17pt }
+      table.sheet0 tr.row482 { height:17pt }
+      table.sheet0 tr.row483 { height:17pt }
+      table.sheet0 tr.row484 { height:17pt }
+      table.sheet0 tr.row485 { height:17pt }
+      table.sheet0 tr.row486 { height:17pt }
+      table.sheet0 tr.row487 { height:17pt }
+      table.sheet0 tr.row488 { height:17pt }
+    </style>
+  </head>
+
+  <body>
+<style>
+@page { margin-left: 0.7in; margin-right: 0.7in; margin-top: 0.75in; margin-bottom: 0.75in; }
+body { margin-left: 0.7in; margin-right: 0.7in; margin-top: 0.75in; margin-bottom: 0.75in; }
+</style>
+    <table border="0" cellpadding="0" cellspacing="0" id="sheet0" class="sheet0 gridlines">
+        <col class="col0">
+        <col class="col1">
+        <col class="col2">
+        <col class="col3">
+        <col class="col4">
+        <tbody>
+          <tr class="row0">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style1 s">Green areas - Local areas</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row1">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style2 s">Measure: Land area</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row2">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style2 s">Territorial level: TL2</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row3">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style2 s">Time period: 2021</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row4">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style2 s">Combined unit of measure: Square kilometres</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row5">
+            <td class="column0">&nbsp;</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row6">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style3 s">Reference area</td>
+            <td class="column2 style4 s"></td>
+            <td class="column3 style4 s"></td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row7">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">Australia</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style7 s"></td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row8">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  New South Wales</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">681,425,575</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row9">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Victoria</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">165,533,844</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row10">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Queensland</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">1,593,592,200</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row11">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  South Australia</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">769,198,717</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row12">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Western Australia</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">2,261,581,250</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row13">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Tasmania</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">64,445,729</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row14">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Northern Territory</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">1,312,543,345</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row15">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Australian Capital Territory</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">2,199,503</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row16">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">Austria</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style7 s"></td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row17">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Burgenland</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">2,065,049</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row18">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Lower Austria</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">11,948,659</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row19">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Vienna</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">208,162</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row20">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Carinthia</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">8,234,367</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row21">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Styria</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">14,558,152</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row22">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Upper Austria</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">8,701,965</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row23">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Salzburg</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">6,154,863</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row24">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Tyrol</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">9,796,154</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row25">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Vorarlberg</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">2,290,482</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row26">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">Belgium</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style7 s"></td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row27">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Brussels-Capital Region</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">76,513</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row28">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Flemish Region</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">7,525,798</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row29">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Walloon Region</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">11,836,992</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row30">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">Canada</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style7 s"></td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row31">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Newfoundland and Labrador</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">309,281,774</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row32">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Prince Edward Island</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">3,978,405</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row33">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Nova Scotia</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">51,465,150</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row34">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  New Brunswick</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">68,901,107</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row35">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Quebec</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">1,100,430,994</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row36">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Ontario</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">777,819,548</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row37">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Manitoba</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">450,790,789</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row38">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Saskatchewan</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">403,802,170</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row39">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Alberta</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">522,555,079</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row40">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  British Columbia</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">753,384,712</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row41">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Yukon</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">383,974,912</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row42">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Northwest Territories</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">755,773,143</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row43">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Nunavut</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">320,058,334</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row44">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">Chile</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style7 s"></td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row45">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Tarapacá</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">4,897,330</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row46">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Antofagasta</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">2,620,942</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row47">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Atacama</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">7,065,116</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row48">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Coquimbo</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">21,899,554</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row49">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Valparaíso</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">11,644,599</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row50">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  O'Higgins</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">10,589,050</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row51">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Maule</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">20,848,252</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row52">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Biobío</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">19,693,726</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row53">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Araucanía</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">25,485,007</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row54">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Los Lagos</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">41,369,370</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row55">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Aysén</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">64,419,884</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row56">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Magallanes and Chilean Antarctica</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">81,440,385</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row57">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Santiago Metropolitan Region</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">8,686,309</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row58">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Los Ríos</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">14,664,617</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row59">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Arica y Parinacota</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">3,728,754</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row60">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Ñuble</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">10,250,959</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row61">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">Colombia</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style7 s"></td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row62">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Antioquia</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">60,877,162</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row63">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Atlántico</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">2,768,608</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row64">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Bogotá Capital District</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">1,275,494</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row65">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Bolívar</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">22,972,202</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row66">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Boyacá</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">22,169,742</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row67">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Caldas</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">7,277,672</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row68">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Caquetá</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">87,950,273</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row69">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Cauca</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">30,255,300</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row70">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Cesar</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">21,496,062</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row71">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Córdoba</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">23,642,059</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row72">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Cundinamarca</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">21,359,734</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row73">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Chocó</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">45,760,569</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row74">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Huila</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">17,549,878</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row75">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  La Guajira</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">18,101,434</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row76">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Magdalena</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">19,954,383</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row77">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Meta</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">81,195,055</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row78">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Nariño</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">29,014,570</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row79">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Norte de Santander</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">21,394,076</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row80">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Quindío</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">1,870,675</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row81">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Risaralda</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">3,452,311</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row82">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Santander</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">29,912,801</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row83">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Sucre</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">8,686,840</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row84">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Tolima</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">22,826,877</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row85">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Valle del Cauca</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">18,352,829</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row86">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Arauca</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">23,387,466</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row87">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Casanare</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">42,579,203</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row88">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Putumayo</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">25,507,306</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row89">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  San Andrés</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">39,861</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row90">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Amazonas</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">107,306,441</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row91">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Guainía</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">69,911,214</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row92">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Guaviare</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">55,121,310</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row93">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Vaupés</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">52,714,527</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row94">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Vichada</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">97,780,579</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row95">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">Costa Rica</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style7 s"></td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row96">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Central</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">8,096,038</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row97">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Chorotega</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">9,460,860</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row98">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Central Pacific</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">3,566,383</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row99">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Brunca</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">9,099,702</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row100">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Huetar Caribbean</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">9,000,914</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row101">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  North Huetar</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">9,499,720</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row102">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">Czechia</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style7 s"></td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row103">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Prague</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">240,839</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row104">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Central Bohemian Region</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">5,743,105</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row105">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Southwest</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">12,652,595</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row106">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Northwest</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">6,269,160</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row107">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Northeast</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">8,157,097</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row108">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Southeast</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">7,214,634</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row109">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Central Moravia</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">6,085,420</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row110">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Moravia-Silesia</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">3,837,871</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row111">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">Denmark</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style7 s"></td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row112">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Capital region</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">1,483,193</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row113">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Zealand</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">2,942,842</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row114">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Southern Denmark</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">5,767,022</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row115">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Central Denmark</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">6,568,092</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row116">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Northern Denmark</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">4,029,569</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row117">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">Estonia</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style7 s"></td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row118">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Estonia</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">34,429,534</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row119">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">Finland</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style7 s"></td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row120">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Western Finland</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">50,862,486</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row121">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Helsinki-Uusimaa</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">7,313,987</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row122">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Southern Finland</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">25,701,485</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row123">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Northern and Eastern Finland</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">187,994,550</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row124">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Åland</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">1,287,365</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row125">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">France</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style7 s"></td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row126">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Île-de-France</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">5,261,797</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row127">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Centre-Val de Loire</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">19,293,223</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row128">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Bourgogne-Franche-Comté</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">34,702,445</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row129">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Normandy</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">17,243,610</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row130">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Hauts-de-France</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">11,828,069</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row131">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Grand Est</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">33,405,989</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row132">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Pays de la Loire</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">17,951,404</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row133">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Brittany</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">16,602,197</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row134">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Nouvelle-Aquitaine</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">60,798,743</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row135">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Occitanie</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">55,987,395</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row136">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Auvergne-Rhône-Alpes</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">57,609,262</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row137">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Provence-Alpes-Côte d’Azur</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">25,971,806</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row138">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Corsica</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">8,389,268</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row139">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Guadeloupe</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">1,406,098</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row140">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Martinique</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">982,097</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row141">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  French Guiana</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">81,481,444</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row142">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  La Réunion</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">2,187,339</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row143">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Mayotte</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">343,252</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row144">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">Germany</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style7 s"></td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row145">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Baden-Württemberg</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">25,052,960</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row146">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Bavaria</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">46,694,829</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row147">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Berlin</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">562,046</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row148">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Brandenburg</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">19,012,318</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row149">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Bremen</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">253,467</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row150">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Hamburg</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">486,218</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row151">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Hesse</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">15,260,413</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row152">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Mecklenburg-Vorpommern</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">11,545,842</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row153">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Lower Saxony</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">27,867,931</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row154">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  North Rhine-Westphalia</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">20,775,664</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row155">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Rhineland-Palatinate</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">14,704,612</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row156">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Saarland</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">1,984,240</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row157">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Saxony</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">10,521,217</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row158">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Saxony-Anhalt</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">9,587,071</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row159">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Schleswig-Holstein</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">8,642,897</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row160">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Thuringia</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">9,490,581</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row161">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">Greece</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style7 s"></td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row162">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Attica</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">3,117,197</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row163">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  North Aegean</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">3,540,740</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row164">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  South Aegean</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">4,782,277</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row165">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Crete</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">7,738,913</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row166">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Eastern Macedonia, Thrace</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">10,471,079</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row167">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Central Macedonia</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">12,763,225</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row168">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Western Macedonia</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">7,320,534</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row169">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Epirus</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">8,564,318</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row170">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Thessaly</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">10,016,550</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row171">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Ionian Islands</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">2,149,034</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row172">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Western Greece</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">9,975,667</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row173">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Central Greece</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">13,490,503</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row174">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Peloponnese</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">14,782,957</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row175">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">Hungary</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style7 s"></td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row176">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Budapest</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">284,663</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row177">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Pest</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">3,622,145</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row178">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Central Transdanubia</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">5,484,404</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row179">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Western Transdanubia</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">5,885,905</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row180">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Southern Transdanubia</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">6,813,193</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row181">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Northern Hungary</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">8,380,413</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row182">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Northern Great Plain</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">7,021,473</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row183">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Southern Great Plain</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">7,148,159</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row184">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">Ireland</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style7 s"></td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row185">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Northern and Western</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">24,288,184</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row186">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Southern</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">27,162,974</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row187">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Eastern and Midland</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">12,285,652</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row188">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">Italy</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style7 s"></td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row189">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Piedmont</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">17,542,027</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row190">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Aosta Valley</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">2,167,590</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row191">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Liguria</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">5,129,260</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row192">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Lombardy</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">13,173,740</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row193">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Abruzzo</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">8,970,680</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row194">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Molise</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">3,050,026</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row195">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Campania</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">9,992,156</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row196">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Apulia</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">9,994,438</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row197">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Basilicata</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">7,083,894</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row198">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Calabria</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">13,457,644</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row199">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Sicily</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">17,947,404</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row200">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Sardinia</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">20,114,511</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row201">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Autonomous prov. Bolzano</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">6,035,429</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row202">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Autonomous prov. Trento</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">5,479,592</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row203">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Veneto</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">9,905,945</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row204">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Friuli-Venezia Giulia</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">5,496,398</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row205">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Emilia-Romagna</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">13,518,562</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row206">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Tuscany</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">18,653,442</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row207">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Umbria</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">6,533,110</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row208">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Marche</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">6,197,637</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row209">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Lazio</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">12,961,038</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row210">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">Japan</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style7 s"></td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row211">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Hokkaido</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">64,945,702</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row212">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Tohoku</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">55,636,060</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row213">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Northern-Kanto, Koshin</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">28,537,485</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row214">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Southern-Kanto</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">7,101,817</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row215">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Hokuriku</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">19,969,652</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row216">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Toukai</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">23,173,493</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row217">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Kansai region</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">21,301,271</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row218">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Chugoku</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">27,625,360</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row219">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Shikoku</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">16,553,623</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row220">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Kyushu, Okinawa</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">35,833,563</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row221">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">Korea</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style7 s"></td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row222">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Seoul Capital Area</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">7,562,962</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row223">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Gyeongnam Region</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">9,546,943</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row224">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Gyeongbuk Region</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">15,935,681</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row225">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Jeolla Region</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">13,830,645</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row226">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Chungcheong Region</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">11,374,200</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row227">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Gangwon Region</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">15,164,896</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row228">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Jeju</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">1,327,712</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row229">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">Latvia</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style7 s"></td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row230">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Latvia</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">49,302,616</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row231">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">Lithuania</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style7 s"></td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row232">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Capital Region</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">6,971,678</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row233">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Central and Western Lithuania Region</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">32,588,805</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row234">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">Luxembourg</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style7 s"></td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row235">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Luxembourg</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">1,964,458</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row236">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">Mexico</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style7 s"></td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row237">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Aguascalientes</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">4,021,589</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row238">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Baja California</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">47,512,299</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row239">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Baja California Sur</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">51,674,833</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row240">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Campeche</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">48,820,639</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row241">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Coahuila</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">129,177,921</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row242">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Colima</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">4,943,634</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row243">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Chiapas</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">68,491,220</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row244">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Chihuahua</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">203,682,982</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row245">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Mexico City</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">805,415</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row246">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Durango</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">110,614,237</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row247">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Guanajuato</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">20,213,671</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row248">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Guerrero</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">60,636,564</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row249">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Hidalgo</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">16,902,285</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row250">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Jalisco</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">65,096,886</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row251">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Mexico</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">15,350,623</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row252">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Michoacan</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">50,691,315</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row253">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Morelos</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">3,621,586</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row254">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Nayarit</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">23,781,249</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row255">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Nuevo Leon</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">59,480,606</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row256">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Oaxaca</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">87,533,716</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row257">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Puebla</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">27,806,152</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row258">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Queretaro</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">9,706,369</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row259">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Quintana Roo</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">38,640,835</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row260">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  San Luis Potosi</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">53,561,839</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row261">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Sinaloa</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">39,935,809</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row262">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Sonora</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">143,667,850</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row263">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Tabasco</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">17,996,909</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row264">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Tamaulipas</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">60,485,858</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row265">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Tlaxcala</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">1,935,840</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row266">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Veracruz</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">61,600,148</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row267">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Yucatan</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">36,972,180</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row268">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Zacatecas</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">60,624,418</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row269">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">Netherlands</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style7 s"></td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row270">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Groningen</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">1,165,264</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row271">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Friesland</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">2,614,015</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row272">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Drenthe</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">1,671,781</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row273">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Overijssel</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">2,538,437</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row274">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Gelderland</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">3,845,842</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row275">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Flevoland</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">508,042</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row276">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Utrecht (TL2021)</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">1,093,037</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row277">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  North Holland</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">1,611,400</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row278">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  South Holland (TL2021)</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">1,699,361</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row279">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Zeeland</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">642,257</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row280">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  North Brabant</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">2,938,245</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row281">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Limburg</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">1,220,888</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row282">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">New Zealand</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style7 s"></td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row283">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Northland</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">11,989,443</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row284">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Auckland</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">4,377,984</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row285">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Waikato</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">22,573,776</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row286">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Bay of Plenty</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">11,774,917</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row287">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Gisborne</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">8,162,325</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row288">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Hawke's Bay</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">13,578,628</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row289">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Taranaki</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">7,135,986</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row290">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Manawatu-Wanganui</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">21,624,760</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row291">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Wellington</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">7,716,463</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row292">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Tasman-Nelson-Marlborough</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">19,112,397</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row293">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  West Coast</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">21,215,047</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row294">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Canterbury</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">35,339,024</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row295">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Otago</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">28,969,782</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row296">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Southland</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">29,764,139</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row297">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">Norway</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style7 s"></td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row298">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Innlandet</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">39,241,486</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row299">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Trøndelag</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">33,520,624</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row300">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Northern Norway</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">67,596,490</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row301">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Oslo and Viken</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">19,559,651</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row302">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Agder and Sør-Østlandet</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">27,778,332</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row303">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Western Norway</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">38,728,045</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row304">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">Poland</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style7 s"></td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row305">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Lesser Poland</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">10,654,497</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row306">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Silesia</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">8,444,650</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row307">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Greater Poland</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">14,264,086</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row308">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  West Pomerania</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">14,402,399</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row309">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Lubusz</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">10,421,904</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row310">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Lower Silesia</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">11,171,528</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row311">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Opole region</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">4,090,212</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row312">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Kuyavian-Pomerania</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">7,834,312</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row313">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Warmian-Masuria</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">15,766,534</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row314">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Pomerania</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">11,160,965</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row315">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Lodzkie</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">9,742,215</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row316">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Swietokrzyskie</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">7,729,782</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row317">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Lublin Province</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">12,813,927</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row318">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Podkarpacia</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">13,047,623</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row319">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Podlaskie</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">13,436,666</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row320">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Warsaw</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">4,503,489</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row321">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Mazowiecki region</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">17,803,491</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row322">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">Portugal</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style7 s"></td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row323">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  North</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">18,730,100</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row324">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Algarve</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">4,474,974</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row325">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Centro</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">25,617,183</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row326">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Metropolitan area of Lisbon</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">1,952,639</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row327">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Alentejo</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">26,901,377</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row328">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Autonomous Region of the Azores</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">2,112,953</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row329">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Autonomous Region of Madeira</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">725,062</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row330">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">Slovak Republic</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style7 s"></td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row331">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Bratislava Region</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">1,229,303</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row332">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  West Slovakia</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">6,910,652</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row333">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Central Slovakia</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">13,490,533</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row334">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  East Slovakia</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">11,675,913</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row335">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">Slovenia</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style7 s"></td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row336">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Eastern Slovenia</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">10,736,083</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row337">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Western Slovenia</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">7,276,807</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row338">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">Spain</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style7 s"></td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row339">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Galicia</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">27,490,384</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row340">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Asturias</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">10,276,319</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row341">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Cantabria</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">5,035,587</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row342">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Basque Country</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">6,231,804</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row343">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Navarra</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">6,943,036</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row344">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  La Rioja</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">3,702,048</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row345">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Aragon</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">31,626,289</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row346">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Madrid</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">5,429,624</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row347">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Castile and León</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">57,411,241</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row348">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Castile-La Mancha</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">46,614,470</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row349">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Extremadura</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">33,444,556</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row350">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Catalonia</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">24,913,928</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row351">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Valencian Community</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">19,664,446</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row352">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Balearic Islands</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">3,717,961</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row353">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Andalusia</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">67,280,540</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row354">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Murcia</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">7,531,621</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row355">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Ceuta</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">12,869</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row356">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Melilla</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">5,116</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row357">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Canary Islands</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">4,501,380</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row358">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">Sweden</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style7 s"></td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row359">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Stockholm</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">5,549,767</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row360">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  East Middle Sweden</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">33,042,627</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row361">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Småland with Islands</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">31,391,623</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row362">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  South Sweden</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">9,976,906</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row363">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  West Sweden</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">25,173,529</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row364">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  North Middle Sweden</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">61,303,466</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row365">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Central Norrland</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">68,407,016</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row366">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Upper Norrland</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">135,383,204</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row367">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">Switzerland</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style7 s"></td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row368">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Lake Geneva Region</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">5,210,425</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row369">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Espace Mittelland</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">7,791,274</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row370">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Northwestern Switzerland</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">1,396,671</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row371">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Zurich</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">1,144,510</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row372">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Eastern Switzerland</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">8,666,799</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row373">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Central Switzerland</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">3,504,399</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row374">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Ticino</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">2,383,458</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row375">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">Türkiye</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style7 s"></td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row376">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Istanbul</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">3,590,285</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row377">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Thrace</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">7,264,921</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row378">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Southern Marmara - West</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">18,651,750</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row379">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Izmir</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">9,281,680</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row380">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Southern Aegean</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">26,003,396</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row381">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Northern Aegean</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">30,165,649</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row382">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Eastern Marmara - South</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">18,799,708</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row383">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Eastern Marmara - North</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">16,844,796</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row384">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Ankara</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">12,769,037</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row385">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Central Anatolia - West and South</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">23,558,015</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row386">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Mediterranean region - West</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">28,718,671</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row387">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Mediterranean region - Middle</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">22,187,185</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row388">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Mediterranean region - East</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">16,491,378</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row389">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Central Anatolia - Middle</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">13,492,996</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row390">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Central Anatolia - East</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">33,645,509</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row391">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Western Black Sea - West</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">9,446,129</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row392">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Western Black Sea - Middle and East</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">22,768,817</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row393">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Middle Black Sea</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">26,209,945</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row394">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Eastern Black Sea</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">33,673,307</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row395">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Northeastern Anatolia - West</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">33,160,923</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row396">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Northeastern Anatolia - East</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">21,712,960</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row397">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Eastern Anatolia - West</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">29,089,201</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row398">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Eastern Anatolia - East</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">30,626,575</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row399">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Southeastern Anatolia - West</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">8,197,496</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row400">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Southeastern Anatolia - Middle</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">13,260,356</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row401">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Southeastern Anatolia - East</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">18,189,337</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row402">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">United Kingdom</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style7 s"></td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row403">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  North East England</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">6,546,392</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row404">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  North West England</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">11,642,488</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row405">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Yorkshire and The Humber</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">9,093,955</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row406">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  East Midlands</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">7,164,175</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row407">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  West Midlands</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">8,438,236</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row408">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  East of England</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">7,801,163</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row409">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Greater London</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">828,616</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row410">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  South East England</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">12,903,610</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row411">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  South West England</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">18,222,988</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row412">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Wales</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">19,286,728</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row413">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Scotland</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">70,022,743</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row414">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Northern Ireland</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">12,657,656</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row415">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">United States</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style7 s"></td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row416">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Alabama</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">123,543,084</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row417">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Alaska</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">1,088,968,834</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row418">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Arizona</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">213,303,911</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row419">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Arkansas</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">107,932,790</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row420">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  California</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">281,559,806</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row421">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Colorado</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">221,961,448</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row422">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Connecticut</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">11,606,317</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row423">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Delaware</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">2,962,119</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row424">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  District of Columbia</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">80,648</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row425">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Florida</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">111,155,369</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row426">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Georgia</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">132,669,059</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row427">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Hawaii</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">13,319,452</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row428">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Idaho</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">183,470,551</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row429">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Illinois</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">47,464,013</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row430">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Indiana</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">41,833,595</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row431">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Iowa</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">40,636,349</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row432">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Kansas</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">111,445,236</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row433">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Kentucky</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">86,115,579</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row434">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Louisiana</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">83,309,028</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row435">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Maine</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">77,923,060</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row436">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Maryland</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">18,988,879</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row437">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Massachusetts</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">18,392,414</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row438">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Michigan</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">115,486,545</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row439">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Minnesota</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">118,595,949</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row440">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Mississippi</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">104,658,924</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row441">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Missouri</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">129,874,122</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row442">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Montana</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">313,203,995</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row443">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Nebraska</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">118,612,010</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row444">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Nevada</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">203,619,359</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row445">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  New Hampshire</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">22,527,826</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row446">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  New Jersey</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">15,150,981</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row447">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  New Mexico</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">274,529,777</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row448">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  New York</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">107,304,172</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row449">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  North Carolina</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">107,215,582</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row450">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  North Dakota</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">80,356,296</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row451">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Ohio</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">64,163,902</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row452">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Oklahoma</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">143,216,226</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row453">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Oregon</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">231,794,463</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row454">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Pennsylvania</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">102,342,765</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row455">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Rhode Island</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">2,390,468</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row456">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  South Carolina</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">69,380,006</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row457">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  South Dakota</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">126,804,554</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row458">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Tennessee</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">93,435,440</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row459">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Texas</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">555,353,549</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row460">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Utah</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">146,388,287</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row461">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Vermont</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">22,490,599</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row462">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Virginia</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">93,963,494</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row463">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Washington</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">142,009,577</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row464">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  West Virginia</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">61,202,453</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row465">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Wisconsin</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">101,169,074</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row466">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Wyoming</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">220,207,371</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row467">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">Non-OECD economies</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style7 s"></td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row468">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Bulgaria</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style7 s"></td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row469">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  ·  North West</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">10,060,683</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row470">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  ·  North Central</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">7,523,647</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row471">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  ·  North East</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">6,547,133</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row472">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  ·  South East</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">12,003,039</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row473">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  ·  South West</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">17,634,636</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row474">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  ·  South Central</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">17,015,836</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row475">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Croatia</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style7 s"></td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row476">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  ·  Pannonian Croatia</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">15,673,210</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row477">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  ·  Adriatic Croatia</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">23,167,062</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row478">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  ·  City of Zagreb</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">466,952</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row479">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  ·  Northern Croatia</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">5,749,501</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row480">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  Romania</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style7 s"></td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row481">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  ·  North West</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">26,515,682</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row482">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  ·  Center</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">27,436,116</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row483">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  ·  North East</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">23,292,342</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row484">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  ·  South East</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">12,486,032</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row485">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  ·  South - Muntenia</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">14,166,341</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row486">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  ·  Bucharest - Ilfov</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">649,477</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row487">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  ·  South West Oltenia</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">17,291,625</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row488">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">·  ·  West</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 n">22,301,686</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row489">
+            <td class="column0">&nbsp;</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row490">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s"><a href="https://www.oecd.org/en/about/terms-conditions.html" title="">© Terms &amp; conditions </a></td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4 style10 s"><a href="https://data-explorer.oecd.org/vis?lc=en&amp;df[ds]=dsDisseminateFinalDMZ&amp;df[id]=DSD_LA_ENV_GREEN_AREA_DDOWN%40DF_GREEN_AREA_DDOWN&amp;df[ag]=OECD.CFE.EDS&amp;dq=......_T&amp;pd=2021%2C&amp;to[TIME_PERIOD]=false&amp;ly[rw]=REF_AREA&amp;vw=tb" title="">Green areas - Local areas</a></td>
+          </tr>
+        </tbody>
+    </table>
+  </body>
+</html>

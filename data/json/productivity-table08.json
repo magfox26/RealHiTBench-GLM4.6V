@@ -1,0 +1,128 @@
+[
+  {
+    "Probability of Failure": "Criticality",
+    "Unnamed: 1": "Weightage\nFactor",
+    "Unnamed: 2": "Criticality Rating (CR)",
+    "Unnamed: 3": null,
+    "Unnamed: 4": null,
+    "Unnamed: 5": null,
+    "Unnamed: 6": null
+  },
+  {
+    "Probability of Failure": null,
+    "Unnamed: 1": null,
+    "Unnamed: 2": "Severe",
+    "Unnamed: 3": "High",
+    "Unnamed: 4": "Moderate",
+    "Unnamed: 5": "Low",
+    "Unnamed: 6": "Negligible"
+  },
+  {
+    "Probability of Failure": "Fatigue\nLoading",
+    "Unnamed: 1": "0.20",
+    "Unnamed: 2": "10",
+    "Unnamed: 3": "7",
+    "Unnamed: 4": "5",
+    "Unnamed: 5": "3",
+    "Unnamed: 6": "1"
+  },
+  {
+    "Probability of Failure": null,
+    "Unnamed: 1": null,
+    "Unnamed: 2": "PoF ≥10-2",
+    "Unnamed: 3": "10-2>PoF>\n10-3",
+    "Unnamed: 4": "10-3>PoF>\n10-4",
+    "Unnamed: 5": "10-4>PoF≥\n10-5",
+    "Unnamed: 6": "PoF ≥10-5"
+  },
+  {
+    "Probability of Failure": "Corrosion",
+    "Unnamed: 1": "0.20",
+    "Unnamed: 2": "10",
+    "Unnamed: 3": "7",
+    "Unnamed: 4": "5",
+    "Unnamed: 5": "3",
+    "Unnamed: 6": "1"
+  },
+  {
+    "Probability of Failure": null,
+    "Unnamed: 1": null,
+    "Unnamed: 2": "CorrLife < 5yrs",
+    "Unnamed: 3": "10yrs>\nCorrLife > 5yrs",
+    "Unnamed: 4": "20yrs>\nCorrLife>",
+    "Unnamed: 5": "30yrs>\nCorrLife>",
+    "Unnamed: 6": "CorrLife>\n30yrs"
+  },
+  {
+    "Probability of Failure": "Coating\nDefect",
+    "Unnamed: 1": "0.15",
+    "Unnamed: 2": "10",
+    "Unnamed: 3": "7",
+    "Unnamed: 4": "5",
+    "Unnamed: 5": "3",
+    "Unnamed: 6": "1"
+  },
+  {
+    "Probability of Failure": null,
+    "Unnamed: 1": null,
+    "Unnamed: 2": "Breakdown of\ncoating>30%",
+    "Unnamed: 3": "Breakdown of\ncoating>20%",
+    "Unnamed: 4": "Breakdown of\ncoating>10%",
+    "Unnamed: 5": "Breakdown of\ncoating >5%",
+    "Unnamed: 6": "No breakdown"
+  },
+  {
+    "Probability of Failure": "In-Service\nDefect",
+    "Unnamed: 1": "0.25",
+    "Unnamed: 2": "10",
+    "Unnamed: 3": "7",
+    "Unnamed: 4": "5",
+    "Unnamed: 5": "3",
+    "Unnamed: 6": "1"
+  },
+  {
+    "Probability of Failure": null,
+    "Unnamed: 1": null,
+    "Unnamed: 2": "Accidental\ndamage",
+    "Unnamed: 3": "Structural\nvariations",
+    "Unnamed: 4": "Poor coating\ndamage",
+    "Unnamed: 5": "Minor coating\ndamage",
+    "Unnamed: 6": "No defect"
+  },
+  {
+    "Probability of Failure": "In-Service\nLoading",
+    "Unnamed: 1": "0.10",
+    "Unnamed: 2": "10",
+    "Unnamed: 3": "7",
+    "Unnamed: 4": "5",
+    "Unnamed: 5": "3",
+    "Unnamed: 6": "1"
+  },
+  {
+    "Probability of Failure": null,
+    "Unnamed: 1": null,
+    "Unnamed: 2": "L.S.U.R>1.0",
+    "Unnamed: 3": "1.0>L.S.U.R>\n0.9",
+    "Unnamed: 4": "0.9>L.S.U.R>\n0.8",
+    "Unnamed: 5": "0.8>L.S.U.R>\n0.6",
+    "Unnamed: 6": "L.S.U.R<0.6"
+  },
+  {
+    "Probability of Failure": "Last\nInspection",
+    "Unnamed: 1": "0.10",
+    "Unnamed: 2": "10",
+    "Unnamed: 3": "7",
+    "Unnamed: 4": "5",
+    "Unnamed: 5": "3",
+    "Unnamed: 6": "1"
+  },
+  {
+    "Probability of Failure": null,
+    "Unnamed: 1": null,
+    "Unnamed: 2": "Never\nInspected",
+    "Unnamed: 3": "Inspected\nwithin 5 years",
+    "Unnamed: 4": "Inspected\nwithin last year",
+    "Unnamed: 5": "Detail\ninspection\nwithin 5 years",
+    "Unnamed: 6": "Detail\ninspection\nwithin last year"
+  }
+]

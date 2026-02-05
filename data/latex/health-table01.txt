@@ -1,0 +1,49 @@
+% Please add the following required packages to your document preamble:
+% \usepackage[table,xcdraw]{xcolor}
+% Beamer presentation requires \usepackage{colortbl} instead of \usepackage[table,xcdraw]{xcolor}
+\begin{table}[]
+\begin{tabular}{llll}
+\rowcolor[HTML]{FFC000} 
+\multicolumn{4}{c}{\cellcolor[HTML]{FFC000}\textbf{Total Cases}}                      \\
+\textbf{Highest}  & \textbf{}             & \textbf{Least}    &                       \\
+\rowcolor[HTML]{DDEBF7} 
+\textbf{States}   & \textbf{Cases}        & \textbf{States}   & \textbf{Cases}        \\
+Maharashtra       & 6,623,344             & Andaman Nicobar   & 7670                  \\
+Kerala            & 5,055,224             & Lakshadweep       & 10365                 \\
+Karnataka         & 2,991,614             & Daman and Diu     & 10682                 \\
+Tamil Nadu        & 2,714,025             & Ladakh            & 21148                 \\
+Andhra Pradesh    & 2,069,770             & Nagaland          & 31978                 \\
+                  &                       &                   &                       \\
+\rowcolor[HTML]{A9D08E} 
+\multicolumn{4}{c}{\cellcolor[HTML]{A9D08E}\textbf{Recovered}}                        \\
+\textbf{Highest}  & \textbf{}             & \textbf{Least}    &                       \\
+\rowcolor[HTML]{DDEBF7} 
+\textbf{States}   & \textbf{Recovered \%} & \textbf{States}   & \textbf{Recovered \%} \\
+Daman and Diu     & 99.96                 & Mizoram           & 95.25                 \\
+Lakshadweep       & 99.51                 & Punjab            & 97.2                  \\
+Arunachal Pradesh & 99.42                 & Nagaland          & 97.33                 \\
+Andhra Pradesh    & 99.15                 & Maharashtra       & 97.64                 \\
+Rajasthan         & 99.05                 & Manipur           & 97.79                 \\
+\rowcolor[HTML]{FF0000} 
+\multicolumn{4}{c}{\cellcolor[HTML]{FF0000}\textbf{Death}}                            \\
+\textbf{Highest}  & \textbf{}             & \textbf{Least}    &                       \\
+\rowcolor[HTML]{DDEBF7} 
+\textbf{States}   & \textbf{Death \%}     & \textbf{States}   & \textbf{Death \%}     \\
+Punjab            & 2.75                  & Daman and Diu     & 0.04                  \\
+Nagaland          & 2.16                  & Mizoram           & 0.36                  \\
+Uttarakhand       & 2.15                  & Lakshadweep       & 0.49                  \\
+Maharashtra       & 2.12                  & Arunachal Pradesh & 0.51                  \\
+Goa               & 1.89                  & Telengana         & 0.59                  \\
+                  &                       &                   &                       \\
+\rowcolor[HTML]{00B0F0} 
+\multicolumn{4}{c}{\cellcolor[HTML]{00B0F0}\textbf{Active}}                           \\
+\textbf{Highest}  & \textbf{}             & \textbf{Least}    &                       \\
+\rowcolor[HTML]{DDEBF7} 
+\textbf{States}   & \textbf{Active \%}    & \textbf{States}   & \textbf{Active \%}    \\
+Mizoram           & 4.39                  & Lakshadweep       & 0                     \\
+Kerala            & 1.37                  & Daman and Diu     & 0                     \\
+Ladakh            & 0.73                  & Bihar             & 0                     \\
+Manipur           & 0.64                  & MP                & 0.01                  \\
+Telengana         & 0.56                  & Rajasthan         & 0.01                 
+\end{tabular}
+\end{table}

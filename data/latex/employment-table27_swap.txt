@@ -1,0 +1,51 @@
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+% \usepackage{multirow}
+\begin{table}[]
+\begin{tabular}{@{}lllllllll@{}}
+\multirow{3}{*}{Occupation} & \multicolumn{6}{l}{Unemployment rates} & \multicolumn{2}{l}{Total unemployed} \\
+ & \multicolumn{2}{l}{Total} & \multicolumn{2}{l}{Men} & \multicolumn{2}{l}{Women} & \multirow{2}{*}{2022} & \multirow{2}{*}{2023} \\
+ & 2022 & 2023 & 2022 & 2023 & 2022 & 2023 &  &  \\
+ &  &  &  &  &  &  &  &  \\
+Total, 16 years and over(1) & 3.6 & 3.6 & 3.7 & 3.8 & 3.6 & 3.5 & 5996 & 6080 \\
+ &  &  &  &  &  &  &  &  \\
+Management, professional, and related occupations & 2 & 2 & 1.8 & 2 & 2.1 & 2 & 1355 & 1432 \\
+Management, business, and financial operations occupations & 1.8 & 1.9 & 1.6 & 1.9 & 2 & 2 & 530 & 604 \\
+Management occupations & 1.6 & 1.7 & 1.5 & 1.7 & 1.7 & 1.7 & 330 & 361 \\
+Business and financial operations occupations & 2.1 & 2.5 & 1.9 & 2.5 & 2.4 & 2.4 & 200 & 243 \\
+Professional and related occupations & 2.1 & 2 & 2 & 2.1 & 2.2 & 2 & 825 & 828 \\
+Computer and mathematical occupations & 1.9 & 2.1 & 1.8 & 2 & 2 & 2.1 & 118 & 138 \\
+Architecture and engineering occupations & 1.5 & 1.8 & 1.4 & 1.5 & 2.2 & 3.1 & 52 & 64 \\
+Life, physical, and social science occupations & 1.4 & 1.7 & 1.7 & 1.8 & 1 & 1.5 & 26 & 32 \\
+Community and social service occupations & 1.8 & 2.3 & 1.9 & 2.7 & 1.8 & 2.1 & 54 & 66 \\
+Legal occupations & 1.4 & 1 & 0.9 & 0.5 & 1.8 & 1.4 & 26 & 19 \\
+Education, training, and library occupations & 2.7 & 2.5 & 2.8 & 3 & 2.6 & 2.3 & 254 & 243 \\
+Arts, design, entertainment, sports, and media occupations & 4 & 3.6 & 4 & 3.6 & 4 & 3.6 & 144 & 130 \\
+Healthcare practitioners and technical occupations & 1.5 & 1.3 & 1.1 & 1.2 & 1.6 & 1.4 & 152 & 137 \\
+ &  &  &  &  &  &  &  &  \\
+Service occupations & 4.8 & 4.5 & 4.8 & 4.7 & 4.8 & 4.4 & 1281 & 1240 \\
+Healthcare support occupations & 3.9 & 3.5 & 3.3 & 3.4 & 4.1 & 3.5 & 203 & 187 \\
+Protective service occupations & 3.4 & 2.9 & 3 & 2.6 & 4.6 & 4 & 108 & 93 \\
+Food preparation and serving related occupations & 5.7 & 5.7 & 5.6 & 5.8 & 5.8 & 5.6 & 480 & 493 \\
+Building and grounds cleaning and maintenance occupations & 5.4 & 5.2 & 5 & 5.4 & 5.9 & 5.1 & 319 & 306 \\
+Personal care and service occupations & 4.1 & 3.7 & 5.6 & 3.9 & 3.7 & 3.6 & 170 & 161 \\
+ &  &  &  &  &  &  &  &  \\
+Sales and office occupations & 3.7 & 3.6 & 3.6 & 3.7 & 3.8 & 3.6 & 1176 & 1146 \\
+Sales and related occupations & 3.9 & 3.9 & 3.2 & 3.4 & 4.5 & 4.4 & 579 & 581 \\
+Office and administrative support occupations & 3.6 & 3.4 & 4.2 & 4.3 & 3.3 & 3.1 & 598 & 565 \\
+ &  &  &  &  &  &  &  &  \\
+Natural resources, construction, and maintenance occupations & 4.4 & 4.4 & 4.3 & 4.3 & 6 & 6.1 & 658 & 659 \\
+Farming, fishing, and forestry occupations & 6.8 & 7 & 6.3 & 6.8 & 7.9 & 7.4 & 71 & 74 \\
+Construction and extraction occupations & 5.4 & 5.4 & 5.4 & 5.3 & 5.5 & 7.1 & 477 & 480 \\
+Installation, maintenance, and repair occupations & 2.2 & 2.1 & 2.1 & 2.1 & 4.5 & 2.5 & 110 & 105 \\
+ &  &  &  &  &  &  &  &  \\
+Production, transportation, and material moving occupations & 4.9 & 4.9 & 4.7 & 4.7 & 5.4 & 5.4 & 1027 & 1030 \\
+Production occupations & 3.9 & 3.8 & 3.6 & 3.5 & 4.6 & 4.6 & 332 & 328 \\
+Transportation and material moving occupations & 5.5 & 5.7 & 5.4 & 5.5 & 6.1 & 6.2 & 695 & 702 \\
+ &  &  &  &  &  &  &  &  \\
+No previous work experience & – & – & – & – & – & – & 482 & 556 \\
+16 to 19 years & – & – & – & – & – & – & 265 & 294 \\
+20 to 24 years & – & – & – & – & – & – & 127 & 150 \\
+25 years and over & – & – & – & – & – & – & 90 & 111
+\end{tabular}
+\end{table}

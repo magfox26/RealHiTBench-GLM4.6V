@@ -1,0 +1,101 @@
+% Please add the following required packages to your document preamble:
+% \usepackage{multirow}
+\begin{table}[]
+\begin{tabular}{llllllll}
+LiST Input Data - MNH Coverage Data WITH Mitigation Measures &  &                                                                      &                &                 &                      &  &  \\
+                                                             &  &                                                                      &                &                 &                      &  &  \\
+2. Data to be Entered into LiST Module                       &  &                                                                      &                &                 &                      &  &  \\
+                                                             &  &                                                                      & 2019 Pre-COVID & 2020 With COVID & 2021 WITH Mitigation &  &  \\
+\multicolumn{2}{l}{\multirow{5}{*}{Periconceptual}}             & Folic acid supplementation/fortification                             &                &                 &                      &  &  \\
+\multicolumn{2}{l}{}                                            & Safe abortion services                                               & 2.2            & 1.9             & 2.2                  &  &  \\
+\multicolumn{2}{l}{}                                            & Post abortion case management                                        &                &                 &                      &  &  \\
+\multicolumn{2}{l}{}                                            & Ectopic pregnancy case management                                    &                &                 &                      &  &  \\
+\multicolumn{2}{l}{}                                            & Blanket iron supplementation/fortification                           &                &                 &                      &  &  \\
+\multicolumn{2}{l}{\multirow{17}{*}{Pregnancy/ Antenatal Care}} & Antenatal care (at least 1 visit)                                    & 67.5           & 53.3            & 61.9                 &  &  \\
+\multicolumn{2}{l}{}                                            & Antenatal care (at least 4 visits)                                   & 30.1           & 23.8            & 27.6                 &  &  \\
+\multicolumn{2}{l}{}                                            & Routine                                                              &                &                 &                      &  &  \\
+\multicolumn{2}{l}{}                                            & TT - Tetanus toxoid vaccination                                      & 88.0           & 69.5            & 80.6                 &  &  \\
+\multicolumn{2}{l}{}                                            & IPTp - Intermittent preventive treatment of malaria during pregnancy &                &                 &                      &  &  \\
+\multicolumn{2}{l}{}                                            & Syphilis detection and treatment                                     & 16.7           & 13.2            & 15.3                 &  &  \\
+\multicolumn{2}{l}{}                                            & Nutritional                                                          &                &                 &                      &  &  \\
+\multicolumn{2}{l}{}                                            & Calcium supplementation                                              &                &                 &                      &  &  \\
+\multicolumn{2}{l}{}                                            & Micronutrient supplementation (iron and multiple m.)                 &                &                 &                      &  &  \\
+\multicolumn{2}{l}{}                                            & Iron supplementation in pregnancy                                    & 5.2            & 4.1             & 4.8                  &  &  \\
+\multicolumn{2}{l}{}                                            & Multiple micronutrient supplementation in pregnancy                  &                &                 &                      &  &  \\
+\multicolumn{2}{l}{}                                            & Balanced energy supplementation                                      &                &                 &                      &  &  \\
+\multicolumn{2}{l}{}                                            & Case Management                                                      &                &                 &                      &  &  \\
+\multicolumn{2}{l}{}                                            & Hypertensive disorder case management                                & 7.2            & 5.7             & 6.6                  &  &  \\
+\multicolumn{2}{l}{}                                            & Diabetes case management                                             & 5.6            & 4.4             & 5.1                  &  &  \\
+\multicolumn{2}{l}{}                                            & Malaria case management                                              & 0.0            & 0.0             & 0.0                  &  &  \\
+\multicolumn{2}{l}{}                                            & MgSO4 management of pre-eclampsia                                    & 14.3           & 11.3            & 13.1                 &  &  \\
+\multicolumn{2}{l}{\multirow{20}{*}{Childbirth/ Delivery Care}} & Health Facility Delivery                                             & 72.7           & 62.5            & 72.5                 &  &  \\
+\multicolumn{2}{l}{}                                            & Routine                                                              &                &                 &                      &  &  \\
+\multicolumn{2}{l}{}                                            & Clean birth environment                                              & 59.6           & 51.3            & 59.5                 &  &  \\
+\multicolumn{2}{l}{}                                            & Immediate drying and additional stimulation                          & 66.6           & 55.9            & 64.9                 &  &  \\
+\multicolumn{2}{l}{}                                            & Thermal protection                                                   & 71.9           & 60.4            & 70.1                 &  &  \\
+\multicolumn{2}{l}{}                                            & Clean cord care                                                      & 69.4           & 58.3            & 67.6                 &  &  \\
+\multicolumn{2}{l}{}                                            & Manual removal of placenta                                           & 27.2           & 23.4            & 27.1                 &  &  \\
+\multicolumn{2}{l}{}                                            & Basic emergency care                                                 &                &                 &                      &  &  \\
+\multicolumn{2}{l}{}                                            & Parenteral administration of anti-convulsants                        & 52.0           & 44.7            & 51.9                 &  &  \\
+\multicolumn{2}{l}{}                                            & Antibiotics for preterm or prolonged PROM                            & 54.4           & 46.8            & 54.3                 &  &  \\
+\multicolumn{2}{l}{}                                            & Parenteral administration of antibiotics                             & 54.4           & 46.8            & 54.3                 &  &  \\
+\multicolumn{2}{l}{}                                            & Assisted vaginal delivery                                            & 18.4           & 15.8            & 18.4                 &  &  \\
+\multicolumn{2}{l}{}                                            & Neonatal resuscitation                                               & 40.0           & 33.6            & 39.0                 &  &  \\
+\multicolumn{2}{l}{}                                            & Parenteral administration of uterotonics                             & 65.0           & 55.9            & 64.8                 &  &  \\
+\multicolumn{2}{l}{}                                            & Removal of retained products of conception                           & 24.1           & 20.7            & 24.0                 &  &  \\
+\multicolumn{2}{l}{}                                            & Induction of labor for pregnancies lasting 41+ weeks                 & 1.3            & 1.1             & 1.3                  &  &  \\
+\multicolumn{2}{l}{}                                            & Antenatal corticosteroids for preterm labor                          &                &                 &                      &  &  \\
+\multicolumn{2}{l}{}                                            & Comprehensive emergency care                                         &                &                 &                      &  &  \\
+\multicolumn{2}{l}{}                                            & Cesarean delivery                                                    & 6.3            & 5.4             & 6.3                  &  &  \\
+\multicolumn{2}{l}{}                                            & Blood transfusion                                                    &                &                 &                      &  &  \\
+Breastfeeding see below                                      &  &                                                                      &                &                 &                      &  &  \\
+\multicolumn{2}{l}{\multirow{13}{*}{Preventive Interventions}}  & Feeding and Supplements                                              &                &                 &                      &  &  \\
+\multicolumn{2}{l}{}                                            & Complementary feeding - Education only                               &                &                 &                      &  &  \\
+\multicolumn{2}{l}{}                                            & Complementary feeding - Supplementary feeding + Education            &                &                 &                      &  &  \\
+\multicolumn{2}{l}{}                                            & Vitamin A supplementation                                            & 99.0           & 82.2            & 95.3                 &  &  \\
+\multicolumn{2}{l}{}                                            & Zinc supplementation                                                 &                &                 &                      &  &  \\
+\multicolumn{2}{l}{}                                            & WASH                                                                 &                &                 &                      &  &  \\
+\multicolumn{2}{l}{}                                            & Basis sanitation                                                     &                &                 &                      &  &  \\
+\multicolumn{2}{l}{}                                            & Point-of-use filtered water                                          &                &                 &                      &  &  \\
+\multicolumn{2}{l}{}                                            & Piped water                                                          &                &                 &                      &  &  \\
+\multicolumn{2}{l}{}                                            & Hand washing with soap                                               &                &                 &                      &  &  \\
+\multicolumn{2}{l}{}                                            & Hygienic disposal of children's stool                                &                &                 &                      &  &  \\
+\multicolumn{2}{l}{}                                            & Other                                                                &                &                 &                      &  &  \\
+\multicolumn{2}{l}{}                                            & ITN                                                                  &                &                 &                      &  &  \\
+\multicolumn{2}{l}{\multirow{11}{*}{Vaccines}}                  & BCG - Single dose                                                    & 99.0           & 82.2            & 95.3                 &  &  \\
+\multicolumn{2}{l}{}                                            & Polio - Three doses                                                  & 99.0           & 82.2            & 95.3                 &  &  \\
+\multicolumn{2}{l}{}                                            & Pentavalent                                                          &                &                 &                      &  &  \\
+\multicolumn{2}{l}{}                                            & DPT - Three doses                                                    & 99.0           & 82.2            & 95.3                 &  &  \\
+\multicolumn{2}{l}{}                                            & Hib - Three doses                                                    & 99.0           & 82.2            & 95.3                 &  &  \\
+\multicolumn{2}{l}{}                                            & HepB - Three doses                                                   & 99.0           & 82.2            & 95.3                 &  &  \\
+\multicolumn{2}{l}{}                                            & Pneumococcal - Three doses                                           & 99.0           & 82.2            & 95.3                 &  &  \\
+\multicolumn{2}{l}{}                                            & Rotavirus - Two doses                                                & 99.0           & 82.2            & 95.3                 &  &  \\
+\multicolumn{2}{l}{}                                            & Meningococcal A - Single dose                                        &                &                 &                      &  &  \\
+\multicolumn{2}{l}{}                                            & Malaria vaccine - Three doses                                        &                &                 &                      &  &  \\
+\multicolumn{2}{l}{}                                            & Measles - Single dose                                                & 99.0           & 82.2            & 95.3                 &  &  \\
+\multicolumn{2}{l}{\multirow{21}{*}{Curative Interventions}}    & Maternal                                                             &                &                 &                      &  &  \\
+\multicolumn{2}{l}{}                                            & Maternal sepsis case management                                      &                &                 &                      &  &  \\
+\multicolumn{2}{l}{}                                            & Neonatal                                                             &                &                 &                      &  &  \\
+\multicolumn{2}{l}{}                                            & Case management of premature babies                                  &                &                 &                      &  &  \\
+\multicolumn{2}{l}{}                                            & Kangaroo-Mother Care (KMC)                                           &                &                 &                      &  &  \\
+\multicolumn{2}{l}{}                                            & Full supportive care of prematurity                                  &                &                 &                      &  &  \\
+\multicolumn{2}{l}{}                                            & Case management of neonatal sepsis/pneumonia                         &                &                 &                      &  &  \\
+\multicolumn{2}{l}{}                                            & Oral antibiotics                                                     &                &                 &                      &  &  \\
+\multicolumn{2}{l}{}                                            & Injectable antibiotics                                               & 72.7           & 61.1            & 70.8                 &  &  \\
+\multicolumn{2}{l}{}                                            & Full supportive care                                                 &                &                 &                      &  &  \\
+\multicolumn{2}{l}{}                                            & Diarrhea                                                             &                &                 &                      &  &  \\
+\multicolumn{2}{l}{}                                            & ORS - Oral Rehydration Solution                                      & 22.9           & 19.0            & 22.0                 &  &  \\
+\multicolumn{2}{l}{}                                            & Antibiotics for treatment of dysentery                               &                &                 &                      &  &  \\
+\multicolumn{2}{l}{}                                            & Zinc for treatment of diarrhea                                       &                &                 &                      &  &  \\
+\multicolumn{2}{l}{}                                            & Other infectious diseases                                            &                &                 &                      &  &  \\
+\multicolumn{2}{l}{}                                            & Oral antibiotics for pneumonia                                       &                &                 &                      &  &  \\
+\multicolumn{2}{l}{}                                            & Vitamin A for treatment of measles                                   & 99.0           & 82.2            & 95.3                 &  &  \\
+\multicolumn{2}{l}{}                                            & ACTs - Artemisinin compounds for treatment of malaria                &                &                 &                      &  &  \\
+\multicolumn{2}{l}{}                                            & Malnutrition                                                         &                &                 &                      &  &  \\
+\multicolumn{2}{l}{}                                            & SAM - treatment for severe acute malnutrition                        &                &                 &                      &  &  \\
+\multicolumn{2}{l}{}                                            & MAM - treatment for moderate acute malnutrition                      &                &                 &                      &  &  \\
+                                                             &  &                                                                      &                &                 &                      &  &  \\
+                                                             &  &                                                                      &                &                 &                      &  &  \\
+                                                             &  &                                                                      &                &                 &                      &  & 
+\end{tabular}
+\end{table}

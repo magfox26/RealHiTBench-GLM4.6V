@@ -1,0 +1,25 @@
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+% \usepackage{multirow}
+% \usepackage[table,xcdraw]{xcolor}
+% Beamer presentation requires \usepackage{colortbl} instead of \usepackage[table,xcdraw]{xcolor}
+\begin{table}[]
+\begin{tabular}{@{}ccll@{}}
+\rowcolor[HTML]{FFFF00} 
+\multicolumn{1}{l}{\cellcolor[HTML]{FFFF00}Carrier} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFF00}Types} & Time & Total \\
+\cellcolor[HTML]{FEDB61} & \cellcolor[HTML]{FEDB61}\textbf{NEW ACTIVATION} & 20.6 & 1127 \\
+\cellcolor[HTML]{FEDB61} & \cellcolor[HTML]{FEDB61}\textbf{ADD A LINE} & 14.25 & 146 \\
+\cellcolor[HTML]{FEDB61} & \cellcolor[HTML]{FEDB61}\textbf{PLAN CHANGE} & 6.30 & 100 \\
+\multirow{-4}{*}{\cellcolor[HTML]{FEDB61}\textbf{SPR}} & \cellcolor[HTML]{FEDB61}\textbf{UPGRADE} & 14.5 & 1582 \\
+\cellcolor[HTML]{ACB9CA} & \cellcolor[HTML]{91AADF}\textbf{NEW ACTIVATION} & 18.33 & 1804 \\
+\cellcolor[HTML]{ACB9CA} & \cellcolor[HTML]{91AADF}\textbf{ADD A LINE} & 14.56 & 450 \\
+\cellcolor[HTML]{ACB9CA} & \cellcolor[HTML]{91AADF}\textbf{PLAN CHANGE} & 9.45 & 1946 \\
+\multirow{-4}{*}{\cellcolor[HTML]{ACB9CA}\textbf{VZW}} & \cellcolor[HTML]{91AADF}\textbf{UPGRADE} & 13.37 & 3169 \\
+\cellcolor[HTML]{3366FF} & \cellcolor[HTML]{3366FF}\textbf{NEW ACTIVATION} & 10.16 & 25 \\
+\multirow{-2}{*}{\cellcolor[HTML]{3366FF}\textbf{MTP}} & \cellcolor[HTML]{3366FF}\textbf{UPGRADE} & 0 & 0 \\
+\cellcolor[HTML]{EF949F} & \cellcolor[HTML]{EF949F}\textbf{NEW ACTIVATION} & 19.21 & 1048 \\
+\cellcolor[HTML]{EF949F} & \cellcolor[HTML]{EF949F}\textbf{ADD A LINE} & 14.24 & 396 \\
+\cellcolor[HTML]{EF949F} & \cellcolor[HTML]{EF949F}\textbf{PLAN CHANGE} & 9.49 & 560 \\
+\multirow{-4}{*}{\cellcolor[HTML]{EF949F}\textbf{ATT}} & \cellcolor[HTML]{EF949F}\textbf{UPGRADE} & 12.50 & 1330
+\end{tabular}
+\end{table}

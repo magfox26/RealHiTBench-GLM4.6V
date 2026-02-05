@@ -1,0 +1,13 @@
+\begin{table}[]
+\begin{tabular}{lllllllllll}
+     &                                                & \multicolumn{3}{l}{Expt-1}           &  & \multicolumn{3}{l}{Expt-2}           &             &             \\
+     & Liver LDU                                      & Replicate1 & Replicate2 & Replicate3 &  & Replicate1 & Replicate2 & Replicate3 & Mean        & SD          \\
+Set1 & Inf mice (no DC trnf)                          & 5365.81    & 5636.21    & 6204.71    &  & 5724.71    & 5692.23    & 5670.7     & 5715.728333 & 272.2239771 \\
+Set2 & Inf mice ( DC + PBS)                           & 5421.31    & 4867.14    & 5960.43    &  & 5799.64    & 5596.33    & 5876.8     & 5586.941667 & 403.5810696 \\
+Set3 & Inf mice (DC + SAG)                            & 1973.75    & 2838.16    & 2421.85    &  & 2549.14    & 2382.2     & 2490       & 2442.516667 & 280.7006407 \\
+Set4 & Inf mice  {[}DC (Ctrl siRNA) + SAG{]}          & 2486.78    & 2495.7     & 2841.23    &  & 2370.03    & 2501.72    & 2272.2     & 2494.61     & 192.4810941 \\
+Set5 & Inf mice {[}DC (Runx1+3 siRNA) + SAG{]}        & 4631.67    & 5299.13    & 6052.73    &  & 5647.84    & 4936.71    & 4896.32    & 5244.066667 & 531.1170877 \\
+Set6 & Inf mice {[}DC (Runx1+3 siRNA + Vec) + SAG{]}  & 4971.55    & 6836.22    & 5283.59    &  & 6136.12    & 5146.7     & 5095.65    & 5578.305    & 744.0100816 \\
+Set7 & Inf mice {[}DC (Runx1+3 siRNA + CD40) + SAG{]} & 2667.68    & 2219.7     & 2543.98    &  & 2182.7     & 2230.25    & 2530.3     & 2395.768333 & 208.7083675
+\end{tabular}
+\end{table}

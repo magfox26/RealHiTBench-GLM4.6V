@@ -1,0 +1,30 @@
+[
+  {
+    "End Use": "Potable use",
+    "Daily Exposure Volume (L)": "2.4",
+    "Exposure Frequency (days/year)": "365",
+    "Fraction of Population Exposed": "1",
+    "Key Assumptions": "90th percentile per capita U.S. ingestion1,2"
+  },
+  {
+    "End Use": "Indoor non-potable water use",
+    "Daily Exposure Volume (L)": "4e-05",
+    "Exposure Frequency (days/year)": "365",
+    "Fraction of Population Exposed": "1",
+    "Key Assumptions": "Adopted from Australian guidelines3"
+  },
+  {
+    "End Use": "Unrestricted irrigation and dust suppression",
+    "Daily Exposure Volume (L)": "0.001",
+    "Exposure Frequency (days/year)": "50",
+    "Fraction of Population Exposed": "1",
+    "Key Assumptions": "Adopted from Australian guidelines3 "
+  },
+  {
+    "End Use": "Cross-connection of treated water with potable water or accidental ingestion",
+    "Daily Exposure Volume (L)": "2",
+    "Exposure Frequency (days/year)": "1",
+    "Fraction of Population Exposed": "0.1",
+    "Key Assumptions": "Only used in indoor use calculation4"
+  }
+]

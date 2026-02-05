@@ -1,0 +1,3314 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <meta name="generator" content="PhpSpreadsheet, https://github.com/PHPOffice/PhpSpreadsheet">
+      <meta name="author" content="mac" />
+      <meta name="company" content="Microsoft Corporation" />
+    <style type="text/css">
+      html { font-family:Calibri, Arial, Helvetica, sans-serif; font-size:11pt; background-color:white }
+      a.comment-indicator:hover + div.comment { background:#ffd; position:absolute; display:block; border:1px solid black; padding:0.5em }
+      a.comment-indicator { background:red; display:inline-block; border:1px solid black; width:0.5em; height:0.5em }
+      div.comment { display:none }
+      table { border-collapse:collapse; page-break-after:always }
+      .gridlines td { border:1px dotted black }
+      .gridlines th { border:1px dotted black }
+      .b { text-align:center }
+      .e { text-align:center }
+      .f { text-align:right }
+      .inlineStr { text-align:left }
+      .n { text-align:right }
+      .s { text-align:left }
+      td.style0 { vertical-align:middle; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style0 { vertical-align:middle; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style1 { vertical-align:top; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#C0C0C0 }
+      th.style1 { vertical-align:top; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#C0C0C0 }
+      td.style2 { vertical-align:bottom; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:none #000000; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+      th.style2 { vertical-align:bottom; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:none #000000; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+      td.style3 { vertical-align:bottom; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+      th.style3 { vertical-align:bottom; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+      td.style4 { vertical-align:top; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:1px solid #000000 !important; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Arial'; font-size:11pt; background-color:white }
+      th.style4 { vertical-align:top; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:1px solid #000000 !important; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Arial'; font-size:11pt; background-color:white }
+      td.style5 { vertical-align:bottom; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Courier New'; font-size:10pt; background-color:white }
+      th.style5 { vertical-align:bottom; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Courier New'; font-size:10pt; background-color:white }
+      td.style6 { vertical-align:bottom; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Arial'; font-size:10pt; background-color:white }
+      th.style6 { vertical-align:bottom; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Arial'; font-size:10pt; background-color:white }
+      td.style7 { vertical-align:bottom; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Arial'; font-size:10pt; background-color:white }
+      th.style7 { vertical-align:bottom; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Arial'; font-size:10pt; background-color:white }
+      td.style8 { vertical-align:bottom; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Arial'; font-size:10pt; background-color:white }
+      th.style8 { vertical-align:bottom; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Arial'; font-size:10pt; background-color:white }
+      td.style9 { vertical-align:bottom; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#CCCCFF }
+      th.style9 { vertical-align:bottom; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#CCCCFF }
+      td.style10 { vertical-align:bottom; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#CCCCFF }
+      th.style10 { vertical-align:bottom; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#CCCCFF }
+      td.style11 { vertical-align:bottom; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:none #000000; border-right:1px solid #000000 !important; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+      th.style11 { vertical-align:bottom; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:none #000000; border-right:1px solid #000000 !important; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+      td.style12 { vertical-align:bottom; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#CCCCFF }
+      th.style12 { vertical-align:bottom; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#CCCCFF }
+      td.style13 { vertical-align:bottom; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#C0C0C0 }
+      th.style13 { vertical-align:bottom; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#C0C0C0 }
+      td.style14 { vertical-align:bottom; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#C0C0C0 }
+      th.style14 { vertical-align:bottom; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#C0C0C0 }
+      td.style15 { vertical-align:top; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:1px solid #000000 !important; border-left:none #000000; border-right:none #000000; font-style:italic; color:#000000; font-family:'Arial Narrow'; font-size:8pt; background-color:white }
+      th.style15 { vertical-align:top; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:1px solid #000000 !important; border-left:none #000000; border-right:none #000000; font-style:italic; color:#000000; font-family:'Arial Narrow'; font-size:8pt; background-color:white }
+      td.style16 { vertical-align:bottom; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#C0C0C0 }
+      th.style16 { vertical-align:bottom; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#C0C0C0 }
+      table.sheet0 col.col0 { width:159.95555372pt }
+      table.sheet0 col.col1 { width:42pt }
+      table.sheet0 col.col2 { width:42pt }
+      table.sheet0 col.col3 { width:42pt }
+      table.sheet0 col.col4 { width:42pt }
+      table.sheet0 tr { height:15pt }
+    </style>
+  </head>
+
+  <body>
+<style>
+@page { margin-left: 0.75in; margin-right: 0.75in; margin-top: 1in; margin-bottom: 1in; }
+body { margin-left: 0.75in; margin-right: 0.75in; margin-top: 1in; margin-bottom: 1in; }
+</style>
+    <table border="0" cellpadding="0" cellspacing="0" id="sheet0" class="sheet0 gridlines">
+        <col class="col0">
+        <col class="col1">
+        <col class="col2">
+        <col class="col3">
+        <col class="col4">
+        <tbody>
+          <tr class="row0">
+            <td class="column0 style1 s">D E S C R I P T I O N</td>
+            <td class="column1 style1 s">QTY.</td>
+            <td class="column2 style1 s">FREE</td>
+            <td class="column3 style1 s">RATE</td>
+            <td class="column4 style1 s">AMOUNT</td>
+          </tr>
+          <tr class="row1">
+            <td class="column0 style2 null style11" colspan="5"></td>
+          </tr>
+          <tr class="row2">
+            <td class="column0 style4 s style4" colspan="5">AJIT MEDICOS ZIRA ZIRA-ZIRA</td>
+          </tr>
+          <tr class="row3">
+            <td class="column0 style5 s">AMCARD-LP          10TAB</td>
+            <td class="column1 style6 n">5</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">32.74</td>
+            <td class="column4 style8 n">163.69</td>
+          </tr>
+          <tr class="row4">
+            <td class="column0 style5 s">CYRA TAB           10TAB</td>
+            <td class="column1 style6 n">3</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">14.53</td>
+            <td class="column4 style8 n">43.59</td>
+          </tr>
+          <tr class="row5">
+            <td class="column0 style5 s">CYRA-D  CAP        10CAP</td>
+            <td class="column1 style6 n">5</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">28.54</td>
+            <td class="column4 style8 n">142.69</td>
+          </tr>
+          <tr class="row6">
+            <td class="column0 style5 s">ORVAS 40MG TABLET  10TAB</td>
+            <td class="column1 style6 n">5</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">67.40</td>
+            <td class="column4 style8 n">336.98</td>
+          </tr>
+          <tr class="row7">
+            <td class="column0 style5 s">PIO PLUS-2         10TAB</td>
+            <td class="column1 style6 n">3</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">55.04</td>
+            <td class="column4 style8 n">165.11</td>
+          </tr>
+          <tr class="row8">
+            <td class="column0 style7 s">TOPISAL - 3% LOTION50ML</td>
+            <td class="column1 style6 n">3</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">80.51</td>
+            <td class="column4 style8 n">241.53</td>
+          </tr>
+          <tr class="row9">
+            <td class="column0 style9 s">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TOTAL :</td>
+            <td class="column1 style10 n">24</td>
+            <td class="column2 style10 n">0</td>
+            <td class="column3 style9 s"></td>
+            <td class="column4 style12 n">1093.59</td>
+          </tr>
+          <tr class="row10">
+            <td class="column0 style2 null style11" colspan="5"></td>
+          </tr>
+          <tr class="row11">
+            <td class="column0 style4 s style4" colspan="5">ANAND MEDICAL STORE MOGA MOGA.-MOGA.</td>
+          </tr>
+          <tr class="row12">
+            <td class="column0 style5 s">CILDAY - 5 TABLET  10TAB</td>
+            <td class="column1 style6 n">10</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">16.97</td>
+            <td class="column4 style8 n">169.67</td>
+          </tr>
+          <tr class="row13">
+            <td class="column0 style9 s">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TOTAL :</td>
+            <td class="column1 style10 n">10</td>
+            <td class="column2 style10 n">0</td>
+            <td class="column3 style9 s"></td>
+            <td class="column4 style12 n">169.67</td>
+          </tr>
+          <tr class="row14">
+            <td class="column0 style2 null style11" colspan="5"></td>
+          </tr>
+          <tr class="row15">
+            <td class="column0 style4 s style4" colspan="5">ANAND MEDICO S MOGA MOGA.-MOGA.</td>
+          </tr>
+          <tr class="row16">
+            <td class="column0 style5 s">AF-400             1TAB</td>
+            <td class="column1 style6 n">10</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">16.35</td>
+            <td class="column4 style8 n">163.54</td>
+          </tr>
+          <tr class="row17">
+            <td class="column0 style5 s">AMCARD AT TAB      10TAB</td>
+            <td class="column1 style6 n">10</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">20.30</td>
+            <td class="column4 style8 n">203.02</td>
+          </tr>
+          <tr class="row18">
+            <td class="column0 style5 s">CYRA-D  CAP        10CAP</td>
+            <td class="column1 style6 n">10</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">28.54</td>
+            <td class="column4 style8 n">285.37</td>
+          </tr>
+          <tr class="row19">
+            <td class="column0 style5 s">LEVOSIZ 5MG TAB    10TAB</td>
+            <td class="column1 style6 n">3</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">10.31</td>
+            <td class="column4 style8 n">30.93</td>
+          </tr>
+          <tr class="row20">
+            <td class="column0 style5 s">LEVOSIZ M TABLET   10TAB</td>
+            <td class="column1 style6 n">5</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">38.87</td>
+            <td class="column4 style8 n">194.34</td>
+          </tr>
+          <tr class="row21">
+            <td class="column0 style5 s">ME-12 INJ.         1ML</td>
+            <td class="column1 style6 n">5</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">15.98</td>
+            <td class="column4 style8 n">79.88</td>
+          </tr>
+          <tr class="row22">
+            <td class="column0 style5 s">ORVAS 20MG         10TAB</td>
+            <td class="column1 style6 n">20</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">36.38</td>
+            <td class="column4 style8 n">727.50</td>
+          </tr>
+          <tr class="row23">
+            <td class="column0 style5 s">ORVAS 40MG TABLET  10TAB</td>
+            <td class="column1 style6 n">5</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">67.40</td>
+            <td class="column4 style8 n">336.98</td>
+          </tr>
+          <tr class="row24">
+            <td class="column0 style5 s">PIOSYS-15TAB       30TAB</td>
+            <td class="column1 style6 n">12</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">29.83</td>
+            <td class="column4 style8 n">357.93</td>
+          </tr>
+          <tr class="row25">
+            <td class="column0 style5 s">SYSFOL- ACTIV      10TAB</td>
+            <td class="column1 style6 n">2</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">59.53</td>
+            <td class="column4 style8 n">119.06</td>
+          </tr>
+          <tr class="row26">
+            <td class="column0 style5 s">SYSRON-N TAB       10TAB</td>
+            <td class="column1 style6 n">3</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">30.98</td>
+            <td class="column4 style8 n">92.95</td>
+          </tr>
+          <tr class="row27">
+            <td class="column0 style5 s">TOPISAL 6% OINT.   30GM</td>
+            <td class="column1 style6 n">2</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">69.14</td>
+            <td class="column4 style8 n">138.28</td>
+          </tr>
+          <tr class="row28">
+            <td class="column0 style9 s">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TOTAL :</td>
+            <td class="column1 style10 n">87</td>
+            <td class="column2 style10 n">0</td>
+            <td class="column3 style9 s"></td>
+            <td class="column4 style12 n">2729.78</td>
+          </tr>
+          <tr class="row29">
+            <td class="column0 style2 null style11" colspan="5"></td>
+          </tr>
+          <tr class="row30">
+            <td class="column0 style4 s style4" colspan="5">APARNA DRUGS STORE MOGA MOGA.-MOGA.</td>
+          </tr>
+          <tr class="row31">
+            <td class="column0 style5 s">AMCARD AT TAB      10TAB</td>
+            <td class="column1 style6 n">5</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">20.30</td>
+            <td class="column4 style8 n">101.51</td>
+          </tr>
+          <tr class="row32">
+            <td class="column0 style5 s">ME-12 OD TAB       10TAB</td>
+            <td class="column1 style6 n">3</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">51.62</td>
+            <td class="column4 style8 n">154.87</td>
+          </tr>
+          <tr class="row33">
+            <td class="column0 style5 s">NAC SR 75MG        10TAB</td>
+            <td class="column1 style6 n">3</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">24.15</td>
+            <td class="column4 style8 n">72.46</td>
+          </tr>
+          <tr class="row34">
+            <td class="column0 style9 s">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TOTAL :</td>
+            <td class="column1 style10 n">11</td>
+            <td class="column2 style10 n">0</td>
+            <td class="column3 style9 s"></td>
+            <td class="column4 style12 n">328.84</td>
+          </tr>
+          <tr class="row35">
+            <td class="column0 style2 null style11" colspan="5"></td>
+          </tr>
+          <tr class="row36">
+            <td class="column0 style4 s style4" colspan="5">ARORA MEDICAL HALL KOT KO-KOT ISE KHAN</td>
+          </tr>
+          <tr class="row37">
+            <td class="column0 style5 s">ACNESOL LOTION     10ML</td>
+            <td class="column1 style6 n">1</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">53.09</td>
+            <td class="column4 style8 n">53.09</td>
+          </tr>
+          <tr class="row38">
+            <td class="column0 style9 s">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TOTAL :</td>
+            <td class="column1 style10 n">1</td>
+            <td class="column2 style10 n">0</td>
+            <td class="column3 style9 s"></td>
+            <td class="column4 style12 n">53.09</td>
+          </tr>
+          <tr class="row39">
+            <td class="column0 style2 null style11" colspan="5"></td>
+          </tr>
+          <tr class="row40">
+            <td class="column0 style4 s style4" colspan="5">ARORA PHARMA DISTRIBUTORS KO-KOT ISE KHAN</td>
+          </tr>
+          <tr class="row41">
+            <td class="column0 style5 s">ACNESOL LOTION     10ML</td>
+            <td class="column1 style6 n">1</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">53.09</td>
+            <td class="column4 style8 n">53.09</td>
+          </tr>
+          <tr class="row42">
+            <td class="column0 style5 s">OSICARE DS         10TAB</td>
+            <td class="column1 style6 n">1</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">42.00</td>
+            <td class="column4 style8 n">42.00</td>
+          </tr>
+          <tr class="row43">
+            <td class="column0 style5 s">PIOSYS 30TAB       30TAB</td>
+            <td class="column1 style6 n">2</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">53.87</td>
+            <td class="column4 style8 n">107.73</td>
+          </tr>
+          <tr class="row44">
+            <td class="column0 style5 s">VOGS 0.2MG TABLET  10TAB</td>
+            <td class="column1 style6 n">5</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">13.69</td>
+            <td class="column4 style8 n">68.45</td>
+          </tr>
+          <tr class="row45">
+            <td class="column0 style5 s">VOGS 0.3MG TABLET  10TAB</td>
+            <td class="column1 style6 n">10</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">20.45</td>
+            <td class="column4 style8 n">204.48</td>
+          </tr>
+          <tr class="row46">
+            <td class="column0 style9 s">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TOTAL :</td>
+            <td class="column1 style10 n">19</td>
+            <td class="column2 style10 n">0</td>
+            <td class="column3 style9 s"></td>
+            <td class="column4 style12 n">475.75</td>
+          </tr>
+          <tr class="row47">
+            <td class="column0 style2 null style11" colspan="5"></td>
+          </tr>
+          <tr class="row48">
+            <td class="column0 style4 s style4" colspan="5">ARORA PHARMACEUTICALS MOGA MOGA.-MOGA.</td>
+          </tr>
+          <tr class="row49">
+            <td class="column0 style5 s">TOPINATE GEL 30GM  30GM</td>
+            <td class="column1 style6 n">3</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">56.27</td>
+            <td class="column4 style8 n">168.81</td>
+          </tr>
+          <tr class="row50">
+            <td class="column0 style9 s">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TOTAL :</td>
+            <td class="column1 style10 n">3</td>
+            <td class="column2 style10 n">0</td>
+            <td class="column3 style9 s"></td>
+            <td class="column4 style12 n">168.81</td>
+          </tr>
+          <tr class="row51">
+            <td class="column0 style2 null style11" colspan="5"></td>
+          </tr>
+          <tr class="row52">
+            <td class="column0 style4 s style4" colspan="5">AULAKH MEDICOSE KISH KIS-KISHAN PURA</td>
+          </tr>
+          <tr class="row53">
+            <td class="column0 style5 s">NORMAXIN TAB       10TAB</td>
+            <td class="column1 style6 n">20</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">13.82</td>
+            <td class="column4 style8 n">276.45</td>
+          </tr>
+          <tr class="row54">
+            <td class="column0 style9 s">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TOTAL :</td>
+            <td class="column1 style10 n">20</td>
+            <td class="column2 style10 n">0</td>
+            <td class="column3 style9 s"></td>
+            <td class="column4 style12 n">276.45</td>
+          </tr>
+          <tr class="row55">
+            <td class="column0 style2 null style11" colspan="5"></td>
+          </tr>
+          <tr class="row56">
+            <td class="column0 style4 s style4" colspan="5">BANSAL AGENCIES MOGA MOGA.-MOGA.</td>
+          </tr>
+          <tr class="row57">
+            <td class="column0 style5 s">NORMAXIN TAB       10TAB</td>
+            <td class="column1 style6 n">40</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">13.82</td>
+            <td class="column4 style8 n">552.90</td>
+          </tr>
+          <tr class="row58">
+            <td class="column0 style9 s">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TOTAL :</td>
+            <td class="column1 style10 n">40</td>
+            <td class="column2 style10 n">0</td>
+            <td class="column3 style9 s"></td>
+            <td class="column4 style12 n">552.90</td>
+          </tr>
+          <tr class="row59">
+            <td class="column0 style2 null style11" colspan="5"></td>
+          </tr>
+          <tr class="row60">
+            <td class="column0 style4 s style4" colspan="5">BANSAL MEDICOS MOGA MOGA.-MOGA.</td>
+          </tr>
+          <tr class="row61">
+            <td class="column0 style5 s">AF-200 TABLET      1TAB</td>
+            <td class="column1 style6 n">100</td>
+            <td class="column2 style6 n">10</td>
+            <td class="column3 style8 n">8.76</td>
+            <td class="column4 style8 n">875.91</td>
+          </tr>
+          <tr class="row62">
+            <td class="column0 style5 s">AFK LOTION         100ML</td>
+            <td class="column1 style6 n">20</td>
+            <td class="column2 style6 n">4</td>
+            <td class="column3 style8 n">121.99</td>
+            <td class="column4 style8 n">2439.74</td>
+          </tr>
+          <tr class="row63">
+            <td class="column0 style9 s">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TOTAL :</td>
+            <td class="column1 style10 n">120</td>
+            <td class="column2 style10 n">14</td>
+            <td class="column3 style9 s"></td>
+            <td class="column4 style12 n">3315.65</td>
+          </tr>
+          <tr class="row64">
+            <td class="column0 style2 null style11" colspan="5"></td>
+          </tr>
+          <tr class="row65">
+            <td class="column0 style4 s style4" colspan="5">BAWEJA MEDICAL AGENCIES LUDHI-LUDHIANA.</td>
+          </tr>
+          <tr class="row66">
+            <td class="column0 style5 s">AF-150             1TAB</td>
+            <td class="column1 style6 n">250</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">6.58</td>
+            <td class="column4 style8 n">1644.50</td>
+          </tr>
+          <tr class="row67">
+            <td class="column0 style5 s">AMACE TAB          10TAB</td>
+            <td class="column1 style6 n">200</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">40.17</td>
+            <td class="column4 style8 n">8033.44</td>
+          </tr>
+          <tr class="row68">
+            <td class="column0 style5 s">AMCARD 5MG         7TAB</td>
+            <td class="column1 style6 n">400</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">8.57</td>
+            <td class="column4 style8 n">3429.76</td>
+          </tr>
+          <tr class="row69">
+            <td class="column0 style5 s">AMCARD AT TAB      10TAB</td>
+            <td class="column1 style6 n">200</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">19.26</td>
+            <td class="column4 style8 n">3851.12</td>
+          </tr>
+          <tr class="row70">
+            <td class="column0 style5 s">ANALIV -500MG      10TAB</td>
+            <td class="column1 style6 n">50</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">89.50</td>
+            <td class="column4 style8 n">4474.88</td>
+          </tr>
+          <tr class="row71">
+            <td class="column0 style5 s">CYRA - LS TABLET   10TAB</td>
+            <td class="column1 style6 n">100</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">65.55</td>
+            <td class="column4 style8 n">6555.00</td>
+          </tr>
+          <tr class="row72">
+            <td class="column0 style5 s">CYRA IT TABLET     1</td>
+            <td class="column1 style6 n">25</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">78.71</td>
+            <td class="column4 style8 n">1967.65</td>
+          </tr>
+          <tr class="row73">
+            <td class="column0 style5 s">CYRA TAB           10TAB</td>
+            <td class="column1 style6 n">200</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">13.78</td>
+            <td class="column4 style8 n">2756.32</td>
+          </tr>
+          <tr class="row74">
+            <td class="column0 style5 s">CYRA-D  CAP        10CAP</td>
+            <td class="column1 style6 n">600</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">27.07</td>
+            <td class="column4 style8 n">16239.84</td>
+          </tr>
+          <tr class="row75">
+            <td class="column0 style5 s">ETOSYS TAB         10TAB</td>
+            <td class="column1 style6 n">50</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">98.17</td>
+            <td class="column4 style8 n">4908.66</td>
+          </tr>
+          <tr class="row76">
+            <td class="column0 style5 s">ISRYL-M 1          10TAB</td>
+            <td class="column1 style6 n">150</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">16.26</td>
+            <td class="column4 style8 n">2438.46</td>
+          </tr>
+          <tr class="row77">
+            <td class="column0 style5 s">ISRYL-M 2          10TAB</td>
+            <td class="column1 style6 n">200</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">24.40</td>
+            <td class="column4 style8 n">4879.68</td>
+          </tr>
+          <tr class="row78">
+            <td class="column0 style5 s">LEVOSIZ 5MG TAB    10TAB</td>
+            <td class="column1 style6 n">200</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">9.78</td>
+            <td class="column4 style8 n">1955.92</td>
+          </tr>
+          <tr class="row79">
+            <td class="column0 style5 s">LEVOSIZ M TABLET   10TAB</td>
+            <td class="column1 style6 n">100</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">36.86</td>
+            <td class="column4 style8 n">3686.44</td>
+          </tr>
+          <tr class="row80">
+            <td class="column0 style5 s">ME-12 INJ.         1ML</td>
+            <td class="column1 style6 n">96</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">15.15</td>
+            <td class="column4 style8 n">1454.63</td>
+          </tr>
+          <tr class="row81">
+            <td class="column0 style5 s">ME-12 OD TAB       10TAB</td>
+            <td class="column1 style6 n">100</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">48.96</td>
+            <td class="column4 style8 n">4896.24</td>
+          </tr>
+          <tr class="row82">
+            <td class="column0 style5 s">NAC SR 100         10TAB</td>
+            <td class="column1 style6 n">100</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">26.80</td>
+            <td class="column4 style8 n">2679.96</td>
+          </tr>
+          <tr class="row83">
+            <td class="column0 style5 s">NAC SR 75MG        10TAB</td>
+            <td class="column1 style6 n">100</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">22.91</td>
+            <td class="column4 style8 n">2290.80</td>
+          </tr>
+          <tr class="row84">
+            <td class="column0 style5 s">ORVAS 10MG         10TAB</td>
+            <td class="column1 style6 n">200</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">12.27</td>
+            <td class="column4 style8 n">2454.56</td>
+          </tr>
+          <tr class="row85">
+            <td class="column0 style5 s">ORVAS 20MG         10TAB</td>
+            <td class="column1 style6 n">250</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">34.50</td>
+            <td class="column4 style8 n">8625.00</td>
+          </tr>
+          <tr class="row86">
+            <td class="column0 style5 s">ORVAS-FT TABLET    10TAB</td>
+            <td class="column1 style6 n">50</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">45.68</td>
+            <td class="column4 style8 n">2283.90</td>
+          </tr>
+          <tr class="row87">
+            <td class="column0 style5 s">PIO PLUS-1         10TAB</td>
+            <td class="column1 style6 n">50</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">39.34</td>
+            <td class="column4 style8 n">1966.96</td>
+          </tr>
+          <tr class="row88">
+            <td class="column0 style5 s">PIO PLUS-2         10TAB</td>
+            <td class="column1 style6 n">100</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">52.20</td>
+            <td class="column4 style8 n">5220.08</td>
+          </tr>
+          <tr class="row89">
+            <td class="column0 style5 s">PIOSYS 30TAB       30TAB</td>
+            <td class="column1 style6 n">50</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">51.62</td>
+            <td class="column4 style8 n">2581.06</td>
+          </tr>
+          <tr class="row90">
+            <td class="column0 style5 s">PIOSYS-15TAB       30TAB</td>
+            <td class="column1 style6 n">50</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">28.29</td>
+            <td class="column4 style8 n">1414.50</td>
+          </tr>
+          <tr class="row91">
+            <td class="column0 style5 s">SYSTAFLAM GEL      25GM</td>
+            <td class="column1 style6 n">25</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">43.50</td>
+            <td class="column4 style8 n">1087.44</td>
+          </tr>
+          <tr class="row92">
+            <td class="column0 style9 s">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TOTAL :</td>
+            <td class="column1 style10 n">3896</td>
+            <td class="column2 style10 n">0</td>
+            <td class="column3 style9 s"></td>
+            <td class="column4 style12 n">103776.80</td>
+          </tr>
+          <tr class="row93">
+            <td class="column0 style2 null style11" colspan="5"></td>
+          </tr>
+          <tr class="row94">
+            <td class="column0 style4 s style4" colspan="5">BEHL MEDEICAL STORE MAKH MAKHU-MAKHU</td>
+          </tr>
+          <tr class="row95">
+            <td class="column0 style5 s">AMCARD AT TAB      10TAB</td>
+            <td class="column1 style6 n">3</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">20.30</td>
+            <td class="column4 style8 n">60.91</td>
+          </tr>
+          <tr class="row96">
+            <td class="column0 style9 s">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TOTAL :</td>
+            <td class="column1 style10 n">3</td>
+            <td class="column2 style10 n">0</td>
+            <td class="column3 style9 s"></td>
+            <td class="column4 style12 n">60.91</td>
+          </tr>
+          <tr class="row97">
+            <td class="column0 style2 null style11" colspan="5"></td>
+          </tr>
+          <tr class="row98">
+            <td class="column0 style4 s style4" colspan="5">BIOSIP PHARMACEUTICALS MOGA.-MOGA.</td>
+          </tr>
+          <tr class="row99">
+            <td class="column0 style5 s">AMACE TAB          10TAB</td>
+            <td class="column1 style6 n">10</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">42.35</td>
+            <td class="column4 style8 n">423.50</td>
+          </tr>
+          <tr class="row100">
+            <td class="column0 style5 s">ME-12 INJ.         1ML</td>
+            <td class="column1 style6 n">4</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">15.98</td>
+            <td class="column4 style8 n">63.90</td>
+          </tr>
+          <tr class="row101">
+            <td class="column0 style5 s">NORMAXIN TAB       10TAB</td>
+            <td class="column1 style6 n">20</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">13.82</td>
+            <td class="column4 style8 n">276.45</td>
+          </tr>
+          <tr class="row102">
+            <td class="column0 style5 s">TOPISAL LOTION 6%  30ML</td>
+            <td class="column1 style6 n">2</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">61.08</td>
+            <td class="column4 style8 n">122.16</td>
+          </tr>
+          <tr class="row103">
+            <td class="column0 style9 s">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TOTAL :</td>
+            <td class="column1 style10 n">36</td>
+            <td class="column2 style10 n">0</td>
+            <td class="column3 style9 s"></td>
+            <td class="column4 style12 n">886.01</td>
+          </tr>
+          <tr class="row104">
+            <td class="column0 style2 null style11" colspan="5"></td>
+          </tr>
+          <tr class="row105">
+            <td class="column0 style4 s style4" colspan="5">BITTU MEDICAL STORE MOGA MOGA.-MOGA.</td>
+          </tr>
+          <tr class="row106">
+            <td class="column0 style5 s">AMCARD 5MG         7TAB</td>
+            <td class="column1 style6 n">6</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">9.04</td>
+            <td class="column4 style8 n">54.24</td>
+          </tr>
+          <tr class="row107">
+            <td class="column0 style5 s">CYRA-D  CAP        10CAP</td>
+            <td class="column1 style6 n">5</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">28.54</td>
+            <td class="column4 style8 n">142.69</td>
+          </tr>
+          <tr class="row108">
+            <td class="column0 style5 s">ISRYL-M 2          10TAB</td>
+            <td class="column1 style6 n">5</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">25.72</td>
+            <td class="column4 style8 n">128.62</td>
+          </tr>
+          <tr class="row109">
+            <td class="column0 style9 s">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TOTAL :</td>
+            <td class="column1 style10 n">16</td>
+            <td class="column2 style10 n">0</td>
+            <td class="column3 style9 s"></td>
+            <td class="column4 style12 n">325.55</td>
+          </tr>
+          <tr class="row110">
+            <td class="column0 style2 null style11" colspan="5"></td>
+          </tr>
+          <tr class="row111">
+            <td class="column0 style4 s style4" colspan="5">C L AGGARWAL MED HALL MOGA MOGA.-MOGA.</td>
+          </tr>
+          <tr class="row112">
+            <td class="column0 style5 s">AF-KIT             1KIT</td>
+            <td class="column1 style6 n">21</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">61.71</td>
+            <td class="column4 style8 n">1295.95</td>
+          </tr>
+          <tr class="row113">
+            <td class="column0 style5 s">AMACE TAB          10TAB</td>
+            <td class="column1 style6 n">20</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">41.15</td>
+            <td class="column4 style8 n">823.08</td>
+          </tr>
+          <tr class="row114">
+            <td class="column0 style7 s">NAC SR 150MG TABLET10TAB</td>
+            <td class="column1 style6 n">78</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">31.84</td>
+            <td class="column4 style8 n">2483.83</td>
+          </tr>
+          <tr class="row115">
+            <td class="column0 style5 s">NAC SR 75MG        10TAB</td>
+            <td class="column1 style6 n">45</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">23.31</td>
+            <td class="column4 style8 n">1049.09</td>
+          </tr>
+          <tr class="row116">
+            <td class="column0 style7 s">NORMAXIN MB TABLET 10TAB</td>
+            <td class="column1 style6 n">70</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">54.19</td>
+            <td class="column4 style8 n">3793.16</td>
+          </tr>
+          <tr class="row117">
+            <td class="column0 style5 s">SYSRON-N TAB       10TAB</td>
+            <td class="column1 style6 n">30</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">29.84</td>
+            <td class="column4 style8 n">895.18</td>
+          </tr>
+          <tr class="row118">
+            <td class="column0 style9 s">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TOTAL :</td>
+            <td class="column1 style10 n">264</td>
+            <td class="column2 style10 n">0</td>
+            <td class="column3 style9 s"></td>
+            <td class="column4 style12 n">10340.29</td>
+          </tr>
+          <tr class="row119">
+            <td class="column0 style2 null style11" colspan="5"></td>
+          </tr>
+          <tr class="row120">
+            <td class="column0 style4 s style4" colspan="5">CHAUDHARY MED HALL MOGA MOGA.-MOGA.</td>
+          </tr>
+          <tr class="row121">
+            <td class="column0 style5 s">ORVAS-FT TABLET    10TAB</td>
+            <td class="column1 style6 n">5</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">48.16</td>
+            <td class="column4 style8 n">240.80</td>
+          </tr>
+          <tr class="row122">
+            <td class="column0 style5 s">SYSTAFLAM GEL      25GM</td>
+            <td class="column1 style6 n">3</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">45.86</td>
+            <td class="column4 style8 n">137.58</td>
+          </tr>
+          <tr class="row123">
+            <td class="column0 style5 s">TOPISAL 6% OINT.   30GM</td>
+            <td class="column1 style6 n">3</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">69.14</td>
+            <td class="column4 style8 n">207.42</td>
+          </tr>
+          <tr class="row124">
+            <td class="column0 style9 s">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TOTAL :</td>
+            <td class="column1 style10 n">11</td>
+            <td class="column2 style10 n">0</td>
+            <td class="column3 style9 s"></td>
+            <td class="column4 style12 n">585.80</td>
+          </tr>
+          <tr class="row125">
+            <td class="column0 style2 null style11" colspan="5"></td>
+          </tr>
+          <tr class="row126">
+            <td class="column0 style4 s style4" colspan="5">DADHWAL MEDICOS LUDHI-LUDHIANA.</td>
+          </tr>
+          <tr class="row127">
+            <td class="column0 style5 s">ACNESOL GEL        20GM</td>
+            <td class="column1 style6 n">20</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">48.38</td>
+            <td class="column4 style8 n">967.66</td>
+          </tr>
+          <tr class="row128">
+            <td class="column0 style5 s">AFK LOTION         100ML</td>
+            <td class="column1 style6 n">30</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">115.70</td>
+            <td class="column4 style8 n">3470.98</td>
+          </tr>
+          <tr class="row129">
+            <td class="column0 style7 s">BESTOPIC-N 15GM CRE15GM</td>
+            <td class="column1 style6 n">50</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">32.70</td>
+            <td class="column4 style8 n">1634.84</td>
+          </tr>
+          <tr class="row130">
+            <td class="column0 style5 s">L-SYS 10GM         10GM</td>
+            <td class="column1 style6 n">30</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">62.98</td>
+            <td class="column4 style8 n">1889.50</td>
+          </tr>
+          <tr class="row131">
+            <td class="column0 style5 s">NAC-NANO GEL  25GM 25GM</td>
+            <td class="column1 style6 n">50</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">36.11</td>
+            <td class="column4 style8 n">1805.50</td>
+          </tr>
+          <tr class="row132">
+            <td class="column0 style5 s">SYSTAFLAM GEL      25GM</td>
+            <td class="column1 style6 n">50</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">43.50</td>
+            <td class="column4 style8 n">2174.88</td>
+          </tr>
+          <tr class="row133">
+            <td class="column0 style7 s">SYSTAFLAM GEL 50GM 50GM</td>
+            <td class="column1 style6 n">20</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">66.42</td>
+            <td class="column4 style8 n">1328.30</td>
+          </tr>
+          <tr class="row134">
+            <td class="column0 style7 s">TERBEST CREAM 15GM 15GM</td>
+            <td class="column1 style6 n">60</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">38.52</td>
+            <td class="column4 style8 n">2311.22</td>
+          </tr>
+          <tr class="row135">
+            <td class="column0 style5 s">TOPINATE 30GM      5GM</td>
+            <td class="column1 style6 n">100</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">43.50</td>
+            <td class="column4 style8 n">4349.76</td>
+          </tr>
+          <tr class="row136">
+            <td class="column0 style5 s">TOPINATE GEL 30GM  30GM</td>
+            <td class="column1 style6 n">50</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">53.37</td>
+            <td class="column4 style8 n">2668.46</td>
+          </tr>
+          <tr class="row137">
+            <td class="column0 style5 s">TOPISAL 3% OINT.   30GM</td>
+            <td class="column1 style6 n">50</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">58.18</td>
+            <td class="column4 style8 n">2909.04</td>
+          </tr>
+          <tr class="row138">
+            <td class="column0 style5 s">TOPISAL 6% OINT.   30GM</td>
+            <td class="column1 style6 n">100</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">65.58</td>
+            <td class="column4 style8 n">6557.76</td>
+          </tr>
+          <tr class="row139">
+            <td class="column0 style5 s">TOPISAL LOTION 3%  30ML</td>
+            <td class="column1 style6 n">50</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">53.03</td>
+            <td class="column4 style8 n">2651.44</td>
+          </tr>
+          <tr class="row140">
+            <td class="column0 style5 s">TOPISAL LOTION 6%  30ML</td>
+            <td class="column1 style6 n">50</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">57.93</td>
+            <td class="column4 style8 n">2896.62</td>
+          </tr>
+          <tr class="row141">
+            <td class="column0 style9 s">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TOTAL :</td>
+            <td class="column1 style10 n">710</td>
+            <td class="column2 style10 n">0</td>
+            <td class="column3 style9 s"></td>
+            <td class="column4 style12 n">37615.96</td>
+          </tr>
+          <tr class="row142">
+            <td class="column0 style2 null style11" colspan="5"></td>
+          </tr>
+          <tr class="row143">
+            <td class="column0 style4 s style4" colspan="5">DASHMESH MEDICAL HALL JAGR JAGRAO-JAGRAON.</td>
+          </tr>
+          <tr class="row144">
+            <td class="column0 style5 s">GIFTAN-HC          10TAB</td>
+            <td class="column1 style6 n">10</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">25.37</td>
+            <td class="column4 style8 n">253.74</td>
+          </tr>
+          <tr class="row145">
+            <td class="column0 style7 s">H-VIT FORTE TABLET 10TAB</td>
+            <td class="column1 style6 n">5</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">66.88</td>
+            <td class="column4 style8 n">334.40</td>
+          </tr>
+          <tr class="row146">
+            <td class="column0 style5 s">H-VIT TAB          10TAB</td>
+            <td class="column1 style6 n">5</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">32.23</td>
+            <td class="column4 style8 n">161.17</td>
+          </tr>
+          <tr class="row147">
+            <td class="column0 style7 s">ISRYL M-2 FORTE TAB10TAB</td>
+            <td class="column1 style6 n">10</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">39.43</td>
+            <td class="column4 style8 n">394.34</td>
+          </tr>
+          <tr class="row148">
+            <td class="column0 style5 s">ISRYL-M 1          10TAB</td>
+            <td class="column1 style6 n">20</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">16.79</td>
+            <td class="column4 style8 n">335.73</td>
+          </tr>
+          <tr class="row149">
+            <td class="column0 style5 s">ITRASYS - 100 CAP  4CAP</td>
+            <td class="column1 style6 n">14</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">32.99</td>
+            <td class="column4 style8 n">461.91</td>
+          </tr>
+          <tr class="row150">
+            <td class="column0 style5 s">LEVOSIZ 5MG TAB    10TAB</td>
+            <td class="column1 style6 n">20</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">10.10</td>
+            <td class="column4 style8 n">201.97</td>
+          </tr>
+          <tr class="row151">
+            <td class="column0 style5 s">LEVOSIZ M TABLET   10TAB</td>
+            <td class="column1 style6 n">10</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">38.07</td>
+            <td class="column4 style8 n">380.66</td>
+          </tr>
+          <tr class="row152">
+            <td class="column0 style5 s">ME- PXL TAB        10TAB</td>
+            <td class="column1 style6 n">5</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">58.47</td>
+            <td class="column4 style8 n">292.36</td>
+          </tr>
+          <tr class="row153">
+            <td class="column0 style5 s">ME-12 INJ.         1ML</td>
+            <td class="column1 style6 n">12</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">15.65</td>
+            <td class="column4 style8 n">187.76</td>
+          </tr>
+          <tr class="row154">
+            <td class="column0 style5 s">ME-12 OD TAB       10TAB</td>
+            <td class="column1 style6 n">10</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">50.56</td>
+            <td class="column4 style8 n">505.59</td>
+          </tr>
+          <tr class="row155">
+            <td class="column0 style5 s">NORMAXIN RT        10CAP</td>
+            <td class="column1 style6 n">10</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">34.63</td>
+            <td class="column4 style8 n">346.27</td>
+          </tr>
+          <tr class="row156">
+            <td class="column0 style5 s">NORMAXIN TAB       10TAB</td>
+            <td class="column1 style6 n">20</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">13.54</td>
+            <td class="column4 style8 n">270.75</td>
+          </tr>
+          <tr class="row157">
+            <td class="column0 style5 s">PIO PLUS-1         10TAB</td>
+            <td class="column1 style6 n">10</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">40.62</td>
+            <td class="column4 style8 n">406.22</td>
+          </tr>
+          <tr class="row158">
+            <td class="column0 style5 s">PIO PLUS-2         10TAB</td>
+            <td class="column1 style6 n">25</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">53.90</td>
+            <td class="column4 style8 n">1347.57</td>
+          </tr>
+          <tr class="row159">
+            <td class="column0 style5 s">PIOSYS 30TAB       30TAB</td>
+            <td class="column1 style6 n">5</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">53.30</td>
+            <td class="column4 style8 n">266.52</td>
+          </tr>
+          <tr class="row160">
+            <td class="column0 style5 s">S-AMCARD 5MG TAB   10TAB</td>
+            <td class="column1 style6 n">10</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">16.45</td>
+            <td class="column4 style8 n">164.54</td>
+          </tr>
+          <tr class="row161">
+            <td class="column0 style5 s">TERBEST TAB        7TAB</td>
+            <td class="column1 style6 n">6</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">57.51</td>
+            <td class="column4 style8 n">345.08</td>
+          </tr>
+          <tr class="row162">
+            <td class="column0 style5 s">TOPINATE 30GM      5GM</td>
+            <td class="column1 style6 n">3</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">44.92</td>
+            <td class="column4 style8 n">134.75</td>
+          </tr>
+          <tr class="row163">
+            <td class="column0 style9 s">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TOTAL :</td>
+            <td class="column1 style10 n">210</td>
+            <td class="column2 style10 n">0</td>
+            <td class="column3 style9 s"></td>
+            <td class="column4 style12 n">6791.33</td>
+          </tr>
+          <tr class="row164">
+            <td class="column0 style2 null style11" colspan="5"></td>
+          </tr>
+          <tr class="row165">
+            <td class="column0 style4 s style4" colspan="5">DEEPAK MED HALL MOGA MOGA.-MOGA.</td>
+          </tr>
+          <tr class="row166">
+            <td class="column0 style5 s">AMCARD AT TAB      10TAB</td>
+            <td class="column1 style6 n">20</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">20.30</td>
+            <td class="column4 style8 n">406.04</td>
+          </tr>
+          <tr class="row167">
+            <td class="column0 style5 s">ITRASYS - 100 CAP  4CAP</td>
+            <td class="column1 style6 n">14</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">33.69</td>
+            <td class="column4 style8 n">471.63</td>
+          </tr>
+          <tr class="row168">
+            <td class="column0 style9 s">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TOTAL :</td>
+            <td class="column1 style10 n">34</td>
+            <td class="column2 style10 n">0</td>
+            <td class="column3 style9 s"></td>
+            <td class="column4 style12 n">877.67</td>
+          </tr>
+          <tr class="row169">
+            <td class="column0 style2 null style11" colspan="5"></td>
+          </tr>
+          <tr class="row170">
+            <td class="column0 style4 s style4" colspan="5">DHINGRA MEDICAL HALL DHAR DHAR-DHARAM KOT</td>
+          </tr>
+          <tr class="row171">
+            <td class="column0 style5 s">AMCARD AT TAB      10TAB</td>
+            <td class="column1 style6 n">5</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">20.30</td>
+            <td class="column4 style8 n">101.51</td>
+          </tr>
+          <tr class="row172">
+            <td class="column0 style9 s">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TOTAL :</td>
+            <td class="column1 style10 n">5</td>
+            <td class="column2 style10 n">0</td>
+            <td class="column3 style9 s"></td>
+            <td class="column4 style12 n">101.51</td>
+          </tr>
+          <tr class="row173">
+            <td class="column0 style2 null style11" colspan="5"></td>
+          </tr>
+          <tr class="row174">
+            <td class="column0 style4 s style4" colspan="5">DHIR MED HALL MOGA MOGA.-MOGA.</td>
+          </tr>
+          <tr class="row175">
+            <td class="column0 style5 s">AF-150             1TAB</td>
+            <td class="column1 style6 n">50</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">6.79</td>
+            <td class="column4 style8 n">339.62</td>
+          </tr>
+          <tr class="row176">
+            <td class="column0 style5 s">GIFTAN-50          10TAB</td>
+            <td class="column1 style6 n">5</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">20.23</td>
+            <td class="column4 style8 n">101.17</td>
+          </tr>
+          <tr class="row177">
+            <td class="column0 style5 s">ORVAS 10MG         10TAB</td>
+            <td class="column1 style6 n">20</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">12.67</td>
+            <td class="column4 style8 n">253.46</td>
+          </tr>
+          <tr class="row178">
+            <td class="column0 style5 s">TERBEST TAB        7TAB</td>
+            <td class="column1 style6 n">4</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">57.51</td>
+            <td class="column4 style8 n">230.05</td>
+          </tr>
+          <tr class="row179">
+            <td class="column0 style5 s">TOPINATE 30GM      5GM</td>
+            <td class="column1 style6 n">3</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">44.92</td>
+            <td class="column4 style8 n">134.75</td>
+          </tr>
+          <tr class="row180">
+            <td class="column0 style9 s">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TOTAL :</td>
+            <td class="column1 style10 n">82</td>
+            <td class="column2 style10 n">0</td>
+            <td class="column3 style9 s"></td>
+            <td class="column4 style12 n">1059.05</td>
+          </tr>
+          <tr class="row181">
+            <td class="column0 style2 null style11" colspan="5"></td>
+          </tr>
+          <tr class="row182">
+            <td class="column0 style4 s style4" colspan="5">DR. ANJU GARG MEDICAL STORE MOMOGA.-MOGA.</td>
+          </tr>
+          <tr class="row183">
+            <td class="column0 style5 s">NORMAXIN TAB       10TAB</td>
+            <td class="column1 style6 n">100</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">13.54</td>
+            <td class="column4 style8 n">1353.75</td>
+          </tr>
+          <tr class="row184">
+            <td class="column0 style9 s">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TOTAL :</td>
+            <td class="column1 style10 n">100</td>
+            <td class="column2 style10 n">0</td>
+            <td class="column3 style9 s"></td>
+            <td class="column4 style12 n">1353.75</td>
+          </tr>
+          <tr class="row185">
+            <td class="column0 style2 null style11" colspan="5"></td>
+          </tr>
+          <tr class="row186">
+            <td class="column0 style4 s style4" colspan="5">DR. LAL CHAND MED HALL MOGA MOGA.-MOGA.</td>
+          </tr>
+          <tr class="row187">
+            <td class="column0 style5 s">AMCARD 5MG         7TAB</td>
+            <td class="column1 style6 n">6</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">9.13</td>
+            <td class="column4 style8 n">54.80</td>
+          </tr>
+          <tr class="row188">
+            <td class="column0 style5 s">ORVAS 20MG         10TAB</td>
+            <td class="column1 style6 n">2</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">36.75</td>
+            <td class="column4 style8 n">73.50</td>
+          </tr>
+          <tr class="row189">
+            <td class="column0 style9 s">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TOTAL :</td>
+            <td class="column1 style10 n">8</td>
+            <td class="column2 style10 n">0</td>
+            <td class="column3 style9 s"></td>
+            <td class="column4 style12 n">128.30</td>
+          </tr>
+          <tr class="row190">
+            <td class="column0 style2 null style11" colspan="5"></td>
+          </tr>
+          <tr class="row191">
+            <td class="column0 style4 s style4" colspan="5">DR. PRABHA MITTAL MOGA.-MOGA.</td>
+          </tr>
+          <tr class="row192">
+            <td class="column0 style5 s">CYRA TAB           10TAB</td>
+            <td class="column1 style6 n">1000</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">14.53</td>
+            <td class="column4 style8 n">14530.60</td>
+          </tr>
+          <tr class="row193">
+            <td class="column0 style9 s">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TOTAL :</td>
+            <td class="column1 style10 n">1000</td>
+            <td class="column2 style10 n">0</td>
+            <td class="column3 style9 s"></td>
+            <td class="column4 style12 n">14530.60</td>
+          </tr>
+          <tr class="row194">
+            <td class="column0 style2 null style11" colspan="5"></td>
+          </tr>
+          <tr class="row195">
+            <td class="column0 style4 s style4" colspan="5">DR. SATYA PAL MITTAL HOSP. MOGMOGA.-MOGA.</td>
+          </tr>
+          <tr class="row196">
+            <td class="column0 style5 s">NORMAXIN TAB       10TAB</td>
+            <td class="column1 style6 n">100</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">13.82</td>
+            <td class="column4 style8 n">1382.25</td>
+          </tr>
+          <tr class="row197">
+            <td class="column0 style9 s">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TOTAL :</td>
+            <td class="column1 style10 n">100</td>
+            <td class="column2 style10 n">0</td>
+            <td class="column3 style9 s"></td>
+            <td class="column4 style12 n">1382.25</td>
+          </tr>
+          <tr class="row198">
+            <td class="column0 style2 null style11" colspan="5"></td>
+          </tr>
+          <tr class="row199">
+            <td class="column0 style4 s style4" colspan="5">EAK JOT MEDICOS MOGA MOGA.-MOGA.</td>
+          </tr>
+          <tr class="row200">
+            <td class="column0 style5 s">NAC PLUS           10TAB</td>
+            <td class="column1 style6 n">10</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">17.23</td>
+            <td class="column4 style8 n">172.27</td>
+          </tr>
+          <tr class="row201">
+            <td class="column0 style5 s">PIOSYS-15TAB       30TAB</td>
+            <td class="column1 style6 n">3</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">29.83</td>
+            <td class="column4 style8 n">89.48</td>
+          </tr>
+          <tr class="row202">
+            <td class="column0 style9 s">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TOTAL :</td>
+            <td class="column1 style10 n">13</td>
+            <td class="column2 style10 n">0</td>
+            <td class="column3 style9 s"></td>
+            <td class="column4 style12 n">261.75</td>
+          </tr>
+          <tr class="row203">
+            <td class="column0 style2 null style11" colspan="5"></td>
+          </tr>
+          <tr class="row204">
+            <td class="column0 style4 s style4" colspan="5">G.M.MED.STORE BAGA BA-BAGHA PURANA</td>
+          </tr>
+          <tr class="row205">
+            <td class="column0 style5 s">AMCARD AT TAB      10TAB</td>
+            <td class="column1 style6 n">10</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">19.78</td>
+            <td class="column4 style8 n">197.76</td>
+          </tr>
+          <tr class="row206">
+            <td class="column0 style5 s">CYMET ER-50        10TAB</td>
+            <td class="column1 style6 n">2</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">21.65</td>
+            <td class="column4 style8 n">43.30</td>
+          </tr>
+          <tr class="row207">
+            <td class="column0 style5 s">LEVOSIZ 5MG TAB    10TAB</td>
+            <td class="column1 style6 n">5</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">10.20</td>
+            <td class="column4 style8 n">51.02</td>
+          </tr>
+          <tr class="row208">
+            <td class="column0 style5 s">NORMAXIN TAB       10TAB</td>
+            <td class="column1 style6 n">20</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">13.68</td>
+            <td class="column4 style8 n">273.60</td>
+          </tr>
+          <tr class="row209">
+            <td class="column0 style5 s">ORVAS 20MG         10TAB</td>
+            <td class="column1 style6 n">10</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">35.66</td>
+            <td class="column4 style8 n">356.64</td>
+          </tr>
+          <tr class="row210">
+            <td class="column0 style7 s">TOPISAL - 3% LOTION50ML</td>
+            <td class="column1 style6 n">2</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">79.68</td>
+            <td class="column4 style8 n">159.36</td>
+          </tr>
+          <tr class="row211">
+            <td class="column0 style5 s">TOPISAL 3% OINT.   30GM</td>
+            <td class="column1 style6 n">2</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">60.29</td>
+            <td class="column4 style8 n">120.58</td>
+          </tr>
+          <tr class="row212">
+            <td class="column0 style9 s">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TOTAL :</td>
+            <td class="column1 style10 n">51</td>
+            <td class="column2 style10 n">0</td>
+            <td class="column3 style9 s"></td>
+            <td class="column4 style12 n">1202.26</td>
+          </tr>
+          <tr class="row213">
+            <td class="column0 style2 null style11" colspan="5"></td>
+          </tr>
+          <tr class="row214">
+            <td class="column0 style4 s style4" colspan="5">GAGAN MEDICAL HALL KOT KO-KOT ISE KHAN</td>
+          </tr>
+          <tr class="row215">
+            <td class="column0 style5 s">ORVAS 20MG         10TAB</td>
+            <td class="column1 style6 n">3</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">36.00</td>
+            <td class="column4 style8 n">108.00</td>
+          </tr>
+          <tr class="row216">
+            <td class="column0 style9 s">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TOTAL :</td>
+            <td class="column1 style10 n">3</td>
+            <td class="column2 style10 n">0</td>
+            <td class="column3 style9 s"></td>
+            <td class="column4 style12 n">108.00</td>
+          </tr>
+          <tr class="row217">
+            <td class="column0 style2 null style11" colspan="5"></td>
+          </tr>
+          <tr class="row218">
+            <td class="column0 style4 s style4" colspan="5">GALAXY MEDICOSE MOGA MOGA.-MOGA.</td>
+          </tr>
+          <tr class="row219">
+            <td class="column0 style5 s">PIO-M-15           10TAB</td>
+            <td class="column1 style6 n">3</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">39.20</td>
+            <td class="column4 style8 n">117.59</td>
+          </tr>
+          <tr class="row220">
+            <td class="column0 style9 s">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TOTAL :</td>
+            <td class="column1 style10 n">3</td>
+            <td class="column2 style10 n">0</td>
+            <td class="column3 style9 s"></td>
+            <td class="column4 style12 n">117.59</td>
+          </tr>
+          <tr class="row221">
+            <td class="column0 style2 null style11" colspan="5"></td>
+          </tr>
+          <tr class="row222">
+            <td class="column0 style4 s style4" colspan="5">GROVER MED STORE MOGA MOGA.-MOGA.</td>
+          </tr>
+          <tr class="row223">
+            <td class="column0 style5 s">AMCARD 2.5 MG *    10TAB</td>
+            <td class="column1 style6 n">10</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">6.31</td>
+            <td class="column4 style8 n">63.05</td>
+          </tr>
+          <tr class="row224">
+            <td class="column0 style5 s">CYRA-D  CAP        10CAP</td>
+            <td class="column1 style6 n">20</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">28.54</td>
+            <td class="column4 style8 n">570.74</td>
+          </tr>
+          <tr class="row225">
+            <td class="column0 style5 s">H-VIT TAB          10TAB</td>
+            <td class="column1 style6 n">5</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">32.91</td>
+            <td class="column4 style8 n">164.56</td>
+          </tr>
+          <tr class="row226">
+            <td class="column0 style5 s">ISRYL-M 2          10TAB</td>
+            <td class="column1 style6 n">10</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">25.72</td>
+            <td class="column4 style8 n">257.24</td>
+          </tr>
+          <tr class="row227">
+            <td class="column0 style5 s">NORMAXIN TAB       10TAB</td>
+            <td class="column1 style6 n">20</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">13.82</td>
+            <td class="column4 style8 n">276.45</td>
+          </tr>
+          <tr class="row228">
+            <td class="column0 style5 s">SYSTAFLAM GEL      25GM</td>
+            <td class="column1 style6 n">3</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">45.86</td>
+            <td class="column4 style8 n">137.58</td>
+          </tr>
+          <tr class="row229">
+            <td class="column0 style5 s">TERBEST TAB        7TAB</td>
+            <td class="column1 style6 n">4</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">58.73</td>
+            <td class="column4 style8 n">234.90</td>
+          </tr>
+          <tr class="row230">
+            <td class="column0 style9 s">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TOTAL :</td>
+            <td class="column1 style10 n">72</td>
+            <td class="column2 style10 n">0</td>
+            <td class="column3 style9 s"></td>
+            <td class="column4 style12 n">1704.52</td>
+          </tr>
+          <tr class="row231">
+            <td class="column0 style2 null style11" colspan="5"></td>
+          </tr>
+          <tr class="row232">
+            <td class="column0 style4 s style4" colspan="5">GROVER MEDICAL AGENCY ZIRA-ZIRA</td>
+          </tr>
+          <tr class="row233">
+            <td class="column0 style5 s">CYRA TAB           10TAB</td>
+            <td class="column1 style6 n">10</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">14.38</td>
+            <td class="column4 style8 n">143.81</td>
+          </tr>
+          <tr class="row234">
+            <td class="column0 style5 s">NORMAXIN TAB       10TAB</td>
+            <td class="column1 style6 n">80</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">13.68</td>
+            <td class="column4 style8 n">1094.40</td>
+          </tr>
+          <tr class="row235">
+            <td class="column0 style5 s">PIOSYS-15TAB       30TAB</td>
+            <td class="column1 style6 n">5</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">29.52</td>
+            <td class="column4 style8 n">147.60</td>
+          </tr>
+          <tr class="row236">
+            <td class="column0 style9 s">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TOTAL :</td>
+            <td class="column1 style10 n">95</td>
+            <td class="column2 style10 n">0</td>
+            <td class="column3 style9 s"></td>
+            <td class="column4 style12 n">1385.81</td>
+          </tr>
+          <tr class="row237">
+            <td class="column0 style2 null style11" colspan="5"></td>
+          </tr>
+          <tr class="row238">
+            <td class="column0 style4 s style4" colspan="5">GURU NANAK MEDICAL STORE KISH KIS-KISHAN PURA</td>
+          </tr>
+          <tr class="row239">
+            <td class="column0 style5 s">AMCARD AT TAB      10TAB</td>
+            <td class="column1 style6 n">5</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">20.93</td>
+            <td class="column4 style8 n">104.65</td>
+          </tr>
+          <tr class="row240">
+            <td class="column0 style9 s">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TOTAL :</td>
+            <td class="column1 style10 n">5</td>
+            <td class="column2 style10 n">0</td>
+            <td class="column3 style9 s"></td>
+            <td class="column4 style12 n">104.65</td>
+          </tr>
+          <tr class="row241">
+            <td class="column0 style2 null style11" colspan="5"></td>
+          </tr>
+          <tr class="row242">
+            <td class="column0 style4 s style4" colspan="5">GURU NANAK MEDICAL STORE MEHNA-MEHNA</td>
+          </tr>
+          <tr class="row243">
+            <td class="column0 style5 s">AF-150             1TAB</td>
+            <td class="column1 style6 n">50</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">7.01</td>
+            <td class="column4 style8 n">350.35</td>
+          </tr>
+          <tr class="row244">
+            <td class="column0 style5 s">AF-200 TABLET      1TAB</td>
+            <td class="column1 style6 n">20</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">8.85</td>
+            <td class="column4 style8 n">176.99</td>
+          </tr>
+          <tr class="row245">
+            <td class="column0 style5 s">AF-400             1TAB</td>
+            <td class="column1 style6 n">10</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">16.59</td>
+            <td class="column4 style8 n">165.91</td>
+          </tr>
+          <tr class="row246">
+            <td class="column0 style7 s">DAILYSHINE 60K TABL4TAB</td>
+            <td class="column1 style6 n">1</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">56.50</td>
+            <td class="column4 style8 n">56.50</td>
+          </tr>
+          <tr class="row247">
+            <td class="column0 style5 s">NORMAXIN TAB       10TAB</td>
+            <td class="column1 style6 n">20</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">13.97</td>
+            <td class="column4 style8 n">279.30</td>
+          </tr>
+          <tr class="row248">
+            <td class="column0 style9 s">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TOTAL :</td>
+            <td class="column1 style10 n">101</td>
+            <td class="column2 style10 n">0</td>
+            <td class="column3 style9 s"></td>
+            <td class="column4 style12 n">1029.05</td>
+          </tr>
+          <tr class="row249">
+            <td class="column0 style2 null style11" colspan="5"></td>
+          </tr>
+          <tr class="row250">
+            <td class="column0 style4 s style4" colspan="5">HARWARD MEDICAL CENTRE MOGA MOGA.-MOGA.</td>
+          </tr>
+          <tr class="row251">
+            <td class="column0 style5 s">PIOSYS 30TAB       30TAB</td>
+            <td class="column1 style6 n">5</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">54.43</td>
+            <td class="column4 style8 n">272.13</td>
+          </tr>
+          <tr class="row252">
+            <td class="column0 style5 s">PIOSYS-15TAB       30TAB</td>
+            <td class="column1 style6 n">5</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">29.83</td>
+            <td class="column4 style8 n">149.14</td>
+          </tr>
+          <tr class="row253">
+            <td class="column0 style9 s">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TOTAL :</td>
+            <td class="column1 style10 n">10</td>
+            <td class="column2 style10 n">0</td>
+            <td class="column3 style9 s"></td>
+            <td class="column4 style12 n">421.27</td>
+          </tr>
+          <tr class="row254">
+            <td class="column0 style2 null style11" colspan="5"></td>
+          </tr>
+          <tr class="row255">
+            <td class="column0 style4 s style4" colspan="5">INDER MEDICINE CORNER MAKH MAKHU-MAKHU</td>
+          </tr>
+          <tr class="row256">
+            <td class="column0 style5 s">AMCARD AT TAB      10TAB</td>
+            <td class="column1 style6 n">5</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">20.30</td>
+            <td class="column4 style8 n">101.51</td>
+          </tr>
+          <tr class="row257">
+            <td class="column0 style9 s">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TOTAL :</td>
+            <td class="column1 style10 n">5</td>
+            <td class="column2 style10 n">0</td>
+            <td class="column3 style9 s"></td>
+            <td class="column4 style12 n">101.51</td>
+          </tr>
+          <tr class="row258">
+            <td class="column0 style2 null style11" colspan="5"></td>
+          </tr>
+          <tr class="row259">
+            <td class="column0 style4 s style4" colspan="5">JAI KRISHAN MEDICAL STORE BA-BADHNI KALAN</td>
+          </tr>
+          <tr class="row260">
+            <td class="column0 style5 s">AMCARD AT TAB      10TAB</td>
+            <td class="column1 style6 n">20</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">20.30</td>
+            <td class="column4 style8 n">406.04</td>
+          </tr>
+          <tr class="row261">
+            <td class="column0 style5 s">SYSRON-N TAB       10TAB</td>
+            <td class="column1 style6 n">3</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">30.98</td>
+            <td class="column4 style8 n">92.95</td>
+          </tr>
+          <tr class="row262">
+            <td class="column0 style9 s">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TOTAL :</td>
+            <td class="column1 style10 n">23</td>
+            <td class="column2 style10 n">0</td>
+            <td class="column3 style9 s"></td>
+            <td class="column4 style12 n">498.99</td>
+          </tr>
+          <tr class="row263">
+            <td class="column0 style2 null style11" colspan="5"></td>
+          </tr>
+          <tr class="row264">
+            <td class="column0 style4 s style4" colspan="5">JAIN MED STORE NIHA-NIHAL SINGH WAL</td>
+          </tr>
+          <tr class="row265">
+            <td class="column0 style5 s">AMCARD AT TAB      10TAB</td>
+            <td class="column1 style6 n">10</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">20.30</td>
+            <td class="column4 style8 n">203.02</td>
+          </tr>
+          <tr class="row266">
+            <td class="column0 style5 s">NORMAXIN TAB       10TAB</td>
+            <td class="column1 style6 n">20</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">13.82</td>
+            <td class="column4 style8 n">276.45</td>
+          </tr>
+          <tr class="row267">
+            <td class="column0 style9 s">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TOTAL :</td>
+            <td class="column1 style10 n">30</td>
+            <td class="column2 style10 n">0</td>
+            <td class="column3 style9 s"></td>
+            <td class="column4 style12 n">479.47</td>
+          </tr>
+          <tr class="row268">
+            <td class="column0 style2 null style11" colspan="5"></td>
+          </tr>
+          <tr class="row269">
+            <td class="column0 style4 s style4" colspan="5">JATINDRA MEDICAL HALL NIHA-NIHAL SINGH WAL</td>
+          </tr>
+          <tr class="row270">
+            <td class="column0 style5 s">ME-12 OD TAB       10TAB</td>
+            <td class="column1 style6 n">10</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">51.62</td>
+            <td class="column4 style8 n">516.23</td>
+          </tr>
+          <tr class="row271">
+            <td class="column0 style5 s">TOPISAL 3% OINT.   30GM</td>
+            <td class="column1 style6 n">3</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">61.34</td>
+            <td class="column4 style8 n">184.03</td>
+          </tr>
+          <tr class="row272">
+            <td class="column0 style9 s">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TOTAL :</td>
+            <td class="column1 style10 n">13</td>
+            <td class="column2 style10 n">0</td>
+            <td class="column3 style9 s"></td>
+            <td class="column4 style12 n">700.26</td>
+          </tr>
+          <tr class="row273">
+            <td class="column0 style2 null style11" colspan="5"></td>
+          </tr>
+          <tr class="row274">
+            <td class="column0 style4 s style4" colspan="5">JINDAL MED HALL MOGA MOGA.-MOGA.</td>
+          </tr>
+          <tr class="row275">
+            <td class="column0 style5 s">ACNESOL GEL        20GM</td>
+            <td class="column1 style6 n">3</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">50.49</td>
+            <td class="column4 style8 n">151.46</td>
+          </tr>
+          <tr class="row276">
+            <td class="column0 style5 s">AF-200 TABLET      1TAB</td>
+            <td class="column1 style6 n">20</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">8.67</td>
+            <td class="column4 style8 n">173.38</td>
+          </tr>
+          <tr class="row277">
+            <td class="column0 style5 s">AMACE TAB          10TAB</td>
+            <td class="column1 style6 n">10</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">41.91</td>
+            <td class="column4 style8 n">419.14</td>
+          </tr>
+          <tr class="row278">
+            <td class="column0 style5 s">AMCARD 2.5 MG *    10TAB</td>
+            <td class="column1 style6 n">10</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">6.31</td>
+            <td class="column4 style8 n">63.05</td>
+          </tr>
+          <tr class="row279">
+            <td class="column0 style5 s">AMCARD 5MG         7TAB</td>
+            <td class="column1 style6 n">20</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">8.95</td>
+            <td class="column4 style8 n">178.94</td>
+          </tr>
+          <tr class="row280">
+            <td class="column0 style5 s">AMCARD AT TAB      10TAB</td>
+            <td class="column1 style6 n">40</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">20.09</td>
+            <td class="column4 style8 n">803.72</td>
+          </tr>
+          <tr class="row281">
+            <td class="column0 style5 s">CYRA - LS TABLET   10TAB</td>
+            <td class="column1 style6 n">5</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">68.40</td>
+            <td class="column4 style8 n">342.00</td>
+          </tr>
+          <tr class="row282">
+            <td class="column0 style5 s">CYRA TAB           10TAB</td>
+            <td class="column1 style6 n">10</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">14.38</td>
+            <td class="column4 style8 n">143.81</td>
+          </tr>
+          <tr class="row283">
+            <td class="column0 style5 s">CYRA-D  CAP        10CAP</td>
+            <td class="column1 style6 n">40</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">28.24</td>
+            <td class="column4 style8 n">1129.72</td>
+          </tr>
+          <tr class="row284">
+            <td class="column0 style5 s">DAILYCAL-500MG     15TAB</td>
+            <td class="column1 style6 n">6</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">27.36</td>
+            <td class="column4 style8 n">164.16</td>
+          </tr>
+          <tr class="row285">
+            <td class="column0 style5 s">GIFTAN 25MG TAB    10TAB</td>
+            <td class="column1 style6 n">5</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">10.64</td>
+            <td class="column4 style8 n">53.18</td>
+          </tr>
+          <tr class="row286">
+            <td class="column0 style7 s">H-VIT FORTE TABLET 10TAB</td>
+            <td class="column1 style6 n">5</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">67.58</td>
+            <td class="column4 style8 n">337.92</td>
+          </tr>
+          <tr class="row287">
+            <td class="column0 style5 s">H-VIT TAB          10TAB</td>
+            <td class="column1 style6 n">5</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">32.57</td>
+            <td class="column4 style8 n">162.86</td>
+          </tr>
+          <tr class="row288">
+            <td class="column0 style5 s">ISRYL-M 1          10TAB</td>
+            <td class="column1 style6 n">10</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">16.96</td>
+            <td class="column4 style8 n">169.63</td>
+          </tr>
+          <tr class="row289">
+            <td class="column0 style5 s">ISRYL-M 2          10TAB</td>
+            <td class="column1 style6 n">5</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">25.46</td>
+            <td class="column4 style8 n">127.30</td>
+          </tr>
+          <tr class="row290">
+            <td class="column0 style5 s">ITRASYS - 200 CAP  1STRIP</td>
+            <td class="column1 style6 n">14</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">31.55</td>
+            <td class="column4 style8 n">441.64</td>
+          </tr>
+          <tr class="row291">
+            <td class="column0 style5 s">L-SYS 10GM         10GM</td>
+            <td class="column1 style6 n">3</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">66.00</td>
+            <td class="column4 style8 n">198.00</td>
+          </tr>
+          <tr class="row292">
+            <td class="column0 style5 s">LEVOSIZ M TABLET   10TAB</td>
+            <td class="column1 style6 n">5</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">38.47</td>
+            <td class="column4 style8 n">192.34</td>
+          </tr>
+          <tr class="row293">
+            <td class="column0 style5 s">ME-12 INJ.         1ML</td>
+            <td class="column1 style6 n">6</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">15.81</td>
+            <td class="column4 style8 n">94.87</td>
+          </tr>
+          <tr class="row294">
+            <td class="column0 style5 s">NAC SR 100         10TAB</td>
+            <td class="column1 style6 n">10</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">27.97</td>
+            <td class="column4 style8 n">279.65</td>
+          </tr>
+          <tr class="row295">
+            <td class="column0 style5 s">NEWTEL AM TABLET   10TAB</td>
+            <td class="column1 style6 n">10</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">31.61</td>
+            <td class="column4 style8 n">316.13</td>
+          </tr>
+          <tr class="row296">
+            <td class="column0 style5 s">NEWTEL-40          14TAB</td>
+            <td class="column1 style6 n">10</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">24.75</td>
+            <td class="column4 style8 n">247.54</td>
+          </tr>
+          <tr class="row297">
+            <td class="column0 style5 s">NEWTEL-H-40        14TAB</td>
+            <td class="column1 style6 n">10</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">28.14</td>
+            <td class="column4 style8 n">281.38</td>
+          </tr>
+          <tr class="row298">
+            <td class="column0 style5 s">NORMAXIN RT        10CAP</td>
+            <td class="column1 style6 n">5</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">34.99</td>
+            <td class="column4 style8 n">174.96</td>
+          </tr>
+          <tr class="row299">
+            <td class="column0 style5 s">NORMAXIN TAB       10TAB</td>
+            <td class="column1 style6 n">20</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">13.68</td>
+            <td class="column4 style8 n">273.60</td>
+          </tr>
+          <tr class="row300">
+            <td class="column0 style5 s">ORVAS 10MG         10TAB</td>
+            <td class="column1 style6 n">40</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">12.81</td>
+            <td class="column4 style8 n">512.26</td>
+          </tr>
+          <tr class="row301">
+            <td class="column0 style5 s">ORVAS 20MG         10TAB</td>
+            <td class="column1 style6 n">30</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">36.00</td>
+            <td class="column4 style8 n">1080.00</td>
+          </tr>
+          <tr class="row302">
+            <td class="column0 style5 s">ORVAS EZ TABLET    10TAB</td>
+            <td class="column1 style6 n">5</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">52.20</td>
+            <td class="column4 style8 n">261.02</td>
+          </tr>
+          <tr class="row303">
+            <td class="column0 style5 s">PIO PLUS-1         10TAB</td>
+            <td class="column1 style6 n">5</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">41.05</td>
+            <td class="column4 style8 n">205.25</td>
+          </tr>
+          <tr class="row304">
+            <td class="column0 style5 s">PIO-M-30 TAB       10TAB</td>
+            <td class="column1 style6 n">6</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">55.60</td>
+            <td class="column4 style8 n">333.62</td>
+          </tr>
+          <tr class="row305">
+            <td class="column0 style5 s">SYSRON-N TAB       10TAB</td>
+            <td class="column1 style6 n">10</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">30.66</td>
+            <td class="column4 style8 n">306.62</td>
+          </tr>
+          <tr class="row306">
+            <td class="column0 style5 s">TOPINATE 30GM      5GM</td>
+            <td class="column1 style6 n">2</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">45.39</td>
+            <td class="column4 style8 n">90.78</td>
+          </tr>
+          <tr class="row307">
+            <td class="column0 style9 s">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TOTAL :</td>
+            <td class="column1 style10 n">385</td>
+            <td class="column2 style10 n">0</td>
+            <td class="column3 style9 s"></td>
+            <td class="column4 style12 n">9709.93</td>
+          </tr>
+          <tr class="row308">
+            <td class="column0 style2 null style11" colspan="5"></td>
+          </tr>
+          <tr class="row309">
+            <td class="column0 style4 s style4" colspan="5">KAMAL MEDICAL HALL AJIT AJITWAL-AJITWAL</td>
+          </tr>
+          <tr class="row310">
+            <td class="column0 style5 s">CYRA-D  CAP        10CAP</td>
+            <td class="column1 style6 n">10</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">28.83</td>
+            <td class="column4 style8 n">288.32</td>
+          </tr>
+          <tr class="row311">
+            <td class="column0 style5 s">ME-12 INJ.         1ML</td>
+            <td class="column1 style6 n">6</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">16.14</td>
+            <td class="column4 style8 n">96.84</td>
+          </tr>
+          <tr class="row312">
+            <td class="column0 style9 s">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TOTAL :</td>
+            <td class="column1 style10 n">16</td>
+            <td class="column2 style10 n">0</td>
+            <td class="column3 style9 s"></td>
+            <td class="column4 style12 n">385.16</td>
+          </tr>
+          <tr class="row313">
+            <td class="column0 style2 null style11" colspan="5"></td>
+          </tr>
+          <tr class="row314">
+            <td class="column0 style4 s style4" colspan="5">KATARIA MED STORE MOGA MOGA.-MOGA.</td>
+          </tr>
+          <tr class="row315">
+            <td class="column0 style5 s">NORMAXIN RT        10CAP</td>
+            <td class="column1 style6 n">5</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">35.36</td>
+            <td class="column4 style8 n">176.78</td>
+          </tr>
+          <tr class="row316">
+            <td class="column0 style9 s">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TOTAL :</td>
+            <td class="column1 style10 n">5</td>
+            <td class="column2 style10 n">0</td>
+            <td class="column3 style9 s"></td>
+            <td class="column4 style12 n">176.78</td>
+          </tr>
+          <tr class="row317">
+            <td class="column0 style2 null style11" colspan="5"></td>
+          </tr>
+          <tr class="row318">
+            <td class="column0 style4 s style4" colspan="5">KHURANA MED STORE MAKH MAKHU-MAKHU</td>
+          </tr>
+          <tr class="row319">
+            <td class="column0 style5 s">ACNESOL GEL        20GM</td>
+            <td class="column1 style6 n">3</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">51.01</td>
+            <td class="column4 style8 n">153.04</td>
+          </tr>
+          <tr class="row320">
+            <td class="column0 style7 s">TOPISAL - 3% LOTION50ML</td>
+            <td class="column1 style6 n">2</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">80.51</td>
+            <td class="column4 style8 n">161.02</td>
+          </tr>
+          <tr class="row321">
+            <td class="column0 style5 s">TOPISAL LOTION 6%  30ML</td>
+            <td class="column1 style6 n">2</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">61.08</td>
+            <td class="column4 style8 n">122.16</td>
+          </tr>
+          <tr class="row322">
+            <td class="column0 style9 s">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TOTAL :</td>
+            <td class="column1 style10 n">7</td>
+            <td class="column2 style10 n">0</td>
+            <td class="column3 style9 s"></td>
+            <td class="column4 style12 n">436.22</td>
+          </tr>
+          <tr class="row323">
+            <td class="column0 style2 null style11" colspan="5"></td>
+          </tr>
+          <tr class="row324">
+            <td class="column0 style4 s style4" colspan="5">MITTAL MED STORE MOGA MOGA.-MOGA.</td>
+          </tr>
+          <tr class="row325">
+            <td class="column0 style5 s">AMCARD 5MG         7TAB</td>
+            <td class="column1 style6 n">4</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">9.04</td>
+            <td class="column4 style8 n">36.16</td>
+          </tr>
+          <tr class="row326">
+            <td class="column0 style5 s">CYRA-D  CAP        10CAP</td>
+            <td class="column1 style6 n">2</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">28.54</td>
+            <td class="column4 style8 n">57.07</td>
+          </tr>
+          <tr class="row327">
+            <td class="column0 style5 s">ETOSYS TAB         10TAB</td>
+            <td class="column1 style6 n">3</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">104.49</td>
+            <td class="column4 style8 n">313.47</td>
+          </tr>
+          <tr class="row328">
+            <td class="column0 style5 s">ME-12 OD TAB       10TAB</td>
+            <td class="column1 style6 n">1</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">51.62</td>
+            <td class="column4 style8 n">51.62</td>
+          </tr>
+          <tr class="row329">
+            <td class="column0 style5 s">ORVAS 20MG         10TAB</td>
+            <td class="column1 style6 n">5</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">36.37</td>
+            <td class="column4 style8 n">181.87</td>
+          </tr>
+          <tr class="row330">
+            <td class="column0 style5 s">TOPISAL 6% OINT.   30GM</td>
+            <td class="column1 style6 n">1</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">69.14</td>
+            <td class="column4 style8 n">69.14</td>
+          </tr>
+          <tr class="row331">
+            <td class="column0 style9 s">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TOTAL :</td>
+            <td class="column1 style10 n">16</td>
+            <td class="column2 style10 n">0</td>
+            <td class="column3 style9 s"></td>
+            <td class="column4 style12 n">709.33</td>
+          </tr>
+          <tr class="row332">
+            <td class="column0 style2 null style11" colspan="5"></td>
+          </tr>
+          <tr class="row333">
+            <td class="column0 style4 s style4" colspan="5">MITTAL MEDICAL HALL MOGA MOGA.-MOGA.</td>
+          </tr>
+          <tr class="row334">
+            <td class="column0 style5 s">AF-400             1TAB</td>
+            <td class="column1 style6 n">120</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">16.35</td>
+            <td class="column4 style8 n">1962.50</td>
+          </tr>
+          <tr class="row335">
+            <td class="column0 style5 s">AF-KIT             1KIT</td>
+            <td class="column1 style6 n">3</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">63.01</td>
+            <td class="column4 style8 n">189.03</td>
+          </tr>
+          <tr class="row336">
+            <td class="column0 style5 s">AMCARD AT TAB      10TAB</td>
+            <td class="column1 style6 n">20</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">20.30</td>
+            <td class="column4 style8 n">406.04</td>
+          </tr>
+          <tr class="row337">
+            <td class="column0 style5 s">CYRA - LS TABLET   10TAB</td>
+            <td class="column1 style6 n">2</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">69.11</td>
+            <td class="column4 style8 n">138.22</td>
+          </tr>
+          <tr class="row338">
+            <td class="column0 style5 s">CYRA-D  CAP        10CAP</td>
+            <td class="column1 style6 n">10</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">28.54</td>
+            <td class="column4 style8 n">285.37</td>
+          </tr>
+          <tr class="row339">
+            <td class="column0 style5 s">ISRYL-1            10TAB</td>
+            <td class="column1 style6 n">5</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">10.16</td>
+            <td class="column4 style8 n">50.78</td>
+          </tr>
+          <tr class="row340">
+            <td class="column0 style5 s">ITRASYS - 100 CAP  4CAP</td>
+            <td class="column1 style6 n">7</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">33.69</td>
+            <td class="column4 style8 n">235.82</td>
+          </tr>
+          <tr class="row341">
+            <td class="column0 style5 s">ME-12 OD TAB       10TAB</td>
+            <td class="column1 style6 n">15</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">51.62</td>
+            <td class="column4 style8 n">774.35</td>
+          </tr>
+          <tr class="row342">
+            <td class="column0 style5 s">NAC SR 75MG        10TAB</td>
+            <td class="column1 style6 n">5</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">24.15</td>
+            <td class="column4 style8 n">120.76</td>
+          </tr>
+          <tr class="row343">
+            <td class="column0 style5 s">NEWTEL AM TABLET   10TAB</td>
+            <td class="column1 style6 n">3</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">31.94</td>
+            <td class="column4 style8 n">95.83</td>
+          </tr>
+          <tr class="row344">
+            <td class="column0 style5 s">NEWTEL-40          14TAB</td>
+            <td class="column1 style6 n">8</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">24.75</td>
+            <td class="column4 style8 n">198.03</td>
+          </tr>
+          <tr class="row345">
+            <td class="column0 style5 s">NEWTEL-H-40        14TAB</td>
+            <td class="column1 style6 n">6</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">28.43</td>
+            <td class="column4 style8 n">170.58</td>
+          </tr>
+          <tr class="row346">
+            <td class="column0 style5 s">NORMAXIN RT        10CAP</td>
+            <td class="column1 style6 n">3</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">35.36</td>
+            <td class="column4 style8 n">106.07</td>
+          </tr>
+          <tr class="row347">
+            <td class="column0 style5 s">ORVAS 20MG         10TAB</td>
+            <td class="column1 style6 n">10</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">36.38</td>
+            <td class="column4 style8 n">363.75</td>
+          </tr>
+          <tr class="row348">
+            <td class="column0 style5 s">PIO-M-15           10TAB</td>
+            <td class="column1 style6 n">4</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">39.20</td>
+            <td class="column4 style8 n">156.79</td>
+          </tr>
+          <tr class="row349">
+            <td class="column0 style5 s">PIO-M-30 TAB       10TAB</td>
+            <td class="column1 style6 n">3</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">56.18</td>
+            <td class="column4 style8 n">168.55</td>
+          </tr>
+          <tr class="row350">
+            <td class="column0 style5 s">SYSFOL- ACTIV      10TAB</td>
+            <td class="column1 style6 n">3</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">59.53</td>
+            <td class="column4 style8 n">178.59</td>
+          </tr>
+          <tr class="row351">
+            <td class="column0 style5 s">TOPINATE 30GM      5GM</td>
+            <td class="column1 style6 n">5</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">45.86</td>
+            <td class="column4 style8 n">229.30</td>
+          </tr>
+          <tr class="row352">
+            <td class="column0 style5 s">TOPISAL 6% OINT.   30GM</td>
+            <td class="column1 style6 n">6</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">69.14</td>
+            <td class="column4 style8 n">414.84</td>
+          </tr>
+          <tr class="row353">
+            <td class="column0 style9 s">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TOTAL :</td>
+            <td class="column1 style10 n">238</td>
+            <td class="column2 style10 n">0</td>
+            <td class="column3 style9 s"></td>
+            <td class="column4 style12 n">6245.20</td>
+          </tr>
+          <tr class="row354">
+            <td class="column0 style2 null style11" colspan="5"></td>
+          </tr>
+          <tr class="row355">
+            <td class="column0 style4 s style4" colspan="5">N. K. MEDICOSE MOGA.-MOGA.</td>
+          </tr>
+          <tr class="row356">
+            <td class="column0 style5 s">AF-400             1TAB</td>
+            <td class="column1 style6 n">30</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">16.35</td>
+            <td class="column4 style8 n">490.63</td>
+          </tr>
+          <tr class="row357">
+            <td class="column0 style5 s">ANALIV -500MG      10TAB</td>
+            <td class="column1 style6 n">100</td>
+            <td class="column2 style6 n">20</td>
+            <td class="column3 style8 n">94.36</td>
+            <td class="column4 style8 n">9436.16</td>
+          </tr>
+          <tr class="row358">
+            <td class="column0 style5 s">ANALIV TAB 250MG   10TAB</td>
+            <td class="column1 style6 n">10</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">51.10</td>
+            <td class="column4 style8 n">511.00</td>
+          </tr>
+          <tr class="row359">
+            <td class="column0 style7 s">ISRYL M-2 FORTE TAB10TAB</td>
+            <td class="column1 style6 n">100</td>
+            <td class="column2 style6 n">20</td>
+            <td class="column3 style8 n">40.26</td>
+            <td class="column4 style8 n">4026.47</td>
+          </tr>
+          <tr class="row360">
+            <td class="column0 style5 s">ISRYL-M 1          10TAB</td>
+            <td class="column1 style6 n">25</td>
+            <td class="column2 style6 n">5</td>
+            <td class="column3 style8 n">17.14</td>
+            <td class="column4 style8 n">428.50</td>
+          </tr>
+          <tr class="row361">
+            <td class="column0 style9 s">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TOTAL :</td>
+            <td class="column1 style10 n">265</td>
+            <td class="column2 style10 n">45</td>
+            <td class="column3 style9 s"></td>
+            <td class="column4 style12 n">14892.76</td>
+          </tr>
+          <tr class="row362">
+            <td class="column0 style2 null style11" colspan="5"></td>
+          </tr>
+          <tr class="row363">
+            <td class="column0 style4 s style4" colspan="5">NARESH DRUG HOUSE ZIRA-ZIRA</td>
+          </tr>
+          <tr class="row364">
+            <td class="column0 style5 s">CYRA-D  CAP        10CAP</td>
+            <td class="column1 style6 n">2</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">28.54</td>
+            <td class="column4 style8 n">57.07</td>
+          </tr>
+          <tr class="row365">
+            <td class="column0 style5 s">NORMAXIN RT        10CAP</td>
+            <td class="column1 style6 n">2</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">35.36</td>
+            <td class="column4 style8 n">70.71</td>
+          </tr>
+          <tr class="row366">
+            <td class="column0 style9 s">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TOTAL :</td>
+            <td class="column1 style10 n">4</td>
+            <td class="column2 style10 n">0</td>
+            <td class="column3 style9 s"></td>
+            <td class="column4 style12 n">127.78</td>
+          </tr>
+          <tr class="row367">
+            <td class="column0 style2 null style11" colspan="5"></td>
+          </tr>
+          <tr class="row368">
+            <td class="column0 style4 s style4" colspan="5">NATIONAL MED STORE MOGA MOGA.-MOGA.</td>
+          </tr>
+          <tr class="row369">
+            <td class="column0 style5 s">FLUTOPIC 10GM      10GM</td>
+            <td class="column1 style6 n">1</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">39.26</td>
+            <td class="column4 style8 n">39.26</td>
+          </tr>
+          <tr class="row370">
+            <td class="column0 style9 s">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TOTAL :</td>
+            <td class="column1 style10 n">1</td>
+            <td class="column2 style10 n">0</td>
+            <td class="column3 style9 s"></td>
+            <td class="column4 style12 n">39.26</td>
+          </tr>
+          <tr class="row371">
+            <td class="column0 style2 null style11" colspan="5"></td>
+          </tr>
+          <tr class="row372">
+            <td class="column0 style4 s style4" colspan="5">NEW MEDICOSE KOT KO-KOT ISE KHAN</td>
+          </tr>
+          <tr class="row373">
+            <td class="column0 style5 s">CYRA-D  CAP        10CAP</td>
+            <td class="column1 style6 n">10</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">28.54</td>
+            <td class="column4 style8 n">285.37</td>
+          </tr>
+          <tr class="row374">
+            <td class="column0 style9 s">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TOTAL :</td>
+            <td class="column1 style10 n">10</td>
+            <td class="column2 style10 n">0</td>
+            <td class="column3 style9 s"></td>
+            <td class="column4 style12 n">285.37</td>
+          </tr>
+          <tr class="row375">
+            <td class="column0 style2 null style11" colspan="5"></td>
+          </tr>
+          <tr class="row376">
+            <td class="column0 style4 s style4" colspan="5">NEW SIDHU MEDICAL STORE DODH DODHAR-DODHAR</td>
+          </tr>
+          <tr class="row377">
+            <td class="column0 style5 s">AMCARD AT TAB      10TAB</td>
+            <td class="column1 style6 n">20</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">20.30</td>
+            <td class="column4 style8 n">406.04</td>
+          </tr>
+          <tr class="row378">
+            <td class="column0 style5 s">KINETO-DP          10TAB</td>
+            <td class="column1 style6 n">5</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">53.65</td>
+            <td class="column4 style8 n">268.25</td>
+          </tr>
+          <tr class="row379">
+            <td class="column0 style9 s">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TOTAL :</td>
+            <td class="column1 style10 n">25</td>
+            <td class="column2 style10 n">0</td>
+            <td class="column3 style9 s"></td>
+            <td class="column4 style12 n">674.29</td>
+          </tr>
+          <tr class="row380">
+            <td class="column0 style2 null style11" colspan="5"></td>
+          </tr>
+          <tr class="row381">
+            <td class="column0 style4 s style4" colspan="5">OM PARKASH GARG MEDICOS BAGA BA-BAGHA PURANA</td>
+          </tr>
+          <tr class="row382">
+            <td class="column0 style5 s">CYRA-D  CAP        10CAP</td>
+            <td class="column1 style6 n">10</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">26.94</td>
+            <td class="column4 style8 n">269.35</td>
+          </tr>
+          <tr class="row383">
+            <td class="column0 style5 s">ISRYL-M 1          10TAB</td>
+            <td class="column1 style6 n">2</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">15.90</td>
+            <td class="column4 style8 n">31.79</td>
+          </tr>
+          <tr class="row384">
+            <td class="column0 style5 s">ISRYL-M 2          10TAB</td>
+            <td class="column1 style6 n">5</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">24.24</td>
+            <td class="column4 style8 n">121.18</td>
+          </tr>
+          <tr class="row385">
+            <td class="column0 style5 s">ORVAS 20MG         10TAB</td>
+            <td class="column1 style6 n">5</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">34.43</td>
+            <td class="column4 style8 n">172.16</td>
+          </tr>
+          <tr class="row386">
+            <td class="column0 style9 s">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TOTAL :</td>
+            <td class="column1 style10 n">22</td>
+            <td class="column2 style10 n">0</td>
+            <td class="column3 style9 s"></td>
+            <td class="column4 style12 n">594.48</td>
+          </tr>
+          <tr class="row387">
+            <td class="column0 style2 null style11" colspan="5"></td>
+          </tr>
+          <tr class="row388">
+            <td class="column0 style4 s style4" colspan="5">PARAS MEDICAL HALL MOGA MOGA.-MOGA.</td>
+          </tr>
+          <tr class="row389">
+            <td class="column0 style5 s">AMCARD AT TAB      10TAB</td>
+            <td class="column1 style6 n">5</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">20.30</td>
+            <td class="column4 style8 n">101.51</td>
+          </tr>
+          <tr class="row390">
+            <td class="column0 style9 s">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TOTAL :</td>
+            <td class="column1 style10 n">5</td>
+            <td class="column2 style10 n">0</td>
+            <td class="column3 style9 s"></td>
+            <td class="column4 style12 n">101.51</td>
+          </tr>
+          <tr class="row391">
+            <td class="column0 style2 null style11" colspan="5"></td>
+          </tr>
+          <tr class="row392">
+            <td class="column0 style4 s style4" colspan="5">PASRICHA HOSPITAL T-TALWANDI BHAI</td>
+          </tr>
+          <tr class="row393">
+            <td class="column0 style5 s">CYRA TAB           10TAB</td>
+            <td class="column1 style6 n">2</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">14.98</td>
+            <td class="column4 style8 n">29.96</td>
+          </tr>
+          <tr class="row394">
+            <td class="column0 style9 s">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TOTAL :</td>
+            <td class="column1 style10 n">2</td>
+            <td class="column2 style10 n">0</td>
+            <td class="column3 style9 s"></td>
+            <td class="column4 style12 n">29.96</td>
+          </tr>
+          <tr class="row395">
+            <td class="column0 style2 null style11" colspan="5"></td>
+          </tr>
+          <tr class="row396">
+            <td class="column0 style4 s style4" colspan="5">PREET MEDICOSE MOGA MOGA.-MOGA.</td>
+          </tr>
+          <tr class="row397">
+            <td class="column0 style5 s">NORMAXIN TAB       10TAB</td>
+            <td class="column1 style6 n">20</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">14.25</td>
+            <td class="column4 style8 n">285.00</td>
+          </tr>
+          <tr class="row398">
+            <td class="column0 style9 s">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TOTAL :</td>
+            <td class="column1 style10 n">20</td>
+            <td class="column2 style10 n">0</td>
+            <td class="column3 style9 s"></td>
+            <td class="column4 style12 n">285.00</td>
+          </tr>
+          <tr class="row399">
+            <td class="column0 style2 null style11" colspan="5"></td>
+          </tr>
+          <tr class="row400">
+            <td class="column0 style4 s style4" colspan="5">PREM MED STORE NIHA-NIHAL SINGH WAL</td>
+          </tr>
+          <tr class="row401">
+            <td class="column0 style5 s">CYRA IT TABLET     1</td>
+            <td class="column1 style6 n">3</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">82.98</td>
+            <td class="column4 style8 n">248.95</td>
+          </tr>
+          <tr class="row402">
+            <td class="column0 style7 s">NORMAXIN MB TABLET 10TAB</td>
+            <td class="column1 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">0.00</td>
+            <td class="column4 style8 n">0.00</td>
+          </tr>
+          <tr class="row403">
+            <td class="column0 style5 s">NORMAXIN RT        10CAP</td>
+            <td class="column1 style6 n">3</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">35.36</td>
+            <td class="column4 style8 n">106.07</td>
+          </tr>
+          <tr class="row404">
+            <td class="column0 style5 s">ORVAS 20MG         10TAB</td>
+            <td class="column1 style6 n">10</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">36.38</td>
+            <td class="column4 style8 n">363.75</td>
+          </tr>
+          <tr class="row405">
+            <td class="column0 style9 s">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TOTAL :</td>
+            <td class="column1 style10 n">16</td>
+            <td class="column2 style10 n">0</td>
+            <td class="column3 style9 s"></td>
+            <td class="column4 style12 n">718.77</td>
+          </tr>
+          <tr class="row406">
+            <td class="column0 style2 null style11" colspan="5"></td>
+          </tr>
+          <tr class="row407">
+            <td class="column0 style4 s style4" colspan="5">PUBLIC MED HALL DHAR DHAR-DHARAM KOT</td>
+          </tr>
+          <tr class="row408">
+            <td class="column0 style5 s">AF-400             1TAB</td>
+            <td class="column1 style6 n">10</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">16.35</td>
+            <td class="column4 style8 n">163.54</td>
+          </tr>
+          <tr class="row409">
+            <td class="column0 style5 s">CYRA-D  CAP        10CAP</td>
+            <td class="column1 style6 n">5</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">28.54</td>
+            <td class="column4 style8 n">142.69</td>
+          </tr>
+          <tr class="row410">
+            <td class="column0 style5 s">GIFTAN-50          10TAB</td>
+            <td class="column1 style6 n">5</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">20.66</td>
+            <td class="column4 style8 n">103.30</td>
+          </tr>
+          <tr class="row411">
+            <td class="column0 style5 s">NORMAXIN TAB       10TAB</td>
+            <td class="column1 style6 n">40</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">13.82</td>
+            <td class="column4 style8 n">552.90</td>
+          </tr>
+          <tr class="row412">
+            <td class="column0 style5 s">ORVAS 40MG TABLET  10TAB</td>
+            <td class="column1 style6 n">10</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">67.40</td>
+            <td class="column4 style8 n">673.96</td>
+          </tr>
+          <tr class="row413">
+            <td class="column0 style5 s">PIOSYS-15TAB       30TAB</td>
+            <td class="column1 style6 n">5</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">29.83</td>
+            <td class="column4 style8 n">149.14</td>
+          </tr>
+          <tr class="row414">
+            <td class="column0 style5 s">SYSRON-N TAB       10TAB</td>
+            <td class="column1 style6 n">15</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">30.98</td>
+            <td class="column4 style8 n">464.73</td>
+          </tr>
+          <tr class="row415">
+            <td class="column0 style7 s">TOPISAL - 3% LOTION50ML</td>
+            <td class="column1 style6 n">2</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">80.51</td>
+            <td class="column4 style8 n">161.02</td>
+          </tr>
+          <tr class="row416">
+            <td class="column0 style5 s">TOPISAL 6% OINT.   30GM</td>
+            <td class="column1 style6 n">2</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">69.14</td>
+            <td class="column4 style8 n">138.28</td>
+          </tr>
+          <tr class="row417">
+            <td class="column0 style5 s">TOPISAL LOTION 6%  30ML</td>
+            <td class="column1 style6 n">2</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">61.08</td>
+            <td class="column4 style8 n">122.16</td>
+          </tr>
+          <tr class="row418">
+            <td class="column0 style9 s">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TOTAL :</td>
+            <td class="column1 style10 n">96</td>
+            <td class="column2 style10 n">0</td>
+            <td class="column3 style9 s"></td>
+            <td class="column4 style12 n">2671.72</td>
+          </tr>
+          <tr class="row419">
+            <td class="column0 style2 null style11" colspan="5"></td>
+          </tr>
+          <tr class="row420">
+            <td class="column0 style4 s style4" colspan="5">RAJ MEDICOS MOGA MOGA.-MOGA.</td>
+          </tr>
+          <tr class="row421">
+            <td class="column0 style5 s">AF-400             1TAB</td>
+            <td class="column1 style6 n">10</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">16.59</td>
+            <td class="column4 style8 n">165.91</td>
+          </tr>
+          <tr class="row422">
+            <td class="column0 style5 s">AMACE TAB          10TAB</td>
+            <td class="column1 style6 n">3</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">42.79</td>
+            <td class="column4 style8 n">128.36</td>
+          </tr>
+          <tr class="row423">
+            <td class="column0 style5 s">ISRYL-1            10TAB</td>
+            <td class="column1 style6 n">5</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">10.26</td>
+            <td class="column4 style8 n">51.30</td>
+          </tr>
+          <tr class="row424">
+            <td class="column0 style5 s">TOPISAL 6% OINT.   30GM</td>
+            <td class="column1 style6 n">2</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">69.86</td>
+            <td class="column4 style8 n">139.71</td>
+          </tr>
+          <tr class="row425">
+            <td class="column0 style9 s">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TOTAL :</td>
+            <td class="column1 style10 n">20</td>
+            <td class="column2 style10 n">0</td>
+            <td class="column3 style9 s"></td>
+            <td class="column4 style12 n">485.28</td>
+          </tr>
+          <tr class="row426">
+            <td class="column0 style2 null style11" colspan="5"></td>
+          </tr>
+          <tr class="row427">
+            <td class="column0 style4 s style4" colspan="5">RAJIV MEDICAL HALL MOGA MOGA.-MOGA.</td>
+          </tr>
+          <tr class="row428">
+            <td class="column0 style5 s">AF-150             1TAB</td>
+            <td class="column1 style6 n">5</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">6.79</td>
+            <td class="column4 style8 n">33.96</td>
+          </tr>
+          <tr class="row429">
+            <td class="column0 style5 s">AF-KIT             1KIT</td>
+            <td class="column1 style6 n">3</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">61.71</td>
+            <td class="column4 style8 n">185.14</td>
+          </tr>
+          <tr class="row430">
+            <td class="column0 style5 s">CYRA - LS TABLET   10TAB</td>
+            <td class="column1 style6 n">3</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">67.69</td>
+            <td class="column4 style8 n">203.06</td>
+          </tr>
+          <tr class="row431">
+            <td class="column0 style5 s">ETOS - MR TAB      10TAB</td>
+            <td class="column1 style6 n">5</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">80.59</td>
+            <td class="column4 style8 n">402.94</td>
+          </tr>
+          <tr class="row432">
+            <td class="column0 style5 s">ME-12 OD TAB       10TAB</td>
+            <td class="column1 style6 n">5</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">50.56</td>
+            <td class="column4 style8 n">252.79</td>
+          </tr>
+          <tr class="row433">
+            <td class="column0 style5 s">NORMAXIN RT        10CAP</td>
+            <td class="column1 style6 n">10</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">34.63</td>
+            <td class="column4 style8 n">346.27</td>
+          </tr>
+          <tr class="row434">
+            <td class="column0 style5 s">NORMAXIN TAB       10TAB</td>
+            <td class="column1 style6 n">140</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">13.56</td>
+            <td class="column4 style8 n">1898.10</td>
+          </tr>
+          <tr class="row435">
+            <td class="column0 style5 s">ORVAS 10MG         10TAB</td>
+            <td class="column1 style6 n">20</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">12.67</td>
+            <td class="column4 style8 n">253.46</td>
+          </tr>
+          <tr class="row436">
+            <td class="column0 style5 s">ORVAS 20MG         10TAB</td>
+            <td class="column1 style6 n">5</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">35.62</td>
+            <td class="column4 style8 n">178.12</td>
+          </tr>
+          <tr class="row437">
+            <td class="column0 style5 s">PIOSYS 30TAB       30TAB</td>
+            <td class="column1 style6 n">8</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">53.30</td>
+            <td class="column4 style8 n">426.43</td>
+          </tr>
+          <tr class="row438">
+            <td class="column0 style5 s">PIOSYS-15TAB       30TAB</td>
+            <td class="column1 style6 n">5</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">29.21</td>
+            <td class="column4 style8 n">146.06</td>
+          </tr>
+          <tr class="row439">
+            <td class="column0 style7 s">TENEFIT - 20 TABLET10TAB</td>
+            <td class="column1 style6 n">55</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">38.05</td>
+            <td class="column4 style8 n">2092.61</td>
+          </tr>
+          <tr class="row440">
+            <td class="column0 style5 s">VOGS 0.3MG TABLET  10TAB</td>
+            <td class="column1 style6 n">10</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">20.24</td>
+            <td class="column4 style8 n">202.35</td>
+          </tr>
+          <tr class="row441">
+            <td class="column0 style9 s">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TOTAL :</td>
+            <td class="column1 style10 n">274</td>
+            <td class="column2 style10 n">0</td>
+            <td class="column3 style9 s"></td>
+            <td class="column4 style12 n">6621.29</td>
+          </tr>
+          <tr class="row442">
+            <td class="column0 style2 null style11" colspan="5"></td>
+          </tr>
+          <tr class="row443">
+            <td class="column0 style4 s style4" colspan="5">RAJU MED STORE NIHA-NIHAL SINGH WAL</td>
+          </tr>
+          <tr class="row444">
+            <td class="column0 style5 s">AMACE TAB          10TAB</td>
+            <td class="column1 style6 n">10</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">42.35</td>
+            <td class="column4 style8 n">423.50</td>
+          </tr>
+          <tr class="row445">
+            <td class="column0 style5 s">ME-12 INJ.         1ML</td>
+            <td class="column1 style6 n">5</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">15.98</td>
+            <td class="column4 style8 n">79.88</td>
+          </tr>
+          <tr class="row446">
+            <td class="column0 style9 s">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TOTAL :</td>
+            <td class="column1 style10 n">15</td>
+            <td class="column2 style10 n">0</td>
+            <td class="column3 style9 s"></td>
+            <td class="column4 style12 n">503.38</td>
+          </tr>
+          <tr class="row447">
+            <td class="column0 style2 null style11" colspan="5"></td>
+          </tr>
+          <tr class="row448">
+            <td class="column0 style4 s style4" colspan="5">SAI MEDICAL STORE MOGA.-MOGA.</td>
+          </tr>
+          <tr class="row449">
+            <td class="column0 style5 s">AF-400             1TAB</td>
+            <td class="column1 style6 n">20</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">16.59</td>
+            <td class="column4 style8 n">331.83</td>
+          </tr>
+          <tr class="row450">
+            <td class="column0 style9 s">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TOTAL :</td>
+            <td class="column1 style10 n">20</td>
+            <td class="column2 style10 n">0</td>
+            <td class="column3 style9 s"></td>
+            <td class="column4 style12 n">331.83</td>
+          </tr>
+          <tr class="row451">
+            <td class="column0 style2 null style11" colspan="5"></td>
+          </tr>
+          <tr class="row452">
+            <td class="column0 style4 s style4" colspan="5">SANJEEV MEDICAL HALL MOGA MOGA.-MOGA.</td>
+          </tr>
+          <tr class="row453">
+            <td class="column0 style5 s">AF-400             1TAB</td>
+            <td class="column1 style6 n">20</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">16.35</td>
+            <td class="column4 style8 n">327.08</td>
+          </tr>
+          <tr class="row454">
+            <td class="column0 style5 s">CYRA-D  CAP        10CAP</td>
+            <td class="column1 style6 n">10</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">28.54</td>
+            <td class="column4 style8 n">285.37</td>
+          </tr>
+          <tr class="row455">
+            <td class="column0 style9 s">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TOTAL :</td>
+            <td class="column1 style10 n">30</td>
+            <td class="column2 style10 n">0</td>
+            <td class="column3 style9 s"></td>
+            <td class="column4 style12 n">612.45</td>
+          </tr>
+          <tr class="row456">
+            <td class="column0 style2 null style11" colspan="5"></td>
+          </tr>
+          <tr class="row457">
+            <td class="column0 style4 s style4" colspan="5">SARASWATI MEDICOSE MOGA MOGA.-MOGA.</td>
+          </tr>
+          <tr class="row458">
+            <td class="column0 style5 s">NORMAXIN TAB       10TAB</td>
+            <td class="column1 style6 n">40</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">13.82</td>
+            <td class="column4 style8 n">552.90</td>
+          </tr>
+          <tr class="row459">
+            <td class="column0 style5 s">PIOSYS-15TAB       30TAB</td>
+            <td class="column1 style6 n">5</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">29.83</td>
+            <td class="column4 style8 n">149.14</td>
+          </tr>
+          <tr class="row460">
+            <td class="column0 style9 s">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TOTAL :</td>
+            <td class="column1 style10 n">45</td>
+            <td class="column2 style10 n">0</td>
+            <td class="column3 style9 s"></td>
+            <td class="column4 style12 n">702.04</td>
+          </tr>
+          <tr class="row461">
+            <td class="column0 style2 null style11" colspan="5"></td>
+          </tr>
+          <tr class="row462">
+            <td class="column0 style4 s style4" colspan="5">SAWTANTAR MED HALL BAGA BA-BAGHA PURANA</td>
+          </tr>
+          <tr class="row463">
+            <td class="column0 style5 s">ACNESOL LOTION     10ML</td>
+            <td class="column1 style6 n">3</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">53.64</td>
+            <td class="column4 style8 n">160.92</td>
+          </tr>
+          <tr class="row464">
+            <td class="column0 style5 s">AMCARD 5MG         7TAB</td>
+            <td class="column1 style6 n">16</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">9.04</td>
+            <td class="column4 style8 n">144.64</td>
+          </tr>
+          <tr class="row465">
+            <td class="column0 style5 s">CYRA-D  CAP        10CAP</td>
+            <td class="column1 style6 n">5</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">28.54</td>
+            <td class="column4 style8 n">142.69</td>
+          </tr>
+          <tr class="row466">
+            <td class="column0 style5 s">ISRYL-M 2          10TAB</td>
+            <td class="column1 style6 n">3</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">25.72</td>
+            <td class="column4 style8 n">77.17</td>
+          </tr>
+          <tr class="row467">
+            <td class="column0 style5 s">ME-12 OD TAB       10TAB</td>
+            <td class="column1 style6 n">6</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">51.62</td>
+            <td class="column4 style8 n">309.74</td>
+          </tr>
+          <tr class="row468">
+            <td class="column0 style7 s">NORMAXIN MB TABLET 10TAB</td>
+            <td class="column1 style6 n">20</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">55.33</td>
+            <td class="column4 style8 n">1106.58</td>
+          </tr>
+          <tr class="row469">
+            <td class="column0 style5 s">NORMAXIN TAB       10TAB</td>
+            <td class="column1 style6 n">20</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">13.82</td>
+            <td class="column4 style8 n">276.45</td>
+          </tr>
+          <tr class="row470">
+            <td class="column0 style5 s">SYSRON-N TAB       10TAB</td>
+            <td class="column1 style6 n">6</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">30.98</td>
+            <td class="column4 style8 n">185.89</td>
+          </tr>
+          <tr class="row471">
+            <td class="column0 style5 s">TOPISAL 6% OINT.   30GM</td>
+            <td class="column1 style6 n">3</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">69.14</td>
+            <td class="column4 style8 n">207.42</td>
+          </tr>
+          <tr class="row472">
+            <td class="column0 style9 s">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TOTAL :</td>
+            <td class="column1 style10 n">82</td>
+            <td class="column2 style10 n">0</td>
+            <td class="column3 style9 s"></td>
+            <td class="column4 style12 n">2611.50</td>
+          </tr>
+          <tr class="row473">
+            <td class="column0 style2 null style11" colspan="5"></td>
+          </tr>
+          <tr class="row474">
+            <td class="column0 style4 s style4" colspan="5">SHARMA MED STORE DHAR DHAR-DHARAM KOT</td>
+          </tr>
+          <tr class="row475">
+            <td class="column0 style5 s">AFK LOTION         100ML</td>
+            <td class="column1 style6 n">1</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">121.99</td>
+            <td class="column4 style8 n">121.99</td>
+          </tr>
+          <tr class="row476">
+            <td class="column0 style5 s">ISRYL-M 1          10TAB</td>
+            <td class="column1 style6 n">5</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">17.14</td>
+            <td class="column4 style8 n">85.70</td>
+          </tr>
+          <tr class="row477">
+            <td class="column0 style9 s">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TOTAL :</td>
+            <td class="column1 style10 n">6</td>
+            <td class="column2 style10 n">0</td>
+            <td class="column3 style9 s"></td>
+            <td class="column4 style12 n">207.69</td>
+          </tr>
+          <tr class="row478">
+            <td class="column0 style2 null style11" colspan="5"></td>
+          </tr>
+          <tr class="row479">
+            <td class="column0 style4 s style4" colspan="5">SHARMA MED STORE TALW T-TALWANDI BHAI</td>
+          </tr>
+          <tr class="row480">
+            <td class="column0 style5 s">CYRA TAB           10TAB</td>
+            <td class="column1 style6 n">10</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">14.53</td>
+            <td class="column4 style8 n">145.31</td>
+          </tr>
+          <tr class="row481">
+            <td class="column0 style9 s">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TOTAL :</td>
+            <td class="column1 style10 n">10</td>
+            <td class="column2 style10 n">0</td>
+            <td class="column3 style9 s"></td>
+            <td class="column4 style12 n">145.31</td>
+          </tr>
+          <tr class="row482">
+            <td class="column0 style2 null style11" colspan="5"></td>
+          </tr>
+          <tr class="row483">
+            <td class="column0 style4 s style4" colspan="5">SHARMA MEDICAL HALL MOGA MOGA.-MOGA.</td>
+          </tr>
+          <tr class="row484">
+            <td class="column0 style5 s">ACNESOL GEL        20GM</td>
+            <td class="column1 style6 n">3</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">51.01</td>
+            <td class="column4 style8 n">153.04</td>
+          </tr>
+          <tr class="row485">
+            <td class="column0 style5 s">ISRYL-M 1          10TAB</td>
+            <td class="column1 style6 n">10</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">17.14</td>
+            <td class="column4 style8 n">171.40</td>
+          </tr>
+          <tr class="row486">
+            <td class="column0 style5 s">TOPINATE 30GM      5GM</td>
+            <td class="column1 style6 n">3</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">45.86</td>
+            <td class="column4 style8 n">137.58</td>
+          </tr>
+          <tr class="row487">
+            <td class="column0 style9 s">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TOTAL :</td>
+            <td class="column1 style10 n">16</td>
+            <td class="column2 style10 n">0</td>
+            <td class="column3 style9 s"></td>
+            <td class="column4 style12 n">462.02</td>
+          </tr>
+          <tr class="row488">
+            <td class="column0 style2 null style11" colspan="5"></td>
+          </tr>
+          <tr class="row489">
+            <td class="column0 style4 s style4" colspan="5">SHIVA MED STORE BAGA BA-BAGHA PURANA</td>
+          </tr>
+          <tr class="row490">
+            <td class="column0 style5 s">AF-400             1TAB</td>
+            <td class="column1 style6 n">10</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">16.18</td>
+            <td class="column4 style8 n">161.76</td>
+          </tr>
+          <tr class="row491">
+            <td class="column0 style5 s">NAC 50             10TAB</td>
+            <td class="column1 style6 n">5</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">11.09</td>
+            <td class="column4 style8 n">55.44</td>
+          </tr>
+          <tr class="row492">
+            <td class="column0 style7 s">NORMAXIN MB TABLET 10TAB</td>
+            <td class="column1 style6 n">3</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">54.76</td>
+            <td class="column4 style8 n">164.28</td>
+          </tr>
+          <tr class="row493">
+            <td class="column0 style5 s">PIO PLUS-2         10TAB</td>
+            <td class="column1 style6 n">5</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">54.05</td>
+            <td class="column4 style8 n">270.24</td>
+          </tr>
+          <tr class="row494">
+            <td class="column0 style5 s">PIOSYS 30TAB       30TAB</td>
+            <td class="column1 style6 n">3</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">53.01</td>
+            <td class="column4 style8 n">159.03</td>
+          </tr>
+          <tr class="row495">
+            <td class="column0 style5 s">SYSRON-N TAB       10TAB</td>
+            <td class="column1 style6 n">10</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">30.15</td>
+            <td class="column4 style8 n">301.54</td>
+          </tr>
+          <tr class="row496">
+            <td class="column0 style5 s">TERBEST TAB        7TAB</td>
+            <td class="column1 style6 n">2</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">57.61</td>
+            <td class="column4 style8 n">115.22</td>
+          </tr>
+          <tr class="row497">
+            <td class="column0 style9 s">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TOTAL :</td>
+            <td class="column1 style10 n">38</td>
+            <td class="column2 style10 n">0</td>
+            <td class="column3 style9 s"></td>
+            <td class="column4 style12 n">1227.51</td>
+          </tr>
+          <tr class="row498">
+            <td class="column0 style2 null style11" colspan="5"></td>
+          </tr>
+          <tr class="row499">
+            <td class="column0 style4 s style4" colspan="5">SHREE KRISHNA MEDICAL STORE MOGA.-MOGA.</td>
+          </tr>
+          <tr class="row500">
+            <td class="column0 style5 s">CYRA-D  CAP        10CAP</td>
+            <td class="column1 style6 n">50</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">28.54</td>
+            <td class="column4 style8 n">1426.87</td>
+          </tr>
+          <tr class="row501">
+            <td class="column0 style9 s">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TOTAL :</td>
+            <td class="column1 style10 n">50</td>
+            <td class="column2 style10 n">0</td>
+            <td class="column3 style9 s"></td>
+            <td class="column4 style12 n">1426.87</td>
+          </tr>
+          <tr class="row502">
+            <td class="column0 style2 null style11" colspan="5"></td>
+          </tr>
+          <tr class="row503">
+            <td class="column0 style4 s style4" colspan="5">SONU MEDICOSE MOGA.-MOGA.</td>
+          </tr>
+          <tr class="row504">
+            <td class="column0 style5 s">CYRA TAB           10TAB</td>
+            <td class="column1 style6 n">10</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">14.98</td>
+            <td class="column4 style8 n">149.80</td>
+          </tr>
+          <tr class="row505">
+            <td class="column0 style9 s">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TOTAL :</td>
+            <td class="column1 style10 n">10</td>
+            <td class="column2 style10 n">0</td>
+            <td class="column3 style9 s"></td>
+            <td class="column4 style12 n">149.80</td>
+          </tr>
+          <tr class="row506">
+            <td class="column0 style2 null style11" colspan="5"></td>
+          </tr>
+          <tr class="row507">
+            <td class="column0 style4 s style4" colspan="5">SWAMI MEDICAL STORE MOGA MOGA.-MOGA.</td>
+          </tr>
+          <tr class="row508">
+            <td class="column0 style5 s">AF-400             1TAB</td>
+            <td class="column1 style6 n">10</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">16.02</td>
+            <td class="column4 style8 n">160.17</td>
+          </tr>
+          <tr class="row509">
+            <td class="column0 style5 s">AMCARD AT TAB      10TAB</td>
+            <td class="column1 style6 n">10</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">19.88</td>
+            <td class="column4 style8 n">198.83</td>
+          </tr>
+          <tr class="row510">
+            <td class="column0 style5 s">CYRA - LS TABLET   10TAB</td>
+            <td class="column1 style6 n">1</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">67.69</td>
+            <td class="column4 style8 n">67.69</td>
+          </tr>
+          <tr class="row511">
+            <td class="column0 style5 s">CYRA-D  CAP        10CAP</td>
+            <td class="column1 style6 n">5</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">27.95</td>
+            <td class="column4 style8 n">139.74</td>
+          </tr>
+          <tr class="row512">
+            <td class="column0 style5 s">ISRYL-M 1          10TAB</td>
+            <td class="column1 style6 n">5</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">16.79</td>
+            <td class="column4 style8 n">83.93</td>
+          </tr>
+          <tr class="row513">
+            <td class="column0 style5 s">ISRYL-M 2          10TAB</td>
+            <td class="column1 style6 n">20</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">25.33</td>
+            <td class="column4 style8 n">506.53</td>
+          </tr>
+          <tr class="row514">
+            <td class="column0 style5 s">PIOSYS 30TAB       30TAB</td>
+            <td class="column1 style6 n">5</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">53.30</td>
+            <td class="column4 style8 n">266.52</td>
+          </tr>
+          <tr class="row515">
+            <td class="column0 style5 s">PIOSYS-15TAB       30TAB</td>
+            <td class="column1 style6 n">5</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">29.21</td>
+            <td class="column4 style8 n">146.06</td>
+          </tr>
+          <tr class="row516">
+            <td class="column0 style9 s">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TOTAL :</td>
+            <td class="column1 style10 n">61</td>
+            <td class="column2 style10 n">0</td>
+            <td class="column3 style9 s"></td>
+            <td class="column4 style12 n">1569.47</td>
+          </tr>
+          <tr class="row517">
+            <td class="column0 style2 null style11" colspan="5"></td>
+          </tr>
+          <tr class="row518">
+            <td class="column0 style4 s style4" colspan="5">VERMA MEDICAL HALL KISH KIS-KISHAN PURA</td>
+          </tr>
+          <tr class="row519">
+            <td class="column0 style5 s">AMCARD 5MG         7TAB</td>
+            <td class="column1 style6 n">20</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">9.04</td>
+            <td class="column4 style8 n">180.81</td>
+          </tr>
+          <tr class="row520">
+            <td class="column0 style5 s">AMCARD AT TAB      10TAB</td>
+            <td class="column1 style6 n">10</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">20.30</td>
+            <td class="column4 style8 n">203.02</td>
+          </tr>
+          <tr class="row521">
+            <td class="column0 style5 s">ISAC 20MG TAB      10TAB</td>
+            <td class="column1 style6 n">1</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">95.21</td>
+            <td class="column4 style8 n">95.21</td>
+          </tr>
+          <tr class="row522">
+            <td class="column0 style5 s">ME-12 OD TAB       10TAB</td>
+            <td class="column1 style6 n">3</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">51.62</td>
+            <td class="column4 style8 n">154.87</td>
+          </tr>
+          <tr class="row523">
+            <td class="column0 style9 s">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TOTAL :</td>
+            <td class="column1 style10 n">34</td>
+            <td class="column2 style10 n">0</td>
+            <td class="column3 style9 s"></td>
+            <td class="column4 style12 n">633.91</td>
+          </tr>
+          <tr class="row524">
+            <td class="column0 style2 null style11" colspan="5"></td>
+          </tr>
+          <tr class="row525">
+            <td class="column0 style4 s style4" colspan="5">VIPAN MEDICOS MOGA MOGA.-MOGA.</td>
+          </tr>
+          <tr class="row526">
+            <td class="column0 style7 s">ISRYL M-2 FORTE TAB10TAB</td>
+            <td class="column1 style6 n">1</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">40.26</td>
+            <td class="column4 style8 n">40.26</td>
+          </tr>
+          <tr class="row527">
+            <td class="column0 style5 s">PIO-M-15           10TAB</td>
+            <td class="column1 style6 n">6</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">39.20</td>
+            <td class="column4 style8 n">235.19</td>
+          </tr>
+          <tr class="row528">
+            <td class="column0 style5 s">PIOSYS-15TAB       30TAB</td>
+            <td class="column1 style6 n">5</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">29.83</td>
+            <td class="column4 style8 n">149.14</td>
+          </tr>
+          <tr class="row529">
+            <td class="column0 style5 s">SYSTAFLAM MR TAB   10TAB</td>
+            <td class="column1 style6 n">3</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">84.88</td>
+            <td class="column4 style8 n">254.65</td>
+          </tr>
+          <tr class="row530">
+            <td class="column0 style9 s">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TOTAL :</td>
+            <td class="column1 style10 n">15</td>
+            <td class="column2 style10 n">0</td>
+            <td class="column3 style9 s"></td>
+            <td class="column4 style12 n">679.24</td>
+          </tr>
+          <tr class="row531">
+            <td class="column0 style2 null style11" colspan="5"></td>
+          </tr>
+          <tr class="row532">
+            <td class="column0 style4 s style4" colspan="5">VISHESH MEDICAL STORE MOGA.-MOGA.</td>
+          </tr>
+          <tr class="row533">
+            <td class="column0 style5 s">AMCARD AT TAB      10TAB</td>
+            <td class="column1 style6 n">10</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">20.30</td>
+            <td class="column4 style8 n">203.02</td>
+          </tr>
+          <tr class="row534">
+            <td class="column0 style5 s">CYRA-D  CAP        10CAP</td>
+            <td class="column1 style6 n">5</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">28.54</td>
+            <td class="column4 style8 n">142.69</td>
+          </tr>
+          <tr class="row535">
+            <td class="column0 style5 s">ITRASYS - 100 CAP  4CAP</td>
+            <td class="column1 style6 n">7</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">33.69</td>
+            <td class="column4 style8 n">235.82</td>
+          </tr>
+          <tr class="row536">
+            <td class="column0 style5 s">LEVOSIZ 5MG TAB    10TAB</td>
+            <td class="column1 style6 n">10</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">10.31</td>
+            <td class="column4 style8 n">103.11</td>
+          </tr>
+          <tr class="row537">
+            <td class="column0 style5 s">ORVAS 10MG         10TAB</td>
+            <td class="column1 style6 n">20</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">12.94</td>
+            <td class="column4 style8 n">258.80</td>
+          </tr>
+          <tr class="row538">
+            <td class="column0 style5 s">ORVAS 40MG TABLET  10TAB</td>
+            <td class="column1 style6 n">2</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">67.40</td>
+            <td class="column4 style8 n">134.79</td>
+          </tr>
+          <tr class="row539">
+            <td class="column0 style9 s">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TOTAL :</td>
+            <td class="column1 style10 n">54</td>
+            <td class="column2 style10 n">0</td>
+            <td class="column3 style9 s"></td>
+            <td class="column4 style12 n">1078.23</td>
+          </tr>
+          <tr class="row540">
+            <td class="column0 style2 null style11" colspan="5"></td>
+          </tr>
+          <tr class="row541">
+            <td class="column0 style4 s style4" colspan="5">ZIRA MED HALL ZIRA ZIRA-ZIRA</td>
+          </tr>
+          <tr class="row542">
+            <td class="column0 style5 s">AMACE TAB          10TAB</td>
+            <td class="column1 style6 n">5</td>
+            <td class="column2 style7 s">&nbsp;&nbsp;-</td>
+            <td class="column3 style8 n">43.66</td>
+            <td class="column4 style8 n">218.30</td>
+          </tr>
+          <tr class="row543">
+            <td class="column0 style9 s">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TOTAL :</td>
+            <td class="column1 style10 n">5</td>
+            <td class="column2 style10 n">0</td>
+            <td class="column3 style9 s"></td>
+            <td class="column4 style12 n">218.30</td>
+          </tr>
+          <tr class="row544">
+            <td class="column0 style13 s">GRAND TOTAL :</td>
+            <td class="column1 style14 n">9152</td>
+            <td class="column2 style14 n">59</td>
+            <td class="column3 style13 s"></td>
+            <td class="column4 style16 n">254845.08</td>
+          </tr>
+          <tr class="row545">
+            <td class="column0 style15 s style15" colspan="5">GST ready by MARG Erp 9414490001,01552262152</td>
+          </tr>
+        </tbody>
+    </table>
+  </body>
+</html>

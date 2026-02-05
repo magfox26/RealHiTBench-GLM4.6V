@@ -1,0 +1,13 @@
+|    | End Use                                  | Source of Water                | Norovirus   | Adenovirus7,8   |         | Cryptosporidium   | Giardia   | Campylobacter   | Salmonella   |
+|---:|:-----------------------------------------|:-------------------------------|:------------|:----------------|:--------|:------------------|:----------|:----------------|:-------------|
+|  0 |                                          |                                | LRTINF      | LRTINF          | LRTDALY | LRTINF            | LRTINF    | LRTINF          | LRTINF       |
+|  1 | Unrestricted access landscape irrigation | Untreated municipal wastewater | 8.0         | 7.0             | NSD     | 4.5               | 3.5       | 4.5             | 3.5          |
+|  2 |                                          | Untreated onsite wastewater    | 8.5         | NSD             | NSD     | 5.0               | 4.0       | 5.5             | 1.5          |
+|  3 |                                          | Graywater                      | 6.5         | NSD             | NSD     | 2.5               | 1.5       | 3.5             | 0.0          |
+|  4 |                                          | Stormwater (10% wastewater)    | 7.0         | 6*              | NSD     | 3.5               | 2.5       | 3.5             | 2.5          |
+|  5 |                                          | Roof runoff 1                  |             |                 |         | NSD               | 0.0       | 3.0             | 1.5          |
+|  6 | Indoor non-potable use                   | Untreated municipal wastewater | 8.5         | 8.5             | NSD     | 5.5               | 4.5       | 5.5             | 4.5          |
+|  7 |                                          | Untreated onsite wastewater    | 9.5         | NSD             | NSD     | 5.0               | 4.5       | 5.5             | 2.0          |
+|  8 |                                          | Graywater                      | 7.0         | NSD             | NSD     | 2.5               | 2.0       | 3.5             | 0.0          |
+|  9 |                                          | Stormwater (10% wastewater)    | 7.5         | 7.5*            | NSD     | 4.5               | 3.5       | 4.5             | 3.5          |
+| 10 |                                          | Roof runoff 1                  |             |                 |         | NSD               | 0.0       | 3.0             | 1.5          |

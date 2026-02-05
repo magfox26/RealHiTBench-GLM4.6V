@@ -1,0 +1,821 @@
+[
+  {
+    "Table A1: Estimated odds ratios from logistic regression of economic activity": null,
+    "Unnamed: 1": "(1) All",
+    "Unnamed: 2": "(2) Male",
+    "Unnamed: 3": "(3) Female",
+    "Unnamed: 4": "(4) All",
+    "Unnamed: 5": "(5) Male",
+    "Contents": "(6) Female"
+  },
+  {
+    "Table A1: Estimated odds ratios from logistic regression of economic activity": "Religious affiliation (omitted category Christian)",
+    "Unnamed: 1": null,
+    "Unnamed: 2": null,
+    "Unnamed: 3": null,
+    "Unnamed: 4": null,
+    "Unnamed: 5": null,
+    "Contents": null
+  },
+  {
+    "Table A1: Estimated odds ratios from logistic regression of economic activity": "No answer",
+    "Unnamed: 1": "0.753***",
+    "Unnamed: 2": "0.737***",
+    "Unnamed: 3": "0.744***",
+    "Unnamed: 4": "0.822***",
+    "Unnamed: 5": "0.842***",
+    "Contents": "0.875***"
+  },
+  {
+    "Table A1: Estimated odds ratios from logistic regression of economic activity": null,
+    "Unnamed: 1": "(0.006)",
+    "Unnamed: 2": "(0.009)",
+    "Unnamed: 3": "(0.008)",
+    "Unnamed: 4": "(0.007)",
+    "Unnamed: 5": "(0.011)",
+    "Contents": "(0.010)"
+  },
+  {
+    "Table A1: Estimated odds ratios from logistic regression of economic activity": "No Religion",
+    "Unnamed: 1": "1.125***",
+    "Unnamed: 2": "1.072***",
+    "Unnamed: 3": "1.088***",
+    "Unnamed: 4": "0.973***",
+    "Unnamed: 5": "0.954***",
+    "Contents": "0.979***"
+  },
+  {
+    "Table A1: Estimated odds ratios from logistic regression of economic activity": null,
+    "Unnamed: 1": "(0.001)",
+    "Unnamed: 2": "(0.001)",
+    "Unnamed: 3": "(0.001)",
+    "Unnamed: 4": "(0.001)",
+    "Unnamed: 5": "(0.001)",
+    "Contents": "(0.001)"
+  },
+  {
+    "Table A1: Estimated odds ratios from logistic regression of economic activity": "Buddhist",
+    "Unnamed: 1": "0.676***",
+    "Unnamed: 2": "0.666***",
+    "Unnamed: 3": "0.706***",
+    "Unnamed: 4": "0.698***",
+    "Unnamed: 5": "0.511***",
+    "Contents": "0.854***"
+  },
+  {
+    "Table A1: Estimated odds ratios from logistic regression of economic activity": null,
+    "Unnamed: 1": "(0.004)",
+    "Unnamed: 2": "(0.006)",
+    "Unnamed: 3": "(0.005)",
+    "Unnamed: 4": "(0.004)",
+    "Unnamed: 5": "(0.005)",
+    "Contents": "(0.006)"
+  },
+  {
+    "Table A1: Estimated odds ratios from logistic regression of economic activity": "Hindu",
+    "Unnamed: 1": "1.076***",
+    "Unnamed: 2": "1.337***",
+    "Unnamed: 3": "0.886***",
+    "Unnamed: 4": "1.030***",
+    "Unnamed: 5": "1.052***",
+    "Contents": "1.038***"
+  },
+  {
+    "Table A1: Estimated odds ratios from logistic regression of economic activity": null,
+    "Unnamed: 1": "(0.003)",
+    "Unnamed: 2": "(0.007)",
+    "Unnamed: 3": "(0.004)",
+    "Unnamed: 4": "(0.004)",
+    "Unnamed: 5": "(0.008)",
+    "Contents": "(0.006)"
+  },
+  {
+    "Table A1: Estimated odds ratios from logistic regression of economic activity": "Jewish",
+    "Unnamed: 1": "0.880***",
+    "Unnamed: 2": "0.830***",
+    "Unnamed: 3": "0.878***",
+    "Unnamed: 4": "0.748***",
+    "Unnamed: 5": "0.766***",
+    "Contents": "0.735***"
+  },
+  {
+    "Table A1: Estimated odds ratios from logistic regression of economic activity": null,
+    "Unnamed: 1": "(0.005)",
+    "Unnamed: 2": "(0.007)",
+    "Unnamed: 3": "(0.006)",
+    "Unnamed: 4": "(0.005)",
+    "Unnamed: 5": "(0.007)",
+    "Contents": "(0.006)"
+  },
+  {
+    "Table A1: Estimated odds ratios from logistic regression of economic activity": "Muslim",
+    "Unnamed: 1": "0.420***",
+    "Unnamed: 2": "0.667***",
+    "Unnamed: 3": "0.265***",
+    "Unnamed: 4": "0.501***",
+    "Unnamed: 5": "0.721***",
+    "Contents": "0.375***"
+  },
+  {
+    "Table A1: Estimated odds ratios from logistic regression of economic activity": null,
+    "Unnamed: 1": "(0.001)",
+    "Unnamed: 2": "(0.002)",
+    "Unnamed: 3": "(0.001)",
+    "Unnamed: 4": "(0.001)",
+    "Unnamed: 5": "(0.003)",
+    "Contents": "(0.001)"
+  },
+  {
+    "Table A1: Estimated odds ratios from logistic regression of economic activity": "Sikh",
+    "Unnamed: 1": "0.949***",
+    "Unnamed: 2": "0.968***",
+    "Unnamed: 3": "0.897***",
+    "Unnamed: 4": "1.042***",
+    "Unnamed: 5": "0.829***",
+    "Contents": "1.182***"
+  },
+  {
+    "Table A1: Estimated odds ratios from logistic regression of economic activity": null,
+    "Unnamed: 1": "(0.005)",
+    "Unnamed: 2": "(0.007)",
+    "Unnamed: 3": "(0.006)",
+    "Unnamed: 4": "(0.006)",
+    "Unnamed: 5": "(0.008)",
+    "Contents": "(0.009)"
+  },
+  {
+    "Table A1: Estimated odds ratios from logistic regression of economic activity": "Other",
+    "Unnamed: 1": "0.876***",
+    "Unnamed: 2": "0.741***",
+    "Unnamed: 3": "0.953***",
+    "Unnamed: 4": "0.700***",
+    "Unnamed: 5": "0.577***",
+    "Contents": "0.810***"
+  },
+  {
+    "Table A1: Estimated odds ratios from logistic regression of economic activity": null,
+    "Unnamed: 1": "(0.003)",
+    "Unnamed: 2": "(0.003)",
+    "Unnamed: 3": "(0.004)",
+    "Unnamed: 4": "(0.002)",
+    "Unnamed: 5": "(0.003)",
+    "Contents": "(0.004)"
+  },
+  {
+    "Table A1: Estimated odds ratios from logistic regression of economic activity": "Age",
+    "Unnamed: 1": null,
+    "Unnamed: 2": null,
+    "Unnamed: 3": null,
+    "Unnamed: 4": "1.374***",
+    "Unnamed: 5": "1.505***",
+    "Contents": "1.294***"
+  },
+  {
+    "Table A1: Estimated odds ratios from logistic regression of economic activity": null,
+    "Unnamed: 1": null,
+    "Unnamed: 2": null,
+    "Unnamed: 3": null,
+    "Unnamed: 4": "(0.000)",
+    "Unnamed: 5": "(0.001)",
+    "Contents": "(0.000)"
+  },
+  {
+    "Table A1: Estimated odds ratios from logistic regression of economic activity": "Age squared",
+    "Unnamed: 1": null,
+    "Unnamed: 2": null,
+    "Unnamed: 3": null,
+    "Unnamed: 4": "0.996***",
+    "Unnamed: 5": "0.995***",
+    "Contents": "0.997***"
+  },
+  {
+    "Table A1: Estimated odds ratios from logistic regression of economic activity": null,
+    "Unnamed: 1": null,
+    "Unnamed: 2": null,
+    "Unnamed: 3": null,
+    "Unnamed: 4": "(0.000)",
+    "Unnamed: 5": "(0.000)",
+    "Contents": "(0.000)"
+  },
+  {
+    "Table A1: Estimated odds ratios from logistic regression of economic activity": "Female",
+    "Unnamed: 1": null,
+    "Unnamed: 2": null,
+    "Unnamed: 3": null,
+    "Unnamed: 4": "0.477***",
+    "Unnamed: 5": null,
+    "Contents": null
+  },
+  {
+    "Table A1: Estimated odds ratios from logistic regression of economic activity": null,
+    "Unnamed: 1": null,
+    "Unnamed: 2": null,
+    "Unnamed: 3": null,
+    "Unnamed: 4": "(0.000)",
+    "Unnamed: 5": null,
+    "Contents": null
+  },
+  {
+    "Table A1: Estimated odds ratios from logistic regression of economic activity": "Marital status (omitted category - Single)",
+    "Unnamed: 1": null,
+    "Unnamed: 2": null,
+    "Unnamed: 3": null,
+    "Unnamed: 4": null,
+    "Unnamed: 5": null,
+    "Contents": null
+  },
+  {
+    "Table A1: Estimated odds ratios from logistic regression of economic activity": "Married, living with spouse",
+    "Unnamed: 1": null,
+    "Unnamed: 2": null,
+    "Unnamed: 3": null,
+    "Unnamed: 4": "1.219***",
+    "Unnamed: 5": "2.562***",
+    "Contents": "0.821***"
+  },
+  {
+    "Table A1: Estimated odds ratios from logistic regression of economic activity": null,
+    "Unnamed: 1": null,
+    "Unnamed: 2": null,
+    "Unnamed: 3": null,
+    "Unnamed: 4": "(0.002)",
+    "Unnamed: 5": "(0.006)",
+    "Contents": "(0.001)"
+  },
+  {
+    "Table A1: Estimated odds ratios from logistic regression of economic activity": "Married, separated",
+    "Unnamed: 1": null,
+    "Unnamed: 2": null,
+    "Unnamed: 3": null,
+    "Unnamed: 4": "1.005",
+    "Unnamed: 5": "1.304***",
+    "Contents": "0.917***"
+  },
+  {
+    "Table A1: Estimated odds ratios from logistic regression of economic activity": null,
+    "Unnamed: 1": null,
+    "Unnamed: 2": null,
+    "Unnamed: 3": null,
+    "Unnamed: 4": "(0.003)",
+    "Unnamed: 5": "(0.007)",
+    "Contents": "(0.003)"
+  },
+  {
+    "Table A1: Estimated odds ratios from logistic regression of economic activity": "Divorced",
+    "Unnamed: 1": null,
+    "Unnamed: 2": null,
+    "Unnamed: 3": null,
+    "Unnamed: 4": "1.281***",
+    "Unnamed: 5": "1.649***",
+    "Contents": "1.111***"
+  },
+  {
+    "Table A1: Estimated odds ratios from logistic regression of economic activity": null,
+    "Unnamed: 1": null,
+    "Unnamed: 2": null,
+    "Unnamed: 3": null,
+    "Unnamed: 4": "(0.003)",
+    "Unnamed: 5": "(0.006)",
+    "Contents": "(0.003)"
+  },
+  {
+    "Table A1: Estimated odds ratios from logistic regression of economic activity": "Widowed",
+    "Unnamed: 1": null,
+    "Unnamed: 2": null,
+    "Unnamed: 3": null,
+    "Unnamed: 4": "0.944***",
+    "Unnamed: 5": "1.134***",
+    "Contents": "0.779***"
+  },
+  {
+    "Table A1: Estimated odds ratios from logistic regression of economic activity": null,
+    "Unnamed: 1": null,
+    "Unnamed: 2": null,
+    "Unnamed: 3": null,
+    "Unnamed: 4": "(0.004)",
+    "Unnamed: 5": "(0.008)",
+    "Contents": "(0.003)"
+  },
+  {
+    "Table A1: Estimated odds ratios from logistic regression of economic activity": "Civil partnership",
+    "Unnamed: 1": null,
+    "Unnamed: 2": null,
+    "Unnamed: 3": null,
+    "Unnamed: 4": "1.019*",
+    "Unnamed: 5": "0.873***",
+    "Contents": "1.215***"
+  },
+  {
+    "Table A1: Estimated odds ratios from logistic regression of economic activity": null,
+    "Unnamed: 1": null,
+    "Unnamed: 2": null,
+    "Unnamed: 3": null,
+    "Unnamed: 4": "(0.011)",
+    "Unnamed: 5": "(0.013)",
+    "Contents": "(0.018)"
+  },
+  {
+    "Table A1: Estimated odds ratios from logistic regression of economic activity": "Highest qualification held (omitted category – No qualifications)",
+    "Unnamed: 1": null,
+    "Unnamed: 2": null,
+    "Unnamed: 3": null,
+    "Unnamed: 4": null,
+    "Unnamed: 5": null,
+    "Contents": null
+  },
+  {
+    "Table A1: Estimated odds ratios from logistic regression of economic activity": "Degree or equivalent",
+    "Unnamed: 1": null,
+    "Unnamed: 2": null,
+    "Unnamed: 3": null,
+    "Unnamed: 4": "5.793***",
+    "Unnamed: 5": "4.711***",
+    "Contents": "6.912***"
+  },
+  {
+    "Table A1: Estimated odds ratios from logistic regression of economic activity": null,
+    "Unnamed: 1": null,
+    "Unnamed: 2": null,
+    "Unnamed: 3": null,
+    "Unnamed: 4": "(0.010)",
+    "Unnamed: 5": "(0.012)",
+    "Contents": "(0.016)"
+  },
+  {
+    "Table A1: Estimated odds ratios from logistic regression of economic activity": "Higher education",
+    "Unnamed: 1": null,
+    "Unnamed: 2": null,
+    "Unnamed: 3": null,
+    "Unnamed: 4": "4.317***",
+    "Unnamed: 5": "3.765***",
+    "Contents": "4.843***"
+  },
+  {
+    "Table A1: Estimated odds ratios from logistic regression of economic activity": null,
+    "Unnamed: 1": null,
+    "Unnamed: 2": null,
+    "Unnamed: 3": null,
+    "Unnamed: 4": "(0.009)",
+    "Unnamed: 5": "(0.013)",
+    "Contents": "(0.014)"
+  },
+  {
+    "Table A1: Estimated odds ratios from logistic regression of economic activity": "A level or equivalent",
+    "Unnamed: 1": null,
+    "Unnamed: 2": null,
+    "Unnamed: 3": null,
+    "Unnamed: 4": "3.475***",
+    "Unnamed: 5": "3.087***",
+    "Contents": "3.952***"
+  },
+  {
+    "Table A1: Estimated odds ratios from logistic regression of economic activity": null,
+    "Unnamed: 1": null,
+    "Unnamed: 2": null,
+    "Unnamed: 3": null,
+    "Unnamed: 4": "(0.006)",
+    "Unnamed: 5": "(0.007)",
+    "Contents": "(0.009)"
+  },
+  {
+    "Table A1: Estimated odds ratios from logistic regression of economic activity": "GCSE A*-C or equivalent",
+    "Unnamed: 1": null,
+    "Unnamed: 2": null,
+    "Unnamed: 3": null,
+    "Unnamed: 4": "2.831***",
+    "Unnamed: 5": "2.754***",
+    "Contents": "3.031***"
+  },
+  {
+    "Table A1: Estimated odds ratios from logistic regression of economic activity": null,
+    "Unnamed: 1": null,
+    "Unnamed: 2": null,
+    "Unnamed: 3": null,
+    "Unnamed: 4": "(0.005)",
+    "Unnamed: 5": "(0.007)",
+    "Contents": "(0.007)"
+  },
+  {
+    "Table A1: Estimated odds ratios from logistic regression of economic activity": "Other qualification",
+    "Unnamed: 1": null,
+    "Unnamed: 2": null,
+    "Unnamed: 3": null,
+    "Unnamed: 4": "2.361***",
+    "Unnamed: 5": "2.523***",
+    "Contents": "2.337***"
+  },
+  {
+    "Table A1: Estimated odds ratios from logistic regression of economic activity": null,
+    "Unnamed: 1": null,
+    "Unnamed: 2": null,
+    "Unnamed: 3": null,
+    "Unnamed: 4": "(0.005)",
+    "Unnamed: 5": "(0.007)",
+    "Contents": "(0.006)"
+  },
+  {
+    "Table A1: Estimated odds ratios from logistic regression of economic activity": "No answer",
+    "Unnamed: 1": null,
+    "Unnamed: 2": null,
+    "Unnamed: 3": null,
+    "Unnamed: 4": "1.422***",
+    "Unnamed: 5": "1.416***",
+    "Contents": "1.380***"
+  },
+  {
+    "Table A1: Estimated odds ratios from logistic regression of economic activity": null,
+    "Unnamed: 1": null,
+    "Unnamed: 2": null,
+    "Unnamed: 3": null,
+    "Unnamed: 4": "(0.010)",
+    "Unnamed: 5": "(0.015)",
+    "Contents": "(0.015)"
+  },
+  {
+    "Table A1: Estimated odds ratios from logistic regression of economic activity": "Don’t know",
+    "Unnamed: 1": null,
+    "Unnamed: 2": null,
+    "Unnamed: 3": null,
+    "Unnamed: 4": "3.318***",
+    "Unnamed: 5": "3.208***",
+    "Contents": "3.423***"
+  },
+  {
+    "Table A1: Estimated odds ratios from logistic regression of economic activity": null,
+    "Unnamed: 1": null,
+    "Unnamed: 2": null,
+    "Unnamed: 3": null,
+    "Unnamed: 4": "(0.012)",
+    "Unnamed: 5": "(0.017)",
+    "Contents": "(0.017)"
+  },
+  {
+    "Table A1: Estimated odds ratios from logistic regression of economic activity": "Government Office Region (omitted category – North East) ",
+    "Unnamed: 1": null,
+    "Unnamed: 2": null,
+    "Unnamed: 3": null,
+    "Unnamed: 4": null,
+    "Unnamed: 5": null,
+    "Contents": null
+  },
+  {
+    "Table A1: Estimated odds ratios from logistic regression of economic activity": "North West",
+    "Unnamed: 1": null,
+    "Unnamed: 2": null,
+    "Unnamed: 3": null,
+    "Unnamed: 4": "1.169***",
+    "Unnamed: 5": "1.253***",
+    "Contents": "1.115***"
+  },
+  {
+    "Table A1: Estimated odds ratios from logistic regression of economic activity": null,
+    "Unnamed: 1": null,
+    "Unnamed: 2": null,
+    "Unnamed: 3": null,
+    "Unnamed: 4": "(0.003)",
+    "Unnamed: 5": "(0.005)",
+    "Contents": "(0.004)"
+  },
+  {
+    "Table A1: Estimated odds ratios from logistic regression of economic activity": "Merseyside",
+    "Unnamed: 1": null,
+    "Unnamed: 2": null,
+    "Unnamed: 3": null,
+    "Unnamed: 4": "0.935***",
+    "Unnamed: 5": "0.903***",
+    "Contents": "0.959***"
+  },
+  {
+    "Table A1: Estimated odds ratios from logistic regression of economic activity": null,
+    "Unnamed: 1": null,
+    "Unnamed: 2": null,
+    "Unnamed: 3": null,
+    "Unnamed: 4": "(0.003)",
+    "Unnamed: 5": "(0.005)",
+    "Contents": "(0.004)"
+  },
+  {
+    "Table A1: Estimated odds ratios from logistic regression of economic activity": "Yorkshire and Humberside",
+    "Unnamed: 1": null,
+    "Unnamed: 2": null,
+    "Unnamed: 3": null,
+    "Unnamed: 4": "1.151***",
+    "Unnamed: 5": "1.188***",
+    "Contents": "1.125***"
+  },
+  {
+    "Table A1: Estimated odds ratios from logistic regression of economic activity": null,
+    "Unnamed: 1": null,
+    "Unnamed: 2": null,
+    "Unnamed: 3": null,
+    "Unnamed: 4": "(0.003)",
+    "Unnamed: 5": "(0.005)",
+    "Contents": "(0.004)"
+  },
+  {
+    "Table A1: Estimated odds ratios from logistic regression of economic activity": "East Midlands",
+    "Unnamed: 1": null,
+    "Unnamed: 2": null,
+    "Unnamed: 3": null,
+    "Unnamed: 4": "1.206***",
+    "Unnamed: 5": "1.306***",
+    "Contents": "1.146***"
+  },
+  {
+    "Table A1: Estimated odds ratios from logistic regression of economic activity": null,
+    "Unnamed: 1": null,
+    "Unnamed: 2": null,
+    "Unnamed: 3": null,
+    "Unnamed: 4": "(0.003)",
+    "Unnamed: 5": "(0.005)",
+    "Contents": "(0.004)"
+  },
+  {
+    "Table A1: Estimated odds ratios from logistic regression of economic activity": "West Midlands",
+    "Unnamed: 1": null,
+    "Unnamed: 2": null,
+    "Unnamed: 3": null,
+    "Unnamed: 4": "1.202***",
+    "Unnamed: 5": "1.294***",
+    "Contents": "1.140***"
+  },
+  {
+    "Table A1: Estimated odds ratios from logistic regression of economic activity": null,
+    "Unnamed: 1": null,
+    "Unnamed: 2": null,
+    "Unnamed: 3": null,
+    "Unnamed: 4": "(0.003)",
+    "Unnamed: 5": "(0.005)",
+    "Contents": "(0.004)"
+  },
+  {
+    "Table A1: Estimated odds ratios from logistic regression of economic activity": "Eastern",
+    "Unnamed: 1": null,
+    "Unnamed: 2": null,
+    "Unnamed: 3": null,
+    "Unnamed: 4": "1.361***",
+    "Unnamed: 5": "1.540***",
+    "Contents": "1.264***"
+  },
+  {
+    "Table A1: Estimated odds ratios from logistic regression of economic activity": null,
+    "Unnamed: 1": null,
+    "Unnamed: 2": null,
+    "Unnamed: 3": null,
+    "Unnamed: 4": "(0.003)",
+    "Unnamed: 5": "(0.006)",
+    "Contents": "(0.004)"
+  },
+  {
+    "Table A1: Estimated odds ratios from logistic regression of economic activity": "London",
+    "Unnamed: 1": null,
+    "Unnamed: 2": null,
+    "Unnamed: 3": null,
+    "Unnamed: 4": "1.157***",
+    "Unnamed: 5": "1.342***",
+    "Contents": "1.052***"
+  },
+  {
+    "Table A1: Estimated odds ratios from logistic regression of economic activity": null,
+    "Unnamed: 1": null,
+    "Unnamed: 2": null,
+    "Unnamed: 3": null,
+    "Unnamed: 4": "(0.003)",
+    "Unnamed: 5": "(0.005)",
+    "Contents": "(0.003)"
+  },
+  {
+    "Table A1: Estimated odds ratios from logistic regression of economic activity": "South East",
+    "Unnamed: 1": null,
+    "Unnamed: 2": null,
+    "Unnamed: 3": null,
+    "Unnamed: 4": "1.273***",
+    "Unnamed: 5": "1.428***",
+    "Contents": "1.189***"
+  },
+  {
+    "Table A1: Estimated odds ratios from logistic regression of economic activity": null,
+    "Unnamed: 1": null,
+    "Unnamed: 2": null,
+    "Unnamed: 3": null,
+    "Unnamed: 4": "(0.003)",
+    "Unnamed: 5": "(0.005)",
+    "Contents": "(0.004)"
+  },
+  {
+    "Table A1: Estimated odds ratios from logistic regression of economic activity": "South West",
+    "Unnamed: 1": null,
+    "Unnamed: 2": null,
+    "Unnamed: 3": null,
+    "Unnamed: 4": "1.349***",
+    "Unnamed: 5": "1.400***",
+    "Contents": "1.324***"
+  },
+  {
+    "Table A1: Estimated odds ratios from logistic regression of economic activity": null,
+    "Unnamed: 1": null,
+    "Unnamed: 2": null,
+    "Unnamed: 3": null,
+    "Unnamed: 4": "(0.003)",
+    "Unnamed: 5": "(0.005)",
+    "Contents": "(0.004)"
+  },
+  {
+    "Table A1: Estimated odds ratios from logistic regression of economic activity": "Wales",
+    "Unnamed: 1": null,
+    "Unnamed: 2": null,
+    "Unnamed: 3": null,
+    "Unnamed: 4": "1.052***",
+    "Unnamed: 5": "1.100***",
+    "Contents": "1.028***"
+  },
+  {
+    "Table A1: Estimated odds ratios from logistic regression of economic activity": null,
+    "Unnamed: 1": null,
+    "Unnamed: 2": null,
+    "Unnamed: 3": null,
+    "Unnamed: 4": "(0.003)",
+    "Unnamed: 5": "(0.005)",
+    "Contents": "(0.004)"
+  },
+  {
+    "Table A1: Estimated odds ratios from logistic regression of economic activity": "Ethnicity (omitted category – White)",
+    "Unnamed: 1": null,
+    "Unnamed: 2": null,
+    "Unnamed: 3": null,
+    "Unnamed: 4": null,
+    "Unnamed: 5": null,
+    "Contents": null
+  },
+  {
+    "Table A1: Estimated odds ratios from logistic regression of economic activity": "No answer",
+    "Unnamed: 1": null,
+    "Unnamed: 2": null,
+    "Unnamed: 3": null,
+    "Unnamed: 4": "1.244***",
+    "Unnamed: 5": "2.349***",
+    "Contents": "0.898***"
+  },
+  {
+    "Table A1: Estimated odds ratios from logistic regression of economic activity": null,
+    "Unnamed: 1": null,
+    "Unnamed: 2": null,
+    "Unnamed: 3": null,
+    "Unnamed: 4": "(0.021)",
+    "Unnamed: 5": "(0.067)",
+    "Contents": "(0.019)"
+  },
+  {
+    "Table A1: Estimated odds ratios from logistic regression of economic activity": "Mixed/multiple ethnic groups",
+    "Unnamed: 1": null,
+    "Unnamed: 2": null,
+    "Unnamed: 3": null,
+    "Unnamed: 4": "0.715***",
+    "Unnamed: 5": "0.686***",
+    "Contents": "0.729***"
+  },
+  {
+    "Table A1: Estimated odds ratios from logistic regression of economic activity": null,
+    "Unnamed: 1": null,
+    "Unnamed: 2": null,
+    "Unnamed: 3": null,
+    "Unnamed: 4": "(0.003)",
+    "Unnamed: 5": "(0.004)",
+    "Contents": "(0.003)"
+  },
+  {
+    "Table A1: Estimated odds ratios from logistic regression of economic activity": "Asian / Asian British",
+    "Unnamed: 1": null,
+    "Unnamed: 2": null,
+    "Unnamed: 3": null,
+    "Unnamed: 4": "0.691***",
+    "Unnamed: 5": "0.732***",
+    "Contents": "0.667***"
+  },
+  {
+    "Table A1: Estimated odds ratios from logistic regression of economic activity": null,
+    "Unnamed: 1": null,
+    "Unnamed: 2": null,
+    "Unnamed: 3": null,
+    "Unnamed: 4": "(0.002)",
+    "Unnamed: 5": "(0.003)",
+    "Contents": "(0.002)"
+  },
+  {
+    "Table A1: Estimated odds ratios from logistic regression of economic activity": "Black / Black British",
+    "Unnamed: 1": null,
+    "Unnamed: 2": null,
+    "Unnamed: 3": null,
+    "Unnamed: 4": "0.754***",
+    "Unnamed: 5": "0.697***",
+    "Contents": "0.787***"
+  },
+  {
+    "Table A1: Estimated odds ratios from logistic regression of economic activity": null,
+    "Unnamed: 1": null,
+    "Unnamed: 2": null,
+    "Unnamed: 3": null,
+    "Unnamed: 4": "(0.002)",
+    "Unnamed: 5": "(0.003)",
+    "Contents": "(0.002)"
+  },
+  {
+    "Table A1: Estimated odds ratios from logistic regression of economic activity": "Chinese",
+    "Unnamed: 1": null,
+    "Unnamed: 2": null,
+    "Unnamed: 3": null,
+    "Unnamed: 4": "0.348***",
+    "Unnamed: 5": "0.268***",
+    "Contents": "0.409***"
+  },
+  {
+    "Table A1: Estimated odds ratios from logistic regression of economic activity": null,
+    "Unnamed: 1": null,
+    "Unnamed: 2": null,
+    "Unnamed: 3": null,
+    "Unnamed: 4": "(0.002)",
+    "Unnamed: 5": "(0.002)",
+    "Contents": "(0.002)"
+  },
+  {
+    "Table A1: Estimated odds ratios from logistic regression of economic activity": "Arab",
+    "Unnamed: 1": null,
+    "Unnamed: 2": null,
+    "Unnamed: 3": null,
+    "Unnamed: 4": "0.355***",
+    "Unnamed: 5": "0.327***",
+    "Contents": "0.331***"
+  },
+  {
+    "Table A1: Estimated odds ratios from logistic regression of economic activity": null,
+    "Unnamed: 1": null,
+    "Unnamed: 2": null,
+    "Unnamed: 3": null,
+    "Unnamed: 4": "(0.002)",
+    "Unnamed: 5": "(0.003)",
+    "Contents": "(0.003)"
+  },
+  {
+    "Table A1: Estimated odds ratios from logistic regression of economic activity": "Other",
+    "Unnamed: 1": null,
+    "Unnamed: 2": null,
+    "Unnamed: 3": null,
+    "Unnamed: 4": "0.586***",
+    "Unnamed: 5": "0.551***",
+    "Contents": "0.589***"
+  },
+  {
+    "Table A1: Estimated odds ratios from logistic regression of economic activity": null,
+    "Unnamed: 1": null,
+    "Unnamed: 2": null,
+    "Unnamed: 3": null,
+    "Unnamed: 4": "(0.002)",
+    "Unnamed: 5": "(0.003)",
+    "Contents": "(0.003)"
+  },
+  {
+    "Table A1: Estimated odds ratios from logistic regression of economic activity": "Constant",
+    "Unnamed: 1": "3.736***",
+    "Unnamed: 2": "5.053***",
+    "Unnamed: 3": "2.997***",
+    "Unnamed: 4": "0.006***",
+    "Unnamed: 5": "0.001***",
+    "Contents": "0.009***"
+  },
+  {
+    "Table A1: Estimated odds ratios from logistic regression of economic activity": null,
+    "Unnamed: 1": "(0.002)",
+    "Unnamed: 2": "(0.005)",
+    "Unnamed: 3": "(0.002)",
+    "Unnamed: 4": "(0.000)",
+    "Unnamed: 5": "(0.000)",
+    "Contents": "(0.000)"
+  },
+  {
+    "Table A1: Estimated odds ratios from logistic regression of economic activity": "Number of Observations (thousands)",
+    "Unnamed: 1": "36640",
+    "Unnamed: 2": "18255",
+    "Unnamed: 3": "18385",
+    "Unnamed: 4": "36640",
+    "Unnamed: 5": "18255",
+    "Contents": "18385"
+  },
+  {
+    "Table A1: Estimated odds ratios from logistic regression of economic activity": "Other Controls in the Model",
+    "Unnamed: 1": "No",
+    "Unnamed: 2": "No",
+    "Unnamed: 3": "No",
+    "Unnamed: 4": "Yes",
+    "Unnamed: 5": "Yes",
+    "Contents": "Yes"
+  },
+  {
+    "Table A1: Estimated odds ratios from logistic regression of economic activity": "Note – standard errors are in parenthesis. *** p<0.01, ** p<0.05, * p<0.1",
+    "Unnamed: 1": null,
+    "Unnamed: 2": null,
+    "Unnamed: 3": null,
+    "Unnamed: 4": null,
+    "Unnamed: 5": null,
+    "Contents": null
+  }
+]

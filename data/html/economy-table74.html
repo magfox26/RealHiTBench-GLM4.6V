@@ -1,0 +1,289 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <meta name="generator" content="PhpSpreadsheet, https://github.com/PHPOffice/PhpSpreadsheet">
+      <meta name="author" content="mac" />
+      <meta name="company" content="Microsoft Corporation" />
+    <style type="text/css">
+      html { font-family:Calibri, Arial, Helvetica, sans-serif; font-size:11pt; background-color:white }
+      a.comment-indicator:hover + div.comment { background:#ffd; position:absolute; display:block; border:1px solid black; padding:0.5em }
+      a.comment-indicator { background:red; display:inline-block; border:1px solid black; width:0.5em; height:0.5em }
+      div.comment { display:none }
+      table { border-collapse:collapse; page-break-after:always }
+      .gridlines td { border:1px dotted black }
+      .gridlines th { border:1px dotted black }
+      .b { text-align:center }
+      .e { text-align:center }
+      .f { text-align:right }
+      .inlineStr { text-align:left }
+      .n { text-align:right }
+      .s { text-align:left }
+      td.style0 { vertical-align:middle; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style0 { vertical-align:middle; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style1 { vertical-align:bottom; border-bottom:none #000000; border-top:2px solid #000000 !important; border-left:2px solid #000000 !important; border-right:none #000000; color:#000000; font-family:'Avenir Medium'; font-size:14pt; background-color:#D5F2EF }
+      th.style1 { vertical-align:bottom; border-bottom:none #000000; border-top:2px solid #000000 !important; border-left:2px solid #000000 !important; border-right:none #000000; color:#000000; font-family:'Avenir Medium'; font-size:14pt; background-color:#D5F2EF }
+      td.style2 { vertical-align:bottom; border-bottom:none #000000; border-top:2px solid #000000 !important; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Avenir Medium'; font-size:14pt; background-color:#D5F2EF }
+      th.style2 { vertical-align:bottom; border-bottom:none #000000; border-top:2px solid #000000 !important; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Avenir Medium'; font-size:14pt; background-color:#D5F2EF }
+      td.style3 { vertical-align:bottom; border-bottom:none #000000; border-top:2px solid #000000 !important; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Avenir Medium'; font-size:14pt; background-color:#D5F2EF }
+      th.style3 { vertical-align:bottom; border-bottom:none #000000; border-top:2px solid #000000 !important; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Avenir Medium'; font-size:14pt; background-color:#D5F2EF }
+      td.style4 { vertical-align:bottom; border-bottom:none #000000; border-top:2px solid #000000 !important; border-left:none #000000; border-right:2px solid #000000 !important; color:#000000; font-family:'Avenir Medium'; font-size:14pt; background-color:#D5F2EF }
+      th.style4 { vertical-align:bottom; border-bottom:none #000000; border-top:2px solid #000000 !important; border-left:none #000000; border-right:2px solid #000000 !important; color:#000000; font-family:'Avenir Medium'; font-size:14pt; background-color:#D5F2EF }
+      td.style5 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:2px solid #000000 !important; border-right:none #000000; color:#000000; font-family:'Avenir Medium'; font-size:14pt; background-color:#D5F2EF }
+      th.style5 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:2px solid #000000 !important; border-right:none #000000; color:#000000; font-family:'Avenir Medium'; font-size:14pt; background-color:#D5F2EF }
+      td.style6 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Avenir Medium'; font-size:14pt; background-color:#D5F2EF }
+      th.style6 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Avenir Medium'; font-size:14pt; background-color:#D5F2EF }
+      td.style7 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:2px solid #000000 !important; color:#000000; font-family:'Avenir Medium'; font-size:14pt; background-color:#D5F2EF }
+      th.style7 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:2px solid #000000 !important; color:#000000; font-family:'Avenir Medium'; font-size:14pt; background-color:#D5F2EF }
+      td.style8 { vertical-align:bottom; border-bottom:2px solid #000000 !important; border-top:none #000000; border-left:2px solid #000000 !important; border-right:none #000000; color:#000000; font-family:'Avenir Medium'; font-size:14pt; background-color:#D5F2EF }
+      th.style8 { vertical-align:bottom; border-bottom:2px solid #000000 !important; border-top:none #000000; border-left:2px solid #000000 !important; border-right:none #000000; color:#000000; font-family:'Avenir Medium'; font-size:14pt; background-color:#D5F2EF }
+      td.style9 { vertical-align:bottom; border-bottom:2px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Avenir Medium'; font-size:14pt; background-color:#D5F2EF }
+      th.style9 { vertical-align:bottom; border-bottom:2px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Avenir Medium'; font-size:14pt; background-color:#D5F2EF }
+      td.style10 { vertical-align:bottom; border-bottom:2px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Avenir Medium'; font-size:14pt; background-color:#D5F2EF }
+      th.style10 { vertical-align:bottom; border-bottom:2px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Avenir Medium'; font-size:14pt; background-color:#D5F2EF }
+      td.style11 { vertical-align:bottom; border-bottom:2px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:2px solid #000000 !important; color:#000000; font-family:'Avenir Medium'; font-size:14pt; background-color:#D5F2EF }
+      th.style11 { vertical-align:bottom; border-bottom:2px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:2px solid #000000 !important; color:#000000; font-family:'Avenir Medium'; font-size:14pt; background-color:#D5F2EF }
+      td.style12 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:2px solid #000000 !important; border-right:none #000000; color:#000000; font-family:'Avenir Medium'; font-size:14pt; background-color:white }
+      th.style12 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:2px solid #000000 !important; border-right:none #000000; color:#000000; font-family:'Avenir Medium'; font-size:14pt; background-color:white }
+      td.style13 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Avenir Medium'; font-size:14pt; background-color:white }
+      th.style13 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Avenir Medium'; font-size:14pt; background-color:white }
+      td.style14 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Avenir Medium'; font-size:14pt; background-color:white }
+      th.style14 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Avenir Medium'; font-size:14pt; background-color:white }
+      td.style15 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:2px solid #000000 !important; color:#000000; font-family:'Avenir Medium'; font-size:14pt; background-color:white }
+      th.style15 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:2px solid #000000 !important; color:#000000; font-family:'Avenir Medium'; font-size:14pt; background-color:white }
+      td.style16 { vertical-align:bottom; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:2px solid #000000 !important; border-right:none #000000; color:#000000; font-family:'Avenir Medium'; font-size:14pt; background-color:white }
+      th.style16 { vertical-align:bottom; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:2px solid #000000 !important; border-right:none #000000; color:#000000; font-family:'Avenir Medium'; font-size:14pt; background-color:white }
+      td.style17 { vertical-align:bottom; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Avenir Medium'; font-size:14pt; background-color:white }
+      th.style17 { vertical-align:bottom; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Avenir Medium'; font-size:14pt; background-color:white }
+      td.style18 { vertical-align:bottom; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Avenir Medium'; font-size:14pt; background-color:white }
+      th.style18 { vertical-align:bottom; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Avenir Medium'; font-size:14pt; background-color:white }
+      td.style19 { vertical-align:bottom; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:2px solid #000000 !important; color:#000000; font-family:'Avenir Medium'; font-size:14pt; background-color:white }
+      th.style19 { vertical-align:bottom; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:2px solid #000000 !important; color:#000000; font-family:'Avenir Medium'; font-size:14pt; background-color:white }
+      td.style20 { vertical-align:bottom; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:2px solid #000000 !important; border-right:none #000000; color:#000000; font-family:'Avenir Medium'; font-size:14pt; background-color:white }
+      th.style20 { vertical-align:bottom; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:2px solid #000000 !important; border-right:none #000000; color:#000000; font-family:'Avenir Medium'; font-size:14pt; background-color:white }
+      td.style21 { vertical-align:bottom; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Avenir Medium'; font-size:14pt; background-color:white }
+      th.style21 { vertical-align:bottom; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Avenir Medium'; font-size:14pt; background-color:white }
+      td.style22 { vertical-align:bottom; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Avenir Medium'; font-size:14pt; background-color:white }
+      th.style22 { vertical-align:bottom; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Avenir Medium'; font-size:14pt; background-color:white }
+      td.style23 { vertical-align:bottom; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:2px solid #000000 !important; color:#000000; font-family:'Avenir Medium'; font-size:14pt; background-color:white }
+      th.style23 { vertical-align:bottom; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:2px solid #000000 !important; color:#000000; font-family:'Avenir Medium'; font-size:14pt; background-color:white }
+      td.style24 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:2px solid #000000 !important; border-right:none #000000; color:#000000; font-family:'Avenir Medium'; font-size:14pt; background-color:#FBE5D5 }
+      th.style24 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:2px solid #000000 !important; border-right:none #000000; color:#000000; font-family:'Avenir Medium'; font-size:14pt; background-color:#FBE5D5 }
+      td.style25 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:2px solid #000000 !important; color:#000000; font-family:'Avenir Medium'; font-size:14pt; background-color:white }
+      th.style25 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:2px solid #000000 !important; color:#000000; font-family:'Avenir Medium'; font-size:14pt; background-color:white }
+      td.style26 { vertical-align:bottom; border-bottom:2px solid #000000 !important; border-top:none #000000; border-left:2px solid #000000 !important; border-right:none #000000; color:#000000; font-family:'Avenir Medium'; font-size:14pt; background-color:white }
+      th.style26 { vertical-align:bottom; border-bottom:2px solid #000000 !important; border-top:none #000000; border-left:2px solid #000000 !important; border-right:none #000000; color:#000000; font-family:'Avenir Medium'; font-size:14pt; background-color:white }
+      td.style27 { vertical-align:bottom; border-bottom:2px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Avenir Medium'; font-size:14pt; background-color:white }
+      th.style27 { vertical-align:bottom; border-bottom:2px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Avenir Medium'; font-size:14pt; background-color:white }
+      td.style28 { vertical-align:bottom; border-bottom:2px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Avenir Medium'; font-size:14pt; background-color:white }
+      th.style28 { vertical-align:bottom; border-bottom:2px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Avenir Medium'; font-size:14pt; background-color:white }
+      td.style29 { vertical-align:bottom; border-bottom:2px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:2px solid #000000 !important; color:#000000; font-family:'Avenir Medium'; font-size:14pt; background-color:white }
+      th.style29 { vertical-align:bottom; border-bottom:2px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:2px solid #000000 !important; color:#000000; font-family:'Avenir Medium'; font-size:14pt; background-color:white }
+      td.style30 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:2px solid #000000 !important; border-right:none #000000; color:#000000; font-family:'Avenir Medium'; font-size:14pt; background-color:#F9E399 }
+      th.style30 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:2px solid #000000 !important; border-right:none #000000; color:#000000; font-family:'Avenir Medium'; font-size:14pt; background-color:#F9E399 }
+      td.style31 { vertical-align:bottom; border-bottom:none #000000; border-top:2px solid #000000 !important; border-left:2px solid #000000 !important; border-right:none #000000; color:#000000; font-family:'Avenir Medium'; font-size:14pt; background-color:#F9DBDE }
+      th.style31 { vertical-align:bottom; border-bottom:none #000000; border-top:2px solid #000000 !important; border-left:2px solid #000000 !important; border-right:none #000000; color:#000000; font-family:'Avenir Medium'; font-size:14pt; background-color:#F9DBDE }
+      td.style32 { vertical-align:bottom; border-bottom:none #000000; border-top:2px solid #000000 !important; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Avenir Medium'; font-size:14pt; background-color:#F9DBDE }
+      th.style32 { vertical-align:bottom; border-bottom:none #000000; border-top:2px solid #000000 !important; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Avenir Medium'; font-size:14pt; background-color:#F9DBDE }
+      td.style33 { vertical-align:bottom; border-bottom:none #000000; border-top:2px solid #000000 !important; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Avenir Medium'; font-size:14pt; background-color:#F9DBDE }
+      th.style33 { vertical-align:bottom; border-bottom:none #000000; border-top:2px solid #000000 !important; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Avenir Medium'; font-size:14pt; background-color:#F9DBDE }
+      td.style34 { vertical-align:bottom; border-bottom:none #000000; border-top:2px solid #000000 !important; border-left:none #000000; border-right:2px solid #000000 !important; color:#000000; font-family:'Avenir Medium'; font-size:14pt; background-color:#F9DBDE }
+      th.style34 { vertical-align:bottom; border-bottom:none #000000; border-top:2px solid #000000 !important; border-left:none #000000; border-right:2px solid #000000 !important; color:#000000; font-family:'Avenir Medium'; font-size:14pt; background-color:#F9DBDE }
+      table.sheet0 col.col0 { width:216.21110863pt }
+      table.sheet0 col.col1 { width:133.52222069pt }
+      table.sheet0 col.col2 { width:75.91111024pt }
+      table.sheet0 col.col3 { width:119.28888752pt }
+      table.sheet0 tr { height:15pt }
+      table.sheet0 tr.row0 { height:20pt }
+      table.sheet0 tr.row1 { height:20pt }
+      table.sheet0 tr.row2 { height:20.75pt }
+      table.sheet0 tr.row3 { height:31pt }
+      table.sheet0 tr.row4 { height:48pt }
+      table.sheet0 tr.row5 { height:20pt }
+      table.sheet0 tr.row6 { height:20pt }
+      table.sheet0 tr.row7 { height:20pt }
+      table.sheet0 tr.row8 { height:20pt }
+      table.sheet0 tr.row9 { height:20.75pt }
+      table.sheet0 tr.row10 { height:20pt }
+      table.sheet0 tr.row11 { height:20pt }
+      table.sheet0 tr.row12 { height:20pt }
+      table.sheet0 tr.row13 { height:20pt }
+      table.sheet0 tr.row14 { height:20pt }
+      table.sheet0 tr.row15 { height:20pt }
+      table.sheet0 tr.row16 { height:20.75pt }
+      table.sheet0 tr.row17 { height:20pt }
+      table.sheet0 tr.row18 { height:20pt }
+      table.sheet0 tr.row19 { height:20pt }
+      table.sheet0 tr.row20 { height:20pt }
+      table.sheet0 tr.row21 { height:20pt }
+      table.sheet0 tr.row22 { height:20.75pt }
+      table.sheet0 tr.row23 { height:20.75pt }
+      table.sheet0 tr.row24 { height:20pt }
+    </style>
+  </head>
+
+  <body>
+<style>
+@page { margin-left: 0.75in; margin-right: 0.75in; margin-top: 1in; margin-bottom: 1in; }
+body { margin-left: 0.75in; margin-right: 0.75in; margin-top: 1in; margin-bottom: 1in; }
+</style>
+    <table border="0" cellpadding="0" cellspacing="0" id="sheet0" class="sheet0 gridlines">
+        <col class="col0">
+        <col class="col1">
+        <col class="col2">
+        <col class="col3">
+        <tbody>
+          <tr class="row0">
+            <td class="column0 style1 s">Market Basket Volume</td>
+            <td class="column1 style2 n">$4,000,000</td>
+            <td class="column2 style3 null"></td>
+            <td class="column3 style4 null"></td>
+          </tr>
+          <tr class="row1">
+            <td class="column0 style5 s">Average Category Mark-UP</td>
+            <td class="column1 style6 n">4.96%</td>
+            <td class="column2 style6 null"></td>
+            <td class="column3 style7 null"></td>
+          </tr>
+          <tr class="row2">
+            <td class="column0 style8 s">Pricing Evaluation Date</td>
+            <td class="column1 style9 n">9/1/2013</td>
+            <td class="column2 style10 null"></td>
+            <td class="column3 style11 null"></td>
+          </tr>
+          <tr class="row3">
+            <td class="column0 style12 null"></td>
+            <td class="column1 style13 null"></td>
+            <td class="column2 style14 null"></td>
+            <td class="column3 style15 null"></td>
+          </tr>
+          <tr class="row4">
+            <td class="column0 style16 s">Premier Program Incentives</td>
+            <td class="column1 style17 s">Choose From Drop Down Boxes In Cells</td>
+            <td class="column2 style18 s">% of Incentive</td>
+            <td class="column3 style19 s">Actual $ Based on MB Volume</td>
+          </tr>
+          <tr class="row5">
+            <td class="column0 style20 null"></td>
+            <td class="column1 style21 null"></td>
+            <td class="column2 style22 null"></td>
+            <td class="column3 style23 null"></td>
+          </tr>
+          <tr class="row6">
+            <td class="column0 style24 s">USF Discounts with Premier</td>
+            <td class="column1 style13 null"></td>
+            <td class="column2 style14 null"></td>
+            <td class="column3 style15 null"></td>
+          </tr>
+          <tr class="row7">
+            <td class="column0 style12 s">Drop Size Incentive</td>
+            <td class="column1 style13 s">Less than $2,499</td>
+            <td class="column2 style14 n">1.00%</td>
+            <td class="column3 style25 n">$40,000</td>
+          </tr>
+          <tr class="row8">
+            <td class="column0 style12 s">Accounts Payable Incentive</td>
+            <td class="column1 style13 s">10.01 - 15.00</td>
+            <td class="column2 style14 n">1.00%</td>
+            <td class="column3 style25 n">$40,000</td>
+          </tr>
+          <tr class="row9">
+            <td class="column0 style26 s">TOTAL STANDARD</td>
+            <td class="column1 style27 null"></td>
+            <td class="column2 style28 null"></td>
+            <td class="column3 style29 n">$80,000.00</td>
+          </tr>
+          <tr class="row10">
+            <td class="column0 style12 null"></td>
+            <td class="column1 style13 null"></td>
+            <td class="column2 style14 null"></td>
+            <td class="column3 style15 null"></td>
+          </tr>
+          <tr class="row11">
+            <td class="column0 style24 s">Potential Incentives*</td>
+            <td class="column1 style13 null"></td>
+            <td class="column2 style14 null"></td>
+            <td class="column3 style15 null"></td>
+          </tr>
+          <tr class="row12">
+            <td class="column0 style12 s">Program Maximization Incentive</td>
+            <td class="column1 style13 s">Direct Parent</td>
+            <td class="column2 style14 n">1.00%</td>
+            <td class="column3 style25 n">$40,000</td>
+          </tr>
+          <tr class="row13">
+            <td class="column0 style12 s">New Business Incentive</td>
+            <td class="column1 style13 s">New Customer to USF</td>
+            <td class="column2 style14 n">1.00%</td>
+            <td class="column3 style25 n">$40,000</td>
+          </tr>
+          <tr class="row14">
+            <td class="column0 style12 s">Label Incentive</td>
+            <td class="column1 style13 s">No Label Incentive</td>
+            <td class="column2 style14 n">0.00%</td>
+            <td class="column3 style25 n">$0</td>
+          </tr>
+          <tr class="row15">
+            <td class="column0 style12 s">Other</td>
+            <td class="column1 style13 s">None</td>
+            <td class="column2 style14 n">1.00%</td>
+            <td class="column3 style25 n">$40,000</td>
+          </tr>
+          <tr class="row16">
+            <td class="column0 style26 s">TOTAL POTENTIAL</td>
+            <td class="column1 style27 null"></td>
+            <td class="column2 style28 null"></td>
+            <td class="column3 style29 n">$120,000.00</td>
+          </tr>
+          <tr class="row17">
+            <td class="column0 style12 null"></td>
+            <td class="column1 style13 null"></td>
+            <td class="column2 style14 null"></td>
+            <td class="column3 style15 null"></td>
+          </tr>
+          <tr class="row18">
+            <td class="column0 style30 s">GPO - INCENTIVES</td>
+            <td class="column1 style13 null"></td>
+            <td class="column2 style14 null"></td>
+            <td class="column3 style15 null"></td>
+          </tr>
+          <tr class="row19">
+            <td class="column0 style12 s">Contracted Rebates</td>
+            <td class="column1 style13 s">Premier_CMA_.25</td>
+            <td class="column2 style14 n">1.00%</td>
+            <td class="column3 style25 n">$40,000</td>
+          </tr>
+          <tr class="row20">
+            <td class="column0 style12 s">Administrative Fees</td>
+            <td class="column1 style13 s">No Premier Fee</td>
+            <td class="column2 style14 n">0.00%</td>
+            <td class="column3 style25 n">$0</td>
+          </tr>
+          <tr class="row21">
+            <td class="column0 style12 s">Other</td>
+            <td class="column1 style13 s">None</td>
+            <td class="column2 style14 n">1.00%</td>
+            <td class="column3 style25 n">$40,000</td>
+          </tr>
+          <tr class="row22">
+            <td class="column0 style26 s">TOTAL GPO INCENTIVES</td>
+            <td class="column1 style27 null"></td>
+            <td class="column2 style28 null"></td>
+            <td class="column3 style29 n">$80,000.00</td>
+          </tr>
+          <tr class="row23">
+            <td class="column0 style12 null"></td>
+            <td class="column1 style13 null"></td>
+            <td class="column2 style14 null"></td>
+            <td class="column3 style15 null"></td>
+          </tr>
+          <tr class="row24">
+            <td class="column0 style31 s">TOTAL ALL INCENTIVES</td>
+            <td class="column1 style32 null"></td>
+            <td class="column2 style33 null"></td>
+            <td class="column3 style34 n">$280,000.00</td>
+          </tr>
+        </tbody>
+    </table>
+  </body>
+</html>

@@ -1,0 +1,1021 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <meta name="generator" content="PhpSpreadsheet, https://github.com/PHPOffice/PhpSpreadsheet">
+      <meta name="company" content="Microsoft Corporation" />
+    <style type="text/css">
+      html { font-family:Calibri, Arial, Helvetica, sans-serif; font-size:11pt; background-color:white }
+      a.comment-indicator:hover + div.comment { background:#ffd; position:absolute; display:block; border:1px solid black; padding:0.5em }
+      a.comment-indicator { background:red; display:inline-block; border:1px solid black; width:0.5em; height:0.5em }
+      div.comment { display:none }
+      table { border-collapse:collapse; page-break-after:always }
+      .gridlines td { border:1px dotted black }
+      .gridlines th { border:1px dotted black }
+      .b { text-align:center }
+      .e { text-align:center }
+      .f { text-align:right }
+      .inlineStr { text-align:left }
+      .n { text-align:right }
+      .s { text-align:left }
+      td.style0 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style0 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style1 { vertical-align:top; text-align:left; padding-left:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#FFFFFF; font-family:'宋体'; font-size:11pt; background-color:#0549AB }
+      th.style1 { vertical-align:top; text-align:left; padding-left:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#FFFFFF; font-family:'宋体'; font-size:11pt; background-color:#0549AB }
+      td.style2 { vertical-align:top; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#FFFFFF; font-family:'宋体'; font-size:11pt; background-color:#0549AB }
+      th.style2 { vertical-align:top; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#FFFFFF; font-family:'宋体'; font-size:11pt; background-color:#0549AB }
+      td.style3 { vertical-align:top; text-align:left; padding-left:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#E2F2FB }
+      th.style3 { vertical-align:top; text-align:left; padding-left:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#E2F2FB }
+      td.style4 { vertical-align:top; text-align:left; padding-left:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#F1F1F1 }
+      th.style4 { vertical-align:top; text-align:left; padding-left:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#F1F1F1 }
+      td.style5 { vertical-align:top; text-align:left; padding-left:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#E2F2FB }
+      th.style5 { vertical-align:top; text-align:left; padding-left:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#E2F2FB }
+      td.style6 { vertical-align:top; text-align:right; padding-right:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#F1F1F1 }
+      th.style6 { vertical-align:top; text-align:right; padding-right:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#F1F1F1 }
+      td.style7 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style7 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style8 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style8 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      table.sheet0 col.col0 { width:332.1111073pt }
+      table.sheet0 col.col1 { width:332.1111073pt }
+      table.sheet0 col.col2 { width:66.42222146pt }
+      table.sheet0 col.col3 { width:66.42222146pt }
+      table.sheet0 col.col4 { width:66.42222146pt }
+      table.sheet0 col.col5 { width:66.42222146pt }
+      table.sheet0 col.col6 { width:66.42222146pt }
+      table.sheet0 col.col7 { width:66.42222146pt }
+      table.sheet0 col.col8 { width:66.42222146pt }
+      table.sheet0 col.col9 { width:66.42222146pt }
+      table.sheet0 col.col10 { width:66.42222146pt }
+      table.sheet0 col.col11 { width:66.42222146pt }
+      table.sheet0 col.col12 { width:66.42222146pt }
+      table.sheet0 tr { height:15pt }
+      table.sheet0 tr.row0 { height:30pt }
+      table.sheet0 tr.row1 { height:17pt }
+      table.sheet0 tr.row2 { height:17pt }
+      table.sheet0 tr.row3 { height:17pt }
+      table.sheet0 tr.row4 { height:17pt }
+      table.sheet0 tr.row5 { height:17pt }
+      table.sheet0 tr.row6 { height:17pt }
+      table.sheet0 tr.row7 { height:17pt }
+      table.sheet0 tr.row8 { height:17pt }
+      table.sheet0 tr.row9 { height:17pt }
+      table.sheet0 tr.row10 { height:17pt }
+      table.sheet0 tr.row11 { height:17pt }
+      table.sheet0 tr.row12 { height:17pt }
+      table.sheet0 tr.row13 { height:17pt }
+      table.sheet0 tr.row14 { height:17pt }
+      table.sheet0 tr.row15 { height:34pt }
+      table.sheet0 tr.row16 { height:17pt }
+      table.sheet0 tr.row17 { height:17pt }
+      table.sheet0 tr.row18 { height:34pt }
+      table.sheet0 tr.row19 { height:34pt }
+      table.sheet0 tr.row20 { height:17pt }
+      table.sheet0 tr.row21 { height:17pt }
+      table.sheet0 tr.row22 { height:17pt }
+      table.sheet0 tr.row23 { height:17pt }
+      table.sheet0 tr.row24 { height:17pt }
+      table.sheet0 tr.row25 { height:17pt }
+      table.sheet0 tr.row26 { height:17pt }
+      table.sheet0 tr.row27 { height:17pt }
+      table.sheet0 tr.row28 { height:17pt }
+      table.sheet0 tr.row29 { height:17pt }
+      table.sheet0 tr.row30 { height:17pt }
+      table.sheet0 tr.row31 { height:17pt }
+      table.sheet0 tr.row32 { height:17pt }
+      table.sheet0 tr.row33 { height:17pt }
+      table.sheet0 tr.row34 { height:17pt }
+      table.sheet0 tr.row35 { height:17pt }
+      table.sheet0 tr.row36 { height:17pt }
+      table.sheet0 tr.row37 { height:17pt }
+      table.sheet0 tr.row38 { height:17pt }
+      table.sheet0 tr.row39 { height:17pt }
+      table.sheet0 tr.row40 { height:17pt }
+      table.sheet0 tr.row41 { height:17pt }
+      table.sheet0 tr.row42 { height:17pt }
+      table.sheet0 tr.row43 { height:17pt }
+      table.sheet0 tr.row44 { height:17pt }
+      table.sheet0 tr.row45 { height:17pt }
+      table.sheet0 tr.row46 { height:17pt }
+      table.sheet0 tr.row47 { height:17pt }
+      table.sheet0 tr.row48 { height:17pt }
+      table.sheet0 tr.row49 { height:34pt }
+      table.sheet0 tr.row50 { height:51pt }
+      table.sheet0 tr.row51 { height:17pt }
+      table.sheet0 tr.row52 { height:17pt }
+      table.sheet0 tr.row53 { height:17pt }
+      table.sheet0 tr.row54 { height:17pt }
+      table.sheet0 tr.row55 { height:17pt }
+      table.sheet0 tr.row56 { height:17pt }
+      table.sheet0 tr.row57 { height:17pt }
+      table.sheet0 tr.row58 { height:17pt }
+    </style>
+  </head>
+
+  <body>
+<style>
+@page { margin-left: 0.7in; margin-right: 0.7in; margin-top: 0.75in; margin-bottom: 0.75in; }
+body { margin-left: 0.7in; margin-right: 0.7in; margin-top: 0.75in; margin-bottom: 0.75in; }
+</style>
+    <table border="0" cellpadding="0" cellspacing="0" id="sheet0" class="sheet0 gridlines">
+        <col class="col0">
+        <col class="col1">
+        <col class="col2">
+        <col class="col3">
+        <col class="col4">
+        <col class="col5">
+        <col class="col6">
+        <col class="col7">
+        <col class="col8">
+        <col class="col9">
+        <col class="col10">
+        <col class="col11">
+        <col class="col12">
+        <tbody>
+          <tr class="row0">
+            <td class="column0 style1 s style1" colspan="3">Time period</td>
+            <td class="column3 style2 s">2014</td>
+            <td class="column4 style2 s">2015</td>
+            <td class="column5 style2 s">2016</td>
+            <td class="column6 style2 s">2017</td>
+            <td class="column7 style2 s">2018</td>
+            <td class="column8 style2 s">2019</td>
+            <td class="column9 style2 s">2020</td>
+            <td class="column10 style2 s">2021</td>
+            <td class="column11 style2 s">2022</td>
+            <td class="column12 style2 s">2023</td>
+          </tr>
+          <tr class="row1">
+            <td class="column0 style3 s">Combined unit of measure</td>
+            <td class="column1 style3 s">Measure</td>
+            <td class="column2 style4 s"></td>
+            <td class="column3 style4 s"></td>
+            <td class="column4 style4 s"></td>
+            <td class="column5 style4 s"></td>
+            <td class="column6 style4 s"></td>
+            <td class="column7 style4 s"></td>
+            <td class="column8 style4 s"></td>
+            <td class="column9 style4 s"></td>
+            <td class="column10 style4 s"></td>
+            <td class="column11 style4 s"></td>
+            <td class="column12 style4 s"></td>
+          </tr>
+          <tr class="row2">
+            <td class="column0 style5 s">US dollar, Millions</td>
+            <td class="column1 style5 s">Producer Support Estimate (PSE)</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style7 n">231,646.15</td>
+            <td class="column4 style7 n">212,232.82</td>
+            <td class="column5 style7 n">215,113.12</td>
+            <td class="column6 style7 n">212,095.27</td>
+            <td class="column7 style7 n">230,575.05</td>
+            <td class="column8 style7 n">225,693.78</td>
+            <td class="column9 style7 n">232,827.00</td>
+            <td class="column10 style7 n">243,073.29</td>
+            <td class="column11 style7 n">203,708.81</td>
+            <td class="column12 style7 n">224,201.16</td>
+          </tr>
+          <tr class="row3">
+            <td class="column0 style5 s">US dollar, Millions</td>
+            <td class="column1 style5 s">·  Payments based on input use</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style7 n">32,077.72</td>
+            <td class="column4 style7 n">29,068.19</td>
+            <td class="column5 style7 n">26,590.72</td>
+            <td class="column6 style7 n">26,914.10</td>
+            <td class="column7 style7 n">30,066.29</td>
+            <td class="column8 style7 n">28,819.36</td>
+            <td class="column9 style7 n">34,900.35</td>
+            <td class="column10 style7 n">30,210.32</td>
+            <td class="column11 style7 n">33,361.80</td>
+            <td class="column12 style7 n">35,383.59</td>
+          </tr>
+          <tr class="row4">
+            <td class="column0 style5 s">US dollar, Millions</td>
+            <td class="column1 style5 s">·  ·  Based on variable input use</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style7 n">12,756.78</td>
+            <td class="column4 style7 n">11,055.15</td>
+            <td class="column5 style7 n">9,664.26</td>
+            <td class="column6 style7 n">10,387.93</td>
+            <td class="column7 style7 n">10,885.78</td>
+            <td class="column8 style7 n">9,908.04</td>
+            <td class="column9 style7 n">15,149.58</td>
+            <td class="column10 style7 n">11,157.95</td>
+            <td class="column11 style7 n">13,052.59</td>
+            <td class="column12 style7 n">12,422.59</td>
+          </tr>
+          <tr class="row5">
+            <td class="column0 style5 s">US dollar, Millions</td>
+            <td class="column1 style5 s">·  ·  ·  With input constraints</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style7 n">2,078.93</td>
+            <td class="column4 style7 n">1,607.18</td>
+            <td class="column5 style7 n">1,185.96</td>
+            <td class="column6 style7 n">1,389.83</td>
+            <td class="column7 style7 n">1,304.54</td>
+            <td class="column8 style7 n">989.66</td>
+            <td class="column9 style7 n">1,157.48</td>
+            <td class="column10 style7 n">1,314.42</td>
+            <td class="column11 style7 n">2,549.80</td>
+            <td class="column12 style7 n">2,550.72</td>
+          </tr>
+          <tr class="row6">
+            <td class="column0 style5 s">US dollar, Millions</td>
+            <td class="column1 style5 s">·  ·  Based on fixed capital formation</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style7 n">11,781.68</td>
+            <td class="column4 style7 n">10,856.84</td>
+            <td class="column5 style7 n">8,978.40</td>
+            <td class="column6 style7 n">9,022.80</td>
+            <td class="column7 style7 n">11,304.08</td>
+            <td class="column8 style7 n">10,635.66</td>
+            <td class="column9 style7 n">10,944.47</td>
+            <td class="column10 style7 n">9,595.74</td>
+            <td class="column11 style7 n">10,422.03</td>
+            <td class="column12 style7 n">13,784.30</td>
+          </tr>
+          <tr class="row7">
+            <td class="column0 style5 s">US dollar, Millions</td>
+            <td class="column1 style5 s">·  ·  ·  With input constraints</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style7 n">2,801.93</td>
+            <td class="column4 style7 n">2,700.37</td>
+            <td class="column5 style7 n">2,657.66</td>
+            <td class="column6 style7 n">2,503.46</td>
+            <td class="column7 style7 n">2,856.25</td>
+            <td class="column8 style7 n">2,279.96</td>
+            <td class="column9 style7 n">2,320.66</td>
+            <td class="column10 style7 n">2,206.48</td>
+            <td class="column11 style7 n">2,206.61</td>
+            <td class="column12 style7 n">4,275.07</td>
+          </tr>
+          <tr class="row8">
+            <td class="column0 style5 s">US dollar, Millions</td>
+            <td class="column1 style5 s">·  ·  Based on on-farm services</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style7 n">7,539.26</td>
+            <td class="column4 style7 n">7,156.21</td>
+            <td class="column5 style7 n">7,948.06</td>
+            <td class="column6 style7 n">7,503.37</td>
+            <td class="column7 style7 n">7,876.42</td>
+            <td class="column8 style7 n">8,275.67</td>
+            <td class="column9 style7 n">8,806.30</td>
+            <td class="column10 style7 n">9,456.63</td>
+            <td class="column11 style7 n">9,887.18</td>
+            <td class="column12 style7 n">9,176.70</td>
+          </tr>
+          <tr class="row9">
+            <td class="column0 style5 s">US dollar, Millions</td>
+            <td class="column1 style5 s">·  ·  ·  With input constraints</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style7 n">1,418.04</td>
+            <td class="column4 style7 n">1,246.94</td>
+            <td class="column5 style7 n">1,513.38</td>
+            <td class="column6 style7 n">1,534.31</td>
+            <td class="column7 style7 n">1,584.42</td>
+            <td class="column8 style7 n">1,546.34</td>
+            <td class="column9 style7 n">1,764.52</td>
+            <td class="column10 style7 n">1,906.68</td>
+            <td class="column11 style7 n">2,038.50</td>
+            <td class="column12 style7 n">2,182.40</td>
+          </tr>
+          <tr class="row10">
+            <td class="column0 style5 s">US dollar, Millions</td>
+            <td class="column1 style5 s">·  Support based on commodity output</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style7 n">97,802.58</td>
+            <td class="column4 style7 n">93,750.64</td>
+            <td class="column5 style7 n">97,890.88</td>
+            <td class="column6 style7 n">97,052.14</td>
+            <td class="column7 style7 n">105,443.43</td>
+            <td class="column8 style7 n">92,784.13</td>
+            <td class="column9 style7 n">98,323.50</td>
+            <td class="column10 style7 n">89,583.69</td>
+            <td class="column11 style7 n">67,365.13</td>
+            <td class="column12 style7 n">91,255.61</td>
+          </tr>
+          <tr class="row11">
+            <td class="column0 style5 s">US dollar, Millions</td>
+            <td class="column1 style5 s">·  ·  Market Price Support (MPS)</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style7 n">92,752.92</td>
+            <td class="column4 style7 n">89,736.62</td>
+            <td class="column5 style7 n">94,167.70</td>
+            <td class="column6 style7 n">93,371.51</td>
+            <td class="column7 style7 n">93,170.59</td>
+            <td class="column8 style7 n">88,759.78</td>
+            <td class="column9 style7 n">87,353.90</td>
+            <td class="column10 style7 n">84,288.83</td>
+            <td class="column11 style7 n">63,795.46</td>
+            <td class="column12 style7 n">88,253.88</td>
+          </tr>
+          <tr class="row12">
+            <td class="column0 style5 s">US dollar, Millions</td>
+            <td class="column1 style5 s">·  ·  ·  Positive Market Price Support</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style7 n">93,395.07</td>
+            <td class="column4 style7 n">90,150.62</td>
+            <td class="column5 style7 n">94,429.43</td>
+            <td class="column6 style7 n">93,916.00</td>
+            <td class="column7 style7 n">93,413.59</td>
+            <td class="column8 style7 n">89,116.30</td>
+            <td class="column9 style7 n">87,433.76</td>
+            <td class="column10 style7 n">84,393.70</td>
+            <td class="column11 style7 n">63,848.49</td>
+            <td class="column12 style7 n">88,932.58</td>
+          </tr>
+          <tr class="row13">
+            <td class="column0 style5 s">US dollar, Millions</td>
+            <td class="column1 style5 s">·  ·  ·  Negative Market Price Support</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style7 n">-642.15</td>
+            <td class="column4 style7 n">-414.00</td>
+            <td class="column5 style7 n">-261.73</td>
+            <td class="column6 style7 n">-544.50</td>
+            <td class="column7 style7 n">-243.00</td>
+            <td class="column8 style7 n">-356.52</td>
+            <td class="column9 style7 n">-79.86</td>
+            <td class="column10 style7 n">-104.87</td>
+            <td class="column11 style7 n">-53.03</td>
+            <td class="column12 style7 n">-678.70</td>
+          </tr>
+          <tr class="row14">
+            <td class="column0 style5 s">US dollar, Millions</td>
+            <td class="column1 style5 s">·  ·  Payments based on output</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style7 n">5,049.66</td>
+            <td class="column4 style7 n">4,014.02</td>
+            <td class="column5 style7 n">3,723.19</td>
+            <td class="column6 style7 n">3,680.63</td>
+            <td class="column7 style7 n">12,272.84</td>
+            <td class="column8 style7 n">4,024.36</td>
+            <td class="column9 style7 n">10,969.59</td>
+            <td class="column10 style7 n">5,294.87</td>
+            <td class="column11 style7 n">3,569.68</td>
+            <td class="column12 style7 n">3,001.73</td>
+          </tr>
+          <tr class="row15">
+            <td class="column0 style5 s">US dollar, Millions</td>
+            <td class="column1 style5 s">·  Payments based on current area planted / animal numbers / receipts / income, production required</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style7 n">31,565.01</td>
+            <td class="column4 style7 n">32,162.31</td>
+            <td class="column5 style7 n">33,617.87</td>
+            <td class="column6 style7 n">35,484.02</td>
+            <td class="column7 style7 n">37,076.25</td>
+            <td class="column8 style7 n">50,596.72</td>
+            <td class="column9 style7 n">45,123.28</td>
+            <td class="column10 style7 n">59,934.64</td>
+            <td class="column11 style7 n">51,746.29</td>
+            <td class="column12 style7 n">52,449.43</td>
+          </tr>
+          <tr class="row16">
+            <td class="column0 style5 s">US dollar, Millions</td>
+            <td class="column1 style5 s">·  ·  Based on area planted or animal numbers</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style7 n">28,156.46</td>
+            <td class="column4 style7 n">28,764.89</td>
+            <td class="column5 style7 n">29,736.75</td>
+            <td class="column6 style7 n">32,059.60</td>
+            <td class="column7 style7 n">32,681.97</td>
+            <td class="column8 style7 n">46,405.06</td>
+            <td class="column9 style7 n">40,117.03</td>
+            <td class="column10 style7 n">53,401.44</td>
+            <td class="column11 style7 n">45,863.53</td>
+            <td class="column12 style7 n">45,146.79</td>
+          </tr>
+          <tr class="row17">
+            <td class="column0 style5 s">US dollar, Millions</td>
+            <td class="column1 style5 s">·  ·  Based on farm receipts or farm income</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style7 n">3,408.55</td>
+            <td class="column4 style7 n">3,397.42</td>
+            <td class="column5 style7 n">3,881.12</td>
+            <td class="column6 style7 n">3,424.42</td>
+            <td class="column7 style7 n">4,394.29</td>
+            <td class="column8 style7 n">4,191.66</td>
+            <td class="column9 style7 n">5,006.25</td>
+            <td class="column10 style7 n">6,533.19</td>
+            <td class="column11 style7 n">5,882.76</td>
+            <td class="column12 style7 n">7,302.64</td>
+          </tr>
+          <tr class="row18">
+            <td class="column0 style5 s">US dollar, Millions</td>
+            <td class="column1 style5 s">·  Payments based on non-current area planted / animal numbers / receipts / income, production required</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style7 n">3,051.69</td>
+            <td class="column4 style7 n">2,499.46</td>
+            <td class="column5 style7 n">2,581.61</td>
+            <td class="column6 style7 n">2,014.17</td>
+            <td class="column7 style7 n">2,231.20</td>
+            <td class="column8 style7 n">2,372.78</td>
+            <td class="column9 style7 n">1,982.79</td>
+            <td class="column10 style7 n">4,829.05</td>
+            <td class="column11 style7 n">2,425.59</td>
+            <td class="column12 style7 n">2,196.77</td>
+          </tr>
+          <tr class="row19">
+            <td class="column0 style5 s">US dollar, Millions</td>
+            <td class="column1 style5 s">·  Payments based on non-current area planted / animal numbers / receipts / income, production not required</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style7 n">62,682.13</td>
+            <td class="column4 style7 n">50,362.18</td>
+            <td class="column5 style7 n">50,088.32</td>
+            <td class="column6 style7 n">46,584.31</td>
+            <td class="column7 style7 n">52,051.15</td>
+            <td class="column8 style7 n">46,066.20</td>
+            <td class="column9 style7 n">47,027.43</td>
+            <td class="column10 style7 n">52,364.56</td>
+            <td class="column11 style7 n">43,060.41</td>
+            <td class="column12 style7 n">35,335.56</td>
+          </tr>
+          <tr class="row20">
+            <td class="column0 style5 s">US dollar, Millions</td>
+            <td class="column1 style5 s">·  ·  With variable payment rates</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style7 n">5,643.80</td>
+            <td class="column4 style7 n">8,239.95</td>
+            <td class="column5 style7 n">7,433.88</td>
+            <td class="column6 style7 n">3,639.30</td>
+            <td class="column7 style7 n">7,545.13</td>
+            <td class="column8 style7 n">3,413.16</td>
+            <td class="column9 style7 n">2,881.73</td>
+            <td class="column10 style7 n">6,618.96</td>
+            <td class="column11 style7 n">2,504.19</td>
+            <td class="column12 style7 n">641.32</td>
+          </tr>
+          <tr class="row21">
+            <td class="column0 style5 s">US dollar, Millions</td>
+            <td class="column1 style5 s">·  ·  With fixed payment rates</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style7 n">57,038.33</td>
+            <td class="column4 style7 n">42,122.23</td>
+            <td class="column5 style7 n">42,654.44</td>
+            <td class="column6 style7 n">42,945.01</td>
+            <td class="column7 style7 n">44,506.02</td>
+            <td class="column8 style7 n">42,653.05</td>
+            <td class="column9 style7 n">44,145.70</td>
+            <td class="column10 style7 n">45,745.60</td>
+            <td class="column11 style7 n">40,556.22</td>
+            <td class="column12 style7 n">34,694.23</td>
+          </tr>
+          <tr class="row22">
+            <td class="column0 style5 s">US dollar, Millions</td>
+            <td class="column1 style5 s">·  ·  ·  With commodity exceptions</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style7 n">24,747.13</td>
+            <td class="column4 style7 n">2,345.09</td>
+            <td class="column5 style7 n">2,671.65</td>
+            <td class="column6 style7 n">2,573.94</td>
+            <td class="column7 style7 n">2,510.01</td>
+            <td class="column8 style7 n">2,514.54</td>
+            <td class="column9 style7 n">2,592.67</td>
+            <td class="column10 style7 n">2,883.43</td>
+            <td class="column11 style7 n">2,437.07</td>
+            <td class="column12 style7 n">2,607.20</td>
+          </tr>
+          <tr class="row23">
+            <td class="column0 style5 s">US dollar, Millions</td>
+            <td class="column1 style5 s">·  Payments based on non-commodity criteria</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style7 n">4,044.74</td>
+            <td class="column4 style7 n">3,459.27</td>
+            <td class="column5 style7 n">3,474.38</td>
+            <td class="column6 style7 n">3,388.19</td>
+            <td class="column7 style7 n">3,003.68</td>
+            <td class="column8 style7 n">4,318.94</td>
+            <td class="column9 style7 n">4,921.58</td>
+            <td class="column10 style7 n">5,575.43</td>
+            <td class="column11 style7 n">5,304.65</td>
+            <td class="column12 style7 n">6,898.17</td>
+          </tr>
+          <tr class="row24">
+            <td class="column0 style5 s">US dollar, Millions</td>
+            <td class="column1 style5 s">·  ·  Based on long-term resource retirement</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style7 n">2,587.33</td>
+            <td class="column4 style7 n">2,193.75</td>
+            <td class="column5 style7 n">2,269.65</td>
+            <td class="column6 style7 n">2,144.77</td>
+            <td class="column7 style7 n">1,550.65</td>
+            <td class="column8 style7 n">2,874.21</td>
+            <td class="column9 style7 n">3,385.85</td>
+            <td class="column10 style7 n">3,925.78</td>
+            <td class="column11 style7 n">3,703.07</td>
+            <td class="column12 style7 n">4,540.47</td>
+          </tr>
+          <tr class="row25">
+            <td class="column0 style5 s">US dollar, Millions</td>
+            <td class="column1 style5 s">·  ·  Based on a specific non-commodity output</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style7 n">1,274.91</td>
+            <td class="column4 style7 n">1,171.64</td>
+            <td class="column5 style7 n">1,054.19</td>
+            <td class="column6 style7 n">1,127.61</td>
+            <td class="column7 style7 n">1,328.67</td>
+            <td class="column8 style7 n">1,336.03</td>
+            <td class="column9 style7 n">1,410.11</td>
+            <td class="column10 style7 n">1,509.81</td>
+            <td class="column11 style7 n">1,387.70</td>
+            <td class="column12 style7 n">2,100.55</td>
+          </tr>
+          <tr class="row26">
+            <td class="column0 style5 s">US dollar, Millions</td>
+            <td class="column1 style5 s">·  ·  Based on other non-commodity criteria</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style7 n">182.50</td>
+            <td class="column4 style7 n">93.88</td>
+            <td class="column5 style7 n">150.54</td>
+            <td class="column6 style7 n">115.81</td>
+            <td class="column7 style7 n">124.36</td>
+            <td class="column8 style7 n">108.70</td>
+            <td class="column9 style7 n">125.62</td>
+            <td class="column10 style7 n">139.84</td>
+            <td class="column11 style7 n">213.87</td>
+            <td class="column12 style7 n">257.15</td>
+          </tr>
+          <tr class="row27">
+            <td class="column0 style5 s">US dollar, Millions</td>
+            <td class="column1 style5 s">·  Miscellaneous payments</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style7 n">422.28</td>
+            <td class="column4 style7 n">930.76</td>
+            <td class="column5 style7 n">869.33</td>
+            <td class="column6 style7 n">658.34</td>
+            <td class="column7 style7 n">703.04</td>
+            <td class="column8 style7 n">735.63</td>
+            <td class="column9 style7 n">548.07</td>
+            <td class="column10 style7 n">575.60</td>
+            <td class="column11 style7 n">444.94</td>
+            <td class="column12 style7 n">682.04</td>
+          </tr>
+          <tr class="row28">
+            <td class="column0 style5 s">US dollar, Millions</td>
+            <td class="column1 style5 s">General Services Support Estimate (GSSE)</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style7 n">44,839.01</td>
+            <td class="column4 style7 n">41,827.32</td>
+            <td class="column5 style7 n">42,895.68</td>
+            <td class="column6 style7 n">44,821.62</td>
+            <td class="column7 style7 n">45,374.12</td>
+            <td class="column8 style7 n">45,058.41</td>
+            <td class="column9 style7 n">48,273.04</td>
+            <td class="column10 style7 n">50,050.10</td>
+            <td class="column11 style7 n">48,420.41</td>
+            <td class="column12 style7 n">49,255.71</td>
+          </tr>
+          <tr class="row29">
+            <td class="column0 style5 s">US dollar, Millions</td>
+            <td class="column1 style5 s">·  Agricultural knowledge and innovation system</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style7 n">14,728.58</td>
+            <td class="column4 style7 n">13,066.17</td>
+            <td class="column5 style7 n">13,041.34</td>
+            <td class="column6 style7 n">13,583.68</td>
+            <td class="column7 style7 n">14,246.92</td>
+            <td class="column8 style7 n">14,339.07</td>
+            <td class="column9 style7 n">14,174.32</td>
+            <td class="column10 style7 n">16,207.78</td>
+            <td class="column11 style7 n">14,984.46</td>
+            <td class="column12 style7 n">16,591.12</td>
+          </tr>
+          <tr class="row30">
+            <td class="column0 style5 s">US dollar, Millions</td>
+            <td class="column1 style5 s">·  Inspection and control</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style7 n">4,124.77</td>
+            <td class="column4 style7 n">3,705.68</td>
+            <td class="column5 style7 n">3,996.05</td>
+            <td class="column6 style7 n">4,060.31</td>
+            <td class="column7 style7 n">4,429.32</td>
+            <td class="column8 style7 n">4,224.44</td>
+            <td class="column9 style7 n">4,380.25</td>
+            <td class="column10 style7 n">4,754.54</td>
+            <td class="column11 style7 n">4,904.88</td>
+            <td class="column12 style7 n">4,936.81</td>
+          </tr>
+          <tr class="row31">
+            <td class="column0 style5 s">US dollar, Millions</td>
+            <td class="column1 style5 s">·  Development and maintenance of infrastructure</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style7 n">18,348.30</td>
+            <td class="column4 style7 n">16,893.40</td>
+            <td class="column5 style7 n">18,817.70</td>
+            <td class="column6 style7 n">19,927.93</td>
+            <td class="column7 style7 n">19,442.70</td>
+            <td class="column8 style7 n">18,552.07</td>
+            <td class="column9 style7 n">18,324.63</td>
+            <td class="column10 style7 n">18,728.05</td>
+            <td class="column11 style7 n">19,034.06</td>
+            <td class="column12 style7 n">18,497.67</td>
+          </tr>
+          <tr class="row32">
+            <td class="column0 style5 s">US dollar, Millions</td>
+            <td class="column1 style5 s">·  Marketing and promotion</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style7 n">5,684.42</td>
+            <td class="column4 style7 n">6,079.34</td>
+            <td class="column5 style7 n">4,598.48</td>
+            <td class="column6 style7 n">4,855.35</td>
+            <td class="column7 style7 n">4,959.85</td>
+            <td class="column8 style7 n">5,369.55</td>
+            <td class="column9 style7 n">8,887.88</td>
+            <td class="column10 style7 n">7,599.78</td>
+            <td class="column11 style7 n">6,838.40</td>
+            <td class="column12 style7 n">6,577.63</td>
+          </tr>
+          <tr class="row33">
+            <td class="column0 style5 s">US dollar, Millions</td>
+            <td class="column1 style5 s">·  Cost of public stockholding</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style7 n">419.55</td>
+            <td class="column4 style7 n">527.88</td>
+            <td class="column5 style7 n">472.47</td>
+            <td class="column6 style7 n">693.10</td>
+            <td class="column7 style7 n">567.71</td>
+            <td class="column8 style7 n">673.77</td>
+            <td class="column9 style7 n">534.92</td>
+            <td class="column10 style7 n">533.03</td>
+            <td class="column11 style7 n">585.03</td>
+            <td class="column12 style7 n">563.65</td>
+          </tr>
+          <tr class="row34">
+            <td class="column0 style5 s">US dollar, Millions</td>
+            <td class="column1 style5 s">·  Miscellaneous</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style7 n">1,533.39</td>
+            <td class="column4 style7 n">1,554.85</td>
+            <td class="column5 style7 n">1,969.63</td>
+            <td class="column6 style7 n">1,701.26</td>
+            <td class="column7 style7 n">1,727.62</td>
+            <td class="column8 style7 n">1,899.50</td>
+            <td class="column9 style7 n">1,971.04</td>
+            <td class="column10 style7 n">2,226.93</td>
+            <td class="column11 style7 n">2,073.57</td>
+            <td class="column12 style7 n">2,088.83</td>
+          </tr>
+          <tr class="row35">
+            <td class="column0 style5 s">US dollar, Millions</td>
+            <td class="column1 style5 s">Consumer Support Estimate (CSE)</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style7 n">-60,212.81</td>
+            <td class="column4 style7 n">-56,947.58</td>
+            <td class="column5 style7 n">-66,682.44</td>
+            <td class="column6 style7 n">-65,575.20</td>
+            <td class="column7 style7 n">-69,679.25</td>
+            <td class="column8 style7 n">-65,962.02</td>
+            <td class="column9 style7 n">-54,621.39</td>
+            <td class="column10 style7 n">-37,340.23</td>
+            <td class="column11 style7 n">1,194.19</td>
+            <td class="column12 style7 n">-36,606.63</td>
+          </tr>
+          <tr class="row36">
+            <td class="column0 style5 s">US dollar, Millions</td>
+            <td class="column1 style5 s">·  Transfers to producers from consumers</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style7 n">-89,762.31</td>
+            <td class="column4 style7 n">-85,649.34</td>
+            <td class="column5 style7 n">-90,724.98</td>
+            <td class="column6 style7 n">-89,832.49</td>
+            <td class="column7 style7 n">-89,139.61</td>
+            <td class="column8 style7 n">-85,359.92</td>
+            <td class="column9 style7 n">-83,433.81</td>
+            <td class="column10 style7 n">-79,857.29</td>
+            <td class="column11 style7 n">-61,868.93</td>
+            <td class="column12 style7 n">-86,027.33</td>
+          </tr>
+          <tr class="row37">
+            <td class="column0 style5 s">US dollar, Millions</td>
+            <td class="column1 style5 s">·  Other transfers from consumers</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style7 n">-19,342.67</td>
+            <td class="column4 style7 n">-20,088.21</td>
+            <td class="column5 style7 n">-24,703.63</td>
+            <td class="column6 style7 n">-24,488.03</td>
+            <td class="column7 style7 n">-28,535.06</td>
+            <td class="column8 style7 n">-27,575.51</td>
+            <td class="column9 style7 n">-26,232.16</td>
+            <td class="column10 style7 n">-24,809.59</td>
+            <td class="column11 style7 n">-18,705.82</td>
+            <td class="column12 style7 n">-22,738.78</td>
+          </tr>
+          <tr class="row38">
+            <td class="column0 style5 s">US dollar, Millions</td>
+            <td class="column1 style5 s">·  Transfers to consumers from taxpayers</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style7 n">48,066.41</td>
+            <td class="column4 style7 n">47,804.18</td>
+            <td class="column5 style7 n">47,598.16</td>
+            <td class="column6 style7 n">47,080.18</td>
+            <td class="column7 style7 n">46,855.64</td>
+            <td class="column8 style7 n">45,724.82</td>
+            <td class="column9 style7 n">54,100.09</td>
+            <td class="column10 style7 n">66,529.71</td>
+            <td class="column11 style7 n">81,440.61</td>
+            <td class="column12 style7 n">70,526.02</td>
+          </tr>
+          <tr class="row39">
+            <td class="column0 style5 s">US dollar, Millions</td>
+            <td class="column1 style5 s">·  Excess feed cost</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style7 n">825.77</td>
+            <td class="column4 style7 n">985.79</td>
+            <td class="column5 style7 n">1,148.00</td>
+            <td class="column6 style7 n">1,665.15</td>
+            <td class="column7 style7 n">1,139.79</td>
+            <td class="column8 style7 n">1,248.59</td>
+            <td class="column9 style7 n">944.49</td>
+            <td class="column10 style7 n">796.94</td>
+            <td class="column11 style7 n">328.33</td>
+            <td class="column12 style7 n">1,633.46</td>
+          </tr>
+          <tr class="row40">
+            <td class="column0 style5 s">US dollar, Millions</td>
+            <td class="column1 style5 s">Total Support Estimate (TSE)</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style7 n">324,551.57</td>
+            <td class="column4 style7 n">301,864.33</td>
+            <td class="column5 style7 n">305,606.96</td>
+            <td class="column6 style7 n">303,997.07</td>
+            <td class="column7 style7 n">322,804.80</td>
+            <td class="column8 style7 n">316,477.01</td>
+            <td class="column9 style7 n">335,200.13</td>
+            <td class="column10 style7 n">359,653.10</td>
+            <td class="column11 style7 n">333,569.83</td>
+            <td class="column12 style7 n">343,982.89</td>
+          </tr>
+          <tr class="row41">
+            <td class="column0 style5 s">US dollar, Millions</td>
+            <td class="column1 style5 s">·  Transfers from consumers</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style7 n">109,104.98</td>
+            <td class="column4 style7 n">105,737.55</td>
+            <td class="column5 style7 n">115,428.60</td>
+            <td class="column6 style7 n">114,320.52</td>
+            <td class="column7 style7 n">117,674.68</td>
+            <td class="column8 style7 n">112,935.43</td>
+            <td class="column9 style7 n">109,665.97</td>
+            <td class="column10 style7 n">104,666.87</td>
+            <td class="column11 style7 n">80,574.75</td>
+            <td class="column12 style7 n">108,766.11</td>
+          </tr>
+          <tr class="row42">
+            <td class="column0 style5 s">US dollar, Millions</td>
+            <td class="column1 style5 s">·  Transfers from taxpayers</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style7 n">234,789.26</td>
+            <td class="column4 style7 n">216,214.99</td>
+            <td class="column5 style7 n">214,881.98</td>
+            <td class="column6 style7 n">214,164.59</td>
+            <td class="column7 style7 n">233,665.19</td>
+            <td class="column8 style7 n">231,117.09</td>
+            <td class="column9 style7 n">251,766.32</td>
+            <td class="column10 style7 n">279,795.82</td>
+            <td class="column11 style7 n">271,700.90</td>
+            <td class="column12 style7 n">257,955.56</td>
+          </tr>
+          <tr class="row43">
+            <td class="column0 style5 s">US dollar, Millions</td>
+            <td class="column1 style5 s">·  Budget revenues</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style7 n">-19,342.67</td>
+            <td class="column4 style7 n">-20,088.21</td>
+            <td class="column5 style7 n">-24,703.63</td>
+            <td class="column6 style7 n">-24,488.03</td>
+            <td class="column7 style7 n">-28,535.06</td>
+            <td class="column8 style7 n">-27,575.51</td>
+            <td class="column9 style7 n">-26,232.16</td>
+            <td class="column10 style7 n">-24,809.59</td>
+            <td class="column11 style7 n">-18,705.82</td>
+            <td class="column12 style7 n">-22,738.78</td>
+          </tr>
+          <tr class="row44">
+            <td class="column0 style5 s">US dollar, Millions</td>
+            <td class="column1 style5 s">Total Budgetary Support Estimate (TBSE)</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style7 n">231,798.65</td>
+            <td class="column4 style7 n">212,127.71</td>
+            <td class="column5 style7 n">211,439.26</td>
+            <td class="column6 style7 n">210,625.57</td>
+            <td class="column7 style7 n">229,634.21</td>
+            <td class="column8 style7 n">227,717.23</td>
+            <td class="column9 style7 n">247,846.23</td>
+            <td class="column10 style7 n">275,364.28</td>
+            <td class="column11 style7 n">269,774.37</td>
+            <td class="column12 style7 n">255,729.01</td>
+          </tr>
+          <tr class="row45">
+            <td class="column0 style5 s">US dollar, Millions</td>
+            <td class="column1 style5 s">Value of production, at farm gate</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style7 n">1,323,594.40</td>
+            <td class="column4 style7 n">1,168,972.39</td>
+            <td class="column5 style7 n">1,147,562.95</td>
+            <td class="column6 style7 n">1,202,729.25</td>
+            <td class="column7 style7 n">1,223,843.91</td>
+            <td class="column8 style7 n">1,198,547.27</td>
+            <td class="column9 style7 n">1,228,095.65</td>
+            <td class="column10 style7 n">1,420,226.16</td>
+            <td class="column11 style7 n">1,524,114.72</td>
+            <td class="column12 style7 n">1,509,305.48</td>
+          </tr>
+          <tr class="row46">
+            <td class="column0 style5 s">Percentage of GDP</td>
+            <td class="column1 style5 s">Total Budgetary Support Estimate, relative to GDP (Percentage TBSE)</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style7 n">0.46</td>
+            <td class="column4 style7 n">0.45</td>
+            <td class="column5 style7 n">0.44</td>
+            <td class="column6 style7 n">0.42</td>
+            <td class="column7 style7 n">0.43</td>
+            <td class="column8 style7 n">0.42</td>
+            <td class="column9 style7 n">0.47</td>
+            <td class="column10 style7 n">0.47</td>
+            <td class="column11 style7 n">0.45</td>
+            <td class="column12 style7 n">0.40</td>
+          </tr>
+          <tr class="row47">
+            <td class="column0 style5 s">Percentage of gross farm receipts</td>
+            <td class="column1 style5 s">Selected indicators for Producer Support Estimate (PSE)</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 s"></td>
+            <td class="column4 style8 s"></td>
+            <td class="column5 style8 s"></td>
+            <td class="column6 style8 s"></td>
+            <td class="column7 style8 s"></td>
+            <td class="column8 style8 s"></td>
+            <td class="column9 style8 s"></td>
+            <td class="column10 style8 s"></td>
+            <td class="column11 style8 s"></td>
+            <td class="column12 style8 s"></td>
+          </tr>
+          <tr class="row48">
+            <td class="column0 style5 s">Percentage of gross farm receipts</td>
+            <td class="column1 style5 s">·  Producer Support Estimate, relative to GFR (Percentage PSE)</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style7 n">15.84</td>
+            <td class="column4 style7 n">16.43</td>
+            <td class="column5 style7 n">16.96</td>
+            <td class="column6 style7 n">16.05</td>
+            <td class="column7 style7 n">16.94</td>
+            <td class="column8 style7 n">16.90</td>
+            <td class="column9 style7 n">16.95</td>
+            <td class="column10 style7 n">15.39</td>
+            <td class="column11 style7 n">12.24</td>
+            <td class="column12 style7 n">13.63</td>
+          </tr>
+          <tr class="row49">
+            <td class="column0 style5 s">Percentage of consumption expenditure on agricultural commodities at farm gate prices, excluding taxpayer transfers to consumers</td>
+            <td class="column1 style5 s">Selected indicators for Consumer Support Estimate (CSE)</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 s"></td>
+            <td class="column4 style8 s"></td>
+            <td class="column5 style8 s"></td>
+            <td class="column6 style8 s"></td>
+            <td class="column7 style8 s"></td>
+            <td class="column8 style8 s"></td>
+            <td class="column9 style8 s"></td>
+            <td class="column10 style8 s"></td>
+            <td class="column11 style8 s"></td>
+            <td class="column12 style8 s"></td>
+          </tr>
+          <tr class="row50">
+            <td class="column0 style5 s">Percentage of consumption expenditure on agricultural commodities at farm gate prices, excluding taxpayer transfers to consumers</td>
+            <td class="column1 style5 s">·  Consumer Support Estimate, relative to consumption expenditure on agricultural commodities, at farm gate prices, net of taxpayer transfers to consumers (Percentage CSE)</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style7 n">-5.34</td>
+            <td class="column4 style7 n">-5.65</td>
+            <td class="column5 style7 n">-6.73</td>
+            <td class="column6 style7 n">-6.34</td>
+            <td class="column7 style7 n">-6.45</td>
+            <td class="column8 style7 n">-6.17</td>
+            <td class="column9 style7 n">-5.10</td>
+            <td class="column10 style7 n">-3.20</td>
+            <td class="column11 style7 n">0.09</td>
+            <td class="column12 style7 n">-2.79</td>
+          </tr>
+          <tr class="row51">
+            <td class="column0 style5 s">Percentage of value of production</td>
+            <td class="column1 style5 s">Share of MPS commodities in total value of production at the farm gate</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style7 n">74.76</td>
+            <td class="column4 style7 n">72.58</td>
+            <td class="column5 style7 n">72.18</td>
+            <td class="column6 style7 n">72.45</td>
+            <td class="column7 style7 n">72.16</td>
+            <td class="column8 style7 n">72.33</td>
+            <td class="column9 style7 n">72.69</td>
+            <td class="column10 style7 n">74.64</td>
+            <td class="column11 style7 n">77.39</td>
+            <td class="column12 style7 n">74.03</td>
+          </tr>
+          <tr class="row52">
+            <td class="column0 style5 s">Factor</td>
+            <td class="column1 style5 s">Selected indicators for Producer Support Estimate (PSE)</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 s"></td>
+            <td class="column4 style8 s"></td>
+            <td class="column5 style8 s"></td>
+            <td class="column6 style8 s"></td>
+            <td class="column7 style8 s"></td>
+            <td class="column8 style8 s"></td>
+            <td class="column9 style8 s"></td>
+            <td class="column10 style8 s"></td>
+            <td class="column11 style8 s"></td>
+            <td class="column12 style8 s"></td>
+          </tr>
+          <tr class="row53">
+            <td class="column0 style5 s">Factor</td>
+            <td class="column1 style5 s">·  Producer Nominal Assistance Coefficient (producer NAC)</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style7 n">1.19</td>
+            <td class="column4 style7 n">1.20</td>
+            <td class="column5 style7 n">1.20</td>
+            <td class="column6 style7 n">1.19</td>
+            <td class="column7 style7 n">1.20</td>
+            <td class="column8 style7 n">1.20</td>
+            <td class="column9 style7 n">1.20</td>
+            <td class="column10 style7 n">1.18</td>
+            <td class="column11 style7 n">1.14</td>
+            <td class="column12 style7 n">1.16</td>
+          </tr>
+          <tr class="row54">
+            <td class="column0 style5 s">Factor</td>
+            <td class="column1 style5 s">·  Producer Nominal Protection Coefficient (producer NPC)</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style7 n">1.08</td>
+            <td class="column4 style7 n">1.09</td>
+            <td class="column5 style7 n">1.09</td>
+            <td class="column6 style7 n">1.09</td>
+            <td class="column7 style7 n">1.09</td>
+            <td class="column8 style7 n">1.08</td>
+            <td class="column9 style7 n">1.09</td>
+            <td class="column10 style7 n">1.07</td>
+            <td class="column11 style7 n">1.05</td>
+            <td class="column12 style7 n">1.07</td>
+          </tr>
+          <tr class="row55">
+            <td class="column0 style5 s">Factor</td>
+            <td class="column1 style5 s">Selected indicators for Consumer Support Estimate (CSE)</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style8 s"></td>
+            <td class="column4 style8 s"></td>
+            <td class="column5 style8 s"></td>
+            <td class="column6 style8 s"></td>
+            <td class="column7 style8 s"></td>
+            <td class="column8 style8 s"></td>
+            <td class="column9 style8 s"></td>
+            <td class="column10 style8 s"></td>
+            <td class="column11 style8 s"></td>
+            <td class="column12 style8 s"></td>
+          </tr>
+          <tr class="row56">
+            <td class="column0 style5 s">Factor</td>
+            <td class="column1 style5 s">·  Consumer Nominal Assistance Coefficient (consumer NAC)</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style7 n">1.06</td>
+            <td class="column4 style7 n">1.06</td>
+            <td class="column5 style7 n">1.07</td>
+            <td class="column6 style7 n">1.07</td>
+            <td class="column7 style7 n">1.07</td>
+            <td class="column8 style7 n">1.07</td>
+            <td class="column9 style7 n">1.05</td>
+            <td class="column10 style7 n">1.03</td>
+            <td class="column11 style7 n">1.00</td>
+            <td class="column12 style7 n">1.03</td>
+          </tr>
+          <tr class="row57">
+            <td class="column0 style5 s">Factor</td>
+            <td class="column1 style5 s">·  Consumer Nominal Protection Coefficient (consumer NPC)</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style7 n">1.10</td>
+            <td class="column4 style7 n">1.11</td>
+            <td class="column5 style7 n">1.13</td>
+            <td class="column6 style7 n">1.12</td>
+            <td class="column7 style7 n">1.12</td>
+            <td class="column8 style7 n">1.11</td>
+            <td class="column9 style7 n">1.11</td>
+            <td class="column10 style7 n">1.09</td>
+            <td class="column11 style7 n">1.06</td>
+            <td class="column12 style7 n">1.09</td>
+          </tr>
+          <tr class="row58">
+            <td class="column0 style5 s">Index</td>
+            <td class="column1 style5 s">GDP deflator</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style7 n">277.47</td>
+            <td class="column4 style7 n">281.70</td>
+            <td class="column5 style7 n">285.90</td>
+            <td class="column6 style7 n">291.99</td>
+            <td class="column7 style7 n">299.17</td>
+            <td class="column8 style7 n">305.74</td>
+            <td class="column9 style7 n">313.03</td>
+            <td class="column10 style7 n">326.66</td>
+            <td class="column11 style7 n">356.90</td>
+            <td class="column12 style7 n">381.59</td>
+          </tr>
+        </tbody>
+    </table>
+  </body>
+</html>

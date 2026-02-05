@@ -1,0 +1,36 @@
+% Please add the following required packages to your document preamble:
+% \usepackage[table,xcdraw]{xcolor}
+% Beamer presentation requires \usepackage{colortbl} instead of \usepackage[table,xcdraw]{xcolor}
+\begin{table}[]
+\begin{tabular}{llll}
+\rowcolor[HTML]{D2F4F2} 
+Market Basket Volume                               & \$4,000,000                                              &                                     &                                                  \\
+\rowcolor[HTML]{D2F4F2} 
+Average Category Mark-UP                           & 4.96\%                                                   &                                     &                                                  \\
+\rowcolor[HTML]{D2F4F2} 
+Pricing Evaluation Date                            & 2013/9/1                                                 &                                     &                                                  \\
+                                                   &                                                          &                                     &                                                  \\
+\multicolumn{1}{c}{Premier Program Incentives}     & \multicolumn{1}{c}{Choose From Drop Down Boxes In Cells} & \multicolumn{1}{c}{\% of Incentive} & \multicolumn{1}{c}{Actual \$ Based on MB Volume} \\
+\multicolumn{1}{c}{}                               & \multicolumn{1}{c}{}                                     & \multicolumn{1}{c}{}                & \multicolumn{1}{c}{}                             \\
+\cellcolor[HTML]{FCE4D3}USF Discounts with Premier &                                                          &                                     &                                                  \\
+Drop Size Incentive                                & Less than \$2,499                                        & 1.00\%                              & \$40,000                                         \\
+Accounts Payable Incentive                         & 10.01 - 15.00                                            & 1.00\%                              & \$40,000                                         \\
+TOTAL STANDARD                                     &                                                          &                                     & \$80,000.00                                      \\
+                                                   &                                                          &                                     &                                                  \\
+\cellcolor[HTML]{FCE4D3}Potential Incentives*      &                                                          &                                     &                                                  \\
+Program Maximization Incentive                     & Direct Parent                                            & 1.00\%                              & \$40,000                                         \\
+New Business Incentive                             & New Customer to USF                                      & 1.00\%                              & \$40,000                                         \\
+Label Incentive                                    & No Label Incentive                                       & 0.00\%                              & \$0                                              \\
+Other                                              & None                                                     & 1.00\%                              & \$40,000                                         \\
+TOTAL POTENTIAL                                    &                                                          &                                     & \$120,000.00                                     \\
+                                                   &                                                          &                                     &                                                  \\
+\cellcolor[HTML]{FEE796}GPO - INCENTIVES           &                                                          &                                     &                                                  \\
+Contracted Rebates                                 & Premier\_CMA\_.25                                        & 1.00\%                              & \$40,000                                         \\
+Administrative Fees                                & No Premier Fee                                           & 0.00\%                              & \$0                                              \\
+Other                                              & None                                                     & 1.00\%                              & \$40,000                                         \\
+TOTAL GPO INCENTIVES                               &                                                          &                                     & \$80,000.00                                      \\
+                                                   &                                                          &                                     &                                                  \\
+\rowcolor[HTML]{FADADE} 
+TOTAL ALL INCENTIVES                               &                                                          &                                     & \$280,000.00                                    
+\end{tabular}
+\end{table}

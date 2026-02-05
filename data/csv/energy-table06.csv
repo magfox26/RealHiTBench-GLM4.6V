@@ -1,0 +1,89 @@
+"Risk
+ID","Item
+Description","Function","Tech. Class","Novel Aspects","Failure
+Mode","Failure 
+Effects
+(Local, WEC, System)","Failure
+Cause(s)","Initial Mode
+ of
+Operation
+","Risk Reduction 
+Design","Preventative
+Detection","Post Failure
+Detection","Post Failure
+Repair
+Strategy 
+(automated, manual)"
+"0560-1","Cooling Pipes","Contain coolant loop","1","none","Large coolant leak","Loss of cooling capacity - resulting in reduced power generation, systems cooling, and/or total PTO systems shutdown","Improper installation or manufacturing defect","Normal","1) V&V (QC)","Moisture sensors
+Inspections","1) SCADA - temperature, pressure, flow sensors, water sensors in nacelle
+2) Heat related component failure
+3) Visual inspection","In-Situ repair if possible, if not, recover and repair"
+"0560-2","Cooling Pipes","Contain coolant loop","1","none","Blockage","Loss or reduction of cooling capacity - resulting in reduced power generation, systems cooling, and/or total PTO systems shutdown","Contamination of cooling circuit","Normal","Filter/screen in cooling circuit.
+Flush system during commissioning and prevent contamination during installation","Pressure/temperature/flow sensors in cooling circuit","1) SCADA - temperature, pressure, flow sensors
+2) Heat related component failure","In-Situ repair if possible, if not, recover and repair"
+"0561-1","Cooling pumps","Circulate coolant","1","none","Electrical Failure","Loss of cooling capacity - resulting in reduced power generation, systems cooling, and/or total PTO systems shutdown","Corrosion induced failure short circuit","Normal","1) Marine rated components
+2) Redundant pumps and controllers","1) SCADA diagnostics - temperature, pressure, and flow sensors in coolant loop; pump current draw, water intrusion sensors","SCADA Diagnostics, Visual inspection","In-Situ repair if possible, if not, recover and repair"
+"0561-2","Cooling pumps ","Circulate coolant","1","none","Electrical Failure","Loss of cooling capacity - resulting in reduced power generation, systems cooling, and/or total PTO systems shutdown","Improper installation or manufacturing defect results in failure","Normal","1) V&V (QC)
+2) Redundant pumps and controllers","1) SCADA diagnostics - temperature, pressure, and flow sensors in coolant loop; pump current draw","SCADA Diagnostics, Visual inspection","In-Situ repair if possible, if not, recover and repair"
+"0561-3","Cooling pumps ","Circulate coolant","1","none","Electrical Failure","Loss of cooling capacity - resulting in reduced power generation, systems cooling, and/or total PTO systems shutdown","Water induced failure 
+(non-corrosion)","Normal","1) Marine rated components
+2) Redundant pumps and controllers","1) SCADA diagnostics - water intrusion sensors","SCADA Diagnostics, Visual inspection","In-Situ repair if possible, if not, recover and repair"
+"0561-4","Cooling pumps ","Circulate coolant","1","none","Electrical Failure","Loss of cooling capacity - resulting in reduced power generation, systems cooling, and/or total PTO systems shutdown","Vibration and/or motion induced failure","Normal","1) Vibration analysis
+2) Equipment and installation designed for dynamic environment
+3) Redundant pumps and controllers","1) SCADA diagnostics - vibration sensors","SCADA Diagnostics, Visual inspection","In-Situ repair if possible, if not, recover and repair"
+"0561-5","Cooling pumps ","Circulate coolant","1","none","Electrical Failure - smoke/fire","Loss of cooling capacity - resulting in reduced power generation, systems cooling, and/or total PTO systems shutdown","All of the faults 1 thru 4","Normal","1) Vibration analysis
+2) Equipment and installation designed for dynamic environment
+3) Redundant pumps and controllers","1) SCADA diagnostics - temperature, pressure, and flow sensors in coolant loop; pump current draw, vibration sensors","1) Smoke alarms - reduce time to electrically isolate 
+2) Over-current protection - for electrical isolation
+3) SCADA Diagnostics
+4) Visual inspection","In-Situ repair if possible, if not, recover and repair"
+"0562-1","Cooling pump controllers","Provide electric power to / control cooling pumps","1","none","Electrical Failure","Loss of cooling capacity - resulting in reduced power generation, systems cooling, and/or total PTO systems shutdown","Corrosion induced failure short circuit","Normal","1) Marine rated components
+2) Redundant pumps and controllers","1) SCADA diagnostics - temperature, pressure, and flow sensors in coolant loop; pump current draw, water intrusion sensors","SCADA Diagnostics, Visual inspection","In-Situ repair if possible, if not, recover and repair"
+"562-2","Cooling pump controllers","Provide electric power to / control cooling pumps","1","none","Electrical Failure","Loss of cooling capacity - resulting in reduced power generation, systems cooling, and/or total PTO systems shutdown","Improper installation or manufacturing defect results in failure","Normal","1) V&V (QC)
+2) Redundant pumps and controllers","1) SCADA diagnostics - temperature, pressure, and flow sensors in coolant loop; pump current draw","SCADA Diagnostics, Visual inspection","In-Situ repair if possible, if not, recover and repair"
+"0562-2","Cooling pump controllers","Provide electric power to / control cooling pumps","1","none","Electrical Failure","Loss of cooling capacity - resulting in reduced power generation, systems cooling, and/or total PTO systems shutdown","Water induced failure 
+(non-corrosion)","Normal","1) Marine rated components
+2) Redundant pumps and controllers","1) SCADA diagnostics - water intrusion sensors","SCADA Diagnostics, Visual inspection","In-Situ repair if possible, if not, recover and repair"
+"562-3","Cooling pump controllers","Provide electric power to / control cooling pumps","1","none","Electrical Failure","Loss of cooling capacity - resulting in reduced power generation, systems cooling, and/or total PTO systems shutdown","Vibration and/or motion induced failure","Normal","1) Vibration analysis
+2) Equipment and installation designed for dynamic environment
+3) Redundant pumps and controllers","1) SCADA diagnostics - vibration sensors","SCADA Diagnostics, Visual inspection","In-Situ repair if possible, if not, recover and repair"
+"0562-3","Cooling pump controllers","Provide electric power to / control cooling pumps","1","none","Electrical Failure - smoke/fire","Loss of cooling capacity - resulting in reduced power generation, systems cooling, and/or total PTO systems shutdown","All of the faults 1 thru 4","Normal","1) Vibration analysis
+2) Equipment and installation designed for dynamic environment
+3) Redundant pumps and controllers","1) SCADA diagnostics - temperature, pressure, and flow sensors in coolant loop; pump current draw, vibration sensors","1) Smoke alarms - reduce time to electrically isolate 
+2) Over-current protection - for electrical isolation
+3) SCADA Diagnostics
+4) Visual inspection","In-Situ repair if possible, if not, recover and repair"
+"0563-1","Hull Heat Exchanger","Exchange cooling water heat with ocean water","1","none","Coolant leak","1) Flooding
+2) Loss of cooling
+3) Loss of PTO
+","Vibration and/or motion induced failure","Normal","1) Marine design/rated heat exchanger
+2) V&V (QC)
+3) Heat exchanger mount to inside of hull","none","1) SCADA - temperature, pressure, flow sensors, water sensors in nacelle
+2) Heat related component failure
+3) Visual inspection","Recover and repair in drydock"
+"0563-2","Hull Heat Exchanger","Exchange cooling water heat with ocean water","1","none","Coolant leak","1) Flooding
+2) Loss of cooling
+3) Loss of PTO
+","Corrosion","Normal","1) Marine design/rated heat exchanger
+2) V&V (QC)
+3) Heat exchanger mount to inside of hull","none","1) SCADA - temperature, pressure, flow sensors, water sensors in nacelle
+2) Heat related component failure
+3) Visual inspection","Recover and repair in drydock"
+"","","","","","","","","","","","",""
+"","","","","","","","","","","","",""
+"","","","","","","","","","","","",""
+"","","","","","","","","","","","",""
+"","","","","","","","","","","","",""
+"","","","","","","","","","","","",""
+"","","","","","","","","","","","",""
+"","","","","","","","","","","","",""
+"","","","","","","","","","","","",""
+"","","","","","","","","","","","",""
+"","","","","","","","","","","","",""
+"","","","","","","","","","","","",""
+"","","","","","","","","","","","",""
+"","","","","","","","","","","","",""
+"","","","","","","","","","","","",""
+"","","","","","","","","","","","",""
+"","","","","","","","","","","","",""
+"","","","","","","","","","","","",""

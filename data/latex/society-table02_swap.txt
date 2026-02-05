@@ -1,0 +1,48 @@
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+% \usepackage[table,xcdraw]{xcolor}
+% Beamer presentation requires \usepackage{colortbl} instead of \usepackage[table,xcdraw]{xcolor}
+% \usepackage[normalem]{ulem}
+% \useunder{\uline}{\ul}{}
+\begin{table}[]
+\begin{tabular}{@{}lllllllllllllll@{}}
+\rowcolor[HTML]{FFFFFF} 
+\textit{Number of tables on this sheet:} & \textit{4} &  &  &  &  &  &  &  &  &  &  &  &  &  \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\
+\rowcolor[HTML]{FFFFFF} 
+\textbf{Participation in voluntary work by sector} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\
+\rowcolor[HTML]{FFFFFF} 
+\textit{Data owner:} & \textit{Department for Culture Media and Sport (With Arts Council england, Sports England, English Heritage and MLA).} & \textit{} & \textit{} & \textit{} & \textit{} & \textit{} & \textit{} & \textit{} & \textit{} & \textit{} & \textit{} & \textit{} & \textit{} & \textit{} \\
+\rowcolor[HTML]{FFFFFF} 
+\textit{Link to data owner:} & \textit{www.culture.gov.uk} & \textit{} & \textit{} & \textit{} & \textit{} & \textit{} & \textit{} & \textit{} & \textit{} & \textit{} & \textit{} & \textit{} & \textit{} & \textit{} \\
+\rowcolor[HTML]{FFFFFF} 
+\textit{Data source:} & \textit{Taking Part} &  &  &  &  &  &  &  &  &  &  &  &  &  \\
+\rowcolor[HTML]{FFFFFF} 
+\textit{Link to data source:} & {\color[HTML]{0000FF} {\ul \textit{https://www.kmrsoftware.net/netquestdcms/login/login.aspx?ReturnUrl=\%2fnetquestdcms\%2fdefault.aspx}}} &  &  &  &  &  &  &  &  &  &  &  &  &  \\
+\rowcolor[HTML]{FFFFFF} 
+\textit{Date:} & \textit{2005/06, 2006/07, 2007/08} &  &  &  &  &  &  &  &  &  &  &  &  &  \\
+\rowcolor[HTML]{FFFFFF} 
+\textit{Update cycle:} & \textit{Annual} &  &  &  &  &  &  &  &  &  &  &  &  &  \\
+\rowcolor[HTML]{FFFFFF} 
+\textit{} & \textit{} &  &  &  &  &  &  &  &  &  &  &  &  &  \\
+\textbf{Was the voluntary work you undertook connected to any of the following sectors?} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} \\
+\textbf{} & \textbf{} & \textbf{} &  &  &  &  &  &  &  &  &  &  &  &  \\
+\cellcolor[HTML]{FFFFFF}\textit{Total number of people that undertook volunary work (000s) by sector and region in 2005/06 and 2007/08} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} \\
+\multicolumn{1}{c}{\textbf{}} & \multicolumn{2}{c}{\textbf{Museum/gallery}} & \multicolumn{2}{c}{\textbf{Arts}} & \multicolumn{2}{c}{\textbf{Heritage}} & \multicolumn{2}{c}{\textbf{Libraries}} & \multicolumn{2}{c}{\textbf{Archives}} & \multicolumn{2}{c}{\textbf{Sport}} & \multicolumn{2}{c}{\textbf{Any other sector}} \\
+\textbf{Region} & \multicolumn{1}{r}{\textbf{2005/06}} & \multicolumn{1}{r}{\textbf{2007/08}} & \multicolumn{1}{r}{\textbf{2005/06}} & \multicolumn{1}{r}{\textbf{2007/08}} & \multicolumn{1}{r}{\textbf{2005/06}} & \multicolumn{1}{r}{\textbf{2007/08}} & \multicolumn{1}{r}{\textbf{2005/06}} & \multicolumn{1}{r}{\textbf{2007/08}} & \multicolumn{1}{r}{\textbf{2005/06}} & \multicolumn{1}{r}{\textbf{2007/08}} & \multicolumn{1}{r}{\textbf{2005/06}} & \multicolumn{1}{r}{\textbf{2007/08}} & \multicolumn{1}{r}{\textbf{2005/06}} & \multicolumn{1}{r}{\textbf{2007/08}} \\
+East Midlands & 4 & 10 & 33 & 45 & 28 & 27 & 5 & 6 & 4 & 7 & 183 & 202 & 623 & 651 \\
+East of England & 21 & 13 & 76 & 70 & 65 & 50 & 12 & 6 & 8 & 2 & 237 & 225 & 859 & 935 \\
+London & 32 & 20 & 129 & 115 & 81 & 42 & 11 & 11 & 17 & 7 & 215 & 237 & 1,059 & 1,122 \\
+North East & 3 & 5 & 17 & 23 & 15 & 17 & 2 & 2 & 2 & 2 & 80 & 90 & 299 & 272 \\
+North West & 10 & 18 & 69 & 97 & 50 & 39 & 9 & 1 & 8 & 1 & 211 & 271 & 751 & 847 \\
+South East & 30 & 22 & 119 & 147 & 94 & 83 & 17 & 10 & 8 & 12 & 351 & 363 & 1,415 & 1,422 \\
+South West & 9 & 22 & 62 & 79 & 46 & 61 & 7 & 6 & 7 & 13 & 221 & 226 & 908 & 870 \\
+West Midlands & 6 & 9 & 57 & 53 & 49 & 53 & 6 & 8 & 5 & 5 & 184 & 181 & 703 & 660 \\
+Yorkshire and Humberside & 11 & 3 & 52 & 66 & 42 & 19 & 5 & 4 & 5 & 1 & 119 & 169 & 558 & 650 \\
+ &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\
+\textbf{England} & \textbf{126} & \textbf{121} & \textbf{612} & \textbf{694} & \textbf{469} & \textbf{393} & \textbf{74} & \textbf{55} & \textbf{64} & \textbf{49} & \textbf{1,802} & \textbf{1,964} & \textbf{7,177} & \textbf{7,429}
+\end{tabular}
+\end{table}

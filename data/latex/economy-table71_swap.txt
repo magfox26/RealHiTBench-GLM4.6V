@@ -1,0 +1,21 @@
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+% \usepackage{multirow}
+% \usepackage[table,xcdraw]{xcolor}
+% Beamer presentation requires \usepackage{colortbl} instead of \usepackage[table,xcdraw]{xcolor}
+\begin{table}[]
+\begin{tabular}{@{}cccclcll@{}}
+\rowcolor[HTML]{D0CECE} 
+{\color[HTML]{FF0000} \textbf{Name}} & {\color[HTML]{FF0000} \textbf{Qty}} & {\color[HTML]{FF0000} \textbf{Batch}} & {\color[HTML]{FF0000} \textbf{Pur.Date}} & \multicolumn{1}{c}{\cellcolor[HTML]{D0CECE}{\color[HTML]{FF0000} \textbf{Purch.Cost}}} & {\color[HTML]{FF0000} \textbf{Sale Date}} & \multicolumn{1}{c}{\cellcolor[HTML]{D0CECE}{\color[HTML]{FF0000} \textbf{Sale Value}}} & \multicolumn{1}{c}{\cellcolor[HTML]{D0CECE}{\color[HTML]{FF0000} \textbf{Gain}}} \\
+ & 850 & B-1 & 2016/8/17 & 182,358.15 & 2017/9/6 & 274,904.28 & 92,546.13 \\
+ & 150 & B-1 & 2016/8/17 & 32,180.85 & 2017/9/7 & 50,054.75 & 17,873.90 \\
+\multirow{-3}{*}{Carol} & 350 & B-2 & 2016/8/24 & 84,157.74 & 2017/9/7 & 116,794.40 & 32,636.66 \\
+ & 1000 & B-1 & 2010/11/11 & 39,593.90 & 2017/6/1 & 89,865.65 & 50,271.75 \\
+ & 1000 & B-1 & 2010/11/11 & 39,593.90 & 2017/6/2 & 92,019.40 & 52,425.50 \\
+ & 300 & B-1 & 2010/11/11 & 11,878.17 & 2017/8/24 & 27,909.66 & 16,031.49 \\
+ & 700 & B-2 & 2013/12/24 & 15,820.00 & 2017/8/24 & 65,122.54 & 49,302.54 \\
+ & 1000 & B-2 & 2013/12/24 & 22,600.00 & 2017/8/30 & 95,828.80 & 73,228.80 \\
+ & 300 & B-2 & 2013/12/24 & 6,780.00 & 2017/9/5 & 28,418.76 & 21,638.76 \\
+\multirow{-7}{*}{BOB} & 700 & B-3 & 2013/12/26 & 15,750.00 & 2017/9/5 & 66,310.44 & 50,560.44
+\end{tabular}
+\end{table}

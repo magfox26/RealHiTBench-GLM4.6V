@@ -1,0 +1,37 @@
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+% \usepackage[table,xcdraw]{xcolor}
+% Beamer presentation requires \usepackage{colortbl} instead of \usepackage[table,xcdraw]{xcolor}
+\begin{table}[]
+\begin{tabular}{@{}lrrrrrrrrrr@{}}
+\textbf{Table 16 Scientific procedures (toxicology) by species of animal and type of toxicological test: other safety or toxicology testing} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} \\
+\textbf{Great Britain 2011} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \textbf{Number of procedures} \\
+\rowcolor[HTML]{FFFF99} 
+\textbf{Species of animal} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFF99}\textbf{Type of toxicological test or procedure}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFF99}\textbf{}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFF99}\textbf{}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFF99}\textbf{}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFF99}\textbf{}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFF99}\textbf{}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFF99}\textbf{}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFF99}\textbf{}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFF99}\textbf{}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFF99}\textbf{}} \\
+\rowcolor[HTML]{FFFF99} 
+\textbf{} & \multicolumn{1}{c}{\cellcolor[HTML]{FFFF99}\begin{tabular}[c]{@{}c@{}}Acute lethal\\ toxicity\end{tabular}} & \multicolumn{1}{c}{\cellcolor[HTML]{FFFF99}\begin{tabular}[c]{@{}c@{}}Acute lethal\\ concentration\end{tabular}} & \multicolumn{1}{c}{\cellcolor[HTML]{FFFF99}Acute limit setting} & \multicolumn{1}{c}{\cellcolor[HTML]{FFFF99}Acute non - lethal clinical sign} & \multicolumn{1}{c}{\cellcolor[HTML]{FFFF99}Subacute limit-setting or dose ranging} & \multicolumn{1}{c}{\cellcolor[HTML]{FFFF99}Subacute toxicity} & \multicolumn{1}{c}{\cellcolor[HTML]{FFFF99}Subchronic and chronic} & \multicolumn{1}{c}{\cellcolor[HTML]{FFFF99}Carcinogenicity} & \multicolumn{1}{c}{\cellcolor[HTML]{FFFF99}Genetic toxicology (includes mutagenicity)} & \multicolumn{1}{c}{\cellcolor[HTML]{FFFF99}Teratogenicity} \\
+\rowcolor[HTML]{FFCC99} 
+\textbf{Horse and other equids} & - & - & - & - & - & - & - & - & - & - \\
+\textbf{Pigs, sheep \& all other ungulates} & - & - & - & - & - & - & - & - & - & - \\
+\rowcolor[HTML]{FFCC99} 
+\textbf{New World monkey} & - & - & - & - & - & - & - & - & - & - \\
+\textbf{Old World monkey} & - & - & - & - & - & - & - & - & - & - \\
+\rowcolor[HTML]{FFCC99} 
+\textbf{Bird} & - & - & - & - & - & - & - & - & - & - \\
+\textbf{Reptile / Amphibian} & - & - & - & - & - & - & - & - & - & - \\
+\rowcolor[HTML]{FFCC99} 
+\textbf{Fish} & - & - & 103 & - & - & - & 240 & - & - & - \\
+\textbf{Mouse} & 84 & 1,180 & 73 & - & 34 & - & - & 9 & - & - \\
+\rowcolor[HTML]{FFCC99} 
+\textbf{Rat} & 4 & 1,204 & 50 & - & 24 & 140 & 188 & - & 380 & - \\
+\textbf{All other rodents} & 338 & 182 & - & - & - & - & - & - & - & - \\
+\rowcolor[HTML]{FFCC99} 
+\textbf{Rabbit} & - & - & - & - & - & - & - & - & - & \multicolumn{1}{l}{\cellcolor[HTML]{FFCC99}\textbf{-}} \\
+\textbf{Cat} & - & - & - & - & - & - & - & - & - & - \\
+\rowcolor[HTML]{FFCC99} 
+\textbf{Dog} & - & - & - & - & - & - & - & - & - & - \\
+\textbf{Other carnivore} & - & - & - & - & - & - & - & - & - & - \\
+\rowcolor[HTML]{FFFF99} 
+\textbf{Total} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFF99}\textbf{-}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFF99}\textbf{-}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFF99}\textbf{103}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFF99}\textbf{-}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFF99}\textbf{-}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFF99}\textbf{-}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFF99}\textbf{240}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFF99}\textbf{-}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFF99}\textbf{-}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFF99}\textbf{-}}
+\end{tabular}
+\end{table}

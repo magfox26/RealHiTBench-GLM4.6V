@@ -1,0 +1,35 @@
+% Please add the following required packages to your document preamble:
+% \usepackage{multirow}
+% \usepackage[table,xcdraw]{xcolor}
+% Beamer presentation requires \usepackage{colortbl} instead of \usepackage[table,xcdraw]{xcolor}
+% \usepackage[normalem]{ulem}
+% \useunder{\uline}{\ul}{}
+\begin{table}[]
+\begin{tabular}{ccccccc}
+\multicolumn{2}{c}{Parameter}                                              & {\ul R6}       & {\ul R5}       & {\ul M5}       & {\ul M50}      & {\ul M50 II}   \\
+\multicolumn{2}{c}{\cellcolor[HTML]{E7E6E6}{\ul \textbf{Body}}}            &                &                &                &                &                \\
+\multicolumn{2}{c}{Type}                                                   & SLR Mirrorless & SLR Mirrorless & SLR Mirrorless & SLR Mirrorless & SLR Mirrorless \\
+\multicolumn{2}{c}{Material}                                               & Magnesium      & Magnesium      & Metal          & Composite      & Composite      \\
+\multicolumn{2}{c}{\cellcolor[HTML]{E7E6E6}{\ul \textbf{Sensor}}}          &                &                &                &                &                \\
+\multicolumn{2}{c}{Max Resolution}                                         & 5,472 x 3,648  & 8,192 x 5,464  & 6,000 x 4,000  & 6,000 x 4,000  & 6,000 x 4,000  \\
+\multicolumn{2}{c}{Image Ratio}                                            & 16:09          & 16:09          & 16:09          & 16:09          & 16:09          \\
+\multicolumn{2}{c}{Effective Pixels}                                       & 20 MP          & 45 MP          & 24 MP          & 24 MP          & 24 MP          \\
+\multicolumn{2}{c}{Sensor Size}                                            & Full Frame     & Full Frame     & APS-C          & APS-C          & APS-C          \\
+\multicolumn{2}{c}{\cellcolor[HTML]{E7E6E6}{\ul \textbf{Image}}}           &                &                &                &                &                \\
+\multicolumn{2}{c}{ISO}                                                    & 100 - 25,600   & 100 - 51,200   & 100 - 25,600   & 100 - 25,600   & 100 - 25,600   \\
+                                        & Minimum                          & 50             & 50             & -              & -              & -              \\
+                                        & Maximum                          & 204,800        & 102,400        & -              & 51,200         & 51,200         \\
+                                        & WB Presets                       & 8              & 8              & 6              & 6              & 7              \\
+\multirow{-4}{*}{Boosted}               & Image Stabilization              & Yes            & Yes            & No             & No             & No             \\
+\multicolumn{2}{c}{\cellcolor[HTML]{E7E6E6}{\ul \textbf{Optics \& Focus}}} &                &                &                &                &                \\
+\multicolumn{2}{c}{Autofocus}                                              & Phase AF       & Phase AF       & Contrast       & Contrast       & Contrast       \\
+\multicolumn{2}{c}{Digital Zoom}                                           & Yes            & Yes            & Yes            & Yes            & -              \\
+\multicolumn{2}{c}{Manual Focus}                                           & Yes            & Yes            & Yes            & Yes            & Yes            \\
+\multicolumn{2}{c}{Number of Focus Point}                                  & 1,053          & 1,053          & 49             & 143            & 143            \\
+\multicolumn{2}{c}{\cellcolor[HTML]{E7E6E6}{\ul \textbf{Screen}}}          &                &                &                &                &                \\
+\multicolumn{2}{c}{Size}                                                   & 3"             & 3.2"           & 3.2"           & 3"             & 3"             \\
+\multicolumn{2}{c}{Dots}                                                   & 1.62k          & 2.1k           & 1.62k          & 1.04k          & 1.04k          \\
+\multicolumn{2}{c}{Touch Screen}                                           & Yes            & Yes            & Yes            & Yes            & Yes            \\
+\multicolumn{2}{c}{Viewfinder Type}                                        & Electronic     & Electronic     & Electronic     & Electronic     & Electronic    
+\end{tabular}
+\end{table}

@@ -1,0 +1,46 @@
+"Probability of Failure","","","","","",""
+"Criticality","Weightage
+Factor","Criticality Rating (CR)","","","",""
+"","","Severe","High","Moderate","Low","Negligible"
+"Fatigue
+Loading","0.20","10","7","5","3","1"
+"","","PoF ≥10-2","10-2>PoF>
+10-3","10-3>PoF>
+10-4","10-4>PoF≥
+10-5","PoF ≥10-5"
+"Corrosion","0.20","10","7","5","3","1"
+"","","CorrLife < 5yrs","10yrs>
+CorrLife > 5yrs","20yrs>
+CorrLife>","30yrs>
+CorrLife>","CorrLife>
+30yrs"
+"Coating
+Defect","0.15","10","7","5","3","1"
+"","","Breakdown of
+coating>30%","Breakdown of
+coating>20%","Breakdown of
+coating>10%","Breakdown of
+coating >5%","No breakdown"
+"In-Service
+Defect","0.25","10","7","5","3","1"
+"","","Accidental
+damage","Structural
+variations","Poor coating
+damage","Minor coating
+damage","No defect"
+"In-Service
+Loading","0.10","10","7","5","3","1"
+"","","L.S.U.R>1.0","1.0>L.S.U.R>
+0.9","0.9>L.S.U.R>
+0.8","0.8>L.S.U.R>
+0.6","L.S.U.R<0.6"
+"Last
+Inspection","0.10","10","7","5","3","1"
+"","","Never
+Inspected","Inspected
+within 5 years","Inspected
+within last year","Detail
+inspection
+within 5 years","Detail
+inspection
+within last year"

@@ -1,0 +1,39 @@
+% Please add the following required packages to your document preamble:
+% \usepackage{multirow}
+% \usepackage[table,xcdraw]{xcolor}
+% Beamer presentation requires \usepackage{colortbl} instead of \usepackage[table,xcdraw]{xcolor}
+\begin{table}[]
+\begin{tabular}{cllllll}
+\rowcolor[HTML]{D9E1F4} 
+\textbf{Sponge Type} & \multicolumn{1}{c}{\cellcolor[HTML]{D9E1F4}\textbf{Organism}} & \multicolumn{1}{c}{\cellcolor[HTML]{D9E1F4}\textbf{Test Material}} & \multicolumn{1}{c}{\cellcolor[HTML]{D9E1F4}\textbf{Log10 Recovery (Inoculation Control)}} & \multicolumn{1}{c}{\cellcolor[HTML]{D9E1F4}\textbf{Standard Deviation of Log10 Recovery (Inoculation Control)}} & \multicolumn{1}{c}{\cellcolor[HTML]{D9E1F4}\textbf{Log10 Recovery (Test Sample)}} & \multicolumn{1}{c}{\cellcolor[HTML]{D9E1F4}\textbf{Standard Deviation of Log10 Recovery (Test Sample)}} \\
+ &  & ABS Plastic & 7.791359243 & 0.015788812 & 4.7276205 & 0.561085418 \\
+ &  & Glass & 7.747849818 & 0.017063962 & 5.473584407 & 0.588286769 \\
+ & \multirow{-3}{*}{\textit{Escherichia coli}} & Stainless Steel & 7.858622522 & 0.002618673 & 5.830273586 & 0.781073438 \\
+ &  & ABS Plastic & 7.734137876 & 0.024714375 & 5.57518559 & 0.275242194 \\
+ &  & Glass & 7.734137876 & 0.024714375 & 5.398788791 & 0.410968478 \\
+ & \multirow{-3}{*}{\textit{Serratia marcescens}} & Stainless Steel & 7.734137876 & 0.024714375 & 4.994097667 & 0.491578961 \\
+ &  & Stainless Steel & 7.745999016 & 0.017904956 & 3.72689566 & 0.345970225 \\
+ &  & ABS Plastic & 7.745999016 & 0.017904956 & 3.849110989 & 0.263195406 \\
+\multirow{-9}{*}{3M} & \multirow{-3}{*}{\textit{Yersinia ruckeri}} & Glass & 7.745999016 & 0.017904956 & 3.807560353 & 0.122674285 \\
+ &  & ABS Plastic & 7.843715712 & 0.05832143 & 5.763583851 & 0.294234873 \\
+ &  & Glass & 7.680897542 & 0.055288372 & 6.192060811 & 0.306673912 \\
+ & \multirow{-3}{*}{\textit{Escherichia coli}} & Stainless Steel & 7.630830762 & 0.03423853 & 4.835871651 & 0.295008475 \\
+ &  & ABS Plastic & 7.067780342 & 0.02181314 & 3.380526087 & 0.068049619 \\
+ &  & Glass & 7.067780342 & 0.02181314 & 4.015514176 & 0.415659562 \\
+ & \multirow{-3}{*}{\textit{Serratia marcescens}} & Stainless Steel & 7.067780342 & 0.02181314 & 3.991249691 & 0.162429101 \\
+ &  & ABS Plastic & 7.569018643 & 0.050609535 & 5.297817943 & 0.036860189 \\
+ &  & Glass & 7.569018643 & 0.050609535 & 5.478016197 & 0.078173665 \\
+\multirow{-9}{*}{LabPlas} & \multirow{-3}{*}{\textit{Yersinia ruckeri}} & Stainless Steel & 7.569018643 & 0.050609535 & 5.20089824 & 0.353039186 \\
+ &  & ABS Plastic & 7.755597151 & 0.099111458 & 6.256187694 & 0.100492024 \\
+ &  & Glass & 7.756315819 & 0.03329751 & 5.757399066 & 0.124175929 \\
+ & \multirow{-3}{*}{\textit{Escherichia coli}} & Stainless Steel & 7.773747185 & 0.025685483 & 6.066739081 & 0.234321497 \\
+ &  & ABS Plastic & 7.727933336 & 0.070756231 & 6.607609634 & 0.160144777 \\
+ &  & Glass & 7.727933336 & 0.070756231 & 6.368879771 & 0.129619796 \\
+ & \multirow{-3}{*}{\textit{Serratia marcescens}} & Stainless Steel & 7.727933336 & 0.070756231 & 6.151358605 & 0.073791987 \\
+ &  & ABS Plastic & 7.514200906 & 0.027209883 & 6.284290779 & 0.052542505 \\
+ &  & Glass & 7.514200906 & 0.027209883 & 6.298762964 & 0.179518064 \\
+\multirow{-9}{*}{Solar Cult} & \multirow{-3}{*}{\textit{Yersinia ruckeri}} & Stainless Steel & 7.514200906 & 0.027209883 & 6.368279423 & 0.053075898
+\end{tabular}
+\caption{}
+\label{tab:my-table}
+\end{table}

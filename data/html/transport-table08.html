@@ -1,0 +1,3380 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <meta name="generator" content="PhpSpreadsheet, https://github.com/PHPOffice/PhpSpreadsheet">
+      <meta name="author" content="pallen2" />
+      <meta name="company" content="Department for Transport" />
+    <style type="text/css">
+      html { font-family:Calibri, Arial, Helvetica, sans-serif; font-size:11pt; background-color:white }
+      a.comment-indicator:hover + div.comment { background:#ffd; position:absolute; display:block; border:1px solid black; padding:0.5em }
+      a.comment-indicator { background:red; display:inline-block; border:1px solid black; width:0.5em; height:0.5em }
+      div.comment { display:none }
+      table { border-collapse:collapse; page-break-after:always }
+      .gridlines td { border:1px dotted black }
+      .gridlines th { border:1px dotted black }
+      .b { text-align:center }
+      .e { text-align:center }
+      .f { text-align:right }
+      .inlineStr { text-align:left }
+      .n { text-align:right }
+      .s { text-align:left }
+      td.style0 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:white }
+      th.style0 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:white }
+      td.style1 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      th.style1 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      td.style2 { vertical-align:top; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      th.style2 { vertical-align:top; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      td.style3 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      th.style3 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      td.style4 { vertical-align:top; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      th.style4 { vertical-align:top; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      td.style5 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      th.style5 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      td.style6 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      th.style6 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      td.style7 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      th.style7 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      td.style8 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      th.style8 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      td.style9 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      th.style9 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      td.style10 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Arial'; font-size:12pt; background-color:#FFFFFF }
+      th.style10 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Arial'; font-size:12pt; background-color:#FFFFFF }
+      td.style11 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:12pt; background-color:#FFFFFF }
+      th.style11 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:12pt; background-color:#FFFFFF }
+      td.style12 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; text-decoration:underline; color:#0000FF; font-family:'Arial'; font-size:10pt; background-color:white }
+      th.style12 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; text-decoration:underline; color:#0000FF; font-family:'Arial'; font-size:10pt; background-color:white }
+      td.style13 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; text-decoration:underline; color:#0000FF; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      th.style13 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; text-decoration:underline; color:#0000FF; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      td.style14 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#008080; font-family:'Arial'; font-size:12pt; background-color:#FFFFFF }
+      th.style14 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#008080; font-family:'Arial'; font-size:12pt; background-color:#FFFFFF }
+      td.style15 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#008080; font-family:'Arial'; font-size:12pt; background-color:#FFFFFF }
+      th.style15 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#008080; font-family:'Arial'; font-size:12pt; background-color:#FFFFFF }
+      td.style16 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:2px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      th.style16 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:2px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      td.style17 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:2px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      th.style17 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:2px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      td.style18 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      th.style18 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      td.style19 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      th.style19 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      td.style20 { vertical-align:bottom; text-align:center; border-bottom:2px solid #000000 !important; border-top:2px solid #000000 !important; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      th.style20 { vertical-align:bottom; text-align:center; border-bottom:2px solid #000000 !important; border-top:2px solid #000000 !important; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      td.style21 { vertical-align:bottom; text-align:center; border-bottom:2px solid #000000 !important; border-top:2px solid #000000 !important; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      th.style21 { vertical-align:bottom; text-align:center; border-bottom:2px solid #000000 !important; border-top:2px solid #000000 !important; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      td.style22 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:2px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      th.style22 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:2px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      td.style23 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:2px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      th.style23 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:2px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      td.style24 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      th.style24 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      td.style25 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; text-decoration:underline; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      th.style25 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; text-decoration:underline; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      td.style26 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; text-decoration:underline; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      th.style26 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; text-decoration:underline; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      td.style27 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      th.style27 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      td.style28 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      th.style28 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      td.style29 { vertical-align:top; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      th.style29 { vertical-align:top; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      td.style30 { vertical-align:top; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      th.style30 { vertical-align:top; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      td.style31 { vertical-align:top; text-align:right; padding-right:0px; border-bottom:1px dotted #000000 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      th.style31 { vertical-align:top; text-align:right; padding-right:0px; border-bottom:1px dotted #000000 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      td.style32 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-style:italic; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      th.style32 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-style:italic; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      td.style33 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:2px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      th.style33 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:2px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      td.style34 { vertical-align:top; text-align:right; padding-right:0px; border-bottom:1px dotted #000000 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-style:italic; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      th.style34 { vertical-align:top; text-align:right; padding-right:0px; border-bottom:1px dotted #000000 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-style:italic; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      td.style35 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:2px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      th.style35 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:2px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      td.style36 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:2px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-style:italic; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      th.style36 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:2px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-style:italic; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      td.style37 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      th.style37 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      td.style38 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      th.style38 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      td.style39 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      th.style39 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      td.style40 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      th.style40 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      td.style41 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      th.style41 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      td.style42 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      th.style42 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      td.style43 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      th.style43 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      table.sheet0 col.col0 { width:73.19999916pt }
+      table.sheet0 col.col1 { width:124.71110968pt }
+      table.sheet0 col.col2 { width:59.64444376pt }
+      table.sheet0 col.col3 { width:63.71111038pt }
+      table.sheet0 col.col4 { width:60.9999993pt }
+      table.sheet0 col.col5 { width:65.74444369pt }
+      table.sheet0 col.col6 { width:67.777777pt }
+      table.sheet0 col.col7 { width:69.13333254pt }
+      table.sheet0 col.col8 { width:63.71111038pt }
+      table.sheet0 col.col9 { width:57.61111045pt }
+      table.sheet0 col.col10 { width:60.9999993pt }
+      table.sheet0 col.col11 { width:63.71111038pt }
+      table.sheet0 col.col12 { width:68.45555477pt }
+      table.sheet0 col.col13 { width:71.84444362pt }
+      table.sheet0 col.col14 { width:62.35555484pt }
+      table.sheet0 col.col15 { width:59.64444376pt }
+      table.sheet0 col.col16 { width:69.13333254pt }
+      table.sheet0 col.col17 { width:65.74444369pt }
+      table.sheet0 col.col18 { width:43.37777728pt }
+      table.sheet0 tr { height:12.75pt }
+      table.sheet0 tr.row0 { height:17.6pt }
+      table.sheet0 tr.row1 { height:13.5pt }
+      table.sheet0 tr.row2 { height:24.75pt }
+      table.sheet0 tr.row3 { height:18pt }
+      table.sheet0 tr.row4 { height:13.5pt }
+      table.sheet0 tr.row5 { height:18.75pt }
+      table.sheet0 tr.row6 { height:30pt }
+      table.sheet0 tr.row7 { height:31.5pt }
+      table.sheet0 tr.row8 { height:23.25pt }
+      table.sheet0 tr.row18 { height:21pt }
+      table.sheet0 tr.row27 { height:22.5pt }
+      table.sheet0 tr.row36 { height:21pt }
+      table.sheet0 tr.row45 { height:22.5pt }
+      table.sheet0 tr.row54 { height:22.5pt }
+      table.sheet0 tr.row55 { height:16pt }
+      table.sheet0 tr.row62 { height:26.25pt }
+      table.sheet0 tr.row63 { height:22.5pt }
+      table.sheet0 tr.row64 { height:22.5pt }
+      table.sheet0 tr.row65 { height:16pt }
+      table.sheet0 tr.row73 { height:23.25pt }
+      table.sheet0 tr.row83 { height:21.75pt }
+      table.sheet0 tr.row92 { height:22.5pt }
+      table.sheet0 tr.row101 { height:19.5pt }
+      table.sheet0 tr.row110 { height:22.5pt }
+      table.sheet0 tr.row111 { height:12.75pt }
+      table.sheet0 tr.row112 { height:12.75pt }
+      table.sheet0 tr.row113 { height:12.75pt }
+      table.sheet0 tr.row114 { height:12.75pt }
+      table.sheet0 tr.row115 { height:12.75pt }
+      table.sheet0 tr.row116 { height:12.75pt }
+      table.sheet0 tr.row117 { height:12.75pt }
+      table.sheet0 tr.row118 { height:22.5pt }
+      table.sheet0 tr.row119 { height:22.5pt }
+      table.sheet0 tr.row120 { height:16pt }
+      table.sheet0 tr.row121 { height:12.75pt }
+      table.sheet0 tr.row122 { height:12.75pt }
+      table.sheet0 tr.row123 { height:12.75pt }
+      table.sheet0 tr.row124 { height:12.75pt }
+      table.sheet0 tr.row125 { height:12.75pt }
+      table.sheet0 tr.row126 { height:12.75pt }
+      table.sheet0 tr.row127 { height:12.75pt }
+      table.sheet0 tr.row128 { height:22.5pt }
+      table.sheet0 tr.row129 { height:22.5pt }
+      table.sheet0 tr.row130 { height:16pt }
+      table.sheet0 tr.row137 { height:15.95pt }
+      table.sheet0 tr.row138 { height:18pt }
+      table.sheet0 tr.row142 { height:12.75pt }
+      table.sheet0 tr.row143 { height:12.75pt }
+      table.sheet0 tr.row148 { height:22.5pt }
+    </style>
+  </head>
+
+  <body>
+<style>
+@page { margin-left: 0.2in; margin-right: 0.19685039370079in; margin-top: 0.17in; margin-bottom: 0.16in; }
+body { margin-left: 0.2in; margin-right: 0.19685039370079in; margin-top: 0.17in; margin-bottom: 0.16in; }
+</style>
+    <table border="0" cellpadding="0" cellspacing="0" id="sheet0" class="sheet0 gridlines">
+        <col class="col0">
+        <col class="col1">
+        <col class="col2">
+        <col class="col3">
+        <col class="col4">
+        <col class="col5">
+        <col class="col6">
+        <col class="col7">
+        <col class="col8">
+        <col class="col9">
+        <col class="col10">
+        <col class="col11">
+        <col class="col12">
+        <col class="col13">
+        <col class="col14">
+        <col class="col15">
+        <col class="col16">
+        <col class="col17">
+        <col class="col18">
+        <tbody>
+          <tr class="row0">
+            <td class="column0 style10 s">Department for Transport statistics</td>
+            <td class="column1 style11 null"></td>
+            <td class="column2 style10 null"></td>
+            <td class="column3 style10 null"></td>
+            <td class="column4 style10 null"></td>
+            <td class="column5 style10 null"></td>
+            <td class="column6 style10 null"></td>
+            <td class="column7 style10 null"></td>
+            <td class="column8 style10 null"></td>
+            <td class="column9 style10 null"></td>
+            <td class="column10 style10 null"></td>
+            <td class="column11 style10 null"></td>
+            <td class="column12">&nbsp;</td>
+            <td class="column13">&nbsp;</td>
+            <td class="column14">&nbsp;</td>
+            <td class="column15">&nbsp;</td>
+            <td class="column16">&nbsp;</td>
+            <td class="column17">&nbsp;</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row1">
+            <td class="column0 style12 s"><a href="http://www.dft.gov.uk/statistics/series/accessibility/" title="">Accessibility Statistics (http://www.dft.gov.uk/statistics/series/accessibility/)</a></td>
+            <td class="column1 style13 null"></td>
+            <td class="column2 style13 null"></td>
+            <td class="column3 style13 null"></td>
+            <td class="column4 style13 null"></td>
+            <td class="column5 style13 null"></td>
+            <td class="column6 style13 null"></td>
+            <td class="column7 style13 null"></td>
+            <td class="column8 style13 null"></td>
+            <td class="column9 style13 null"></td>
+            <td class="column10 style13 null"></td>
+            <td class="column11 style13 null"></td>
+            <td class="column12">&nbsp;</td>
+            <td class="column13">&nbsp;</td>
+            <td class="column14">&nbsp;</td>
+            <td class="column15">&nbsp;</td>
+            <td class="column16">&nbsp;</td>
+            <td class="column17">&nbsp;</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row2">
+            <td class="column0 style14 s">Table ACS0219</td>
+            <td class="column1 style15 null"></td>
+            <td class="column2 style14 null"></td>
+            <td class="column3 style14 null"></td>
+            <td class="column4 style14 null"></td>
+            <td class="column5 style14 null"></td>
+            <td class="column6 style14 null"></td>
+            <td class="column7 style14 null"></td>
+            <td class="column8 style14 null"></td>
+            <td class="column9 style14 null"></td>
+            <td class="column10 style14 null"></td>
+            <td class="column11 style14 null"></td>
+            <td class="column12">&nbsp;</td>
+            <td class="column13">&nbsp;</td>
+            <td class="column14">&nbsp;</td>
+            <td class="column15">&nbsp;</td>
+            <td class="column16">&nbsp;</td>
+            <td class="column17">&nbsp;</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row3">
+            <td class="column0 style14 s">At risk user<span style="font-weight:bold; color:#008080; font-family:'Arial'; font-size:12pt"><sup>1</sup></span><span style="font-weight:bold; color:#008080; font-family:'Arial'; font-size:12pt"> with access to key services within lower</span><span style="font-weight:bold; color:#008080; font-family:'Arial'; font-size:12pt"><sup>2</sup></span><span style="font-weight:bold; color:#008080; font-family:'Arial'; font-size:12pt"> and upper</span><span style="font-weight:bold; color:#008080; font-family:'Arial'; font-size:12pt"><sup>2</sup></span><span style="font-weight:bold; color:#008080; font-family:'Arial'; font-size:12pt"> threshold by composite mode</span><span style="font-weight:bold; color:#008080; font-family:'Arial'; font-size:12pt"><sup>3,</sup></span><span style="font-weight:bold; color:#008080; font-family:'Arial'; font-size:12pt"> region, England, 2007 to 2013</span></td>
+            <td class="column1 style15 null"></td>
+            <td class="column2 style14 null"></td>
+            <td class="column3 style14 null"></td>
+            <td class="column4 style14 null"></td>
+            <td class="column5 style14 null"></td>
+            <td class="column6 style14 null"></td>
+            <td class="column7 style14 null"></td>
+            <td class="column8 style14 null"></td>
+            <td class="column9 style14 null"></td>
+            <td class="column10 style14 null"></td>
+            <td class="column11 style14 null"></td>
+            <td class="column12">&nbsp;</td>
+            <td class="column13">&nbsp;</td>
+            <td class="column14">&nbsp;</td>
+            <td class="column15">&nbsp;</td>
+            <td class="column16">&nbsp;</td>
+            <td class="column17">&nbsp;</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row4">
+            <td class="column0 style16 null"></td>
+            <td class="column1 style17 null"></td>
+            <td class="column2 style16 null"></td>
+            <td class="column3 style16 null"></td>
+            <td class="column4 style16 null"></td>
+            <td class="column5 style16 null"></td>
+            <td class="column6 style16 null"></td>
+            <td class="column7 style16 null"></td>
+            <td class="column8 style16 null"></td>
+            <td class="column9 style16 null"></td>
+            <td class="column10 style16 null"></td>
+            <td class="column11 style16 null"></td>
+            <td class="column12 style33 null"></td>
+            <td class="column13 style33 null"></td>
+            <td class="column14 style33 null"></td>
+            <td class="column15 style33 null"></td>
+            <td class="column16 style33 null"></td>
+            <td class="column17 style33 s">Number/Percentage</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row5">
+            <td class="column0 style18 null"></td>
+            <td class="column1 style19 null"></td>
+            <td class="column2 style20 s style20" colspan="16">Key services</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row6">
+            <td class="column0 style18 null"></td>
+            <td class="column1 style19 null"></td>
+            <td class="column2 style21 s style21" colspan="2">Employment</td>
+            <td class="column4 style21 s style21" colspan="2">Primary school</td>
+            <td class="column6 style21 s style21" colspan="2">Secondary school</td>
+            <td class="column8 style21 s style21" colspan="2">Further Education<span style="font-weight:bold; color:#000000; font-family:'Arial'; font-size:10pt"><sup>4</sup></span></td>
+            <td class="column10 style21 s style21" colspan="2">GP</td>
+            <td class="column12 style21 s style21" colspan="2">Hospital</td>
+            <td class="column14 style21 s style21" colspan="2">Food store</td>
+            <td class="column16 style21 s style21" colspan="2">Town Centres</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row7">
+            <td class="column0 style22 s">Year</td>
+            <td class="column1 style22 s">Region</td>
+            <td class="column2 style23 s">Lower threshold<span style="font-weight:bold; color:#000000; font-family:'Arial'; font-size:10pt"><sup>2</sup></span></td>
+            <td class="column3 style23 s">Upper threshold<span style="font-weight:bold; color:#000000; font-family:'Arial'; font-size:10pt"><sup>2</sup></span></td>
+            <td class="column4 style23 s">Lower threshold<span style="font-weight:bold; color:#000000; font-family:'Arial'; font-size:10pt"><sup>2</sup></span></td>
+            <td class="column5 style23 s">Upper threshold<span style="font-weight:bold; color:#000000; font-family:'Arial'; font-size:10pt"><sup>2</sup></span></td>
+            <td class="column6 style23 s">Lower threshold<span style="font-weight:bold; color:#000000; font-family:'Arial'; font-size:10pt"><sup>2</sup></span></td>
+            <td class="column7 style23 s">Upper threshold<span style="font-weight:bold; color:#000000; font-family:'Arial'; font-size:10pt"><sup>2</sup></span></td>
+            <td class="column8 style23 s">Lower threshold<span style="font-weight:bold; color:#000000; font-family:'Arial'; font-size:10pt"><sup>2</sup></span></td>
+            <td class="column9 style23 s">Upper threshold<span style="font-weight:bold; color:#000000; font-family:'Arial'; font-size:10pt"><sup>2</sup></span></td>
+            <td class="column10 style23 s">Lower threshold<span style="font-weight:bold; color:#000000; font-family:'Arial'; font-size:10pt"><sup>2</sup></span></td>
+            <td class="column11 style23 s">Upper threshold<span style="font-weight:bold; color:#000000; font-family:'Arial'; font-size:10pt"><sup>2</sup></span></td>
+            <td class="column12 style23 s">Lower threshold<span style="font-weight:bold; color:#000000; font-family:'Arial'; font-size:10pt"><sup>2</sup></span></td>
+            <td class="column13 style23 s">Upper threshold<span style="font-weight:bold; color:#000000; font-family:'Arial'; font-size:10pt"><sup>2</sup></span></td>
+            <td class="column14 style23 s">Lower threshold<span style="font-weight:bold; color:#000000; font-family:'Arial'; font-size:10pt"><sup>2</sup></span></td>
+            <td class="column15 style23 s">Upper threshold<span style="font-weight:bold; color:#000000; font-family:'Arial'; font-size:10pt"><sup>2</sup></span></td>
+            <td class="column16 style23 s">Lower threshold<span style="font-weight:bold; color:#000000; font-family:'Arial'; font-size:10pt"><sup>2</sup></span></td>
+            <td class="column17 style23 s">Upper threshold<span style="font-weight:bold; color:#000000; font-family:'Arial'; font-size:10pt"><sup>2</sup></span></td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row8">
+            <td class="column0 style24 s">Number of people with access within threshold</td>
+            <td class="column1 style25 null"></td>
+            <td class="column2 style26 null"></td>
+            <td class="column3 style27 null"></td>
+            <td class="column4 style27 null"></td>
+            <td class="column5 style27 null"></td>
+            <td class="column6 style27 null"></td>
+            <td class="column7 style27 null"></td>
+            <td class="column8 style27 null"></td>
+            <td class="column9 style27 null"></td>
+            <td class="column10 style27 null"></td>
+            <td class="column11 style27 null"></td>
+            <td class="column12 style27 null"></td>
+            <td class="column13 style27 null"></td>
+            <td class="column14 style27 null"></td>
+            <td class="column15 style27 null"></td>
+            <td class="column16 style27 null"></td>
+            <td class="column17 style27 null"></td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row9">
+            <td class="column0 style24 n">2007</td>
+            <td class="column1 style19 s">North East</td>
+            <td class="column2 style28 n">48,200</td>
+            <td class="column3 style28 n">48,600</td>
+            <td class="column4 style28 s">..</td>
+            <td class="column5 style28 s">..</td>
+            <td class="column6 style28 n">26,900</td>
+            <td class="column7 style28 n">28,100</td>
+            <td class="column8 style28 s">..</td>
+            <td class="column9 style28 s">..</td>
+            <td class="column10 style28 s">..</td>
+            <td class="column11 style28 s">..</td>
+            <td class="column12 style28 s">..</td>
+            <td class="column13 style28 s">..</td>
+            <td class="column14 style28 n">387,800</td>
+            <td class="column15 style28 n">391,700</td>
+            <td class="column16 style28 s">..</td>
+            <td class="column17 style28 s">..</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row10">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">North West</td>
+            <td class="column2 style28 n">107,900</td>
+            <td class="column3 style28 n">108,900</td>
+            <td class="column4 style28 s">..</td>
+            <td class="column5 style28 s">..</td>
+            <td class="column6 style28 n">74,600</td>
+            <td class="column7 style28 n">76,700</td>
+            <td class="column8 style28 s">..</td>
+            <td class="column9 style28 s">..</td>
+            <td class="column10 style28 s">..</td>
+            <td class="column11 style28 s">..</td>
+            <td class="column12 style28 s">..</td>
+            <td class="column13 style28 s">..</td>
+            <td class="column14 style28 n">868,300</td>
+            <td class="column15 style28 n">875,000</td>
+            <td class="column16 style28 s">..</td>
+            <td class="column17 style28 s">..</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row11">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">Yorkshire and the Humber</td>
+            <td class="column2 style28 n">80,700</td>
+            <td class="column3 style28 n">82,200</td>
+            <td class="column4 style28 s">..</td>
+            <td class="column5 style28 s">..</td>
+            <td class="column6 style28 n">44,400</td>
+            <td class="column7 style28 n">47,300</td>
+            <td class="column8 style28 s">..</td>
+            <td class="column9 style28 s">..</td>
+            <td class="column10 style28 s">..</td>
+            <td class="column11 style28 s">..</td>
+            <td class="column12 style28 s">..</td>
+            <td class="column13 style28 s">..</td>
+            <td class="column14 style28 n">632,700</td>
+            <td class="column15 style28 n">641,900</td>
+            <td class="column16 style28 s">..</td>
+            <td class="column17 style28 s">..</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row12">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">East Midlands</td>
+            <td class="column2 style28 n">56,500</td>
+            <td class="column3 style28 n">58,500</td>
+            <td class="column4 style28 s">..</td>
+            <td class="column5 style28 s">..</td>
+            <td class="column6 style28 n">27,300</td>
+            <td class="column7 style28 n">29,500</td>
+            <td class="column8 style28 s">..</td>
+            <td class="column9 style28 s">..</td>
+            <td class="column10 style28 s">..</td>
+            <td class="column11 style28 s">..</td>
+            <td class="column12 style28 s">..</td>
+            <td class="column13 style28 s">..</td>
+            <td class="column14 style28 n">424,200</td>
+            <td class="column15 style28 n">434,500</td>
+            <td class="column16 style28 s">..</td>
+            <td class="column17 style28 s">..</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row13">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">West Midlands</td>
+            <td class="column2 style28 n">99,600</td>
+            <td class="column3 style28 n">101,000</td>
+            <td class="column4 style28 s">..</td>
+            <td class="column5 style28 s">..</td>
+            <td class="column6 style28 n">55,300</td>
+            <td class="column7 style28 n">56,800</td>
+            <td class="column8 style28 s">..</td>
+            <td class="column9 style28 s">..</td>
+            <td class="column10 style28 s">..</td>
+            <td class="column11 style28 s">..</td>
+            <td class="column12 style28 s">..</td>
+            <td class="column13 style28 s">..</td>
+            <td class="column14 style28 n">580,400</td>
+            <td class="column15 style28 n">587,700</td>
+            <td class="column16 style28 s">..</td>
+            <td class="column17 style28 s">..</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row14">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">East</td>
+            <td class="column2 style28 n">57,400</td>
+            <td class="column3 style28 n">60,000</td>
+            <td class="column4 style28 s">..</td>
+            <td class="column5 style28 s">..</td>
+            <td class="column6 style28 n">28,700</td>
+            <td class="column7 style28 n">32,300</td>
+            <td class="column8 style28 s">..</td>
+            <td class="column9 style28 s">..</td>
+            <td class="column10 style28 s">..</td>
+            <td class="column11 style28 s">..</td>
+            <td class="column12 style28 s">..</td>
+            <td class="column13 style28 s">..</td>
+            <td class="column14 style28 n">440,300</td>
+            <td class="column15 style28 n">454,200</td>
+            <td class="column16 style28 s">..</td>
+            <td class="column17 style28 s">..</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row15">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">London</td>
+            <td class="column2 style28 n">144,300</td>
+            <td class="column3 style28 n">144,400</td>
+            <td class="column4 style28 s">..</td>
+            <td class="column5 style28 s">..</td>
+            <td class="column6 style28 n">94,900</td>
+            <td class="column7 style28 n">97,000</td>
+            <td class="column8 style28 s">..</td>
+            <td class="column9 style28 s">..</td>
+            <td class="column10 style28 s">..</td>
+            <td class="column11 style28 s">..</td>
+            <td class="column12 style28 s">..</td>
+            <td class="column13 style28 s">..</td>
+            <td class="column14 style28 n">1,170,200</td>
+            <td class="column15 style28 n">1,173,300</td>
+            <td class="column16 style28 s">..</td>
+            <td class="column17 style28 s">..</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row16">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">South East</td>
+            <td class="column2 style28 n">69,500</td>
+            <td class="column3 style28 n">71,400</td>
+            <td class="column4 style28 s">..</td>
+            <td class="column5 style28 s">..</td>
+            <td class="column6 style28 n">35,900</td>
+            <td class="column7 style28 n">39,800</td>
+            <td class="column8 style28 s">..</td>
+            <td class="column9 style28 s">..</td>
+            <td class="column10 style28 s">..</td>
+            <td class="column11 style28 s">..</td>
+            <td class="column12 style28 s">..</td>
+            <td class="column13 style28 s">..</td>
+            <td class="column14 style28 n">638,800</td>
+            <td class="column15 style28 n">652,900</td>
+            <td class="column16 style28 s">..</td>
+            <td class="column17 style28 s">..</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row17">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">South West</td>
+            <td class="column2 style28 n">40,100</td>
+            <td class="column3 style28 n">42,000</td>
+            <td class="column4 style28 s">..</td>
+            <td class="column5 style28 s">..</td>
+            <td class="column6 style28 n">22,600</td>
+            <td class="column7 style28 n">25,500</td>
+            <td class="column8 style28 s">..</td>
+            <td class="column9 style28 s">..</td>
+            <td class="column10 style28 s">..</td>
+            <td class="column11 style28 s">..</td>
+            <td class="column12 style28 s">..</td>
+            <td class="column13 style28 s">..</td>
+            <td class="column14 style28 n">420,700</td>
+            <td class="column15 style28 n">432,400</td>
+            <td class="column16 style28 s">..</td>
+            <td class="column17 style28 s">..</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row18">
+            <td class="column0 style24 n">2008</td>
+            <td class="column1 style19 s">North East</td>
+            <td class="column2 style28 n">63,900</td>
+            <td class="column3 style28 n">65,200</td>
+            <td class="column4 style28 s">..</td>
+            <td class="column5 style28 s">..</td>
+            <td class="column6 style28 n">25,200</td>
+            <td class="column7 style28 n">26,400</td>
+            <td class="column8 style28 s">..</td>
+            <td class="column9 style28 s">..</td>
+            <td class="column10 style28 s">..</td>
+            <td class="column11 style28 s">..</td>
+            <td class="column12 style28 s">..</td>
+            <td class="column13 style28 s">..</td>
+            <td class="column14 style28 n">388,700</td>
+            <td class="column15 style28 n">392,200</td>
+            <td class="column16 style28 s">..</td>
+            <td class="column17 style28 s">..</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row19">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">North West</td>
+            <td class="column2 style28 n">142,200</td>
+            <td class="column3 style28 n">143,000</td>
+            <td class="column4 style28 s">..</td>
+            <td class="column5 style28 s">..</td>
+            <td class="column6 style28 n">71,300</td>
+            <td class="column7 style28 n">73,700</td>
+            <td class="column8 style28 s">..</td>
+            <td class="column9 style28 s">..</td>
+            <td class="column10 style28 s">..</td>
+            <td class="column11 style28 s">..</td>
+            <td class="column12 style28 s">..</td>
+            <td class="column13 style28 s">..</td>
+            <td class="column14 style28 n">866,200</td>
+            <td class="column15 style28 n">873,000</td>
+            <td class="column16 style28 s">..</td>
+            <td class="column17 style28 s">..</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row20">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">Yorkshire and the Humber</td>
+            <td class="column2 style28 n">105,600</td>
+            <td class="column3 style28 n">106,800</td>
+            <td class="column4 style28 s">..</td>
+            <td class="column5 style28 s">..</td>
+            <td class="column6 style28 n">43,100</td>
+            <td class="column7 style28 n">46,300</td>
+            <td class="column8 style28 s">..</td>
+            <td class="column9 style28 s">..</td>
+            <td class="column10 style28 s">..</td>
+            <td class="column11 style28 s">..</td>
+            <td class="column12 style28 s">..</td>
+            <td class="column13 style28 s">..</td>
+            <td class="column14 style28 n">634,700</td>
+            <td class="column15 style28 n">644,100</td>
+            <td class="column16 style28 s">..</td>
+            <td class="column17 style28 s">..</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row21">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">East Midlands</td>
+            <td class="column2 style28 n">73,000</td>
+            <td class="column3 style28 n">74,000</td>
+            <td class="column4 style28 s">..</td>
+            <td class="column5 style28 s">..</td>
+            <td class="column6 style28 n">26,200</td>
+            <td class="column7 style28 n">28,500</td>
+            <td class="column8 style28 s">..</td>
+            <td class="column9 style28 s">..</td>
+            <td class="column10 style28 s">..</td>
+            <td class="column11 style28 s">..</td>
+            <td class="column12 style28 s">..</td>
+            <td class="column13 style28 s">..</td>
+            <td class="column14 style28 n">426,100</td>
+            <td class="column15 style28 n">435,100</td>
+            <td class="column16 style28 s">..</td>
+            <td class="column17 style28 s">..</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row22">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">West Midlands</td>
+            <td class="column2 style28 n">125,600</td>
+            <td class="column3 style28 n">127,100</td>
+            <td class="column4 style28 s">..</td>
+            <td class="column5 style28 s">..</td>
+            <td class="column6 style28 n">53,100</td>
+            <td class="column7 style28 n">54,900</td>
+            <td class="column8 style28 s">..</td>
+            <td class="column9 style28 s">..</td>
+            <td class="column10 style28 s">..</td>
+            <td class="column11 style28 s">..</td>
+            <td class="column12 style28 s">..</td>
+            <td class="column13 style28 s">..</td>
+            <td class="column14 style28 n">578,900</td>
+            <td class="column15 style28 n">586,400</td>
+            <td class="column16 style28 s">..</td>
+            <td class="column17 style28 s">..</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row23">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">East</td>
+            <td class="column2 style28 n">75,500</td>
+            <td class="column3 style28 n">77,800</td>
+            <td class="column4 style28 s">..</td>
+            <td class="column5 style28 s">..</td>
+            <td class="column6 style28 n">27,300</td>
+            <td class="column7 style28 n">30,700</td>
+            <td class="column8 style28 s">..</td>
+            <td class="column9 style28 s">..</td>
+            <td class="column10 style28 s">..</td>
+            <td class="column11 style28 s">..</td>
+            <td class="column12 style28 s">..</td>
+            <td class="column13 style28 s">..</td>
+            <td class="column14 style28 n">440,200</td>
+            <td class="column15 style28 n">455,100</td>
+            <td class="column16 style28 s">..</td>
+            <td class="column17 style28 s">..</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row24">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">London</td>
+            <td class="column2 style28 n">149,000</td>
+            <td class="column3 style28 n">149,100</td>
+            <td class="column4 style28 s">..</td>
+            <td class="column5 style28 s">..</td>
+            <td class="column6 style28 n">93,100</td>
+            <td class="column7 style28 n">94,900</td>
+            <td class="column8 style28 s">..</td>
+            <td class="column9 style28 s">..</td>
+            <td class="column10 style28 s">..</td>
+            <td class="column11 style28 s">..</td>
+            <td class="column12 style28 s">..</td>
+            <td class="column13 style28 s">..</td>
+            <td class="column14 style28 n">1,163,500</td>
+            <td class="column15 style28 n">1,166,200</td>
+            <td class="column16 style28 s">..</td>
+            <td class="column17 style28 s">..</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row25">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">South East</td>
+            <td class="column2 style28 n">97,400</td>
+            <td class="column3 style28 n">98,800</td>
+            <td class="column4 style28 s">..</td>
+            <td class="column5 style28 s">..</td>
+            <td class="column6 style28 n">34,400</td>
+            <td class="column7 style28 n">39,000</td>
+            <td class="column8 style28 s">..</td>
+            <td class="column9 style28 s">..</td>
+            <td class="column10 style28 s">..</td>
+            <td class="column11 style28 s">..</td>
+            <td class="column12 style28 s">..</td>
+            <td class="column13 style28 s">..</td>
+            <td class="column14 style28 n">637,700</td>
+            <td class="column15 style28 n">652,900</td>
+            <td class="column16 style28 s">..</td>
+            <td class="column17 style28 s">..</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row26">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">South West</td>
+            <td class="column2 style28 n">59,700</td>
+            <td class="column3 style28 n">61,300</td>
+            <td class="column4 style28 s">..</td>
+            <td class="column5 style28 s">..</td>
+            <td class="column6 style28 n">23,000</td>
+            <td class="column7 style28 n">26,000</td>
+            <td class="column8 style28 s">..</td>
+            <td class="column9 style28 s">..</td>
+            <td class="column10 style28 s">..</td>
+            <td class="column11 style28 s">..</td>
+            <td class="column12 style28 s">..</td>
+            <td class="column13 style28 s">..</td>
+            <td class="column14 style28 n">421,700</td>
+            <td class="column15 style28 n">432,600</td>
+            <td class="column16 style28 s">..</td>
+            <td class="column17 style28 s">..</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row27">
+            <td class="column0 style24 n">2009</td>
+            <td class="column1 style19 s">North East</td>
+            <td class="column2 style28 n">80,800</td>
+            <td class="column3 style28 n">82,300</td>
+            <td class="column4 style28 s">..</td>
+            <td class="column5 style28 s">..</td>
+            <td class="column6 style28 n">25,600</td>
+            <td class="column7 style28 n">26,700</td>
+            <td class="column8 style28 s">..</td>
+            <td class="column9 style28 s">..</td>
+            <td class="column10 style28 s">..</td>
+            <td class="column11 style28 s">..</td>
+            <td class="column12 style28 s">..</td>
+            <td class="column13 style28 s">..</td>
+            <td class="column14 style28 n">404,100</td>
+            <td class="column15 style28 n">407,000</td>
+            <td class="column16 style28 n">270,400</td>
+            <td class="column17 style28 n">383,400</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row28">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">North West</td>
+            <td class="column2 style28 n">184,700</td>
+            <td class="column3 style28 n">185,600</td>
+            <td class="column4 style28 s">..</td>
+            <td class="column5 style28 s">..</td>
+            <td class="column6 style28 n">71,200</td>
+            <td class="column7 style28 n">73,300</td>
+            <td class="column8 style28 s">..</td>
+            <td class="column9 style28 s">..</td>
+            <td class="column10 style28 s">..</td>
+            <td class="column11 style28 s">..</td>
+            <td class="column12 style28 s">..</td>
+            <td class="column13 style28 s">..</td>
+            <td class="column14 style28 n">902,600</td>
+            <td class="column15 style28 n">909,400</td>
+            <td class="column16 style28 n">716,000</td>
+            <td class="column17 style28 n">893,800</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row29">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">Yorkshire and the Humber</td>
+            <td class="column2 style28 n">142,200</td>
+            <td class="column3 style28 n">143,900</td>
+            <td class="column4 style28 s">..</td>
+            <td class="column5 style28 s">..</td>
+            <td class="column6 style28 n">43,600</td>
+            <td class="column7 style28 n">45,900</td>
+            <td class="column8 style28 s">..</td>
+            <td class="column9 style28 s">..</td>
+            <td class="column10 style28 s">..</td>
+            <td class="column11 style28 s">..</td>
+            <td class="column12 style28 s">..</td>
+            <td class="column13 style28 s">..</td>
+            <td class="column14 style28 n">677,400</td>
+            <td class="column15 style28 n">686,100</td>
+            <td class="column16 style28 n">416,900</td>
+            <td class="column17 style28 n">649,200</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row30">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">East Midlands</td>
+            <td class="column2 style28 n">99,400</td>
+            <td class="column3 style28 n">100,900</td>
+            <td class="column4 style28 s">..</td>
+            <td class="column5 style28 s">..</td>
+            <td class="column6 style28 n">27,600</td>
+            <td class="column7 style28 n">30,100</td>
+            <td class="column8 style28 s">..</td>
+            <td class="column9 style28 s">..</td>
+            <td class="column10 style28 s">..</td>
+            <td class="column11 style28 s">..</td>
+            <td class="column12 style28 s">..</td>
+            <td class="column13 style28 s">..</td>
+            <td class="column14 style28 n">459,100</td>
+            <td class="column15 style28 n">467,000</td>
+            <td class="column16 style28 n">264,800</td>
+            <td class="column17 style28 n">429,600</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row31">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">West Midlands</td>
+            <td class="column2 style28 n">165,800</td>
+            <td class="column3 style28 n">167,600</td>
+            <td class="column4 style28 s">..</td>
+            <td class="column5 style28 s">..</td>
+            <td class="column6 style28 n">53,700</td>
+            <td class="column7 style28 n">55,100</td>
+            <td class="column8 style28 s">..</td>
+            <td class="column9 style28 s">..</td>
+            <td class="column10 style28 s">..</td>
+            <td class="column11 style28 s">..</td>
+            <td class="column12 style28 s">..</td>
+            <td class="column13 style28 s">..</td>
+            <td class="column14 style28 n">604,500</td>
+            <td class="column15 style28 n">611,500</td>
+            <td class="column16 style28 n">447,500</td>
+            <td class="column17 style28 n">590,200</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row32">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">East</td>
+            <td class="column2 style28 n">104,500</td>
+            <td class="column3 style28 n">107,500</td>
+            <td class="column4 style28 s">..</td>
+            <td class="column5 style28 s">..</td>
+            <td class="column6 style28 n">28,100</td>
+            <td class="column7 style28 n">31,200</td>
+            <td class="column8 style28 s">..</td>
+            <td class="column9 style28 s">..</td>
+            <td class="column10 style28 s">..</td>
+            <td class="column11 style28 s">..</td>
+            <td class="column12 style28 s">..</td>
+            <td class="column13 style28 s">..</td>
+            <td class="column14 style28 n">471,000</td>
+            <td class="column15 style28 n">485,100</td>
+            <td class="column16 style28 n">296,500</td>
+            <td class="column17 style28 n">440,900</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row33">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">London</td>
+            <td class="column2 style28 n">203,900</td>
+            <td class="column3 style28 n">204,100</td>
+            <td class="column4 style28 s">..</td>
+            <td class="column5 style28 s">..</td>
+            <td class="column6 style28 n">94,600</td>
+            <td class="column7 style28 n">95,800</td>
+            <td class="column8 style28 s">..</td>
+            <td class="column9 style28 s">..</td>
+            <td class="column10 style28 s">..</td>
+            <td class="column11 style28 s">..</td>
+            <td class="column12 style28 s">..</td>
+            <td class="column13 style28 s">..</td>
+            <td class="column14 style28 n">1,231,700</td>
+            <td class="column15 style28 n">1,233,600</td>
+            <td class="column16 style28 n">1,075,100</td>
+            <td class="column17 style28 n">1,228,100</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row34">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">South East</td>
+            <td class="column2 style28 n">141,100</td>
+            <td class="column3 style28 n">143,000</td>
+            <td class="column4 style28 s">..</td>
+            <td class="column5 style28 s">..</td>
+            <td class="column6 style28 n">36,400</td>
+            <td class="column7 style28 n">40,400</td>
+            <td class="column8 style28 s">..</td>
+            <td class="column9 style28 s">..</td>
+            <td class="column10 style28 s">..</td>
+            <td class="column11 style28 s">..</td>
+            <td class="column12 style28 s">..</td>
+            <td class="column13 style28 s">..</td>
+            <td class="column14 style28 n">674,900</td>
+            <td class="column15 style28 n">688,800</td>
+            <td class="column16 style28 n">477,700</td>
+            <td class="column17 style28 n">659,100</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row35">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">South West</td>
+            <td class="column2 style28 n">80,200</td>
+            <td class="column3 style28 n">82,300</td>
+            <td class="column4 style28 s">..</td>
+            <td class="column5 style28 s">..</td>
+            <td class="column6 style28 n">23,700</td>
+            <td class="column7 style28 n">26,600</td>
+            <td class="column8 style28 s">..</td>
+            <td class="column9 style28 s">..</td>
+            <td class="column10 style28 s">..</td>
+            <td class="column11 style28 s">..</td>
+            <td class="column12 style28 s">..</td>
+            <td class="column13 style28 s">..</td>
+            <td class="column14 style28 n">450,300</td>
+            <td class="column15 style28 n">461,200</td>
+            <td class="column16 style28 n">297,000</td>
+            <td class="column17 style28 n">428,600</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row36">
+            <td class="column0 style24 n">2010</td>
+            <td class="column1 style19 s">North East</td>
+            <td class="column2 style28 n">74,000</td>
+            <td class="column3 style28 n">75,900</td>
+            <td class="column4 style28 s">..</td>
+            <td class="column5 style28 s">..</td>
+            <td class="column6 style28 n">26,400</td>
+            <td class="column7 style28 n">27,700</td>
+            <td class="column8 style28 s">..</td>
+            <td class="column9 style28 s">..</td>
+            <td class="column10 style28 s">..</td>
+            <td class="column11 style28 s">..</td>
+            <td class="column12 style28 s">..</td>
+            <td class="column13 style28 s">..</td>
+            <td class="column14 style28 n">401,600</td>
+            <td class="column15 style28 n">404,500</td>
+            <td class="column16 style28 n">261,000</td>
+            <td class="column17 style28 n">380,300</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row37">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">North West</td>
+            <td class="column2 style28 n">162,700</td>
+            <td class="column3 style28 n">163,800</td>
+            <td class="column4 style28 s">..</td>
+            <td class="column5 style28 s">..</td>
+            <td class="column6 style28 n">71,900</td>
+            <td class="column7 style28 n">75,000</td>
+            <td class="column8 style28 s">..</td>
+            <td class="column9 style28 s">..</td>
+            <td class="column10 style28 s">..</td>
+            <td class="column11 style28 s">..</td>
+            <td class="column12 style28 s">..</td>
+            <td class="column13 style28 s">..</td>
+            <td class="column14 style28 n">892,600</td>
+            <td class="column15 style28 n">900,600</td>
+            <td class="column16 style28 n">684,400</td>
+            <td class="column17 style28 n">882,600</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row38">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">Yorkshire and the Humber</td>
+            <td class="column2 style28 n">127,900</td>
+            <td class="column3 style28 n">129,300</td>
+            <td class="column4 style28 s">..</td>
+            <td class="column5 style28 s">..</td>
+            <td class="column6 style28 n">44,900</td>
+            <td class="column7 style28 n">47,900</td>
+            <td class="column8 style28 s">..</td>
+            <td class="column9 style28 s">..</td>
+            <td class="column10 style28 s">..</td>
+            <td class="column11 style28 s">..</td>
+            <td class="column12 style28 s">..</td>
+            <td class="column13 style28 s">..</td>
+            <td class="column14 style28 n">673,600</td>
+            <td class="column15 style28 n">681,900</td>
+            <td class="column16 style28 n">403,300</td>
+            <td class="column17 style28 n">641,100</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row39">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">East Midlands</td>
+            <td class="column2 style28 n">83,500</td>
+            <td class="column3 style28 n">85,200</td>
+            <td class="column4 style28 s">..</td>
+            <td class="column5 style28 s">..</td>
+            <td class="column6 style28 n">29,100</td>
+            <td class="column7 style28 n">32,100</td>
+            <td class="column8 style28 s">..</td>
+            <td class="column9 style28 s">..</td>
+            <td class="column10 style28 s">..</td>
+            <td class="column11 style28 s">..</td>
+            <td class="column12 style28 s">..</td>
+            <td class="column13 style28 s">..</td>
+            <td class="column14 style28 n">453,100</td>
+            <td class="column15 style28 n">462,000</td>
+            <td class="column16 style28 n">264,000</td>
+            <td class="column17 style28 n">419,700</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row40">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">West Midlands</td>
+            <td class="column2 style28 n">143,200</td>
+            <td class="column3 style28 n">144,900</td>
+            <td class="column4 style28 s">..</td>
+            <td class="column5 style28 s">..</td>
+            <td class="column6 style28 n">56,500</td>
+            <td class="column7 style28 n">58,800</td>
+            <td class="column8 style28 s">..</td>
+            <td class="column9 style28 s">..</td>
+            <td class="column10 style28 s">..</td>
+            <td class="column11 style28 s">..</td>
+            <td class="column12 style28 s">..</td>
+            <td class="column13 style28 s">..</td>
+            <td class="column14 style28 n">597,400</td>
+            <td class="column15 style28 n">604,000</td>
+            <td class="column16 style28 n">430,500</td>
+            <td class="column17 style28 n">580,100</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row41">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">East</td>
+            <td class="column2 style28 n">90,900</td>
+            <td class="column3 style28 n">94,300</td>
+            <td class="column4 style28 s">..</td>
+            <td class="column5 style28 s">..</td>
+            <td class="column6 style28 n">30,300</td>
+            <td class="column7 style28 n">34,200</td>
+            <td class="column8 style28 s">..</td>
+            <td class="column9 style28 s">..</td>
+            <td class="column10 style28 s">..</td>
+            <td class="column11 style28 s">..</td>
+            <td class="column12 style28 s">..</td>
+            <td class="column13 style28 s">..</td>
+            <td class="column14 style28 n">473,700</td>
+            <td class="column15 style28 n">486,000</td>
+            <td class="column16 style28 n">298,300</td>
+            <td class="column17 style28 n">446,200</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row42">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">London</td>
+            <td class="column2 style28 n">190,900</td>
+            <td class="column3 style28 n">191,000</td>
+            <td class="column4 style28 s">..</td>
+            <td class="column5 style28 s">..</td>
+            <td class="column6 style28 n">96,300</td>
+            <td class="column7 style28 n">97,600</td>
+            <td class="column8 style28 s">..</td>
+            <td class="column9 style28 s">..</td>
+            <td class="column10 style28 s">..</td>
+            <td class="column11 style28 s">..</td>
+            <td class="column12 style28 s">..</td>
+            <td class="column13 style28 s">..</td>
+            <td class="column14 style28 n">1,242,400</td>
+            <td class="column15 style28 n">1,246,800</td>
+            <td class="column16 style28 n">1,053,600</td>
+            <td class="column17 style28 n">1,240,700</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row43">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">South East</td>
+            <td class="column2 style28 n">116,200</td>
+            <td class="column3 style28 n">118,500</td>
+            <td class="column4 style28 s">..</td>
+            <td class="column5 style28 s">..</td>
+            <td class="column6 style28 n">38,400</td>
+            <td class="column7 style28 n">43,300</td>
+            <td class="column8 style28 s">..</td>
+            <td class="column9 style28 s">..</td>
+            <td class="column10 style28 s">..</td>
+            <td class="column11 style28 s">..</td>
+            <td class="column12 style28 s">..</td>
+            <td class="column13 style28 s">..</td>
+            <td class="column14 style28 n">673,200</td>
+            <td class="column15 style28 n">686,400</td>
+            <td class="column16 style28 n">465,500</td>
+            <td class="column17 style28 n">653,800</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row44">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">South West</td>
+            <td class="column2 style28 n">69,600</td>
+            <td class="column3 style28 n">71,700</td>
+            <td class="column4 style28 s">..</td>
+            <td class="column5 style28 s">..</td>
+            <td class="column6 style28 n">25,900</td>
+            <td class="column7 style28 n">29,400</td>
+            <td class="column8 style28 s">..</td>
+            <td class="column9 style28 s">..</td>
+            <td class="column10 style28 s">..</td>
+            <td class="column11 style28 s">..</td>
+            <td class="column12 style28 s">..</td>
+            <td class="column13 style28 s">..</td>
+            <td class="column14 style28 n">448,200</td>
+            <td class="column15 style28 n">460,000</td>
+            <td class="column16 style28 n">299,500</td>
+            <td class="column17 style28 n">429,000</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row45">
+            <td class="column0 style24 n">2011</td>
+            <td class="column1 style19 s">North East</td>
+            <td class="column2 style28 n">62,800</td>
+            <td class="column3 style28 n">65,200</td>
+            <td class="column4 style28 s">..</td>
+            <td class="column5 style28 s">..</td>
+            <td class="column6 style28 n">26,100</td>
+            <td class="column7 style28 n">27,700</td>
+            <td class="column8 style28 s">..</td>
+            <td class="column9 style28 s">..</td>
+            <td class="column10 style28 s">..</td>
+            <td class="column11 style28 s">..</td>
+            <td class="column12 style28 s">..</td>
+            <td class="column13 style28 s">..</td>
+            <td class="column14 style28 n">404,800</td>
+            <td class="column15 style28 n">407,700</td>
+            <td class="column16 style28 n">260,700</td>
+            <td class="column17 style28 n">380,800</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row46">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">North West</td>
+            <td class="column2 style28 n">141,200</td>
+            <td class="column3 style28 n">142,900</td>
+            <td class="column4 style28 s">..</td>
+            <td class="column5 style28 s">..</td>
+            <td class="column6 style28 n">71,600</td>
+            <td class="column7 style28 n">75,000</td>
+            <td class="column8 style28 s">..</td>
+            <td class="column9 style28 s">..</td>
+            <td class="column10 style28 s">..</td>
+            <td class="column11 style28 s">..</td>
+            <td class="column12 style28 s">..</td>
+            <td class="column13 style28 s">..</td>
+            <td class="column14 style28 n">899,300</td>
+            <td class="column15 style28 n">907,600</td>
+            <td class="column16 style28 n">674,100</td>
+            <td class="column17 style28 n">889,200</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row47">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">Yorkshire and the Humber</td>
+            <td class="column2 style28 n">104,900</td>
+            <td class="column3 style28 n">106,700</td>
+            <td class="column4 style28 s">..</td>
+            <td class="column5 style28 s">..</td>
+            <td class="column6 style28 n">44,500</td>
+            <td class="column7 style28 n">47,900</td>
+            <td class="column8 style28 s">..</td>
+            <td class="column9 style28 s">..</td>
+            <td class="column10 style28 s">..</td>
+            <td class="column11 style28 s">..</td>
+            <td class="column12 style28 s">..</td>
+            <td class="column13 style28 s">..</td>
+            <td class="column14 style28 n">683,000</td>
+            <td class="column15 style28 n">691,200</td>
+            <td class="column16 style28 n">395,700</td>
+            <td class="column17 style28 n">644,700</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row48">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">East Midlands</td>
+            <td class="column2 style28 n">71,200</td>
+            <td class="column3 style28 n">73,700</td>
+            <td class="column4 style28 s">..</td>
+            <td class="column5 style28 s">..</td>
+            <td class="column6 style28 n">28,900</td>
+            <td class="column7 style28 n">32,000</td>
+            <td class="column8 style28 s">..</td>
+            <td class="column9 style28 s">..</td>
+            <td class="column10 style28 s">..</td>
+            <td class="column11 style28 s">..</td>
+            <td class="column12 style28 s">..</td>
+            <td class="column13 style28 s">..</td>
+            <td class="column14 style28 n">457,600</td>
+            <td class="column15 style28 n">466,900</td>
+            <td class="column16 style28 n">259,900</td>
+            <td class="column17 style28 n">421,800</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row49">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">West Midlands</td>
+            <td class="column2 style28 n">124,500</td>
+            <td class="column3 style28 n">126,900</td>
+            <td class="column4 style28 s">..</td>
+            <td class="column5 style28 s">..</td>
+            <td class="column6 style28 n">56,000</td>
+            <td class="column7 style28 n">58,700</td>
+            <td class="column8 style28 s">..</td>
+            <td class="column9 style28 s">..</td>
+            <td class="column10 style28 s">..</td>
+            <td class="column11 style28 s">..</td>
+            <td class="column12 style28 s">..</td>
+            <td class="column13 style28 s">..</td>
+            <td class="column14 style28 n">601,400</td>
+            <td class="column15 style28 n">608,600</td>
+            <td class="column16 style28 n">411,200</td>
+            <td class="column17 style28 n">581,900</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row50">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">East</td>
+            <td class="column2 style28 n">74,100</td>
+            <td class="column3 style28 n">77,500</td>
+            <td class="column4 style28 s">..</td>
+            <td class="column5 style28 s">..</td>
+            <td class="column6 style28 n">30,000</td>
+            <td class="column7 style28 n">34,000</td>
+            <td class="column8 style28 s">..</td>
+            <td class="column9 style28 s">..</td>
+            <td class="column10 style28 s">..</td>
+            <td class="column11 style28 s">..</td>
+            <td class="column12 style28 s">..</td>
+            <td class="column13 style28 s">..</td>
+            <td class="column14 style28 n">478,500</td>
+            <td class="column15 style28 n">491,800</td>
+            <td class="column16 style28 n">295,300</td>
+            <td class="column17 style28 n">449,700</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row51">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">London</td>
+            <td class="column2 style28 n">148,600</td>
+            <td class="column3 style28 n">149,100</td>
+            <td class="column4 style28 s">..</td>
+            <td class="column5 style28 s">..</td>
+            <td class="column6 style28 n">96,200</td>
+            <td class="column7 style28 n">97,600</td>
+            <td class="column8 style28 s">..</td>
+            <td class="column9 style28 s">..</td>
+            <td class="column10 style28 s">..</td>
+            <td class="column11 style28 s">..</td>
+            <td class="column12 style28 s">..</td>
+            <td class="column13 style28 s">..</td>
+            <td class="column14 style28 n">1,256,600</td>
+            <td class="column15 style28 n">1,260,800</td>
+            <td class="column16 style28 n">1,054,200</td>
+            <td class="column17 style28 n">1,254,300</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row52">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">South East</td>
+            <td class="column2 style28 n">96,500</td>
+            <td class="column3 style28 n">98,600</td>
+            <td class="column4 style28 s">..</td>
+            <td class="column5 style28 s">..</td>
+            <td class="column6 style28 n">37,600</td>
+            <td class="column7 style28 n">43,300</td>
+            <td class="column8 style28 s">..</td>
+            <td class="column9 style28 s">..</td>
+            <td class="column10 style28 s">..</td>
+            <td class="column11 style28 s">..</td>
+            <td class="column12 style28 s">..</td>
+            <td class="column13 style28 s">..</td>
+            <td class="column14 style28 n">678,900</td>
+            <td class="column15 style28 n">693,900</td>
+            <td class="column16 style28 n">460,500</td>
+            <td class="column17 style28 n">658,300</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row53">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">South West</td>
+            <td class="column2 style28 n">58,700</td>
+            <td class="column3 style28 n">61,100</td>
+            <td class="column4 style28 s">..</td>
+            <td class="column5 style28 s">..</td>
+            <td class="column6 style28 n">25,600</td>
+            <td class="column7 style28 n">29,200</td>
+            <td class="column8 style28 s">..</td>
+            <td class="column9 style28 s">..</td>
+            <td class="column10 style28 s">..</td>
+            <td class="column11 style28 s">..</td>
+            <td class="column12 style28 s">..</td>
+            <td class="column13 style28 s">..</td>
+            <td class="column14 style28 n">451,800</td>
+            <td class="column15 style28 n">465,100</td>
+            <td class="column16 style28 n">292,900</td>
+            <td class="column17 style28 n">428,700</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row54">
+            <td class="column0 style24 n">2011</td>
+            <td class="column1 style19 s">North East</td>
+            <td class="column2 style28 n">63,300</td>
+            <td class="column3 style28 n">65,200</td>
+            <td class="column4 style28 n">38,100</td>
+            <td class="column5 style28 n">38,200</td>
+            <td class="column6 style28 n">26,700</td>
+            <td class="column7 style28 n">27,800</td>
+            <td class="column8 style28 s">..</td>
+            <td class="column9 style28 s">..</td>
+            <td class="column10 style28 n">405,400</td>
+            <td class="column11 style28 n">408,000</td>
+            <td class="column12 style28 n">344,400</td>
+            <td class="column13 style28 n">405,800</td>
+            <td class="column14 style28 n">406,200</td>
+            <td class="column15 style28 n">407,800</td>
+            <td class="column16 style28 n">276,200</td>
+            <td class="column17 style28 n">382,400</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row55">
+            <td class="column0 style24 s">Revised<span style="font-weight:bold; color:#000000; font-family:'Arial'; font-size:10pt"><sup>6</sup></span></td>
+            <td class="column1 style19 s">North West</td>
+            <td class="column2 style28 n">142,200</td>
+            <td class="column3 style28 n">143,100</td>
+            <td class="column4 style28 n">97,300</td>
+            <td class="column5 style28 n">97,400</td>
+            <td class="column6 style28 n">74,300</td>
+            <td class="column7 style28 n">75,100</td>
+            <td class="column8 style28 s">..</td>
+            <td class="column9 style28 s">..</td>
+            <td class="column10 style28 n">897,800</td>
+            <td class="column11 style28 n">907,500</td>
+            <td class="column12 style28 n">713,400</td>
+            <td class="column13 style28 n">898,900</td>
+            <td class="column14 style28 n">904,200</td>
+            <td class="column15 style28 n">908,000</td>
+            <td class="column16 style28 n">728,300</td>
+            <td class="column17 style28 n">896,700</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row56">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">Yorkshire and the Humber</td>
+            <td class="column2 style28 n">105,500</td>
+            <td class="column3 style28 n">106,800</td>
+            <td class="column4 style28 n">65,400</td>
+            <td class="column5 style28 n">65,500</td>
+            <td class="column6 style28 n">46,900</td>
+            <td class="column7 style28 n">47,900</td>
+            <td class="column8 style28 s">..</td>
+            <td class="column9 style28 s">..</td>
+            <td class="column10 style28 n">683,900</td>
+            <td class="column11 style28 n">691,500</td>
+            <td class="column12 style28 n">519,000</td>
+            <td class="column13 style28 n">675,900</td>
+            <td class="column14 style28 n">686,900</td>
+            <td class="column15 style28 n">691,500</td>
+            <td class="column16 style28 n">437,500</td>
+            <td class="column17 style28 n">649,800</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row57">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">East Midlands</td>
+            <td class="column2 style28 n">72,200</td>
+            <td class="column3 style28 n">73,900</td>
+            <td class="column4 style28 n">44,000</td>
+            <td class="column5 style28 n">44,200</td>
+            <td class="column6 style28 n">30,500</td>
+            <td class="column7 style28 n">32,200</td>
+            <td class="column8 style28 s">..</td>
+            <td class="column9 style28 s">..</td>
+            <td class="column10 style28 n">457,000</td>
+            <td class="column11 style28 n">468,100</td>
+            <td class="column12 style28 n">333,800</td>
+            <td class="column13 style28 n">442,700</td>
+            <td class="column14 style28 n">460,600</td>
+            <td class="column15 style28 n">468,100</td>
+            <td class="column16 style28 n">293,300</td>
+            <td class="column17 style28 n">430,700</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row58">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">West Midlands</td>
+            <td class="column2 style28 n">125,800</td>
+            <td class="column3 style28 n">127,100</td>
+            <td class="column4 style28 n">80,400</td>
+            <td class="column5 style28 n">80,600</td>
+            <td class="column6 style28 n">57,700</td>
+            <td class="column7 style28 n">58,800</td>
+            <td class="column8 style28 s">..</td>
+            <td class="column9 style28 s">..</td>
+            <td class="column10 style28 n">601,700</td>
+            <td class="column11 style28 n">608,900</td>
+            <td class="column12 style28 n">487,400</td>
+            <td class="column13 style28 n">589,500</td>
+            <td class="column14 style28 n">604,200</td>
+            <td class="column15 style28 n">609,000</td>
+            <td class="column16 style28 n">452,600</td>
+            <td class="column17 style28 n">592,100</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row59">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">East</td>
+            <td class="column2 style28 n">75,000</td>
+            <td class="column3 style28 n">77,700</td>
+            <td class="column4 style28 n">49,500</td>
+            <td class="column5 style28 n">49,900</td>
+            <td class="column6 style28 n">31,900</td>
+            <td class="column7 style28 n">34,400</td>
+            <td class="column8 style28 s">..</td>
+            <td class="column9 style28 s">..</td>
+            <td class="column10 style28 n">474,400</td>
+            <td class="column11 style28 n">492,400</td>
+            <td class="column12 style28 n">298,900</td>
+            <td class="column13 style28 n">421,500</td>
+            <td class="column14 style28 n">482,700</td>
+            <td class="column15 style28 n">492,700</td>
+            <td class="column16 style28 n">332,500</td>
+            <td class="column17 style28 n">457,700</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row60">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">London</td>
+            <td class="column2 style28 n">149,000</td>
+            <td class="column3 style28 n">149,100</td>
+            <td class="column4 style28 n">131,900</td>
+            <td class="column5 style28 n">131,900</td>
+            <td class="column6 style28 n">97,500</td>
+            <td class="column7 style28 n">97,600</td>
+            <td class="column8 style28 s">..</td>
+            <td class="column9 style28 s">..</td>
+            <td class="column10 style28 n">1,260,600</td>
+            <td class="column11 style28 n">1,260,800</td>
+            <td class="column12 style28 n">1,178,300</td>
+            <td class="column13 style28 n">1,260,800</td>
+            <td class="column14 style28 n">1,260,100</td>
+            <td class="column15 style28 n">1,260,800</td>
+            <td class="column16 style28 n">1,165,200</td>
+            <td class="column17 style28 n">1,259,000</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row61">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">South East</td>
+            <td class="column2 style28 n">97,600</td>
+            <td class="column3 style28 n">98,800</td>
+            <td class="column4 style28 n">62,500</td>
+            <td class="column5 style28 n">62,800</td>
+            <td class="column6 style28 n">40,600</td>
+            <td class="column7 style28 n">43,400</td>
+            <td class="column8 style28 s">..</td>
+            <td class="column9 style28 s">..</td>
+            <td class="column10 style28 n">679,600</td>
+            <td class="column11 style28 n">694,500</td>
+            <td class="column12 style28 n">502,600</td>
+            <td class="column13 style28 n">664,300</td>
+            <td class="column14 style28 n">685,000</td>
+            <td class="column15 style28 n">694,900</td>
+            <td class="column16 style28 n">513,300</td>
+            <td class="column17 style28 n">668,500</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row62">
+            <td class="column0 style29 null"></td>
+            <td class="column1 style30 s">South West</td>
+            <td class="column2 style31 n">59,400</td>
+            <td class="column3 style31 n">61,400</td>
+            <td class="column4 style31 n">40,400</td>
+            <td class="column5 style31 n">41,000</td>
+            <td class="column6 style31 n">27,000</td>
+            <td class="column7 style31 n">29,400</td>
+            <td class="column8 style31 s">..</td>
+            <td class="column9 style31 s">..</td>
+            <td class="column10 style31 n">450,000</td>
+            <td class="column11 style31 n">466,300</td>
+            <td class="column12 style31 n">374,000</td>
+            <td class="column13 style31 n">456,900</td>
+            <td class="column14 style31 n">456,300</td>
+            <td class="column15 style31 n">466,300</td>
+            <td class="column16 style31 n">326,500</td>
+            <td class="column17 style31 n">435,200</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row63">
+            <td class="column0 style24 n">2012</td>
+            <td class="column1 style19 s">All regions<span style="color:#000000; font-family:'Arial'; font-size:10pt"><sup>5</sup></span></td>
+            <td class="column2 style32 s">-</td>
+            <td class="column3 style32 s">-</td>
+            <td class="column4 style32 s">-</td>
+            <td class="column5 style32 s">-</td>
+            <td class="column6 style32 s">-</td>
+            <td class="column7 style32 s">-</td>
+            <td class="column8 style32 s">-</td>
+            <td class="column9 style32 s">-</td>
+            <td class="column10 style32 s">-</td>
+            <td class="column11 style32 s">-</td>
+            <td class="column12 style32 s">-</td>
+            <td class="column13 style32 s">-</td>
+            <td class="column14 style32 s">-</td>
+            <td class="column15 style32 s">-</td>
+            <td class="column16 style32 s">-</td>
+            <td class="column17 style32 s">-</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row64">
+            <td class="column0 style24 n">2013</td>
+            <td class="column1 style19 s">North East</td>
+            <td class="column2 style28 n">86,900</td>
+            <td class="column3 style28 n">87,000</td>
+            <td class="column4 style28 n">40,300</td>
+            <td class="column5 style28 n">40,300</td>
+            <td class="column6 style28 n">28,100</td>
+            <td class="column7 style28 n">28,100</td>
+            <td class="column8 style28 s">..</td>
+            <td class="column9 style28 s">..</td>
+            <td class="column10 style28 n">407,200</td>
+            <td class="column11 style28 n">407,200</td>
+            <td class="column12 style28 n">404,800</td>
+            <td class="column13 style28 n">407,200</td>
+            <td class="column14 style28 n">407,100</td>
+            <td class="column15 style28 n">407,200</td>
+            <td class="column16 style28 n">398,200</td>
+            <td class="column17 style28 n">403,900</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row65">
+            <td class="column0 style24 s">New method<span style="font-weight:bold; color:#000000; font-family:'Arial'; font-size:10pt"><sup>6</sup></span></td>
+            <td class="column1 style19 s">North West</td>
+            <td class="column2 style28 n">197,700</td>
+            <td class="column3 style28 n">197,700</td>
+            <td class="column4 style28 n">99,900</td>
+            <td class="column5 style28 n">99,900</td>
+            <td class="column6 style28 n">71,800</td>
+            <td class="column7 style28 n">71,800</td>
+            <td class="column8 style28 s">..</td>
+            <td class="column9 style28 s">..</td>
+            <td class="column10 style28 n">916,000</td>
+            <td class="column11 style28 n">916,100</td>
+            <td class="column12 style28 n">915,100</td>
+            <td class="column13 style28 n">916,100</td>
+            <td class="column14 style28 n">915,600</td>
+            <td class="column15 style28 n">916,100</td>
+            <td class="column16 style28 n">903,700</td>
+            <td class="column17 style28 n">909,400</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row66">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">Yorkshire and the Humber</td>
+            <td class="column2 style28 n">159,300</td>
+            <td class="column3 style28 n">159,300</td>
+            <td class="column4 style28 n">72,500</td>
+            <td class="column5 style28 n">72,500</td>
+            <td class="column6 style28 n">49,300</td>
+            <td class="column7 style28 n">49,300</td>
+            <td class="column8 style28 s">..</td>
+            <td class="column9 style28 s">..</td>
+            <td class="column10 style28 n">677,600</td>
+            <td class="column11 style28 n">677,700</td>
+            <td class="column12 style28 n">676,900</td>
+            <td class="column13 style28 n">677,700</td>
+            <td class="column14 style28 n">677,500</td>
+            <td class="column15 style28 n">677,700</td>
+            <td class="column16 style28 n">661,900</td>
+            <td class="column17 style28 n">670,100</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row67">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">East Midlands</td>
+            <td class="column2 style28 n">112,100</td>
+            <td class="column3 style28 n">112,100</td>
+            <td class="column4 style28 n">51,500</td>
+            <td class="column5 style28 n">51,500</td>
+            <td class="column6 style28 n">35,100</td>
+            <td class="column7 style28 n">35,100</td>
+            <td class="column8 style28 s">..</td>
+            <td class="column9 style28 s">..</td>
+            <td class="column10 style28 n">462,200</td>
+            <td class="column11 style28 n">462,300</td>
+            <td class="column12 style28 n">461,700</td>
+            <td class="column13 style28 n">462,300</td>
+            <td class="column14 style28 n">462,200</td>
+            <td class="column15 style28 n">462,300</td>
+            <td class="column16 style28 n">452,700</td>
+            <td class="column17 style28 n">459,800</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row68">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">West Midlands</td>
+            <td class="column2 style28 n">178,000</td>
+            <td class="column3 style28 n">178,000</td>
+            <td class="column4 style28 n">84,600</td>
+            <td class="column5 style28 n">84,600</td>
+            <td class="column6 style28 n">58,700</td>
+            <td class="column7 style28 n">58,700</td>
+            <td class="column8 style28 s">..</td>
+            <td class="column9 style28 s">..</td>
+            <td class="column10 style28 n">614,800</td>
+            <td class="column11 style28 n">614,800</td>
+            <td class="column12 style28 n">613,200</td>
+            <td class="column13 style28 n">614,800</td>
+            <td class="column14 style28 n">614,700</td>
+            <td class="column15 style28 n">614,800</td>
+            <td class="column16 style28 n">606,100</td>
+            <td class="column17 style28 n">611,400</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row69">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">East</td>
+            <td class="column2 style28 n">119,500</td>
+            <td class="column3 style28 n">119,500</td>
+            <td class="column4 style28 n">56,800</td>
+            <td class="column5 style28 n">56,800</td>
+            <td class="column6 style28 n">37,800</td>
+            <td class="column7 style28 n">37,800</td>
+            <td class="column8 style28 s">..</td>
+            <td class="column9 style28 s">..</td>
+            <td class="column10 style28 n">483,000</td>
+            <td class="column11 style28 n">483,000</td>
+            <td class="column12 style28 n">480,500</td>
+            <td class="column13 style28 n">483,000</td>
+            <td class="column14 style28 n">483,000</td>
+            <td class="column15 style28 n">483,000</td>
+            <td class="column16 style28 n">466,200</td>
+            <td class="column17 style28 n">481,200</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row70">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">London</td>
+            <td class="column2 style28 n">226,400</td>
+            <td class="column3 style28 n">226,400</td>
+            <td class="column4 style28 n">139,100</td>
+            <td class="column5 style28 n">139,100</td>
+            <td class="column6 style28 n">98,400</td>
+            <td class="column7 style28 n">98,400</td>
+            <td class="column8 style28 s">..</td>
+            <td class="column9 style28 s">..</td>
+            <td class="column10 style28 n">1,269,400</td>
+            <td class="column11 style28 n">1,269,400</td>
+            <td class="column12 style28 n">1,269,400</td>
+            <td class="column13 style28 n">1,269,400</td>
+            <td class="column14 style28 n">1,269,400</td>
+            <td class="column15 style28 n">1,269,400</td>
+            <td class="column16 style28 n">1,258,700</td>
+            <td class="column17 style28 n">1,258,700</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row71">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">South East</td>
+            <td class="column2 style28 n">156,100</td>
+            <td class="column3 style28 n">156,100</td>
+            <td class="column4 style28 n">72,800</td>
+            <td class="column5 style28 n">72,800</td>
+            <td class="column6 style28 n">49,800</td>
+            <td class="column7 style28 n">49,800</td>
+            <td class="column8 style28 s">..</td>
+            <td class="column9 style28 s">..</td>
+            <td class="column10 style28 n">695,800</td>
+            <td class="column11 style28 n">695,800</td>
+            <td class="column12 style28 n">695,800</td>
+            <td class="column13 style28 n">695,800</td>
+            <td class="column14 style28 n">695,800</td>
+            <td class="column15 style28 n">695,800</td>
+            <td class="column16 style28 n">685,000</td>
+            <td class="column17 style28 n">692,000</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row72">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">South West</td>
+            <td class="column2 style28 n">91,800</td>
+            <td class="column3 style28 n">91,900</td>
+            <td class="column4 style28 n">46,300</td>
+            <td class="column5 style28 n">46,300</td>
+            <td class="column6 style28 n">31,800</td>
+            <td class="column7 style28 n">31,800</td>
+            <td class="column8 style28 s">..</td>
+            <td class="column9 style28 s">..</td>
+            <td class="column10 style28 n">460,500</td>
+            <td class="column11 style28 n">460,700</td>
+            <td class="column12 style28 n">457,600</td>
+            <td class="column13 style28 n">460,300</td>
+            <td class="column14 style28 n">460,300</td>
+            <td class="column15 style28 n">460,400</td>
+            <td class="column16 style28 n">443,000</td>
+            <td class="column17 style28 n">458,200</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row73">
+            <td class="column0 style24 s">Percentage of people with access within threshold</td>
+            <td class="column1 style25 null"></td>
+            <td class="column2 style26 null"></td>
+            <td class="column3 style27 null"></td>
+            <td class="column4 style27 null"></td>
+            <td class="column5 style27 null"></td>
+            <td class="column6 style27 null"></td>
+            <td class="column7 style27 null"></td>
+            <td class="column8 style27 null"></td>
+            <td class="column9 style27 null"></td>
+            <td class="column10 style27 null"></td>
+            <td class="column11 style27 null"></td>
+            <td class="column12 style27 null"></td>
+            <td class="column13 style27 null"></td>
+            <td class="column14 style27 null"></td>
+            <td class="column15 style27 null"></td>
+            <td class="column16 style27 null"></td>
+            <td class="column17 style27 null"></td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row74">
+            <td class="column0 style24 n">2007</td>
+            <td class="column1 style19 s">North East</td>
+            <td class="column2 style32 n">99.0</td>
+            <td class="column3 style32 n">99.8</td>
+            <td class="column4 style32 s">..</td>
+            <td class="column5 style32 s">..</td>
+            <td class="column6 style32 n">95.4</td>
+            <td class="column7 style32 n">99.7</td>
+            <td class="column8 style32 s">..</td>
+            <td class="column9 style32 s">..</td>
+            <td class="column10 style32 s">..</td>
+            <td class="column11 style32 s">..</td>
+            <td class="column12 style32 s">..</td>
+            <td class="column13 style32 s">..</td>
+            <td class="column14 style32 n">98.9</td>
+            <td class="column15 style32 n">99.9</td>
+            <td class="column16 style32 s">..</td>
+            <td class="column17 style32 s">..</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row75">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">North West</td>
+            <td class="column2 style32 n">98.9</td>
+            <td class="column3 style32 n">99.8</td>
+            <td class="column4 style32 s">..</td>
+            <td class="column5 style32 s">..</td>
+            <td class="column6 style32 n">97.2</td>
+            <td class="column7 style32 n">99.9</td>
+            <td class="column8 style32 s">..</td>
+            <td class="column9 style32 s">..</td>
+            <td class="column10 style32 s">..</td>
+            <td class="column11 style32 s">..</td>
+            <td class="column12 style32 s">..</td>
+            <td class="column13 style32 s">..</td>
+            <td class="column14 style32 n">99.1</td>
+            <td class="column15 style32 n">99.9</td>
+            <td class="column16 style32 s">..</td>
+            <td class="column17 style32 s">..</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row76">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">Yorkshire and the Humber</td>
+            <td class="column2 style32 n">97.9</td>
+            <td class="column3 style32 n">99.7</td>
+            <td class="column4 style32 s">..</td>
+            <td class="column5 style32 s">..</td>
+            <td class="column6 style32 n">93.4</td>
+            <td class="column7 style32 n">99.5</td>
+            <td class="column8 style32 s">..</td>
+            <td class="column9 style32 s">..</td>
+            <td class="column10 style32 s">..</td>
+            <td class="column11 style32 s">..</td>
+            <td class="column12 style32 s">..</td>
+            <td class="column13 style32 s">..</td>
+            <td class="column14 style32 n">98.4</td>
+            <td class="column15 style32 n">99.8</td>
+            <td class="column16 style32 s">..</td>
+            <td class="column17 style32 s">..</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row77">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">East Midlands</td>
+            <td class="column2 style32 n">96.4</td>
+            <td class="column3 style32 n">99.7</td>
+            <td class="column4 style32 s">..</td>
+            <td class="column5 style32 s">..</td>
+            <td class="column6 style32 n">92.2</td>
+            <td class="column7 style32 n">99.6</td>
+            <td class="column8 style32 s">..</td>
+            <td class="column9 style32 s">..</td>
+            <td class="column10 style32 s">..</td>
+            <td class="column11 style32 s">..</td>
+            <td class="column12 style32 s">..</td>
+            <td class="column13 style32 s">..</td>
+            <td class="column14 style32 n">97.5</td>
+            <td class="column15 style32 n">99.9</td>
+            <td class="column16 style32 s">..</td>
+            <td class="column17 style32 s">..</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row78">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">West Midlands</td>
+            <td class="column2 style32 n">98.3</td>
+            <td class="column3 style32 n">99.7</td>
+            <td class="column4 style32 s">..</td>
+            <td class="column5 style32 s">..</td>
+            <td class="column6 style32 n">97.0</td>
+            <td class="column7 style32 n">99.7</td>
+            <td class="column8 style32 s">..</td>
+            <td class="column9 style32 s">..</td>
+            <td class="column10 style32 s">..</td>
+            <td class="column11 style32 s">..</td>
+            <td class="column12 style32 s">..</td>
+            <td class="column13 style32 s">..</td>
+            <td class="column14 style32 n">98.6</td>
+            <td class="column15 style32 n">99.8</td>
+            <td class="column16 style32 s">..</td>
+            <td class="column17 style32 s">..</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row79">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">East</td>
+            <td class="column2 style32 n">94.9</td>
+            <td class="column3 style32 n">99.2</td>
+            <td class="column4 style32 s">..</td>
+            <td class="column5 style32 s">..</td>
+            <td class="column6 style32 n">87.9</td>
+            <td class="column7 style32 n">98.7</td>
+            <td class="column8 style32 s">..</td>
+            <td class="column9 style32 s">..</td>
+            <td class="column10 style32 s">..</td>
+            <td class="column11 style32 s">..</td>
+            <td class="column12 style32 s">..</td>
+            <td class="column13 style32 s">..</td>
+            <td class="column14 style32 n">96.6</td>
+            <td class="column15 style32 n">99.7</td>
+            <td class="column16 style32 s">..</td>
+            <td class="column17 style32 s">..</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row80">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">London</td>
+            <td class="column2 style32 n">100.0</td>
+            <td class="column3 style32 n">100.0</td>
+            <td class="column4 style32 s">..</td>
+            <td class="column5 style32 s">..</td>
+            <td class="column6 style32 n">97.8</td>
+            <td class="column7 style32 n">100.0</td>
+            <td class="column8 style32 s">..</td>
+            <td class="column9 style32 s">..</td>
+            <td class="column10 style32 s">..</td>
+            <td class="column11 style32 s">..</td>
+            <td class="column12 style32 s">..</td>
+            <td class="column13 style32 s">..</td>
+            <td class="column14 style32 n">99.7</td>
+            <td class="column15 style32 n">100.0</td>
+            <td class="column16 style32 s">..</td>
+            <td class="column17 style32 s">..</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row81">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">South East</td>
+            <td class="column2 style32 n">97.2</td>
+            <td class="column3 style32 n">99.8</td>
+            <td class="column4 style32 s">..</td>
+            <td class="column5 style32 s">..</td>
+            <td class="column6 style32 n">89.4</td>
+            <td class="column7 style32 n">99.3</td>
+            <td class="column8 style32 s">..</td>
+            <td class="column9 style32 s">..</td>
+            <td class="column10 style32 s">..</td>
+            <td class="column11 style32 s">..</td>
+            <td class="column12 style32 s">..</td>
+            <td class="column13 style32 s">..</td>
+            <td class="column14 style32 n">97.7</td>
+            <td class="column15 style32 n">99.8</td>
+            <td class="column16 style32 s">..</td>
+            <td class="column17 style32 s">..</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row82">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">South West</td>
+            <td class="column2 style32 n">94.0</td>
+            <td class="column3 style32 n">98.4</td>
+            <td class="column4 style32 s">..</td>
+            <td class="column5 style32 s">..</td>
+            <td class="column6 style32 n">86.8</td>
+            <td class="column7 style32 n">98.0</td>
+            <td class="column8 style32 s">..</td>
+            <td class="column9 style32 s">..</td>
+            <td class="column10 style32 s">..</td>
+            <td class="column11 style32 s">..</td>
+            <td class="column12 style32 s">..</td>
+            <td class="column13 style32 s">..</td>
+            <td class="column14 style32 n">96.7</td>
+            <td class="column15 style32 n">99.4</td>
+            <td class="column16 style32 s">..</td>
+            <td class="column17 style32 s">..</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row83">
+            <td class="column0 style24 n">2008</td>
+            <td class="column1 style19 s">North East</td>
+            <td class="column2 style32 n">97.9</td>
+            <td class="column3 style32 n">99.8</td>
+            <td class="column4 style32 s">..</td>
+            <td class="column5 style32 s">..</td>
+            <td class="column6 style32 n">95.2</td>
+            <td class="column7 style32 n">99.8</td>
+            <td class="column8 style32 s">..</td>
+            <td class="column9 style32 s">..</td>
+            <td class="column10 style32 s">..</td>
+            <td class="column11 style32 s">..</td>
+            <td class="column12 style32 s">..</td>
+            <td class="column13 style32 s">..</td>
+            <td class="column14 style32 n">99.0</td>
+            <td class="column15 style32 n">99.9</td>
+            <td class="column16 style32 s">..</td>
+            <td class="column17 style32 s">..</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row84">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">North West</td>
+            <td class="column2 style32 n">99.3</td>
+            <td class="column3 style32 n">99.9</td>
+            <td class="column4 style32 s">..</td>
+            <td class="column5 style32 s">..</td>
+            <td class="column6 style32 n">96.6</td>
+            <td class="column7 style32 n">99.8</td>
+            <td class="column8 style32 s">..</td>
+            <td class="column9 style32 s">..</td>
+            <td class="column10 style32 s">..</td>
+            <td class="column11 style32 s">..</td>
+            <td class="column12 style32 s">..</td>
+            <td class="column13 style32 s">..</td>
+            <td class="column14 style32 n">99.1</td>
+            <td class="column15 style32 n">99.9</td>
+            <td class="column16 style32 s">..</td>
+            <td class="column17 style32 s">..</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row85">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">Yorkshire and the Humber</td>
+            <td class="column2 style32 n">98.6</td>
+            <td class="column3 style32 n">99.8</td>
+            <td class="column4 style32 s">..</td>
+            <td class="column5 style32 s">..</td>
+            <td class="column6 style32 n">92.7</td>
+            <td class="column7 style32 n">99.6</td>
+            <td class="column8 style32 s">..</td>
+            <td class="column9 style32 s">..</td>
+            <td class="column10 style32 s">..</td>
+            <td class="column11 style32 s">..</td>
+            <td class="column12 style32 s">..</td>
+            <td class="column13 style32 s">..</td>
+            <td class="column14 style32 n">98.4</td>
+            <td class="column15 style32 n">99.8</td>
+            <td class="column16 style32 s">..</td>
+            <td class="column17 style32 s">..</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row86">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">East Midlands</td>
+            <td class="column2 style32 n">98.4</td>
+            <td class="column3 style32 n">99.9</td>
+            <td class="column4 style32 s">..</td>
+            <td class="column5 style32 s">..</td>
+            <td class="column6 style32 n">91.5</td>
+            <td class="column7 style32 n">99.7</td>
+            <td class="column8 style32 s">..</td>
+            <td class="column9 style32 s">..</td>
+            <td class="column10 style32 s">..</td>
+            <td class="column11 style32 s">..</td>
+            <td class="column12 style32 s">..</td>
+            <td class="column13 style32 s">..</td>
+            <td class="column14 style32 n">97.8</td>
+            <td class="column15 style32 n">99.9</td>
+            <td class="column16 style32 s">..</td>
+            <td class="column17 style32 s">..</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row87">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">West Midlands</td>
+            <td class="column2 style32 n">98.7</td>
+            <td class="column3 style32 n">99.8</td>
+            <td class="column4 style32 s">..</td>
+            <td class="column5 style32 s">..</td>
+            <td class="column6 style32 n">96.4</td>
+            <td class="column7 style32 n">99.7</td>
+            <td class="column8 style32 s">..</td>
+            <td class="column9 style32 s">..</td>
+            <td class="column10 style32 s">..</td>
+            <td class="column11 style32 s">..</td>
+            <td class="column12 style32 s">..</td>
+            <td class="column13 style32 s">..</td>
+            <td class="column14 style32 n">98.5</td>
+            <td class="column15 style32 n">99.8</td>
+            <td class="column16 style32 s">..</td>
+            <td class="column17 style32 s">..</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row88">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">East</td>
+            <td class="column2 style32 n">96.6</td>
+            <td class="column3 style32 n">99.6</td>
+            <td class="column4 style32 s">..</td>
+            <td class="column5 style32 s">..</td>
+            <td class="column6 style32 n">87.3</td>
+            <td class="column7 style32 n">98.2</td>
+            <td class="column8 style32 s">..</td>
+            <td class="column9 style32 s">..</td>
+            <td class="column10 style32 s">..</td>
+            <td class="column11 style32 s">..</td>
+            <td class="column12 style32 s">..</td>
+            <td class="column13 style32 s">..</td>
+            <td class="column14 style32 n">96.3</td>
+            <td class="column15 style32 n">99.6</td>
+            <td class="column16 style32 s">..</td>
+            <td class="column17 style32 s">..</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row89">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">London</td>
+            <td class="column2 style32 n">99.9</td>
+            <td class="column3 style32 n">100.0</td>
+            <td class="column4 style32 s">..</td>
+            <td class="column5 style32 s">..</td>
+            <td class="column6 style32 n">98.1</td>
+            <td class="column7 style32 n">100.0</td>
+            <td class="column8 style32 s">..</td>
+            <td class="column9 style32 s">..</td>
+            <td class="column10 style32 s">..</td>
+            <td class="column11 style32 s">..</td>
+            <td class="column12 style32 s">..</td>
+            <td class="column13 style32 s">..</td>
+            <td class="column14 style32 n">99.8</td>
+            <td class="column15 style32 n">100.0</td>
+            <td class="column16 style32 s">..</td>
+            <td class="column17 style32 s">..</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row90">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">South East</td>
+            <td class="column2 style32 n">98.5</td>
+            <td class="column3 style32 n">99.9</td>
+            <td class="column4 style32 s">..</td>
+            <td class="column5 style32 s">..</td>
+            <td class="column6 style32 n">87.4</td>
+            <td class="column7 style32 n">99.2</td>
+            <td class="column8 style32 s">..</td>
+            <td class="column9 style32 s">..</td>
+            <td class="column10 style32 s">..</td>
+            <td class="column11 style32 s">..</td>
+            <td class="column12 style32 s">..</td>
+            <td class="column13 style32 s">..</td>
+            <td class="column14 style32 n">97.5</td>
+            <td class="column15 style32 n">99.8</td>
+            <td class="column16 style32 s">..</td>
+            <td class="column17 style32 s">..</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row91">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">South West</td>
+            <td class="column2 style32 n">96.6</td>
+            <td class="column3 style32 n">99.2</td>
+            <td class="column4 style32 s">..</td>
+            <td class="column5 style32 s">..</td>
+            <td class="column6 style32 n">86.6</td>
+            <td class="column7 style32 n">98.2</td>
+            <td class="column8 style32 s">..</td>
+            <td class="column9 style32 s">..</td>
+            <td class="column10 style32 s">..</td>
+            <td class="column11 style32 s">..</td>
+            <td class="column12 style32 s">..</td>
+            <td class="column13 style32 s">..</td>
+            <td class="column14 style32 n">96.8</td>
+            <td class="column15 style32 n">99.3</td>
+            <td class="column16 style32 s">..</td>
+            <td class="column17 style32 s">..</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row92">
+            <td class="column0 style24 n">2009</td>
+            <td class="column1 style19 s">North East</td>
+            <td class="column2 style32 n">98.1</td>
+            <td class="column3 style32 n">99.8</td>
+            <td class="column4 style32 s">..</td>
+            <td class="column5 style32 s">..</td>
+            <td class="column6 style32 n">96.0</td>
+            <td class="column7 style32 n">99.8</td>
+            <td class="column8 style32 s">..</td>
+            <td class="column9 style32 s">..</td>
+            <td class="column10 style32 s">..</td>
+            <td class="column11 style32 s">..</td>
+            <td class="column12 style32 s">..</td>
+            <td class="column13 style32 s">..</td>
+            <td class="column14 style32 n">99.2</td>
+            <td class="column15 style32 n">99.9</td>
+            <td class="column16 style32 n">66.4</td>
+            <td class="column17 style32 n">94.1</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row93">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">North West</td>
+            <td class="column2 style32 n">99.4</td>
+            <td class="column3 style32 n">99.9</td>
+            <td class="column4 style32 s">..</td>
+            <td class="column5 style32 s">..</td>
+            <td class="column6 style32 n">97.1</td>
+            <td class="column7 style32 n">99.9</td>
+            <td class="column8 style32 s">..</td>
+            <td class="column9 style32 s">..</td>
+            <td class="column10 style32 s">..</td>
+            <td class="column11 style32 s">..</td>
+            <td class="column12 style32 s">..</td>
+            <td class="column13 style32 s">..</td>
+            <td class="column14 style32 n">99.1</td>
+            <td class="column15 style32 n">99.9</td>
+            <td class="column16 style32 n">78.6</td>
+            <td class="column17 style32 n">98.2</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row94">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">Yorkshire and the Humber</td>
+            <td class="column2 style32 n">98.6</td>
+            <td class="column3 style32 n">99.7</td>
+            <td class="column4 style32 s">..</td>
+            <td class="column5 style32 s">..</td>
+            <td class="column6 style32 n">94.4</td>
+            <td class="column7 style32 n">99.5</td>
+            <td class="column8 style32 s">..</td>
+            <td class="column9 style32 s">..</td>
+            <td class="column10 style32 s">..</td>
+            <td class="column11 style32 s">..</td>
+            <td class="column12 style32 s">..</td>
+            <td class="column13 style32 s">..</td>
+            <td class="column14 style32 n">98.5</td>
+            <td class="column15 style32 n">99.8</td>
+            <td class="column16 style32 n">60.6</td>
+            <td class="column17 style32 n">94.4</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row95">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">East Midlands</td>
+            <td class="column2 style32 n">98.4</td>
+            <td class="column3 style32 n">99.9</td>
+            <td class="column4 style32 s">..</td>
+            <td class="column5 style32 s">..</td>
+            <td class="column6 style32 n">91.7</td>
+            <td class="column7 style32 n">99.8</td>
+            <td class="column8 style32 s">..</td>
+            <td class="column9 style32 s">..</td>
+            <td class="column10 style32 s">..</td>
+            <td class="column11 style32 s">..</td>
+            <td class="column12 style32 s">..</td>
+            <td class="column13 style32 s">..</td>
+            <td class="column14 style32 n">98.2</td>
+            <td class="column15 style32 n">99.9</td>
+            <td class="column16 style32 n">56.6</td>
+            <td class="column17 style32 n">91.9</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row96">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">West Midlands</td>
+            <td class="column2 style32 n">98.7</td>
+            <td class="column3 style32 n">99.8</td>
+            <td class="column4 style32 s">..</td>
+            <td class="column5 style32 s">..</td>
+            <td class="column6 style32 n">97.2</td>
+            <td class="column7 style32 n">99.7</td>
+            <td class="column8 style32 s">..</td>
+            <td class="column9 style32 s">..</td>
+            <td class="column10 style32 s">..</td>
+            <td class="column11 style32 s">..</td>
+            <td class="column12 style32 s">..</td>
+            <td class="column13 style32 s">..</td>
+            <td class="column14 style32 n">98.7</td>
+            <td class="column15 style32 n">99.8</td>
+            <td class="column16 style32 n">73.0</td>
+            <td class="column17 style32 n">96.3</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row97">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">East</td>
+            <td class="column2 style32 n">96.8</td>
+            <td class="column3 style32 n">99.6</td>
+            <td class="column4 style32 s">..</td>
+            <td class="column5 style32 s">..</td>
+            <td class="column6 style32 n">88.7</td>
+            <td class="column7 style32 n">98.4</td>
+            <td class="column8 style32 s">..</td>
+            <td class="column9 style32 s">..</td>
+            <td class="column10 style32 s">..</td>
+            <td class="column11 style32 s">..</td>
+            <td class="column12 style32 s">..</td>
+            <td class="column13 style32 s">..</td>
+            <td class="column14 style32 n">96.7</td>
+            <td class="column15 style32 n">99.6</td>
+            <td class="column16 style32 n">60.9</td>
+            <td class="column17 style32 n">90.5</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row98">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">London</td>
+            <td class="column2 style32 n">99.9</td>
+            <td class="column3 style32 n">100.0</td>
+            <td class="column4 style32 s">..</td>
+            <td class="column5 style32 s">..</td>
+            <td class="column6 style32 n">98.7</td>
+            <td class="column7 style32 n">100.0</td>
+            <td class="column8 style32 s">..</td>
+            <td class="column9 style32 s">..</td>
+            <td class="column10 style32 s">..</td>
+            <td class="column11 style32 s">..</td>
+            <td class="column12 style32 s">..</td>
+            <td class="column13 style32 s">..</td>
+            <td class="column14 style32 n">99.8</td>
+            <td class="column15 style32 n">100.0</td>
+            <td class="column16 style32 n">87.2</td>
+            <td class="column17 style32 n">99.6</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row99">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">South East</td>
+            <td class="column2 style32 n">98.6</td>
+            <td class="column3 style32 n">99.9</td>
+            <td class="column4 style32 s">..</td>
+            <td class="column5 style32 s">..</td>
+            <td class="column6 style32 n">89.3</td>
+            <td class="column7 style32 n">99.3</td>
+            <td class="column8 style32 s">..</td>
+            <td class="column9 style32 s">..</td>
+            <td class="column10 style32 s">..</td>
+            <td class="column11 style32 s">..</td>
+            <td class="column12 style32 s">..</td>
+            <td class="column13 style32 s">..</td>
+            <td class="column14 style32 n">97.8</td>
+            <td class="column15 style32 n">99.8</td>
+            <td class="column16 style32 n">69.2</td>
+            <td class="column17 style32 n">95.5</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row100">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">South West</td>
+            <td class="column2 style32 n">96.8</td>
+            <td class="column3 style32 n">99.3</td>
+            <td class="column4 style32 s">..</td>
+            <td class="column5 style32 s">..</td>
+            <td class="column6 style32 n">87.4</td>
+            <td class="column7 style32 n">98.1</td>
+            <td class="column8 style32 s">..</td>
+            <td class="column9 style32 s">..</td>
+            <td class="column10 style32 s">..</td>
+            <td class="column11 style32 s">..</td>
+            <td class="column12 style32 s">..</td>
+            <td class="column13 style32 s">..</td>
+            <td class="column14 style32 n">97.0</td>
+            <td class="column15 style32 n">99.3</td>
+            <td class="column16 style32 n">64.0</td>
+            <td class="column17 style32 n">92.3</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row101">
+            <td class="column0 style24 n">2010</td>
+            <td class="column1 style19 s">North East</td>
+            <td class="column2 style32 n">97.2</td>
+            <td class="column3 style32 n">99.7</td>
+            <td class="column4 style32 s">..</td>
+            <td class="column5 style32 s">..</td>
+            <td class="column6 style32 n">94.8</td>
+            <td class="column7 style32 n">99.7</td>
+            <td class="column8 style32 s">..</td>
+            <td class="column9 style32 s">..</td>
+            <td class="column10 style32 s">..</td>
+            <td class="column11 style32 s">..</td>
+            <td class="column12 style32 s">..</td>
+            <td class="column13 style32 s">..</td>
+            <td class="column14 style32 n">99.2</td>
+            <td class="column15 style32 n">99.9</td>
+            <td class="column16 style32 n">64.5</td>
+            <td class="column17 style32 n">93.9</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row102">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">North West</td>
+            <td class="column2 style32 n">99.2</td>
+            <td class="column3 style32 n">99.8</td>
+            <td class="column4 style32 s">..</td>
+            <td class="column5 style32 s">..</td>
+            <td class="column6 style32 n">95.7</td>
+            <td class="column7 style32 n">99.8</td>
+            <td class="column8 style32 s">..</td>
+            <td class="column9 style32 s">..</td>
+            <td class="column10 style32 s">..</td>
+            <td class="column11 style32 s">..</td>
+            <td class="column12 style32 s">..</td>
+            <td class="column13 style32 s">..</td>
+            <td class="column14 style32 n">99.0</td>
+            <td class="column15 style32 n">99.9</td>
+            <td class="column16 style32 n">75.9</td>
+            <td class="column17 style32 n">97.9</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row103">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">Yorkshire and the Humber</td>
+            <td class="column2 style32 n">98.6</td>
+            <td class="column3 style32 n">99.7</td>
+            <td class="column4 style32 s">..</td>
+            <td class="column5 style32 s">..</td>
+            <td class="column6 style32 n">93.2</td>
+            <td class="column7 style32 n">99.4</td>
+            <td class="column8 style32 s">..</td>
+            <td class="column9 style32 s">..</td>
+            <td class="column10 style32 s">..</td>
+            <td class="column11 style32 s">..</td>
+            <td class="column12 style32 s">..</td>
+            <td class="column13 style32 s">..</td>
+            <td class="column14 style32 n">98.5</td>
+            <td class="column15 style32 n">99.8</td>
+            <td class="column16 style32 n">59.0</td>
+            <td class="column17 style32 n">93.8</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row104">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">East Midlands</td>
+            <td class="column2 style32 n">97.6</td>
+            <td class="column3 style32 n">99.7</td>
+            <td class="column4 style32 s">..</td>
+            <td class="column5 style32 s">..</td>
+            <td class="column6 style32 n">89.7</td>
+            <td class="column7 style32 n">98.8</td>
+            <td class="column8 style32 s">..</td>
+            <td class="column9 style32 s">..</td>
+            <td class="column10 style32 s">..</td>
+            <td class="column11 style32 s">..</td>
+            <td class="column12 style32 s">..</td>
+            <td class="column13 style32 s">..</td>
+            <td class="column14 style32 n">97.8</td>
+            <td class="column15 style32 n">99.7</td>
+            <td class="column16 style32 n">57.0</td>
+            <td class="column17 style32 n">90.5</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row105">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">West Midlands</td>
+            <td class="column2 style32 n">98.6</td>
+            <td class="column3 style32 n">99.7</td>
+            <td class="column4 style32 s">..</td>
+            <td class="column5 style32 s">..</td>
+            <td class="column6 style32 n">95.8</td>
+            <td class="column7 style32 n">99.5</td>
+            <td class="column8 style32 s">..</td>
+            <td class="column9 style32 s">..</td>
+            <td class="column10 style32 s">..</td>
+            <td class="column11 style32 s">..</td>
+            <td class="column12 style32 s">..</td>
+            <td class="column13 style32 s">..</td>
+            <td class="column14 style32 n">98.7</td>
+            <td class="column15 style32 n">99.8</td>
+            <td class="column16 style32 n">71.1</td>
+            <td class="column17 style32 n">95.8</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row106">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">East</td>
+            <td class="column2 style32 n">96.0</td>
+            <td class="column3 style32 n">99.5</td>
+            <td class="column4 style32 s">..</td>
+            <td class="column5 style32 s">..</td>
+            <td class="column6 style32 n">86.7</td>
+            <td class="column7 style32 n">97.7</td>
+            <td class="column8 style32 s">..</td>
+            <td class="column9 style32 s">..</td>
+            <td class="column10 style32 s">..</td>
+            <td class="column11 style32 s">..</td>
+            <td class="column12 style32 s">..</td>
+            <td class="column13 style32 s">..</td>
+            <td class="column14 style32 n">97.0</td>
+            <td class="column15 style32 n">99.6</td>
+            <td class="column16 style32 n">61.1</td>
+            <td class="column17 style32 n">91.4</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row107">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">London</td>
+            <td class="column2 style32 n">99.9</td>
+            <td class="column3 style32 n">100.0</td>
+            <td class="column4 style32 s">..</td>
+            <td class="column5 style32 s">..</td>
+            <td class="column6 style32 n">98.6</td>
+            <td class="column7 style32 n">100.0</td>
+            <td class="column8 style32 s">..</td>
+            <td class="column9 style32 s">..</td>
+            <td class="column10 style32 s">..</td>
+            <td class="column11 style32 s">..</td>
+            <td class="column12 style32 s">..</td>
+            <td class="column13 style32 s">..</td>
+            <td class="column14 style32 n">99.6</td>
+            <td class="column15 style32 n">100.0</td>
+            <td class="column16 style32 n">84.5</td>
+            <td class="column17 style32 n">99.5</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row108">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">South East</td>
+            <td class="column2 style32 n">97.8</td>
+            <td class="column3 style32 n">99.8</td>
+            <td class="column4 style32 s">..</td>
+            <td class="column5 style32 s">..</td>
+            <td class="column6 style32 n">87.7</td>
+            <td class="column7 style32 n">99.0</td>
+            <td class="column8 style32 s">..</td>
+            <td class="column9 style32 s">..</td>
+            <td class="column10 style32 s">..</td>
+            <td class="column11 style32 s">..</td>
+            <td class="column12 style32 s">..</td>
+            <td class="column13 style32 s">..</td>
+            <td class="column14 style32 n">97.8</td>
+            <td class="column15 style32 n">99.8</td>
+            <td class="column16 style32 n">67.7</td>
+            <td class="column17 style32 n">95.0</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row109">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">South West</td>
+            <td class="column2 style32 n">96.3</td>
+            <td class="column3 style32 n">99.1</td>
+            <td class="column4 style32 s">..</td>
+            <td class="column5 style32 s">..</td>
+            <td class="column6 style32 n">86.2</td>
+            <td class="column7 style32 n">97.8</td>
+            <td class="column8 style32 s">..</td>
+            <td class="column9 style32 s">..</td>
+            <td class="column10 style32 s">..</td>
+            <td class="column11 style32 s">..</td>
+            <td class="column12 style32 s">..</td>
+            <td class="column13 style32 s">..</td>
+            <td class="column14 style32 n">96.7</td>
+            <td class="column15 style32 n">99.2</td>
+            <td class="column16 style32 n">64.6</td>
+            <td class="column17 style32 n">92.5</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row110">
+            <td class="column0 style24 n">2011</td>
+            <td class="column1 style19 s">North East</td>
+            <td class="column2 style32 n">96.1</td>
+            <td class="column3 style32 n">99.8</td>
+            <td class="column4 style32 s">..</td>
+            <td class="column5 style32 s">..</td>
+            <td class="column6 style32 n">93.9</td>
+            <td class="column7 style32 n">99.8</td>
+            <td class="column8 style32 s">..</td>
+            <td class="column9 style32 s">..</td>
+            <td class="column10 style28 s">..</td>
+            <td class="column11 style28 s">..</td>
+            <td class="column12 style28 s">..</td>
+            <td class="column13 style28 s">..</td>
+            <td class="column14 style32 n">99.1</td>
+            <td class="column15 style32 n">99.8</td>
+            <td class="column16 style32 n">63.9</td>
+            <td class="column17 style32 n">93.3</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row111">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">North West</td>
+            <td class="column2 style32 n">98.6</td>
+            <td class="column3 style32 n">99.8</td>
+            <td class="column4 style32 s">..</td>
+            <td class="column5 style32 s">..</td>
+            <td class="column6 style32 n">95.3</td>
+            <td class="column7 style32 n">99.8</td>
+            <td class="column8 style32 s">..</td>
+            <td class="column9 style32 s">..</td>
+            <td class="column10 style28 s">..</td>
+            <td class="column11 style28 s">..</td>
+            <td class="column12 style28 s">..</td>
+            <td class="column13 style28 s">..</td>
+            <td class="column14 style32 n">98.9</td>
+            <td class="column15 style32 n">99.8</td>
+            <td class="column16 style32 n">74.2</td>
+            <td class="column17 style32 n">97.8</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row112">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">Yorkshire and the Humber</td>
+            <td class="column2 style32 n">98.0</td>
+            <td class="column3 style32 n">99.7</td>
+            <td class="column4 style32 s">..</td>
+            <td class="column5 style32 s">..</td>
+            <td class="column6 style32 n">92.3</td>
+            <td class="column7 style32 n">99.5</td>
+            <td class="column8 style32 s">..</td>
+            <td class="column9 style32 s">..</td>
+            <td class="column10 style28 s">..</td>
+            <td class="column11 style28 s">..</td>
+            <td class="column12 style28 s">..</td>
+            <td class="column13 style28 s">..</td>
+            <td class="column14 style32 n">98.6</td>
+            <td class="column15 style32 n">99.8</td>
+            <td class="column16 style32 n">57.1</td>
+            <td class="column17 style32 n">93.1</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row113">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">East Midlands</td>
+            <td class="column2 style32 n">96.0</td>
+            <td class="column3 style32 n">99.4</td>
+            <td class="column4 style32 s">..</td>
+            <td class="column5 style32 s">..</td>
+            <td class="column6 style32 n">88.9</td>
+            <td class="column7 style32 n">98.6</td>
+            <td class="column8 style32 s">..</td>
+            <td class="column9 style32 s">..</td>
+            <td class="column10 style28 s">..</td>
+            <td class="column11 style28 s">..</td>
+            <td class="column12 style28 s">..</td>
+            <td class="column13 style28 s">..</td>
+            <td class="column14 style32 n">97.5</td>
+            <td class="column15 style32 n">99.5</td>
+            <td class="column16 style32 n">55.4</td>
+            <td class="column17 style32 n">89.9</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row114">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">West Midlands</td>
+            <td class="column2 style32 n">97.8</td>
+            <td class="column3 style32 n">99.6</td>
+            <td class="column4 style32 s">..</td>
+            <td class="column5 style32 s">..</td>
+            <td class="column6 style32 n">94.8</td>
+            <td class="column7 style32 n">99.4</td>
+            <td class="column8 style32 s">..</td>
+            <td class="column9 style32 s">..</td>
+            <td class="column10 style28 s">..</td>
+            <td class="column11 style28 s">..</td>
+            <td class="column12 style28 s">..</td>
+            <td class="column13 style28 s">..</td>
+            <td class="column14 style32 n">98.5</td>
+            <td class="column15 style32 n">99.7</td>
+            <td class="column16 style32 n">67.4</td>
+            <td class="column17 style32 n">95.4</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row115">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">East</td>
+            <td class="column2 style32 n">94.8</td>
+            <td class="column3 style32 n">99.1</td>
+            <td class="column4 style32 s">..</td>
+            <td class="column5 style32 s">..</td>
+            <td class="column6 style32 n">86.0</td>
+            <td class="column7 style32 n">97.4</td>
+            <td class="column8 style32 s">..</td>
+            <td class="column9 style32 s">..</td>
+            <td class="column10 style28 s">..</td>
+            <td class="column11 style28 s">..</td>
+            <td class="column12 style28 s">..</td>
+            <td class="column13 style28 s">..</td>
+            <td class="column14 style32 n">96.8</td>
+            <td class="column15 style32 n">99.4</td>
+            <td class="column16 style32 n">59.7</td>
+            <td class="column17 style32 n">90.9</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row116">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">London</td>
+            <td class="column2 style32 n">99.6</td>
+            <td class="column3 style32 n">100.0</td>
+            <td class="column4 style32 s">..</td>
+            <td class="column5 style32 s">..</td>
+            <td class="column6 style32 n">98.6</td>
+            <td class="column7 style32 n">100.0</td>
+            <td class="column8 style32 s">..</td>
+            <td class="column9 style32 s">..</td>
+            <td class="column10 style28 s">..</td>
+            <td class="column11 style28 s">..</td>
+            <td class="column12 style28 s">..</td>
+            <td class="column13 style28 s">..</td>
+            <td class="column14 style32 n">99.7</td>
+            <td class="column15 style32 n">100.0</td>
+            <td class="column16 style32 n">83.6</td>
+            <td class="column17 style32 n">99.5</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row117">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">South East</td>
+            <td class="column2 style32 n">97.6</td>
+            <td class="column3 style32 n">99.8</td>
+            <td class="column4 style32 s">..</td>
+            <td class="column5 style32 s">..</td>
+            <td class="column6 style32 n">85.8</td>
+            <td class="column7 style32 n">98.9</td>
+            <td class="column8 style32 s">..</td>
+            <td class="column9 style32 s">..</td>
+            <td class="column10 style28 s">..</td>
+            <td class="column11 style28 s">..</td>
+            <td class="column12 style28 s">..</td>
+            <td class="column13 style28 s">..</td>
+            <td class="column14 style32 n">97.6</td>
+            <td class="column15 style32 n">99.7</td>
+            <td class="column16 style32 n">66.2</td>
+            <td class="column17 style32 n">94.6</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row118">
+            <td class="column0 style29 null"></td>
+            <td class="column1 style30 s">South West</td>
+            <td class="column2 style34 n">95.0</td>
+            <td class="column3 style34 n">98.9</td>
+            <td class="column4 style34 s">..</td>
+            <td class="column5 style34 s">..</td>
+            <td class="column6 style34 n">85.1</td>
+            <td class="column7 style34 n">97.2</td>
+            <td class="column8 style34 s">..</td>
+            <td class="column9 style34 s">..</td>
+            <td class="column10 style31 s">..</td>
+            <td class="column11 style31 s">..</td>
+            <td class="column12 style31 s">..</td>
+            <td class="column13 style31 s">..</td>
+            <td class="column14 style34 n">96.3</td>
+            <td class="column15 style34 n">99.1</td>
+            <td class="column16 style34 n">62.4</td>
+            <td class="column17 style34 n">91.3</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row119">
+            <td class="column0 style24 n">2011</td>
+            <td class="column1 style19 s">North East</td>
+            <td class="column2 style32 n">97.0</td>
+            <td class="column3 style32 n">99.8</td>
+            <td class="column4 style32 n">99.5</td>
+            <td class="column5 style32 n">99.9</td>
+            <td class="column6 style32 n">96.1</td>
+            <td class="column7 style32 n">99.8</td>
+            <td class="column8 style32 s">..</td>
+            <td class="column9 style32 s">..</td>
+            <td class="column10 style32 n">99.3</td>
+            <td class="column11 style32 n">99.9</td>
+            <td class="column12 style32 n">84.3</td>
+            <td class="column13 style32 n">99.4</td>
+            <td class="column14 style32 n">99.5</td>
+            <td class="column15 style32 n">99.9</td>
+            <td class="column16 style32 n">67.7</td>
+            <td class="column17 style32 n">93.7</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row120">
+            <td class="column0 style24 s">Revised<span style="font-weight:bold; color:#000000; font-family:'Arial'; font-size:10pt"><sup>6</sup></span></td>
+            <td class="column1 style19 s">North West</td>
+            <td class="column2 style32 n">99.3</td>
+            <td class="column3 style32 n">99.9</td>
+            <td class="column4 style32 n">99.9</td>
+            <td class="column5 style32 n">100.0</td>
+            <td class="column6 style32 n">98.8</td>
+            <td class="column7 style32 n">99.9</td>
+            <td class="column8 style32 s">..</td>
+            <td class="column9 style32 s">..</td>
+            <td class="column10 style32 n">98.8</td>
+            <td class="column11 style32 n">99.8</td>
+            <td class="column12 style32 n">78.5</td>
+            <td class="column13 style32 n">98.9</td>
+            <td class="column14 style32 n">99.5</td>
+            <td class="column15 style32 n">99.9</td>
+            <td class="column16 style32 n">80.1</td>
+            <td class="column17 style32 n">98.7</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row121">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">Yorkshire and the Humber</td>
+            <td class="column2 style32 n">98.6</td>
+            <td class="column3 style32 n">99.8</td>
+            <td class="column4 style32 n">99.8</td>
+            <td class="column5 style32 n">100.0</td>
+            <td class="column6 style32 n">97.4</td>
+            <td class="column7 style32 n">99.5</td>
+            <td class="column8 style32 s">..</td>
+            <td class="column9 style32 s">..</td>
+            <td class="column10 style32 n">98.8</td>
+            <td class="column11 style32 n">99.8</td>
+            <td class="column12 style32 n">74.9</td>
+            <td class="column13 style32 n">97.6</td>
+            <td class="column14 style32 n">99.2</td>
+            <td class="column15 style32 n">99.8</td>
+            <td class="column16 style32 n">63.2</td>
+            <td class="column17 style32 n">93.8</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row122">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">East Midlands</td>
+            <td class="column2 style32 n">97.4</td>
+            <td class="column3 style32 n">99.8</td>
+            <td class="column4 style32 n">99.4</td>
+            <td class="column5 style32 n">99.9</td>
+            <td class="column6 style32 n">93.9</td>
+            <td class="column7 style32 n">99.0</td>
+            <td class="column8 style32 s">..</td>
+            <td class="column9 style32 s">..</td>
+            <td class="column10 style32 n">97.4</td>
+            <td class="column11 style32 n">99.8</td>
+            <td class="column12 style32 n">71.1</td>
+            <td class="column13 style32 n">94.3</td>
+            <td class="column14 style32 n">98.2</td>
+            <td class="column15 style32 n">99.7</td>
+            <td class="column16 style32 n">62.5</td>
+            <td class="column17 style32 n">91.8</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row123">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">West Midlands</td>
+            <td class="column2 style32 n">98.8</td>
+            <td class="column3 style32 n">99.8</td>
+            <td class="column4 style32 n">99.7</td>
+            <td class="column5 style32 n">100.0</td>
+            <td class="column6 style32 n">97.7</td>
+            <td class="column7 style32 n">99.7</td>
+            <td class="column8 style32 s">..</td>
+            <td class="column9 style32 s">..</td>
+            <td class="column10 style32 n">98.6</td>
+            <td class="column11 style32 n">99.8</td>
+            <td class="column12 style32 n">79.9</td>
+            <td class="column13 style32 n">96.6</td>
+            <td class="column14 style32 n">99.0</td>
+            <td class="column15 style32 n">99.8</td>
+            <td class="column16 style32 n">74.2</td>
+            <td class="column17 style32 n">97.0</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row124">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">East</td>
+            <td class="column2 style32 n">95.9</td>
+            <td class="column3 style32 n">99.4</td>
+            <td class="column4 style32 n">99.0</td>
+            <td class="column5 style32 n">99.8</td>
+            <td class="column6 style32 n">91.3</td>
+            <td class="column7 style32 n">98.5</td>
+            <td class="column8 style32 s">..</td>
+            <td class="column9 style32 s">..</td>
+            <td class="column10 style32 n">95.9</td>
+            <td class="column11 style32 n">99.6</td>
+            <td class="column12 style32 n">60.4</td>
+            <td class="column13 style32 n">85.2</td>
+            <td class="column14 style32 n">97.6</td>
+            <td class="column15 style32 n">99.6</td>
+            <td class="column16 style32 n">67.2</td>
+            <td class="column17 style32 n">92.5</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row125">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">London</td>
+            <td class="column2 style32 n">99.9</td>
+            <td class="column3 style32 n">100.0</td>
+            <td class="column4 style32 n">100.0</td>
+            <td class="column5 style32 n">100.0</td>
+            <td class="column6 style32 n">99.9</td>
+            <td class="column7 style32 n">100.0</td>
+            <td class="column8 style32 s">..</td>
+            <td class="column9 style32 s">..</td>
+            <td class="column10 style32 n">100.0</td>
+            <td class="column11 style32 n">100.0</td>
+            <td class="column12 style32 n">93.5</td>
+            <td class="column13 style32 n">100.0</td>
+            <td class="column14 style32 n">99.9</td>
+            <td class="column15 style32 n">100.0</td>
+            <td class="column16 style32 n">92.4</td>
+            <td class="column17 style32 n">99.8</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row126">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">South East</td>
+            <td class="column2 style32 n">98.7</td>
+            <td class="column3 style32 n">99.9</td>
+            <td class="column4 style32 n">99.4</td>
+            <td class="column5 style32 n">100.0</td>
+            <td class="column6 style32 n">92.9</td>
+            <td class="column7 style32 n">99.2</td>
+            <td class="column8 style32 s">..</td>
+            <td class="column9 style32 s">..</td>
+            <td class="column10 style32 n">97.7</td>
+            <td class="column11 style32 n">99.8</td>
+            <td class="column12 style32 n">72.2</td>
+            <td class="column13 style32 n">95.5</td>
+            <td class="column14 style32 n">98.5</td>
+            <td class="column15 style32 n">99.9</td>
+            <td class="column16 style32 n">73.8</td>
+            <td class="column17 style32 n">96.1</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row127">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">South West</td>
+            <td class="column2 style32 n">96.0</td>
+            <td class="column3 style32 n">99.3</td>
+            <td class="column4 style32 n">98.3</td>
+            <td class="column5 style32 n">99.8</td>
+            <td class="column6 style32 n">90.0</td>
+            <td class="column7 style32 n">97.8</td>
+            <td class="column8 style32 s">..</td>
+            <td class="column9 style32 s">..</td>
+            <td class="column10 style32 n">95.9</td>
+            <td class="column11 style32 n">99.4</td>
+            <td class="column12 style32 n">79.7</td>
+            <td class="column13 style32 n">97.4</td>
+            <td class="column14 style32 n">97.2</td>
+            <td class="column15 style32 n">99.4</td>
+            <td class="column16 style32 n">69.6</td>
+            <td class="column17 style32 n">92.7</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row128">
+            <td class="column0 style24 n">2012</td>
+            <td class="column1 style19 s">All regions<span style="color:#000000; font-family:'Arial'; font-size:10pt"><sup>5</sup></span></td>
+            <td class="column2 style32 s">-</td>
+            <td class="column3 style32 s">-</td>
+            <td class="column4 style32 s">-</td>
+            <td class="column5 style32 s">-</td>
+            <td class="column6 style32 s">-</td>
+            <td class="column7 style32 s">-</td>
+            <td class="column8 style32 s">-</td>
+            <td class="column9 style32 s">-</td>
+            <td class="column10 style32 s">-</td>
+            <td class="column11 style32 s">-</td>
+            <td class="column12 style32 s">-</td>
+            <td class="column13 style32 s">-</td>
+            <td class="column14 style32 s">-</td>
+            <td class="column15 style32 s">-</td>
+            <td class="column16 style32 s">-</td>
+            <td class="column17 style32 s">-</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row129">
+            <td class="column0 style24 n">2013</td>
+            <td class="column1 style19 s">North East</td>
+            <td class="column2 style32 n">100.0</td>
+            <td class="column3 style32 n">100.0</td>
+            <td class="column4 style32 n">100.0</td>
+            <td class="column5 style32 n">100.0</td>
+            <td class="column6 style32 n">100.0</td>
+            <td class="column7 style32 n">100.0</td>
+            <td class="column8 style32 s">..</td>
+            <td class="column9 style32 s">..</td>
+            <td class="column10 style32 n">100.0</td>
+            <td class="column11 style32 n">100.0</td>
+            <td class="column12 style32 n">99.4</td>
+            <td class="column13 style32 n">100.0</td>
+            <td class="column14 style32 n">100.0</td>
+            <td class="column15 style32 n">100.0</td>
+            <td class="column16 style32 n">97.8</td>
+            <td class="column17 style32 n">99.2</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row130">
+            <td class="column0 style24 s">New method<span style="font-weight:bold; color:#000000; font-family:'Arial'; font-size:10pt"><sup>6</sup></span></td>
+            <td class="column1 style19 s">North West</td>
+            <td class="column2 style32 n">100.0</td>
+            <td class="column3 style32 n">100.0</td>
+            <td class="column4 style32 n">100.0</td>
+            <td class="column5 style32 n">100.0</td>
+            <td class="column6 style32 n">100.0</td>
+            <td class="column7 style32 n">100.0</td>
+            <td class="column8 style32 s">..</td>
+            <td class="column9 style32 s">..</td>
+            <td class="column10 style32 n">100.0</td>
+            <td class="column11 style32 n">100.0</td>
+            <td class="column12 style32 n">99.9</td>
+            <td class="column13 style32 n">100.0</td>
+            <td class="column14 style32 n">100.0</td>
+            <td class="column15 style32 n">100.0</td>
+            <td class="column16 style32 n">98.7</td>
+            <td class="column17 style32 n">99.3</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row131">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">Yorkshire and the Humber</td>
+            <td class="column2 style32 n">100.0</td>
+            <td class="column3 style32 n">100.0</td>
+            <td class="column4 style32 n">100.0</td>
+            <td class="column5 style32 n">100.0</td>
+            <td class="column6 style32 n">100.0</td>
+            <td class="column7 style32 n">100.0</td>
+            <td class="column8 style32 s">..</td>
+            <td class="column9 style32 s">..</td>
+            <td class="column10 style32 n">100.0</td>
+            <td class="column11 style32 n">100.0</td>
+            <td class="column12 style32 n">99.9</td>
+            <td class="column13 style32 n">100.0</td>
+            <td class="column14 style32 n">100.0</td>
+            <td class="column15 style32 n">100.0</td>
+            <td class="column16 style32 n">97.7</td>
+            <td class="column17 style32 n">98.9</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row132">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">East Midlands</td>
+            <td class="column2 style32 n">100.0</td>
+            <td class="column3 style32 n">100.0</td>
+            <td class="column4 style32 n">100.0</td>
+            <td class="column5 style32 n">100.0</td>
+            <td class="column6 style32 n">100.0</td>
+            <td class="column7 style32 n">100.0</td>
+            <td class="column8 style32 s">..</td>
+            <td class="column9 style32 s">..</td>
+            <td class="column10 style32 n">100.0</td>
+            <td class="column11 style32 n">100.0</td>
+            <td class="column12 style32 n">99.9</td>
+            <td class="column13 style32 n">100.0</td>
+            <td class="column14 style32 n">100.0</td>
+            <td class="column15 style32 n">100.0</td>
+            <td class="column16 style32 n">97.9</td>
+            <td class="column17 style32 n">99.5</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row133">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">West Midlands</td>
+            <td class="column2 style32 n">100.0</td>
+            <td class="column3 style32 n">100.0</td>
+            <td class="column4 style32 n">100.0</td>
+            <td class="column5 style32 n">100.0</td>
+            <td class="column6 style32 n">100.0</td>
+            <td class="column7 style32 n">100.0</td>
+            <td class="column8 style32 s">..</td>
+            <td class="column9 style32 s">..</td>
+            <td class="column10 style32 n">100.0</td>
+            <td class="column11 style32 n">100.0</td>
+            <td class="column12 style32 n">99.7</td>
+            <td class="column13 style32 n">100.0</td>
+            <td class="column14 style32 n">100.0</td>
+            <td class="column15 style32 n">100.0</td>
+            <td class="column16 style32 n">98.6</td>
+            <td class="column17 style32 n">99.5</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row134">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">East</td>
+            <td class="column2 style32 n">100.0</td>
+            <td class="column3 style32 n">100.0</td>
+            <td class="column4 style32 n">100.0</td>
+            <td class="column5 style32 n">100.0</td>
+            <td class="column6 style32 n">100.0</td>
+            <td class="column7 style32 n">100.0</td>
+            <td class="column8 style32 s">..</td>
+            <td class="column9 style32 s">..</td>
+            <td class="column10 style32 n">100.0</td>
+            <td class="column11 style32 n">100.0</td>
+            <td class="column12 style32 n">99.5</td>
+            <td class="column13 style32 n">100.0</td>
+            <td class="column14 style32 n">100.0</td>
+            <td class="column15 style32 n">100.0</td>
+            <td class="column16 style32 n">96.5</td>
+            <td class="column17 style32 n">99.6</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row135">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">London</td>
+            <td class="column2 style32 n">100.0</td>
+            <td class="column3 style32 n">100.0</td>
+            <td class="column4 style32 n">100.0</td>
+            <td class="column5 style32 n">100.0</td>
+            <td class="column6 style32 n">100.0</td>
+            <td class="column7 style32 n">100.0</td>
+            <td class="column8 style32 s">..</td>
+            <td class="column9 style32 s">..</td>
+            <td class="column10 style32 n">100.0</td>
+            <td class="column11 style32 n">100.0</td>
+            <td class="column12 style32 n">100.0</td>
+            <td class="column13 style32 n">100.0</td>
+            <td class="column14 style32 n">100.0</td>
+            <td class="column15 style32 n">100.0</td>
+            <td class="column16 style32 n">99.2</td>
+            <td class="column17 style32 n">99.2</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row136">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 s">South East</td>
+            <td class="column2 style32 n">100.0</td>
+            <td class="column3 style32 n">100.0</td>
+            <td class="column4 style32 n">100.0</td>
+            <td class="column5 style32 n">100.0</td>
+            <td class="column6 style32 n">100.0</td>
+            <td class="column7 style32 n">100.0</td>
+            <td class="column8 style32 s">..</td>
+            <td class="column9 style32 s">..</td>
+            <td class="column10 style32 n">100.0</td>
+            <td class="column11 style32 n">100.0</td>
+            <td class="column12 style32 n">100.0</td>
+            <td class="column13 style32 n">100.0</td>
+            <td class="column14 style32 n">100.0</td>
+            <td class="column15 style32 n">100.0</td>
+            <td class="column16 style32 n">98.5</td>
+            <td class="column17 style32 n">99.5</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row137">
+            <td class="column0 style35 null"></td>
+            <td class="column1 style17 s">South West</td>
+            <td class="column2 style36 n">100.0</td>
+            <td class="column3 style36 n">100.0</td>
+            <td class="column4 style36 n">100.0</td>
+            <td class="column5 style36 n">100.0</td>
+            <td class="column6 style36 n">99.9</td>
+            <td class="column7 style36 n">100.0</td>
+            <td class="column8 style36 s">..</td>
+            <td class="column9 style36 s">..</td>
+            <td class="column10 style36 n">99.9</td>
+            <td class="column11 style36 n">100.0</td>
+            <td class="column12 style36 n">99.3</td>
+            <td class="column13 style36 n">99.9</td>
+            <td class="column14 style36 n">99.9</td>
+            <td class="column15 style36 n">99.9</td>
+            <td class="column16 style36 n">96.1</td>
+            <td class="column17 style36 n">99.4</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row138">
+            <td class="column0 style19 s">1 The at risk users looks at particular social groups at risk of exclusion, e.g. for primary schools, the at risk users are children aged 5-10 known to be eligible for free school meals. Please see the guidance note for a full list of user groups.</td>
+            <td class="column1 style19 null"></td>
+            <td class="column2 style37 null"></td>
+            <td class="column3 style37 null"></td>
+            <td class="column4 style37 null"></td>
+            <td class="column5 style37 null"></td>
+            <td class="column6 style37 null"></td>
+            <td class="column7 style37 null"></td>
+            <td class="column8 style37 null"></td>
+            <td class="column9 style37 null"></td>
+            <td class="column10 style37 null"></td>
+            <td class="column11 style37 null"></td>
+            <td class="column12 style37 null"></td>
+            <td class="column13 style37 null"></td>
+            <td class="column14 style37 null"></td>
+            <td class="column15 style37 null"></td>
+            <td class="column16 style37 null"></td>
+            <td class="column17 style37 null"></td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row139">
+            <td class="column0 style19 s">2 The number and proportion of users in a local area who can access a service within set time limits. For further information on details on the lower and upper thresholds and how they are derived please see the guidance note.</td>
+            <td class="column1 style19 null"></td>
+            <td class="column2 style37 null"></td>
+            <td class="column3 style37 null"></td>
+            <td class="column4 style37 null"></td>
+            <td class="column5 style37 null"></td>
+            <td class="column6 style37 null"></td>
+            <td class="column7 style37 null"></td>
+            <td class="column8 style37 null"></td>
+            <td class="column9 style37 null"></td>
+            <td class="column10 style37 null"></td>
+            <td class="column11 style37 null"></td>
+            <td class="column12 style37 null"></td>
+            <td class="column13 style37 null"></td>
+            <td class="column14 style37 null"></td>
+            <td class="column15 style37 null"></td>
+            <td class="column16 style37 null"></td>
+            <td class="column17 style37 null"></td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row140">
+            <td class="column0 style9 s">3 The composite mode is produced by using the national mode split to weight the indicators by public transport, cycling and walking. Please see the guidance note for further information.</td>
+            <td class="column1 style19 null"></td>
+            <td class="column2 style37 null"></td>
+            <td class="column3 style37 null"></td>
+            <td class="column4 style37 null"></td>
+            <td class="column5 style37 null"></td>
+            <td class="column6 style37 null"></td>
+            <td class="column7 style37 null"></td>
+            <td class="column8 style37 null"></td>
+            <td class="column9 style37 null"></td>
+            <td class="column10 style37 null"></td>
+            <td class="column11 style37 null"></td>
+            <td class="column12 style37 null"></td>
+            <td class="column13 style37 null"></td>
+            <td class="column14 style37 null"></td>
+            <td class="column15 style37 null"></td>
+            <td class="column16 style37 null"></td>
+            <td class="column17 style37 null"></td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row141">
+            <td class="column0 style19 s">4 An at risk group is not measured for the Further Education service.</td>
+            <td class="column1 style19 null"></td>
+            <td class="column2 style37 null"></td>
+            <td class="column3 style37 null"></td>
+            <td class="column4 style37 null"></td>
+            <td class="column5 style37 null"></td>
+            <td class="column6 style37 null"></td>
+            <td class="column7 style37 null"></td>
+            <td class="column8 style37 null"></td>
+            <td class="column9 style37 null"></td>
+            <td class="column10 style37 null"></td>
+            <td class="column11 style37 null"></td>
+            <td class="column12 style37 null"></td>
+            <td class="column13 style37 null"></td>
+            <td class="column14 style37 null"></td>
+            <td class="column15 style37 null"></td>
+            <td class="column16 style37 null"></td>
+            <td class="column17 style37 null"></td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row142">
+            <td class="column0 style38 s">5 Public transport/walking data were not updated for 2012 due to a data quality issue. Please see 2013 statistical release or the guidance notes document for details.</td>
+            <td class="column1 style38 null"></td>
+            <td class="column2 style39 null"></td>
+            <td class="column3 style39 null"></td>
+            <td class="column4 style39 null"></td>
+            <td class="column5 style39 null"></td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11">&nbsp;</td>
+            <td class="column12">&nbsp;</td>
+            <td class="column13">&nbsp;</td>
+            <td class="column14">&nbsp;</td>
+            <td class="column15">&nbsp;</td>
+            <td class="column16">&nbsp;</td>
+            <td class="column17">&nbsp;</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row143">
+            <td class="column0 style19 s">6 A new method has been adopted in 2013 for the public transport/walking mode. Please see guidance notes document for details. The 2011 results have been recalculated on the new basis.</td>
+            <td class="column1 style38 null"></td>
+            <td class="column2 style39 null"></td>
+            <td class="column3 style39 null"></td>
+            <td class="column4 style39 null"></td>
+            <td class="column5 style39 null"></td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11">&nbsp;</td>
+            <td class="column12">&nbsp;</td>
+            <td class="column13">&nbsp;</td>
+            <td class="column14">&nbsp;</td>
+            <td class="column15">&nbsp;</td>
+            <td class="column16">&nbsp;</td>
+            <td class="column17">&nbsp;</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row144">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style19 null"></td>
+            <td class="column2 style37 null"></td>
+            <td class="column3 style37 null"></td>
+            <td class="column4 style37 null"></td>
+            <td class="column5 style37 null"></td>
+            <td class="column6 style37 null"></td>
+            <td class="column7 style37 null"></td>
+            <td class="column8 style37 null"></td>
+            <td class="column9 style37 null"></td>
+            <td class="column10 style37 null"></td>
+            <td class="column11 style37 null"></td>
+            <td class="column12 style37 null"></td>
+            <td class="column13 style37 null"></td>
+            <td class="column14 style37 null"></td>
+            <td class="column15 style37 null"></td>
+            <td class="column16 style37 null"></td>
+            <td class="column17 style37 null"></td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row145">
+            <td class="column0 style19 s">Telephone: 020 7944 4139</td>
+            <td class="column1 style19 null"></td>
+            <td class="column2 style18 null"></td>
+            <td class="column3 style18 null"></td>
+            <td class="column4 style18 null"></td>
+            <td class="column5 style18 null"></td>
+            <td class="column6 style18 null"></td>
+            <td class="column7 style18 null"></td>
+            <td class="column8 style9 null"></td>
+            <td class="column9 style9 null"></td>
+            <td class="column10 style18 null"></td>
+            <td class="column11 style18 null"></td>
+            <td class="column12 style37 null"></td>
+            <td class="column13 style37 null"></td>
+            <td class="column14 style37 null"></td>
+            <td class="column15 style37 null"></td>
+            <td class="column16 style37 null"></td>
+            <td class="column17 style43 s">Source: DfT Accessibility Statistics</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row146">
+            <td class="column0 style19 s">Email: subnational.stats@dft.gsi.gov.uk</td>
+            <td class="column1 style40 null"></td>
+            <td class="column2 style41 null"></td>
+            <td class="column3 style41 null"></td>
+            <td class="column4 style41 null"></td>
+            <td class="column5 style41 null"></td>
+            <td class="column6 style41 null"></td>
+            <td class="column7 style41 null"></td>
+            <td class="column8 style9 null"></td>
+            <td class="column9 style9 null"></td>
+            <td class="column10 style41 null"></td>
+            <td class="column11 style41 null"></td>
+            <td class="column12">&nbsp;</td>
+            <td class="column13">&nbsp;</td>
+            <td class="column14">&nbsp;</td>
+            <td class="column15">&nbsp;</td>
+            <td class="column16">&nbsp;</td>
+            <td class="column17 style43 s">Last updated: September 2014</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row147">
+            <td class="column0 style12 s"><a href="http://assets.dft.gov.uk/statistics/series/accessibility/accessibility-statistics-guidance.pdf" title="">Technical Notes &amp; Guidance: (http://assets.dft.gov.uk/statistics/series/accessibility/accessibility-statistics-guidance.pdf)</a></td>
+            <td class="column1 style42 null"></td>
+            <td class="column2 style19 null"></td>
+            <td class="column3 style19 null"></td>
+            <td class="column4 style19 null"></td>
+            <td class="column5 style19 null"></td>
+            <td class="column6 style19 null"></td>
+            <td class="column7 style19 null"></td>
+            <td class="column8 style9 null"></td>
+            <td class="column9 style9 null"></td>
+            <td class="column10 style19 null"></td>
+            <td class="column11 style19 null"></td>
+            <td class="column12">&nbsp;</td>
+            <td class="column13">&nbsp;</td>
+            <td class="column14">&nbsp;</td>
+            <td class="column15">&nbsp;</td>
+            <td class="column16">&nbsp;</td>
+            <td class="column17 style43 s">Next update: to be advised</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row148">
+            <td class="column0 style19 s">The figures in this table are outside the scope of National Statistics</td>
+            <td class="column1 style19 null"></td>
+            <td class="column2 style19 null"></td>
+            <td class="column3 style19 null"></td>
+            <td class="column4 style19 null"></td>
+            <td class="column5 style19 null"></td>
+            <td class="column6 style19 null"></td>
+            <td class="column7 style19 null"></td>
+            <td class="column8 style19 null"></td>
+            <td class="column9 style19 null"></td>
+            <td class="column10 style19 null"></td>
+            <td class="column11 style19 null"></td>
+            <td class="column12">&nbsp;</td>
+            <td class="column13">&nbsp;</td>
+            <td class="column14">&nbsp;</td>
+            <td class="column15">&nbsp;</td>
+            <td class="column16">&nbsp;</td>
+            <td class="column17">&nbsp;</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row149">
+            <td class="column0 style19 null"></td>
+            <td class="column1 style19 null"></td>
+            <td class="column2 style13 null"></td>
+            <td class="column3 style13 null"></td>
+            <td class="column4 style13 null"></td>
+            <td class="column5 style13 null"></td>
+            <td class="column6 style13 null"></td>
+            <td class="column7 style13 null"></td>
+            <td class="column8 style13 null"></td>
+            <td class="column9 style13 null"></td>
+            <td class="column10 style13 null"></td>
+            <td class="column11 style13 null"></td>
+            <td class="column12">&nbsp;</td>
+            <td class="column13">&nbsp;</td>
+            <td class="column14">&nbsp;</td>
+            <td class="column15">&nbsp;</td>
+            <td class="column16">&nbsp;</td>
+            <td class="column17">&nbsp;</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row150">
+            <td class="column0 style13 null"></td>
+            <td class="column1 style13 null"></td>
+            <td class="column2 style19 null"></td>
+            <td class="column3 style19 null"></td>
+            <td class="column4 style19 null"></td>
+            <td class="column5 style19 null"></td>
+            <td class="column6 style19 null"></td>
+            <td class="column7 style19 null"></td>
+            <td class="column8 style19 null"></td>
+            <td class="column9 style19 null"></td>
+            <td class="column10 style19 null"></td>
+            <td class="column11 style19 null"></td>
+            <td class="column12">&nbsp;</td>
+            <td class="column13">&nbsp;</td>
+            <td class="column14">&nbsp;</td>
+            <td class="column15">&nbsp;</td>
+            <td class="column16">&nbsp;</td>
+            <td class="column17">&nbsp;</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row151">
+            <td class="column0 style19 null"></td>
+            <td class="column1 style19 null"></td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11">&nbsp;</td>
+            <td class="column12">&nbsp;</td>
+            <td class="column13">&nbsp;</td>
+            <td class="column14">&nbsp;</td>
+            <td class="column15">&nbsp;</td>
+            <td class="column16">&nbsp;</td>
+            <td class="column17">&nbsp;</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+        </tbody>
+    </table>
+  </body>
+</html>

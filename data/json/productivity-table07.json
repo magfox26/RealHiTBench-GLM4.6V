@@ -1,0 +1,116 @@
+[
+  {
+    "Consequence of Failure Justification": null,
+    "Unnamed: 1": "Ranking",
+    "Unnamed: 2": "Qualitative",
+    "Unnamed: 3": "Quantitative"
+  },
+  {
+    "Consequence of Failure Justification": "Environmental\nImpact",
+    "Unnamed: 1": "5",
+    "Unnamed: 2": "Catastrophic leak",
+    "Unnamed: 3": "x≥50,000"
+  },
+  {
+    "Consequence of Failure Justification": null,
+    "Unnamed: 1": "4",
+    "Unnamed: 2": "Major leak",
+    "Unnamed: 3": "5,000≤x<50,000"
+  },
+  {
+    "Consequence of Failure Justification": null,
+    "Unnamed: 1": "3",
+    "Unnamed: 2": "Localised leak",
+    "Unnamed: 3": "500≤x<5,000"
+  },
+  {
+    "Consequence of Failure Justification": null,
+    "Unnamed: 1": "2",
+    "Unnamed: 2": "Minor leak",
+    "Unnamed: 3": "50≤x<500"
+  },
+  {
+    "Consequence of Failure Justification": null,
+    "Unnamed: 1": "1",
+    "Unnamed: 2": "Slight leak",
+    "Unnamed: 3": "x<50"
+  },
+  {
+    "Consequence of Failure Justification": null,
+    "Unnamed: 1": "0",
+    "Unnamed: 2": "Negligible",
+    "Unnamed: 3": "0"
+  },
+  {
+    "Consequence of Failure Justification": "Asset Impact",
+    "Unnamed: 1": "5",
+    "Unnamed: 2": "Very High",
+    "Unnamed: 3": "x≥100"
+  },
+  {
+    "Consequence of Failure Justification": null,
+    "Unnamed: 1": "4",
+    "Unnamed: 2": "High",
+    "Unnamed: 3": "75≤x<100"
+  },
+  {
+    "Consequence of Failure Justification": null,
+    "Unnamed: 1": "3",
+    "Unnamed: 2": "Medium",
+    "Unnamed: 3": "45≤x<75"
+  },
+  {
+    "Consequence of Failure Justification": null,
+    "Unnamed: 1": "2",
+    "Unnamed: 2": "Low",
+    "Unnamed: 3": "6≤x<45"
+  },
+  {
+    "Consequence of Failure Justification": null,
+    "Unnamed: 1": "1",
+    "Unnamed: 2": "Very Low",
+    "Unnamed: 3": "x<6"
+  },
+  {
+    "Consequence of Failure Justification": null,
+    "Unnamed: 1": "0",
+    "Unnamed: 2": "Negligible",
+    "Unnamed: 3": "0"
+  },
+  {
+    "Consequence of Failure Justification": "People Safety",
+    "Unnamed: 1": "5",
+    "Unnamed: 2": "Catastrophic",
+    "Unnamed: 3": "x≥10"
+  },
+  {
+    "Consequence of Failure Justification": null,
+    "Unnamed: 1": "4",
+    "Unnamed: 2": "Severe",
+    "Unnamed: 3": "7≤x<10"
+  },
+  {
+    "Consequence of Failure Justification": null,
+    "Unnamed: 1": "3",
+    "Unnamed: 2": "Major",
+    "Unnamed: 3": "4≤x<7"
+  },
+  {
+    "Consequence of Failure Justification": null,
+    "Unnamed: 1": "2",
+    "Unnamed: 2": "Moderate",
+    "Unnamed: 3": "2≤x<4"
+  },
+  {
+    "Consequence of Failure Justification": null,
+    "Unnamed: 1": "1",
+    "Unnamed: 2": "Minor",
+    "Unnamed: 3": "x<2"
+  },
+  {
+    "Consequence of Failure Justification": null,
+    "Unnamed: 1": "0",
+    "Unnamed: 2": "Insignificant",
+    "Unnamed: 3": "0"
+  }
+]

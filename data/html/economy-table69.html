@@ -1,0 +1,243 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <meta name="generator" content="PhpSpreadsheet, https://github.com/PHPOffice/PhpSpreadsheet">
+      <meta name="author" content="mac" />
+      <meta name="company" content="Microsoft Corporation" />
+    <style type="text/css">
+      html { font-family:Calibri, Arial, Helvetica, sans-serif; font-size:11pt; background-color:white }
+      a.comment-indicator:hover + div.comment { background:#ffd; position:absolute; display:block; border:1px solid black; padding:0.5em }
+      a.comment-indicator { background:red; display:inline-block; border:1px solid black; width:0.5em; height:0.5em }
+      div.comment { display:none }
+      table { border-collapse:collapse; page-break-after:always }
+      .gridlines td { border:1px dotted black }
+      .gridlines th { border:1px dotted black }
+      .b { text-align:center }
+      .e { text-align:center }
+      .f { text-align:right }
+      .inlineStr { text-align:left }
+      .n { text-align:right }
+      .s { text-align:left }
+      td.style0 { vertical-align:middle; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style0 { vertical-align:middle; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style1 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'宋体'; font-size:16pt; background-color:white }
+      th.style1 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'宋体'; font-size:16pt; background-color:white }
+      td.style2 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'宋体'; font-size:16pt; background-color:white }
+      th.style2 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'宋体'; font-size:16pt; background-color:white }
+      td.style3 { vertical-align:bottom; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:1px solid #000000 !important; border-right:none #000000; font-weight:bold; color:#000000; font-family:'宋体'; font-size:20pt; background-color:white }
+      th.style3 { vertical-align:bottom; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:1px solid #000000 !important; border-right:none #000000; font-weight:bold; color:#000000; font-family:'宋体'; font-size:20pt; background-color:white }
+      td.style4 { vertical-align:bottom; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'宋体'; font-size:20pt; background-color:white }
+      th.style4 { vertical-align:bottom; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'宋体'; font-size:20pt; background-color:white }
+      td.style5 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:none #000000; font-weight:bold; color:#333333; font-family:'Verdana'; font-size:16pt; background-color:#E54C5E }
+      th.style5 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:none #000000; font-weight:bold; color:#333333; font-family:'Verdana'; font-size:16pt; background-color:#E54C5E }
+      td.style6 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:1px solid #000000 !important; border-left:none #000000; border-right:1px solid #000000 !important; font-weight:bold; color:#333333; font-family:'Verdana'; font-size:16pt; background-color:#E54C5E }
+      th.style6 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:1px solid #000000 !important; border-left:none #000000; border-right:1px solid #000000 !important; font-weight:bold; color:#333333; font-family:'Verdana'; font-size:16pt; background-color:#E54C5E }
+      td.style7 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:1px solid #000000 !important; border-right:none #000000; font-weight:bold; color:#333333; font-family:'Verdana'; font-size:16pt; background-color:#E54C5E }
+      th.style7 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:1px solid #000000 !important; border-right:none #000000; font-weight:bold; color:#333333; font-family:'Verdana'; font-size:16pt; background-color:#E54C5E }
+      td.style8 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:1px solid #000000 !important; font-weight:bold; color:#333333; font-family:'Verdana'; font-size:16pt; background-color:#E54C5E }
+      th.style8 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:1px solid #000000 !important; font-weight:bold; color:#333333; font-family:'Verdana'; font-size:16pt; background-color:#E54C5E }
+      td.style9 { vertical-align:bottom; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:1px solid #000000 !important; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#F9DBDE }
+      th.style9 { vertical-align:bottom; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:1px solid #000000 !important; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#F9DBDE }
+      td.style10 { vertical-align:bottom; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#F4B7BE }
+      th.style10 { vertical-align:bottom; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#F4B7BE }
+      td.style11 { vertical-align:bottom; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#333333; font-family:'Verdana'; font-size:8pt; background-color:#F9DBDE }
+      th.style11 { vertical-align:bottom; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#333333; font-family:'Verdana'; font-size:8pt; background-color:#F9DBDE }
+      td.style12 { vertical-align:bottom; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#333333; font-family:'Verdana'; font-size:10pt; background-color:#F2F2F2 }
+      th.style12 { vertical-align:bottom; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#333333; font-family:'Verdana'; font-size:10pt; background-color:#F2F2F2 }
+      td.style13 { vertical-align:bottom; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#F4B7BE }
+      th.style13 { vertical-align:bottom; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#F4B7BE }
+      td.style14 { vertical-align:bottom; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#333333; font-family:'Verdana'; font-size:8pt; background-color:#F9DBDE }
+      th.style14 { vertical-align:bottom; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#333333; font-family:'Verdana'; font-size:8pt; background-color:#F9DBDE }
+      td.style15 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:none #000000; font-weight:bold; color:#333333; font-family:'Verdana'; font-size:16pt; background-color:#E54C5E }
+      th.style15 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:none #000000; font-weight:bold; color:#333333; font-family:'Verdana'; font-size:16pt; background-color:#E54C5E }
+      td.style16 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:1px solid #000000 !important; border-left:none #000000; border-right:1px solid #000000 !important; font-weight:bold; color:#333333; font-family:'Verdana'; font-size:16pt; background-color:#E54C5E }
+      th.style16 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:1px solid #000000 !important; border-left:none #000000; border-right:1px solid #000000 !important; font-weight:bold; color:#333333; font-family:'Verdana'; font-size:16pt; background-color:#E54C5E }
+      td.style17 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:1px solid #000000 !important; border-right:none #000000; font-weight:bold; color:#333333; font-family:'Verdana'; font-size:16pt; background-color:#E54C5E }
+      th.style17 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:1px solid #000000 !important; border-right:none #000000; font-weight:bold; color:#333333; font-family:'Verdana'; font-size:16pt; background-color:#E54C5E }
+      td.style18 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:1px solid #000000 !important; font-weight:bold; color:#333333; font-family:'Verdana'; font-size:16pt; background-color:#E54C5E }
+      th.style18 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:1px solid #000000 !important; font-weight:bold; color:#333333; font-family:'Verdana'; font-size:16pt; background-color:#E54C5E }
+      td.style19 { vertical-align:bottom; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:8pt; background-color:#F9DBDE }
+      th.style19 { vertical-align:bottom; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:8pt; background-color:#F9DBDE }
+      td.style20 { vertical-align:bottom; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#333333; font-family:'Verdana'; font-size:10pt; background-color:#F2F2F2 }
+      th.style20 { vertical-align:bottom; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#333333; font-family:'Verdana'; font-size:10pt; background-color:#F2F2F2 }
+      td.style21 { vertical-align:bottom; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#333333; font-family:'Verdana'; font-size:10pt; background-color:#F2F2F2 }
+      th.style21 { vertical-align:bottom; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#333333; font-family:'Verdana'; font-size:10pt; background-color:#F2F2F2 }
+      table.sheet0 col.col0 { width:108.4444432pt }
+      table.sheet0 col.col1 { width:121.9999986pt }
+      table.sheet0 col.col2 { width:62.35555484pt }
+      table.sheet0 col.col3 { width:42pt }
+      table.sheet0 col.col4 { width:42pt }
+      table.sheet0 col.col5 { width:42pt }
+      table.sheet0 col.col6 { width:42pt }
+      table.sheet0 col.col7 { width:42pt }
+      table.sheet0 tr { height:15pt }
+      table.sheet0 tr.row0 { height:28.8pt }
+      table.sheet0 tr.row1 { height:23.2pt }
+    </style>
+  </head>
+
+  <body>
+<style>
+@page { margin-left: 0.75in; margin-right: 0.75in; margin-top: 1in; margin-bottom: 1in; }
+body { margin-left: 0.75in; margin-right: 0.75in; margin-top: 1in; margin-bottom: 1in; }
+</style>
+    <table border="0" cellpadding="0" cellspacing="0" id="sheet0" class="sheet0 gridlines">
+        <col class="col0">
+        <col class="col1">
+        <col class="col2">
+        <col class="col3">
+        <col class="col4">
+        <col class="col5">
+        <col class="col6">
+        <col class="col7">
+        <tbody>
+          <tr class="row0">
+            <td class="column0 style1 s style1" rowspan="2">ACCOUNT #</td>
+            <td class="column1 style2 s style2" rowspan="2">FULL NAME</td>
+            <td class="column2 style3 s">Revenue</td>
+            <td class="column3 style4 null"></td>
+            <td class="column4 style4 null"></td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 null"></td>
+            <td class="column7 style4 null"></td>
+          </tr>
+          <tr class="row1">
+            <td class="column2 style5 s style6" colspan="2">APR</td>
+            <td class="column4 style15 s style16" colspan="2">MAY</td>
+            <td class="column6 style15 s style16" colspan="2">JUN</td>
+          </tr>
+          <tr class="row3">
+            <td class="column0 style9 n">942546</td>
+            <td class="column1 style10 s">Big Joe</td>
+            <td class="column2 style11 n">3085605</td>
+            <td class="column3 style12 s">Incline</td>
+            <td class="column4 style19 n">2622764.25</td>
+            <td class="column5 style20 s">Decline</td>
+            <td class="column6 style19 n">2922700.25</td>
+            <td class="column7 style21 s">Incline</td>
+          </tr>
+          <tr class="row4">
+            <td class="column0 style9 n">748448</td>
+            <td class="column1 style13 s">Maria Calux</td>
+            <td class="column2 style14 n">1212774.75</td>
+            <td class="column3 style12 s">Incline</td>
+            <td class="column4 style19 n">1140008.265</td>
+            <td class="column5 style21 s">Decline</td>
+            <td class="column6 style19 n">2963723.6025</td>
+            <td class="column7 style21 s">Incline</td>
+          </tr>
+          <tr class="row5">
+            <td class="column0 style9 n">2087427</td>
+            <td class="column1 style13 s">Giorgio Armani</td>
+            <td class="column2 style14 n">1017399.91</td>
+            <td class="column3 style12 s">Incline</td>
+            <td class="column4 style19 n">956355.9154</td>
+            <td class="column5 style21 s">Incline</td>
+            <td class="column6 style19 n">1311009.50475</td>
+            <td class="column7 style21 s">Decline</td>
+          </tr>
+          <tr class="row6">
+            <td class="column0 style9 n">2078869</td>
+            <td class="column1 style13 s">Francois Chevalier</td>
+            <td class="column2 style14 n">1002221.7</td>
+            <td class="column3 style12 s">Incline</td>
+            <td class="column4 style19 n">891977.313</td>
+            <td class="column5 style21 s">Incline</td>
+            <td class="column6 style19 n">860720.32386</td>
+            <td class="column7 style21 s">Incline</td>
+          </tr>
+          <tr class="row7">
+            <td class="column0 style9 n">186563</td>
+            <td class="column1 style13 s">Mia Martina</td>
+            <td class="column2 style14 n">876665</td>
+            <td class="column3 style12 s">Decline</td>
+            <td class="column4 style19 n">876665</td>
+            <td class="column5 style21 s">Incline</td>
+            <td class="column6 style19 n">874137.76674</td>
+            <td class="column7 style21 s">Decline</td>
+          </tr>
+          <tr class="row8">
+            <td class="column0 style9 n">3374310</td>
+            <td class="column1 style13 s">Tia Carrera</td>
+            <td class="column2 style14 n">852750.9</td>
+            <td class="column3 style12 s">Decline</td>
+            <td class="column4 style19 n">878333.427</td>
+            <td class="column5 style21 s">Decline</td>
+            <td class="column6 style19 n">841598.4</td>
+            <td class="column7 style21 s">Incline</td>
+          </tr>
+          <tr class="row9">
+            <td class="column0 style9 n">3576420</td>
+            <td class="column1 style13 s">Feliciano Di Venturi</td>
+            <td class="column2 style14 n">836054.42</td>
+            <td class="column3 style12 s">Decline</td>
+            <td class="column4 style19 n">953102.0388</td>
+            <td class="column5 style21 s">Incline</td>
+            <td class="column6 style19 n">895900.09554</td>
+            <td class="column7 style21 s">Decline</td>
+          </tr>
+          <tr class="row10">
+            <td class="column0 style9 n">180431</td>
+            <td class="column1 style13 s">Global Bob</td>
+            <td class="column2 style14 n">841162.76</td>
+            <td class="column3 style12 s">Incline</td>
+            <td class="column4 style19 n">731811.6012</td>
+            <td class="column5 style21 s">Incline</td>
+            <td class="column6 style19 n">1038881.222292</td>
+            <td class="column7 style21 s">Incline</td>
+          </tr>
+          <tr class="row11">
+            <td class="column0 style9 n">446076</td>
+            <td class="column1 style13 s">Vincenzo Fertino</td>
+            <td class="column2 style14 n">811131.4</td>
+            <td class="column3 style12 s">Incline</td>
+            <td class="column4 style19 n">697573.004</td>
+            <td class="column5 style21 s">Decline</td>
+            <td class="column6 style19 n">687902.905128</td>
+            <td class="column7 style21 s">Incline</td>
+          </tr>
+          <tr class="row12">
+            <td class="column0 style9 n">60609</td>
+            <td class="column1 style13 s">Bob Bobitt</td>
+            <td class="column2 style14 n">814087.15</td>
+            <td class="column3 style12 s">Incline</td>
+            <td class="column4 style19 n">919918.4795</td>
+            <td class="column5 style21 s">Decline</td>
+            <td class="column6 style19 n">746403.11428</td>
+            <td class="column7 style21 s">Incline</td>
+          </tr>
+          <tr class="row13">
+            <td class="column0 style9 n">353666</td>
+            <td class="column1 style13 s">Ken Cascaval</td>
+            <td class="column2 style14 n">792537.71</td>
+            <td class="column3 style12 s">Incline</td>
+            <td class="column4 style19 n">721209.3161</td>
+            <td class="column5 style21 s">Decline</td>
+            <td class="column6 style19 n">993511.95786</td>
+            <td class="column7 style21 s">Incline</td>
+          </tr>
+          <tr class="row14">
+            <td class="column0 style9 n">2503159</td>
+            <td class="column1 style13 s">Billy Joe</td>
+            <td class="column2 style14 n">766654.9</td>
+            <td class="column3 style12 s">Decline</td>
+            <td class="column4 style19 n">835653.841</td>
+            <td class="column5 style21 s">Decline</td>
+            <td class="column6 style19 n">735633.502422</td>
+            <td class="column7 style21 s">Decline</td>
+          </tr>
+          <tr class="row15">
+            <td class="column0 style9 n">87772</td>
+            <td class="column1 style13 s">Giuseppe Von Firenze</td>
+            <td class="column2 style14 n">744359.6</td>
+            <td class="column3 style12 s">Decline</td>
+            <td class="column4 style19 n">722028.812</td>
+            <td class="column5 style21 s">Decline</td>
+            <td class="column6 style19 n">852366.91782</td>
+            <td class="column7 style21 s">Incline</td>
+          </tr>
+        </tbody>
+    </table>
+  </body>
+</html>

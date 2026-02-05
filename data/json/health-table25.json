@@ -1,0 +1,189 @@
+[
+  {
+    "Variable": null,
+    "Unnamed: 1": null,
+    "n": null,
+    "%": null,
+    "Best CT": "n",
+    "Unnamed: 5": "%",
+    "Univariate Analysis": "OR",
+    "Unnamed: 7": "IC95%",
+    "Unnamed: 8": "p"
+  },
+  {
+    "Variable": "Job Demand",
+    "Unnamed: 1": null,
+    "n": null,
+    "%": null,
+    "Best CT": null,
+    "Unnamed: 5": null,
+    "Univariate Analysis": null,
+    "Unnamed: 7": null,
+    "Unnamed: 8": null
+  },
+  {
+    "Variable": null,
+    "Unnamed: 1": "Mental",
+    "n": "162",
+    "%": "62,8",
+    "Best CT": "58",
+    "Unnamed: 5": "35,8",
+    "Univariate Analysis": "1,00",
+    "Unnamed: 7": null,
+    "Unnamed: 8": null
+  },
+  {
+    "Variable": null,
+    "Unnamed: 1": "Physical",
+    "n": "72",
+    "%": "27,9",
+    "Best CT": "11",
+    "Unnamed: 5": "15,3",
+    "Univariate Analysis": "0,32",
+    "Unnamed: 7": "0,16-0,66",
+    "Unnamed: 8": "0,002*"
+  },
+  {
+    "Variable": null,
+    "Unnamed: 1": "Mixed",
+    "n": "24",
+    "%": "9,3",
+    "Best CT": "6",
+    "Unnamed: 5": "25,0",
+    "Univariate Analysis": "0,60",
+    "Unnamed: 7": "0,16-1,59",
+    "Unnamed: 8": "0,302"
+  },
+  {
+    "Variable": "Time of Work",
+    "Unnamed: 1": null,
+    "n": null,
+    "%": null,
+    "Best CT": null,
+    "Unnamed: 5": null,
+    "Univariate Analysis": null,
+    "Unnamed: 7": null,
+    "Unnamed: 8": null
+  },
+  {
+    "Variable": null,
+    "Unnamed: 1": "More than 27 years",
+    "n": "133",
+    "%": "51,6",
+    "Best CT": "44",
+    "Unnamed: 5": "33,1",
+    "Univariate Analysis": "1,00",
+    "Unnamed: 7": null,
+    "Unnamed: 8": null
+  },
+  {
+    "Variable": null,
+    "Unnamed: 1": "Up to 27 years",
+    "n": "125",
+    "%": "48,4",
+    "Best CT": "31",
+    "Unnamed: 5": "24,8",
+    "Univariate Analysis": "0,67",
+    "Unnamed: 7": "0,39-1,15",
+    "Unnamed: 8": "0,144*"
+  },
+  {
+    "Variable": "Working Hours per Week",
+    "Unnamed: 1": null,
+    "n": null,
+    "%": null,
+    "Best CT": null,
+    "Unnamed: 5": null,
+    "Univariate Analysis": null,
+    "Unnamed: 7": null,
+    "Unnamed: 8": null
+  },
+  {
+    "Variable": null,
+    "Unnamed: 1": "Up to 30 hours/week",
+    "n": "10",
+    "%": "3,9",
+    "Best CT": "2",
+    "Unnamed: 5": "20,0",
+    "Univariate Analysis": "1,00",
+    "Unnamed: 7": null,
+    "Unnamed: 8": null
+  },
+  {
+    "Variable": null,
+    "Unnamed: 1": "More than 30 hours/week",
+    "n": "248",
+    "%": "96,1",
+    "Best CT": "73",
+    "Unnamed: 5": "29,4",
+    "Univariate Analysis": "1,67",
+    "Unnamed: 7": "0,35-8,05",
+    "Unnamed: 8": "0,524"
+  },
+  {
+    "Variable": "Hazardous and Risky Work Allowance",
+    "Unnamed: 1": null,
+    "n": null,
+    "%": null,
+    "Best CT": null,
+    "Unnamed: 5": null,
+    "Univariate Analysis": null,
+    "Unnamed: 7": null,
+    "Unnamed: 8": null
+  },
+  {
+    "Variable": null,
+    "Unnamed: 1": "Yes",
+    "n": "118",
+    "%": "45,7",
+    "Best CT": "38",
+    "Unnamed: 5": "32,2",
+    "Univariate Analysis": "1,00",
+    "Unnamed: 7": null,
+    "Unnamed: 8": null
+  },
+  {
+    "Variable": null,
+    "Unnamed: 1": "No",
+    "n": "140",
+    "%": "54,3",
+    "Best CT": "37",
+    "Unnamed: 5": "26,4",
+    "Univariate Analysis": "0,76",
+    "Unnamed: 7": "0,441,30",
+    "Unnamed: 8": "0,309"
+  },
+  {
+    "Variable": "Night or Shift Work",
+    "Unnamed: 1": null,
+    "n": null,
+    "%": null,
+    "Best CT": null,
+    "Unnamed: 5": null,
+    "Univariate Analysis": null,
+    "Unnamed: 7": null,
+    "Unnamed: 8": null
+  },
+  {
+    "Variable": null,
+    "Unnamed: 1": "No",
+    "n": "168",
+    "%": "65,1",
+    "Best CT": "47",
+    "Unnamed: 5": "28,0",
+    "Univariate Analysis": "1,00",
+    "Unnamed: 7": null,
+    "Unnamed: 8": null
+  },
+  {
+    "Variable": null,
+    "Unnamed: 1": "Yes",
+    "n": "90",
+    "%": "34,9",
+    "Best CT": "28",
+    "Unnamed: 5": "31,1",
+    "Univariate Analysis": "1,16",
+    "Unnamed: 7": "0,66-2,03",
+    "Unnamed: 8": "0,597"
+  }
+]

@@ -1,0 +1,13 @@
+\begin{table}[]
+\begin{tabular}{lllllllllll}
+Expt-1 &                                                &            &            & Expt-2     &  &            &            &            &             &             \\
+       & spleen LDU                                     & Replicate1 & Replicate2 & Replicate3 &  & Replicate1 & Replicate2 & Replicate3 & Mean        & SD          \\
+Set1   & Inf mice (no DC trnf)                          & 533.81     & 884.05     & 636        &  & 696.3      & 566.2      & 696        & 668.7266667 & 124.6222455 \\
+Set2   & Inf mice ( DC + PBS)                           & 520.81     & 823.83     & 702.1      &  & 670.6      & 591.2      & 636.75     & 657.5483333 & 103.2829448 \\
+Set3   & Inf mice (DC + SAG)                            & 265.01     & 287.8      & 296.5      &  & 302.5      & 309.6      & 285.6      & 291.1683333 & 15.64078056 \\
+Set4   & Inf mice  {[}DC (Ctrl siRNA) + SAG{]}          & 263.54     & 279.24     & 301.7      &  & 295.62     & 312.78     & 265.6      & 286.4133333 & 20.10714765 \\
+Set5   & Inf mice {[}DC (Runx1+3 siRNA) + SAG{]}        & 670.94     & 732.09     & 636.5      &  & 572.5      & 720.3      & 756.36     & 681.4483333 & 68.82776371 \\
+Set6   & Inf mice {[}DC (Runx1+3 siRNA + Vec) + SAG{]}  & 803.49     & 974.62     & 570        &  & 630.2      & 502.76     & 486.72     & 661.2983333 & 191.4698026 \\
+Set7   & Inf mice {[}DC (Runx1+3 siRNA + CD40) + SAG{]} & 252.78     & 238.33     & 240.2      &  & 223.5      & 246.95     & 365.79     & 261.2583333 & 52.15042374
+\end{tabular}
+\end{table}

@@ -1,0 +1,21 @@
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+% \usepackage{multirow}
+\begin{table}[]
+\begin{tabular}{@{}cccccccccc@{}}
+\multirow{2}{*}{\textbf{Number of measurements}} & \multicolumn{3}{c}{\textbf{before HD}} & \multicolumn{3}{c}{\textbf{after HD}} & \multicolumn{3}{c}{\textbf{control}} \\
+ & \textbf{base} & \textbf{t-BOOH} & \textbf{+H2O2} & \textbf{base} & \textbf{t-BOOH} & \textbf{+H2O2} & \textbf{base} & \textbf{t-BOOH} & \textbf{+H2O2} \\
+1 & 1.91 & 2.18 & 1.96 & 1.83 & 1.93 & 1.96 & 1.71 & 2.25 & 1.88 \\
+2 & 1.88 & 1.92 & 1.79 & 1.78 & 1.83 & 1.77 & 1.61 & 2.16 & 1.81 \\
+3 & 1.84 & 1.81 & 1.72 & 1.74 & 1.81 & 1.77 & 1.59 & 2.12 & 1.79 \\
+4 & 1.8 & 1.8 & 1.71 & 1.64 & 1.81 & 1.61 & 1.56 & 1.89 & 1.69 \\
+5 & 1.78 & 1.78 & 1.7 & 1.61 & 1.79 & 1.61 & 1.54 & 1.81 & 1.8 \\
+6 & 1.73 & 1.77 & 1.66 & 1.61 & 1.77 & 1.58 & 1.53 & 2.13 & 1.87 \\
+7 & 1.66 & 1.77 & 1.62 & 1.58 & 1.75 & 1.55 & 1.52 & 2.14 & 1.76 \\
+8 & 1.63 & 1.73 & 1.62 & 1.57 & 1.66 & 1.52 & 1.38 & 2.17 & 1.79 \\
+9 & 1.59 & 1.73 & 1.56 & 1.37 & 1.65 & 1.51 & 1.64 & 2.18 & 1.79 \\
+ &  &  &  &  &  &  &  &  &  \\
+\multicolumn{1}{l}{mean} & \multicolumn{1}{l}{1.76} & \multicolumn{1}{l}{1.83} & \multicolumn{1}{l}{1.70} & \multicolumn{1}{l}{1.64} & \multicolumn{1}{l}{1.78} & \multicolumn{1}{l}{1.65} & \multicolumn{1}{l}{1.56} & \multicolumn{1}{l}{2.09} & \multicolumn{1}{l}{1.80} \\
+\multicolumn{1}{l}{SD} & \multicolumn{1}{l}{0.11} & \multicolumn{1}{l}{0.14} & \multicolumn{1}{l}{0.12} & \multicolumn{1}{l}{0.14} & \multicolumn{1}{l}{0.09} & \multicolumn{1}{l}{0.15} & \multicolumn{1}{l}{0.09} & \multicolumn{1}{l}{0.15} & \multicolumn{1}{l}{0.06}
+\end{tabular}
+\end{table}

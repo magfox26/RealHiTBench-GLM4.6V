@@ -1,0 +1,70 @@
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+% \usepackage[table,xcdraw]{xcolor}
+% Beamer presentation requires \usepackage{colortbl} instead of \usepackage[table,xcdraw]{xcolor}
+\begin{table}[]
+\begin{tabular}{@{}
+>{\columncolor[HTML]{E2F2FB}}l 
+>{\columncolor[HTML]{E2F2FB}}l 
+>{\columncolor[HTML]{F1F1F1}}r rrrrrrrrrr@{}}
+\multicolumn{3}{l}{\cellcolor[HTML]{0549AB}{\color[HTML]{FFFFFF} \textbf{Time period}}} & \multicolumn{1}{c}{\cellcolor[HTML]{0549AB}{\color[HTML]{FFFFFF} 2014}} & \multicolumn{1}{c}{\cellcolor[HTML]{0549AB}{\color[HTML]{FFFFFF} 2015}} & \multicolumn{1}{c}{\cellcolor[HTML]{0549AB}{\color[HTML]{FFFFFF} 2016}} & \multicolumn{1}{c}{\cellcolor[HTML]{0549AB}{\color[HTML]{FFFFFF} 2017}} & \multicolumn{1}{c}{\cellcolor[HTML]{0549AB}{\color[HTML]{FFFFFF} 2018}} & \multicolumn{1}{c}{\cellcolor[HTML]{0549AB}{\color[HTML]{FFFFFF} 2019}} & \multicolumn{1}{c}{\cellcolor[HTML]{0549AB}{\color[HTML]{FFFFFF} 2020}} & \multicolumn{1}{c}{\cellcolor[HTML]{0549AB}{\color[HTML]{FFFFFF} 2021}} & \multicolumn{1}{c}{\cellcolor[HTML]{0549AB}{\color[HTML]{FFFFFF} 2022}} & \multicolumn{1}{c}{\cellcolor[HTML]{0549AB}{\color[HTML]{FFFFFF} 2023}} \\
+\textbf{Combined unit of measure} & \textbf{Measure} & \multicolumn{1}{l}{\cellcolor[HTML]{F1F1F1}} & \multicolumn{1}{l}{\cellcolor[HTML]{F1F1F1}} & \multicolumn{1}{l}{\cellcolor[HTML]{F1F1F1}} & \multicolumn{1}{l}{\cellcolor[HTML]{F1F1F1}} & \multicolumn{1}{l}{\cellcolor[HTML]{F1F1F1}} & \multicolumn{1}{l}{\cellcolor[HTML]{F1F1F1}} & \multicolumn{1}{l}{\cellcolor[HTML]{F1F1F1}} & \multicolumn{1}{l}{\cellcolor[HTML]{F1F1F1}} & \multicolumn{1}{l}{\cellcolor[HTML]{F1F1F1}} & \multicolumn{1}{l}{\cellcolor[HTML]{F1F1F1}} & \multicolumn{1}{l}{\cellcolor[HTML]{F1F1F1}} \\
+US dollar, Millions & Producer Support Estimate (PSE) &  & 231,646.15 & 212,232.82 & 215,113.12 & 212,095.27 & 230,575.05 & 225,693.78 & 232,827.00 & 243,073.29 & 203,708.81 & 224,201.16 \\
+US dollar, Millions & ·  Payments based on input use &  & 32,077.72 & 29,068.19 & 26,590.72 & 26,914.10 & 30,066.29 & 28,819.36 & 34,900.35 & 30,210.32 & 33,361.80 & 35,383.59 \\
+US dollar, Millions & ·  ·  Based on variable input use &  & 12,756.78 & 11,055.15 & 9,664.26 & 10,387.93 & 10,885.78 & 9,908.04 & 15,149.58 & 11,157.95 & 13,052.59 & 12,422.59 \\
+US dollar, Millions & ·  ·  ·  With input constraints &  & 2,078.93 & 1,607.18 & 1,185.96 & 1,389.83 & 1,304.54 & 989.66 & 1,157.48 & 1,314.42 & 2,549.80 & 2,550.72 \\
+US dollar, Millions & ·  ·  Based on fixed capital formation &  & 11,781.68 & 10,856.84 & 8,978.40 & 9,022.80 & 11,304.08 & 10,635.66 & 10,944.47 & 9,595.74 & 10,422.03 & 13,784.30 \\
+US dollar, Millions & ·  ·  ·  With input constraints &  & 2,801.93 & 2,700.37 & 2,657.66 & 2,503.46 & 2,856.25 & 2,279.96 & 2,320.66 & 2,206.48 & 2,206.61 & 4,275.07 \\
+US dollar, Millions & ·  ·  Based on on-farm services &  & 7,539.26 & 7,156.21 & 7,948.06 & 7,503.37 & 7,876.42 & 8,275.67 & 8,806.30 & 9,456.63 & 9,887.18 & 9,176.70 \\
+US dollar, Millions & ·  ·  ·  With input constraints &  & 1,418.04 & 1,246.94 & 1,513.38 & 1,534.31 & 1,584.42 & 1,546.34 & 1,764.52 & 1,906.68 & 2,038.50 & 2,182.40 \\
+US dollar, Millions & ·  Support based on commodity output &  & 97,802.58 & 93,750.64 & 97,890.88 & 97,052.14 & 105,443.43 & 92,784.13 & 98,323.50 & 89,583.69 & 67,365.13 & 91,255.61 \\
+US dollar, Millions & ·  ·  Market Price Support (MPS) &  & 92,752.92 & 89,736.62 & 94,167.70 & 93,371.51 & 93,170.59 & 88,759.78 & 87,353.90 & 84,288.83 & 63,795.46 & 88,253.88 \\
+US dollar, Millions & ·  ·  ·  Positive Market Price Support &  & 93,395.07 & 90,150.62 & 94,429.43 & 93,916.00 & 93,413.59 & 89,116.30 & 87,433.76 & 84,393.70 & 63,848.49 & 88,932.58 \\
+US dollar, Millions & ·  ·  ·  Negative Market Price Support &  & -642.15 & -414.00 & -261.73 & -544.50 & -243.00 & -356.52 & -79.86 & -104.87 & -53.03 & -678.70 \\
+US dollar, Millions & ·  ·  Payments based on output &  & 5,049.66 & 4,014.02 & 3,723.19 & 3,680.63 & 12,272.84 & 4,024.36 & 10,969.59 & 5,294.87 & 3,569.68 & 3,001.73 \\
+US dollar, Millions & ·  Payments based on current area planted / animal numbers / receipts / income, production required &  & 31,565.01 & 32,162.31 & 33,617.87 & 35,484.02 & 37,076.25 & 50,596.72 & 45,123.28 & 59,934.64 & 51,746.29 & 52,449.43 \\
+US dollar, Millions & ·  ·  Based on area planted or animal numbers &  & 28,156.46 & 28,764.89 & 29,736.75 & 32,059.60 & 32,681.97 & 46,405.06 & 40,117.03 & 53,401.44 & 45,863.53 & 45,146.79 \\
+US dollar, Millions & ·  ·  Based on farm receipts or farm income &  & 3,408.55 & 3,397.42 & 3,881.12 & 3,424.42 & 4,394.29 & 4,191.66 & 5,006.25 & 6,533.19 & 5,882.76 & 7,302.64 \\
+US dollar, Millions & ·  Payments based on non-current area planted / animal numbers / receipts / income, production required &  & 3,051.69 & 2,499.46 & 2,581.61 & 2,014.17 & 2,231.20 & 2,372.78 & 1,982.79 & 4,829.05 & 2,425.59 & 2,196.77 \\
+US dollar, Millions & ·  Payments based on non-current area planted / animal numbers / receipts / income, production not required &  & 62,682.13 & 50,362.18 & 50,088.32 & 46,584.31 & 52,051.15 & 46,066.20 & 47,027.43 & 52,364.56 & 43,060.41 & 35,335.56 \\
+US dollar, Millions & ·  ·  With variable payment rates &  & 5,643.80 & 8,239.95 & 7,433.88 & 3,639.30 & 7,545.13 & 3,413.16 & 2,881.73 & 6,618.96 & 2,504.19 & 641.32 \\
+US dollar, Millions & ·  ·  With fixed payment rates &  & 57,038.33 & 42,122.23 & 42,654.44 & 42,945.01 & 44,506.02 & 42,653.05 & 44,145.70 & 45,745.60 & 40,556.22 & 34,694.23 \\
+US dollar, Millions & ·  ·  ·  With commodity exceptions &  & 24,747.13 & 2,345.09 & 2,671.65 & 2,573.94 & 2,510.01 & 2,514.54 & 2,592.67 & 2,883.43 & 2,437.07 & 2,607.20 \\
+US dollar, Millions & ·  Payments based on non-commodity criteria &  & 4,044.74 & 3,459.27 & 3,474.38 & 3,388.19 & 3,003.68 & 4,318.94 & 4,921.58 & 5,575.43 & 5,304.65 & 6,898.17 \\
+US dollar, Millions & ·  ·  Based on long-term resource retirement &  & 2,587.33 & 2,193.75 & 2,269.65 & 2,144.77 & 1,550.65 & 2,874.21 & 3,385.85 & 3,925.78 & 3,703.07 & 4,540.47 \\
+US dollar, Millions & ·  ·  Based on a specific non-commodity output &  & 1,274.91 & 1,171.64 & 1,054.19 & 1,127.61 & 1,328.67 & 1,336.03 & 1,410.11 & 1,509.81 & 1,387.70 & 2,100.55 \\
+US dollar, Millions & ·  ·  Based on other non-commodity criteria &  & 182.50 & 93.88 & 150.54 & 115.81 & 124.36 & 108.70 & 125.62 & 139.84 & 213.87 & 257.15 \\
+US dollar, Millions & ·  Miscellaneous payments &  & 422.28 & 930.76 & 869.33 & 658.34 & 703.04 & 735.63 & 548.07 & 575.60 & 444.94 & 682.04 \\
+US dollar, Millions & General Services Support Estimate (GSSE) &  & 44,839.01 & 41,827.32 & 42,895.68 & 44,821.62 & 45,374.12 & 45,058.41 & 48,273.04 & 50,050.10 & 48,420.41 & 49,255.71 \\
+US dollar, Millions & ·  Agricultural knowledge and innovation system &  & 14,728.58 & 13,066.17 & 13,041.34 & 13,583.68 & 14,246.92 & 14,339.07 & 14,174.32 & 16,207.78 & 14,984.46 & 16,591.12 \\
+US dollar, Millions & ·  Inspection and control &  & 4,124.77 & 3,705.68 & 3,996.05 & 4,060.31 & 4,429.32 & 4,224.44 & 4,380.25 & 4,754.54 & 4,904.88 & 4,936.81 \\
+US dollar, Millions & ·  Development and maintenance of infrastructure &  & 18,348.30 & 16,893.40 & 18,817.70 & 19,927.93 & 19,442.70 & 18,552.07 & 18,324.63 & 18,728.05 & 19,034.06 & 18,497.67 \\
+US dollar, Millions & ·  Marketing and promotion &  & 5,684.42 & 6,079.34 & 4,598.48 & 4,855.35 & 4,959.85 & 5,369.55 & 8,887.88 & 7,599.78 & 6,838.40 & 6,577.63 \\
+US dollar, Millions & ·  Cost of public stockholding &  & 419.55 & 527.88 & 472.47 & 693.10 & 567.71 & 673.77 & 534.92 & 533.03 & 585.03 & 563.65 \\
+US dollar, Millions & ·  Miscellaneous &  & 1,533.39 & 1,554.85 & 1,969.63 & 1,701.26 & 1,727.62 & 1,899.50 & 1,971.04 & 2,226.93 & 2,073.57 & 2,088.83 \\
+US dollar, Millions & Consumer Support Estimate (CSE) &  & -60,212.81 & -56,947.58 & -66,682.44 & -65,575.20 & -69,679.25 & -65,962.02 & -54,621.39 & -37,340.23 & 1,194.19 & -36,606.63 \\
+US dollar, Millions & ·  Transfers to producers from consumers &  & -89,762.31 & -85,649.34 & -90,724.98 & -89,832.49 & -89,139.61 & -85,359.92 & -83,433.81 & -79,857.29 & -61,868.93 & -86,027.33 \\
+US dollar, Millions & ·  Other transfers from consumers &  & -19,342.67 & -20,088.21 & -24,703.63 & -24,488.03 & -28,535.06 & -27,575.51 & -26,232.16 & -24,809.59 & -18,705.82 & -22,738.78 \\
+US dollar, Millions & ·  Transfers to consumers from taxpayers &  & 48,066.41 & 47,804.18 & 47,598.16 & 47,080.18 & 46,855.64 & 45,724.82 & 54,100.09 & 66,529.71 & 81,440.61 & 70,526.02 \\
+US dollar, Millions & ·  Excess feed cost &  & 825.77 & 985.79 & 1,148.00 & 1,665.15 & 1,139.79 & 1,248.59 & 944.49 & 796.94 & 328.33 & 1,633.46 \\
+US dollar, Millions & Total Support Estimate (TSE) &  & 324,551.57 & 301,864.33 & 305,606.96 & 303,997.07 & 322,804.80 & 316,477.01 & 335,200.13 & 359,653.10 & 333,569.83 & 343,982.89 \\
+US dollar, Millions & ·  Transfers from consumers &  & 109,104.98 & 105,737.55 & 115,428.60 & 114,320.52 & 117,674.68 & 112,935.43 & 109,665.97 & 104,666.87 & 80,574.75 & 108,766.11 \\
+US dollar, Millions & ·  Transfers from taxpayers &  & 234,789.26 & 216,214.99 & 214,881.98 & 214,164.59 & 233,665.19 & 231,117.09 & 251,766.32 & 279,795.82 & 271,700.90 & 257,955.56 \\
+US dollar, Millions & ·  Budget revenues &  & -19,342.67 & -20,088.21 & -24,703.63 & -24,488.03 & -28,535.06 & -27,575.51 & -26,232.16 & -24,809.59 & -18,705.82 & -22,738.78 \\
+US dollar, Millions & Total Budgetary Support Estimate (TBSE) &  & 231,798.65 & 212,127.71 & 211,439.26 & 210,625.57 & 229,634.21 & 227,717.23 & 247,846.23 & 275,364.28 & 269,774.37 & 255,729.01 \\
+US dollar, Millions & Value of production, at farm gate &  & 1,323,594.40 & 1,168,972.39 & 1,147,562.95 & 1,202,729.25 & 1,223,843.91 & 1,198,547.27 & 1,228,095.65 & 1,420,226.16 & 1,524,114.72 & 1,509,305.48 \\
+Percentage of GDP & Total Budgetary Support Estimate, relative to GDP (Percentage TBSE) &  & 0.46 & 0.45 & 0.44 & 0.42 & 0.43 & 0.42 & 0.47 & 0.47 & 0.45 & 0.40 \\
+Percentage of gross farm receipts & Selected indicators for Producer Support Estimate (PSE) &  &  &  &  &  &  &  &  &  &  &  \\
+Percentage of gross farm receipts & ·  Producer Support Estimate, relative to GFR (Percentage PSE) &  & 15.84 & 16.43 & 16.96 & 16.05 & 16.94 & 16.90 & 16.95 & 15.39 & 12.24 & 13.63 \\
+Percentage of consumption expenditure on agricultural commodities at farm gate prices, excluding taxpayer transfers to consumers & Selected indicators for Consumer Support Estimate (CSE) &  &  &  &  &  &  &  &  &  &  &  \\
+Percentage of consumption expenditure on agricultural commodities at farm gate prices, excluding taxpayer transfers to consumers & ·  Consumer Support Estimate, relative to consumption expenditure on agricultural commodities, at farm gate prices, net of taxpayer transfers to consumers (Percentage CSE) &  & -5.34 & -5.65 & -6.73 & -6.34 & -6.45 & -6.17 & -5.10 & -3.20 & 0.09 & -2.79 \\
+Percentage of value of production & Share of MPS commodities in total value of production at the farm gate &  & 74.76 & 72.58 & 72.18 & 72.45 & 72.16 & 72.33 & 72.69 & 74.64 & 77.39 & 74.03 \\
+Factor & Selected indicators for Producer Support Estimate (PSE) &  &  &  &  &  &  &  &  &  &  &  \\
+Factor & ·  Producer Nominal Assistance Coefficient (producer NAC) &  & 1.19 & 1.20 & 1.20 & 1.19 & 1.20 & 1.20 & 1.20 & 1.18 & 1.14 & 1.16 \\
+Factor & ·  Producer Nominal Protection Coefficient (producer NPC) &  & 1.08 & 1.09 & 1.09 & 1.09 & 1.09 & 1.08 & 1.09 & 1.07 & 1.05 & 1.07 \\
+Factor & Selected indicators for Consumer Support Estimate (CSE) &  &  &  &  &  &  &  &  &  &  &  \\
+Factor & ·  Consumer Nominal Assistance Coefficient (consumer NAC) &  & 1.06 & 1.06 & 1.07 & 1.07 & 1.07 & 1.07 & 1.05 & 1.03 & 1.00 & 1.03 \\
+Factor & ·  Consumer Nominal Protection Coefficient (consumer NPC) &  & 1.10 & 1.11 & 1.13 & 1.12 & 1.12 & 1.11 & 1.11 & 1.09 & 1.06 & 1.09 \\
+Index & GDP deflator &  & 277.47 & 281.70 & 285.90 & 291.99 & 299.17 & 305.74 & 313.03 & 326.66 & 356.90 & 381.59
+\end{tabular}
+\end{table}

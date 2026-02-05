@@ -1,0 +1,767 @@
+[
+  {
+    "Animal": "C1",
+    "Genotype": "WT",
+    "Group": "Control",
+    "Treatment": "Vehicle",
+    "Time Open Arms (s)": "118.2",
+    "(Open Distance/Total Distance)*100": "33.76551",
+    "Total Distance (m)": "5.399"
+  },
+  {
+    "Animal": "C2",
+    "Genotype": "WT",
+    "Group": "Control",
+    "Treatment": "Vehicle",
+    "Time Open Arms (s)": "3.4",
+    "(Open Distance/Total Distance)*100": "0.47638",
+    "Total Distance (m)": "2.519"
+  },
+  {
+    "Animal": "C3",
+    "Genotype": "WT",
+    "Group": "Control",
+    "Treatment": "Vehicle",
+    "Time Open Arms (s)": "99.7",
+    "(Open Distance/Total Distance)*100": "26.40384",
+    "Total Distance (m)": "8.548"
+  },
+  {
+    "Animal": "C4",
+    "Genotype": "WT",
+    "Group": "Control",
+    "Treatment": "Vehicle",
+    "Time Open Arms (s)": "161.6",
+    "(Open Distance/Total Distance)*100": "37.16497",
+    "Total Distance (m)": "12.275"
+  },
+  {
+    "Animal": "C5",
+    "Genotype": "WT",
+    "Group": "Control",
+    "Treatment": "Vehicle",
+    "Time Open Arms (s)": "122.6",
+    "(Open Distance/Total Distance)*100": "21.82437",
+    "Total Distance (m)": "7.345"
+  },
+  {
+    "Animal": "C6",
+    "Genotype": "WT",
+    "Group": "Control",
+    "Treatment": "Vehicle",
+    "Time Open Arms (s)": "106.8",
+    "(Open Distance/Total Distance)*100": "31.84214",
+    "Total Distance (m)": "7.399"
+  },
+  {
+    "Animal": "C7",
+    "Genotype": "WT",
+    "Group": "Control",
+    "Treatment": "Vehicle",
+    "Time Open Arms (s)": "68",
+    "(Open Distance/Total Distance)*100": "24.61115",
+    "Total Distance (m)": "6.172"
+  },
+  {
+    "Animal": "C8",
+    "Genotype": "WT",
+    "Group": "Control",
+    "Treatment": "Vehicle",
+    "Time Open Arms (s)": "162",
+    "(Open Distance/Total Distance)*100": "42.56557",
+    "Total Distance (m)": "12.2"
+  },
+  {
+    "Animal": "C9",
+    "Genotype": "WT",
+    "Group": "Control",
+    "Treatment": "Vehicle",
+    "Time Open Arms (s)": "152.9",
+    "(Open Distance/Total Distance)*100": "46.48288",
+    "Total Distance (m)": "8.089"
+  },
+  {
+    "Animal": "C10",
+    "Genotype": "WT",
+    "Group": "Control",
+    "Treatment": "Vehicle",
+    "Time Open Arms (s)": "103.1",
+    "(Open Distance/Total Distance)*100": "24.73884",
+    "Total Distance (m)": "4.212"
+  },
+  {
+    "Animal": "average",
+    "Genotype": null,
+    "Group": null,
+    "Treatment": null,
+    "Time Open Arms (s)": "109.83",
+    "(Open Distance/Total Distance)*100": "28.987565",
+    "Total Distance (m)": "7.4158"
+  },
+  {
+    "Animal": "stdv",
+    "Genotype": null,
+    "Group": null,
+    "Treatment": null,
+    "Time Open Arms (s)": "47.9863186520677",
+    "(Open Distance/Total Distance)*100": "12.8943351734294",
+    "Total Distance (m)": "3.12868928182749"
+  },
+  {
+    "Animal": "sterror",
+    "Genotype": null,
+    "Group": null,
+    "Treatment": null,
+    "Time Open Arms (s)": "15.1746063467155",
+    "(Open Distance/Total Distance)*100": "4.07754680616592",
+    "Total Distance (m)": "0.989378422153133"
+  },
+  {
+    "Animal": "C11",
+    "Genotype": "WT",
+    "Group": "Control",
+    "Treatment": "Fluoxetine",
+    "Time Open Arms (s)": "139.2",
+    "(Open Distance/Total Distance)*100": "41.23347",
+    "Total Distance (m)": "8.772"
+  },
+  {
+    "Animal": "C12",
+    "Genotype": "WT",
+    "Group": "Control",
+    "Treatment": "Fluoxetine",
+    "Time Open Arms (s)": "137.8",
+    "(Open Distance/Total Distance)*100": "37.87928",
+    "Total Distance (m)": "9.261"
+  },
+  {
+    "Animal": "C13",
+    "Genotype": "WT",
+    "Group": "Control",
+    "Treatment": "Fluoxetine",
+    "Time Open Arms (s)": "151.3",
+    "(Open Distance/Total Distance)*100": "32.08281",
+    "Total Distance (m)": "12.848"
+  },
+  {
+    "Animal": "C14",
+    "Genotype": "WT",
+    "Group": "Control",
+    "Treatment": "Fluoxetine",
+    "Time Open Arms (s)": "123.4",
+    "(Open Distance/Total Distance)*100": "33.05901",
+    "Total Distance (m)": "9.235"
+  },
+  {
+    "Animal": "C15",
+    "Genotype": "WT",
+    "Group": "Control",
+    "Treatment": "Fluoxetine",
+    "Time Open Arms (s)": "123",
+    "(Open Distance/Total Distance)*100": "33.83007",
+    "Total Distance (m)": "7.65"
+  },
+  {
+    "Animal": "C16",
+    "Genotype": "WT",
+    "Group": "Control",
+    "Treatment": "Fluoxetine",
+    "Time Open Arms (s)": "120.1",
+    "(Open Distance/Total Distance)*100": "34.86208",
+    "Total Distance (m)": "8.918"
+  },
+  {
+    "Animal": "C17",
+    "Genotype": "WT",
+    "Group": "Control",
+    "Treatment": "Fluoxetine",
+    "Time Open Arms (s)": "125.3",
+    "(Open Distance/Total Distance)*100": "27.49749",
+    "Total Distance (m)": "7.968"
+  },
+  {
+    "Animal": "C18",
+    "Genotype": "WT",
+    "Group": "Control",
+    "Treatment": "Fluoxetine",
+    "Time Open Arms (s)": "125.7",
+    "(Open Distance/Total Distance)*100": "26.99287",
+    "Total Distance (m)": "7.991"
+  },
+  {
+    "Animal": "C19",
+    "Genotype": "WT",
+    "Group": "Control",
+    "Treatment": "Fluoxetine",
+    "Time Open Arms (s)": "131",
+    "(Open Distance/Total Distance)*100": "29.02075",
+    "Total Distance (m)": "8.966"
+  },
+  {
+    "Animal": "C20",
+    "Genotype": "WT",
+    "Group": "Control",
+    "Treatment": "Fluoxetine",
+    "Time Open Arms (s)": "156",
+    "(Open Distance/Total Distance)*100": "44.55694",
+    "Total Distance (m)": "10.766"
+  },
+  {
+    "Animal": "average",
+    "Genotype": null,
+    "Group": null,
+    "Treatment": null,
+    "Time Open Arms (s)": "133.28",
+    "(Open Distance/Total Distance)*100": "34.101477",
+    "Total Distance (m)": "9.2375"
+  },
+  {
+    "Animal": "stdv",
+    "Genotype": null,
+    "Group": null,
+    "Treatment": null,
+    "Time Open Arms (s)": "12.4710152843392",
+    "(Open Distance/Total Distance)*100": "5.77568161840478",
+    "Total Distance (m)": "1.54382686493301"
+  },
+  {
+    "Animal": "sterror",
+    "Genotype": null,
+    "Group": null,
+    "Treatment": null,
+    "Time Open Arms (s)": "3.94368130332843",
+    "(Open Distance/Total Distance)*100": "1.82643089541266",
+    "Total Distance (m)": "0.488200920614545"
+  },
+  {
+    "Animal": "351",
+    "Genotype": "WT",
+    "Group": "Stress",
+    "Treatment": "Vehicle",
+    "Time Open Arms (s)": "34.5",
+    "(Open Distance/Total Distance)*100": "5.09001",
+    "Total Distance (m)": "12.888"
+  },
+  {
+    "Animal": "191",
+    "Genotype": "WT",
+    "Group": "Stress",
+    "Treatment": "Vehicle",
+    "Time Open Arms (s)": "4.2",
+    "(Open Distance/Total Distance)*100": "20.28409",
+    "Total Distance (m)": "7.04"
+  },
+  {
+    "Animal": "251",
+    "Genotype": "WT",
+    "Group": "Stress",
+    "Treatment": "Vehicle",
+    "Time Open Arms (s)": "54.6",
+    "(Open Distance/Total Distance)*100": "14.65137",
+    "Total Distance (m)": "11.33"
+  },
+  {
+    "Animal": "361",
+    "Genotype": "WT",
+    "Group": "Stress",
+    "Treatment": "Vehicle",
+    "Time Open Arms (s)": "61",
+    "(Open Distance/Total Distance)*100": "11.03989",
+    "Total Distance (m)": "14.04"
+  },
+  {
+    "Animal": "541",
+    "Genotype": "WT",
+    "Group": "Stress",
+    "Treatment": "Vehicle",
+    "Time Open Arms (s)": "56.7",
+    "(Open Distance/Total Distance)*100": "4.57944",
+    "Total Distance (m)": "10.7"
+  },
+  {
+    "Animal": "852",
+    "Genotype": "WT",
+    "Group": "Stress",
+    "Treatment": "Vehicle",
+    "Time Open Arms (s)": "82.5",
+    "(Open Distance/Total Distance)*100": "27.57956",
+    "Total Distance (m)": "10.37"
+  },
+  {
+    "Animal": "4163",
+    "Genotype": "WT",
+    "Group": "Stress",
+    "Treatment": "Vehicle",
+    "Time Open Arms (s)": "73",
+    "(Open Distance/Total Distance)*100": "20.78049",
+    "Total Distance (m)": "10.25"
+  },
+  {
+    "Animal": "4213",
+    "Genotype": "WT",
+    "Group": "Stress",
+    "Treatment": "Vehicle",
+    "Time Open Arms (s)": "22.2",
+    "(Open Distance/Total Distance)*100": "4.0404",
+    "Total Distance (m)": "9.9"
+  },
+  {
+    "Animal": "4223",
+    "Genotype": "WT",
+    "Group": "Stress",
+    "Treatment": "Vehicle",
+    "Time Open Arms (s)": "6.3",
+    "(Open Distance/Total Distance)*100": "1.2761",
+    "Total Distance (m)": "8.62"
+  },
+  {
+    "Animal": "4303",
+    "Genotype": "WT",
+    "Group": "Stress",
+    "Treatment": "Vehicle",
+    "Time Open Arms (s)": "28.5",
+    "(Open Distance/Total Distance)*100": "2.7668",
+    "Total Distance (m)": "10.12"
+  },
+  {
+    "Animal": "4323",
+    "Genotype": "WT",
+    "Group": "Stress",
+    "Treatment": "Vehicle",
+    "Time Open Arms (s)": "15.9",
+    "(Open Distance/Total Distance)*100": "3.06583",
+    "Total Distance (m)": "11.09"
+  },
+  {
+    "Animal": "E1",
+    "Genotype": "WT",
+    "Group": "Stress",
+    "Treatment": "Vehicle",
+    "Time Open Arms (s)": "84.6",
+    "(Open Distance/Total Distance)*100": "14.42186",
+    "Total Distance (m)": "7.87"
+  },
+  {
+    "Animal": "E2",
+    "Genotype": "WT",
+    "Group": "Stress",
+    "Treatment": "Vehicle",
+    "Time Open Arms (s)": "67.2",
+    "(Open Distance/Total Distance)*100": "14.13103",
+    "Total Distance (m)": "5.449"
+  },
+  {
+    "Animal": "E3",
+    "Genotype": "WT",
+    "Group": "Stress",
+    "Treatment": "Vehicle",
+    "Time Open Arms (s)": "69.6",
+    "(Open Distance/Total Distance)*100": "16.76859",
+    "Total Distance (m)": "5.069"
+  },
+  {
+    "Animal": "E4",
+    "Genotype": "WT",
+    "Group": "Stress",
+    "Treatment": "Vehicle",
+    "Time Open Arms (s)": "93.8",
+    "(Open Distance/Total Distance)*100": "23.32604",
+    "Total Distance (m)": "4.57"
+  },
+  {
+    "Animal": "E5",
+    "Genotype": "WT",
+    "Group": "Stress",
+    "Treatment": "Vehicle",
+    "Time Open Arms (s)": "105.6",
+    "(Open Distance/Total Distance)*100": "33.05547",
+    "Total Distance (m)": "6.598"
+  },
+  {
+    "Animal": "average",
+    "Genotype": null,
+    "Group": null,
+    "Treatment": null,
+    "Time Open Arms (s)": "53.7625",
+    "(Open Distance/Total Distance)*100": "13.553560625",
+    "Total Distance (m)": "9.119"
+  },
+  {
+    "Animal": "stdv",
+    "Genotype": null,
+    "Group": null,
+    "Treatment": null,
+    "Time Open Arms (s)": "31.7051389104879",
+    "(Open Distance/Total Distance)*100": "9.69116457338227",
+    "Total Distance (m)": "2.79525948706019"
+  },
+  {
+    "Animal": "sterror",
+    "Genotype": null,
+    "Group": null,
+    "Treatment": null,
+    "Time Open Arms (s)": "7.92628472762197",
+    "(Open Distance/Total Distance)*100": "2.42279114334557",
+    "Total Distance (m)": "0.698814871765048"
+  },
+  {
+    "Animal": "211",
+    "Genotype": "WT",
+    "Group": "Stress",
+    "Treatment": "Fluoxetine",
+    "Time Open Arms (s)": "85.6",
+    "(Open Distance/Total Distance)*100": "22.67932",
+    "Total Distance (m)": "9.48"
+  },
+  {
+    "Animal": "291",
+    "Genotype": "WT",
+    "Group": "Stress",
+    "Treatment": "Fluoxetine",
+    "Time Open Arms (s)": "62.2",
+    "(Open Distance/Total Distance)*100": "26.09971",
+    "Total Distance (m)": "13.64"
+  },
+  {
+    "Animal": "111",
+    "Genotype": "WT",
+    "Group": "Stress",
+    "Treatment": "Fluoxetine",
+    "Time Open Arms (s)": "32.6",
+    "(Open Distance/Total Distance)*100": "26.1217",
+    "Total Distance (m)": "13.64"
+  },
+  {
+    "Animal": "11",
+    "Genotype": "WT",
+    "Group": "Stress",
+    "Treatment": "Fluoxetine",
+    "Time Open Arms (s)": "100.8",
+    "(Open Distance/Total Distance)*100": "46.69291",
+    "Total Distance (m)": "12.7"
+  },
+  {
+    "Animal": "672",
+    "Genotype": "WT",
+    "Group": "Stress",
+    "Treatment": "Fluoxetine",
+    "Time Open Arms (s)": "26.2",
+    "(Open Distance/Total Distance)*100": "8.5443",
+    "Total Distance (m)": "9.48"
+  },
+  {
+    "Animal": "4333",
+    "Genotype": "WT",
+    "Group": "Stress",
+    "Treatment": "Fluoxetine",
+    "Time Open Arms (s)": "38.2",
+    "(Open Distance/Total Distance)*100": "9.29368",
+    "Total Distance (m)": "10.76"
+  },
+  {
+    "Animal": "4353",
+    "Genotype": "WT",
+    "Group": "Stress",
+    "Treatment": "Fluoxetine",
+    "Time Open Arms (s)": "68.1",
+    "(Open Distance/Total Distance)*100": "10.62591",
+    "Total Distance (m)": "6.87"
+  },
+  {
+    "Animal": "4383",
+    "Genotype": "WT",
+    "Group": "Stress",
+    "Treatment": "Fluoxetine",
+    "Time Open Arms (s)": "45",
+    "(Open Distance/Total Distance)*100": "12.57557",
+    "Total Distance (m)": "8.27"
+  },
+  {
+    "Animal": "4393",
+    "Genotype": "WT",
+    "Group": "Stress",
+    "Treatment": "Fluoxetine",
+    "Time Open Arms (s)": "95.3",
+    "(Open Distance/Total Distance)*100": "30.29909",
+    "Total Distance (m)": "7.69"
+  },
+  {
+    "Animal": "E6",
+    "Genotype": "WT",
+    "Group": "Stress",
+    "Treatment": "Fluoxetine",
+    "Time Open Arms (s)": "70.1",
+    "(Open Distance/Total Distance)*100": "16.60763",
+    "Total Distance (m)": "4.799"
+  },
+  {
+    "Animal": "E7",
+    "Genotype": "WT",
+    "Group": "Stress",
+    "Treatment": "Fluoxetine",
+    "Time Open Arms (s)": "95.8",
+    "(Open Distance/Total Distance)*100": "27.32854",
+    "Total Distance (m)": "4.724"
+  },
+  {
+    "Animal": "E8",
+    "Genotype": "WT",
+    "Group": "Stress",
+    "Treatment": "Fluoxetine",
+    "Time Open Arms (s)": "129.7",
+    "(Open Distance/Total Distance)*100": "33.16744",
+    "Total Distance (m)": "8.439"
+  },
+  {
+    "Animal": "E9",
+    "Genotype": "WT",
+    "Group": "Stress",
+    "Treatment": "Fluoxetine",
+    "Time Open Arms (s)": "116.2",
+    "(Open Distance/Total Distance)*100": "28.93988",
+    "Total Distance (m)": "10.197"
+  },
+  {
+    "Animal": "E10",
+    "Genotype": "WT",
+    "Group": "Stress",
+    "Treatment": "Fluoxetine",
+    "Time Open Arms (s)": "52.4",
+    "(Open Distance/Total Distance)*100": "11.22142",
+    "Total Distance (m)": "6.648"
+  },
+  {
+    "Animal": "average",
+    "Genotype": null,
+    "Group": null,
+    "Treatment": null,
+    "Time Open Arms (s)": "72.7285714285714",
+    "(Open Distance/Total Distance)*100": "22.1569357142857",
+    "Total Distance (m)": "9.0955"
+  },
+  {
+    "Animal": "stdv",
+    "Genotype": null,
+    "Group": null,
+    "Treatment": null,
+    "Time Open Arms (s)": "32.1291726669663",
+    "(Open Distance/Total Distance)*100": "11.1622511824905",
+    "Total Distance (m)": "2.91122268128015"
+  },
+  {
+    "Animal": "sterror",
+    "Genotype": null,
+    "Group": null,
+    "Treatment": null,
+    "Time Open Arms (s)": "8.58688258859214",
+    "(Open Distance/Total Distance)*100": "2.98323711357084",
+    "Total Distance (m)": "0.778056989282552"
+  },
+  {
+    "Animal": "411",
+    "Genotype": "FGF2KO",
+    "Group": "Stress",
+    "Treatment": "Vehicle",
+    "Time Open Arms (s)": "7.1",
+    "(Open Distance/Total Distance)*100": "4.62401",
+    "Total Distance (m)": "10.705"
+  },
+  {
+    "Animal": "131",
+    "Genotype": "FGF2KO",
+    "Group": "Stress",
+    "Treatment": "Vehicle",
+    "Time Open Arms (s)": "51.8",
+    "(Open Distance/Total Distance)*100": "0.92857",
+    "Total Distance (m)": "7"
+  },
+  {
+    "Animal": "141",
+    "Genotype": "FGF2KO",
+    "Group": "Stress",
+    "Treatment": "Vehicle",
+    "Time Open Arms (s)": "107.2",
+    "(Open Distance/Total Distance)*100": "17.82487",
+    "Total Distance (m)": "13.167"
+  },
+  {
+    "Animal": "151",
+    "Genotype": "FGF2KO",
+    "Group": "Stress",
+    "Treatment": "Vehicle",
+    "Time Open Arms (s)": "89.7",
+    "(Open Distance/Total Distance)*100": "15.62438",
+    "Total Distance (m)": "15.015"
+  },
+  {
+    "Animal": "802",
+    "Genotype": "FGF2KO",
+    "Group": "Stress",
+    "Treatment": "Vehicle",
+    "Time Open Arms (s)": "33.1",
+    "(Open Distance/Total Distance)*100": "16.61342",
+    "Total Distance (m)": "6.26"
+  },
+  {
+    "Animal": "812",
+    "Genotype": "FGF2KO",
+    "Group": "Stress",
+    "Treatment": "Vehicle",
+    "Time Open Arms (s)": "42.7",
+    "(Open Distance/Total Distance)*100": "18.31984",
+    "Total Distance (m)": "9.88"
+  },
+  {
+    "Animal": "4043",
+    "Genotype": "FGF2KO",
+    "Group": "Stress",
+    "Treatment": "Vehicle",
+    "Time Open Arms (s)": "61.4",
+    "(Open Distance/Total Distance)*100": "17.25352",
+    "Total Distance (m)": "8.52"
+  },
+  {
+    "Animal": "4113",
+    "Genotype": "FGF2KO",
+    "Group": "Stress",
+    "Treatment": "Vehicle",
+    "Time Open Arms (s)": "3.8",
+    "(Open Distance/Total Distance)*100": "0.93275",
+    "Total Distance (m)": "9.22"
+  },
+  {
+    "Animal": "average",
+    "Genotype": null,
+    "Group": null,
+    "Treatment": null,
+    "Time Open Arms (s)": "49.6",
+    "(Open Distance/Total Distance)*100": "11.51517",
+    "Total Distance (m)": "9.970875"
+  },
+  {
+    "Animal": "stdv",
+    "Genotype": null,
+    "Group": null,
+    "Treatment": null,
+    "Time Open Arms (s)": "36.4370298303408",
+    "(Open Distance/Total Distance)*100": "7.869235461775",
+    "Total Distance (m)": "2.96337531673886"
+  },
+  {
+    "Animal": "sterror",
+    "Genotype": null,
+    "Group": null,
+    "Treatment": null,
+    "Time Open Arms (s)": "12.8824354396652",
+    "(Open Distance/Total Distance)*100": "2.78219487888738",
+    "Total Distance (m)": "1.04771139083344"
+  },
+  {
+    "Animal": "121",
+    "Genotype": "FGF2KO",
+    "Group": "Stress",
+    "Treatment": "Fluoxetine",
+    "Time Open Arms (s)": "68.9",
+    "(Open Distance/Total Distance)*100": "5.15021",
+    "Total Distance (m)": "11.65"
+  },
+  {
+    "Animal": "201",
+    "Genotype": "FGF2KO",
+    "Group": "Stress",
+    "Treatment": "Fluoxetine",
+    "Time Open Arms (s)": "42.7",
+    "(Open Distance/Total Distance)*100": "10.47183",
+    "Total Distance (m)": "12.46"
+  },
+  {
+    "Animal": "181",
+    "Genotype": "FGF2KO",
+    "Group": "Stress",
+    "Treatment": "Fluoxetine",
+    "Time Open Arms (s)": "71.6",
+    "(Open Distance/Total Distance)*100": "22.73877",
+    "Total Distance (m)": "9.49"
+  },
+  {
+    "Animal": "391",
+    "Genotype": "FGF2KO",
+    "Group": "Stress",
+    "Treatment": "Fluoxetine",
+    "Time Open Arms (s)": "142.8",
+    "(Open Distance/Total Distance)*100": "27.11746",
+    "Total Distance (m)": "12.88"
+  },
+  {
+    "Animal": "702",
+    "Genotype": "FGF2KO",
+    "Group": "Stress",
+    "Treatment": "Fluoxetine",
+    "Time Open Arms (s)": "16.3",
+    "(Open Distance/Total Distance)*100": "5.51524",
+    "Total Distance (m)": "6.89"
+  },
+  {
+    "Animal": "642",
+    "Genotype": "FGF2KO",
+    "Group": "Stress",
+    "Treatment": "Fluoxetine",
+    "Time Open Arms (s)": "51.8",
+    "(Open Distance/Total Distance)*100": "19.07895",
+    "Total Distance (m)": "9.12"
+  },
+  {
+    "Animal": "4153",
+    "Genotype": "FGF2KO",
+    "Group": "Stress",
+    "Treatment": "Fluoxetine",
+    "Time Open Arms (s)": "13.5",
+    "(Open Distance/Total Distance)*100": "0",
+    "Total Distance (m)": "7.54"
+  },
+  {
+    "Animal": "4313",
+    "Genotype": "FGF2KO",
+    "Group": "Stress",
+    "Treatment": "Fluoxetine",
+    "Time Open Arms (s)": "3.9",
+    "(Open Distance/Total Distance)*100": "1.41677",
+    "Total Distance (m)": "8.47"
+  },
+  {
+    "Animal": "4783",
+    "Genotype": "FGF2KO",
+    "Group": "Stress",
+    "Treatment": "Fluoxetine",
+    "Time Open Arms (s)": "60.9",
+    "(Open Distance/Total Distance)*100": "16.60517",
+    "Total Distance (m)": "10.84"
+  },
+  {
+    "Animal": "average",
+    "Genotype": null,
+    "Group": null,
+    "Treatment": null,
+    "Time Open Arms (s)": "52.4888888888889",
+    "(Open Distance/Total Distance)*100": "12.0104888888889",
+    "Total Distance (m)": "9.92666666666667"
+  },
+  {
+    "Animal": "stdv",
+    "Genotype": null,
+    "Group": null,
+    "Treatment": null,
+    "Time Open Arms (s)": "42.0540558223712",
+    "(Open Distance/Total Distance)*100": "9.7627398032538",
+    "Total Distance (m)": "2.14548362846236"
+  },
+  {
+    "Animal": "sterror",
+    "Genotype": null,
+    "Group": null,
+    "Treatment": null,
+    "Time Open Arms (s)": "14.0180186074571",
+    "(Open Distance/Total Distance)*100": "3.2542466010846",
+    "Total Distance (m)": "0.715161209487452"
+  }
+]

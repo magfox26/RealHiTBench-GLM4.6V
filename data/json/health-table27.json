@@ -1,0 +1,128 @@
+[
+  {
+    "Variable": null,
+    "Unnamed: 1": null,
+    "Multivariate Analysis": "OR",
+    "Unnamed: 3": "IC95%",
+    "Unnamed: 4": "p"
+  },
+  {
+    "Variable": null,
+    "Unnamed: 1": "Gender (female)",
+    "Multivariate Analysis": "0,39",
+    "Unnamed: 3": "0,18-0,83",
+    "Unnamed: 4": "0,015*"
+  },
+  {
+    "Variable": null,
+    "Unnamed: 1": "Skin color (white)",
+    "Multivariate Analysis": "0,37",
+    "Unnamed: 3": "0,16-0,84",
+    "Unnamed: 4": "0,017*"
+  },
+  {
+    "Variable": "Job Requirements",
+    "Unnamed: 1": null,
+    "Multivariate Analysis": null,
+    "Unnamed: 3": null,
+    "Unnamed: 4": null
+  },
+  {
+    "Variable": null,
+    "Unnamed: 1": "Mental",
+    "Multivariate Analysis": "1,0",
+    "Unnamed: 3": "-",
+    "Unnamed: 4": "-"
+  },
+  {
+    "Variable": null,
+    "Unnamed: 1": "Physical",
+    "Multivariate Analysis": "0,40",
+    "Unnamed: 3": "0,17-0,97",
+    "Unnamed: 4": "0,042*"
+  },
+  {
+    "Variable": null,
+    "Unnamed: 1": "Mixed",
+    "Multivariate Analysis": "0,45",
+    "Unnamed: 3": "0,14-1,41",
+    "Unnamed: 4": "0,171"
+  },
+  {
+    "Variable": "Hospitalization (no)",
+    "Unnamed: 1": null,
+    "Multivariate Analysis": "0,14",
+    "Unnamed: 3": "0,03-0,57",
+    "Unnamed: 4": "0,007*"
+  },
+  {
+    "Variable": "Difficulty Sleeping (no)",
+    "Unnamed: 1": null,
+    "Multivariate Analysis": "0,12",
+    "Unnamed: 3": "0,04-0,43",
+    "Unnamed: 4": "0,001*"
+  },
+  {
+    "Variable": "Self-perceived Health",
+    "Unnamed: 1": null,
+    "Multivariate Analysis": null,
+    "Unnamed: 3": null,
+    "Unnamed: 4": null
+  },
+  {
+    "Variable": null,
+    "Unnamed: 1": "Excellent",
+    "Multivariate Analysis": "1,0",
+    "Unnamed: 3": "-",
+    "Unnamed: 4": "-"
+  },
+  {
+    "Variable": null,
+    "Unnamed: 1": "Good",
+    "Multivariate Analysis": "0,51",
+    "Unnamed: 3": "0,20-1,29",
+    "Unnamed: 4": "0,156"
+  },
+  {
+    "Variable": null,
+    "Unnamed: 1": "Poor",
+    "Multivariate Analysis": "0,22",
+    "Unnamed: 3": "0,09-0,54",
+    "Unnamed: 4": "0,001*"
+  },
+  {
+    "Variable": "Musculoskeletal Symptoms",
+    "Unnamed: 1": null,
+    "Multivariate Analysis": null,
+    "Unnamed: 3": null,
+    "Unnamed: 4": null
+  },
+  {
+    "Variable": null,
+    "Unnamed: 1": "No complaints",
+    "Multivariate Analysis": "1,0",
+    "Unnamed: 3": "-",
+    "Unnamed: 4": "-"
+  },
+  {
+    "Variable": null,
+    "Unnamed: 1": "Last 12 months",
+    "Multivariate Analysis": "0,55",
+    "Unnamed: 3": "0,18-1,68",
+    "Unnamed: 4": "0,290"
+  },
+  {
+    "Variable": null,
+    "Unnamed: 1": "Last 7 days",
+    "Multivariate Analysis": "0,29",
+    "Unnamed: 3": "0,10-0,87",
+    "Unnamed: 4": "0,027*"
+  },
+  {
+    "Variable": null,
+    "Unnamed: 1": "Work impairment",
+    "Multivariate Analysis": "0,25",
+    "Unnamed: 3": "0,08-0,82",
+    "Unnamed: 4": "0,022*"
+  }
+]

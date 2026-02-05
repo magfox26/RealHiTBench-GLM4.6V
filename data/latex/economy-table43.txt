@@ -1,0 +1,49 @@
+% Please add the following required packages to your document preamble:
+% \usepackage{multirow}
+% \usepackage[table,xcdraw]{xcolor}
+% Beamer presentation requires \usepackage{colortbl} instead of \usepackage[table,xcdraw]{xcolor}
+\begin{table}[]
+\begin{tabular}{cccccccc}
+                                &                                                      & \multicolumn{3}{c}{\textbf{LONG SLEEVES}}                    & \multicolumn{3}{c}{\textbf{SHORT SLEEVES}}                   \\
+\multirow{-2}{*}{\textbf{Name}} & \multirow{-2}{*}{\textbf{Branch (select from List)}} & \textbf{L/S Size} & \textbf{L/S Owned} & \textbf{L/S Needed} & \textbf{S/S Size} & \textbf{S/S Owned} & \textbf{S/S Needed} \\
+\cellcolor[HTML]{FFFFFF}Ern     & FAC                                                  & 42R               & 1                  & 0                   & 42R               & 0                  & 1                   \\
+\cellcolor[HTML]{FFFFFF}Ern     & IMD                                                  & 38R               & 2                  & 1                   & 38R               & 1                  & 0                   \\
+\cellcolor[HTML]{FFFFFF}Ern     & FV                                                   & 46R               & 1                  & 0                   & 46R               & 1                  & 0                   \\
+\cellcolor[HTML]{FFFFFF}Ern     & DOM                                                  & 40R               & 1                  & 1                   & 40R               & 1                  & 1                   \\
+\cellcolor[HTML]{FFFFFF}Ern     & FAC                                                  & 44R               & 1                  & 0                   & 44R               & 2                  & 0                   \\
+\cellcolor[HTML]{FFFFFF}Ern     & FAC                                                  & 46R               & 0                  & 1                   & 46R               & 0                  & 1                   \\
+\cellcolor[HTML]{FFFFFF}Ern     & DOM                                                  & 46L               & 1                  & 1                   & 46L               & 2                  & 0                   \\
+\cellcolor[HTML]{FFFFFF}Ern     & DOM                                                  & 46R               & 2                  & 0                   & 46R               & 0                  & 2                   \\
+\cellcolor[HTML]{FFFFFF}Ern     & PSC                                                  & 40R               & 2                  & 0                   & 40R               & 1                  & 1                   \\
+\cellcolor[HTML]{FFFFFF}Ern     & FAC                                                  & 38L               & 1                  & 0                   & 38R               & 1                  & 0                   \\
+\cellcolor[HTML]{FFFFFF}Ern     & PSC                                                  & 38R               & 1                  & 1                   & 38R               & 1                  & 1                   \\
+\cellcolor[HTML]{FFFFFF}Ern     & PSC                                                  & 48L               & 2                  & 0                   & 48L               & 3                  & 0                   \\
+\cellcolor[HTML]{FFFFFF}Ern     & MI                                                   & 50R               & 1                  & 0                   & 50R               & 1                  & 0                   \\
+\cellcolor[HTML]{FFFFFF}Ern     & DOM                                                  & 40R               & 1                  & 1                   & 40R               & 1                  & 1                   \\
+\cellcolor[HTML]{FFFFFF}Ern     & FAC                                                  & 40R               & 2                  & 1                   & 40R               & 0                  & 1                   \\
+\cellcolor[HTML]{FFFFFF}Ern     & WWM                                                  & 44R               & 2                  & 1                   & 44R               & 2                  & 0                   \\
+\cellcolor[HTML]{FFFFFF}Ern     & FAC                                                  & 42R               & 1                  & 0                   & 42R               & 1                  & 0                   \\
+\cellcolor[HTML]{FFFFFF}Ern     & FV                                                   & 44R               & 0                  & 1                   & 44R               & 0                  & 1                   \\
+\cellcolor[HTML]{FFFFFF}Ern     & WWM                                                  & 36R               & 1                  & 0                   & 36R               & 1                  & 0                   \\
+\cellcolor[HTML]{FFFFFF}Ern     & PSC                                                  & 40R               & 1                  & 1                   & 40R               & 1                  & 1                   \\
+\cellcolor[HTML]{FFFFFF}Ern     & IMD                                                  & 44L               & 0                  & 1                   & 44L               & 0                  & 1                   \\
+\cellcolor[HTML]{FFFFFF}Ern     & FAC                                                  & 42L               & 0                  & 1                   & 42L               & 2                  & 0                   \\
+\cellcolor[HTML]{FFFFFF}Ern     & PSC                                                  & 36R               & 1                  & 1                   & 36R               & 2                  & 0                   \\
+\cellcolor[HTML]{FFFFFF}Ern     & PSC                                                  & 36R               & 1                  & 1                   & 36R               & 1                  & 1                   \\
+\cellcolor[HTML]{FFFFFF}Ern     & MI                                                   & 40R               & 1                  & 0                   & 40R               & 0                  & 1                   \\
+\cellcolor[HTML]{FFFFFF}Ern     & DOM                                                  & 42R               & 3                  & 1                   & 42R               & 2                  & 0                   \\
+\cellcolor[HTML]{FFFFFF}Ern     & PSC                                                  & 44R               & 0                  & 2                   & 44R               & 1                  & 1                   \\
+\cellcolor[HTML]{FFFFFF}Ern     & DOM                                                  & 46R               & 2                  & 0                   & 46R               & 2                  & 0                   \\
+\cellcolor[HTML]{FFFFFF}Ern     & IO                                                   & 46R               & 0                  & 1                   & 46R               & 0                  & 1                   \\
+\cellcolor[HTML]{FFFFFF}Ern     & IMD                                                  & 46L               & 2                  & 1                   & 48L               & 2                  & 0                   \\
+\cellcolor[HTML]{FFFFFF}Ern     & IO                                                   & 36R               & 2                  & 1                   & 36R               & 2                  & 0                   \\
+\cellcolor[HTML]{FFFFFF}Ern     & IO                                                   & 42L               & 2                  & 1                   & 42S               & 2                  & 0                   \\
+\cellcolor[HTML]{FFFFFF}Ern     & DOM                                                  & 48R               & 0                  & 2                   & 48R               & 2                  & 0                   \\
+\cellcolor[HTML]{FFFFFF}Ern     & IO                                                   & 42R               & 1                  & 0                   & 42R               & 1                  & 0                   \\
+\cellcolor[HTML]{FFFFFF}Ern     & DOM                                                  & 44R               & 2                  & 0                   & 44R               & 2                  & 0                   \\
+\cellcolor[HTML]{FFFFFF}Ern     & FV                                                   & 52R               & 0                  & 1                   & 52R               & 0                  & 1                   \\
+\cellcolor[HTML]{FFFFFF}Ern     & DOM                                                  & 44R               & 1                  & 1                   & 44R               & 1                  & 1                   \\
+\rowcolor[HTML]{DDD9C4} 
+TOTAL                           &                                                      &                   & 42                 & 25                  &                   & 42                 & 18                 
+\end{tabular}
+\end{table}

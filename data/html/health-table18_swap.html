@@ -1,0 +1,281 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <meta name="generator" content="PhpSpreadsheet, https://github.com/PHPOffice/PhpSpreadsheet">
+      <meta name="author" content="yyuhhhh13" />
+      <meta name="company" content="Microsoft Corporation" />
+    <style type="text/css">
+      html { font-family:Calibri, Arial, Helvetica, sans-serif; font-size:11pt; background-color:white }
+      a.comment-indicator:hover + div.comment { background:#ffd; position:absolute; display:block; border:1px solid black; padding:0.5em }
+      a.comment-indicator { background:red; display:inline-block; border:1px solid black; width:0.5em; height:0.5em }
+      div.comment { display:none }
+      table { border-collapse:collapse; page-break-after:always }
+      .gridlines td { border:1px dotted black }
+      .gridlines th { border:1px dotted black }
+      .b { text-align:center }
+      .e { text-align:center }
+      .f { text-align:right }
+      .inlineStr { text-align:left }
+      .n { text-align:right }
+      .s { text-align:left }
+      td.style0 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style0 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style1 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style1 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style2 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:#D9E1F2 }
+      th.style2 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:#D9E1F2 }
+      td.style3 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+      th.style3 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+      td.style4 { vertical-align:bottom; text-align:left; padding-left:27px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-style:italic; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+      th.style4 { vertical-align:bottom; text-align:left; padding-left:27px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-style:italic; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+      td.style5 { vertical-align:bottom; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+      th.style5 { vertical-align:bottom; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+      td.style6 { vertical-align:bottom; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style6 { vertical-align:bottom; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style7 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+      th.style7 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+      td.style8 { vertical-align:bottom; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+      th.style8 { vertical-align:bottom; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+      td.style9 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+      th.style9 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+      table.sheet0 col.col0 { width:80.65555463pt }
+      table.sheet0 col.col1 { width:126.74444299pt }
+      table.sheet0 col.col2 { width:72.52222139pt }
+      table.sheet0 col.col3 { width:82.68888794pt }
+      table.sheet0 col.col4 { width:79.29999909pt }
+      table.sheet0 col.col5 { width:79.29999909pt }
+      table.sheet0 col.col6 { width:63.03333261pt }
+      table.sheet0 col.col7 { width:67.09999923pt }
+      table.sheet0 tr { height:15pt }
+      table.sheet0 tr.row0 { height:68pt }
+    </style>
+  </head>
+
+  <body>
+<style>
+@page { margin-left: 0.7in; margin-right: 0.7in; margin-top: 0.75in; margin-bottom: 0.75in; }
+body { margin-left: 0.7in; margin-right: 0.7in; margin-top: 0.75in; margin-bottom: 0.75in; }
+</style>
+    <table border="0" cellpadding="0" cellspacing="0" id="sheet0" class="sheet0 gridlines">
+        <col class="col0">
+        <col class="col1">
+        <col class="col2">
+        <col class="col3">
+        <col class="col4">
+        <col class="col5">
+        <col class="col6">
+        <col class="col7">
+        <tbody>
+          <tr class="row0">
+            <td class="column0 style2 s">Material</td>
+            <td class="column1 style2 s">Organism</td>
+            <td class="column2 style2 s">Sampler</td>
+            <td class="column3 style2 s">Log10 Recovery (Inoculation Control)</td>
+            <td class="column4 style2 s">Log10 Recovery (Test Sample)</td>
+            <td class="column5 style2 s">Delta Log Recovery</td>
+            <td class="column6 style2 s">Mean Delta Log Recovery</td>
+            <td class="column7 style2 s">Standard Deviation Log Recovery</td>
+          </tr>
+          <tr class="row1">
+            <td class="column0 style3 s style3" rowspan="9">Glass</td>
+            <td class="column1 style4 s">Serratia marcescens</td>
+            <td class="column2 style3 s">Solar Cult</td>
+            <td class="column3 style5 n">7.7279333359379</td>
+            <td class="column4 style8 n">6.368879770696</td>
+            <td class="column5 style8 f">1.3590535652419</td>
+            <td class="column6 style9 f style9" rowspan="9">2.1948407512223</td>
+            <td class="column7 style9 f style9" rowspan="9">0.81695527235285</td>
+          </tr>
+          <tr class="row2">
+            <td class="column1 style4 s">Escherichia coli</td>
+            <td class="column2 style3 s">3M</td>
+            <td class="column3 style6 n">7.7478498178752</td>
+            <td class="column4 style8 n">5.4735844071513</td>
+            <td class="column5 style8 f">2.2742654107239</td>
+          </tr>
+          <tr class="row3">
+            <td class="column1 style4 s">Escherichia coli</td>
+            <td class="column2 style7 s">LabPlas</td>
+            <td class="column3 style6 n">7.6808975419655</td>
+            <td class="column4 style8 n">6.1920608108699</td>
+            <td class="column5 style8 f">1.4888367310956</td>
+          </tr>
+          <tr class="row4">
+            <td class="column1 style4 s">Escherichia coli</td>
+            <td class="column2 style3 s">Solar Cult</td>
+            <td class="column3 style6 n">7.7563158187764</td>
+            <td class="column4 style8 n">5.7573990658023</td>
+            <td class="column5 style8 f">1.9989167529741</td>
+          </tr>
+          <tr class="row5">
+            <td class="column1 style4 s">Serratia marcescens</td>
+            <td class="column2 style3 s">3M</td>
+            <td class="column3 style5 n">7.734137875821</td>
+            <td class="column4 style8 n">5.398788791228</td>
+            <td class="column5 style8 f">2.335349084593</td>
+          </tr>
+          <tr class="row6">
+            <td class="column1 style4 s">Serratia marcescens</td>
+            <td class="column2 style7 s">LabPlas</td>
+            <td class="column3 style5 n">7.0677803416207</td>
+            <td class="column4 style8 n">4.0155141756081</td>
+            <td class="column5 style8 f">3.0522661660126</td>
+          </tr>
+          <tr class="row7">
+            <td class="column1 style4 s">Yersinia ruckeri</td>
+            <td class="column2 style3 s">3M</td>
+            <td class="column3 style5 n">7.7459990160891</td>
+            <td class="column4 style8 n">3.8075603533351</td>
+            <td class="column5 style8 f">3.9384386627541</td>
+          </tr>
+          <tr class="row8">
+            <td class="column1 style4 s">Yersinia ruckeri</td>
+            <td class="column2 style7 s">LabPlas</td>
+            <td class="column3 style5 n">7.569018642921</td>
+            <td class="column4 style8 n">5.4780161974767</td>
+            <td class="column5 style8 f">2.0910024454442</td>
+          </tr>
+          <tr class="row9">
+            <td class="column1 style4 s">Yersinia ruckeri</td>
+            <td class="column2 style3 s">Solar Cult</td>
+            <td class="column3 style5 n">7.5142009064726</td>
+            <td class="column4 style8 n">6.2987629643108</td>
+            <td class="column5 style8 f">1.2154379421618</td>
+          </tr>
+          <tr class="row10">
+            <td class="column0 style3 s style3" rowspan="9">ABS Plastic</td>
+            <td class="column1 style4 s">Serratia marcescens</td>
+            <td class="column2 style3 s">Solar Cult</td>
+            <td class="column3 style8 n">7.7279333359379</td>
+            <td class="column4 style8 n">6.6076096344422</td>
+            <td class="column5 style8 f">1.1203237014956</td>
+            <td class="column6 style9 f style9" rowspan="9">2.3342010174705</td>
+            <td class="column7 style9 f style9" rowspan="9">0.95997886544658</td>
+          </tr>
+          <tr class="row11">
+            <td class="column1 style4 s">Escherichia coli</td>
+            <td class="column2 style3 s">3M</td>
+            <td class="column3 style6 n">7.7913592434444</td>
+            <td class="column4 style8 n">4.7276205004394</td>
+            <td class="column5 style8 f">3.063738743005</td>
+          </tr>
+          <tr class="row12">
+            <td class="column1 style4 s">Escherichia coli</td>
+            <td class="column2 style7 s">LabPlas</td>
+            <td class="column3 style6 n">7.8437157121394</td>
+            <td class="column4 style8 n">5.763583851262</td>
+            <td class="column5 style8 f">2.0801318608773</td>
+          </tr>
+          <tr class="row13">
+            <td class="column1 style4 s">Escherichia coli</td>
+            <td class="column2 style3 s">Solar Cult</td>
+            <td class="column3 style6 n">7.7555971511134</td>
+            <td class="column4 style8 n">6.2561876940838</td>
+            <td class="column5 style8 f">1.4994094570296</td>
+          </tr>
+          <tr class="row14">
+            <td class="column1 style4 s">Serratia marcescens</td>
+            <td class="column2 style3 s">3M</td>
+            <td class="column3 style5 n">7.734137875821</td>
+            <td class="column4 style8 n">5.5751855902935</td>
+            <td class="column5 style8 f">2.1589522855275</td>
+          </tr>
+          <tr class="row15">
+            <td class="column1 style4 s">Serratia marcescens</td>
+            <td class="column2 style7 s">LabPlas</td>
+            <td class="column3 style5 n">7.0677803416207</td>
+            <td class="column4 style8 n">3.3805260868212</td>
+            <td class="column5 style8 f">3.6872542547995</td>
+          </tr>
+          <tr class="row16">
+            <td class="column1 style4 s">Yersinia ruckeri</td>
+            <td class="column2 style3 s">3M</td>
+            <td class="column3 style5 n">7.7459990160891</td>
+            <td class="column4 style8 n">3.8491109888651</td>
+            <td class="column5 style8 f">3.896888027224</td>
+          </tr>
+          <tr class="row17">
+            <td class="column1 style4 s">Yersinia ruckeri</td>
+            <td class="column2 style7 s">LabPlas</td>
+            <td class="column3 style5 n">7.569018642921</td>
+            <td class="column4 style8 n">5.2978179427817</td>
+            <td class="column5 style8 f">2.2712007001392</td>
+          </tr>
+          <tr class="row18">
+            <td class="column1 style4 s">Yersinia ruckeri</td>
+            <td class="column2 style3 s">Solar Cult</td>
+            <td class="column3 style5 n">7.5142009064726</td>
+            <td class="column4 style8 n">6.2842907793361</td>
+            <td class="column5 style8 f">1.2299101271365</td>
+          </tr>
+          <tr class="row19">
+            <td class="column0 style3 s style3" rowspan="9">Stainless Steel</td>
+            <td class="column1 style4 s">Serratia marcescens</td>
+            <td class="column2 style3 s">Solar Cult</td>
+            <td class="column3 style5 n">7.7279333359379</td>
+            <td class="column4 style8 n">6.151358604637</td>
+            <td class="column5 style8 f">1.5765747313008</td>
+            <td class="column6 style9 f style9" rowspan="9">2.3840674426465</td>
+            <td class="column7 style9 f style9" rowspan="9">0.83124040601255</td>
+          </tr>
+          <tr class="row20">
+            <td class="column1 style4 s">Yersinia ruckeri</td>
+            <td class="column2 style3 s">3M</td>
+            <td class="column3 style5 n">7.7459990160891</td>
+            <td class="column4 style8 n">3.7268956599751</td>
+            <td class="column5 style8 f">4.019103356114</td>
+          </tr>
+          <tr class="row21">
+            <td class="column1 style4 s">Escherichia coli</td>
+            <td class="column2 style3 s">3M</td>
+            <td class="column3 style6 n">7.8586225218418</td>
+            <td class="column4 style8 n">5.8302735864156</td>
+            <td class="column5 style8 f">2.0283489354262</td>
+          </tr>
+          <tr class="row22">
+            <td class="column1 style4 s">Escherichia coli</td>
+            <td class="column2 style7 s">LabPlas</td>
+            <td class="column3 style6 n">7.6308307617314</td>
+            <td class="column4 style8 n">4.8358716506462</td>
+            <td class="column5 style8 f">2.7949591110853</td>
+          </tr>
+          <tr class="row23">
+            <td class="column1 style4 s">Escherichia coli</td>
+            <td class="column2 style3 s">Solar Cult</td>
+            <td class="column3 style6 n">7.7737471845354</td>
+            <td class="column4 style8 n">6.0667390812675</td>
+            <td class="column5 style8 f">1.7070081032679</td>
+          </tr>
+          <tr class="row24">
+            <td class="column1 style4 s">Serratia marcescens</td>
+            <td class="column2 style3 s">3M</td>
+            <td class="column3 style5 n">7.734137875821</td>
+            <td class="column4 style8 n">4.9940976666016</td>
+            <td class="column5 style8 f">2.7400402092194</td>
+          </tr>
+          <tr class="row25">
+            <td class="column1 style4 s">Serratia marcescens</td>
+            <td class="column2 style7 s">LabPlas</td>
+            <td class="column3 style8 n">7.0677803416207</td>
+            <td class="column4 style8 n">3.9912496914535</td>
+            <td class="column5 style8 f">3.0765306501672</td>
+          </tr>
+          <tr class="row26">
+            <td class="column1 style4 s">Yersinia ruckeri</td>
+            <td class="column2 style7 s">LabPlas</td>
+            <td class="column3 style8 n">7.569018642921</td>
+            <td class="column4 style8 n">5.2008982396074</td>
+            <td class="column5 style8 f">2.3681204033136</td>
+          </tr>
+          <tr class="row27">
+            <td class="column1 style4 s">Yersinia ruckeri</td>
+            <td class="column2 style3 s">Solar Cult</td>
+            <td class="column3 style8 n">7.5142009064726</td>
+            <td class="column4 style8 n">6.3682794225482</td>
+            <td class="column5 style8 f">1.1459214839243</td>
+          </tr>
+        </tbody>
+    </table>
+  </body>
+</html>

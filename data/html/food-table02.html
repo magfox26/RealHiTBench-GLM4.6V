@@ -1,0 +1,532 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <meta name="generator" content="PhpSpreadsheet, https://github.com/PHPOffice/PhpSpreadsheet">
+      <meta name="author" content="yyuhhhh13" />
+      <meta name="company" content="Microsoft Corporation" />
+    <style type="text/css">
+      html { font-family:Calibri, Arial, Helvetica, sans-serif; font-size:11pt; background-color:white }
+      a.comment-indicator:hover + div.comment { background:#ffd; position:absolute; display:block; border:1px solid black; padding:0.5em }
+      a.comment-indicator { background:red; display:inline-block; border:1px solid black; width:0.5em; height:0.5em }
+      div.comment { display:none }
+      table { border-collapse:collapse; page-break-after:always }
+      .gridlines td { border:1px dotted black }
+      .gridlines th { border:1px dotted black }
+      .b { text-align:center }
+      .e { text-align:center }
+      .f { text-align:right }
+      .inlineStr { text-align:left }
+      .n { text-align:right }
+      .s { text-align:left }
+      td.style0 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style0 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style1 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style1 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style2 { vertical-align:top; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Arial'; font-size:8pt; background-color:white }
+      th.style2 { vertical-align:top; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Arial'; font-size:8pt; background-color:white }
+      td.style3 { vertical-align:top; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style3 { vertical-align:top; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style4 { vertical-align:top; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Arial'; font-size:8pt; background-color:white }
+      th.style4 { vertical-align:top; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Arial'; font-size:8pt; background-color:white }
+      td.style5 { vertical-align:top; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style5 { vertical-align:top; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style6 { vertical-align:top; text-align:center; border-bottom:none #000000; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:8pt; background-color:white }
+      th.style6 { vertical-align:top; text-align:center; border-bottom:none #000000; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:8pt; background-color:white }
+      td.style7 { vertical-align:top; text-align:center; border-bottom:none #000000; border-top:1px solid #000000 !important; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:8pt; background-color:white }
+      th.style7 { vertical-align:top; text-align:center; border-bottom:none #000000; border-top:1px solid #000000 !important; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:8pt; background-color:white }
+      td.style8 { vertical-align:top; border-bottom:none #000000; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style8 { vertical-align:top; border-bottom:none #000000; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style9 { vertical-align:top; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Arial'; font-size:8pt; background-color:white }
+      th.style9 { vertical-align:top; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Arial'; font-size:8pt; background-color:white }
+      td.style10 { vertical-align:top; border-bottom:none #000000; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style10 { vertical-align:top; border-bottom:none #000000; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style11 { vertical-align:top; text-align:right; padding-right:0px; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:1px solid #000000 !important; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:8pt; background-color:white }
+      th.style11 { vertical-align:top; text-align:right; padding-right:0px; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:1px solid #000000 !important; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:8pt; background-color:white }
+      td.style12 { vertical-align:top; text-align:right; padding-right:0px; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:8pt; background-color:white }
+      th.style12 { vertical-align:top; text-align:right; padding-right:0px; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:8pt; background-color:white }
+      td.style13 { vertical-align:top; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:8pt; background-color:white }
+      th.style13 { vertical-align:top; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:8pt; background-color:white }
+      td.style14 { vertical-align:top; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:1px solid #000000 !important; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:8pt; background-color:white }
+      th.style14 { vertical-align:top; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:1px solid #000000 !important; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:8pt; background-color:white }
+      td.style15 { vertical-align:top; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:1px solid #000000 !important; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:8pt; background-color:white }
+      th.style15 { vertical-align:top; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:1px solid #000000 !important; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:8pt; background-color:white }
+      td.style16 { vertical-align:top; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:8pt; background-color:white }
+      th.style16 { vertical-align:top; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:8pt; background-color:white }
+      td.style17 { vertical-align:top; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:none #000000; border-left:1px solid #000000 !important; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:8pt; background-color:white }
+      th.style17 { vertical-align:top; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:none #000000; border-left:1px solid #000000 !important; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:8pt; background-color:white }
+      td.style18 { vertical-align:top; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:8pt; background-color:white }
+      th.style18 { vertical-align:top; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:8pt; background-color:white }
+      td.style19 { vertical-align:top; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:1px solid #000000 !important; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style19 { vertical-align:top; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:1px solid #000000 !important; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style20 { vertical-align:top; text-align:right; padding-right:0px; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:8pt; background-color:white }
+      th.style20 { vertical-align:top; text-align:right; padding-right:0px; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:8pt; background-color:white }
+      td.style21 { vertical-align:top; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style21 { vertical-align:top; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style22 { vertical-align:top; text-align:center; border-bottom:none #000000; border-top:1px solid #000000 !important; border-left:none #000000; border-right:1px solid #000000 !important; color:#000000; font-family:'Arial'; font-size:8pt; background-color:white }
+      th.style22 { vertical-align:top; text-align:center; border-bottom:none #000000; border-top:1px solid #000000 !important; border-left:none #000000; border-right:1px solid #000000 !important; color:#000000; font-family:'Arial'; font-size:8pt; background-color:white }
+      td.style23 { vertical-align:top; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:none #000000; border-right:1px solid #000000 !important; color:#000000; font-family:'Arial'; font-size:8pt; background-color:white }
+      th.style23 { vertical-align:top; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:none #000000; border-right:1px solid #000000 !important; color:#000000; font-family:'Arial'; font-size:8pt; background-color:white }
+      td.style24 { vertical-align:top; text-align:right; padding-right:0px; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:1px solid #000000 !important; color:#000000; font-family:'Arial'; font-size:8pt; background-color:white }
+      th.style24 { vertical-align:top; text-align:right; padding-right:0px; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:1px solid #000000 !important; color:#000000; font-family:'Arial'; font-size:8pt; background-color:white }
+      td.style25 { vertical-align:top; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:1px solid #000000 !important; border-left:none #000000; border-right:1px solid #000000 !important; color:#000000; font-family:'Arial'; font-size:8pt; background-color:white }
+      th.style25 { vertical-align:top; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:1px solid #000000 !important; border-left:none #000000; border-right:1px solid #000000 !important; color:#000000; font-family:'Arial'; font-size:8pt; background-color:white }
+      td.style26 { vertical-align:top; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:1px solid #000000 !important; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:8pt; background-color:white }
+      th.style26 { vertical-align:top; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:1px solid #000000 !important; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:8pt; background-color:white }
+      td.style27 { vertical-align:top; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:1px solid #000000 !important; border-left:none #000000; border-right:1px solid #000000 !important; color:#000000; font-family:'Arial'; font-size:8pt; background-color:white }
+      th.style27 { vertical-align:top; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:1px solid #000000 !important; border-left:none #000000; border-right:1px solid #000000 !important; color:#000000; font-family:'Arial'; font-size:8pt; background-color:white }
+      td.style28 { vertical-align:top; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:8pt; background-color:white }
+      th.style28 { vertical-align:top; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:8pt; background-color:white }
+      td.style29 { vertical-align:top; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:1px solid #000000 !important; color:#000000; font-family:'Arial'; font-size:8pt; background-color:white }
+      th.style29 { vertical-align:top; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:1px solid #000000 !important; color:#000000; font-family:'Arial'; font-size:8pt; background-color:white }
+      td.style30 { vertical-align:top; text-align:right; padding-right:0px; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:8pt; background-color:white }
+      th.style30 { vertical-align:top; text-align:right; padding-right:0px; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:8pt; background-color:white }
+      td.style31 { vertical-align:top; text-align:right; padding-right:0px; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:1px solid #000000 !important; color:#000000; font-family:'Arial'; font-size:8pt; background-color:white }
+      th.style31 { vertical-align:top; text-align:right; padding-right:0px; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:1px solid #000000 !important; color:#000000; font-family:'Arial'; font-size:8pt; background-color:white }
+      table.sheet0 col.col0 { width:23.72222195pt }
+      table.sheet0 col.col1 { width:48.79999944pt }
+      table.sheet0 col.col2 { width:42.69999951pt }
+      table.sheet0 col.col3 { width:42.69999951pt }
+      table.sheet0 col.col4 { width:23.72222195pt }
+      table.sheet0 col.col5 { width:18.97777756pt }
+      table.sheet0 col.col6 { width:42.69999951pt }
+      table.sheet0 col.col7 { width:42.69999951pt }
+      table.sheet0 col.col8 { width:42.69999951pt }
+      table.sheet0 col.col9 { width:42.69999951pt }
+      table.sheet0 col.col10 { width:42.69999951pt }
+      table.sheet0 col.col11 { width:42.69999951pt }
+      table.sheet0 col.col12 { width:42.69999951pt }
+      table.sheet0 col.col13 { width:42.69999951pt }
+      table.sheet0 col.col14 { width:75.23333247pt }
+      table.sheet0 col.col15 { width:75.23333247pt }
+      table.sheet0 col.col16 { width:8.13333324pt }
+      table.sheet0 tr { height:15pt }
+      table.sheet0 tr.row0 { height:15pt }
+      table.sheet0 tr.row1 { height:50pt }
+      table.sheet0 tr.row2 { height:15pt }
+      table.sheet0 tr.row3 { height:15pt }
+      table.sheet0 tr.row4 { height:15pt }
+      table.sheet0 tr.row5 { height:15pt }
+      table.sheet0 tr.row6 { height:15pt }
+      table.sheet0 tr.row7 { height:15pt }
+      table.sheet0 tr.row8 { height:15pt }
+      table.sheet0 tr.row9 { height:15pt }
+      table.sheet0 tr.row10 { height:15pt }
+      table.sheet0 tr.row11 { height:15pt }
+      table.sheet0 tr.row12 { height:15pt }
+      table.sheet0 tr.row13 { height:15pt }
+      table.sheet0 tr.row14 { height:15pt }
+      table.sheet0 tr.row15 { height:15pt }
+      table.sheet0 tr.row16 { height:15pt }
+      table.sheet0 tr.row17 { height:15pt }
+      table.sheet0 tr.row18 { height:15pt }
+      table.sheet0 tr.row19 { height:15pt }
+      table.sheet0 tr.row20 { height:15pt }
+      table.sheet0 tr.row21 { height:15pt }
+    </style>
+  </head>
+
+  <body>
+<style>
+@page { margin-left: 0.75in; margin-right: 0.5in; margin-top: 1in; margin-bottom: 0.75in; }
+body { margin-left: 0.75in; margin-right: 0.5in; margin-top: 1in; margin-bottom: 0.75in; }
+</style>
+    <table border="0" cellpadding="0" cellspacing="0" id="sheet0" class="sheet0">
+        <col class="col0">
+        <col class="col1">
+        <col class="col2">
+        <col class="col3">
+        <col class="col4">
+        <col class="col5">
+        <col class="col6">
+        <col class="col7">
+        <col class="col8">
+        <col class="col9">
+        <col class="col10">
+        <col class="col11">
+        <col class="col12">
+        <col class="col13">
+        <col class="col14">
+        <col class="col15">
+        <col class="col16">
+        <tbody>
+          <tr class="row0">
+            <td class="column0 style2 s style8" colspan="2" rowspan="2">Year and qtr 1/</td>
+            <td class="column2 style4 s style5" colspan="4">Production 2/</td>
+            <td class="column6 style6 s"></td>
+            <td class="column7 style7 s"></td>
+            <td class="column8 style7 s"></td>
+            <td class="column9 style7 s"></td>
+            <td class="column10 style7 s"></td>
+            <td class="column11 style7 s"></td>
+            <td class="column12 style22 s"></td>
+            <td class="column13 style23 s style3" colspan="3">Per capita disappearance (pounds)</td>
+            <td class="column16">&nbsp;</td>
+          </tr>
+          <tr class="row1">
+            <td class="column2 style9 s">Commercial</td>
+            <td class="column3 style9 s">Farm</td>
+            <td class="column4 style9 s style10" colspan="2">Total</td>
+            <td class="column6 style11 s">Beginning stocks</td>
+            <td class="column7 style12 s">Imports 3/</td>
+            <td class="column8 style12 s">Total<br />
+supply 4/</td>
+            <td class="column9 style12 s">Exports 3/</td>
+            <td class="column10 style12 s">Ending stocks</td>
+            <td class="column11 style12 s">Total dis-<br />
+appearance<br />
+4/ 5/</td>
+            <td class="column12 style24 s">U.S. population 6/ (1,000 persons)</td>
+            <td class="column13 style25 s">Carcass weight</td>
+            <td class="column14 style9 s">Retail weight</td>
+            <td class="column15 style9 s">Boneless retail weight</td>
+            <td class="column16">&nbsp;</td>
+          </tr>
+          <tr class="row2">
+            <td class="column0 style13 n style17" rowspan="5">2020</td>
+            <td class="column1 style14 s">Q1 Jan-Mar</td>
+            <td class="column2 style15 n">6,931</td>
+            <td class="column3 style15 n">26</td>
+            <td class="column4 style15 n style15" colspan="2">6,957</td>
+            <td class="column6 style16 n">642</td>
+            <td class="column7 style16 n">774</td>
+            <td class="column8 style16 n">8,373</td>
+            <td class="column9 style16 n">769</td>
+            <td class="column10 style16 n">670</td>
+            <td class="column11 style16 n">6,934</td>
+            <td class="column12 style16 n">329,866</td>
+            <td class="column13 style26 n">21.0</td>
+            <td class="column14 style26 n">14.7</td>
+            <td class="column15 style27 n">14.1</td>
+            <td class="column16">&nbsp;</td>
+          </tr>
+          <tr class="row3">
+            <td class="column1 style18 s">Q2 Apr-Jun</td>
+            <td class="column2 style16 n">6,059</td>
+            <td class="column3 style16 n">9</td>
+            <td class="column4 style16 n style16" colspan="2">6,067</td>
+            <td class="column6 style16 n">670</td>
+            <td class="column7 style16 n">848</td>
+            <td class="column8 style16 n">7,585</td>
+            <td class="column9 style16 n">605</td>
+            <td class="column10 style16 n">573</td>
+            <td class="column11 style16 n">6,408</td>
+            <td class="column12 style16 n">331,715</td>
+            <td class="column13 style28 n">19.3</td>
+            <td class="column14 style28 n">13.5</td>
+            <td class="column15 style29 n">12.9</td>
+            <td class="column16">&nbsp;</td>
+          </tr>
+          <tr class="row4">
+            <td class="column1 style18 s">Q3 Jul-Sep</td>
+            <td class="column2 style16 n">7,115</td>
+            <td class="column3 style16 n">9</td>
+            <td class="column4 style16 n style16" colspan="2">7,124</td>
+            <td class="column6 style16 n">573</td>
+            <td class="column7 style16 n">1,025</td>
+            <td class="column8 style16 n">8,722</td>
+            <td class="column9 style16 n">759</td>
+            <td class="column10 style16 n">617</td>
+            <td class="column11 style16 n">7,346</td>
+            <td class="column12 style16 n">331,886</td>
+            <td class="column13 style28 n">22.1</td>
+            <td class="column14 style28 n">15.5</td>
+            <td class="column15 style29 n">14.8</td>
+            <td class="column16">&nbsp;</td>
+          </tr>
+          <tr class="row5">
+            <td class="column1 style18 s">Q4 Oct-Dec</td>
+            <td class="column2 style16 n">7,069</td>
+            <td class="column3 style16 n">26</td>
+            <td class="column4 style16 n style16" colspan="2">7,095</td>
+            <td class="column6 style16 n">617</td>
+            <td class="column7 style16 n">693</td>
+            <td class="column8 style16 n">8,405</td>
+            <td class="column9 style16 n">819</td>
+            <td class="column10 style16 n">716</td>
+            <td class="column11 style16 n">6,870</td>
+            <td class="column12 style16 n">332,209</td>
+            <td class="column13 style28 n">20.7</td>
+            <td class="column14 style28 n">14.5</td>
+            <td class="column15 style29 n">13.8</td>
+            <td class="column16">&nbsp;</td>
+          </tr>
+          <tr class="row6">
+            <td class="column1 style18 s">Yr Jan-Dec</td>
+            <td class="column2 style16 n">27,174</td>
+            <td class="column3 style16 n">70</td>
+            <td class="column4 style16 n style16" colspan="2">27,244</td>
+            <td class="column6 style16 n">642</td>
+            <td class="column7 style16 n">3,339</td>
+            <td class="column8 style16 n">31,225</td>
+            <td class="column9 style16 n">2,951</td>
+            <td class="column10 style16 n">716</td>
+            <td class="column11 style16 n">27,559</td>
+            <td class="column12 style16 n">331,419</td>
+            <td class="column13 style28 n">83.2</td>
+            <td class="column14 style28 n">58.2</td>
+            <td class="column15 style29 n">55.6</td>
+            <td class="column16">&nbsp;</td>
+          </tr>
+          <tr class="row7">
+            <td class="column0 style17 n style17" rowspan="5">2021</td>
+            <td class="column1 style18 s">Q1 Jan-Mar</td>
+            <td class="column2 style16 n">6,900</td>
+            <td class="column3 style16 n">26</td>
+            <td class="column4 style16 n style16" colspan="2">6,925</td>
+            <td class="column6 style16 n">716</td>
+            <td class="column7 style16 n">696</td>
+            <td class="column8 style16 n">8,337</td>
+            <td class="column9 style16 n">788</td>
+            <td class="column10 style16 n">645</td>
+            <td class="column11 style16 n">6,904</td>
+            <td class="column12 style16 n">332,005</td>
+            <td class="column13 style28 n">20.8</td>
+            <td class="column14 style28 n">14.6</td>
+            <td class="column15 style29 n">13.9</td>
+            <td class="column16">&nbsp;</td>
+          </tr>
+          <tr class="row8">
+            <td class="column1 style18 s">Q2 Apr-Jun</td>
+            <td class="column2 style16 n">6,963</td>
+            <td class="column3 style16 n">8</td>
+            <td class="column4 style16 n style16" colspan="2">6,972</td>
+            <td class="column6 style16 n">645</td>
+            <td class="column7 style16 n">865</td>
+            <td class="column8 style16 n">8,482</td>
+            <td class="column9 style16 n">875</td>
+            <td class="column10 style16 n">535</td>
+            <td class="column11 style16 n">7,072</td>
+            <td class="column12 style16 n">332,166</td>
+            <td class="column13 style28 n">21.3</td>
+            <td class="column14 style28 n">14.9</td>
+            <td class="column15 style29 n">14.2</td>
+            <td class="column16">&nbsp;</td>
+          </tr>
+          <tr class="row9">
+            <td class="column1 style18 s">Q3 Jul-Sep</td>
+            <td class="column2 style16 n">6,979</td>
+            <td class="column3 style16 n">8</td>
+            <td class="column4 style16 n style16" colspan="2">6,988</td>
+            <td class="column6 style16 n">535</td>
+            <td class="column7 style16 n">922</td>
+            <td class="column8 style16 n">8,445</td>
+            <td class="column9 style16 n">912</td>
+            <td class="column10 style16 n">585</td>
+            <td class="column11 style16 n">6,948</td>
+            <td class="column12 style16 n">332,497</td>
+            <td class="column13 style28 n">20.9</td>
+            <td class="column14 style28 n">14.6</td>
+            <td class="column15 style29 n">14.0</td>
+            <td class="column16">&nbsp;</td>
+          </tr>
+          <tr class="row10">
+            <td class="column1 style18 s">Q4 Oct-Dec</td>
+            <td class="column2 style16 n">7,106</td>
+            <td class="column3 style16 n">25</td>
+            <td class="column4 style16 n style16" colspan="2">7,131</td>
+            <td class="column6 style16 n">585</td>
+            <td class="column7 style16 n">861</td>
+            <td class="column8 style16 n">8,578</td>
+            <td class="column9 style16 n">853</td>
+            <td class="column10 style16 n">676</td>
+            <td class="column11 style16 n">7,049</td>
+            <td class="column12 style16 n">332,803</td>
+            <td class="column13 style28 n">21.2</td>
+            <td class="column14 style28 n">14.8</td>
+            <td class="column15 style29 n">14.2</td>
+            <td class="column16">&nbsp;</td>
+          </tr>
+          <tr class="row11">
+            <td class="column1 style18 s">Yr Jan-Dec</td>
+            <td class="column2 style16 n">27,948</td>
+            <td class="column3 style16 n">68</td>
+            <td class="column4 style16 n style16" colspan="2">28,016</td>
+            <td class="column6 style16 n">716</td>
+            <td class="column7 style16 n">3,345</td>
+            <td class="column8 style16 n">32,076</td>
+            <td class="column9 style16 n">3,428</td>
+            <td class="column10 style16 n">676</td>
+            <td class="column11 style16 n">27,973</td>
+            <td class="column12 style16 n">332,368</td>
+            <td class="column13 style28 n">84.2</td>
+            <td class="column14 style28 n">58.9</td>
+            <td class="column15 style29 n">56.3</td>
+            <td class="column16">&nbsp;</td>
+          </tr>
+          <tr class="row12">
+            <td class="column0 style17 n style17" rowspan="5">2022</td>
+            <td class="column1 style18 s">Q1 Jan-Mar</td>
+            <td class="column2 style16 n">7,023</td>
+            <td class="column3 style16 n">26</td>
+            <td class="column4 style16 n style16" colspan="2">7,049</td>
+            <td class="column6 style16 n">676</td>
+            <td class="column7 style16 n">985</td>
+            <td class="column8 style16 n">8,709</td>
+            <td class="column9 style16 n">843</td>
+            <td class="column10 style16 n">711</td>
+            <td class="column11 style16 n">7,155</td>
+            <td class="column12 style16 n">332,991</td>
+            <td class="column13 style28 n">21.5</td>
+            <td class="column14 style28 n">15.0</td>
+            <td class="column15 style29 n">14.4</td>
+            <td class="column16">&nbsp;</td>
+          </tr>
+          <tr class="row13">
+            <td class="column1 style18 s">Q2 Apr-Jun</td>
+            <td class="column2 style16 n">7,072</td>
+            <td class="column3 style16 n">8</td>
+            <td class="column4 style16 n style16" colspan="2">7,080</td>
+            <td class="column6 style16 n">711</td>
+            <td class="column7 style16 n">859</td>
+            <td class="column8 style16 n">8,650</td>
+            <td class="column9 style16 n">944</td>
+            <td class="column10 style16 n">686</td>
+            <td class="column11 style16 n">7,020</td>
+            <td class="column12 style16 n">333,321</td>
+            <td class="column13 style28 n">21.1</td>
+            <td class="column14 style28 n">14.7</td>
+            <td class="column15 style29 n">14.1</td>
+            <td class="column16">&nbsp;</td>
+          </tr>
+          <tr class="row14">
+            <td class="column1 style18 s">Q3 Jul-Sep</td>
+            <td class="column2 style16 n">7,144</td>
+            <td class="column3 style16 n">8</td>
+            <td class="column4 style16 n style16" colspan="2">7,152</td>
+            <td class="column6 style16 n">686</td>
+            <td class="column7 style16 n">797</td>
+            <td class="column8 style16 n">8,635</td>
+            <td class="column9 style16 n">912</td>
+            <td class="column10 style16 n">697</td>
+            <td class="column11 style16 n">7,027</td>
+            <td class="column12 style16 n">333,762</td>
+            <td class="column13 style28 n">21.1</td>
+            <td class="column14 style28 n">14.7</td>
+            <td class="column15 style29 n">14.1</td>
+            <td class="column16">&nbsp;</td>
+          </tr>
+          <tr class="row15">
+            <td class="column1 style18 s">Q4 Oct-Dec</td>
+            <td class="column2 style16 n">7,052</td>
+            <td class="column3 style16 n">25</td>
+            <td class="column4 style16 n style16" colspan="2">7,077</td>
+            <td class="column6 style16 n">697</td>
+            <td class="column7 style16 n">750</td>
+            <td class="column8 style16 n">8,523</td>
+            <td class="column9 style16 n">846</td>
+            <td class="column10 style16 n">723</td>
+            <td class="column11 style16 n">6,955</td>
+            <td class="column12 style16 n">334,201</td>
+            <td class="column13 style28 n">20.8</td>
+            <td class="column14 style28 n">14.6</td>
+            <td class="column15 style29 n">13.9</td>
+            <td class="column16">&nbsp;</td>
+          </tr>
+          <tr class="row16">
+            <td class="column1 style18 s">Yr Jan-Dec</td>
+            <td class="column2 style16 n">28,291</td>
+            <td class="column3 style16 n">68</td>
+            <td class="column4 style16 n style16" colspan="2">28,358</td>
+            <td class="column6 style16 n">676</td>
+            <td class="column7 style16 n">3,390</td>
+            <td class="column8 style16 n">32,424</td>
+            <td class="column9 style16 n">3,544</td>
+            <td class="column10 style16 n">723</td>
+            <td class="column11 style16 n">28,156</td>
+            <td class="column12 style16 n">333,569</td>
+            <td class="column13 style28 n">84.4</td>
+            <td class="column14 style28 n">59.1</td>
+            <td class="column15 style29 n">56.5</td>
+            <td class="column16">&nbsp;</td>
+          </tr>
+          <tr class="row17">
+            <td class="column0 style17 n style19" rowspan="5">2023</td>
+            <td class="column1 style18 s">Q1 Jan-Mar</td>
+            <td class="column2 style16 n">6,824</td>
+            <td class="column3 style16 n">25</td>
+            <td class="column4 style16 n style16" colspan="2">6,849</td>
+            <td class="column6 style16 n">723</td>
+            <td class="column7 style16 n">956</td>
+            <td class="column8 style16 n">8,529</td>
+            <td class="column9 style16 n">779</td>
+            <td class="column10 style16 n">634</td>
+            <td class="column11 style16 n">7,116</td>
+            <td class="column12 style16 n">334,547</td>
+            <td class="column13 style28 n">21.3</td>
+            <td class="column14 style28 n">14.9</td>
+            <td class="column15 style29 n">14.2</td>
+            <td class="column16">&nbsp;</td>
+          </tr>
+          <tr class="row18">
+            <td class="column1 style18 s">Q2 Apr-Jun</td>
+            <td class="column2 style16 n">6,712</td>
+            <td class="column3 style16 n">8</td>
+            <td class="column4 style16 n style16" colspan="2">6,720</td>
+            <td class="column6 style16 n">634</td>
+            <td class="column7 style16 n">901</td>
+            <td class="column8 style16 n">8,255</td>
+            <td class="column9 style16 n">807</td>
+            <td class="column10 style16 n">546</td>
+            <td class="column11 style16 n">6,903</td>
+            <td class="column12 style16 n">334,935</td>
+            <td class="column13 style28 n">20.6</td>
+            <td class="column14 style28 n">14.4</td>
+            <td class="column15 style29 n">13.8</td>
+            <td class="column16">&nbsp;</td>
+          </tr>
+          <tr class="row19">
+            <td class="column1 style18 s">Q3 Jul-Sep</td>
+            <td class="column2 style16 n">6,622</td>
+            <td class="column3 style16 n">8</td>
+            <td class="column4 style16 n style16" colspan="2">6,630</td>
+            <td class="column6 style16 n">546</td>
+            <td class="column7 style16 n">964</td>
+            <td class="column8 style16 n">8,140</td>
+            <td class="column9 style16 n">731</td>
+            <td class="column10 style16 n">558</td>
+            <td class="column11 style16 n">6,851</td>
+            <td class="column12 style16 n">335,430</td>
+            <td class="column13 style28 n">20.4</td>
+            <td class="column14 style28 n">14.3</td>
+            <td class="column15 style29 n">13.7</td>
+            <td class="column16">&nbsp;</td>
+          </tr>
+          <tr class="row20">
+            <td class="column1 style18 s">Q4 Oct-Dec</td>
+            <td class="column2 style16 n">6,810</td>
+            <td class="column3 style16 n">25</td>
+            <td class="column4 style16 n style16" colspan="2">6,835</td>
+            <td class="column6 style16 n">558</td>
+            <td class="column7 style16 n">903</td>
+            <td class="column8 style16 n">8,296</td>
+            <td class="column9 style16 n">722</td>
+            <td class="column10 style16 n">638</td>
+            <td class="column11 style16 n">6,937</td>
+            <td class="column12 style16 n">335,924</td>
+            <td class="column13 style28 n">20.6</td>
+            <td class="column14 style28 n">14.5</td>
+            <td class="column15 style29 n">13.8</td>
+            <td class="column16">&nbsp;</td>
+          </tr>
+          <tr class="row21">
+            <td class="column1 style12 s">Yr Jan-Dec</td>
+            <td class="column2 style20 n">26,967</td>
+            <td class="column3 style20 n">67</td>
+            <td class="column4 style20 n style21" colspan="2">27,034</td>
+            <td class="column6 style20 n">723</td>
+            <td class="column7 style20 n">3,725</td>
+            <td class="column8 style20 n">31,482</td>
+            <td class="column9 style20 n">3,038</td>
+            <td class="column10 style20 n">638</td>
+            <td class="column11 style20 n">27,807</td>
+            <td class="column12 style20 n">335,208</td>
+            <td class="column13 style30 n">83.0</td>
+            <td class="column14 style30 n">58.1</td>
+            <td class="column15 style31 n">55.5</td>
+            <td class="column16">&nbsp;</td>
+          </tr>
+        </tbody>
+    </table>
+  </body>
+</html>

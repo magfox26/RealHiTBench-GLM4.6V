@@ -1,0 +1,21 @@
+% Please add the following required packages to your document preamble:
+% \usepackage[table,xcdraw]{xcolor}
+% Beamer presentation requires \usepackage{colortbl} instead of \usepackage[table,xcdraw]{xcolor}
+\begin{table}[]
+\begin{tabular}{
+>{\columncolor[HTML]{FFFFFF}}l 
+>{\columncolor[HTML]{FFFFFF}}l 
+>{\columncolor[HTML]{FFFFFF}}l 
+>{\columncolor[HTML]{FFFFFF}}l 
+>{\columncolor[HTML]{FFFFFF}}l }
+\textbf{}            & \multicolumn{2}{c}{\cellcolor[HTML]{FFFFFF}\textbf{Exports of services (£m)}} & \multicolumn{2}{c}{\cellcolor[HTML]{FFFFFF}\textbf{Percentage of telecoms world total}} \\
+\textbf{Country}     & \textbf{2014}    & \multicolumn{1}{r}{\cellcolor[HTML]{FFFFFF}\textbf{2015}}  & \textbf{2014}             & \multicolumn{1}{r}{\cellcolor[HTML]{FFFFFF}\textbf{2015}}   \\
+Bahrain              & 61               & 47                                                         & \textit{0.9}              & \textit{0.7}                                                \\
+Kuwait               & 6                & 4                                                          & \textit{0.1}              & \textit{0.1}                                                \\
+Oman                 & 2                & 3                                                          & \textit{0.0}              & \textit{0.0}                                                \\
+Qatar                & 69               & 100                                                        & \textit{1.0}              & \textit{1.6}                                                \\
+Saudi Arabia         & 51               & 67                                                         & \textit{0.8}              & \textit{1.0}                                                \\
+UAE                  & 206              & 196                                                        & \textit{3.0}              & \textit{3.1}                                                \\
+\textbf{World total} & \textbf{6,779}   & \textbf{6,433}                                             & \textit{\textbf{100.0}}   & \textit{\textbf{100.0}}                                    
+\end{tabular}
+\end{table}

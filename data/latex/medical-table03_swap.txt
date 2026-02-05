@@ -1,0 +1,28 @@
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+\begin{table}[]
+\begin{tabular}{@{}llll@{}}
+\multicolumn{2}{c}{p75Atoh1-Cre} & \multicolumn{2}{c}{p75FL} \\
+\multicolumn{1}{c}{Familiar} & \multicolumn{1}{c}{Novel} & \multicolumn{1}{c}{Familiar} & \multicolumn{1}{c}{Novel} \\
+102 & 147 & 27 & 247 \\
+147 & 103 & 121 & 138 \\
+142 & 109 & 150 & 126 \\
+151 & 131 & 51 & 240 \\
+178 & 90 & 60 & 185 \\
+110 & 105 & 56 & 179 \\
+160 & 79 & 21 & 221 \\
+83 & 151 & 46 & 190 \\
+165 & 70 & 94 & 129 \\
+88 & 113 & 53 & 168 \\
+94 & 95 & 63 & 206 \\
+99 & 108 & 114 & 117 \\
+160 & 62 & 164 & 104 \\
+60 & 200 & 109 & 156 \\
+187 & 98 & 81 & 130 \\
+218 & 65 & 113 & 140 \\
+98 & 166 &  &  \\
+164 & 87 &  &  \\
+131 & 144 &  &  \\
+125 & 132 &  & 
+\end{tabular}
+\end{table}

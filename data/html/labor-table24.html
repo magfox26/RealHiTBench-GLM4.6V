@@ -1,0 +1,236 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <meta name="generator" content="PhpSpreadsheet, https://github.com/PHPOffice/PhpSpreadsheet">
+      <meta name="author" content="xiyan" />
+      <meta name="company" content="Microsoft Corporation" />
+    <style type="text/css">
+      html { font-family:Calibri, Arial, Helvetica, sans-serif; font-size:11pt; background-color:white }
+      a.comment-indicator:hover + div.comment { background:#ffd; position:absolute; display:block; border:1px solid black; padding:0.5em }
+      a.comment-indicator { background:red; display:inline-block; border:1px solid black; width:0.5em; height:0.5em }
+      div.comment { display:none }
+      table { border-collapse:collapse; page-break-after:always }
+      .gridlines td { border:1px dotted black }
+      .gridlines th { border:1px dotted black }
+      .b { text-align:center }
+      .e { text-align:center }
+      .f { text-align:right }
+      .inlineStr { text-align:left }
+      .n { text-align:right }
+      .s { text-align:left }
+      td.style0 { vertical-align:middle; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style0 { vertical-align:middle; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style1 { vertical-align:top; text-align:center; border-bottom:none #000000; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#FFFF00 }
+      th.style1 { vertical-align:top; text-align:center; border-bottom:none #000000; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#FFFF00 }
+      td.style2 { vertical-align:top; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#FFFF00 }
+      th.style2 { vertical-align:top; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#FFFF00 }
+      td.style3 { vertical-align:top; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#FFFF00 }
+      th.style3 { vertical-align:top; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#FFFF00 }
+      td.style4 { vertical-align:top; text-align:center; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#FFFF00 }
+      th.style4 { vertical-align:top; text-align:center; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#FFFF00 }
+      td.style5 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#BFBFBF }
+      th.style5 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#BFBFBF }
+      td.style6 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style6 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style7 { vertical-align:top; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#EF939E }
+      th.style7 { vertical-align:top; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#EF939E }
+      td.style8 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:10pt; background-color:#CFCFCF }
+      th.style8 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:10pt; background-color:#CFCFCF }
+      td.style9 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:10pt; background-color:#D9DCE1 }
+      th.style9 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:10pt; background-color:#D9DCE1 }
+      td.style10 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:10pt; background-color:#DAE3F4 }
+      th.style10 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:10pt; background-color:#DAE3F4 }
+      td.style11 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#CFCFCF }
+      th.style11 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#CFCFCF }
+      td.style12 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#D9DCE1 }
+      th.style12 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#D9DCE1 }
+      td.style13 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#DAE3F4 }
+      th.style13 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#DAE3F4 }
+      td.style14 { vertical-align:bottom; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#BFBFBF }
+      th.style14 { vertical-align:bottom; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#BFBFBF }
+      td.style15 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#00B050 }
+      th.style15 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#00B050 }
+      td.style16 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#0000FF; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style16 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#0000FF; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style17 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:10pt; background-color:#FBE5D5 }
+      th.style17 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:10pt; background-color:#FBE5D5 }
+      td.style18 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:10pt; background-color:#FCF1CC }
+      th.style18 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:10pt; background-color:#FCF1CC }
+      td.style19 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:10pt; background-color:#E3F1D9 }
+      th.style19 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:10pt; background-color:#E3F1D9 }
+      td.style20 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:10pt; background-color:#D5F2EF }
+      th.style20 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:10pt; background-color:#D5F2EF }
+      td.style21 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#FBE5D5 }
+      th.style21 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#FBE5D5 }
+      td.style22 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#FCF1CC }
+      th.style22 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#FCF1CC }
+      td.style23 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#E3F1D9 }
+      th.style23 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#E3F1D9 }
+      td.style24 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#D5F2EF }
+      th.style24 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#D5F2EF }
+      td.style25 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:10pt; background-color:white }
+      th.style25 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:10pt; background-color:white }
+      td.style26 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style26 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style27 { vertical-align:bottom; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style27 { vertical-align:bottom; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      table.sheet0 col.col0 { width:42pt }
+      table.sheet0 col.col1 { width:42pt }
+      table.sheet0 col.col2 { width:42pt }
+      table.sheet0 col.col3 { width:42pt }
+      table.sheet0 col.col4 { width:42pt }
+      table.sheet0 col.col5 { width:42pt }
+      table.sheet0 col.col6 { width:42pt }
+      table.sheet0 col.col7 { width:42pt }
+      table.sheet0 col.col8 { width:42pt }
+      table.sheet0 col.col9 { width:42pt }
+      table.sheet0 col.col10 { width:42pt }
+      table.sheet0 col.col11 { width:42pt }
+      table.sheet0 col.col12 { width:42pt }
+      table.sheet0 tr { height:15pt }
+    </style>
+  </head>
+
+  <body>
+<style>
+@page { margin-left: 0.75in; margin-right: 0.75in; margin-top: 1in; margin-bottom: 1in; }
+body { margin-left: 0.75in; margin-right: 0.75in; margin-top: 1in; margin-bottom: 1in; }
+</style>
+    <table border="0" cellpadding="0" cellspacing="0" id="sheet0" class="sheet0 gridlines">
+        <col class="col0">
+        <col class="col1">
+        <col class="col2">
+        <col class="col3">
+        <col class="col4">
+        <col class="col5">
+        <col class="col6">
+        <col class="col7">
+        <col class="col8">
+        <col class="col9">
+        <col class="col10">
+        <col class="col11">
+        <col class="col12">
+        <tbody>
+          <tr class="row0">
+            <td class="column0 style1 s style4" rowspan="3">No.</td>
+            <td class="column1 style2 s style2" rowspan="3">Emp ID.</td>
+            <td class="column2 style2 s style2" rowspan="3">Name</td>
+            <td class="column3 style2 s style2" rowspan="3">Position</td>
+            <td class="column4 style7 s style7" rowspan="3">Class Room</td>
+            <td class="column5 style7 s style7" colspan="8">E-Learning</td>
+          </tr>
+          <tr class="row1">
+            <td class="column5 style8 s">Check-in</td>
+            <td class="column6 style9 s">Foundations</td>
+            <td class="column7 style10 s">Our Brand</td>
+            <td class="column8 style17 s">Welcome SPG</td>
+            <td class="column9 style18 s">Be memorable</td>
+            <td class="column10 style19 s">Impact</td>
+            <td class="column11 style20 s">Recover</td>
+            <td class="column12 style25 s">LSC</td>
+          </tr>
+          <tr class="row2">
+            <td class="column5 style11 s">15 min.</td>
+            <td class="column6 style12 s">15 min.</td>
+            <td class="column7 style13 s">15 min.</td>
+            <td class="column8 style21 s">15 min.</td>
+            <td class="column9 style22 s">15 min.</td>
+            <td class="column10 style23 s">15 min.</td>
+            <td class="column11 style24 s">15 min.</td>
+            <td class="column12 style26 s">2.5hrs</td>
+          </tr>
+          <tr class="row3">
+            <td class="column0 style5 s">Finance</td>
+            <td class="column1 style5 null"></td>
+            <td class="column2 style5 null"></td>
+            <td class="column3 style5 null"></td>
+            <td class="column4 style5 null"></td>
+            <td class="column5 style14 null"></td>
+            <td class="column6 style14 null"></td>
+            <td class="column7 style14 null"></td>
+            <td class="column8 style14 null"></td>
+            <td class="column9 style14 null"></td>
+            <td class="column10 style14 null"></td>
+            <td class="column11 style14 null"></td>
+            <td class="column12 style14 null"></td>
+          </tr>
+          <tr class="row4">
+            <td class="column0 style6 n">3</td>
+            <td class="column1 style6 n">214017</td>
+            <td class="column2 style6 s">Alfred Adams</td>
+            <td class="column3 style6 s">Accounting Executive</td>
+            <td class="column4 style15 s"></td>
+            <td class="column5 style16 s">Done</td>
+            <td class="column6 style16 s">In Progress</td>
+            <td class="column7 style16 s">Done</td>
+            <td class="column8 style16 s">In Progress</td>
+            <td class="column9 style16 s">In Progress</td>
+            <td class="column10 style16 s">Done</td>
+            <td class="column11 style16 s">Done</td>
+            <td class="column12 style27 null"></td>
+          </tr>
+          <tr class="row5">
+            <td class="column0 style6 n">4</td>
+            <td class="column1 style6 n">214040</td>
+            <td class="column2 style6 s">Bill Billings</td>
+            <td class="column3 style6 s">Income Auditor</td>
+            <td class="column4 style15 s"></td>
+            <td class="column5 style16 s">In Progress</td>
+            <td class="column6 style16 s">In Progress</td>
+            <td class="column7 style16 s">In Progress</td>
+            <td class="column8 style16 s">In Progress</td>
+            <td class="column9 style16 s">In Progress</td>
+            <td class="column10 style16 s">In Progress</td>
+            <td class="column11 style16 s">Done</td>
+            <td class="column12 style27 null"></td>
+          </tr>
+          <tr class="row6">
+            <td class="column0 style6 n">5</td>
+            <td class="column1 style6 n">213108</td>
+            <td class="column2 style6 s">Charlie Cadsworth</td>
+            <td class="column3 style6 s">Secretary to the Director of Finance</td>
+            <td class="column4 style15 s">Done</td>
+            <td class="column5 style16 s">Done</td>
+            <td class="column6 style16 s">Done</td>
+            <td class="column7 style16 s">Done</td>
+            <td class="column8 style16 s">In Progress</td>
+            <td class="column9 style16 s">Done</td>
+            <td class="column10 style16 s">Done</td>
+            <td class="column11 style16 s">Done</td>
+            <td class="column12 style27 null"></td>
+          </tr>
+          <tr class="row7">
+            <td class="column0 style6 n">6</td>
+            <td class="column1 style6 n">210021</td>
+            <td class="column2 style6 s">David Donesbury</td>
+            <td class="column3 style6 s">Paymaster/General Cashier</td>
+            <td class="column4 style15 s"></td>
+            <td class="column5 style16 s">Done</td>
+            <td class="column6 style16 s">Done</td>
+            <td class="column7 style16 s">Done</td>
+            <td class="column8 style16 s">In Progress</td>
+            <td class="column9 style16 s">Done</td>
+            <td class="column10 style16 s">Done</td>
+            <td class="column11 style16 s">Done</td>
+            <td class="column12 style27 null"></td>
+          </tr>
+          <tr class="row8">
+            <td class="column0 style6 n">7</td>
+            <td class="column1 style6 n">214039</td>
+            <td class="column2 style6 s">Edward Edwins</td>
+            <td class="column3 style6 s">Accountant</td>
+            <td class="column4 style15 s"></td>
+            <td class="column5 style16 s">Done</td>
+            <td class="column6 style16 s">Done</td>
+            <td class="column7 style16 s">Done</td>
+            <td class="column8 style16 s">In Progress</td>
+            <td class="column9 style16 s">Done</td>
+            <td class="column10 style16 s">Done</td>
+            <td class="column11 style16 s">Done</td>
+            <td class="column12 style27 null"></td>
+          </tr>
+        </tbody>
+    </table>
+  </body>
+</html>

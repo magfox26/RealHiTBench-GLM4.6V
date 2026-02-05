@@ -1,0 +1,25 @@
+% Please add the following required packages to your document preamble:
+% \usepackage[table,xcdraw]{xcolor}
+% Beamer presentation requires \usepackage{colortbl} instead of \usepackage[table,xcdraw]{xcolor}
+\begin{table}[]
+\begin{tabular}{cccccc}
+\rowcolor[HTML]{E7E6E6} 
+\multicolumn{1}{l}{\cellcolor[HTML]{E7E6E6}\textbf{(a) 30-min}} & \multicolumn{5}{c}{\cellcolor[HTML]{E7E6E6}\textbf{Pearson correlation coefficients}}                            \\
+\textbf{PAR}                                                    & 0.90                 &                      &                      &                      &                      \\
+\textbf{Ta}                                                     & 0.53                 & 0.49                 &                      &                      &                      \\
+\textbf{VPD}                                                    & 0.77                 & 0.73                 & 0.71                 &                      &                      \\
+\textbf{Sal}                                                    & -0.09                & N.S.                 & -0.26                & -0.05                &                      \\
+\textbf{WL}                                                     & 0.10                 & 0.06                 & N.S.                 & 0.14                 & 0.21                 \\
+                                                                & \textbf{ET}          & \textbf{PAR}         & \textbf{Ta}          & \textbf{VPD}         & \textbf{Sal}         \\
+                                                                & \textbf{}            & \textbf{}            & \textbf{}            & \textbf{}            & \textbf{}            \\
+\multicolumn{1}{l}{}                                            & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} \\
+\rowcolor[HTML]{E7E6E6} 
+\multicolumn{1}{l}{\cellcolor[HTML]{E7E6E6}\textbf{(a) 30-min}} & \multicolumn{5}{c}{\cellcolor[HTML]{E7E6E6}\textbf{Statistical significance (p-value)}}                          \\
+\textbf{PAR}                                                    & 0.00                 &                      &                      &                      &                      \\
+\textbf{Ta}                                                     & 0.00                 & 0.00                 &                      &                      &                      \\
+\textbf{VPD}                                                    & 0.00                 & 0.00                 & 0.00                 &                      &                      \\
+\textbf{Sal}                                                    & 0.00                 & 0.10                 & 0.00                 & 0.00                 &                      \\
+\textbf{WL}                                                     & 0.00                 & 0.00                 & 0.56                 & 0.00                 & 0.00                 \\
+                                                                & \textbf{ET}          & \textbf{PAR}         & \textbf{Ta}          & \textbf{VPD}         & \textbf{Sal}        
+\end{tabular}
+\end{table}

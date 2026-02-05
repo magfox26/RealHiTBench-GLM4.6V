@@ -1,0 +1,18 @@
+% Please add the following required packages to your document preamble:
+% \usepackage{multirow}
+\begin{table}[]
+\begin{tabular}{clccccc}
+\multicolumn{1}{l}{\multirow{2}{*}{\textbf{End Use}}}     & \multirow{2}{*}{\textbf{Source of Water}} & \textbf{Norovirus} & \textbf{Cryptosporidium} & \textbf{Giardia} & \textbf{Campylobacter} & \textbf{Salmonella} \\
+\multicolumn{1}{l}{}                                      &                                           & \textbf{LRTINF}    & \textbf{LRTINF}          & \textbf{LRTINF}  & \textbf{LRTINF}        & \textbf{LRTINF}     \\
+\multirow{5}{*}{Unrestricted access landscape irrigation} & Untreated municipal wastewater            & 8.0                & 4.5                      & 3.5              & 4.5                    & 3.5                 \\
+                                                          & Untreated onsite wastewater               & 8.5                & 5.0                      & 4.0              & 5.5                    & 1.5                 \\
+                                                          & Graywater                                 & 6.5                & 2.5                      & 1.5              & 3.5                    & 0.0                 \\
+                                                          & Stormwater (10\% wastewater)              & 7.0                & 3.5                      & 2.5              & 3.5                    & 2.5                 \\
+                                                          & Roof runoff 1                             & n/a                & NSD                      & 0.0              & 3.0                    & 1.5                 \\
+\multirow{5}{*}{Indoor non-potable use}                   & Untreated municipal wastewater            & 8.5                & 5.5                      & 4.5              & 5.5                    & 4.5                 \\
+                                                          & Untreated onsite wastewater               & 9.5                & 5.0                      & 4.5              & 5.5                    & 2.0                 \\
+                                                          & Graywater                                 & 7.0                & 2.5                      & 2.0              & 3.5                    & 0.0                 \\
+                                                          & Stormwater (10\% wastewater)              & 7.5                & 4.5                      & 3.5              & 4.5                    & 3.5                 \\
+                                                          & Roof runoff 1                             & n/a                & NSD                      & 0.0              & 3.0                    & 1.5                
+\end{tabular}
+\end{table}

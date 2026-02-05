@@ -1,0 +1,489 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <meta name="generator" content="PhpSpreadsheet, https://github.com/PHPOffice/PhpSpreadsheet">
+      <meta name="author" content="mac" />
+      <meta name="company" content="Microsoft Corporation" />
+    <style type="text/css">
+      html { font-family:Calibri, Arial, Helvetica, sans-serif; font-size:11pt; background-color:white }
+      a.comment-indicator:hover + div.comment { background:#ffd; position:absolute; display:block; border:1px solid black; padding:0.5em }
+      a.comment-indicator { background:red; display:inline-block; border:1px solid black; width:0.5em; height:0.5em }
+      div.comment { display:none }
+      table { border-collapse:collapse; page-break-after:always }
+      .gridlines td { border:1px dotted black }
+      .gridlines th { border:1px dotted black }
+      .b { text-align:center }
+      .e { text-align:center }
+      .f { text-align:right }
+      .inlineStr { text-align:left }
+      .n { text-align:right }
+      .s { text-align:left }
+      td.style0 { vertical-align:middle; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style0 { vertical-align:middle; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style1 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#FFFFFF; font-family:'Calibri'; font-size:11pt; background-color:#31849B }
+      th.style1 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#FFFFFF; font-family:'Calibri'; font-size:11pt; background-color:#31849B }
+      td.style2 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#FFFFFF; font-family:'Calibri'; font-size:11pt; background-color:#31849B }
+      th.style2 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#FFFFFF; font-family:'Calibri'; font-size:11pt; background-color:#31849B }
+      td.style3 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+      th.style3 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+      td.style4 { vertical-align:bottom; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+      th.style4 { vertical-align:bottom; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+      td.style5 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+      th.style5 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+      td.style6 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+      th.style6 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+      td.style7 { vertical-align:top; text-align:left; padding-left:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+      th.style7 { vertical-align:top; text-align:left; padding-left:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+      table.sheet0 col.col0 { width:98.95555442pt }
+      table.sheet0 col.col1 { width:106.41110989pt }
+      table.sheet0 col.col2 { width:42pt }
+      table.sheet0 tr { height:15pt }
+    </style>
+  </head>
+
+  <body>
+<style>
+@page { margin-left: 0.75in; margin-right: 0.75in; margin-top: 1in; margin-bottom: 1in; }
+body { margin-left: 0.75in; margin-right: 0.75in; margin-top: 1in; margin-bottom: 1in; }
+</style>
+    <table border="0" cellpadding="0" cellspacing="0" id="sheet0" class="sheet0 gridlines">
+        <col class="col0">
+        <col class="col1">
+        <col class="col2">
+        <tbody>
+          <tr class="row0">
+            <td class="column0 style1 s">Category Name</td>
+            <td class="column1 style1 s">Menu Item Name</td>
+            <td class="column2 style2 s">Price</td>
+          </tr>
+          <tr class="row1">
+            <td class="column0 style3 s style6" rowspan="5">Lunch Specials</td>
+            <td class="column1 style4 s">Lunch Special 1</td>
+            <td class="column2 style4 n">10.95</td>
+          </tr>
+          <tr class="row2">
+            <td class="column1 style4 s">Lunch Special 2</td>
+            <td class="column2 style4 n">10.95</td>
+          </tr>
+          <tr class="row3">
+            <td class="column1 style4 s">Lunch Special 3</td>
+            <td class="column2 style4 n">10.95</td>
+          </tr>
+          <tr class="row4">
+            <td class="column1 style4 s">Lunch Special 4</td>
+            <td class="column2 style4 n">10.95</td>
+          </tr>
+          <tr class="row5">
+            <td class="column1 style4 s">Lunch Special 5</td>
+            <td class="column2 style4 n">10.95</td>
+          </tr>
+          <tr class="row6">
+            <td class="column0 style3 s style6" rowspan="11">Beverages</td>
+            <td class="column1 style4 s">Juice: Cranberry</td>
+            <td class="column2 style4 n">2.00</td>
+          </tr>
+          <tr class="row7">
+            <td class="column1 style4 s">Juice: Orange</td>
+            <td class="column2 style4 n">2.00</td>
+          </tr>
+          <tr class="row8">
+            <td class="column1 style4 s">Juice: Apple</td>
+            <td class="column2 style4 n">2.00</td>
+          </tr>
+          <tr class="row9">
+            <td class="column1 style4 s">Tea: Herbal</td>
+            <td class="column2 style4 n">2.00</td>
+          </tr>
+          <tr class="row10">
+            <td class="column1 style4 s">Tea: Turkish</td>
+            <td class="column2 style4 n">2.00</td>
+          </tr>
+          <tr class="row11">
+            <td class="column1 style4 s">Soda: Regular</td>
+            <td class="column2 style4 n">1.50</td>
+          </tr>
+          <tr class="row12">
+            <td class="column1 style4 s">Soda: Diet</td>
+            <td class="column2 style4 n">1.50</td>
+          </tr>
+          <tr class="row13">
+            <td class="column1 style4 s">Coffee</td>
+            <td class="column2 style4 n">2.00</td>
+          </tr>
+          <tr class="row14">
+            <td class="column1 style4 s">Coffee: Decaf</td>
+            <td class="column2 style4 n">2.00</td>
+          </tr>
+          <tr class="row15">
+            <td class="column1 style4 s">Coffee: Turkish</td>
+            <td class="column2 style4 n">2.50</td>
+          </tr>
+          <tr class="row16">
+            <td class="column1 style4 s">Hot Chocolate</td>
+            <td class="column2 style4 n">2.50</td>
+          </tr>
+          <tr class="row17">
+            <td class="column0 style3 s style6" rowspan="2">Soups &amp; Salads</td>
+            <td class="column1 style4 s">Red Lentile Soup</td>
+            <td class="column2 style4 n">4.00</td>
+          </tr>
+          <tr class="row18">
+            <td class="column1 style4 s">Chicken Soup</td>
+            <td class="column2 style4 n">4.00</td>
+          </tr>
+          <tr class="row19">
+            <td class="column0 style3 s style6" rowspan="18">Appetizers</td>
+            <td class="column1 style4 s">Hummus</td>
+            <td class="column2 style4 n">4.95</td>
+          </tr>
+          <tr class="row20">
+            <td class="column1 style4 s">Mashed Veggies</td>
+            <td class="column2 style4 n">4.95</td>
+          </tr>
+          <tr class="row21">
+            <td class="column1 style4 s">Babagannush</td>
+            <td class="column2 style4 n">4.95</td>
+          </tr>
+          <tr class="row22">
+            <td class="column1 style4 s">Stuffed Grape Leaves</td>
+            <td class="column2 style4 n">4.95</td>
+          </tr>
+          <tr class="row23">
+            <td class="column1 style4 s">App: String Beans</td>
+            <td class="column2 style4 n">4.95</td>
+          </tr>
+          <tr class="row24">
+            <td class="column1 style4 s">White Beans</td>
+            <td class="column2 style4 n">4.95</td>
+          </tr>
+          <tr class="row25">
+            <td class="column1 style4 s">Eggplant Salad</td>
+            <td class="column2 style4 n">4.95</td>
+          </tr>
+          <tr class="row26">
+            <td class="column1 style4 s">App: Spinach Stew</td>
+            <td class="column2 style4 n">4.95</td>
+          </tr>
+          <tr class="row27">
+            <td class="column1 style4 s">Cacik</td>
+            <td class="column2 style4 n">4.95</td>
+          </tr>
+          <tr class="row28">
+            <td class="column1 style4 s">Cold Hot Combo</td>
+            <td class="column2 style4 n">24.95</td>
+          </tr>
+          <tr class="row29">
+            <td class="column1 style4 s">Cold Combo Lg</td>
+            <td class="column2 style4 n">19.95</td>
+          </tr>
+          <tr class="row30">
+            <td class="column1 style4 s">Cold Combo Sm</td>
+            <td class="column2 style4 n">15.95</td>
+          </tr>
+          <tr class="row31">
+            <td class="column1 style4 s">Veal Liver</td>
+            <td class="column2 style4 n">7.95</td>
+          </tr>
+          <tr class="row32">
+            <td class="column1 style4 s">Falafel</td>
+            <td class="column2 style4 n">6.95</td>
+          </tr>
+          <tr class="row33">
+            <td class="column1 style4 s">Feta Cheese</td>
+            <td class="column2 style4 n">6.95</td>
+          </tr>
+          <tr class="row34">
+            <td class="column1 style4 s">Spinach Pie</td>
+            <td class="column2 style4 n">6.95</td>
+          </tr>
+          <tr class="row35">
+            <td class="column1 style4 s">Fried Calamari</td>
+            <td class="column2 style4 n">8.95</td>
+          </tr>
+          <tr class="row36">
+            <td class="column1 style4 s">Zucchini Pancakes</td>
+            <td class="column2 style4 n">6.95</td>
+          </tr>
+          <tr class="row37">
+            <td class="column0 style3 s style6" rowspan="8">Soups &amp; Salads</td>
+            <td class="column1 style4 s">Salad: Shepherd Sm</td>
+            <td class="column2 style4 n">6.95</td>
+          </tr>
+          <tr class="row38">
+            <td class="column1 style4 s">Salad: Shepherd Lg</td>
+            <td class="column2 style4 n">8.95</td>
+          </tr>
+          <tr class="row39">
+            <td class="column1 style4 s">Salad: Season Sm</td>
+            <td class="column2 style4 n">6.95</td>
+          </tr>
+          <tr class="row40">
+            <td class="column1 style4 s">Salad: Season Lg</td>
+            <td class="column2 style4 n">8.95</td>
+          </tr>
+          <tr class="row41">
+            <td class="column1 style4 s">Salad: Garden Sm</td>
+            <td class="column2 style4 n">6.95</td>
+          </tr>
+          <tr class="row42">
+            <td class="column1 style4 s">Salad: Garden Lg</td>
+            <td class="column2 style4 n">8.95</td>
+          </tr>
+          <tr class="row43">
+            <td class="column1 style4 s">Salad: Caesar Sm</td>
+            <td class="column2 style4 n">6.95</td>
+          </tr>
+          <tr class="row44">
+            <td class="column1 style4 s">Salad: Caesar Lg</td>
+            <td class="column2 style4 n">8.95</td>
+          </tr>
+          <tr class="row45">
+            <td class="column0 style3 s style6" rowspan="11">Main Courses</td>
+            <td class="column1 style4 s">Kebab: Shish</td>
+            <td class="column2 style4 n">17.95</td>
+          </tr>
+          <tr class="row46">
+            <td class="column1 style4 s">Kebab: Chicken</td>
+            <td class="column2 style4 n">14.95</td>
+          </tr>
+          <tr class="row47">
+            <td class="column1 style4 s">Kebab: House Combo</td>
+            <td class="column2 style4 n">29.95</td>
+          </tr>
+          <tr class="row48">
+            <td class="column1 style4 s">Kebab: Adana</td>
+            <td class="column2 style4 n">14.95</td>
+          </tr>
+          <tr class="row49">
+            <td class="column1 style4 s">Burger: Lamb</td>
+            <td class="column2 style4 n">14.95</td>
+          </tr>
+          <tr class="row50">
+            <td class="column1 style4 s">Burger: Chicken</td>
+            <td class="column2 style4 n">14.95</td>
+          </tr>
+          <tr class="row51">
+            <td class="column1 style4 s">Lamb Chops</td>
+            <td class="column2 style4 n">22.95</td>
+          </tr>
+          <tr class="row52">
+            <td class="column1 style4 s">Gyro: Chicken</td>
+            <td class="column2 style4 n">14.95</td>
+          </tr>
+          <tr class="row53">
+            <td class="column1 style4 s">Gyro: Lamb</td>
+            <td class="column2 style4 n">14.95</td>
+          </tr>
+          <tr class="row54">
+            <td class="column1 style4 s">Chicken Breast</td>
+            <td class="column2 style4 n">14.95</td>
+          </tr>
+          <tr class="row55">
+            <td class="column1 style4 s">Chicken Adana</td>
+            <td class="column2 style4 n">14.95</td>
+          </tr>
+          <tr class="row56">
+            <td class="column0 style3 s style6" rowspan="6">Kebabs &amp; Yogurt</td>
+            <td class="column1 style4 s">Gyro: Lamb &amp; Yog</td>
+            <td class="column2 style4 n">16.95</td>
+          </tr>
+          <tr class="row57">
+            <td class="column1 style4 s">Gyro: Chicken &amp; Yog</td>
+            <td class="column2 style4 n">16.95</td>
+          </tr>
+          <tr class="row58">
+            <td class="column1 style4 s">Kebab: Adana &amp; Yog</td>
+            <td class="column2 style4 n">16.95</td>
+          </tr>
+          <tr class="row59">
+            <td class="column1 style4 s">Kebab: Shish &amp; Yog</td>
+            <td class="column2 style4 n">16.95</td>
+          </tr>
+          <tr class="row60">
+            <td class="column1 style4 s">Kebab: Chicken &amp; Yog</td>
+            <td class="column2 style4 n">16.95</td>
+          </tr>
+          <tr class="row61">
+            <td class="column1 style4 s">Kebab: Chkn Adana &amp; Yog</td>
+            <td class="column2 style4 n">16.95</td>
+          </tr>
+          <tr class="row62">
+            <td class="column0 style3 s style6" rowspan="4">Seafood</td>
+            <td class="column1 style4 s">Stripe Bass</td>
+            <td class="column2 style4 n">21.95</td>
+          </tr>
+          <tr class="row63">
+            <td class="column1 style4 s">Salmon</td>
+            <td class="column2 style4 n">21.95</td>
+          </tr>
+          <tr class="row64">
+            <td class="column1 style4 s">Orata</td>
+            <td class="column2 style4 n">21.95</td>
+          </tr>
+          <tr class="row65">
+            <td class="column1 style4 s">Tilapia</td>
+            <td class="column2 style4 n">21.95</td>
+          </tr>
+          <tr class="row66">
+            <td class="column0 style3 s style6" rowspan="8">Traditional Dishes</td>
+            <td class="column1 style4 s">Stuffed Cabbage</td>
+            <td class="column2 style4 n">16.95</td>
+          </tr>
+          <tr class="row67">
+            <td class="column1 style4 s">Baby Okra w/ Lamb</td>
+            <td class="column2 style4 n">14.95</td>
+          </tr>
+          <tr class="row68">
+            <td class="column1 style4 s">Baby Okra w/ Chicken</td>
+            <td class="column2 style4 n">14.95</td>
+          </tr>
+          <tr class="row69">
+            <td class="column1 style4 s">String Beans w/ Chicken</td>
+            <td class="column2 style4 n">14.95</td>
+          </tr>
+          <tr class="row70">
+            <td class="column1 style4 s">Spinach Stew</td>
+            <td class="column2 style4 n">13.95</td>
+          </tr>
+          <tr class="row71">
+            <td class="column1 style4 s">Baby Okra</td>
+            <td class="column2 style4 n">13.95</td>
+          </tr>
+          <tr class="row72">
+            <td class="column1 style4 s">Veggie Grill</td>
+            <td class="column2 style4 n">15.95</td>
+          </tr>
+          <tr class="row73">
+            <td class="column1 style4 s">String Beans</td>
+            <td class="column2 style4 n">13.95</td>
+          </tr>
+          <tr class="row74">
+            <td class="column0 style3 s style6" rowspan="10">Kids Menu</td>
+            <td class="column1 style4 s">Kids: Lamb Burger</td>
+            <td class="column2 style4 n">9.95</td>
+          </tr>
+          <tr class="row75">
+            <td class="column1 style4 s">Kids: Chicken Kebab</td>
+            <td class="column2 style4 n">9.95</td>
+          </tr>
+          <tr class="row76">
+            <td class="column1 style4 s">Kids: Chicken Breast</td>
+            <td class="column2 style4 n">9.95</td>
+          </tr>
+          <tr class="row77">
+            <td class="column1 style4 s">Kids: French Fries Lg</td>
+            <td class="column2 style4 n">4.95</td>
+          </tr>
+          <tr class="row78">
+            <td class="column1 style4 s">Kids: Mozz Sticks</td>
+            <td class="column2 style4 n">9.95</td>
+          </tr>
+          <tr class="row79">
+            <td class="column1 style4 s">Kids: Lamb Gyro</td>
+            <td class="column2 style4 n">9.95</td>
+          </tr>
+          <tr class="row80">
+            <td class="column1 style4 s">Kids: Chicken Gyro</td>
+            <td class="column2 style4 n">9.95</td>
+          </tr>
+          <tr class="row81">
+            <td class="column1 style4 s">Kids: French Fries Sm</td>
+            <td class="column2 style4 n">2.95</td>
+          </tr>
+          <tr class="row82">
+            <td class="column1 style4 s">Kids: Chicken Fingers</td>
+            <td class="column2 style4 n">9.95</td>
+          </tr>
+          <tr class="row83">
+            <td class="column1 style4 s">Kids: Tilapia</td>
+            <td class="column2 style4 n">9.95</td>
+          </tr>
+          <tr class="row84">
+            <td class="column0 style3 s style6" rowspan="7">Wraps</td>
+            <td class="column1 style4 s">Lamb Gyro Wrap</td>
+            <td class="column2 style4 n">6.00</td>
+          </tr>
+          <tr class="row85">
+            <td class="column1 style4 s">Chicken Kebab Wrap</td>
+            <td class="column2 style4 n">6.00</td>
+          </tr>
+          <tr class="row86">
+            <td class="column1 style4 s">Adana Kebab Wrap</td>
+            <td class="column2 style4 n">6.50</td>
+          </tr>
+          <tr class="row87">
+            <td class="column1 style4 s">Falafel Wrap</td>
+            <td class="column2 style4 n">6.00</td>
+          </tr>
+          <tr class="row88">
+            <td class="column1 style7 s">Chicken Gyro Wrap</td>
+            <td class="column2 style4 n">6.00</td>
+          </tr>
+          <tr class="row89">
+            <td class="column1 style4 s">Chicken Adana Wrap</td>
+            <td class="column2 style4 n">6.00</td>
+          </tr>
+          <tr class="row90">
+            <td class="column1 style4 s">Lamb Burger Wrap</td>
+            <td class="column2 style4 n">6.50</td>
+          </tr>
+          <tr class="row91">
+            <td class="column0 style3 s style6" rowspan="5">Desserts</td>
+            <td class="column1 style4 s">Kazandibi</td>
+            <td class="column2 style4 n">4.50</td>
+          </tr>
+          <tr class="row92">
+            <td class="column1 style4 s">Vanilla Ice Cream</td>
+            <td class="column2 style4 n">4.50</td>
+          </tr>
+          <tr class="row93">
+            <td class="column1 style4 s">Chocolate Ice Cream</td>
+            <td class="column2 style4 n">4.50</td>
+          </tr>
+          <tr class="row94">
+            <td class="column1 style4 s">Baklava</td>
+            <td class="column2 style4 n">4.50</td>
+          </tr>
+          <tr class="row95">
+            <td class="column1 style4 s">4 Season Yogurt</td>
+            <td class="column2 style4 n">4.50</td>
+          </tr>
+          <tr class="row96">
+            <td class="column0 style3 s style6" rowspan="6">Beverages</td>
+            <td class="column1 style4 s">Tea: Green</td>
+            <td class="column2 style4 n">1.95</td>
+          </tr>
+          <tr class="row97">
+            <td class="column1 style4 s">Water Lg</td>
+            <td class="column2 style4 n">3.00</td>
+          </tr>
+          <tr class="row98">
+            <td class="column1 style4 s">Tea: Iced</td>
+            <td class="column2 style4 n">1.95</td>
+          </tr>
+          <tr class="row99">
+            <td class="column1 style4 s">Sparkling Waters</td>
+            <td class="column2 style4 n">3.00</td>
+          </tr>
+          <tr class="row100">
+            <td class="column1 style4 s">Ayran</td>
+            <td class="column2 style4 n">2.00</td>
+          </tr>
+          <tr class="row101">
+            <td class="column1 style4 s">Tea: Turkish Black</td>
+            <td class="column2 style4 n">1.50</td>
+          </tr>
+          <tr class="row102">
+            <td class="column0 style3 s style6" rowspan="2">Dinner Specials</td>
+            <td class="column1 style4 s">Create Dinner</td>
+            <td class="column2 style4 n">19.95</td>
+          </tr>
+          <tr class="row103">
+            <td class="column1 style4 s">Salad Dinner Special</td>
+            <td class="column2 style4 n">16.95</td>
+          </tr>
+        </tbody>
+    </table>
+  </body>
+</html>

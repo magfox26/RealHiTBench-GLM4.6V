@@ -1,0 +1,256 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <meta name="generator" content="PhpSpreadsheet, https://github.com/PHPOffice/PhpSpreadsheet">
+      <meta name="author" content="xiyan" />
+      <meta name="company" content="Microsoft Corporation" />
+    <style type="text/css">
+      html { font-family:Calibri, Arial, Helvetica, sans-serif; font-size:11pt; background-color:white }
+      a.comment-indicator:hover + div.comment { background:#ffd; position:absolute; display:block; border:1px solid black; padding:0.5em }
+      a.comment-indicator { background:red; display:inline-block; border:1px solid black; width:0.5em; height:0.5em }
+      div.comment { display:none }
+      table { border-collapse:collapse; page-break-after:always }
+      .gridlines td { border:1px dotted black }
+      .gridlines th { border:1px dotted black }
+      .b { text-align:center }
+      .e { text-align:center }
+      .f { text-align:right }
+      .inlineStr { text-align:left }
+      .n { text-align:right }
+      .s { text-align:left }
+      td.style0 { vertical-align:middle; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style0 { vertical-align:middle; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style1 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#FFFF00 }
+      th.style1 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#FFFF00 }
+      td.style2 { vertical-align:middle; border-bottom:none #000000; border-top:2px solid #000000 !important; border-left:2px solid #000000 !important; border-right:none #000000; font-weight:bold; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style2 { vertical-align:middle; border-bottom:none #000000; border-top:2px solid #000000 !important; border-left:2px solid #000000 !important; border-right:none #000000; font-weight:bold; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style3 { vertical-align:bottom; border-bottom:none #000000; border-top:2px solid #000000 !important; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style3 { vertical-align:bottom; border-bottom:none #000000; border-top:2px solid #000000 !important; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style4 { vertical-align:middle; border-bottom:none #000000; border-top:none #000000; border-left:2px solid #000000 !important; border-right:none #000000; font-weight:bold; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style4 { vertical-align:middle; border-bottom:none #000000; border-top:none #000000; border-left:2px solid #000000 !important; border-right:none #000000; font-weight:bold; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style5 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style5 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style6 { vertical-align:middle; border-bottom:2px solid #000000 !important; border-top:none #000000; border-left:2px solid #000000 !important; border-right:none #000000; font-weight:bold; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style6 { vertical-align:middle; border-bottom:2px solid #000000 !important; border-top:none #000000; border-left:2px solid #000000 !important; border-right:none #000000; font-weight:bold; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style7 { vertical-align:bottom; border-bottom:2px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style7 { vertical-align:bottom; border-bottom:2px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style8 { vertical-align:middle; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style8 { vertical-align:middle; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style9 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style9 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style10 { vertical-align:middle; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style10 { vertical-align:middle; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style11 { vertical-align:bottom; border-bottom:none #000000; border-top:2px solid #000000 !important; border-left:none #000000; border-right:2px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style11 { vertical-align:bottom; border-bottom:none #000000; border-top:2px solid #000000 !important; border-left:none #000000; border-right:2px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style12 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:2px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style12 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:2px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style13 { vertical-align:bottom; border-bottom:2px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:2px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style13 { vertical-align:bottom; border-bottom:2px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:2px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      table.sheet0 col.col0 { width:54.89999937pt }
+      table.sheet0 col.col1 { width:42pt }
+      table.sheet0 col.col2 { width:42pt }
+      table.sheet0 col.col3 { width:42pt }
+      table.sheet0 col.col4 { width:42pt }
+      table.sheet0 col.col5 { width:42pt }
+      table.sheet0 col.col6 { width:42pt }
+      table.sheet0 col.col7 { width:42pt }
+      table.sheet0 tr { height:15pt }
+      table.sheet0 tr.row0 { height:34.75pt }
+      table.sheet0 tr.row1 { height:17pt }
+      table.sheet0 tr.row2 { height:26pt }
+      table.sheet0 tr.row3 { height:17.75pt }
+      table.sheet0 tr.row4 { height:17.55pt }
+      table.sheet0 tr.row5 { height:17pt }
+      table.sheet0 tr.row6 { height:17pt }
+      table.sheet0 tr.row7 { height:17pt }
+      table.sheet0 tr.row8 { height:17.75pt }
+      table.sheet0 tr.row9 { height:17.55pt }
+      table.sheet0 tr.row10 { height:34pt }
+      table.sheet0 tr.row11 { height:34pt }
+      table.sheet0 tr.row12 { height:34.75pt }
+      table.sheet0 tr.row13 { height:17.55pt }
+      table.sheet0 tr.row14 { height:17pt }
+      table.sheet0 tr.row15 { height:17.75pt }
+    </style>
+  </head>
+
+  <body>
+<style>
+@page { margin-left: 0.75in; margin-right: 0.75in; margin-top: 1in; margin-bottom: 1in; }
+body { margin-left: 0.75in; margin-right: 0.75in; margin-top: 1in; margin-bottom: 1in; }
+</style>
+    <table border="0" cellpadding="0" cellspacing="0" id="sheet0" class="sheet0 gridlines">
+        <col class="col0">
+        <col class="col1">
+        <col class="col2">
+        <col class="col3">
+        <col class="col4">
+        <col class="col5">
+        <col class="col6">
+        <col class="col7">
+        <tbody>
+          <tr class="row0">
+            <td class="column0 style1 s">Category position</td>
+            <td class="column1 style1 s">No</td>
+            <td class="column2 style1 s">Forename</td>
+            <td class="column3 style1 s">Surname</td>
+            <td class="column4 style1 s">Cat</td>
+            <td class="column5 style1 s">Club</td>
+            <td class="column6 style1 s">Time</td>
+            <td class="column7 style1 s">Pos</td>
+          </tr>
+          <tr class="row1">
+            <td class="column0 style2 s">1st Male</td>
+            <td class="column1 style3 n">157</td>
+            <td class="column2 style3 s">Marc</td>
+            <td class="column3 style3 s">Hartley</td>
+            <td class="column4 style3 s">M</td>
+            <td class="column5 style3 s">Stoke AC</td>
+            <td class="column6 style3 s">38.4</td>
+            <td class="column7 style11 n">1</td>
+          </tr>
+          <tr class="row2">
+            <td class="column0 style4 s">2nd Male</td>
+            <td class="column1 style5 n">123</td>
+            <td class="column2 style5 s">Jimmy</td>
+            <td class="column3 style5 s">Craig</td>
+            <td class="column4 style5 s">M</td>
+            <td class="column5 style5 s">Barlick Fellrunners</td>
+            <td class="column6 style5 s">39.09</td>
+            <td class="column7 style12 n">2</td>
+          </tr>
+          <tr class="row3">
+            <td class="column0 style6 s">3rd Male</td>
+            <td class="column1 style7 n">52</td>
+            <td class="column2 style7 s">Nick</td>
+            <td class="column3 style7 s">Treitl</td>
+            <td class="column4 style7 s">M</td>
+            <td class="column5 style7 s">Barlick Fellrunners</td>
+            <td class="column6 style7 s">40.3</td>
+            <td class="column7 style13 n">3</td>
+          </tr>
+          <tr class="row4">
+            <td class="column0 style8 null"></td>
+            <td class="column1 style9 null"></td>
+            <td class="column2 style9 null"></td>
+            <td class="column3 style9 null"></td>
+            <td class="column4 style9 null"></td>
+            <td class="column5 style9 null"></td>
+            <td class="column6 style9 null"></td>
+            <td class="column7 style9 null"></td>
+          </tr>
+          <tr class="row5">
+            <td class="column0 style2 s">1st M40</td>
+            <td class="column1 style3 n">105</td>
+            <td class="column2 style3 s">Michael</td>
+            <td class="column3 style3 s">Keedy</td>
+            <td class="column4 style3 s">M40</td>
+            <td class="column5 style3 s">Skipton AC</td>
+            <td class="column6 style3 s">41.27</td>
+            <td class="column7 style11 n">5</td>
+          </tr>
+          <tr class="row6">
+            <td class="column0 style4 s">1st M45</td>
+            <td class="column1 style5 n">70</td>
+            <td class="column2 style5 s">Stephen</td>
+            <td class="column3 style5 s">Stockwell</td>
+            <td class="column4 style5 s">M45</td>
+            <td class="column5 style5 s">West Australia</td>
+            <td class="column6 style5 s">41.56</td>
+            <td class="column7 style12 n">7</td>
+          </tr>
+          <tr class="row7">
+            <td class="column0 style4 s">1st M50</td>
+            <td class="column1 style5 n">131</td>
+            <td class="column2 style5 s">Kevin</td>
+            <td class="column3 style5 s">Davies</td>
+            <td class="column4 style5 s">M50</td>
+            <td class="column5 style5 s">Clayton Harriers</td>
+            <td class="column6 style5 s">44.14</td>
+            <td class="column7 style12 n">12</td>
+          </tr>
+          <tr class="row8">
+            <td class="column0 style6 s">1st M55</td>
+            <td class="column1 style7 n">83</td>
+            <td class="column2 style7 s">Thornton</td>
+            <td class="column3 style7 s">Talyor</td>
+            <td class="column4 style7 s">M55</td>
+            <td class="column5 style7 s">Rossendale</td>
+            <td class="column6 style7 s">44.57</td>
+            <td class="column7 style13 n">20</td>
+          </tr>
+          <tr class="row9">
+            <td class="column0 style8 null"></td>
+            <td class="column1 style10 null"></td>
+            <td class="column2 style9 null"></td>
+            <td class="column3 style9 null"></td>
+            <td class="column4 style9 null"></td>
+            <td class="column5 style9 null"></td>
+            <td class="column6 style9 null"></td>
+            <td class="column7 style9 null"></td>
+          </tr>
+          <tr class="row10">
+            <td class="column0 style2 s">1st Female</td>
+            <td class="column1 style3 n">69</td>
+            <td class="column2 style3 s">Nicholas</td>
+            <td class="column3 style3 s">Cook</td>
+            <td class="column4 style3 s">F</td>
+            <td class="column5 style3 s">Trawden AC</td>
+            <td class="column6 style3 s">44.16</td>
+            <td class="column7 style11 n">13</td>
+          </tr>
+          <tr class="row11">
+            <td class="column0 style4 s">2nd Female</td>
+            <td class="column1 style5 n">36</td>
+            <td class="column2 style5 s">Andy</td>
+            <td class="column3 style5 s">Berry</td>
+            <td class="column4 style5 s">F</td>
+            <td class="column5 style5 s">Barlick Fellrunners</td>
+            <td class="column6 style5 s">44.24</td>
+            <td class="column7 style12 n">15</td>
+          </tr>
+          <tr class="row12">
+            <td class="column0 style6 s">3rd Female</td>
+            <td class="column1 style7 n">119</td>
+            <td class="column2 style7 s">Lorraine</td>
+            <td class="column3 style7 s">Redman</td>
+            <td class="column4 style7 s">F40</td>
+            <td class="column5 style7 s">Trawden AC</td>
+            <td class="column6 style7 s">44.45</td>
+            <td class="column7 style13 n">19</td>
+          </tr>
+          <tr class="row13">
+            <td class="column0 style8 null"></td>
+            <td class="column1 style10 null"></td>
+            <td class="column2 style10 null"></td>
+            <td class="column3 style10 null"></td>
+            <td class="column4 style10 null"></td>
+            <td class="column5 style10 null"></td>
+            <td class="column6 style10 null"></td>
+            <td class="column7 style10 null"></td>
+          </tr>
+          <tr class="row14">
+            <td class="column0 style2 s">1st F40</td>
+            <td class="column1 style3 n">119</td>
+            <td class="column2 style3 s">Lorraine</td>
+            <td class="column3 style3 s">Redman</td>
+            <td class="column4 style3 s">F40</td>
+            <td class="column5 style3 s">Trawden AC</td>
+            <td class="column6 style3 s">44.45</td>
+            <td class="column7 style11 n">19</td>
+          </tr>
+          <tr class="row15">
+            <td class="column0 style6 s">1st F45</td>
+            <td class="column1 style7 n">18</td>
+            <td class="column2 style7 s">John</td>
+            <td class="column3 style7 s">Lloyd</td>
+            <td class="column4 style7 s">F45</td>
+            <td class="column5 style7 s">Salford Harriers</td>
+            <td class="column6 style7 s">42.43</td>
+            <td class="column7 style13 n">9</td>
+          </tr>
+        </tbody>
+    </table>
+  </body>
+</html>

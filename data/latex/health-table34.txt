@@ -1,0 +1,65 @@
+% Please add the following required packages to your document preamble:
+% \usepackage{multirow}
+\begin{table}[]
+\begin{tabular}{lllllll}
+Expt1                         &      &                                 &          &              &                   &                              \\
+                              &      &                                 &          & MFI          & Isotype MFI       & MFI (actual)=MFI-isotype MFI \\
+Isotype stained               &      & Uninf                           & DC       & 3481         & 3481              & 0                            \\
+\multirow{6}{*}{CD40 stained} & Set1 & \multirow{2}{*}{Uninf}          & DC-SAG   & 4676         & 3481              & 1195                         \\
+                              & Set2 &                                 & DC + SAG & 11381        & 3481              & 7900                         \\
+                              & Set3 & \multirow{2}{*}{AG83 (SbSLD)}   & DC -SAG  & 4320         & 3481              & 839                          \\
+                              & Set4 &                                 & DC+ SAG  & 10918        & 3481              & 7437                         \\
+                              & Set5 & \multirow{2}{*}{GE1F8R (SbRLD)} & DC-SAG   & 4267         & 3481              & 786                          \\
+                              & Set6 &                                 & DC+ SAG  & 5579         & 3481              & 2098                         \\
+                              &      &                                 &          &              &                   &                              \\
+                              &      &                                 &          &              &                   &                              \\
+                              &      &                                 &          & \multicolumn{2}{l}{MFI (actual)} & fold change                  \\
+\multirow{6}{*}{CD40 stained} & Set1 & \multirow{2}{*}{Uninf}          & DC-SAG   & 1195         & 1195              & 1                            \\
+                              & Set2 &                                 & DC + SAG & 7900         & 1195              & 6.610878661                  \\
+                              & Set3 & \multirow{2}{*}{AG83 (SbSLD)}   & DC -SAG  & 839          & 1195              & 0.70209205                   \\
+                              & Set4 &                                 & DC+ SAG  & 7437         & 1195              & 6.223430962                  \\
+                              & Set5 & \multirow{2}{*}{GE1F8R (SbRLD)} & DC-SAG   & 786          & 1195              & 0.657740586                  \\
+                              & Set6 &                                 & DC+ SAG  & 2098         & 1195              & 1.755648536                  \\
+                              &      &                                 &          &              &                   &                              \\
+                              &      &                                 &          &              &                   &                              \\
+                              &      &                                 &          &              &                   &                              \\
+Expt2                         &      &                                 &          &              &                   &                              \\
+                              &      &                                 &          & MFI          & Isotype MFI       & MFI (actual)=MFI-isotype MFI \\
+Isotype stained               &      & Uninf                           & DC       & 3274         & 3274              & 0                            \\
+\multirow{6}{*}{CD40 stained} & Set1 & \multirow{2}{*}{Uninf}          & DC-SAG   & 4670         & 3274              & 1396                         \\
+                              & Set2 &                                 & DC + SAG & 9680         & 3274              & 6406                         \\
+                              & Set3 & \multirow{2}{*}{AG83 (SbSLD)}   & DC -SAG  & 4753         & 3274              & 1479                         \\
+                              & Set4 &                                 & DC+ SAG  & 10281        & 3274              & 7007                         \\
+                              & Set5 & \multirow{2}{*}{GE1F8R (SbRLD)} & DC-SAG   & 5548         & 3274              & 2274                         \\
+                              & Set6 &                                 & DC+ SAG  & 5879         & 3274              & 2605                         \\
+                              &      &                                 &          &              &                   &                              \\
+                              &      &                                 &          &              &                   &                              \\
+                              &      &                                 &          & \multicolumn{2}{l}{MFI (actual)} & fold change                  \\
+\multirow{6}{*}{CD40 stained} & Set1 & \multirow{2}{*}{Uninf}          & DC-SAG   & 1396         & 1396              & 1                            \\
+                              & Set2 &                                 & DC + SAG & 6406         & 1396              & 4.588825215                  \\
+                              & Set3 & \multirow{2}{*}{AG83 (SbSLD)}   & DC -SAG  & 1479         & 1396              & 1.059455587                  \\
+                              & Set4 &                                 & DC+ SAG  & 7007         & 1396              & 5.019340974                  \\
+                              & Set5 & \multirow{2}{*}{GE1F8R (SbRLD)} & DC-SAG   & 2274         & 1396              & 1.628939828                  \\
+                              & Set6 &                                 & DC+ SAG  & 2605         & 1396              & 1.866045845                  \\
+                              &      &                                 &          &              &                   &                              \\
+                              &      &                                 &          &              &                   &                              \\
+Expt3                         &      &                                 &          &              &                   &                              \\
+                              &      &                                 &          & MFI          & Isotype MFI       & MFI (actual)=MFI-isotype MFI \\
+Isotype stained               &      & Uninf                           & DC       & 2615         & 2615              & 0                            \\
+\multirow{6}{*}{CD40 stained} & Set1 & \multirow{2}{*}{Uninf}          & DC -SAG  & 5349         & 2615              & 2734                         \\
+                              & Set2 &                                 & DC + SAG & 18383        & 2615              & 15768                        \\
+                              & Set3 & \multirow{2}{*}{AG83 (SbSLD)}   & DC -SAG  & 3894         & 2615              & 1279                         \\
+                              & Set4 &                                 & DC + SAG & 17772        & 2615              & 15157                        \\
+                              & Set5 & \multirow{2}{*}{GE1F8R (SbRLD)} & DC -SAG  & 7712         & 2615              & 5097                         \\
+                              & Set6 &                                 & DC + SAG & 10267        & 2615              & 7652                         \\
+                              &      &                                 &          &              &                   &                              \\
+                              &      &                                 &          &              &                   &                              \\
+                              &      &                                 &          & \multicolumn{2}{l}{MFI (actual)} & fold change                  \\
+\multirow{6}{*}{CD40 stained} & Set1 & \multirow{2}{*}{Uninf}          & DC -SAG  & 2734         & 2734              & 1                            \\
+                              & Set2 &                                 & DC + SAG & 15768        & 2734              & 5.767373811                  \\
+                              & Set3 & \multirow{2}{*}{AG83 (SbSLD)}   & DC -SAG  & 1279         & 2734              & 0.467812729                  \\
+                              & Set4 &                                 & DC + SAG & 15157        & 2734              & 5.543891734                  \\
+                              & Set5 & \multirow{2}{*}{GE1F8R (SbRLD)} & DC -SAG  & 5097         & 2734              & 1.86430139                   \\
+                              & Set6 &                                 & DC + SAG & 7652         & 2734              & 2.798829554                 
+\end{tabular}
+\end{table}

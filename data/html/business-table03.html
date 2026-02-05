@@ -1,0 +1,1227 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <meta name="generator" content="PhpSpreadsheet, https://github.com/PHPOffice/PhpSpreadsheet">
+      <meta name="author" content="Peri Derby" />
+      <meta name="company" content="Home Office" />
+    <style type="text/css">
+      html { font-family:Calibri, Arial, Helvetica, sans-serif; font-size:11pt; background-color:white }
+      a.comment-indicator:hover + div.comment { background:#ffd; position:absolute; display:block; border:1px solid black; padding:0.5em }
+      a.comment-indicator { background:red; display:inline-block; border:1px solid black; width:0.5em; height:0.5em }
+      div.comment { display:none }
+      table { border-collapse:collapse; page-break-after:always }
+      .gridlines td { border:1px dotted black }
+      .gridlines th { border:1px dotted black }
+      .b { text-align:center }
+      .e { text-align:center }
+      .f { text-align:right }
+      .inlineStr { text-align:left }
+      .n { text-align:right }
+      .s { text-align:left }
+      td.style0 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:12pt; background-color:white }
+      th.style0 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:12pt; background-color:white }
+      td.style1 { vertical-align:middle; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#FFFFFF }
+      th.style1 { vertical-align:middle; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#FFFFFF }
+      td.style2 { vertical-align:middle; text-align:center; border-bottom:2px solid #FFFFFF !important; border-top:none #000000; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; font-weight:bold; color:#FFFFFF; font-family:'Calibri'; font-size:26pt; background-color:#993300 }
+      th.style2 { vertical-align:middle; text-align:center; border-bottom:2px solid #FFFFFF !important; border-top:none #000000; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; font-weight:bold; color:#FFFFFF; font-family:'Calibri'; font-size:26pt; background-color:#993300 }
+      td.style3 { vertical-align:middle; text-align:center; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; font-weight:bold; color:#FFFFFF; font-family:'Calibri'; font-size:26pt; background-color:#993300 }
+      th.style3 { vertical-align:middle; text-align:center; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; font-weight:bold; color:#FFFFFF; font-family:'Calibri'; font-size:26pt; background-color:#993300 }
+      td.style4 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; font-weight:bold; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:#FFFFFF }
+      th.style4 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; font-weight:bold; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:#FFFFFF }
+      td.style5 { vertical-align:middle; text-align:center; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; font-weight:bold; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:#FFFFFF }
+      th.style5 { vertical-align:middle; text-align:center; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; font-weight:bold; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:#FFFFFF }
+      td.style6 { vertical-align:middle; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:none #000000; font-weight:bold; color:#FFFFFF; font-family:'Calibri'; font-size:14pt; background-color:#993300 }
+      th.style6 { vertical-align:middle; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:none #000000; font-weight:bold; color:#FFFFFF; font-family:'Calibri'; font-size:14pt; background-color:#993300 }
+      td.style7 { vertical-align:middle; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#FFFFFF; font-family:'Calibri'; font-size:14pt; background-color:#993300 }
+      th.style7 { vertical-align:middle; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#FFFFFF; font-family:'Calibri'; font-size:14pt; background-color:#993300 }
+      td.style8 { vertical-align:middle; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:none #000000; border-right:2px solid #FFFFFF !important; font-weight:bold; color:#FFFFFF; font-family:'Calibri'; font-size:14pt; background-color:#993300 }
+      th.style8 { vertical-align:middle; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:none #000000; border-right:2px solid #FFFFFF !important; font-weight:bold; color:#FFFFFF; font-family:'Calibri'; font-size:14pt; background-color:#993300 }
+      td.style9 { vertical-align:middle; text-align:center; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#CCCCFF }
+      th.style9 { vertical-align:middle; text-align:center; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#CCCCFF }
+      td.style10 { vertical-align:middle; text-align:center; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:none #000000; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#CCCCFF }
+      th.style10 { vertical-align:middle; text-align:center; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:none #000000; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#CCCCFF }
+      td.style11 { vertical-align:middle; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:none #000000; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#FFFFFF }
+      th.style11 { vertical-align:middle; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:none #000000; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#FFFFFF }
+      td.style12 { vertical-align:middle; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; font-weight:bold; color:#FFFFFF; font-family:'Calibri'; font-size:14pt; background-color:#993300 }
+      th.style12 { vertical-align:middle; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; font-weight:bold; color:#FFFFFF; font-family:'Calibri'; font-size:14pt; background-color:#993300 }
+      td.style13 { vertical-align:middle; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#CCCCFF }
+      th.style13 { vertical-align:middle; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#CCCCFF }
+      td.style14 { vertical-align:middle; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#CCCCFF }
+      th.style14 { vertical-align:middle; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#CCCCFF }
+      td.style15 { vertical-align:middle; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:none #000000; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style15 { vertical-align:middle; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:none #000000; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style16 { vertical-align:middle; text-align:center; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#CCCCFF }
+      th.style16 { vertical-align:middle; text-align:center; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#CCCCFF }
+      td.style17 { vertical-align:middle; border-bottom:none #000000; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#CCCCFF }
+      th.style17 { vertical-align:middle; border-bottom:none #000000; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#CCCCFF }
+      td.style18 { vertical-align:middle; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:#CCCCFF }
+      th.style18 { vertical-align:middle; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:#CCCCFF }
+      td.style19 { vertical-align:middle; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:#CCCCFF }
+      th.style19 { vertical-align:middle; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:#CCCCFF }
+      td.style20 { vertical-align:middle; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:#CCCCFF }
+      th.style20 { vertical-align:middle; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:#CCCCFF }
+      td.style21 { vertical-align:middle; text-align:center; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:#969696 }
+      th.style21 { vertical-align:middle; text-align:center; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:#969696 }
+      td.style22 { vertical-align:middle; border-bottom:none #000000; border-top:none #000000; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#CCCCFF }
+      th.style22 { vertical-align:middle; border-bottom:none #000000; border-top:none #000000; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#CCCCFF }
+      td.style23 { vertical-align:middle; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:none #000000; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:#969696 }
+      th.style23 { vertical-align:middle; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:none #000000; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:#969696 }
+      td.style24 { vertical-align:middle; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:none #000000; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:#969696 }
+      th.style24 { vertical-align:middle; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:none #000000; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:#969696 }
+      td.style25 { vertical-align:middle; border-bottom:2px solid #FFFFFF !important; border-top:none #000000; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#CCCCFF }
+      th.style25 { vertical-align:middle; border-bottom:2px solid #FFFFFF !important; border-top:none #000000; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#CCCCFF }
+      td.style26 { vertical-align:middle; border-bottom:none #000000; border-top:none #000000; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#CCCCFF }
+      th.style26 { vertical-align:middle; border-bottom:none #000000; border-top:none #000000; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#CCCCFF }
+      td.style27 { vertical-align:middle; border-bottom:none #000000; border-top:none #000000; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style27 { vertical-align:middle; border-bottom:none #000000; border-top:none #000000; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style28 { vertical-align:middle; border-bottom:2px solid #FFFFFF !important; border-top:none #000000; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style28 { vertical-align:middle; border-bottom:2px solid #FFFFFF !important; border-top:none #000000; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style29 { vertical-align:middle; border-bottom:2px solid #FFFFFF !important; border-top:none #000000; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#CCCCFF }
+      th.style29 { vertical-align:middle; border-bottom:2px solid #FFFFFF !important; border-top:none #000000; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#CCCCFF }
+      td.style30 { vertical-align:middle; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style30 { vertical-align:middle; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style31 { vertical-align:middle; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:#CCCCFF }
+      th.style31 { vertical-align:middle; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:#CCCCFF }
+      td.style32 { vertical-align:middle; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style32 { vertical-align:middle; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style33 { vertical-align:middle; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:none #000000; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style33 { vertical-align:middle; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:none #000000; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style34 { vertical-align:middle; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:none #000000; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:#CCCCFF }
+      th.style34 { vertical-align:middle; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:none #000000; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:#CCCCFF }
+      td.style35 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:none #000000; font-weight:bold; color:#FFFFFF; font-family:'Calibri'; font-size:14pt; background-color:#993300 }
+      th.style35 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:none #000000; font-weight:bold; color:#FFFFFF; font-family:'Calibri'; font-size:14pt; background-color:#993300 }
+      td.style36 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#FFFFFF; font-family:'Calibri'; font-size:14pt; background-color:#993300 }
+      th.style36 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#FFFFFF; font-family:'Calibri'; font-size:14pt; background-color:#993300 }
+      td.style37 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:none #000000; border-right:2px solid #FFFFFF !important; font-weight:bold; color:#FFFFFF; font-family:'Calibri'; font-size:14pt; background-color:#993300 }
+      th.style37 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:none #000000; border-right:2px solid #FFFFFF !important; font-weight:bold; color:#FFFFFF; font-family:'Calibri'; font-size:14pt; background-color:#993300 }
+      td.style38 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#CCCCFF }
+      th.style38 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#CCCCFF }
+      td.style39 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#CCCCFF }
+      th.style39 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#CCCCFF }
+      td.style40 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:none #000000; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#CCCCFF }
+      th.style40 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:none #000000; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#CCCCFF }
+      td.style41 { vertical-align:middle; text-align:center; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:#969696 }
+      th.style41 { vertical-align:middle; text-align:center; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:#969696 }
+      td.style42 { vertical-align:middle; text-align:center; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:#969696 }
+      th.style42 { vertical-align:middle; text-align:center; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:#969696 }
+      td.style43 { vertical-align:middle; border-bottom:2px solid #FFFFFF !important; border-top:3px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:none #000000; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:#CCCCFF }
+      th.style43 { vertical-align:middle; border-bottom:2px solid #FFFFFF !important; border-top:3px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:none #000000; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:#CCCCFF }
+      td.style44 { vertical-align:middle; border-bottom:2px solid #FFFFFF !important; border-top:3px solid #FFFFFF !important; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+      th.style44 { vertical-align:middle; border-bottom:2px solid #FFFFFF !important; border-top:3px solid #FFFFFF !important; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+      td.style45 { vertical-align:middle; border-bottom:none #000000; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#FFFFFF }
+      th.style45 { vertical-align:middle; border-bottom:none #000000; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#FFFFFF }
+      td.style46 { vertical-align:middle; border-bottom:none #000000; border-top:2px solid #FFFFFF !important; border-left:none #000000; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#FFFFFF }
+      th.style46 { vertical-align:middle; border-bottom:none #000000; border-top:2px solid #FFFFFF !important; border-left:none #000000; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#FFFFFF }
+      td.style47 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:none #000000; font-weight:bold; color:#FF0000; font-family:'宋体'; font-size:14pt; background-color:#FFFFFF }
+      th.style47 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:none #000000; font-weight:bold; color:#FF0000; font-family:'宋体'; font-size:14pt; background-color:#FFFFFF }
+      td.style48 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:2px solid #FFFFFF !important; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#FF0000; font-family:'宋体'; font-size:14pt; background-color:#FFFFFF }
+      th.style48 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:2px solid #FFFFFF !important; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#FF0000; font-family:'宋体'; font-size:14pt; background-color:#FFFFFF }
+      td.style49 { vertical-align:middle; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:none #000000; color:#000000; font-family:'Calibri'; font-size:14pt; background-color:#FFFFFF }
+      th.style49 { vertical-align:middle; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:none #000000; color:#000000; font-family:'Calibri'; font-size:14pt; background-color:#FFFFFF }
+      td.style50 { vertical-align:middle; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; font-weight:bold; color:#FFFFFF; font-family:'Calibri'; font-size:26pt; background-color:#993300 }
+      th.style50 { vertical-align:middle; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; font-weight:bold; color:#FFFFFF; font-family:'Calibri'; font-size:26pt; background-color:#993300 }
+      td.style51 { vertical-align:bottom; text-align:center; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:none #000000; font-weight:bold; color:#FFFFFF; font-family:'Calibri'; font-size:26pt; background-color:#0000FF }
+      th.style51 { vertical-align:bottom; text-align:center; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:none #000000; font-weight:bold; color:#FFFFFF; font-family:'Calibri'; font-size:26pt; background-color:#0000FF }
+      td.style52 { vertical-align:bottom; text-align:center; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#FFFFFF; font-family:'Calibri'; font-size:26pt; background-color:#0000FF }
+      th.style52 { vertical-align:bottom; text-align:center; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#FFFFFF; font-family:'Calibri'; font-size:26pt; background-color:#0000FF }
+      td.style53 { vertical-align:bottom; text-align:center; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:none #000000; border-right:2px solid #FFFFFF !important; font-weight:bold; color:#FFFFFF; font-family:'Calibri'; font-size:26pt; background-color:#0000FF }
+      th.style53 { vertical-align:bottom; text-align:center; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:none #000000; border-right:2px solid #FFFFFF !important; font-weight:bold; color:#FFFFFF; font-family:'Calibri'; font-size:26pt; background-color:#0000FF }
+      td.style54 { vertical-align:middle; text-align:center; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#FFFFFF }
+      th.style54 { vertical-align:middle; text-align:center; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#FFFFFF }
+      td.style55 { vertical-align:middle; text-align:center; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; font-weight:bold; color:#FFFFFF; font-family:'Calibri'; font-size:26pt; background-color:#800080 }
+      th.style55 { vertical-align:middle; text-align:center; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; font-weight:bold; color:#FFFFFF; font-family:'Calibri'; font-size:26pt; background-color:#800080 }
+      td.style56 { vertical-align:middle; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; font-weight:bold; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:#FFFFFF }
+      th.style56 { vertical-align:middle; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; font-weight:bold; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:#FFFFFF }
+      td.style57 { vertical-align:middle; text-align:center; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#CCCCFF }
+      th.style57 { vertical-align:middle; text-align:center; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#CCCCFF }
+      td.style58 { vertical-align:middle; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; font-weight:bold; color:#FFFFFF; font-family:'Calibri'; font-size:14pt; background-color:#0000FF }
+      th.style58 { vertical-align:middle; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; font-weight:bold; color:#FFFFFF; font-family:'Calibri'; font-size:14pt; background-color:#0000FF }
+      td.style59 { vertical-align:middle; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; font-weight:bold; color:#FFFFFF; font-family:'Calibri'; font-size:14pt; background-color:#800080 }
+      th.style59 { vertical-align:middle; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; font-weight:bold; color:#FFFFFF; font-family:'Calibri'; font-size:14pt; background-color:#800080 }
+      td.style60 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:#CCCCFF }
+      th.style60 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:#CCCCFF }
+      td.style61 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#CCCCFF }
+      th.style61 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#CCCCFF }
+      td.style62 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#CCCCFF }
+      th.style62 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#CCCCFF }
+      td.style63 { vertical-align:middle; text-align:center; border-bottom:2px solid #FFFFFF !important; border-top:none #000000; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#CCCCFF }
+      th.style63 { vertical-align:middle; text-align:center; border-bottom:2px solid #FFFFFF !important; border-top:none #000000; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#CCCCFF }
+      td.style64 { vertical-align:middle; text-align:center; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#CCCCFF }
+      th.style64 { vertical-align:middle; text-align:center; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#CCCCFF }
+      td.style65 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style65 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style66 { vertical-align:middle; text-align:center; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:#969696 }
+      th.style66 { vertical-align:middle; text-align:center; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:#969696 }
+      td.style67 { vertical-align:middle; text-align:center; border-bottom:2px solid #FFFFFF !important; border-top:none #000000; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style67 { vertical-align:middle; text-align:center; border-bottom:2px solid #FFFFFF !important; border-top:none #000000; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style68 { vertical-align:middle; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:none #000000; font-weight:bold; color:#FFFFFF; font-family:'Calibri'; font-size:14pt; background-color:#800080 }
+      th.style68 { vertical-align:middle; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:none #000000; font-weight:bold; color:#FFFFFF; font-family:'Calibri'; font-size:14pt; background-color:#800080 }
+      td.style69 { vertical-align:middle; text-align:center; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:#969696 }
+      th.style69 { vertical-align:middle; text-align:center; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:#969696 }
+      td.style70 { vertical-align:middle; text-align:center; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:#CCCCFF }
+      th.style70 { vertical-align:middle; text-align:center; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:#CCCCFF }
+      td.style71 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:#CCCCFF }
+      th.style71 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:#CCCCFF }
+      td.style72 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:#969696 }
+      th.style72 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:#969696 }
+      td.style73 { vertical-align:middle; border-bottom:2px solid #FFFFFF !important; border-top:3px solid #FFFFFF !important; border-left:none #000000; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style73 { vertical-align:middle; border-bottom:2px solid #FFFFFF !important; border-top:3px solid #FFFFFF !important; border-left:none #000000; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style74 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#CCCCFF }
+      th.style74 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#CCCCFF }
+      td.style75 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#CCCCFF }
+      th.style75 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#CCCCFF }
+      td.style76 { vertical-align:middle; text-align:center; border-bottom:2px solid #FFFFFF !important; border-top:none #000000; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#CCCCFF }
+      th.style76 { vertical-align:middle; text-align:center; border-bottom:2px solid #FFFFFF !important; border-top:none #000000; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#CCCCFF }
+      td.style77 { vertical-align:middle; border-bottom:2px solid #FFFFFF !important; border-top:none #000000; border-left:2px solid #FFFFFF !important; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style77 { vertical-align:middle; border-bottom:2px solid #FFFFFF !important; border-top:none #000000; border-left:2px solid #FFFFFF !important; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style78 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:2px solid #FFFFFF !important; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#FFFFFF }
+      th.style78 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:2px solid #FFFFFF !important; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#FFFFFF }
+      td.style79 { vertical-align:middle; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'Calibri'; font-size:14pt; background-color:#FFFFFF }
+      th.style79 { vertical-align:middle; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'Calibri'; font-size:14pt; background-color:#FFFFFF }
+      td.style80 { vertical-align:middle; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#CCCCFF }
+      th.style80 { vertical-align:middle; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#CCCCFF }
+      td.style81 { vertical-align:middle; text-align:center; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:none #000000; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style81 { vertical-align:middle; text-align:center; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:none #000000; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style82 { vertical-align:middle; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#CCCCFF }
+      th.style82 { vertical-align:middle; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#CCCCFF }
+      td.style83 { vertical-align:middle; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:none #000000; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'Calibri'; font-size:14pt; background-color:white }
+      th.style83 { vertical-align:middle; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:none #000000; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'Calibri'; font-size:14pt; background-color:white }
+      td.style84 { vertical-align:middle; text-align:center; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:#969696 }
+      th.style84 { vertical-align:middle; text-align:center; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:#969696 }
+      td.style85 { vertical-align:middle; text-align:center; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:#969696 }
+      th.style85 { vertical-align:middle; text-align:center; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:#969696 }
+      td.style86 { vertical-align:middle; text-align:center; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:#969696 }
+      th.style86 { vertical-align:middle; text-align:center; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:#969696 }
+      td.style87 { vertical-align:middle; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#FFFF00 }
+      th.style87 { vertical-align:middle; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#FFFF00 }
+      td.style88 { vertical-align:middle; text-align:center; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:#FFFF00 }
+      th.style88 { vertical-align:middle; text-align:center; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:#FFFF00 }
+      td.style89 { vertical-align:middle; text-align:center; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:#FFFF00 }
+      th.style89 { vertical-align:middle; text-align:center; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:#FFFF00 }
+      td.style90 { vertical-align:middle; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:none #000000; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#CCCCFF }
+      th.style90 { vertical-align:middle; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:none #000000; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#CCCCFF }
+      td.style91 { vertical-align:middle; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#CCCCFF }
+      th.style91 { vertical-align:middle; border-bottom:2px solid #FFFFFF !important; border-top:2px solid #FFFFFF !important; border-left:2px solid #FFFFFF !important; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#CCCCFF }
+      td.style92 { vertical-align:middle; border-bottom:2px solid #FFFFFF !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style92 { vertical-align:middle; border-bottom:2px solid #FFFFFF !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style93 { vertical-align:middle; border-bottom:2px solid #FFFFFF !important; border-top:none #000000; border-left:none #000000; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style93 { vertical-align:middle; border-bottom:2px solid #FFFFFF !important; border-top:none #000000; border-left:none #000000; border-right:2px solid #FFFFFF !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      table.sheet0 col.col0 { width:75.91111024pt }
+      table.sheet0 col.col1 { width:46.76666613pt }
+      table.sheet0 col.col2 { width:54.89999937pt }
+      table.sheet0 col.col3 { width:54.89999937pt }
+      table.sheet0 col.col4 { width:54.89999937pt }
+      table.sheet0 col.col5 { width:4.06666662pt }
+      table.sheet0 col.col6 { width:63.03333261pt }
+      table.sheet0 col.col7 { width:138.94444285pt }
+      table.sheet0 col.col8 { width:54.89999937pt }
+      table.sheet0 col.col9 { width:55.57777714pt }
+      table.sheet0 col.col10 { width:10.16666655pt }
+      table.sheet0 col.col11 { width:387.01110667pt }
+      table.sheet0 col.col12 { width:55.57777714pt }
+      table.sheet0 col.col13 { width:55.57777714pt }
+      table.sheet0 col.col14 { width:10.84444432pt }
+      table.sheet0 col.col15 { width:91.49999895pt }
+      table.sheet0 col.col16 { width:133.52222069pt }
+      table.sheet0 col.col17 { width:55.57777714pt }
+      table.sheet0 col.col18 { width:55.57777714pt }
+      table.sheet0 col.col19 { width:2.03333331pt }
+      table.sheet0 col.col20 { width:0pt }
+      table.sheet0 .column19 { visibility:collapse; display:none }
+      table.sheet0 .column20 { visibility:collapse; display:none }
+      table.sheet0 tr { height:15.15pt }
+      table.sheet0 tr.row0 { height:31.35pt }
+      table.sheet0 tr.row1 { height:9.75pt }
+      table.sheet0 tr.row2 { height:31.35pt }
+      table.sheet0 tr.row3 { height:9.75pt }
+      table.sheet0 tr.row4 { height:31.35pt }
+      table.sheet0 tr.row5 { height:31.35pt }
+      table.sheet0 tr.row6 { height:31.35pt }
+      table.sheet0 tr.row7 { height:31.35pt }
+      table.sheet0 tr.row8 { height:31.35pt }
+      table.sheet0 tr.row9 { height:31.35pt }
+      table.sheet0 tr.row10 { height:31.35pt }
+      table.sheet0 tr.row11 { height:31.35pt }
+      table.sheet0 tr.row12 { height:31.35pt }
+      table.sheet0 tr.row13 { height:31.35pt }
+      table.sheet0 tr.row14 { height:31.35pt }
+      table.sheet0 tr.row15 { height:31.35pt }
+      table.sheet0 tr.row16 { height:31.35pt }
+      table.sheet0 tr.row17 { height:31.35pt }
+      table.sheet0 tr.row18 { height:31.35pt }
+      table.sheet0 tr.row19 { height:31.35pt }
+      table.sheet0 tr.row20 { height:31.35pt }
+      table.sheet0 tr.row21 { height:31.35pt }
+      table.sheet0 tr.row22 { height:31.35pt }
+      table.sheet0 tr.row23 { height:31.35pt }
+      table.sheet0 tr.row24 { height:31.35pt }
+      table.sheet0 tr.row25 { height:31.35pt }
+      table.sheet0 tr.row26 { height:31.35pt }
+      table.sheet0 tr.row27 { height:31.35pt }
+      table.sheet0 tr.row28 { height:31.35pt }
+      table.sheet0 tr.row29 { height:31.35pt }
+      table.sheet0 tr.row30 { height:31.35pt }
+      table.sheet0 tr.row31 { height:31.35pt }
+      table.sheet0 tr.row32 { height:31.35pt }
+      table.sheet0 tr.row33 { height:31.35pt }
+      table.sheet0 tr.row34 { height:31.35pt }
+      table.sheet0 tr.row35 { height:31.35pt; display:none; visibility:hidden }
+      table.sheet0 tr.row36 { height:31.35pt; display:none; visibility:hidden }
+      table.sheet0 tr.row37 { height:31.35pt; display:none; visibility:hidden }
+      table.sheet0 tr.row38 { height:31.35pt; display:none; visibility:hidden }
+      table.sheet0 tr.row39 { height:31.35pt; display:none; visibility:hidden }
+      table.sheet0 tr.row40 { height:31.35pt; display:none; visibility:hidden }
+      table.sheet0 tr.row41 { height:31.35pt; display:none; visibility:hidden }
+      table.sheet0 tr.row42 { height:409.5pt; display:none; visibility:hidden }
+      table.sheet0 tr.row43 { height:409.5pt; display:none; visibility:hidden }
+      table.sheet0 tr.row44 { height:409.5pt; display:none; visibility:hidden }
+    </style>
+  </head>
+
+  <body>
+<style>
+@page { margin-left: 0.33in; margin-right: 0.02in; margin-top: 0.74803149606299in; margin-bottom: 0.44in; }
+body { margin-left: 0.33in; margin-right: 0.02in; margin-top: 0.74803149606299in; margin-bottom: 0.44in; }
+</style>
+    <table border="0" cellpadding="0" cellspacing="0" id="sheet0" class="sheet0 gridlines">
+        <col class="col0">
+        <col class="col1">
+        <col class="col2">
+        <col class="col3">
+        <col class="col4">
+        <col class="col5">
+        <col class="col6">
+        <col class="col7">
+        <col class="col8">
+        <col class="col9">
+        <col class="col10">
+        <col class="col11">
+        <col class="col12">
+        <col class="col13">
+        <col class="col14">
+        <col class="col15">
+        <col class="col16">
+        <col class="col17">
+        <col class="col18">
+        <col class="col19">
+        <col class="col20">
+        <tbody>
+          <tr class="row0">
+            <td class="column0 style2 s style50" colspan="10">SPENDING</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11 style51 s style53" colspan="3">RESULTS</td>
+            <td class="column14 style54 null"></td>
+            <td class="column15 style55 s style55" colspan="4">PEOPLE</td>
+            <td class="column19">&nbsp;</td>
+            <td class="column20">&nbsp;</td>
+          </tr>
+          <tr class="row1">
+            <td class="column0 style4 null"></td>
+            <td class="column1 style4 null"></td>
+            <td class="column2 style4 null"></td>
+            <td class="column3 style4 null"></td>
+            <td class="column4 style4 null"></td>
+            <td class="column5 style5 null"></td>
+            <td class="column6 style5 null"></td>
+            <td class="column7 style5 null"></td>
+            <td class="column8 style5 null"></td>
+            <td class="column9 style56 null"></td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11 style5 null"></td>
+            <td class="column12 style5 null"></td>
+            <td class="column13 style5 null"></td>
+            <td class="column14 style54 null"></td>
+            <td class="column15 style5 null"></td>
+            <td class="column16 style5 null"></td>
+            <td class="column17 style5 null"></td>
+            <td class="column18 style5 null"></td>
+            <td class="column19">&nbsp;</td>
+            <td class="column20">&nbsp;</td>
+          </tr>
+          <tr class="row2">
+            <td class="column0 style6 s style8" colspan="3">Budget</td>
+            <td class="column3 style9 s style10" colspan="2">£million</td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style12 s style12" colspan="2">Common Areas of Spend</td>
+            <td class="column8 style16 s">Q2 2011-12</td>
+            <td class="column9 style57 s">Q1 2011-12</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11 style58 s">Input Indicators</td>
+            <td class="column12 style57 s">Current</td>
+            <td class="column13 style57 s">Previous</td>
+            <td class="column14">&nbsp;</td>
+            <td class="column15 style59 s style59" colspan="2">Whole Department Family - Workforce Size </td>
+            <td class="column17 style57 s">Current</td>
+            <td class="column18 style57 s">Previous</td>
+            <td class="column19">&nbsp;</td>
+            <td class="column20">&nbsp;</td>
+          </tr>
+          <tr class="row3">
+            <td class="column0 style1 null style1" colspan="5"></td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style1 null style1" colspan="4"></td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11">&nbsp;</td>
+            <td class="column12 style54 null"></td>
+            <td class="column13 style54 null"></td>
+            <td class="column14">&nbsp;</td>
+            <td class="column15 style1 null style1" colspan="4"></td>
+            <td class="column19">&nbsp;</td>
+            <td class="column20">&nbsp;</td>
+          </tr>
+          <tr class="row4">
+            <td class="column0 style13 null style15" colspan="3"></td>
+            <td class="column3 style16 s">Q2 2011-12</td>
+            <td class="column4 style16 s">Q2 2010-11</td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style17 s style25" rowspan="4">Estate Costs</td>
+            <td class="column7 style18 s">Total office estate (m2)</td>
+            <td class="column8 style21 n">269,407</td>
+            <td class="column9 style21 n">269,407</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11 style60 s">1 Cost per head of population of total police force cost (£, current = 2011-12, previous = 2010-11)</td>
+            <td class="column12 style21 n">198</td>
+            <td class="column13 style21 n">206</td>
+            <td class="column14">&nbsp;</td>
+            <td class="column15 style61 s style63" rowspan="3">Payroll Staff<br />
+[Total full-time equivalent by]<br />
+(current = at 30 Sep 2011, previous = at 30 Jun 2011)</td>
+            <td class="column16 style80 s">Department and Agencies</td>
+            <td class="column17 style21 n">25,549</td>
+            <td class="column18 style21 n">26,305</td>
+            <td class="column19">&nbsp;</td>
+            <td class="column20">&nbsp;</td>
+          </tr>
+          <tr class="row5">
+            <td class="column0 style19 s style15" colspan="3">Total Departmental Expenditure Limit (DEL)</td>
+            <td class="column3 style21 n">2,061</td>
+            <td class="column4 style21 n">2,364</td>
+            <td class="column5 style11 null"></td>
+            <td class="column7 style18 s"><span style="color:#000000; font-family:'Calibri'; font-size:11pt">Total cost of office estate</span><span style="color:#000000; font-family:'Calibri'; font-size:11pt"> (£million)</span></td>
+            <td class="column8 style41 s">QDS4 2011-12</td>
+            <td class="column9 style41 s">Not applicable</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11 style60 s">2 Cost per case of managing a drug misusing offender into treatment and recovery (£, current = 2010-11, previous = 2009-10)</td>
+            <td class="column12 style21 n">3,063</td>
+            <td class="column13 style21 n">3,093</td>
+            <td class="column14">&nbsp;</td>
+            <td class="column16 style80 s">Non-departmental public bodies</td>
+            <td class="column17 style21 n">6,232</td>
+            <td class="column18 style21 n">6,381</td>
+            <td class="column19">&nbsp;</td>
+            <td class="column20">&nbsp;</td>
+          </tr>
+          <tr class="row6">
+            <td class="column0 style13 s style15" colspan="3"><span style="font-weight:bold; color:#000000; font-family:'Calibri'; font-size:11pt">of which Resource DEL</span><span style="color:#000000; font-family:'Arial'; font-size:12pt"> (excl. Depreciation)</span></td>
+            <td class="column3 style21 n">1,903</td>
+            <td class="column4 style21 n">2,191</td>
+            <td class="column5 style11 null"></td>
+            <td class="column7 style18 s">Cost per FTE (£)</td>
+            <td class="column8 style41 s">QDS4 2011-12</td>
+            <td class="column9 style41 s">Not applicable</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11 style60 s">3 Cost per passenger processed at the UK border (£, current = 2010-11)</td>
+            <td class="column12 style41 n">3.25</td>
+            <td class="column13 style41 s">Not applicable</td>
+            <td class="column14">&nbsp;</td>
+            <td class="column16 style80 s">Department Family</td>
+            <td class="column17 style21 n">31,781</td>
+            <td class="column18 style21 n">32,686</td>
+            <td class="column19">&nbsp;</td>
+            <td class="column20">&nbsp;</td>
+          </tr>
+          <tr class="row7">
+            <td class="column0 style17 s style29" rowspan="5">Upto top 5 contributory elements</td>
+            <td class="column1 style23 s style24" colspan="2">A: Crime and Policing</td>
+            <td class="column3 style21 n">1,388</td>
+            <td class="column4 style21 n">1,606</td>
+            <td class="column5 style11 null"></td>
+            <td class="column7 style18 s">Cost per m2 (£)</td>
+            <td class="column8 style41 s">QDS4 2011-12</td>
+            <td class="column9 style41 s">Not applicable</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11 style60 s">4 Cost per decision for all permanent and temporary migration applications (£, current = 2010-11)</td>
+            <td class="column12 style21 n">212</td>
+            <td class="column13 style41 s">Not applicable</td>
+            <td class="column14">&nbsp;</td>
+            <td class="column15 style64 s style81" colspan="2">Average Staff Costs<br />
+(£, current = at 30 Sep 2011, previous = at 30 Jun 2011)</td>
+            <td class="column17 style21 n">36,739</td>
+            <td class="column18 style21 n">36,476</td>
+            <td class="column19">&nbsp;</td>
+            <td class="column20">&nbsp;</td>
+          </tr>
+          <tr class="row8">
+            <td class="column1 style23 s style24" colspan="2">B: UK Border Agency</td>
+            <td class="column3 style21 n">271</td>
+            <td class="column4 style21 n">325</td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style17 s style28" rowspan="3">Procurement</td>
+            <td class="column7 style18 s"><span style="color:#000000; font-family:'Calibri'; font-size:11pt">Total Procurement Spend </span><span style="color:#000000; font-family:'Calibri'; font-size:11pt">(£million)</span></td>
+            <td class="column8 style41 n">647.00</td>
+            <td class="column9 style41 n">699.00</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11 style60 s">5 Cost of producing and issuing a passport (£, current = 2010-11, previous = 2009-10)</td>
+            <td class="column12 style21 n">71</td>
+            <td class="column13 style21 n">71</td>
+            <td class="column14">&nbsp;</td>
+            <td class="column15 style61 s style67" rowspan="3">Contingent Labour<br />
+[Total full-time equivalent by] <br />
+(current = at 30 Sep 2011, previous = at 30 Jun 2011)</td>
+            <td class="column16 style82 s">Department and Agencies</td>
+            <td class="column17 style21 n">418</td>
+            <td class="column18 style21 n">347</td>
+            <td class="column19">&nbsp;</td>
+            <td class="column20">&nbsp;</td>
+          </tr>
+          <tr class="row9">
+            <td class="column1 style23 s style24" colspan="2">C: Security &amp; Counter Terrorism</td>
+            <td class="column3 style21 n">219</td>
+            <td class="column4 style21 n">193</td>
+            <td class="column5 style11 null"></td>
+            <td class="column7 style18 s">Price of standard box of A4 white copier paper (£/2500 sheets)</td>
+            <td class="column8 style41 n">11.39</td>
+            <td class="column9 style41 n">10.26</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11 style58 s">Impact Indicators</td>
+            <td class="column12 style57 s">Current</td>
+            <td class="column13 style57 s">Previous</td>
+            <td class="column14">&nbsp;</td>
+            <td class="column16 style82 s">Non-departmental public bodies</td>
+            <td class="column17 style21 n">199</td>
+            <td class="column18 style21 n">207</td>
+            <td class="column19">&nbsp;</td>
+            <td class="column20">&nbsp;</td>
+          </tr>
+          <tr class="row10">
+            <td class="column1 style23 s style24" colspan="2">D: Identity &amp; Passports</td>
+            <td class="column3 style21 n">-19</td>
+            <td class="column4 style21 n">-8</td>
+            <td class="column5 style11 null"></td>
+            <td class="column7 style18 s">Average price of energy (£/KWH)</td>
+            <td class="column8 style41 n">0.10</td>
+            <td class="column9 style66 n">0.075</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11 style60 s">1 Crime rates - violent and property crime reported to the police (current = 12 months to the end of September 2011, previous = 12 months to the end of September 2010)</td>
+            <td class="column12 style21 n">3,453,310</td>
+            <td class="column13 style21 n">3,585,159</td>
+            <td class="column14">&nbsp;</td>
+            <td class="column16 style80 s">Department Family</td>
+            <td class="column17 style21 n">617</td>
+            <td class="column18 style21 n">554</td>
+            <td class="column19">&nbsp;</td>
+            <td class="column20">&nbsp;</td>
+          </tr>
+          <tr class="row11">
+            <td class="column1 style23 s style24" colspan="2">E: Central Home Office</td>
+            <td class="column3 style21 n">44</td>
+            <td class="column4 style21 n">76</td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style17 s style28" rowspan="2">IT</td>
+            <td class="column7 style18 s">Total 3rd Party ICT Cost (£million)</td>
+            <td class="column8 style41 n">187.90</td>
+            <td class="column9 style41 n">167.90</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11 style60 s">2a Number of known organised criminals (current=30 June 2011)</td>
+            <td class="column12 style21 n">38,861</td>
+            <td class="column13 style41 s">Not applicable</td>
+            <td class="column14">&nbsp;</td>
+            <td class="column15 style68 s style83" colspan="2">Department and Agencies Only</td>
+            <td class="column17 style16 s">Current</td>
+            <td class="column18 style16 s">Previous</td>
+            <td class="column19">&nbsp;</td>
+            <td class="column20">&nbsp;</td>
+          </tr>
+          <tr class="row12">
+            <td class="column0 style13 s style15" colspan="3">Purchase of goods and services within Resource DEL</td>
+            <td class="column3 style21 n">573</td>
+            <td class="column4 style21 n">619</td>
+            <td class="column5 style11 null"></td>
+            <td class="column7 style18 s">Cost of desktop provision per FTE (£)</td>
+            <td class="column8 style41 n">597.50</td>
+            <td class="column9 style41 n">597.50</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11 style60 s">2b Number of oganised crime groups (current=30 June 2011)</td>
+            <td class="column12 style21 n">7,255</td>
+            <td class="column13 style41 s">Not applicable</td>
+            <td class="column14">&nbsp;</td>
+            <td class="column15 style61 s style63" rowspan="6">Workforce Shape<br />
+[Total full-time equivalent by]<br />
+(%, current = at 30 Sep 2011, previous = at 30 Jun 2011)</td>
+            <td class="column16 style80 s">Administrative Assistants and Administrative Officers</td>
+            <td class="column17 style84 n">32.8</td>
+            <td class="column18 style85 n">33.0</td>
+            <td class="column19 style1 null"></td>
+            <td class="column20 style1 null"></td>
+          </tr>
+          <tr class="row13">
+            <td class="column0 style13 s style15" colspan="3">Payroll within Resource DEL</td>
+            <td class="column3 style21 n">359</td>
+            <td class="column4 style21 n">389</td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style17 s style28" rowspan="5">Corporate Service Cost</td>
+            <td class="column7 style31 s"><span style="color:#000000; font-family:'Calibri'; font-size:11pt">Human Resources </span><span style="color:#000000; font-family:'Calibri'; font-size:11pt">(£million)</span></td>
+            <td class="column8 style41 n">12.99</td>
+            <td class="column9 style41 n">15.23</td>
+            <td class="column10 style11 null"></td>
+            <td class="column11 style60 s">3 Net migration  to the UK (current = year to March 2011, previous = year to December 2010)</td>
+            <td class="column12 style21 n">245,000</td>
+            <td class="column13 style21 n">252,000</td>
+            <td class="column14">&nbsp;</td>
+            <td class="column16 style80 s">Executive Officers</td>
+            <td class="column17 style84 n">37.7</td>
+            <td class="column18 style85 n">37.7</td>
+            <td class="column19 style1 null"></td>
+            <td class="column20 style1 null"></td>
+          </tr>
+          <tr class="row14">
+            <td class="column0 style13 s style15" colspan="3">Grants within Resource DEL</td>
+            <td class="column3 style21 n">1,522</td>
+            <td class="column4 style21 n">1,693</td>
+            <td class="column5 style11 null"></td>
+            <td class="column7 style31 s"><span style="color:#000000; font-family:'Calibri'; font-size:11pt">Finance </span><span style="color:#000000; font-family:'Calibri'; font-size:11pt">(£million)</span></td>
+            <td class="column8 style41 n">6.53</td>
+            <td class="column9 style41 n">7.32</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11 style60 s">4 Annual level of tax revenue that is protected through detecting goods where excise duty has not been declared (£million, current = July-September 2011, previous= April-June 2011)</td>
+            <td class="column12 style69 n">77</td>
+            <td class="column13 style69 n">80</td>
+            <td class="column14">&nbsp;</td>
+            <td class="column16 style80 s">Higher and Senior Executive Officers</td>
+            <td class="column17 style84 n">22.5</td>
+            <td class="column18 style85 n">22.5</td>
+            <td class="column19 style1 null"></td>
+            <td class="column20 style1 null"></td>
+          </tr>
+          <tr class="row15">
+            <td class="column0 style19 s style15" colspan="3">of which Capital DEL</td>
+            <td class="column3 style21 n">113</td>
+            <td class="column4 style21 n">91</td>
+            <td class="column5 style11 null"></td>
+            <td class="column7 style31 s"><span style="color:#000000; font-family:'Calibri'; font-size:11pt">Procurement </span><span style="color:#000000; font-family:'Calibri'; font-size:11pt">(£million)</span></td>
+            <td class="column8 style41 n">2.60</td>
+            <td class="column9 style41 n">3.21</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11 style60 s">5 Clearance of passengers at the border within published standards (%, current = July-September 2011, previous= April-June 2011)</td>
+            <td class="column12 style69 n">96</td>
+            <td class="column13 style69 n">97</td>
+            <td class="column14">&nbsp;</td>
+            <td class="column16 style80 s">Grade 7/6</td>
+            <td class="column17 style84 n">6.1</td>
+            <td class="column18 style85 n">6.0</td>
+            <td class="column19 style1 null"></td>
+            <td class="column20 style1 null"></td>
+          </tr>
+          <tr class="row16">
+            <td class="column0 style17 s style29" rowspan="5">Upto top 5 contributory elements</td>
+            <td class="column1 style23 s style24" colspan="2">A: Crime and Policing</td>
+            <td class="column3 style21 n">35</td>
+            <td class="column4 style21 n">70</td>
+            <td class="column5 style11 null"></td>
+            <td class="column7 style31 s"><span style="color:#000000; font-family:'Calibri'; font-size:11pt">Legal </span><span style="color:#000000; font-family:'Calibri'; font-size:11pt">(£million)</span></td>
+            <td class="column8 style41 n">12.38</td>
+            <td class="column9 style41 n">10.49</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11 style60 s">6 Percentage of migration applications decided within published standards (%, current = July-September 2011, previous= April-June 2011)</td>
+            <td class="column12 style69 n">90</td>
+            <td class="column13 style69 n">89</td>
+            <td class="column14">&nbsp;</td>
+            <td class="column16 style80 s">Senior Civil Servants</td>
+            <td class="column17 style84 n">0.8</td>
+            <td class="column18 style85 n">0.8</td>
+            <td class="column19 style1 null"></td>
+            <td class="column20 style1 null"></td>
+          </tr>
+          <tr class="row17">
+            <td class="column1 style23 s style24" colspan="2">B: UK Border Agency</td>
+            <td class="column3 style21 n">57</td>
+            <td class="column4 style21 n">-23</td>
+            <td class="column5 style11 null"></td>
+            <td class="column7 style31 s"><span style="color:#000000; font-family:'Calibri'; font-size:11pt">Communications </span><span style="color:#000000; font-family:'Calibri'; font-size:11pt">(£million)</span></td>
+            <td class="column8 style41 n">7.98</td>
+            <td class="column9 style41 n">5.46</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11 style60 s">7 Percentage of asylum applications concluded in one year (%, current = July-September 2011, previous= April-June 2011)</td>
+            <td class="column12 style69 n">64</td>
+            <td class="column13 style69 n">59</td>
+            <td class="column14">&nbsp;</td>
+            <td class="column16 style80 s">Part Time</td>
+            <td class="column17 style84 n">19.2</td>
+            <td class="column18 style86 n">19.2</td>
+            <td class="column19 style1 null"></td>
+            <td class="column20 style1 null"></td>
+          </tr>
+          <tr class="row18">
+            <td class="column1 style23 s style24" colspan="2">C: Security &amp; Counter Terrorism</td>
+            <td class="column3 style21 n">17</td>
+            <td class="column4 style21 n">22</td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style17 s style28" rowspan="4">Fraud, Error, Debt</td>
+            <td class="column7 style18 s"><span style="color:#000000; font-family:'Calibri'; font-size:11pt">Total Identified Fraud</span><span style="color:#000000; font-family:'Calibri'; font-size:11pt"> (£million)</span></td>
+            <td class="column8 style41 n">0.00</td>
+            <td class="column9 style41 n">0.00</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11 style60 s">8 Passport applications processed within target (%, current = Q2 2011-12, previous = Q1 2011-12)</td>
+            <td class="column12 style69 n">100</td>
+            <td class="column13 style69 n">100</td>
+            <td class="column14">&nbsp;</td>
+            <td class="column15 style61 s style63" rowspan="2">Workforce Dynamics</td>
+            <td class="column16 style87 s"><span style="color:#000000; font-family:'宋体'; font-size:11pt">Recruitment Exceptions </span><span style="color:#000000; font-family:'Calibri'; font-size:11pt">(current = Q2  2011-12, previous = Q1  2011-12)</span></td>
+            <td class="column17 style88 n">26</td>
+            <td class="column18 style89 n">90</td>
+            <td class="column19 style1 null"></td>
+            <td class="column20 style1 null"></td>
+          </tr>
+          <tr class="row19">
+            <td class="column1 style23 s style24" colspan="2">D: Identity &amp; Passports</td>
+            <td class="column3 style21 n">3</td>
+            <td class="column4 style21 n">22</td>
+            <td class="column5 style11 null"></td>
+            <td class="column7 style18 s"><span style="color:#000000; font-family:'Calibri'; font-size:11pt">Total known Errors </span><span style="color:#000000; font-family:'Calibri'; font-size:11pt">(£million)</span></td>
+            <td class="column8 style41 n">0.46</td>
+            <td class="column9 style41 n">0.26</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11 style60 s">9a Number of organisations that voluntarily report on the gender diversity of their workforce (Organisations with 250+ employees,current=2009-11)</td>
+            <td class="column12 style69 n">400</td>
+            <td class="column13 style41 s">Not applicable</td>
+            <td class="column14">&nbsp;</td>
+            <td class="column16 style80 s"><span style="color:#000000; font-family:'宋体'; font-size:11pt">Annual Turnover Rate (%, </span><span style="color:#000000; font-family:'Calibri'; font-size:11pt">current = at 30 Sep 2011, previous = at 30 Jun 2011)</span></td>
+            <td class="column17 style84 n">13.2</td>
+            <td class="column18 style86 n">12.2</td>
+            <td class="column19 style1 null"></td>
+            <td class="column20 style1 null"></td>
+          </tr>
+          <tr class="row20">
+            <td class="column1 style23 s style24" colspan="2">E: Central Home Office</td>
+            <td class="column3 style21 n">1</td>
+            <td class="column4 style21 n">0</td>
+            <td class="column5 style11 null"></td>
+            <td class="column7 style18 s"><span style="color:#000000; font-family:'Calibri'; font-size:11pt">Total Debt </span><span style="color:#000000; font-family:'Calibri'; font-size:11pt">(£million)</span></td>
+            <td class="column8 style41 n">27.34</td>
+            <td class="column9 style41 n">23.85</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11 style60 s">9b Number of organisations that voluntarily report on their gender pay gap  (Organisations with 250+ employees,current=2009-11)</td>
+            <td class="column12 style69 n">100</td>
+            <td class="column13 style41 s">Not applicable</td>
+            <td class="column14">&nbsp;</td>
+            <td class="column15 style61 s style63" rowspan="3">Workforce Diversity<br />
+[Total]<br />
+(%, current = at 30 Sep 2011, previous = at 30 Jun 2011)</td>
+            <td class="column16 style80 s">Black and Minority Ethnic</td>
+            <td class="column17 style84 n">23.4</td>
+            <td class="column18 style86 n">23.6</td>
+            <td class="column19 style1 null"></td>
+            <td class="column20 style1 null"></td>
+          </tr>
+          <tr class="row21">
+            <td class="column0 style19 s style33" colspan="3">Total Annually Managed Expenditure (AME)</td>
+            <td class="column3 style21 n">-5</td>
+            <td class="column4 style21 n">4</td>
+            <td class="column5 style11 null"></td>
+            <td class="column7 style18 s">Debtor Days</td>
+            <td class="column8 style41 n">6.10</td>
+            <td class="column9 style41 n">5.51</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11 style58 s">Other Data Sets</td>
+            <td class="column12 style57 s">Current</td>
+            <td class="column13 style57 s">Previous</td>
+            <td class="column14">&nbsp;</td>
+            <td class="column16 style80 s">Women</td>
+            <td class="column17 style84 n">52.5</td>
+            <td class="column18 style86 n">52.8</td>
+            <td class="column19 style1 null"></td>
+            <td class="column20 style1 null"></td>
+          </tr>
+          <tr class="row22">
+            <td class="column0 style17 s style29" rowspan="5">Upto top 5 contributory elements</td>
+            <td class="column1 style23 s style24" colspan="2">A: Crime and Policing</td>
+            <td class="column3 style21 n">0</td>
+            <td class="column4 style21 n">-9</td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style17 s style28" rowspan="3">Voluntary and community sector (VCS)/Small and medium enterprises (SME)</td>
+            <td class="column7 style18 s"><span style="color:#000000; font-family:'Calibri'; font-size:11pt">Procurement spend with SME</span><span style="color:#000000; font-family:'Calibri'; font-size:11pt"> (£million)</span></td>
+            <td class="column8 style41 n">48.00</td>
+            <td class="column9 style41 n">41.00</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11 style60 s">1  Non-asylum passengers initially refused entry (current = Q3 2011, previous = Q2 2011 (calendar years))</td>
+            <td class="column12 style21 n">4,524</td>
+            <td class="column13 style21 n">4,237</td>
+            <td class="column14">&nbsp;</td>
+            <td class="column16 style80 s">Disabled</td>
+            <td class="column17 style84 n">6.6</td>
+            <td class="column18 style86 n">6.6</td>
+            <td class="column19 style1 null"></td>
+            <td class="column20 style1 null"></td>
+          </tr>
+          <tr class="row23">
+            <td class="column1 style23 s style24" colspan="2">B: UK Border Agency</td>
+            <td class="column3 style21 n">-5</td>
+            <td class="column4 style21 n">-1</td>
+            <td class="column5 style11 null"></td>
+            <td class="column7 style18 s"><span style="color:#000000; font-family:'Calibri'; font-size:11pt">Procurement spend with VCS </span><span style="color:#000000; font-family:'Calibri'; font-size:11pt">(£million)</span></td>
+            <td class="column8 style41 s">QDS4 2011-12</td>
+            <td class="column9 style41 s">Not applicable</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11 style60 s">2 Total removals and voluntary departures  (current = Q3 2011, previous = Q2 2011 (calendar years))</td>
+            <td class="column12 style21 n">13,253</td>
+            <td class="column13 style21 n">11,388</td>
+            <td class="column14">&nbsp;</td>
+            <td class="column15 style61 s style63" rowspan="4">Workforce Diversity<br />
+[Senior Civil Servants only]<br />
+(%, current = at 30 Sep 2011, previous = at 30 Jun 2011)</td>
+            <td class="column16 style80 s">Black and Minority Ethnic</td>
+            <td class="column17 style84 n">5.5</td>
+            <td class="column18 style86 n">6.2</td>
+            <td class="column19 style1 null"></td>
+            <td class="column20 style1 null"></td>
+          </tr>
+          <tr class="row24">
+            <td class="column1 style23 s style24" colspan="2">C: Security &amp; Counter Terrorism</td>
+            <td class="column3 style21 n">0</td>
+            <td class="column4 style21 n">0</td>
+            <td class="column5 style11 null"></td>
+            <td class="column7 style18 s"><span style="color:#000000; font-family:'Calibri'; font-size:11pt">Grants to VCS </span><span style="color:#000000; font-family:'Calibri'; font-size:11pt">(£million)</span></td>
+            <td class="column8 style41 n">11.70</td>
+            <td class="column9 style41 n">11.00</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11 style60 s">3 Number of asylum applications received (current = Q3 2011, previous = Q2 2011 (calendar years))</td>
+            <td class="column12 style21 n">4,912</td>
+            <td class="column13 style21 n">4,787</td>
+            <td class="column14">&nbsp;</td>
+            <td class="column16 style80 s">Women</td>
+            <td class="column17 style84 n">38.8</td>
+            <td class="column18 style86 n">36.2</td>
+            <td class="column19 style1 null"></td>
+            <td class="column20 style1 null"></td>
+          </tr>
+          <tr class="row25">
+            <td class="column1 style23 s style24" colspan="2">D: Identity &amp; Passports</td>
+            <td class="column3 style21 n">1</td>
+            <td class="column4 style21 n">14</td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style6 s style33" colspan="3">Major Projects (Top 5)</td>
+            <td class="column9 style70 s">Cost</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11 style60 s">4 Number of hits that the Police.uk has received (current=January-December 2011,previous= January - September 2011)</td>
+            <td class="column12 style21 n">449,180,000</td>
+            <td class="column13 style21 n">433,000,000</td>
+            <td class="column14">&nbsp;</td>
+            <td class="column16 style80 s">Women (Top Management Posts)</td>
+            <td class="column17 style84 n">29.2</td>
+            <td class="column18 style86 n">30.6</td>
+            <td class="column19 style1 null"></td>
+            <td class="column20 style1 null"></td>
+          </tr>
+          <tr class="row26">
+            <td class="column1 style23 s style24" colspan="2">E: Central Home Office</td>
+            <td class="column3 style21 n">-1</td>
+            <td class="column4 style21 n">0</td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style34 s style15" colspan="3">A: Compass - Ongoing contract provision for UKBA accommodation and related services (£million)</td>
+            <td class="column9 style21 n">883</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11 style58 s">Structural Reform Plan Actions</td>
+            <td class="column12 style16 s">Q3 2011-12</td>
+            <td class="column13 style16 s">Q2 2011-12</td>
+            <td class="column14">&nbsp;</td>
+            <td class="column16 style80 s">Disabled</td>
+            <td class="column17 style84 n">4.3</td>
+            <td class="column18 style86 n">3.9</td>
+            <td class="column19 style1 null"></td>
+            <td class="column20 style1 null"></td>
+          </tr>
+          <tr class="row27">
+            <td class="column0 style35 s style37" colspan="3">Financial Indicators</td>
+            <td class="column3 style16 s">Q2 2011-12</td>
+            <td class="column4 style16 s">Q1 2011-12</td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style34 s style15" colspan="3">B: e-Borders - This programme will create an integrated and more secure border for the 21st century (£million)</td>
+            <td class="column9 style21 n">801</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11 style71 s">Total number of actions completed over the quarter</td>
+            <td class="column12 style21 n">22</td>
+            <td class="column13 style69 n">16</td>
+            <td class="column14">&nbsp;</td>
+            <td class="column15 style61 s style63" rowspan="2"><span style="color:#000000; font-family:'宋体'; font-size:11pt">Attendance </span><span style="color:#000000; font-family:'Calibri'; font-size:11pt">(AWDL) (current = at 30 Sep 2011, previous = at 30 Jun 2011)</span></td>
+            <td class="column16 style80 s">Actual</td>
+            <td class="column17 style84 n">7.9</td>
+            <td class="column18 style86 n">7.7</td>
+            <td class="column19 style1 null"></td>
+            <td class="column20 style1 null"></td>
+          </tr>
+          <tr class="row28">
+            <td class="column0 style38 s style40" colspan="3">Accuracy of Cash Forecasting ( +/- %)</td>
+            <td class="column3 style41 n">5.89</td>
+            <td class="column4 style42 n">9.83</td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style34 s style15" colspan="3">C: Cyclamen - To deter the illicit importation of freight entering the UK, whilst minimising the disruption to legitimate passengers and freight (£million)</td>
+            <td class="column9 style21 n">747</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11 style71 s">Total number of actions overdue at the end of the quarter</td>
+            <td class="column12 style21 n">12</td>
+            <td class="column13 style72 n">6</td>
+            <td class="column14">&nbsp;</td>
+            <td class="column16 style80 s">Standardised</td>
+            <td class="column17 style84 n">8.1</td>
+            <td class="column18 style86 n">7.9</td>
+            <td class="column19 style1 null"></td>
+            <td class="column20 style1 null"></td>
+          </tr>
+          <tr class="row29">
+            <td class="column0 style38 s style40" colspan="3"><span style="color:#000000; font-family:'宋体'; font-size:11pt">Working Capital Forecast (% variance of </span><span style="color:#000000; font-family:'Calibri'; font-size:11pt">Actual v Forecast)</span></td>
+            <td class="column3 style41 n">-68.99</td>
+            <td class="column4 style42 n">-44.68</td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style34 s style15" colspan="3">D: Disclosure and Barring Programme - To reduce costs and enhance vetting services offered by CRB and ISA (£million)</td>
+            <td class="column9 style21 n">708</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11 style60 s">Number of overdue actions that are attributable to external factors</td>
+            <td class="column12 style21 n">0</td>
+            <td class="column13 style72 n">1</td>
+            <td class="column14">&nbsp;</td>
+            <td class="column15 style68 s style15" colspan="2">Department only; People Survey Metrics</td>
+            <td class="column17 style16 s">2011 survey</td>
+            <td class="column18 style16 s">2010 survey</td>
+            <td class="column19">&nbsp;</td>
+            <td class="column20">&nbsp;</td>
+          </tr>
+          <tr class="row30">
+            <td class="column0 style38 s style40" colspan="3"><span style="color:#000000; font-family:'宋体'; font-size:11pt">Net Book Value (% variance of </span><span style="color:#000000; font-family:'Calibri'; font-size:11pt">Actual v Forecast)</span></td>
+            <td class="column3 style41 n">0.59</td>
+            <td class="column4 style42 n">0.03</td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style34 s style15" colspan="3">E: New Passport Programme - To deliver a new supplier and design for UK passport (£million)</td>
+            <td class="column9 style21 n">453</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11 style60 s">Total number of actions ongoing</td>
+            <td class="column12 style21 n">52</td>
+            <td class="column13 style72 n">61</td>
+            <td class="column14">&nbsp;</td>
+            <td class="column15 style13 s style90" colspan="2">Engagement Index (%)</td>
+            <td class="column17 style21 n">58</td>
+            <td class="column18 style69 n">57</td>
+            <td class="column19">&nbsp;</td>
+            <td class="column20">&nbsp;</td>
+          </tr>
+          <tr class="row31">
+            <td class="column0">&nbsp;</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style43 s style73" colspan="3">£m whole life cost of ALL major projects</td>
+            <td class="column9 style21 n">7,088</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11 style60 s">Total number of actions in the business plan that have yet to start</td>
+            <td class="column12 style21 n">14</td>
+            <td class="column13 style69 n">25</td>
+            <td class="column14">&nbsp;</td>
+            <td class="column15 style74 s style76" rowspan="4">Theme scores  (%)</td>
+            <td class="column16 style91 s">Leadership and Managing Change</td>
+            <td class="column17 style21 n">40</td>
+            <td class="column18 style69 n">38</td>
+            <td class="column19">&nbsp;</td>
+            <td class="column20">&nbsp;</td>
+          </tr>
+          <tr class="row32">
+            <td class="column0 style45 null"></td>
+            <td class="column1 style45 null"></td>
+            <td class="column2 style45 null"></td>
+            <td class="column3 style45 null"></td>
+            <td class="column4 style45 null"></td>
+            <td class="column5 style46 null"></td>
+            <td class="column6 style45 null"></td>
+            <td class="column7 style45 null"></td>
+            <td class="column8 style45 null"></td>
+            <td class="column9 style45 null"></td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11">&nbsp;</td>
+            <td class="column12">&nbsp;</td>
+            <td class="column13">&nbsp;</td>
+            <td class="column14">&nbsp;</td>
+            <td class="column16 style91 s">My Work</td>
+            <td class="column17 style21 n">76</td>
+            <td class="column18 style69 n">72</td>
+            <td class="column19">&nbsp;</td>
+            <td class="column20">&nbsp;</td>
+          </tr>
+          <tr class="row33">
+            <td class="column0 style47 null"></td>
+            <td class="column1 style48 null"></td>
+            <td class="column2 style48 null"></td>
+            <td class="column3 style48 null"></td>
+            <td class="column4 style48 null"></td>
+            <td class="column5 style48 null"></td>
+            <td class="column6 style48 null"></td>
+            <td class="column7 style48 null"></td>
+            <td class="column8 style48 null"></td>
+            <td class="column9 style48 null"></td>
+            <td class="column10 style11 null"></td>
+            <td class="column11">&nbsp;</td>
+            <td class="column12">&nbsp;</td>
+            <td class="column13">&nbsp;</td>
+            <td class="column14">&nbsp;</td>
+            <td class="column16 style91 s">My Line Manager</td>
+            <td class="column17 style21 n">67</td>
+            <td class="column18 style69 n">66</td>
+            <td class="column19">&nbsp;</td>
+            <td class="column20">&nbsp;</td>
+          </tr>
+          <tr class="row34">
+            <td class="column0">&nbsp;</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10 style11 null"></td>
+            <td class="column11">&nbsp;</td>
+            <td class="column12">&nbsp;</td>
+            <td class="column13">&nbsp;</td>
+            <td class="column14">&nbsp;</td>
+            <td class="column16 style91 s">Organisational Objectives &amp; Purpose</td>
+            <td class="column17 style21 n">82</td>
+            <td class="column18 style69 n">80</td>
+            <td class="column19">&nbsp;</td>
+            <td class="column20">&nbsp;</td>
+          </tr>
+          <tr class="row35">
+            <td class="column0 style49 null"></td>
+            <td class="column1 style30 null"></td>
+            <td class="column2 style30 null"></td>
+            <td class="column3 style30 null"></td>
+            <td class="column4 style30 null"></td>
+            <td class="column5 style30 null"></td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11">&nbsp;</td>
+            <td class="column12">&nbsp;</td>
+            <td class="column13">&nbsp;</td>
+            <td class="column14">&nbsp;</td>
+            <td class="column15 style77 null"></td>
+            <td class="column16 style92 null"></td>
+            <td class="column17 style92 null"></td>
+            <td class="column18 style93 null"></td>
+            <td class="column19">&nbsp;</td>
+            <td class="column20">&nbsp;</td>
+          </tr>
+          <tr class="row36">
+            <td class="column0">&nbsp;</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11 style78 null"></td>
+            <td class="column12 style78 null"></td>
+            <td class="column13 style78 null"></td>
+            <td class="column14">&nbsp;</td>
+            <td class="column15">&nbsp;</td>
+            <td class="column16">&nbsp;</td>
+            <td class="column17">&nbsp;</td>
+            <td class="column18">&nbsp;</td>
+            <td class="column19">&nbsp;</td>
+            <td class="column20">&nbsp;</td>
+          </tr>
+          <tr class="row37">
+            <td class="column0">&nbsp;</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10 style79 null"></td>
+            <td class="column11">&nbsp;</td>
+            <td class="column12">&nbsp;</td>
+            <td class="column13">&nbsp;</td>
+            <td class="column14">&nbsp;</td>
+            <td class="column15">&nbsp;</td>
+            <td class="column16">&nbsp;</td>
+            <td class="column17">&nbsp;</td>
+            <td class="column18">&nbsp;</td>
+            <td class="column19">&nbsp;</td>
+            <td class="column20">&nbsp;</td>
+          </tr>
+          <tr class="row38">
+            <td class="column0">&nbsp;</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10 style79 null"></td>
+            <td class="column11">&nbsp;</td>
+            <td class="column12">&nbsp;</td>
+            <td class="column13">&nbsp;</td>
+            <td class="column14">&nbsp;</td>
+            <td class="column15">&nbsp;</td>
+            <td class="column16">&nbsp;</td>
+            <td class="column17">&nbsp;</td>
+            <td class="column18">&nbsp;</td>
+            <td class="column19">&nbsp;</td>
+            <td class="column20">&nbsp;</td>
+          </tr>
+          <tr class="row39">
+            <td class="column0">&nbsp;</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10 style79 null"></td>
+            <td class="column11 style79 null"></td>
+            <td class="column12 style79 null"></td>
+            <td class="column13 style79 null"></td>
+            <td class="column14">&nbsp;</td>
+            <td class="column15">&nbsp;</td>
+            <td class="column16">&nbsp;</td>
+            <td class="column17">&nbsp;</td>
+            <td class="column18">&nbsp;</td>
+            <td class="column19">&nbsp;</td>
+            <td class="column20">&nbsp;</td>
+          </tr>
+          <tr class="row40">
+            <td class="column0">&nbsp;</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10 style30 null"></td>
+            <td class="column11 style79 null"></td>
+            <td class="column12 style79 null"></td>
+            <td class="column13 style79 null"></td>
+            <td class="column14 style30 null"></td>
+            <td class="column15 style30 null"></td>
+            <td class="column16 style30 null"></td>
+            <td class="column17 style30 null"></td>
+            <td class="column18 style15 null"></td>
+            <td class="column19">&nbsp;</td>
+            <td class="column20">&nbsp;</td>
+          </tr>
+          <tr class="row41">
+            <td class="column0">&nbsp;</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10 style30 null"></td>
+            <td class="column11 style79 null"></td>
+            <td class="column12 style79 null"></td>
+            <td class="column13 style79 null"></td>
+            <td class="column14 style30 null"></td>
+            <td class="column15 style30 null"></td>
+            <td class="column16 style30 null"></td>
+            <td class="column17 style30 null"></td>
+            <td class="column18 style15 null"></td>
+            <td class="column19">&nbsp;</td>
+            <td class="column20">&nbsp;</td>
+          </tr>
+          <tr class="row42">
+            <td class="column0">&nbsp;</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11 style30 null"></td>
+            <td class="column12 style30 null"></td>
+            <td class="column13 style30 null"></td>
+            <td class="column14">&nbsp;</td>
+            <td class="column15">&nbsp;</td>
+            <td class="column16">&nbsp;</td>
+            <td class="column17">&nbsp;</td>
+            <td class="column18">&nbsp;</td>
+            <td class="column19">&nbsp;</td>
+            <td class="column20">&nbsp;</td>
+          </tr>
+          <tr class="row43">
+            <td class="column0">&nbsp;</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11 style30 null"></td>
+            <td class="column12 style30 null"></td>
+            <td class="column13 style30 null"></td>
+            <td class="column14">&nbsp;</td>
+            <td class="column15">&nbsp;</td>
+            <td class="column16">&nbsp;</td>
+            <td class="column17">&nbsp;</td>
+            <td class="column18">&nbsp;</td>
+            <td class="column19">&nbsp;</td>
+            <td class="column20">&nbsp;</td>
+          </tr>
+          <tr class="row44">
+            <td class="column0">&nbsp;</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11">&nbsp;</td>
+            <td class="column12">&nbsp;</td>
+            <td class="column13">&nbsp;</td>
+            <td class="column14">&nbsp;</td>
+            <td class="column15">&nbsp;</td>
+            <td class="column16">&nbsp;</td>
+            <td class="column17">&nbsp;</td>
+            <td class="column18">&nbsp;</td>
+            <td class="column19">&nbsp;</td>
+            <td class="column20">&nbsp;</td>
+          </tr>
+        </tbody>
+    </table>
+  </body>
+</html>

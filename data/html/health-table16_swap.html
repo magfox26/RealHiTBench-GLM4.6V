@@ -1,0 +1,281 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <meta name="generator" content="PhpSpreadsheet, https://github.com/PHPOffice/PhpSpreadsheet">
+      <meta name="author" content="yyuhhhh13" />
+      <meta name="company" content="Microsoft Corporation" />
+    <style type="text/css">
+      html { font-family:Calibri, Arial, Helvetica, sans-serif; font-size:11pt; background-color:white }
+      a.comment-indicator:hover + div.comment { background:#ffd; position:absolute; display:block; border:1px solid black; padding:0.5em }
+      a.comment-indicator { background:red; display:inline-block; border:1px solid black; width:0.5em; height:0.5em }
+      div.comment { display:none }
+      table { border-collapse:collapse; page-break-after:always }
+      .gridlines td { border:1px dotted black }
+      .gridlines th { border:1px dotted black }
+      .b { text-align:center }
+      .e { text-align:center }
+      .f { text-align:right }
+      .inlineStr { text-align:left }
+      .n { text-align:right }
+      .s { text-align:left }
+      td.style0 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style0 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style1 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#DAE3F4 }
+      th.style1 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#DAE3F4 }
+      td.style2 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style2 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style3 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-style:italic; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style3 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-style:italic; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style4 { vertical-align:bottom; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style4 { vertical-align:bottom; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style5 { vertical-align:bottom; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style5 { vertical-align:bottom; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style6 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-style:italic; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style6 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-style:italic; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style7 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-style:italic; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style7 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-style:italic; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style8 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-style:italic; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style8 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-style:italic; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style9 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style9 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      table.sheet0 col.col0 { width:67.777777pt }
+      table.sheet0 col.col1 { width:113.86666536pt }
+      table.sheet0 col.col2 { width:88.78888787pt }
+      table.sheet0 col.col3 { width:84.72222125pt }
+      table.sheet0 col.col4 { width:84.72222125pt }
+      table.sheet0 col.col5 { width:79.29999909pt }
+      table.sheet0 col.col6 { width:93.53333226pt }
+      table.sheet0 tr { height:15pt }
+      table.sheet0 tr.row0 { height:84pt }
+    </style>
+  </head>
+
+  <body>
+<style>
+@page { margin-left: 0.7in; margin-right: 0.7in; margin-top: 0.75in; margin-bottom: 0.75in; }
+body { margin-left: 0.7in; margin-right: 0.7in; margin-top: 0.75in; margin-bottom: 0.75in; }
+</style>
+    <table border="0" cellpadding="0" cellspacing="0" id="sheet0" class="sheet0 gridlines">
+        <col class="col0">
+        <col class="col1">
+        <col class="col2">
+        <col class="col3">
+        <col class="col4">
+        <col class="col5">
+        <col class="col6">
+        <tbody>
+          <tr class="row0">
+            <td class="column0 style1 s">Sponge Type</td>
+            <td class="column1 style1 s">Organism</td>
+            <td class="column2 style1 s">Test Material</td>
+            <td class="column3 style1 s">Log10 Recovery (Inoculation Control)</td>
+            <td class="column4 style1 s">Standard Deviation of Log10 Recovery (Inoculation Control)</td>
+            <td class="column5 style1 s">Log10 Recovery (Test Sample)</td>
+            <td class="column6 style1 s">Standard Deviation of Log10 Recovery (Test Sample)</td>
+          </tr>
+          <tr class="row1">
+            <td class="column0 style2 s style2" rowspan="9">LabPlas</td>
+            <td class="column1 style3 s style3" rowspan="3">Escherichia coli</td>
+            <td class="column2 style4 s">ABS Plastic</td>
+            <td class="column3 style5 n">7.8437157121394</td>
+            <td class="column4 style5 n">0.058321430466287</td>
+            <td class="column5 style4 n">5.763583851262</td>
+            <td class="column6 style4 n">0.29423487300706</td>
+          </tr>
+          <tr class="row2">
+            <td class="column2 style4 s">Glass</td>
+            <td class="column3 style5 n">7.6808975419655</td>
+            <td class="column4 style5 n">0.055288372286931</td>
+            <td class="column5 style4 n">6.1920608108699</td>
+            <td class="column6 style4 n">0.30667391240698</td>
+          </tr>
+          <tr class="row3">
+            <td class="column2 style4 s">Stainless Steel</td>
+            <td class="column3 style5 n">7.6308307617314</td>
+            <td class="column4 style5 n">0.034238529650061</td>
+            <td class="column5 style4 n">4.8358716506462</td>
+            <td class="column6 style4 n">0.29500847481369</td>
+          </tr>
+          <tr class="row4">
+            <td class="column1 style6 s style8" rowspan="3">Serratia marcescens</td>
+            <td class="column2 style4 s">ABS Plastic</td>
+            <td class="column3 style5 n">7.0677803416207</td>
+            <td class="column4 style5 n">0.021813140001353</td>
+            <td class="column5 style4 n">3.3805260868212</td>
+            <td class="column6 style4 n">0.068049618691059</td>
+          </tr>
+          <tr class="row5">
+            <td class="column2 style4 s">Glass</td>
+            <td class="column3 style5 n">7.0677803416207</td>
+            <td class="column4 style5 n">0.021813140001353</td>
+            <td class="column5 style4 n">4.0155141756081</td>
+            <td class="column6 style4 n">0.41565956229593</td>
+          </tr>
+          <tr class="row6">
+            <td class="column2 style4 s">Stainless Steel</td>
+            <td class="column3 style5 n">7.0677803416207</td>
+            <td class="column4 style5 n">0.021813140001353</td>
+            <td class="column5 style4 n">3.9912496914535</td>
+            <td class="column6 style4 n">0.16242910091717</td>
+          </tr>
+          <tr class="row7">
+            <td class="column1 style6 s style8" rowspan="3">Yersinia ruckeri</td>
+            <td class="column2 style4 s">ABS Plastic</td>
+            <td class="column3 style5 n">7.569018642921</td>
+            <td class="column4 style5 n">0.050609534831053</td>
+            <td class="column5 style4 n">5.2978179427817</td>
+            <td class="column6 style4 n">0.036860188587585</td>
+          </tr>
+          <tr class="row8">
+            <td class="column2 style4 s">Glass</td>
+            <td class="column3 style5 n">7.569018642921</td>
+            <td class="column4 style5 n">0.050609534831053</td>
+            <td class="column5 style4 n">5.4780161974767</td>
+            <td class="column6 style4 n">0.078173664598412</td>
+          </tr>
+          <tr class="row9">
+            <td class="column2 style4 s">Stainless Steel</td>
+            <td class="column3 style5 n">7.569018642921</td>
+            <td class="column4 style5 n">0.050609534831053</td>
+            <td class="column5 style4 n">5.2008982396074</td>
+            <td class="column6 style4 n">0.35303918585616</td>
+          </tr>
+          <tr class="row10">
+            <td class="column0 style2 s style2" rowspan="9">3M</td>
+            <td class="column1 style3 s style3" rowspan="3">Escherichia coli</td>
+            <td class="column2 style4 s">ABS Plastic</td>
+            <td class="column3 style5 n">7.7913592434444</td>
+            <td class="column4 style5 n">0.015788812344875</td>
+            <td class="column5 style4 n">4.7276205004394</td>
+            <td class="column6 style4 n">0.56108541833747</td>
+          </tr>
+          <tr class="row11">
+            <td class="column2 style4 s">Glass</td>
+            <td class="column3 style5 n">7.7478498178752</td>
+            <td class="column4 style5 n">0.017063962397608</td>
+            <td class="column5 style4 n">5.4735844071513</td>
+            <td class="column6 style4 n">0.58828676918149</td>
+          </tr>
+          <tr class="row12">
+            <td class="column2 style4 s">Stainless Steel</td>
+            <td class="column3 style5 n">7.8586225218418</td>
+            <td class="column4 style5 n">0.0026186728799695</td>
+            <td class="column5 style4 n">5.8302735864156</td>
+            <td class="column6 style4 n">0.78107343848304</td>
+          </tr>
+          <tr class="row13">
+            <td class="column1 style3 s style3" rowspan="3">Serratia marcescens</td>
+            <td class="column2 style4 s">ABS Plastic</td>
+            <td class="column3 style5 n">7.734137875821</td>
+            <td class="column4 style9 n">0.024714375020966</td>
+            <td class="column5 style4 n">5.5751855902935</td>
+            <td class="column6 style4 n">0.27524219405754</td>
+          </tr>
+          <tr class="row14">
+            <td class="column2 style4 s">Glass</td>
+            <td class="column3 style5 n">7.734137875821</td>
+            <td class="column4 style9 n">0.024714375020966</td>
+            <td class="column5 style4 n">5.398788791228</td>
+            <td class="column6 style4 n">0.41096847768011</td>
+          </tr>
+          <tr class="row15">
+            <td class="column2 style4 s">Stainless Steel</td>
+            <td class="column3 style5 n">7.734137875821</td>
+            <td class="column4 style9 n">0.024714375020966</td>
+            <td class="column5 style4 n">4.9940976666016</td>
+            <td class="column6 style4 n">0.49157896059006</td>
+          </tr>
+          <tr class="row16">
+            <td class="column1 style3 s style3" rowspan="3">Yersinia ruckeri</td>
+            <td class="column2 style4 s">&nbsp;Stainless Steel</td>
+            <td class="column3 style5 n">7.7459990160891</td>
+            <td class="column4 style5 n">0.017904956280413</td>
+            <td class="column5 style4 n">3.7268956599751</td>
+            <td class="column6 style4 n">0.34597022475479</td>
+          </tr>
+          <tr class="row17">
+            <td class="column2 style4 s">ABS Plastic</td>
+            <td class="column3 style5 n">7.7459990160891</td>
+            <td class="column4 style5 n">0.017904956280413</td>
+            <td class="column5 style4 n">3.8491109888651</td>
+            <td class="column6 style4 n">0.26319540628732</td>
+          </tr>
+          <tr class="row18">
+            <td class="column2 style4 s">Glass</td>
+            <td class="column3 style5 n">7.7459990160891</td>
+            <td class="column4 style5 n">0.017904956280413</td>
+            <td class="column5 style4 n">3.8075603533351</td>
+            <td class="column6 style4 n">0.12267428473151</td>
+          </tr>
+          <tr class="row19">
+            <td class="column0 style2 s style2" rowspan="9">Solar Cult</td>
+            <td class="column1 style3 s style3" rowspan="3">Escherichia coli</td>
+            <td class="column2 style4 s">ABS Plastic</td>
+            <td class="column3 style5 n">7.7555971511134</td>
+            <td class="column4 style5 n">0.099111457966879</td>
+            <td class="column5 style4 n">6.2561876940838</td>
+            <td class="column6 style4 n">0.10049202408377</td>
+          </tr>
+          <tr class="row20">
+            <td class="column2 style4 s">Glass</td>
+            <td class="column3 style5 n">7.7563158187764</td>
+            <td class="column4 style5 n">0.033297509919806</td>
+            <td class="column5 style4 n">5.7573990658023</td>
+            <td class="column6 style4 n">0.12417592864692</td>
+          </tr>
+          <tr class="row21">
+            <td class="column2 style4 s">Stainless Steel</td>
+            <td class="column3 style5 n">7.7737471845354</td>
+            <td class="column4 style5 n">0.025685483184618</td>
+            <td class="column5 style4 n">6.0667390812675</td>
+            <td class="column6 style4 n">0.23432149728628</td>
+          </tr>
+          <tr class="row22">
+            <td class="column1 style3 s style3" rowspan="3">Serratia marcescens</td>
+            <td class="column2 style4 s">&nbsp;ABS Plastic</td>
+            <td class="column3 style4 n">7.7279333359379</td>
+            <td class="column4 style4 n">0.070756231318302</td>
+            <td class="column5 style4 n">6.6076096344422</td>
+            <td class="column6 style4 n">0.16014477707148</td>
+          </tr>
+          <tr class="row23">
+            <td class="column2 style4 s">&nbsp;Glass</td>
+            <td class="column3 style4 n">7.7279333359379</td>
+            <td class="column4 style4 n">0.070756231318302</td>
+            <td class="column5 style4 n">6.368879770696</td>
+            <td class="column6 style4 n">0.12961979624897</td>
+          </tr>
+          <tr class="row24">
+            <td class="column2 style4 s">&nbsp;Stainless Steel</td>
+            <td class="column3 style4 n">7.7279333359379</td>
+            <td class="column4 style4 n">0.070756231318302</td>
+            <td class="column5 style4 n">6.151358604637</td>
+            <td class="column6 style4 n">0.073791986605413</td>
+          </tr>
+          <tr class="row25">
+            <td class="column1 style3 s style3" rowspan="3">Yersinia ruckeri</td>
+            <td class="column2 style4 s">ABS Plastic</td>
+            <td class="column3 style4 n">7.5142009064726</td>
+            <td class="column4 style4 n">0.027209882820257</td>
+            <td class="column5 style4 n">6.2842907793361</td>
+            <td class="column6 style4 n">0.052542504745604</td>
+          </tr>
+          <tr class="row26">
+            <td class="column2 style4 s">Glass</td>
+            <td class="column3 style4 n">7.5142009064726</td>
+            <td class="column4 style4 n">0.027209882820257</td>
+            <td class="column5 style4 n">6.2987629643108</td>
+            <td class="column6 style4 n">0.17951806381921</td>
+          </tr>
+          <tr class="row27">
+            <td class="column2 style4 s">Stainless Steel</td>
+            <td class="column3 style4 n">7.5142009064726</td>
+            <td class="column4 style4 n">0.027209882820257</td>
+            <td class="column5 style4 n">6.3682794225482</td>
+            <td class="column6 style4 n">0.053075897541946</td>
+          </tr>
+        </tbody>
+    </table>
+  </body>
+</html>

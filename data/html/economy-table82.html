@@ -1,0 +1,160 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <meta name="generator" content="PhpSpreadsheet, https://github.com/PHPOffice/PhpSpreadsheet">
+      <meta name="author" content="mac" />
+      <meta name="company" content="Microsoft Corporation" />
+    <style type="text/css">
+      html { font-family:Calibri, Arial, Helvetica, sans-serif; font-size:11pt; background-color:white }
+      a.comment-indicator:hover + div.comment { background:#ffd; position:absolute; display:block; border:1px solid black; padding:0.5em }
+      a.comment-indicator { background:red; display:inline-block; border:1px solid black; width:0.5em; height:0.5em }
+      div.comment { display:none }
+      table { border-collapse:collapse; page-break-after:always }
+      .gridlines td { border:1px dotted black }
+      .gridlines th { border:1px dotted black }
+      .b { text-align:center }
+      .e { text-align:center }
+      .f { text-align:right }
+      .inlineStr { text-align:left }
+      .n { text-align:right }
+      .s { text-align:left }
+      td.style0 { vertical-align:middle; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style0 { vertical-align:middle; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style1 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:none #000000; color:#000000; font-family:'B Lotus'; font-size:11pt; background-color:#FFFFCC }
+      th.style1 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:none #000000; color:#000000; font-family:'B Lotus'; font-size:11pt; background-color:#FFFFCC }
+      td.style2 { vertical-align:middle; border-bottom:none #000000; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'B Lotus'; font-size:11pt; background-color:#FFFFCC }
+      th.style2 { vertical-align:middle; border-bottom:none #000000; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'B Lotus'; font-size:11pt; background-color:#FFFFCC }
+      td.style3 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:none #000000; color:#000000; font-family:'B Lotus'; font-size:11pt; background-color:#FFFFCC }
+      th.style3 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:none #000000; color:#000000; font-family:'B Lotus'; font-size:11pt; background-color:#FFFFCC }
+      td.style4 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:none #000000; border-right:1px solid #000000 !important; color:#000000; font-family:'B Lotus'; font-size:11pt; background-color:#FFFFCC }
+      th.style4 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:none #000000; border-right:1px solid #000000 !important; color:#000000; font-family:'B Lotus'; font-size:11pt; background-color:#FFFFCC }
+      td.style5 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:1px solid #000000 !important; border-right:none #000000; color:#000000; font-family:'B Lotus'; font-size:11pt; background-color:#FFFFCC }
+      th.style5 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:1px solid #000000 !important; border-right:none #000000; color:#000000; font-family:'B Lotus'; font-size:11pt; background-color:#FFFFCC }
+      td.style6 { vertical-align:middle; border-bottom:none #000000; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'B Lotus'; font-size:11pt; background-color:#FFFFCC }
+      th.style6 { vertical-align:middle; border-bottom:none #000000; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'B Lotus'; font-size:11pt; background-color:#FFFFCC }
+      td.style7 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'B Lotus'; font-size:11pt; background-color:#FFFFCC }
+      th.style7 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'B Lotus'; font-size:11pt; background-color:#FFFFCC }
+      td.style8 { vertical-align:middle; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:none #000000; color:#000000; font-family:'B Lotus'; font-size:11pt; background-color:white }
+      th.style8 { vertical-align:middle; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:none #000000; color:#000000; font-family:'B Lotus'; font-size:11pt; background-color:white }
+      td.style9 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'B Yekan'; font-size:10pt; background-color:white }
+      th.style9 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'B Yekan'; font-size:10pt; background-color:white }
+      td.style10 { vertical-align:middle; border-bottom:none #000000; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:none #000000; color:#000000; font-family:'B Lotus'; font-size:11pt; background-color:white }
+      th.style10 { vertical-align:middle; border-bottom:none #000000; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:none #000000; color:#000000; font-family:'B Lotus'; font-size:11pt; background-color:white }
+      td.style11 { vertical-align:middle; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'B Lotus'; font-size:11pt; background-color:white }
+      th.style11 { vertical-align:middle; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'B Lotus'; font-size:11pt; background-color:white }
+      td.style12 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'B Yekan'; font-size:10pt; background-color:white }
+      th.style12 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'B Yekan'; font-size:10pt; background-color:white }
+      td.style13 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'B Yekan'; font-size:10pt; background-color:white }
+      th.style13 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'B Yekan'; font-size:10pt; background-color:white }
+      td.style14 { vertical-align:bottom; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:none #000000; color:#000000; font-family:'B Lotus'; font-size:11pt; background-color:white }
+      th.style14 { vertical-align:bottom; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:none #000000; color:#000000; font-family:'B Lotus'; font-size:11pt; background-color:white }
+      table.sheet0 col.col0 { width:236.54444173pt }
+      table.sheet0 col.col1 { width:60.32222153pt }
+      table.sheet0 col.col2 { width:42pt }
+      table.sheet0 col.col3 { width:42pt }
+      table.sheet0 col.col4 { width:42pt }
+      table.sheet0 col.col5 { width:42pt }
+      table.sheet0 tr { height:15pt }
+      table.sheet0 tr.row0 { height:47pt }
+      table.sheet0 tr.row1 { height:29pt }
+    </style>
+  </head>
+
+  <body>
+<style>
+@page { margin-left: 0.75in; margin-right: 0.75in; margin-top: 1in; margin-bottom: 1in; }
+body { margin-left: 0.75in; margin-right: 0.75in; margin-top: 1in; margin-bottom: 1in; }
+</style>
+    <table border="0" cellpadding="0" cellspacing="0" id="sheet0" class="sheet0 gridlines">
+        <col class="col0">
+        <col class="col1">
+        <col class="col2">
+        <col class="col3">
+        <col class="col4">
+        <col class="col5">
+        <tbody>
+          <tr class="row0">
+            <td class="column0 style1 s style5" rowspan="2">Type of Property</td>
+            <td class="column1 style2 null"></td>
+            <td class="column2 style3 s style4" colspan="2">Heirs rate<br />
+second floor</td>
+            <td class="column4 style3 s style4" colspan="2">Heirs rate<br />
+third floor</td>
+          </tr>
+          <tr class="row1">
+            <td class="column1 style6 s">Heirs rate<br />
+first floor</td>
+            <td class="column2 style7 s">Internal heirs</td>
+            <td class="column3 style7 s">Heirs foreigner</td>
+            <td class="column4 style7 s">Internal heirs</td>
+            <td class="column5 style7 s">Heirs foreigner</td>
+          </tr>
+          <tr class="row2">
+            <td class="column0 style8 s">Paragraph 1 of Article 17 bank accounts</td>
+            <td class="column1 style9 n">&nbsp;&nbsp;0.03 </td>
+            <td class="column2 style9 n">&nbsp;&nbsp;0.06 </td>
+            <td class="column3 style9 n">&nbsp;&nbsp;0.03 </td>
+            <td class="column4 style9 n">&nbsp;&nbsp;0.12 </td>
+            <td class="column5 style9 n">&nbsp;&nbsp;0.03 </td>
+          </tr>
+          <tr class="row3">
+            <td class="column0 style10 s">Paragraph 2 of Article 17 is out of stock</td>
+            <td class="column1 style9 n">&nbsp;&nbsp;0.06 </td>
+            <td class="column2 style9 n">&nbsp;&nbsp;0.12 </td>
+            <td class="column3 style9 n">&nbsp;&nbsp;0.06 </td>
+            <td class="column4 style9 n">&nbsp;&nbsp;0.24 </td>
+            <td class="column5 style9 n">&nbsp;&nbsp;0.06 </td>
+          </tr>
+          <tr class="row4">
+            <td class="column0 style11 s">Paragraph 2 of Article 17-Exchange</td>
+            <td class="column1 style12 n">&nbsp;&nbsp;0.0075 </td>
+            <td class="column2 style13 n">&nbsp;&nbsp;0.015 </td>
+            <td class="column3 style12 n">&nbsp;&nbsp;0.0075 </td>
+            <td class="column4 style13 n">&nbsp;&nbsp;0.030 </td>
+            <td class="column5 style12 n">&nbsp;&nbsp;0.0075 </td>
+          </tr>
+          <tr class="row5">
+            <td class="column0 style14 s">Paragraph 3 of Article 17, other property</td>
+            <td class="column1 style9 n">&nbsp;&nbsp;0.10 </td>
+            <td class="column2 style9 n">&nbsp;&nbsp;0.20 </td>
+            <td class="column3 style9 n">&nbsp;&nbsp;0.10 </td>
+            <td class="column4 style9 n">&nbsp;&nbsp;0.40 </td>
+            <td class="column5 style9 n">&nbsp;&nbsp;0.10 </td>
+          </tr>
+          <tr class="row6">
+            <td class="column0 style14 s">Paragraph 4 of Article 17-type vehicles</td>
+            <td class="column1 style9 n">&nbsp;&nbsp;0.02 </td>
+            <td class="column2 style9 n">&nbsp;&nbsp;0.04 </td>
+            <td class="column3 style9 n">&nbsp;&nbsp;0.02 </td>
+            <td class="column4 style9 n">&nbsp;&nbsp;0.08 </td>
+            <td class="column5 style9 n">&nbsp;&nbsp;0.02 </td>
+          </tr>
+          <tr class="row7">
+            <td class="column0 style14 s">Paragraph 5 of Article 17-Property</td>
+            <td class="column1 style13 n">&nbsp;&nbsp;0.075 </td>
+            <td class="column2 style13 n">&nbsp;&nbsp;0.150 </td>
+            <td class="column3 style13 n">&nbsp;&nbsp;0.075 </td>
+            <td class="column4 style13 n">&nbsp;&nbsp;0.300 </td>
+            <td class="column5 style13 n">&nbsp;&nbsp;0.075 </td>
+          </tr>
+          <tr class="row8">
+            <td class="column0 style14 s">Paragraph 5 of Article 17, the right to give</td>
+            <td class="column1 style9 n">&nbsp;&nbsp;0.03 </td>
+            <td class="column2 style9 n">&nbsp;&nbsp;0.06 </td>
+            <td class="column3 style9 n">&nbsp;&nbsp;0.03 </td>
+            <td class="column4 style9 n">&nbsp;&nbsp;0.12 </td>
+            <td class="column5 style9 n">&nbsp;&nbsp;0.03 </td>
+          </tr>
+          <tr class="row9">
+            <td class="column0 style14 s">Paragraph 6 of Article 17-property abroad</td>
+            <td class="column1 style9 n">&nbsp;&nbsp;0.10 </td>
+            <td class="column2 style9 n">&nbsp;&nbsp;0.20 </td>
+            <td class="column3 style9 n">&nbsp;&nbsp;0.10 </td>
+            <td class="column4 style9 n">&nbsp;&nbsp;0.40 </td>
+            <td class="column5 style9 n">&nbsp;&nbsp;0.10 </td>
+          </tr>
+        </tbody>
+    </table>
+  </body>
+</html>

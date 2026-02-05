@@ -1,2 +1,5 @@
-model
-result
+__pycache__/
+*.pyc
+result*/
+.cache/
+.ipynb_checkpoints/

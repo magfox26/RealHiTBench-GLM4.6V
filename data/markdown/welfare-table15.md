@@ -1,0 +1,112 @@
+|     | Average hourly wages for occupational groups and areas for full-time workers by selected work levels, civilian workers(1), 2023   |            |         |         |         |    |
+|----:|:----------------------------------------------------------------------------------------------------------------------------------|:-----------|:--------|:--------|:--------|:---|
+|   0 | Selected occupational groups and areas                                                                                            | All levels | Level 4 | Level 5 | Level 6 |    |
+|   1 |                                                                                                                                   |            |         |         |         |    |
+|   2 | 29-0000 Healthcare Practitioners and Technical Occupations                                                                        |            |         |         |         |    |
+|   3 | Boston-Cambridge-Nashua, MA-NH                                                                                                    | $ 57.10    | $ 22.67 | –       | $ 32.21 |    |
+|   4 | Chicago-Naperville-Elgin, IL-IN-WI                                                                                                | $ 47.39    | –       | $ 25.61 | $ 28.27 |    |
+|   5 | Dallas-Fort Worth-Arlington, TX                                                                                                   | $ 47.66    | –       | –       | $ 29.48 |    |
+|   6 | Detroit-Warren-Dearborn, MI                                                                                                       | $ 46.72    | –       | $ 23.89 | $ 27.93 |    |
+|   7 | Los Angeles-Long Beach-Anaheim, CA                                                                                                | $ 54.98    | $ 21.50 | $ 27.83 | –       |    |
+|   8 | Miami-Fort Lauderdale-West Palm Beach, FL                                                                                         | –          | –       | $ 22.44 | $ 28.07 |    |
+|   9 | New York-Newark-Jersey City, NY-NJ-PA                                                                                             | $ 56.64    | $ 24.26 | $ 30.87 | $ 31.91 |    |
+|  10 | Philadelphia-Camden-Wilmington, PA-NJ-DE-MD                                                                                       | $ 51.16    | –       | –       | $ 29.74 |    |
+|  11 | San Jose-Sunnyvale-Santa Clara, CA                                                                                                | $ 71.61    | –       | $ 32.50 | $ 37.00 |    |
+|  12 |                                                                                                                                   |            |         |         |         |    |
+|  13 | 41-0000 Sales and Related Occupations                                                                                             |            |         |         |         |    |
+|  14 | Atlanta-Sandy Springs-Roswell, GA                                                                                                 | $ 33.74    | –       | $ 30.42 | $ 35.02 |    |
+|  15 | Boston-Cambridge-Nashua, MA-NH                                                                                                    | $ 38.13    | $ 22.18 | $ 34.43 | –       |    |
+|  16 | Chicago-Naperville-Elgin, IL-IN-WI                                                                                                | $ 33.89    | $ 21.27 | $ 31.71 | $ 33.36 |    |
+|  17 | Dallas-Fort Worth-Arlington, TX                                                                                                   | $ 32.24    | $ 21.03 | $ 26.37 | –       |    |
+|  18 | Detroit-Warren-Dearborn, MI                                                                                                       | $ 31.92    | $ 21.37 | $ 32.16 | $ 34.71 |    |
+|  19 | Houston-The Woodlands-Sugar Land, TX                                                                                              | $ 28.92    | $ 19.54 | $ 26.90 | $ 34.47 |    |
+|  20 | Los Angeles-Long Beach-Anaheim, CA                                                                                                | –          | $ 21.98 | $ 27.83 | $ 37.36 |    |
+|  21 | Miami-Fort Lauderdale-West Palm Beach, FL                                                                                         | $ 30.65    | $ 20.81 | $ 29.54 | $ 33.60 |    |
+|  22 | New York-Newark-Jersey City, NY-NJ-PA                                                                                             | $ 45.85    | –       | $ 38.53 | $ 42.84 |    |
+|  23 | Philadelphia-Camden-Wilmington, PA-NJ-DE-MD                                                                                       | $ 33.67    | $ 22.56 | $ 27.79 | $ 32.36 |    |
+|  24 | Phoenix-Mesa-Scottsdale, AZ                                                                                                       | $ 30.02    | $ 23.21 | –       | $ 34.73 |    |
+|  25 | Washington-Arlington-Alexandria, DC-VA-MD-WV                                                                                      | $ 33.90    | $ 21.38 | –       | $ 34.00 |    |
+|  26 |                                                                                                                                   |            |         |         |         |    |
+|  27 | 43-0000 Office and Administrative Support Occupations                                                                             |            |         |         |         |    |
+|  28 | Atlanta-Sandy Springs-Roswell, GA                                                                                                 | $ 23.13    | $ 20.01 | $ 23.71 | $ 27.29 |    |
+|  29 | Boston-Cambridge-Nashua, MA-NH                                                                                                    | $ 28.51    | $ 24.47 | $ 29.62 | $ 29.93 |    |
+|  30 | Chicago-Naperville-Elgin, IL-IN-WI                                                                                                | $ 25.41    | $ 23.62 | $ 25.62 | $ 31.45 |    |
+|  31 | Dallas-Fort Worth-Arlington, TX                                                                                                   | $ 23.42    | $ 20.40 | $ 23.96 | $ 28.09 |    |
+|  32 | Detroit-Warren-Dearborn, MI                                                                                                       | $ 24.04    | $ 21.75 | $ 23.73 | $ 28.12 |    |
+|  33 | Houston-The Woodlands-Sugar Land, TX                                                                                              | $ 22.50    | $ 20.48 | $ 23.12 | $ 26.28 |    |
+|  34 | Los Angeles-Long Beach-Anaheim, CA                                                                                                | $ 26.73    | $ 23.17 | $ 26.71 | $ 30.23 |    |
+|  35 | Miami-Fort Lauderdale-West Palm Beach, FL                                                                                         | $ 22.89    | $ 20.79 | $ 24.39 | $ 25.03 |    |
+|  36 | Minneapolis-St. Paul-Bloomington, MN-WI                                                                                           | $ 26.33    | $ 22.46 | $ 25.86 | $ 30.06 |    |
+|  37 | New York-Newark-Jersey City, NY-NJ-PA                                                                                             | $ 28.53    | $ 24.47 | $ 28.26 | $ 33.87 |    |
+|  38 | Philadelphia-Camden-Wilmington, PA-NJ-DE-MD                                                                                       | $ 25.06    | $ 21.78 | $ 26.77 | $ 29.88 |    |
+|  39 | Phoenix-Mesa-Scottsdale, AZ                                                                                                       | $ 23.61    | $ 21.69 | $ 22.51 | $ 27.03 |    |
+|  40 | San Jose-Sunnyvale-Santa Clara, CA                                                                                                | $ 32.76    | $ 27.28 | $ 29.92 | $ 33.80 |    |
+|  41 | Seattle-Tacoma-Bellevue, WA                                                                                                       | $ 28.68    | $ 26.28 | $ 26.34 | $ 32.47 |    |
+|  42 | Washington-Arlington-Alexandria, DC-VA-MD-WV                                                                                      | $ 26.92    | $ 22.13 | $ 26.15 | $ 29.95 |    |
+|  43 |                                                                                                                                   |            |         |         |         |    |
+|  44 | 47-0000 Construction and Extraction Occupations                                                                                   |            |         |         |         |    |
+|  45 | Atlanta-Sandy Springs-Roswell, GA                                                                                                 | $ 26.69    | $ 21.51 | –       | $ 31.30 |    |
+|  46 | Boston-Cambridge-Nashua, MA-NH                                                                                                    | $ 39.31    | –       | $ 32.12 | $ 40.43 |    |
+|  47 | Chicago-Naperville-Elgin, IL-IN-WI                                                                                                | $ 38.79    | –       | $ 37.10 | $ 39.60 |    |
+|  48 | Dallas-Fort Worth-Arlington, TX                                                                                                   | $ 25.77    | $ 21.59 | –       | $ 30.15 |    |
+|  49 | Detroit-Warren-Dearborn, MI                                                                                                       | $ 30.86    | $ 23.35 | –       | $ 34.76 |    |
+|  50 | Houston-The Woodlands-Sugar Land, TX                                                                                              | $ 26.28    | $ 21.93 | $ 26.13 | $ 30.61 |    |
+|  51 | Los Angeles-Long Beach-Anaheim, CA                                                                                                | $ 35.48    | $ 26.44 | $ 35.11 | $ 38.41 |    |
+|  52 | Minneapolis-St. Paul-Bloomington, MN-WI                                                                                           | $ 36.17    | –       | $ 35.34 | $ 39.72 |    |
+|  53 | New York-Newark-Jersey City, NY-NJ-PA                                                                                             | $ 38.02    | $ 25.02 | $ 33.42 | $ 40.43 |    |
+|  54 | Philadelphia-Camden-Wilmington, PA-NJ-DE-MD                                                                                       | $ 33.26    | –       | $ 32.15 | $ 34.49 |    |
+|  55 | Phoenix-Mesa-Scottsdale, AZ                                                                                                       | $ 27.82    | $ 23.93 | $ 28.28 | $ 32.20 |    |
+|  56 | San Jose-Sunnyvale-Santa Clara, CA                                                                                                | $ 42.91    | $ 31.37 | $ 35.64 | $ 44.11 |    |
+|  57 | Seattle-Tacoma-Bellevue, WA                                                                                                       | $ 39.96    | $ 29.62 | $ 36.04 | $ 41.28 |    |
+|  58 | Washington-Arlington-Alexandria, DC-VA-MD-WV                                                                                      | $ 30.42    | $ 23.99 | $ 28.81 | $ 34.71 |    |
+|  59 |                                                                                                                                   |            |         |         |         |    |
+|  60 | 49-0000 Installation, Maintenance, and Repair Occupations                                                                         |            |         |         |         |    |
+|  61 | Atlanta-Sandy Springs-Roswell, GA                                                                                                 | $ 28.79    | $ 23.33 | $ 24.58 | $ 30.67 |    |
+|  62 | Boston-Cambridge-Nashua, MA-NH                                                                                                    | $ 33.06    | –       | $ 30.74 | $ 33.82 |    |
+|  63 | Chicago-Naperville-Elgin, IL-IN-WI                                                                                                | $ 30.77    | $ 23.81 | $ 29.58 | $ 33.95 |    |
+|  64 | Dallas-Fort Worth-Arlington, TX                                                                                                   | $ 28.21    | $ 20.11 | $ 25.78 | $ 30.80 |    |
+|  65 | Detroit-Warren-Dearborn, MI                                                                                                       | $ 28.18    | $ 22.21 | $ 27.20 | $ 30.05 |    |
+|  66 | Houston-The Woodlands-Sugar Land, TX                                                                                              | $ 28.71    | $ 20.34 | $ 25.76 | $ 30.07 |    |
+|  67 | Los Angeles-Long Beach-Anaheim, CA                                                                                                | $ 32.20    | $ 24.22 | –       | $ 35.63 |    |
+|  68 | Miami-Fort Lauderdale-West Palm Beach, FL                                                                                         | $ 26.81    | $ 21.21 | $ 22.77 | $ 30.12 |    |
+|  69 | Minneapolis-St. Paul-Bloomington, MN-WI                                                                                           | $ 30.98    | –       | $ 29.35 | $ 32.85 |    |
+|  70 | New York-Newark-Jersey City, NY-NJ-PA                                                                                             | $ 33.15    | $ 23.56 | $ 30.50 | $ 34.11 |    |
+|  71 | Philadelphia-Camden-Wilmington, PA-NJ-DE-MD                                                                                       | $ 30.06    | $ 23.24 | $ 28.24 | $ 30.13 |    |
+|  72 | Phoenix-Mesa-Scottsdale, AZ                                                                                                       | $ 27.92    | $ 21.13 | $ 24.19 | $ 32.82 |    |
+|  73 | Seattle-Tacoma-Bellevue, WA                                                                                                       | $ 34.69    | –       | $ 28.15 | $ 35.78 |    |
+|  74 | Washington-Arlington-Alexandria, DC-VA-MD-WV                                                                                      | $ 31.47    | $ 25.17 | $ 27.39 | $ 31.92 |    |
+|  75 |                                                                                                                                   |            |         |         |         |    |
+|  76 | 51-0000 Production Occupations                                                                                                    |            |         |         |         |    |
+|  77 | Boston-Cambridge-Nashua, MA-NH                                                                                                    | $ 26.07    | $ 25.10 | $ 25.23 | $ 32.40 |    |
+|  78 | Chicago-Naperville-Elgin, IL-IN-WI                                                                                                | $ 23.62    | $ 21.80 | $ 23.17 | $ 31.35 |    |
+|  79 | Dallas-Fort Worth-Arlington, TX                                                                                                   | $ 22.08    | $ 20.52 | $ 23.02 | $ 26.83 |    |
+|  80 | Detroit-Warren-Dearborn, MI                                                                                                       | $ 24.33    | –       | $ 22.43 | $ 30.80 |    |
+|  81 | Houston-The Woodlands-Sugar Land, TX                                                                                              | $ 25.11    | –       | $ 22.97 | –       |    |
+|  82 | Los Angeles-Long Beach-Anaheim, CA                                                                                                | $ 24.23    | $ 21.06 | $ 24.72 | $ 32.75 |    |
+|  83 | Miami-Fort Lauderdale-West Palm Beach, FL                                                                                         | $ 21.21    | $ 19.73 | $ 24.14 | –       |    |
+|  84 | Minneapolis-St. Paul-Bloomington, MN-WI                                                                                           | $ 24.88    | –       | $ 25.81 | –       |    |
+|  85 | New York-Newark-Jersey City, NY-NJ-PA                                                                                             | $ 24.87    | $ 24.08 | $ 26.05 | $ 27.66 |    |
+|  86 | Philadelphia-Camden-Wilmington, PA-NJ-DE-MD                                                                                       | $ 25.08    | $ 23.84 | $ 25.73 | –       |    |
+|  87 | Phoenix-Mesa-Scottsdale, AZ                                                                                                       | $ 23.75    | $ 22.78 | –       | $ 30.51 |    |
+|  88 | San Jose-Sunnyvale-Santa Clara, CA                                                                                                | $ 28.50    | $ 25.52 | $ 26.20 | –       |    |
+|  89 | Seattle-Tacoma-Bellevue, WA                                                                                                       | $ 28.84    | $ 27.67 | $ 27.23 | $ 35.64 |    |
+|  90 | Washington-Arlington-Alexandria, DC-VA-MD-WV                                                                                      | $ 25.74    | $ 22.77 | $ 26.74 | $ 31.63 |    |
+|  91 |                                                                                                                                   |            |         |         |         |    |
+|  92 | 53-0000 Transportation and Material Moving Occupations                                                                            |            |         |         |         |    |
+|  93 | Boston-Cambridge-Nashua, MA-NH                                                                                                    | $ 27.32    | $ 29.10 | $ 30.89 | –       |    |
+|  94 | Chicago-Naperville-Elgin, IL-IN-WI                                                                                                | –          | $ 29.80 | $ 31.09 | –       |    |
+|  95 | Dallas-Fort Worth-Arlington, TX                                                                                                   | $ 24.95    | $ 27.89 | $ 27.82 | –       |    |
+|  96 | Houston-The Woodlands-Sugar Land, TX                                                                                              | $ 23.96    | –       | –       | $ 33.39 |    |
+|  97 | Los Angeles-Long Beach-Anaheim, CA                                                                                                | $ 26.02    | $ 27.08 | $ 27.17 | $ 37.18 |    |
+|  98 | Miami-Fort Lauderdale-West Palm Beach, FL                                                                                         | $ 27.13    | $ 27.69 | $ 25.93 | –       |    |
+|  99 | Minneapolis-St. Paul-Bloomington, MN-WI                                                                                           | $ 27.40    | $ 31.12 | $ 29.29 | –       |    |
+| 100 | New York-Newark-Jersey City, NY-NJ-PA                                                                                             | $ 28.34    | $ 31.57 | $ 35.89 | $ 38.62 |    |
+| 101 | Philadelphia-Camden-Wilmington, PA-NJ-DE-MD                                                                                       | $ 24.09    | $ 30.78 | $ 24.98 | –       |    |
+| 102 | Phoenix-Mesa-Scottsdale, AZ                                                                                                       | $ 24.44    | –       | $ 27.67 | –       |    |
+| 103 | Seattle-Tacoma-Bellevue, WA                                                                                                       | $ 33.00    | $ 31.51 | $ 30.86 | –       |    |
+| 104 | Washington-Arlington-Alexandria, DC-VA-MD-WV                                                                                      | $ 26.89    | $ 30.29 | $ 28.02 | $ 38.99 |    |
+| 105 |                                                                                                                                   |            |         |         |         |    |
+| 106 | Footnotes:                                                                                                                        |            |         |         |         |    |
+| 107 | (1) For definitions of terms, see the MWE Handbook of Methods, available at https://www.bls.gov/opub/hom/mwe/.                    |            |         |         |         |    |
+| 108 | Note: Dashes indicate that no data were reported or that data do not meet publication criteria.                                   |            |         |         |         |    |
+| 109 | Source: U.S. Bureau of Labor Statistics, Modeled Wage Estimates.                                                                  |            |         |         |         |    |

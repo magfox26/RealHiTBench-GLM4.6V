@@ -1,0 +1,46 @@
+% Please add the following required packages to your document preamble:
+% \usepackage{multirow}
+% \usepackage[table,xcdraw]{xcolor}
+% Beamer presentation requires \usepackage{colortbl} instead of \usepackage[table,xcdraw]{xcolor}
+\begin{table}[]
+\begin{tabular}{ccll}
+\rowcolor[HTML]{FFFF00} 
+\multicolumn{1}{l}{\cellcolor[HTML]{FFFF00}Carrier} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFF00}Types} & Time & Total \\
+\cellcolor[HTML]{EF949F} & \cellcolor[HTML]{EF949F}\textbf{HARDWARE SWAP} & {\color[HTML]{333333} 5.57} & \cellcolor[HTML]{FFFFFF}3594 \\
+\cellcolor[HTML]{EF949F} & \cellcolor[HTML]{EF949F}\textbf{NEW ACTIVATION} & {\color[HTML]{333333} 15.5} & 2079 \\
+\cellcolor[HTML]{EF949F} & \cellcolor[HTML]{EF949F}\textbf{ADD A LINE} & {\color[HTML]{333333} 10.31} & 3460 \\
+\cellcolor[HTML]{EF949F} & \cellcolor[HTML]{EF949F}\textbf{PLAN CHANGE} & {\color[HTML]{333333} 4.57} & 261 \\
+\multirow{-5}{*}{\cellcolor[HTML]{EF949F}\textbf{SPRESS}} & \cellcolor[HTML]{EF949F}\textbf{UPGRADE} & {\color[HTML]{333333} 8.57} & 11880 \\
+\cellcolor[HTML]{FEDB61} & \cellcolor[HTML]{FEDB61}\textbf{HARDWARE SWAP} & {\color[HTML]{333333} 5.42} & 10048 \\
+\cellcolor[HTML]{FEDB61} & \cellcolor[HTML]{FEDB61}\textbf{NEW ACTIVATION} & {\color[HTML]{333333} 16.32} & 2612 \\
+\cellcolor[HTML]{FEDB61} & \cellcolor[HTML]{FEDB61}\textbf{ADD A LINE} & {\color[HTML]{333333} 11.3} & 2636 \\
+\cellcolor[HTML]{FEDB61} & \cellcolor[HTML]{FEDB61}\textbf{PLAN CHANGE} & {\color[HTML]{333333} 4.21} & 239 \\
+\multirow{-5}{*}{\cellcolor[HTML]{FEDB61}\textbf{DNAGO}} & \cellcolor[HTML]{FEDB61}\textbf{UPGRADE} & {\color[HTML]{333333} 10.15} & 12879 \\
+\cellcolor[HTML]{91AADF} & \cellcolor[HTML]{91AADF}\textbf{HARDWARE SWAP} & {\color[HTML]{333333} 6.15} & 6983 \\
+\cellcolor[HTML]{91AADF} & \cellcolor[HTML]{91AADF}\textbf{NEW ACTIVATION} & {\color[HTML]{333333} 14.17} & 2879 \\
+\cellcolor[HTML]{91AADF} & \cellcolor[HTML]{91AADF}\textbf{ADD A LINE} & {\color[HTML]{333333} 10.28} & 4965 \\
+\cellcolor[HTML]{91AADF} & \cellcolor[HTML]{91AADF}\textbf{PLAN CHANGE} & {\color[HTML]{333333} 4.55} & 359 \\
+\multirow{-5}{*}{\cellcolor[HTML]{91AADF}\textbf{MILANI}} & \cellcolor[HTML]{91AADF}\textbf{UPGRADE} & {\color[HTML]{333333} 9.42} & 19824 \\
+\cellcolor[HTML]{757171} & \cellcolor[HTML]{757171}\textbf{HARDWARE SWAP} & {\color[HTML]{333333} } &  \\
+\cellcolor[HTML]{757171} & \cellcolor[HTML]{757171}\textbf{NEW ACTIVATION} & {\color[HTML]{333333} } &  \\
+\cellcolor[HTML]{757171} & \cellcolor[HTML]{757171}\textbf{ADD A LINE} & {\color[HTML]{333333} } &  \\
+\cellcolor[HTML]{757171} & \cellcolor[HTML]{757171}\textbf{PLAN CHANGE} & {\color[HTML]{333333} } &  \\
+\multirow{-5}{*}{\cellcolor[HTML]{757171}\textbf{DRUIPE}} & \cellcolor[HTML]{757171}\textbf{UPGRADE} & {\color[HTML]{333333} } &  \\
+\cellcolor[HTML]{3366FF} & \cellcolor[HTML]{3366FF}\textbf{HARDWARE SWAP} & {\color[HTML]{333333} 5.13} & 54 \\
+\cellcolor[HTML]{3366FF} & \cellcolor[HTML]{3366FF}\textbf{NEW ACTIVATION} & {\color[HTML]{333333} 8.34} & 733 \\
+\multirow{-3}{*}{\cellcolor[HTML]{3366FF}\textbf{BELANI}} & \cellcolor[HTML]{3366FF}\textbf{UPGRADE} & {\color[HTML]{333333} 5.14} & 789 \\
+\multicolumn{1}{l}{\cellcolor[HTML]{FFC000}} & \cellcolor[HTML]{FFC000}\textbf{NEW ACTIVATION} & {\color[HTML]{333333} 7.35} & 2199 \\
+\multicolumn{1}{l}{\multirow{-2}{*}{\cellcolor[HTML]{FFC000}\textbf{MERILI}}} & \cellcolor[HTML]{FFC000}\textbf{HARDWARE SWAP} & {\color[HTML]{333333} 19.41} & 1558 \\
+\multicolumn{1}{l}{\cellcolor[HTML]{33CCCC}} & \cellcolor[HTML]{33CCCC}\textbf{NEW ACTIVATION} & {\color[HTML]{333333} 10.1} & 902 \\
+\multicolumn{1}{l}{\multirow{-2}{*}{\cellcolor[HTML]{33CCCC}\textbf{PITALI}}} & \cellcolor[HTML]{33CCCC}\textbf{HARDWARE SWAP} & {\color[HTML]{333333} 5.23} & 2915 \\
+\multicolumn{1}{l}{\cellcolor[HTML]{FFFF99}\textbf{CATI}} & \cellcolor[HTML]{FFFF99}\textbf{NEW ACTIVATION} & {\color[HTML]{333333} } &  \\
+\multicolumn{1}{l}{\cellcolor[HTML]{92D050}\textbf{MAXX}} & \cellcolor[HTML]{92D050}\textbf{NEW ACTIVATION} & {\color[HTML]{333333} 6.12} & 2591 \\
+\multicolumn{1}{l}{\cellcolor[HTML]{7CDED7}\textbf{TMPO}} & \cellcolor[HTML]{7CDED7}\textbf{NEW ACTIVATION} & {\color[HTML]{333333} 6.34} & 2210 \\
+\multicolumn{1}{l}{\cellcolor[HTML]{ADD88D}\textbf{ERGO}} & \cellcolor[HTML]{ADD88D}\textbf{NEW ACTIVATION} & {\color[HTML]{333333} 8.34} & 13 \\
+\multicolumn{1}{l}{\cellcolor[HTML]{D2F4F2}\textbf{TRN}} & \cellcolor[HTML]{D2F4F2}\textbf{NEW ACTIVATION} & {\color[HTML]{333333} } &  \\
+\multicolumn{1}{l}{\cellcolor[HTML]{757171}\textbf{PETRO}} & \cellcolor[HTML]{757171}\textbf{NEW ACTIVATION} & {\color[HTML]{333333} 9.46} & 375 \\
+\multicolumn{1}{l}{\cellcolor[HTML]{F9CBAA}\textbf{MANIA}} & \cellcolor[HTML]{F9CBAA}\textbf{NEW ACTIVATION} & {\color[HTML]{333333} 6.7} & 1824
+\end{tabular}
+\caption{}
+\label{tab:my-table}
+\end{table}

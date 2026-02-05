@@ -1,0 +1,65 @@
+% Please add the following required packages to your document preamble:
+% \usepackage[table,xcdraw]{xcolor}
+% Beamer presentation requires \usepackage{colortbl} instead of \usepackage[table,xcdraw]{xcolor}
+\begin{table}[]
+\begin{tabular}{llr}
+\rowcolor[HTML]{D3D3D3} 
+\textbf{Industry3}                                                                                       & \textbf{NAICS Code4} & \multicolumn{1}{l}{\cellcolor[HTML]{D3D3D3}\textbf{Incidence Rate}} \\
+\rowcolor[HTML]{A6CAE3} 
+Performing arts companies (Private Industry)                                                             & 7111                 & 8.5                                                                 \\
+\rowcolor[HTML]{FFFFFF} 
+Nursing and residential care facilities (State Government)                                               & 623                  & 6.8                                                                 \\
+\rowcolor[HTML]{A6CAE3} 
+Siding contractors (Private Industry)                                                                    & 23817                & 4.8                                                                 \\
+\rowcolor[HTML]{FFFFFF} 
+Scheduled passenger air transportation (Private Industry)                                                & 481111               & 4.5                                                                 \\
+\rowcolor[HTML]{A6CAE3} 
+Local messengers and local delivery (Private Industry)                                                   & 4922                 & 4.2                                                                 \\
+\rowcolor[HTML]{FFFFFF} 
+Couriers and express delivery services (Private Industry)                                                & 4921                 & 4.1                                                                 \\
+\rowcolor[HTML]{A6CAE3} 
+Urban transit systems (Private Industry)                                                                 & 4851                 & 4.0                                                                 \\
+\rowcolor[HTML]{FFFFFF} 
+Correctional institutions (State Government)                                                             & 92214                & 4.0                                                                 \\
+\rowcolor[HTML]{A6CAE3} 
+Nursing care facilities (skilled nursing facilities) (Private Industry)                                  & 6231                 & 3.9                                                                 \\
+\rowcolor[HTML]{FFFFFF} 
+Hospitals (State Government)                                                                             & 622                  & 3.5                                                                 \\
+\rowcolor[HTML]{A6CAE3} 
+Skiing facilities (Private Industry)                                                                     & 71392                & 3.4                                                                 \\
+\rowcolor[HTML]{FFFFFF} 
+Ambulance services (Private Industry)                                                                    & 62191                & 3.3                                                                 \\
+\rowcolor[HTML]{A6CAE3} 
+Hog and pig farming (Private Industry)5                                                                  & 1122                 & 3.2                                                                 \\
+\rowcolor[HTML]{FFFFFF} 
+Cut stock, resawing lumber, and planing (Private Industry)                                               & 321912               & 3.1                                                                 \\
+\rowcolor[HTML]{A6CAE3} 
+Bituminous coal underground mining (Private Industry)6,7                                                 & 212112               & 3.0                                                                 \\
+\rowcolor[HTML]{FFFFFF} 
+Wood preservation (Private Industry)                                                                     & 321114               & 2.9                                                                 \\
+\rowcolor[HTML]{A6CAE3} 
+Continuing care retirement communities and assisted living facilities for the elderly (Private Industry) & 6233                 & 2.9                                                                 \\
+\rowcolor[HTML]{FFFFFF} 
+Seafood product preparation and packaging (Private Industry)                                             & 3117                 & 2.8                                                                 \\
+\rowcolor[HTML]{A6CAE3} 
+Support activities for printing (Private Industry)                                                       & 32312                & 2.8                                                                 \\
+\rowcolor[HTML]{FFFFFF} 
+Nursing and residential care facilities (Local Government)                                               & 623                  & 2.8                                                                 \\
+\rowcolor[HTML]{A6CAE3} 
+Spectator sports (Private Industry)                                                                      & 71121                & 2.8                                                                 \\
+\rowcolor[HTML]{FFFFFF} 
+Fluid milk manufacturing (Private Industry)                                                              & 311511               & 2.7                                                                 \\
+\rowcolor[HTML]{A6CAE3} 
+Framing contractors (Private Industry)                                                                   & 23813                & 2.6                                                                 \\
+\rowcolor[HTML]{FFFFFF} 
+Farm product warehousing and storage (Private Industry)                                                  & 49313                & 2.6                                                                 \\
+\rowcolor[HTML]{A6CAE3} 
+Used household and office goods moving (Private Industry)                                                & 48421                & 2.5                                                                 \\
+\rowcolor[HTML]{FFFFFF} 
+Carpet and upholstery cleaning services (Private Industry)                                               & 56174                & 2.5                                                                 \\
+\rowcolor[HTML]{A6CAE3} 
+                                                                                                         &                      &                                                                     \\
+\rowcolor[HTML]{FFFFFF} 
+All Ownerships Combined                                                                                  &                      & 1.0                                                                
+\end{tabular}
+\end{table}

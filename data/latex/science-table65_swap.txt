@@ -1,0 +1,17 @@
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+% \usepackage[table,xcdraw]{xcolor}
+% Beamer presentation requires \usepackage{colortbl} instead of \usepackage[table,xcdraw]{xcolor}
+\begin{table}[]
+\begin{tabular}{@{}llccclccclll@{}}
+ &  & \multicolumn{3}{c}{{\color[HTML]{FF0000} \textbf{Expt-2}}} &  & \multicolumn{3}{c}{{\color[HTML]{FF0000} \textbf{Expt-1}}} &  &  &  \\
+ & {\color[HTML]{FF0000} \textbf{Liver LDU}} & \textbf{Replicate1} & \textbf{Replicate2} & \multicolumn{1}{l}{\textbf{Replicate3}} & \multicolumn{1}{c}{\textbf{}} & \textbf{Replicate1} & \textbf{Replicate2} & \multicolumn{1}{l}{\textbf{Replicate3}} & \multicolumn{1}{c}{\textbf{}} & \multicolumn{1}{c}{\textbf{Mean}} & \multicolumn{1}{c}{\textbf{SD}} \\
+Set1 & Inf mice (no DC trnf) & 5724.71 & 5692.23 & 5670.7 &  & 5365.81 & 5636.21 & 6204.71 &  & 5695.88 & 27.18937109 \\
+Set2 & Inf mice ( DC + PBS) & 5799.64 & 5596.33 & 5876.8 &  & 5421.31 & 4867.14 & 5960.43 &  & 5757.59 & 144.8861867 \\
+Set3 & Inf mice (DC + SAG) & 2549.14 & 2382.2 & 2490 &  & 1973.75 & 2838.16 & 2421.85 &  & 2473.78 & 84.64370739 \\
+Set4 & Inf mice  {[}DC (Ctrl siRNA) + SAG{]} & 2370.03 & 2501.72 & 2272.2 &  & 2486.78 & 2495.7 & 2841.23 &  & 2381.316667 & 115.1755149 \\
+Set5 & Inf mice {[}DC (Runx1+3 siRNA) + SAG{]} & 5647.84 & 4936.71 & 4896.32 &  & 4631.67 & 5299.13 & 6052.73 &  & 5160.29 & 422.7133661 \\
+Set6 & Inf mice {[}DC (Runx1+3 siRNA + Vec) + SAG{]} & 6136.12 & 5146.7 & 5095.65 &  & 4971.55 & 6836.22 & 5283.59 &  & 5459.49 & 586.5344349 \\
+Set7 & Inf mice {[}DC (Runx1+3 siRNA + CD40) + SAG{]} & 2182.7 & 2230.25 & 2530.3 &  & 2667.68 & 2219.7 & 2543.98 &  & 2314.416667 & 188.4660734
+\end{tabular}
+\end{table}

@@ -1,0 +1,128 @@
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+% \usepackage{multirow}
+% \usepackage[table,xcdraw]{xcolor}
+% Beamer presentation requires \usepackage{colortbl} instead of \usepackage[table,xcdraw]{xcolor}
+\begin{table}[]
+\begin{tabular}{@{}crrrcccccc@{}}
+\multicolumn{1}{l}{\textbf{STREET}} & \textbf{No} & \textbf{DONE} & \textbf{OWE} & \textbf{PRICE} & \textbf{TOTAL} & \textbf{PAID} & \textbf{IN THE BAG} & \textbf{NOTES} & \textbf{NOTES} \\
+\multicolumn{1}{l}{\textbf{}} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} &  &  & \textbf{} & \textbf{} \\
+ & \textbf{1} & \textbf{} & \textbf{0} & \textbf{£2.50} & \textbf{£0.00} &  &  & \textbf{} & \textbf{} \\
+ & \textbf{27 BR} & \textbf{} & \textbf{0} & \textbf{£2.50} & \textbf{£0.00} &  &  & \textbf{} & \textbf{} \\
+ & \textbf{31} & \textbf{} & \textbf{0} & \textbf{£2.50} & \textbf{£0.00} &  &  & \textbf{} & \textbf{} \\
+ & \textbf{22} & \textbf{} & \textbf{0} & \textbf{£2.50} & \textbf{£0.00} &  &  & \textbf{} & \textbf{} \\
+ & \textbf{20} & \textbf{} & \textbf{0} & \textbf{£2.50} & \textbf{£0.00} &  &  & \textbf{} & \textbf{} \\
+ & \textbf{13} & \textbf{} & \textbf{0} & \textbf{£10.00} & \textbf{£0.00} &  &  & \textbf{3L 4 FOR £10} & \textbf{} \\
+ & \textbf{5} & \textbf{} & \textbf{0} & \textbf{£3.00} & \textbf{£0.00} &  &  & \textbf{} & \textbf{} \\
+\multirow{-8}{*}{\textbf{AYLESBURY}} & \textbf{BR} & \textbf{} & \textbf{0} & \textbf{£3.00} & \textbf{£0.00} &  &  & \textbf{} & \textbf{} \\
+\textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} &  &  & \textbf{} & \textbf{} \\
+ & \textbf{48} & \textbf{1} & \textbf{3} & \textbf{£3.00} & \textbf{£12.00} & y & £12.00 & \textbf{} & \textbf{} \\
+ & \cellcolor[HTML]{993300}{\color[HTML]{FFFFFF} \textbf{BR}} & \textbf{} & \textbf{0} & \textbf{£3.00} & \textbf{£0.00} & N & £0.00 & \textbf{} & \textbf{} \\
+ & \cellcolor[HTML]{993300}{\color[HTML]{FFFFFF} \textbf{38 BR}} & \textbf{} & \textbf{0} & \textbf{£2.50} & \textbf{£0.00} &  &  & \textbf{} & \textbf{} \\
+ & \textbf{43} & \textbf{} & \textbf{0} & \textbf{£3.00} & \textbf{£0.00} &  &  & \textbf{} & \textbf{} \\
+ & \textbf{21} & \textbf{} & \textbf{0} & \textbf{£3.00} & \textbf{£0.00} &  &  & \textbf{} & \textbf{} \\
+ & \textbf{16} & \textbf{} & \textbf{0} & \textbf{£3.00} & \textbf{£0.00} &  &  & \textbf{} & \textbf{} \\
+ & \textbf{14 GR} & \textbf{} & \textbf{0} & \textbf{£3.00} & \textbf{£0.00} &  &  & \textbf{} & \textbf{} \\
+ & \textbf{ALT BR} & \textbf{} & \textbf{0} & \textbf{£3.00} & \textbf{£0.00} &  &  & \textbf{} & \textbf{} \\
+ & \textbf{36 BR} & \textbf{} & \textbf{0} & \textbf{£2.50} & \textbf{£0.00} &  &  & \textbf{} & \textbf{} \\
+ & \textbf{GR} & \textbf{} & \textbf{0} & \textbf{£2.50} & \textbf{£0.00} &  &  & \textbf{} & \textbf{} \\
+\multirow{-11}{*}{\textbf{COLWYN}} & \textbf{WO BL} & \textbf{} & \textbf{0} & \textbf{£3.00} & \textbf{£0.00} &  &  & \textbf{} & \textbf{} \\
+\multicolumn{1}{l}{\textbf{}} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} &  &  & \textbf{} & \textbf{} \\
+ & \textbf{73} & \textbf{} & \textbf{0} & \textbf{£3.00} & \textbf{£0.00} &  &  & \textbf{} & \textbf{} \\
+ & \textbf{BR} & \textbf{} & \textbf{0} & \textbf{£3.00} & \textbf{£0.00} &  &  & \textbf{} & \textbf{} \\
+ & \textbf{GR} & \textbf{} & \textbf{0} & \textbf{£3.00} & \textbf{£0.00} &  &  & \textbf{} & \textbf{} \\
+ & \textbf{71} & \textbf{} & \textbf{0} & \textbf{£2.50} & \textbf{£0.00} &  &  & \textbf{} & \textbf{} \\
+ & \textbf{BR} & \textbf{} & \textbf{0} & \textbf{£2.50} & \textbf{£0.00} &  &  & \textbf{} & \textbf{} \\
+ & \textbf{68} & \textbf{} & \textbf{0} & \textbf{£2.50} & \textbf{£0.00} &  &  & \textbf{} & \textbf{} \\
+ & \textbf{64} & \textbf{} & \textbf{0} & \textbf{£2.50} & \textbf{£0.00} &  &  & \textbf{} & \textbf{} \\
+ & \textbf{59} & \textbf{} & \textbf{0} & \textbf{£2.50} & \textbf{£0.00} &  &  & \textbf{} & \textbf{} \\
+ & \textbf{34} & \textbf{} & \textbf{1} & \textbf{£2.50} & \textbf{£2.50} &  &  & \textbf{} & \textbf{} \\
+ & \textbf{32 BL} & \textbf{} & \textbf{0} & \textbf{£2.50} & \textbf{£0.00} &  &  & \textbf{} & \textbf{} \\
+ & \textbf{BL} & \textbf{} & \textbf{0} & \textbf{£2.50} & \textbf{£0.00} &  &  & \textbf{} & \textbf{} \\
+ & \textbf{27 BR} & \textbf{} & \textbf{0} & \textbf{£2.00} & \textbf{£0.00} &  &  & \textbf{} & \textbf{} \\
+ & \textbf{ALT GR} & \textbf{} & \textbf{0} & \textbf{£2.00} & \textbf{£0.00} &  &  & \textbf{} & \textbf{} \\
+ & \textbf{22} & \textbf{} & \textbf{0} & \textbf{£2.50} & \textbf{£0.00} &  &  & \textbf{} & \textbf{} \\
+ & \textbf{BR} & \textbf{} & \textbf{0} & \textbf{£2.50} & \textbf{£0.00} &  &  & \textbf{} & \textbf{} \\
+ & \textbf{20} & \textbf{} & \textbf{0} & \textbf{£2.50} & \textbf{£0.00} &  &  & \textbf{} & \textbf{} \\
+ & \textbf{BR} & \textbf{} & \textbf{0} & \textbf{£2.50} & \textbf{£0.00} &  &  & \textbf{} & \textbf{} \\
+ & \textbf{13} & \textbf{} & \textbf{0} & \textbf{£2.50} & \textbf{£0.00} &  &  & \textbf{} & \textbf{} \\
+ & \textbf{11} & \textbf{} & \textbf{0} & \textbf{£3.00} & \textbf{£0.00} &  &  & \textbf{} & \textbf{} \\
+ & \textbf{4} & \textbf{} & \textbf{0} & \textbf{£2.50} & \textbf{£0.00} &  &  & \textbf{1L LAST PP} & \textbf{} \\
+\multirow{-21}{*}{\textbf{CAMBOURNE}} & \textbf{1} & \textbf{} & \textbf{0} & \textbf{£2.50} & \textbf{£0.00} &  &  & \textbf{} & \textbf{} \\
+\multicolumn{1}{l}{\textbf{}} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} &  &  & \textbf{} & \textbf{} \\
+ & \textbf{945} & \textbf{} & \textbf{0} & \textbf{£3.00} & \textbf{£0.00} &  &  & \textbf{} & \textbf{} \\
+\multirow{-2}{*}{\textbf{ATHERTON ROAD}} & \textbf{963 SHOP} & \textbf{} & \textbf{0} & \textbf{£3.00} & \textbf{£0.00} &  &  & \textbf{} & \textbf{} \\
+\multicolumn{1}{l}{\textbf{}} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} &  &  & \textbf{} & \textbf{} \\
+ & \textbf{104} & \textbf{} & \textbf{0} & \textbf{£3.00} & \textbf{£0.00} &  &  & \textbf{} & \textbf{} \\
+ & \textbf{102} & \textbf{} & \textbf{0} & \textbf{£2.50} & \textbf{£0.00} &  &  & \textbf{} & \textbf{} \\
+ & \textbf{78BR} & \textbf{} & \textbf{0} & \textbf{£2.50} & \textbf{£0.00} &  &  & \textbf{} & \textbf{} \\
+ & \textbf{65C} & \textbf{} & \textbf{0} & \textbf{£2.50} & \textbf{£0.00} &  &  & \textbf{} & \textbf{} \\
+ & \textbf{46} & \textbf{} & \textbf{0} & \textbf{£2.50} & \textbf{£0.00} &  &  & \textbf{} & \textbf{} \\
+\multirow{-6}{*}{\textbf{THOMAS  ST}} & \textbf{81} & \textbf{} & \textbf{0} & \textbf{£3.00} & \textbf{£0.00} &  &  & \textbf{} & \textbf{} \\
+\multicolumn{1}{l}{\textbf{}} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} &  &  & \textbf{} & \textbf{} \\
+ & \textbf{2} & \textbf{} & \textbf{0} & \textbf{£2.50} & \textbf{£0.00} &  &  & \textbf{4 FOR £10 DUE} & \textbf{} \\
+\multirow{-2}{*}{\textbf{HANCOCK}} & \textbf{BR} & \textbf{} & \textbf{0} & \textbf{£2.50} & \textbf{£0.00} &  &  & \textbf{4 FOR £10 DUE} & \textbf{} \\
+\multicolumn{1}{l}{\textbf{}} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} &  &  & \textbf{} & \textbf{} \\
+\multicolumn{1}{l}{\textbf{}} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} &  &  & \textbf{} & \textbf{} \\
+ & \textbf{6} & \textbf{} & \textbf{0} & \textbf{£2.50} & \textbf{£0.00} &  &  & \textbf{} & \textbf{} \\
+ & \textbf{38BR} & \textbf{} & \textbf{0} & \textbf{£2.50} & \textbf{£0.00} &  &  & \textbf{} & \textbf{} \\
+ & \textbf{40} & \textbf{} & \textbf{0} & \textbf{£2.50} & \textbf{£0.00} &  &  & {\color[HTML]{FFFFFF} \textbf{}} & {\color[HTML]{FFFFFF} \textbf{}} \\
+\multirow{-4}{*}{\textbf{SARAH ST}} & \textbf{48BR} & \textbf{} & \textbf{0} & \textbf{£2.50} & \textbf{£0.00} &  &  & \textbf{} & \textbf{} \\
+\multicolumn{1}{l}{\textbf{}} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} &  &  & \textbf{} & \textbf{} \\
+ & \textbf{31} & \textbf{} & \textbf{0} & \textbf{£3.00} & \textbf{£0.00} &  &  & \textbf{2L PRE PAID} & \textbf{} \\
+ & \textbf{11} & \textbf{} & \textbf{0} & \textbf{£2.50} & \textbf{£0.00} &  &  & \textbf{} & \textbf{} \\
+ & \textbf{36B} & \textbf{} & \textbf{0} & \textbf{£2.50} & \textbf{£0.00} &  &  & \textbf{} & \textbf{} \\
+ & \textbf{BR} & \textbf{} & \textbf{0} & \textbf{£2.50} & \textbf{£0.00} &  &  & \textbf{} & \textbf{} \\
+ & \textbf{42} & \textbf{} & \textbf{0} & \textbf{£2.50} & \textbf{£0.00} &  &  & \textbf{} & \textbf{} \\
+ & \textbf{17} & \textbf{} & \textbf{0} & \textbf{£2.50} & \textbf{£0.00} &  &  & \textbf{} & \textbf{} \\
+\multirow{-7}{*}{\textbf{CAR COMMON}} & \textbf{12} & \textbf{} & \textbf{0} & \textbf{£3.00} & \textbf{£0.00} &  &  & \textbf{} & \textbf{} \\
+\multicolumn{1}{l}{\textbf{}} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} &  &  & \textbf{} & \textbf{} \\
+ & \textbf{15} & \textbf{} & \textbf{0} & \textbf{£2.50} & \textbf{£0.00} &  &  & \textbf{3L 4 FOR £10} & \textbf{} \\
+ & \textbf{BR} & \textbf{} & \textbf{0} & \textbf{£2.50} & \textbf{£0.00} &  &  & \textbf{3L 4 FOR £10} & \textbf{} \\
+ & \textbf{26} & \textbf{} & \textbf{0} & \textbf{£3.00} & \textbf{£0.00} &  &  & \textbf{} & \textbf{} \\
+ & \textbf{BR} & \textbf{} & \textbf{0} & \textbf{£3.00} & \textbf{£0.00} &  &  & \textbf{} & \textbf{} \\
+\multirow{-5}{*}{\textbf{HEATH GDNS}} & \textbf{31} & \textbf{} & \textbf{0} & \textbf{£3.00} & \textbf{£0.00} &  &  & \textbf{} & \textbf{} \\
+\multicolumn{1}{l}{\textbf{}} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} &  &  & \textbf{} & \textbf{} \\
+ & \textbf{36BR} & \textbf{} & \textbf{0} & \textbf{£3.00} & \textbf{£0.00} &  &  & \textbf{} & \textbf{} \\
+ & \textbf{38} & \textbf{} & \textbf{0} & \textbf{£3.00} & \textbf{£0.00} &  &  & \textbf{} & \textbf{} \\
+ & \textbf{BR} & \textbf{} & \textbf{0} & \textbf{£3.00} & \textbf{£0.00} &  &  & \textbf{} & \textbf{} \\
+\multirow{-4}{*}{\textbf{PEMBROKE}} & \textbf{GR} & \textbf{} & \textbf{0} & \textbf{£3.00} & \textbf{£0.00} &  &  & \textbf{} & \textbf{} \\
+\multicolumn{1}{l}{\textbf{}} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} &  &  & \textbf{} & \textbf{} \\
+ & \textbf{5} & \textbf{} & \textbf{0} & \textbf{£2.50} & \textbf{£0.00} &  &  & \textbf{} & \textbf{} \\
+ & \textbf{7BR} & \textbf{} & \textbf{0} & \textbf{£2.50} & \textbf{£0.00} &  &  & \textbf{} & \textbf{} \\
+ & \textbf{11} & \textbf{} & \textbf{1} & \textbf{£3.00} & \textbf{£3.00} &  &  & \textbf{} & \textbf{} \\
+ & \textbf{BR} & \textbf{} & \textbf{0} & \textbf{£3.00} & \textbf{£0.00} &  &  & \textbf{} & \textbf{} \\
+ & \textbf{19} & \textbf{} & \textbf{0} & \textbf{£2.50} & \textbf{£0.00} &  &  & \textbf{} & \textbf{} \\
+ & \textbf{23BR} & \textbf{} & \textbf{0} & \textbf{£2.50} & \textbf{£0.00} &  &  & \textbf{} & \textbf{} \\
+ & \textbf{40} & \textbf{} & \textbf{0} & \textbf{£2.50} & \textbf{£0.00} &  &  & \textbf{} & \textbf{} \\
+ & \textbf{42} & \textbf{} & \textbf{1} & \textbf{£2.50} & \textbf{£2.50} &  &  & \textbf{} & \textbf{} \\
+ & \textbf{44} & \textbf{} & \textbf{0} & \textbf{£2.50} & \textbf{£0.00} &  &  & \textbf{} & \textbf{} \\
+ & \textbf{38} & \textbf{} & \textbf{0} & \textbf{£2.50} & \textbf{£0.00} &  &  & \textbf{3L 4 FOR £10} & \textbf{} \\
+ & \textbf{BR} & \textbf{} & \textbf{0} & \textbf{£2.50} & \textbf{£0.00} &  &  & \textbf{3L 4 FOR £10} & \textbf{} \\
+ & \textbf{35} & \textbf{} & \textbf{0} & \textbf{£2.50} & \textbf{£0.00} &  &  & \textbf{} & \textbf{} \\
+ & \textbf{ALT BR} & \textbf{} & \textbf{0} & \textbf{£2.50} & \textbf{£0.00} &  &  & \textbf{} & \textbf{} \\
+ & \textbf{67} & \textbf{} & \textbf{1} & \textbf{£2.50} & \textbf{£2.50} &  &  & \textbf{} & \textbf{} \\
+ & \textbf{68} & \textbf{} & \textbf{0} & \textbf{£3.00} & \textbf{£0.00} &  &  & \textbf{} & \textbf{} \\
+ & \textbf{6} & \textbf{} & \textbf{0} & \textbf{£3.00} & \textbf{£0.00} &  &  & \textbf{1L 4 FOR £10} & \textbf{} \\
+\multirow{-17}{*}{\textbf{BEXHILL}} & \textbf{78} & \textbf{} & \textbf{0} & \textbf{£2.50} & \textbf{£0.00} &  &  & \textbf{} & \textbf{} \\
+\multicolumn{1}{l}{\textbf{}} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} &  &  & \textbf{} & \textbf{} \\
+ & \textbf{10} & \textbf{} & \textbf{0} & \textbf{£3.00} & \textbf{£0.00} &  &  & \textbf{} & \textbf{} \\
+ & \textbf{9} & \textbf{} & \textbf{0} & \textbf{£2.50} & \textbf{£0.00} &  &  & \textbf{3L 4 FOR £10} & \textbf{} \\
+\multirow{-3}{*}{\textbf{POLEGATE}} & \textbf{BR} & \textbf{} & \textbf{0} & \textbf{£2.50} & \textbf{£0.00} &  &  & \textbf{3L 4 FOR £10} & \textbf{} \\
+\multicolumn{1}{l}{\textbf{}} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} &  &  & \textbf{} & \textbf{} \\
+ & \textbf{5BR} & \textbf{} & \textbf{0} & \textbf{£2.50} & \textbf{£0.00} &  &  & \textbf{} & \textbf{} \\
+ & \textbf{7} & \textbf{} & \textbf{0} & \textbf{£2.50} & \textbf{£0.00} &  &  & \textbf{} & \textbf{} \\
+\multirow{-3}{*}{\textbf{STAPLEHURST}} & \textbf{2} & \textbf{} & \textbf{1} & \textbf{£2.50} & \textbf{£2.50} &  &  & \textbf{} & \textbf{} \\
+\multicolumn{1}{l}{\textbf{}} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} &  &  & \textbf{} & \textbf{} \\
+ & \textbf{4} & \textbf{} & \textbf{0} & \textbf{£2.50} & \textbf{£0.00} &  &  & \textbf{} & \textbf{} \\
+ & \textbf{BR} & \textbf{} & \textbf{0} & \textbf{£2.50} & \textbf{£0.00} &  &  & \textbf{} & \textbf{} \\
+ & \textbf{GR} & \textbf{} & \textbf{0} & \textbf{£2.50} & \textbf{£0.00} &  &  & \textbf{} & \textbf{} \\
+ & \textbf{1} & \textbf{} & \textbf{0} & \textbf{£3.00} & \textbf{£0.00} &  &  & \textbf{PAYPAL} & \textbf{} \\
+\multirow{-5}{*}{\textbf{MAIDSTONE}} & \textbf{BR} & \textbf{} & \textbf{0} & \textbf{£3.00} & \textbf{£0.00} &  &  & \textbf{JUNE WILKINSON} & \textbf{} \\
+\multicolumn{1}{l}{\textbf{}} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} &  &  & \textbf{} & \textbf{} \\
+ & \textbf{8} & \textbf{} & \textbf{0} & \textbf{£2.50} & \textbf{£0.00} &  &  & \textbf{2L 4 FOR £10} & \textbf{} \\
+ & \textbf{15} & \textbf{} & \textbf{0} & \textbf{£2.50} & \textbf{£0.00} &  &  & \textbf{4L 4 FOR £10} & \textbf{} \\
+ & \textbf{BR} & \textbf{} & \textbf{0} & \textbf{£2.50} & \textbf{£0.00} &  &  & \textbf{4L 4 FOR £10} & \textbf{} \\
+\multirow{-4}{*}{\textbf{HARBROOK}} & \textbf{GR} & \textbf{} & \textbf{0} & \textbf{£2.50} & \textbf{£0.00} &  &  & \textbf{4L 4 FOR £10} & \textbf{}
+\end{tabular}
+\end{table}

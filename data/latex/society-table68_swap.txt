@@ -1,0 +1,82 @@
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+% \usepackage[table,xcdraw]{xcolor}
+% Beamer presentation requires \usepackage{colortbl} instead of \usepackage[table,xcdraw]{xcolor}
+\begin{table}[]
+\begin{tabular}{@{}l
+>{\columncolor[HTML]{FFFFFF}}l 
+>{\columncolor[HTML]{FFFFFF}}l 
+>{\columncolor[HTML]{FFFFFF}}r 
+>{\columncolor[HTML]{FFFFFF}}r 
+>{\columncolor[HTML]{FFFFFF}}r 
+>{\columncolor[HTML]{FFFFFF}}r 
+>{\columncolor[HTML]{FFFFFF}}r 
+>{\columncolor[HTML]{FFFFFF}}r 
+>{\columncolor[HTML]{FFFFFF}}r r
+>{\columncolor[HTML]{FFFFFF}}r 
+>{\columncolor[HTML]{FFFFFF}}r 
+>{\columncolor[HTML]{FFFFFF}}r 
+>{\columncolor[HTML]{FFFFFF}}r 
+>{\columncolor[HTML]{FFFFFF}}r 
+>{\columncolor[HTML]{FFFFFF}}r 
+>{\columncolor[HTML]{FFFFFF}}r 
+>{\columncolor[HTML]{FFFFFF}}r rr
+>{\columncolor[HTML]{FFFFFF}}r 
+>{\columncolor[HTML]{FFFFFF}}r @{}}
+\cellcolor[HTML]{FFFFFF} &  & \multicolumn{1}{r}{\cellcolor[HTML]{FFFFFF}\textbf{}} & \multicolumn{20}{c}{\cellcolor[HTML]{C0C0C0}\textbf{JSA Sanction Decision Level}} \\
+\cellcolor[HTML]{FFFFFF}\textbf{} & \textbf{} & \multicolumn{1}{r}{\cellcolor[HTML]{FFFFFF}\textbf{}} & \multicolumn{5}{c}{\cellcolor[HTML]{C0C0C0}\textbf{Low}} & \multicolumn{5}{c}{\cellcolor[HTML]{C0C0C0}\textbf{Intermediate}} & \multicolumn{5}{c}{\cellcolor[HTML]{C0C0C0}\textbf{High}} & \multicolumn{5}{c}{\cellcolor[HTML]{C0C0C0}\textbf{Level not applicable / not recorded}} \\
+\cellcolor[HTML]{FFFFFF}\textbf{} & \textbf{} & \textbf{} & \cellcolor[HTML]{C0C0C0}\textbf{Non-adverse decisions4} & \cellcolor[HTML]{C0C0C0}\textbf{Adverse decisions5} & \cellcolor[HTML]{C0C0C0}\textbf{Reserved decisions6} & \cellcolor[HTML]{C0C0C0}\textbf{Cancelled decisions7} & \cellcolor[HTML]{C0C0C0}\textbf{Total decisions} & \cellcolor[HTML]{C0C0C0}\textbf{Non-adverse decisions4} & \cellcolor[HTML]{C0C0C0}\textbf{Adverse decisions5} & \cellcolor[HTML]{C0C0C0}\textbf{Reserved decisions6} & \cellcolor[HTML]{C0C0C0}\textbf{Cancelled decisions7} & \cellcolor[HTML]{C0C0C0}\textbf{Total decisions} & \cellcolor[HTML]{C0C0C0}\textbf{Non-adverse decisions4} & \cellcolor[HTML]{C0C0C0}\textbf{Adverse decisions5} & \cellcolor[HTML]{C0C0C0}\textbf{Reserved decisions6} & \cellcolor[HTML]{C0C0C0}\textbf{Cancelled decisions7} & \cellcolor[HTML]{C0C0C0}\textbf{Total decisions} & \cellcolor[HTML]{C0C0C0}\textbf{Non-adverse decisions4} & \cellcolor[HTML]{C0C0C0}\textbf{Adverse decisions5} & \cellcolor[HTML]{C0C0C0}\textbf{Reserved decisions6} & \cellcolor[HTML]{C0C0C0}\textbf{Cancelled decisions7} & \cellcolor[HTML]{C0C0C0}\textbf{Total decisions} \\
+\multicolumn{3}{l}{\cellcolor[HTML]{FFFFFF}\textbf{GREAT BRITAIN}} & \textbf{342,027} & \textbf{439,317} & \textbf{65,267} & \textbf{387,855} & \textbf{1,234,463} & \textbf{74,733} & \textbf{304,634} & \textbf{532} & \textbf{25,186} & \textbf{405,085} & \textbf{135,435} & \textbf{72,908} & \textbf{29,036} & \textbf{44,472} & \textbf{281,852} & \textbf{855} & \cellcolor[HTML]{FFFFFF}\textbf{684} & \cellcolor[HTML]{FFFFFF}\textbf{-} & \textbf{7,586} & \textbf{9,119} \\
+\cellcolor[HTML]{FFFFFF}\textbf{London and the Home Counties} &  &  & \textbf{} & \textbf{} & \textbf{} &  & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \cellcolor[HTML]{FFFFFF}\textbf{} & \cellcolor[HTML]{FFFFFF}\textbf{} & \textbf{} & \textbf{} \\
+ & Bedfordshire and Hertfordshire & \textbf{} & 5,917 & 10,630 & 1,754 & 8,769 & \textbf{27,071} & 558 & 6,069 & 35 & 330 & \textbf{6,994} & 2,026 & 953 & 368 & 783 & \textbf{4,131} & 6 & - & - & 77 & \textbf{82} \\
+ & East London & \textbf{} & 13,697 & 21,458 & 2,775 & 20,329 & \textbf{58,260} & 2,922 & 15,617 & 23 & 1,136 & \textbf{19,704} & 3,215 & 2,253 & 1,030 & 1,690 & \textbf{8,188} & 5 & \cellcolor[HTML]{FFFFFF}14 & - & 665 & \textbf{686} \\
+ & Essex & \textbf{} & 7,682 & 10,832 & 2,533 & 9,149 & \textbf{30,197} & 1,908 & 5,021 & 0 & 438 & \textbf{7,375} & 2,389 & 1,362 & 572 & 849 & \textbf{5,173} & 0 & \cellcolor[HTML]{FFFFFF}6 & - & 106 & \textbf{111} \\
+ & Kent & \textbf{} & 7,550 & 8,215 & 961 & 6,262 & \textbf{22,996} & 2,294 & 9,774 & 16 & 777 & \textbf{12,856} & 3,570 & 2,006 & 913 & 1,248 & \textbf{7,738} & 13 & \cellcolor[HTML]{FFFFFF}8 & - & 23 & \textbf{45} \\
+ & North London & \textbf{} & 5,517 & 9,418 & 1,591 & 5,863 & \textbf{22,384} & 2,114 & 7,643 & 37 & 460 & \textbf{10,260} & 1,734 & 1,170 & 606 & 872 & \textbf{4,381} & 10 & \cellcolor[HTML]{FFFFFF}7 & - & 274 & \textbf{293} \\
+ & South London & \textbf{} & 19,306 & 26,130 & 5,004 & 30,148 & \textbf{80,588} & 2,341 & 13,094 & 98 & 822 & \textbf{16,359} & 4,730 & 2,235 & 1,222 & 1,543 & \textbf{9,732} & 9 & \cellcolor[HTML]{FFFFFF}22 & - & 128 & \textbf{157} \\
+ & West London & \textbf{} & 5,035 & 9,930 & 1,036 & 5,152 & \textbf{21,148} & 1,539 & 6,562 & 22 & 495 & \textbf{8,617} & 3,308 & 2,175 & 1,269 & 1,446 & \textbf{8,198} & 5 & \cellcolor[HTML]{FFFFFF}7 & - & 292 & \textbf{308} \\
+\cellcolor[HTML]{FFFFFF} &  &  &  &  &  &  & \textbf{} &  &  &  &  & \textbf{} &  &  &  &  & \textbf{} &  & \cellcolor[HTML]{FFFFFF} & \cellcolor[HTML]{FFFFFF} &  & \textbf{} \\
+\cellcolor[HTML]{FFFFFF}\textbf{Central England} & \textbf{} &  & \textbf{} & \textbf{} & \textbf{} &  & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \cellcolor[HTML]{FFFFFF}\textbf{} & \cellcolor[HTML]{FFFFFF}\textbf{} & \textbf{} & \textbf{} \\
+ & Birmingham and Solihull & \textbf{} & 12,109 & 12,938 & 1,182 & 7,681 & \textbf{33,910} & 3,541 & 9,695 & 5 & 875 & \textbf{14,121} & 4,636 & 2,200 & 1,034 & 2,193 & \textbf{10,064} & \textbf{9} & \cellcolor[HTML]{FFFFFF}\textbf{5} & \cellcolor[HTML]{FFFFFF}\textbf{-} & \textbf{19} & \textbf{33} \\
+ & Black Country & \textbf{} & 7,891 & 10,773 & 664 & 6,430 & \textbf{25,757} & 3,569 & 16,745 & 9 & 653 & \textbf{20,972} & 4,016 & 2,213 & 613 & 1,518 & \textbf{8,362} & 17 & \cellcolor[HTML]{FFFFFF}15 & \cellcolor[HTML]{FFFFFF}- & 32 & \textbf{57} \\
+ & Derbyshire & \textbf{} & 6,405 & 8,883 & 1,614 & 9,670 & \textbf{26,570} & 2,340 & 11,243 & 35 & 1,120 & \textbf{14,738} & 2,713 & 1,817 & 351 & 843 & \textbf{5,723} & 5 & \cellcolor[HTML]{FFFFFF}17 & \cellcolor[HTML]{FFFFFF}- & 606 & \textbf{626} \\
+ & East Anglia & \textbf{} & 11,160 & 15,255 & 3,414 & 12,266 & \textbf{42,090} & 2,292 & 8,735 & 9 & 670 & \textbf{11,709} & 5,808 & 2,915 & 930 & 1,123 & \textbf{10,776} & 17 & \cellcolor[HTML]{FFFFFF}11 & \cellcolor[HTML]{FFFFFF}- & 375 & \textbf{406} \\
+ & Leicestershire and Northamptonshire & \textbf{} & 8,498 & 8,485 & 1,350 & 8,565 & \textbf{26,901} & 1,612 & 6,890 & 8 & 260 & \textbf{8,776} & 4,174 & 2,157 & 433 & 637 & \textbf{7,400} & 11 & \cellcolor[HTML]{FFFFFF}10 & \cellcolor[HTML]{FFFFFF}- & 226 & \textbf{244} \\
+ & Lincolnshire, Nottinghamshire and Rutland & \textbf{} & 12,258 & 13,119 & 2,012 & 12,565 & \textbf{39,951} & 1,327 & 5,660 & 7 & 435 & \textbf{7,431} & 4,463 & 2,347 & 374 & 595 & \textbf{7,776} & 18 & \cellcolor[HTML]{FFFFFF}16 & \cellcolor[HTML]{FFFFFF}- & 357 & \textbf{387} \\
+ & Mercia & \textbf{} & 6,477 & 7,890 & 1,057 & 6,589 & \textbf{22,017} & 3,398 & 11,522 & 5 & 638 & \textbf{15,564} & 4,204 & 1,783 & 680 & 1,289 & \textbf{7,952} & 11 & \cellcolor[HTML]{FFFFFF}10 & \cellcolor[HTML]{FFFFFF}- & 32 & \textbf{47} \\
+ & Staffordshire and Shropshire & \textbf{} & 6,982 & 8,865 & 1,346 & 6,951 & \textbf{24,148} & 1,947 & 7,233 & 8 & 473 & \textbf{9,663} & 4,615 & 2,202 & 827 & 1,361 & \textbf{9,008} & 15 & \cellcolor[HTML]{FFFFFF}17 & \cellcolor[HTML]{FFFFFF}- & 21 & \textbf{54} \\
+\cellcolor[HTML]{FFFFFF} &  &  &  &  &  &  & \textbf{} &  &  &  &  & \textbf{} &  &  &  &  & \textbf{} &  & \cellcolor[HTML]{FFFFFF} & \cellcolor[HTML]{FFFFFF} &  & \textbf{} \\
+\cellcolor[HTML]{FFFFFF}\textbf{North East} &  &  & \textbf{} & \textbf{} & \textbf{} &  & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \cellcolor[HTML]{FFFFFF}\textbf{} & \cellcolor[HTML]{FFFFFF}\textbf{} & \textbf{} & \textbf{} \\
+ & Durham and Tees Valley & \textbf{} & 13,908 & 16,485 & 1,967 & 15,133 & \textbf{47,498} & 1,992 & 7,468 & 12 & 685 & \textbf{10,154} & 2,680 & 1,464 & 915 & 871 & \textbf{5,932} & 21 & \cellcolor[HTML]{FFFFFF}14 & - & 277 & \textbf{311} \\
+ & North East Yorkshire and the Humber & \textbf{} & 12,198 & 12,941 & 1,869 & 9,329 & \textbf{36,327} & 1,936 & 11,171 & 12 & 688 & \textbf{13,811} & 4,947 & 2,390 & 809 & 1,281 & \textbf{9,432} & 42 & \cellcolor[HTML]{FFFFFF}25 & - & 45 & \textbf{109} \\
+ & Northumberland, Tyne and Wear & \textbf{} & 11,075 & 15,191 & 1,961 & 14,286 & \textbf{42,510} & 1,834 & 7,099 & 33 & 479 & \textbf{9,449} & 2,756 & 1,771 & 831 & 882 & \textbf{6,243} & 20 & \cellcolor[HTML]{FFFFFF}5 & - & 268 & \textbf{299} \\
+ & South Yorkshire & \textbf{} & 14,939 & 18,606 & 3,117 & 19,142 & \textbf{55,801} & 1,495 & 9,799 & - & 653 & \textbf{11,952} & 2,667 & 1,462 & 394 & 1,080 & \textbf{5,596} & 46 & \cellcolor[HTML]{FFFFFF}10 & - & 26 & \textbf{78} \\
+ & West Yorkshire & \textbf{} & 17,368 & 20,599 & 2,773 & 12,020 & \textbf{52,765} & 1,929 & 11,675 & 12 & 976 & \textbf{14,590} & 6,043 & 2,919 & 1,047 & 1,892 & \textbf{11,901} & 63 & \cellcolor[HTML]{FFFFFF}19 & - & 181 & \textbf{258} \\
+\cellcolor[HTML]{FFFFFF} &  &  &  &  &  &  & \textbf{} &  &  &  &  & \textbf{} &  &  &  &  & \textbf{} &  & \cellcolor[HTML]{FFFFFF} & \cellcolor[HTML]{FFFFFF} &  & \textbf{} \\
+\cellcolor[HTML]{FFFFFF}\textbf{North West} &  &  & \textbf{} & \textbf{} & \textbf{} &  & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \cellcolor[HTML]{FFFFFF}\textbf{} & \cellcolor[HTML]{FFFFFF}\textbf{} & \textbf{} & \textbf{} \\
+ & Cumbria and Lancashire & \textbf{} & 11,148 & 14,950 & 2,096 & 14,708 & \textbf{42,906} & 3,315 & 11,646 & 20 & 479 & \textbf{15,458} & 4,398 & 2,259 & 963 & 2,276 & \textbf{9,894} & 29 & \cellcolor[HTML]{FFFFFF}44 & - & 272 & \textbf{340} \\
+ & Greater Manchester Central and Cheshire & \textbf{} & 13,944 & 19,409 & 2,537 & 15,271 & \textbf{51,162} & 3,409 & 9,842 & 21 & 795 & \textbf{14,069} & 4,203 & 1,859 & 956 & 1,784 & \textbf{8,799} & 65 & \cellcolor[HTML]{FFFFFF}107 & - & 283 & \textbf{454} \\
+ & Greater Manchester East and West & \textbf{} & 13,883 & 19,751 & 3,060 & 16,508 & \textbf{53,194} & 2,764 & 11,466 & 16 & 482 & \textbf{14,726} & 3,972 & 1,767 & 851 & 1,794 & \textbf{8,384} & 20 & \cellcolor[HTML]{FFFFFF}121 & - & 115 & \textbf{263} \\
+ & Merseyside & \textbf{} & 16,328 & 17,981 & 2,193 & 20,228 & \textbf{56,728} & 2,975 & 6,971 & 6 & 518 & \textbf{10,470} & 3,712 & 1,661 & 637 & 1,122 & \textbf{7,130} & 39 & \cellcolor[HTML]{FFFFFF}51 & - & 526 & \textbf{624} \\
+\cellcolor[HTML]{FFFFFF} &  &  &  &  &  &  & \textbf{} &  &  &  &  & \textbf{} &  &  &  &  & \textbf{} &  & \cellcolor[HTML]{FFFFFF} & \cellcolor[HTML]{FFFFFF} &  & \textbf{} \\
+\cellcolor[HTML]{FFFFFF}\textbf{Scotland} &  &  & \textbf{} & \textbf{} & \textbf{} &  & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \cellcolor[HTML]{FFFFFF}\textbf{} & \cellcolor[HTML]{FFFFFF}\textbf{} & \textbf{} & \textbf{} \\
+ & East and South East Scotland & \textbf{} & 10,663 & 13,263 & 2,078 & 13,379 & \textbf{39,381} & 1,617 & 7,594 & 6 & 761 & \textbf{9,982} & 3,998 & 2,224 & 795 & 1,428 & \textbf{8,441} & 19 & \cellcolor[HTML]{FFFFFF}15 & - & 633 & \textbf{673} \\
+ & Glasgow, Lanarkshire and East Dunbartonshire & \textbf{} & 9,659 & 13,043 & 2,076 & 11,198 & \textbf{35,979} & 1,788 & 7,471 & 9 & 511 & \textbf{9,782} & 3,237 & 1,860 & 601 & 1,146 & \textbf{6,849} & 44 & \cellcolor[HTML]{FFFFFF}13 & - & 583 & \textbf{635} \\
+ & North of Scotland & \textbf{} & 5,568 & 7,083 & 1,051 & 6,012 & \textbf{19,710} & 1,160 & 4,617 & 10 & 456 & \textbf{6,241} & 2,878 & 1,658 & 725 & 1,115 & \textbf{6,374} & 29 & \cellcolor[HTML]{FFFFFF}8 & - & 425 & \textbf{458} \\
+ & West of Scotland & \textbf{} & 4,941 & 7,723 & 1,058 & 4,377 & \textbf{18,102} & 1,417 & 7,138 & 12 & 533 & \textbf{9,096} & 2,475 & 1,618 & 492 & 800 & \textbf{5,388} & 7 & \cellcolor[HTML]{FFFFFF}7 & - & 339 & \textbf{349} \\
+\cellcolor[HTML]{FFFFFF} &  &  &  &  &  &  & \textbf{} &  &  &  &  & \textbf{} &  &  &  &  & \textbf{} &  & \cellcolor[HTML]{FFFFFF} & \cellcolor[HTML]{FFFFFF} &  & \textbf{} \\
+\cellcolor[HTML]{FFFFFF}\textbf{Southern England} &  &  & \textbf{} & \textbf{} & \textbf{} &  & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \textbf{} & \cellcolor[HTML]{FFFFFF}\textbf{} & \cellcolor[HTML]{FFFFFF}\textbf{} & \textbf{} & \textbf{} \\
+ & Devon, Cornwall and Somerset & \textbf{} & 4,126 & 5,442 & 559 & 3,341 & \textbf{13,470} & 2,434 & 7,759 & - & 1,521 & \textbf{11,718} & 5,052 & 3,242 & 1,570 & 833 & \textbf{10,697} & 45 & \cellcolor[HTML]{FFFFFF}8 & - & 44 & \textbf{89} \\
+ & Gloucester and West of England & \textbf{} & 5,605 & 6,924 & 962 & 5,708 & \textbf{19,200} & 1,682 & 5,746 & 5 & 982 & \textbf{8,415} & 3,345 & 2,043 & 1,052 & 726 & \textbf{7,162} & 25 & \cellcolor[HTML]{FFFFFF}10 & - & 30 & \textbf{64} \\
+ & Greater Wessex & \textbf{} & 9,071 & 11,567 & 1,885 & 10,635 & \textbf{33,157} & 3,923 & 11,293 & 11 & 1,400 & \textbf{16,626} & 6,546 & 3,753 & 1,659 & 1,855 & \textbf{13,808} & 10 & \cellcolor[HTML]{FFFFFF}23 & - & 73 & \textbf{107} \\
+ & Surrey and Sussex & \textbf{} & 5,717 & 6,272 & 902 & 6,128 & \textbf{19,018} & 1,722 & 5,715 & 12 & 676 & \textbf{8,121} & 4,856 & 2,286 & 1,211 & 2,190 & \textbf{10,545} & 27 & \cellcolor[HTML]{FFFFFF}19 & - & 50 & \textbf{95} \\
+ & Thames Valley & \textbf{} & 8,182 & 7,222 & 1,144 & 8,016 & \textbf{24,564} & 1,208 & 5,101 & 7 & 618 & \textbf{6,942} & 4,011 & 2,947 & 944 & 1,160 & \textbf{9,069} & 16 & \cellcolor[HTML]{FFFFFF}7 & - & 35 & \textbf{52} \\
+\cellcolor[HTML]{FFFFFF} &  &  &  &  &  &  & \textbf{} &  &  &  &  & \textbf{} &  &  &  &  & \textbf{} &  & \cellcolor[HTML]{FFFFFF} & \cellcolor[HTML]{FFFFFF} &  & \textbf{} \\
+\cellcolor[HTML]{FFFFFF}\textbf{Wales} &  &  &  &  &  &  & \textbf{} &  &  &  &  & \textbf{} &  &  &  &  & \textbf{} &  & \cellcolor[HTML]{FFFFFF} & \cellcolor[HTML]{FFFFFF}\textbf{} & \textbf{} & \textbf{} \\
+ & North and Mid Wales & \textbf{} & 3,118 & 4,549 & 529 & 2,670 & \textbf{10,862} & 156 & 1,509 & - & 263 & \textbf{1,924} & 1,995 & 829 & 204 & 298 & \textbf{3,322} & 6 & - & - & 14 & \textbf{23} \\
+ & South East Wales & \textbf{} & 7,234 & 9,615 & 1,183 & 6,779 & \textbf{24,813} & 1,261 & 6,048 & - & 1,111 & \textbf{8,419} & 2,525 & 1,256 & 373 & 807 & \textbf{4,964} & 23 & \cellcolor[HTML]{FFFFFF}6 & - & 44 & \textbf{69} \\
+ & South West Wales & \textbf{} & 5,666 & 7,059 & 1,012 & 5,392 & \textbf{19,131} & 831 & 5,673 & - & 936 & \textbf{7,437} & 3,208 & 1,733 & 467 & 616 & \textbf{6,028} & 19 & - & - & 24 & \textbf{48} \\
+\cellcolor[HTML]{FFFFFF}\textbf{} &  & \textbf{} &  &  &  &  & \textbf{} &  &  &  &  & \textbf{} &  &  &  &  & \textbf{} &  & \cellcolor[HTML]{FFFFFF} & \cellcolor[HTML]{FFFFFF} &  & \textbf{} \\
+\textbf{Unknown} &  &  & 1,196 & 831 & 949 & 11,216 & \textbf{14,193} & 172 & 336 & - & 63 & \textbf{576} & 331 & 99 & 330 & 539 & \textbf{1,302} & 91 & \cellcolor[HTML]{FFFFFF}9 & \cellcolor[HTML]{FFFFFF}- & 70 & \textbf{170}
+\end{tabular}
+\end{table}

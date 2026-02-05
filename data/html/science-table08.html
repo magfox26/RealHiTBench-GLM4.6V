@@ -1,0 +1,724 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <meta name="generator" content="PhpSpreadsheet, https://github.com/PHPOffice/PhpSpreadsheet">
+      <meta name="author" content="Julia Twichell" />
+      <meta name="company" content="Microsoft Corporation" />
+    <style type="text/css">
+      html { font-family:Calibri, Arial, Helvetica, sans-serif; font-size:11pt; background-color:white }
+      a.comment-indicator:hover + div.comment { background:#ffd; position:absolute; display:block; border:1px solid black; padding:0.5em }
+      a.comment-indicator { background:red; display:inline-block; border:1px solid black; width:0.5em; height:0.5em }
+      div.comment { display:none }
+      table { border-collapse:collapse; page-break-after:always }
+      .gridlines td { border:1px dotted black }
+      .gridlines th { border:1px dotted black }
+      .b { text-align:center }
+      .e { text-align:center }
+      .f { text-align:right }
+      .inlineStr { text-align:left }
+      .n { text-align:right }
+      .s { text-align:left }
+      td.style0 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      th.style0 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      td.style1 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Arial Narrow'; font-size:10pt; background-color:white }
+      th.style1 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Arial Narrow'; font-size:10pt; background-color:white }
+      td.style2 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial Narrow'; font-size:10pt; background-color:white }
+      th.style2 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial Narrow'; font-size:10pt; background-color:white }
+      td.style3 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial Narrow'; font-size:10pt; background-color:white }
+      th.style3 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial Narrow'; font-size:10pt; background-color:white }
+      td.style4 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Arial Narrow'; font-size:10pt; background-color:#E7E6E6 }
+      th.style4 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Arial Narrow'; font-size:10pt; background-color:#E7E6E6 }
+      td.style5 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:#E7E6E6 }
+      th.style5 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:#E7E6E6 }
+      td.style6 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Arial Narrow'; font-size:10pt; background-color:white }
+      th.style6 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Arial Narrow'; font-size:10pt; background-color:white }
+      td.style7 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-style:italic; color:#000000; font-family:'Arial Narrow'; font-size:10pt; background-color:white }
+      th.style7 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-style:italic; color:#000000; font-family:'Arial Narrow'; font-size:10pt; background-color:white }
+      td.style8 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Arial Narrow'; font-size:10pt; background-color:white }
+      th.style8 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Arial Narrow'; font-size:10pt; background-color:white }
+      td.style9 { vertical-align:middle; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:10pt; background-color:white }
+      th.style9 { vertical-align:middle; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:10pt; background-color:white }
+      td.style10 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      th.style10 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      td.style11 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:9pt; background-color:white }
+      th.style11 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:9pt; background-color:white }
+      td.style12 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:9pt; background-color:white }
+      th.style12 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:9pt; background-color:white }
+      td.style13 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      th.style13 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      td.style14 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Arial Narrow'; font-size:10pt; background-color:white }
+      th.style14 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Arial Narrow'; font-size:10pt; background-color:white }
+      td.style15 { vertical-align:middle; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:9pt; background-color:white }
+      th.style15 { vertical-align:middle; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:9pt; background-color:white }
+      td.style16 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Arial Narrow'; font-size:10pt; background-color:white }
+      th.style16 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Arial Narrow'; font-size:10pt; background-color:white }
+      td.style17 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      th.style17 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      td.style18 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Arial Narrow'; font-size:10pt; background-color:white }
+      th.style18 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Arial Narrow'; font-size:10pt; background-color:white }
+      td.style19 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial Narrow'; font-size:10pt; background-color:white }
+      th.style19 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial Narrow'; font-size:10pt; background-color:white }
+      td.style20 { vertical-align:middle; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:10pt; background-color:white }
+      th.style20 { vertical-align:middle; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:10pt; background-color:white }
+      td.style21 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Arial Narrow'; font-size:10pt; background-color:#E7E6E6 }
+      th.style21 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Arial Narrow'; font-size:10pt; background-color:#E7E6E6 }
+      td.style22 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial Narrow'; font-size:10pt; background-color:#E7E6E6 }
+      th.style22 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial Narrow'; font-size:10pt; background-color:#E7E6E6 }
+      td.style23 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:#E7E6E6 }
+      th.style23 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:#E7E6E6 }
+      table.sheet0 col.col0 { width:60.9999993pt }
+      table.sheet0 col.col1 { width:621.52221509pt }
+      table.sheet0 col.col2 { width:42pt }
+      table.sheet0 col.col3 { width:42pt }
+      table.sheet0 col.col4 { width:204.68888654pt }
+      table.sheet0 col.col5 { width:115.2222209pt }
+      table.sheet0 col.col6 { width:228.41110849pt }
+      table.sheet0 tr { height:15pt }
+      table.sheet0 tr.row0 { height:26pt }
+      table.sheet0 tr.row2 { height:78pt }
+      table.sheet0 tr.row5 { height:26pt }
+      table.sheet0 tr.row9 { height:117pt }
+      table.sheet0 tr.row12 { height:91pt }
+      table.sheet0 tr.row15 { height:52pt }
+      table.sheet0 tr.row16 { height:26pt }
+      table.sheet0 tr.row19 { height:52pt }
+      table.sheet0 tr.row22 { height:26pt }
+    </style>
+  </head>
+
+  <body>
+<style>
+@page { margin-left: 0.7in; margin-right: 0.7in; margin-top: 0.75in; margin-bottom: 0.75in; }
+body { margin-left: 0.7in; margin-right: 0.7in; margin-top: 0.75in; margin-bottom: 0.75in; }
+</style>
+    <table border="0" cellpadding="0" cellspacing="0" id="sheet0" class="sheet0 gridlines">
+        <col class="col0">
+        <col class="col1">
+        <col class="col2">
+        <col class="col3">
+        <col class="col4">
+        <col class="col5">
+        <col class="col6">
+        <tbody>
+          <tr class="row0">
+            <td class="column0 style1 s">About</td>
+            <td class="column1 style2 s">This excel contains the 2020 update of the results from the 2017 State of Narragansett Bay and Its Watershed Technical Report (nbep.org), Chapter 13: &quot;Benthic Habitat.&quot; Sites in Narragansett Bay were monitored across 1988, 2008, and 2018 for benthic habitat type and changes in benthic habitat quality via a sediment profile imaging survey. The results from this survey were published by Shumchenia and King (2019). </td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+          </tr>
+          <tr class="row1">
+            <td class="column0 style1 s">Date Published</td>
+            <td class="column1 style3 n">5/14/2020</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+          </tr>
+          <tr class="row2">
+            <td class="column0 style1 s">Point of Contact</td>
+            <td class="column1 style2 s">Narragansett Bay Estuary Program<br />
+235 Promenade Street<br />
+Suite 393<br />
+Providence, Rhode Island, 02908<br />
+401-633-0550<br />
+info@nbep.org</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+          </tr>
+          <tr class="row3">
+            <td class="column0 style4 null"></td>
+            <td class="column1 style5 null"></td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+          </tr>
+          <tr class="row4">
+            <td class="column0 style1 s">Excel Sheet</td>
+            <td class="column1 style6 s">Stations</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+          </tr>
+          <tr class="row5">
+            <td class="column0 style1 s">Summary</td>
+            <td class="column1 style2 s">This excel table presents the final benthic monitoring data processed from each station in Narragansett Bay by Shumchenia and King (2019). It includes biotope classication, successional stage, habitat quality change, and apparent redox potential discontinuity (aRPD) for each station.</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+          </tr>
+          <tr class="row6">
+            <td class="column0 style1 null"></td>
+            <td class="column1 style2 null"></td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+          </tr>
+          <tr class="row7">
+            <td class="column0 style7 s">Column Headings</td>
+            <td class="column1 style2 null"></td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+          </tr>
+          <tr class="row8">
+            <td class="column0 style8 s">station</td>
+            <td class="column1 style2 s">The unique alpha-numeric identification code used by Shumchenia and King (2019) and Shumchenia et al. (2016) referencing the benthic monitoring station.</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+          </tr>
+          <tr class="row9">
+            <td class="column0 style8 s">biotope88</td>
+            <td class="column1 style2 s">Biotope classification for 1988. Each sediment profile image was first assigned to a sediment grain size category, then biota were described from the biotic surface and subsurface features. These elements were summarized into a short phrase using the sediment grain size descriptor and dominant biota. Non-dominant but conspicuous biota were included in the descriptions when present. More detailed biota and sediment descriptions and the designated biotope for each SPI image replicate are presented in Shumchenia and King (2019). [AM: Ampelisca beds occasionally with other small tube-building and shallowburrowing fauna on substrates ranging from organic-rich muds to sand. Beggiatoa spp. or Mulinia lateralis may be present; SA: Hard sands with epibenthic sponges, rafting or attached macroalgae, and/or mobile gastropods; SH.SA: Very coarse sands with shell hash. Rafting macroalgae or Crepidula beds may be present; SH.SI: Crepidula bed on mud. Mobile crustaceans, gastropods, or Beggiatoa spp. may be presen; UN.SF: Organic-rich mud with tolerant species such as Beggiatoa spp., tube-building polychaetes, and shallow burrowing fauna; UN.SH: Burrowing fauna on mud with shell hash. Tube-building polychaetes or deep burrowing fauna may be present; UN.SI: Burrowing fauna on mud. Tubebuilding polychaetes, larger tubebuilders such as Chaetopterus, or deep burrowing fauna may be present; UN.SS: Burrowing and tube-building fauna on sandy mud; UN.ST: Small tube-building fauna on mud or organic-rich mud. Larger tube builders, such as Chaetopterus, and shallow or deep-burrowing fauna may be present.; NA: Station not sampled and/or no images obtained from station and/or images missing from the archive, preventing reanalysis; indet: Images were collected but not interpretable for biotope classification.)</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3 style9 null"></td>
+            <td class="column4 style10 null"></td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style12 null"></td>
+          </tr>
+          <tr class="row10">
+            <td class="column0 style8 s">biotope08</td>
+            <td class="column1 style2 s">Biotope classification for 2008.</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3 style13 null"></td>
+            <td class="column4 style10 null"></td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style12 null"></td>
+          </tr>
+          <tr class="row11">
+            <td class="column0 style8 s">biotope18</td>
+            <td class="column1 style2 s">Biotope classification for 2018.</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3 style9 null"></td>
+            <td class="column4 style10 null"></td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style12 null"></td>
+          </tr>
+          <tr class="row12">
+            <td class="column0 style8 s">stage88</td>
+            <td class="column1 style2 s">Infaunal successional stage provides an additional way to characterize benthic communities, and can be used as a modifying metric to accompany benthic biotope descriptors. Successional stage designation relies on the assumption that in fine-grained benthic biotopes a predictable 4-stage sequence of benthic community types develops following disturbance (e.g., hypoxia/anoxia, dredging, etc.). Successional stage was assigned for each 1988 image based on the organism-sediment relationships visible in each image. (0 = Stage 0: Immediately following disturbance; no macrofauna visible; if oxygen and/or organic enrichment are major stressors, black reduced sediment will be visible at sediment-water interface; 1 = Stage 1: Characterized by “pioneer” species such as very small polychaetes, usually densely populated at or near the sediment-water interface; 2 = Stage 2: Ampelisca is a hallmark organism of this stage in Northeast US coastal systems; burrowing organisms are also present; 3 = Stage 3: Considered a mature benthic community consisting of largebodied, deep-burrowing organisms; head-down deposit-feeding is characterized by deep sediment oxidation and the presence of feeding voids at depth; Entries such as &quot;1 on 3&quot; indicate that organisms emblematic of multiple successional stages-e.g., -stages 1 and 3--were present.</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3 style9 null"></td>
+            <td class="column4 style10 null"></td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style12 null"></td>
+          </tr>
+          <tr class="row13">
+            <td class="column0 style8 s">stage08</td>
+            <td class="column1 style2 s">Successional stage designation for 2008.</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3 style13 null"></td>
+            <td class="column4 style10 null"></td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style12 null"></td>
+          </tr>
+          <tr class="row14">
+            <td class="column0 style8 s">stage18</td>
+            <td class="column1 style2 s">Successional stage designation for 2018.</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3 style13 null"></td>
+            <td class="column4 style10 null"></td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style12 null"></td>
+          </tr>
+          <tr class="row15">
+            <td class="column0 style8 s">change8808</td>
+            <td class="column1 style2 s">Benthic habitat change trends for 1988-2008 were assigned by comparing the Successional Stage descriptors for those time periods. Trends indicate that the biotope changed and/or there was evidence of higher successional stage. Improved: Any portion of the 2018 Successional Stage descriptor is higher than in 2008. Remained good quality: The highest portion of the Successional Stage descriptor present in 2008 is still present in 2018 (e.g., a change from Stage 2 on 3 to Stage 1 on 3). Remained poor quality: A Successional Stage less than 2 is present in both years. Declined: Any portion of the 2018 Successional Stage descriptor is lower than in 2008 AND the 2018 Successional Stage is below 2. Change status not determined: Change status was not determined if there was insufficient information.</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3 style13 null"></td>
+            <td class="column4 style10 null"></td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style12 null"></td>
+          </tr>
+          <tr class="row16">
+            <td class="column0 style8 s">change0818</td>
+            <td class="column1 style2 s">Benthic habitat change trends for 2008-2018 were assigned by comparing the Successional Stage descriptors for those time periods. Trends indicate that the biotope changed and/or there was evidence of higher successional stage.</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3 style13 null"></td>
+            <td class="column4 style10 null"></td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style12 null"></td>
+          </tr>
+          <tr class="row17">
+            <td class="column0 style14 s">LON</td>
+            <td class="column1 style2 s">The longitude in decimal degrees recorded coordinates of the first camera drop at each station.</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3 style13 null"></td>
+            <td class="column4 style10 null"></td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style12 null"></td>
+          </tr>
+          <tr class="row18">
+            <td class="column0 style14 s">LAT</td>
+            <td class="column1 style2 s">The latitude in decimal degrees recorded coordinates of the first camera drop at each station.</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style15 null"></td>
+          </tr>
+          <tr class="row19">
+            <td class="column0 style16 s">arpd08</td>
+            <td class="column1 style2 s">The depth of the apparent redox potential discontinuity (aRPD) in 2008, or the change in sediment color from oxidized (reddish/brown/tan) to reduced (black). The aRPD depth represents the recent history of bottom-water oxygen concentrations and bioturbation/irrigation. In Narragansett Bay, the aRPD depth is responsive to oxygen concentrations between 14-28 days prior to image collection. The maximum aRPD depth of any station replicate was used to represent the station. NA: Station not sampled and/or no images obtained from station and/or images missing from the archive, preventing reanalysis. indet: Images were collected but not interpretable for aRPD depth.</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3 style10 null"></td>
+            <td class="column4 style13 null"></td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6 style17 null"></td>
+          </tr>
+          <tr class="row20">
+            <td class="column0 style16 s">arpd18</td>
+            <td class="column1 style2 s">The depth of the apparent redox potential discontinuity (aRPD) in 2018.</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3 style10 null"></td>
+            <td class="column4 style13 null"></td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+          </tr>
+          <tr class="row21">
+            <td class="column0 style16 s">arpd_chg</td>
+            <td class="column1 style2 s">The difference in the apparent redox potential discontinuity (aRPD) between 2008 and 2018 (arpd08-arpd18).</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3 style10 null"></td>
+            <td class="column4 style13 null"></td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+          </tr>
+          <tr class="row22">
+            <td class="column0 style16 s">nbep_div</td>
+            <td class="column1 style2 s">Bay divisions were based on grouping NBEP bay segments along similarities in the benthic community. PS: Providence and Seekonk Rivers. UB: Upper Bay, Upper East &amp; West Passages, Greenwich Bay. MB: Middle East &amp; West Passages. LB: Lower East &amp; West Passages. MHB: Mount Hope Bay. MO: Mouth of Narragansett Bay.</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3 style10 null"></td>
+            <td class="column4 style13 null"></td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+          </tr>
+          <tr class="row23">
+            <td class="column0 style8 s">DataSource</td>
+            <td class="column1 style2 s">The source(s) of the primary data used to produce this dataset (Shumchenia et al. 2019)</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3 style10 null"></td>
+            <td class="column4 style13 null"></td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+          </tr>
+          <tr class="row24">
+            <td class="column0 style8 s">SourceYear</td>
+            <td class="column1 style2 s">The publication year(s) of the primary data used to produce this dataset.</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3 style10 null"></td>
+            <td class="column4 style13 null"></td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+          </tr>
+          <tr class="row25">
+            <td class="column0 style8 s">NBEPYear</td>
+            <td class="column1 style2 s">The publication year of the NBEP State of Narragansett Bay &amp; Its Watershed Technical Report associated with this dataset.</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+          </tr>
+          <tr class="row26">
+            <td class="column0 style4 null"></td>
+            <td class="column1 style5 null"></td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+          </tr>
+          <tr class="row27">
+            <td class="column0 style1 s">Excel Sheet</td>
+            <td class="column1 style6 s">ByBayDivision</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+          </tr>
+          <tr class="row28">
+            <td class="column0 style1 s">Summary</td>
+            <td class="column1 style2 s">This excel table summarizes final benthic habitat types (biotopes) for each bay division in Narragansett Bay, for 1988, 2008, and 2018.</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+          </tr>
+          <tr class="row29">
+            <td class="column0 style1 null"></td>
+            <td class="column1 style2 null"></td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+          </tr>
+          <tr class="row30">
+            <td class="column0 style7 s">Column Headings</td>
+            <td class="column1 style2 null"></td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3 style13 null"></td>
+            <td class="column4 style13 null"></td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+          </tr>
+          <tr class="row31">
+            <td class="column0 style18 s">Bay Division</td>
+            <td class="column1 style19 s">Bay divisions were based on grouping NBEP bay segments along similarities in the benthic community.</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3 style13 null"></td>
+            <td class="column4 style13 null"></td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+          </tr>
+          <tr class="row32">
+            <td class="column0 style18 s">Abbreviation</td>
+            <td class="column1 style2 s">Abbreviation for the bay division.</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3 style13 null"></td>
+            <td class="column4 style13 null"></td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+          </tr>
+          <tr class="row33">
+            <td class="column0 style18 s">Year</td>
+            <td class="column1 style2 s">The year the data were collected.</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3 style13 null"></td>
+            <td class="column4 style13 null"></td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+          </tr>
+          <tr class="row34">
+            <td class="column0 style18 s">UN.SF</td>
+            <td class="column1 style2 s">Organic-rich mud with tolerant species such as Beggiatoa spp., tube-building polychaetes, and shallow burrowing fauna.</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3 style13 null"></td>
+            <td class="column4 style13 null"></td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+          </tr>
+          <tr class="row35">
+            <td class="column0 style18 s">UN.SI</td>
+            <td class="column1 style2 s">Burrowing fauna on mud. Tubebuilding polychaetes, larger tubebuilders such as Chaetopterus, or deep burrowing fauna may be present.</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3 style13 null"></td>
+            <td class="column4 style13 null"></td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+          </tr>
+          <tr class="row36">
+            <td class="column0 style18 s">UN.ST</td>
+            <td class="column1 style2 s">Small tube-building fauna on mud or organic-rich mud. Larger tube builders, such as Chaetopterus, and shallow or deep-burrowing fauna may be present.</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3 style13 null"></td>
+            <td class="column4 style13 null"></td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+          </tr>
+          <tr class="row37">
+            <td class="column0 style18 s">UN.SS</td>
+            <td class="column1 style2 s">Burrowing and tube-building fauna on sandy mud.</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3 style13 null"></td>
+            <td class="column4 style13 null"></td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+          </tr>
+          <tr class="row38">
+            <td class="column0 style18 s">AM</td>
+            <td class="column1 style2 s">Ampelisca beds occasionally with other small tube-building and shallowburrowing fauna on substrates ranging from organic-rich muds to sand. Beggiatoa spp. or Mulinia lateralis may be present.</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3 style13 null"></td>
+            <td class="column4 style10 null"></td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+          </tr>
+          <tr class="row39">
+            <td class="column0 style18 s">UN.SH</td>
+            <td class="column1 style2 s">Burrowing fauna on mud with shell hash. Tube-building polychaetes or deep burrowing fauna may be present.</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3 style13 null"></td>
+            <td class="column4 style20 null"></td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+          </tr>
+          <tr class="row40">
+            <td class="column0 style18 s">SH.SA</td>
+            <td class="column1 style2 s">Very coarse sands with shell hash. Rafting macroalgae or Crepidula beds may be present.</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+          </tr>
+          <tr class="row41">
+            <td class="column0 style18 s">SA</td>
+            <td class="column1 style2 s">Hard sands with epibenthic sponges, rafting or attached macroalgae, and/or mobile gastropods.</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+          </tr>
+          <tr class="row42">
+            <td class="column0 style18 s">SH.SI</td>
+            <td class="column1 style2 s">Crepidula bed on mud. Mobile crustaceans, gastropods, or Beggiatoa spp. may be present</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+          </tr>
+          <tr class="row43">
+            <td class="column0 style18 s">Other</td>
+            <td class="column1 style2 s">Other habitat.</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+          </tr>
+          <tr class="row44">
+            <td class="column0 style18 s">DataSource</td>
+            <td class="column1 style2 s">The source(s) of the primary data used to produce this dataset (Shumchenia et al. 2019)</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+          </tr>
+          <tr class="row45">
+            <td class="column0 style18 s">SourceYear</td>
+            <td class="column1 style2 s">The publication year(s) of the primary data used to produce this dataset.</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+          </tr>
+          <tr class="row46">
+            <td class="column0 style18 s">NBEPYear</td>
+            <td class="column1 style2 s">The publication year of the NBEP State of Narragansett Bay &amp; Its Watershed Technical Report associated with this dataset.</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+          </tr>
+          <tr class="row47">
+            <td class="column0 style21 null"></td>
+            <td class="column1 style22 null"></td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+          </tr>
+          <tr class="row48">
+            <td class="column0 style1 s">Excel Sheet</td>
+            <td class="column1 style6 s">ByStudyArea</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+          </tr>
+          <tr class="row49">
+            <td class="column0 style1 s">Summary</td>
+            <td class="column1 style2 s">This excel table summarizes final benthic habitat types (biotopes) for all of Narragansett Bay, for 1988, 2008, and 2018.</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+          </tr>
+          <tr class="row50">
+            <td class="column0 style1 null"></td>
+            <td class="column1 style2 null"></td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+          </tr>
+          <tr class="row51">
+            <td class="column0 style7 s">Column Headings</td>
+            <td class="column1 style2 null"></td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+          </tr>
+          <tr class="row52">
+            <td class="column0 style18 s">StudyArea</td>
+            <td class="column1 style2 s">The NBEP study area in  which sampling was conducted.</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+          </tr>
+          <tr class="row53">
+            <td class="column0 style18 s">Year</td>
+            <td class="column1 style2 s">The year the data were collected.</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+          </tr>
+          <tr class="row54">
+            <td class="column0 style18 s">UN.SF</td>
+            <td class="column1 style2 s">Organic-rich mud with tolerant species such as Beggiatoa spp., tube-building polychaetes, and shallow burrowing fauna.</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+          </tr>
+          <tr class="row55">
+            <td class="column0 style18 s">UN.SI</td>
+            <td class="column1 style2 s">Burrowing fauna on mud. Tubebuilding polychaetes, larger tubebuilders such as Chaetopterus, or deep burrowing fauna may be present.</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+          </tr>
+          <tr class="row56">
+            <td class="column0 style18 s">UN.ST</td>
+            <td class="column1 style2 s">Small tube-building fauna on mud or organic-rich mud. Larger tube builders, such as Chaetopterus, and shallow or deep-burrowing fauna may be present.</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+          </tr>
+          <tr class="row57">
+            <td class="column0 style18 s">UN.SS</td>
+            <td class="column1 style2 s">Burrowing and tube-building fauna on sandy mud.</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+          </tr>
+          <tr class="row58">
+            <td class="column0 style18 s">AM</td>
+            <td class="column1 style2 s">Ampelisca beds occasionally with other small tube-building and shallowburrowing fauna on substrates ranging from organic-rich muds to sand. Beggiatoa spp. or Mulinia lateralis may be present.</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+          </tr>
+          <tr class="row59">
+            <td class="column0 style18 s">UN.SH</td>
+            <td class="column1 style2 s">Burrowing fauna on mud with shell hash. Tube-building polychaetes or deep burrowing fauna may be present.</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+          </tr>
+          <tr class="row60">
+            <td class="column0 style18 s">SH.SA</td>
+            <td class="column1 style2 s">Very coarse sands with shell hash. Rafting macroalgae or Crepidula beds may be present.</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+          </tr>
+          <tr class="row61">
+            <td class="column0 style18 s">SA</td>
+            <td class="column1 style2 s">Hard sands with epibenthic sponges, rafting or attached macroalgae, and/or mobile gastropods.</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+          </tr>
+          <tr class="row62">
+            <td class="column0 style18 s">SH.SI</td>
+            <td class="column1 style2 s">Crepidula bed on mud. Mobile crustaceans, gastropods, or Beggiatoa spp. may be present</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+          </tr>
+          <tr class="row63">
+            <td class="column0 style18 s">Other</td>
+            <td class="column1 style2 s">Other habitat.</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+          </tr>
+          <tr class="row64">
+            <td class="column0 style18 s">DataSource</td>
+            <td class="column1 style2 s">The source(s) of the primary data used to produce this dataset (Shumchenia et al. 2019)</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+          </tr>
+          <tr class="row65">
+            <td class="column0 style18 s">SourceYear</td>
+            <td class="column1 style2 s">The publication year(s) of the primary data used to produce this dataset.</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+          </tr>
+          <tr class="row66">
+            <td class="column0 style18 s">NBEPYear</td>
+            <td class="column1 style2 s">The publication year of the NBEP State of Narragansett Bay &amp; Its Watershed Technical Report associated with this dataset.</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+          </tr>
+          <tr class="row67">
+            <td class="column0 style23 null"></td>
+            <td class="column1 style23 null"></td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+          </tr>
+        </tbody>
+    </table>
+  </body>
+</html>

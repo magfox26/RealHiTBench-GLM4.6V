@@ -1,0 +1,21 @@
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+% \usepackage{multirow}
+% \usepackage[table,xcdraw]{xcolor}
+% Beamer presentation requires \usepackage{colortbl} instead of \usepackage[table,xcdraw]{xcolor}
+\begin{table}[]
+\begin{tabular}{@{}ccccccc@{}}
+\rowcolor[HTML]{FEE796} 
+\textbf{Source} & \textbf{Device} & \textbf{Activation Count} & \textbf{Restart Count} & \textbf{Crash Count} & \textbf{\% Crash} & \textbf{\% Restart} \\
+\cellcolor[HTML]{FEE796} & \textbf{Workstation} & \cellcolor[HTML]{FF99FF}98 & 68 & \cellcolor[HTML]{EF949F}0 & 0.00\% & 69.39\% \\
+\cellcolor[HTML]{FEE796} & \textbf{Register} & \cellcolor[HTML]{FF99FF}999 & 997 & \cellcolor[HTML]{EF949F}1 & 0.10\% & 99.80\% \\
+\rowcolor[HTML]{FEE796} 
+\multirow{-3}{*}{\cellcolor[HTML]{FEE796}\textbf{Other Department}} & \textbf{Total} & \textbf{1097} & \textbf{1065} & \textbf{1} & \textbf{0.09\%} & \textbf{97.08\%} \\
+\cellcolor[HTML]{FEE796} & \textbf{Workstation} & \cellcolor[HTML]{92D050}8942 & 494 & \cellcolor[HTML]{FFFF00}16 & 0.18\% & 5.52\% \\
+\cellcolor[HTML]{FEE796} & \textbf{Register} & \cellcolor[HTML]{92D050}2883 & 712 & \cellcolor[HTML]{FFFF00}9 & 0.31\% & 24.70\% \\
+\rowcolor[HTML]{FEE796} 
+\multirow{-3}{*}{\cellcolor[HTML]{FEE796}\textbf{Mobile Department}} & \textbf{Total} & \textbf{11825} & \textbf{1206} & \textbf{25} & \textbf{0.21\%} & \textbf{10.20\%} \\
+\rowcolor[HTML]{FEE796} 
+\multicolumn{2}{c}{\cellcolor[HTML]{FEE796}\textbf{Grand Total}} & \textbf{12922} & \textbf{2271} & \textbf{26} & \textbf{0.20\%} & \textbf{17.57\%}
+\end{tabular}
+\end{table}

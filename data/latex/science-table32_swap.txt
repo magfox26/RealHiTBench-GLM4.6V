@@ -1,0 +1,20 @@
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+% \usepackage{multirow}
+\begin{table}[]
+\begin{tabular}{@{}lllllll@{}}
+\multicolumn{1}{c}{\multirow{2}{*}{\textbf{}}} & \multicolumn{6}{c}{Interductal segment length (µm)} \\
+\multicolumn{1}{c}{} & \multicolumn{2}{c}{Mouse \#2} & \multicolumn{2}{c}{Mouse \#3} & \multicolumn{2}{c}{Mouse \#1} \\
+Age (months) & 3 & 6 & 3 & 6 & 3 & 6 \\
+ & 1376 & 1267 & 333 & 390 & 633 & 552 \\
+ & 739 & 822 & 1628 & 1932 & 2102 & 1163 \\
+ & 333 & 380 & 671 & 781 & 1056 & 961 \\
+ & 949 & 871 & 931 & 593 & 2387 & 2063 \\
+ & 1352 & 1500 & 746 & 829 & 1563 & 2372 \\
+ & 691 & 1249 & 439 & 555 & 876 & 789 \\
+ & 1260 & 1231 & 178 & 199 & 1713 & 1782 \\
+ &  &  & 155 & 183 & 463 & 382 \\
+ &  &  & 1221 & 1325 & 1260 & 1129 \\
+ &  &  & 985 & 1095 &  & 
+\end{tabular}
+\end{table}

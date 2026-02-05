@@ -1,0 +1,208 @@
+% Please add the following required packages to your document preamble:
+% \usepackage[table,xcdraw]{xcolor}
+% Beamer presentation requires \usepackage{colortbl} instead of \usepackage[table,xcdraw]{xcolor}
+\begin{table}[]
+\begin{tabular}{llllllll}
+ &  &  &  &  &  &  &  \\
+\rowcolor[HTML]{FFFF00} 
+\textbf{Department family} & \textbf{Entity} & \multicolumn{1}{c}{\cellcolor[HTML]{FFFF00}\textbf{Allocation Date}} & \multicolumn{1}{c}{\cellcolor[HTML]{FFFF00}\textbf{Expense type}} & \multicolumn{1}{c}{\cellcolor[HTML]{FFFF00}\textbf{Expense Area}} & \multicolumn{1}{c}{\cellcolor[HTML]{FFFF00}\textbf{Supplier}} & \textbf{Transaction Number} & \multicolumn{1}{c}{\cellcolor[HTML]{FFFF00}\textbf{Amount in Sterling}} \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/3 & Accommodation & Change & Expotel & Expotel Upload-28/06/2012 & 4,673.45 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/3 & Accommodation & Operating - Finance & Expotel & 20130458 & 8,823.03 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/19 & Ad hoc 3rd Party Service & Operating - Finance & Badenoch \& Clark & iPOS Invoice 45908 & 981.50 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/10 & Ad hoc 3rd Party Service & Change - IT & Badenoch \& Clark & iPOS Invoice 45750 & 4,301.94 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/3 & Advisory Group Expenses & Operating - Statutory Committee Disability & People First & iPOS Invoice 45748 & 500.00 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/3 & Advisory Group Expenses & Operating - Statutory Committee Disability & People First & iPOS Invoice 45749 & 500.00 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/19 & Advisory Group Expenses & Operating - Statutory Committee Disability & People First & iPOS Invoice 45980 & 500.00 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/3 & Agency Staff & Change - People & Edenbrown & iPOS Invoice 45718 & 877.84 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/19 & Agency Staff & Change - People & Veredus & iPOS Invoice 45966 & 897.00 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/10 & Agency Staff & Change - Group Director & Hudson Global Resources Ltd & iPOS Invoice 45785 & 1,830.71 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/10 & Agency Staff & Change - Group Director & Hudson Global Resources Ltd & iPOS Invoice 45825 & 2,101.68 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/10 & Agency Staff & Change - Group Director & Hudson Global Resources Ltd & iPOS Invoice 45826 & 2,101.68 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/12 & Agency Staff & Change - Group Director & Hudson Global Resources Ltd & iPOS Invoice 45895 & 2,101.68 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/19 & Agency Staff & Change - Group Director & Hudson Global Resources Ltd & iPOS Invoice 45940 & 2,101.68 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/31 & Agency Staff & Change - Group Director & Hudson Global Resources Ltd & iPOS Invoice 46069 & 2,101.68 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/31 & Agency Staff & Change - Group Director & Hudson Global Resources Ltd & iPOS Invoice 46072 & 2,101.68 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/3 & Agency Staff & Operating - Corporate Governance & Venn Group & iPOS Invoice 45742 & 2,330.10 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/10 & Agency Staff & Change - Group Director & Hudson Global Resources Ltd & iPOS Invoice 45781 & 2,440.94 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/10 & Agency Staff & Operating - Corporate Governance & Venn Group & iPOS Invoice 45832 & 2,589.00 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/19 & Agency Staff & Operating - Corporate Governance & Venn Group & iPOS Invoice 45988 & 2,589.00 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/31 & Agency Staff & Operating - Corporate Governance & Venn Group & iPOS Invoice 46029 & 2,589.00 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/10 & Agency Staff & Change - Group Director & Hudson Global Resources Ltd & iPOS Invoice 45780 & 3,051.18 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/10 & Agency Staff & Change - Group Director & Hudson Global Resources Ltd & iPOS Invoice 45782 & 3,051.18 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/10 & Agency Staff & Change - Group Director & Hudson Global Resources Ltd & iPOS Invoice 45783 & 3,051.18 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/10 & Agency Staff & Change - Group Director & Hudson Global Resources Ltd & iPOS Invoice 45784 & 3,051.18 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/10 & Agency Staff & Change - Group Director & Hudson Global Resources Ltd & iPOS Invoice 45824 & 3,051.18 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/31 & Agency Staff & Change - People & Edenbrown & iPOS Invoice 46011 & 3,511.32 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/19 & Agency Staff & Change - People & Resource Innovations & iPOS Invoice 45968 & 4,041.72 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/10 & Agency Staff & Operating - Finance & Spring Technology Staffing Service & iPOS Invoice 45831 & 4,662.00 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/12 & Agency Staff & Operating - Finance & Spring Technology Staffing Service & iPOS Invoice 45896 & 4,662.00 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/31 & Agency Staff & Operating - Finance & Spring Technology Staffing Service & iPOS Invoice 45958 & 4,662.00 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/31 & Agency Staff & Operating - Finance & Spring Technology Staffing Service & iPOS Invoice 46006 & 4,662.00 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/31 & Agency Staff & Operating - Finance & Spring Technology Staffing Service & iPOS Invoice 46070 & 4,662.00 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/10 & Agency Staff & Policy \& Ptnrship - Group Director & Veredus & iPOS Invoice 45853 & 7,476.00 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/10 & Agency Staff & Operating - Group Director & Edenbrown & iPOS Invoice 45846 & 7,956.00 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/10 & Agency Staff & Operating - Finance & Penna & iPOS Invoice 45730 & 8,262.00 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/10 & Agency Staff & Policy \& Ptnrship - External Affairs & Veredus & iPOS Invoice 45802 & 8,280.00 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/10 & Agency Staff & Operating - Finance & Gatenbysanderson Ltd & iPOS Invoice 45779 & 8,480.93 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/3 & Agency Staff & Policy \& Ptnrship - External Affairs & Veredus & iPOS Invoice 45751 & 8,880.00 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/31 & Agency Staff & Change & Edenbrown & iPOS Invoice 46076 & 9,547.20 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/19 & Agency Staff & Change - People & Digby Morgan Consulting Ltd & iPOS Invoice 45962 & 10,152.00 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/10 & Agency Staff & Policy \& Ptnrship - Group Director & Veredus & iPOS Invoice 45800 & 10,680.00 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/10 & Agency Staff & Change & Methods Consulting & iPOS Invoice 45849 & 11,402.50 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/19 & Agency Staff & Change - People & Veredus & iPOS Invoice 45963 & 11,844.00 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/31 & Agency Staff & Change & Veredus & iPOS Invoice 46078 & 11,844.00 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/19 & Agency Staff & Change - People & Digby Morgan Consulting Ltd & iPOS Invoice 45961 & 12,600.00 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/12 & Agency Staff & Change & L A International & iPOS Invoice 45881 & 13,108.61 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/31 & Agency Staff & Operating - Finance & Gatenbysanderson Ltd & iPOS Invoice 46032 & 13,524.83 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/3 & Agency Staff & Change - People & Digby Morgan Consulting Ltd & iPOS Invoice 45737 & 13,536.00 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/31 & Agency Staff & Policy \& Ptnrship - Group Director & Veredus & iPOS Invoice 46002 & 13,884.00 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/19 & Agency Staff & Change & Methods Consulting & iPOS Invoice 45985 & 14,253.12 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/19 & Agency Staff & Policy \& Ptnrship - External Affairs & Veredus & iPOS Invoice 45886 & 14,904.00 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/3 & Agency Staff & Change - People & Digby Morgan Consulting Ltd & iPOS Invoice 45738 & 17,640.00 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/19 & Agency Staff & Change & Veredus & iPOS Invoice 45888 & 20,304.00 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/3 & ATW - Agency/Staff Costs & Operating - Finance & Edenbrown & iPOS Invoice 45734 & 503.02 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/19 & ATW - Agency/Staff Costs & Operating - Finance & Edenbrown & iPOS Invoice 45911 & 525.37 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/3 & ATW - Agency/Staff Costs & Operating - Finance & Linda Taylor Associates & iPOS Invoice 45752 & 552.96 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/31 & ATW - Agency/Staff Costs & Operating - Finance & Linda Taylor Associates & iPOS Invoice 45763 & 552.96 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/31 & ATW - Agency/Staff Costs & Operating - Finance & Linda Taylor Associates & iPOS Invoice 46049 & 552.96 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/31 & ATW - Agency/Staff Costs & Operating - Finance & Linda Taylor Associates & iPOS Invoice 46050 & 552.96 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/19 & ATW - Agency/Staff Costs & Operating - Finance & Edenbrown & iPOS Invoice 45937 & 556.78 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/10 & ATW - Agency/Staff Costs & Operating - Finance & Edenbrown & iPOS Invoice 45806 & 617.60 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/31 & ATW - Agency/Staff Costs & Operating - Finance & Edenbrown & iPOS Invoice 45689 & 651.65 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/10 & ATW - Agency/Staff Costs & Operating - Finance & Edenbrown & iPOS Invoice 45813 & 654.46 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/10 & ATW - Agency/Staff Costs & Operating - Finance & Edenbrown & iPOS Invoice 45809 & 659.34 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/10 & ATW - Agency/Staff Costs & Operating - Finance & Edenbrown & iPOS Invoice 45811 & 664.22 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/31 & ATW - Agency/Staff Costs & Operating - Finance & Edenbrown & iPOS Invoice 46012 & 664.22 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/10 & ATW - Agency/Staff Costs & Operating - Finance & Edenbrown & iPOS Invoice 45812 & 673.99 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/10 & ATW - Agency/Staff Costs & Operating - Finance & Edenbrown & iPOS Invoice 45815 & 693.53 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/10 & ATW - Agency/Staff Costs & Operating - Finance & Edenbrown & iPOS Invoice 45810 & 703.30 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/10 & ATW - Agency/Staff Costs & Operating - Finance & Edenbrown & iPOS Invoice 45828 & 703.30 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/3 & ATW - Non Staff Expenditure & Operating - Finance & Swan Private Hire & iPOS Invoice 45764 & 528.60 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/19 & ATW - Non Staff Expenditure & Operating - Finance & Interpreter Booking Services Ltd & iPOS Invoice 45889 & 558.00 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/19 & ATW - Non Staff Expenditure & Operating - Finance & Reed Employment & iPOS Invoice 45912 & 571.64 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/19 & ATW - Non Staff Expenditure & Operating - Finance & Reed Employment & iPOS Invoice 45926 & 665.71 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/3 & ATW - Non Staff Expenditure & Operating - Finance & Norma White & iPOS Invoice 45766 & 731.20 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/19 & ATW - Non Staff Expenditure & Operating - Finance & Radio Taxis Group Limited & iPOS Invoice 45990 & 859.39 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/12 & ATW - Non Staff Expenditure & Operating - Finance & Gillian Croft & iPOS Invoice 45835 & 945.00 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/10 & ATW - Non Staff Expenditure & Operating - Finance & Ace Taxis & iPOS Invoice 45836 & 1,052.46 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/19 & ATW - Non Staff Expenditure & Operating - Finance & Gillian Croft & iPOS Invoice 45894 & 1,319.30 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/19 & Barristers Fees & General Counsel - Casework & Ben McCormack & iPOS Invoice 45984 & 600.00 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/3 & Barristers Fees & General Counsel - Casework & Melanie Plimmer & iPOS Invoice 45723 & 714.00 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/31 & Barristers Fees & General Counsel - Enforcement & Helen Mountfield & iPOS Invoice 46075 & 1,034.00 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/19 & Barristers Fees & General Counsel - Casework & Dr D Wolfe & iPOS Invoice 45921 & 2,808.00 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/3 & Barristers Fees & Operating - Corporate Governance & Aileen McColgan & iPOS Invoice 45745 & 3,084.00 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/31 & Barristers Fees & General Counsel - Enforcement & Michael Fordham & iPOS Invoice 46010 & 3,900.00 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/31 & Barristers Fees & General Counsel - Casework & Karon Monaghan & iPOS Invoice 46022 & 4,320.00 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/12 & BT Non Managed Services & Change - IT & BT Onebillplus & iPOS Invoice 45892 & 2,027.07 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/12 & Business Apps Software maintenance and support & Change - IT & Touchstone Ltd & iPOS Invoice 45884 & 3,840.00 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/12 & Business Apps Software maintenance and support & Change - IT & Oracle Corporation UK Ltd & iPOS Invoice 45883 & 8,048.88 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/19 & Chair Pension Liability & Operating - Finance & Home Office -Accounts Receiveable & iPOS Invoice 45913 & 6,513.62 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/19 & Chair Pension Liability & Operating - Finance & Home Office -Accounts Receiveable & iPOS Invoice 45932 & 6,852.30 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/19 & Chair Pension Liability & Operating - Finance & Home Office -Accounts Receiveable & iPOS Invoice 45915 & 7,100.67 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/19 & Childcare Voucher Scheme & Change - People & Accor Services & iPOS Invoice 45929 & 4,266.37 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/3 & Cleaning Equipment & Change - Facilities Management & Banner Business Supplies Ltd & 20130401 & 1,723.53 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/31 & Cleaning Equipment & Change - Facilities Management & Banner Business Supplies Ltd & 20130402 & 2,467.31 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/12 & Cleaning Services & Change - Facilities Management & CK Cleaning Services (Midlands) LLP & iPOS Invoice 45901 & 576.00 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/10 & Cleaning Services & Change - Facilities Management & Keith Brooks & iPOS Invoice 45837 & 855.00 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/3 & Cleaning Services & Change - Facilities Management & OCS Group Limited & iPOS Invoice 45726 & 2,101.48 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/10 & Client Support & Operating - Policy and Ops - Private & City HR Association & iPOS Invoice 45793 & 1,800.00 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/19 & Conciliation & General Counsel - Casework & Mediation Works & iPOS Invoice 45971 & 528.00 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/31 & Conference Attendance & Operating - Public Service & Miss Catherine Casserley & iPOS Invoice 45522 & 801.00 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/19 & Conference Set Up/Equipment Costs & Commissioners Office & Audio \& Interpretation Services Ltd & iPOS Invoice 45934 & 825.60 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/31 & Equipment Rental & Operating - Statutory Committee Disability & Audio \& Interpretation Services Ltd & iPOS Invoice 46008 & 825.60 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/3 & Exhibitions & Policy \& Ptnrship - External Affairs & Headstar Ltd & iPOS Invoice 45728 & 600.00 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/31 & External Printing & Commissioners Office & Hobs Reprographics & iPOS Invoice 46064 & 588.24 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/31 & External Printing & Commissioners Office & Hobs Reprographics & iPOS Invoice 46066 & 1,065.96 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/18 & Grant 1 & Operating - Grants Unit & Grapevine (Coventry and Warwickshire) Ltd & 20130424 & 2,450.00 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/18 & Grant 1 & Operating - Grants Unit & The Rape \& Sexual Abuse Counselling Centre & 20130436 & 3,005.70 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/18 & Grant 1 & Operating - Grants Unit & LGBT Healthy Living Centre & 20130431 & 3,052.30 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/18 & Grant 1 & Operating - Grants Unit & Walsall Domestic Violence Forum Ltd & 20130448 & 3,730.00 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/18 & Grant 1 & Operating - Grants Unit & Derbyshire Friend & 20130413 & 3,737.83 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/18 & Grant 1 & Operating - Grants Unit & Engender & 20130417 & 3,750.00 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/18 & Grant 1 & Operating - Grants Unit & SPAN Study Centre & 20130445 & 4,123.37 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/31 & Grant 1 & Operating - Grants Unit & DIAL Peterborough & 20130414 & 4,825.40 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/18 & Grant 1 & Operating - Grants Unit & Leeds Gypsy and Traveller Exchange & 20130427 & 4,851.72 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/18 & Grant 1 & Operating - Grants Unit & Equality Network & 20130418 & 5,223.39 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/18 & Grant 1 & Operating - Grants Unit & Human Rights \& Equalities Charnwood & 20130425 & 5,533.00 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/18 & Grant 1 & Operating - Grants Unit & Stonewall Equality & 20130447 & 5,543.00 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/18 & Grant 1 & Operating - Grants Unit & Eclectic Productions UK Ltd. & 20130416 & 5,819.57 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/18 & Grant 1 & Operating - Grants Unit & LGBT Healthy Living Centre & 20130430 & 5,847.00 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/18 & Grant 1 & Operating - Grants Unit & Disability Action Waltham Forest & 20130415 & 6,109.12 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/18 & Grant 1 & Operating - Grants Unit & Conflict and Change & 20130410 & 6,709.63 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/31 & Grant 1 & Operating - Grants Unit & Friends, Families and Travellers & 20130420 & 6,851.70 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/18 & Grant 1 & Operating - Grants Unit & Kick It Out & 20130426 & 7,603.70 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/31 & Grant 1 & Operating - Grants Unit & Friends, Families and Travellers & 20130419 & 7,622.00 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/18 & Grant 1 & Operating - Grants Unit & The Rural Media Company & 20130439 & 7,921.81 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/11 & Grant 1 & Operating - Grants & Birmingham Law Centre & 20130403 & 8,000.00 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/18 & Grant 1 & Operating - Grants Unit & Coventry Rape and Sexual Abuse Centre & 20130412 & 8,508.58 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/31 & Grant 1 & Operating - Grants Unit & Show Racism the Red Card & 20130444 & 8,578.40 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/18 & Grant 1 & Operating - Grants Unit & Grapevine (Coventry and Warwickshire) Ltd & 20130422 & 8,606.00 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/18 & Grant 1 & Operating - Grants Unit & Grapevine (Coventry and Warwickshire) Ltd & 20130423 & 8,607.00 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/18 & Grant 1 & Operating - Grants Unit & The Runnymede Trust & 20130437 & 8,693.01 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/31 & Grant 1 & Operating - Grants Unit & Women in Prison & 20130449 & 9,149.84 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/18 & Grant 1 & Operating - Grants Unit & The Rural Media Company & 20130438 & 9,299.70 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/18 & Grant 1 & Operating - Grants Unit & The Lesbian \& Gay Foundation (LGF) & 20130429 & 9,753.30 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/18 & Grant 1 & Operating - Grants Unit & The School for Social Entrepreneurs & 20130441 & 9,985.16 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/31 & Grant 1 & Operating - Grants & Central Sussex CAB & 20130405 & 10,250.00 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/31 & Grant 1 & Operating - Grants & Central Sussex CAB & 20130406 & 10,250.00 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/31 & Grant 1 & Operating - Grants & Central Sussex CAB & 20130407 & 10,250.00 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/31 & Grant 1 & Operating - Grants & Central Sussex CAB & 20130408 & 10,250.00 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/18 & Grant 1 & Operating - Grants Unit & Sheffield Methodist District & 20130442 & 10,373.19 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/11 & Grant 1 & Operating - Grants & Stevenage CAB & 20130446 & 11,375.00 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/11 & Grant 1 & Operating - Grants & Liberty & 20130432 & 11,456.00 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/11 & Grant 1 & Operating - Grants & Cambridge \& District CAB & 20130404 & 11,852.00 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/18 & Grant 1 & Operating - Grants Unit & The School for Social Entrepreneurs & 20130440 & 12,000.00 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/18 & Grant 1 & Operating - Grants Unit & Living Options Devon & 20130433 & 13,281.20 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/18 & Grant 1 & Operating - Grants Unit & Conflict and Change & 20130409 & 14,397.00 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/31 & Grant 1 & Operating - Grants & Merseyside Employment Law & 20130434 & 15,000.00 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/31 & Grant 1 & Operating - Grants & Merseyside Employment Law & 20130435 & 15,000.00 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/31 & Grant 1 & Operating - Grants Unit & Glasgow Disability Alliance & 20130421 & 16,325.00 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/18 & Grant 1 & Operating - Grants Unit & Coventry Rape and Sexual Abuse Centre & 20130411 & 17,145.58 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/18 & Grant 1 & Operating - Grants Unit & The Lesbian \& Gay Foundation (LGF) & 20130428 & 18,595.53 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/31 & Grant 1 & Operating - Grants Unit & Show Racism the Red Card & 20130443 & 18,962.40 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/3 & Health Referrals & Change - People & Road to Health Ltd & iPOS Invoice 45729 & 1,017.60 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/10 & Health Referrals & Change - People & Road to Health Ltd & iPOS Invoice 45797 & 1,017.60 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/19 & Learning And Development & Operating - Corporate Governance & BPP Professional Education & iPOS Invoice 45935 & 504.00 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/31 & Learning And Development & Change - People & Jud Stone & iPOS Invoice 46020 & 1,200.00 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/31 & Learning And Development & Policy \& Ptnrship - Helpline & The Intraining Group Ltd & iPOS Invoice 46046 & 2,160.00 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/10 & Learning And Development & Change - People & TECHNIQUES FOR CHANGE LTD & iPOS Invoice 45829 & 2,340.00 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/19 & Learning And Development & Change - People & Bray Leino Ltd & iPOS Invoice 45497 & 10,998.00 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/12 & Marketing & Policy \& Ptnrship - External Affairs & Emailvision (UK) Ltd & iPOS Invoice 45882 & 953.63 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/19 & Media Monitoring & Policy \& Ptnrship - External Affairs & Press Data Bureau & iPOS Invoice 45928 & 3,298.69 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/31 & Mobile Costs & Change - IT & Orange PCS Ltd & iPOS Invoice 46039 & 2,406.66 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/3 & Mobile Costs & Change - IT & Orange PCS Ltd & iPOS Invoice 45759 & 3,141.46 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/3 & Parliamentary Monitoring & Policy \& Ptnrship - Stakeholder Relations & Dod's Parliamentry Communications & iPOS Invoice 45754 & 8,400.00 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/31 & Payroll Processing Costs & Operating - Finance & Ceridian Centrefile Ltd & iPOS Invoice 46068 & 2,257.35 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/31 & Pensions Administration & Operating - Finance & Bestrustees & iPOS Invoice 45994 & 4,500.00 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/3 & Pensions Administration & Central Project Budget & DWP & iPOS Invoice 45725 & 6,151.68 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/10 & Postage & Change - Facilities Management & Royal Mail & iPOS Invoice 45822 & 900.00 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/10 & Premises prepayments & Change - Facilities Management & KWB Property Management Ltd & iPOS Invoice 45872 & 28,830.00 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/30 & Procurement Charges & Operating - Finance & Lloyds & 20130450 & 553.32 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/10 & Publications Corporate & Operating - Economy \& Employment & Kids Connections Limited & iPOS Invoice 45843 & 1,500.00 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/31 & Publications Printing & Operating - Policy and Ops - Private & Pelicanpress & iPOS Invoice 46047 & 1,818.00 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/10 & Publications Printing & Operating - Human Rights \& respect & Pelicanpress & iPOS Invoice 45821 & 2,398.00 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/19 & Publications Storage Costs & Policy \& Ptnrship - External Affairs & Promotional Logistics Ltd & iPOS Invoice 45925 & 1,812.80 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/10 & Publications Storage Costs & Policy \& Ptnrship - External Affairs & Promotional Logistics Ltd & iPOS Invoice 45552 & 2,315.08 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/19 & Records Storage Costs & Operating - Research \& Information & Iron Mountain (UK) Ltd & iPOS Invoice 45909 & 2,654.99 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/31 & Recruitment Advertising & Change - Group Director & K International Plc & iPOS Invoice 46082 & 2,166.00 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/10 & Recruitment Assessments & Change - People & Penna & iPOS Invoice 45776 & 1,962.00 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/10 & Recruitment Assessments & Change - People & Penna & iPOS Invoice 45777 & 3,090.00 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/10 & Recruitment Assessments & Change - People & Penna & iPOS Invoice 45795 & 4,404.00 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/3 & Rent & Change - Facilities Management & Mwb Business Exchange Centres & iPOS Invoice 45602 & 2,076.00 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/19 & Research & Operating - Research \& Information & Lancaster University & iPOS Invoice 45977 & 17,107.00 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/3 & Researchers Fees & Operating - Human Rights \& respect & Equality and Diversity Forum & iPOS Invoice 45721 & 9,980.00 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/12 & Security & Change - Facilities Management & Edenbrown & iPOS Invoice 45878 & 3,730.80 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/17 & Settlement Costs & General Counsel - Casework & DAC Beachcroft LLP & Chq 2130 Beachcroft (Storr V Langley Ac) & 930.68 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/12 & Staff Support & Policy \& Ptnrship - Helpline & Bee Communications & iPOS Invoice 45891 & 524.88 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/31 & Staff Support & Change - People & Bee Communications & iPOS Invoice 46042 & 592.20 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/19 & Staff Support & Policy \& Ptnrship - Helpline & Ideas in Action (Midlands Ltd) & iPOS Invoice 45981 & 5,400.00 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/19 & Transcription Services & Operating - Economy \& Employment & Essential Secretary & iPOS Invoice 45979 & 1,275.30 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/19 & Transcription Services & Operating - Economy \& Employment & Essential Secretary & iPOS Invoice 45978 & 1,407.90 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/19 & Travel & Change & Redfern Travel & Redfern travel 036227 & 22,778.39 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/10 & VAT & Operating - Finance & HMRC & 20130551 & 9880.1 \\
+Government Equalities Office & Equality and Human Rights Commission & 2012/7/31 & WAN Expenditure & Change - IT & BT Global Services & iPOS Invoice 46014 & 37,328.05 \\
+ &  &  &  &  &  &  & 1,069,308.56
+\end{tabular}
+\caption{}
+\label{tab:my-table}
+\end{table}

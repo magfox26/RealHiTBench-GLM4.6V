@@ -1,0 +1,24 @@
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+% \usepackage{multirow}
+\begin{table}[]
+\begin{tabular}{@{}clcccccccccc@{}}
+\multicolumn{1}{l}{\multirow{2}{*}{\textbf{End Use}}} & \multirow{2}{*}{\textbf{Source of Water}} & \multicolumn{2}{c}{\textbf{Norovirus}} & \multicolumn{2}{c}{\textbf{Cryptosporidium}} & \multicolumn{2}{c}{\textbf{Giardia}} & \multicolumn{2}{c}{\textbf{Campylobacter}} & \multicolumn{2}{c}{\textbf{Salmonella}} \\
+\multicolumn{1}{l}{} &  & \textbf{LRTINF} & \textbf{LRTDALY} & \textbf{LRTINF} & \textbf{LRTDALY} & \textbf{LRTINF} & \textbf{LRTDALY} & \textbf{LRTINF} & \textbf{LRTDALY} & \textbf{LRTINF} & \textbf{LRTDALY} \\
+\multirow{5}{*}{Unrestricted access landscape irrigation} & Untreated municipal wastewater & \textbf{10.0} & \textbf{8.5} & \textbf{6.5} & \textbf{6.0} & \textbf{5.5} & \textbf{4.5} & \textbf{6.5} & \textbf{4.0} & \textbf{5.5} & \textbf{5.5} \\
+ & Untreated onsite wastewater & 10.5 & 8.5 & 7.0 & 6.5 & 6.0 & \textbf{5.0} & 7.5 & 5.5 & 3.5 & \textbf{3.5} \\
+ & Graywater & 8.5 & 6.5 & 4.5 & 4.0 & 3.5 & \textbf{2.5} & 5.5 & 3.0 & 1.5 & \textbf{1.5} \\
+ & Stormwater (10\% wastewater) & 9.0 & 7.5 & 5.5 & 5.0 & 4.5 & \textbf{3.5} & 5.5 & \textbf{3.0} & 4.5 & 4.5 \\
+ & Roof runoff & n/a & n/a & NSD & NSD & 1.5 & 0.5 & 5.0 & 2.5 & 3.5 & 3.5 \\
+\multirow{5}{*}{Potable use} & Untreated municipal wastewater & \textbf{14.5} & \textbf{12.5} & \textbf{10.5} & \textbf{10.0} & \textbf{9.5} & \textbf{8.5} & \textbf{11.0} & \textbf{7.5} & \textbf{9.5} & \textbf{9.5} \\
+ & Untreated onsite wastewater & \textbf{14.5} & \textbf{12.5} & \textbf{11.5} & \textbf{11.0} & \textbf{10.0} & \textbf{9.0} & \textbf{12.0} & \textbf{9.5} & \textbf{7.7} & \textbf{8.0} \\
+ & Graywater & \textbf{13.0} & \textbf{11.0} & \textbf{9.0} & \textbf{8.5} & \textbf{8.0} & \textbf{7.0} & \textbf{9.5} & \textbf{7.5} & \textbf{5.5} & \textbf{5.5} \\
+ & Stormwater (10\% wastewater) & \textbf{13.5} & \textbf{11.5} & \textbf{9.5} & \textbf{9.0} & \textbf{8.5} & \textbf{7.5} & \textbf{10.0} & \textbf{6.5} & \textbf{8.5} & \textbf{8.5} \\
+ & Roof runoff & n/a & n/a & NSD & NSD & \textbf{5.5} & \textbf{4.5} & \textbf{9.0} & \textbf{6.5} & \textbf{8.0} & \textbf{8.0} \\
+\multirow{5}{*}{Indoor non-potable use} & Untreated municipal wastewater & \textbf{10.5} & \textbf{9.0} & \textbf{7.5} & \textbf{7.0} & \textbf{6.5} & \textbf{5.5} & \textbf{7.5} & \textbf{5.5} & \textbf{6.5} & \textbf{6.5} \\
+ & Untreated onsite wastewater & 11.5 & 10.0 & 7.0 & 6.5 & 6.5 & \textbf{5.5} & 7.5 & 5.5 & 4.0 & \textbf{4.0} \\
+ & Graywater & 9.0 & 7.5 & 4.5 & 4.0 & 4.0 & \textbf{3.0} & 5.5 & 3.5 & 2.0 & \textbf{1.5} \\
+ & Stormwater (10\% wastewater) & 9.5 & 8.0 & 6.5 & 6.0 & 5.5 & \textbf{4.5} & 6.5 & \textbf{5.0} & 5.5 & 5.5 \\
+ & Roof runoff & n/a & n/a & NSD & NSD & 2.0 & 1.0 & 5.0 & 3.0 & 3.5 & 3.5
+\end{tabular}
+\end{table}

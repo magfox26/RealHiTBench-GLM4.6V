@@ -1,0 +1,43 @@
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+% \usepackage{multirow}
+\begin{table}[]
+\begin{tabular}{@{}llllllllll@{}}
+\multicolumn{10}{l}{Table 10. Employment Cost Index for wages and salaries, for private industry workers, by bargaining status and Census region and division} \\
+\multicolumn{10}{l}{{[}Not seasonally adjusted{]}} \\
+\multicolumn{10}{l}{} \\
+\multirow{3}{*}{Bargaining status and Census region and division} & \multicolumn{3}{l}{Indexes (Dec.2005=100)} & \multicolumn{6}{l}{Percent changes for} \\
+ & \multirow{2}{*}{\begin{tabular}[c]{@{}l@{}}Sep.\\ 2023\end{tabular}} & \multirow{2}{*}{\begin{tabular}[c]{@{}l@{}}Jun.\\ 2024\end{tabular}} & \multirow{2}{*}{\begin{tabular}[c]{@{}l@{}}Sep.\\ 2024\end{tabular}} & \multicolumn{3}{l}{3-months ended-} & \multicolumn{3}{l}{12-months ended-} \\
+ &  &  &  & \begin{tabular}[c]{@{}l@{}}Sep.\\ 2023\end{tabular} & \begin{tabular}[c]{@{}l@{}}Jun.\\ 2024\end{tabular} & \begin{tabular}[c]{@{}l@{}}Sep.\\ 2024\end{tabular} & \begin{tabular}[c]{@{}l@{}}Sep.\\ 2023\end{tabular} & \begin{tabular}[c]{@{}l@{}}Jun.\\ 2024\end{tabular} & \begin{tabular}[c]{@{}l@{}}Sep.\\ 2024\end{tabular} \\
+\multicolumn{10}{l}{} \\
+Census region and division(3) &  &  &  &  &  &  &  &  &  \\
+Northeast & 163.3 & 167.6 & 168.8 & 1.1 & 0.9 & 0.7 & 4.4 & 3.7 & 3.4 \\
+New England & 170.1 & 173.9 & 174.4 & 1.2 & 0.9 & 0.3 & 4 & 3.5 & 2.5 \\
+Middle Atlantic & 160.7 & 165.2 & 966.6 & 0.9 & 0.9 & 0.8 & 4.5 & 3.8 & 3.7 \\
+South & 162.1 & 166.5 & 167.6 & 1.2 & 0.8 & 0.7 & 4.8 & 3.9 & 3.4 \\
+South Atlantic & 166 & 170.6 & 171.7 & 1.4 & 0.8 & 0.6 & 5.3 & 4.2 & 3.4 \\
+East South Central & 160.1 & 164.3 & 165.3 & 0.9 & 1.3 & 0.6 & 4.9 & 3.6 & 3.2 \\
+West South Central & 156.5 & 160.7 & 161.7 & 1 & 0.6 & 0.6 & 3.8 & 3.7 & 3.3 \\
+Midwest & 158.9 & 163.5 & 164.8 & 0.8 & 0.7 & 0.8 & 3.9 & 3.7 & 3.7 \\
+East North Central & 157.6 & 162.1 & 163.3 & 1 & 0.8 & 0.7 & 4.3 & 3.8 & 3.6 \\
+West North Central & 162 & 167 & 168.3 & 0.2 & 0.8 & 0.8 & 2.7 & 3.3 & 3.9 \\
+West & 167.9 & 174.5 & 175.7 & 0.9 & 1.3 & 0.7 & 4.7 & 4.9 & 4.6 \\
+Mountain & 166.3 & 172.4 & 173.9 & 1.2 & 1.2 & 0.9 & 5.1 & 4.9 & 4.6 \\
+Pacific & 168.8 & 175.6 & 176.7 & 0.8 & 1.4 & 0.6 & 4.5 & 4.8 & 4.7 \\
+Bargaining status &  &  &  &  &  &  &  &  &  \\
+Union & 159.3 & 168.1 & 169.5 & 1 & 1.3 & 0.8 & 4.5 & 6.5 & 6.4 \\
+Goods-producing industries(1) & 150.9 & 157.1 & 158.6 & 0.7 & 1.2 & 1 & 3.4 & 4.8 & 5.1 \\
+Manufacturing & 149 & 156.2 & 157.4 & 0.4 & 0.8 & 0.8 & 3.2 & 5.3 & 5.6 \\
+Service-providing industries(2) & 164.5 & 174.8 & 176.1 & 1.1 & 1.3 & 0.7 & 5 & 7.4 & 7.1 \\
+Nonunion & 163.3 & 167.9 & 169.1 & 1 & 0.9 & 0.7 & 4.5 & 3.8 & 3.6 \\
+Goods-producing industries(1) & 160.3 & 164.6 & 165.8 & 0.6 & 0.4 & 0.7 & 4.2 & 3.3 & 3.4 \\
+Manufacturing & 160.3 & 165.3 & 166.4 & 0.6 & 0.9 & 0.7 & 4 & 3.7 & 3.8 \\
+Service-providing industries(2) & 164 & 168.6 & 169.8 & 1.1 & 1 & 0.7 & 4.5 & 3.9 & 3.5 \\
+\multicolumn{10}{l}{} \\
+\multicolumn{10}{l}{Footnotes:} \\
+\multicolumn{10}{l}{(1) Includes mining, construction, and manufacturing.} \\
+\multicolumn{10}{l}{(2) Includes the following industries: wholesale trade; retail trade; transportation and warehousing; utilities; information; finance and insurance; real estate and rental and leasing; professional and technical services; management of companies and enterprises; administrative and waste services; educational services; health care and social assistance; arts, entertainment and recreation; accommodation and food services; and other services, except public administration.} \\
+\multicolumn{10}{l}{(3) The Census divisions are defined as follows: New England: Connecticut, Maine, Massachusetts, New Hampshire, Rhode Island and Vermont; Middle Atlantic: New Jersey, New York, and Pennsylvania; South Atlantic: Delaware, District of Columbia, Florida, Georgia, Maryland, North Carolina, South Carolina, Virginia, and West Virginia; East South Central: Alabama, Kentucky, Mississippi, and Tennessee; West South Central: Arkansas, Louisiana, Oklahoma, and Texas; East North Central: Illinois, Indiana, Michigan, Ohio, and Wisconsin; West North Central: Iowa, Kansas, Minnesota, Missouri, Nebraska, North Dakota, and South Dakota; Mountain: Arizona, Colorado, Idaho, Montana, Nevada, New Mexico, Utah, and Wyoming; and Pacific: Alaska, California, Hawaii, Oregon, and Washington.} \\
+\multicolumn{10}{l}{\begin{tabular}[c]{@{}l@{}}NOTE: The indexes for these series are not strictly comparable to those for the aggregate, occupation, and industry series. \\  SOURCE: U.S. Bureau of Labor Statistics, National Compensation Survey\end{tabular}}
+\end{tabular}
+\end{table}

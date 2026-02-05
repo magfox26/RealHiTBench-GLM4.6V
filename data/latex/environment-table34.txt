@@ -1,0 +1,9 @@
+\begin{table}[]
+\begin{tabular}{lcccl}
+\textbf{End Use}                                                             & \textbf{Daily Exposure Volume (L)} & \textbf{Exposure Frequency (days/year)} & \textbf{Fraction of Population Exposed} & \textbf{Key Assumptions}                     \\
+Potable use                                                                  & 2.4                                & 365                                     & 1                                       & 90th percentile per capita U.S. ingestion1,2 \\
+Indoor non-potable water use                                                 & 0.00004                            & 365                                     & 1                                       & Adopted from Australian guidelines3          \\
+Unrestricted irrigation and dust suppression                                 & 0.001                              & 50                                      & 1                                       & Adopted from Australian guidelines3          \\
+Cross-connection of treated water with potable water or accidental ingestion & 2                                  & 1                                       & 0.1                                     & Only used in indoor use calculation4        
+\end{tabular}
+\end{table}

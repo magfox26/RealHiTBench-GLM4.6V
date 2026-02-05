@@ -1,0 +1,106 @@
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+% \usepackage[table,xcdraw]{xcolor}
+% Beamer presentation requires \usepackage{colortbl} instead of \usepackage[table,xcdraw]{xcolor}
+% \usepackage[normalem]{ulem}
+% \useunder{\uline}{\ul}{}
+\begin{table}[]
+\begin{tabular}{@{}llr@{}}
+\rowcolor[HTML]{FFFFFF} 
+\textbf{} & \textbf{} & \cellcolor[HTML]{C0C0C0}\textbf{All Individuals receiving an adverse sanction decision} \\
+\rowcolor[HTML]{FFFFFF} 
+ & \textbf{GREAT BRITAIN} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}\textbf{527,574}} \\
+\rowcolor[HTML]{FFFFFF} 
+\textbf{Ethnicity} & White & 391,830 \\
+\rowcolor[HTML]{FFFFFF} 
+ & Asian or Asian British & 33,458 \\
+\rowcolor[HTML]{FFFFFF} 
+ & Black or Black British & 38,562 \\
+\rowcolor[HTML]{FFFFFF} 
+ & Mixed & 12,449 \\
+\rowcolor[HTML]{FFFFFF} 
+ & Other/ Chinese & 12,706 \\
+\rowcolor[HTML]{FFFFFF} 
+ & Unknown & 41,778 \\
+\rowcolor[HTML]{FFFFFF} 
+\textbf{Age Group} & 16-17 years of age & 538 \\
+\rowcolor[HTML]{FFFFFF} 
+ & 18-24 years of age & 213,027 \\
+ & \cellcolor[HTML]{FFFFFF}25-29  years of age & \cellcolor[HTML]{FFFFFF}83,541 \\
+\rowcolor[HTML]{FFFFFF} 
+ & 30-34  years of age & 57,905 \\
+\rowcolor[HTML]{FFFFFF} 
+ & 35-39  years of age & 44,234 \\
+\rowcolor[HTML]{FFFFFF} 
+ & 40-44 years of age & 42,526 \\
+\rowcolor[HTML]{FFFFFF} 
+ & 45-49 years of age & 37,571 \\
+\rowcolor[HTML]{FFFFFF} 
+ & 50-54 years of age & 27,939 \\
+\rowcolor[HTML]{FFFFFF} 
+ & 55-59 years of age & 19,314 \\
+\rowcolor[HTML]{FFFFFF} 
+ & 60 and over & 5,676 \\
+\rowcolor[HTML]{FFFFFF} 
+ & Unknown & 828 \\
+\rowcolor[HTML]{C0C0C0} 
+ & \textbf{} & \multicolumn{1}{l}{\cellcolor[HTML]{C0C0C0}\textbf{}} \\
+\rowcolor[HTML]{FFFFFF} 
+\textbf{Gender} & Male & 377,351 \\
+\rowcolor[HTML]{FFFFFF} 
+ & Female & 150,166 \\
+\rowcolor[HTML]{FFFFFF} 
+ & Unknown & 58 \\
+\rowcolor[HTML]{C0C0C0} 
+\textbf{} & \textbf{} & \multicolumn{1}{l}{\cellcolor[HTML]{C0C0C0}\textbf{}} \\
+\rowcolor[HTML]{FFFFFF} 
+\textbf{Disability} & Disability - Yes & 104,200 \\
+\rowcolor[HTML]{FFFFFF} 
+ & Disability - No & 423,297 \\
+\rowcolor[HTML]{FFFFFF} 
+ & Unknown & 83 \\
+\rowcolor[HTML]{C0C0C0} 
+ & \textbf{} & \multicolumn{1}{l}{\cellcolor[HTML]{C0C0C0}\textbf{}} \\
+\rowcolor[HTML]{FFFFFF} 
+\textbf{Regional Group} & Central England & 115,768 \\
+\rowcolor[HTML]{FFFFFF} 
+ & London and the Home Counties & 115,941 \\
+\rowcolor[HTML]{FFFFFF} 
+ & North East & 87,862 \\
+\rowcolor[HTML]{FFFFFF} 
+ & North West & 75,169 \\
+\rowcolor[HTML]{FFFFFF} 
+ & Scotland & 48,951 \\
+\rowcolor[HTML]{FFFFFF} 
+ & Southern England & 58,804 \\
+\rowcolor[HTML]{FFFFFF} 
+ & Wales & 25,577 \\
+\rowcolor[HTML]{FFFFFF} 
+ & Unknown & 1,168 \\
+\rowcolor[HTML]{C0C0C0} 
+ & \textbf{} & \multicolumn{1}{l}{\cellcolor[HTML]{C0C0C0}\textbf{}} \\
+\rowcolor[HTML]{FFFFFF} 
+\textbf{Lone Parent} & Lone Parent - Yes & 36,188 \\
+\rowcolor[HTML]{FFFFFF} 
+\textbf{} & Lone Parent - No & 493,143 \\
+\rowcolor[HTML]{C0C0C0} 
+ & \textbf{} & \multicolumn{1}{l}{\cellcolor[HTML]{C0C0C0}\textbf{}} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} \\
+\textbf{Source: Decision Making and Appeals System (DMAS), via Stat-Xplore} & \cellcolor[HTML]{FFFFFF} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} \\
+\rowcolor[HTML]{FFFFFF} 
+ &  & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} \\
+\rowcolor[HTML]{FFFFFF} 
+{\ul Notes} &  & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} \\
+\rowcolor[HTML]{FFFFFF} 
+{\ul } &  & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} \\
+Cells in this table have been randomly adjusted to avoid the release of confidential data.  Due to adjustments totals may not be the sum of the individual cells. & \cellcolor[HTML]{FFFFFF} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} \\
+Tables based on individuals show a count of how many individuals have received a sanction decision. & \cellcolor[HTML]{FFFFFF} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} \\
+\rowcolor[HTML]{FFFFFF} 
+An individual may receive more than one sanction decision in any given period. &  & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} \\
+\rowcolor[HTML]{FFFFFF} 
+An adverse decision is a decision found against the claimant, i.e. a sanction or disallowance is applied. &  & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}} \\
+Users should not sum the cells in a table to obtain the overall number of individuals as an individual may appear in a &  & \multicolumn{1}{l}{} \\
+table more than once.  Always use the "Total" within the table to obtain this number. &  & \multicolumn{1}{l}{}
+\end{tabular}
+\end{table}

@@ -1,0 +1,265 @@
+% Please add the following required packages to your document preamble:
+% \usepackage{multirow}
+\begin{table}[]
+\begin{tabular}{cll}
+\textbf{Month}           & \multicolumn{1}{c}{\textbf{Consumption}} & \multicolumn{1}{c}{\textbf{Amount}} \\
+\multirow{20}{*}{Apr-17} & AC Charges                               & 11,697.00                           \\
+                         & Generator Running Expenses               & 2,000.00                            \\
+                         & Insurance                                & 477,789.00                          \\
+                         & Vehicle Parking Charges                  & 2,871.00                            \\
+                         & Bank Commission Charges                  & 8,792.48                            \\
+                         & Conveyance During Tour Expenses          & 9,144.71                            \\
+                         & Electricity Charges                      & 2,895.00                            \\
+                         & Entertainment Expenses                   & 90,240.88                           \\
+                         & Membership \& Subscription               & 7,186.00                            \\
+                         & Miscellaneous Expenses                   & 75,042.00                           \\
+                         & Office Maintenance                       & 13,976.00                           \\
+                         & Postage \& Courier Charges               & 230.00                              \\
+                         & Printing \& Stationery                   & 4,290.00                            \\
+                         & Rent Paid                                & 1,233,692.00                        \\
+                         & Rounded Off                              & 3.20                                \\
+                         & Telephone and Communication              & 4,057.56                            \\
+                         & Travelling And Conveyance                & 3,010.00                            \\
+                         & Travelling Expenses                      & 14,417.49                           \\
+                         & Vehicle Maintainance                     & 1,405.00                            \\
+                         & Vehicle Running                          & 11,472.00                           \\
+\multirow{20}{*}{May-17} & AC Charges                               & 87,730.00                           \\
+                         & Advertisement                            & 3,100.00                            \\
+                         & Generator Running Expenses               & 1,500.00                            \\
+                         & Travelling Insurance                     & 1,091.00                            \\
+                         & Vehicle Parking Charges                  & 46,545.00                           \\
+                         & Bank Commission Charges                  & 4,070.53                            \\
+                         & Conveyance During Tour Expenses          & 41,360.00                           \\
+                         & Electricity Charges                      & 56,764.00                           \\
+                         & Entertainment Expenses                   & 14,987.00                           \\
+                         & Miscellaneous Expenses                   & 6,068.85                            \\
+                         & Office Maintenance                       & 10,525.00                           \\
+                         & Postage \& Courier Charges               & 16,906.00                           \\
+                         & Printing \& Stationery                   & 102,068.00                          \\
+                         & Rent Paid                                & 309,538.00                          \\
+                         & Rounded Off                              & 1.25                                \\
+                         & Telephone and Communication              & 51,967.11                           \\
+                         & Travelling And Conveyance                & 117,402.00                          \\
+                         & Travelling Expenses                      & 238,489.90                          \\
+                         & Vehicle Maintainance                     & 7,142.00                            \\
+                         & Vehicle Running                          & 12,229.94                           \\
+\multirow{23}{*}{Jun-17} & AC Charges                               & 107,245.00                          \\
+                         & Generator Running Expenses               & 4,000.00                            \\
+                         & Insurance                                & 3,294.00                            \\
+                         & Loss on Redemption in MT                 & 41.60                               \\
+                         & Vehicle Parking Charges                  & 46,165.00                           \\
+                         & Auditor Expenses                         & 29,875.00                           \\
+                         & Bank Commission Charges                  & 6,437.67                            \\
+                         & Conveyance During Tour Expenses          & 50,762.61                           \\
+                         & Electricity Charges                      & 132,840.00                          \\
+                         & Entertainment Expenses                   & 26,937.00                           \\
+                         & Membership \& Subscription               & 46,000.00                           \\
+                         & Miscellaneous Expenses                   & 240.00                              \\
+                         & Office Maintenance                       & 518,683.00                          \\
+                         & Postage \& Courier Charges               & 11,556.00                           \\
+                         & Printing \& Stationery                   & 128,027.00                          \\
+                         & Rent Paid                                & 928,622.00                          \\
+                         & Repairs \& Maintenance                   & 2,800.00                            \\
+                         & Rounded Off                              & 10.77                               \\
+                         & Telephone and Communication              & 62,334.00                           \\
+                         & Travelling And Conveyance                & 111,737.27                          \\
+                         & Travelling Expenses                      & 322,794.80                          \\
+                         & Vehicle Maintainance                     & 870.00                              \\
+                         & Vehicle Running                          & 14,370.78                           \\
+\multirow{19}{*}{Jul-17} & AC Charges                               & 96,864.00                           \\
+                         & Aid and Donation                         & 3,100.00                            \\
+                         & Generator Running Expenses               & 2,000.00                            \\
+                         & Vehicle Parking Charges                  & 56,047.00                           \\
+                         & Auditor Expenses                         & 13,684.00                           \\
+                         & Bank Commission Charges                  & 50,886.33                           \\
+                         & Conveyance During Tour Expenses          & 24,833.00                           \\
+                         & Electricity Charges                      & 55,127.00                           \\
+                         & Entertainment Expenses                   & 5,826.00                            \\
+                         & Office Maintenance                       & 215,595.00                          \\
+                         & Postage \& Courier Charges               & 6,272.00                            \\
+                         & Printing \& Stationery                   & 1,258.00                            \\
+                         & Rent Paid                                & 656,146.00                          \\
+                         & Rounded Off                              & 3.50                                \\
+                         & Telephone and Communication              & 58,734.10                           \\
+                         & Travelling And Conveyance                & 87,118.50                           \\
+                         & Travelling Expenses                      & 159,287.00                          \\
+                         & Vehicle Maintainance                     & 500.00                              \\
+                         & Vehicle Running                          & 7,350.00                            \\
+\multirow{23}{*}{Aug-17} & AC Charges                               & 119,676.00                          \\
+                         & Books and Periodicals                    & 1,710.00                            \\
+                         & Generator Running Expenses               & 1,500.00                            \\
+                         & Insurance                                & 66,814.00                           \\
+                         & Travelling Insurance                     & 9,802.00                            \\
+                         & Vehicle Parking Charges                  & 51,825.00                           \\
+                         & Auditor Expenses                         & 855.00                              \\
+                         & Bank Commission Charges                  & 590.00                              \\
+                         & Conveyance During Tour Expenses          & 15,340.00                           \\
+                         & Electricity Charges                      & 125,985.00                          \\
+                         & Entertainment Expenses                   & 7,814.00                            \\
+                         & Miscellaneous Expenses                   & 10,000.00                           \\
+                         & Office Maintenance                       & 185,345.00                          \\
+                         & Postage \& Courier Charges               & 5,635.00                            \\
+                         & Printing \& Stationery                   & 49,600.20                           \\
+                         & Rent Paid                                & 856,622.00                          \\
+                         & Repairs \& Maintenance                   & 477.00                              \\
+                         & Rounded Off                              & 1.13                                \\
+                         & Telephone and Communication              & 38,447.21                           \\
+                         & Travelling And Conveyance                & 148,733.00                          \\
+                         & Travelling Expenses                      & 120,605.00                          \\
+                         & Vehicle Maintainance                     & 14,824.00                           \\
+                         & Vehicle Running                          & 11,304.71                           \\
+\multirow{22}{*}{Sep-17} & AC Charges                               & 106,559.00                          \\
+                         & Generator Running Expenses               & 4,000.00                            \\
+                         & Insurance                                & 33,773.00                           \\
+                         & Travelling Insurance                     & 1,625.00                            \\
+                         & Vehicle Parking Charges                  & 111,250.00                          \\
+                         & Auditor Expenses                         & 24,308.00                           \\
+                         & Bank Commission Charges                  & 15,068.11                           \\
+                         & Conveyance During Tour Expenses          & 46,893.07                           \\
+                         & Electricity Charges                      & 74,456.00                           \\
+                         & Entertainment Expenses                   & 13,979.00                           \\
+                         & Miscellaneous Expenses                   & 100.00                              \\
+                         & Office Maintenance                       & 183,710.00                          \\
+                         & Postage \& Courier Charges               & 51,731.00                           \\
+                         & Printing \& Stationery                   & 190,109.75                          \\
+                         & Rent Paid                                & 699,146.00                          \\
+                         & Repairs \& Maintenance                   & 12,175.00                           \\
+                         & Rounded Off                              & 11.79                               \\
+                         & Telephone and Communication              & 33,177.24                           \\
+                         & Travelling And Conveyance                & 112,046.00                          \\
+                         & Travelling Expenses                      & 441,696.50                          \\
+                         & Vehicle Maintainance                     & 250.00                              \\
+                         & Vehicle Running                          & 7,635.00                            \\
+\multirow{20}{*}{Oct-17} & AC Charges                               & 108,539.00                          \\
+                         & Generator Running Expenses               & 2,000.00                            \\
+                         & Travelling Insurance                     & 835.00                              \\
+                         & Vehicle Parking Charges                  & 945.00                              \\
+                         & Auditor Expenses                         & 18,898.00                           \\
+                         & Bank Commission Charges                  & 9,254.98                            \\
+                         & Conveyance During Tour Expenses          & 26,512.77                           \\
+                         & Electricity Charges                      & 128,549.00                          \\
+                         & Entertainment Expenses                   & 12,164.00                           \\
+                         & Miscellaneous Expenses                   & 12,100.00                           \\
+                         & Office Maintenance                       & 232,203.00                          \\
+                         & Postage \& Courier Charges               & 17,011.00                           \\
+                         & Printing \& Stationery                   & 38,970.00                           \\
+                         & Rent Paid                                & 713,384.00                          \\
+                         & Rounded Off                              & 0.74                                \\
+                         & Telephone and Communication              & 43,803.53                           \\
+                         & Travelling And Conveyance                & 29,692.00                           \\
+                         & Travelling Expenses                      & 110,332.49                          \\
+                         & Vehicle Maintainance                     & 2,278.00                            \\
+                         & Vehicle Running                          & 18,377.04                           \\
+\multirow{22}{*}{Nov-17} & AC Charges                               & 100,442.00                          \\
+                         & Generator Running Expenses               & 2,000.00                            \\
+                         & Insurance                                & 1,203.00                            \\
+                         & Loss on Redemption in MT                 & 0.70                                \\
+                         & Vehicle Parking Charges                  & 57,835.00                           \\
+                         & Auditor Expenses                         & 13,163.48                           \\
+                         & Bank Commission Charges                  & 537,132.93                          \\
+                         & Conveyance During Tour Expenses          & 74,287.32                           \\
+                         & Electricity Charges                      & 54,247.00                           \\
+                         & Entertainment Expenses                   & 38,879.00                           \\
+                         & Miscellaneous Expenses                   & 1,938.00                            \\
+                         & Office Maintenance                       & 173,731.00                          \\
+                         & Postage \& Courier Charges               & 23,489.00                           \\
+                         & Printing \& Stationery                   & 60,256.40                           \\
+                         & Rent Paid                                & 806,706.00                          \\
+                         & Repairs \& Maintenance                   & 5,950.00                            \\
+                         & Rounded Off                              & 1.32                                \\
+                         & Telephone and Communication              & 142,548.42                          \\
+                         & Travelling And Conveyance                & 146,963.18                          \\
+                         & Travelling Expenses                      & 630,455.92                          \\
+                         & Vehicle Maintainance                     & 4,269.00                            \\
+                         & Vehicle Running                          & 18,913.89                           \\
+\multirow{22}{*}{Dec-17} & AC Charges                               & 94,613.00                           \\
+                         & Generator Running Expenses               & 2,000.00                            \\
+                         & Insurance                                & 401,937.00                          \\
+                         & Travelling Insurance                     & 801.00                              \\
+                         & Vehicle Parking Charges                  & 59,195.00                           \\
+                         & Bank Commission Charges                  & 11,497.44                           \\
+                         & Conveyance During Tour Expenses          & 45,875.24                           \\
+                         & Electricity Charges                      & 99,775.40                           \\
+                         & Entertainment Expenses                   & 46,177.00                           \\
+                         & Membership \& Subscription               & 1,500.00                            \\
+                         & Miscellaneous Expenses                   & 5,000.00                            \\
+                         & Office Maintenance                       & 307,527.00                          \\
+                         & Postage \& Courier Charges               & 13,295.50                           \\
+                         & Printing \& Stationery                   & 132,164.00                          \\
+                         & Rent Paid                                & 759,484.00                          \\
+                         & Repairs \& Maintenance                   & 23,026.00                           \\
+                         & Rounded Off                              & 6.85                                \\
+                         & Telephone and Communication              & 66,819.67                           \\
+                         & Travelling And Conveyance                & 100,213.71                          \\
+                         & Travelling Expenses                      & 641,166.21                          \\
+                         & Vehicle Maintainance                     & 1,790.00                            \\
+                         & Vehicle Running                          & 5,350.00                            \\
+\multirow{23}{*}{Jan-18} & AC Charges                               & 99,550.00                           \\
+                         & Generator Running Expenses               & 2,000.00                            \\
+                         & Insurance                                & 169,219.00                          \\
+                         & Travelling Insurance                     & 3,000.00                            \\
+                         & Vehicle Parking Charges                  & 62,015.00                           \\
+                         & Auditor Expenses                         & 23,514.00                           \\
+                         & Bank Commission Charges                  & 13,028.12                           \\
+                         & Conveyance During Tour Expenses          & 84,652.70                           \\
+                         & Electricity Charges                      & 64,009.00                           \\
+                         & Entertainment Expenses                   & 9,316.00                            \\
+                         & Membership \& Subscription               & 36,250.00                           \\
+                         & Miscellaneous Expenses                   & 405.00                              \\
+                         & Office Maintenance                       & 526,188.00                          \\
+                         & Postage \& Courier Charges               & 16,474.00                           \\
+                         & Printing \& Stationery                   & 95,061.00                           \\
+                         & Rent Paid                                & 843,622.00                          \\
+                         & Repairs \& Maintenance                   & 5,300.00                            \\
+                         & Rounded Off                              & 0.20                                \\
+                         & Telephone and Communication              & 77,924.51                           \\
+                         & Travelling And Conveyance                & 131,157.00                          \\
+                         & Travelling Expenses                      & 497,531.36                          \\
+                         & Vehicle Maintainance                     & 22,041.00                           \\
+                         & Vehicle Running                          & 10,880.00                           \\
+\multirow{21}{*}{Feb-18} & AC Charges                               & 84,283.00                           \\
+                         & Generator Running Expenses               & 2,000.00                            \\
+                         & Loss on Redemption in MT                 & 1.32                                \\
+                         & Travelling Insurance                     & 5,792.00                            \\
+                         & Vehicle Parking Charges                  & 61,730.00                           \\
+                         & Bank Commission Charges                  & 10,923.89                           \\
+                         & Conveyance During Tour Expenses          & 77,251.00                           \\
+                         & Electricity Charges                      & 111,313.00                          \\
+                         & Entertainment Expenses                   & 3,490.00                            \\
+                         & Miscellaneous Expenses                   & 50.91                               \\
+                         & Office Maintenance                       & 208,276.00                          \\
+                         & Postage \& Courier Charges               & 39,931.50                           \\
+                         & Printing \& Stationery                   & 52,995.00                           \\
+                         & Rent Paid                                & 666,146.00                          \\
+                         & Repairs \& Maintenance                   & 649.00                              \\
+                         & Rounded Off                              & 23.30                               \\
+                         & Telephone and Communication              & 66,982.49                           \\
+                         & Travelling And Conveyance                & 63,501.00                           \\
+                         & Travelling Expenses                      & 759,347.01                          \\
+                         & Vehicle Maintainance                     & 929.00                              \\
+                         & Vehicle Running                          & 11,885.55                           \\
+\multirow{23}{*}{Mar-18} & AC Charges                               & 203,291.00                          \\
+                         & Books and Periodicals                    & 230.00                              \\
+                         & Insurance                                & 448,441.00                          \\
+                         & Loss on Redemption in MT                 & 1.69                                \\
+                         & Travelling Insurance                     & 14,418.00                           \\
+                         & Vehicle Parking Charges                  & 118,925.00                          \\
+                         & Bank Commission Charges                  & 124,659.86                          \\
+                         & Conveyance During Tour Expenses          & 161,891.00                          \\
+                         & Electricity Charges                      & 12,417.30                           \\
+                         & Entertainment Expenses                   & 70,132.00                           \\
+                         & Membership \& Subscription               & 22,603.00                           \\
+                         & Miscellaneous Expenses                   & 558.58                              \\
+                         & Office Maintenance                       & 223,300.00                          \\
+                         & Postage \& Courier Charges               & 47,088.50                           \\
+                         & Printing \& Stationery                   & 223,019.30                          \\
+                         & Rent Paid                                & 799,622.00                          \\
+                         & Repairs \& Maintenance                   & 5,960.00                            \\
+                         & Rounded Off                              & 51.28                               \\
+                         & Telephone and Communication              & 108,528.19                          \\
+                         & Travelling And Conveyance                & 215,193.00                          \\
+                         & Travelling Expenses                      & 1,576,530.50                        \\
+                         & Vehicle Maintainance                     & 2,087.00                            \\
+                         & Vehicle Running                          & 8,740.09                           
+\end{tabular}
+\end{table}

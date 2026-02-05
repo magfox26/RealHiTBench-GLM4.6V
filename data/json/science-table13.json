@@ -1,0 +1,122 @@
+[
+  {
+    "Chromosome": "Homozygous Recessive",
+    "Position": null,
+    "Reference Allele": null,
+    "Alternate Allele": null,
+    "Gene Symbol": null,
+    "Consequence": null,
+    "HGVS Name (cDNA)": null,
+    "HGVS Name (protein)": null
+  },
+  {
+    "Chromosome": "3",
+    "Position": "48625292",
+    "Reference Allele": "G",
+    "Alternate Allele": "A",
+    "Gene Symbol": "COL7A1",
+    "Consequence": "missense_variant",
+    "HGVS Name (cDNA)": "ENST00000328333.8:c.2791N>T",
+    "HGVS Name (protein)": "ENSP00000332371.8:p.Arg931Cys"
+  },
+  {
+    "Chromosome": "X-Linked",
+    "Position": null,
+    "Reference Allele": null,
+    "Alternate Allele": null,
+    "Gene Symbol": null,
+    "Consequence": null,
+    "HGVS Name (cDNA)": null,
+    "HGVS Name (protein)": null
+  },
+  {
+    "Chromosome": "X",
+    "Position": "15841230",
+    "Reference Allele": "CAGCCGGAGCCGG",
+    "Alternate Allele": "C",
+    "Gene Symbol": "ZRSR2",
+    "Consequence": "inframe_deletion",
+    "HGVS Name (cDNA)": "ENST00000307771.7:c.1315_1326del",
+    "HGVS Name (protein)": "ENSP00000303015.7:p.Ser445_Arg448del"
+  },
+  {
+    "Chromosome": "Novel Heterozygous",
+    "Position": null,
+    "Reference Allele": null,
+    "Alternate Allele": null,
+    "Gene Symbol": null,
+    "Consequence": null,
+    "HGVS Name (cDNA)": null,
+    "HGVS Name (protein)": null
+  },
+  {
+    "Chromosome": "4",
+    "Position": "985149",
+    "Reference Allele": "T",
+    "Alternate Allele": "C",
+    "Gene Symbol": "SLC26A1",
+    "Consequence": "missense_variant",
+    "HGVS Name (cDNA)": "ENST00000361661.2:c.343N>G",
+    "HGVS Name (protein)": "ENSP00000354721.2:p.Met115Val"
+  },
+  {
+    "Chromosome": "5",
+    "Position": "134029525",
+    "Reference Allele": "A",
+    "Alternate Allele": "C",
+    "Gene Symbol": "SEC24A",
+    "Consequence": "missense_variant",
+    "HGVS Name (cDNA)": "ENST00000398844.2:c.1888N>C",
+    "HGVS Name (protein)": "ENSP00000381823.2:p.Thr630Pro"
+  },
+  {
+    "Chromosome": "9",
+    "Position": "35906615",
+    "Reference Allele": "C",
+    "Alternate Allele": "CACCACCACCACCACCACCACCA",
+    "Gene Symbol": "HRCT1",
+    "Consequence": "frameshift_variant",
+    "HGVS Name (cDNA)": "ENST00000354323.2:c.331_332insACCACCACCACCACCACCACCA",
+    "HGVS Name (protein)": "ENSP00000346283.2:p.Pro111HisfsTer104"
+  },
+  {
+    "Chromosome": "10",
+    "Position": "17275595",
+    "Reference Allele": "A",
+    "Alternate Allele": "T",
+    "Gene Symbol": "VIM",
+    "Consequence": "missense_variant",
+    "HGVS Name (cDNA)": "ENST00000544301.1:c.634N>T",
+    "HGVS Name (protein)": "ENSP00000446007.1:p.Asn212Tyr"
+  },
+  {
+    "Chromosome": "10",
+    "Position": "117059610",
+    "Reference Allele": "C",
+    "Alternate Allele": "T",
+    "Gene Symbol": "ATRNL1",
+    "Consequence": "missense_variant",
+    "HGVS Name (cDNA)": "ENST00000355044.3:c.2482N>T",
+    "HGVS Name (protein)": "ENSP00000347152.3:p.Pro828Ser"
+  },
+  {
+    "Chromosome": "10",
+    "Position": "135193685",
+    "Reference Allele": "G",
+    "Alternate Allele": "A",
+    "Gene Symbol": "PAOX",
+    "Consequence": "missense_variant",
+    "HGVS Name (cDNA)": "ENST00000278060.5:c.364N>A",
+    "HGVS Name (protein)": "ENSP00000278060.5:p.Val122Met"
+  },
+  {
+    "Chromosome": "11",
+    "Position": "134038427",
+    "Reference Allele": "G",
+    "Alternate Allele": "C",
+    "Gene Symbol": "NCAPD3",
+    "Consequence": "missense_variant",
+    "HGVS Name (cDNA)": "ENST00000534548.2:c.3310N>G",
+    "HGVS Name (protein)": "ENSP00000433681.2:p.Leu1104Val"
+  }
+]

@@ -1,0 +1,242 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <meta name="generator" content="PhpSpreadsheet, https://github.com/PHPOffice/PhpSpreadsheet">
+      <meta name="author" content="旭 鲁" />
+      <meta name="company" content="Microsoft Corporation" />
+    <style type="text/css">
+      html { font-family:Calibri, Arial, Helvetica, sans-serif; font-size:11pt; background-color:white }
+      a.comment-indicator:hover + div.comment { background:#ffd; position:absolute; display:block; border:1px solid black; padding:0.5em }
+      a.comment-indicator { background:red; display:inline-block; border:1px solid black; width:0.5em; height:0.5em }
+      div.comment { display:none }
+      table { border-collapse:collapse; page-break-after:always }
+      .gridlines td { border:1px dotted black }
+      .gridlines th { border:1px dotted black }
+      .b { text-align:center }
+      .e { text-align:center }
+      .f { text-align:right }
+      .inlineStr { text-align:left }
+      .n { text-align:right }
+      .s { text-align:left }
+      td.style0 { vertical-align:middle; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      th.style0 { vertical-align:middle; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      td.style1 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Lucida Sans Typewriter'; font-size:11pt; background-color:white }
+      th.style1 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Lucida Sans Typewriter'; font-size:11pt; background-color:white }
+      td.style2 { vertical-align:middle; text-align:center; border-bottom:2px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Lucida Sans Typewriter'; font-size:11pt; background-color:#6699FF }
+      th.style2 { vertical-align:middle; text-align:center; border-bottom:2px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Lucida Sans Typewriter'; font-size:11pt; background-color:#6699FF }
+      td.style3 { vertical-align:middle; text-align:center; border-bottom:2px solid #000000 !important; border-top:2px solid #000000 !important; border-left:2px solid #000000 !important; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Lucida Sans Typewriter'; font-size:12pt; background-color:#BFBFBF }
+      th.style3 { vertical-align:middle; text-align:center; border-bottom:2px solid #000000 !important; border-top:2px solid #000000 !important; border-left:2px solid #000000 !important; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Lucida Sans Typewriter'; font-size:12pt; background-color:#BFBFBF }
+      td.style4 { vertical-align:middle; text-align:center; border-bottom:2px solid #000000 !important; border-top:2px solid #000000 !important; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Lucida Sans Typewriter'; font-size:12pt; background-color:#BFBFBF }
+      th.style4 { vertical-align:middle; text-align:center; border-bottom:2px solid #000000 !important; border-top:2px solid #000000 !important; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Lucida Sans Typewriter'; font-size:12pt; background-color:#BFBFBF }
+      td.style5 { vertical-align:middle; text-align:center; border-bottom:2px solid #000000 !important; border-top:2px solid #000000 !important; border-left:none #000000; border-right:2px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Lucida Sans Typewriter'; font-size:12pt; background-color:#BFBFBF }
+      th.style5 { vertical-align:middle; text-align:center; border-bottom:2px solid #000000 !important; border-top:2px solid #000000 !important; border-left:none #000000; border-right:2px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Lucida Sans Typewriter'; font-size:12pt; background-color:#BFBFBF }
+      td.style6 { vertical-align:middle; text-align:center; border-bottom:2px solid #000000 !important; border-top:2px solid #000000 !important; border-left:2px solid #000000 !important; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Lucida Sans Typewriter'; font-size:11pt; background-color:#BFBFBF }
+      th.style6 { vertical-align:middle; text-align:center; border-bottom:2px solid #000000 !important; border-top:2px solid #000000 !important; border-left:2px solid #000000 !important; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Lucida Sans Typewriter'; font-size:11pt; background-color:#BFBFBF }
+      td.style7 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:2px solid #000000 !important; border-left:2px solid #000000 !important; border-right:2px solid #000000 !important; color:#000000; font-family:'Lucida Sans Typewriter'; font-size:10pt; background-color:#BFBFBF }
+      th.style7 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:2px solid #000000 !important; border-left:2px solid #000000 !important; border-right:2px solid #000000 !important; color:#000000; font-family:'Lucida Sans Typewriter'; font-size:10pt; background-color:#BFBFBF }
+      td.style8 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:2px solid #000000 !important; border-left:2px solid #000000 !important; border-right:2px solid #000000 !important; color:#000000; font-family:'Lucida Sans Typewriter'; font-size:9pt; background-color:#BFBFBF }
+      th.style8 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:2px solid #000000 !important; border-left:2px solid #000000 !important; border-right:2px solid #000000 !important; color:#000000; font-family:'Lucida Sans Typewriter'; font-size:9pt; background-color:#BFBFBF }
+      td.style9 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:2px solid #000000 !important; border-left:2px solid #000000 !important; border-right:2px solid #000000 !important; color:#000000; font-family:'Lucida Sans Typewriter'; font-size:10pt; background-color:#BFBFBF }
+      th.style9 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:2px solid #000000 !important; border-left:2px solid #000000 !important; border-right:2px solid #000000 !important; color:#000000; font-family:'Lucida Sans Typewriter'; font-size:10pt; background-color:#BFBFBF }
+      td.style10 { vertical-align:middle; text-align:left; padding-left:9px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Lucida Sans Typewriter'; font-size:10pt; background-color:white }
+      th.style10 { vertical-align:middle; text-align:left; padding-left:9px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Lucida Sans Typewriter'; font-size:10pt; background-color:white }
+      td.style11 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Lucida Sans Typewriter'; font-size:10pt; background-color:white }
+      th.style11 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Lucida Sans Typewriter'; font-size:10pt; background-color:white }
+      td.style12 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Lucida Sans Typewriter'; font-size:10pt; background-color:white }
+      th.style12 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Lucida Sans Typewriter'; font-size:10pt; background-color:white }
+      td.style13 { vertical-align:middle; text-align:center; border-bottom:2px solid #000000 !important; border-top:2px solid #000000 !important; border-left:none #000000; border-right:2px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Lucida Sans Typewriter'; font-size:11pt; background-color:#BFBFBF }
+      th.style13 { vertical-align:middle; text-align:center; border-bottom:2px solid #000000 !important; border-top:2px solid #000000 !important; border-left:none #000000; border-right:2px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Lucida Sans Typewriter'; font-size:11pt; background-color:#BFBFBF }
+      td.style14 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Lucida Sans Typewriter'; font-size:10pt; background-color:white }
+      th.style14 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Lucida Sans Typewriter'; font-size:10pt; background-color:white }
+      td.style15 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Lucida Sans Typewriter'; font-size:10pt; background-color:#FFFF00 }
+      th.style15 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Lucida Sans Typewriter'; font-size:10pt; background-color:#FFFF00 }
+      td.style16 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Lucida Sans Typewriter'; font-size:10pt; background-color:#FFFF00 }
+      th.style16 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Lucida Sans Typewriter'; font-size:10pt; background-color:#FFFF00 }
+      td.style17 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Lucida Sans Typewriter'; font-size:10pt; background-color:white }
+      th.style17 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Lucida Sans Typewriter'; font-size:10pt; background-color:white }
+      td.style18 { vertical-align:bottom; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Lucida Sans Typewriter'; font-size:11pt; background-color:#FF9900 }
+      th.style18 { vertical-align:bottom; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Lucida Sans Typewriter'; font-size:11pt; background-color:#FF9900 }
+      td.style19 { vertical-align:bottom; text-align:center; border-bottom:2px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Lucida Sans Typewriter'; font-size:11pt; background-color:#00CC99 }
+      th.style19 { vertical-align:bottom; text-align:center; border-bottom:2px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Lucida Sans Typewriter'; font-size:11pt; background-color:#00CC99 }
+      td.style20 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:2px solid #000000 !important; border-left:2px solid #000000 !important; border-right:2px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Lucida Sans Typewriter'; font-size:11pt; background-color:#BFBFBF }
+      th.style20 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:2px solid #000000 !important; border-left:2px solid #000000 !important; border-right:2px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Lucida Sans Typewriter'; font-size:11pt; background-color:#BFBFBF }
+      td.style21 { vertical-align:middle; text-align:left; padding-left:9px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Lucida Sans Typewriter'; font-size:10pt; background-color:white }
+      th.style21 { vertical-align:middle; text-align:left; padding-left:9px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Lucida Sans Typewriter'; font-size:10pt; background-color:white }
+      td.style22 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Lucida Sans Typewriter'; font-size:10pt; background-color:white }
+      th.style22 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Lucida Sans Typewriter'; font-size:10pt; background-color:white }
+      td.style23 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Lucida Sans Typewriter'; font-size:10pt; background-color:white }
+      th.style23 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Lucida Sans Typewriter'; font-size:10pt; background-color:white }
+      td.style24 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Lucida Sans Typewriter'; font-size:10pt; background-color:white }
+      th.style24 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Lucida Sans Typewriter'; font-size:10pt; background-color:white }
+      td.style25 { vertical-align:bottom; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Lucida Sans Typewriter'; font-size:10pt; background-color:white }
+      th.style25 { vertical-align:bottom; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Lucida Sans Typewriter'; font-size:10pt; background-color:white }
+      td.style26 { vertical-align:bottom; text-align:center; border-bottom:2px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Lucida Sans Typewriter'; font-size:11pt; background-color:#FF9999 }
+      th.style26 { vertical-align:bottom; text-align:center; border-bottom:2px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Lucida Sans Typewriter'; font-size:11pt; background-color:#FF9999 }
+      table.sheet0 col.col0 { width:42pt }
+      table.sheet0 col.col1 { width:42pt }
+      table.sheet0 col.col2 { width:42pt }
+      table.sheet0 col.col3 { width:42pt }
+      table.sheet0 col.col4 { width:56.25555491pt }
+      table.sheet0 col.col5 { width:42pt }
+      table.sheet0 col.col6 { width:42pt }
+      table.sheet0 col.col7 { width:42pt }
+      table.sheet0 col.col8 { width:42pt }
+      table.sheet0 col.col9 { width:63.71111038pt }
+      table.sheet0 col.col10 { width:69.13333254pt }
+      table.sheet0 col.col11 { width:67.09999923pt }
+      table.sheet0 col.col12 { width:67.09999923pt }
+      table.sheet0 col.col13 { width:42pt }
+      table.sheet0 col.col14 { width:42pt }
+      table.sheet0 tr { height:15pt }
+      table.sheet0 tr.row0 { height:17.55pt }
+      table.sheet0 tr.row1 { height:32.5pt }
+      table.sheet0 tr.row2 { height:29pt }
+    </style>
+  </head>
+
+  <body>
+<style>
+@page { margin-left: 0.7in; margin-right: 0.7in; margin-top: 0.75in; margin-bottom: 0.75in; }
+body { margin-left: 0.7in; margin-right: 0.7in; margin-top: 0.75in; margin-bottom: 0.75in; }
+</style>
+    <table border="0" cellpadding="0" cellspacing="0" id="sheet0" class="sheet0 gridlines">
+        <col class="col0">
+        <col class="col1">
+        <col class="col2">
+        <col class="col3">
+        <col class="col4">
+        <col class="col5">
+        <col class="col6">
+        <col class="col7">
+        <col class="col8">
+        <col class="col9">
+        <col class="col10">
+        <col class="col11">
+        <col class="col12">
+        <col class="col13">
+        <col class="col14">
+        <tbody>
+          <tr class="row0">
+            <td class="column0 style1 null"></td>
+            <td class="column1 style1 null"></td>
+            <td class="column2 style1 null"></td>
+            <td class="column3 style2 s style2" colspan="6">MATERIAL</td>
+            <td class="column9 style18 s style18" colspan="2">LABOR</td>
+            <td class="column11 style19 s style19" colspan="2">Direct Cost</td>
+            <td class="column13 style26 s style26" colspan="2">Mark Up</td>
+          </tr>
+          <tr class="row1">
+            <td class="column0 style3 s style5" colspan="3">Product Information</td>
+            <td class="column3 style6 s style13" colspan="2">Cost / Linear Foot</td>
+            <td class="column5 style6 s style13" colspan="2">Length</td>
+            <td class="column7 style6 s style13" colspan="2"><span style="font-weight:bold; color:#000000; font-family:'Lucida Sans Typewriter'; font-size:11pt">Cost</span><span style="font-weight:bold; color:#000000; font-family:'Lucida Sans Typewriter'; font-size:11pt"><sub>Material</sub></span></td>
+            <td class="column9 style9 s style21" rowspan="2"># of Steps</td>
+            <td class="column10 style20 s style21" rowspan="2"><span style="font-weight:bold; color:#000000; font-family:'Lucida Sans Typewriter'; font-size:11pt">Cost</span><span style="font-weight:bold; color:#000000; font-family:'Lucida Sans Typewriter'; font-size:11pt"><sub>Labor</sub></span></td>
+            <td class="column11 style6 s style13" colspan="2"><span style="font-weight:bold; color:#000000; font-family:'Lucida Sans Typewriter'; font-size:11pt">Cost</span><span style="font-weight:bold; color:#000000; font-family:'Lucida Sans Typewriter'; font-size:11pt"><sub>Material</sub></span><span style="font-weight:bold; color:#000000; font-family:'Lucida Sans Typewriter'; font-size:11pt"> + Cost</span><span style="font-weight:bold; color:#000000; font-family:'Lucida Sans Typewriter'; font-size:11pt"><sub>Labor</sub></span></td>
+            <td class="column13 style6 s style13" colspan="2">Price</td>
+          </tr>
+          <tr class="row2">
+            <td class="column0 style7 s">Product Name</td>
+            <td class="column1 style7 s">Blank Size (in)</td>
+            <td class="column2 style8 s">Width Ratio</td>
+            <td class="column3 style9 s">Galvalume</td>
+            <td class="column4 style9 s">Painted</td>
+            <td class="column5 style9 s">Feet</td>
+            <td class="column6 style9 s">Inches</td>
+            <td class="column7 style9 s">Galvalume</td>
+            <td class="column8 style9 s">Painted</td>
+            <td class="column11 style9 s">Galvalume</td>
+            <td class="column12 style9 s">Painted</td>
+            <td class="column13 style9 s">Galvalume</td>
+            <td class="column14 style9 s">Painted</td>
+          </tr>
+          <tr class="row3">
+            <td class="column0 style10 s">W - Valley</td>
+            <td class="column1 style11 n">21</td>
+            <td class="column2 style11 f">0.51219512195122</td>
+            <td class="column3 style12 n">1.4341</td>
+            <td class="column4 style14 n">1.7159</td>
+            <td class="column5 style15 n">1</td>
+            <td class="column6 style16 n">0</td>
+            <td class="column7 style17 f">$1.43</td>
+            <td class="column8 style22 f">$1.72</td>
+            <td class="column9 style23 n">13</td>
+            <td class="column10 style24 n">$2.60</td>
+            <td class="column11 style25 f">$4.03</td>
+            <td class="column12 style25 f">$4.32</td>
+            <td class="column13 style25 n">$7.06</td>
+            <td class="column14 style25 n">$7.55</td>
+          </tr>
+          <tr class="row4">
+            <td class="column0 style10 s">Deluxe Ridge Cap</td>
+            <td class="column1 style11 n">20.44</td>
+            <td class="column2 style11 f">0.49853658536585</td>
+            <td class="column3 style12 n">1.3959</td>
+            <td class="column4 style14 n">1.6701</td>
+            <td class="column5 style15 n">12</td>
+            <td class="column6 style16 n">0</td>
+            <td class="column7 style17 f">$16.75</td>
+            <td class="column8 style22 f">$20.04</td>
+            <td class="column9 style23 n">13</td>
+            <td class="column10 style24 n">$2.60</td>
+            <td class="column11 style25 f">$19.35</td>
+            <td class="column12 style25 f">$22.64</td>
+            <td class="column13 style25 n">$33.86</td>
+            <td class="column14 style25 n">$39.62</td>
+          </tr>
+          <tr class="row5">
+            <td class="column0 style10 s">17.25 Cap</td>
+            <td class="column1 style11 n">17.25</td>
+            <td class="column2 style11 f">0.42073170731707</td>
+            <td class="column3 style12 n">1.1780</td>
+            <td class="column4 style14 n">1.4095</td>
+            <td class="column5 style15 n">10</td>
+            <td class="column6 style16 n">0</td>
+            <td class="column7 style17 f">$11.78</td>
+            <td class="column8 style22 f">$14.09</td>
+            <td class="column9 style23 n">20</td>
+            <td class="column10 style24 n">$4.00</td>
+            <td class="column11 style25 f">$15.78</td>
+            <td class="column12 style25 f">$18.09</td>
+            <td class="column13 style25 n">$27.62</td>
+            <td class="column14 style25 n">$31.67</td>
+          </tr>
+          <tr class="row6">
+            <td class="column0 style10 s">Ridge Cap</td>
+            <td class="column1 style11 n">16.5</td>
+            <td class="column2 style11 f">0.40243902439024</td>
+            <td class="column3 style12 n">1.1268</td>
+            <td class="column4 style14 n">1.3482</td>
+            <td class="column5 style15 n">20</td>
+            <td class="column6 style16 n">6</td>
+            <td class="column7 style17 f">$23.10</td>
+            <td class="column8 style22 f">$27.64</td>
+            <td class="column9 style23 n">20</td>
+            <td class="column10 style24 n">$4.00</td>
+            <td class="column11 style25 f">$27.10</td>
+            <td class="column12 style25 f">$31.64</td>
+            <td class="column13 style25 n">$47.43</td>
+            <td class="column14 style25 n">$55.37</td>
+          </tr>
+          <tr class="row7">
+            <td class="column0 style10 s">10.5 Cap</td>
+            <td class="column1 style11 n">15.5</td>
+            <td class="column2 style11 f">0.3780487804878</td>
+            <td class="column3 style12 n">1.0585</td>
+            <td class="column4 style14 n">1.2665</td>
+            <td class="column5 style15 n">10</td>
+            <td class="column6 style16 n">6</td>
+            <td class="column7 style17 f">$11.11</td>
+            <td class="column8 style22 f">$13.30</td>
+            <td class="column9 style23 n">5</td>
+            <td class="column10 style24 n">$1.00</td>
+            <td class="column11 style25 f">$12.11</td>
+            <td class="column12 style25 f">$14.30</td>
+            <td class="column13 style25 n">$21.20</td>
+            <td class="column14 style25 n">$25.02</td>
+          </tr>
+        </tbody>
+    </table>
+  </body>
+</html>

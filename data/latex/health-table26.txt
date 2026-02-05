@@ -1,0 +1,36 @@
+% Please add the following required packages to your document preamble:
+% \usepackage{multirow}
+\begin{table}[]
+\begin{tabular}{lllllllll}
+\multicolumn{2}{l}{\multirow{2}{*}{Variable}}             & \multirow{2}{*}{n} & \multirow{2}{*}{\%} & \multicolumn{2}{l}{Best CT} & \multicolumn{3}{l}{Univariate Analysis} \\
+\multicolumn{2}{l}{}                                      &                    &                     & n           & \%            & OR    & IC95\%     & p                  \\
+\multicolumn{2}{l}{Self-perceived Health}                 &                    &                     &             &               &       &            &                    \\
+                  & Excellent                             & 44                 & 17,1                & 23          & 52,3          & 1,00  &            &                    \\
+                  & Good                                  & 70                 & 27,1                & 30          & 42,9          & 0,68  & 0,32-1,46  & 0,327              \\
+                  & Poor                                  & 144                & 55,8                & 22          & 15,3          & 0,16  & 0,08-0,35  & \textless{}0,001*  \\
+\multicolumn{2}{l}{Depressive Symptoms}                   &                    &                     &             &               &       &            &                    \\
+                  & No                                    & 238                & 92,2                & 73          & 30,7          & 1,00  &            &                    \\
+                  & Yes                                   & 20                 & 7,8                 & 2           & 10,0          & 0,25  & 0,06-1,11  & 0,069*             \\
+\multicolumn{2}{l}{Sleep Difficulties}                    &                    &                     &             &               &       &            &                    \\
+                  & No                                    & 189                & 73,3                & 72          & 38,1          & 1,00  &            &                    \\
+                  & Yes                                   & 69                 & 26,7                & 3           & 4,35          & 0,07  & 0,02-0,24  & \textless{}0,001*  \\
+\multicolumn{2}{l}{BMI (kg/m\textasciicircum{}2)}         &                    &                     &             &               &       &            &                    \\
+                  & Eutrophy                              & 98                 & 38,0                & 30          & 30,6          & 1,0   &            &                    \\
+                  & Undernutrition                        & 23                 & 8,9                 & 10          & 43,5          & 1,74  & 0,69-4,42  & 0,241              \\
+                  & Overweight                            & 137                & 53,1                & 35          & 25,6          & 0,78  & 0,44-1,38  & 0,393              \\
+\multicolumn{2}{l}{Falls in the Last 12 Months}           &                    &                     &             &               &       &            &                    \\
+                  & No                                    & 203                & 78,7                & 68          & 33,5          & 1,00  &            &                    \\
+                  & Yes                                   & 55                 & 21,3                & 7           & 12,7          & 0,29  & 0,12-0,67  & 0,004*             \\
+\multicolumn{2}{l}{Daily Medication Use}                  &                    &                     &             &               &       &            &                    \\
+                  & 0 to 4                                & 189                & 73,3                & 58          & 30,7          & 1,00  &            &                    \\
+                  & 5 or more                             & 69                 & 26,7                & 17          & 24,6          & 0,74  & 0,40-1,38  & 0,345              \\
+\multicolumn{2}{l}{Hospitalization in the Last 12 Months} &                    &                     &             &               &       &            &                    \\
+                  & No                                    & 218                & 84,5                & 72          & 33,0          & 1,00  &            &                    \\
+                  & Yes                                   & 40                 & 15,5                & 3           & 7,5           & 0,16  & 0,05-0,55  & 0,003*             \\
+\multicolumn{2}{l}{Musculoskeletal Symptoms}              &                    &                     &             &               &       &            &                    \\
+                  & No Complaints                         & 32                 & 12,4                & 20          & 62,5          & 1,00  &            &                    \\
+                  & In the Last 12 Months                 & 58                 & 22,5                & 23          & 39,7          & 0,39  & 0,16-0,96  & 0,040*             \\
+                  & In the Last 7 Days                    & 91                 & 35,3                & 20          & 22,0          & 0,17  & 0,07-0,40  & \textless{}0,001*  \\
+                  & Work Impairment                       & 77                 & 29,8                & 12          & 15,6          & 0,11  & 0,04-0,28  & \textless{}0,001* 
+\end{tabular}
+\end{table}

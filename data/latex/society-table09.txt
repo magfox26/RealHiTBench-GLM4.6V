@@ -1,0 +1,69 @@
+\begin{table}[]
+\begin{tabular}{lllrr}
+\multicolumn{3}{l}{Region and state or area}              & Number               & Average monthly payment a (dollars) \\
+           &                   & All areas                & 1,078,977            & 537.83                              \\
+\multicolumn{3}{l}{Boston}                                & 37,439               & 545.79                              \\
+           & \multicolumn{2}{l}{Connecticut}              & 6,898                & 518.60                              \\
+           & \multicolumn{2}{l}{Maine}                    & 3,504                & 509.12                              \\
+           & \multicolumn{2}{l}{Massachusetts}            & 19,129               & 560.69                              \\
+           & \multicolumn{2}{l}{New Hampshire}            & 1,953                & 487.22                              \\
+           & \multicolumn{2}{l}{Rhode Island}             & 4,232                & 576.64                              \\
+           & \multicolumn{2}{l}{Vermont}                  & 1,723                & 554.40                              \\
+\multicolumn{3}{l}{New York}                              & 96,126               & 550.67                              \\
+           & \multicolumn{2}{l}{New Jersey}               & 22,704               & 530.95                              \\
+           & \multicolumn{2}{l}{New York}                 & 73,422               & 556.77                              \\
+\multicolumn{3}{l}{Philadelphia}                          & 115,787              & 519.56                              \\
+           & \multicolumn{2}{l}{Delaware}                 & 3,334                & 507.37                              \\
+           & \multicolumn{2}{l}{District of Columbia}     & 4,441                & 533.12                              \\
+           & \multicolumn{2}{l}{Maryland}                 & 15,275               & 510.66                              \\
+           & \multicolumn{2}{l}{Pennsylvania}             & 60,991               & 525.45                              \\
+           & \multicolumn{2}{l}{Virginia}                 & 22,810               & 506.39                              \\
+           & \multicolumn{2}{l}{West Virginia}            & 8,936                & 525.96                              \\
+\multicolumn{3}{l}{Atlanta}                               & 275,413              & 524.38                              \\
+           & \multicolumn{2}{l}{Alabama}                  & 28,672               & 532.52                              \\
+           & \multicolumn{2}{l}{Florida}                  & 80,608               & 521.76                              \\
+           & \multicolumn{2}{l}{Georgia}                  & 35,046               & 523.82                              \\
+           & \multicolumn{2}{l}{Kentucky}                 & 27,797               & 535.60                              \\
+           & \multicolumn{2}{l}{Mississippi}              & 22,853               & 532.95                              \\
+           & \multicolumn{2}{l}{North Carolina}           & 38,295               & 512.91                              \\
+           & \multicolumn{2}{l}{South Carolina}           & 18,731               & 518.39                              \\
+           & \multicolumn{2}{l}{Tennessee}                & 23,411               & 526.19                              \\
+\multicolumn{3}{l}{Chicago}                               & 177,249              & 530.95                              \\
+           & \multicolumn{2}{l}{Illinois}                 & 45,096               & 533.97                              \\
+           & \multicolumn{2}{l}{Indiana}                  & 21,545               & 524.05                              \\
+           & \multicolumn{2}{l}{Michigan}                 & 38,719               & 536.79                              \\
+           & \multicolumn{2}{l}{Minnesota}                & 11,212               & 512.17                              \\
+           & \multicolumn{2}{l}{Ohio}                     & 43,565               & 534.81                              \\
+           & \multicolumn{2}{l}{Wisconsin}                & 17,112               & 520.94                              \\
+\multicolumn{3}{l}{Dallas}                                & 166,907              & 526.90                              \\
+           & \multicolumn{2}{l}{Arkansas}                 & 19,501               & 529.14                              \\
+           & \multicolumn{2}{l}{Louisiana}                & 29,343               & 538.04                              \\
+           & \multicolumn{2}{l}{New Mexico}               & 7,762                & 533.87                              \\
+           & \multicolumn{2}{l}{Oklahoma}                 & 14,592               & 524.64                              \\
+           & \multicolumn{2}{l}{Texas}                    & 95,709               & 522.81                              \\
+\multicolumn{3}{l}{Kansas City}                           & 38,228               & 516.79                              \\
+           & \multicolumn{2}{l}{Iowa}                     & 7,124                & 498.85                              \\
+           & \multicolumn{2}{l}{Kansas}                   & 7,302                & 512.29                              \\
+           & \multicolumn{2}{l}{Missouri}                 & 20,269               & 527.26                              \\
+           & \multicolumn{2}{l}{Nebraska}                 & 3,533                & 502.20                              \\
+\multicolumn{3}{l}{Denver}                                & 17,341               & 493.20                              \\
+           & \multicolumn{2}{l}{Colorado}                 & 7,161                & 497.05                              \\
+           & \multicolumn{2}{l}{Montana}                  & 2,091                & 514.85                              \\
+           & \multicolumn{2}{l}{North Dakota}             & 989                  & 478.69                              \\
+           & \multicolumn{2}{l}{South Dakota}             & 2,020                & 491.01                              \\
+           & \multicolumn{2}{l}{Utah}                     & 4,219                & 482.51                              \\
+           & \multicolumn{2}{l}{Wyoming}                  & 861                  & 482.76                              \\
+\multicolumn{3}{l}{San Francisco}                         & 125,498              & 615.73                              \\
+           & \multicolumn{2}{l}{Arizona}                  & 17,804               & 528.67                              \\
+           & \multicolumn{2}{l}{California}               & 99,711               & 639.98                              \\
+           & \multicolumn{2}{l}{Hawaii}                   & 1,557                & 496.88                              \\
+           & \multicolumn{2}{l}{Nevada}                   & 6,193                & 507.00                              \\
+           & \multicolumn{2}{l}{Northern Mariana Islands} & 233                  & 577.52                              \\
+\multicolumn{3}{l}{Seattle}                               & 28,989               & 508.01                              \\
+           & \multicolumn{2}{l}{Alaska}                   & 1,155                & 475.75                              \\
+           & \multicolumn{2}{l}{Idaho}                    & 4,296                & 494.23                              \\
+           & \multicolumn{2}{l}{Oregon}                   & 8,321                & 514.22                              \\
+           & \multicolumn{2}{l}{Washington}               & 15,217               & 510.95                              \\
+           &                   &                          & \multicolumn{1}{l}{} & \multicolumn{1}{l}{}               
+\end{tabular}
+\end{table}

@@ -1,0 +1,597 @@
+[
+  {
+    "Animal": "C1",
+    "Genotype": "WT",
+    "Group": "Control",
+    "Treatment": "Vehicle",
+    "Emotionality Index": "-0.14"
+  },
+  {
+    "Animal": "C2",
+    "Genotype": "WT",
+    "Group": "Control",
+    "Treatment": "Vehicle",
+    "Emotionality Index": "-0.26"
+  },
+  {
+    "Animal": "C3",
+    "Genotype": "WT",
+    "Group": "Control",
+    "Treatment": "Vehicle",
+    "Emotionality Index": "-0.68"
+  },
+  {
+    "Animal": "C4",
+    "Genotype": "WT",
+    "Group": "Control",
+    "Treatment": "Vehicle",
+    "Emotionality Index": "-0.29"
+  },
+  {
+    "Animal": "C5",
+    "Genotype": "WT",
+    "Group": "Control",
+    "Treatment": "Vehicle",
+    "Emotionality Index": "0.52"
+  },
+  {
+    "Animal": "C6",
+    "Genotype": "WT",
+    "Group": "Control",
+    "Treatment": "Vehicle",
+    "Emotionality Index": "-1.54"
+  },
+  {
+    "Animal": "C7",
+    "Genotype": "WT",
+    "Group": "Control",
+    "Treatment": "Vehicle",
+    "Emotionality Index": "-0.54"
+  },
+  {
+    "Animal": "C8",
+    "Genotype": "WT",
+    "Group": "Control",
+    "Treatment": "Vehicle",
+    "Emotionality Index": "0.3"
+  },
+  {
+    "Animal": "C9",
+    "Genotype": "WT",
+    "Group": "Control",
+    "Treatment": "Vehicle",
+    "Emotionality Index": "1.81"
+  },
+  {
+    "Animal": "C10",
+    "Genotype": "WT",
+    "Group": "Control",
+    "Treatment": "Vehicle",
+    "Emotionality Index": "1.98"
+  },
+  {
+    "Animal": "average",
+    "Genotype": null,
+    "Group": null,
+    "Treatment": null,
+    "Emotionality Index": "0.116"
+  },
+  {
+    "Animal": "stdv",
+    "Genotype": null,
+    "Group": null,
+    "Treatment": null,
+    "Emotionality Index": "1.09134168190657"
+  },
+  {
+    "Animal": "sterror",
+    "Genotype": null,
+    "Group": null,
+    "Treatment": null,
+    "Emotionality Index": "0.345112542030374"
+  },
+  {
+    "Animal": "C11",
+    "Genotype": "WT",
+    "Group": "Control",
+    "Treatment": "Fluoxetine",
+    "Emotionality Index": "1.1"
+  },
+  {
+    "Animal": "C12",
+    "Genotype": "WT",
+    "Group": "Control",
+    "Treatment": "Fluoxetine",
+    "Emotionality Index": "0.39"
+  },
+  {
+    "Animal": "C13",
+    "Genotype": "WT",
+    "Group": "Control",
+    "Treatment": "Fluoxetine",
+    "Emotionality Index": "3.72"
+  },
+  {
+    "Animal": "C14",
+    "Genotype": "WT",
+    "Group": "Control",
+    "Treatment": "Fluoxetine",
+    "Emotionality Index": "2.14"
+  },
+  {
+    "Animal": "C15",
+    "Genotype": "WT",
+    "Group": "Control",
+    "Treatment": "Fluoxetine",
+    "Emotionality Index": "2.42"
+  },
+  {
+    "Animal": "C16",
+    "Genotype": "WT",
+    "Group": "Control",
+    "Treatment": "Fluoxetine",
+    "Emotionality Index": "2.48"
+  },
+  {
+    "Animal": "C17",
+    "Genotype": "WT",
+    "Group": "Control",
+    "Treatment": "Fluoxetine",
+    "Emotionality Index": "3.74"
+  },
+  {
+    "Animal": "C18",
+    "Genotype": "WT",
+    "Group": "Control",
+    "Treatment": "Fluoxetine",
+    "Emotionality Index": "1.88"
+  },
+  {
+    "Animal": "C19",
+    "Genotype": "WT",
+    "Group": "Control",
+    "Treatment": "Fluoxetine",
+    "Emotionality Index": "2.21"
+  },
+  {
+    "Animal": "C20",
+    "Genotype": "WT",
+    "Group": "Control",
+    "Treatment": "Fluoxetine",
+    "Emotionality Index": "2.84"
+  },
+  {
+    "Animal": "average",
+    "Genotype": null,
+    "Group": null,
+    "Treatment": null,
+    "Emotionality Index": "2.292"
+  },
+  {
+    "Animal": "stdv",
+    "Genotype": null,
+    "Group": null,
+    "Treatment": null,
+    "Emotionality Index": "1.03954904753081"
+  },
+  {
+    "Animal": "sterror",
+    "Genotype": null,
+    "Group": null,
+    "Treatment": null,
+    "Emotionality Index": "0.328734272965601"
+  },
+  {
+    "Animal": "351",
+    "Genotype": "WT",
+    "Group": "Stress",
+    "Treatment": "Vehicle",
+    "Emotionality Index": "4.62"
+  },
+  {
+    "Animal": "191",
+    "Genotype": "WT",
+    "Group": "Stress",
+    "Treatment": "Vehicle",
+    "Emotionality Index": "4.89"
+  },
+  {
+    "Animal": "251",
+    "Genotype": "WT",
+    "Group": "Stress",
+    "Treatment": "Vehicle",
+    "Emotionality Index": "5.82"
+  },
+  {
+    "Animal": "361",
+    "Genotype": "WT",
+    "Group": "Stress",
+    "Treatment": "Vehicle",
+    "Emotionality Index": "4.31"
+  },
+  {
+    "Animal": "541",
+    "Genotype": "WT",
+    "Group": "Stress",
+    "Treatment": "Vehicle",
+    "Emotionality Index": "6.66"
+  },
+  {
+    "Animal": "852",
+    "Genotype": "WT",
+    "Group": "Stress",
+    "Treatment": "Vehicle",
+    "Emotionality Index": "4.34"
+  },
+  {
+    "Animal": "4163",
+    "Genotype": "WT",
+    "Group": "Stress",
+    "Treatment": "Vehicle",
+    "Emotionality Index": "3.87"
+  },
+  {
+    "Animal": "4213",
+    "Genotype": "WT",
+    "Group": "Stress",
+    "Treatment": "Vehicle",
+    "Emotionality Index": "5.33"
+  },
+  {
+    "Animal": "4223",
+    "Genotype": "WT",
+    "Group": "Stress",
+    "Treatment": "Vehicle",
+    "Emotionality Index": "4.16"
+  },
+  {
+    "Animal": "4303",
+    "Genotype": "WT",
+    "Group": "Stress",
+    "Treatment": "Vehicle",
+    "Emotionality Index": "3.16"
+  },
+  {
+    "Animal": "4323",
+    "Genotype": "WT",
+    "Group": "Stress",
+    "Treatment": "Vehicle",
+    "Emotionality Index": "4.35"
+  },
+  {
+    "Animal": "E1",
+    "Genotype": "WT",
+    "Group": "Stress",
+    "Treatment": "Vehicle",
+    "Emotionality Index": "5.21"
+  },
+  {
+    "Animal": "E2",
+    "Genotype": "WT",
+    "Group": "Stress",
+    "Treatment": "Vehicle",
+    "Emotionality Index": "6.78"
+  },
+  {
+    "Animal": "E3",
+    "Genotype": "WT",
+    "Group": "Stress",
+    "Treatment": "Vehicle",
+    "Emotionality Index": "6.38"
+  },
+  {
+    "Animal": "E4",
+    "Genotype": "WT",
+    "Group": "Stress",
+    "Treatment": "Vehicle",
+    "Emotionality Index": "4.41"
+  },
+  {
+    "Animal": "E5",
+    "Genotype": "WT",
+    "Group": "Stress",
+    "Treatment": "Vehicle",
+    "Emotionality Index": "2.81"
+  },
+  {
+    "Animal": "average",
+    "Genotype": null,
+    "Group": null,
+    "Treatment": null,
+    "Emotionality Index": "4.81875"
+  },
+  {
+    "Animal": "stdv",
+    "Genotype": null,
+    "Group": null,
+    "Treatment": null,
+    "Emotionality Index": "1.15848104573762"
+  },
+  {
+    "Animal": "sterror",
+    "Genotype": null,
+    "Group": null,
+    "Treatment": null,
+    "Emotionality Index": "0.289620261434405"
+  },
+  {
+    "Animal": "211",
+    "Genotype": "WT",
+    "Group": "Stress",
+    "Treatment": "Fluoxetine",
+    "Emotionality Index": "5.26"
+  },
+  {
+    "Animal": "291",
+    "Genotype": "WT",
+    "Group": "Stress",
+    "Treatment": "Fluoxetine",
+    "Emotionality Index": "3.49"
+  },
+  {
+    "Animal": "111",
+    "Genotype": "WT",
+    "Group": "Stress",
+    "Treatment": "Fluoxetine",
+    "Emotionality Index": "3.17"
+  },
+  {
+    "Animal": "11",
+    "Genotype": "WT",
+    "Group": "Stress",
+    "Treatment": "Fluoxetine",
+    "Emotionality Index": "3.98"
+  },
+  {
+    "Animal": "672",
+    "Genotype": "WT",
+    "Group": "Stress",
+    "Treatment": "Fluoxetine",
+    "Emotionality Index": "3.37"
+  },
+  {
+    "Animal": "4333",
+    "Genotype": "WT",
+    "Group": "Stress",
+    "Treatment": "Fluoxetine",
+    "Emotionality Index": "4.67"
+  },
+  {
+    "Animal": "4353",
+    "Genotype": "WT",
+    "Group": "Stress",
+    "Treatment": "Fluoxetine",
+    "Emotionality Index": "5.5"
+  },
+  {
+    "Animal": "4383",
+    "Genotype": "WT",
+    "Group": "Stress",
+    "Treatment": "Fluoxetine",
+    "Emotionality Index": "1.63"
+  },
+  {
+    "Animal": "4393",
+    "Genotype": "WT",
+    "Group": "Stress",
+    "Treatment": "Fluoxetine",
+    "Emotionality Index": "3.22"
+  },
+  {
+    "Animal": "E6",
+    "Genotype": "WT",
+    "Group": "Stress",
+    "Treatment": "Fluoxetine",
+    "Emotionality Index": "0.94"
+  },
+  {
+    "Animal": "E7",
+    "Genotype": "WT",
+    "Group": "Stress",
+    "Treatment": "Fluoxetine",
+    "Emotionality Index": "3.49"
+  },
+  {
+    "Animal": "E8",
+    "Genotype": "WT",
+    "Group": "Stress",
+    "Treatment": "Fluoxetine",
+    "Emotionality Index": "4.74"
+  },
+  {
+    "Animal": "E9",
+    "Genotype": "WT",
+    "Group": "Stress",
+    "Treatment": "Fluoxetine",
+    "Emotionality Index": "0.98"
+  },
+  {
+    "Animal": "E10",
+    "Genotype": "WT",
+    "Group": "Stress",
+    "Treatment": "Fluoxetine",
+    "Emotionality Index": "0.57"
+  },
+  {
+    "Animal": "average",
+    "Genotype": null,
+    "Group": null,
+    "Treatment": null,
+    "Emotionality Index": "3.215"
+  },
+  {
+    "Animal": "stdv",
+    "Genotype": null,
+    "Group": null,
+    "Treatment": null,
+    "Emotionality Index": "1.62403936102357"
+  },
+  {
+    "Animal": "sterror",
+    "Genotype": null,
+    "Group": null,
+    "Treatment": null,
+    "Emotionality Index": "0.434042776541819"
+  },
+  {
+    "Animal": "411",
+    "Genotype": "FGF2KO",
+    "Group": "Stress",
+    "Treatment": "Vehicle",
+    "Emotionality Index": "5.4"
+  },
+  {
+    "Animal": "131",
+    "Genotype": "FGF2KO",
+    "Group": "Stress",
+    "Treatment": "Vehicle",
+    "Emotionality Index": "6.59"
+  },
+  {
+    "Animal": "141",
+    "Genotype": "FGF2KO",
+    "Group": "Stress",
+    "Treatment": "Vehicle",
+    "Emotionality Index": "6.49"
+  },
+  {
+    "Animal": "151",
+    "Genotype": "FGF2KO",
+    "Group": "Stress",
+    "Treatment": "Vehicle",
+    "Emotionality Index": "6.37"
+  },
+  {
+    "Animal": "802",
+    "Genotype": "FGF2KO",
+    "Group": "Stress",
+    "Treatment": "Vehicle",
+    "Emotionality Index": "6.2"
+  },
+  {
+    "Animal": "812",
+    "Genotype": "FGF2KO",
+    "Group": "Stress",
+    "Treatment": "Vehicle",
+    "Emotionality Index": "5.95"
+  },
+  {
+    "Animal": "4043",
+    "Genotype": "FGF2KO",
+    "Group": "Stress",
+    "Treatment": "Vehicle",
+    "Emotionality Index": "5.57"
+  },
+  {
+    "Animal": "4113",
+    "Genotype": "FGF2KO",
+    "Group": "Stress",
+    "Treatment": "Vehicle",
+    "Emotionality Index": "4.13"
+  },
+  {
+    "Animal": "average",
+    "Genotype": null,
+    "Group": null,
+    "Treatment": null,
+    "Emotionality Index": "5.8375"
+  },
+  {
+    "Animal": "stdv",
+    "Genotype": null,
+    "Group": null,
+    "Treatment": null,
+    "Emotionality Index": "0.810480457154009"
+  },
+  {
+    "Animal": "sterror",
+    "Genotype": null,
+    "Group": null,
+    "Treatment": null,
+    "Emotionality Index": "0.286548113636386"
+  },
+  {
+    "Animal": "121",
+    "Genotype": "FGF2KO",
+    "Group": "Stress",
+    "Treatment": "Fluoxetine",
+    "Emotionality Index": "6.68"
+  },
+  {
+    "Animal": "201",
+    "Genotype": "FGF2KO",
+    "Group": "Stress",
+    "Treatment": "Fluoxetine",
+    "Emotionality Index": "2.96"
+  },
+  {
+    "Animal": "181",
+    "Genotype": "FGF2KO",
+    "Group": "Stress",
+    "Treatment": "Fluoxetine",
+    "Emotionality Index": "3.63"
+  },
+  {
+    "Animal": "391",
+    "Genotype": "FGF2KO",
+    "Group": "Stress",
+    "Treatment": "Fluoxetine",
+    "Emotionality Index": "5.79"
+  },
+  {
+    "Animal": "702",
+    "Genotype": "FGF2KO",
+    "Group": "Stress",
+    "Treatment": "Fluoxetine",
+    "Emotionality Index": "5.9"
+  },
+  {
+    "Animal": "642",
+    "Genotype": "FGF2KO",
+    "Group": "Stress",
+    "Treatment": "Fluoxetine",
+    "Emotionality Index": "5.37"
+  },
+  {
+    "Animal": "4153",
+    "Genotype": "FGF2KO",
+    "Group": "Stress",
+    "Treatment": "Fluoxetine",
+    "Emotionality Index": "6.61"
+  },
+  {
+    "Animal": "4313",
+    "Genotype": "FGF2KO",
+    "Group": "Stress",
+    "Treatment": "Fluoxetine",
+    "Emotionality Index": "6.35"
+  },
+  {
+    "Animal": "4783",
+    "Genotype": "FGF2KO",
+    "Group": "Stress",
+    "Treatment": "Fluoxetine",
+    "Emotionality Index": "5.07"
+  },
+  {
+    "Animal": "average",
+    "Genotype": null,
+    "Group": null,
+    "Treatment": null,
+    "Emotionality Index": "5.37333333333333"
+  },
+  {
+    "Animal": "stdv",
+    "Genotype": null,
+    "Group": null,
+    "Treatment": null,
+    "Emotionality Index": "1.30369666717377"
+  },
+  {
+    "Animal": "sterror",
+    "Genotype": null,
+    "Group": null,
+    "Treatment": null,
+    "Emotionality Index": "0.434565555724591"
+  }
+]

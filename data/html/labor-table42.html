@@ -1,0 +1,244 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <meta name="generator" content="PhpSpreadsheet, https://github.com/PHPOffice/PhpSpreadsheet">
+      <meta name="author" content="mac" />
+      <meta name="company" content="Microsoft Corporation" />
+    <style type="text/css">
+      html { font-family:Calibri, Arial, Helvetica, sans-serif; font-size:11pt; background-color:white }
+      a.comment-indicator:hover + div.comment { background:#ffd; position:absolute; display:block; border:1px solid black; padding:0.5em }
+      a.comment-indicator { background:red; display:inline-block; border:1px solid black; width:0.5em; height:0.5em }
+      div.comment { display:none }
+      table { border-collapse:collapse; page-break-after:always }
+      .gridlines td { border:1px dotted black }
+      .gridlines th { border:1px dotted black }
+      .b { text-align:center }
+      .e { text-align:center }
+      .f { text-align:right }
+      .inlineStr { text-align:left }
+      .n { text-align:right }
+      .s { text-align:left }
+      td.style0 { vertical-align:middle; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style0 { vertical-align:middle; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style1 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:none #000000; border-right:1px solid #000000 !important; font-weight:bold; color:#FFFFFF; font-family:'Andalus'; font-size:10pt; background-color:#002060 }
+      th.style1 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:none #000000; border-right:1px solid #000000 !important; font-weight:bold; color:#FFFFFF; font-family:'Andalus'; font-size:10pt; background-color:#002060 }
+      td.style2 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#FFFFFF; font-family:'Andalus'; font-size:10pt; background-color:#002060 }
+      th.style2 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#FFFFFF; font-family:'Andalus'; font-size:10pt; background-color:#002060 }
+      td.style3 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Andalus'; font-size:10pt; background-color:#FFFFFF }
+      th.style3 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Andalus'; font-size:10pt; background-color:#FFFFFF }
+      td.style4 { vertical-align:middle; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Andalus'; font-size:10pt; background-color:#FFFFFF }
+      th.style4 { vertical-align:middle; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Andalus'; font-size:10pt; background-color:#FFFFFF }
+      td.style5 { vertical-align:middle; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Andalus'; font-size:10pt; background-color:#FFFFFF }
+      th.style5 { vertical-align:middle; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Andalus'; font-size:10pt; background-color:#FFFFFF }
+      td.style6 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Andalus'; font-size:10pt; background-color:#FFFFFF }
+      th.style6 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Andalus'; font-size:10pt; background-color:#FFFFFF }
+      td.style7 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Andalus'; font-size:10pt; background-color:#FFFFFF }
+      th.style7 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Andalus'; font-size:10pt; background-color:#FFFFFF }
+      td.style8 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:none #000000; font-weight:bold; color:#FFFFFF; font-family:'Andalus'; font-size:10pt; background-color:#002060 }
+      th.style8 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:none #000000; font-weight:bold; color:#FFFFFF; font-family:'Andalus'; font-size:10pt; background-color:#002060 }
+      td.style9 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:1px solid #000000 !important; border-right:none #000000; font-weight:bold; color:#FFFFFF; font-family:'Andalus'; font-size:10pt; background-color:#002060 }
+      th.style9 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:1px solid #000000 !important; border-right:none #000000; font-weight:bold; color:#FFFFFF; font-family:'Andalus'; font-size:10pt; background-color:#002060 }
+      td.style10 { vertical-align:middle; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Andalus'; font-size:10pt; background-color:#FFFFFF }
+      th.style10 { vertical-align:middle; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Andalus'; font-size:10pt; background-color:#FFFFFF }
+      td.style11 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Andalus'; font-size:10pt; background-color:white }
+      th.style11 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Andalus'; font-size:10pt; background-color:white }
+      table.sheet0 col.col0 { width:113.18888759pt }
+      table.sheet0 col.col1 { width:73.87777693pt }
+      table.sheet0 col.col2 { width:85.39999902pt }
+      table.sheet0 col.col3 { width:82.68888794pt }
+      table.sheet0 col.col4 { width:119.96666529pt }
+      table.sheet0 col.col5 { width:410.73332862pt }
+      table.sheet0 tr { height:15pt }
+    </style>
+  </head>
+
+  <body>
+<style>
+@page { margin-left: 0.75in; margin-right: 0.75in; margin-top: 1in; margin-bottom: 1in; }
+body { margin-left: 0.75in; margin-right: 0.75in; margin-top: 1in; margin-bottom: 1in; }
+</style>
+    <table border="0" cellpadding="0" cellspacing="0" id="sheet0" class="sheet0 gridlines">
+        <col class="col0">
+        <col class="col1">
+        <col class="col2">
+        <col class="col3">
+        <col class="col4">
+        <col class="col5">
+        <tbody>
+          <tr class="row0">
+            <td class="column0 style1 s">EMPNAME</td>
+            <td class="column1 style2 s">CALL ID</td>
+            <td class="column2 style2 s">Date</td>
+            <td class="column3 style2 s">ACCOUNT ID</td>
+            <td class="column4 style8 s">Product</td>
+            <td class="column5 style9 s">Exception</td>
+          </tr>
+          <tr class="row1">
+            <td class="column0 style3 s style7" rowspan="5">A. RAUF DALAL</td>
+            <td class="column1 style4 s">C007885810</td>
+            <td class="column2 style5 n">2/10/2015</td>
+            <td class="column3 style4 s">MC0001229490</td>
+            <td class="column4 style10 s">ABS UNBRANDED</td>
+            <td class="column5 style11 null"></td>
+          </tr>
+          <tr class="row2">
+            <td class="column1 style4 s">C007885813</td>
+            <td class="column2 style5 n">3/10/2015</td>
+            <td class="column3 style4 s">MC0001229490</td>
+            <td class="column4 style10 s">ABS UNBRANDED</td>
+            <td class="column5 style11 s">C007885813,C007885799,C007903347 - SMSBOLI BRANDED and ABS UNBRANDED Calls within 7 days</td>
+          </tr>
+          <tr class="row3">
+            <td class="column1 style4 s">C007885799</td>
+            <td class="column2 style5 n">3/10/2015</td>
+            <td class="column3 style4 s">MC0001229490</td>
+            <td class="column4 style10 s">ABS UNBRANDED</td>
+            <td class="column5 style11 s">C007885813,C007885799,C007903347 - SMSBOLI BRANDED and ABS UNBRANDED Calls within 7 days</td>
+          </tr>
+          <tr class="row4">
+            <td class="column1 style4 s">C007903347</td>
+            <td class="column2 style5 n">3/13/2015</td>
+            <td class="column3 style4 s">MC0001229490</td>
+            <td class="column4 style10 s">SMSBOLI BRANDED</td>
+            <td class="column5 style11 s">C007885813,C007885799,C007903347 - SMSBOLI BRANDED and ABS UNBRANDED Calls within 7 days</td>
+          </tr>
+          <tr class="row5">
+            <td class="column1 style4 s">C007903344</td>
+            <td class="column2 style5 n">4/13/2015</td>
+            <td class="column3 style4 s">MC0001229490</td>
+            <td class="column4 style10 s">SMSBOLI BRANDED</td>
+            <td class="column5 style11 null"></td>
+          </tr>
+          <tr class="row6">
+            <td class="column0 style3 s style7" rowspan="4">AMANDA CERRONI</td>
+            <td class="column1 style4 s">C008355692</td>
+            <td class="column2 style5 n">7/20/2015</td>
+            <td class="column3 style4 s">MC0000012806</td>
+            <td class="column4 style10 s">ABS UNBRANDED</td>
+            <td class="column5 style11 s">C008355692,C008363816 - SMSBOLI BRANDED and ABS UNBRANDED Calls within 7 days</td>
+          </tr>
+          <tr class="row7">
+            <td class="column1 style4 s">C008363816</td>
+            <td class="column2 style5 n">7/22/2015</td>
+            <td class="column3 style4 s">MC0000012806</td>
+            <td class="column4 style10 s">SMSBOLI BRANDED</td>
+            <td class="column5 style11 s">C008355692,C008363816 - SMSBOLI BRANDED and ABS UNBRANDED Calls within 7 days</td>
+          </tr>
+          <tr class="row8">
+            <td class="column1 style4 s">C007896180</td>
+            <td class="column2 style5 n">3/12/2015</td>
+            <td class="column3 style4 s">MC0000204847</td>
+            <td class="column4 style10 s">SMSBOLI BRANDED</td>
+            <td class="column5 style11 s">C007896180,C007913010 - SMSBOLI BRANDED and ABS UNBRANDED Calls within 7 days</td>
+          </tr>
+          <tr class="row9">
+            <td class="column1 style4 s">C007913010</td>
+            <td class="column2 style5 n">3/18/2015</td>
+            <td class="column3 style4 s">MC0000204847</td>
+            <td class="column4 style10 s">ABS UNBRANDED</td>
+            <td class="column5 style11 s">C007896180,C007913010 - SMSBOLI BRANDED and ABS UNBRANDED Calls within 7 days</td>
+          </tr>
+          <tr class="row10">
+            <td class="column0 style3 s style7" rowspan="14">AMBER HAMILTON</td>
+            <td class="column1 style4 s">C008114679</td>
+            <td class="column2 style5 n">5/6/2015</td>
+            <td class="column3 style4 s">MC0000138793</td>
+            <td class="column4 style10 s">SMSBOLI BRANDED</td>
+            <td class="column5 style11 s">C008114679,C008114675,C008131963 - SMSBOLI BRANDED and ABS UNBRANDED Calls within 7 days</td>
+          </tr>
+          <tr class="row11">
+            <td class="column1 style4 s">C008114675</td>
+            <td class="column2 style5 n">5/6/2015</td>
+            <td class="column3 style4 s">MC0000138793</td>
+            <td class="column4 style10 s">SMSBOLI BRANDED</td>
+            <td class="column5 style11 s">C008114679,C008114675,C008131963 - SMSBOLI BRANDED and ABS UNBRANDED Calls within 7 days</td>
+          </tr>
+          <tr class="row12">
+            <td class="column1 style4 s">C008131963</td>
+            <td class="column2 style5 n">5/11/2015</td>
+            <td class="column3 style4 s">MC0000138793</td>
+            <td class="column4 style10 s">ABS UNBRANDED</td>
+            <td class="column5 style11 s">C008114679,C008114675,C008131963 - SMSBOLI BRANDED and ABS UNBRANDED Calls within 7 days</td>
+          </tr>
+          <tr class="row13">
+            <td class="column1 style4 s">C008114696</td>
+            <td class="column2 style5 n">5/7/2015</td>
+            <td class="column3 style4 s">MC0000394213</td>
+            <td class="column4 style10 s">SMSBOLI BRANDED</td>
+            <td class="column5 style11 s">C008114696,C008132006 - SMSBOLI BRANDED and ABS UNBRANDED Calls within 7 days</td>
+          </tr>
+          <tr class="row14">
+            <td class="column1 style4 s">C008132006</td>
+            <td class="column2 style5 n">5/12/2015</td>
+            <td class="column3 style4 s">MC0000394213</td>
+            <td class="column4 style10 s">ABS UNBRANDED</td>
+            <td class="column5 style11 s">C008114696,C008132006 - SMSBOLI BRANDED and ABS UNBRANDED Calls within 7 days</td>
+          </tr>
+          <tr class="row15">
+            <td class="column1 style4 s">C008114674</td>
+            <td class="column2 style5 n">5/6/2015</td>
+            <td class="column3 style4 s">MC0001302656</td>
+            <td class="column4 style10 s">SMSBOLI BRANDED</td>
+            <td class="column5 style11 s">C008114674,C008114678,C008131962 - SMSBOLI BRANDED and ABS UNBRANDED Calls within 7 days</td>
+          </tr>
+          <tr class="row16">
+            <td class="column1 style4 s">C008114678</td>
+            <td class="column2 style5 n">5/6/2015</td>
+            <td class="column3 style4 s">MC0001302656</td>
+            <td class="column4 style10 s">SMSBOLI BRANDED</td>
+            <td class="column5 style11 s">C008114674,C008114678,C008131962 - SMSBOLI BRANDED and ABS UNBRANDED Calls within 7 days</td>
+          </tr>
+          <tr class="row17">
+            <td class="column1 style4 s">C008131962</td>
+            <td class="column2 style5 n">5/11/2015</td>
+            <td class="column3 style4 s">MC0001302656</td>
+            <td class="column4 style10 s">ABS UNBRANDED</td>
+            <td class="column5 style11 s">C008114674,C008114678,C008131962 - SMSBOLI BRANDED and ABS UNBRANDED Calls within 7 days</td>
+          </tr>
+          <tr class="row18">
+            <td class="column1 style4 s">C008087306</td>
+            <td class="column2 style5 n">5/1/2015</td>
+            <td class="column3 style4 s">MC0001322215</td>
+            <td class="column4 style10 s">ABS UNBRANDED</td>
+            <td class="column5 style11 s">C008087306,C008114680 - SMSBOLI BRANDED and ABS UNBRANDED Calls within 7 days</td>
+          </tr>
+          <tr class="row19">
+            <td class="column1 style4 s">C008114680</td>
+            <td class="column2 style5 n">5/6/2015</td>
+            <td class="column3 style4 s">MC0001322215</td>
+            <td class="column4 style10 s">SMSBOLI BRANDED</td>
+            <td class="column5 style11 s">C008087306,C008114680 - SMSBOLI BRANDED and ABS UNBRANDED Calls within 7 days</td>
+          </tr>
+          <tr class="row20">
+            <td class="column1 style4 s">C008114694</td>
+            <td class="column2 style5 n">5/7/2015</td>
+            <td class="column3 style4 s">MC1016531117</td>
+            <td class="column4 style10 s">SMSBOLI BRANDED</td>
+            <td class="column5 style11 s">C008114694,C008131974 - SMSBOLI BRANDED and ABS UNBRANDED Calls within 7 days</td>
+          </tr>
+          <tr class="row21">
+            <td class="column1 style4 s">C008131974</td>
+            <td class="column2 style5 n">5/12/2015</td>
+            <td class="column3 style4 s">MC1016531117</td>
+            <td class="column4 style10 s">ABS UNBRANDED</td>
+            <td class="column5 style11 s">C008114694,C008131974 - SMSBOLI BRANDED and ABS UNBRANDED Calls within 7 days</td>
+          </tr>
+          <tr class="row22">
+            <td class="column1 style4 s">C008114677</td>
+            <td class="column2 style5 n">5/6/2015</td>
+            <td class="column3 style4 s">MC1017138577</td>
+            <td class="column4 style10 s">SMSBOLI BRANDED</td>
+            <td class="column5 style11 s">C008114677,C008131961 - SMSBOLI BRANDED and ABS UNBRANDED Calls within 7 days</td>
+          </tr>
+          <tr class="row23">
+            <td class="column1 style4 s">C008131961</td>
+            <td class="column2 style5 n">5/11/2015</td>
+            <td class="column3 style4 s">MC1017138577</td>
+            <td class="column4 style10 s">ABS UNBRANDED</td>
+            <td class="column5 style11 s">C008114677,C008131961 - SMSBOLI BRANDED and ABS UNBRANDED Calls within 7 days</td>
+          </tr>
+        </tbody>
+    </table>
+  </body>
+</html>

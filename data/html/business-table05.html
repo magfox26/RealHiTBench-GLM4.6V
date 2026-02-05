@@ -1,0 +1,1600 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <meta name="generator" content="PhpSpreadsheet, https://github.com/PHPOffice/PhpSpreadsheet">
+      <meta name="author" content="heyijing" />
+      <meta name="company" content="Microsoft Corporation" />
+    <style type="text/css">
+      html { font-family:Calibri, Arial, Helvetica, sans-serif; font-size:11pt; background-color:white }
+      a.comment-indicator:hover + div.comment { background:#ffd; position:absolute; display:block; border:1px solid black; padding:0.5em }
+      a.comment-indicator { background:red; display:inline-block; border:1px solid black; width:0.5em; height:0.5em }
+      div.comment { display:none }
+      table { border-collapse:collapse; page-break-after:always }
+      .gridlines td { border:1px dotted black }
+      .gridlines th { border:1px dotted black }
+      .b { text-align:center }
+      .e { text-align:center }
+      .f { text-align:right }
+      .inlineStr { text-align:left }
+      .n { text-align:right }
+      .s { text-align:left }
+      td.style0 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:white }
+      th.style0 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:white }
+      td.style1 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:12pt; background-color:white }
+      th.style1 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:12pt; background-color:white }
+      td.style2 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:12pt; background-color:white }
+      th.style2 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:12pt; background-color:white }
+      td.style3 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:12pt; background-color:white }
+      th.style3 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:12pt; background-color:white }
+      td.style4 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Arial'; font-size:16pt; background-color:white }
+      th.style4 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Arial'; font-size:16pt; background-color:white }
+      td.style5 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:12pt; background-color:white }
+      th.style5 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:12pt; background-color:white }
+      td.style6 { vertical-align:top; text-align:left; padding-left:0px; border-bottom:1px solid #D9D9D9 !important; border-top:1px solid #D9D9D9 !important; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Arial'; font-size:12pt; background-color:white }
+      th.style6 { vertical-align:top; text-align:left; padding-left:0px; border-bottom:1px solid #D9D9D9 !important; border-top:1px solid #D9D9D9 !important; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Arial'; font-size:12pt; background-color:white }
+      td.style7 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:12pt; background-color:white }
+      th.style7 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:12pt; background-color:white }
+      td.style8 { vertical-align:top; text-align:left; padding-left:0px; border-bottom:1px solid #D9D9D9 !important; border-top:1px solid #D9D9D9 !important; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Arial'; font-size:12pt; background-color:white }
+      th.style8 { vertical-align:top; text-align:left; padding-left:0px; border-bottom:1px solid #D9D9D9 !important; border-top:1px solid #D9D9D9 !important; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Arial'; font-size:12pt; background-color:white }
+      td.style9 { vertical-align:top; text-align:right; padding-right:0px; border-bottom:1px solid #D9D9D9 !important; border-top:1px solid #D9D9D9 !important; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Arial'; font-size:12pt; background-color:white }
+      th.style9 { vertical-align:top; text-align:right; padding-right:0px; border-bottom:1px solid #D9D9D9 !important; border-top:1px solid #D9D9D9 !important; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Arial'; font-size:12pt; background-color:white }
+      td.style10 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:12pt; background-color:white }
+      th.style10 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:12pt; background-color:white }
+      td.style11 { vertical-align:bottom; border-bottom:1px solid #D9D9D9 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:12pt; background-color:white }
+      th.style11 { vertical-align:bottom; border-bottom:1px solid #D9D9D9 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:12pt; background-color:white }
+      td.style12 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; text-decoration:underline; color:#0000FF; font-family:'Arial'; font-size:12pt; background-color:white }
+      th.style12 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; text-decoration:underline; color:#0000FF; font-family:'Arial'; font-size:12pt; background-color:white }
+      td.style13 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; text-decoration:underline; color:#0000FF; font-family:'Arial'; font-size:12pt; background-color:white }
+      th.style13 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; text-decoration:underline; color:#0000FF; font-family:'Arial'; font-size:12pt; background-color:white }
+      td.style14 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:1px solid #D9D9D9 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:12pt; background-color:white }
+      th.style14 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:1px solid #D9D9D9 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:12pt; background-color:white }
+      table.sheet0 col.col0 { width:44.05555505pt }
+      table.sheet0 col.col1 { width:44.05555505pt }
+      table.sheet0 col.col2 { width:74.5555547pt }
+      table.sheet0 col.col3 { width:46.08888836pt }
+      table.sheet0 col.col4 { width:112.51110982pt }
+      table.sheet0 col.col5 { width:76.58888801pt }
+      table.sheet0 col.col6 { width:84.04444348pt }
+      table.sheet0 col.col7 { width:98.27777665pt }
+      table.sheet0 col.col8 { width:98.27777665pt }
+      table.sheet0 col.col9 { width:98.27777665pt }
+      table.sheet0 col.col10 { width:43.37777728pt }
+      table.sheet0 tr { height:12.75pt }
+      table.sheet0 tr.row0 { height:23.2pt }
+      table.sheet0 tr.row3 { height:15.75pt }
+      table.sheet0 tr.row4 { height:35.45pt }
+    </style>
+  </head>
+
+  <body>
+<style>
+@page { margin-left: 0.25in; margin-right: 0.25in; margin-top: 0.75in; margin-bottom: 0.75in; }
+body { margin-left: 0.25in; margin-right: 0.25in; margin-top: 0.75in; margin-bottom: 0.75in; }
+</style>
+    <table border="0" cellpadding="0" cellspacing="0" id="sheet0" class="sheet0">
+        <col class="col0">
+        <col class="col1">
+        <col class="col2">
+        <col class="col3">
+        <col class="col4">
+        <col class="col5">
+        <col class="col6">
+        <col class="col7">
+        <col class="col8">
+        <col class="col9">
+        <col class="col10">
+        <tbody>
+          <tr class="row0">
+            <td class="column0 style4 s">1. Total</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row1">
+            <td class="column0 style3 s">Source: UK overseas trade in goods statistics from HM Revenue &amp; Customs, and Inter-Departmental Business Register from the Office for National Statistics</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row2">
+            <td class="column0 style3 s">This worksheet contains one table.</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row3">
+            <td class="column0 style5 null"></td>
+            <td class="column1 style5 null"></td>
+            <td class="column2 style5 null"></td>
+            <td class="column3 style5 null"></td>
+            <td class="column4 style5 null"></td>
+            <td class="column5 style5 null"></td>
+            <td class="column6 style5 null"></td>
+            <td class="column7 style7 null"></td>
+            <td class="column8 style7 null"></td>
+            <td class="column9 style7 null"></td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row4">
+            <td class="column0 style6 s">Flow</td>
+            <td class="column1 style6 s">Year</td>
+            <td class="column2 style6 s">Country</td>
+            <td class="column3 style6 s">Zone</td>
+            <td class="column4 style6 s">Business size<br />
+(No. of employees)</td>
+            <td class="column5 style8 s">Age (Years)</td>
+            <td class="column6 style8 s">Industry group</td>
+            <td class="column7 style9 s">Value (£)</td>
+            <td class="column8 style9 s">Business count</td>
+            <td class="column9 style9 s">Employee count</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row5">
+            <td class="column0 style3 s">Import</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">Belgium</td>
+            <td class="column3 style3 s">EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">28,270,240,026</td>
+            <td class="column8 style10 n">19,658</td>
+            <td class="column9 style10 n">5,720,525</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row6">
+            <td class="column0 style3 s">Import</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">Czechia</td>
+            <td class="column3 style3 s">EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">5,483,487,483</td>
+            <td class="column8 style10 n">7,914</td>
+            <td class="column9 style10 n">3,676,250</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row7">
+            <td class="column0 style3 s">Import</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">Denmark</td>
+            <td class="column3 style3 s">EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">5,692,520,391</td>
+            <td class="column8 style10 n">14,660</td>
+            <td class="column9 style10 n">4,630,402</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row8">
+            <td class="column0 style3 s">Import</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">France</td>
+            <td class="column3 style3 s">EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">40,056,962,722</td>
+            <td class="column8 style10 n">42,713</td>
+            <td class="column9 style10 n">7,584,722</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row9">
+            <td class="column0 style3 s">Import</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">Germany</td>
+            <td class="column3 style3 s">EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">76,217,272,729</td>
+            <td class="column8 style10 n">52,046</td>
+            <td class="column9 style10 n">8,667,026</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row10">
+            <td class="column0 style3 s">Import</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">Ireland</td>
+            <td class="column3 style3 s">EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">18,842,513,027</td>
+            <td class="column8 style10 n">18,228</td>
+            <td class="column9 style10 n">6,129,368</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row11">
+            <td class="column0 style3 s">Import</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">Italy</td>
+            <td class="column3 style3 s">EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">22,102,506,160</td>
+            <td class="column8 style10 n">42,014</td>
+            <td class="column9 style10 n">6,740,435</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row12">
+            <td class="column0 style3 s">Import</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">Netherlands</td>
+            <td class="column3 style3 s">EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">51,544,105,959</td>
+            <td class="column8 style10 n">43,410</td>
+            <td class="column9 style10 n">8,095,715</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row13">
+            <td class="column0 style3 s">Import</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">Poland</td>
+            <td class="column3 style3 s">EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">13,048,624,033</td>
+            <td class="column8 style10 n">18,989</td>
+            <td class="column9 style10 n">4,681,376</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row14">
+            <td class="column0 style3 s">Import</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">Spain</td>
+            <td class="column3 style3 s">EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">19,401,617,345</td>
+            <td class="column8 style10 n">24,163</td>
+            <td class="column9 style10 n">5,767,026</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row15">
+            <td class="column0 style3 s">Import</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">Sweden</td>
+            <td class="column3 style3 s">EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">8,028,188,723</td>
+            <td class="column8 style10 n">12,399</td>
+            <td class="column9 style10 n">4,507,482</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row16">
+            <td class="column0 style3 s">Import</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">Algeria</td>
+            <td class="column3 style3 s">Non-EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">1,613,531,363</td>
+            <td class="column8 style10 n">91</td>
+            <td class="column9 style10 n">47,061</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row17">
+            <td class="column0 style3 s">Import</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">Australia</td>
+            <td class="column3 style3 s">Non-EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">3,496,089,741</td>
+            <td class="column8 style10 n">5,673</td>
+            <td class="column9 style10 n">2,871,706</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row18">
+            <td class="column0 style3 s">Import</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">Bahrain</td>
+            <td class="column3 style3 s">Non-EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">143,107,452</td>
+            <td class="column8 style10 n">263</td>
+            <td class="column9 style10 n">202,469</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row19">
+            <td class="column0 style3 s">Import</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">Bangladesh</td>
+            <td class="column3 style3 s">Non-EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">3,031,047,297</td>
+            <td class="column8 style10 n">1,080</td>
+            <td class="column9 style10 n">1,303,114</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row20">
+            <td class="column0 style3 s">Import</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">Brazil</td>
+            <td class="column3 style3 s">Non-EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">3,117,095,918</td>
+            <td class="column8 style10 n">1,953</td>
+            <td class="column9 style10 n">1,269,867</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row21">
+            <td class="column0 style3 s">Import</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">Brunei</td>
+            <td class="column3 style3 s">Non-EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">2,243,205</td>
+            <td class="column8 style10 n">47</td>
+            <td class="column9 style10 n">62,001</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row22">
+            <td class="column0 style3 s">Import</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">Cambodia</td>
+            <td class="column3 style3 s">Non-EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">672,549,094</td>
+            <td class="column8 style10 n">310</td>
+            <td class="column9 style10 n">1,173,679</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row23">
+            <td class="column0 style3 s">Import</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">Canada</td>
+            <td class="column3 style3 s">Non-EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">10,598,557,429</td>
+            <td class="column8 style10 n">8,649</td>
+            <td class="column9 style10 n">3,489,782</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row24">
+            <td class="column0 style3 s">Import</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">Chile</td>
+            <td class="column3 style3 s">Non-EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">440,603,948</td>
+            <td class="column8 style10 n">576</td>
+            <td class="column9 style10 n">1,083,211</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row25">
+            <td class="column0 style3 s">Import</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">China</td>
+            <td class="column3 style3 s">Non-EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">62,221,061,989</td>
+            <td class="column8 style10 n">77,095</td>
+            <td class="column9 style10 n">5,641,910</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row26">
+            <td class="column0 style3 s">Import</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">Greenland</td>
+            <td class="column3 style3 s">Non-EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">670,217</td>
+            <td class="column8 style10 n">10</td>
+            <td class="column9 style10 n">872</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row27">
+            <td class="column0 style3 s">Import</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">Hong Kong</td>
+            <td class="column3 style3 s">Non-EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">4,788,862,543</td>
+            <td class="column8 style10 n">19,839</td>
+            <td class="column9 style10 n">3,770,024</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row28">
+            <td class="column0 style3 s">Import</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">Iceland</td>
+            <td class="column3 style3 s">Non-EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">523,701,722</td>
+            <td class="column8 style10 n">527</td>
+            <td class="column9 style10 n">408,089</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row29">
+            <td class="column0 style3 s">Import</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">India</td>
+            <td class="column3 style3 s">Non-EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">9,864,425,395</td>
+            <td class="column8 style10 n">16,190</td>
+            <td class="column9 style10 n">3,228,950</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row30">
+            <td class="column0 style3 s">Import</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">Indonesia</td>
+            <td class="column3 style3 s">Non-EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">1,181,043,513</td>
+            <td class="column8 style10 n">2,156</td>
+            <td class="column9 style10 n">1,666,165</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row31">
+            <td class="column0 style3 s">Import</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">Israel</td>
+            <td class="column3 style3 s">Non-EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">1,760,308,106</td>
+            <td class="column8 style10 n">3,298</td>
+            <td class="column9 style10 n">1,984,713</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row32">
+            <td class="column0 style3 s">Import</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">Japan</td>
+            <td class="column3 style3 s">Non-EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">9,963,730,886</td>
+            <td class="column8 style10 n">7,658</td>
+            <td class="column9 style10 n">2,232,215</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row33">
+            <td class="column0 style3 s">Import</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">Kuwait</td>
+            <td class="column3 style3 s">Non-EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">2,806,790,513</td>
+            <td class="column8 style10 n">224</td>
+            <td class="column9 style10 n">249,163</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row34">
+            <td class="column0 style3 s">Import</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">Malaysia</td>
+            <td class="column3 style3 s">Non-EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">1,782,520,576</td>
+            <td class="column8 style10 n">2,966</td>
+            <td class="column9 style10 n">1,930,906</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row35">
+            <td class="column0 style3 s">Import</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">Mexico</td>
+            <td class="column3 style3 s">Non-EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">2,352,385,100</td>
+            <td class="column8 style10 n">1,376</td>
+            <td class="column9 style10 n">1,058,668</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row36">
+            <td class="column0 style3 s">Import</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">New Zealand</td>
+            <td class="column3 style3 s">Non-EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">758,087,509</td>
+            <td class="column8 style10 n">1,823</td>
+            <td class="column9 style10 n">1,599,425</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row37">
+            <td class="column0 style3 s">Import</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">Nigeria</td>
+            <td class="column3 style3 s">Non-EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">1,941,779,839</td>
+            <td class="column8 style10 n">621</td>
+            <td class="column9 style10 n">146,523</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row38">
+            <td class="column0 style3 s">Import</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">Norway</td>
+            <td class="column3 style3 s">Non-EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">26,709,403,339</td>
+            <td class="column8 style10 n">4,231</td>
+            <td class="column9 style10 n">1,959,408</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row39">
+            <td class="column0 style3 s">Import</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">Oman</td>
+            <td class="column3 style3 s">Non-EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">230,220,540</td>
+            <td class="column8 style10 n">309</td>
+            <td class="column9 style10 n">214,569</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row40">
+            <td class="column0 style3 s">Import</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">Peru</td>
+            <td class="column3 style3 s">Non-EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">1,283,147,946</td>
+            <td class="column8 style10 n">521</td>
+            <td class="column9 style10 n">540,162</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row41">
+            <td class="column0 style3 s">Import</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">Qatar</td>
+            <td class="column3 style3 s">Non-EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">2,176,839,333</td>
+            <td class="column8 style10 n">561</td>
+            <td class="column9 style10 n">395,868</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row42">
+            <td class="column0 style3 s">Import</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">Russia</td>
+            <td class="column3 style3 s">Non-EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">68,240,110</td>
+            <td class="column8 style10 n">127</td>
+            <td class="column9 style10 n">71,527</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row43">
+            <td class="column0 style3 s">Import</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">Saudi Arabia</td>
+            <td class="column3 style3 s">Non-EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">2,748,002,729</td>
+            <td class="column8 style10 n">921</td>
+            <td class="column9 style10 n">712,146</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row44">
+            <td class="column0 style3 s">Import</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">Singapore</td>
+            <td class="column3 style3 s">Non-EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">2,779,081,776</td>
+            <td class="column8 style10 n">3,396</td>
+            <td class="column9 style10 n">1,830,309</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row45">
+            <td class="column0 style3 s">Import</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">South Africa</td>
+            <td class="column3 style3 s">Non-EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">5,836,067,898</td>
+            <td class="column8 style10 n">3,138</td>
+            <td class="column9 style10 n">1,952,968</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row46">
+            <td class="column0 style3 s">Import</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">South Korea</td>
+            <td class="column3 style3 s">Non-EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">5,982,835,232</td>
+            <td class="column8 style10 n">6,301</td>
+            <td class="column9 style10 n">1,593,926</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row47">
+            <td class="column0 style3 s">Import</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">Sri Lanka</td>
+            <td class="column3 style3 s">Non-EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">592,549,060</td>
+            <td class="column8 style10 n">1,079</td>
+            <td class="column9 style10 n">1,186,526</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row48">
+            <td class="column0 style3 s">Import</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">Switzerland</td>
+            <td class="column3 style3 s">Non-EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">12,173,148,880</td>
+            <td class="column8 style10 n">9,643</td>
+            <td class="column9 style10 n">3,227,102</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row49">
+            <td class="column0 style3 s">Import</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">Taiwan</td>
+            <td class="column3 style3 s">Non-EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">3,133,726,988</td>
+            <td class="column8 style10 n">8,122</td>
+            <td class="column9 style10 n">2,199,607</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row50">
+            <td class="column0 style3 s">Import</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">Thailand</td>
+            <td class="column3 style3 s">Non-EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">2,930,086,778</td>
+            <td class="column8 style10 n">4,851</td>
+            <td class="column9 style10 n">2,121,939</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row51">
+            <td class="column0 style3 s">Import</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">Turkey</td>
+            <td class="column3 style3 s">Non-EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">11,889,008,294</td>
+            <td class="column8 style10 n">14,113</td>
+            <td class="column9 style10 n">3,178,765</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row52">
+            <td class="column0 style3 s">Import</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">UAE</td>
+            <td class="column3 style3 s">Non-EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">3,144,470,204</td>
+            <td class="column8 style10 n">3,863</td>
+            <td class="column9 style10 n">1,035,767</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row53">
+            <td class="column0 style3 s">Import</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">Ukraine</td>
+            <td class="column3 style3 s">Non-EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">317,094,123</td>
+            <td class="column8 style10 n">777</td>
+            <td class="column9 style10 n">426,939</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row54">
+            <td class="column0 style3 s">Import</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">United States</td>
+            <td class="column3 style3 s">Non-EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">63,309,062,535</td>
+            <td class="column8 style10 n">45,060</td>
+            <td class="column9 style10 n">7,807,691</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row55">
+            <td class="column0 style3 s">Import</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">Vietnam</td>
+            <td class="column3 style3 s">Non-EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">5,102,243,738</td>
+            <td class="column8 style10 n">5,453</td>
+            <td class="column9 style10 n">2,011,118</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row56">
+            <td class="column0 style3 s">Export</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">Belgium</td>
+            <td class="column3 style3 s">EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">20,295,080,962</td>
+            <td class="column8 style10 n">16,161</td>
+            <td class="column9 style10 n">3,134,804</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row57">
+            <td class="column0 style3 s">Export</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">Czechia</td>
+            <td class="column3 style3 s">EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">2,201,088,454</td>
+            <td class="column8 style10 n">9,820</td>
+            <td class="column9 style10 n">2,492,345</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row58">
+            <td class="column0 style3 s">Export</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">Denmark</td>
+            <td class="column3 style3 s">EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">2,671,466,023</td>
+            <td class="column8 style10 n">12,795</td>
+            <td class="column9 style10 n">2,834,630</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row59">
+            <td class="column0 style3 s">Export</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">France</td>
+            <td class="column3 style3 s">EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">23,872,217,810</td>
+            <td class="column8 style10 n">30,504</td>
+            <td class="column9 style10 n">5,392,871</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row60">
+            <td class="column0 style3 s">Export</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">Germany</td>
+            <td class="column3 style3 s">EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">32,432,415,283</td>
+            <td class="column8 style10 n">33,492</td>
+            <td class="column9 style10 n">5,914,194</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row61">
+            <td class="column0 style3 s">Export</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">Ireland</td>
+            <td class="column3 style3 s">EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">27,409,134,267</td>
+            <td class="column8 style10 n">37,094</td>
+            <td class="column9 style10 n">6,345,612</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row62">
+            <td class="column0 style3 s">Export</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">Italy</td>
+            <td class="column3 style3 s">EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">9,845,745,493</td>
+            <td class="column8 style10 n">21,117</td>
+            <td class="column9 style10 n">4,277,109</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row63">
+            <td class="column0 style3 s">Export</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">Netherlands</td>
+            <td class="column3 style3 s">EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">30,035,139,626</td>
+            <td class="column8 style10 n">30,229</td>
+            <td class="column9 style10 n">5,956,498</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row64">
+            <td class="column0 style3 s">Export</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">Poland</td>
+            <td class="column3 style3 s">EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">6,666,197,818</td>
+            <td class="column8 style10 n">15,060</td>
+            <td class="column9 style10 n">3,446,051</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row65">
+            <td class="column0 style3 s">Export</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">Spain</td>
+            <td class="column3 style3 s">EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">9,480,216,468</td>
+            <td class="column8 style10 n">18,894</td>
+            <td class="column9 style10 n">4,437,263</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row66">
+            <td class="column0 style3 s">Export</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">Sweden</td>
+            <td class="column3 style3 s">EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">4,848,027,866</td>
+            <td class="column8 style10 n">13,817</td>
+            <td class="column9 style10 n">2,929,468</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row67">
+            <td class="column0 style3 s">Export</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">Algeria</td>
+            <td class="column3 style3 s">Non-EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">212,042,603</td>
+            <td class="column8 style10 n">663</td>
+            <td class="column9 style10 n">235,317</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row68">
+            <td class="column0 style3 s">Export</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">Australia</td>
+            <td class="column3 style3 s">Non-EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">4,717,587,093</td>
+            <td class="column8 style10 n">15,478</td>
+            <td class="column9 style10 n">2,861,314</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row69">
+            <td class="column0 style3 s">Export</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">Bahrain</td>
+            <td class="column3 style3 s">Non-EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">311,654,428</td>
+            <td class="column8 style10 n">2,513</td>
+            <td class="column9 style10 n">864,452</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row70">
+            <td class="column0 style3 s">Export</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">Bangladesh</td>
+            <td class="column3 style3 s">Non-EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">435,833,500</td>
+            <td class="column8 style10 n">822</td>
+            <td class="column9 style10 n">253,079</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row71">
+            <td class="column0 style3 s">Export</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">Brazil</td>
+            <td class="column3 style3 s">Non-EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">2,563,671,810</td>
+            <td class="column8 style10 n">3,762</td>
+            <td class="column9 style10 n">1,101,293</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row72">
+            <td class="column0 style3 s">Export</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">Brunei</td>
+            <td class="column3 style3 s">Non-EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">604,129,366</td>
+            <td class="column8 style10 n">620</td>
+            <td class="column9 style10 n">342,852</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row73">
+            <td class="column0 style3 s">Export</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">Cambodia</td>
+            <td class="column3 style3 s">Non-EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">56,926,863</td>
+            <td class="column8 style10 n">365</td>
+            <td class="column9 style10 n">200,191</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row74">
+            <td class="column0 style3 s">Export</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">Canada</td>
+            <td class="column3 style3 s">Non-EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">6,149,094,937</td>
+            <td class="column8 style10 n">13,226</td>
+            <td class="column9 style10 n">2,921,268</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row75">
+            <td class="column0 style3 s">Export</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">Chile</td>
+            <td class="column3 style3 s">Non-EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">508,612,576</td>
+            <td class="column8 style10 n">2,541</td>
+            <td class="column9 style10 n">949,842</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row76">
+            <td class="column0 style3 s">Export</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">China</td>
+            <td class="column3 style3 s">Non-EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">27,364,806,583</td>
+            <td class="column8 style10 n">10,426</td>
+            <td class="column9 style10 n">2,704,781</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row77">
+            <td class="column0 style3 s">Export</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">Greenland</td>
+            <td class="column3 style3 s">Non-EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">3,526,362</td>
+            <td class="column8 style10 n">74</td>
+            <td class="column9 style10 n">5,433</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row78">
+            <td class="column0 style3 s">Export</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">Hong Kong</td>
+            <td class="column3 style3 s">Non-EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">12,991,813,180</td>
+            <td class="column8 style10 n">10,291</td>
+            <td class="column9 style10 n">2,701,078</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row79">
+            <td class="column0 style3 s">Export</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">Iceland</td>
+            <td class="column3 style3 s">Non-EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">333,121,921</td>
+            <td class="column8 style10 n">4,062</td>
+            <td class="column9 style10 n">1,354,734</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row80">
+            <td class="column0 style3 s">Export</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">India</td>
+            <td class="column3 style3 s">Non-EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">10,315,445,187</td>
+            <td class="column8 style10 n">9,165</td>
+            <td class="column9 style10 n">2,759,903</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row81">
+            <td class="column0 style3 s">Export</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">Indonesia</td>
+            <td class="column3 style3 s">Non-EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">793,460,084</td>
+            <td class="column8 style10 n">2,980</td>
+            <td class="column9 style10 n">978,552</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row82">
+            <td class="column0 style3 s">Export</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">Israel</td>
+            <td class="column3 style3 s">Non-EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">1,508,947,504</td>
+            <td class="column8 style10 n">6,595</td>
+            <td class="column9 style10 n">1,514,337</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row83">
+            <td class="column0 style3 s">Export</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">Japan</td>
+            <td class="column3 style3 s">Non-EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">5,568,811,641</td>
+            <td class="column8 style10 n">8,969</td>
+            <td class="column9 style10 n">1,787,955</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row84">
+            <td class="column0 style3 s">Export</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">Kuwait</td>
+            <td class="column3 style3 s">Non-EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">659,202,318</td>
+            <td class="column8 style10 n">3,046</td>
+            <td class="column9 style10 n">1,176,914</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row85">
+            <td class="column0 style3 s">Export</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">Malaysia</td>
+            <td class="column3 style3 s">Non-EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">1,667,459,223</td>
+            <td class="column8 style10 n">5,743</td>
+            <td class="column9 style10 n">1,355,255</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row86">
+            <td class="column0 style3 s">Export</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">Mexico</td>
+            <td class="column3 style3 s">Non-EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">1,593,726,154</td>
+            <td class="column8 style10 n">3,683</td>
+            <td class="column9 style10 n">1,168,392</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row87">
+            <td class="column0 style3 s">Export</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">New Zealand</td>
+            <td class="column3 style3 s">Non-EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">1,003,227,007</td>
+            <td class="column8 style10 n">6,596</td>
+            <td class="column9 style10 n">1,548,688</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row88">
+            <td class="column0 style3 s">Export</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">Nigeria</td>
+            <td class="column3 style3 s">Non-EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">1,453,135,321</td>
+            <td class="column8 style10 n">3,424</td>
+            <td class="column9 style10 n">965,804</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row89">
+            <td class="column0 style3 s">Export</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">Norway</td>
+            <td class="column3 style3 s">Non-EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">3,253,873,861</td>
+            <td class="column8 style10 n">11,407</td>
+            <td class="column9 style10 n">2,021,930</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row90">
+            <td class="column0 style3 s">Export</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">Oman</td>
+            <td class="column3 style3 s">Non-EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">505,066,454</td>
+            <td class="column8 style10 n">2,358</td>
+            <td class="column9 style10 n">792,762</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row91">
+            <td class="column0 style3 s">Export</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">Peru</td>
+            <td class="column3 style3 s">Non-EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">211,715,340</td>
+            <td class="column8 style10 n">1,311</td>
+            <td class="column9 style10 n">507,694</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row92">
+            <td class="column0 style3 s">Export</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">Qatar</td>
+            <td class="column3 style3 s">Non-EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">3,643,067,024</td>
+            <td class="column8 style10 n">4,504</td>
+            <td class="column9 style10 n">1,190,243</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row93">
+            <td class="column0 style3 s">Export</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">Russia</td>
+            <td class="column3 style3 s">Non-EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">653,635,475</td>
+            <td class="column8 style10 n">350</td>
+            <td class="column9 style10 n">99,253</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row94">
+            <td class="column0 style3 s">Export</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">Saudi Arabia</td>
+            <td class="column3 style3 s">Non-EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">4,509,607,150</td>
+            <td class="column8 style10 n">7,030</td>
+            <td class="column9 style10 n">1,635,200</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row95">
+            <td class="column0 style3 s">Export</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">Singapore</td>
+            <td class="column3 style3 s">Non-EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">6,053,896,873</td>
+            <td class="column8 style10 n">9,714</td>
+            <td class="column9 style10 n">2,518,351</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row96">
+            <td class="column0 style3 s">Export</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">South Africa</td>
+            <td class="column3 style3 s">Non-EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">1,690,054,554</td>
+            <td class="column8 style10 n">7,805</td>
+            <td class="column9 style10 n">1,743,579</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row97">
+            <td class="column0 style3 s">Export</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">South Korea</td>
+            <td class="column3 style3 s">Non-EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">4,980,595,513</td>
+            <td class="column8 style10 n">6,619</td>
+            <td class="column9 style10 n">1,538,827</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row98">
+            <td class="column0 style3 s">Export</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">Sri Lanka</td>
+            <td class="column3 style3 s">Non-EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">131,113,577</td>
+            <td class="column8 style10 n">1,387</td>
+            <td class="column9 style10 n">496,870</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row99">
+            <td class="column0 style3 s">Export</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">Switzerland</td>
+            <td class="column3 style3 s">Non-EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">28,554,025,190</td>
+            <td class="column8 style10 n">14,449</td>
+            <td class="column9 style10 n">2,974,818</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row100">
+            <td class="column0 style3 s">Export</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">Taiwan</td>
+            <td class="column3 style3 s">Non-EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">1,759,294,379</td>
+            <td class="column8 style10 n">5,371</td>
+            <td class="column9 style10 n">1,254,277</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row101">
+            <td class="column0 style3 s">Export</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">Thailand</td>
+            <td class="column3 style3 s">Non-EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">1,570,866,573</td>
+            <td class="column8 style10 n">5,090</td>
+            <td class="column9 style10 n">1,371,122</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row102">
+            <td class="column0 style3 s">Export</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">Turkey</td>
+            <td class="column3 style3 s">Non-EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">6,483,814,522</td>
+            <td class="column8 style10 n">8,140</td>
+            <td class="column9 style10 n">1,811,745</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row103">
+            <td class="column0 style3 s">Export</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">UAE</td>
+            <td class="column3 style3 s">Non-EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">7,395,495,164</td>
+            <td class="column8 style10 n">14,094</td>
+            <td class="column9 style10 n">2,854,950</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row104">
+            <td class="column0 style3 s">Export</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">Ukraine</td>
+            <td class="column3 style3 s">Non-EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">561,012,207</td>
+            <td class="column8 style10 n">2,111</td>
+            <td class="column9 style10 n">677,246</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row105">
+            <td class="column0 style3 s">Export</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">United States</td>
+            <td class="column3 style3 s">Non-EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">57,709,280,168</td>
+            <td class="column8 style10 n">40,033</td>
+            <td class="column9 style10 n">5,329,297</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row106">
+            <td class="column0 style3 s">Export</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">Vietnam</td>
+            <td class="column3 style3 s">Non-EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">732,525,994</td>
+            <td class="column8 style10 n">3,034</td>
+            <td class="column9 style10 n">744,953</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row107">
+            <td class="column0 style3 s">Import</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">EU</td>
+            <td class="column3 style3 s">EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">326,086,133,031</td>
+            <td class="column8 style10 n">155,950</td>
+            <td class="column9 style10 n">12,248,461</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row108">
+            <td class="column0 style3 s">Export</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">EU</td>
+            <td class="column3 style3 s">EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">189,114,562,254</td>
+            <td class="column8 style10 n">95,316</td>
+            <td class="column9 style10 n">9,711,363</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row109">
+            <td class="column0 style3 s">Export</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">NEU</td>
+            <td class="column3 style3 s">Non-EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">233,338,415,791</td>
+            <td class="column8 style10 n">78,335</td>
+            <td class="column9 style10 n">8,172,301</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row110">
+            <td class="column0 style3 s">Import</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">NEU</td>
+            <td class="column3 style3 s">Non-EU</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">310,796,742,130</td>
+            <td class="column8 style10 n">151,890</td>
+            <td class="column9 style10 n">10,197,684</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row111">
+            <td class="column0 style3 s">Export</td>
+            <td class="column1 style3 s">2023</td>
+            <td class="column2 style3 s">World</td>
+            <td class="column3 style3 s">World</td>
+            <td class="column4 style3 s">All</td>
+            <td class="column5 style3 s">All</td>
+            <td class="column6 style3 s">All</td>
+            <td class="column7 style10 n">422,452,978,045</td>
+            <td class="column8 style10 n">123,577</td>
+            <td class="column9 style10 n">10,458,605</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row112">
+            <td class="column0 style11 s">Import</td>
+            <td class="column1 style11 s">2023</td>
+            <td class="column2 style11 s">World</td>
+            <td class="column3 style11 s">World</td>
+            <td class="column4 style11 s">All</td>
+            <td class="column5 style11 s">All</td>
+            <td class="column6 style11 s">All</td>
+            <td class="column7 style14 n">636,882,875,161</td>
+            <td class="column8 style14 n">245,670</td>
+            <td class="column9 style14 n">13,192,486</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row113">
+            <td class="column0">&nbsp;</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row114">
+            <td class="column0">&nbsp;</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+          <tr class="row115">
+            <td class="column0 style12 s">Return to Contents</td>
+            <td class="column1 style13 null"></td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+          </tr>
+        </tbody>
+    </table>
+  </body>
+</html>

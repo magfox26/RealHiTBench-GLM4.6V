@@ -57,8 +57,11 @@ if __name__ == '__main__':
     return start_line
 
 def build_eval_code(answer_code, chart_type):
+    """与 Qwen3-VL 一致：仅用 line.strip(' ') 处理每行。无有效代码时返回 "", "" 避免 exec 空块导致 IndentationError（图表任务逻辑）。"""
     extract_code = visualization_code_format(answer_code)
     python_code_lines = extract_code.strip().split('\n')
+    if not any(ln.strip() for ln in python_code_lines):
+        return "", ""
 
     eval_code = '''
 if chart_type == 'LineChart': 

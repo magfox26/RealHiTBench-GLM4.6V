@@ -1,0 +1,2252 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <meta name="generator" content="PhpSpreadsheet, https://github.com/PHPOffice/PhpSpreadsheet">
+      <meta name="author" content="ASUS" />
+    <style type="text/css">
+      html { font-family:Calibri, Arial, Helvetica, sans-serif; font-size:11pt; background-color:white }
+      a.comment-indicator:hover + div.comment { background:#ffd; position:absolute; display:block; border:1px solid black; padding:0.5em }
+      a.comment-indicator { background:red; display:inline-block; border:1px solid black; width:0.5em; height:0.5em }
+      div.comment { display:none }
+      table { border-collapse:collapse; page-break-after:always }
+      .gridlines td { border:1px dotted black }
+      .gridlines th { border:1px dotted black }
+      .b { text-align:center }
+      .e { text-align:center }
+      .f { text-align:right }
+      .inlineStr { text-align:left }
+      .n { text-align:right }
+      .s { text-align:left }
+      td.style0 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:white }
+      th.style0 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:white }
+      td.style1 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; text-decoration:underline; color:#0563C1; font-family:'Arial'; font-size:10pt; background-color:white }
+      th.style1 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; text-decoration:underline; color:#0563C1; font-family:'Arial'; font-size:10pt; background-color:white }
+      td.style2 { vertical-align:top; text-align:left; padding-left:0px; border-bottom:1px solid #000000 !important; border-top:2px solid #000000 !important; border-left:2px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#FFFFFF; font-family:'Calibri'; font-size:10pt; background-color:#00447C }
+      th.style2 { vertical-align:top; text-align:left; padding-left:0px; border-bottom:1px solid #000000 !important; border-top:2px solid #000000 !important; border-left:2px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#FFFFFF; font-family:'Calibri'; font-size:10pt; background-color:#00447C }
+      td.style3 { vertical-align:top; text-align:center; border-bottom:1px solid #000000 !important; border-top:2px solid #000000 !important; border-left:none #000000; border-right:1px solid #000000 !important; font-weight:bold; color:#FFFFFF; font-family:'Calibri'; font-size:9pt; background-color:#00447C }
+      th.style3 { vertical-align:top; text-align:center; border-bottom:1px solid #000000 !important; border-top:2px solid #000000 !important; border-left:none #000000; border-right:1px solid #000000 !important; font-weight:bold; color:#FFFFFF; font-family:'Calibri'; font-size:9pt; background-color:#00447C }
+      td.style4 { vertical-align:top; text-align:center; border-bottom:1px solid #000000 !important; border-top:2px solid #000000 !important; border-left:none #000000; border-right:1px solid #000000 !important; font-weight:bold; color:#FFFFFF; font-family:'Calibri'; font-size:10pt; background-color:#00447C }
+      th.style4 { vertical-align:top; text-align:center; border-bottom:1px solid #000000 !important; border-top:2px solid #000000 !important; border-left:none #000000; border-right:1px solid #000000 !important; font-weight:bold; color:#FFFFFF; font-family:'Calibri'; font-size:10pt; background-color:#00447C }
+      td.style5 { vertical-align:top; text-align:center; border-bottom:1px solid #000000 !important; border-top:2px solid #000000 !important; border-left:none #000000; border-right:2px solid #000000 !important; font-weight:bold; color:#FFFFFF; font-family:'Calibri'; font-size:10pt; background-color:#00447C }
+      th.style5 { vertical-align:top; text-align:center; border-bottom:1px solid #000000 !important; border-top:2px solid #000000 !important; border-left:none #000000; border-right:2px solid #000000 !important; font-weight:bold; color:#FFFFFF; font-family:'Calibri'; font-size:10pt; background-color:#00447C }
+      td.style6 { vertical-align:top; text-align:center; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:1px dotted #000000 !important; color:#000000; font-family:'Calibri'; font-size:9pt; background-color:#D8D8D8 }
+      th.style6 { vertical-align:top; text-align:center; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:1px dotted #000000 !important; color:#000000; font-family:'Calibri'; font-size:9pt; background-color:#D8D8D8 }
+      td.style7 { vertical-align:top; text-align:center; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:1px solid #000000 !important; color:#000000; font-family:'Calibri'; font-size:9pt; background-color:#D8D8D8 }
+      th.style7 { vertical-align:top; text-align:center; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:1px solid #000000 !important; color:#000000; font-family:'Calibri'; font-size:9pt; background-color:#D8D8D8 }
+      td.style8 { vertical-align:top; text-align:center; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:2px solid #000000 !important; color:#000000; font-family:'Calibri'; font-size:9pt; background-color:#D8D8D8 }
+      th.style8 { vertical-align:top; text-align:center; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:2px solid #000000 !important; color:#000000; font-family:'Calibri'; font-size:9pt; background-color:#D8D8D8 }
+      td.style9 { vertical-align:top; text-align:center; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:1px dotted #000000 !important; color:#00447C; font-family:'Calibri'; font-size:8pt; background-color:#FFFFFF }
+      th.style9 { vertical-align:top; text-align:center; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:1px dotted #000000 !important; color:#00447C; font-family:'Calibri'; font-size:8pt; background-color:#FFFFFF }
+      td.style10 { vertical-align:top; text-align:center; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:1px solid #000000 !important; color:#00447C; font-family:'Calibri'; font-size:8pt; background-color:#FFFFFF }
+      th.style10 { vertical-align:top; text-align:center; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:1px solid #000000 !important; color:#00447C; font-family:'Calibri'; font-size:8pt; background-color:#FFFFFF }
+      td.style11 { vertical-align:top; text-align:center; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:2px solid #000000 !important; color:#00447C; font-family:'Calibri'; font-size:8pt; background-color:#FFFFFF }
+      th.style11 { vertical-align:top; text-align:center; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:2px solid #000000 !important; color:#00447C; font-family:'Calibri'; font-size:8pt; background-color:#FFFFFF }
+      td.style12 { vertical-align:top; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:2px solid #000000 !important; border-right:1px solid #000000 !important; font-style:italic; color:#808080; font-family:'Calibri'; font-size:9pt; background-color:#FFFFFF }
+      th.style12 { vertical-align:top; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:2px solid #000000 !important; border-right:1px solid #000000 !important; font-style:italic; color:#808080; font-family:'Calibri'; font-size:9pt; background-color:#FFFFFF }
+      td.style13 { vertical-align:top; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:1px solid #000000 !important; color:#000000; font-family:'Calibri'; font-size:9pt; background-color:#FFFFFF }
+      th.style13 { vertical-align:top; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:1px solid #000000 !important; color:#000000; font-family:'Calibri'; font-size:9pt; background-color:#FFFFFF }
+      td.style14 { vertical-align:top; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:1px dotted #000000 !important; color:#000000; font-family:'Calibri'; font-size:9pt; background-color:#FFFFFF }
+      th.style14 { vertical-align:top; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:1px dotted #000000 !important; color:#000000; font-family:'Calibri'; font-size:9pt; background-color:#FFFFFF }
+      td.style15 { vertical-align:top; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:2px solid #000000 !important; color:#000000; font-family:'Calibri'; font-size:9pt; background-color:#FFFFFF }
+      th.style15 { vertical-align:top; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:2px solid #000000 !important; color:#000000; font-family:'Calibri'; font-size:9pt; background-color:#FFFFFF }
+      td.style16 { vertical-align:top; text-align:left; padding-left:0px; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:2px solid #000000 !important; border-right:1px solid #000000 !important; font-style:italic; color:#808080; font-family:'Calibri'; font-size:9pt; background-color:#FFFFFF }
+      th.style16 { vertical-align:top; text-align:left; padding-left:0px; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:2px solid #000000 !important; border-right:1px solid #000000 !important; font-style:italic; color:#808080; font-family:'Calibri'; font-size:9pt; background-color:#FFFFFF }
+      td.style17 { vertical-align:top; text-align:right; padding-right:0px; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:1px solid #000000 !important; color:#000000; font-family:'Calibri'; font-size:9pt; background-color:#FFFFFF }
+      th.style17 { vertical-align:top; text-align:right; padding-right:0px; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:1px solid #000000 !important; color:#000000; font-family:'Calibri'; font-size:9pt; background-color:#FFFFFF }
+      td.style18 { vertical-align:top; text-align:right; padding-right:0px; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:1px dotted #000000 !important; color:#000000; font-family:'Calibri'; font-size:9pt; background-color:#FFFFFF }
+      th.style18 { vertical-align:top; text-align:right; padding-right:0px; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:1px dotted #000000 !important; color:#000000; font-family:'Calibri'; font-size:9pt; background-color:#FFFFFF }
+      td.style19 { vertical-align:top; text-align:right; padding-right:0px; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:2px solid #000000 !important; color:#000000; font-family:'Calibri'; font-size:9pt; background-color:#FFFFFF }
+      th.style19 { vertical-align:top; text-align:right; padding-right:0px; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:2px solid #000000 !important; color:#000000; font-family:'Calibri'; font-size:9pt; background-color:#FFFFFF }
+      td.style20 { vertical-align:top; text-align:left; padding-left:0px; border-bottom:1px dotted #000000 !important; border-top:none #000000; border-left:2px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Calibri'; font-size:9pt; background-color:#FFFFFF }
+      th.style20 { vertical-align:top; text-align:left; padding-left:0px; border-bottom:1px dotted #000000 !important; border-top:none #000000; border-left:2px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Calibri'; font-size:9pt; background-color:#FFFFFF }
+      td.style21 { vertical-align:top; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:1px solid #000000 !important; color:#000000; font-family:'Calibri'; font-size:9pt; background-color:#FFFFFF }
+      th.style21 { vertical-align:top; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:1px solid #000000 !important; color:#000000; font-family:'Calibri'; font-size:9pt; background-color:#FFFFFF }
+      td.style22 { vertical-align:top; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:1px dotted #000000 !important; color:#000000; font-family:'Calibri'; font-size:9pt; background-color:#FFFFFF }
+      th.style22 { vertical-align:top; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:1px dotted #000000 !important; color:#000000; font-family:'Calibri'; font-size:9pt; background-color:#FFFFFF }
+      td.style23 { vertical-align:top; text-align:right; padding-right:0px; border-bottom:1px dotted #000000 !important; border-top:none #000000; border-left:none #000000; border-right:1px solid #000000 !important; color:#00447C; font-family:'Calibri'; font-size:8pt; background-color:#FFFFFF }
+      th.style23 { vertical-align:top; text-align:right; padding-right:0px; border-bottom:1px dotted #000000 !important; border-top:none #000000; border-left:none #000000; border-right:1px solid #000000 !important; color:#00447C; font-family:'Calibri'; font-size:8pt; background-color:#FFFFFF }
+      td.style24 { vertical-align:top; text-align:right; padding-right:0px; border-bottom:1px dotted #000000 !important; border-top:none #000000; border-left:none #000000; border-right:1px dotted #000000 !important; color:#00447C; font-family:'Calibri'; font-size:8pt; background-color:#FFFFFF }
+      th.style24 { vertical-align:top; text-align:right; padding-right:0px; border-bottom:1px dotted #000000 !important; border-top:none #000000; border-left:none #000000; border-right:1px dotted #000000 !important; color:#00447C; font-family:'Calibri'; font-size:8pt; background-color:#FFFFFF }
+      td.style25 { vertical-align:top; text-align:right; padding-right:0px; border-bottom:1px dotted #000000 !important; border-top:none #000000; border-left:none #000000; border-right:2px solid #000000 !important; color:#00447C; font-family:'Calibri'; font-size:8pt; background-color:#FFFFFF }
+      th.style25 { vertical-align:top; text-align:right; padding-right:0px; border-bottom:1px dotted #000000 !important; border-top:none #000000; border-left:none #000000; border-right:2px solid #000000 !important; color:#00447C; font-family:'Calibri'; font-size:8pt; background-color:#FFFFFF }
+      td.style26 { vertical-align:top; text-align:left; padding-left:0px; border-bottom:2px solid #000000 !important; border-top:none #000000; border-left:2px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Calibri'; font-size:9pt; background-color:#FFFFFF }
+      th.style26 { vertical-align:top; text-align:left; padding-left:0px; border-bottom:2px solid #000000 !important; border-top:none #000000; border-left:2px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Calibri'; font-size:9pt; background-color:#FFFFFF }
+      td.style27 { vertical-align:top; text-align:right; padding-right:0px; border-bottom:2px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:1px solid #000000 !important; color:#00447C; font-family:'Calibri'; font-size:8pt; background-color:#FFFFFF }
+      th.style27 { vertical-align:top; text-align:right; padding-right:0px; border-bottom:2px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:1px solid #000000 !important; color:#00447C; font-family:'Calibri'; font-size:8pt; background-color:#FFFFFF }
+      td.style28 { vertical-align:top; text-align:right; padding-right:0px; border-bottom:2px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:1px dotted #000000 !important; color:#00447C; font-family:'Calibri'; font-size:8pt; background-color:#FFFFFF }
+      th.style28 { vertical-align:top; text-align:right; padding-right:0px; border-bottom:2px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:1px dotted #000000 !important; color:#00447C; font-family:'Calibri'; font-size:8pt; background-color:#FFFFFF }
+      td.style29 { vertical-align:top; text-align:right; padding-right:0px; border-bottom:2px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:2px solid #000000 !important; color:#00447C; font-family:'Calibri'; font-size:8pt; background-color:#FFFFFF }
+      th.style29 { vertical-align:top; text-align:right; padding-right:0px; border-bottom:2px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:2px solid #000000 !important; color:#00447C; font-family:'Calibri'; font-size:8pt; background-color:#FFFFFF }
+      td.style30 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Calibri'; font-size:9pt; background-color:white }
+      th.style30 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Calibri'; font-size:9pt; background-color:white }
+      td.style31 { vertical-align:middle; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-style:italic; color:#000000; font-family:'等线'; font-size:9pt; background-color:white }
+      th.style31 { vertical-align:middle; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-style:italic; color:#000000; font-family:'等线'; font-size:9pt; background-color:white }
+      td.style32 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:9pt; background-color:white }
+      th.style32 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:9pt; background-color:white }
+      table.sheet0 col.col0 { width:189.7777756pt }
+      table.sheet0 col.col1 { width:52.18888829pt }
+      table.sheet0 col.col2 { width:52.18888829pt }
+      table.sheet0 col.col3 { width:52.18888829pt }
+      table.sheet0 col.col4 { width:52.18888829pt }
+      table.sheet0 col.col5 { width:52.18888829pt }
+      table.sheet0 col.col6 { width:52.18888829pt }
+      table.sheet0 col.col7 { width:52.18888829pt }
+      table.sheet0 col.col8 { width:52.18888829pt }
+      table.sheet0 col.col9 { width:52.18888829pt }
+      table.sheet0 col.col10 { width:52.18888829pt }
+      table.sheet0 col.col11 { width:52.18888829pt }
+      table.sheet0 col.col12 { width:52.18888829pt }
+      table.sheet0 col.col13 { width:52.18888829pt }
+      table.sheet0 col.col14 { width:52.18888829pt }
+      table.sheet0 col.col15 { width:52.18888829pt }
+      table.sheet0 col.col16 { width:52.18888829pt }
+      table.sheet0 col.col17 { width:52.18888829pt }
+      table.sheet0 col.col18 { width:52.18888829pt }
+      table.sheet0 col.col19 { width:52.18888829pt }
+      table.sheet0 col.col20 { width:52.18888829pt }
+      table.sheet0 col.col21 { width:52.18888829pt }
+      table.sheet0 col.col22 { width:52.18888829pt }
+      table.sheet0 col.col23 { width:52.18888829pt }
+      table.sheet0 col.col24 { width:52.18888829pt }
+      table.sheet0 col.col25 { width:52.18888829pt }
+      table.sheet0 col.col26 { width:52.18888829pt }
+      table.sheet0 col.col27 { width:52.18888829pt }
+      table.sheet0 col.col28 { width:52.18888829pt }
+      table.sheet0 col.col29 { width:52.18888829pt }
+      table.sheet0 col.col30 { width:52.18888829pt }
+      table.sheet0 col.col31 { width:52.18888829pt }
+      table.sheet0 col.col32 { width:52.18888829pt }
+      table.sheet0 col.col33 { width:52.18888829pt }
+      table.sheet0 col.col34 { width:52.18888829pt }
+      table.sheet0 col.col35 { width:52.18888829pt }
+      table.sheet0 col.col36 { width:52.18888829pt }
+      table.sheet0 col.col37 { width:52.18888829pt }
+      table.sheet0 col.col38 { width:52.18888829pt }
+      table.sheet0 col.col39 { width:52.18888829pt }
+      table.sheet0 col.col40 { width:52.18888829pt }
+      table.sheet0 col.col41 { width:52.18888829pt }
+      table.sheet0 col.col42 { width:52.18888829pt }
+      table.sheet0 col.col43 { width:52.18888829pt }
+      table.sheet0 col.col44 { width:52.18888829pt }
+      table.sheet0 col.col45 { width:52.18888829pt }
+      table.sheet0 col.col46 { width:52.18888829pt }
+      table.sheet0 col.col47 { width:52.18888829pt }
+      table.sheet0 col.col48 { width:52.18888829pt }
+      table.sheet0 col.col49 { width:52.18888829pt }
+      table.sheet0 col.col50 { width:52.18888829pt }
+      table.sheet0 col.col51 { width:52.18888829pt }
+      table.sheet0 col.col52 { width:52.18888829pt }
+      table.sheet0 col.col53 { width:52.18888829pt }
+      table.sheet0 col.col54 { width:52.18888829pt }
+      table.sheet0 col.col55 { width:52.18888829pt }
+      table.sheet0 col.col56 { width:52.18888829pt }
+      table.sheet0 col.col57 { width:52.18888829pt }
+      table.sheet0 col.col58 { width:52.18888829pt }
+      table.sheet0 tr { height:12.75pt }
+      table.sheet0 tr.row0 { height:13.8pt }
+      table.sheet0 tr.row1 { height:27pt }
+      table.sheet0 tr.row2 { height:27pt }
+      table.sheet0 tr.row3 { height:27pt }
+      table.sheet0 tr.row4 { height:14.1pt }
+      table.sheet0 tr.row5 { height:14.1pt }
+      table.sheet0 tr.row6 { height:14.1pt }
+      table.sheet0 tr.row7 { height:14.1pt }
+      table.sheet0 tr.row8 { height:14.1pt }
+      table.sheet0 tr.row9 { height:14.1pt }
+      table.sheet0 tr.row10 { height:14.1pt }
+      table.sheet0 tr.row11 { height:14.1pt }
+      table.sheet0 tr.row12 { height:14.1pt }
+      table.sheet0 tr.row13 { height:14.1pt }
+      table.sheet0 tr.row14 { height:14.1pt }
+      table.sheet0 tr.row15 { height:14.1pt }
+      table.sheet0 tr.row16 { height:14.1pt }
+      table.sheet0 tr.row17 { height:14.1pt }
+      table.sheet0 tr.row18 { height:14.1pt }
+      table.sheet0 tr.row19 { height:14.1pt }
+      table.sheet0 tr.row20 { height:14.1pt }
+      table.sheet0 tr.row21 { height:14.1pt }
+      table.sheet0 tr.row22 { height:14.1pt }
+      table.sheet0 tr.row23 { height:14.1pt }
+    </style>
+  </head>
+
+  <body>
+<style>
+@page { margin-left: 0in; margin-right: 0in; margin-top: 0.45in; margin-bottom: 2in; }
+body { margin-left: 0in; margin-right: 0in; margin-top: 0.45in; margin-bottom: 2in; }
+</style>
+    <table border="0" cellpadding="0" cellspacing="0" id="sheet0" class="sheet0 gridlines">
+        <col class="col0">
+        <col class="col1">
+        <col class="col2">
+        <col class="col3">
+        <col class="col4">
+        <col class="col5">
+        <col class="col6">
+        <col class="col7">
+        <col class="col8">
+        <col class="col9">
+        <col class="col10">
+        <col class="col11">
+        <col class="col12">
+        <col class="col13">
+        <col class="col14">
+        <col class="col15">
+        <col class="col16">
+        <col class="col17">
+        <col class="col18">
+        <col class="col19">
+        <col class="col20">
+        <col class="col21">
+        <col class="col22">
+        <col class="col23">
+        <col class="col24">
+        <col class="col25">
+        <col class="col26">
+        <col class="col27">
+        <col class="col28">
+        <col class="col29">
+        <col class="col30">
+        <col class="col31">
+        <col class="col32">
+        <col class="col33">
+        <col class="col34">
+        <col class="col35">
+        <col class="col36">
+        <col class="col37">
+        <col class="col38">
+        <col class="col39">
+        <col class="col40">
+        <col class="col41">
+        <col class="col42">
+        <col class="col43">
+        <col class="col44">
+        <col class="col45">
+        <col class="col46">
+        <col class="col47">
+        <col class="col48">
+        <col class="col49">
+        <col class="col50">
+        <col class="col51">
+        <col class="col52">
+        <col class="col53">
+        <col class="col54">
+        <col class="col55">
+        <col class="col56">
+        <col class="col57">
+        <col class="col58">
+        <tbody>
+          <tr class="row0">
+            <td class="column0 style1 s">Return to contents</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11">&nbsp;</td>
+            <td class="column12">&nbsp;</td>
+            <td class="column13">&nbsp;</td>
+            <td class="column14">&nbsp;</td>
+            <td class="column15">&nbsp;</td>
+            <td class="column16">&nbsp;</td>
+            <td class="column17">&nbsp;</td>
+            <td class="column18">&nbsp;</td>
+            <td class="column19">&nbsp;</td>
+            <td class="column20">&nbsp;</td>
+            <td class="column21">&nbsp;</td>
+            <td class="column22">&nbsp;</td>
+            <td class="column23">&nbsp;</td>
+            <td class="column24">&nbsp;</td>
+            <td class="column25">&nbsp;</td>
+            <td class="column26">&nbsp;</td>
+            <td class="column27">&nbsp;</td>
+            <td class="column28">&nbsp;</td>
+            <td class="column29">&nbsp;</td>
+            <td class="column30">&nbsp;</td>
+            <td class="column31">&nbsp;</td>
+            <td class="column32">&nbsp;</td>
+            <td class="column33">&nbsp;</td>
+            <td class="column34">&nbsp;</td>
+            <td class="column35">&nbsp;</td>
+            <td class="column36">&nbsp;</td>
+            <td class="column37">&nbsp;</td>
+            <td class="column38">&nbsp;</td>
+            <td class="column39">&nbsp;</td>
+            <td class="column40">&nbsp;</td>
+            <td class="column41">&nbsp;</td>
+            <td class="column42">&nbsp;</td>
+            <td class="column43">&nbsp;</td>
+            <td class="column44">&nbsp;</td>
+            <td class="column45">&nbsp;</td>
+            <td class="column46">&nbsp;</td>
+            <td class="column47">&nbsp;</td>
+            <td class="column48">&nbsp;</td>
+            <td class="column49">&nbsp;</td>
+            <td class="column50">&nbsp;</td>
+            <td class="column51">&nbsp;</td>
+            <td class="column52">&nbsp;</td>
+            <td class="column53">&nbsp;</td>
+            <td class="column54">&nbsp;</td>
+            <td class="column55">&nbsp;</td>
+            <td class="column56">&nbsp;</td>
+            <td class="column57">&nbsp;</td>
+            <td class="column58">&nbsp;</td>
+          </tr>
+          <tr class="row1">
+            <td class="column0 style2 s style2" rowspan="3">DA1 Channel through which the consumer purchased products that they experienced detriment with <br />
+<br />
+Base: All detriment incidents in the UK in the 12 months to April 2021</td>
+            <td class="column1 style3 s style3" rowspan="3">Total</td>
+            <td class="column2 style4 s style4" colspan="2">Product type</td>
+            <td class="column4 style4 s style4" colspan="11">Market cluster</td>
+            <td class="column15 style5 s style5" colspan="44">Sector</td>
+          </tr>
+          <tr class="row2">
+            <td class="column2 style6 s">Good</td>
+            <td class="column3 style7 s">Service</td>
+            <td class="column4 style6 s">Fast-moving retail</td>
+            <td class="column5 style6 s">(Semi-)durable goods</td>
+            <td class="column6 style6 s">Automotive goods and services</td>
+            <td class="column7 style6 s">Telecoms and other digital subscriptions</td>
+            <td class="column8 style6 s">Utilities</td>
+            <td class="column9 style6 s">Housing-related services</td>
+            <td class="column10 style6 s">Banking and insurance</td>
+            <td class="column11 style6 s">Transport</td>
+            <td class="column12 style6 s">Personal services</td>
+            <td class="column13 style6 s">Recreational services</td>
+            <td class="column14 style7 s">Other services</td>
+            <td class="column15 style6 s">Groceries and drinks</td>
+            <td class="column16 style6 s">Clothing, footwear and accessories</td>
+            <td class="column17 style6 s">House and garden maintenance products</td>
+            <td class="column18 style6 s">Stationery, books, magazines and newspapers</td>
+            <td class="column19 style6 s">Personal care products</td>
+            <td class="column20 style6 s">Spectacles and lenses</td>
+            <td class="column21 style6 s">Furniture and appliances</td>
+            <td class="column22 style6 s">Electronic devices and software</td>
+            <td class="column23 style6 s">Entertainment items</td>
+            <td class="column24 style6 s">New vehicles</td>
+            <td class="column25 style6 s">Second-hand vehicles</td>
+            <td class="column26 style6 s">Fuel and accessories for vehicles</td>
+            <td class="column27 style6 s">Mobile telephone services</td>
+            <td class="column28 style6 s">Fixed telephone services</td>
+            <td class="column29 style6 s">Internet provision</td>
+            <td class="column30 style6 s">TV and other digital subscriptions</td>
+            <td class="column31 style6 s">Water services</td>
+            <td class="column32 style6 s">Electricity and gas services</td>
+            <td class="column33 style6 s">Real estate services</td>
+            <td class="column34 style6 s">Renting services</td>
+            <td class="column35 style6 s">Home and garden maintenance and repair</td>
+            <td class="column36 style6 s">Removal and storage **</td>
+            <td class="column37 style6 s">Current accounts, loans and bank services</td>
+            <td class="column38 style6 s">Pension funds and investment services</td>
+            <td class="column39 style6 s">Insurance services</td>
+            <td class="column40 style6 s">Legal and accountancy services</td>
+            <td class="column41 style6 s">Funeral services **</td>
+            <td class="column42 style6 s">Vehicle rental **</td>
+            <td class="column43 style6 s">Public transport and train</td>
+            <td class="column44 style6 s">Airline</td>
+            <td class="column45 style6 s">Vehicle maintenance and repair</td>
+            <td class="column46 style6 s">Private medical and dental services</td>
+            <td class="column47 style6 s">Prescription and non-prescription medicines</td>
+            <td class="column48 style6 s">Adult care **</td>
+            <td class="column49 style6 s">Education fees *</td>
+            <td class="column50 style6 s">Childcare *</td>
+            <td class="column51 style6 s">Veterinary</td>
+            <td class="column52 style6 s">Personal care services</td>
+            <td class="column53 style6 s">Hotels and holiday accommodation</td>
+            <td class="column54 style6 s">Package holidays and tours</td>
+            <td class="column55 style6 s">Restaurants, cafés and take-away</td>
+            <td class="column56 style6 s">Sport, cultural and entertainment activities</td>
+            <td class="column57 style6 s">Gambling and lottery services *</td>
+            <td class="column58 style8 s">Pet breeder **</td>
+          </tr>
+          <tr class="row3">
+            <td class="column2 style9 s">A1</td>
+            <td class="column3 style10 s">B1</td>
+            <td class="column4 style9 s">C1</td>
+            <td class="column5 style9 s">D1</td>
+            <td class="column6 style9 s">E1</td>
+            <td class="column7 style9 s">F1</td>
+            <td class="column8 style9 s">G1</td>
+            <td class="column9 style9 s">H1</td>
+            <td class="column10 style9 s">I1</td>
+            <td class="column11 style9 s">J1</td>
+            <td class="column12 style9 s">K1</td>
+            <td class="column13 style9 s">L1</td>
+            <td class="column14 style10 s">M1</td>
+            <td class="column15 style9 s">N1</td>
+            <td class="column16 style9 s">O1</td>
+            <td class="column17 style9 s">P1</td>
+            <td class="column18 style9 s">Q1</td>
+            <td class="column19 style9 s">R1</td>
+            <td class="column20 style9 s">S1</td>
+            <td class="column21 style9 s">T1</td>
+            <td class="column22 style9 s">U1</td>
+            <td class="column23 style9 s">V1</td>
+            <td class="column24 style9 s">W1</td>
+            <td class="column25 style9 s">X1</td>
+            <td class="column26 style9 s">Y1</td>
+            <td class="column27 style9 s">Z1</td>
+            <td class="column28 style9 s">A2</td>
+            <td class="column29 style9 s">B2</td>
+            <td class="column30 style9 s">C2</td>
+            <td class="column31 style9 s">D2</td>
+            <td class="column32 style9 s">E2</td>
+            <td class="column33 style9 s">F2</td>
+            <td class="column34 style9 s">G2</td>
+            <td class="column35 style9 s">H2</td>
+            <td class="column36 style9 s">I2</td>
+            <td class="column37 style9 s">J2</td>
+            <td class="column38 style9 s">K2</td>
+            <td class="column39 style9 s">L2</td>
+            <td class="column40 style9 s">M2</td>
+            <td class="column41 style9 s">N2</td>
+            <td class="column42 style9 s">O2</td>
+            <td class="column43 style9 s">P2</td>
+            <td class="column44 style9 s">Q2</td>
+            <td class="column45 style9 s">R2</td>
+            <td class="column46 style9 s">S2</td>
+            <td class="column47 style9 s">T2</td>
+            <td class="column48 style9 s">U2</td>
+            <td class="column49 style9 s">V2</td>
+            <td class="column50 style9 s">W2</td>
+            <td class="column51 style9 s">X2</td>
+            <td class="column52 style9 s">Y2</td>
+            <td class="column53 style9 s">Z2</td>
+            <td class="column54 style9 s">A3</td>
+            <td class="column55 style9 s">B3</td>
+            <td class="column56 style9 s">C3</td>
+            <td class="column57 style9 s">D3</td>
+            <td class="column58 style11 s">E3</td>
+          </tr>
+          <tr class="row4">
+            <td class="column0 style12 s">Unweighted total</td>
+            <td class="column1 style13 n">9388</td>
+            <td class="column2 style14 n">3698</td>
+            <td class="column3 style13 n">5690</td>
+            <td class="column4 style14 n">1889</td>
+            <td class="column5 style14 n">1563</td>
+            <td class="column6 style14 n">844</td>
+            <td class="column7 style14 n">2228</td>
+            <td class="column8 style14 n">655</td>
+            <td class="column9 style14 n">325</td>
+            <td class="column10 style14 n">522</td>
+            <td class="column11 style14 n">266</td>
+            <td class="column12 style14 n">204</td>
+            <td class="column13 style14 n">640</td>
+            <td class="column14 style13 n">252</td>
+            <td class="column15 style14 n">426</td>
+            <td class="column16 style14 n">821</td>
+            <td class="column17 style14 n">222</td>
+            <td class="column18 style14 n">83</td>
+            <td class="column19 style14 n">148</td>
+            <td class="column20 style14 n">224</td>
+            <td class="column21 style14 n">568</td>
+            <td class="column22 style14 n">590</td>
+            <td class="column23 style14 n">181</td>
+            <td class="column24 style14 n">51</td>
+            <td class="column25 style14 n">183</td>
+            <td class="column26 style14 n">201</td>
+            <td class="column27 style14 n">415</td>
+            <td class="column28 style14 n">275</td>
+            <td class="column29 style14 n">1023</td>
+            <td class="column30 style14 n">515</td>
+            <td class="column31 style14 n">134</td>
+            <td class="column32 style14 n">521</td>
+            <td class="column33 style14 n">68</td>
+            <td class="column34 style14 n">87</td>
+            <td class="column35 style14 n">148</td>
+            <td class="column36 style14 n">22</td>
+            <td class="column37 style14 n">222</td>
+            <td class="column38 style14 n">71</td>
+            <td class="column39 style14 n">229</td>
+            <td class="column40 style14 n">79</td>
+            <td class="column41 style14 n">23</td>
+            <td class="column42 style14 n">15</td>
+            <td class="column43 style14 n">126</td>
+            <td class="column44 style14 n">125</td>
+            <td class="column45 style14 n">409</td>
+            <td class="column46 style14 n">105</td>
+            <td class="column47 style14 n">134</td>
+            <td class="column48 style14 n">21</td>
+            <td class="column49 style14 n">43</td>
+            <td class="column50 style14 n">35</td>
+            <td class="column51 style14 n">137</td>
+            <td class="column52 style14 n">55</td>
+            <td class="column53 style14 n">180</td>
+            <td class="column54 style14 n">116</td>
+            <td class="column55 style14 n">190</td>
+            <td class="column56 style14 n">110</td>
+            <td class="column57 style14 n">44</td>
+            <td class="column58 style15 n">13</td>
+          </tr>
+          <tr class="row5">
+            <td class="column0 style16 s">Weighted total</td>
+            <td class="column1 style17 n">27838</td>
+            <td class="column2 style18 n">13275</td>
+            <td class="column3 style17 n">14563</td>
+            <td class="column4 style18 n">9047</td>
+            <td class="column5 style18 n">3678</td>
+            <td class="column6 style18 n">2217</td>
+            <td class="column7 style18 n">5222</td>
+            <td class="column8 style18 n">1719</td>
+            <td class="column9 style18 n">932</td>
+            <td class="column10 style18 n">1089</td>
+            <td class="column11 style18 n">915</td>
+            <td class="column12 style18 n">515</td>
+            <td class="column13 style18 n">1835</td>
+            <td class="column14 style17 n">669</td>
+            <td class="column15 style18 n">2541</td>
+            <td class="column16 style18 n">3896</td>
+            <td class="column17 style18 n">515</td>
+            <td class="column18 style18 n">309</td>
+            <td class="column19 style18 n">1167</td>
+            <td class="column20 style18 n">413</td>
+            <td class="column21 style18 n">1206</td>
+            <td class="column22 style18 n">1504</td>
+            <td class="column23 style18 n">555</td>
+            <td class="column24 style18 n">83</td>
+            <td class="column25 style18 n">428</td>
+            <td class="column26 style18 n">659</td>
+            <td class="column27 style18 n">1205</td>
+            <td class="column28 style18 n">540</td>
+            <td class="column29 style18 n">2357</td>
+            <td class="column30 style18 n">1121</td>
+            <td class="column31 style18 n">339</td>
+            <td class="column32 style18 n">1380</td>
+            <td class="column33 style18 n">175</td>
+            <td class="column34 style18 n">403</td>
+            <td class="column35 style18 n">295</td>
+            <td class="column36 style18 n">60</td>
+            <td class="column37 style18 n">463</td>
+            <td class="column38 style18 n">198</td>
+            <td class="column39 style18 n">428</td>
+            <td class="column40 style18 n">164</td>
+            <td class="column41 style18 n">29</td>
+            <td class="column42 style18 n">26</td>
+            <td class="column43 style18 n">622</td>
+            <td class="column44 style18 n">268</td>
+            <td class="column45 style18 n">1048</td>
+            <td class="column46 style18 n">217</td>
+            <td class="column47 style18 n">430</td>
+            <td class="column48 style18 n">59</td>
+            <td class="column49 style18 n">105</td>
+            <td class="column50 style18 n">134</td>
+            <td class="column51 style18 n">450</td>
+            <td class="column52 style18 n">189</td>
+            <td class="column53 style18 n">367</td>
+            <td class="column54 style18 n">279</td>
+            <td class="column55 style18 n">837</td>
+            <td class="column56 style18 n">226</td>
+            <td class="column57 style18 n">126</td>
+            <td class="column58 style19 n">25</td>
+          </tr>
+          <tr class="row6">
+            <td class="column0 style20 s style20" rowspan="2">Online, from the provider's/retailer's/operator's website</td>
+            <td class="column1 style21 n">36%</td>
+            <td class="column2 style22 n">40%</td>
+            <td class="column3 style21 n">31%</td>
+            <td class="column4 style22 n">44%</td>
+            <td class="column5 style22 n">35%</td>
+            <td class="column6 style22 n">10%</td>
+            <td class="column7 style22 n">36%</td>
+            <td class="column8 style22 n">35%</td>
+            <td class="column9 style22 n">17%</td>
+            <td class="column10 style22 n">31%</td>
+            <td class="column11 style22 n">42%</td>
+            <td class="column12 style22 n">24%</td>
+            <td class="column13 style22 n">38%</td>
+            <td class="column14 style21 n">26%</td>
+            <td class="column15 style22 n">39%</td>
+            <td class="column16 style22 n">62%</td>
+            <td class="column17 style22 n">34%</td>
+            <td class="column18 style22 n">13%</td>
+            <td class="column19 style22 n">23%</td>
+            <td class="column20 style22 n">5%</td>
+            <td class="column21 style22 n">39%</td>
+            <td class="column22 style22 n">38%</td>
+            <td class="column23 style22 n">41%</td>
+            <td class="column24 style22 n">19%</td>
+            <td class="column25 style22 n">9%</td>
+            <td class="column26 style22 n">17%</td>
+            <td class="column27 style22 n">31%</td>
+            <td class="column28 style22 n">30%</td>
+            <td class="column29 style22 n">39%</td>
+            <td class="column30 style22 n">38%</td>
+            <td class="column31 style22 n">14%</td>
+            <td class="column32 style22 n">40%</td>
+            <td class="column33 style22 n">12%</td>
+            <td class="column34 style22 n">15%</td>
+            <td class="column35 style22 n">22%</td>
+            <td class="column36 style14 null"></td>
+            <td class="column37 style22 n">39%</td>
+            <td class="column38 style22 n">22%</td>
+            <td class="column39 style22 n">27%</td>
+            <td class="column40 style22 n">17%</td>
+            <td class="column41 style14 null"></td>
+            <td class="column42 style14 null"></td>
+            <td class="column43 style22 n">27%</td>
+            <td class="column44 style22 n">80%</td>
+            <td class="column45 style22 n">5%</td>
+            <td class="column46 style22 n">2%</td>
+            <td class="column47 style22 n">10%</td>
+            <td class="column48 style14 null"></td>
+            <td class="column49 style22 n">48%</td>
+            <td class="column50 style22 n">49%</td>
+            <td class="column51 style22 n">31%</td>
+            <td class="column52 style22 n">51%</td>
+            <td class="column53 style22 n">60%</td>
+            <td class="column54 style22 n">50%</td>
+            <td class="column55 style22 n">19%</td>
+            <td class="column56 style22 n">50%</td>
+            <td class="column57 style22 n">55%</td>
+            <td class="column58 style15 null"></td>
+          </tr>
+          <tr class="row7">
+            <td class="column1 style23 s">B1 C1 E1 H1 O1 S1 X1 Y1 D2 F2 G2 N2 Q2 R2 S2 T2 Z2 B3</td>
+            <td class="column2 style24 s">B1</td>
+            <td class="column3 style23 s">A1</td>
+            <td class="column4 style24 s">D1 E1 H1 I1 K1 M1</td>
+            <td class="column5 style24 s">C1 E1 H1</td>
+            <td class="column6 style24 s">C1 D1 F1 G1 I1 J1 K1 L1 M1</td>
+            <td class="column7 style24 s">E1 H1</td>
+            <td class="column8 style24 s">E1 H1</td>
+            <td class="column9 style24 s">C1 D1 F1 G1 I1 J1 L1</td>
+            <td class="column10 style24 s">C1 E1 H1</td>
+            <td class="column11 style24 s">E1 H1 K1</td>
+            <td class="column12 style24 s">C1 E1 J1</td>
+            <td class="column13 style24 s">E1 H1</td>
+            <td class="column14 style23 s">C1 E1</td>
+            <td class="column15 style24 s">O1 S1 X1 Y1 D2 F2 G2 N2 Q2 R2 S2 T2 Z2 B3</td>
+            <td class="column16 style24 s">N1 P1 Q1 R1 S1 T1 U1 V1 W1 X1 Y1 Z1 A2 B2 C2 D2 E2 F2 G2 H2 I2 J2 K2 L2 M2 N2 O2 P2 R2 S2 T2 U2 X2 B3 E3</td>
+            <td class="column17 style24 s">O1 S1 X1 Q2 R2 S2 T2 Z2</td>
+            <td class="column18 style24 s">O1 Q2 V2 Z2 A3 C3 D3</td>
+            <td class="column19 style24 s">O1 Q2 Z2</td>
+            <td class="column20 style24 s">N1 O1 P1 T1 U1 V1 Z1 A2 B2 C2 E2 H2 J2 K2 L2 P2 Q2 V2 W2 X2 Y2 Z2 A3 C3 D3</td>
+            <td class="column21 style24 s">O1 S1 X1 Y1 D2 F2 G2 H2 N2 Q2 R2 S2 T2 Z2 B3</td>
+            <td class="column22 style24 s">O1 S1 X1 Y1 D2 F2 G2 N2 Q2 R2 S2 T2 Z2 B3</td>
+            <td class="column23 style24 s">O1 S1 X1 Y1 D2 F2 G2 N2 Q2 R2 S2 T2 B3</td>
+            <td class="column24 style24 s">O1 Q2 R2 S2 Z2 A3 C3 D3</td>
+            <td class="column25 style24 s">N1 O1 P1 T1 U1 V1 Z1 A2 B2 C2 E2 J2 L2 P2 Q2 V2 W2 X2 Y2 Z2 A3 C3 D3</td>
+            <td class="column26 style24 s">N1 O1 T1 U1 V1 B2 C2 E2 J2 Q2 V2 W2 Y2 Z2 A3 C3 D3</td>
+            <td class="column27 style24 s">O1 S1 X1 Q2 R2 S2 T2 Z2 C3</td>
+            <td class="column28 style24 s">O1 S1 X1 Q2 R2 S2 T2 Z2 C3</td>
+            <td class="column29 style24 s">O1 S1 X1 Y1 D2 F2 G2 H2 L2 M2 N2 Q2 R2 S2 T2 Z2 B3</td>
+            <td class="column30 style24 s">O1 S1 X1 Y1 D2 F2 G2 N2 Q2 R2 S2 T2 Z2 B3</td>
+            <td class="column31 style24 s">N1 O1 T1 U1 V1 B2 C2 E2 J2 Q2 V2 W2 Y2 Z2 A3 C3 D3</td>
+            <td class="column32 style24 s">O1 S1 X1 Y1 D2 F2 G2 N2 Q2 R2 S2 T2 B3</td>
+            <td class="column33 style24 s">N1 O1 T1 U1 V1 B2 C2 E2 J2 Q2 V2 W2 Y2 Z2 A3 C3 D3</td>
+            <td class="column34 style24 s">N1 O1 T1 U1 V1 B2 C2 E2 J2 Q2 V2 W2 Y2 Z2 A3 C3 D3</td>
+            <td class="column35 style24 s">O1 S1 T1 B2 J2 Q2 R2 S2 V2 Z2 A3 C3 D3</td>
+            <td class="column36 style24 null"></td>
+            <td class="column37 style24 s">O1 S1 X1 Y1 D2 F2 G2 H2 M2 N2 Q2 R2 S2 T2 Z2 B3</td>
+            <td class="column38 style24 s">O1 S1 Q2 R2 S2 Z2 A3 C3 D3</td>
+            <td class="column39 style24 s">O1 S1 X1 B2 Q2 R2 S2 T2 Z2 A3 C3 D3</td>
+            <td class="column40 style24 s">O1 B2 J2 Q2 V2 Z2 A3 C3 D3</td>
+            <td class="column41 style24 null"></td>
+            <td class="column42 style24 null"></td>
+            <td class="column43 style24 s">O1 S1 X1 Q2 R2 S2 T2 Z2 C3</td>
+            <td class="column44 style24 s">N1 P1 Q1 R1 S1 T1 U1 V1 W1 X1 Y1 Z1 A2 B2 C2 D2 E2 F2 G2 H2 I2 J2 K2 L2 M2 N2 O2 P2 R2 S2 T2 U2 V2 W2 X2 A3 B3 C3 E3</td>
+            <td class="column45 style24 s">N1 O1 P1 T1 U1 V1 W1 Z1 A2 B2 C2 E2 H2 J2 K2 L2 P2 Q2 V2 W2 X2 Y2 Z2 A3 B3 C3 D3</td>
+            <td class="column46 style24 s">N1 O1 P1 T1 U1 V1 W1 Z1 A2 B2 C2 E2 H2 J2 K2 L2 P2 Q2 V2 W2 X2 Y2 Z2 A3 B3 C3 D3</td>
+            <td class="column47 style24 s">N1 O1 P1 T1 U1 V1 Z1 A2 B2 C2 E2 J2 L2 P2 Q2 V2 W2 Y2 Z2 A3 C3 D3</td>
+            <td class="column48 style24 null"></td>
+            <td class="column49 style24 s">Q1 S1 X1 Y1 D2 F2 G2 H2 M2 N2 Q2 R2 S2 T2 U2 B3</td>
+            <td class="column50 style24 s">S1 X1 Y1 D2 F2 G2 N2 Q2 R2 S2 T2 U2 B3</td>
+            <td class="column51 style24 s">O1 S1 X1 Q2 R2 S2</td>
+            <td class="column52 style24 s">S1 X1 Y1 D2 F2 G2 N2 R2 S2 T2</td>
+            <td class="column53 style24 s">N1 P1 Q1 R1 S1 T1 U1 W1 X1 Y1 Z1 A2 B2 C2 D2 F2 G2 H2 J2 K2 L2 M2 N2 O2 P2 R2 S2 T2 U2 B3 E3</td>
+            <td class="column54 style24 s">Q1 S1 W1 X1 Y1 D2 F2 G2 H2 K2 L2 M2 N2 Q2 R2 S2 T2 U2 B3</td>
+            <td class="column55 style24 s">N1 O1 T1 U1 V1 B2 C2 E2 J2 Q2 R2 S2 V2 W2 Z2 A3 C3 D3</td>
+            <td class="column56 style24 s">Q1 S1 W1 X1 Y1 Z1 A2 D2 F2 G2 H2 K2 L2 M2 N2 P2 Q2 R2 S2 T2 U2 B3</td>
+            <td class="column57 style24 s">Q1 S1 W1 X1 Y1 D2 F2 G2 H2 K2 L2 M2 N2 R2 S2 T2 U2 B3</td>
+            <td class="column58 style25 null"></td>
+          </tr>
+          <tr class="row8">
+            <td class="column0 style20 s style20" rowspan="2">In-person from a shop or other outlet</td>
+            <td class="column1 style21 n">27%</td>
+            <td class="column2 style22 n">32%</td>
+            <td class="column3 style21 n">22%</td>
+            <td class="column4 style22 n">30%</td>
+            <td class="column5 style22 n">32%</td>
+            <td class="column6 style22 n">67%</td>
+            <td class="column7 style22 n">8%</td>
+            <td class="column8 style22 n">9%</td>
+            <td class="column9 style22 n">31%</td>
+            <td class="column10 style22 n">17%</td>
+            <td class="column11 style22 n">29%</td>
+            <td class="column12 style22 n">24%</td>
+            <td class="column13 style22 n">19%</td>
+            <td class="column14 style21 n">44%</td>
+            <td class="column15 style22 n">37%</td>
+            <td class="column16 style22 n">15%</td>
+            <td class="column17 style22 n">43%</td>
+            <td class="column18 style22 n">27%</td>
+            <td class="column19 style22 n">49%</td>
+            <td class="column20 style22 n">94%</td>
+            <td class="column21 style22 n">32%</td>
+            <td class="column22 style22 n">19%</td>
+            <td class="column23 style22 n">21%</td>
+            <td class="column24 style22 n">47%</td>
+            <td class="column25 style22 n">53%</td>
+            <td class="column26 style22 n">70%</td>
+            <td class="column27 style22 n">21%</td>
+            <td class="column28 style22 n">3%</td>
+            <td class="column29 style22 n">6%</td>
+            <td class="column30 style22 n">4%</td>
+            <td class="column31 style22 n">7%</td>
+            <td class="column32 style22 n">10%</td>
+            <td class="column33 style22 n">40%</td>
+            <td class="column34 style22 n">45%</td>
+            <td class="column35 style22 n">12%</td>
+            <td class="column36 style14 null"></td>
+            <td class="column37 style22 n">30%</td>
+            <td class="column38 style22 n">15%</td>
+            <td class="column39 style22 n">5%</td>
+            <td class="column40 style22 n">13%</td>
+            <td class="column41 style14 null"></td>
+            <td class="column42 style14 null"></td>
+            <td class="column43 style22 n">41%</td>
+            <td class="column44 style22 n">1%</td>
+            <td class="column45 style22 n">73%</td>
+            <td class="column46 style22 n">38%</td>
+            <td class="column47 style22 n">64%</td>
+            <td class="column48 style14 null"></td>
+            <td class="column49 style22 n">1%</td>
+            <td class="column50 style22 n">27%</td>
+            <td class="column51 style22 n">55%</td>
+            <td class="column52 style22 n">40%</td>
+            <td class="column53 style22 n">12%</td>
+            <td class="column54 style22 n">8%</td>
+            <td class="column55 style22 n">23%</td>
+            <td class="column56 style22 n">20%</td>
+            <td class="column57 style22 n">29%</td>
+            <td class="column58 style15 null"></td>
+          </tr>
+          <tr class="row9">
+            <td class="column1 style23 s">B1 E1 F1 G1 I1 L1 M1 O1 P1 S1 X1 Y1 A2 B2 C2 D2 E2 G2 H2 L2 Q2 R2 T2 V2 X2 A3</td>
+            <td class="column2 style24 s">B1</td>
+            <td class="column3 style23 s">A1</td>
+            <td class="column4 style24 s">E1 F1 G1 I1 L1</td>
+            <td class="column5 style24 s">E1 F1 G1 I1 L1</td>
+            <td class="column6 style24 s">C1 D1 F1 G1 H1 I1 J1 K1 L1 M1</td>
+            <td class="column7 style24 s">C1 D1 E1 H1 I1 J1 K1 L1 M1</td>
+            <td class="column8 style24 s">C1 D1 E1 H1 J1 K1 M1</td>
+            <td class="column9 style24 s">E1 F1 G1 I1 L1</td>
+            <td class="column10 style24 s">C1 D1 E1 F1 H1 J1 M1</td>
+            <td class="column11 style24 s">E1 F1 G1 I1</td>
+            <td class="column12 style24 s">E1 F1 G1</td>
+            <td class="column13 style24 s">C1 D1 E1 F1 H1 M1</td>
+            <td class="column14 style23 s">E1 F1 G1 I1 L1</td>
+            <td class="column15 style24 s">O1 S1 U1 Y1 Z1 A2 B2 C2 D2 E2 H2 L2 M2 Q2 R2 T2 V2 Z2 A3</td>
+            <td class="column16 style24 s">N1 P1 R1 S1 T1 W1 X1 Y1 A2 B2 C2 F2 G2 J2 N2 P2 Q2 R2 S2 T2 X2 E3</td>
+            <td class="column17 style24 s">O1 S1 U1 V1 Y1 Z1 A2 B2 C2 D2 E2 H2 I2 K2 L2 M2 Q2 R2 T2 V2 Z2 A3 B3 C3</td>
+            <td class="column18 style24 s">S1 Y1 A2 B2 C2 L2 Q2 R2 T2</td>
+            <td class="column19 style24 s">O1 S1 U1 A2 B2 C2 D2 E2 H2 L2 Q2 V2 Z2 A3</td>
+            <td class="column20 style24 s">N1 O1 P1 Q1 R1 T1 U1 V1 W1 X1 Y1 Z1 A2 B2 C2 D2 E2 F2 G2 H2 I2 J2 K2 L2 M2 N2 O2 P2 Q2 S2 T2 U2 V2 W2 X2 Y2 Z2 A3 B3 C3 D3 E3</td>
+            <td class="column21 style24 s">O1 S1 U1 X1 Y1 A2 B2 C2 D2 E2 H2 L2 Q2 R2 T2 V2 Z2 A3</td>
+            <td class="column22 style24 s">N1 P1 R1 S1 T1 W1 X1 Y1 A2 B2 C2 F2 G2 L2 N2 P2 Q2 R2 S2 T2 X2 E3</td>
+            <td class="column23 style24 s">P1 S1 W1 X1 Y1 A2 B2 C2 G2 L2 Q2 R2 T2 X2</td>
+            <td class="column24 style24 s">O1 S1 U1 V1 Z1 A2 B2 C2 D2 E2 H2 I2 K2 L2 M2 Q2 R2 V2 Z2 A3 C3</td>
+            <td class="column25 style24 s">O1 S1 T1 U1 V1 Z1 A2 B2 C2 D2 E2 H2 I2 J2 K2 L2 M2 Q2 U2 V2 Z2 A3 B3 C3</td>
+            <td class="column26 style24 s">N1 O1 P1 Q1 S1 T1 U1 V1 Z1 A2 B2 C2 D2 E2 F2 H2 I2 J2 K2 L2 M2 O2 P2 Q2 S2 U2 V2 W2 Z2 A3 B3 C3 D3</td>
+            <td class="column27 style24 s">N1 P1 S1 W1 X1 Y1 A2 B2 C2 G2 L2 P2 Q2 R2 T2 X2 E3</td>
+            <td class="column28 style24 s">N1 O1 P1 Q1 R1 S1 T1 U1 V1 W1 X1 Y1 Z1 F2 G2 J2 K2 N2 O2 P2 R2 S2 T2 W2 X2 Y2 B3 C3 D3 E3</td>
+            <td class="column29 style24 s">N1 O1 P1 Q1 R1 S1 T1 U1 V1 W1 X1 Y1 Z1 F2 G2 J2 N2 O2 P2 R2 S2 T2 W2 X2 Y2 B3 C3 D3 E3</td>
+            <td class="column30 style24 s">N1 O1 P1 Q1 R1 S1 T1 U1 V1 W1 X1 Y1 Z1 F2 G2 H2 J2 K2 N2 O2 P2 R2 S2 T2 W2 X2 Y2 B3 C3 D3 E3</td>
+            <td class="column31 style24 s">N1 P1 R1 S1 T1 W1 X1 Y1 F2 G2 J2 N2 P2 R2 S2 T2 X2 Y2 E3</td>
+            <td class="column32 style24 s">N1 P1 R1 S1 T1 W1 X1 Y1 F2 G2 J2 N2 P2 R2 S2 T2 X2 Y2 D3 E3</td>
+            <td class="column33 style24 s">O1 S1 U1 Y1 A2 B2 C2 D2 E2 H2 L2 M2 Q2 R2 V2 Z2 A3</td>
+            <td class="column34 style24 s">O1 S1 U1 V1 Z1 A2 B2 C2 D2 E2 H2 I2 K2 L2 M2 Q2 R2 V2 Z2 A3 B3 C3</td>
+            <td class="column35 style24 s">N1 P1 R1 S1 T1 W1 X1 Y1 C2 F2 G2 J2 N2 P2 R2 S2 T2 X2 E3</td>
+            <td class="column36 style24 null"></td>
+            <td class="column37 style24 s">O1 S1 X1 Y1 A2 B2 C2 D2 E2 H2 L2 Q2 R2 T2 V2 X2 Z2 A3</td>
+            <td class="column38 style24 s">P1 S1 W1 X1 Y1 A2 C2 G2 N2 P2 Q2 R2 T2 X2 E3</td>
+            <td class="column39 style24 s">N1 P1 Q1 R1 S1 T1 U1 V1 W1 X1 Y1 Z1 F2 G2 J2 N2 O2 P2 R2 S2 T2 W2 X2 Y2 B3 C3 D3 E3</td>
+            <td class="column40 style24 s">N1 P1 S1 W1 X1 Y1 F2 G2 N2 P2 R2 T2 X2 E3</td>
+            <td class="column41 style24 null"></td>
+            <td class="column42 style24 null"></td>
+            <td class="column43 style24 s">O1 S1 U1 Y1 Z1 A2 B2 C2 D2 E2 H2 K2 L2 M2 Q2 R2 V2 Z2 A3</td>
+            <td class="column44 style24 s">N1 O1 P1 Q1 R1 S1 T1 U1 V1 W1 X1 Y1 Z1 F2 G2 J2 K2 N2 O2 P2 R2 S2 T2 W2 X2 Y2 B3 C3 D3 E3</td>
+            <td class="column45 style24 s">N1 O1 P1 Q1 T1 U1 V1 W1 Z1 A2 B2 C2 D2 E2 F2 G2 H2 I2 J2 K2 L2 M2 O2 P2 Q2 S2 U2 V2 W2 Z2 A3 B3 C3 D3</td>
+            <td class="column46 style24 s">O1 S1 U1 Y1 A2 B2 C2 D2 E2 H2 L2 Q2 R2 T2 V2 Z2 A3</td>
+            <td class="column47 style24 s">N1 O1 P1 Q1 S1 T1 U1 V1 Z1 A2 B2 C2 D2 E2 H2 I2 J2 K2 L2 M2 O2 Q2 S2 U2 V2 W2 Z2 A3 B3 C3 D3</td>
+            <td class="column48 style24 null"></td>
+            <td class="column49 style24 s">N1 P1 R1 S1 T1 W1 X1 Y1 F2 G2 J2 N2 O2 P2 R2 S2 T2 W2 X2 Y2 B3 D3 E3</td>
+            <td class="column50 style24 s">S1 Y1 A2 B2 C2 L2 Q2 R2 T2 V2</td>
+            <td class="column51 style24 s">O1 S1 U1 V1 Z1 A2 B2 C2 D2 E2 H2 I2 J2 K2 L2 M2 Q2 U2 V2 Z2 A3 B3 C3</td>
+            <td class="column52 style24 s">S1 A2 B2 C2 D2 E2 L2 Q2 V2 A3</td>
+            <td class="column53 style24 s">N1 P1 R1 S1 T1 W1 X1 Y1 F2 G2 J2 N2 P2 R2 S2 T2 X2 E3</td>
+            <td class="column54 style24 s">N1 P1 R1 S1 T1 W1 X1 Y1 F2 G2 J2 N2 P2 R2 S2 T2 X2 Y2 E3</td>
+            <td class="column55 style24 s">P1 S1 X1 Y1 A2 B2 C2 G2 L2 Q2 R2 T2 V2 X2</td>
+            <td class="column56 style24 s">P1 S1 W1 X1 Y1 A2 B2 C2 G2 L2 Q2 R2 T2 X2</td>
+            <td class="column57 style24 s">S1 Y1 A2 B2 C2 E2 L2 Q2 R2 T2 V2</td>
+            <td class="column58 style25 null"></td>
+          </tr>
+          <tr class="row10">
+            <td class="column0 style20 s style20" rowspan="2">Over a phone call</td>
+            <td class="column1 style21 n">15%</td>
+            <td class="column2 style22 n">4%</td>
+            <td class="column3 style21 n">25%</td>
+            <td class="column4 style22 n">4%</td>
+            <td class="column5 style22 n">5%</td>
+            <td class="column6 style22 n">8%</td>
+            <td class="column7 style22 n">40%</td>
+            <td class="column8 style22 n">24%</td>
+            <td class="column9 style22 n">14%</td>
+            <td class="column10 style22 n">18%</td>
+            <td class="column11 style22 n">3%</td>
+            <td class="column12 style22 n">17%</td>
+            <td class="column13 style22 n">17%</td>
+            <td class="column14 style21 n">19%</td>
+            <td class="column15 style22 n">8%</td>
+            <td class="column16 style22 n">3%</td>
+            <td class="column17 style22 n">2%</td>
+            <td class="column18 style22 n">4%</td>
+            <td class="column19 style22 n">1%</td>
+            <td class="column20 style14 null"></td>
+            <td class="column21 style22 n">4%</td>
+            <td class="column22 style22 n">10%</td>
+            <td class="column23 style22 n">2%</td>
+            <td class="column24 style22 n">20%</td>
+            <td class="column25 style22 n">2%</td>
+            <td class="column26 style22 n">4%</td>
+            <td class="column27 style22 n">38%</td>
+            <td class="column28 style22 n">43%</td>
+            <td class="column29 style22 n">42%</td>
+            <td class="column30 style22 n">36%</td>
+            <td class="column31 style22 n">38%</td>
+            <td class="column32 style22 n">21%</td>
+            <td class="column33 style22 n">19%</td>
+            <td class="column34 style22 n">9%</td>
+            <td class="column35 style22 n">13%</td>
+            <td class="column36 style14 null"></td>
+            <td class="column37 style22 n">11%</td>
+            <td class="column38 style22 n">14%</td>
+            <td class="column39 style22 n">28%</td>
+            <td class="column40 style22 n">46%</td>
+            <td class="column41 style14 null"></td>
+            <td class="column42 style14 null"></td>
+            <td class="column43 style22 n">1%</td>
+            <td class="column44 style22 n">4%</td>
+            <td class="column45 style22 n">11%</td>
+            <td class="column46 style22 n">32%</td>
+            <td class="column47 style22 n">15%</td>
+            <td class="column48 style14 null"></td>
+            <td class="column49 style22 n">0%</td>
+            <td class="column50 style22 n">5%</td>
+            <td class="column51 style22 n">9%</td>
+            <td class="column52 style22 n">3%</td>
+            <td class="column53 style22 n">9%</td>
+            <td class="column54 style22 n">21%</td>
+            <td class="column55 style22 n">25%</td>
+            <td class="column56 style22 n">4%</td>
+            <td class="column57 style14 null"></td>
+            <td class="column58 style15 null"></td>
+          </tr>
+          <tr class="row11">
+            <td class="column1 style23 s">A1 B1 C1 D1 E1 F1 J1 O1 P1 T1 V1 X1 Z1 A2 B2 C2 D2 L2 M2 P2 S2 C3</td>
+            <td class="column2 style24 s">B1</td>
+            <td class="column3 style23 s">A1</td>
+            <td class="column4 style24 s">F1 G1 H1 I1 K1 L1 M1</td>
+            <td class="column5 style24 s">F1 G1 H1 I1 K1 L1 M1</td>
+            <td class="column6 style24 s">F1 G1 I1 K1 L1</td>
+            <td class="column7 style24 s">C1 D1 E1 G1 H1 I1 J1 K1 L1 M1</td>
+            <td class="column8 style24 s">C1 D1 E1 F1 J1</td>
+            <td class="column9 style24 s">C1 D1 F1 J1</td>
+            <td class="column10 style24 s">C1 D1 E1 F1 J1</td>
+            <td class="column11 style24 s">F1 G1 H1 I1 K1 L1 M1</td>
+            <td class="column12 style24 s">C1 D1 E1 F1 J1</td>
+            <td class="column13 style24 s">C1 D1 E1 F1 J1</td>
+            <td class="column14 style23 s">C1 D1 F1 J1</td>
+            <td class="column15 style24 s">Z1 A2 B2 C2 D2 I2 L2 M2 S2 B3</td>
+            <td class="column16 style24 s">U1 W1 Z1 A2 B2 C2 D2 E2 F2 H2 I2 J2 K2 L2 M2 S2 T2 U2 A3 B3</td>
+            <td class="column17 style24 s">W1 Z1 A2 B2 C2 D2 E2 F2 H2 I2 J2 K2 L2 M2 S2 T2 U2 A3 B3</td>
+            <td class="column18 style24 s">Z1 A2 B2 C2 D2 I2 M2</td>
+            <td class="column19 style24 s">W1 Z1 A2 B2 C2 D2 I2 L2 M2 S2 U2 B3</td>
+            <td class="column20 style24 s">W1 Z1 A2 B2 C2 D2 E2 F2 H2 I2 J2 K2 L2 M2 S2 T2 U2 A3 B3</td>
+            <td class="column21 style24 s">W1 Z1 A2 B2 C2 D2 E2 F2 H2 I2 J2 K2 L2 M2 S2 T2 A3 B3</td>
+            <td class="column22 style24 s">O1 Z1 A2 B2 C2 D2 I2 L2 M2 S2 B3</td>
+            <td class="column23 style24 s">W1 Z1 A2 B2 C2 D2 E2 F2 I2 L2 M2 S2 T2 U2 A3 B3</td>
+            <td class="column24 style24 s">O1 P1 R1 S1 T1 V1 X1 Y1 P2 C3</td>
+            <td class="column25 style24 s">W1 Z1 A2 B2 C2 D2 E2 F2 H2 I2 K2 L2 M2 S2 T2 U2 A3 B3</td>
+            <td class="column26 style24 s">W1 Z1 A2 B2 C2 D2 I2 L2 M2 S2 A3 B3</td>
+            <td class="column27 style24 s">N1 O1 P1 Q1 R1 S1 T1 U1 V1 X1 Y1 G2 H2 J2 K2 P2 Q2 R2 T2 V2 W2 X2 Z2 C3 D3</td>
+            <td class="column28 style24 s">N1 O1 P1 Q1 R1 S1 T1 U1 V1 X1 Y1 E2 G2 H2 J2 K2 L2 P2 Q2 R2 T2 V2 W2 X2 Y2 Z2 A3 B3 C3 D3</td>
+            <td class="column29 style24 s">N1 O1 P1 Q1 R1 S1 T1 U1 V1 X1 Y1 E2 F2 G2 H2 J2 K2 L2 P2 Q2 R2 T2 V2 W2 X2 Y2 Z2 A3 B3 C3 D3</td>
+            <td class="column30 style24 s">N1 O1 P1 Q1 R1 S1 T1 U1 V1 X1 Y1 G2 H2 J2 K2 P2 Q2 R2 T2 V2 W2 X2 Z2 C3 D3</td>
+            <td class="column31 style24 s">N1 O1 P1 Q1 R1 S1 T1 U1 V1 X1 Y1 G2 H2 J2 P2 Q2 R2 T2 V2 X2 Z2 C3 D3</td>
+            <td class="column32 style24 s">O1 P1 S1 T1 V1 X1 A2 B2 M2 P2 C3</td>
+            <td class="column33 style24 s">O1 P1 S1 T1 V1 X1 B2 P2</td>
+            <td class="column34 style24 s">Z1 A2 B2 C2 D2 L2 M2</td>
+            <td class="column35 style24 s">O1 P1 S1 T1 X1 Z1 A2 B2 C2 D2 L2 M2</td>
+            <td class="column36 style24 null"></td>
+            <td class="column37 style24 s">O1 P1 S1 T1 Z1 A2 B2 C2 D2 L2 M2 S2 B3</td>
+            <td class="column38 style24 s">O1 P1 S1 T1 X1 Z1 A2 B2 C2 M2</td>
+            <td class="column39 style24 s">N1 O1 P1 R1 S1 T1 U1 V1 X1 Y1 A2 B2 G2 H2 J2 P2 Q2 R2 V2 Z2 C3 D3</td>
+            <td class="column40 style24 s">N1 O1 P1 Q1 R1 S1 T1 U1 V1 X1 Y1 E2 G2 H2 J2 K2 P2 Q2 R2 T2 V2 W2 X2 Y2 Z2 C3 D3</td>
+            <td class="column41 style24 null"></td>
+            <td class="column42 style24 null"></td>
+            <td class="column43 style24 s">W1 Z1 A2 B2 C2 D2 E2 F2 I2 L2 M2 S2 T2 U2 A3 B3</td>
+            <td class="column44 style24 s">Z1 A2 B2 C2 D2 I2 L2 M2 S2 A3 B3</td>
+            <td class="column45 style24 s">Z1 A2 B2 C2 D2 I2 L2 M2 S2</td>
+            <td class="column46 style24 s">N1 O1 P1 R1 S1 T1 U1 V1 X1 Y1 J2 P2 Q2 R2 V2 Z2 C3 D3</td>
+            <td class="column47 style24 s">O1 P1 S1 T1 V1 X1 Z1 A2 B2 C2 D2 M2 P2</td>
+            <td class="column48 style24 null"></td>
+            <td class="column49 style24 s">Z1 A2 B2 C2 D2 I2 L2 M2 S2 B3</td>
+            <td class="column50 style24 s">Z1 A2 B2 C2 M2</td>
+            <td class="column51 style24 s">Z1 A2 B2 C2 D2 M2</td>
+            <td class="column52 style24 s">A2 B2 M2</td>
+            <td class="column53 style24 s">Z1 A2 B2 C2 D2 I2 L2 M2 S2</td>
+            <td class="column54 style24 s">O1 P1 S1 T1 V1 X1 Y1 A2 B2 P2 Q2 C3</td>
+            <td class="column55 style24 s">N1 O1 P1 R1 S1 T1 U1 V1 X1 Y1 A2 B2 J2 P2 Q2 V2 C3 D3</td>
+            <td class="column56 style24 s">W1 Z1 A2 B2 C2 D2 E2 I2 L2 M2 S2 A3 B3</td>
+            <td class="column57 style24 s">Z1 A2 B2 C2 D2 I2 L2 M2 S2 B3</td>
+            <td class="column58 style25 null"></td>
+          </tr>
+          <tr class="row12">
+            <td class="column0 style20 s style20" rowspan="2">Online, from a third-party marketplace website or app</td>
+            <td class="column1 style21 n">9%</td>
+            <td class="column2 style22 n">12%</td>
+            <td class="column3 style21 n">6%</td>
+            <td class="column4 style22 n">10%</td>
+            <td class="column5 style22 n">15%</td>
+            <td class="column6 style22 n">3%</td>
+            <td class="column7 style22 n">2%</td>
+            <td class="column8 style22 n">6%</td>
+            <td class="column9 style22 n">6%</td>
+            <td class="column10 style22 n">8%</td>
+            <td class="column11 style22 n">8%</td>
+            <td class="column12 style22 n">3%</td>
+            <td class="column13 style22 n">19%</td>
+            <td class="column14 style21 n">1%</td>
+            <td class="column15 style22 n">11%</td>
+            <td class="column16 style22 n">13%</td>
+            <td class="column17 style22 n">12%</td>
+            <td class="column18 style22 n">11%</td>
+            <td class="column19 style22 n">3%</td>
+            <td class="column20 style22 n">0%</td>
+            <td class="column21 style22 n">12%</td>
+            <td class="column22 style22 n">19%</td>
+            <td class="column23 style22 n">21%</td>
+            <td class="column24 style22 n">1%</td>
+            <td class="column25 style22 n">5%</td>
+            <td class="column26 style22 n">5%</td>
+            <td class="column27 style22 n">5%</td>
+            <td class="column28 style22 n">2%</td>
+            <td class="column29 style22 n">2%</td>
+            <td class="column30 style22 n">1%</td>
+            <td class="column31 style14 null"></td>
+            <td class="column32 style22 n">8%</td>
+            <td class="column33 style22 n">10%</td>
+            <td class="column34 style22 n">5%</td>
+            <td class="column35 style22 n">7%</td>
+            <td class="column36 style14 null"></td>
+            <td class="column37 style22 n">5%</td>
+            <td class="column38 style14 null"></td>
+            <td class="column39 style22 n">15%</td>
+            <td class="column40 style22 n">1%</td>
+            <td class="column41 style14 null"></td>
+            <td class="column42 style14 null"></td>
+            <td class="column43 style22 n">3%</td>
+            <td class="column44 style22 n">14%</td>
+            <td class="column45 style22 n">1%</td>
+            <td class="column46 style22 n">1%</td>
+            <td class="column47 style22 n">1%</td>
+            <td class="column48 style14 null"></td>
+            <td class="column49 style22 n">11%</td>
+            <td class="column50 style14 null"></td>
+            <td class="column51 style22 n">0%</td>
+            <td class="column52 style14 null"></td>
+            <td class="column53 style22 n">14%</td>
+            <td class="column54 style22 n">3%</td>
+            <td class="column55 style22 n">31%</td>
+            <td class="column56 style22 n">2%</td>
+            <td class="column57 style22 n">16%</td>
+            <td class="column58 style15 null"></td>
+          </tr>
+          <tr class="row13">
+            <td class="column1 style23 s">B1 D1 F1 L1 U1 V1 A2 B2 C2 L2 B3</td>
+            <td class="column2 style24 s">B1</td>
+            <td class="column3 style23 s">A1</td>
+            <td class="column4 style24 s">E1 F1 L1</td>
+            <td class="column5 style24 s">E1 F1 I1 K1 M1</td>
+            <td class="column6 style24 s">C1 D1 L1</td>
+            <td class="column7 style24 s">C1 D1 H1 I1 J1 L1</td>
+            <td class="column8 style24 s">L1</td>
+            <td class="column9 style24 s">F1 L1</td>
+            <td class="column10 style24 s">D1 F1 L1</td>
+            <td class="column11 style24 s">F1 L1</td>
+            <td class="column12 style24 s">D1 L1</td>
+            <td class="column13 style24 s">C1 E1 F1 G1 H1 I1 J1 K1 M1</td>
+            <td class="column14 style23 s">D1 L1</td>
+            <td class="column15 style24 s">A2 B2 C2 R2 B3</td>
+            <td class="column16 style24 s">A2 B2 C2 R2 B3</td>
+            <td class="column17 style24 s">A2 B2 C2 R2 B3</td>
+            <td class="column18 style24 null"></td>
+            <td class="column19 style24 s">B3</td>
+            <td class="column20 style24 s">U1 V1 F2 L2 Q2 V2 Z2 B3 D3</td>
+            <td class="column21 style24 s">A2 B2 C2 R2 T2 B3</td>
+            <td class="column22 style24 s">S1 X1 Z1 A2 B2 C2 D2 J2 K2 M2 P2 R2 S2 T2 X2 A3 C3</td>
+            <td class="column23 style24 s">S1 X1 Z1 A2 B2 C2 D2 J2 K2 M2 P2 R2 S2 T2 X2 A3 C3</td>
+            <td class="column24 style24 s">B3</td>
+            <td class="column25 style24 s">U1 V1 B3</td>
+            <td class="column26 style24 s">B3</td>
+            <td class="column27 style24 s">U1 V1 L2 B3</td>
+            <td class="column28 style24 s">N1 O1 P1 T1 U1 V1 L2 Q2 V2 Z2 B3 D3</td>
+            <td class="column29 style24 s">N1 O1 P1 T1 U1 V1 F2 H2 L2 Q2 V2 Z2 B3 D3</td>
+            <td class="column30 style24 s">N1 O1 P1 T1 U1 V1 F2 H2 L2 Q2 V2 Z2 B3 D3</td>
+            <td class="column31 style24 s">U1 V1 L2 Q2 V2 B3 D3</td>
+            <td class="column32 style24 s">B3</td>
+            <td class="column33 style24 s">S1 B2 C2 R2</td>
+            <td class="column34 style24 s">B3</td>
+            <td class="column35 style24 s">B2 C2 B3</td>
+            <td class="column36 style24 null"></td>
+            <td class="column37 style24 s">U1 V1 L2 B3</td>
+            <td class="column38 style24 s">U1 V1 L2 B3 D3</td>
+            <td class="column39 style24 s">S1 Z1 A2 B2 C2 D2 J2 K2 R2 T2 B3 C3</td>
+            <td class="column40 style24 s">U1 V1 B3</td>
+            <td class="column41 style24 null"></td>
+            <td class="column42 style24 null"></td>
+            <td class="column43 style24 s">U1 V1 B3</td>
+            <td class="column44 style24 s">S1 A2 B2 C2 D2 R2 T2 X2</td>
+            <td class="column45 style24 s">N1 O1 P1 T1 U1 V1 F2 L2 Q2 V2 Z2 B3 D3</td>
+            <td class="column46 style24 s">U1 V1 B3 D3</td>
+            <td class="column47 style24 s">T1 U1 V1 L2 Q2 Z2 B3 D3</td>
+            <td class="column48 style24 null"></td>
+            <td class="column49 style24 s">S1 A2 B2 C2 D2 R2 X2</td>
+            <td class="column50 style24 s">B3</td>
+            <td class="column51 style24 s">U1 V1 Q2 V2 B3 D3</td>
+            <td class="column52 style24 null"></td>
+            <td class="column53 style24 s">S1 A2 B2 C2 R2 T2</td>
+            <td class="column54 style24 s">U1 V1 B3</td>
+            <td class="column55 style24 s">N1 O1 P1 R1 S1 T1 W1 X1 Y1 Z1 A2 B2 C2 D2 E2 G2 H2 J2 K2 L2 M2 P2 R2 S2 T2 W2 X2 A3 C3</td>
+            <td class="column56 style24 s">U1 V1 L2 B3</td>
+            <td class="column57 style24 s">S1 A2 B2 C2 D2 K2 R2 S2 T2 X2</td>
+            <td class="column58 style25 null"></td>
+          </tr>
+          <tr class="row14">
+            <td class="column0 style20 s style20" rowspan="2">Auto-renewal where the money is automatically taken from your account</td>
+            <td class="column1 style21 n">5%</td>
+            <td class="column2 style22 n">3%</td>
+            <td class="column3 style21 n">6%</td>
+            <td class="column4 style22 n">4%</td>
+            <td class="column5 style22 n">1%</td>
+            <td class="column6 style22 n">2%</td>
+            <td class="column7 style22 n">9%</td>
+            <td class="column8 style22 n">12%</td>
+            <td class="column9 style22 n">2%</td>
+            <td class="column10 style22 n">11%</td>
+            <td class="column11 style22 n">0%</td>
+            <td class="column12 style22 n">7%</td>
+            <td class="column13 style22 n">2%</td>
+            <td class="column14 style21 n">1%</td>
+            <td class="column15 style22 n">1%</td>
+            <td class="column16 style22 n">1%</td>
+            <td class="column17 style22 n">0%</td>
+            <td class="column18 style22 n">3%</td>
+            <td class="column19 style22 n">24%</td>
+            <td class="column20 style22 n">0%</td>
+            <td class="column21 style14 null"></td>
+            <td class="column22 style22 n">3%</td>
+            <td class="column23 style22 n">0%</td>
+            <td class="column24 style14 null"></td>
+            <td class="column25 style14 null"></td>
+            <td class="column26 style22 n">2%</td>
+            <td class="column27 style22 n">2%</td>
+            <td class="column28 style22 n">17%</td>
+            <td class="column29 style22 n">7%</td>
+            <td class="column30 style22 n">17%</td>
+            <td class="column31 style22 n">17%</td>
+            <td class="column32 style22 n">11%</td>
+            <td class="column33 style22 n">1%</td>
+            <td class="column34 style22 n">3%</td>
+            <td class="column35 style22 n">0%</td>
+            <td class="column36 style14 null"></td>
+            <td class="column37 style22 n">3%</td>
+            <td class="column38 style22 n">10%</td>
+            <td class="column39 style22 n">20%</td>
+            <td class="column40 style22 n">1%</td>
+            <td class="column41 style14 null"></td>
+            <td class="column42 style14 null"></td>
+            <td class="column43 style22 n">0%</td>
+            <td class="column44 style14 null"></td>
+            <td class="column45 style22 n">2%</td>
+            <td class="column46 style22 n">12%</td>
+            <td class="column47 style22 n">3%</td>
+            <td class="column48 style14 null"></td>
+            <td class="column49 style22 n">8%</td>
+            <td class="column50 style22 n">3%</td>
+            <td class="column51 style22 n">1%</td>
+            <td class="column52 style22 n">0%</td>
+            <td class="column53 style14 null"></td>
+            <td class="column54 style14 null"></td>
+            <td class="column55 style22 n">0%</td>
+            <td class="column56 style22 n">16%</td>
+            <td class="column57 style22 n">0%</td>
+            <td class="column58 style15 null"></td>
+          </tr>
+          <tr class="row15">
+            <td class="column1 style23 s">D1 F1 G1 I1 R1 T1 A2 C2 D2 L2 C3</td>
+            <td class="column2 style24 s">B1</td>
+            <td class="column3 style23 s">A1</td>
+            <td class="column4 style24 s">F1 G1 I1</td>
+            <td class="column5 style24 s">F1 G1 I1 K1</td>
+            <td class="column6 style24 s">F1 G1 I1 K1</td>
+            <td class="column7 style24 s">C1 D1 E1 H1 J1 L1</td>
+            <td class="column8 style24 s">C1 D1 E1 H1 J1 L1</td>
+            <td class="column9 style24 s">F1 G1 I1</td>
+            <td class="column10 style24 s">C1 D1 E1 H1 J1 L1 M1</td>
+            <td class="column11 style24 s">F1 G1 I1 K1</td>
+            <td class="column12 style24 s">D1 E1 J1</td>
+            <td class="column13 style24 s">F1 G1 I1</td>
+            <td class="column14 style23 s">I1</td>
+            <td class="column15 style24 s">R1 A2 B2 C2 D2 E2 K2 L2 S2 V2 C3</td>
+            <td class="column16 style24 s">R1 A2 B2 C2 D2 E2 K2 L2 S2 V2 C3</td>
+            <td class="column17 style24 s">R1 A2 C2 D2 K2 L2 S2 V2 C3</td>
+            <td class="column18 style24 null"></td>
+            <td class="column19 style24 s">N1 O1 P1 S1 T1 U1 V1 X1 Z1 H2 J2 Q2 R2 Z2 B3</td>
+            <td class="column20 style24 s">R1 A2 C2 D2 L2 V2 C3</td>
+            <td class="column21 style24 s">R1 U1 A2 B2 C2 D2 E2 G2 J2 K2 L2 S2 T2 V2 W2 C3</td>
+            <td class="column22 style24 s">R1 T1 A2 C2 D2 L2 C3</td>
+            <td class="column23 style24 s">R1 A2 C2 D2 K2 L2 S2 V2 C3</td>
+            <td class="column24 style24 null"></td>
+            <td class="column25 style24 s">R1 A2 C2 D2 K2 L2 S2 V2 C3</td>
+            <td class="column26 style24 s">A2 C2 D2 L2 C3</td>
+            <td class="column27 style24 s">R1 A2 C2 D2 L2 S2 C3</td>
+            <td class="column28 style24 s">N1 O1 P1 S1 T1 U1 V1 X1 Y1 Z1 B2 H2 J2 M2 P2 Q2 R2 T2 Z2 A3 B3</td>
+            <td class="column29 style24 s">N1 O1 T1 A2 C2 L2 C3</td>
+            <td class="column30 style24 s">N1 O1 P1 S1 T1 U1 V1 X1 Y1 Z1 B2 H2 J2 P2 Q2 R2 T2 Z2 A3 B3</td>
+            <td class="column31 style24 s">N1 O1 P1 S1 T1 U1 V1 X1 Y1 Z1 H2 J2 P2 Q2 R2 Z2 A3 B3</td>
+            <td class="column32 style24 s">N1 O1 T1</td>
+            <td class="column33 style24 s">L2</td>
+            <td class="column34 style24 s">T1 L2</td>
+            <td class="column35 style24 s">R1 A2 C2 D2 K2 L2 S2 V2 C3</td>
+            <td class="column36 style24 null"></td>
+            <td class="column37 style24 s">R1 T1 A2 C2 D2 L2 C3</td>
+            <td class="column38 style24 s">N1 O1 P1 T1 V1 X1 H2 Q2 Z2 B3</td>
+            <td class="column39 style24 s">N1 O1 P1 S1 T1 U1 V1 X1 Y1 Z1 B2 F2 G2 H2 J2 M2 P2 Q2 R2 T2 X2 Z2 A3 B3</td>
+            <td class="column40 style24 s">A2 L2</td>
+            <td class="column41 style24 null"></td>
+            <td class="column42 style24 null"></td>
+            <td class="column43 style24 s">A2 C2 D2 L2 C3</td>
+            <td class="column44 style24 s">R1 A2 C2 D2 K2 L2 S2 V2 C3</td>
+            <td class="column45 style24 s">R1 A2 C2 D2 L2 C3</td>
+            <td class="column46 style24 s">N1 O1 P1 T1 V1 X1 Z1 H2 Q2 Z2 B3</td>
+            <td class="column47 style24 s">T1 A2 C2 L2 C3</td>
+            <td class="column48 style24 null"></td>
+            <td class="column49 style24 s">N1 O1 P1 S1 T1 V1 X1 H2 Q2 Z2 B3</td>
+            <td class="column50 style24 s">T1</td>
+            <td class="column51 style24 s">L2 C3</td>
+            <td class="column52 style24 null"></td>
+            <td class="column53 style24 s">R1 A2 C2 D2 K2 L2 S2 V2 C3</td>
+            <td class="column54 style24 s">A2 C2 D2 L2 C3</td>
+            <td class="column55 style24 s">R1 A2 C2 D2 K2 L2 S2 V2 C3</td>
+            <td class="column56 style24 s">N1 O1 P1 S1 T1 U1 V1 X1 Y1 Z1 B2 H2 J2 P2 Q2 R2 T2 X2 Z2 A3 B3</td>
+            <td class="column57 style24 null"></td>
+            <td class="column58 style25 null"></td>
+          </tr>
+          <tr class="row16">
+            <td class="column0 style20 s style20" rowspan="2">Online, from a website where private individuals sell to each other, such as eBay or Airbnb</td>
+            <td class="column1 style21 n">3%</td>
+            <td class="column2 style22 n">5%</td>
+            <td class="column3 style21 n">1%</td>
+            <td class="column4 style22 n">4%</td>
+            <td class="column5 style22 n">8%</td>
+            <td class="column6 style22 n">4%</td>
+            <td class="column7 style22 n">1%</td>
+            <td class="column8 style22 n">2%</td>
+            <td class="column9 style22 n">2%</td>
+            <td class="column10 style22 n">1%</td>
+            <td class="column11 style22 n">4%</td>
+            <td class="column12 style22 n">1%</td>
+            <td class="column13 style22 n">1%</td>
+            <td class="column14 style21 n">0%</td>
+            <td class="column15 style22 n">0%</td>
+            <td class="column16 style22 n">5%</td>
+            <td class="column17 style22 n">6%</td>
+            <td class="column18 style22 n">37%</td>
+            <td class="column19 style22 n">0%</td>
+            <td class="column20 style14 null"></td>
+            <td class="column21 style22 n">8%</td>
+            <td class="column22 style22 n">8%</td>
+            <td class="column23 style22 n">13%</td>
+            <td class="column24 style14 null"></td>
+            <td class="column25 style22 n">14%</td>
+            <td class="column26 style22 n">2%</td>
+            <td class="column27 style22 n">0%</td>
+            <td class="column28 style22 n">1%</td>
+            <td class="column29 style22 n">1%</td>
+            <td class="column30 style22 n">1%</td>
+            <td class="column31 style14 null"></td>
+            <td class="column32 style22 n">2%</td>
+            <td class="column33 style14 null"></td>
+            <td class="column34 style22 n">3%</td>
+            <td class="column35 style22 n">1%</td>
+            <td class="column36 style14 null"></td>
+            <td class="column37 style22 n">2%</td>
+            <td class="column38 style22 n">0%</td>
+            <td class="column39 style14 null"></td>
+            <td class="column40 style22 n">1%</td>
+            <td class="column41 style14 null"></td>
+            <td class="column42 style14 null"></td>
+            <td class="column43 style22 n">6%</td>
+            <td class="column44 style14 null"></td>
+            <td class="column45 style22 n">2%</td>
+            <td class="column46 style14 null"></td>
+            <td class="column47 style22 n">1%</td>
+            <td class="column48 style14 null"></td>
+            <td class="column49 style22 n">6%</td>
+            <td class="column50 style14 null"></td>
+            <td class="column51 style14 null"></td>
+            <td class="column52 style14 null"></td>
+            <td class="column53 style22 n">4%</td>
+            <td class="column54 style14 null"></td>
+            <td class="column55 style22 n">1%</td>
+            <td class="column56 style22 n">0%</td>
+            <td class="column57 style14 null"></td>
+            <td class="column58 style15 null"></td>
+          </tr>
+          <tr class="row17">
+            <td class="column1 style23 s">B1 D1 F1 Q1 T1 U1 V1 X1</td>
+            <td class="column2 style24 s">B1</td>
+            <td class="column3 style23 s">A1</td>
+            <td class="column4 style24 s">F1</td>
+            <td class="column5 style24 s">F1 I1 L1</td>
+            <td class="column6 style24 s">F1</td>
+            <td class="column7 style24 s">C1 D1 E1 J1</td>
+            <td class="column8 style24 null"></td>
+            <td class="column9 style24 null"></td>
+            <td class="column10 style24 s">D1</td>
+            <td class="column11 style24 s">F1</td>
+            <td class="column12 style24 null"></td>
+            <td class="column13 style24 s">D1</td>
+            <td class="column14 style23 null"></td>
+            <td class="column15 style24 s">P1 Q1 T1 U1 V1 X1 P2</td>
+            <td class="column16 style24 s">Q1 B2</td>
+            <td class="column17 style24 s">N1 Q1 Z1 B2 C2 L2</td>
+            <td class="column18 style24 s">N1 O1 P1 R1 S1 T1 U1 Y1 Z1 A2 B2 C2 D2 E2 F2 G2 H2 J2 K2 L2 M2 P2 Q2 R2 S2 T2 X2 Z2 A3 B3 C3</td>
+            <td class="column19 style24 s">Q1</td>
+            <td class="column20 style24 s">Q1 X1</td>
+            <td class="column21 style24 s">N1 Q1 Z1 A2 B2 C2 L2</td>
+            <td class="column22 style24 s">N1 Q1 Z1 A2 B2 C2 L2</td>
+            <td class="column23 style24 s">N1 Z1 A2 B2 C2 E2 H2 J2 L2 Q2 T2 B3 C3</td>
+            <td class="column24 style24 null"></td>
+            <td class="column25 style24 s">N1 S1 Y1 Z1 A2 B2 C2 E2 H2 J2 L2 Q2 R2 T2 A3 B3 C3</td>
+            <td class="column26 style24 s">Q1 X1</td>
+            <td class="column27 style24 s">P1 Q1 T1 U1 V1 X1 P2</td>
+            <td class="column28 style24 s">Q1 T1 U1 V1 X1</td>
+            <td class="column29 style24 s">O1 P1 Q1 T1 U1 V1 X1 P2</td>
+            <td class="column30 style24 s">P1 Q1 T1 U1 V1 X1 P2</td>
+            <td class="column31 style24 s">Q1</td>
+            <td class="column32 style24 s">Q1 V1 X1</td>
+            <td class="column33 style24 s">Q1</td>
+            <td class="column34 style24 s">Q1</td>
+            <td class="column35 style24 s">Q1 V1 X1</td>
+            <td class="column36 style24 null"></td>
+            <td class="column37 style24 s">Q1 V1 X1</td>
+            <td class="column38 style24 s">Q1</td>
+            <td class="column39 style24 s">P1 Q1 T1 U1 V1 X1 P2</td>
+            <td class="column40 style24 s">Q1</td>
+            <td class="column41 style24 null"></td>
+            <td class="column42 style24 null"></td>
+            <td class="column43 style24 s">N1 Q1 Z1 B2 C2 L2</td>
+            <td class="column44 style24 s">Q1 V1 X1</td>
+            <td class="column45 style24 s">Q1 X1</td>
+            <td class="column46 style24 s">Q1</td>
+            <td class="column47 style24 s">Q1 V1 X1</td>
+            <td class="column48 style24 null"></td>
+            <td class="column49 style24 null"></td>
+            <td class="column50 style24 null"></td>
+            <td class="column51 style24 s">Q1</td>
+            <td class="column52 style24 null"></td>
+            <td class="column53 style24 s">Q1</td>
+            <td class="column54 style24 s">Q1 X1</td>
+            <td class="column55 style24 s">Q1 V1 X1</td>
+            <td class="column56 style24 s">Q1 V1 X1</td>
+            <td class="column57 style24 null"></td>
+            <td class="column58 style25 null"></td>
+          </tr>
+          <tr class="row18">
+            <td class="column0 style20 s style20" rowspan="2">In-person from salesperson who visited my home or work</td>
+            <td class="column1 style21 n">2%</td>
+            <td class="column2 style22 n">0%</td>
+            <td class="column3 style21 n">3%</td>
+            <td class="column4 style22 n">0%</td>
+            <td class="column5 style22 n">1%</td>
+            <td class="column6 style22 n">1%</td>
+            <td class="column7 style22 n">2%</td>
+            <td class="column8 style22 n">3%</td>
+            <td class="column9 style22 n">16%</td>
+            <td class="column10 style22 n">3%</td>
+            <td class="column11 style22 n">6%</td>
+            <td class="column12 style22 n">4%</td>
+            <td class="column13 style22 n">0%</td>
+            <td class="column14 style21 n">0%</td>
+            <td class="column15 style22 n">0%</td>
+            <td class="column16 style14 null"></td>
+            <td class="column17 style22 n">2%</td>
+            <td class="column18 style22 n">2%</td>
+            <td class="column19 style14 null"></td>
+            <td class="column20 style22 n">1%</td>
+            <td class="column21 style22 n">2%</td>
+            <td class="column22 style22 n">0%</td>
+            <td class="column23 style14 null"></td>
+            <td class="column24 style22 n">4%</td>
+            <td class="column25 style22 n">1%</td>
+            <td class="column26 style22 n">0%</td>
+            <td class="column27 style22 n">0%</td>
+            <td class="column28 style22 n">1%</td>
+            <td class="column29 style22 n">2%</td>
+            <td class="column30 style22 n">3%</td>
+            <td class="column31 style22 n">3%</td>
+            <td class="column32 style22 n">4%</td>
+            <td class="column33 style22 n">15%</td>
+            <td class="column34 style22 n">7%</td>
+            <td class="column35 style22 n">30%</td>
+            <td class="column36 style14 null"></td>
+            <td class="column37 style22 n">0%</td>
+            <td class="column38 style22 n">17%</td>
+            <td class="column39 style22 n">0%</td>
+            <td class="column40 style22 n">1%</td>
+            <td class="column41 style14 null"></td>
+            <td class="column42 style14 null"></td>
+            <td class="column43 style22 n">9%</td>
+            <td class="column44 style14 null"></td>
+            <td class="column45 style22 n">1%</td>
+            <td class="column46 style14 null"></td>
+            <td class="column47 style14 null"></td>
+            <td class="column48 style14 null"></td>
+            <td class="column49 style22 n">13%</td>
+            <td class="column50 style14 null"></td>
+            <td class="column51 style14 null"></td>
+            <td class="column52 style22 n">0%</td>
+            <td class="column53 style14 null"></td>
+            <td class="column54 style14 null"></td>
+            <td class="column55 style14 null"></td>
+            <td class="column56 style22 n">1%</td>
+            <td class="column57 style14 null"></td>
+            <td class="column58 style15 null"></td>
+          </tr>
+          <tr class="row19">
+            <td class="column1 style23 s">H1 J1 H2 P2</td>
+            <td class="column2 style24 s">B1</td>
+            <td class="column3 style23 s">A1</td>
+            <td class="column4 style24 s">G1 H1 I1 J1 K1</td>
+            <td class="column5 style24 s">H1 I1 J1 K1</td>
+            <td class="column6 style24 s">H1 J1</td>
+            <td class="column7 style24 s">H1 J1</td>
+            <td class="column8 style24 s">C1 H1</td>
+            <td class="column9 style24 s">C1 D1 E1 F1 G1 I1 K1 L1 M1</td>
+            <td class="column10 style24 s">C1 D1 H1 L1</td>
+            <td class="column11 style24 s">C1 D1 E1 F1 L1</td>
+            <td class="column12 style24 s">C1 D1 H1 L1</td>
+            <td class="column13 style24 s">H1 I1 J1 K1</td>
+            <td class="column14 style23 s">H1</td>
+            <td class="column15 style24 s">G2 H2 P2</td>
+            <td class="column16 style24 s">G2 H2 P2</td>
+            <td class="column17 style24 s">H2</td>
+            <td class="column18 style24 null"></td>
+            <td class="column19 style24 s">H2</td>
+            <td class="column20 style24 s">H2</td>
+            <td class="column21 style24 s">H2 P2</td>
+            <td class="column22 style24 s">G2 H2 P2</td>
+            <td class="column23 style24 s">H2 P2</td>
+            <td class="column24 style24 null"></td>
+            <td class="column25 style24 s">H2</td>
+            <td class="column26 style24 s">H2</td>
+            <td class="column27 style24 s">G2 H2 P2</td>
+            <td class="column28 style24 s">H2 P2</td>
+            <td class="column29 style24 s">H2 P2</td>
+            <td class="column30 style24 s">H2</td>
+            <td class="column31 style24 s">H2</td>
+            <td class="column32 style24 s">H2</td>
+            <td class="column33 style24 null"></td>
+            <td class="column34 style24 s">N1 O1 U1 Z1 H2 J2 L2</td>
+            <td class="column35 style24 s">N1 O1 P1 R1 S1 T1 U1 V1 X1 Y1 Z1 A2 B2 C2 D2 E2 G2 J2 L2 P2 R2 T2 X2 Z2 B3</td>
+            <td class="column36 style24 null"></td>
+            <td class="column37 style24 s">G2 H2 P2</td>
+            <td class="column38 style24 null"></td>
+            <td class="column39 style24 s">G2 H2 P2</td>
+            <td class="column40 style24 null"></td>
+            <td class="column41 style24 null"></td>
+            <td class="column42 style24 null"></td>
+            <td class="column43 style24 s">N1 O1 T1 U1 V1 Z1 A2 B2 H2 J2 L2 T2 Z2 B3</td>
+            <td class="column44 style24 null"></td>
+            <td class="column45 style24 s">H2</td>
+            <td class="column46 style24 null"></td>
+            <td class="column47 style24 s">H2 P2</td>
+            <td class="column48 style24 null"></td>
+            <td class="column49 style24 null"></td>
+            <td class="column50 style24 null"></td>
+            <td class="column51 style24 s">H2</td>
+            <td class="column52 style24 null"></td>
+            <td class="column53 style24 s">H2 P2</td>
+            <td class="column54 style24 null"></td>
+            <td class="column55 style24 s">H2 P2</td>
+            <td class="column56 style24 null"></td>
+            <td class="column57 style24 null"></td>
+            <td class="column58 style25 null"></td>
+          </tr>
+          <tr class="row20">
+            <td class="column0 style20 s style20" rowspan="2">Online through a social media platform</td>
+            <td class="column1 style21 n">1%</td>
+            <td class="column2 style22 n">1%</td>
+            <td class="column3 style21 n">1%</td>
+            <td class="column4 style22 n">1%</td>
+            <td class="column5 style22 n">2%</td>
+            <td class="column6 style22 n">3%</td>
+            <td class="column7 style22 n">0%</td>
+            <td class="column8 style14 null"></td>
+            <td class="column9 style22 n">1%</td>
+            <td class="column10 style22 n">0%</td>
+            <td class="column11 style22 n">0%</td>
+            <td class="column12 style22 n">0%</td>
+            <td class="column13 style22 n">1%</td>
+            <td class="column14 style21 n">0%</td>
+            <td class="column15 style22 n">0%</td>
+            <td class="column16 style22 n">1%</td>
+            <td class="column17 style22 n">0%</td>
+            <td class="column18 style22 n">3%</td>
+            <td class="column19 style22 n">0%</td>
+            <td class="column20 style22 n">0%</td>
+            <td class="column21 style22 n">3%</td>
+            <td class="column22 style22 n">3%</td>
+            <td class="column23 style22 n">0%</td>
+            <td class="column24 style22 n">8%</td>
+            <td class="column25 style22 n">7%</td>
+            <td class="column26 style14 null"></td>
+            <td class="column27 style22 n">1%</td>
+            <td class="column28 style14 null"></td>
+            <td class="column29 style22 n">0%</td>
+            <td class="column30 style22 n">0%</td>
+            <td class="column31 style14 null"></td>
+            <td class="column32 style14 null"></td>
+            <td class="column33 style14 null"></td>
+            <td class="column34 style14 null"></td>
+            <td class="column35 style22 n">3%</td>
+            <td class="column36 style14 null"></td>
+            <td class="column37 style14 null"></td>
+            <td class="column38 style14 null"></td>
+            <td class="column39 style22 n">0%</td>
+            <td class="column40 style14 null"></td>
+            <td class="column41 style14 null"></td>
+            <td class="column42 style14 null"></td>
+            <td class="column43 style22 n">0%</td>
+            <td class="column44 style14 null"></td>
+            <td class="column45 style22 n">2%</td>
+            <td class="column46 style22 n">1%</td>
+            <td class="column47 style14 null"></td>
+            <td class="column48 style14 null"></td>
+            <td class="column49 style14 null"></td>
+            <td class="column50 style14 null"></td>
+            <td class="column51 style14 null"></td>
+            <td class="column52 style22 n">1%</td>
+            <td class="column53 style22 n">0%</td>
+            <td class="column54 style22 n">7%</td>
+            <td class="column55 style14 null"></td>
+            <td class="column56 style22 n">1%</td>
+            <td class="column57 style22 n">0%</td>
+            <td class="column58 style15 null"></td>
+          </tr>
+          <tr class="row21">
+            <td class="column1 style23 s">D1 U1</td>
+            <td class="column2 style24 null"></td>
+            <td class="column3 style23 null"></td>
+            <td class="column4 style24 null"></td>
+            <td class="column5 style24 s">F1</td>
+            <td class="column6 style24 s">F1</td>
+            <td class="column7 style24 s">D1 E1</td>
+            <td class="column8 style24 null"></td>
+            <td class="column9 style24 null"></td>
+            <td class="column10 style24 null"></td>
+            <td class="column11 style24 null"></td>
+            <td class="column12 style24 null"></td>
+            <td class="column13 style24 null"></td>
+            <td class="column14 style23 null"></td>
+            <td class="column15 style24 null"></td>
+            <td class="column16 style24 null"></td>
+            <td class="column17 style24 null"></td>
+            <td class="column18 style24 null"></td>
+            <td class="column19 style24 null"></td>
+            <td class="column20 style24 null"></td>
+            <td class="column21 style24 s">B2</td>
+            <td class="column22 style24 s">B2</td>
+            <td class="column23 style24 null"></td>
+            <td class="column24 style24 null"></td>
+            <td class="column25 style24 null"></td>
+            <td class="column26 style24 null"></td>
+            <td class="column27 style24 null"></td>
+            <td class="column28 style24 null"></td>
+            <td class="column29 style24 s">T1 U1</td>
+            <td class="column30 style24 null"></td>
+            <td class="column31 style24 null"></td>
+            <td class="column32 style24 null"></td>
+            <td class="column33 style24 null"></td>
+            <td class="column34 style24 null"></td>
+            <td class="column35 style24 null"></td>
+            <td class="column36 style24 null"></td>
+            <td class="column37 style24 null"></td>
+            <td class="column38 style24 null"></td>
+            <td class="column39 style24 null"></td>
+            <td class="column40 style24 null"></td>
+            <td class="column41 style24 null"></td>
+            <td class="column42 style24 null"></td>
+            <td class="column43 style24 null"></td>
+            <td class="column44 style24 null"></td>
+            <td class="column45 style24 null"></td>
+            <td class="column46 style24 null"></td>
+            <td class="column47 style24 null"></td>
+            <td class="column48 style24 null"></td>
+            <td class="column49 style24 null"></td>
+            <td class="column50 style24 null"></td>
+            <td class="column51 style24 null"></td>
+            <td class="column52 style24 null"></td>
+            <td class="column53 style24 null"></td>
+            <td class="column54 style24 null"></td>
+            <td class="column55 style24 null"></td>
+            <td class="column56 style24 null"></td>
+            <td class="column57 style24 null"></td>
+            <td class="column58 style25 null"></td>
+          </tr>
+          <tr class="row22">
+            <td class="column0 style26 s style26" rowspan="2">Other</td>
+            <td class="column1 style21 n">3%</td>
+            <td class="column2 style22 n">2%</td>
+            <td class="column3 style21 n">5%</td>
+            <td class="column4 style22 n">2%</td>
+            <td class="column5 style22 n">1%</td>
+            <td class="column6 style22 n">3%</td>
+            <td class="column7 style22 n">1%</td>
+            <td class="column8 style22 n">8%</td>
+            <td class="column9 style22 n">12%</td>
+            <td class="column10 style22 n">10%</td>
+            <td class="column11 style22 n">8%</td>
+            <td class="column12 style22 n">19%</td>
+            <td class="column13 style22 n">3%</td>
+            <td class="column14 style21 n">9%</td>
+            <td class="column15 style22 n">4%</td>
+            <td class="column16 style22 n">0%</td>
+            <td class="column17 style22 n">1%</td>
+            <td class="column18 style22 n">1%</td>
+            <td class="column19 style22 n">0%</td>
+            <td class="column20 style22 n">0%</td>
+            <td class="column21 style22 n">2%</td>
+            <td class="column22 style22 n">1%</td>
+            <td class="column23 style22 n">2%</td>
+            <td class="column24 style22 n">1%</td>
+            <td class="column25 style22 n">8%</td>
+            <td class="column26 style22 n">1%</td>
+            <td class="column27 style22 n">1%</td>
+            <td class="column28 style22 n">2%</td>
+            <td class="column29 style22 n">1%</td>
+            <td class="column30 style22 n">0%</td>
+            <td class="column31 style22 n">21%</td>
+            <td class="column32 style22 n">5%</td>
+            <td class="column33 style22 n">2%</td>
+            <td class="column34 style22 n">13%</td>
+            <td class="column35 style22 n">12%</td>
+            <td class="column36 style14 null"></td>
+            <td class="column37 style22 n">9%</td>
+            <td class="column38 style22 n">21%</td>
+            <td class="column39 style22 n">5%</td>
+            <td class="column40 style22 n">19%</td>
+            <td class="column41 style14 null"></td>
+            <td class="column42 style14 null"></td>
+            <td class="column43 style22 n">11%</td>
+            <td class="column44 style22 n">0%</td>
+            <td class="column45 style22 n">2%</td>
+            <td class="column46 style22 n">14%</td>
+            <td class="column47 style22 n">7%</td>
+            <td class="column48 style14 null"></td>
+            <td class="column49 style22 n">12%</td>
+            <td class="column50 style22 n">16%</td>
+            <td class="column51 style22 n">4%</td>
+            <td class="column52 style22 n">3%</td>
+            <td class="column53 style22 n">1%</td>
+            <td class="column54 style22 n">10%</td>
+            <td class="column55 style22 n">1%</td>
+            <td class="column56 style22 n">6%</td>
+            <td class="column57 style14 null"></td>
+            <td class="column58 style15 null"></td>
+          </tr>
+          <tr class="row23">
+            <td class="column1 style27 s">D1 F1 H1 I1 K1 D2 G2 H2 J2 K2 M2 P2 S2</td>
+            <td class="column2 style28 s">B1</td>
+            <td class="column3 style27 s">A1</td>
+            <td class="column4 style28 s">G1 H1 I1 J1 K1 M1</td>
+            <td class="column5 style28 s">G1 H1 I1 J1 K1 M1</td>
+            <td class="column6 style28 s">H1 I1 K1</td>
+            <td class="column7 style28 s">G1 H1 I1 J1 K1 M1</td>
+            <td class="column8 style28 s">C1 D1 F1</td>
+            <td class="column9 style28 s">C1 D1 E1 F1 L1</td>
+            <td class="column10 style28 s">C1 D1 E1 F1 L1</td>
+            <td class="column11 style28 s">C1 D1 F1</td>
+            <td class="column12 style28 s">C1 D1 E1 F1 L1</td>
+            <td class="column13 style28 s">H1 I1 K1</td>
+            <td class="column14 style27 s">C1 D1 F1</td>
+            <td class="column15 style28 s">C2 D2 K2 M2</td>
+            <td class="column16 style28 s">X1 D2 G2 H2 J2 K2 L2 M2 P2 S2 T2 A3 C3</td>
+            <td class="column17 style28 s">D2 G2 H2 J2 K2 M2 P2 S2</td>
+            <td class="column18 style28 null"></td>
+            <td class="column19 style28 s">K2 M2</td>
+            <td class="column20 style28 s">D2 G2 H2 K2 M2 S2</td>
+            <td class="column21 style28 s">X1 D2 G2 H2 J2 K2 M2 P2 S2 A3</td>
+            <td class="column22 style28 s">X1 D2 G2 H2 J2 K2 L2 M2 P2 S2 T2 A3 C3</td>
+            <td class="column23 style28 s">D2 K2 M2</td>
+            <td class="column24 style28 null"></td>
+            <td class="column25 style28 s">O1 T1 U1 Z1 B2 C2</td>
+            <td class="column26 style28 s">D2 G2 H2 K2 M2 P2 S2</td>
+            <td class="column27 style28 s">X1 D2 G2 H2 J2 K2 M2 P2 S2 T2 A3</td>
+            <td class="column28 style28 s">D2 G2 H2 K2 M2 S2</td>
+            <td class="column29 style28 s">X1 D2 G2 H2 J2 K2 L2 M2 P2 S2 T2 A3 C3</td>
+            <td class="column30 style28 s">N1 X1 D2 G2 H2 J2 K2 L2 M2 P2 S2 T2 A3 C3</td>
+            <td class="column31 style28 s">N1 O1 P1 S1 T1 U1 V1 Y1 Z1 A2 B2 C2 E2 L2 Q2 R2 Z2 B3</td>
+            <td class="column32 style28 s">D2 K2 M2</td>
+            <td class="column33 style28 null"></td>
+            <td class="column34 style28 s">O1 P1 S1 T1 U1 Y1 Z1 A2 B2 C2 Q2 R2 Z2 B3</td>
+            <td class="column35 style28 s">O1 P1 S1 T1 U1 Y1 Z1 A2 B2 C2 Q2 R2 Z2 B3</td>
+            <td class="column36 style28 null"></td>
+            <td class="column37 style28 s">O1 P1 T1 U1 Z1 B2 C2 Q2 B3</td>
+            <td class="column38 style28 s">N1 O1 P1 R1 S1 T1 U1 V1 Y1 Z1 A2 B2 C2 E2 L2 Q2 R2 Z2 B3</td>
+            <td class="column39 style28 s">O1 U1 B2 C2 D2 K2 M2</td>
+            <td class="column40 style28 s">N1 O1 P1 R1 S1 T1 U1 V1 Y1 Z1 A2 B2 C2 E2 L2 Q2 R2 Z2 B3</td>
+            <td class="column41 style28 null"></td>
+            <td class="column42 style28 null"></td>
+            <td class="column43 style28 s">O1 P1 T1 U1 Y1 Z1 B2 C2 Q2 B3</td>
+            <td class="column44 style28 s">D2 G2 H2 J2 K2 M2 P2 S2</td>
+            <td class="column45 style28 s">D2 G2 H2 K2 M2 S2</td>
+            <td class="column46 style28 s">O1 P1 S1 T1 U1 Y1 Z1 A2 B2 C2 Q2 R2 Z2 B3</td>
+            <td class="column47 style28 s">O1 U1 Z1 B2 C2</td>
+            <td class="column48 style28 null"></td>
+            <td class="column49 style28 null"></td>
+            <td class="column50 style28 null"></td>
+            <td class="column51 style28 null"></td>
+            <td class="column52 style28 null"></td>
+            <td class="column53 style28 s">D2 G2 H2 K2 M2 S2</td>
+            <td class="column54 style28 s">O1 T1 U1 Z1 B2 C2 B3</td>
+            <td class="column55 style28 s">D2 G2 H2 J2 K2 M2 P2 S2 A3</td>
+            <td class="column56 style28 s">O1 U1 B2 C2</td>
+            <td class="column57 style28 null"></td>
+            <td class="column58 style29 null"></td>
+          </tr>
+          <tr class="row24">
+            <td class="column0">&nbsp;</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11">&nbsp;</td>
+            <td class="column12">&nbsp;</td>
+            <td class="column13">&nbsp;</td>
+            <td class="column14">&nbsp;</td>
+            <td class="column15">&nbsp;</td>
+            <td class="column16">&nbsp;</td>
+            <td class="column17">&nbsp;</td>
+            <td class="column18">&nbsp;</td>
+            <td class="column19">&nbsp;</td>
+            <td class="column20">&nbsp;</td>
+            <td class="column21">&nbsp;</td>
+            <td class="column22">&nbsp;</td>
+            <td class="column23">&nbsp;</td>
+            <td class="column24">&nbsp;</td>
+            <td class="column25">&nbsp;</td>
+            <td class="column26">&nbsp;</td>
+            <td class="column27">&nbsp;</td>
+            <td class="column28">&nbsp;</td>
+            <td class="column29">&nbsp;</td>
+            <td class="column30">&nbsp;</td>
+            <td class="column31">&nbsp;</td>
+            <td class="column32">&nbsp;</td>
+            <td class="column33">&nbsp;</td>
+            <td class="column34">&nbsp;</td>
+            <td class="column35">&nbsp;</td>
+            <td class="column36">&nbsp;</td>
+            <td class="column37">&nbsp;</td>
+            <td class="column38">&nbsp;</td>
+            <td class="column39">&nbsp;</td>
+            <td class="column40">&nbsp;</td>
+            <td class="column41">&nbsp;</td>
+            <td class="column42">&nbsp;</td>
+            <td class="column43">&nbsp;</td>
+            <td class="column44">&nbsp;</td>
+            <td class="column45">&nbsp;</td>
+            <td class="column46">&nbsp;</td>
+            <td class="column47">&nbsp;</td>
+            <td class="column48">&nbsp;</td>
+            <td class="column49">&nbsp;</td>
+            <td class="column50">&nbsp;</td>
+            <td class="column51">&nbsp;</td>
+            <td class="column52">&nbsp;</td>
+            <td class="column53">&nbsp;</td>
+            <td class="column54">&nbsp;</td>
+            <td class="column55">&nbsp;</td>
+            <td class="column56">&nbsp;</td>
+            <td class="column57">&nbsp;</td>
+            <td class="column58">&nbsp;</td>
+          </tr>
+          <tr class="row25">
+            <td class="column0 style30 s">Notes</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11">&nbsp;</td>
+            <td class="column12">&nbsp;</td>
+            <td class="column13">&nbsp;</td>
+            <td class="column14">&nbsp;</td>
+            <td class="column15">&nbsp;</td>
+            <td class="column16">&nbsp;</td>
+            <td class="column17">&nbsp;</td>
+            <td class="column18">&nbsp;</td>
+            <td class="column19">&nbsp;</td>
+            <td class="column20">&nbsp;</td>
+            <td class="column21">&nbsp;</td>
+            <td class="column22">&nbsp;</td>
+            <td class="column23">&nbsp;</td>
+            <td class="column24">&nbsp;</td>
+            <td class="column25">&nbsp;</td>
+            <td class="column26">&nbsp;</td>
+            <td class="column27">&nbsp;</td>
+            <td class="column28">&nbsp;</td>
+            <td class="column29">&nbsp;</td>
+            <td class="column30">&nbsp;</td>
+            <td class="column31">&nbsp;</td>
+            <td class="column32">&nbsp;</td>
+            <td class="column33">&nbsp;</td>
+            <td class="column34">&nbsp;</td>
+            <td class="column35">&nbsp;</td>
+            <td class="column36">&nbsp;</td>
+            <td class="column37">&nbsp;</td>
+            <td class="column38">&nbsp;</td>
+            <td class="column39">&nbsp;</td>
+            <td class="column40">&nbsp;</td>
+            <td class="column41">&nbsp;</td>
+            <td class="column42">&nbsp;</td>
+            <td class="column43">&nbsp;</td>
+            <td class="column44">&nbsp;</td>
+            <td class="column45">&nbsp;</td>
+            <td class="column46">&nbsp;</td>
+            <td class="column47">&nbsp;</td>
+            <td class="column48">&nbsp;</td>
+            <td class="column49">&nbsp;</td>
+            <td class="column50">&nbsp;</td>
+            <td class="column51">&nbsp;</td>
+            <td class="column52">&nbsp;</td>
+            <td class="column53">&nbsp;</td>
+            <td class="column54">&nbsp;</td>
+            <td class="column55">&nbsp;</td>
+            <td class="column56">&nbsp;</td>
+            <td class="column57">&nbsp;</td>
+            <td class="column58">&nbsp;</td>
+          </tr>
+          <tr class="row26">
+            <td class="column0 style30 s">* Estimate based on a small sample size (N&gt;24 and &lt;50)</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11">&nbsp;</td>
+            <td class="column12">&nbsp;</td>
+            <td class="column13">&nbsp;</td>
+            <td class="column14">&nbsp;</td>
+            <td class="column15">&nbsp;</td>
+            <td class="column16">&nbsp;</td>
+            <td class="column17">&nbsp;</td>
+            <td class="column18">&nbsp;</td>
+            <td class="column19">&nbsp;</td>
+            <td class="column20">&nbsp;</td>
+            <td class="column21">&nbsp;</td>
+            <td class="column22">&nbsp;</td>
+            <td class="column23">&nbsp;</td>
+            <td class="column24">&nbsp;</td>
+            <td class="column25">&nbsp;</td>
+            <td class="column26">&nbsp;</td>
+            <td class="column27">&nbsp;</td>
+            <td class="column28">&nbsp;</td>
+            <td class="column29">&nbsp;</td>
+            <td class="column30">&nbsp;</td>
+            <td class="column31">&nbsp;</td>
+            <td class="column32">&nbsp;</td>
+            <td class="column33">&nbsp;</td>
+            <td class="column34">&nbsp;</td>
+            <td class="column35">&nbsp;</td>
+            <td class="column36">&nbsp;</td>
+            <td class="column37">&nbsp;</td>
+            <td class="column38">&nbsp;</td>
+            <td class="column39">&nbsp;</td>
+            <td class="column40">&nbsp;</td>
+            <td class="column41">&nbsp;</td>
+            <td class="column42">&nbsp;</td>
+            <td class="column43">&nbsp;</td>
+            <td class="column44">&nbsp;</td>
+            <td class="column45">&nbsp;</td>
+            <td class="column46">&nbsp;</td>
+            <td class="column47">&nbsp;</td>
+            <td class="column48">&nbsp;</td>
+            <td class="column49">&nbsp;</td>
+            <td class="column50">&nbsp;</td>
+            <td class="column51">&nbsp;</td>
+            <td class="column52">&nbsp;</td>
+            <td class="column53">&nbsp;</td>
+            <td class="column54">&nbsp;</td>
+            <td class="column55">&nbsp;</td>
+            <td class="column56">&nbsp;</td>
+            <td class="column57">&nbsp;</td>
+            <td class="column58">&nbsp;</td>
+          </tr>
+          <tr class="row27">
+            <td class="column0 style30 s">** Supressed to prevent disclosure (N&lt;25)</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11">&nbsp;</td>
+            <td class="column12">&nbsp;</td>
+            <td class="column13">&nbsp;</td>
+            <td class="column14">&nbsp;</td>
+            <td class="column15">&nbsp;</td>
+            <td class="column16">&nbsp;</td>
+            <td class="column17">&nbsp;</td>
+            <td class="column18">&nbsp;</td>
+            <td class="column19">&nbsp;</td>
+            <td class="column20">&nbsp;</td>
+            <td class="column21">&nbsp;</td>
+            <td class="column22">&nbsp;</td>
+            <td class="column23">&nbsp;</td>
+            <td class="column24">&nbsp;</td>
+            <td class="column25">&nbsp;</td>
+            <td class="column26">&nbsp;</td>
+            <td class="column27">&nbsp;</td>
+            <td class="column28">&nbsp;</td>
+            <td class="column29">&nbsp;</td>
+            <td class="column30">&nbsp;</td>
+            <td class="column31">&nbsp;</td>
+            <td class="column32">&nbsp;</td>
+            <td class="column33">&nbsp;</td>
+            <td class="column34">&nbsp;</td>
+            <td class="column35">&nbsp;</td>
+            <td class="column36">&nbsp;</td>
+            <td class="column37">&nbsp;</td>
+            <td class="column38">&nbsp;</td>
+            <td class="column39">&nbsp;</td>
+            <td class="column40">&nbsp;</td>
+            <td class="column41">&nbsp;</td>
+            <td class="column42">&nbsp;</td>
+            <td class="column43">&nbsp;</td>
+            <td class="column44">&nbsp;</td>
+            <td class="column45">&nbsp;</td>
+            <td class="column46">&nbsp;</td>
+            <td class="column47">&nbsp;</td>
+            <td class="column48">&nbsp;</td>
+            <td class="column49">&nbsp;</td>
+            <td class="column50">&nbsp;</td>
+            <td class="column51">&nbsp;</td>
+            <td class="column52">&nbsp;</td>
+            <td class="column53">&nbsp;</td>
+            <td class="column54">&nbsp;</td>
+            <td class="column55">&nbsp;</td>
+            <td class="column56">&nbsp;</td>
+            <td class="column57">&nbsp;</td>
+            <td class="column58">&nbsp;</td>
+          </tr>
+          <tr class="row28">
+            <td class="column0 style30 s">Variable: DetChan. Question text: &quot;How were these [products] originally bought?&quot;.</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11">&nbsp;</td>
+            <td class="column12">&nbsp;</td>
+            <td class="column13">&nbsp;</td>
+            <td class="column14">&nbsp;</td>
+            <td class="column15">&nbsp;</td>
+            <td class="column16">&nbsp;</td>
+            <td class="column17">&nbsp;</td>
+            <td class="column18">&nbsp;</td>
+            <td class="column19">&nbsp;</td>
+            <td class="column20">&nbsp;</td>
+            <td class="column21">&nbsp;</td>
+            <td class="column22">&nbsp;</td>
+            <td class="column23">&nbsp;</td>
+            <td class="column24">&nbsp;</td>
+            <td class="column25">&nbsp;</td>
+            <td class="column26">&nbsp;</td>
+            <td class="column27">&nbsp;</td>
+            <td class="column28">&nbsp;</td>
+            <td class="column29">&nbsp;</td>
+            <td class="column30">&nbsp;</td>
+            <td class="column31">&nbsp;</td>
+            <td class="column32">&nbsp;</td>
+            <td class="column33">&nbsp;</td>
+            <td class="column34">&nbsp;</td>
+            <td class="column35">&nbsp;</td>
+            <td class="column36">&nbsp;</td>
+            <td class="column37">&nbsp;</td>
+            <td class="column38">&nbsp;</td>
+            <td class="column39">&nbsp;</td>
+            <td class="column40">&nbsp;</td>
+            <td class="column41">&nbsp;</td>
+            <td class="column42">&nbsp;</td>
+            <td class="column43">&nbsp;</td>
+            <td class="column44">&nbsp;</td>
+            <td class="column45">&nbsp;</td>
+            <td class="column46">&nbsp;</td>
+            <td class="column47">&nbsp;</td>
+            <td class="column48">&nbsp;</td>
+            <td class="column49">&nbsp;</td>
+            <td class="column50">&nbsp;</td>
+            <td class="column51">&nbsp;</td>
+            <td class="column52">&nbsp;</td>
+            <td class="column53">&nbsp;</td>
+            <td class="column54">&nbsp;</td>
+            <td class="column55">&nbsp;</td>
+            <td class="column56">&nbsp;</td>
+            <td class="column57">&nbsp;</td>
+            <td class="column58">&nbsp;</td>
+          </tr>
+          <tr class="row29">
+            <td class="column0 style31 null"></td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11">&nbsp;</td>
+            <td class="column12">&nbsp;</td>
+            <td class="column13">&nbsp;</td>
+            <td class="column14">&nbsp;</td>
+            <td class="column15">&nbsp;</td>
+            <td class="column16">&nbsp;</td>
+            <td class="column17">&nbsp;</td>
+            <td class="column18">&nbsp;</td>
+            <td class="column19">&nbsp;</td>
+            <td class="column20">&nbsp;</td>
+            <td class="column21">&nbsp;</td>
+            <td class="column22">&nbsp;</td>
+            <td class="column23">&nbsp;</td>
+            <td class="column24">&nbsp;</td>
+            <td class="column25">&nbsp;</td>
+            <td class="column26">&nbsp;</td>
+            <td class="column27">&nbsp;</td>
+            <td class="column28">&nbsp;</td>
+            <td class="column29">&nbsp;</td>
+            <td class="column30">&nbsp;</td>
+            <td class="column31">&nbsp;</td>
+            <td class="column32">&nbsp;</td>
+            <td class="column33">&nbsp;</td>
+            <td class="column34">&nbsp;</td>
+            <td class="column35">&nbsp;</td>
+            <td class="column36">&nbsp;</td>
+            <td class="column37">&nbsp;</td>
+            <td class="column38">&nbsp;</td>
+            <td class="column39">&nbsp;</td>
+            <td class="column40">&nbsp;</td>
+            <td class="column41">&nbsp;</td>
+            <td class="column42">&nbsp;</td>
+            <td class="column43">&nbsp;</td>
+            <td class="column44">&nbsp;</td>
+            <td class="column45">&nbsp;</td>
+            <td class="column46">&nbsp;</td>
+            <td class="column47">&nbsp;</td>
+            <td class="column48">&nbsp;</td>
+            <td class="column49">&nbsp;</td>
+            <td class="column50">&nbsp;</td>
+            <td class="column51">&nbsp;</td>
+            <td class="column52">&nbsp;</td>
+            <td class="column53">&nbsp;</td>
+            <td class="column54">&nbsp;</td>
+            <td class="column55">&nbsp;</td>
+            <td class="column56">&nbsp;</td>
+            <td class="column57">&nbsp;</td>
+            <td class="column58">&nbsp;</td>
+          </tr>
+          <tr class="row30">
+            <td class="column0 style32 null"></td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11">&nbsp;</td>
+            <td class="column12">&nbsp;</td>
+            <td class="column13">&nbsp;</td>
+            <td class="column14">&nbsp;</td>
+            <td class="column15">&nbsp;</td>
+            <td class="column16">&nbsp;</td>
+            <td class="column17">&nbsp;</td>
+            <td class="column18">&nbsp;</td>
+            <td class="column19">&nbsp;</td>
+            <td class="column20">&nbsp;</td>
+            <td class="column21">&nbsp;</td>
+            <td class="column22">&nbsp;</td>
+            <td class="column23">&nbsp;</td>
+            <td class="column24">&nbsp;</td>
+            <td class="column25">&nbsp;</td>
+            <td class="column26">&nbsp;</td>
+            <td class="column27">&nbsp;</td>
+            <td class="column28">&nbsp;</td>
+            <td class="column29">&nbsp;</td>
+            <td class="column30">&nbsp;</td>
+            <td class="column31">&nbsp;</td>
+            <td class="column32">&nbsp;</td>
+            <td class="column33">&nbsp;</td>
+            <td class="column34">&nbsp;</td>
+            <td class="column35">&nbsp;</td>
+            <td class="column36">&nbsp;</td>
+            <td class="column37">&nbsp;</td>
+            <td class="column38">&nbsp;</td>
+            <td class="column39">&nbsp;</td>
+            <td class="column40">&nbsp;</td>
+            <td class="column41">&nbsp;</td>
+            <td class="column42">&nbsp;</td>
+            <td class="column43">&nbsp;</td>
+            <td class="column44">&nbsp;</td>
+            <td class="column45">&nbsp;</td>
+            <td class="column46">&nbsp;</td>
+            <td class="column47">&nbsp;</td>
+            <td class="column48">&nbsp;</td>
+            <td class="column49">&nbsp;</td>
+            <td class="column50">&nbsp;</td>
+            <td class="column51">&nbsp;</td>
+            <td class="column52">&nbsp;</td>
+            <td class="column53">&nbsp;</td>
+            <td class="column54">&nbsp;</td>
+            <td class="column55">&nbsp;</td>
+            <td class="column56">&nbsp;</td>
+            <td class="column57">&nbsp;</td>
+            <td class="column58">&nbsp;</td>
+          </tr>
+          <tr class="row31">
+            <td class="column0 style32 null"></td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11">&nbsp;</td>
+            <td class="column12">&nbsp;</td>
+            <td class="column13">&nbsp;</td>
+            <td class="column14">&nbsp;</td>
+            <td class="column15">&nbsp;</td>
+            <td class="column16">&nbsp;</td>
+            <td class="column17">&nbsp;</td>
+            <td class="column18">&nbsp;</td>
+            <td class="column19">&nbsp;</td>
+            <td class="column20">&nbsp;</td>
+            <td class="column21">&nbsp;</td>
+            <td class="column22">&nbsp;</td>
+            <td class="column23">&nbsp;</td>
+            <td class="column24">&nbsp;</td>
+            <td class="column25">&nbsp;</td>
+            <td class="column26">&nbsp;</td>
+            <td class="column27">&nbsp;</td>
+            <td class="column28">&nbsp;</td>
+            <td class="column29">&nbsp;</td>
+            <td class="column30">&nbsp;</td>
+            <td class="column31">&nbsp;</td>
+            <td class="column32">&nbsp;</td>
+            <td class="column33">&nbsp;</td>
+            <td class="column34">&nbsp;</td>
+            <td class="column35">&nbsp;</td>
+            <td class="column36">&nbsp;</td>
+            <td class="column37">&nbsp;</td>
+            <td class="column38">&nbsp;</td>
+            <td class="column39">&nbsp;</td>
+            <td class="column40">&nbsp;</td>
+            <td class="column41">&nbsp;</td>
+            <td class="column42">&nbsp;</td>
+            <td class="column43">&nbsp;</td>
+            <td class="column44">&nbsp;</td>
+            <td class="column45">&nbsp;</td>
+            <td class="column46">&nbsp;</td>
+            <td class="column47">&nbsp;</td>
+            <td class="column48">&nbsp;</td>
+            <td class="column49">&nbsp;</td>
+            <td class="column50">&nbsp;</td>
+            <td class="column51">&nbsp;</td>
+            <td class="column52">&nbsp;</td>
+            <td class="column53">&nbsp;</td>
+            <td class="column54">&nbsp;</td>
+            <td class="column55">&nbsp;</td>
+            <td class="column56">&nbsp;</td>
+            <td class="column57">&nbsp;</td>
+            <td class="column58">&nbsp;</td>
+          </tr>
+          <tr class="row32">
+            <td class="column0 style32 null"></td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11">&nbsp;</td>
+            <td class="column12">&nbsp;</td>
+            <td class="column13">&nbsp;</td>
+            <td class="column14">&nbsp;</td>
+            <td class="column15">&nbsp;</td>
+            <td class="column16">&nbsp;</td>
+            <td class="column17">&nbsp;</td>
+            <td class="column18">&nbsp;</td>
+            <td class="column19">&nbsp;</td>
+            <td class="column20">&nbsp;</td>
+            <td class="column21">&nbsp;</td>
+            <td class="column22">&nbsp;</td>
+            <td class="column23">&nbsp;</td>
+            <td class="column24">&nbsp;</td>
+            <td class="column25">&nbsp;</td>
+            <td class="column26">&nbsp;</td>
+            <td class="column27">&nbsp;</td>
+            <td class="column28">&nbsp;</td>
+            <td class="column29">&nbsp;</td>
+            <td class="column30">&nbsp;</td>
+            <td class="column31">&nbsp;</td>
+            <td class="column32">&nbsp;</td>
+            <td class="column33">&nbsp;</td>
+            <td class="column34">&nbsp;</td>
+            <td class="column35">&nbsp;</td>
+            <td class="column36">&nbsp;</td>
+            <td class="column37">&nbsp;</td>
+            <td class="column38">&nbsp;</td>
+            <td class="column39">&nbsp;</td>
+            <td class="column40">&nbsp;</td>
+            <td class="column41">&nbsp;</td>
+            <td class="column42">&nbsp;</td>
+            <td class="column43">&nbsp;</td>
+            <td class="column44">&nbsp;</td>
+            <td class="column45">&nbsp;</td>
+            <td class="column46">&nbsp;</td>
+            <td class="column47">&nbsp;</td>
+            <td class="column48">&nbsp;</td>
+            <td class="column49">&nbsp;</td>
+            <td class="column50">&nbsp;</td>
+            <td class="column51">&nbsp;</td>
+            <td class="column52">&nbsp;</td>
+            <td class="column53">&nbsp;</td>
+            <td class="column54">&nbsp;</td>
+            <td class="column55">&nbsp;</td>
+            <td class="column56">&nbsp;</td>
+            <td class="column57">&nbsp;</td>
+            <td class="column58">&nbsp;</td>
+          </tr>
+          <tr class="row33">
+            <td class="column0 style32 null"></td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11">&nbsp;</td>
+            <td class="column12">&nbsp;</td>
+            <td class="column13">&nbsp;</td>
+            <td class="column14">&nbsp;</td>
+            <td class="column15">&nbsp;</td>
+            <td class="column16">&nbsp;</td>
+            <td class="column17">&nbsp;</td>
+            <td class="column18">&nbsp;</td>
+            <td class="column19">&nbsp;</td>
+            <td class="column20">&nbsp;</td>
+            <td class="column21">&nbsp;</td>
+            <td class="column22">&nbsp;</td>
+            <td class="column23">&nbsp;</td>
+            <td class="column24">&nbsp;</td>
+            <td class="column25">&nbsp;</td>
+            <td class="column26">&nbsp;</td>
+            <td class="column27">&nbsp;</td>
+            <td class="column28">&nbsp;</td>
+            <td class="column29">&nbsp;</td>
+            <td class="column30">&nbsp;</td>
+            <td class="column31">&nbsp;</td>
+            <td class="column32">&nbsp;</td>
+            <td class="column33">&nbsp;</td>
+            <td class="column34">&nbsp;</td>
+            <td class="column35">&nbsp;</td>
+            <td class="column36">&nbsp;</td>
+            <td class="column37">&nbsp;</td>
+            <td class="column38">&nbsp;</td>
+            <td class="column39">&nbsp;</td>
+            <td class="column40">&nbsp;</td>
+            <td class="column41">&nbsp;</td>
+            <td class="column42">&nbsp;</td>
+            <td class="column43">&nbsp;</td>
+            <td class="column44">&nbsp;</td>
+            <td class="column45">&nbsp;</td>
+            <td class="column46">&nbsp;</td>
+            <td class="column47">&nbsp;</td>
+            <td class="column48">&nbsp;</td>
+            <td class="column49">&nbsp;</td>
+            <td class="column50">&nbsp;</td>
+            <td class="column51">&nbsp;</td>
+            <td class="column52">&nbsp;</td>
+            <td class="column53">&nbsp;</td>
+            <td class="column54">&nbsp;</td>
+            <td class="column55">&nbsp;</td>
+            <td class="column56">&nbsp;</td>
+            <td class="column57">&nbsp;</td>
+            <td class="column58">&nbsp;</td>
+          </tr>
+        </tbody>
+    </table>
+  </body>
+</html>

@@ -1,0 +1,31 @@
+% Please add the following required packages to your document preamble:
+% \usepackage[table,xcdraw]{xcolor}
+% Beamer presentation requires \usepackage{colortbl} instead of \usepackage[table,xcdraw]{xcolor}
+% \usepackage[normalem]{ulem}
+% \useunder{\uline}{\ul}{}
+\begin{table}[]
+\begin{tabular}{lll}
+\multicolumn{1}{c}{\textbf{Package Details}} & \multicolumn{2}{c}{\textbf{}}                                            \\
+                                             & Monthly                            & Annual                              \\
+\rowcolor[HTML]{FFFF00} 
+CTC                                          & \cellcolor[HTML]{008000}50,000     & 600,000                             \\
+{\ul \textbf{Earnings:}}                     &                                    &                                     \\
+BASIC SALARY                                 & 20,000                             & 240,000                             \\
+HRA                                          & 8,000                              & 96,000                              \\
+TRANSPORT ALLOWANCE                          & 800                                & 9,600                               \\
+MEDICAL REIMBURSEMENT                        & 1,250                              & 15,000                              \\
+\cellcolor[HTML]{FF0000}SPECIAL ALLOWANCE    & \cellcolor[HTML]{FF0000}11,894     & 142,728                             \\
+\textbf{TOTAL EARNINGS (Gross)}              & \textbf{41,944}                    & \textbf{503,328}                    \\
+                                             &                                    &                                     \\
+{\ul \textbf{Employer's Contribution:}}      &                                    &                                     \\
+Gratuity                                     & 962                                & 11,544                              \\
+Employer's Provident Fund Contribution       & 2,400                              & 28,800                              \\
+Employer's ESI Contribution                  & -                                  & -                                   \\
+Medical Insuramce                            & 500                                & 6,000                               \\
+Peformance Incentive                         & 4,194                              & 50,333                              \\
+\textbf{Total of employer's contribution}    & \multicolumn{1}{r}{\textbf{8,056}} & \multicolumn{1}{r}{\textbf{96,677}} \\
+                                             & \multicolumn{1}{r}{}               &                                     \\
+\rowcolor[HTML]{FFFF00} 
+\textbf{TOTAL CTC (Cross Verification)}      & \textbf{50,000}                    & \textbf{600,005}                   
+\end{tabular}
+\end{table}

@@ -1,0 +1,1719 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <meta name="generator" content="PhpSpreadsheet, https://github.com/PHPOffice/PhpSpreadsheet">
+      <meta name="company" content="Microsoft Corporation" />
+    <style type="text/css">
+      html { font-family:Calibri, Arial, Helvetica, sans-serif; font-size:11pt; background-color:white }
+      a.comment-indicator:hover + div.comment { background:#ffd; position:absolute; display:block; border:1px solid black; padding:0.5em }
+      a.comment-indicator { background:red; display:inline-block; border:1px solid black; width:0.5em; height:0.5em }
+      div.comment { display:none }
+      table { border-collapse:collapse; page-break-after:always }
+      .gridlines td { border:1px dotted black }
+      .gridlines th { border:1px dotted black }
+      .b { text-align:center }
+      .e { text-align:center }
+      .f { text-align:right }
+      .inlineStr { text-align:left }
+      .n { text-align:right }
+      .s { text-align:left }
+      td.style0 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style0 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style1 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style1 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style2 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style2 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style3 { vertical-align:top; text-align:left; padding-left:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#FFFFFF; font-family:'宋体'; font-size:11pt; background-color:#0549AB }
+      th.style3 { vertical-align:top; text-align:left; padding-left:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#FFFFFF; font-family:'宋体'; font-size:11pt; background-color:#0549AB }
+      td.style4 { vertical-align:top; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#FFFFFF; font-family:'宋体'; font-size:11pt; background-color:#0549AB }
+      th.style4 { vertical-align:top; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#FFFFFF; font-family:'宋体'; font-size:11pt; background-color:#0549AB }
+      td.style5 { vertical-align:top; text-align:left; padding-left:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#E2F2FB }
+      th.style5 { vertical-align:top; text-align:left; padding-left:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#E2F2FB }
+      td.style6 { vertical-align:top; text-align:left; padding-left:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#F1F1F1 }
+      th.style6 { vertical-align:top; text-align:left; padding-left:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#F1F1F1 }
+      td.style7 { vertical-align:top; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:1px solid #000000 !important; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#B7DEF6 }
+      th.style7 { vertical-align:top; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:1px solid #000000 !important; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#B7DEF6 }
+      td.style8 { vertical-align:top; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#B7DEF6 }
+      th.style8 { vertical-align:top; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#B7DEF6 }
+      td.style9 { vertical-align:top; text-align:left; padding-left:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#E2F2FB }
+      th.style9 { vertical-align:top; text-align:left; padding-left:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#E2F2FB }
+      td.style10 { vertical-align:top; text-align:right; padding-right:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#F1F1F1 }
+      th.style10 { vertical-align:top; text-align:right; padding-right:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#F1F1F1 }
+      td.style11 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style11 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style12 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style12 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style13 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style13 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style14 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style14 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style15 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style15 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style16 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style16 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style17 { vertical-align:top; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#B7DEF6 }
+      th.style17 { vertical-align:top; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#B7DEF6 }
+      td.style18 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style18 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style19 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; text-decoration:underline; color:#0563C1; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style19 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; text-decoration:underline; color:#0563C1; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style20 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style20 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style21 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; text-decoration:underline; color:#0563C1; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style21 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; text-decoration:underline; color:#0563C1; font-family:'宋体'; font-size:11pt; background-color:white }
+      table.sheet0 col.col0 { width:42pt }
+      table.sheet0 col.col1 { width:104.37777658pt }
+      table.sheet0 col.col2 { width:52.18888829pt }
+      table.sheet0 col.col3 { width:52.18888829pt }
+      table.sheet0 col.col4 { width:52.18888829pt }
+      table.sheet0 col.col5 { width:52.18888829pt }
+      table.sheet0 col.col6 { width:52.18888829pt }
+      table.sheet0 col.col7 { width:52.18888829pt }
+      table.sheet0 col.col8 { width:52.18888829pt }
+      table.sheet0 col.col9 { width:52.18888829pt }
+      table.sheet0 col.col10 { width:52.18888829pt }
+      table.sheet0 col.col11 { width:52.18888829pt }
+      table.sheet0 col.col12 { width:42pt }
+      table.sheet0 tr { height:15pt }
+      table.sheet0 tr.row5 { height:30pt }
+      table.sheet0 tr.row6 { height:17pt }
+      table.sheet0 tr.row7 { height:15pt }
+      table.sheet0 tr.row8 { height:17pt }
+      table.sheet0 tr.row9 { height:17pt }
+      table.sheet0 tr.row10 { height:17pt }
+      table.sheet0 tr.row11 { height:17pt }
+      table.sheet0 tr.row12 { height:17pt }
+      table.sheet0 tr.row13 { height:17pt }
+      table.sheet0 tr.row14 { height:17pt }
+      table.sheet0 tr.row15 { height:17pt }
+      table.sheet0 tr.row16 { height:17pt }
+      table.sheet0 tr.row17 { height:17pt }
+      table.sheet0 tr.row18 { height:17pt }
+      table.sheet0 tr.row19 { height:17pt }
+      table.sheet0 tr.row20 { height:17pt }
+      table.sheet0 tr.row21 { height:17pt }
+      table.sheet0 tr.row22 { height:17pt }
+      table.sheet0 tr.row23 { height:17pt }
+      table.sheet0 tr.row24 { height:17pt }
+      table.sheet0 tr.row25 { height:17pt }
+      table.sheet0 tr.row26 { height:17pt }
+      table.sheet0 tr.row27 { height:17pt }
+      table.sheet0 tr.row28 { height:17pt }
+      table.sheet0 tr.row29 { height:17pt }
+      table.sheet0 tr.row30 { height:17pt }
+      table.sheet0 tr.row31 { height:17pt }
+      table.sheet0 tr.row32 { height:17pt }
+      table.sheet0 tr.row33 { height:17pt }
+      table.sheet0 tr.row34 { height:17pt }
+      table.sheet0 tr.row35 { height:17pt }
+      table.sheet0 tr.row36 { height:17pt }
+      table.sheet0 tr.row37 { height:17pt }
+      table.sheet0 tr.row38 { height:17pt }
+      table.sheet0 tr.row39 { height:17pt }
+      table.sheet0 tr.row40 { height:17pt }
+      table.sheet0 tr.row41 { height:17pt }
+      table.sheet0 tr.row42 { height:17pt }
+      table.sheet0 tr.row43 { height:17pt }
+      table.sheet0 tr.row44 { height:17pt }
+      table.sheet0 tr.row45 { height:17pt }
+      table.sheet0 tr.row46 { height:17pt }
+      table.sheet0 tr.row47 { height:17pt }
+      table.sheet0 tr.row48 { height:17pt }
+      table.sheet0 tr.row49 { height:17pt }
+      table.sheet0 tr.row50 { height:15pt }
+      table.sheet0 tr.row51 { height:17pt }
+      table.sheet0 tr.row52 { height:17pt }
+      table.sheet0 tr.row53 { height:17pt }
+      table.sheet0 tr.row54 { height:17pt }
+      table.sheet0 tr.row55 { height:17pt }
+      table.sheet0 tr.row56 { height:17pt }
+      table.sheet0 tr.row57 { height:17pt }
+      table.sheet0 tr.row58 { height:17pt }
+      table.sheet0 tr.row59 { height:17pt }
+      table.sheet0 tr.row60 { height:17pt }
+      table.sheet0 tr.row61 { height:17pt }
+      table.sheet0 tr.row62 { height:17pt }
+      table.sheet0 tr.row63 { height:17pt }
+      table.sheet0 tr.row64 { height:17pt }
+      table.sheet0 tr.row65 { height:17pt }
+      table.sheet0 tr.row66 { height:17pt }
+      table.sheet0 tr.row67 { height:17pt }
+      table.sheet0 tr.row68 { height:17pt }
+      table.sheet0 tr.row69 { height:17pt }
+      table.sheet0 tr.row70 { height:17pt }
+      table.sheet0 tr.row71 { height:17pt }
+      table.sheet0 tr.row72 { height:17pt }
+      table.sheet0 tr.row73 { height:17pt }
+      table.sheet0 tr.row74 { height:17pt }
+      table.sheet0 tr.row75 { height:17pt }
+      table.sheet0 tr.row76 { height:17pt }
+      table.sheet0 tr.row77 { height:17pt }
+      table.sheet0 tr.row78 { height:17pt }
+      table.sheet0 tr.row79 { height:17pt }
+      table.sheet0 tr.row80 { height:17pt }
+      table.sheet0 tr.row81 { height:17pt }
+      table.sheet0 tr.row82 { height:17pt }
+      table.sheet0 tr.row83 { height:17pt }
+      table.sheet0 tr.row84 { height:17pt }
+      table.sheet0 tr.row85 { height:17pt }
+      table.sheet0 tr.row86 { height:17pt }
+      table.sheet0 tr.row87 { height:17pt }
+      table.sheet0 tr.row88 { height:17pt }
+      table.sheet0 tr.row89 { height:17pt }
+      table.sheet0 tr.row90 { height:17pt }
+      table.sheet0 tr.row91 { height:17pt }
+      table.sheet0 tr.row92 { height:17pt }
+    </style>
+  </head>
+
+  <body>
+<style>
+@page { margin-left: 0.7in; margin-right: 0.7in; margin-top: 0.75in; margin-bottom: 0.75in; }
+body { margin-left: 0.7in; margin-right: 0.7in; margin-top: 0.75in; margin-bottom: 0.75in; }
+</style>
+    <table border="0" cellpadding="0" cellspacing="0" id="sheet0" class="sheet0 gridlines">
+        <col class="col0">
+        <col class="col1">
+        <col class="col2">
+        <col class="col3">
+        <col class="col4">
+        <col class="col5">
+        <col class="col6">
+        <col class="col7">
+        <col class="col8">
+        <col class="col9">
+        <col class="col10">
+        <col class="col11">
+        <col class="col12">
+        <tbody>
+          <tr class="row0">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style1 s">Physicians by age and sex</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11">&nbsp;</td>
+            <td class="column12">&nbsp;</td>
+          </tr>
+          <tr class="row1">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style2 s">Measure: Health and social employment</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11">&nbsp;</td>
+            <td class="column12">&nbsp;</td>
+          </tr>
+          <tr class="row2">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style2 s">Health profession: Physicians</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11">&nbsp;</td>
+            <td class="column12">&nbsp;</td>
+          </tr>
+          <tr class="row3">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style2 s">Combined unit of measure: Persons</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11">&nbsp;</td>
+            <td class="column12">&nbsp;</td>
+          </tr>
+          <tr class="row4">
+            <td class="column0">&nbsp;</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11">&nbsp;</td>
+            <td class="column12">&nbsp;</td>
+          </tr>
+          <tr class="row5">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style3 s style3" colspan="2">Time period</td>
+            <td class="column3 style4 s">2015</td>
+            <td class="column4 style4 s">2016</td>
+            <td class="column5 style4 s">2017</td>
+            <td class="column6 style4 s">2018</td>
+            <td class="column7 style4 s">2019</td>
+            <td class="column8 style4 s">2020</td>
+            <td class="column9 style4 s">2021</td>
+            <td class="column10 style4 s">2022</td>
+            <td class="column11 style4 s">2023</td>
+            <td class="column12">&nbsp;</td>
+          </tr>
+          <tr class="row6">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">Reference area</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style6 s"></td>
+            <td class="column4 style6 s"></td>
+            <td class="column5 style6 s"></td>
+            <td class="column6 style6 s"></td>
+            <td class="column7 style6 s"></td>
+            <td class="column8 style6 s"></td>
+            <td class="column9 style6 s"></td>
+            <td class="column10 style6 s"></td>
+            <td class="column11 style6 s"></td>
+            <td class="column12">&nbsp;</td>
+          </tr>
+          <tr class="row7">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style7 s style8" colspan="10">Sex: Female</td>
+            <td class="column11 style17 s"></td>
+            <td class="column12">&nbsp;</td>
+          </tr>
+          <tr class="row8">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Australia</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   33,370</td>
+            <td class="column4 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   35,121</td>
+            <td class="column5 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   37,318</td>
+            <td class="column6 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   39,104</td>
+            <td class="column7 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   41,275</td>
+            <td class="column8 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   43,255</td>
+            <td class="column9 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   45,200</td>
+            <td class="column10 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   47,606</td>
+            <td class="column11 style13 s"></td>
+            <td class="column12">&nbsp;</td>
+          </tr>
+          <tr class="row9">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Austria</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style12 n">20,418</td>
+            <td class="column4 style12 n">21,024</td>
+            <td class="column5 style12 n">21,549</td>
+            <td class="column6 style12 n">22,020</td>
+            <td class="column7 style12 n">22,664</td>
+            <td class="column8 style12 n">23,061</td>
+            <td class="column9 style12 n">23,745</td>
+            <td class="column10 style12 n">24,272</td>
+            <td class="column11 style12 n">24,981</td>
+            <td class="column12">&nbsp;</td>
+          </tr>
+          <tr class="row10">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Belgium</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style12 n">13,822</td>
+            <td class="column4 style12 n">14,515</td>
+            <td class="column5 style12 n">15,049</td>
+            <td class="column6 style12 n">15,732</td>
+            <td class="column7 style12 n">16,317</td>
+            <td class="column8 style12 n">17,039</td>
+            <td class="column9 style12 n">17,652</td>
+            <td class="column10 style12 n">18,266</td>
+            <td class="column11 style13 s"></td>
+            <td class="column12">&nbsp;</td>
+          </tr>
+          <tr class="row11">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Canada</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style12 n">39,888</td>
+            <td class="column4 style12 n">41,247</td>
+            <td class="column5 style12 n">42,646</td>
+            <td class="column6 style12 n">44,898</td>
+            <td class="column7 style12 n">46,222</td>
+            <td class="column8 style12 n">47,546</td>
+            <td class="column9 style12 n">49,031</td>
+            <td class="column10 style12 n">50,494</td>
+            <td class="column11 style13 s"></td>
+            <td class="column12">&nbsp;</td>
+          </tr>
+          <tr class="row12">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Chile</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style12 n">15,288</td>
+            <td class="column4 style12 n">16,725</td>
+            <td class="column5 style12 n">18,198</td>
+            <td class="column6 style12 n">19,762</td>
+            <td class="column7 style12 n">20,974</td>
+            <td class="column8 style12 n">23,160</td>
+            <td class="column9 style12 n">25,265</td>
+            <td class="column10 style12 n">27,921</td>
+            <td class="column11 style12 n">29,757</td>
+            <td class="column12">&nbsp;</td>
+          </tr>
+          <tr class="row13">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Colombia</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style13 s"></td>
+            <td class="column4 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   44,530</td>
+            <td class="column5 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   47,589</td>
+            <td class="column6 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   51,161</td>
+            <td class="column7 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   54,708</td>
+            <td class="column8 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   58,055</td>
+            <td class="column9 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   61,606</td>
+            <td class="column10 style13 s"></td>
+            <td class="column11 style13 s"></td>
+            <td class="column12">&nbsp;</td>
+          </tr>
+          <tr class="row14">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Czechia</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style13 s"></td>
+            <td class="column4 style13 s"></td>
+            <td class="column5 style13 s"></td>
+            <td class="column6 style13 s"></td>
+            <td class="column7 style16 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value<br />
+Observation status 2: Time series break</div>
+EB   24,439</td>
+            <td class="column8 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   25,317</td>
+            <td class="column9 style15 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   25,927.35</td>
+            <td class="column10 style16 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value<br />
+Observation status 2: Time series break</div>
+EB   26,446</td>
+            <td class="column11 style13 s"></td>
+            <td class="column12">&nbsp;</td>
+          </tr>
+          <tr class="row15">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Denmark</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style12 n">11,203</td>
+            <td class="column4 style12 n">11,702</td>
+            <td class="column5 style12 n">12,306</td>
+            <td class="column6 style12 n">12,849</td>
+            <td class="column7 style12 n">13,233</td>
+            <td class="column8 style12 n">13,901</td>
+            <td class="column9 style12 n">14,484</td>
+            <td class="column10 style13 s"></td>
+            <td class="column11 style13 s"></td>
+            <td class="column12">&nbsp;</td>
+          </tr>
+          <tr class="row16">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Estonia</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style12 n">3,350</td>
+            <td class="column4 style12 n">3,378</td>
+            <td class="column5 style12 n">3,382</td>
+            <td class="column6 style12 n">3,383</td>
+            <td class="column7 style12 n">3,389</td>
+            <td class="column8 style12 n">3,387</td>
+            <td class="column9 style12 n">3,336</td>
+            <td class="column10 style12 n">3,404</td>
+            <td class="column11 style13 s"></td>
+            <td class="column12">&nbsp;</td>
+          </tr>
+          <tr class="row17">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Finland</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style12 n">11,320</td>
+            <td class="column4 style12 n">11,478</td>
+            <td class="column5 style12 n">11,678</td>
+            <td class="column6 style12 n">11,776</td>
+            <td class="column7 style12 n">11,923</td>
+            <td class="column8 style12 n">12,122</td>
+            <td class="column9 style12 n">12,058</td>
+            <td class="column10 style13 s"></td>
+            <td class="column11 style13 s"></td>
+            <td class="column12">&nbsp;</td>
+          </tr>
+          <tr class="row18">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">France</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style12 n">88,298</td>
+            <td class="column4 style12 n">90,717</td>
+            <td class="column5 style12 n">93,354</td>
+            <td class="column6 style12 n">95,497</td>
+            <td class="column7 style12 n">98,221</td>
+            <td class="column8 style12 n">100,395</td>
+            <td class="column9 style12 n">102,428</td>
+            <td class="column10 style12 n">104,553</td>
+            <td class="column11 style13 s"></td>
+            <td class="column12">&nbsp;</td>
+          </tr>
+          <tr class="row19">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Germany</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style12 n">154,568</td>
+            <td class="column4 style12 n">159,433</td>
+            <td class="column5 style12 n">163,810</td>
+            <td class="column6 style12 n">168,169</td>
+            <td class="column7 style12 n">173,898</td>
+            <td class="column8 style12 n">178,566</td>
+            <td class="column9 style12 n">182,346</td>
+            <td class="column10 style12 n">186,415</td>
+            <td class="column11 style13 s"></td>
+            <td class="column12">&nbsp;</td>
+          </tr>
+          <tr class="row20">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Greece</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style12 n">25,949</td>
+            <td class="column4 style12 n">28,047</td>
+            <td class="column5 style12 n">27,414</td>
+            <td class="column6 style12 n">27,581</td>
+            <td class="column7 style12 n">28,307</td>
+            <td class="column8 style12 n">28,419</td>
+            <td class="column9 style12 n">29,205</td>
+            <td class="column10 style12 n">30,264</td>
+            <td class="column11 style13 s"></td>
+            <td class="column12">&nbsp;</td>
+          </tr>
+          <tr class="row21">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Hungary</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style14 n"><a class="comment-indicator"></a><div class="comment">Observation status: Time series break</div>
+B   17,035</td>
+            <td class="column4 style12 n">17,635</td>
+            <td class="column5 style12 n">18,261</td>
+            <td class="column6 style12 n">18,557</td>
+            <td class="column7 style12 n">19,143</td>
+            <td class="column8 style14 n"><a class="comment-indicator"></a><div class="comment">Observation status: Time series break</div>
+B   17,565</td>
+            <td class="column9 style12 n">18,424</td>
+            <td class="column10 style12 n">19,250</td>
+            <td class="column11 style13 s"></td>
+            <td class="column12">&nbsp;</td>
+          </tr>
+          <tr class="row22">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Iceland</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style12 n">467</td>
+            <td class="column4 style14 n"><a class="comment-indicator"></a><div class="comment">Observation status: Time series break</div>
+B   474</td>
+            <td class="column5 style12 n">513</td>
+            <td class="column6 style12 n">544</td>
+            <td class="column7 style12 n">570</td>
+            <td class="column8 style12 n">690</td>
+            <td class="column9 style12 n">759</td>
+            <td class="column10 style12 n">803</td>
+            <td class="column11 style12 n">861</td>
+            <td class="column12">&nbsp;</td>
+          </tr>
+          <tr class="row23">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Ireland</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style12 n">6,334</td>
+            <td class="column4 style12 n">6,587</td>
+            <td class="column5 style12 n">6,877</td>
+            <td class="column6 style12 n">7,117</td>
+            <td class="column7 style12 n">7,372</td>
+            <td class="column8 style12 n">7,857</td>
+            <td class="column9 style12 n">9,459</td>
+            <td class="column10 style18 n"><a class="comment-indicator"></a><div class="comment">Observation status: Definition differs</div>
+D   8,239</td>
+            <td class="column11 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   9,460</td>
+            <td class="column12">&nbsp;</td>
+          </tr>
+          <tr class="row24">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Israel</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style12 n">10,513</td>
+            <td class="column4 style12 n">10,771</td>
+            <td class="column5 style12 n">11,192</td>
+            <td class="column6 style12 n">11,791</td>
+            <td class="column7 style12 n">12,231</td>
+            <td class="column8 style12 n">12,454</td>
+            <td class="column9 style12 n">12,992</td>
+            <td class="column10 style12 n">13,536</td>
+            <td class="column11 style13 s"></td>
+            <td class="column12">&nbsp;</td>
+          </tr>
+          <tr class="row25">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Italy</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style12 n">94,959</td>
+            <td class="column4 style12 n">99,339</td>
+            <td class="column5 style12 n">102,218</td>
+            <td class="column6 style12 n">103,260</td>
+            <td class="column7 style12 n">105,852</td>
+            <td class="column8 style12 n">105,800</td>
+            <td class="column9 style12 n">109,756</td>
+            <td class="column10 style12 n">114,860</td>
+            <td class="column11 style13 s"></td>
+            <td class="column12">&nbsp;</td>
+          </tr>
+          <tr class="row26">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Japan</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style13 s"></td>
+            <td class="column4 style12 n">64,760</td>
+            <td class="column5 style13 s"></td>
+            <td class="column6 style12 n">68,775</td>
+            <td class="column7 style13 s"></td>
+            <td class="column8 style12 n">74,368</td>
+            <td class="column9 style13 s"></td>
+            <td class="column10 style12 n">77,905</td>
+            <td class="column11 style13 s"></td>
+            <td class="column12">&nbsp;</td>
+          </tr>
+          <tr class="row27">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Korea</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style12 n">25,486</td>
+            <td class="column4 style12 n">26,662</td>
+            <td class="column5 style12 n">28,151</td>
+            <td class="column6 style12 n">29,128</td>
+            <td class="column7 style12 n">30,686</td>
+            <td class="column8 style12 n">31,807</td>
+            <td class="column9 style12 n">32,919</td>
+            <td class="column10 style12 n">34,081</td>
+            <td class="column11 style13 s"></td>
+            <td class="column12">&nbsp;</td>
+          </tr>
+          <tr class="row28">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Latvia</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style12 n">4,706</td>
+            <td class="column4 style12 n">4,672</td>
+            <td class="column5 style12 n">4,623</td>
+            <td class="column6 style12 n">4,715</td>
+            <td class="column7 style12 n">4,611</td>
+            <td class="column8 style12 n">4,692</td>
+            <td class="column9 style12 n">4,693</td>
+            <td class="column10 style12 n">4,741</td>
+            <td class="column11 style13 s"></td>
+            <td class="column12">&nbsp;</td>
+          </tr>
+          <tr class="row29">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Lithuania</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   9,405</td>
+            <td class="column4 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   9,540</td>
+            <td class="column5 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   9,524</td>
+            <td class="column6 style16 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value<br />
+Observation status 2: Time series break</div>
+EB   9,122</td>
+            <td class="column7 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   9,032</td>
+            <td class="column8 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   8,863</td>
+            <td class="column9 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   8,896</td>
+            <td class="column10 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   8,959</td>
+            <td class="column11 style13 s"></td>
+            <td class="column12">&nbsp;</td>
+          </tr>
+          <tr class="row30">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Luxembourg</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style12 n">564</td>
+            <td class="column4 style12 n">581</td>
+            <td class="column5 style12 n">635</td>
+            <td class="column6 style13 s"></td>
+            <td class="column7 style13 s"></td>
+            <td class="column8 style13 s"></td>
+            <td class="column9 style13 s"></td>
+            <td class="column10 style13 s"></td>
+            <td class="column11 style13 s"></td>
+            <td class="column12">&nbsp;</td>
+          </tr>
+          <tr class="row31">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Mexico</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style15 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   124,016.96</td>
+            <td class="column4 style15 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   126,348.17</td>
+            <td class="column5 style15 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   130,597.11</td>
+            <td class="column6 style13 s"></td>
+            <td class="column7 style13 s"></td>
+            <td class="column8 style13 s"></td>
+            <td class="column9 style13 s"></td>
+            <td class="column10 style13 s"></td>
+            <td class="column11 style13 s"></td>
+            <td class="column12">&nbsp;</td>
+          </tr>
+          <tr class="row32">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Netherlands</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style12 n">31,170</td>
+            <td class="column4 style12 n">32,280</td>
+            <td class="column5 style12 n">33,699</td>
+            <td class="column6 style14 n"><a class="comment-indicator"></a><div class="comment">Observation status: Time series break</div>
+B   35,177</td>
+            <td class="column7 style12 n">36,735</td>
+            <td class="column8 style12 n">38,433</td>
+            <td class="column9 style12 n">39,752</td>
+            <td class="column10 style12 n">40,497</td>
+            <td class="column11 style13 s"></td>
+            <td class="column12">&nbsp;</td>
+          </tr>
+          <tr class="row33">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">New Zealand</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style12 n">6,679</td>
+            <td class="column4 style12 n">7,008</td>
+            <td class="column5 style12 n">7,337</td>
+            <td class="column6 style12 n">7,773</td>
+            <td class="column7 style12 n">8,163</td>
+            <td class="column8 style14 n"><a class="comment-indicator"></a><div class="comment">Observation status: Time series break</div>
+B   8,178</td>
+            <td class="column9 style12 n">8,574</td>
+            <td class="column10 style12 n">8,971</td>
+            <td class="column11 style12 n">9,375</td>
+            <td class="column12">&nbsp;</td>
+          </tr>
+          <tr class="row34">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Norway</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style14 n"><a class="comment-indicator"></a><div class="comment">Observation status: Time series break</div>
+B   10,177</td>
+            <td class="column4 style12 n">10,763</td>
+            <td class="column5 style12 n">11,312</td>
+            <td class="column6 style12 n">11,909</td>
+            <td class="column7 style12 n">12,403</td>
+            <td class="column8 style12 n">13,072</td>
+            <td class="column9 style12 n">13,608</td>
+            <td class="column10 style12 n">14,235</td>
+            <td class="column11 style12 n">14,750</td>
+            <td class="column12">&nbsp;</td>
+          </tr>
+          <tr class="row35">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Poland</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style12 n">50,343</td>
+            <td class="column4 style12 n">52,422</td>
+            <td class="column5 style12 n">51,318</td>
+            <td class="column6 style12 n">51,291</td>
+            <td class="column7 style14 n"><a class="comment-indicator"></a><div class="comment">Observation status: Time series break</div>
+B   72,659</td>
+            <td class="column8 style12 n">73,113</td>
+            <td class="column9 style12 n">75,540</td>
+            <td class="column10 style12 n">77,078</td>
+            <td class="column11 style13 s"></td>
+            <td class="column12">&nbsp;</td>
+          </tr>
+          <tr class="row36">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Portugal</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style12 n">25,832</td>
+            <td class="column4 style12 n">27,052</td>
+            <td class="column5 style12 n">28,239</td>
+            <td class="column6 style12 n">29,501</td>
+            <td class="column7 style12 n">30,739</td>
+            <td class="column8 style12 n">31,995</td>
+            <td class="column9 style12 n">33,202</td>
+            <td class="column10 style12 n">34,427</td>
+            <td class="column11 style13 s"></td>
+            <td class="column12">&nbsp;</td>
+          </tr>
+          <tr class="row37">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Slovak Republic</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style12 n">10,759</td>
+            <td class="column4 style12 n">10,833</td>
+            <td class="column5 style12 n">10,748</td>
+            <td class="column6 style12 n">11,058</td>
+            <td class="column7 style12 n">11,290</td>
+            <td class="column8 style12 n">11,700</td>
+            <td class="column9 style12 n">11,779</td>
+            <td class="column10 style12 n">11,988</td>
+            <td class="column11 style13 s"></td>
+            <td class="column12">&nbsp;</td>
+          </tr>
+          <tr class="row38">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Slovenia</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style12 n">3,637</td>
+            <td class="column4 style12 n">3,907</td>
+            <td class="column5 style12 n">4,037</td>
+            <td class="column6 style12 n">4,177</td>
+            <td class="column7 style12 n">4,313</td>
+            <td class="column8 style12 n">4,406</td>
+            <td class="column9 style12 n">4,510</td>
+            <td class="column10 style12 n">4,562</td>
+            <td class="column11 style13 s"></td>
+            <td class="column12">&nbsp;</td>
+          </tr>
+          <tr class="row39">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Spain</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   93,867</td>
+            <td class="column4 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   96,465</td>
+            <td class="column5 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   99,866</td>
+            <td class="column6 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   105,733</td>
+            <td class="column7 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   117,133</td>
+            <td class="column8 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   122,733</td>
+            <td class="column9 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   122,501</td>
+            <td class="column10 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   120,266</td>
+            <td class="column11 style13 s"></td>
+            <td class="column12">&nbsp;</td>
+          </tr>
+          <tr class="row40">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Sweden</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style12 n">19,697</td>
+            <td class="column4 style12 n">20,403</td>
+            <td class="column5 style12 n">21,033</td>
+            <td class="column6 style12 n">21,808</td>
+            <td class="column7 style12 n">22,205</td>
+            <td class="column8 style12 n">22,760</td>
+            <td class="column9 style12 n">23,527</td>
+            <td class="column10 style13 s"></td>
+            <td class="column11 style13 s"></td>
+            <td class="column12">&nbsp;</td>
+          </tr>
+          <tr class="row41">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Switzerland</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style12 n">14,100</td>
+            <td class="column4 style12 n">14,774</td>
+            <td class="column5 style12 n">15,316</td>
+            <td class="column6 style12 n">15,785</td>
+            <td class="column7 style12 n">16,175</td>
+            <td class="column8 style12 n">16,694</td>
+            <td class="column9 style12 n">17,373</td>
+            <td class="column10 style12 n">18,040</td>
+            <td class="column11 style13 s"></td>
+            <td class="column12">&nbsp;</td>
+          </tr>
+          <tr class="row42">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Türkiye</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   56,454</td>
+            <td class="column4 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   57,880</td>
+            <td class="column5 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   59,947</td>
+            <td class="column6 style14 n"><a class="comment-indicator"></a><div class="comment">Observation status: Time series break</div>
+B   61,197</td>
+            <td class="column7 style12 n">65,253</td>
+            <td class="column8 style12 n">70,632</td>
+            <td class="column9 style12 n">76,424</td>
+            <td class="column10 style12 n">82,758</td>
+            <td class="column11 style13 s"></td>
+            <td class="column12">&nbsp;</td>
+          </tr>
+          <tr class="row43">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">United Kingdom</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style14 n"><a class="comment-indicator"></a><div class="comment">Observation status: Time series break</div>
+B   82,266</td>
+            <td class="column4 style12 n">83,885</td>
+            <td class="column5 style12 n">87,752</td>
+            <td class="column6 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   91,797</td>
+            <td class="column7 style12 n">95,171</td>
+            <td class="column8 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   99,795</td>
+            <td class="column9 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   105,488</td>
+            <td class="column10 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   106,127</td>
+            <td class="column11 style15 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   112,159.38</td>
+            <td class="column12">&nbsp;</td>
+          </tr>
+          <tr class="row44">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">United States</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style12 n">290,057</td>
+            <td class="column4 style12 n">296,984</td>
+            <td class="column5 style12 n">306,494</td>
+            <td class="column6 style12 n">311,347</td>
+            <td class="column7 style12 n">320,457</td>
+            <td class="column8 style12 n">326,733</td>
+            <td class="column9 style12 n">336,429</td>
+            <td class="column10 style12 n">350,894</td>
+            <td class="column11 style13 s"></td>
+            <td class="column12">&nbsp;</td>
+          </tr>
+          <tr class="row45">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Non-OECD economies</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style13 s"></td>
+            <td class="column4 style13 s"></td>
+            <td class="column5 style13 s"></td>
+            <td class="column6 style13 s"></td>
+            <td class="column7 style13 s"></td>
+            <td class="column8 style13 s"></td>
+            <td class="column9 style13 s"></td>
+            <td class="column10 style13 s"></td>
+            <td class="column11 style13 s"></td>
+            <td class="column12">&nbsp;</td>
+          </tr>
+          <tr class="row46">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">·  Bulgaria</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style12 n">15,984</td>
+            <td class="column4 style12 n">16,232</td>
+            <td class="column5 style12 n">16,439</td>
+            <td class="column6 style12 n">16,490</td>
+            <td class="column7 style12 n">16,536</td>
+            <td class="column8 style12 n">16,549</td>
+            <td class="column9 style12 n">16,503</td>
+            <td class="column10 style12 n">16,532</td>
+            <td class="column11 style13 s"></td>
+            <td class="column12">&nbsp;</td>
+          </tr>
+          <tr class="row47">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">·  Croatia</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style12 n">8,378</td>
+            <td class="column4 style12 n">8,474</td>
+            <td class="column5 style12 n">8,778</td>
+            <td class="column6 style12 n">8,926</td>
+            <td class="column7 style12 n">9,102</td>
+            <td class="column8 style12 n">9,064</td>
+            <td class="column9 style12 n">9,310</td>
+            <td class="column10 style12 n">9,715</td>
+            <td class="column11 style13 s"></td>
+            <td class="column12">&nbsp;</td>
+          </tr>
+          <tr class="row48">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">·  Cyprus</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style12 n">1,145</td>
+            <td class="column4 style12 n">1,205</td>
+            <td class="column5 style12 n">1,256</td>
+            <td class="column6 style12 n">1,347</td>
+            <td class="column7 style12 n">1,439</td>
+            <td class="column8 style12 n">1,588</td>
+            <td class="column9 style12 n">1,716</td>
+            <td class="column10 style12 n">1,876</td>
+            <td class="column11 style13 s"></td>
+            <td class="column12">&nbsp;</td>
+          </tr>
+          <tr class="row49">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">·  Romania</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style12 n">38,063</td>
+            <td class="column4 style12 n">38,892</td>
+            <td class="column5 style12 n">40,038</td>
+            <td class="column6 style12 n">41,656</td>
+            <td class="column7 style14 n"><a class="comment-indicator"></a><div class="comment">Observation status: Time series break</div>
+B   43,472</td>
+            <td class="column8 style12 n">45,238</td>
+            <td class="column9 style12 n">47,380</td>
+            <td class="column10 style12 n">49,227</td>
+            <td class="column11 style13 s"></td>
+            <td class="column12">&nbsp;</td>
+          </tr>
+          <tr class="row50">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style7 s style8" colspan="10">Sex: Male</td>
+            <td class="column11 style17 s"></td>
+            <td class="column12">&nbsp;</td>
+          </tr>
+          <tr class="row51">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Australia</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   50,120</td>
+            <td class="column4 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   51,429</td>
+            <td class="column5 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   53,099</td>
+            <td class="column6 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   54,499</td>
+            <td class="column7 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   55,764</td>
+            <td class="column8 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   57,003</td>
+            <td class="column9 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   57,995</td>
+            <td class="column10 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   59,447</td>
+            <td class="column11 style13 s"></td>
+            <td class="column12">&nbsp;</td>
+          </tr>
+          <tr class="row52">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Austria</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style12 n">23,357</td>
+            <td class="column4 style12 n">23,599</td>
+            <td class="column5 style12 n">23,817</td>
+            <td class="column6 style12 n">24,095</td>
+            <td class="column7 style12 n">24,323</td>
+            <td class="column8 style12 n">24,361</td>
+            <td class="column9 style12 n">24,698</td>
+            <td class="column10 style12 n">24,970</td>
+            <td class="column11 style12 n">25,375</td>
+            <td class="column12">&nbsp;</td>
+          </tr>
+          <tr class="row53">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Belgium</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style12 n">20,198</td>
+            <td class="column4 style12 n">20,319</td>
+            <td class="column5 style12 n">20,020</td>
+            <td class="column6 style12 n">20,030</td>
+            <td class="column7 style12 n">20,026</td>
+            <td class="column8 style12 n">20,050</td>
+            <td class="column9 style12 n">19,978</td>
+            <td class="column10 style12 n">19,853</td>
+            <td class="column11 style13 s"></td>
+            <td class="column12">&nbsp;</td>
+          </tr>
+          <tr class="row54">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Canada</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style12 n">55,309</td>
+            <td class="column4 style12 n">55,922</td>
+            <td class="column5 style12 n">57,165</td>
+            <td class="column6 style12 n">58,011</td>
+            <td class="column7 style12 n">58,364</td>
+            <td class="column8 style12 n">57,943</td>
+            <td class="column9 style12 n">58,392</td>
+            <td class="column10 style12 n">58,723</td>
+            <td class="column11 style13 s"></td>
+            <td class="column12">&nbsp;</td>
+          </tr>
+          <tr class="row55">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Chile</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style12 n">23,292</td>
+            <td class="column4 style12 n">24,717</td>
+            <td class="column5 style12 n">26,144</td>
+            <td class="column6 style12 n">27,509</td>
+            <td class="column7 style12 n">28,555</td>
+            <td class="column8 style12 n">30,345</td>
+            <td class="column9 style12 n">32,123</td>
+            <td class="column10 style12 n">34,219</td>
+            <td class="column11 style12 n">35,696</td>
+            <td class="column12">&nbsp;</td>
+          </tr>
+          <tr class="row56">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Colombia</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style13 s"></td>
+            <td class="column4 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   54,497</td>
+            <td class="column5 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   56,536</td>
+            <td class="column6 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   58,773</td>
+            <td class="column7 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   60,930</td>
+            <td class="column8 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   63,128</td>
+            <td class="column9 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   64,673</td>
+            <td class="column10 style13 s"></td>
+            <td class="column11 style13 s"></td>
+            <td class="column12">&nbsp;</td>
+          </tr>
+          <tr class="row57">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Czechia</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style13 s"></td>
+            <td class="column4 style13 s"></td>
+            <td class="column5 style13 s"></td>
+            <td class="column6 style13 s"></td>
+            <td class="column7 style16 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value<br />
+Observation status 2: Time series break</div>
+EB   18,960</td>
+            <td class="column8 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   18,493</td>
+            <td class="column9 style15 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   18,784.65</td>
+            <td class="column10 style16 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value<br />
+Observation status 2: Time series break</div>
+EB   19,605</td>
+            <td class="column11 style13 s"></td>
+            <td class="column12">&nbsp;</td>
+          </tr>
+          <tr class="row58">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Denmark</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style12 n">11,135</td>
+            <td class="column4 style12 n">11,204</td>
+            <td class="column5 style12 n">11,385</td>
+            <td class="column6 style12 n">11,459</td>
+            <td class="column7 style12 n">11,486</td>
+            <td class="column8 style12 n">11,621</td>
+            <td class="column9 style12 n">11,860</td>
+            <td class="column10 style13 s"></td>
+            <td class="column11 style13 s"></td>
+            <td class="column12">&nbsp;</td>
+          </tr>
+          <tr class="row59">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Estonia</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style12 n">1,142</td>
+            <td class="column4 style12 n">1,170</td>
+            <td class="column5 style12 n">1,187</td>
+            <td class="column6 style12 n">1,222</td>
+            <td class="column7 style12 n">1,214</td>
+            <td class="column8 style12 n">1,239</td>
+            <td class="column9 style12 n">1,232</td>
+            <td class="column10 style12 n">1,279</td>
+            <td class="column11 style13 s"></td>
+            <td class="column12">&nbsp;</td>
+          </tr>
+          <tr class="row60">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Finland</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style12 n">7,377</td>
+            <td class="column4 style12 n">7,321</td>
+            <td class="column5 style12 n">7,403</td>
+            <td class="column6 style12 n">7,448</td>
+            <td class="column7 style12 n">7,766</td>
+            <td class="column8 style12 n">7,837</td>
+            <td class="column9 style12 n">7,938</td>
+            <td class="column10 style13 s"></td>
+            <td class="column11 style13 s"></td>
+            <td class="column12">&nbsp;</td>
+          </tr>
+          <tr class="row61">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">France</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style12 n">118,390</td>
+            <td class="column4 style12 n">117,528</td>
+            <td class="column5 style12 n">116,663</td>
+            <td class="column6 style12 n">115,052</td>
+            <td class="column7 style12 n">114,959</td>
+            <td class="column8 style12 n">113,898</td>
+            <td class="column9 style12 n">113,294</td>
+            <td class="column10 style12 n">112,888</td>
+            <td class="column11 style13 s"></td>
+            <td class="column12">&nbsp;</td>
+          </tr>
+          <tr class="row62">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Germany</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style12 n">183,561</td>
+            <td class="column4 style12 n">185,322</td>
+            <td class="column5 style12 n">187,385</td>
+            <td class="column6 style12 n">189,232</td>
+            <td class="column7 style12 n">191,490</td>
+            <td class="column8 style12 n">192,990</td>
+            <td class="column9 style12 n">194,506</td>
+            <td class="column10 style12 n">194,834</td>
+            <td class="column11 style13 s"></td>
+            <td class="column12">&nbsp;</td>
+          </tr>
+          <tr class="row63">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Greece</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style12 n">37,917</td>
+            <td class="column4 style12 n">37,925</td>
+            <td class="column5 style12 n">37,826</td>
+            <td class="column6 style12 n">37,932</td>
+            <td class="column7 style12 n">37,751</td>
+            <td class="column8 style12 n">37,768</td>
+            <td class="column9 style12 n">38,139</td>
+            <td class="column10 style12 n">38,205</td>
+            <td class="column11 style13 s"></td>
+            <td class="column12">&nbsp;</td>
+          </tr>
+          <tr class="row64">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Hungary</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style14 n"><a class="comment-indicator"></a><div class="comment">Observation status: Time series break</div>
+B   13,451</td>
+            <td class="column4 style12 n">13,880</td>
+            <td class="column5 style12 n">14,282</td>
+            <td class="column6 style12 n">14,521</td>
+            <td class="column7 style12 n">14,994</td>
+            <td class="column8 style14 n"><a class="comment-indicator"></a><div class="comment">Observation status: Time series break</div>
+B   13,045</td>
+            <td class="column9 style12 n">13,602</td>
+            <td class="column10 style12 n">14,223</td>
+            <td class="column11 style13 s"></td>
+            <td class="column12">&nbsp;</td>
+          </tr>
+          <tr class="row65">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Iceland</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style12 n">782</td>
+            <td class="column4 style14 n"><a class="comment-indicator"></a><div class="comment">Observation status: Time series break</div>
+B   818</td>
+            <td class="column5 style12 n">817</td>
+            <td class="column6 style12 n">829</td>
+            <td class="column7 style12 n">834</td>
+            <td class="column8 style12 n">893</td>
+            <td class="column9 style12 n">872</td>
+            <td class="column10 style12 n">873</td>
+            <td class="column11 style12 n">874</td>
+            <td class="column12">&nbsp;</td>
+          </tr>
+          <tr class="row66">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Ireland</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style12 n">8,332</td>
+            <td class="column4 style12 n">8,591</td>
+            <td class="column5 style12 n">8,783</td>
+            <td class="column6 style12 n">8,845</td>
+            <td class="column7 style12 n">8,994</td>
+            <td class="column8 style12 n">9,374</td>
+            <td class="column9 style12 n">10,797</td>
+            <td class="column10 style18 n"><a class="comment-indicator"></a><div class="comment">Observation status: Definition differs</div>
+D   8,941</td>
+            <td class="column11 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   10,675</td>
+            <td class="column12">&nbsp;</td>
+          </tr>
+          <tr class="row67">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Israel</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style12 n">15,218</td>
+            <td class="column4 style12 n">15,587</td>
+            <td class="column5 style12 n">16,161</td>
+            <td class="column6 style12 n">16,827</td>
+            <td class="column7 style12 n">17,572</td>
+            <td class="column8 style12 n">18,075</td>
+            <td class="column9 style12 n">18,748</td>
+            <td class="column10 style12 n">19,599</td>
+            <td class="column11 style13 s"></td>
+            <td class="column12">&nbsp;</td>
+          </tr>
+          <tr class="row68">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Italy</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style12 n">138,143</td>
+            <td class="column4 style12 n">140,303</td>
+            <td class="column5 style12 n">139,294</td>
+            <td class="column6 style12 n">137,041</td>
+            <td class="column7 style12 n">136,093</td>
+            <td class="column8 style12 n">132,044</td>
+            <td class="column9 style12 n">132,965</td>
+            <td class="column10 style12 n">135,009</td>
+            <td class="column11 style13 s"></td>
+            <td class="column12">&nbsp;</td>
+          </tr>
+          <tr class="row69">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Japan</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style13 s"></td>
+            <td class="column4 style12 n">243,345</td>
+            <td class="column5 style13 s"></td>
+            <td class="column6 style12 n">246,631</td>
+            <td class="column7 style13 s"></td>
+            <td class="column8 style12 n">253,035</td>
+            <td class="column9 style13 s"></td>
+            <td class="column10 style12 n">253,187</td>
+            <td class="column11 style13 s"></td>
+            <td class="column12">&nbsp;</td>
+          </tr>
+          <tr class="row70">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Korea</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style12 n">88,836</td>
+            <td class="column4 style12 n">90,788</td>
+            <td class="column5 style12 n">92,479</td>
+            <td class="column6 style12 n">94,102</td>
+            <td class="column7 style12 n">96,572</td>
+            <td class="column8 style12 n">98,207</td>
+            <td class="column9 style12 n">99,560</td>
+            <td class="column10 style12 n">101,047</td>
+            <td class="column11 style13 s"></td>
+            <td class="column12">&nbsp;</td>
+          </tr>
+          <tr class="row71">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Latvia</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style12 n">1,618</td>
+            <td class="column4 style12 n">1,623</td>
+            <td class="column5 style12 n">1,602</td>
+            <td class="column6 style12 n">1,652</td>
+            <td class="column7 style12 n">1,642</td>
+            <td class="column8 style12 n">1,654</td>
+            <td class="column9 style12 n">1,635</td>
+            <td class="column10 style12 n">1,650</td>
+            <td class="column11 style13 s"></td>
+            <td class="column12">&nbsp;</td>
+          </tr>
+          <tr class="row72">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Lithuania</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   4,085</td>
+            <td class="column4 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   4,141</td>
+            <td class="column5 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   4,207</td>
+            <td class="column6 style16 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value<br />
+Observation status 2: Time series break</div>
+EB   3,759</td>
+            <td class="column7 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   3,736</td>
+            <td class="column8 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   3,666</td>
+            <td class="column9 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   3,637</td>
+            <td class="column10 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   3,621</td>
+            <td class="column11 style13 s"></td>
+            <td class="column12">&nbsp;</td>
+          </tr>
+          <tr class="row73">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Luxembourg</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style12 n">1,093</td>
+            <td class="column4 style12 n">1,102</td>
+            <td class="column5 style12 n">1,146</td>
+            <td class="column6 style13 s"></td>
+            <td class="column7 style13 s"></td>
+            <td class="column8 style13 s"></td>
+            <td class="column9 style13 s"></td>
+            <td class="column10 style13 s"></td>
+            <td class="column11 style13 s"></td>
+            <td class="column12">&nbsp;</td>
+          </tr>
+          <tr class="row74">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Mexico</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style15 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   159,258.04</td>
+            <td class="column4 style15 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   160,326.83</td>
+            <td class="column5 style15 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   166,709.89</td>
+            <td class="column6 style13 s"></td>
+            <td class="column7 style13 s"></td>
+            <td class="column8 style13 s"></td>
+            <td class="column9 style13 s"></td>
+            <td class="column10 style13 s"></td>
+            <td class="column11 style13 s"></td>
+            <td class="column12">&nbsp;</td>
+          </tr>
+          <tr class="row75">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Netherlands</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style12 n">27,974</td>
+            <td class="column4 style12 n">27,953</td>
+            <td class="column5 style12 n">28,031</td>
+            <td class="column6 style14 n"><a class="comment-indicator"></a><div class="comment">Observation status: Time series break</div>
+B   28,101</td>
+            <td class="column7 style12 n">28,386</td>
+            <td class="column8 style12 n">28,667</td>
+            <td class="column9 style12 n">28,945</td>
+            <td class="column10 style12 n">28,907</td>
+            <td class="column11 style13 s"></td>
+            <td class="column12">&nbsp;</td>
+          </tr>
+          <tr class="row76">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">New Zealand</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style12 n">8,531</td>
+            <td class="column4 style12 n">8,756</td>
+            <td class="column5 style12 n">8,992</td>
+            <td class="column6 style12 n">9,254</td>
+            <td class="column7 style12 n">9,535</td>
+            <td class="column8 style14 n"><a class="comment-indicator"></a><div class="comment">Observation status: Time series break</div>
+B   9,455</td>
+            <td class="column9 style12 n">9,652</td>
+            <td class="column10 style12 n">9,780</td>
+            <td class="column11 style12 n">9,936</td>
+            <td class="column12">&nbsp;</td>
+          </tr>
+          <tr class="row77">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Norway</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style14 n"><a class="comment-indicator"></a><div class="comment">Observation status: Time series break</div>
+B   11,056</td>
+            <td class="column4 style12 n">11,332</td>
+            <td class="column5 style12 n">11,620</td>
+            <td class="column6 style12 n">11,811</td>
+            <td class="column7 style12 n">12,079</td>
+            <td class="column8 style12 n">12,113</td>
+            <td class="column9 style12 n">12,178</td>
+            <td class="column10 style12 n">12,548</td>
+            <td class="column11 style12 n">12,705</td>
+            <td class="column12">&nbsp;</td>
+          </tr>
+          <tr class="row78">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Poland</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style12 n">38,094</td>
+            <td class="column4 style12 n">39,308</td>
+            <td class="column5 style12 n">38,966</td>
+            <td class="column6 style12 n">38,241</td>
+            <td class="column7 style14 n"><a class="comment-indicator"></a><div class="comment">Observation status: Time series break</div>
+B   52,690</td>
+            <td class="column8 style12 n">52,951</td>
+            <td class="column9 style12 n">54,353</td>
+            <td class="column10 style12 n">54,348</td>
+            <td class="column11 style13 s"></td>
+            <td class="column12">&nbsp;</td>
+          </tr>
+          <tr class="row79">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Portugal</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style12 n">21,960</td>
+            <td class="column4 style12 n">22,489</td>
+            <td class="column5 style12 n">23,002</td>
+            <td class="column6 style12 n">23,465</td>
+            <td class="column7 style12 n">24,005</td>
+            <td class="column8 style12 n">24,513</td>
+            <td class="column9 style12 n">24,829</td>
+            <td class="column10 style12 n">25,268</td>
+            <td class="column11 style13 s"></td>
+            <td class="column12">&nbsp;</td>
+          </tr>
+          <tr class="row80">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Slovak Republic</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style12 n">7,960</td>
+            <td class="column4 style12 n">8,031</td>
+            <td class="column5 style12 n">7,860</td>
+            <td class="column6 style12 n">8,120</td>
+            <td class="column7 style12 n">8,164</td>
+            <td class="column8 style12 n">8,326</td>
+            <td class="column9 style12 n">8,268</td>
+            <td class="column10 style12 n">8,246</td>
+            <td class="column11 style13 s"></td>
+            <td class="column12">&nbsp;</td>
+          </tr>
+          <tr class="row81">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Slovenia</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style12 n">2,193</td>
+            <td class="column4 style12 n">2,317</td>
+            <td class="column5 style12 n">2,371</td>
+            <td class="column6 style12 n">2,414</td>
+            <td class="column7 style12 n">2,499</td>
+            <td class="column8 style12 n">2,538</td>
+            <td class="column9 style12 n">2,539</td>
+            <td class="column10 style12 n">2,560</td>
+            <td class="column11 style13 s"></td>
+            <td class="column12">&nbsp;</td>
+          </tr>
+          <tr class="row82">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Spain</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   84,733</td>
+            <td class="column4 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   81,266</td>
+            <td class="column5 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   80,767</td>
+            <td class="column6 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   82,433</td>
+            <td class="column7 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   90,432</td>
+            <td class="column8 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   94,033</td>
+            <td class="column9 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   90,234</td>
+            <td class="column10 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   85,100</td>
+            <td class="column11 style13 s"></td>
+            <td class="column12">&nbsp;</td>
+          </tr>
+          <tr class="row83">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Sweden</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style12 n">21,205</td>
+            <td class="column4 style12 n">21,601</td>
+            <td class="column5 style12 n">21,907</td>
+            <td class="column6 style12 n">22,170</td>
+            <td class="column7 style12 n">21,870</td>
+            <td class="column8 style12 n">21,989</td>
+            <td class="column9 style12 n">22,389</td>
+            <td class="column10 style13 s"></td>
+            <td class="column11 style13 s"></td>
+            <td class="column12">&nbsp;</td>
+          </tr>
+          <tr class="row84">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Switzerland</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style12 n">20,662</td>
+            <td class="column4 style12 n">20,818</td>
+            <td class="column5 style12 n">21,008</td>
+            <td class="column6 style12 n">21,155</td>
+            <td class="column7 style12 n">21,125</td>
+            <td class="column8 style12 n">21,217</td>
+            <td class="column9 style12 n">21,240</td>
+            <td class="column10 style12 n">21,322</td>
+            <td class="column11 style13 s"></td>
+            <td class="column12">&nbsp;</td>
+          </tr>
+          <tr class="row85">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Türkiye</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   84,805</td>
+            <td class="column4 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   86,947</td>
+            <td class="column5 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   90,050</td>
+            <td class="column6 style14 n"><a class="comment-indicator"></a><div class="comment">Observation status: Time series break</div>
+B   91,931</td>
+            <td class="column7 style12 n">95,557</td>
+            <td class="column8 style12 n">100,627</td>
+            <td class="column9 style12 n">107,145</td>
+            <td class="column10 style12 n">111,930</td>
+            <td class="column11 style13 s"></td>
+            <td class="column12">&nbsp;</td>
+          </tr>
+          <tr class="row86">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">United Kingdom</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style14 n"><a class="comment-indicator"></a><div class="comment">Observation status: Time series break</div>
+B   91,436</td>
+            <td class="column4 style12 n">92,148</td>
+            <td class="column5 style12 n">94,536</td>
+            <td class="column6 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   96,986</td>
+            <td class="column7 style12 n">99,919</td>
+            <td class="column8 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   103,734</td>
+            <td class="column9 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   108,035</td>
+            <td class="column10 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   108,505</td>
+            <td class="column11 style20 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   114,066.3</td>
+            <td class="column12">&nbsp;</td>
+          </tr>
+          <tr class="row87">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">United States</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style12 n">537,204</td>
+            <td class="column4 style12 n">539,003</td>
+            <td class="column5 style12 n">542,632</td>
+            <td class="column6 style12 n">540,294</td>
+            <td class="column7 style12 n">545,859</td>
+            <td class="column8 style12 n">545,891</td>
+            <td class="column9 style12 n">549,374</td>
+            <td class="column10 style12 n">555,533</td>
+            <td class="column11 style13 s"></td>
+            <td class="column12">&nbsp;</td>
+          </tr>
+          <tr class="row88">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Non-OECD economies</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style13 s"></td>
+            <td class="column4 style13 s"></td>
+            <td class="column5 style13 s"></td>
+            <td class="column6 style13 s"></td>
+            <td class="column7 style13 s"></td>
+            <td class="column8 style13 s"></td>
+            <td class="column9 style13 s"></td>
+            <td class="column10 style13 s"></td>
+            <td class="column11 style13 s"></td>
+            <td class="column12">&nbsp;</td>
+          </tr>
+          <tr class="row89">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">·  Bulgaria</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style12 n">13,018</td>
+            <td class="column4 style12 n">13,039</td>
+            <td class="column5 style12 n">13,167</td>
+            <td class="column6 style12 n">13,135</td>
+            <td class="column7 style12 n">13,013</td>
+            <td class="column8 style12 n">13,107</td>
+            <td class="column9 style12 n">13,040</td>
+            <td class="column10 style12 n">13,006</td>
+            <td class="column11 style13 s"></td>
+            <td class="column12">&nbsp;</td>
+          </tr>
+          <tr class="row90">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">·  Croatia</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style12 n">5,052</td>
+            <td class="column4 style12 n">5,030</td>
+            <td class="column5 style12 n">5,107</td>
+            <td class="column6 style12 n">5,149</td>
+            <td class="column7 style12 n">5,210</td>
+            <td class="column8 style12 n">5,192</td>
+            <td class="column9 style12 n">5,346</td>
+            <td class="column10 style12 n">5,557</td>
+            <td class="column11 style13 s"></td>
+            <td class="column12">&nbsp;</td>
+          </tr>
+          <tr class="row91">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">·  Cyprus</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style12 n">1,901</td>
+            <td class="column4 style12 n">2,004</td>
+            <td class="column5 style12 n">2,069</td>
+            <td class="column6 style12 n">2,197</td>
+            <td class="column7 style12 n">2,329</td>
+            <td class="column8 style12 n">2,575</td>
+            <td class="column9 style12 n">2,703</td>
+            <td class="column10 style12 n">2,859</td>
+            <td class="column11 style13 s"></td>
+            <td class="column12">&nbsp;</td>
+          </tr>
+          <tr class="row92">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">·  Romania</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style12 n">16,744</td>
+            <td class="column4 style12 n">17,083</td>
+            <td class="column5 style12 n">17,291</td>
+            <td class="column6 style12 n">17,677</td>
+            <td class="column7 style14 n"><a class="comment-indicator"></a><div class="comment">Observation status: Time series break</div>
+B   18,259</td>
+            <td class="column8 style12 n">18,889</td>
+            <td class="column9 style12 n">19,716</td>
+            <td class="column10 style12 n">20,260</td>
+            <td class="column11 style13 s"></td>
+            <td class="column12">&nbsp;</td>
+          </tr>
+          <tr class="row93">
+            <td class="column0">&nbsp;</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11">&nbsp;</td>
+            <td class="column12">&nbsp;</td>
+          </tr>
+          <tr class="row94">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style19 s"><a href="http://www.oecd.org/termsandconditions/" title="">© Terms &amp; conditions </a></td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11">&nbsp;</td>
+            <td class="column12 style21 s"><a href="https://data-explorer.oecd.org/vis?lc=en&amp;df[ds]=dsDisseminateFinalDMZ&amp;df[id]=DSD_HEALTH_EMP_REAC%40DF_PHYS_AGE_SEX&amp;df[ag]=OECD.ELS.HD&amp;dq=..PS._T.M%2BF....&amp;pd=2015%2C&amp;to[TIME_PERIOD]=false&amp;vw=tb" title="">Physicians by age and sex</a></td>
+          </tr>
+        </tbody>
+    </table>
+  </body>
+</html>

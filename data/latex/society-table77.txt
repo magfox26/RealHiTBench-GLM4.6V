@@ -1,0 +1,28 @@
+% Please add the following required packages to your document preamble:
+% \usepackage{multirow}
+% \usepackage[table,xcdraw]{xcolor}
+% Beamer presentation requires \usepackage{colortbl} instead of \usepackage[table,xcdraw]{xcolor}
+\begin{table}[]
+\begin{tabular}{clrrr}
+\rowcolor[HTML]{C0C0C0} 
+\multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}}                             & \cellcolor[HTML]{FFFFFF}\textbf{GREAT BRITAIN} & \cellcolor[HTML]{C0C0C0}                                                                 & \cellcolor[HTML]{C0C0C0}                                                                           & \cellcolor[HTML]{C0C0C0}                                   \\
+\rowcolor[HTML]{C0C0C0} 
+\multicolumn{1}{l}{\cellcolor[HTML]{C0C0C0}\textbf{Level}}               & \textbf{Outcome}                               & \multirow{-2}{*}{\cellcolor[HTML]{C0C0C0}\textbf{Failure to attend mandatory interview}} & \multirow{-2}{*}{\cellcolor[HTML]{C0C0C0}\textbf{Failure to participate in Work Related Activity}} & \multirow{-2}{*}{\cellcolor[HTML]{C0C0C0}\textbf{Total}}   \\
+\rowcolor[HTML]{FFFFFF} 
+\cellcolor[HTML]{FFFFFF}                                                 & Non-adverse                                    & 43                                                                                       & 41                                                                                                 & \textbf{81}                                                \\
+\rowcolor[HTML]{FFFFFF} 
+\cellcolor[HTML]{FFFFFF}                                                 & Adverse                                        & 35                                                                                       & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}34}                                                     & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}\textbf{66}}    \\
+\rowcolor[HTML]{FFFFFF} 
+\cellcolor[HTML]{FFFFFF}                                                 & Cancelled                                      & -                                                                                        & -                                                                                                  & \textbf{-}                                                 \\
+\rowcolor[HTML]{C0C0C0} 
+\multirow{-4}{*}{\cellcolor[HTML]{FFFFFF}\textbf{Appealed Decision}}     & \textbf{Total}                                 & \multicolumn{1}{l}{\cellcolor[HTML]{C0C0C0}\textbf{77}}                                  & \multicolumn{1}{l}{\cellcolor[HTML]{C0C0C0}\textbf{73}}                                            & \multicolumn{1}{l}{\cellcolor[HTML]{C0C0C0}\textbf{148}}   \\
+\rowcolor[HTML]{FFFFFF} 
+\cellcolor[HTML]{FFFFFF}                                                 & Non-adverse                                    & 573                                                                                      & 4,377                                                                                              & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}\textbf{4,951}} \\
+\rowcolor[HTML]{FFFFFF} 
+\cellcolor[HTML]{FFFFFF}                                                 & Adverse                                        & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}356}                                          & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}2,764}                                                  & \textbf{3,127}                                             \\
+\rowcolor[HTML]{FFFFFF} 
+\cellcolor[HTML]{FFFFFF}                                                 & Cancelled                                      & 6                                                                                        & 85                                                                                                 & \textbf{90}                                                \\
+\rowcolor[HTML]{C0C0C0} 
+\multirow{-4}{*}{\cellcolor[HTML]{FFFFFF}\textbf{Reconsidered Decision}} & \textbf{Total}                                 & \multicolumn{1}{l}{\cellcolor[HTML]{C0C0C0}\textbf{937}}                                 & \multicolumn{1}{l}{\cellcolor[HTML]{C0C0C0}\textbf{7,230}}                                         & \multicolumn{1}{l}{\cellcolor[HTML]{C0C0C0}\textbf{8,165}}
+\end{tabular}
+\end{table}

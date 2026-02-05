@@ -1,0 +1,1043 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <meta name="generator" content="PhpSpreadsheet, https://github.com/PHPOffice/PhpSpreadsheet">
+      <meta name="author" content="mac" />
+      <meta name="company" content="Microsoft Corporation" />
+    <style type="text/css">
+      html { font-family:Calibri, Arial, Helvetica, sans-serif; font-size:11pt; background-color:white }
+      a.comment-indicator:hover + div.comment { background:#ffd; position:absolute; display:block; border:1px solid black; padding:0.5em }
+      a.comment-indicator { background:red; display:inline-block; border:1px solid black; width:0.5em; height:0.5em }
+      div.comment { display:none }
+      table { border-collapse:collapse; page-break-after:always }
+      .gridlines td { border:1px dotted black }
+      .gridlines th { border:1px dotted black }
+      .b { text-align:center }
+      .e { text-align:center }
+      .f { text-align:right }
+      .inlineStr { text-align:left }
+      .n { text-align:right }
+      .s { text-align:left }
+      td.style0 { vertical-align:middle; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style0 { vertical-align:middle; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style1 { vertical-align:bottom; border-bottom:none #000000; border-top:1px solid #4874CB !important; border-left:1px solid #4874CB !important; border-right:none #000000; font-weight:bold; color:#FFFFFF; font-family:'宋体'; font-size:11pt; background-color:#4874CB }
+      th.style1 { vertical-align:bottom; border-bottom:none #000000; border-top:1px solid #4874CB !important; border-left:1px solid #4874CB !important; border-right:none #000000; font-weight:bold; color:#FFFFFF; font-family:'宋体'; font-size:11pt; background-color:#4874CB }
+      td.style2 { vertical-align:bottom; border-bottom:none #000000; border-top:1px solid #4874CB !important; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#FFFFFF; font-family:'宋体'; font-size:11pt; background-color:#4874CB }
+      th.style2 { vertical-align:bottom; border-bottom:none #000000; border-top:1px solid #4874CB !important; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#FFFFFF; font-family:'宋体'; font-size:11pt; background-color:#4874CB }
+      td.style3 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:1px solid #4874CB !important; border-left:1px solid #4874CB !important; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style3 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:1px solid #4874CB !important; border-left:1px solid #4874CB !important; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style4 { vertical-align:bottom; border-bottom:1px solid #4874CB !important; border-top:1px solid #4874CB !important; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style4 { vertical-align:bottom; border-bottom:1px solid #4874CB !important; border-top:1px solid #4874CB !important; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style5 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:1px solid #4874CB !important; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style5 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:1px solid #4874CB !important; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style6 { vertical-align:middle; text-align:center; border-bottom:1px solid #4874CB !important; border-top:none #000000; border-left:1px solid #4874CB !important; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style6 { vertical-align:middle; text-align:center; border-bottom:1px solid #4874CB !important; border-top:none #000000; border-left:1px solid #4874CB !important; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style7 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:1px solid #4874CB !important; border-left:1px solid #4874CB !important; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style7 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:1px solid #4874CB !important; border-left:1px solid #4874CB !important; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style8 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:1px solid #4874CB !important; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style8 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:1px solid #4874CB !important; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style9 { vertical-align:middle; text-align:center; border-bottom:1px solid #4874CB !important; border-top:none #000000; border-left:1px solid #4874CB !important; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style9 { vertical-align:middle; text-align:center; border-bottom:1px solid #4874CB !important; border-top:none #000000; border-left:1px solid #4874CB !important; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style10 { vertical-align:middle; text-align:center; border-bottom:1px solid #4874CB !important; border-top:1px solid #4874CB !important; border-left:1px solid #4874CB !important; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style10 { vertical-align:middle; text-align:center; border-bottom:1px solid #4874CB !important; border-top:1px solid #4874CB !important; border-left:1px solid #4874CB !important; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style11 { vertical-align:bottom; border-bottom:none #000000; border-top:1px solid #4874CB !important; border-left:none #000000; border-right:1px solid #4874CB !important; font-weight:bold; color:#FFFFFF; font-family:'宋体'; font-size:11pt; background-color:#4874CB }
+      th.style11 { vertical-align:bottom; border-bottom:none #000000; border-top:1px solid #4874CB !important; border-left:none #000000; border-right:1px solid #4874CB !important; font-weight:bold; color:#FFFFFF; font-family:'宋体'; font-size:11pt; background-color:#4874CB }
+      td.style12 { vertical-align:bottom; border-bottom:1px solid #4874CB !important; border-top:1px solid #4874CB !important; border-left:none #000000; border-right:1px solid #4874CB !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style12 { vertical-align:bottom; border-bottom:1px solid #4874CB !important; border-top:1px solid #4874CB !important; border-left:none #000000; border-right:1px solid #4874CB !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      table.sheet0 col.col0 { width:197.23333107pt }
+      table.sheet0 col.col1 { width:42pt }
+      table.sheet0 col.col2 { width:42pt }
+      table.sheet0 col.col3 { width:113.86666536pt }
+      table.sheet0 col.col4 { width:42pt }
+      table.sheet0 col.col5 { width:42pt }
+      table.sheet0 col.col6 { width:154.53333156pt }
+      table.sheet0 col.col7 { width:42pt }
+      table.sheet0 tr { height:15pt }
+    </style>
+  </head>
+
+  <body>
+<style>
+@page { margin-left: 0.75in; margin-right: 0.75in; margin-top: 1in; margin-bottom: 1in; }
+body { margin-left: 0.75in; margin-right: 0.75in; margin-top: 1in; margin-bottom: 1in; }
+</style>
+    <table border="0" cellpadding="0" cellspacing="0" id="sheet0" class="sheet0 gridlines">
+        <col class="col0">
+        <col class="col1">
+        <col class="col2">
+        <col class="col3">
+        <col class="col4">
+        <col class="col5">
+        <col class="col6">
+        <col class="col7">
+        <tbody>
+          <tr class="row0">
+            <td class="column0 style1 s">league</td>
+            <td class="column1 style2 s">gametime</td>
+            <td class="column2 style2 s">gamedate</td>
+            <td class="column3 style2 s">home</td>
+            <td class="column4 style2 s">positionH</td>
+            <td class="column5 style2 s">versus</td>
+            <td class="column6 style2 s">away</td>
+            <td class="column7 style11 s">positionA</td>
+          </tr>
+          <tr class="row1">
+            <td class="column0 style3 s style6" rowspan="5">ARGENTINA&gt;SUPERLIGA ARGENTINA</td>
+            <td class="column1 style4 s">01:05</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">ARGENTINOS JRS</td>
+            <td class="column4 style4 s">26</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">RACING CLUB</td>
+            <td class="column7 style12 s">14</td>
+          </tr>
+          <tr class="row2">
+            <td class="column1 style4 s">16:05</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">TALLERES CORDOBA</td>
+            <td class="column4 style4 s">10</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">PATRONATO</td>
+            <td class="column7 style12 s">5</td>
+          </tr>
+          <tr class="row3">
+            <td class="column1 style4 s">19:05</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">SAN MARTIN S.J.</td>
+            <td class="column4 style4 s">19</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">ROSARIO CENTRAL</td>
+            <td class="column7 style12 s">23</td>
+          </tr>
+          <tr class="row4">
+            <td class="column1 style4 s">21:05</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">INDEPENDIENTE</td>
+            <td class="column4 style4 s">17</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">VELEZ SARSFIELD</td>
+            <td class="column7 style12 s">11</td>
+          </tr>
+          <tr class="row5">
+            <td class="column1 style4 s">23:05</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">BOCA JUNIORS</td>
+            <td class="column4 style4 s">1</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">CHACARITA JUNIORS</td>
+            <td class="column7 style12 s">24</td>
+          </tr>
+          <tr class="row6">
+            <td class="column0 style3 s style6" rowspan="2">AUSTRIA&gt;BUNDESLIGA</td>
+            <td class="column1 style4 s">16:30</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">AUSTRIA VIENNA</td>
+            <td class="column4 style4 s">3</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">SCR ALTACH</td>
+            <td class="column7 style12 s">7</td>
+          </tr>
+          <tr class="row7">
+            <td class="column1 style4 s">19:00</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">RED BULL SALZBURG</td>
+            <td class="column4 style4 s">2</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">WOLFSBERGER AC</td>
+            <td class="column7 style12 s">8</td>
+          </tr>
+          <tr class="row8">
+            <td class="column0 style7 s style9" rowspan="3">BELARUS&gt;DIVISION 1</td>
+            <td class="column1 style4 s">13:00</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">FC SLUTSK</td>
+            <td class="column4 style4 s">7</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">SHAKHTER SOLIGORSK</td>
+            <td class="column7 style12 s">1</td>
+          </tr>
+          <tr class="row9">
+            <td class="column1 style4 s">15:00</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">DINAMO MINSK</td>
+            <td class="column4 style4 s">2</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">BATE BORISOV</td>
+            <td class="column7 style12 s">3</td>
+          </tr>
+          <tr class="row10">
+            <td class="column1 style4 s">17:00</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">TORPEDO ZHODINO</td>
+            <td class="column4 style4 s">4</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">GORODEYA</td>
+            <td class="column7 style12 s">9</td>
+          </tr>
+          <tr class="row11">
+            <td class="column0 style7 s style9" rowspan="3">BELGIUM&gt;FIRST DIVISION A</td>
+            <td class="column1 style4 s">14:30</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">CLUB BRUGGE</td>
+            <td class="column4 style4 s">1</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">GENT</td>
+            <td class="column7 style12 s">14</td>
+          </tr>
+          <tr class="row12">
+            <td class="column1 style4 s">18:00</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">ANDERLECHT</td>
+            <td class="column4 style4 s">7</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">STANDARD LIEGE</td>
+            <td class="column7 style12 s">11</td>
+          </tr>
+          <tr class="row13">
+            <td class="column1 style4 s">20:00</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">ZULTE-WAREGEM</td>
+            <td class="column4 style4 s">3</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">LOKEREN</td>
+            <td class="column7 style12 s">12</td>
+          </tr>
+          <tr class="row14">
+            <td class="column0 style7 s style9" rowspan="6">BRAZIL&gt;SERIE A</td>
+            <td class="column1 style4 s">00:00</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">PALMEIRAS</td>
+            <td class="column4 style4 s">4</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">SANTOS</td>
+            <td class="column7 style12 s">2</td>
+          </tr>
+          <tr class="row15">
+            <td class="column1 style4 s">21:00</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">AVAI</td>
+            <td class="column4 style4 s">15</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">ATLETICO GOIANIENSE</td>
+            <td class="column7 style12 s">20</td>
+          </tr>
+          <tr class="row16">
+            <td class="column1 style4 s">21:00</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">BOTAFOGO</td>
+            <td class="column4 style4 s">6</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">VITORIA</td>
+            <td class="column7 style12 s">16</td>
+          </tr>
+          <tr class="row17">
+            <td class="column1 style4 s">21:00</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">CRUZEIRO</td>
+            <td class="column4 style4 s">5</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">CORINTHIANS</td>
+            <td class="column7 style12 s">1</td>
+          </tr>
+          <tr class="row18">
+            <td class="column1 style4 s">21:00</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">GREMIO</td>
+            <td class="column4 style4 s">3</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">FLUMINENSE</td>
+            <td class="column7 style12 s">11</td>
+          </tr>
+          <tr class="row19">
+            <td class="column1 style4 s">21:00</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">SAO PAULO</td>
+            <td class="column4 style4 s">17</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">SPORT RECIFE</td>
+            <td class="column7 style12 s">14</td>
+          </tr>
+          <tr class="row20">
+            <td class="column0 style7 s style9" rowspan="3">COLOMBIA&gt;CLAUSURA</td>
+            <td class="column1 style4 s">01:00</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">ATLETICO NACIONAL</td>
+            <td class="column4 style4 s">2</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">HUILA</td>
+            <td class="column7 style12 s">14</td>
+          </tr>
+          <tr class="row21">
+            <td class="column1 style4 s">02:45</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">JUNIOR</td>
+            <td class="column4 style4 s">3</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">DEPORTIVO CALI</td>
+            <td class="column7 style12 s">8</td>
+          </tr>
+          <tr class="row22">
+            <td class="column1 style4 s">22:15</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">JAGUARES</td>
+            <td class="column4 style4 s">12</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">TIGRES FC</td>
+            <td class="column7 style12 s">11</td>
+          </tr>
+          <tr class="row23">
+            <td class="column0 style7 s style9" rowspan="4">DENMARK&gt;SUPERLIGAEN</td>
+            <td class="column1 style4 s">12:00</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">SILKEBORG</td>
+            <td class="column4 style4 s">11</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">FC NORDSJAELLAND</td>
+            <td class="column7 style12 s">1</td>
+          </tr>
+          <tr class="row24">
+            <td class="column1 style4 s">14:00</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">FC MIDTJYLLAND</td>
+            <td class="column4 style4 s">2</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">AALBORG</td>
+            <td class="column7 style12 s">9</td>
+          </tr>
+          <tr class="row25">
+            <td class="column1 style4 s">16:00</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">BRONDBY</td>
+            <td class="column4 style4 s">5</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">SONDERJYSKE</td>
+            <td class="column7 style12 s">10</td>
+          </tr>
+          <tr class="row26">
+            <td class="column1 style4 s">18:00</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">LYNGBY</td>
+            <td class="column4 style4 s">12</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">FC COPENHAGEN</td>
+            <td class="column7 style12 s">4</td>
+          </tr>
+          <tr class="row27">
+            <td class="column0 style7 s style9" rowspan="3">ENGLAND&gt;PREMIER LEAGUE</td>
+            <td class="column1 style4 s">13:00</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">ARSENAL</td>
+            <td class="column4 style4 s">7</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">BRIGHTON</td>
+            <td class="column7 style12 s">14</td>
+          </tr>
+          <tr class="row28">
+            <td class="column1 style4 s">15:15</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">EVERTON</td>
+            <td class="column4 style4 s">16</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">BURNLEY</td>
+            <td class="column7 style12 s">8</td>
+          </tr>
+          <tr class="row29">
+            <td class="column1 style4 s">17:30</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">NEWCASTLE</td>
+            <td class="column4 style4 s">9</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">LIVERPOOL</td>
+            <td class="column7 style12 s">6</td>
+          </tr>
+          <tr class="row30">
+            <td class="column0 style10 s">FINLAND&gt;VEIKKAUSLIIGA</td>
+            <td class="column1 style4 s">17:30</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">IFK MARIEHAMN</td>
+            <td class="column4 style4 s">6</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">SJK</td>
+            <td class="column7 style12 s">5</td>
+          </tr>
+          <tr class="row31">
+            <td class="column0 style7 s style9" rowspan="3">FRANCE&gt;LIGUE 1</td>
+            <td class="column1 style4 s">15:00</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">ESTAC TROYES</td>
+            <td class="column4 style4 s">13</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">ST ETIENNE</td>
+            <td class="column7 style12 s">4</td>
+          </tr>
+          <tr class="row32">
+            <td class="column1 style4 s">17:00</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">ANGERS</td>
+            <td class="column4 style4 s">12</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">LYON</td>
+            <td class="column7 style12 s">7</td>
+          </tr>
+          <tr class="row33">
+            <td class="column1 style4 s">21:00</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">NICE</td>
+            <td class="column4 style4 s">9</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">MARSEILLE</td>
+            <td class="column7 style12 s">5</td>
+          </tr>
+          <tr class="row34">
+            <td class="column0 style7 s style9" rowspan="3">GERMANY&gt;BUNDESLIGA</td>
+            <td class="column1 style4 s">13:30</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">SC FREIBURG</td>
+            <td class="column4 style4 s">16</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">1899 HOFFENHEIM</td>
+            <td class="column7 style12 s">2</td>
+          </tr>
+          <tr class="row35">
+            <td class="column1 style4 s">15:30</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">HERTHA BERLIN</td>
+            <td class="column4 style4 s">11</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">BAYERN MUNICH</td>
+            <td class="column7 style12 s">3</td>
+          </tr>
+          <tr class="row36">
+            <td class="column1 style4 s">18:00</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">FC KOLN</td>
+            <td class="column4 style4 s">18</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">RB LEIPZIG</td>
+            <td class="column7 style12 s">7</td>
+          </tr>
+          <tr class="row37">
+            <td class="column0 style7 s style9" rowspan="4">GREECE&gt;SUPER LEAGUE</td>
+            <td class="column1 style4 s">15:00</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">OLYMPIAKOS PIRAEUS</td>
+            <td class="column4 style4 s">4</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">ATROMITOS ATHINON</td>
+            <td class="column7 style12 s">6</td>
+          </tr>
+          <tr class="row38">
+            <td class="column1 style4 s">17:15</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">A.O.K. KERKYRA</td>
+            <td class="column4 style4 s">11</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">XANTHI FC</td>
+            <td class="column7 style12 s">8</td>
+          </tr>
+          <tr class="row39">
+            <td class="column1 style4 s">17:15</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">LEVADIAKOS</td>
+            <td class="column4 style4 s">7</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">APOLLON SMIRNIS</td>
+            <td class="column7 style12 s">16</td>
+          </tr>
+          <tr class="row40">
+            <td class="column1 style4 s">19:30</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">ASTERAS TRIPOLIS</td>
+            <td class="column4 style4 s">14</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">AEK ATHENS</td>
+            <td class="column7 style12 s">1</td>
+          </tr>
+          <tr class="row41">
+            <td class="column0 style7 s style9" rowspan="8">ITALY&gt;SERIE A</td>
+            <td class="column1 style4 s">12:30</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">NAPOLI</td>
+            <td class="column4 style4 s">1</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">CAGLIARI</td>
+            <td class="column7 style12 s">13</td>
+          </tr>
+          <tr class="row42">
+            <td class="column1 style4 s">15:00</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">BENEVENTO</td>
+            <td class="column4 style4 s">20</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">INTER</td>
+            <td class="column7 style12 s">3</td>
+          </tr>
+          <tr class="row43">
+            <td class="column1 style4 s">15:00</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">CHIEVO</td>
+            <td class="column4 style4 s">10</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">FIORENTINA</td>
+            <td class="column7 style12 s">12</td>
+          </tr>
+          <tr class="row44">
+            <td class="column1 style4 s">15:00</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">LAZIO</td>
+            <td class="column4 style4 s">4</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">SASSUOLO</td>
+            <td class="column7 style12 s">15</td>
+          </tr>
+          <tr class="row45">
+            <td class="column1 style4 s">15:00</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">SPAL</td>
+            <td class="column4 style4 s">14</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">CROTONE</td>
+            <td class="column7 style12 s">16</td>
+          </tr>
+          <tr class="row46">
+            <td class="column1 style4 s">15:00</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">TORINO</td>
+            <td class="column4 style4 s">8</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">VERONA</td>
+            <td class="column7 style12 s">19</td>
+          </tr>
+          <tr class="row47">
+            <td class="column1 style4 s">18:00</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">AC MILAN</td>
+            <td class="column4 style4 s">6</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">ROMA</td>
+            <td class="column7 style12 s">5</td>
+          </tr>
+          <tr class="row48">
+            <td class="column1 style4 s">20:45</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">ATALANTA</td>
+            <td class="column4 style4 s">9</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">JUVENTUS</td>
+            <td class="column7 style12 s">2</td>
+          </tr>
+          <tr class="row49">
+            <td class="column0 style10 s">ITALY&gt;SERIE B</td>
+            <td class="column1 style4 s">15:00</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">FOGGIA</td>
+            <td class="column4 style4 s">19</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">NOVARA</td>
+            <td class="column7 style12 s">18</td>
+          </tr>
+          <tr class="row50">
+            <td class="column0 style10 s">JAPAN&gt;J1 LEAGUE</td>
+            <td class="column1 style4 s">07:00</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">VEGALTA SENDAI</td>
+            <td class="column4 style4 s">12</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">URAWA RED DIAMONDS</td>
+            <td class="column7 style12 s">7</td>
+          </tr>
+          <tr class="row51">
+            <td class="column0 style7 s style9" rowspan="4">NETHERLANDS&gt;EREDIVISIE</td>
+            <td class="column1 style4 s">12:30</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">AZ ALKMAAR</td>
+            <td class="column4 style4 s">5</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">FEYENOORD</td>
+            <td class="column7 style12 s">4</td>
+          </tr>
+          <tr class="row52">
+            <td class="column1 style4 s">14:30</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">HEERENVEEN</td>
+            <td class="column4 style4 s">2</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">AJAX</td>
+            <td class="column7 style12 s">7</td>
+          </tr>
+          <tr class="row53">
+            <td class="column1 style4 s">14:30</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">VITESSE</td>
+            <td class="column4 style4 s">3</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">UTRECHT</td>
+            <td class="column7 style12 s">9</td>
+          </tr>
+          <tr class="row54">
+            <td class="column1 style4 s">16:45</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">SPARTA ROTTERDAM</td>
+            <td class="column4 style4 s">16</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">RODA</td>
+            <td class="column7 style12 s">18</td>
+          </tr>
+          <tr class="row55">
+            <td class="column0 style7 s style9" rowspan="6">NORWAY&gt;ELITESERIEN</td>
+            <td class="column1 style4 s">18:00</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">ODD BALLKLUBB</td>
+            <td class="column4 style4 s">7</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">HAUGESUND</td>
+            <td class="column7 style12 s">5</td>
+          </tr>
+          <tr class="row56">
+            <td class="column1 style4 s">18:00</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">SANDEFJORD</td>
+            <td class="column4 style4 s">8</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">AALESUND</td>
+            <td class="column7 style12 s">14</td>
+          </tr>
+          <tr class="row57">
+            <td class="column1 style4 s">18:00</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">SOGNDAL</td>
+            <td class="column4 style4 s">13</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">MOLDE</td>
+            <td class="column7 style12 s">4</td>
+          </tr>
+          <tr class="row58">
+            <td class="column1 style4 s">18:00</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">TROMSO</td>
+            <td class="column4 style4 s">15</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">LILLESTROM</td>
+            <td class="column7 style12 s">11</td>
+          </tr>
+          <tr class="row59">
+            <td class="column1 style4 s">18:00</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">VIKING</td>
+            <td class="column4 style4 s">16</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">STROMSGODSET</td>
+            <td class="column7 style12 s">6</td>
+          </tr>
+          <tr class="row60">
+            <td class="column1 style4 s">20:00</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">ROSENBORG</td>
+            <td class="column4 style4 s">1</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">SARPSBORG 08 FF</td>
+            <td class="column7 style12 s">2</td>
+          </tr>
+          <tr class="row61">
+            <td class="column0 style7 s style9" rowspan="3">PERU&gt;CLAUSURA</td>
+            <td class="column1 style4 s">18:00</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">AYACUCHO FC</td>
+            <td class="column4 style4 s">15</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">SPORTING CRISTAL</td>
+            <td class="column7 style12 s">11</td>
+          </tr>
+          <tr class="row62">
+            <td class="column1 style4 s">18:30</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">FBC MELGAR</td>
+            <td class="column4 style4 s">5</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">SPORT ROSARIO</td>
+            <td class="column7 style12 s">13</td>
+          </tr>
+          <tr class="row63">
+            <td class="column1 style4 s">20:30</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">REAL GARCILASO</td>
+            <td class="column4 style4 s">2</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">ACADEMIA CANTOLAO</td>
+            <td class="column7 style12 s">14</td>
+          </tr>
+          <tr class="row64">
+            <td class="column0 style7 s style9" rowspan="3">POLAND&gt;EKSTRAKLASA</td>
+            <td class="column1 style4 s">15:30</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">GORNIK ZABRZE</td>
+            <td class="column4 style4 s">1</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">PIAST GLIWICE</td>
+            <td class="column7 style12 s">15</td>
+          </tr>
+          <tr class="row65">
+            <td class="column1 style4 s">15:30</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">WISLA PLOCK</td>
+            <td class="column4 style4 s">11</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">TERMALICA NIECIECZA</td>
+            <td class="column7 style12 s">14</td>
+          </tr>
+          <tr class="row66">
+            <td class="column1 style4 s">18:00</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">LECH POZNAN</td>
+            <td class="column4 style4 s">3</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">LEGIA WARSZAWA</td>
+            <td class="column7 style12 s">6</td>
+          </tr>
+          <tr class="row67">
+            <td class="column0 style7 s style9" rowspan="4">PORTUGAL&gt;PRIMEIRA LIGA</td>
+            <td class="column1 style4 s">18:15</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">SC BRAGA</td>
+            <td class="column4 style4 s">5</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">ESTORIL</td>
+            <td class="column7 style12 s">16</td>
+          </tr>
+          <tr class="row68">
+            <td class="column1 style4 s">20:15</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">SPORTING CP</td>
+            <td class="column4 style4 s">2</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">FC PORTO</td>
+            <td class="column7 style12 s">1</td>
+          </tr>
+          <tr class="row69">
+            <td class="column1 style4 s">22:30</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">BELENENSES</td>
+            <td class="column4 style4 s">7</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">GUIMARAES</td>
+            <td class="column7 style12 s">8</td>
+          </tr>
+          <tr class="row70">
+            <td class="column1 style4 s">22:30</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">MARITIMO</td>
+            <td class="column4 style4 s">4</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">BENFICA</td>
+            <td class="column7 style12 s">3</td>
+          </tr>
+          <tr class="row71">
+            <td class="column0 style7 s style9" rowspan="3">SOUTH KOREA&gt;K LEAGUE</td>
+            <td class="column1 style4 s">08:00</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">GANGWON FC</td>
+            <td class="column4 style4 s">6</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">ULSAN HYUNDAI FC</td>
+            <td class="column7 style12 s">3</td>
+          </tr>
+          <tr class="row72">
+            <td class="column1 style4 s">08:00</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">JEJU UNITED FC</td>
+            <td class="column4 style4 s">2</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">GWANGJU FC</td>
+            <td class="column7 style12 s">12</td>
+          </tr>
+          <tr class="row73">
+            <td class="column1 style4 s">08:00</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">SUWON BLUEWINGS</td>
+            <td class="column4 style4 s">4</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">JEONBUK MOTORS</td>
+            <td class="column7 style12 s">1</td>
+          </tr>
+          <tr class="row74">
+            <td class="column0 style7 s style9" rowspan="5">SPAIN&gt;PRIMERA DIVISION</td>
+            <td class="column1 style4 s">12:00</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">REAL SOCIEDAD</td>
+            <td class="column4 style4 s">8</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">BETIS</td>
+            <td class="column7 style12 s">5</td>
+          </tr>
+          <tr class="row75">
+            <td class="column1 style4 s">16:15</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">BARCELONA</td>
+            <td class="column4 style4 s">1</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">LAS PALMAS</td>
+            <td class="column7 style12 s">17</td>
+          </tr>
+          <tr class="row76">
+            <td class="column1 style4 s">18:30</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">VALENCIA</td>
+            <td class="column4 style4 s">4</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">ATHLETIC CLUB</td>
+            <td class="column7 style12 s">12</td>
+          </tr>
+          <tr class="row77">
+            <td class="column1 style4 s">18:30</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">VILLARREAL</td>
+            <td class="column4 style4 s">14</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">EIBAR</td>
+            <td class="column7 style12 s">18</td>
+          </tr>
+          <tr class="row78">
+            <td class="column1 style4 s">20:45</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">REAL MADRID</td>
+            <td class="column4 style4 s">6</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">ESPANYOL</td>
+            <td class="column7 style12 s">13</td>
+          </tr>
+          <tr class="row79">
+            <td class="column0 style7 s style9" rowspan="6">SWEDEN&gt;ALLSVENSKAN</td>
+            <td class="column1 style4 s">15:00</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">GIF SUNDSVALL</td>
+            <td class="column4 style4 s">13</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">DJURGARDEN</td>
+            <td class="column7 style12 s">2</td>
+          </tr>
+          <tr class="row80">
+            <td class="column1 style4 s">15:00</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">MALMO FF</td>
+            <td class="column4 style4 s">1</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">HALMSTAD</td>
+            <td class="column7 style12 s">16</td>
+          </tr>
+          <tr class="row81">
+            <td class="column1 style4 s">15:00</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">OSTERSUNDS FK</td>
+            <td class="column4 style4 s">6</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">HACKEN</td>
+            <td class="column7 style12 s">4</td>
+          </tr>
+          <tr class="row82">
+            <td class="column1 style4 s">17:30</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">AIK</td>
+            <td class="column4 style4 s">3</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">IF ELFSBORG</td>
+            <td class="column7 style12 s">11</td>
+          </tr>
+          <tr class="row83">
+            <td class="column1 style4 s">17:30</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">HAMMARBY</td>
+            <td class="column4 style4 s">8</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">IFK NORRKOPING</td>
+            <td class="column7 style12 s">5</td>
+          </tr>
+          <tr class="row84">
+            <td class="column1 style4 s">17:30</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">OREBRO</td>
+            <td class="column4 style4 s">10</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">KALMAR FF</td>
+            <td class="column7 style12 s">12</td>
+          </tr>
+          <tr class="row85">
+            <td class="column0 style7 s style9" rowspan="3">SWITZERLAND&gt;SUPER LEAGUE</td>
+            <td class="column1 style4 s">16:00</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">BSC YOUNG BOYS</td>
+            <td class="column4 style4 s">1</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">FC ST. GALLEN</td>
+            <td class="column7 style12 s">2</td>
+          </tr>
+          <tr class="row86">
+            <td class="column1 style4 s">16:00</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">FC THUN</td>
+            <td class="column4 style4 s">9</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">FC LUZERN</td>
+            <td class="column7 style12 s">7</td>
+          </tr>
+          <tr class="row87">
+            <td class="column1 style4 s">16:00</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">FC ZURICH</td>
+            <td class="column4 style4 s">3</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">FC LUGANO</td>
+            <td class="column7 style12 s">10</td>
+          </tr>
+          <tr class="row88">
+            <td class="column0 style7 s style9" rowspan="4">TURKEY&gt;SUPER LIG</td>
+            <td class="column1 style4 s">13:00</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">YENI MALATYASPOR</td>
+            <td class="column4 style4 s">12</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">KONYASPOR</td>
+            <td class="column7 style12 s">14</td>
+          </tr>
+          <tr class="row89">
+            <td class="column1 style4 s">15:30</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">ALANYASPOR</td>
+            <td class="column4 style4 s">13</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">GENCLERBIRLIGI</td>
+            <td class="column7 style12 s">17</td>
+          </tr>
+          <tr class="row90">
+            <td class="column1 style4 s">18:30</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">BESIKTAS</td>
+            <td class="column4 style4 s">3</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">TRABZONSPOR</td>
+            <td class="column7 style12 s">10</td>
+          </tr>
+          <tr class="row91">
+            <td class="column1 style4 s">18:30</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">GOZTEPE</td>
+            <td class="column4 style4 s">4</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">ISTANBUL BASAKSEHIR</td>
+            <td class="column7 style12 s">7</td>
+          </tr>
+          <tr class="row92">
+            <td class="column0 style7 s style9" rowspan="10">USA&gt;MAJOR LEAGUE SOCCER</td>
+            <td class="column1 style4 s">01:00</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">TORONTO FC</td>
+            <td class="column4 style4 s">1</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">NEW YORK RED BULLS</td>
+            <td class="column7 style12 s">6</td>
+          </tr>
+          <tr class="row93">
+            <td class="column1 style4 s">01:30</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">COLUMBUS CREW</td>
+            <td class="column4 style4 s">5</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">DC UNITED</td>
+            <td class="column7 style12 s">11</td>
+          </tr>
+          <tr class="row94">
+            <td class="column1 style4 s">01:30</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">NEW ENG. REVOLUTION</td>
+            <td class="column4 style4 s">8</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">ATLANTA UNITED FC</td>
+            <td class="column7 style12 s">3</td>
+          </tr>
+          <tr class="row95">
+            <td class="column1 style4 s">02:30</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">CHICAGO FIRE</td>
+            <td class="column4 style4 s">4</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">NEW YORK CITY FC</td>
+            <td class="column7 style12 s">2</td>
+          </tr>
+          <tr class="row96">
+            <td class="column1 style4 s">02:30</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">HOUSTON DYNAMO</td>
+            <td class="column4 style4 s">7</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">MINNESOTA UNITED FC</td>
+            <td class="column7 style12 s">9</td>
+          </tr>
+          <tr class="row97">
+            <td class="column1 style4 s">03:00</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">COLORADO RAPIDS</td>
+            <td class="column4 style4 s">11</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">MONTREAL IMPACT</td>
+            <td class="column7 style12 s">7</td>
+          </tr>
+          <tr class="row98">
+            <td class="column1 style4 s">03:00</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">SPORTING KANSAS CITY</td>
+            <td class="column4 style4 s">3</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">VANCOUVER WHITECAPS</td>
+            <td class="column7 style12 s">1</td>
+          </tr>
+          <tr class="row99">
+            <td class="column1 style4 s">04:30</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">LOS ANGELES GALAXY</td>
+            <td class="column4 style4 s">10</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">REAL SALT LAKE</td>
+            <td class="column7 style12 s">6</td>
+          </tr>
+          <tr class="row100">
+            <td class="column1 style4 s">04:30</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">SAN JOSE EARTHQUAKES</td>
+            <td class="column4 style4 s">8</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">PORTLAND TIMBERS</td>
+            <td class="column7 style12 s">2</td>
+          </tr>
+          <tr class="row101">
+            <td class="column1 style4 s">19:00</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">PHILADELPHIA UNION</td>
+            <td class="column4 style4 s">10</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">SEATTLE SOUNDERS</td>
+            <td class="column7 style12 s">4</td>
+          </tr>
+          <tr class="row102">
+            <td class="column0 style10 s">COLOMBIA&gt;CLAUSURA</td>
+            <td class="column1 style4 s">(00:30)</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">DEPORTES TOLIMA</td>
+            <td class="column4 style4 s">9</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">INDEPENDIENTE MEDELLIN</td>
+            <td class="column7 style12 s">7</td>
+          </tr>
+          <tr class="row103">
+            <td class="column0 style10 s">PERU&gt;CLAUSURA</td>
+            <td class="column1 style4 s">(22:30)</td>
+            <td class="column2 style4 s">01/10/2017</td>
+            <td class="column3 style4 s">COMERCIANTES UNIDOS</td>
+            <td class="column4 style4 s">8</td>
+            <td class="column5 style4 null"></td>
+            <td class="column6 style4 s">UNIVERSITARIO</td>
+            <td class="column7 style12 s">4</td>
+          </tr>
+        </tbody>
+    </table>
+  </body>
+</html>

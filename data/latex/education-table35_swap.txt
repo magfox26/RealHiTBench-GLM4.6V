@@ -1,0 +1,27 @@
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+% \usepackage{multirow}
+\begin{table}[]
+\begin{tabular}{@{}cllll@{}}
+\multicolumn{1}{l}{\textbf{Student Number}} & \textbf{School Subject} & \textbf{Mark} & \textbf{University Subject} & \textbf{Mark} \\
+\multirow{10}{*}{4737888} &  &  & Chemistry 171 & 40 \\
+ &  &  & Mechanics 122 & 40 \\
+ &  &  & Materials science 123 & 80 \\
+ &  &  & Workshop practice 121 & 77 \\
+ & Accounting & 70 &  &  \\
+ & Afrikaans 1st Add Language & 79 &  &  \\
+ & Computer Applic Technology & 77 &  &  \\
+ & Life Orientation & 80 &  &  \\
+ & Mathematics & 80 &  &  \\
+ & Physical Sciences & 86 &  &  \\
+\multirow{9}{*}{2346756} &  &  & Chemistry 171 & 58 \\
+ &  &  & Calculus 158 & 52 \\
+ &  &  & Linear algebra 161 & 50 \\
+ &  &  & Materials science 113 & 71 \\
+ & Accounting & 60 &  &  \\
+ & English & 52 &  &  \\
+ & Life Orientation & 60 &  &  \\
+ & Mathematics & 59 &  &  \\
+ & Physical Sciences & 60 &  & 
+\end{tabular}
+\end{table}

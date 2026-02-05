@@ -1,0 +1,29 @@
+\begin{table}[]
+\begin{tabular}{llllllllllllllll}
+\multicolumn{2}{l}{Densitometry} &          &      &           &                &  &      &           &                &  &      &           &                &             &             \\
+EMSA          &                  &          &      &           &                &  &      &           &                &  &      &           &                &             &             \\
+\multicolumn{16}{l}{Expt-1}                                                                                                                                                               \\
+              &                  &          & \multicolumn{3}{l}{Pr1}           &  & \multicolumn{3}{l}{Pr2}           &  & \multicolumn{3}{l}{Oct-01}        & Pr1/Oct1    & Pr2/Oct1    \\
+              &                  &          & Area & Intensity & Intensity/Area &  & Area & Intensity & Intensity/Area &  & Area & Intensity & Intensity/Area &             &             \\
+Set1          & Uninf            & DC- SAG  & 0.04 & 37.71     & 942.75         &  & 0.04 & 24.58     & 614.5          &  & 0.02 & 182.3     & 9115           & 0.103428415 & 0.067416347 \\
+Set2          & Uninf            & DC + SAG & 0.04 & 159.44    & 3986           &  & 0.04 & 131.33    & 3283.25        &  & 0.02 & 192.23    & 9611.5         & 0.414711543 & 0.341596005 \\
+Set3          & LDPm 24h         & DC- SAG  & 0.04 & 40.75     & 1018.75        &  & 0.04 & 20.72     & 518            &  & 0.02 & 188.47    & 9423.5         & 0.108107391 & 0.054968961 \\
+Set4          & LDPm 24h         & DC + SAG & 0.04 & 147.07    & 3676.75        &  & 0.04 & 123.81    & 3095.25        &  & 0.02 & 177.84    & 8892           & 0.413489654 & 0.348093792 \\
+              &                  &          &      &           &                &  &      &           &                &  &      &           &                &             &             \\
+\multicolumn{16}{l}{Expt-2}                                                                                                                                                               \\
+              &                  &          & \multicolumn{3}{l}{Pr1}           &  & \multicolumn{3}{l}{Pr2}           &  & \multicolumn{3}{l}{Oct-01}        & Pr1/Oct1    & Pr2/Oct1    \\
+              &                  &          & Area & Intensity & Intensity/Area &  & Area & Intensity & Intensity/Area &  & Area & Intensity & Intensity/Area &             &             \\
+Set1          & Uninf            & DC- SAG  & 0.07 & 48.05     & 686.4285714    &  & 0.07 & 44.21     & 631.5714286    &  & 0.06 & 149.64    & 2494           & 0.275231985 & 0.253236339 \\
+Set2          & Uninf            & DC + SAG & 0.07 & 161.11    & 2301.571429    &  & 0.07 & 185.64    & 2652           &  & 0.06 & 153.99    & 2566.5         & 0.896774373 & 1.033313852 \\
+Set3          & LDPm 24h         & DC- SAG  & 0.07 & 33.5      & 478.5714286    &  & 0.07 & 51.98     & 742.5714286    &  & 0.06 & 159.54    & 2659           & 0.179981733 & 0.279267179 \\
+Set4          & LDPm 24h         & DC + SAG & 0.07 & 137.07    & 1958.142857    &  & 0.07 & 179.31    & 2561.571429    &  & 0.06 & 151.83    & 2530.5         & 0.773816581 & 1.01227877  \\
+              &                  &          &      &           &                &  &      &           &                &  &      &           &                &             &             \\
+\multicolumn{16}{l}{Expt-3}                                                                                                                                                               \\
+              &                  &          & \multicolumn{3}{l}{Pr1}           &  & \multicolumn{3}{l}{Pr2}           &  & \multicolumn{3}{l}{Oct-01}        & Pr1/Oct1    & Pr2/Oct1    \\
+              &                  &          & Area & Intensity & Intensity/Area &  & Area & Intensity & Intensity/Area &  & Area & Intensity & Intensity/Area &             &             \\
+Set1          & Uninf            & DC- SAG  & 0.04 & 24.99     & 624.75         &  & 0.04 & 41.93     & 1048.25        &  & 0.05 & 162.87    & 3257.4         & 0.191794069 & 0.321805735 \\
+Set2          & Uninf            & DC + SAG & 0.04 & 118.45    & 2961.25        &  & 0.04 & 165.39    & 4134.75        &  & 0.05 & 168.21    & 3364.2         & 0.880224125 & 1.229044052 \\
+Set3          & LDPm 24h         & DC- SAG  & 0.04 & 32.65     & 816.25         &  & 0.04 & 31.31     & 782.75         &  & 0.05 & 159.4     & 3188           & 0.256038269 & 0.245530113 \\
+Set4          & LDPm 24h         & DC + SAG & 0.04 & 92.09     & 2302.25        &  & 0.04 & 112.71    & 2817.75        &  & 0.05 & 144.71    & 2894.2         & 0.795470251 & 0.973585101
+\end{tabular}
+\end{table}

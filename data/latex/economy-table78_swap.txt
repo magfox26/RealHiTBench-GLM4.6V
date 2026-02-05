@@ -1,0 +1,141 @@
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+% \usepackage[table,xcdraw]{xcolor}
+% Beamer presentation requires \usepackage{colortbl} instead of \usepackage[table,xcdraw]{xcolor}
+\begin{table}[]
+\begin{tabular}{@{}ccrc@{}}
+\rowcolor[HTML]{F9CBAA} 
+\textbf{\#} & \textbf{Product Code} & \multicolumn{1}{c}{\cellcolor[HTML]{C00000}{\color[HTML]{FFFFFF} \textbf{Variants}}} & \cellcolor[HTML]{00B050}{\color[HTML]{FFFFFF} \textbf{Local Price}} \\
+\rowcolor[HTML]{808080} 
+\multicolumn{4}{l}{\cellcolor[HTML]{808080}{\color[HTML]{FFFFFF} \textbf{Canada (CAD)}}} \\
+\textbf{6} & \textbf{BA} & \$5 & \$5 \\
+\textbf{7} & \textbf{BB} & \$10 & \$10 \\
+\textbf{8} & \textbf{BC} & 1-Month Premium & \$13.99 \\
+\textbf{9} & \textbf{BD} & 3-Month Premium & \$33.99 \\
+\textbf{10} & \textbf{BE} & 10-Day Premium & \$5.99 \\
+\rowcolor[HTML]{808080} 
+\multicolumn{4}{l}{\cellcolor[HTML]{808080}{\color[HTML]{FFFFFF} \textbf{North America (USD)}}} \\
+\textbf{1} & \textbf{AA} & \$5 & \$5 \\
+\textbf{2} & \textbf{AB} & \$10 & \$10 \\
+\textbf{3} & \textbf{AC} & 1-Month Premium & \$12.95 \\
+\textbf{4} & \textbf{AD} & 3-Month Premium & \$31.95 \\
+\textbf{5} & \textbf{AE} & 10-Day Premium & \$4.99 \\
+\rowcolor[HTML]{808080} 
+\multicolumn{4}{l}{\cellcolor[HTML]{808080}{\color[HTML]{FFFFFF} \textbf{Europe (EUR)}}} \\
+\textbf{11} & \textbf{CA} & \$5 & € 5.00 \\
+\textbf{12} & \textbf{CB} & \$10 & € 10.00 \\
+\textbf{13} & \textbf{CC} & 1-Month Premium & € 9.50 \\
+\textbf{14} & \textbf{CD} & 3-Month Premium & € 23.50 \\
+\textbf{15} & \textbf{CE} & 10-Day Premium & € 3.75 \\
+\rowcolor[HTML]{808080} 
+\multicolumn{4}{l}{\cellcolor[HTML]{808080}{\color[HTML]{FFFFFF} \textbf{Europe (GBP)}}} \\
+\textbf{16} & \textbf{DA} & \$5 & GBP 5 \\
+\textbf{17} & \textbf{DB} & \$10 & GBP 10 \\
+\textbf{18} & \textbf{DC} & 1-Month Premium & GBP 8.25 \\
+\textbf{19} & \textbf{DD} & 3-Month Premium & GBP 20.25 \\
+\textbf{20} & \textbf{DE} & 10-Day Premium & GBP 3.25 \\
+\rowcolor[HTML]{808080} 
+\multicolumn{4}{l}{\cellcolor[HTML]{808080}{\color[HTML]{FFFFFF} \textbf{Europe (CHF)}}} \\
+\textbf{21} & \textbf{EA} & \$5 & CHF 5 \\
+\textbf{22} & \textbf{EB} & \$10 & CHF 10 \\
+\textbf{23} & \textbf{EC} & 1-Month Premium & CHF 12.50 \\
+\textbf{24} & \textbf{ED} & 3-Month Premium & CHF 30.50 \\
+\textbf{25} & \textbf{EE} & 10-Day Premium & CHF 4.75 \\
+\rowcolor[HTML]{808080} 
+\multicolumn{4}{l}{\cellcolor[HTML]{808080}{\color[HTML]{FFFFFF} \textbf{Europe (DKK)}}} \\
+\textbf{26} & \textbf{FA} & \$5 & kr. 30 \\
+\textbf{27} & \textbf{FF} & \$10 & kr. 60 \\
+\textbf{28} & \textbf{FC} & 1-Month Premium & kr. 71 \\
+\textbf{29} & \textbf{FD} & 3-Month Premium & kr. 175 \\
+\textbf{30} & \textbf{FF} & 10-Day Premium & kr. 27.50 \\
+\rowcolor[HTML]{808080} 
+\multicolumn{4}{l}{\cellcolor[HTML]{808080}{\color[HTML]{FFFFFF} \textbf{Europe (SEK)}}} \\
+\textbf{31} & \textbf{GA} & \$5 & 40 kr \\
+\textbf{32} & \textbf{GB} & \$10 & 70 kr \\
+\textbf{33} & \textbf{GC} & 1-Month Premium & 87 kr \\
+\textbf{34} & \textbf{GD} & 3-Month Premium & 214.25 kr \\
+\textbf{35} & \textbf{GE} & 10-Day Premium & 33.50 kr \\
+\rowcolor[HTML]{808080} 
+\multicolumn{4}{l}{\cellcolor[HTML]{808080}{\color[HTML]{FFFFFF} \textbf{Europe (NOK)}}} \\
+\textbf{36} & \textbf{HA} & \$5 & kr 30 \\
+\textbf{37} & \textbf{HB} & \$10 & kr 60 \\
+\textbf{38} & \textbf{HC} & 1-Month Premium & kr 75.50 \\
+\textbf{39} & \textbf{HD} & 3-Month Premium & kr 186 \\
+\textbf{40} & \textbf{HE} & 10-Day Premium & kr 29 \\
+\rowcolor[HTML]{808080} 
+\multicolumn{4}{l}{\cellcolor[HTML]{808080}{\color[HTML]{FFFFFF} \textbf{Europe (ILS)}}} \\
+\textbf{41} & \textbf{JA} & \$5 & ₪ 20 \\
+\textbf{42} & \textbf{JB} & \$10 & ₪ 40 \\
+\textbf{43} & \textbf{JC} & 1-Month Premium & ₪ 47 \\
+\textbf{44} & \textbf{JD} & 3-Month Premium & ₪ 115.50 \\
+\textbf{45} & \textbf{JE} & 10-Day Premium & ₪ 18 \\
+\rowcolor[HTML]{808080} 
+\multicolumn{4}{l}{\cellcolor[HTML]{808080}{\color[HTML]{FFFFFF} \textbf{Middle East (SAR)}}} \\
+\textbf{46} & \textbf{KA} & \$5 & ر.س.‏ 20 \\
+\textbf{47} & \textbf{KB} & \$10 & ر.س.‏ 40 \\
+\textbf{48} & \textbf{KC} & 1-Month Premium & ر.س.‏ 50 \\
+\textbf{49} & \textbf{KD} & 3-Month Premium & ر.س.‏ 120 \\
+\textbf{50} & \textbf{KE} & 10-Day Premium & ر.س.‏ 20 \\
+\rowcolor[HTML]{808080} 
+\multicolumn{4}{l}{\cellcolor[HTML]{808080}{\color[HTML]{FFFFFF} \textbf{Middle East (AED)}}} \\
+\textbf{51} & \textbf{LA} & \$5 & د.إ.‏ 20 \\
+\textbf{52} & \textbf{LB} & \$10 & د.إ.‏ 40 \\
+\textbf{53} & \textbf{LC} & 1-Month Premium & د.إ.‏ 50 \\
+\textbf{54} & \textbf{LD} & 3-Month Premium & د.إ.‏ 120 \\
+\textbf{55} & \textbf{LE} & 10-Day Premium & د.إ.‏ 20 \\
+\rowcolor[HTML]{808080} 
+\multicolumn{4}{l}{\cellcolor[HTML]{808080}{\color[HTML]{FFFFFF} \textbf{Japan (JPY)}}} \\
+\textbf{56} & \textbf{MA} & \$5 & ¥650 \\
+\textbf{57} & \textbf{MB} & \$10 & ¥1,150 \\
+\textbf{58} & \textbf{MC} & 1-Month Premium & ¥1,500 \\
+\textbf{59} & \textbf{MD} & 3-Month Premium & ¥3,400 \\
+\textbf{60} & \textbf{MF} & 10-Day Premium & ¥650 \\
+\rowcolor[HTML]{808080} 
+\multicolumn{4}{l}{\cellcolor[HTML]{808080}{\color[HTML]{FFFFFF} \textbf{Asia Pacific (TWD)}}} \\
+\textbf{61} & \textbf{NA} & \$5 & NT\$150 \\
+\textbf{62} & \textbf{NB} & \$10 & NT\$290 \\
+\textbf{63} & \textbf{NC} & 1-Month Premium & NT\$380 \\
+\textbf{64} & \textbf{ND} & 3-Month Premium & NT\$930 \\
+\textbf{65} & \textbf{NE} & 10-Day Premium & NT\$150 \\
+\rowcolor[HTML]{808080} 
+\multicolumn{4}{l}{\cellcolor[HTML]{808080}{\color[HTML]{FFFFFF} \textbf{Asia Pacific (KRW)}}} \\
+\textbf{66} & \textbf{OA} & \$5 & ₩5,300 \\
+\textbf{67} & \textbf{OB} & \$10 & ₩11,000 \\
+\textbf{68} & \textbf{OC} & 1-Month Premium & ₩13,700 \\
+\textbf{69} & \textbf{OD} & 3-Month Premium & ₩33,700 \\
+\textbf{70} & \textbf{OE} & 10-Day Premium & ₩5,300 \\
+\rowcolor[HTML]{808080} 
+\multicolumn{4}{l}{\cellcolor[HTML]{808080}{\color[HTML]{FFFFFF} \textbf{Asia Pacific (HKD)}}} \\
+\textbf{71} & \textbf{PA} & \$5 & HK\$40 \\
+\textbf{72} & \textbf{PB} & \$10 & HK\$80 \\
+\textbf{73} & \textbf{PC} & 1-Month Premium & HK\$100 \\
+\textbf{74} & \textbf{PD} & 3-Month Premium & HK\$250 \\
+\textbf{75} & \textbf{PE} & 10-Day Premium & HK\$40 \\
+\rowcolor[HTML]{808080} 
+\multicolumn{4}{l}{\cellcolor[HTML]{808080}{\color[HTML]{FFFFFF} \textbf{Australia (AUD)}}} \\
+\textbf{76} & \textbf{QA} & \$5 & \$5.50 \\
+\textbf{77} & \textbf{QB} & \$10 & \$10.50 \\
+\textbf{78} & \textbf{QC} & 1-Month Premium & \$15.00 \\
+\textbf{79} & \textbf{QD} & 3-Month Premium & \$36.00 \\
+\textbf{80} & \textbf{QE} & 10-Day Premium & \$6.00 \\
+\rowcolor[HTML]{808080} 
+\multicolumn{4}{l}{\cellcolor[HTML]{808080}{\color[HTML]{FFFFFF} \textbf{New Zealand (NZD)}}} \\
+\textbf{81} & \textbf{RA} & \$5 & \$6.50 \\
+\textbf{82} & \textbf{RB} & \$10 & \$13 \\
+\textbf{83} & \textbf{RC} & 1-Month Premium & \$19 \\
+\textbf{84} & \textbf{RD} & 3-Month Premium & \$46 \\
+\textbf{85} & \textbf{RE} & 10-Day Premium & \$7.50 \\
+\rowcolor[HTML]{808080} 
+\multicolumn{4}{l}{\cellcolor[HTML]{808080}{\color[HTML]{FFFFFF} \textbf{Philippines (PHP)}}} \\
+\textbf{86} & \textbf{SA} & \$5 & Php250 \\
+\textbf{87} & \textbf{SB} & \$10 & Php500 \\
+\textbf{88} & \textbf{SC} & 1-Month Premium & Php650 \\
+\textbf{89} & \textbf{SD} & 3-Month Premium & Php1,550 \\
+\textbf{90} & \textbf{SE} & 10-Day Premium & Php250 \\
+\rowcolor[HTML]{808080} 
+\multicolumn{4}{l}{\cellcolor[HTML]{808080}{\color[HTML]{FFFFFF} \textbf{FREE TRIAL}}} \\
+\textbf{91} & \textbf{TF} & 7-Day Free Trial & - \\
+\textbf{92} & \textbf{TG} & 14-Day Free Trial & - \\
+\textbf{93} & \textbf{TH} & 30-Day Premium & -
+\end{tabular}
+\end{table}

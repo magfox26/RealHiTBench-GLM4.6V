@@ -1,0 +1,81 @@
+% Please add the following required packages to your document preamble:
+% \usepackage[table,xcdraw]{xcolor}
+% Beamer presentation requires \usepackage{colortbl} instead of \usepackage[table,xcdraw]{xcolor}
+\begin{table}[]
+\begin{tabular}{llr}
+\rowcolor[HTML]{FFFFFF} 
+\textbf{}                & \textbf{}                                      & \cellcolor[HTML]{C0C0C0}\textbf{All Individuals receiving an adverse sanction decision} \\
+\cellcolor[HTML]{FFFFFF} & \cellcolor[HTML]{FFFFFF}\textbf{GREAT BRITAIN} & \textbf{14,601}                                                                         \\
+\rowcolor[HTML]{FFFFFF} 
+\textbf{Age Group}       & 16-17 years of age                             & -                                                                                       \\
+\rowcolor[HTML]{FFFFFF} 
+                         & 18-24 years of age                             & 1,649                                                                                   \\
+                         & \cellcolor[HTML]{FFFFFF}25-29  years of age    & \cellcolor[HTML]{FFFFFF}1,683                                                           \\
+\rowcolor[HTML]{FFFFFF} 
+                         & 30-34  years of age                            & 1,872                                                                                   \\
+\rowcolor[HTML]{FFFFFF} 
+                         & 35-39  years of age                            & 1,903                                                                                   \\
+\rowcolor[HTML]{FFFFFF} 
+                         & 40-44 years of age                             & 2,271                                                                                   \\
+\rowcolor[HTML]{FFFFFF} 
+                         & 45-49 years of age                             & 2,158                                                                                   \\
+\rowcolor[HTML]{FFFFFF} 
+                         & 50-54 years of age                             & 1,645                                                                                   \\
+\rowcolor[HTML]{FFFFFF} 
+                         & 55-59 years of age                             & 1,199                                                                                   \\
+\rowcolor[HTML]{FFFFFF} 
+                         & 60 and over                                    & 309                                                                                     \\
+\rowcolor[HTML]{FFFFFF} 
+                         & Unknown                                        & 18                                                                                      \\
+\rowcolor[HTML]{C0C0C0} 
+                         &                                                &                                                                                         \\
+\rowcolor[HTML]{FFFFFF} 
+\textbf{Ethnicity}       & White                                          & 11,458                                                                                  \\
+\rowcolor[HTML]{FFFFFF} 
+                         & Asian or Asian British                         & 614                                                                                     \\
+\rowcolor[HTML]{FFFFFF} 
+                         & Black or Black British                         & 697                                                                                     \\
+\rowcolor[HTML]{FFFFFF} 
+                         & Mixed                                          & 220                                                                                     \\
+\rowcolor[HTML]{FFFFFF} 
+                         & Other/ Chinese                                 & 296                                                                                     \\
+\rowcolor[HTML]{FFFFFF} 
+                         & Unknown                                        & 1,336                                                                                   \\
+\rowcolor[HTML]{C0C0C0} 
+                         &                                                &                                                                                         \\
+\rowcolor[HTML]{FFFFFF} 
+\textbf{Gender}          & Male                                           & 7,939                                                                                   \\
+\rowcolor[HTML]{FFFFFF} 
+                         & Female                                         & 6,656                                                                                   \\
+\rowcolor[HTML]{FFFFFF} 
+                         & Unknown                                        & -                                                                                       \\
+\rowcolor[HTML]{C0C0C0} 
+\textbf{}                & \textbf{}                                      &                                                                                         \\
+\rowcolor[HTML]{FFFFFF} 
+\textbf{Disability}      & Disability - Yes                               & 11,491                                                                                  \\
+\rowcolor[HTML]{FFFFFF} 
+                         & Disability - No                                & 2,907                                                                                   \\
+\rowcolor[HTML]{FFFFFF} 
+                         & Disability - Unknown                           & 198                                                                                     \\
+\rowcolor[HTML]{C0C0C0} 
+                         &                                                &                                                                                         \\
+\rowcolor[HTML]{FFFFFF} 
+\textbf{Regional Group}  & Central England                                & 2,312                                                                                   \\
+\rowcolor[HTML]{FFFFFF} 
+                         & London and the Home Counties                   & 4,022                                                                                   \\
+\rowcolor[HTML]{FFFFFF} 
+                         & North East                                     & 1,509                                                                                   \\
+\rowcolor[HTML]{FFFFFF} 
+                         & North West                                     & 3,068                                                                                   \\
+\rowcolor[HTML]{FFFFFF} 
+                         & Scotland                                       & 1,166                                                                                   \\
+\rowcolor[HTML]{FFFFFF} 
+                         & Southern England                               & 1,536                                                                                   \\
+\rowcolor[HTML]{FFFFFF} 
+                         & Wales                                          & 949                                                                                     \\
+\rowcolor[HTML]{FFFFFF} 
+                         & Unknown                                        & 46                                                                                      \\
+\rowcolor[HTML]{C0C0C0} 
+                         & \textbf{}                                      & \multicolumn{1}{l}{\cellcolor[HTML]{C0C0C0}\textbf{}}                                  
+\end{tabular}
+\end{table}

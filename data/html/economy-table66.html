@@ -1,0 +1,997 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <meta name="generator" content="PhpSpreadsheet, https://github.com/PHPOffice/PhpSpreadsheet">
+      <meta name="author" content="mac" />
+      <meta name="company" content="Microsoft Corporation" />
+    <style type="text/css">
+      html { font-family:Calibri, Arial, Helvetica, sans-serif; font-size:11pt; background-color:white }
+      a.comment-indicator:hover + div.comment { background:#ffd; position:absolute; display:block; border:1px solid black; padding:0.5em }
+      a.comment-indicator { background:red; display:inline-block; border:1px solid black; width:0.5em; height:0.5em }
+      div.comment { display:none }
+      table { border-collapse:collapse; page-break-after:always }
+      .gridlines td { border:1px dotted black }
+      .gridlines th { border:1px dotted black }
+      .b { text-align:center }
+      .e { text-align:center }
+      .f { text-align:right }
+      .inlineStr { text-align:left }
+      .n { text-align:right }
+      .s { text-align:left }
+      td.style0 { vertical-align:middle; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style0 { vertical-align:middle; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style1 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:white }
+      th.style1 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:white }
+      td.style2 { vertical-align:bottom; border-bottom:none #000000; border-top:2px solid #000000 !important; border-left:2px solid #000000 !important; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Calibri (Body)'; font-size:14pt; background-color:#EE822F }
+      th.style2 { vertical-align:bottom; border-bottom:none #000000; border-top:2px solid #000000 !important; border-left:2px solid #000000 !important; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Calibri (Body)'; font-size:14pt; background-color:#EE822F }
+      td.style3 { vertical-align:bottom; border-bottom:none #000000; border-top:2px solid #000000 !important; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#EE822F }
+      th.style3 { vertical-align:bottom; border-bottom:none #000000; border-top:2px solid #000000 !important; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#EE822F }
+      td.style4 { vertical-align:bottom; text-align:center; border-bottom:none #000000; border-top:2px solid #000000 !important; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Calibri (Body)'; font-size:14pt; background-color:#EE822F }
+      th.style4 { vertical-align:bottom; text-align:center; border-bottom:none #000000; border-top:2px solid #000000 !important; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Calibri (Body)'; font-size:14pt; background-color:#EE822F }
+      td.style5 { vertical-align:bottom; text-align:center; border-bottom:none #000000; border-top:2px solid #000000 !important; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Calibri (Body)'; font-size:14pt; background-color:#EE822F }
+      th.style5 { vertical-align:bottom; text-align:center; border-bottom:none #000000; border-top:2px solid #000000 !important; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Calibri (Body)'; font-size:14pt; background-color:#EE822F }
+      td.style6 { vertical-align:bottom; border-bottom:none #000000; border-top:2px solid #000000 !important; border-left:2px solid #000000 !important; border-right:2px solid #000000 !important; font-weight:bold; color:#000000; font-family:'宋体'; font-size:14pt; background-color:#FFFFCC }
+      th.style6 { vertical-align:bottom; border-bottom:none #000000; border-top:2px solid #000000 !important; border-left:2px solid #000000 !important; border-right:2px solid #000000 !important; font-weight:bold; color:#000000; font-family:'宋体'; font-size:14pt; background-color:#FFFFCC }
+      td.style7 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:2px solid #000000 !important; border-left:2px solid #000000 !important; border-right:2px solid #000000 !important; font-weight:bold; color:#000000; font-family:'宋体'; font-size:14pt; background-color:#FFFFCC }
+      th.style7 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:2px solid #000000 !important; border-left:2px solid #000000 !important; border-right:2px solid #000000 !important; font-weight:bold; color:#000000; font-family:'宋体'; font-size:14pt; background-color:#FFFFCC }
+      td.style8 { vertical-align:bottom; border-bottom:2px solid #000000 !important; border-top:none #000000; border-left:2px solid #000000 !important; border-right:2px solid #000000 !important; font-weight:bold; color:#000000; font-family:'宋体'; font-size:14pt; background-color:#FFFFCC }
+      th.style8 { vertical-align:bottom; border-bottom:2px solid #000000 !important; border-top:none #000000; border-left:2px solid #000000 !important; border-right:2px solid #000000 !important; font-weight:bold; color:#000000; font-family:'宋体'; font-size:14pt; background-color:#FFFFCC }
+      td.style9 { vertical-align:bottom; text-align:center; border-bottom:2px solid #000000 !important; border-top:none #000000; border-left:2px solid #000000 !important; border-right:2px solid #000000 !important; font-weight:bold; color:#000000; font-family:'宋体'; font-size:14pt; background-color:#FFFFCC }
+      th.style9 { vertical-align:bottom; text-align:center; border-bottom:2px solid #000000 !important; border-top:none #000000; border-left:2px solid #000000 !important; border-right:2px solid #000000 !important; font-weight:bold; color:#000000; font-family:'宋体'; font-size:14pt; background-color:#FFFFCC }
+      td.style10 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:2px solid #000000 !important; border-right:2px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Calibri'; font-size:14pt; background-color:white }
+      th.style10 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:2px solid #000000 !important; border-right:2px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Calibri'; font-size:14pt; background-color:white }
+      td.style11 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Calibri'; font-size:14pt; background-color:white }
+      th.style11 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Calibri'; font-size:14pt; background-color:white }
+      td.style12 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:1px solid #000000 !important; color:#000000; font-family:'Calibri'; font-size:14pt; background-color:white }
+      th.style12 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:1px solid #000000 !important; color:#000000; font-family:'Calibri'; font-size:14pt; background-color:white }
+      td.style13 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:1px solid #000000 !important; color:#000000; font-family:'Calibri'; font-size:14pt; background-color:white }
+      th.style13 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:1px solid #000000 !important; color:#000000; font-family:'Calibri'; font-size:14pt; background-color:white }
+      td.style14 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:2px solid #000000 !important; border-right:2px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Calibri'; font-size:14pt; background-color:white }
+      th.style14 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:2px solid #000000 !important; border-right:2px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Calibri'; font-size:14pt; background-color:white }
+      td.style15 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:1px solid #000000 !important; color:#000000; font-family:'Calibri'; font-size:14pt; background-color:white }
+      th.style15 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:1px solid #000000 !important; color:#000000; font-family:'Calibri'; font-size:14pt; background-color:white }
+      td.style16 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:1px solid #000000 !important; color:#000000; font-family:'Calibri'; font-size:14pt; background-color:white }
+      th.style16 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:1px solid #000000 !important; color:#000000; font-family:'Calibri'; font-size:14pt; background-color:white }
+      td.style17 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:2px solid #000000 !important; border-right:2px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Calibri'; font-size:14pt; background-color:white }
+      th.style17 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:2px solid #000000 !important; border-right:2px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Calibri'; font-size:14pt; background-color:white }
+      td.style18 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:2px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'宋体'; font-size:14pt; background-color:white }
+      th.style18 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:2px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'宋体'; font-size:14pt; background-color:white }
+      td.style19 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:14pt; background-color:white }
+      th.style19 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:14pt; background-color:white }
+      td.style20 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:14pt; background-color:white }
+      th.style20 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:14pt; background-color:white }
+      td.style21 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'宋体'; font-size:14pt; background-color:white }
+      th.style21 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'宋体'; font-size:14pt; background-color:white }
+      td.style22 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:2px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Calibri'; font-size:14pt; background-color:white }
+      th.style22 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:2px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Calibri'; font-size:14pt; background-color:white }
+      td.style23 { vertical-align:bottom; text-align:center; border-bottom:2px solid #000000 !important; border-top:2px solid #000000 !important; border-left:2px solid #000000 !important; border-right:2px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:10pt; background-color:white }
+      th.style23 { vertical-align:bottom; text-align:center; border-bottom:2px solid #000000 !important; border-top:2px solid #000000 !important; border-left:2px solid #000000 !important; border-right:2px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:10pt; background-color:white }
+      td.style24 { vertical-align:bottom; text-align:center; border-bottom:2px solid #000000 !important; border-top:2px solid #000000 !important; border-left:none #000000; border-right:1px solid #000000 !important; color:#57267C; font-family:'宋体'; font-size:10pt; background-color:white }
+      th.style24 { vertical-align:bottom; text-align:center; border-bottom:2px solid #000000 !important; border-top:2px solid #000000 !important; border-left:none #000000; border-right:1px solid #000000 !important; color:#57267C; font-family:'宋体'; font-size:10pt; background-color:white }
+      td.style25 { vertical-align:bottom; border-bottom:2px solid #000000 !important; border-top:2px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#57267C; font-family:'宋体'; font-size:14pt; background-color:white }
+      th.style25 { vertical-align:bottom; border-bottom:2px solid #000000 !important; border-top:2px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#57267C; font-family:'宋体'; font-size:14pt; background-color:white }
+      td.style26 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:2px solid #000000 !important; border-top:2px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#57267C; font-family:'宋体'; font-size:14pt; background-color:white }
+      th.style26 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:2px solid #000000 !important; border-top:2px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#57267C; font-family:'宋体'; font-size:14pt; background-color:white }
+      td.style27 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:2px solid #000000 !important; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Calibri (Body)'; font-size:14pt; background-color:#EE822F }
+      th.style27 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:2px solid #000000 !important; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Calibri (Body)'; font-size:14pt; background-color:#EE822F }
+      td.style28 { vertical-align:bottom; text-align:center; border-bottom:none #000000; border-top:2px solid #000000 !important; border-left:2px solid #000000 !important; border-right:2px solid #000000 !important; font-weight:bold; color:#000000; font-family:'宋体'; font-size:14pt; background-color:#FFFFCC }
+      th.style28 { vertical-align:bottom; text-align:center; border-bottom:none #000000; border-top:2px solid #000000 !important; border-left:2px solid #000000 !important; border-right:2px solid #000000 !important; font-weight:bold; color:#000000; font-family:'宋体'; font-size:14pt; background-color:#FFFFCC }
+      td.style29 { vertical-align:bottom; text-align:center; border-bottom:none #000000; border-top:2px solid #000000 !important; border-left:2px solid #000000 !important; border-right:2px solid #000000 !important; font-weight:bold; color:#000000; font-family:'宋体'; font-size:14pt; background-color:#FFFFCC }
+      th.style29 { vertical-align:bottom; text-align:center; border-bottom:none #000000; border-top:2px solid #000000 !important; border-left:2px solid #000000 !important; border-right:2px solid #000000 !important; font-weight:bold; color:#000000; font-family:'宋体'; font-size:14pt; background-color:#FFFFCC }
+      td.style30 { vertical-align:bottom; text-align:center; border-bottom:2px solid #000000 !important; border-top:none #000000; border-left:2px solid #000000 !important; border-right:2px solid #000000 !important; font-weight:bold; color:#000000; font-family:'宋体'; font-size:14pt; background-color:#FFFFCC }
+      th.style30 { vertical-align:bottom; text-align:center; border-bottom:2px solid #000000 !important; border-top:none #000000; border-left:2px solid #000000 !important; border-right:2px solid #000000 !important; font-weight:bold; color:#000000; font-family:'宋体'; font-size:14pt; background-color:#FFFFCC }
+      td.style31 { vertical-align:bottom; text-align:center; border-bottom:2px solid #000000 !important; border-top:none #000000; border-left:2px solid #000000 !important; border-right:2px solid #000000 !important; font-weight:bold; color:#000000; font-family:'宋体'; font-size:14pt; background-color:#FFFFCC }
+      th.style31 { vertical-align:bottom; text-align:center; border-bottom:2px solid #000000 !important; border-top:none #000000; border-left:2px solid #000000 !important; border-right:2px solid #000000 !important; font-weight:bold; color:#000000; font-family:'宋体'; font-size:14pt; background-color:#FFFFCC }
+      td.style32 { vertical-align:bottom; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:1px solid #000000 !important; color:#000000; font-family:'Calibri'; font-size:14pt; background-color:white }
+      th.style32 { vertical-align:bottom; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:1px solid #000000 !important; color:#000000; font-family:'Calibri'; font-size:14pt; background-color:white }
+      td.style33 { vertical-align:bottom; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:14pt; background-color:white }
+      th.style33 { vertical-align:bottom; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:14pt; background-color:white }
+      td.style34 { vertical-align:bottom; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:14pt; background-color:white }
+      th.style34 { vertical-align:bottom; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:14pt; background-color:white }
+      td.style35 { vertical-align:bottom; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:1px solid #000000 !important; color:#000000; font-family:'Calibri'; font-size:14pt; background-color:white }
+      th.style35 { vertical-align:bottom; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:1px solid #000000 !important; color:#000000; font-family:'Calibri'; font-size:14pt; background-color:white }
+      td.style36 { vertical-align:bottom; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:1px solid #000000 !important; color:#000000; font-family:'Calibri'; font-size:14pt; background-color:white }
+      th.style36 { vertical-align:bottom; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:1px solid #000000 !important; color:#000000; font-family:'Calibri'; font-size:14pt; background-color:white }
+      td.style37 { vertical-align:bottom; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:14pt; background-color:white }
+      th.style37 { vertical-align:bottom; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:14pt; background-color:white }
+      td.style38 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:2px solid #000000 !important; border-top:2px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'宋体'; font-size:14pt; background-color:white }
+      th.style38 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:2px solid #000000 !important; border-top:2px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'宋体'; font-size:14pt; background-color:white }
+      td.style39 { vertical-align:bottom; text-align:center; border-bottom:2px solid #000000 !important; border-top:2px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'宋体'; font-size:14pt; background-color:white }
+      th.style39 { vertical-align:bottom; text-align:center; border-bottom:2px solid #000000 !important; border-top:2px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'宋体'; font-size:14pt; background-color:white }
+      td.style40 { vertical-align:bottom; text-align:center; border-bottom:none #000000; border-top:2px solid #000000 !important; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Calibri'; font-size:14pt; background-color:white }
+      th.style40 { vertical-align:bottom; text-align:center; border-bottom:none #000000; border-top:2px solid #000000 !important; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Calibri'; font-size:14pt; background-color:white }
+      td.style41 { vertical-align:bottom; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Calibri'; font-size:14pt; background-color:white }
+      th.style41 { vertical-align:bottom; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Calibri'; font-size:14pt; background-color:white }
+      td.style42 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:2px solid #000000 !important; border-left:none #000000; border-right:2px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Calibri (Body)'; font-size:14pt; background-color:#EE822F }
+      th.style42 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:2px solid #000000 !important; border-left:none #000000; border-right:2px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Calibri (Body)'; font-size:14pt; background-color:#EE822F }
+      td.style43 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:2px solid #000000 !important; border-left:2px solid #000000 !important; border-right:2px solid #000000 !important; font-weight:bold; color:#000000; font-family:'宋体'; font-size:14pt; background-color:#FFFFCC }
+      th.style43 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:2px solid #000000 !important; border-left:2px solid #000000 !important; border-right:2px solid #000000 !important; font-weight:bold; color:#000000; font-family:'宋体'; font-size:14pt; background-color:#FFFFCC }
+      td.style44 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:2px solid #000000 !important; border-top:none #000000; border-left:2px solid #000000 !important; border-right:2px solid #000000 !important; font-weight:bold; color:#000000; font-family:'宋体'; font-size:14pt; background-color:#FFFFCC }
+      th.style44 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:2px solid #000000 !important; border-top:none #000000; border-left:2px solid #000000 !important; border-right:2px solid #000000 !important; font-weight:bold; color:#000000; font-family:'宋体'; font-size:14pt; background-color:#FFFFCC }
+      td.style45 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'宋体'; font-size:14pt; background-color:white }
+      th.style45 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'宋体'; font-size:14pt; background-color:white }
+      td.style46 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:2px solid #000000 !important; border-top:2px solid #000000 !important; border-left:1px solid #000000 !important; border-right:2px solid #000000 !important; font-weight:bold; color:#000000; font-family:'宋体'; font-size:14pt; background-color:white }
+      th.style46 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:2px solid #000000 !important; border-top:2px solid #000000 !important; border-left:1px solid #000000 !important; border-right:2px solid #000000 !important; font-weight:bold; color:#000000; font-family:'宋体'; font-size:14pt; background-color:white }
+      td.style47 { vertical-align:bottom; text-align:center; border-bottom:none #000000; border-top:2px solid #000000 !important; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Calibri (Body)'; font-size:14pt; background-color:#EE822F }
+      th.style47 { vertical-align:bottom; text-align:center; border-bottom:none #000000; border-top:2px solid #000000 !important; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Calibri (Body)'; font-size:14pt; background-color:#EE822F }
+      table.sheet0 col.col0 { width:63.71111038pt }
+      table.sheet0 col.col1 { width:136.23333177pt }
+      table.sheet0 col.col2 { width:125.38888745pt }
+      table.sheet0 col.col3 { width:73.19999916pt }
+      table.sheet0 col.col4 { width:46.76666613pt }
+      table.sheet0 col.col5 { width:53.54444383pt }
+      table.sheet0 col.col6 { width:83.36666571pt }
+      table.sheet0 col.col7 { width:54.2222216pt }
+      table.sheet0 col.col8 { width:83.36666571pt }
+      table.sheet0 col.col9 { width:58.96666599pt }
+      table.sheet0 tr { height:15pt }
+      table.sheet0 tr.row0 { height:21.15pt }
+      table.sheet0 tr.row1 { height:20.4pt }
+      table.sheet0 tr.row2 { height:21.15pt }
+      table.sheet0 tr.row3 { height:20.4pt }
+      table.sheet0 tr.row4 { height:20.4pt }
+      table.sheet0 tr.row5 { height:20.4pt }
+      table.sheet0 tr.row6 { height:20.4pt }
+      table.sheet0 tr.row7 { height:20.4pt }
+      table.sheet0 tr.row8 { height:20.4pt }
+      table.sheet0 tr.row9 { height:20.4pt }
+      table.sheet0 tr.row10 { height:20.4pt }
+      table.sheet0 tr.row11 { height:20.4pt }
+      table.sheet0 tr.row12 { height:20.4pt }
+      table.sheet0 tr.row13 { height:20.4pt }
+      table.sheet0 tr.row14 { height:20.4pt }
+      table.sheet0 tr.row15 { height:20.4pt }
+      table.sheet0 tr.row16 { height:20.4pt }
+      table.sheet0 tr.row17 { height:20.4pt }
+      table.sheet0 tr.row18 { height:20.4pt }
+      table.sheet0 tr.row19 { height:20.4pt }
+      table.sheet0 tr.row20 { height:20.4pt }
+      table.sheet0 tr.row21 { height:20.4pt }
+      table.sheet0 tr.row22 { height:20.4pt }
+      table.sheet0 tr.row23 { height:20.4pt }
+      table.sheet0 tr.row24 { height:20.4pt }
+      table.sheet0 tr.row25 { height:20.4pt }
+      table.sheet0 tr.row26 { height:20.4pt }
+      table.sheet0 tr.row27 { height:20.4pt }
+      table.sheet0 tr.row28 { height:20.4pt }
+      table.sheet0 tr.row29 { height:20.4pt }
+      table.sheet0 tr.row30 { height:20.4pt }
+      table.sheet0 tr.row31 { height:20.4pt }
+      table.sheet0 tr.row32 { height:20.4pt }
+      table.sheet0 tr.row33 { height:20.4pt }
+      table.sheet0 tr.row34 { height:20.4pt }
+      table.sheet0 tr.row35 { height:20.4pt }
+      table.sheet0 tr.row36 { height:20.4pt }
+      table.sheet0 tr.row37 { height:20.4pt }
+      table.sheet0 tr.row38 { height:20.4pt }
+      table.sheet0 tr.row39 { height:20.4pt }
+      table.sheet0 tr.row40 { height:20.4pt }
+      table.sheet0 tr.row41 { height:20.4pt }
+      table.sheet0 tr.row42 { height:20.4pt }
+      table.sheet0 tr.row43 { height:20.4pt }
+      table.sheet0 tr.row44 { height:20.4pt }
+      table.sheet0 tr.row45 { height:20.4pt }
+      table.sheet0 tr.row46 { height:20.4pt }
+      table.sheet0 tr.row47 { height:20.4pt }
+      table.sheet0 tr.row48 { height:20.4pt }
+      table.sheet0 tr.row49 { height:20.4pt }
+      table.sheet0 tr.row50 { height:20.4pt }
+      table.sheet0 tr.row51 { height:20.4pt }
+      table.sheet0 tr.row52 { height:20.4pt }
+      table.sheet0 tr.row53 { height:20.4pt }
+      table.sheet0 tr.row54 { height:20.4pt }
+      table.sheet0 tr.row55 { height:20.4pt }
+      table.sheet0 tr.row56 { height:20.4pt }
+      table.sheet0 tr.row57 { height:20.4pt }
+      table.sheet0 tr.row58 { height:20.4pt }
+      table.sheet0 tr.row59 { height:21.15pt }
+      table.sheet0 tr.row60 { height:21.15pt }
+      table.sheet0 tr.row61 { height:20.4pt }
+      table.sheet0 tr.row62 { height:20.4pt }
+      table.sheet0 tr.row63 { height:20.4pt }
+      table.sheet0 tr.row64 { height:20.4pt }
+    </style>
+  </head>
+
+  <body>
+<style>
+@page { margin-left: 0.75in; margin-right: 0.75in; margin-top: 1in; margin-bottom: 1in; }
+body { margin-left: 0.75in; margin-right: 0.75in; margin-top: 1in; margin-bottom: 1in; }
+</style>
+    <table border="0" cellpadding="0" cellspacing="0" id="sheet0" class="sheet0 gridlines">
+        <col class="col0">
+        <col class="col1">
+        <col class="col2">
+        <col class="col3">
+        <col class="col4">
+        <col class="col5">
+        <col class="col6">
+        <col class="col7">
+        <col class="col8">
+        <col class="col9">
+        <tbody>
+          <tr class="row0">
+            <td class="column0 style2 s">NOW Magazine</td>
+            <td class="column1 style3 null"></td>
+            <td class="column2 style4 n">24-Jul-14</td>
+            <td class="column3 style5 null"></td>
+            <td class="column4 style5 s">Col</td>
+            <td class="column5 style5 s">Height</td>
+            <td class="column6 style47 s">2/5 Page</td>
+            <td class="column7 style27 s">Cost:</td>
+            <td class="column8 style42 n">&nbsp;$ 1,720.00 </td>
+            <td class="column9">&nbsp;</td>
+          </tr>
+          <tr class="row1">
+            <td class="column0 style6 s">Job #</td>
+            <td class="column1 style6 s">Artist</td>
+            <td class="column2 style7 s">Venue</td>
+            <td class="column3 style7 s">Date</td>
+            <td class="column4 style28 f">242.3</td>
+            <td class="column5 style28 f">534.5</td>
+            <td class="column6 style28 f">2,473.5</td>
+            <td class="column7 style29 s">Share</td>
+            <td class="column8 style43 s">Cost</td>
+            <td class="column9">&nbsp;</td>
+          </tr>
+          <tr class="row2">
+            <td class="column0 style8 null"></td>
+            <td class="column1 style8 null"></td>
+            <td class="column2 style9 null"></td>
+            <td class="column3 style9 null"></td>
+            <td class="column4 style30 s">col</td>
+            <td class="column5 style30 s">mm</td>
+            <td class="column6 style30 null"></td>
+            <td class="column7 style31 null"></td>
+            <td class="column8 style44 null"></td>
+            <td class="column9">&nbsp;</td>
+          </tr>
+          <tr class="row3">
+            <td class="column0 style10 s">EM2058</td>
+            <td class="column1 style11 s">Corona Sunsets</td>
+            <td class="column2 style12 s">Centre Island</td>
+            <td class="column3 style13 n">16-Aug-14</td>
+            <td class="column4 style32 n">8.5</td>
+            <td class="column5 style32 n">87.5</td>
+            <td class="column6 style33 f">743.8</td>
+            <td class="column7 style34 f">30.1%</td>
+            <td class="column8 style45 f">&nbsp;$ 517.18 </td>
+            <td class="column9">&nbsp;</td>
+          </tr>
+          <tr class="row4">
+            <td class="column0 style14 s">WI2253</td>
+            <td class="column1 style11 s">Fool's Gold Day Off</td>
+            <td class="column2 style15 s">Sherbourne Common</td>
+            <td class="column3 style16 n">6-Sep-14</td>
+            <td class="column4 style35 n">2.5</td>
+            <td class="column5 style35 n">40.0</td>
+            <td class="column6 style33 f">100.0</td>
+            <td class="column7 style34 f">4.0%</td>
+            <td class="column8 style45 f">&nbsp;$ 69.54 </td>
+            <td class="column9">&nbsp;</td>
+          </tr>
+          <tr class="row5">
+            <td class="column0 style14 s">LA2035</td>
+            <td class="column1 style11 s">Ditybird BBQ</td>
+            <td class="column2 style15 s">Sherbourne Common</td>
+            <td class="column3 style16 n">7-Sep-14</td>
+            <td class="column4 style35 n">2.5</td>
+            <td class="column5 style35 n">40.0</td>
+            <td class="column6 style33 f">100.0</td>
+            <td class="column7 style34 f">4.0%</td>
+            <td class="column8 style45 f">&nbsp;$ 69.54 </td>
+            <td class="column9">&nbsp;</td>
+          </tr>
+          <tr class="row6">
+            <td class="column0 style10 s">WI2256</td>
+            <td class="column1 style11 s">Flying Lotus</td>
+            <td class="column2 style12 s">The Danforth</td>
+            <td class="column3 style13 n">21-Oct-14</td>
+            <td class="column4 style32 n">3.5</td>
+            <td class="column5 style32 n">40.0</td>
+            <td class="column6 style33 f">140.0</td>
+            <td class="column7 style34 f">5.7%</td>
+            <td class="column8 style45 f">&nbsp;$ 97.35 </td>
+            <td class="column9">&nbsp;</td>
+          </tr>
+          <tr class="row7">
+            <td class="column0 style17 s">WI2242</td>
+            <td class="column1 style18 s">Wave Racer</td>
+            <td class="column2 style19 s">Studio Bar</td>
+            <td class="column3 style20 n">9-Aug-14</td>
+            <td class="column4 style36 n">4.25</td>
+            <td class="column5 style32 n">4.0</td>
+            <td class="column6 style33 f">17.0</td>
+            <td class="column7 style34 f">0.7%</td>
+            <td class="column8 style45 f">&nbsp;$ 11.82 </td>
+            <td class="column9">&nbsp;</td>
+          </tr>
+          <tr class="row8">
+            <td class="column0 style17 s">MD2006</td>
+            <td class="column1 style18 s">Mad Decent Block Party</td>
+            <td class="column2 style19 s">Fort York</td>
+            <td class="column3 style20 n">15-Aug-14</td>
+            <td class="column4 style36 n">4.25</td>
+            <td class="column5 style33 n">7.0</td>
+            <td class="column6 style33 f">29.8</td>
+            <td class="column7 style34 f">1.2%</td>
+            <td class="column8 style45 f">&nbsp;$ 20.69 </td>
+            <td class="column9">&nbsp;</td>
+          </tr>
+          <tr class="row9">
+            <td class="column0 style17 s">WI2250</td>
+            <td class="column1 style18 s">Mr. Scruff</td>
+            <td class="column2 style19 s">Wrongbar</td>
+            <td class="column3 style20 n">20-Aug-14</td>
+            <td class="column4 style36 n">4.25</td>
+            <td class="column5 style37 n">5.0</td>
+            <td class="column6 style33 f">21.3</td>
+            <td class="column7 style34 f">0.9%</td>
+            <td class="column8 style45 f">&nbsp;$ 14.78 </td>
+            <td class="column9">&nbsp;</td>
+          </tr>
+          <tr class="row10">
+            <td class="column0 style17 s">PR2023</td>
+            <td class="column1 style18 s">Swear &amp; Shake</td>
+            <td class="column2 style19 s">The Drake</td>
+            <td class="column3 style20 n">22-Aug-14</td>
+            <td class="column4 style36 n">4.25</td>
+            <td class="column5 style37 n">4.0</td>
+            <td class="column6 style33 f">17.0</td>
+            <td class="column7 style34 f">0.7%</td>
+            <td class="column8 style45 f">&nbsp;$ 11.82 </td>
+            <td class="column9">&nbsp;</td>
+          </tr>
+          <tr class="row11">
+            <td class="column0 style17 s">AM2214</td>
+            <td class="column1 style18 s">Waterfront Beach Festival</td>
+            <td class="column2 style19 s">HTO Park</td>
+            <td class="column3 style20 n">23-Aug-14</td>
+            <td class="column4 style36 n">4.25</td>
+            <td class="column5 style37 n">6.0</td>
+            <td class="column6 style33 f">25.5</td>
+            <td class="column7 style34 f">1.0%</td>
+            <td class="column8 style45 f">&nbsp;$ 17.73 </td>
+            <td class="column9">&nbsp;</td>
+          </tr>
+          <tr class="row12">
+            <td class="column0 style14 s">CA2041</td>
+            <td class="column1 style11 s">The Chainsmokers</td>
+            <td class="column2 style15 s">The Hoxton</td>
+            <td class="column3 style16 n">12-Sep-14</td>
+            <td class="column4 style36 n">4.25</td>
+            <td class="column5 style35 n">4.0</td>
+            <td class="column6 style33 f">17.0</td>
+            <td class="column7 style34 f">0.7%</td>
+            <td class="column8 style45 f">&nbsp;$ 11.82 </td>
+            <td class="column9">&nbsp;</td>
+          </tr>
+          <tr class="row13">
+            <td class="column0 style17 s">PR2024</td>
+            <td class="column1 style18 s">moe.</td>
+            <td class="column2 style19 s">The Mod Club</td>
+            <td class="column3 style20 n">16-Sep-14</td>
+            <td class="column4 style36 n">4.25</td>
+            <td class="column5 style37 n">4.0</td>
+            <td class="column6 style33 f">17.0</td>
+            <td class="column7 style34 f">0.7%</td>
+            <td class="column8 style45 f">&nbsp;$ 11.82 </td>
+            <td class="column9">&nbsp;</td>
+          </tr>
+          <tr class="row14">
+            <td class="column0 style14 s">AP2023</td>
+            <td class="column1 style11 s">GBH</td>
+            <td class="column2 style15 s">Hard Luck Bar</td>
+            <td class="column3 style16 n">22-Sep-14</td>
+            <td class="column4 style36 n">4.25</td>
+            <td class="column5 style35 n">4.0</td>
+            <td class="column6 style33 f">17.0</td>
+            <td class="column7 style34 f">0.7%</td>
+            <td class="column8 style45 f">&nbsp;$ 11.82 </td>
+            <td class="column9">&nbsp;</td>
+          </tr>
+          <tr class="row15">
+            <td class="column0 style17 s">HR2008</td>
+            <td class="column1 style18 s">Woman's Hour</td>
+            <td class="column2 style19 s">The Drake</td>
+            <td class="column3 style20 n">6-Oct-14</td>
+            <td class="column4 style36 n">4.25</td>
+            <td class="column5 style32 n">4.0</td>
+            <td class="column6 style33 f">17.0</td>
+            <td class="column7 style34 f">0.7%</td>
+            <td class="column8 style45 f">&nbsp;$ 11.82 </td>
+            <td class="column9">&nbsp;</td>
+          </tr>
+          <tr class="row16">
+            <td class="column0 style17 s">AM2215</td>
+            <td class="column1 style21 s">Tokimonsta</td>
+            <td class="column2 style19 s">The Drake</td>
+            <td class="column3 style20 n">9-Oct-14</td>
+            <td class="column4 style36 n">4.25</td>
+            <td class="column5 style32 n">4.0</td>
+            <td class="column6 style33 f">17.0</td>
+            <td class="column7 style34 f">0.7%</td>
+            <td class="column8 style45 f">&nbsp;$ 11.82 </td>
+            <td class="column9">&nbsp;</td>
+          </tr>
+          <tr class="row17">
+            <td class="column0 style17 s">WM2067</td>
+            <td class="column1 style21 s">The Orwells</td>
+            <td class="column2 style19 s">The Mod Club</td>
+            <td class="column3 style20 n">11-Oct-14</td>
+            <td class="column4 style36 n">4.25</td>
+            <td class="column5 style32 n">4.0</td>
+            <td class="column6 style33 f">17.0</td>
+            <td class="column7 style34 f">0.7%</td>
+            <td class="column8 style45 f">&nbsp;$ 11.82 </td>
+            <td class="column9">&nbsp;</td>
+          </tr>
+          <tr class="row18">
+            <td class="column0 style10 s">AG2064</td>
+            <td class="column1 style11 s">Boy &amp; Bear</td>
+            <td class="column2 style12 s">Queen Elizabeth Theatre</td>
+            <td class="column3 style13 n">18-Oct-14</td>
+            <td class="column4 style36 n">4.25</td>
+            <td class="column5 style32 n">4.0</td>
+            <td class="column6 style33 f">17.0</td>
+            <td class="column7 style34 f">0.7%</td>
+            <td class="column8 style45 f">&nbsp;$ 11.82 </td>
+            <td class="column9">&nbsp;</td>
+          </tr>
+          <tr class="row19">
+            <td class="column0 style17 s">WI2243</td>
+            <td class="column1 style21 s">Fat White Family</td>
+            <td class="column2 style19 s">Hard Luck Bar</td>
+            <td class="column3 style20 n">22-Oct-14</td>
+            <td class="column4 style36 n">4.25</td>
+            <td class="column5 style32 n">4.0</td>
+            <td class="column6 style33 f">17.0</td>
+            <td class="column7 style34 f">0.7%</td>
+            <td class="column8 style45 f">&nbsp;$ 11.82 </td>
+            <td class="column9">&nbsp;</td>
+          </tr>
+          <tr class="row20">
+            <td class="column0 style14 s">WM2070</td>
+            <td class="column1 style11 s">Lewis Watson</td>
+            <td class="column2 style15 s">The Mod Club</td>
+            <td class="column3 style16 n">26-Oct-14</td>
+            <td class="column4 style36 n">4.25</td>
+            <td class="column5 style35 n">4.0</td>
+            <td class="column6 style33 f">17.0</td>
+            <td class="column7 style34 f">0.7%</td>
+            <td class="column8 style45 f">&nbsp;$ 11.82 </td>
+            <td class="column9">&nbsp;</td>
+          </tr>
+          <tr class="row21">
+            <td class="column0 style10 s">PR2025</td>
+            <td class="column1 style11 s">Twin Peaks</td>
+            <td class="column2 style12 s">Hard Luck Bar</td>
+            <td class="column3 style13 n">28-Oct-14</td>
+            <td class="column4 style36 n">4.25</td>
+            <td class="column5 style32 n">4.0</td>
+            <td class="column6 style33 f">17.0</td>
+            <td class="column7 style34 f">0.7%</td>
+            <td class="column8 style45 f">&nbsp;$ 11.82 </td>
+            <td class="column9">&nbsp;</td>
+          </tr>
+          <tr class="row22">
+            <td class="column0 style14 s">WI2234</td>
+            <td class="column1 style11 s">&nbsp;</td>
+            <td class="column2 style15 s">The Danforth</td>
+            <td class="column3 style16 n">30-Jul-14</td>
+            <td class="column4 style36 n">4.25</td>
+            <td class="column5 style35 n">4.0</td>
+            <td class="column6 style33 f">17.0</td>
+            <td class="column7 style34 f">0.7%</td>
+            <td class="column8 style45 f">&nbsp;$ 11.82 </td>
+            <td class="column9">&nbsp;</td>
+          </tr>
+          <tr class="row23">
+            <td class="column0 style14 s">SE2011</td>
+            <td class="column1 style11 s">Cam'ron</td>
+            <td class="column2 style15 s">The Danforth</td>
+            <td class="column3 style16 n">16-Aug-14</td>
+            <td class="column4 style36 n">4.25</td>
+            <td class="column5 style35 n">4.0</td>
+            <td class="column6 style33 f">17.0</td>
+            <td class="column7 style34 f">0.7%</td>
+            <td class="column8 style45 f">&nbsp;$ 11.82 </td>
+            <td class="column9">&nbsp;</td>
+          </tr>
+          <tr class="row24">
+            <td class="column0 style10 s">WI2237</td>
+            <td class="column1 style11 s">Chet Faker</td>
+            <td class="column2 style12 s">The Danforth</td>
+            <td class="column3 style13 n">13-Sep-14</td>
+            <td class="column4 style36 n">4.25</td>
+            <td class="column5 style32 n">4.0</td>
+            <td class="column6 style33 f">17.0</td>
+            <td class="column7 style34 f">0.7%</td>
+            <td class="column8 style45 f">&nbsp;$ 11.82 </td>
+            <td class="column9">&nbsp;</td>
+          </tr>
+          <tr class="row25">
+            <td class="column0 style10 s">PR2020</td>
+            <td class="column1 style11 s">Clean Bandit</td>
+            <td class="column2 style12 s">The Danforth</td>
+            <td class="column3 style13 n">15-Sep-14</td>
+            <td class="column4 style36 n">4.25</td>
+            <td class="column5 style32 n">4.0</td>
+            <td class="column6 style33 f">17.0</td>
+            <td class="column7 style34 f">0.7%</td>
+            <td class="column8 style45 f">&nbsp;$ 11.82 </td>
+            <td class="column9">&nbsp;</td>
+          </tr>
+          <tr class="row26">
+            <td class="column0 style10 s">PB2015</td>
+            <td class="column1 style11 s">Ty Segall</td>
+            <td class="column2 style12 s">The Danforth</td>
+            <td class="column3 style13 n">21-Sep-14</td>
+            <td class="column4 style36 n">4.25</td>
+            <td class="column5 style32 n">4.0</td>
+            <td class="column6 style33 f">17.0</td>
+            <td class="column7 style34 f">0.7%</td>
+            <td class="column8 style45 f">&nbsp;$ 11.82 </td>
+            <td class="column9">&nbsp;</td>
+          </tr>
+          <tr class="row27">
+            <td class="column0 style10 s">AG2065</td>
+            <td class="column1 style11 s">Constantines</td>
+            <td class="column2 style12 s">The Danforth</td>
+            <td class="column3 style13 n">2-Oct-14</td>
+            <td class="column4 style36 n">4.25</td>
+            <td class="column5 style32 n">6.0</td>
+            <td class="column6 style33 f">25.5</td>
+            <td class="column7 style34 f">1.0%</td>
+            <td class="column8 style45 f">&nbsp;$ 17.73 </td>
+            <td class="column9">&nbsp;</td>
+          </tr>
+          <tr class="row28">
+            <td class="column0 style10 s">AG2066</td>
+            <td class="column1 style11 s">54-40 &amp; Grapes of Wrath</td>
+            <td class="column2 style12 s">The Danforth</td>
+            <td class="column3 style13 n">4-Oct-14</td>
+            <td class="column4 style36 n">4.25</td>
+            <td class="column5 style32 n">4.0</td>
+            <td class="column6 style33 f">17.0</td>
+            <td class="column7 style34 f">0.7%</td>
+            <td class="column8 style45 f">&nbsp;$ 11.82 </td>
+            <td class="column9">&nbsp;</td>
+          </tr>
+          <tr class="row29">
+            <td class="column0 style10 s">AG2063</td>
+            <td class="column1 style11 s">Airbourne</td>
+            <td class="column2 style12 s">The Danforth</td>
+            <td class="column3 style13 n">9-Oct-14</td>
+            <td class="column4 style36 n">4.25</td>
+            <td class="column5 style32 n">4.0</td>
+            <td class="column6 style33 f">17.0</td>
+            <td class="column7 style34 f">0.7%</td>
+            <td class="column8 style45 f">&nbsp;$ 11.82 </td>
+            <td class="column9">&nbsp;</td>
+          </tr>
+          <tr class="row30">
+            <td class="column0 style10 s">WI2246</td>
+            <td class="column1 style11 s">Trust</td>
+            <td class="column2 style12 s">The Danforth</td>
+            <td class="column3 style13 n">10-Oct-14</td>
+            <td class="column4 style36 n">4.25</td>
+            <td class="column5 style32 n">4.0</td>
+            <td class="column6 style33 f">17.0</td>
+            <td class="column7 style34 f">0.7%</td>
+            <td class="column8 style45 f">&nbsp;$ 11.82 </td>
+            <td class="column9">&nbsp;</td>
+          </tr>
+          <tr class="row31">
+            <td class="column0 style10 s">FM2008</td>
+            <td class="column1 style11 s">Big Wreck</td>
+            <td class="column2 style12 s">The Danforth</td>
+            <td class="column3 style13 n">16-Oct-14</td>
+            <td class="column4 style36 n">4.25</td>
+            <td class="column5 style32 n">3.0</td>
+            <td class="column6 style33 f">12.8</td>
+            <td class="column7 style34 f">0.5%</td>
+            <td class="column8 style45 f">&nbsp;$ 8.87 </td>
+            <td class="column9">&nbsp;</td>
+          </tr>
+          <tr class="row32">
+            <td class="column0 style10 s">FM2010</td>
+            <td class="column1 style11 s">Big Wreck</td>
+            <td class="column2 style12 s">The Danforth</td>
+            <td class="column3 style13 n">17-Oct-14</td>
+            <td class="column4 style36 n">4.25</td>
+            <td class="column5 style32 n">3.0</td>
+            <td class="column6 style33 f">12.8</td>
+            <td class="column7 style34 f">0.5%</td>
+            <td class="column8 style45 f">&nbsp;$ 8.87 </td>
+            <td class="column9">&nbsp;</td>
+          </tr>
+          <tr class="row33">
+            <td class="column0 style10 s">PB2016</td>
+            <td class="column1 style11 s">Mac Demarco</td>
+            <td class="column2 style12 s">The Danforth</td>
+            <td class="column3 style13 n">6-Nov-14</td>
+            <td class="column4 style36 n">4.25</td>
+            <td class="column5 style32 n">4.0</td>
+            <td class="column6 style33 f">17.0</td>
+            <td class="column7 style34 f">0.7%</td>
+            <td class="column8 style45 f">&nbsp;$ 11.82 </td>
+            <td class="column9">&nbsp;</td>
+          </tr>
+          <tr class="row34">
+            <td class="column0 style10 s">AG2055</td>
+            <td class="column1 style11 s">A Tribe Called Red</td>
+            <td class="column2 style12 s">The Danforth</td>
+            <td class="column3 style13 n">7-Nov-14</td>
+            <td class="column4 style36 n">4.25</td>
+            <td class="column5 style32 n">4.0</td>
+            <td class="column6 style33 f">17.0</td>
+            <td class="column7 style34 f">0.7%</td>
+            <td class="column8 style45 f">&nbsp;$ 11.82 </td>
+            <td class="column9">&nbsp;</td>
+          </tr>
+          <tr class="row35">
+            <td class="column0 style10 s">WI2217</td>
+            <td class="column1 style11 s">Peter Hook &amp; The Light</td>
+            <td class="column2 style12 s">The Danforth</td>
+            <td class="column3 style13 n">11-Nov-14</td>
+            <td class="column4 style36 n">4.25</td>
+            <td class="column5 style32 n">4.0</td>
+            <td class="column6 style33 f">17.0</td>
+            <td class="column7 style34 f">0.7%</td>
+            <td class="column8 style45 f">&nbsp;$ 11.82 </td>
+            <td class="column9">&nbsp;</td>
+          </tr>
+          <tr class="row36">
+            <td class="column0 style14 s">WI2249</td>
+            <td class="column1 style11 s">London Grammar</td>
+            <td class="column2 style15 s">The Danforth</td>
+            <td class="column3 style16 n">19-Nov-14</td>
+            <td class="column4 style36 n">4.25</td>
+            <td class="column5 style35 n">4.0</td>
+            <td class="column6 style33 f">17.0</td>
+            <td class="column7 style34 f">0.7%</td>
+            <td class="column8 style45 f">&nbsp;$ 11.82 </td>
+            <td class="column9">&nbsp;</td>
+          </tr>
+          <tr class="row37">
+            <td class="column0 style10 s">AG2068</td>
+            <td class="column1 style11 s">Buck 65</td>
+            <td class="column2 style12 s">The Danforth</td>
+            <td class="column3 style13 n">21-Nov-14</td>
+            <td class="column4 style36 n">4.25</td>
+            <td class="column5 style32 n">4.0</td>
+            <td class="column6 style33 f">17.0</td>
+            <td class="column7 style34 f">0.7%</td>
+            <td class="column8 style45 f">&nbsp;$ 11.82 </td>
+            <td class="column9">&nbsp;</td>
+          </tr>
+          <tr class="row38">
+            <td class="column0 style10 s">AM2194</td>
+            <td class="column1 style11 s">Hudson Mohawke</td>
+            <td class="column2 style12 s">The Hoxton</td>
+            <td class="column3 style13 n">25-Jul-14</td>
+            <td class="column4 style36 n">4.25</td>
+            <td class="column5 style32 n">4.0</td>
+            <td class="column6 style33 f">17.0</td>
+            <td class="column7 style34 f">0.7%</td>
+            <td class="column8 style45 f">&nbsp;$ 11.82 </td>
+            <td class="column9">&nbsp;</td>
+          </tr>
+          <tr class="row39">
+            <td class="column0 style10 s">AM2204</td>
+            <td class="column1 style11 s">Mercer</td>
+            <td class="column2 style12 s">The Hoxton</td>
+            <td class="column3 style13 n">26-Jul-14</td>
+            <td class="column4 style36 n">4.25</td>
+            <td class="column5 style32 n">4.0</td>
+            <td class="column6 style33 f">17.0</td>
+            <td class="column7 style34 f">0.7%</td>
+            <td class="column8 style45 f">&nbsp;$ 11.82 </td>
+            <td class="column9">&nbsp;</td>
+          </tr>
+          <tr class="row40">
+            <td class="column0 style10 s">AM2205</td>
+            <td class="column1 style11 s">Gesaffelstein</td>
+            <td class="column2 style12 s">The Hoxton</td>
+            <td class="column3 style13 n">1-Aug-14</td>
+            <td class="column4 style36 n">4.25</td>
+            <td class="column5 style32 n">4.0</td>
+            <td class="column6 style33 f">17.0</td>
+            <td class="column7 style34 f">0.7%</td>
+            <td class="column8 style45 f">&nbsp;$ 11.82 </td>
+            <td class="column9">&nbsp;</td>
+          </tr>
+          <tr class="row41">
+            <td class="column0 style10 s">WI2232</td>
+            <td class="column1 style11 s">Jagwar Ma</td>
+            <td class="column2 style12 s">The Hoxton</td>
+            <td class="column3 style13 n">2-Aug-14</td>
+            <td class="column4 style36 n">4.25</td>
+            <td class="column5 style32 n">4.0</td>
+            <td class="column6 style33 f">17.0</td>
+            <td class="column7 style34 f">0.7%</td>
+            <td class="column8 style45 f">&nbsp;$ 11.82 </td>
+            <td class="column9">&nbsp;</td>
+          </tr>
+          <tr class="row42">
+            <td class="column0 style10 s">AM2216</td>
+            <td class="column1 style11 s">Samo Soundboy</td>
+            <td class="column2 style12 s">The Hoxton</td>
+            <td class="column3 style13 s">8-Aug-14]</td>
+            <td class="column4 style36 n">4.25</td>
+            <td class="column5 style32 n">4.0</td>
+            <td class="column6 style33 f">17.0</td>
+            <td class="column7 style34 f">0.7%</td>
+            <td class="column8 style45 f">&nbsp;$ 11.82 </td>
+            <td class="column9">&nbsp;</td>
+          </tr>
+          <tr class="row43">
+            <td class="column0 style10 s">PR2021</td>
+            <td class="column1 style11 s">Dizzy Wright</td>
+            <td class="column2 style12 s">The Hoxton</td>
+            <td class="column3 style13 n">10-Aug-14</td>
+            <td class="column4 style36 n">4.25</td>
+            <td class="column5 style32 n">4.0</td>
+            <td class="column6 style33 f">17.0</td>
+            <td class="column7 style34 f">0.7%</td>
+            <td class="column8 style45 f">&nbsp;$ 11.82 </td>
+            <td class="column9">&nbsp;</td>
+          </tr>
+          <tr class="row44">
+            <td class="column0 style10 s">AM2217</td>
+            <td class="column1 style11 s">Bassjackers</td>
+            <td class="column2 style12 s">The Hoxton</td>
+            <td class="column3 style13 n">14-Aug-14</td>
+            <td class="column4 style36 n">4.25</td>
+            <td class="column5 style32 n">4.0</td>
+            <td class="column6 style33 f">17.0</td>
+            <td class="column7 style34 f">0.7%</td>
+            <td class="column8 style45 f">&nbsp;$ 11.82 </td>
+            <td class="column9">&nbsp;</td>
+          </tr>
+          <tr class="row45">
+            <td class="column0 style10 s">WI2238</td>
+            <td class="column1 style11 s">Kill Paris</td>
+            <td class="column2 style12 s">The Hoxton</td>
+            <td class="column3 style13 n">22-Aug-14</td>
+            <td class="column4 style36 n">4.25</td>
+            <td class="column5 style32 n">4.0</td>
+            <td class="column6 style33 f">17.0</td>
+            <td class="column7 style34 f">0.7%</td>
+            <td class="column8 style45 f">&nbsp;$ 11.82 </td>
+            <td class="column9">&nbsp;</td>
+          </tr>
+          <tr class="row46">
+            <td class="column0 style22 s">WI2244</td>
+            <td class="column1 style11 s">Mount Kimbie</td>
+            <td class="column2 style12 s">The Hoxton</td>
+            <td class="column3 style13 n">29-Aug-14</td>
+            <td class="column4 style36 n">4.25</td>
+            <td class="column5 style32 n">4.0</td>
+            <td class="column6 style33 f">17.0</td>
+            <td class="column7 style34 f">0.7%</td>
+            <td class="column8 style45 f">&nbsp;$ 11.82 </td>
+            <td class="column9">&nbsp;</td>
+          </tr>
+          <tr class="row47">
+            <td class="column0 style22 s">AM2211</td>
+            <td class="column1 style11 s">Tchami</td>
+            <td class="column2 style12 s">The Hoxton</td>
+            <td class="column3 style13 n">5-Sep-14</td>
+            <td class="column4 style36 n">4.25</td>
+            <td class="column5 style32 n">4.0</td>
+            <td class="column6 style33 f">17.0</td>
+            <td class="column7 style34 f">0.7%</td>
+            <td class="column8 style45 f">&nbsp;$ 11.82 </td>
+            <td class="column9">&nbsp;</td>
+          </tr>
+          <tr class="row48">
+            <td class="column0 style22 s">WI2245</td>
+            <td class="column1 style11 s">Metronomy</td>
+            <td class="column2 style12 s">The Hoxton</td>
+            <td class="column3 style13 n">10-Sep-14</td>
+            <td class="column4 style36 n">4.25</td>
+            <td class="column5 style32 n">4.0</td>
+            <td class="column6 style33 f">17.0</td>
+            <td class="column7 style34 f">0.7%</td>
+            <td class="column8 style45 f">&nbsp;$ 11.82 </td>
+            <td class="column9">&nbsp;</td>
+          </tr>
+          <tr class="row49">
+            <td class="column0 style22 s">AP2022</td>
+            <td class="column1 style11 s">Vinai</td>
+            <td class="column2 style12 s">The Hoxton</td>
+            <td class="column3 style13 n">20-Sep-14</td>
+            <td class="column4 style36 n">4.25</td>
+            <td class="column5 style32 n">4.0</td>
+            <td class="column6 style33 f">17.0</td>
+            <td class="column7 style34 f">0.7%</td>
+            <td class="column8 style45 f">&nbsp;$ 11.82 </td>
+            <td class="column9">&nbsp;</td>
+          </tr>
+          <tr class="row50">
+            <td class="column0 style22 s">FM2009</td>
+            <td class="column1 style11 s">Hilltop Hoods</td>
+            <td class="column2 style12 s">The Hoxton</td>
+            <td class="column3 style13 n">25-Sep-14</td>
+            <td class="column4 style36 n">4.25</td>
+            <td class="column5 style32 n">4.0</td>
+            <td class="column6 style33 f">17.0</td>
+            <td class="column7 style34 f">0.7%</td>
+            <td class="column8 style45 f">&nbsp;$ 11.82 </td>
+            <td class="column9">&nbsp;</td>
+          </tr>
+          <tr class="row51">
+            <td class="column0 style22 s">WI2240</td>
+            <td class="column1 style11 s">Yacht</td>
+            <td class="column2 style12 s">The Hoxton</td>
+            <td class="column3 style13 n">26-Sep-14</td>
+            <td class="column4 style36 n">4.25</td>
+            <td class="column5 style32 n">4.0</td>
+            <td class="column6 style33 f">17.0</td>
+            <td class="column7 style34 f">0.7%</td>
+            <td class="column8 style45 f">&nbsp;$ 11.82 </td>
+            <td class="column9">&nbsp;</td>
+          </tr>
+          <tr class="row52">
+            <td class="column0 style10 s">WI2241</td>
+            <td class="column1 style11 s">MO</td>
+            <td class="column2 style12 s">The Hoxton</td>
+            <td class="column3 style13 n">28-Sep-14</td>
+            <td class="column4 style36 n">4.25</td>
+            <td class="column5 style32 n">4.0</td>
+            <td class="column6 style33 f">17.0</td>
+            <td class="column7 style34 f">0.7%</td>
+            <td class="column8 style45 f">&nbsp;$ 11.82 </td>
+            <td class="column9">&nbsp;</td>
+          </tr>
+          <tr class="row53">
+            <td class="column0 style22 s">WI2254</td>
+            <td class="column1 style11 s">Rusko</td>
+            <td class="column2 style12 s">The Hoxton</td>
+            <td class="column3 style13 n">3-Oct-14</td>
+            <td class="column4 style36 n">4.25</td>
+            <td class="column5 style32 n">4.0</td>
+            <td class="column6 style33 f">17.0</td>
+            <td class="column7 style34 f">0.7%</td>
+            <td class="column8 style45 f">&nbsp;$ 11.82 </td>
+            <td class="column9">&nbsp;</td>
+          </tr>
+          <tr class="row54">
+            <td class="column0 style22 s">PR2026</td>
+            <td class="column1 style11 s">Charli XCX</td>
+            <td class="column2 style12 s">The Hoxton</td>
+            <td class="column3 style13 n">10-Oct-14</td>
+            <td class="column4 style36 n">4.25</td>
+            <td class="column5 style32 n">4.0</td>
+            <td class="column6 style33 f">17.0</td>
+            <td class="column7 style34 f">0.7%</td>
+            <td class="column8 style45 f">&nbsp;$ 11.82 </td>
+            <td class="column9">&nbsp;</td>
+          </tr>
+          <tr class="row55">
+            <td class="column0 style22 s">WI2251</td>
+            <td class="column1 style11 s">RJD2</td>
+            <td class="column2 style12 s">The Hoxton</td>
+            <td class="column3 style13 n">14-Nov-14</td>
+            <td class="column4 style36 n">4.25</td>
+            <td class="column5 style32 n">4.0</td>
+            <td class="column6 style33 f">17.0</td>
+            <td class="column7 style34 f">0.7%</td>
+            <td class="column8 style45 f">&nbsp;$ 11.82 </td>
+            <td class="column9">&nbsp;</td>
+          </tr>
+          <tr class="row56">
+            <td class="column0 style14 s">EI2010</td>
+            <td class="column1 style11 s">Electric Island</td>
+            <td class="column2 style15 s">Centre Island</td>
+            <td class="column3 style16 n">4-Aug-14</td>
+            <td class="column4 style36 n">4.25</td>
+            <td class="column5 style35 n">107.0</td>
+            <td class="column6 style33 f">454.8</td>
+            <td class="column7 style34 f">18.4%</td>
+            <td class="column8 style45 f">&nbsp;$ 316.22 </td>
+            <td class="column9">&nbsp;</td>
+          </tr>
+          <tr class="row57">
+            <td class="column0 style22 s">SU2011</td>
+            <td class="column1 style11 s">New Kanada w/ Graze</td>
+            <td class="column2 style12 s">Coda</td>
+            <td class="column3 style13 n">26-Jul-14</td>
+            <td class="column4 style36 n">4.25</td>
+            <td class="column5 style32 n">8.0</td>
+            <td class="column6 style33 f">34.0</td>
+            <td class="column7 style34 f">1.4%</td>
+            <td class="column8 style45 f">&nbsp;$ 23.64 </td>
+            <td class="column9">&nbsp;</td>
+          </tr>
+          <tr class="row58">
+            <td class="column0 style22 s">BB2008</td>
+            <td class="column1 style11 s">Steve Lawler</td>
+            <td class="column2 style12 s">Coda</td>
+            <td class="column3 style13 n">22-Aug-14</td>
+            <td class="column4 style36 n">4.25</td>
+            <td class="column5 style32 n">4.0</td>
+            <td class="column6 style33 f">17.0</td>
+            <td class="column7 style34 f">0.7%</td>
+            <td class="column8 style45 f">&nbsp;$ 11.82 </td>
+            <td class="column9">&nbsp;</td>
+          </tr>
+          <tr class="row59">
+            <td class="column0 style22 s">WI2236</td>
+            <td class="column1 style11 s">Com Truise</td>
+            <td class="column2 style12 s">Coda</td>
+            <td class="column3 style13 n">18-Sep-14</td>
+            <td class="column4 style36 n">4.25</td>
+            <td class="column5 style32 n">6.0</td>
+            <td class="column6 style33 f">25.5</td>
+            <td class="column7 style34 f">1.0%</td>
+            <td class="column8 style45 f">&nbsp;$ 17.73 </td>
+            <td class="column9">&nbsp;</td>
+          </tr>
+          <tr class="row60">
+            <td class="column0 style23 null"></td>
+            <td class="column1 style24 null"></td>
+            <td class="column2 style25 null"></td>
+            <td class="column3 style26 null"></td>
+            <td class="column4 style26 null"></td>
+            <td class="column5 style26 null"></td>
+            <td class="column6 style38 s">TOTAL:</td>
+            <td class="column7 style39 f">100.00%</td>
+            <td class="column8 style46 f">&nbsp;$ 1,720.00 </td>
+            <td class="column9">&nbsp;</td>
+          </tr>
+          <tr class="row61">
+            <td class="column0">&nbsp;</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4 style40 null"></td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+            <td class="column9">&nbsp;</td>
+          </tr>
+          <tr class="row62">
+            <td class="column0">&nbsp;</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4 style41 null"></td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+            <td class="column9">&nbsp;</td>
+          </tr>
+          <tr class="row63">
+            <td class="column0">&nbsp;</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4 style41 null"></td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+            <td class="column9">&nbsp;</td>
+          </tr>
+          <tr class="row64">
+            <td class="column0">&nbsp;</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4 style41 null"></td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+            <td class="column9">&nbsp;</td>
+          </tr>
+        </tbody>
+    </table>
+  </body>
+</html>

@@ -1,0 +1,60 @@
+% Please add the following required packages to your document preamble:
+% \usepackage{multirow}
+\begin{table}[]
+\begin{tabular}{llllllllll}
+\multicolumn{10}{l}{Table 6. Distribution of full-time wage and salary workers, by usual weekly earnings and selected demographic characteristics, 2016 annual averages (in thousands)} \\
+\multicolumn{10}{l}{} \\
+\multirow{2}{*}{Characteristic} & \multirow{2}{*}{\begin{tabular}[c]{@{}l@{}}Total\\ employed\end{tabular}} & \multicolumn{8}{l}{Number of workers with usual weekly earnings of—} \\
+ &  & \begin{tabular}[c]{@{}l@{}}Under\\ \$350.00\end{tabular} & \begin{tabular}[c]{@{}l@{}}$350.00\\ to\\ $499.99\end{tabular} & \begin{tabular}[c]{@{}l@{}}$500.00\\ to\\ $599.99\end{tabular} & \begin{tabular}[c]{@{}l@{}}$600.00\\ to\\ $749.99\end{tabular} & \begin{tabular}[c]{@{}l@{}}$750.00\\ to\\ $999.99\end{tabular} & \begin{tabular}[c]{@{}l@{}}$1,000.00\\ to\\ $1,199.99\end{tabular} & \begin{tabular}[c]{@{}l@{}}$1,200.00\\ to\\ $1,999.99\end{tabular} & \begin{tabular}[c]{@{}l@{}}\$2,000.00\\ or\\ more\end{tabular} \\
+\multicolumn{10}{l}{} \\
+Age &  &  &  &  &  &  &  &  &  \\
+Total, 16 years and older & 111091 & 5903 & 16067 & 10429 & 15085 & 19018 & 11406 & 21707 & 11476 \\
+16 to 24 years & 10076 & 1553 & 3432 & 1581 & 1522 & 1059 & 447 & 400 & 81 \\
+16 to 19 years & 1289 & 377 & 544 & 141 & 114 & 70 & 23 & 17 & 4 \\
+20 to 24 years & 8786 & 1177 & 2888 & 1440 & 1408 & 990 & 424 & 383 & 78 \\
+25 years and older & 101015 & 4350 & 12635 & 8848 & 13564 & 17958 & 10959 & 21307 & 11395 \\
+25 to 34 years & 27456 & 1378 & 4501 & 3112 & 4375 & 5205 & 2840 & 4517 & 1528 \\
+35 to 44 years & 25284 & 1017 & 2921 & 1960 & 3170 & 4436 & 2839 & 5687 & 3254 \\
+45 to 54 years & 25652 & 968 & 2784 & 1994 & 3108 & 4467 & 2834 & 5933 & 3563 \\
+55 to 64 years & 18496 & 705 & 1906 & 1400 & 2417 & 3198 & 2052 & 4283 & 2535 \\
+65 years and older & 4128 & 281 & 523 & 383 & 494 & 652 & 394 & 887 & 514 \\
+ &  &  &  &  &  &  &  &  &  \\
+Men, 16 years and older & 61930 & 2581 & 7749 & 5232 & 7853 & 10253 & 6546 & 13545 & 8171 \\
+16 to 24 years & 5646 & 760 & 1859 & 908 & 888 & 608 & 275 & 287 & 60 \\
+16 to 19 years & 745 & 190 & 309 & 90 & 70 & 53 & 15 & 15 & 2 \\
+20 to 24 years & 4901 & 570 & 1550 & 818 & 819 & 554 & 260 & 272 & 58 \\
+25 years and older & 56284 & 1821 & 5890 & 4324 & 6965 & 9645 & 6270 & 13258 & 8111 \\
+25 to 34 years & 15484 & 644 & 2245 & 1656 & 2373 & 2969 & 1678 & 2841 & 1079 \\
+35 to 44 years & 14383 & 415 & 1381 & 1003 & 1704 & 2440 & 1614 & 3540 & 2287 \\
+45 to 54 years & 14097 & 373 & 1217 & 901 & 1537 & 2290 & 1587 & 3691 & 2501 \\
+55 to 64 years & 9992 & 258 & 810 & 581 & 1113 & 1585 & 1168 & 2616 & 1861 \\
+65 years and older & 2328 & 132 & 238 & 182 & 238 & 361 & 222 & 570 & 384 \\
+ &  &  &  &  &  &  &  &  &  \\
+\begin{tabular}[c]{@{}l@{}}Race and Hispanic or\\  Latino ethnicity\end{tabular} &  &  &  &  &  &  &  &  &  \\
+White & 86474 & 4186 & 11694 & 7841 & 11650 & 14905 & 9207 & 17659 & 9332 \\
+Women & 37163 & 2311 & 5949 & 3835 & 5478 & 6741 & 3828 & 6446 & 2575 \\
+Men & 49310 & 1875 & 5744 & 4006 & 6172 & 8164 & 5379 & 11213 & 6758 \\
+Black or African American & 13963 & 1144 & 2890 & 1622 & 2151 & 2543 & 1189 & 1732 & 691 \\
+Women & 7235 & 676 & 1605 & 887 & 1139 & 1268 & 600 & 767 & 294 \\
+Men & 6728 & 469 & 1285 & 736 & 1013 & 1275 & 589 & 966 & 397 \\
+Asian & 7030 & 294 & 810 & 532 & 741 & 986 & 707 & 1763 & 1197 \\
+Women & 3142 & 178 & 422 & 283 & 371 & 476 & 312 & 761 & 339 \\
+Men & 3888 & 116 & 389 & 249 & 370 & 510 & 394 & 1002 & 858 \\
+Hispanic or Latino ethnicity & 18950 & 1549 & 4522 & 2358 & 3137 & 2887 & 1428 & 2216 & 853 \\
+Women & 7284 & 800 & 1953 & 945 & 1126 & 1074 & 461 & 675 & 249 \\
+Men & 11666 & 749 & 2569 & 1413 & 2010 & 1812 & 967 & 1541 & 604 \\
+ &  &  &  &  &  &  &  &  &  \\
+Women, 16 years and older & 49161 & 3322 & 8317 & 5197 & 7232 & 8765 & 4861 & 8162 & 3305 \\
+16 to 24 years & 4430 & 793 & 1573 & 673 & 633 & 452 & 172 & 113 & 21 \\
+16 to 19 years & 545 & 187 & 235 & 50 & 44 & 16 & 8 & 2 & 2 \\
+20 to 24 years & 3885 & 606 & 1338 & 622 & 589 & 436 & 164 & 111 & 19 \\
+25 years and older & 44731 & 2528 & 6744 & 4524 & 6599 & 8313 & 4689 & 8049 & 3284 \\
+25 to 34 years & 11972 & 735 & 2256 & 1455 & 2002 & 2236 & 1161 & 1676 & 449 \\
+35 to 44 years & 10900 & 603 & 1540 & 956 & 1466 & 1996 & 1225 & 2147 & 967 \\
+45 to 54 years & 11555 & 595 & 1567 & 1093 & 1571 & 2177 & 1246 & 2242 & 1063 \\
+55 to 64 years & 8504 & 447 & 1097 & 819 & 1304 & 1613 & 884 & 1667 & 675 \\
+65 years and older & 1800 & 149 & 285 & 201 & 256 & 291 & 172 & 317 & 130 \\
+\multicolumn{10}{c}{} \\
+\multicolumn{10}{l}{\begin{tabular}[c]{@{}l@{}}Note: Estimates for the race groups shown (White, Black or African American, and Asian) do not sum to totals because data are not presented for all race groups. People of Hispanic or Latino ethnicity may be of any race; estimates for the race groups include Hispanics.\\ Source: U.S. Bureau of Labor Statistics.\end{tabular}}
+\end{tabular}
+\end{table}

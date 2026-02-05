@@ -1,0 +1,57 @@
+[
+  {
+    "Crop": null,
+    "% Yield 50th centile": "Removal of negative changes in crop yield",
+    "Unnamed: 2": "Inclusion of negative changes in crop yield "
+  },
+  {
+    "Crop": "All crops",
+    "% Yield 50th centile": "17",
+    "Unnamed: 2": "18.6"
+  },
+  {
+    "Crop": "Barley ",
+    "% Yield 50th centile": "13.7",
+    "Unnamed: 2": "14.5"
+  },
+  {
+    "Crop": "Canola",
+    "% Yield 50th centile": "46.3",
+    "Unnamed: 2": null
+  },
+  {
+    "Crop": "Corn",
+    "% Yield 50th centile": "32",
+    "Unnamed: 2": "26.5"
+  },
+  {
+    "Crop": "Oat",
+    "% Yield 50th centile": "NA*",
+    "Unnamed: 2": null
+  },
+  {
+    "Crop": "Soybean",
+    "% Yield 50th centile": "12",
+    "Unnamed: 2": "13.5"
+  },
+  {
+    "Crop": "Wheat ",
+    "% Yield 50th centile": "30.2",
+    "Unnamed: 2": "23.6"
+  },
+  {
+    "Crop": "Determined from R output of reviewed pesticide yield studies ",
+    "% Yield 50th centile": null,
+    "Unnamed: 2": null
+  },
+  {
+    "Crop": "NA* = Not applicable as a cumulative frequency distribution could not be constructed due to a lack of data",
+    "% Yield 50th centile": null,
+    "Unnamed: 2": null
+  },
+  {
+    "Crop": "NA = Not applicable as the studies for the given crop did not report negative changes in yield due to a pesticide treatment",
+    "% Yield 50th centile": null,
+    "Unnamed: 2": null
+  }
+]

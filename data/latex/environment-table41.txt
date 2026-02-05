@@ -1,0 +1,95 @@
+\begin{table}[]
+\begin{tabular}{llllllll}
+Animal  & Genotype & Group   & Treatment  & Time Open Arms (s) & (Open Distance/Total Distance)*100 & Total Distance (m) &  \\
+C1      & WT       & Control & Vehicle    & 118.2              & 33.76551                           & 5.399              &  \\
+C2      & WT       & Control & Vehicle    & 3.4                & 0.47638                            & 2.519              &  \\
+C3      & WT       & Control & Vehicle    & 99.7               & 26.40384                           & 8.548              &  \\
+C4      & WT       & Control & Vehicle    & 161.6              & 37.16497                           & 12.275             &  \\
+C5      & WT       & Control & Vehicle    & 122.6              & 21.82437                           & 7.345              &  \\
+C6      & WT       & Control & Vehicle    & 106.8              & 31.84214                           & 7.399              &  \\
+C7      & WT       & Control & Vehicle    & 68                 & 24.61115                           & 6.172              &  \\
+C8      & WT       & Control & Vehicle    & 162                & 42.56557                           & 12.2               &  \\
+C9      & WT       & Control & Vehicle    & 152.9              & 46.48288                           & 8.089              &  \\
+C10     & WT       & Control & Vehicle    & 103.1              & 24.73884                           & 4.212              &  \\
+average &          &         &            & 109.83             & 28.987565                          & 7.4158             &  \\
+stdv    &          &         &            & 47.98631865        & 12.89433517                        & 3.128689282        &  \\
+sterror &          &         &            & 15.17460635        & 4.077546806                        & 0.989378422        &  \\
+        &          &         &            &                    &                                    &                    &  \\
+C11     & WT       & Control & Fluoxetine & 139.2              & 41.23347                           & 8.772              &  \\
+C12     & WT       & Control & Fluoxetine & 137.8              & 37.87928                           & 9.261              &  \\
+C13     & WT       & Control & Fluoxetine & 151.3              & 32.08281                           & 12.848             &  \\
+C14     & WT       & Control & Fluoxetine & 123.4              & 33.05901                           & 9.235              &  \\
+C15     & WT       & Control & Fluoxetine & 123                & 33.83007                           & 7.65               &  \\
+C16     & WT       & Control & Fluoxetine & 120.1              & 34.86208                           & 8.918              &  \\
+C17     & WT       & Control & Fluoxetine & 125.3              & 27.49749                           & 7.968              &  \\
+C18     & WT       & Control & Fluoxetine & 125.7              & 26.99287                           & 7.991              &  \\
+C19     & WT       & Control & Fluoxetine & 131                & 29.02075                           & 8.966              &  \\
+C20     & WT       & Control & Fluoxetine & 156                & 44.55694                           & 10.766             &  \\
+average &          &         &            & 133.28             & 34.101477                          & 9.2375             &  \\
+stdv    &          &         &            & 12.47101528        & 5.775681618                        & 1.543826865        &  \\
+sterror &          &         &            & 3.943681303        & 1.826430895                        & 0.488200921        &  \\
+        &          &         &            &                    &                                    &                    &  \\
+351     & WT       & Stress  & Vehicle    & 34.5               & 5.09001                            & 12.888             &  \\
+191     & WT       & Stress  & Vehicle    & 4.2                & 20.28409                           & 7.04               &  \\
+251     & WT       & Stress  & Vehicle    & 54.6               & 14.65137                           & 11.33              &  \\
+361     & WT       & Stress  & Vehicle    & 61                 & 11.03989                           & 14.04              &  \\
+541     & WT       & Stress  & Vehicle    & 56.7               & 4.57944                            & 10.7               &  \\
+852     & WT       & Stress  & Vehicle    & 82.5               & 27.57956                           & 10.37              &  \\
+4163    & WT       & Stress  & Vehicle    & 73                 & 20.78049                           & 10.25              &  \\
+4213    & WT       & Stress  & Vehicle    & 22.2               & 4.0404                             & 9.9                &  \\
+4223    & WT       & Stress  & Vehicle    & 6.3                & 1.2761                             & 8.62               &  \\
+4303    & WT       & Stress  & Vehicle    & 28.5               & 2.7668                             & 10.12              &  \\
+4323    & WT       & Stress  & Vehicle    & 15.9               & 3.06583                            & 11.09              &  \\
+E1      & WT       & Stress  & Vehicle    & 84.6               & 14.42186                           & 7.87               &  \\
+E2      & WT       & Stress  & Vehicle    & 67.2               & 14.13103                           & 5.449              &  \\
+E3      & WT       & Stress  & Vehicle    & 69.6               & 16.76859                           & 5.069              &  \\
+E4      & WT       & Stress  & Vehicle    & 93.8               & 23.32604                           & 4.57               &  \\
+E5      & WT       & Stress  & Vehicle    & 105.6              & 33.05547                           & 6.598              &  \\
+average &          &         &            & 53.7625            & 13.55356063                        & 9.119              &  \\
+stdv    &          &         &            & 31.70513891        & 9.691164573                        & 2.795259487        &  \\
+sterror &          &         &            & 7.926284728        & 2.422791143                        & 0.698814872        &  \\
+        &          &         &            &                    &                                    &                    &  \\
+211     & WT       & Stress  & Fluoxetine & 85.6               & 22.67932                           & 9.48               &  \\
+291     & WT       & Stress  & Fluoxetine & 62.2               & 26.09971                           & 13.64              &  \\
+111     & WT       & Stress  & Fluoxetine & 32.6               & 26.1217                            & 13.64              &  \\
+11      & WT       & Stress  & Fluoxetine & 100.8              & 46.69291                           & 12.7               &  \\
+672     & WT       & Stress  & Fluoxetine & 26.2               & 8.5443                             & 9.48               &  \\
+4333    & WT       & Stress  & Fluoxetine & 38.2               & 9.29368                            & 10.76              &  \\
+4353    & WT       & Stress  & Fluoxetine & 68.1               & 10.62591                           & 6.87               &  \\
+4383    & WT       & Stress  & Fluoxetine & 45                 & 12.57557                           & 8.27               &  \\
+4393    & WT       & Stress  & Fluoxetine & 95.3               & 30.29909                           & 7.69               &  \\
+E6      & WT       & Stress  & Fluoxetine & 70.1               & 16.60763                           & 4.799              &  \\
+E7      & WT       & Stress  & Fluoxetine & 95.8               & 27.32854                           & 4.724              &  \\
+E8      & WT       & Stress  & Fluoxetine & 129.7              & 33.16744                           & 8.439              &  \\
+E9      & WT       & Stress  & Fluoxetine & 116.2              & 28.93988                           & 10.197             &  \\
+E10     & WT       & Stress  & Fluoxetine & 52.4               & 11.22142                           & 6.648              &  \\
+average &          &         &            & 72.72857143        & 22.15693571                        & 9.0955             &  \\
+stdv    &          &         &            & 32.12917267        & 11.16225118                        & 2.911222681        &  \\
+sterror &          &         &            & 8.586882589        & 2.983237114                        & 0.778056989        &  \\
+        &          &         &            &                    &                                    &                    &  \\
+411     & FGF2KO   & Stress  & Vehicle    & 7.1                & 4.62401                            & 10.705             &  \\
+131     & FGF2KO   & Stress  & Vehicle    & 51.8               & 0.92857                            & 7                  &  \\
+141     & FGF2KO   & Stress  & Vehicle    & 107.2              & 17.82487                           & 13.167             &  \\
+151     & FGF2KO   & Stress  & Vehicle    & 89.7               & 15.62438                           & 15.015             &  \\
+802     & FGF2KO   & Stress  & Vehicle    & 33.1               & 16.61342                           & 6.26               &  \\
+812     & FGF2KO   & Stress  & Vehicle    & 42.7               & 18.31984                           & 9.88               &  \\
+4043    & FGF2KO   & Stress  & Vehicle    & 61.4               & 17.25352                           & 8.52               &  \\
+4113    & FGF2KO   & Stress  & Vehicle    & 3.8                & 0.93275                            & 9.22               &  \\
+average &          &         &            & 49.6               & 11.51517                           & 9.970875           &  \\
+stdv    &          &         &            & 36.43702983        & 7.869235462                        & 2.963375317        &  \\
+sterror &          &         &            & 12.88243544        & 2.782194879                        & 1.047711391        &  \\
+        &          &         &            &                    &                                    &                    &  \\
+121     & FGF2KO   & Stress  & Fluoxetine & 68.9               & 5.15021                            & 11.65              &  \\
+201     & FGF2KO   & Stress  & Fluoxetine & 42.7               & 10.47183                           & 12.46              &  \\
+181     & FGF2KO   & Stress  & Fluoxetine & 71.6               & 22.73877                           & 9.49               &  \\
+391     & FGF2KO   & Stress  & Fluoxetine & 142.8              & 27.11746                           & 12.88              &  \\
+702     & FGF2KO   & Stress  & Fluoxetine & 16.3               & 5.51524                            & 6.89               &  \\
+642     & FGF2KO   & Stress  & Fluoxetine & 51.8               & 19.07895                           & 9.12               &  \\
+4153    & FGF2KO   & Stress  & Fluoxetine & 13.5               & 0                                  & 7.54               &  \\
+4313    & FGF2KO   & Stress  & Fluoxetine & 3.9                & 1.41677                            & 8.47               &  \\
+4783    & FGF2KO   & Stress  & Fluoxetine & 60.9               & 16.60517                           & 10.84              &  \\
+average &          &         &            & 52.48888889        & 12.01048889                        & 9.926666667        &  \\
+stdv    &          &         &            & 42.05405582        & 9.762739803                        & 2.145483628        &  \\
+sterror &          &         &            & 14.01801861        & 3.254246601                        & 0.715161209        & 
+\end{tabular}
+\end{table}

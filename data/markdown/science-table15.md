@@ -1,0 +1,19 @@
+|    | Chromosome           | Position    | Reference Allele   | Alternate Allele   | Gene Symbol   | Consequence        | HGVS Name (cDNA)                | HGVS Name (protein)                 |
+|---:|:---------------------|:------------|:-------------------|:-------------------|:--------------|:-------------------|:--------------------------------|:------------------------------------|
+|  0 | Homozygous Recessive |             |                    |                    |               |                    |                                 |                                     |
+|  1 | 6                    | 28359073.0  | A                  | G                  | ZSCAN12       | missense_variant   | ENST00000361028.1:c.994N>C      | ENSP00000354305.1:p.Cys332Arg       |
+|  2 | 22                   | 41620091.0  | T                  | C                  | L3MBTL2       | missense_variant   | ENST00000216237.5:c.1010N>C     | ENSP00000216237.5:p.Val337Ala       |
+|  3 | X-Linked             |             |                    |                    |               |                    |                                 |                                     |
+|  4 | X                    | 118243136.0 | A                  | G                  | KIAA1210      | missense_variant   | ENST00000402510.2:c.680N>C      | ENSP00000384670.2:p.Leu227Pro       |
+|  5 | Novel Heterozygous   |             |                    |                    |               |                    |                                 |                                     |
+|  6 | 1                    | 156542321.0 | T                  | C                  | IQGAP3        | start_lost         | ENST00000361170.2:c.1N>G        | ENSP00000354451.2:p.Met1?           |
+|  7 | 1                    | 202715044.0 | G                  | T                  | KDM5B         | stop_gained        | ENST00000367265.3:c.2265N>A     | ENSP00000356234.3:p.Tyr755Ter       |
+|  8 | 2                    | 55096461.0  | G                  | C                  | EML6          | missense_variant   | ENST00000356458.6:c.2195N>C     | ENSP00000348842.6:p.Ser732Thr       |
+|  9 | 2                    | 189393885.0 | C                  | A                  | GULP1         | stop_gained        | ENST00000409580.1:c.224N>A      | ENSP00000386289.1:p.Ser75Ter        |
+| 10 | 3                    | 159943726.0 | A                  | G                  | C3orf80       | missense_variant   | ENST00000326474.3:c.304N>G      | ENSP00000313324.3:p.Ile102Val       |
+| 11 | 4                    | 139937320.0 | G                  | C                  | CCRN4L        | missense_variant   | ENST00000280614.2:c.185N>C      | ENSP00000280614.2:p.Arg62Pro        |
+| 12 | 8                    | 18662056.0  | C                  | T                  | PSD3          | missense_variant   | ENST00000327040.8:c.1886N>A     | ENSP00000324127.8:p.Gly629Glu       |
+| 13 | 15                   | 99478133.0  | G                  | T                  | IGF1R         | missense_variant   | ENST00000268035.6:c.3037N>T     | ENSP00000268035.6:p.Val1013Phe      |
+| 14 | 18                   | 56586241.0  | A                  | AT                 | ZNF532        | frameshift_variant | ENST00000336078.4:c.722_723insT | ENSP00000338217.4:p.Gly242TrpfsTer9 |
+| 15 | 20                   | 2380225.0   | C                  | T                  | TGM6          | stop_gained        | ENST00000202625.2:c.691N>T      | ENSP00000202625.2:p.Arg231Ter       |
+| 16 | 22                   | 36692946.0  | G                  | A                  | MYH9          | missense_variant   | ENST00000216181.5:c.3215N>T     | ENSP00000216181.5:p.Ala1072Val      |

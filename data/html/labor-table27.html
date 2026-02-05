@@ -1,0 +1,173 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <meta name="generator" content="PhpSpreadsheet, https://github.com/PHPOffice/PhpSpreadsheet">
+      <meta name="author" content="mac" />
+      <meta name="company" content="Microsoft Corporation" />
+    <style type="text/css">
+      html { font-family:Calibri, Arial, Helvetica, sans-serif; font-size:11pt; background-color:white }
+      a.comment-indicator:hover + div.comment { background:#ffd; position:absolute; display:block; border:1px solid black; padding:0.5em }
+      a.comment-indicator { background:red; display:inline-block; border:1px solid black; width:0.5em; height:0.5em }
+      div.comment { display:none }
+      table { border-collapse:collapse; page-break-after:always }
+      .gridlines td { border:1px dotted black }
+      .gridlines th { border:1px dotted black }
+      .b { text-align:center }
+      .e { text-align:center }
+      .f { text-align:right }
+      .inlineStr { text-align:left }
+      .n { text-align:right }
+      .s { text-align:left }
+      td.style0 { vertical-align:middle; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style0 { vertical-align:middle; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style1 { vertical-align:middle; text-align:center; border-bottom:2px solid #000000 !important; border-top:2px solid #000000 !important; border-left:2px solid #000000 !important; border-right:2px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Trebuchet MS'; font-size:10pt; background-color:#F9E399 }
+      th.style1 { vertical-align:middle; text-align:center; border-bottom:2px solid #000000 !important; border-top:2px solid #000000 !important; border-left:2px solid #000000 !important; border-right:2px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Trebuchet MS'; font-size:10pt; background-color:#F9E399 }
+      td.style2 { vertical-align:middle; text-align:center; border-bottom:2px solid #000000 !important; border-top:2px solid #000000 !important; border-left:none #000000; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Trebuchet MS'; font-size:10pt; background-color:#F9E399 }
+      th.style2 { vertical-align:middle; text-align:center; border-bottom:2px solid #000000 !important; border-top:2px solid #000000 !important; border-left:none #000000; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Trebuchet MS'; font-size:10pt; background-color:#F9E399 }
+      td.style3 { vertical-align:middle; text-align:center; border-bottom:2px solid #000000 !important; border-top:2px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Trebuchet MS'; font-size:10pt; background-color:#F9E399 }
+      th.style3 { vertical-align:middle; text-align:center; border-bottom:2px solid #000000 !important; border-top:2px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Trebuchet MS'; font-size:10pt; background-color:#F9E399 }
+      td.style4 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:2px solid #000000 !important; border-left:2px solid #000000 !important; border-right:2px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Trebuchet MS'; font-size:10pt; background-color:#F9E399 }
+      th.style4 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:2px solid #000000 !important; border-left:2px solid #000000 !important; border-right:2px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Trebuchet MS'; font-size:10pt; background-color:#F9E399 }
+      td.style5 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Trebuchet MS'; font-size:10pt; background-color:white }
+      th.style5 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Trebuchet MS'; font-size:10pt; background-color:white }
+      td.style6 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Trebuchet MS'; font-size:10pt; background-color:white }
+      th.style6 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Trebuchet MS'; font-size:10pt; background-color:white }
+      td.style7 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:2px solid #000000 !important; border-right:2px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Trebuchet MS'; font-size:10pt; background-color:#F9E399 }
+      th.style7 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:2px solid #000000 !important; border-right:2px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Trebuchet MS'; font-size:10pt; background-color:#F9E399 }
+      td.style8 { vertical-align:bottom; text-align:center; border-bottom:none #000000; border-top:1px solid #000000 !important; border-left:none #000000; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Trebuchet MS'; font-size:10pt; background-color:white }
+      th.style8 { vertical-align:bottom; text-align:center; border-bottom:none #000000; border-top:1px solid #000000 !important; border-left:none #000000; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Trebuchet MS'; font-size:10pt; background-color:white }
+      td.style9 { vertical-align:bottom; text-align:center; border-bottom:none #000000; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Trebuchet MS'; font-size:10pt; background-color:white }
+      th.style9 { vertical-align:bottom; text-align:center; border-bottom:none #000000; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Trebuchet MS'; font-size:10pt; background-color:white }
+      td.style10 { vertical-align:middle; text-align:center; border-bottom:2px solid #000000 !important; border-top:1px solid #000000 !important; border-left:2px solid #000000 !important; border-right:2px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Trebuchet MS'; font-size:10pt; background-color:#F9E399 }
+      th.style10 { vertical-align:middle; text-align:center; border-bottom:2px solid #000000 !important; border-top:1px solid #000000 !important; border-left:2px solid #000000 !important; border-right:2px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Trebuchet MS'; font-size:10pt; background-color:#F9E399 }
+      td.style11 { vertical-align:bottom; text-align:center; border-bottom:2px solid #000000 !important; border-top:2px solid #000000 !important; border-left:2px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Trebuchet MS'; font-size:10pt; background-color:#F9E399 }
+      th.style11 { vertical-align:bottom; text-align:center; border-bottom:2px solid #000000 !important; border-top:2px solid #000000 !important; border-left:2px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Trebuchet MS'; font-size:10pt; background-color:#F9E399 }
+      td.style12 { vertical-align:bottom; text-align:center; border-bottom:2px solid #000000 !important; border-top:2px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Trebuchet MS'; font-size:10pt; background-color:#F9E399 }
+      th.style12 { vertical-align:bottom; text-align:center; border-bottom:2px solid #000000 !important; border-top:2px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Trebuchet MS'; font-size:10pt; background-color:#F9E399 }
+      td.style13 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:2px solid #000000 !important; border-right:2px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Trebuchet MS'; font-size:10pt; background-color:#F9E399 }
+      th.style13 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:2px solid #000000 !important; border-right:2px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Trebuchet MS'; font-size:10pt; background-color:#F9E399 }
+      td.style14 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:1px solid #000000 !important; border-left:2px solid #000000 !important; border-right:2px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Trebuchet MS'; font-size:10pt; background-color:#F9E399 }
+      th.style14 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:1px solid #000000 !important; border-left:2px solid #000000 !important; border-right:2px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Trebuchet MS'; font-size:10pt; background-color:#F9E399 }
+      td.style15 { vertical-align:middle; text-align:center; border-bottom:2px solid #000000 !important; border-top:2px solid #000000 !important; border-left:2px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Trebuchet MS'; font-size:10pt; background-color:#F9E399 }
+      th.style15 { vertical-align:middle; text-align:center; border-bottom:2px solid #000000 !important; border-top:2px solid #000000 !important; border-left:2px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Trebuchet MS'; font-size:10pt; background-color:#F9E399 }
+      td.style16 { vertical-align:middle; text-align:center; border-bottom:2px solid #000000 !important; border-top:2px solid #000000 !important; border-left:1px solid #000000 !important; border-right:2px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Trebuchet MS'; font-size:10pt; background-color:#F9E399 }
+      th.style16 { vertical-align:middle; text-align:center; border-bottom:2px solid #000000 !important; border-top:2px solid #000000 !important; border-left:1px solid #000000 !important; border-right:2px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Trebuchet MS'; font-size:10pt; background-color:#F9E399 }
+      td.style17 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Trebuchet MS'; font-size:10pt; background-color:white }
+      th.style17 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Trebuchet MS'; font-size:10pt; background-color:white }
+      td.style18 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:1px solid #000000 !important; border-right:2px solid #000000 !important; color:#000000; font-family:'Trebuchet MS'; font-size:10pt; background-color:white }
+      th.style18 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:1px solid #000000 !important; border-right:2px solid #000000 !important; color:#000000; font-family:'Trebuchet MS'; font-size:10pt; background-color:white }
+      td.style19 { vertical-align:bottom; text-align:center; border-bottom:none #000000; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Trebuchet MS'; font-size:10pt; background-color:white }
+      th.style19 { vertical-align:bottom; text-align:center; border-bottom:none #000000; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Trebuchet MS'; font-size:10pt; background-color:white }
+      td.style20 { vertical-align:bottom; text-align:center; border-bottom:none #000000; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:2px solid #000000 !important; color:#000000; font-family:'Trebuchet MS'; font-size:10pt; background-color:white }
+      th.style20 { vertical-align:bottom; text-align:center; border-bottom:none #000000; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:2px solid #000000 !important; color:#000000; font-family:'Trebuchet MS'; font-size:10pt; background-color:white }
+      td.style21 { vertical-align:bottom; text-align:center; border-bottom:2px solid #000000 !important; border-top:2px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Trebuchet MS'; font-size:10pt; background-color:#F9E399 }
+      th.style21 { vertical-align:bottom; text-align:center; border-bottom:2px solid #000000 !important; border-top:2px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Trebuchet MS'; font-size:10pt; background-color:#F9E399 }
+      td.style22 { vertical-align:bottom; text-align:center; border-bottom:2px solid #000000 !important; border-top:2px solid #000000 !important; border-left:1px solid #000000 !important; border-right:2px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Trebuchet MS'; font-size:10pt; background-color:#F9E399 }
+      th.style22 { vertical-align:bottom; text-align:center; border-bottom:2px solid #000000 !important; border-top:2px solid #000000 !important; border-left:1px solid #000000 !important; border-right:2px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Trebuchet MS'; font-size:10pt; background-color:#F9E399 }
+      td.style23 { vertical-align:middle; text-align:center; border-bottom:2px solid #000000 !important; border-top:2px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Trebuchet MS'; font-size:10pt; background-color:#F9E399 }
+      th.style23 { vertical-align:middle; text-align:center; border-bottom:2px solid #000000 !important; border-top:2px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Trebuchet MS'; font-size:10pt; background-color:#F9E399 }
+      td.style24 { vertical-align:middle; text-align:center; border-bottom:2px solid #000000 !important; border-top:2px solid #000000 !important; border-left:1px solid #000000 !important; border-right:2px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Trebuchet MS'; font-size:10pt; background-color:#F9E399 }
+      th.style24 { vertical-align:middle; text-align:center; border-bottom:2px solid #000000 !important; border-top:2px solid #000000 !important; border-left:1px solid #000000 !important; border-right:2px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Trebuchet MS'; font-size:10pt; background-color:#F9E399 }
+      table.sheet0 col.col0 { width:89.46666564pt }
+      table.sheet0 col.col1 { width:64.38888815pt }
+      table.sheet0 col.col2 { width:79.29999909pt }
+      table.sheet0 col.col3 { width:86.07777679pt }
+      table.sheet0 col.col4 { width:74.5555547pt }
+      table.sheet0 col.col5 { width:42pt }
+      table.sheet0 col.col6 { width:42pt }
+      table.sheet0 tr { height:15pt }
+      table.sheet0 tr.row0 { height:17.55pt }
+      table.sheet0 tr.row2 { height:17.55pt }
+      table.sheet0 tr.row3 { height:17.55pt }
+      table.sheet0 tr.row5 { height:17.55pt }
+      table.sheet0 tr.row6 { height:17.55pt }
+      table.sheet0 tr.row7 { height:17.55pt }
+    </style>
+  </head>
+
+  <body>
+<style>
+@page { margin-left: 0.75in; margin-right: 0.75in; margin-top: 1in; margin-bottom: 1in; }
+body { margin-left: 0.75in; margin-right: 0.75in; margin-top: 1in; margin-bottom: 1in; }
+</style>
+    <table border="0" cellpadding="0" cellspacing="0" id="sheet0" class="sheet0 gridlines">
+        <col class="col0">
+        <col class="col1">
+        <col class="col2">
+        <col class="col3">
+        <col class="col4">
+        <col class="col5">
+        <col class="col6">
+        <tbody>
+          <tr class="row0">
+            <td class="column0 style1 s">Source</td>
+            <td class="column1 style2 s">Device</td>
+            <td class="column2 style3 s">Activation Count</td>
+            <td class="column3 style3 s">Restart Count</td>
+            <td class="column4 style3 s">Crash Count</td>
+            <td class="column5 style3 s">% Crash</td>
+            <td class="column6 style16 s">% Restart</td>
+          </tr>
+          <tr class="row1">
+            <td class="column0 style4 s style10" rowspan="3">Mobile Department</td>
+            <td class="column1 style5 s">Workstation</td>
+            <td class="column2 style6 n">9635</td>
+            <td class="column3 style6 n">494</td>
+            <td class="column4 style6 n">14</td>
+            <td class="column5 style17 f">0.15%</td>
+            <td class="column6 style18 f">5.13%</td>
+          </tr>
+          <tr class="row2">
+            <td class="column1 style8 s">Register</td>
+            <td class="column2 style9 n">3162</td>
+            <td class="column3 style9 n">712</td>
+            <td class="column4 style9 n">9</td>
+            <td class="column5 style19 f">0.28%</td>
+            <td class="column6 style20 f">22.52%</td>
+          </tr>
+          <tr class="row3">
+            <td class="column1 style11 s">Total</td>
+            <td class="column2 style12 f">12797</td>
+            <td class="column3 style12 f">1206</td>
+            <td class="column4 style12 f">23</td>
+            <td class="column5 style21 f">0.18%</td>
+            <td class="column6 style22 f">9.42%</td>
+          </tr>
+          <tr class="row4">
+            <td class="column0 style13 s style14" rowspan="3">Other Department</td>
+            <td class="column1 style5 s">Workstation</td>
+            <td class="column2 style6 n">96</td>
+            <td class="column3 style6 n">68</td>
+            <td class="column4 style6 n">0</td>
+            <td class="column5 style17 f">0.00%</td>
+            <td class="column6 style18 f">70.83%</td>
+          </tr>
+          <tr class="row5">
+            <td class="column1 style8 s">Register</td>
+            <td class="column2 style9 n">664</td>
+            <td class="column3 style9 n">997</td>
+            <td class="column4 style9 n">2</td>
+            <td class="column5 style19 f">0.30%</td>
+            <td class="column6 style18 f">150.15%</td>
+          </tr>
+          <tr class="row6">
+            <td class="column1 style11 s">Total</td>
+            <td class="column2 style12 f">760</td>
+            <td class="column3 style12 f">1065</td>
+            <td class="column4 style12 f">2</td>
+            <td class="column5 style21 f">0.26%</td>
+            <td class="column6 style22 f">140.13%</td>
+          </tr>
+          <tr class="row7">
+            <td class="column0 style15 s style3" colspan="2">Grand Total</td>
+            <td class="column2 style3 f">13557</td>
+            <td class="column3 style3 f">2271</td>
+            <td class="column4 style3 f">25</td>
+            <td class="column5 style23 f">0.18%</td>
+            <td class="column6 style24 f">16.75%</td>
+          </tr>
+        </tbody>
+    </table>
+  </body>
+</html>

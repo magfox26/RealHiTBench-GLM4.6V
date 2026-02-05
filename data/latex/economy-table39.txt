@@ -1,0 +1,18 @@
+% Please add the following required packages to your document preamble:
+% \usepackage{multirow}
+\begin{table}[]
+\begin{tabular}{cccc}
+\multicolumn{1}{l}{\textbf{Client}} & \multicolumn{1}{l}{\textbf{Policy}} & \textbf{2016 Commission} & \textbf{2017 Commission} \\
+\multirow{4}{*}{Client 1} & WKF018956 & \$200.00 & \$225.00 \\
+ & CPP65338791 & \$89.00 & \$99.00 \\
+ & GLP012408 & \$75.50 & \$85.25 \\
+ & QR9785666 & \$299.00 & \$299.00 \\
+\multirow{2}{*}{Client 2} & KP78952 & \$785.66 & \$795.00 \\
+ & GLP017853 & \$48.99 & \$55.00 \\
+\multirow{3}{*}{Client 3} & CPP7892531 & \$1,000.34 & \$1,100.00 \\
+ & QR7892425 & \$198.00 & \$202.00 \\
+ & GLP0111234 & \$560.00 & \$580.00
+\end{tabular}
+\caption{}
+\label{tab:my-table}
+\end{table}

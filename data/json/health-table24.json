@@ -1,0 +1,211 @@
+[
+  {
+    "Variable": null,
+    "Unnamed: 1": null,
+    "n": null,
+    "%": null,
+    "Best CT": "n",
+    "Unnamed: 5": "%",
+    "Univariate Analysis": "OR",
+    "Unnamed: 7": "IC95%",
+    "Unnamed: 8": "p"
+  },
+  {
+    "Variable": "Smoking",
+    "Unnamed: 1": null,
+    "n": null,
+    "%": null,
+    "Best CT": null,
+    "Unnamed: 5": null,
+    "Univariate Analysis": null,
+    "Unnamed: 7": null,
+    "Unnamed: 8": null
+  },
+  {
+    "Variable": null,
+    "Unnamed: 1": "No",
+    "n": "227",
+    "%": "88,0",
+    "Best CT": "64",
+    "Unnamed: 5": "28,2",
+    "Univariate Analysis": "1,00",
+    "Unnamed: 7": null,
+    "Unnamed: 8": null
+  },
+  {
+    "Variable": null,
+    "Unnamed: 1": "Yes",
+    "n": "31",
+    "%": "12,0",
+    "Best CT": "11",
+    "Unnamed: 5": "35,5",
+    "Univariate Analysis": "1,40",
+    "Unnamed: 7": "0,64-3,09",
+    "Unnamed: 8": "0,403"
+  },
+  {
+    "Variable": "Alcohol Consumption",
+    "Unnamed: 1": null,
+    "n": null,
+    "%": null,
+    "Best CT": null,
+    "Unnamed: 5": null,
+    "Univariate Analysis": null,
+    "Unnamed: 7": null,
+    "Unnamed: 8": null
+  },
+  {
+    "Variable": null,
+    "Unnamed: 1": "No Risk",
+    "n": "231",
+    "%": "89,5",
+    "Best CT": "68",
+    "Unnamed: 5": "29,4",
+    "Univariate Analysis": "1,00",
+    "Unnamed: 7": null,
+    "Unnamed: 8": null
+  },
+  {
+    "Variable": null,
+    "Unnamed: 1": "At Risk",
+    "n": "27",
+    "%": "10,5",
+    "Best CT": "7",
+    "Unnamed: 5": "25,9",
+    "Univariate Analysis": "0,84",
+    "Unnamed: 7": "0,34-2,07",
+    "Unnamed: 8": "0,704"
+  },
+  {
+    "Variable": "Social Activity",
+    "Unnamed: 1": null,
+    "n": null,
+    "%": null,
+    "Best CT": null,
+    "Unnamed: 5": null,
+    "Univariate Analysis": null,
+    "Unnamed: 7": null,
+    "Unnamed: 8": null
+  },
+  {
+    "Variable": null,
+    "Unnamed: 1": "Yes",
+    "n": "208",
+    "%": "80,6",
+    "Best CT": "57",
+    "Unnamed: 5": "27,4",
+    "Univariate Analysis": "1,00",
+    "Unnamed: 7": null,
+    "Unnamed: 8": null
+  },
+  {
+    "Variable": null,
+    "Unnamed: 1": "No",
+    "n": "50",
+    "%": "19,4",
+    "Best CT": "18",
+    "Unnamed: 5": "36,0",
+    "Univariate Analysis": "1,49",
+    "Unnamed: 7": "0,78-2,86",
+    "Unnamed: 8": "0,231"
+  },
+  {
+    "Variable": "Community Association Membership",
+    "Unnamed: 1": null,
+    "n": null,
+    "%": null,
+    "Best CT": null,
+    "Unnamed: 5": null,
+    "Univariate Analysis": null,
+    "Unnamed: 7": null,
+    "Unnamed: 8": null
+  },
+  {
+    "Variable": null,
+    "Unnamed: 1": "Yes",
+    "n": "33",
+    "%": "12,8",
+    "Best CT": "15",
+    "Unnamed: 5": "45,5",
+    "Univariate Analysis": "1,00",
+    "Unnamed: 7": null,
+    "Unnamed: 8": null
+  },
+  {
+    "Variable": null,
+    "Unnamed: 1": "No",
+    "n": "225",
+    "%": "87,2",
+    "Best CT": "60",
+    "Unnamed: 5": "26,7",
+    "Univariate Analysis": "0,44",
+    "Unnamed: 7": "0,21-0,92",
+    "Unnamed: 8": "0,029*"
+  },
+  {
+    "Variable": "Attends Religious Services",
+    "Unnamed: 1": null,
+    "n": null,
+    "%": null,
+    "Best CT": null,
+    "Unnamed: 5": null,
+    "Univariate Analysis": null,
+    "Unnamed: 7": null,
+    "Unnamed: 8": null
+  },
+  {
+    "Variable": null,
+    "Unnamed: 1": "Yes",
+    "n": "141",
+    "%": "54,7",
+    "Best CT": "41",
+    "Unnamed: 5": "29,1",
+    "Univariate Analysis": "1,00",
+    "Unnamed: 7": null,
+    "Unnamed: 8": null
+  },
+  {
+    "Variable": null,
+    "Unnamed: 1": "No",
+    "n": "117",
+    "%": "45,3",
+    "Best CT": "34",
+    "Unnamed: 5": "29,1",
+    "Univariate Analysis": "1,00",
+    "Unnamed: 7": "0,58-1,71",
+    "Unnamed: 8": "0,997"
+  },
+  {
+    "Variable": "Physical Activity",
+    "Unnamed: 1": null,
+    "n": null,
+    "%": null,
+    "Best CT": null,
+    "Unnamed: 5": null,
+    "Univariate Analysis": null,
+    "Unnamed: 7": null,
+    "Unnamed: 8": null
+  },
+  {
+    "Variable": null,
+    "Unnamed: 1": "Active-Very Active",
+    "n": "28",
+    "%": "10,9",
+    "Best CT": "39",
+    "Unnamed: 5": "26,4",
+    "Univariate Analysis": "1,00",
+    "Unnamed: 7": null,
+    "Unnamed: 8": null
+  },
+  {
+    "Variable": null,
+    "Unnamed: 1": "Sedentary and Insufficiently Active",
+    "n": "230",
+    "%": "89,1",
+    "Best CT": "36",
+    "Unnamed: 5": "32,7",
+    "Univariate Analysis": "1,36",
+    "Unnamed: 7": "0,79-2,33",
+    "Unnamed: 8": "0,265"
+  }
+]

@@ -1,0 +1,699 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <meta name="generator" content="PhpSpreadsheet, https://github.com/PHPOffice/PhpSpreadsheet">
+      <title>U.S. agricultural exports, year-to-date and current months</title>
+      <meta name="author" content="Bart Kenner" />
+      <meta name="title" content="U.S. agricultural exports, year-to-date and current months" />
+      <meta name="subject" content="Agricultural economics" />
+      <meta name="keywords" content="exports, imports, fiscal, calendar, year-to-date, FATUS, Foreign agricultural trade of the United States" />
+      <meta name="company" content="USDA, Economic Research Service" />
+    <style type="text/css">
+      html { font-family:Calibri, Arial, Helvetica, sans-serif; font-size:11pt; background-color:white }
+      a.comment-indicator:hover + div.comment { background:#ffd; position:absolute; display:block; border:1px solid black; padding:0.5em }
+      a.comment-indicator { background:red; display:inline-block; border:1px solid black; width:0.5em; height:0.5em }
+      div.comment { display:none }
+      table { border-collapse:collapse; page-break-after:always }
+      .gridlines td { border:1px dotted black }
+      .gridlines th { border:1px dotted black }
+      .b { text-align:center }
+      .e { text-align:center }
+      .f { text-align:right }
+      .inlineStr { text-align:left }
+      .n { text-align:right }
+      .s { text-align:left }
+      td.style0 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      th.style0 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      td.style1 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:9pt; background-color:white }
+      th.style1 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:9pt; background-color:white }
+      td.style2 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:9pt; background-color:white }
+      th.style2 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:9pt; background-color:white }
+      td.style3 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:9pt; background-color:white }
+      th.style3 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:9pt; background-color:white }
+      td.style4 { vertical-align:middle; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:9pt; background-color:white }
+      th.style4 { vertical-align:middle; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:9pt; background-color:white }
+      td.style5 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:1px solid #000000 !important; border-left:none #000000; border-right:none #000000; font-style:italic; color:#000000; font-family:'Arial'; font-size:9pt; background-color:white }
+      th.style5 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:1px solid #000000 !important; border-left:none #000000; border-right:none #000000; font-style:italic; color:#000000; font-family:'Arial'; font-size:9pt; background-color:white }
+      td.style6 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-style:italic; color:#000000; font-family:'Arial'; font-size:9pt; background-color:white }
+      th.style6 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-style:italic; color:#000000; font-family:'Arial'; font-size:9pt; background-color:white }
+      td.style7 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:9pt; background-color:white }
+      th.style7 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:9pt; background-color:white }
+      td.style8 { vertical-align:middle; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:9pt; background-color:white }
+      th.style8 { vertical-align:middle; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:9pt; background-color:white }
+      td.style9 { vertical-align:middle; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-style:italic; color:#000000; font-family:'Arial'; font-size:9pt; background-color:white }
+      th.style9 { vertical-align:middle; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-style:italic; color:#000000; font-family:'Arial'; font-size:9pt; background-color:white }
+      td.style10 { vertical-align:middle; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:9pt; background-color:white }
+      th.style10 { vertical-align:middle; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:9pt; background-color:white }
+      td.style11 { vertical-align:middle; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:9pt; background-color:white }
+      th.style11 { vertical-align:middle; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:9pt; background-color:white }
+      td.style12 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:1px solid #000000 !important; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:9pt; background-color:white }
+      th.style12 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:1px solid #000000 !important; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:9pt; background-color:white }
+      td.style13 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:9pt; background-color:white }
+      th.style13 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:9pt; background-color:white }
+      td.style14 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:8pt; background-color:white }
+      th.style14 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:8pt; background-color:white }
+      td.style15 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:8pt; background-color:white }
+      th.style15 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:8pt; background-color:white }
+      td.style16 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:9pt; background-color:white }
+      th.style16 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:9pt; background-color:white }
+      td.style17 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:9pt; background-color:white }
+      th.style17 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:9pt; background-color:white }
+      td.style18 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:1px solid #000000 !important; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:9pt; background-color:white }
+      th.style18 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:1px solid #000000 !important; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:9pt; background-color:white }
+      td.style19 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:9pt; background-color:white }
+      th.style19 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:9pt; background-color:white }
+      td.style20 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Arial'; font-size:9pt; background-color:white }
+      th.style20 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Arial'; font-size:9pt; background-color:white }
+      td.style21 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:9pt; background-color:white }
+      th.style21 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:9pt; background-color:white }
+      td.style22 { vertical-align:middle; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:9pt; background-color:white }
+      th.style22 { vertical-align:middle; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:9pt; background-color:white }
+      td.style23 { vertical-align:middle; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-style:italic; color:#000000; font-family:'Arial'; font-size:9pt; background-color:white }
+      th.style23 { vertical-align:middle; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-style:italic; color:#000000; font-family:'Arial'; font-size:9pt; background-color:white }
+      td.style24 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:8pt; background-color:white }
+      th.style24 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:8pt; background-color:white }
+      table.sheet0 col.col0 { width:140.97777616pt }
+      table.sheet0 col.col1 { width:42pt }
+      table.sheet0 col.col2 { width:42pt }
+      table.sheet0 col.col3 { width:42pt }
+      table.sheet0 col.col4 { width:46.76666613pt }
+      table.sheet0 col.col5 { width:48.12222167pt }
+      table.sheet0 col.col6 { width:42pt }
+      table.sheet0 tr { height:15pt }
+      table.sheet0 tr.row59 { height:15pt }
+    </style>
+  </head>
+
+  <body>
+<style>
+@page { margin-left: 0.7in; margin-right: 0.7in; margin-top: 0.75in; margin-bottom: 0.75in; }
+body { margin-left: 0.7in; margin-right: 0.7in; margin-top: 0.75in; margin-bottom: 0.75in; }
+</style>
+    <table border="0" cellpadding="0" cellspacing="0" id="sheet0" class="sheet0 gridlines">
+        <col class="col0">
+        <col class="col1">
+        <col class="col2">
+        <col class="col3">
+        <col class="col4">
+        <col class="col5">
+        <col class="col6">
+        <tbody>
+          <tr class="row0">
+            <td class="column0 style16 s">U.S. agricultural exports, year-to-date and current months 1/ </td>
+            <td class="column1 style1 null"></td>
+            <td class="column2 style1 null"></td>
+            <td class="column3 style1 null"></td>
+            <td class="column4 style1 null"></td>
+            <td class="column5 style1 null"></td>
+            <td class="column6 style1 null"></td>
+          </tr>
+          <tr class="row1">
+            <td class="column0 style2 null"></td>
+            <td class="column1 style17 s">Jul.</td>
+            <td class="column2 style17 s">Aug.</td>
+            <td class="column3 style17 s">Change</td>
+            <td class="column4 style18 s style12" colspan="2">Oct.−Aug.</td>
+            <td class="column6 style17 s">Change</td>
+          </tr>
+          <tr class="row2">
+            <td class="column0 style16 s">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Item</td>
+            <td class="column1 style3 n">2023</td>
+            <td class="column2 style3 n">2023</td>
+            <td class="column3 style19 s">Jul.−Aug.</td>
+            <td class="column4 style3 n">2022</td>
+            <td class="column5 style3 n">2023</td>
+            <td class="column6 style13 s">2022−23</td>
+          </tr>
+          <tr class="row3">
+            <td class="column0 style4 null"></td>
+            <td class="column1 style5 s style5" colspan="2">Million dollars</td>
+            <td class="column3 style6 s">Percent</td>
+            <td class="column4 style5 s style5" colspan="2">Million dollars</td>
+            <td class="column6 style6 s">Percent</td>
+          </tr>
+          <tr class="row4">
+            <td class="column0 style2 null"></td>
+            <td class="column1 style2 null"></td>
+            <td class="column2 style2 null"></td>
+            <td class="column3 style2 null"></td>
+            <td class="column4 style2 null"></td>
+            <td class="column5 style2 null"></td>
+            <td class="column6 style2 null"></td>
+          </tr>
+          <tr class="row5">
+            <td class="column0 style20 s">Values</td>
+            <td class="column1 style7 null"></td>
+            <td class="column2 style7 null"></td>
+            <td class="column3 style7 null"></td>
+            <td class="column4 style7 null"></td>
+            <td class="column5 style7 null"></td>
+            <td class="column6 style7 null"></td>
+          </tr>
+          <tr class="row6">
+            <td class="column0 style21 s">&nbsp;Live animals</td>
+            <td class="column1 style8 n">89     </td>
+            <td class="column2 style8 n">89     </td>
+            <td class="column3 style8 n">1     </td>
+            <td class="column4 style8 n">1,054     </td>
+            <td class="column5 style8 n">1,051     </td>
+            <td class="column6 style8 n">0     </td>
+          </tr>
+          <tr class="row7">
+            <td class="column0 style21 s">&nbsp;Red meats and products</td>
+            <td class="column1 style8 n">1,548     </td>
+            <td class="column2 style8 n">1,648     </td>
+            <td class="column3 style8 n">6     </td>
+            <td class="column4 style8 n">19,002     </td>
+            <td class="column5 style8 n">17,805     </td>
+            <td class="column6 style8 n">-6     </td>
+          </tr>
+          <tr class="row8">
+            <td class="column0 style21 s">&nbsp;Poultry meats and products</td>
+            <td class="column1 style8 n">511     </td>
+            <td class="column2 style8 n">537     </td>
+            <td class="column3 style8 n">5     </td>
+            <td class="column4 style8 n">6,058     </td>
+            <td class="column5 style8 n">5,866     </td>
+            <td class="column6 style8 n">-3     </td>
+          </tr>
+          <tr class="row9">
+            <td class="column0 style21 s">&nbsp;Dairy products</td>
+            <td class="column1 style8 n">647     </td>
+            <td class="column2 style8 n">635     </td>
+            <td class="column3 style8 n">-2     </td>
+            <td class="column4 style8 n">8,307     </td>
+            <td class="column5 style8 n">7,900     </td>
+            <td class="column6 style8 n">-5     </td>
+          </tr>
+          <tr class="row10">
+            <td class="column0 style21 s">&nbsp;Hides and skins</td>
+            <td class="column1 style8 n">80     </td>
+            <td class="column2 style8 n">77     </td>
+            <td class="column3 style8 n">-4     </td>
+            <td class="column4 style8 n">1,054     </td>
+            <td class="column5 style8 n">931     </td>
+            <td class="column6 style8 n">-12     </td>
+          </tr>
+          <tr class="row11">
+            <td class="column0 style21 s">&nbsp;Grains and feeds</td>
+            <td class="column1 style8 n">2,887     </td>
+            <td class="column2 style8 n">2,771     </td>
+            <td class="column3 style8 n">-4     </td>
+            <td class="column4 style8 n">44,738     </td>
+            <td class="column5 style8 n">35,759     </td>
+            <td class="column6 style8 n">-20     </td>
+          </tr>
+          <tr class="row12">
+            <td class="column0 style21 s">&nbsp;&nbsp;&nbsp;Wheat</td>
+            <td class="column1 style8 n">545     </td>
+            <td class="column2 style8 n">461     </td>
+            <td class="column3 style8 n">-15     </td>
+            <td class="column4 style8 n">7,043     </td>
+            <td class="column5 style8 n">5,879     </td>
+            <td class="column6 style8 n">-17     </td>
+          </tr>
+          <tr class="row13">
+            <td class="column0 style21 s">&nbsp;&nbsp;&nbsp;Rice</td>
+            <td class="column1 style8 n">158     </td>
+            <td class="column2 style8 n">127     </td>
+            <td class="column3 style8 n">-20     </td>
+            <td class="column4 style8 n">1,739     </td>
+            <td class="column5 style8 n">1,652     </td>
+            <td class="column6 style8 n">-5     </td>
+          </tr>
+          <tr class="row14">
+            <td class="column0 style21 s">&nbsp;&nbsp;&nbsp;Corn</td>
+            <td class="column1 style8 n">696     </td>
+            <td class="column2 style8 n">700     </td>
+            <td class="column3 style8 n">1     </td>
+            <td class="column4 style8 n">18,632     </td>
+            <td class="column5 style8 n">12,374     </td>
+            <td class="column6 style8 n">-34     </td>
+          </tr>
+          <tr class="row15">
+            <td class="column0 style21 s">&nbsp;&nbsp;&nbsp;Other grain products</td>
+            <td class="column1 style8 n">475     </td>
+            <td class="column2 style8 n">522     </td>
+            <td class="column3 style8 n">10     </td>
+            <td class="column4 style8 n">5,049     </td>
+            <td class="column5 style8 n">5,413     </td>
+            <td class="column6 style8 n">7     </td>
+          </tr>
+          <tr class="row16">
+            <td class="column0 style21 s">&nbsp;Animal feeds and oil meal</td>
+            <td class="column1 style8 n">1,424     </td>
+            <td class="column2 style8 n">1,408     </td>
+            <td class="column3 style8 n">-1     </td>
+            <td class="column4 style8 n">15,408     </td>
+            <td class="column5 style8 n">16,031     </td>
+            <td class="column6 style8 n">4     </td>
+          </tr>
+          <tr class="row17">
+            <td class="column0 style21 s">&nbsp;Soybeans</td>
+            <td class="column1 style8 n">762     </td>
+            <td class="column2 style8 n">1,006     </td>
+            <td class="column3 style8 n">32     </td>
+            <td class="column4 style8 n">31,910     </td>
+            <td class="column5 style8 n">31,307     </td>
+            <td class="column6 style8 n">-2     </td>
+          </tr>
+          <tr class="row18">
+            <td class="column0 style21 s">&nbsp;Other oilseeds</td>
+            <td class="column1 style8 n">134     </td>
+            <td class="column2 style8 n">147     </td>
+            <td class="column3 style8 n">10     </td>
+            <td class="column4 style8 n">1,794     </td>
+            <td class="column5 style8 n">1,678     </td>
+            <td class="column6 style8 n">-6     </td>
+          </tr>
+          <tr class="row19">
+            <td class="column0 style21 s">&nbsp;Vegetable oils</td>
+            <td class="column1 style8 n">215     </td>
+            <td class="column2 style8 n">229     </td>
+            <td class="column3 style8 n">7     </td>
+            <td class="column4 style8 n">4,292     </td>
+            <td class="column5 style8 n">2,819     </td>
+            <td class="column6 style8 n">-34     </td>
+          </tr>
+          <tr class="row20">
+            <td class="column0 style21 s">&nbsp;Fruits and products</td>
+            <td class="column1 style8 n">665     </td>
+            <td class="column2 style8 n">564     </td>
+            <td class="column3 style8 n">-15     </td>
+            <td class="column4 style8 n">5,458     </td>
+            <td class="column5 style8 n">5,162     </td>
+            <td class="column6 style8 n">-5     </td>
+          </tr>
+          <tr class="row21">
+            <td class="column0 style21 s">&nbsp;&nbsp;&nbsp;Fruits, fresh</td>
+            <td class="column1 style8 n">524     </td>
+            <td class="column2 style8 n">426     </td>
+            <td class="column3 style8 n">-19     </td>
+            <td class="column4 style8 n">3,822     </td>
+            <td class="column5 style8 n">3,701     </td>
+            <td class="column6 style8 n">-3     </td>
+          </tr>
+          <tr class="row22">
+            <td class="column0 style21 s">&nbsp;&nbsp;&nbsp;Fruits, prepared or preserved</td>
+            <td class="column1 style8 n">141     </td>
+            <td class="column2 style8 n">138     </td>
+            <td class="column3 style8 n">-2     </td>
+            <td class="column4 style8 n">1,636     </td>
+            <td class="column5 style8 n">1,461     </td>
+            <td class="column6 style8 n">-11     </td>
+          </tr>
+          <tr class="row23">
+            <td class="column0 style21 s">&nbsp;&nbsp;&nbsp;Fruit juices</td>
+            <td class="column1 style8 n">71     </td>
+            <td class="column2 style8 n">76     </td>
+            <td class="column3 style8 n">6     </td>
+            <td class="column4 style8 n">859     </td>
+            <td class="column5 style8 n">820     </td>
+            <td class="column6 style8 n">-4     </td>
+          </tr>
+          <tr class="row24">
+            <td class="column0 style21 s">&nbsp;Vegetables and products</td>
+            <td class="column1 style8 n">640     </td>
+            <td class="column2 style8 n">656     </td>
+            <td class="column3 style8 n">2     </td>
+            <td class="column4 style8 n">6,871     </td>
+            <td class="column5 style8 n">7,348     </td>
+            <td class="column6 style8 n">7     </td>
+          </tr>
+          <tr class="row25">
+            <td class="column0 style21 s">&nbsp;&nbsp;&nbsp;Vegetables, fresh</td>
+            <td class="column1 style8 n">233     </td>
+            <td class="column2 style8 n">196     </td>
+            <td class="column3 style8 n">-16     </td>
+            <td class="column4 style8 n">2,605     </td>
+            <td class="column5 style8 n">2,599     </td>
+            <td class="column6 style8 n">0     </td>
+          </tr>
+          <tr class="row26">
+            <td class="column0 style21 s">&nbsp;&nbsp;&nbsp;Vegetables, prepared or preserved</td>
+            <td class="column1 style8 n">408     </td>
+            <td class="column2 style8 n">459     </td>
+            <td class="column3 style8 n">13     </td>
+            <td class="column4 style8 n">4,267     </td>
+            <td class="column5 style8 n">4,749     </td>
+            <td class="column6 style8 n">11     </td>
+          </tr>
+          <tr class="row27">
+            <td class="column0 style21 s">&nbsp;Tree nuts and preparations</td>
+            <td class="column1 style8 n">622     </td>
+            <td class="column2 style8 n">604     </td>
+            <td class="column3 style8 n">-3     </td>
+            <td class="column4 style8 n">9,707     </td>
+            <td class="column5 style8 n">8,011     </td>
+            <td class="column6 style8 n">-17     </td>
+          </tr>
+          <tr class="row28">
+            <td class="column0 style21 s">&nbsp;Wine</td>
+            <td class="column1 style8 n">83     </td>
+            <td class="column2 style8 n">102     </td>
+            <td class="column3 style8 n">22     </td>
+            <td class="column4 style8 n">1,347     </td>
+            <td class="column5 style8 n">1,082     </td>
+            <td class="column6 style8 n">-20     </td>
+          </tr>
+          <tr class="row29">
+            <td class="column0 style21 s">&nbsp;Distilled spirits</td>
+            <td class="column1 style8 n">172     </td>
+            <td class="column2 style8 n">196     </td>
+            <td class="column3 style8 n">14     </td>
+            <td class="column4 style8 n">1,678     </td>
+            <td class="column5 style8 n">2,296     </td>
+            <td class="column6 style8 n">37     </td>
+          </tr>
+          <tr class="row30">
+            <td class="column0 style21 s">&nbsp;Ethanol (non-beverage)</td>
+            <td class="column1 style8 n">313     </td>
+            <td class="column2 style8 n">278     </td>
+            <td class="column3 style8 n">-11     </td>
+            <td class="column4 style8 n">3,739     </td>
+            <td class="column5 style8 n">3,217     </td>
+            <td class="column6 style8 n">-14     </td>
+          </tr>
+          <tr class="row31">
+            <td class="column0 style21 s">&nbsp;Cotton and linters</td>
+            <td class="column1 style8 n">426     </td>
+            <td class="column2 style8 n">463     </td>
+            <td class="column3 style8 n">9     </td>
+            <td class="column4 style8 n">8,251     </td>
+            <td class="column5 style8 n">5,839     </td>
+            <td class="column6 style8 n">-29     </td>
+          </tr>
+          <tr class="row32">
+            <td class="column0 style21 s">&nbsp;Tobacco</td>
+            <td class="column1 style8 n">131     </td>
+            <td class="column2 style8 n">114     </td>
+            <td class="column3 style8 n">-13     </td>
+            <td class="column4 style8 n">727     </td>
+            <td class="column5 style8 n">1,349     </td>
+            <td class="column6 style8 n">85     </td>
+          </tr>
+          <tr class="row33">
+            <td class="column0 style21 s">&nbsp;&nbsp;&nbsp;Tobacco, unmanufactured</td>
+            <td class="column1 style8 n">110     </td>
+            <td class="column2 style8 n">92     </td>
+            <td class="column3 style8 n">-17     </td>
+            <td class="column4 style8 n">542     </td>
+            <td class="column5 style8 n">1,140     </td>
+            <td class="column6 style8 n">110     </td>
+          </tr>
+          <tr class="row34">
+            <td class="column0 style21 s">&nbsp;&nbsp;&nbsp;Tobacco, manufactured</td>
+            <td class="column1 style8 n">20     </td>
+            <td class="column2 style8 n">22     </td>
+            <td class="column3 style8 n">10     </td>
+            <td class="column4 style8 n">185     </td>
+            <td class="column5 style8 n">208     </td>
+            <td class="column6 style8 n">13     </td>
+          </tr>
+          <tr class="row35">
+            <td class="column0 style21 s">&nbsp;Sugar and tropical products</td>
+            <td class="column1 style8 n">474     </td>
+            <td class="column2 style8 n">511     </td>
+            <td class="column3 style8 n">8     </td>
+            <td class="column4 style8 n">4,825     </td>
+            <td class="column5 style8 n">5,107     </td>
+            <td class="column6 style8 n">6     </td>
+          </tr>
+          <tr class="row36">
+            <td class="column0 style2 null"></td>
+            <td class="column1 style8 null"></td>
+            <td class="column2 style8 null"></td>
+            <td class="column3 style8 null"></td>
+            <td class="column4 style8 null"></td>
+            <td class="column5 style8 null"></td>
+            <td class="column6 style8 null"></td>
+          </tr>
+          <tr class="row37">
+            <td class="column0 style20 s">Agricultural export value</td>
+            <td class="column1 style8 n">12,171     </td>
+            <td class="column2 style8 n">12,484     </td>
+            <td class="column3 style8 n">3     </td>
+            <td class="column4 style8 n">182,527     </td>
+            <td class="column5 style8 n">166,020     </td>
+            <td class="column6 style8 n">-9     </td>
+          </tr>
+          <tr class="row38">
+            <td class="column0 style21 s">&nbsp;&nbsp;Major bulk products</td>
+            <td class="column1 style8 n">2,825     </td>
+            <td class="column2 style8 n">2,944     </td>
+            <td class="column3 style8 n">4     </td>
+            <td class="column4 style8 n">70,601     </td>
+            <td class="column5 style8 n">59,088     </td>
+            <td class="column6 style8 n">-16     </td>
+          </tr>
+          <tr class="row39">
+            <td class="column0 style21 s">&nbsp;&nbsp;High-value products</td>
+            <td class="column1 style8 n">9,326     </td>
+            <td class="column2 style8 n">9,518     </td>
+            <td class="column3 style8 n">2     </td>
+            <td class="column4 style8 n">111,926     </td>
+            <td class="column5 style8 n">106,932     </td>
+            <td class="column6 style8 n">-4     </td>
+          </tr>
+          <tr class="row40">
+            <td class="column0 style2 null"></td>
+            <td class="column1 style22 s">&nbsp;</td>
+            <td class="column2 style22 s">&nbsp;</td>
+            <td class="column3 style22 s">&nbsp;</td>
+            <td class="column4 style8 null"></td>
+            <td class="column5 style8 null"></td>
+            <td class="column6 style8 null"></td>
+          </tr>
+          <tr class="row41">
+            <td class="column0 style20 s">Volumes</td>
+            <td class="column1 style23 s">Thousand metric tons</td>
+            <td class="column2 style9 null"></td>
+            <td class="column3 style23 s">Percent</td>
+            <td class="column4 style23 s">Thousand metric tons</td>
+            <td class="column5 style9 null"></td>
+            <td class="column6 style23 s">Percent</td>
+          </tr>
+          <tr class="row42">
+            <td class="column0 style2 null"></td>
+            <td class="column1 style8 null"></td>
+            <td class="column2 style8 null"></td>
+            <td class="column3 style8 null"></td>
+            <td class="column4 style8 null"></td>
+            <td class="column5 style8 null"></td>
+            <td class="column6 style8 null"></td>
+          </tr>
+          <tr class="row43">
+            <td class="column0 style21 s">&nbsp;Red meats and products</td>
+            <td class="column1 style8 n">405     </td>
+            <td class="column2 style8 n">418     </td>
+            <td class="column3 style8 n">3     </td>
+            <td class="column4 style8 n">4,756     </td>
+            <td class="column5 style8 n">4,815     </td>
+            <td class="column6 style8 n">1     </td>
+          </tr>
+          <tr class="row44">
+            <td class="column0 style21 s">&nbsp;Poultry meats</td>
+            <td class="column1 style8 n">283     </td>
+            <td class="column2 style8 n">309     </td>
+            <td class="column3 style8 n">9     </td>
+            <td class="column4 style8 n">3,242     </td>
+            <td class="column5 style8 n">3,291     </td>
+            <td class="column6 style8 n">2     </td>
+          </tr>
+          <tr class="row45">
+            <td class="column0 style21 s">&nbsp;Nonfat dry milk</td>
+            <td class="column1 style8 n">69     </td>
+            <td class="column2 style8 n">71     </td>
+            <td class="column3 style8 n">3     </td>
+            <td class="column4 style8 n">791     </td>
+            <td class="column5 style8 n">793     </td>
+            <td class="column6 style8 n">0     </td>
+          </tr>
+          <tr class="row46">
+            <td class="column0 style21 s">&nbsp;Wheat</td>
+            <td class="column1 style8 n">1,740     </td>
+            <td class="column2 style8 n">1,454     </td>
+            <td class="column3 style8 n">-16     </td>
+            <td class="column4 style8 n">17,674     </td>
+            <td class="column5 style8 n">15,928     </td>
+            <td class="column6 style8 n">-10     </td>
+          </tr>
+          <tr class="row47">
+            <td class="column0 style21 s">&nbsp;Rice</td>
+            <td class="column1 style8 n">155     </td>
+            <td class="column2 style8 n">134     </td>
+            <td class="column3 style8 n">-14     </td>
+            <td class="column4 style8 n">2,679     </td>
+            <td class="column5 style8 n">2,079     </td>
+            <td class="column6 style8 n">-22     </td>
+          </tr>
+          <tr class="row48">
+            <td class="column0 style21 s">&nbsp;Coarse grains</td>
+            <td class="column1 style8 n">2,829     </td>
+            <td class="column2 style8 n">2,930     </td>
+            <td class="column3 style8 n">4     </td>
+            <td class="column4 style8 n">67,637     </td>
+            <td class="column5 style8 n">42,267     </td>
+            <td class="column6 style8 n">-38     </td>
+          </tr>
+          <tr class="row49">
+            <td class="column0 style21 s">&nbsp;&nbsp;&nbsp;&nbsp;Corn</td>
+            <td class="column1 style8 n">2,398     </td>
+            <td class="column2 style8 n">2,547     </td>
+            <td class="column3 style8 n">6     </td>
+            <td class="column4 style8 n">60,298     </td>
+            <td class="column5 style8 n">39,559     </td>
+            <td class="column6 style8 n">-34     </td>
+          </tr>
+          <tr class="row50">
+            <td class="column0 style21 s">&nbsp;&nbsp;&nbsp;&nbsp;Sorghum</td>
+            <td class="column1 style8 n">422     </td>
+            <td class="column2 style8 n">363     </td>
+            <td class="column3 style8 n">-14     </td>
+            <td class="column4 style8 n">7,251     </td>
+            <td class="column5 style8 n">2,633     </td>
+            <td class="column6 style8 n">-64     </td>
+          </tr>
+          <tr class="row51">
+            <td class="column0 style21 s">&nbsp;Soybeans</td>
+            <td class="column1 style8 n">1,276     </td>
+            <td class="column2 style8 n">1,703     </td>
+            <td class="column3 style8 n">33     </td>
+            <td class="column4 style8 n">56,472     </td>
+            <td class="column5 style8 n">52,130     </td>
+            <td class="column6 style8 n">-8     </td>
+          </tr>
+          <tr class="row52">
+            <td class="column0 style21 s">&nbsp;Oil meal</td>
+            <td class="column1 style8 n">1,090     </td>
+            <td class="column2 style8 n">1,079     </td>
+            <td class="column3 style8 n">-1     </td>
+            <td class="column4 style8 n">11,565     </td>
+            <td class="column5 style8 n">12,417     </td>
+            <td class="column6 style8 n">7     </td>
+          </tr>
+          <tr class="row53">
+            <td class="column0 style21 s">&nbsp;Vegetable oils 2/</td>
+            <td class="column1 style8 n">106     </td>
+            <td class="column2 style8 n">108     </td>
+            <td class="column3 style8 n">2     </td>
+            <td class="column4 style8 n">2,349     </td>
+            <td class="column5 style8 n">1,362     </td>
+            <td class="column6 style8 n">-42     </td>
+          </tr>
+          <tr class="row54">
+            <td class="column0 style21 s">&nbsp;Fruits, fresh </td>
+            <td class="column1 style8 n">226     </td>
+            <td class="column2 style8 n">211     </td>
+            <td class="column3 style8 n">-7     </td>
+            <td class="column4 style8 n">2,012     </td>
+            <td class="column5 style8 n">1,910     </td>
+            <td class="column6 style8 n">-5     </td>
+          </tr>
+          <tr class="row55">
+            <td class="column0 style21 s">&nbsp;Fruits, prepared or preserved</td>
+            <td class="column1 style8 n">52     </td>
+            <td class="column2 style8 n">50     </td>
+            <td class="column3 style8 n">-4     </td>
+            <td class="column4 style8 n">532     </td>
+            <td class="column5 style8 n">489     </td>
+            <td class="column6 style8 n">-8     </td>
+          </tr>
+          <tr class="row56">
+            <td class="column0 style21 s">&nbsp;Fruit juices 2/</td>
+            <td class="column1 style8 n">39     </td>
+            <td class="column2 style8 n">39     </td>
+            <td class="column3 style8 n">-1     </td>
+            <td class="column4 style8 n">479     </td>
+            <td class="column5 style8 n">433     </td>
+            <td class="column6 style8 n">-10     </td>
+          </tr>
+          <tr class="row57">
+            <td class="column0 style21 s">&nbsp;Vegetables, fresh</td>
+            <td class="column1 style8 n">211     </td>
+            <td class="column2 style8 n">170     </td>
+            <td class="column3 style8 n">-19     </td>
+            <td class="column4 style8 n">2,198     </td>
+            <td class="column5 style8 n">2,077     </td>
+            <td class="column6 style8 n">-5     </td>
+          </tr>
+          <tr class="row58">
+            <td class="column0 style21 s">&nbsp;Vegetables, prepared or preserved</td>
+            <td class="column1 style8 n">185     </td>
+            <td class="column2 style8 n">223     </td>
+            <td class="column3 style8 n">20     </td>
+            <td class="column4 style8 n">2,229     </td>
+            <td class="column5 style8 n">2,304     </td>
+            <td class="column6 style8 n">3     </td>
+          </tr>
+          <tr class="row59">
+            <td class="column0 style21 s">&nbsp;Nuts and preparations</td>
+            <td class="column1 style8 n">140     </td>
+            <td class="column2 style8 n">148     </td>
+            <td class="column3 style8 n">5     </td>
+            <td class="column4 style8 n">1,987     </td>
+            <td class="column5 style8 n">1,822     </td>
+            <td class="column6 style8 n">-8     </td>
+          </tr>
+          <tr class="row60">
+            <td class="column0 style21 s">&nbsp;Cotton and linters</td>
+            <td class="column1 style8 n">214     </td>
+            <td class="column2 style8 n">227     </td>
+            <td class="column3 style8 n">6     </td>
+            <td class="column4 style8 n">3,190     </td>
+            <td class="column5 style8 n">2,643     </td>
+            <td class="column6 style8 n">-17     </td>
+          </tr>
+          <tr class="row61">
+            <td class="column0 style21 s">&nbsp;Ethanol (non-beverage) 2/</td>
+            <td class="column1 style8 n">429     </td>
+            <td class="column2 style8 n">387     </td>
+            <td class="column3 style8 n">-10     </td>
+            <td class="column4 style8 n">5,088     </td>
+            <td class="column5 style8 n">4,383     </td>
+            <td class="column6 style8 n">-14     </td>
+          </tr>
+          <tr class="row62">
+            <td class="column0 style16 s">Major bulk</td>
+            <td class="column1 style10 n">6,226     </td>
+            <td class="column2 style10 n">6,458     </td>
+            <td class="column3 style10 n">4     </td>
+            <td class="column4 style10 n">147,722     </td>
+            <td class="column5 style10 n">115,176     </td>
+            <td class="column6 style10 n">-22     </td>
+          </tr>
+          <tr class="row63">
+            <td class="column0 style24 s">All data are preliminary.</td>
+            <td class="column1 style11 null"></td>
+            <td class="column2 style11 null"></td>
+            <td class="column3 style11 null"></td>
+            <td class="column4 style11 null"></td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style11 null"></td>
+          </tr>
+          <tr class="row64">
+            <td class="column0 style14 s">1/ The value &quot;0&quot; indicates that a value was rounded to 0. </td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+          </tr>
+          <tr class="row65">
+            <td class="column0 style14 s">2/ Thousand kiloliters. </td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+          </tr>
+          <tr class="row66">
+            <td class="column0 style15 s style15" colspan="7">Source: USDA, Economic Research Service summary of data released by U.S. Department of Commerce, Bureau of the Census through October 5, 2023.</td>
+          </tr>
+        </tbody>
+    </table>
+  </body>
+</html>

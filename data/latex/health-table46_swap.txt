@@ -1,0 +1,1606 @@
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+% \usepackage{multirow}
+% \usepackage[table,xcdraw]{xcolor}
+% Beamer presentation requires \usepackage{colortbl} instead of \usepackage[table,xcdraw]{xcolor}
+\begin{table}[]
+\begin{tabular}{@{}llrrlllllllllllllllll@{}}
+\multicolumn{21}{l}{\textbf{Baseline values for sodium and related nutrients (per 100g) for Priority-2 Foods}} \\
+\rowcolor[HTML]{FFFFFF} 
+\multicolumn{1}{c}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{1}{c}{\cellcolor[HTML]{FFFFFF}} & \multicolumn{3}{c}{\cellcolor[HTML]{FFFFFF}\textbf{Sodium (mg)}} & \multicolumn{3}{c}{\cellcolor[HTML]{FFFFFF}\textbf{Total Sugar (g)}} & \multicolumn{3}{c}{\cellcolor[HTML]{FFFFFF}\textbf{Saturated Fat (g)}} & \multicolumn{3}{c}{\cellcolor[HTML]{FFFFFF}\textbf{Total Fat (g)}} & \multicolumn{3}{c}{\cellcolor[HTML]{FFFFFF}\textbf{Potassium (mg)}} & \multicolumn{3}{c}{\cellcolor[HTML]{FFFFFF}\textbf{Total Dietary Fiber (g)}} & \textbf{Year of Release} \\
+\rowcolor[HTML]{FFFFFF} 
+\multicolumn{1}{c}{\multirow{-2}{*}{\cellcolor[HTML]{FFFFFF}\textbf{Priority-2 Food}}} & \multicolumn{1}{c}{\multirow{-2}{*}{\cellcolor[HTML]{FFFFFF}\textbf{NDB\_No1}}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}\textbf{N2}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFFFF}\textbf{Mean}} & \textbf{SEM} & \textbf{N2} & \textbf{Mean} & \textbf{SEM} & \textbf{N2} & \textbf{Mean} & \textbf{SEM} & \textbf{N2} & \textbf{Mean} & \textbf{SEM} & \textbf{N2} & \textbf{Mean} & \textbf{SEM} & \textbf{N2} & \textbf{Mean} & \textbf{SEM} & \textbf{} \\
+\rowcolor[HTML]{FADADE} 
+Butter, salted & 01001 & 0 & 643 &  & 0 & 0.06 &  & 0 & 51.368 &  & 580 & 81.11 & 0.065 & 18 & 24 & 0.622 & 0 & 0 &  & 2013 \\
+Butter, whipped, with salt & 01002 & 0 & 659 &  & 0 & 0.06 &  & 0 & 50.489 &  & 580 & 81.11 & 0.065 & 26 & 26 & 2.333 & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cheese, blue & 01004 & 0 & 1146 &  & 0 & 0.5 &  & 0 & 18.669 &  & 20 & 28.74 & 0.399 & 12 & 256 & 41.094 & 0 & 0 &  & 2013 \\
+Cheese, brick & 01005 & 9 & 560 & 37.232 & 0 & 0.51 &  & 0 & 18.764 &  & 16 & 29.68 & 0.319 & 9 & 136 & 22.337 & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cheese, brie & 01006 & 0 & 629 &  & 0 & 0.45 &  & 0 & 17.41 &  & 4 & 27.68 & 1.841 & 1 & 152 &  & 0 & 0 &  & 2013 \\
+Cheese, camembert & 01007 & 10 & 842 & 62.44 & 0 & 0.46 &  & 0 & 15.259 &  & 13 & 24.26 & 0.608 & 9 & 187 & 21.5 & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cheese, colby & 01011 & 12 & 604 & 26.255 & 0 & 0.52 &  & 0 & 20.218 &  & 32 & 32.11 & 0.359 & 12 & 127 & 16.038 & 0 & 0 &  & 2013 \\
+Cheese, cottage, creamed, large or small curd & 01012 & 3 & 364 & 17.616 & 3 & 2.67 & 0.52 & 0 & 1.718 &  & 3 & 4.3 & 0.026 & 3 & 104 & 8.138 & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cheese, cottage, creamed, with fruit & 01013 & 0 & 344 &  & 0 & 2.38 &  & 0 & 2.311 &  & 0 & 3.85 &  & 0 & 90 &  & 0 & 0.2 &  & 2013 \\
+Cheese, cottage, nonfat, uncreamed, dry, large or small curd & 01014 & 0 & 372 &  & 0 & 1.85 &  & 0 & 0.169 &  & 3 & 0.29 & 0.063 & 3 & 137 & 6.667 & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cheese, cottage, lowfat, 1\% milkfat & 01016 & 0 & 406 &  & 0 & 2.72 &  & 0 & 0.645 &  & 5 & 1.02 & 0.097 & 0 & 86 &  & 0 & 0 &  & 2013 \\
+Cheese, cream & 01017 & 0 & 365 &  & 2 & 3.21 &  & 0 & 19.292 &  & 2 & 34.24 &  & 2 & 138 &  & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cheese, edam & 01018 & 0 & 812 &  & 0 & 1.43 &  & 0 & 17.572 &  & 19 & 27.8 & 0.565 & 9 & 188 & 39.814 & 0 & 0 &  & 2013 \\
+Cheese, feta & 01019 & 0 & 917 &  & 0 & 4.09 &  & 0 & 14.946 &  & 23 & 21.28 & 0.893 & 5 & 62 & 5.702 & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cheese, fontina & 01020 & 0 & 800 & \multicolumn{1}{r}{\cellcolor[HTML]{FADADE}} & 0 & 1.55 &  & 0 & 19.196 &  & 17 & 31.14 &  & 0 & 64 &  & 0 & 0 &  & 2013 \\
+Cheese, gouda & 01022 & 3 & 819 & \multicolumn{1}{r}{} & 0 & 2.22 &  & 0 & 17.614 &  & 13 & 27.44 & 0.564 & 8 & 121 &  & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cheese, gruyere & 01023 & 0 & 714 & \multicolumn{1}{r}{\cellcolor[HTML]{FADADE}} & 0 & 0.36 &  & 0 & 18.913 &  & 5 & 32.34 &  & 1 & 81 &  & 0 & 0 &  & 2013 \\
+Cheese, limburger & 01024 & 1 & 800 & \multicolumn{1}{r}{} & 0 & 0.49 &  & 0 & 16.746 &  & 6 & 27.25 & 0.313 & 1 & 128 &  & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cheese, monterey & 01025 & 0 & 600 &  & 0 & 0.5 &  & 0 & 19.066 &  & 10 & 30.28 & 0.361 & 4 & 81 & 11.148 & 0 & 0 &  & 2013 \\
+Cheese, mozzarella, whole milk & 01026 & 6 & 627 & 11.119 & 0 & 1.03 &  & 0 & 13.152 &  & 6 & 22.35 & 0.244 & 6 & 76 & 2.206 & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cheese, mozzarella, whole milk, low moisture & 01027 & 0 & 710 & \multicolumn{1}{r}{\cellcolor[HTML]{FADADE}} & 0 & 1.01 &  & 0 & 15.561 &  & 4 & 24.64 & 1.386 & 0 & 75 &  & 0 & 0 &  & 2013 \\
+Cheese, mozzarella, part skim milk & 01028 & 1 & 619 & \multicolumn{1}{r}{} & 0 & 1.13 &  & 0 & 10.114 &  & 10 & 15.92 & 0.669 & 0 & 84 &  & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cheese, muenster & 01030 & 11 & 628 & 27.405 & 0 & 1.12 &  & 0 & 19.113 &  & 17 & 30.04 & 0.498 & 11 & 134 & 15.673 & 0 & 0 &  & 2013 \\
+Cheese, parmesan, hard & 01033 & 0 & 1376 &  & 0 & 0.8 &  & 0 & 16.41 &  & 24 & 25.83 & 0.726 & 4 & 92 & 5.964 & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cheese, port de salut & 01034 & 0 & 534 &  & 0 & 0.57 &  & 0 & 16.691 &  & 1 & 28.2 &  & 0 & 136 &  & 0 & 0 &  & 2013 \\
+Cheese, provolone & 01035 & 12 & 876 & \multicolumn{1}{r}{50.221} & 0 & 0.56 &  & 0 & 17.078 &  & 24 & 26.62 & 0.341 & 11 & 138 & 12.835 & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cheese, ricotta, whole milk & 01036 & 4 & 84 & \multicolumn{1}{r}{\cellcolor[HTML]{FADADE}29.332} & 0 & 0.27 &  & 0 & 8.295 &  & 9 & 12.98 & 0.761 & 4 & 105 & 12.944 & 0 & 0 &  & 2013 \\
+Cheese, ricotta, part skim milk & 01037 & 0 & 99 &  & 0 & 0.31 &  & 0 & 4.927 &  & 12 & 7.91 & 0.612 & 8 & 125 & 9.806 & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cheese, romano & 01038 & 0 & 1433 &  & 0 & 0.73 &  & 0 & 17.115 &  & 7 & 26.94 & 0.969 & 0 & 86 &  & 0 & 0 &  & 2013 \\
+Cheese, swiss & 01040 & 0 & 70 & \multicolumn{1}{r}{} & 2 & 1.32 &  & 0 & 17.779 &  & 6 & 27.8 & 0.956 & 18 & 77 & 1.061 & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cheese, pasteurized process, American, fortified with vitamin D & 01042 & 19 & 1671 & 21.213 & 5 & 2.26 & 0.092 & 0 & 18.057 &  & 13 & 30.71 & 0.055 & 19 & 132 & 3.899 & 0 & 0 &  & 2013 \\
+Cheese, pasteurized process, pimento & 01043 & 0 & 915 &  & 0 & 0.62 &  & 0 & 19.663 &  & 0 & 31.2 &  & 0 & 162 &  & 0 & 0.1 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cheese, pasteurized process, swiss & 01044 & 6 & 1370 & \multicolumn{1}{r}{\cellcolor[HTML]{FADADE}64.664} & 0 & 1.23 &  & 0 & 16.045 &  & 10 & 25.01 & 0.294 & 6 & 216 & 14.471 & 0 & 0 &  & 2013 \\
+Cheese food, pasteurized process, American, vitamin D fortified & 01046 & 10 & 1284 & 36.43 & 3 & 5.59 & 0.203 & 0 & 15.057 &  & 7 & 25.63 & 0.494 & 10 & 255 & 14.508 & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cheese spread, pasteurized process, American & 01048 & 0 & 1625 &  & 0 & 7.32 &  & 0 & 13.327 &  & 28 & 21.23 & 0.382 & 4 & 242 & 66.976 & 0 & 0 &  & 2013 \\
+Cream, sour, reduced fat, cultured & 01055 & 0 & 89 &  & 0 & 0.16 &  & 0 & 7.47 &  & 0 & 12 &  & 0 & 129 &  & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Eggnog & 01057 & 6 & 54 & 2.014 & 0 & 8.05 &  & 0 & 2.591 &  & 0 & 4.19 &  & 6 & 165 & 9.997 & 0 & 0 &  & 2013 \\
+Cheese, American, nonfat or fat free & 01061 & 0 & 1316 &  & 0 & 5.26 &  & 0 & 0 &  & 0 & 0 &  & 0 & 393 &  & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cream substitute, liquid, with hydrogenated vegetable oil and soy protein & 01067 & 0 & 67 &  & 0 & 11.38 &  & 0 & 1.937 &  & 42 & 9.97 & 0.276 & 6 & 191 & 39.601 & 0 & 0 &  & 2013 \\
+Cream substitute, powdered & 01069 & 0 & 123 & \multicolumn{1}{r}{} & 0 & 54.88 &  & 0 & 32.525 &  & 40 & 35.48 & 0.42 & 18 & 812 & 41.384 & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Sour cream, imitation, cultured & 01074 & 3 & 102 & 28.006 & 0 & 6.63 &  & 0 & 17.791 &  & 9 & 19.52 & 0.418 & 2 & 161 &  & 0 & 0 &  & 2013 \\
+Milk, buttermilk, fluid, cultured, lowfat & 01088 & 0 & 190 &  & 0 & 4.79 &  & 0 & 0.548 &  & 19 & 0.88 & 0.174 & 14 & 151 & 6.264 & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Milk, buttermilk, dried & 01094 & 0 & 517 &  & 0 & 49 &  & 0 & 3.598 &  & 163 & 5.78 & 0.077 & 340 & 1592 & 5.486 & 0 & 0 &  & 2013 \\
+Cheese, goat, hard type & 01156 & 0 & 423 &  & 0 & 2.17 &  & 0 & 24.609 &  & 7 & 35.59 & 1.008 & 6 & 48 & 15.479 & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cheese, goat, semisoft type & 01157 & 0 & 415 &  & 0 & 0.12 &  & 0 & 20.639 &  & 464 & 29.84 & 0.419 & 11 & 158 & 13.493 & 0 & 0 &  & 2013 \\
+Cheese, goat, soft type & 01159 & 0 & 459 &  & 0 & 0.89 &  & 0 & 14.575 &  & 83 & 21.08 & 0.527 & 65 & 26 & 3.238 & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cheese substitute, mozzarella & 01161 & 4 & 685 & 272.76 & 0 & 23.67 &  & 0 & 3.711 &  & 4 & 12.22 & 0.422 & 4 & 455 & 233.722 & 0 & 0 &  & 2013 \\
+Cheese, mexican, queso anejo & 01165 & 4 & 1131 & 13.589 & 0 & 4.63 &  & 0 & 19.033 &  & 2 & 29.98 &  & 2 & 87 &  & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cheese, mexican, queso asadero & 01166 & 0 & 705 &  & 0 & 2.87 &  & 0 & 17.939 &  & 2 & 28.26 &  & 2 & 86 &  & 0 & 0 &  & 2013 \\
+Cheese, mexican, queso chihuahua & 01167 & 4 & 617 & 6.112 & 0 & 5.56 &  & 0 & 18.843 &  & 2 & 29.68 &  & 2 & 52 &  & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cheese, low fat, cheddar or colby & 01168 & 0 & 873 &  & 0 & 0.52 &  & 0 & 4.342 &  & 0 & 7 &  & 0 & 66 &  & 0 & 0 &  & 2013 \\
+Sour cream, reduced fat & 01178 & 0 & 70 &  & 0 & 0.3 &  & 0 & 8.7 &  & 0 & 14.1 &  & 0 & 211 &  & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Sour cream, light & 01179 & 0 & 83 &  & 0 & 0.22 &  & 0 & 6.6 &  & 0 & 10.6 &  & 0 & 212 &  & 0 & 0 &  & 2013 \\
+Sour cream, fat free & 01180 & 0 & 141 &  & 0 & 0.39 &  & 0 & 0 &  & 0 & 0 &  & 0 & 129 &  & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+USDA Commodity, cheese, cheddar, reduced fat & 01182 & 1 & 725 &  & 0 & 0.58 &  & 1 & 11.58 &  & 1 & 18.3 &  & 1 & 93 &  & 0 & 0 &  & 2013 \\
+Parmesan cheese topping, fat free & 01185 & 0 & 1150 &  & 0 & 1.5 &  & 0 & 3.11 &  & 0 & 5 &  & 0 & 600 &  & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cheese, cream, fat free & 01186 & 2 & 702 &  & 2 & 5.48 &  & 0 & 0.644 &  & 2 & 1 &  & 2 & 278 &  & 0 & 0 &  & 2013 \\
+Cheese, parmesan, dry grated, reduced fat & 01204 & 6 & 1529 & 51.778 & 1 & 0 &  & 0 & 13.317 &  & 1 & 20 &  & 6 & 125 & 17.696 & 1 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cream substitute, flavored, liquid & 01205 & 0 & 67 &  & 0 & 33.04 &  & 0 & 2.635 &  & 0 & 13.5 &  & 0 & 96 &  & 0 & 1.1 &  & 2013 \\
+Cream substitute, flavored, powdered & 01206 & 0 & 123 & \multicolumn{1}{r}{} & 0 & 58.01 &  & 0 & 19.446 &  & 0 & 21.47 &  & 0 & 90 &  & 0 & 1.2 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cheese, provolone, reduced fat & 01208 & 0 & 615 &  & 0 & 0.55 &  & 0 & 11.3 &  & 0 & 17.6 &  & 11 & 138 & 12.835 & 0 & 0 &  & 2013 \\
+Cheese, Mexican, blend, reduced fat & 01209 & 2 & 776 &  & 0 & 0.56 &  & 1 & 11.58 &  & 2 & 19.4 &  & 1 & 93 &  & 2 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cheese product, pasteurized process, American, reduced fat, fortified with vitamin D & 01215 & 0 & 1201 &  & 0 & 8.02 &  & 0 & 8.85 &  & 0 & 14.1 &  & 0 & 330 &  & 0 & 0 &  & 2013 \\
+Protein supplement, milk based, Muscle Milk, powder & 01223 & 1 & 329 &  & 1 & 5.71 &  & 0 & 1.553 &  & 1 & 17.14 &  & 1 & 1129 &  & 1 & 7.1 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Protein supplement, milk based, Muscle Milk Light, powder & 01224 & 1 & 250 & \multicolumn{1}{r}{\cellcolor[HTML]{FADADE}} & 1 & 4 &  & 0 & 1.087 &  & 1 & 12 &  & 1 & 840 &  & 1 & 2 &  & 2013 \\
+Cheese, fresh, queso fresco & 01228 & 6 & 751 & 62.925 & 6 & 2.32 & 0.062 & 0 & 12.94 &  & 6 & 23.82 & 0.978 & 6 & 129 & 3.212 & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Milk, buttermilk, fluid, whole & 01230 & 0 & 105 &  & 0 & 4.88 &  & 0 & 1.899 &  & 0 & 3.31 &  & 0 & 135 &  & 0 & 0 &  & 2013 \\
+Nutritional supplement for people with diabetes, liquid & 01250 & 1 & 92 &  & 0 & 2.64 &  & 0 & 0.232 &  & 1 & 3.08 &  & 1 & 176 &  & 1 & 2.2 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cheese, Mexican blend & 01251 & 0 & 338 &  & 0 & 1.23 &  & 0 & 17.027 &  & 0 & 28.51 &  & 0 & 85 &  & 0 & 0 &  & 2013 \\
+Cheese food, pasteurized process, American, without added vitamin D & 01254 & 0 & 1441 & \multicolumn{1}{r}{} & 3 & 5.59 & 0.203 & 0 & 15.057 &  & 7 & 25.63 & 0.494 & 10 & 255 & 14.508 & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cheese spread, American or Cheddar cheese base, reduced fat & 01259 & 10 & 1102 & 86.302 & 4 & 7.06 & 0.399 & 0 & 5.647 &  & 10 & 8.88 & 0.221 & 10 & 250 & 16.126 & 0 & 0 &  & 2013 \\
+Cheese, cheddar, reduced fat & 01260 & 5 & 628 & 4.284 & 1 & 0.26 &  & 0 & 12.602 &  & 5 & 20.41 & 0.207 & 5 & 63 & 3.709 & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cheese, cheddar, nonfat or fat free & 01265 & 0 & 1000 &  & 0 & 0 &  & 0 & 0 &  & 0 & 0 &  & 0 & 66 &  & 0 & 0 &  & 2013 \\
+Cheese, Swiss, nonfat or fat free & 01266 & 0 & 1000 &  & 0 & 1.33 &  & 0 & 0 &  & 0 & 0 &  & 0 & 111 &  & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Queso cotija & 01267 & 0 & 1400 &  & 0 & 0 &  & 0 & 17.5 &  & 0 & 30 &  & 0 & 125 &  & 0 & 0 &  & 2013 \\
+Capers, canned & 02054 & 0 & 2769 & \multicolumn{1}{r}{} & 0 & 0.41 &  & 1 & 0.233 &  & 2 & 0.86 &  & 2 & 40 &  & 4 & 3.2 & 0.36 & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Horseradish, prepared & 02055 & 0 & 420 &  & 0 & 7.99 &  & 1 & 0.09 &  & 2 & 0.69 &  & 2 & 246 &  & 2 & 3.3 &  & 2013 \\
+Babyfood, crackers, vegetable & 03209 & 0 & 571 &  & 0 & 13 &  & 0 & 1.966 &  & 0 & 19.6 &  & 0 & 245 &  & 0 & 4 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Babyfood, cookies & 03213 & 0 & 300 &  & 0 & 24.2 &  & 0 & 2.352 &  & 8 & 13.2 & 0.3 & 2 & 501 &  & 0 & 0.2 &  & 2013 \\
+Babyfood, teething biscuits & 03216 & 0 & 285 &  & 0 & 12.65 &  & 0 & 1.206 &  & 3 & 4.2 & 0.2 & 2 & 323 &  & 0 & 1.4 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Zwieback & 03217 & 0 & 227 &  & 0 & 12.5 &  & 0 & 2.525 &  & 0 & 9.7 &  & 1 & 305 &  & 0 & 2.5 &  & 2013 \\
+Baby food, fortified cereal bar, fruit filling & 03964 & 0 & 157 &  & 0 & 42 &  & 0 & 0.453 &  & 0 & 5.3 &  & 0 & 180 &  & 0 & 1.7 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Babyfood, Baby MUM MUM Rice Biscuits & 03997 & 0 & 313 &  & 0 & 12.5 &  & 0 & 0.238 &  & 0 & 0.87 &  & 0 & 504 &  & 0 & 0 &  & 2013 \\
+Babyfood, Snack, GERBER, GRADUATES, LIL CRUNCHIES, baked whole grain corn snack & 03998 & 0 & 71 &  & 0 & 0 &  & 0 & 4.669 &  & 0 & 28.57 &  & 0 & 214 &  & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Salad dressing, russian dressing & 04015 & 0 & 1133 &  & 1 & 17.68 &  & 1 & 2.39 &  & 0 & 26.18 &  & 0 & 173 &  & 1 & 0.7 &  & 2013 \\
+Salad dressing, sesame seed dressing, regular & 04016 & 0 & 1000 &  & 0 & 8.32 &  & 0 & 6.2 &  & 6 & 45.2 & 4.899 & 0 & 157 &  & 0 & 1 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Salad dressing, thousand island, commercial, regular & 04017 & 0 & 962 &  & 2 & 15.18 &  & 0 & 5.092 &  & 6 & 35.06 & 0.791 & 6 & 107 & 2.622 & 2 & 0.8 &  & 2013 \\
+Salad dressing, french dressing, reduced fat & 04020 & 0 & 838 &  & 2 & 16.86 &  & 0 & 0.842 &  & 5 & 11.52 & 2.152 & 3 & 107 & 1.943 & 3 & 1.5 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Salad dressing, italian dressing, commercial, reduced fat & 04021 & 0 & 891 &  & 6 & 9.16 & 0.046 & 0 & 0.833 &  & 10 & 6.68 & 0.075 & 10 & 90 & 3.024 & 1 & 0 &  & 2013 \\
+Salad dressing, russian dressing, low calorie & 04022 & 0 & 868 &  & 0 & 21.87 &  & 0 & 0.6 &  & 3 & 4 & 0.265 & 0 & 157 &  & 0 & 0.3 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Salad dressing, thousand island dressing, reduced fat & 04023 & 0 & 955 &  & 2 & 17.31 &  & 0 & 0.746 &  & 4 & 11.32 & 1.829 & 3 & 202 & 3.374 & 3 & 1.2 & 0.003 & 2013 \\
+Salad dressing, mayonnaise, imitation, soybean & 04027 & 1 & 497 & \multicolumn{1}{r}{} & 0 & 6 &  & 0 & 3.3 &  & 3 & 19.2 & 4.909 & 0 & 10 &  & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Salad dressing, mayonnaise, imitation, soybean without cholesterol & 04029 & 1 & 353 &  & 0 & 6 &  & 0 & 7.5 &  & 3 & 47.7 & 2.691 & 0 & 10 &  & 0 & 0 &  & 2013 \\
+Sandwich spread, with chopped pickle, regular, unspecified oils & 04030 & 0 & 1000 & \multicolumn{1}{r}{} & 0 & 15.18 &  & 0 & 5.1 &  & 7 & 34 & 1.57 & 0 & 35 &  & 0 & 0.4 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Salad dressing, french dressing, commercial, regular & 04120 & 5 & 836 & 54.415 & 1 & 15.95 &  & 0 & 5.648 &  & 5 & 44.81 & 2.449 & 5 & 67 & 6.129 & 1 & 0 &  & 2013 \\
+Margarine-like, vegetable oil spread, unspecified oils, approximately 37\% fat, with salt & 04128 & 4 & 589 & 23.848 & 0 & 0 &  & 0 & 8.637 &  & 13 & 37.77 & 0.679 & 4 & 34 & 10.352 & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Salad dressing, french dressing, fat-free & 04367 & 0 & 853 &  & 0 & 16.45 &  & 0 & 0.037 &  & 3 & 0.27 & 0.065 & 3 & 84 & 4.213 & 1 & 2.2 &  & 2013 \\
+Salad dressing, blue or roquefort cheese dressing, commercial, regular & 04539 & 0 & 642 &  & 2 & 3.48 &  & 2 & 8.275 &  & 2 & 51.1 &  & 0 & 88 &  & 2 & 0.4 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Margarine-like, margarine-butter blend, soybean oil and butter & 04585 & 0 & 719 &  & 0 & 0 &  & 0 & 14.198 &  & 1 & 80.32 &  & 1 & 22 &  & 0 & 0 &  & 2013 \\
+Margarine-like, vegetable oil-butter spread, tub, with salt & 04600 & 0 & 786 &  & 0 & 0 &  & 0 & 7.238 &  & 0 & 40 &  & 0 & 36 &  & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Butter, light, stick, with salt & 04601 & 1 & 450 &  & 0 & 0 &  & 0 & 34.321 &  & 1 & 55.1 &  & 1 & 71 &  & 0 & 0 &  & 2013 \\
+Margarine, regular, 80\% fat, composite, stick, with salt & 04610 & 0 & 751 &  & 0 & 0 &  & 0 & 15.189 &  & 10 & 80.71 & 0.222 & 6 & 18 & 0.862 & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Margarine, regular, 80\% fat, composite, tub, with salt & 04611 & 2 & 657 &  & 0 & 0 &  & 0 & 14.224 &  & 10 & 80.17 & 0.253 & 2 & 17 &  & 0 & 0 &  & 2013 \\
+Margarine-like, vegetable oil spread, 60\% fat, stick, with salt & 04612 & 0 & 785 &  & 0 & 0 &  & 0 & 10.884 &  & 4 & 60.39 & 0.54 & 0 & 30 &  & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Margarine-like, vegetable oil spread, 60\% fat, tub, with salt & 04613 & 0 & 615 &  & 0 & 0 &  & 0 & 12.086 &  & 16 & 59.81 & 0.13 & 0 & 30 &  & 0 & 0 &  & 2013 \\
+Margarine-like, vegetable oil spread, 60\% fat, stick/tub/bottle, with salt & 04614 & 0 & 700 & \multicolumn{1}{r}{} & 0 & 0 &  & 0 & 10.042 &  & 0 & 59.17 &  & 0 & 30 &  & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Margarine-like, vegetable oil spread, fat free, liquid, with salt & 04624 & 0 & 833 &  & 0 & 0 &  & 0 & 0.416 &  & 0 & 3 &  & 0 & 50 &  & 0 & 0 &  & 2013 \\
+Margarine-like spread with yogurt, 70\% fat, stick, with salt & 04626 & 0 & 590 &  & 0 & 0 &  & 0 & 13.3 &  & 0 & 70 &  & 0 & 25 &  & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Margarine-like spread with yogurt, approximately 40\% fat, tub, with salt & 04627 & 0 & 630 &  & 0 & 0 &  & 0 & 7 &  & 0 & 35 &  & 0 & 64 &  & 0 & 0 &  & 2013 \\
+Margarine-like, vegetable oil spread, fat-free, tub & 04631 & 2 & 580 &  & 0 & 0 &  & 0 & 2.128 &  & 2 & 3.04 &  & 2 & 36 &  & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Margarine-like, vegetable oil spread, 20\% fat, with salt & 04633 & 0 & 733 &  & 0 & 0 &  & 0 & 2.87 &  & 0 & 19.5 &  & 0 & 25 &  & 0 & 0 &  & 2013 \\
+Salad dressing, thousand island dressing, fat-free & 04635 & 0 & 788 &  & 2 & 16.83 &  & 0 & 0.198 &  & 3 & 1.45 & 0.049 & 3 & 122 & 3.928 & 2 & 3.3 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Salad dressing, italian dressing, fat-free & 04636 & 3 & 1129 & 35.455 & 2 & 8.85 &  & 0 & 0.295 &  & 3 & 0.87 & 0.051 & 3 & 102 & 5.068 & 2 & 0.6 &  & 2013 \\
+Salad dressing, mayonnaise, light & 04641 & 0 & 827 & \multicolumn{1}{r}{} & 5 & 3.56 & 0.045 & 0 & 3.446 &  & 12 & 22.22 & 0.304 & 12 & 31 & 3.502 & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Salad dressing, honey mustard dressing, reduced calorie & 04686 & 0 & 701 & \multicolumn{1}{r}{\cellcolor[HTML]{FADADE}} & 0 & 18.33 &  & 2 & 0.833 &  & 0 & 10 &  & 0 & 55 &  & 0 & 0.8 &  & 2013 \\
+Margarine-like, vegetable oil spread, approximately 37\% fat, unspecified oils, with salt, with added vitamin D & 04690 & 4 & 589 & 23.848 & 0 & 0 &  & 0 & 8.637 &  & 13 & 37.77 & 0.679 & 4 & 34 & 10.352 & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Margarine, regular, 80\% fat, composite, stick, with salt, with added vitamin D & 04691 & 0 & 751 &  & 0 & 0 &  & 0 & 15.189 &  & 10 & 80.71 & 0.222 & 0 & 18 &  & 0 & 0 &  & 2013 \\
+Margarine, regular, 80\% fat, composite, tub, with salt, with added vitamin D & 04692 & 2 & 657 &  & 0 & 0 &  & 0 & 14.224 &  & 10 & 80.17 & 0.253 & 2 & 17 &  & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Margarine-like, vegetable oil spread, 60\% fat, stick, with salt, with added vitamin D & 04693 & 0 & 785 &  & 0 & 0 &  & 0 & 10.884 &  & 4 & 60.39 & 0.54 & 0 & 30 &  & 0 & 0 &  & 2013 \\
+Margarine-like, vegetable oil spread, 60\% fat, tub, with salt, with added vitamin D & 04694 & 0 & 785 & \multicolumn{1}{r}{} & 0 & 0 &  & 0 & 12.086 &  & 16 & 59.81 & 0.13 & 0 & 30 &  & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Margarine-like vegetable-oil spread, stick/tub/bottle, 60\% fat, with added vitamin D & 04695 & 0 & 785 &  & 0 & 0 &  & 0 & 10.042 &  & 0 & 59.17 &  & 0 & 30 &  & 0 & 0 &  & 2013 \\
+Salad dressing, honey mustard, regular & 04703 & 0 & 512 &  & 0 & 15.84 &  & 0 & 5 &  & 0 & 40.83 &  & 0 & 20 &  & 0 & 0.4 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Salad dressing, poppyseed, creamy & 04704 & 0 & 933 &  & 0 & 23.39 &  & 0 & 6.061 &  & 0 & 33.33 &  & 0 & 61 &  & 0 & 0.3 &  & 2013 \\
+Dressing, honey mustard, fat-free & 04706 & 2 & 1004 &  & 0 & 17.75 &  & 0 & 0.349 &  & 0 & 1.47 &  & 0 & 69 &  & 2 & 1.2 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Mayonnaise, reduced fat, with olive oil & 04708 & 0 & 800 &  & 0 & 0 &  & 0 & 5.37 &  & 0 & 40 &  & 12 & 31 & 3.502 & 0 & 0 &  & 2013 \\
+Chicken, broiler, rotisserie, BBQ, breast meat only & 05000 & 0 & 328 &  & 0 & 0 &  & 0 & 0.863 &  & 4 & 3.57 & 0.37 & 0 & 284 &  & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Turkey, canned, meat only, with broth & 05284 & 0 & 518 &  & 0 & 0 &  & 0 & 2 &  & 9 & 6.86 & 0.242 & 0 & 224 &  & 0 & 0 &  & 2013 \\
+Chicken, broilers or fryers, breast, skinless, boneless, meat only, enhanced, raw & 05314 & 6 & 173 & 12.405 & 0 & 0 &  & 0 & 0.545 &  & 6 & 3 & 0.248 & 6 & 332 & 25.132 & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Chicken, broiler, rotisserie, BBQ, drumstick, meat only & 05319 & 0 & 403 &  & 0 & 0 &  & 0 & 1.573 &  & 4 & 6.76 & 0.14 & 0 & 291 &  & 0 & 0 &  & 2013 \\
+Chicken, broiler, rotisserie, BBQ, thigh, meat only & 05334 & 0 & 335 &  & 0 & 0 &  & 0 & 2.777 &  & 4 & 10.74 & 0.555 & 0 & 262 &  & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Chicken, broiler, rotisserie, BBQ, wing, meat only & 05339 & 0 & 725 &  & 1 & 0.53 &  & 0 & 2.134 &  & 1 & 7.79 &  & 0 & 322 &  & 0 & 0 &  & 2013 \\
+Chicken, broiler, rotisserie, BBQ, skin & 05356 & 12 & 335 & 23.382 & 12 & 0.7 & 0.356 & 0 & 9.333 &  & 12 & 35.15 & 1.112 & 12 & 223 & 14.253 & 3 & 0 & 0 & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Chicken, broiler, rotisserie, BBQ, back meat and skin & 05357 & 0 & 509 &  & 0 & 0.4 &  & 0 & 4.953 &  & 0 & 18.86 &  & 0 & 254 &  & 0 & 0 &  & 2013 \\
+Chicken, broiler, rotisserie, BBQ, breast meat and skin & 05358 & 0 & 329 &  & 0 & 0.09 &  & 0 & 1.958 &  & 0 & 7.67 &  & 0 & 276 &  & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Chicken, broiler, rotisserie, BBQ, drumstick meat and skin & 05359 & 0 & 392 &  & 0 & 0.12 &  & 0 & 2.855 &  & 0 & 11.46 &  & 0 & 279 &  & 0 & 0 &  & 2013 \\
+Chicken, broiler, rotisserie, BBQ, thigh meat and skin & 05361 & 0 & 335 &  & 0 & 0.12 &  & 0 & 3.927 &  & 0 & 15.08 &  & 0 & 255 &  & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Chicken, broiler, rotisserie, BBQ, wing meat and skin & 05362 & 0 & 579 &  & 0 & 0.6 &  & 0 & 4.627 &  & 0 & 18.04 &  & 0 & 285 &  & 0 & 0 &  & 2013 \\
+Chicken, dark meat, drumstick, meat only, enhanced, raw & 05678 & 4 & 152 & 6.597 & 0 & 0 &  & 0 & 0.954 &  & 4 & 3.26 & 0.171 & 4 & 192 & 6.964 & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Chicken, Dark meat, Drumstick, Meat only, Enhanced, Cooked, Roasted & 05679 & 4 & 190 & 15.962 & 0 & 0 &  & 0 & 1.438 &  & 4 & 5 & 0.315 & 4 & 250 & 12.214 & 0 & 0 &  & 2013 \\
+Chicken, dark meat, drumstick, meat only, enhanced, cooked, braised & 05680 & 1 & 169 &  & 0 & 0 &  & 0 & 1.73 &  & 1 & 6.33 &  & 1 & 229 &  & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Chicken, dark meat, thigh, meat only, enhanced, cooked, braised & 05681 & 2 & 197 &  & 0 & 0 &  & 0 & 2.04 &  & 2 & 7.96 &  & 2 & 290 &  & 0 & 0 &  & 2013 \\
+Chicken, dark meat, thigh, meat only, enhanced, raw & 05682 & 5 & 156 & 7.05 & 0 & 0 &  & 0 & 0.899 &  & 5 & 3.69 & 0.337 & 5 & 234 & 1.795 & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Chicken, dark meat, thigh, meat only, enhanced, cooked, roasted & 05683 & 5 & 177 & 6.263 & 0 & 0 &  & 0 & 2.405 &  & 5 & 7.5 & 0.451 & 5 & 268 & 7.041 & 0 & 0 &  & 2013 \\
+Chicken, skin (drumsticks and thighs), enhanced, cooked, braised & 05684 & 1 & 139 &  & 0 & 0 &  & 0 & 10.605 &  & 1 & 38.94 &  & 1 & 146 &  & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Chicken, skin (drumsticks and thighs), enhanced, raw & 05685 & 4 & 139 & 10.77 & 0 & 0 &  & 0 & 10.565 &  & 4 & 37.9 & 0.812 & 4 & 101 & 5.187 & 0 & 0 &  & 2013 \\
+Chicken, skin (drumsticks and thighs), enhanced, cooked, roasted & 05686 & 4 & 162 & 7.195 & 0 & 0 &  & 0 & 11.376 &  & 4 & 37.6 & 0.534 & 4 & 198 & 7.343 & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Chicken, dark meat, drumstick, meat and skin, enhanced, braised & 05687 & 0 & 165 & \multicolumn{1}{r}{\cellcolor[HTML]{FADADE}} & 0 & 0 &  & 0 & 2.923 &  & 0 & 10.71 &  & 0 & 218 &  & 0 & 0 &  & 2013 \\
+Chicken, dark meat, drumstick, meat and skin, enhanced, raw, & 05688 & 0 & 150 &  & 0 & 0 &  & 0 & 2.334 &  & 0 & 8.24 &  & 0 & 179 &  & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Chicken, dark meat, drumstick, meat and skin, enhanced, cooked, roasted & 05689 & 0 & 186 &  & 0 & 0 &  & 0 & 2.656 &  & 0 & 9 &  & 0 & 244 &  & 0 & 0 &  & 2013 \\
+Chicken, dark meat, thigh, meat and skin, enhanced, cooked, braised & 05690 & 0 & 185 &  & 0 & 0 &  & 0 & 3.881 &  & 0 & 14.62 &  & 0 & 259 &  & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Chicken, dark meat, thigh, meat and skin, enhanced, raw & 05691 & 0 & 151 &  & 0 & 0 &  & 0 & 3.975 &  & 0 & 14.58 &  & 0 & 191 &  & 0 & 0 &  & 2013 \\
+Chicken, dark meat, thigh, meat and skin, enhanced, cooked, roasted & 05692 & 0 & 174 &  & 0 & 0 &  & 0 & 4.145 &  & 0 & 13.34 &  & 0 & 254 &  & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Chicken, broiler, rotisserie, BBQ, back meat only & 05693 & 0 & 563 &  & 1 & 0.31 &  & 0 & 3.613 &  & 1 & 13.87 &  & 0 & 263 &  & 0 & 0 &  & 2013 \\
+Turkey, enhanced, dark meat, meat only, cooked, roasted & 05695 & 6 & 201 & 19.379 & 0 & 0 &  & 0 & 1.807 &  & 6 & 6 & 0.267 & 10 & 227 & 5.468 & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Turkey from whole, enhanced, light meat, meat only, cooked, roasted & 05697 & 6 & 238 & 24.753 & 0 & 0 &  & 0 & 0.593 &  & 6 & 2.08 & 0.208 & 10 & 249 & 3.094 & 0 & 0 &  & 2013 \\
+Turkey, enhanced, skin from whole, (light and dark), roasted & 05699 & 2 & 234 &  & 0 & 0 &  & 0 & 11.356 &  & 2 & 40.31 &  & 2 & 263 &  & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Turkey, enhanced, dark meat from whole, meat and skin, cooked, roasted & 05701 & 0 & 206 &  & 0 & 0 &  & 0 & 3.145 &  & 0 & 10.81 &  & 0 & 232 &  & 0 & 0 &  & 2013 \\
+Turkey from whole, enhanced, light meat, meat and skin, cooked, roasted & 05703 & 0 & 237 &  & 0 & 0 &  & 0 & 1.593 &  & 0 & 5.64 &  & 0 & 250 &  & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Turkey, whole, enhanced, meat only, roasted & 05705 & 0 & 223 &  & 0 & 0 &  & 0 & 1.093 &  & 0 & 3.7 &  & 0 & 239 &  & 0 & 0 &  & 2013 \\
+Turkey, whole, enhanced, meat and skin, roasted & 05707 & 0 & 224 &  & 0 & 0 &  & 0 & 2.301 &  & 0 & 8.01 &  & 0 & 242 &  & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Turkey, retail parts, enhanced, breast, meat only, raw & 05708 & 3 & 124 & 30.04 & 0 & 0 &  & 0 & 0.763 &  & 3 & 2.53 & 0.148 & 3 & 237 & 10.735 & 0 & 0 &  & 2013 \\
+Turkey, retail parts, enhanced, breast, meat only, cooked, roasted & 05709 & 3 & 184 & 39.698 & 0 & 0 &  & 0 & 0.428 &  & 3 & 2.08 & 0.506 & 3 & 264 & 7.341 & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Turkey, breast, from whole bird, enhanced, meat only, roasted & 05718 & 6 & 238 & 24.753 & 0 & 0 &  & 0 & 0.593 &  & 6 & 2.08 & 0.208 & 10 & 249 & 3.094 & 0 & 0 &  & 2013 \\
+Turkey, back, from whole bird, enhanced, meat only, roasted & 05720 & 6 & 238 & 24.753 & 0 & 0 &  & 0 & 0.593 &  & 6 & 2.08 & 0.208 & 10 & 249 & 3.094 & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Turkey, drumstick, from whole bird, enhanced, meat only, roasted & 05725 & 6 & 201 & 19.379 & 0 & 0 &  & 0 & 1.807 &  & 6 & 6 & 0.267 & 10 & 227 & 5.468 & 0 & 0 &  & 2013 \\
+Turkey, retail parts, enhanced, breast, meat and skin, raw & 05727 & 0 & 126 &  & 0 & 0.01 &  & 0 & 1.497 &  & 0 & 6.75 &  & 0 & 221 &  & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Turkey, thigh, from whole bird, enhanced, meat only, roasted & 05728 & 6 & 201 & 19.379 & 0 & 0 &  & 0 & 1.807 &  & 6 & 6 & 0.267 & 10 & 227 & 5.468 & 0 & 0 &  & 2013 \\
+Turkey, wing, from whole bird, enhanced, meat only, roasted & 05730 & 6 & 238 & 24.753 & 0 & 0 &  & 0 & 0.593 &  & 6 & 2.08 & 0.208 & 10 & 249 & 3.094 & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Turkey, back, from whole bird, enhanced, meat and skin, roasted & 05745 & 0 & 237 &  & 0 & 0 &  & 0 & 3.205 &  & 0 & 11.36 &  & 0 & 252 &  & 0 & 0 &  & 2013 \\
+Soup, cream of asparagus, canned, condensed & 06001 & 0 & 669 &  & 0 & 0.72 &  & 0 & 0.82 &  & 10 & 3.26 & 0.052 & 1 & 138 &  & 0 & 0.4 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Soup, bean with pork, canned, condensed & 06004 & 1 & 672 &  & 0 & 3 &  & 0 & 1.14 &  & 13 & 4.42 & 0.124 & 1 & 375 &  & 0 & 5.9 &  & 2013 \\
+Soup, beef broth or bouillon canned, ready-to-serve & 06008 & 3 & 372 &  & 0 & 0 &  & 0 & 0.11 &  & 10 & 0.22 & 0.059 & 1 & 54 &  & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Soup, beef noodle, canned, condensed & 06009 & 0 & 653 &  & 0 & 2.06 &  & 0 & 0.91 &  & 28 & 2.46 & 0.052 & 2 & 79 &  & 0 & 0.6 &  & 2013 \\
+Soup, cream of celery, canned, condensed & 06010 & 1 & 516 &  & 0 & 1.35 &  & 0 & 1.12 &  & 14 & 4.46 & 0.182 & 2 & 98 &  & 0 & 0.6 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Soup, cheese, canned, condensed & 06011 & 0 & 692 &  & 0 & 3.73 &  & 0 & 2.45 &  & 0 & 3.92 &  & 0 & 37 &  & 0 & 2.2 &  & 2013 \\
+Soup, chicken with dumplings, canned, condensed & 06012 & 0 & 618 &  & 0 & 0.46 &  & 0 & 1.07 &  & 10 & 4.51 & 0.105 & 1 & 95 &  & 0 & 0.4 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Soup, chicken broth, canned, condensed & 06013 & 1 & 621 &  & 0 & 0.35 &  & 0 & 0.31 &  & 10 & 1.04 & 0.175 & 1 & 170 &  & 0 & 0 &  & 2013 \\
+Soup, chicken, canned, chunky, ready-to-serve & 06015 & 10 & 354 & 6.011 & 0 & 0.87 &  & 0 & 0.79 &  & 10 & 2.64 & 0.045 & 1 & 70 &  & 0 & 0.6 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Soup, cream of chicken, canned, condensed & 06016 & 1 & 702 &  & 0 & 0.54 &  & 0 & 1.697 &  & 6 & 5.77 & 0.392 & 6 & 49 & 1.9 & 2 & 0 &  & 2013 \\
+Soup, chunky chicken noodle, canned, ready-to-serve & 06018 & 10 & 306 & 8.035 & 6 & 0.38 & 0.017 & 0 & 0.627 &  & 10 & 1.16 & 0.067 & 10 & 117 & 11.102 & 6 & 0.8 & 0.067 & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Soup, chicken rice, canned, chunky, ready-to-serve & 06022 & 10 & 370 & 7.341 & 0 & 0.6 &  & 0 & 0.4 &  & 10 & 1.33 & 0.047 & 0 & 45 &  & 0 & 0.4 &  & 2013 \\
+Soup, chicken with rice, canned, condensed & 06023 & 0 & 645 &  & 0 & 0.23 &  & 0 & 0.37 &  & 13 & 1.56 & 0.054 & 0 & 34 &  & 0 & 0.9 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Soup, chicken vegetable, canned, condensed & 06025 & 0 & 706 &  & 0 & 1.26 &  & 0 & 0.69 &  & 14 & 2.32 & 0.048 & 2 & 126 &  & 0 & 0.7 &  & 2013 \\
+Soup, clam chowder, manhattan style, canned, chunky, ready-to-serve & 06027 & 10 & 417 & \multicolumn{1}{r}{14.005} & 0 & 1.67 &  & 0 & 0.88 &  & 10 & 1.41 & 0.031 & 1 & 160 &  & 0 & 1.2 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+HEALTHY REQUEST, Chicken with Rice, condensed & 06029 & 1 & 325 &  & 1 & 0.79 &  & 1 & 0.397 &  & 1 & 1.19 &  & 1 & 484 &  & 1 & 0.8 &  & 2013 \\
+Soup, clam chowder, new england, canned, condensed & 06030 & 1 & 516 &  & 0 & 0.38 &  & 0 & 0.959 &  & 0 & 2.06 &  & 0 & 221 &  & 0 & 0.7 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Soup, minestrone, canned, chunky, ready-to-serve & 06039 & 0 & 288 &  & 0 & 2.17 &  & 0 & 0.62 &  & 11 & 1.17 & 0.014 & 0 & 255 &  & 0 & 2.4 &  & 2013 \\
+Soup, minestrone, canned, condensed & 06040 & 1 & 516 &  & 0 & 1.5 &  & 0 & 0.44 &  & 10 & 2.05 & 0.031 & 1 & 255 &  & 0 & 0.8 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Soup, mushroom with beef stock, canned, condensed & 06044 & 5 & 773 & 23.377 & 0 & 2.28 &  & 0 & 1.24 &  & 10 & 3.21 & 0.122 & 1 & 126 &  & 0 & 0.1 &  & 2013 \\
+Soup, onion, canned, condensed & 06045 & 0 & 516 &  & 0 & 2.72 &  & 0 & 0.21 &  & 10 & 1.42 & 0.195 & 1 & 56 &  & 0 & 0.7 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Soup, cream of onion, canned, condensed & 06046 & 0 & 637 &  & 0 & 3.64 &  & 0 & 1.17 &  & 1 & 4.2 &  & 0 & 98 &  & 0 & 0.4 &  & 2013 \\
+Soup, pea, green, canned, condensed & 06049 & 0 & 680 &  & 0 & 6.52 &  & 0 & 1.07 &  & 14 & 2.23 & 0.293 & 2 & 145 &  & 0 & 3.9 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Soup, pea, split with ham, canned, chunky, ready-to-serve & 06050 & 0 & 301 &  & 0 & 1.91 &  & 0 & 0.66 &  & 10 & 1.66 & 0.081 & 0 & 127 &  & 0 & 1.7 &  & 2013 \\
+Soup, cream of potato, canned, condensed & 06053 & 0 & 604 &  & 0 & 1.44 &  & 0 & 0.97 &  & 10 & 1.88 & 0.135 & 0 & 165 &  & 0 & 1.3 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Soup, tomato rice, canned, condensed & 06063 & 6 & 635 &  & 0 & 5.9 &  & 0 & 0.4 &  & 14 & 2.12 & 0.024 & 2 & 257 &  & 0 & 1.3 &  & 2013 \\
+Soup, vegetarian vegetable, canned, condensed & 06068 & 0 & 516 &  & 0 & 3.13 &  & 0 & 0.24 &  & 24 & 1.58 & 0.032 & 3 & 171 &  & 0 & 0.5 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Soup, chunky beef, canned, ready-to-serve & 06070 & 0 & 338 &  & 0 & 0.67 &  & 0 & 0.554 &  & 0 & 1.11 &  & 2 & 140 &  & 0 & 0.6 &  & 2013 \\
+Soup, vegetable beef, canned, condensed & 06071 & 1 & 706 &  & 0 & 0.89 &  & 0 & 0.68 &  & 28 & 1.51 & 0.056 & 4 & 138 &  & 0 & 1.6 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Soup, vegetable with beef broth, canned, condensed & 06072 & 1 & 515 &  & 0 & 1.64 &  & 0 & 0.36 &  & 23 & 1.56 & 0.027 & 2 & 157 &  & 0 & 1.3 &  & 2013 \\
+Soup, beef broth or bouillon, powder, dry & 06075 & 1 & 26000 &  & 0 & 16.71 &  & 0 & 4.32 &  & 3 & 8.89 &  & 2 & 446 &  & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Soup, chicken broth or bouillon, dry & 06080 & 4 & 23875 &  & 0 & 17.36 &  & 0 & 3.43 &  & 4 & 13.88 &  & 1 & 309 &  & 0 & 0 &  & 2013 \\
+Soup, onion, dry, mix & 06094 & 4 & 8031 & 510.021 & 2 & 4.65 &  & 0 & 0.089 &  & 0 & 0.34 &  & 4 & 721 & 11.332 & 2 & 6.6 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Soup, cream of vegetable, dry, powder & 06101 & 1 & 4957 &  & 0 & 17.51 &  & 0 & 6.03 &  & 1 & 24.1 &  & 1 & 408 &  & 0 & 3 &  & 2013 \\
+Sauce, teriyaki, ready-to-serve & 06112 & 1 & 3833 &  & 0 & 14.1 &  & 0 & 0 &  & 0 & 0.02 &  & 1 & 225 &  & 0 & 0.1 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Gravy, beef, canned, ready-to-serve & 06116 & 5 & 560 & 1.225 & 0 & 0.21 &  & 0 & 1.153 &  & 5 & 2.36 &  & 1 & 81 &  & 0 & 0.4 &  & 2013 \\
+Gravy, chicken, canned, ready-to-serve & 06119 & 3 & 424 &  & 0 & 0.78 &  & 0 & 1.41 &  & 7 & 5.71 &  & 1 & 109 &  & 0 & 0.4 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Gravy, mushroom, dry, powder & 06122 & 2 & 6580 &  & 0 & 3.26 &  & 0 & 2.36 &  & 2 & 4 &  & 0 & 262 &  & 0 & 4.8 &  & 2013 \\
+Gravy, pork, dry, powder & 06124 & 3 & 5356 &  & 0 & 24.73 &  & 0 & 4.29 &  & 3 & 8.63 &  & 0 & 235 &  & 1 & 2.4 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Gravy, turkey, canned, ready-to-serve & 06125 & 0 & 577 &  & 0 & 0.21 &  & 0 & 0.62 &  & 1 & 2.1 &  & 0 & 109 &  & 0 & 0.4 &  & 2013 \\
+Soup, chicken noodle, dry, mix & 06128 & 4 & 3643 & 350.667 & 2 & 1.9 &  & 2 & 1.947 &  & 4 & 6.51 & 0.561 & 4 & 306 & 23.607 & 2 & 3.2 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Soup, chicken mushroom, canned, condensed & 06149 & 1 & 669 &  & 0 & 0.79 &  & 0 & 1.246 &  & 1 & 4.84 &  & 1 & 56 &  & 1 & 3.2 &  & 2013 \\
+Sauce, ready-to-serve, pepper, TABASCO & 06169 & 1 & 633 &  & 0 & 0.13 &  & 0 & 0.106 &  & 1 & 0.76 &  & 1 & 128 &  & 1 & 0.6 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Soup, stock, beef, home-prepared & 06170 & 1 & 198 &  & 0 & 0.54 &  & 1 & 0.035 &  & 1 & 0.09 &  & 1 & 185 &  & 0 & 0 &  & 2013 \\
+Soup, stock, chicken, home-prepared & 06172 & 1 & 143 &  & 0 & 1.58 &  & 1 & 0.321 &  & 1 & 1.2 &  & 1 & 105 &  & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Soup, stock, fish, home-prepared & 06174 & 2 & 156 &  & 0 & 0 &  & 2 & 0.203 &  & 2 & 0.81 &  & 2 & 144 &  & 0 & 0 &  & 2013 \\
+Sauce, hoisin, ready-to-serve & 06175 & 5 & 1615 &  & 0 & 27.26 &  & 5 & 0.568 &  & 5 & 3.39 &  & 2 & 119 &  & 5 & 2.8 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Sauce, oyster, ready-to-serve & 06176 & 2 & 2733 &  & 0 & 0 &  & 2 & 0.043 &  & 2 & 0.25 &  & 2 & 54 &  & 2 & 0.3 &  & 2013 \\
+Soup, minestrone, canned, reduced sodium, ready-to-serve & 06177 & 0 & 215 &  & 0 & 2.13 &  & 0 & 0.14 &  & 0 & 0.8 &  & 0 & 186 &  & 0 & 2.4 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Sauce, fish, ready-to-serve & 06179 & 3 & 7851 &  & 0 & 3.64 &  & 0 & 0.003 &  & 2 & 0.01 &  & 2 & 288 &  & 0 & 0 &  & 2013 \\
+Soup, cream of mushroom, canned, condensed, reduced sodium & 06182 & 1 & 383 &  & 0 & 2.13 &  & 0 & 0.53 &  & 1 & 1.69 &  & 1 & 374 &  & 1 & 0.6 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Sauce, teriyaki, ready-to-serve, reduced sodium & 06189 & 1 & 1778 &  & 0 & 14.1 &  & 0 & 0 &  & 0 & 0.02 &  & 0 & 225 &  & 0 & 0.1 &  & 2013 \\
+Soup, bean \& ham, canned, reduced sodium, prepared with water or ready-to-serve & 06190 & 1 & 187 & \multicolumn{1}{r}{} & 0 & 3.17 &  & 0 & 0.252 &  & 1 & 1.03 &  & 1 & 158 &  & 1 & 4 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Split pea soup, canned, reduced sodium, prepared with water or ready-to serve & 06192 & 0 & 166 &  & 0 & 5.06 &  & 0 & 0.3 &  & 0 & 0.92 &  & 0 & 183 &  & 0 & 1.9 &  & 2013 \\
+Split pea with ham soup, canned, reduced sodium, prepared with water or ready-to-serve & 06193 & 0 & 196 &  & 0 & 1.57 &  & 0 & 0.294 &  & 0 & 0.7 &  & 0 & 204 &  & 0 & 1.9 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Soup, chicken vegetable with potato and cheese, chunky, ready-to-serve & 06208 & 0 & 416 &  & 0 & 0.64 &  & 0 & 1.636 &  & 0 & 4.46 &  & 0 & 73 &  & 0 & 0.3 &  & 2013 \\
+Soup, vegetable, canned, low sodium, condensed & 06217 & 1 & 385 &  & 0 & 4.31 &  & 0 & 0.147 &  & 1 & 0.9 &  & 1 & 433 &  & 1 & 2.1 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Soup, clam chowder, new england, canned, prepared with equal volume low fat (2\%) milk & 06230 & 1 & 273 &  & 0 & 2.81 &  & 0 & 1.094 &  & 0 & 2.02 &  & 0 & 179 &  & 0 & 0.3 &  & 2013 \\
+Soup, cream of mushroom, canned, prepared with equal volume low fat (2\%) milk & 06243 & 0 & 357 &  & 0 & 2.82 &  & 0 & 1.116 &  & 0 & 3.58 &  & 0 & 103 &  & 0 & 0.3 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Soup, cream of shrimp, canned, prepared with equal volume low fat (2\%) milk & 06256 & 0 & 354 &  & 0 & 2.62 &  & 0 & 1.93 &  & 0 & 3.23 &  & 0 & 95 &  & 0 & 0.1 &  & 2013 \\
+Soup, tomato, canned, prepared with equal volume low fat (2\%) milk & 06359 & 1 & 210 &  & 0 & 6.53 &  & 0 & 0.695 &  & 0 & 1.3 &  & 0 & 183 &  & 0 & 0.6 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Soup, black bean, canned, prepared with equal volume water & 06402 & 0 & 487 &  & 0 & 1.24 &  & 0 & 0.17 &  & 0 & 0.66 &  & 0 & 125 &  & 0 & 3.4 &  & 2013 \\
+Soup, bean with pork, canned, prepared with equal volume water & 06404 & 0 & 349 &  & 0 & 1.47 &  & 0 & 0.558 &  & 0 & 2.16 &  & 0 & 147 &  & 0 & 2.9 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Soup, beef noodle, canned, prepared with equal volume water & 06409 & 0 & 325 &  & 0 & 1.03 &  & 0 & 0.455 &  & 0 & 1.23 &  & 0 & 40 &  & 0 & 0.3 &  & 2013 \\
+Soup, chicken broth, canned, prepared with equal volume water & 06413 & 1 & 306 &  & 0 & 0.29 &  & 0 & 0.16 &  & 0 & 0.57 &  & 0 & 86 &  & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Soup, chicken gumbo, canned, prepared with equal volume water & 06417 & 0 & 391 &  & 0 & 1.02 &  & 0 & 0.13 &  & 0 & 0.59 &  & 0 & 31 &  & 0 & 0.8 &  & 2013 \\
+Soup, chicken noodle, canned, prepared with equal volume water & 06419 & 1 & 349 &  & 0 & 0.27 &  & 0 & 0.262 &  & 0 & 0.95 &  & 0 & 22 &  & 0 & 0.2 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Soup, chicken with rice, canned, prepared with equal volume water & 06423 & 1 & 238 &  & 0 & 0.08 &  & 0 & 0.185 &  & 0 & 0.78 &  & 0 & 41 &  & 0 & 0.3 &  & 2013 \\
+Soup, chili beef, canned, prepared with equal volume water & 06426 & 0 & 388 &  & 0 & 2.49 &  & 0 & 0.608 &  & 0 & 1.24 &  & 0 & 196 &  & 0 & 1.2 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Soup, clam chowder, manhattan, canned, prepared with equal volume water & 06428 & 0 & 226 &  & 0 & 1.32 &  & 0 & 0.149 &  & 0 & 0.86 &  & 0 & 74 &  & 0 & 0.6 &  & 2013 \\
+Soup, clam chowder, new england, canned, prepared with equal volume water & 06430 & 1 & 254 &  & 0 & 0.19 &  & 0 & 0.468 &  & 0 & 1.01 &  & 0 & 108 &  & 0 & 0.3 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Soup, cream of mushroom, canned, prepared with equal volume water & 06443 & 0 & 340 &  & 0 & 0.2 &  & 0 & 0.472 &  & 0 & 2.59 &  & 0 & 31 &  & 0 & 0.3 &  & 2013 \\
+Soup, pea, green, canned, prepared with equal volume water & 06449 & 1 & 336 &  & 0 & 3.19 &  & 0 & 0.524 &  & 0 & 1.09 &  & 0 & 71 &  & 0 & 1.9 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Soup, cream of shrimp, canned, prepared with equal volume water & 06456 & 0 & 391 &  & 0 & 0.24 &  & 0 & 1.29 &  & 0 & 2.07 &  & 0 & 24 &  & 0 & 0.1 &  & 2013 \\
+Soup, tomato beef with noodle, canned, prepared with equal volume water & 06461 & 0 & 367 &  & 0 & 0.73 &  & 0 & 0.635 &  & 0 & 1.71 &  & 0 & 88 &  & 0 & 0.6 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Soup, tomato rice, canned, prepared with equal volume water & 06463 & 0 & 319 &  & 0 & 2.95 &  & 0 & 0.2 &  & 0 & 1.06 &  & 0 & 129 &  & 0 & 0.7 &  & 2013 \\
+Soup, vegetarian vegetable, canned, prepared with equal volume water & 06468 & 0 & 338 &  & 0 & 1.57 &  & 0 & 0.12 &  & 0 & 0.79 &  & 0 & 86 &  & 0 & 0.3 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Soup, vegetable beef, canned, prepared with equal volume water & 06471 & 1 & 349 &  & 0 & 0.45 &  & 0 & 0.34 &  & 0 & 0.76 &  & 0 & 69 &  & 0 & 0.8 &  & 2013 \\
+Soup, vegetable with beef broth, canned, prepared with equal volume water & 06472 & 1 & 253 &  & 0 & 0.82 &  & 0 & 0.18 &  & 0 & 0.78 &  & 0 & 79 &  & 0 & 0.7 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Soup, beef broth or bouillon, powder, prepared with water & 06475 & 0 & 382 &  & 0 & 0.2 &  & 0 & 0.04 &  & 0 & 0.08 &  & 0 & 6 &  & 0 & 0 &  & 2013 \\
+Soup, chicken broth or bouillon, dry, prepared with water & 06480 & 0 & 401 &  & 0 & 0.29 &  & 0 & 0.057 &  & 0 & 0.23 &  & 0 & 6 &  & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Soup, cream of chicken, dry, mix, prepared with water & 06483 & 0 & 454 &  & 0 & 1.59 &  & 0 & 1.3 &  & 0 & 2.04 &  & 0 & 82 &  & 0 & 0.1 &  & 2013 \\
+Soup, onion, dry, mix, prepared with water & 06494 & 0 & 346 &  & 0 & 0.2 &  & 0 & 0.004 &  & 0 & 0.01 &  & 0 & 31 &  & 0 & 0.3 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Soup, chicken noodle, dry, mix, prepared with water & 06528 & 0 & 229 &  & 0 & 0.31 &  & 0 & 0.122 &  & 0 & 0.55 &  & 0 & 13 &  & 0 & 0.1 &  & 2013 \\
+Soup, tomato, canned, prepared with equal volume water, commercial & 06559 & 1 & 190 &  & 0 & 3.97 &  & 0 & 0.076 &  & 0 & 0.28 &  & 0 & 112 &  & 0 & 0.6 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Soup, broccoli cheese, canned, condensed, commercial & 06584 & 1 & 661 &  & 0 & 2.12 &  & 0 & 1.6 &  & 0 & 5.3 &  & 0 & 207 &  & 0 & 1.8 &  & 2013 \\
+Sauce, peanut, made from coconut, water, sugar, peanuts & 06618 & 2 & 319 &  & 2 & 18.8 &  & 0 & 3.53 &  & 3 & 6.34 & 0.294 & 2 & 99 &  & 1 & 1.1 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Soup, cream of chicken, canned, condensed, reduced sodium & 06955 & 1 & 357 &  & 0 & 0.39 &  & 1 & 0.5 &  & 1 & 1.3 &  & 1 & 272 &  & 1 & 0.4 &  & 2013 \\
+Gravy, brown instant, dry & 06957 & 1 & 5053 &  & 1 & 9.23 &  & 1 & 5.866 &  & 1 & 11.85 &  & 0 & 367 &  & 1 & 3.2 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Gravy, instant beef, dry & 06958 & 1 & 5203 &  & 0 & 23.9 &  & 1 & 4.88 &  & 1 & 9.48 &  & 0 & 450 &  & 1 & 4.3 &  & 2013 \\
+Gravy, instant turkey, dry & 06959 & 1 & 4090 &  & 0 & 7.6 &  & 1 & 4.931 &  & 1 & 14.66 &  & 0 & 306 &  & 1 & 3.8 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Fish broth & 06963 & 0 & 318 &  & 0 & 0.09 &  & 0 & 0.133 &  & 0 & 0.6 &  & 0 & 86 &  & 0 & 0 &  & 2013 \\
+Soup, chicken noodle, low sodium, canned, prepared with equal volume water & 06966 & 0 & 173 & \multicolumn{1}{r}{} & 0 & 0.27 &  & 0 & 0.262 &  & 0 & 0.95 &  & 0 & 22 &  & 0 & 0.2 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Soup, vegetable soup, condensed, low sodium, prepared with equal volume water & 06967 & 0 & 194 &  & 0 & 2.15 &  & 0 & 0.074 &  & 0 & 0.45 &  & 0 & 217 &  & 0 & 1.1 &  & 2013 \\
+Potato soup, instant, dry mix & 06969 & 1 & 2400 &  & 0 & 10 &  & 0 & 0.613 &  & 0 & 3.1 &  & 0 & 1248 &  & 0 & 7.6 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Sauce, worcestershire & 06971 & 1 & 980 &  & 0 & 10.03 &  & 0 & 0 &  & 0 & 0 &  & 1 & 800 &  & 0 & 0 &  & 2013 \\
+Sauce, tomato chili sauce, bottled, with salt & 06972 & 1 & 1338 &  & 0 & 10.54 &  & 0 & 0.045 &  & 1 & 0.3 &  & 1 & 370 &  & 0 & 5.9 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Soup, beef stroganoff, canned, chunky style, ready-to-serve & 06980 & 1 & 435 &  & 0 & 1.68 &  & 0 & 2.324 &  & 1 & 4.6 &  & 0 & 140 &  & 0 & 0.6 &  & 2013 \\
+Soup, bouillon cubes and granules, low sodium, dry & 06981 & 0 & 1067 &  & 0 & 14.47 &  & 0 & 3.433 &  & 0 & 13.89 &  & 0 & 309 &  & 0 & 0.2 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Bologna, beef & 07007 & 11 & 1013 & 1.591 & 2 & 2.05 &  & 0 & 10.487 &  & 11 & 26.13 & 0.026 & 11 & 351 & 2.189 & 0 & 0 &  & 2013 \\
+Bologna, beef and pork & 07008 & 0 & 960 &  & 0 & 4.42 &  & 0 & 9.301 &  & 0 & 24.59 &  & 0 & 315 &  & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Bologna, pork & 07010 & 0 & 907 &  & 0 & 0 &  & 0 & 6.839 &  & 3 & 19.87 & 1.267 & 3 & 281 & 18.475 & 0 & 0 &  & 2013 \\
+Bologna, turkey & 07011 & 0 & 1071 &  & 3 & 2.9 &  & 0 & 4.355 &  & 4 & 16.05 &  & 3 & 135 &  & 3 & 0.5 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Bratwurst, pork, cooked & 07013 & 1 & 846 &  & 0 & 0 &  & 0 & 9.998 &  & 23 & 29.18 &  & 0 & 348 &  & 0 & 0 &  & 2013 \\
+Braunschweiger (a liver sausage), pork & 07014 & 0 & 977 &  & 0 & 0 &  & 0 & 9.307 &  & 1 & 28.5 &  & 18 & 199 & 6.325 & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cheesefurter, cheese smokie, pork, beef & 07016 & 0 & 1082 &  & 0 & 1.51 &  & 0 & 10.47 &  & 0 & 29 &  & 0 & 206 &  & 0 & 0 &  & 2013 \\
+Chorizo, pork and beef & 07019 & 0 & 1235 &  & 0 & 0 &  & 0 & 14.38 &  & 6 & 38.27 & 1.561 & 0 & 398 &  & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Dutch brand loaf, chicken, pork and beef & 07021 & 0 & 786 &  & 0 & 0.9 &  & 0 & 9.044 &  & 21 & 22.91 & 1.25 & 0 & 210 &  & 0 & 0.3 &  & 2013 \\
+Frankfurter, chicken & 07024 & 0 & 756 &  & 3 & 0.53 & 0.532 & 0 & 3.856 &  & 3 & 16.19 & 1.247 & 3 & 202 & 17.01 & 3 & 0.4 & 0.383 & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Frankfurter, turkey & 07025 & 0 & 911 &  & 3 & 1.21 & 0.477 & 0 & 4.028 &  & 3 & 17.29 & 0.962 & 3 & 392 & 120.806 & 3 & 0 & 0 & 2013 \\
+Ham, chopped, canned & 07026 & 0 & 1280 & \multicolumn{1}{r}{} & 0 & 0 &  & 0 & 6.291 &  & 4 & 18.83 & 1.013 & 4 & 284 & 4.21 & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Ham, chopped, not canned & 07027 & 0 & 1039 &  & 0 & 0 &  & 0 & 3.422 &  & 1 & 10.3 &  & 5 & 319 & 8.536 & 0 & 0 &  & 2013 \\
+Ham, sliced, regular (approximately 11\% fat) & 07029 & 0 & 1143 &  & 0 & 0 &  & 0 & 2.936 &  & 2 & 8.6 &  & 0 & 287 &  & 0 & 1.3 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Ham salad spread & 07031 & 0 & 1075 &  & 0 & 0 &  & 0 & 5.049 &  & 4 & 15.53 & 0.622 & 4 & 150 & 4.497 & 0 & 0 &  & 2013 \\
+Ham and cheese loaf or roll & 07032 & 0 & 1000 &  & 0 & 0 &  & 0 & 6.966 &  & 1 & 18.7 &  & 8 & 294 & 10.457 & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Headcheese, pork & 07034 & 0 & 941 & \multicolumn{1}{r}{\cellcolor[HTML]{FADADE}} & 0 & 0 &  & 0 & 3.402 &  & 1 & 10.9 &  & 4 & 31 & 7.059 & 0 & 0 &  & 2013 \\
+Knackwurst, knockwurst, pork, beef & 07038 & 1 & 930 & \multicolumn{1}{r}{} & 0 & 0 &  & 0 & 10.21 &  & 1 & 27.7 &  & 5 & 199 & 8.858 & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Lebanon bologna, beef & 07039 & 0 & 1374 & \multicolumn{1}{r}{\cellcolor[HTML]{FADADE}} & 0 & 0 &  & 0 & 2.794 &  & 0 & 10.44 &  & 0 & 330 &  & 0 & 0 &  & 2013 \\
+Roast beef, deli style, prepackaged, sliced & 07043 & 0 & 883 &  & 0 & 0 &  & 0 & 1.101 &  & 3 & 3.4 & 0.658 & 3 & 308 & 11.837 & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Turkey breast, low salt, prepackaged or deli, luncheon meat & 07046 & 1 & 772 & \multicolumn{1}{r}{\cellcolor[HTML]{FADADE}} & 0 & 3.51 &  & 0 & 0.333 &  & 1 & 0.88 &  & 1 & 211 &  & 0 & 0.5 &  & 2013 \\
+Mortadella, beef, pork & 07050 & 4 & 1246 & \multicolumn{1}{r}{65.485} & 0 & 0 &  & 0 & 9.51 &  & 14 & 25.39 & 1.139 & 4 & 163 & 17.175 & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Olive loaf, pork & 07051 & 0 & 964 &  & 0 & 0 &  & 0 & 5.85 &  & 4 & 16.5 & 0.503 & 4 & 297 & 10.086 & 0 & 0 &  & 2013 \\
+Pastrami, turkey & 07052 & 0 & 1123 &  & 2 & 3.34 &  & 2 & 1.395 &  & 6 & 6.21 & 0.608 & 2 & 345 &  & 2 & 0.1 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Pate, chicken liver, canned & 07053 & 0 & 386 &  & 0 & 0 &  & 0 & 4 &  & 5 & 13.1 & 0.154 & 0 & 95 &  & 0 & 0 &  & 2013 \\
+Pepperoni, pork, beef & 07057 & 0 & 1761 &  & 3 & 0 & 0 & 0 & 14.86 &  & 3 & 43.98 & 1.401 & 3 & 279 & 17.521 & 3 & 0 & 0 & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Pickle and pimiento loaf, pork & 07058 & 0 & 1040 & \multicolumn{1}{r}{\cellcolor[HTML]{FADADE}} & 0 & 8.46 &  & 0 & 5.287 &  & 219 & 15.95 & 1.916 & 0 & 371 &  & 0 & 1.5 &  & 2013 \\
+Pork and beef sausage, fresh, cooked & 07065 & 0 & 929 &  & 0 & 0 &  & 0 & 12.96 &  & 6 & 36.25 & 1.774 & 0 & 189 &  & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Turkey sausage, reduced fat, brown and serve, cooked (include BUTTERBALL breakfast links turkey sausage) & 07066 & 0 & 721 &  & 0 & 0 &  & 0 & 2.871 &  & 0 & 10.3 &  & 0 & 207 &  & 0 & 0.3 &  & 2013 \\
+Poultry salad sandwich spread & 07067 & 0 & 653 & \multicolumn{1}{r}{} & 0 & 0 &  & 2 & 3.45 &  & 2 & 13.52 &  & 2 & 183 &  & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Salami, cooked, beef & 07068 & 1 & 1140 &  & 1 & 1.5 &  & 0 & 9.865 &  & 1 & 22.2 &  & 1 & 188 &  & 1 & 0 &  & 2013 \\
+Salami, cooked, beef and pork & 07069 & 0 & 1740 &  & 3 & 0.96 & 0.758 & 0 & 9.316 &  & 3 & 25.9 & 2.967 & 3 & 316 & 33.393 & 3 & 0 & 0 & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Salami, cooked, turkey & 07070 & 0 & 1107 &  & 0 & 1.12 &  & 0 & 2.783 &  & 0 & 9.21 &  & 4 & 216 & 6 & 0 & 0.1 &  & 2013 \\
+Sandwich spread, pork, beef & 07073 & 5 & 1013 & \multicolumn{1}{r}{50.54} & 0 & 0 &  & 0 & 5.977 &  & 5 & 17.34 & 0.202 & 5 & 110 & 5.819 & 0 & 0.2 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Smoked link sausage, pork & 07074 & 3 & 827 & 9.062 & 3 & 0.94 & 0.177 & 0 & 9.313 &  & 3 & 28.23 & 1.19 & 3 & 483 & 68.637 & 3 & 0 & 0 & 2013 \\
+Sausage, smoked link sausage, pork and beef & 07075 & 1 & 911 & \multicolumn{1}{r}{} & 0 & 0 &  & 1 & 9.769 &  & 1 & 28.73 &  & 1 & 179 &  & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Thuringer, cervelat, summer sausage, beef, pork & 07078 & 4 & 1300 &  & 2 & 0.85 &  & 0 & 11.51 &  & 4 & 30.43 &  & 1 & 260 &  & 0 & 0 &  & 2013 \\
+Sausage, Vienna, canned, chicken, beef, pork & 07083 & 0 & 879 & \multicolumn{1}{r}{} & 0 & 0 &  & 0 & 7.125 &  & 1 & 19.4 &  & 3 & 101 & 4.91 & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Sausage, Italian, pork, cooked & 07089 & 2 & 1207 & \multicolumn{1}{r}{\cellcolor[HTML]{FADADE}} & 2 & 0.86 &  & 0 & 9.655 &  & 2 & 27.31 &  & 4 & 304 & 9.647 & 2 & 0.1 &  & 2013 \\
+Turkey, pork, and beef sausage, low fat, smoked & 07900 & 0 & 796 & \multicolumn{1}{r}{} & 0 & 0 &  & 0 & 0.85 &  & 0 & 2.5 &  & 0 & 243 &  & 0 & 0.6 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Luncheon meat, pork, ham, and chicken, minced, canned, reduced sodium, added ascorbic acid, includes SPAM, 25\% less sodium & 07906 & 0 & 1036 &  & 0 & 0 &  & 0 & 8.873 &  & 1 & 25.1 &  & 0 & 564 &  & 0 & 0 &  & 2013 \\
+Luncheon meat, pork with ham, minced, canned, includes SPAM (Hormel) & 07908 & 0 & 1411 &  & 0 & 0 &  & 0 & 9.987 &  & 1 & 26.6 &  & 0 & 409 &  & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Luncheon meat, pork and chicken, minced, canned, includes SPAM Lite & 07909 & 1 & 1032 &  & 1 & 1.26 &  & 0 & 4.514 &  & 1 & 13.9 &  & 1 & 461 &  & 1 & 0 &  & 2013 \\
+Sausage, turkey, breakfast links, mild & 07919 & 0 & 639 &  & 0 & 0 &  & 0 & 3.839 &  & 226 & 18.09 & 0.163 & 0 & 229 &  & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Sausage, turkey, hot, smoked & 07929 & 0 & 1196 &  & 1 & 3.2 &  & 0 & 3.77 &  & 1 & 8.75 &  & 1 & 197 &  & 1 & 0.9 &  & 2013 \\
+Scrapple, pork & 07951 & 0 & 482 &  & 0 & 0.2 &  & 0 & 4.732 &  & 4 & 13.87 &  & 4 & 158 &  & 1 & 0.3 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Pork sausage, link/patty, fully cooked, microwaved & 07953 & 14 & 922 & 10.225 & 3 & 0.65 &  & 0 & 13.305 &  & 14 & 40.5 & 0.661 & 14 & 236 & 4.127 & 0 & 0 &  & 2013 \\
+Beef sausage, pre-cooked & 07954 & 0 & 822 &  & 0 & 0 &  & 0 & 15.098 &  & 1 & 37.57 &  & 1 & 234 &  & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Beef sausage, fresh, cooked & 07956 & 0 & 813 &  & 0 & 0 &  & 1 & 10.905 &  & 1 & 27.98 &  & 1 & 258 &  & 0 & 0 &  & 2013 \\
+Chicken breast, deli, rotisserie seasoned, sliced, prepackaged & 07961 & 11 & 1032 & 9.33 & 11 & 0.75 & 0.061 & 0 & 0.564 &  & 11 & 1.86 & 0.053 & 11 & 360 & 5.881 & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Frankfurter, meat and poultry, cooked, boiled & 07963 & 18 & 914 & 38.317 & 3 & 2.7 &  & 0 & 8.216 &  & 18 & 26.28 & 0.4 & 18 & 323 & 28.026 & 0 & 0 &  & 2013 \\
+Frankfurter, meat and poultry, cooked, grilled & 07964 & 18 & 1079 & \multicolumn{1}{r}{22.432} & 3 & 2.85 &  & 0 & 8.218 &  & 18 & 26.43 & 0.341 & 18 & 387 & 20.607 & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Pork sausage, link/patty, reduced fat, unprepared & 07965 & 4 & 581 & 14.448 & 0 & 0 &  & 0 & 4.368 &  & 4 & 16.55 & 0.497 & 4 & 275 & 0.75 & 0 & 0 &  & 2013 \\
+Pork sausage, link/patty, reduced fat, cooked, pan-fried & 07966 & 4 & 698 & 4.75 & 0 & 0 &  & 0 & 6.034 &  & 4 & 20.32 & 0.855 & 4 & 328 & 3.416 & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Kielbasa, fully cooked, pan-fried & 07969 & 15 & 1046 & 37.132 & 6 & 2.38 & 0.248 & 0 & 9.487 &  & 15 & 29.43 & 0.973 & 15 & 304 & 30.212 & 0 & 0 &  & 2013 \\
+Kielbasa, fully cooked, unheated & 07970 & 15 & 1004 & 47.905 & 6 & 2.05 & 0.295 & 0 & 8.897 &  & 15 & 27.56 & 0.893 & 15 & 277 & 33.577 & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cereals ready-to-eat, KELLOGG, KELLOGG'S ALL-BRAN Original & 08001 & 0 & 258 &  & 0 & 15.69 &  & 0 & 0.64 &  & 1 & 4.9 &  & 1 & 1020 &  & 1 & 29.3 &  & 2013 \\
+Cereals ready-to-eat, POST, ALPHA-BITS & 08002 & 0 & 592 &  & 0 & 21 &  & 0 & 1.1 &  & 0 & 4.6 &  & 0 & 267 &  & 0 & 7.1 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cereals ready-to-eat, KELLOGG, KELLOGG'S APPLE JACKS & 08003 & 0 & 466 &  & 0 & 43.7 &  & 0 & 1.9 &  & 0 & 3.4 &  & 0 & 112 &  & 0 & 9.3 &  & 2013 \\
+Cereals ready-to-eat, KELLOGG, KELLOGG'S ALL-BRAN BRAN BUDS & 08005 & 0 & 685 &  & 0 & 26.7 &  & 0 & 0.5 &  & 0 & 2.5 &  & 0 & 811 &  & 0 & 42.5 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cereals ready-to-eat, QUAKER, CAP'N CRUNCH & 08010 & 0 & 754 &  & 0 & 44.32 &  & 0 & 3.346 &  & 0 & 5.12 &  & 0 & 186 &  & 0 & 2.5 &  & 2013 \\
+Cereals ready-to-eat, QUAKER, CAP'N CRUNCH with CRUNCHBERRIES & 08011 & 0 & 725 & \multicolumn{1}{r}{} & 0 & 44.2 &  & 0 & 3.076 &  & 0 & 4.83 &  & 0 & 187 &  & 0 & 2.6 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cereals ready-to-eat, QUAKER, CAP'N CRUNCH'S PEANUT BUTTER CRUNCH & 08012 & 0 & 742 &  & 0 & 33.36 &  & 0 & 4.05 &  & 0 & 9.23 &  & 0 & 236 &  & 0 & 2.7 &  & 2013 \\
+Cereals ready-to-eat, KELLOGG, KELLOGG'S COCOA KRISPIES & 08014 & 0 & 424 & \multicolumn{1}{r}{} & 0 & 38.6 &  & 0 & 2.1 &  & 0 & 2.7 &  & 1 & 197 &  & 0 & 1.4 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cereals ready-to-eat, POST, COCOA PEBBLES & 08015 & 0 & 594 &  & 0 & 35.8 &  & 0 & 3.6 &  & 0 & 4.1 &  & 0 & 193 &  & 0 & 1.6 &  & 2013 \\
+Cereals ready-to-eat, GENERAL MILLS, COOKIE CRISP & 08017 & 0 & 457 &  & 0 & 34.8 &  & 0 & 0.8 &  & 0 & 4.4 &  & 0 & 231 &  & 0 & 5.1 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cereals ready-to-eat, QUAKER, QUAKER CRUNCHY BRAN & 08018 & 0 & 759 &  & 0 & 20.66 &  & 0 & 2.03 &  & 0 & 4.06 &  & 0 & 239 &  & 0 & 15.3 &  & 2013 \\
+Cereals ready-to-eat, GENERAL MILLS Corn CHEX & 08019 & 0 & 760 &  & 0 & 11.1 &  & 0 & 0.4 &  & 0 & 2.4 &  & 0 & 195 &  & 0 & 5.6 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cereals ready-to-eat, KELLOGG, KELLOGG'S Corn Flakes & 08020 & 0 & 729 & \multicolumn{1}{r}{\cellcolor[HTML]{FADADE}} & 0 & 9.5 &  & 0 & 0.116 &  & 0 & 0.4 &  & 0 & 168 &  & 0 & 3.3 &  & 2013 \\
+Cereals ready-to-eat, KELLOGG, KELLOGG'S CRACKLIN' OAT BRAN & 08023 & 0 & 280 &  & 0 & 28 &  & 0 & 6.2 &  & 0 & 14.1 &  & 0 & 403 &  & 0 & 12.7 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cereals ready-to-eat, RALSTON CRISP RICE & 08025 & 3 & 763 & \multicolumn{1}{r}{\cellcolor[HTML]{FADADE}3.333} & 3 & 7.65 & 0.048 & 0 & 0.36 &  & 3 & 1.26 & 0.014 & 3 & 110 & 0 & 3 & 0.7 & 0 & 2013 \\
+Cereals ready-to-eat, KELLOGG, KELLOGG'S ALL-BRAN COMPLETE Wheat Flakes & 08028 & 0 & 718 &  & 0 & 18.8 &  & 0 & 0.4 &  & 0 & 2.5 &  & 0 & 518 &  & 0 & 17.3 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cereals ready-to-eat, POST Bran Flakes & 08029 & 0 & 600 & \multicolumn{1}{r}{\cellcolor[HTML]{FADADE}} & 0 & 17.8 &  & 0 & 0.4 &  & 0 & 2.2 &  & 0 & 553 &  & 0 & 18.2 &  & 2013 \\
+Cereals ready-to-eat, KELLOGG, KELLOGG'S FROOT LOOPS & 08030 & 0 & 469 &  & 0 & 41.7 &  & 0 & 1.8 &  & 0 & 3.4 &  & 0 & 117 &  & 0 & 9.3 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cereals ready-to-eat, KELLOGG, KELLOGG'S FROSTED RICE KRISPIES & 08032 & 0 & 371 &  & 0 & 40.2 &  & 0 & 0.1 &  & 0 & 0.4 &  & 0 & 59 &  & 0 & 0.5 &  & 2013 \\
+Cereals ready-to-eat, POST, FRUITY PEBBLES & 08034 & 0 & 532 & \multicolumn{1}{r}{} & 0 & 34.4 &  & 0 & 3.6 &  & 0 & 4 &  & 0 & 72 &  & 0 & 0.8 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cereals ready-to-eat, GENERAL MILLS, GOLDEN GRAHAMS & 08035 & 0 & 772 &  & 0 & 35 &  & 0 & 0.4 &  & 0 & 3.2 &  & 0 & 206 &  & 0 & 5.6 &  & 2013 \\
+Cereals ready-to-eat, POST, GRAPE-NUTS Cereal & 08038 & 0 & 507 &  & 0 & 8.9 &  & 0 & 0.4 &  & 0 & 2.1 &  & 0 & 400 &  & 0 & 11.9 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cereals ready-to-eat, POST, GRAPE-NUTS Flakes & 08039 & 0 & 470 &  & 0 & 15.2 &  & 0 & 0.5 &  & 0 & 3.7 &  & 0 & 336 &  & 0 & 10.2 &  & 2013 \\
+Cereals ready-to-eat, GENERAL MILLS, HONEY NUT CHEERIOS & 08045 & 0 & 543 & \multicolumn{1}{r}{} & 0 & 33.2 &  & 0 & 1 &  & 0 & 4.7 &  & 0 & 408 &  & 0 & 7.2 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cereals ready-to-eat, POST, Honeycomb Cereal & 08046 & 0 & 559 &  & 0 & 31.2 &  & 0 & 1.3 &  & 0 & 3 &  & 0 & 157 &  & 0 & 3.3 &  & 2013 \\
+Cereals ready-to-eat, QUAKER, KING VITAMAN & 08047 & 0 & 825 &  & 0 & 20.27 &  & 0 & 1.584 &  & 0 & 3.44 &  & 0 & 268 &  & 0 & 3.4 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cereals ready-to-eat, GENERAL MILLS, KIX & 08048 & 0 & 596 & \multicolumn{1}{r}{\cellcolor[HTML]{FADADE}} & 4 & 9.76 & 0.247 & 0 & 0.576 &  & 4 & 3.46 & 0.133 & 0 & 223 &  & 0 & 8.8 &  & 2013 \\
+Cereals ready-to-eat, QUAKER, QUAKER OAT LIFE, plain & 08049 & 0 & 501 &  & 0 & 19.43 &  & 0 & 0.834 &  & 0 & 4.43 &  & 0 & 283 &  & 0 & 6.6 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cereals ready-to-eat, GENERAL MILLS, LUCKY CHARMS & 08050 & 6 & 648 & 9.454 & 3 & 36.13 & 0.47 & 0 & 0.885 &  & 6 & 5.02 & 0.14 & 6 & 222 & 4.191 & 3 & 5 & 0.145 & 2013 \\
+Cereals ready-to-eat, QUAKER, 100\% Natural Granola, Oats, Wheat and Honey & 08054 & 0 & 50 & \multicolumn{1}{r}{} & 0 & 20.34 &  & 0 & 1.265 &  & 0 & 11.62 &  & 0 & 483 &  & 0 & 10.2 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cereals ready-to-eat, GENERAL MILLS, Honey Nut CHEX & 08057 & 1 & 625 &  & 1 & 28.13 &  & 0 & 0.529 &  & 1 & 3.13 &  & 1 & 156 &  & 1 & 3.1 &  & 2013 \\
+Cereals ready-to-eat, KELLOGG, KELLOGG'S PRODUCT 19 & 08058 & 0 & 727 &  & 0 & 12.5 &  & 0 & 0.2 &  & 0 & 1.3 &  & 0 & 179 &  & 0 & 2.8 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cereals ready-to-eat, QUAKER, SWEET CRUNCH/QUISP & 08059 & 0 & 740 &  & 0 & 43.36 &  & 0 & 4.442 &  & 0 & 6.08 &  & 0 & 187 &  & 0 & 2.3 &  & 2013 \\
+Cereals ready-to-eat, POST Raisin Bran Cereal & 08061 & 0 & 386 &  & 0 & 34 &  & 0 & 0.314 &  & 0 & 1.7 &  & 0 & 538 &  & 0 & 13.2 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cereals ready-to-eat, GENERAL MILLS, Rice CHEX & 08064 & 0 & 898 &  & 0 & 8.1 &  & 0 & 0.3 &  & 0 & 1.4 &  & 0 & 164 &  & 0 & 4.4 &  & 2013 \\
+Cereals ready-to-eat, KELLOGG, KELLOGG'S RICE KRISPIES & 08065 & 6 & 527 & 12.656 & 3 & 9.87 & 0.145 & 0 & 0.458 &  & 6 & 2.05 & 0.069 & 6 & 125 & 2.257 & 3 & 0.4 & 0.033 & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cereals ready-to-eat, KELLOGG, KELLOGG'S SPECIAL K & 08067 & 0 & 709 & \multicolumn{1}{r}{\cellcolor[HTML]{FADADE}} & 0 & 12.2 &  & 0 & 0.4 &  & 0 & 1.7 &  & 0 & 65 &  & 0 & 1.1 &  & 2013 \\
+Cereals ready-to-eat, KELLOGG, KELLOGG'S CORN POPS & 08068 & 0 & 357 &  & 0 & 31.3 &  & 0 & 0.5 &  & 0 & 1.3 &  & 0 & 113 &  & 0 & 8.4 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cereals ready-to-eat, KELLOGG, KELLOGG'S HONEY SMACKS & 08071 & 0 & 142 &  & 0 & 56.2 &  & 0 & 0.5 &  & 0 & 2.2 &  & 0 & 183 &  & 0 & 5 &  & 2013 \\
+Cereals ready-to-eat, POST, GOLDEN CRISP & 08073 & 0 & 95 &  & 0 & 53.6 &  & 0 & 0.2 &  & 0 & 1.7 &  & 0 & 176 &  & 0 & 5 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cereals ready-to-eat, RALSTON TASTEEOS & 08074 & 0 & 679 &  & 3 & 4.64 & 0.055 & 0 & 1.023 &  & 3 & 5.97 & 0.034 & 3 & 307 & 8.819 & 3 & 10.7 & 0.193 & 2013 \\
+Cereals ready-to-eat, GENERAL MILLS, Whole Grain TOTAL & 08077 & 0 & 470 &  & 0 & 16.4 &  & 0 & 0.6 &  & 0 & 2.1 &  & 0 & 306 &  & 0 & 9.1 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cereals ready-to-eat, GENERAL MILLS, TRIX & 08078 & 0 & 557 &  & 0 & 32 &  & 0 & 0.6 &  & 0 & 4.1 &  & 0 & 169 &  & 0 & 4.5 &  & 2013 \\
+Cereals ready-to-eat, POST, Honey Nut Shredded Wheat & 08081 & 0 & 102 & \multicolumn{1}{r}{} & 0 & 20.7 &  & 0 & 0.4 &  & 0 & 2.9 &  & 0 & 349 &  & 0 & 10.7 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cereals ready-to-eat, GENERAL MILLS, Wheat CHEX & 08082 & 0 & 570 &  & 0 & 10.3 &  & 0 & 0.4 &  & 0 & 1.8 &  & 0 & 369 &  & 0 & 12.2 &  & 2013 \\
+Cereals ready-to-eat, MALT-O-MEAL, CORN BURSTS & 08083 & 0 & 804 &  & 0 & 42.47 &  & 1 & 0.093 &  & 0 & 0.35 &  & 0 & 82 &  & 0 & 1.9 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cereals ready-to-eat, GENERAL MILLS, Multi-Grain Cheerios & 08087 & 0 & 402 &  & 0 & 21 &  & 0 & 0.8 &  & 0 & 3.5 &  & 0 & 484 &  & 0 & 9 &  & 2013 \\
+Cereals ready-to-eat, GENERAL MILLS, WHEATIES & 08089 & 0 & 732 &  & 0 & 15.2 &  & 0 & 0.5 &  & 0 & 2.3 &  & 0 & 328 &  & 0 & 10.1 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cereals, QUAKER, corn grits, instant, plain, dry & 08092 & 4 & 1050 & \multicolumn{1}{r}{\cellcolor[HTML]{FADADE}28.868} & 4 & 1.51 & 0.085 & 0 & 0.362 &  & 4 & 2.14 & 0.078 & 4 & 163 & 2.5 & 4 & 4.2 & 0.23 & 2013 \\
+Cereals, QUAKER, corn grits, instant, cheddar cheese flavor, dry & 08094 & 1 & 1679 &  & 0 & 2.13 &  & 0 & 1.76 &  & 0 & 5.97 &  & 0 & 170 &  & 0 & 4.2 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cereals, farina, enriched, assorted brands including CREAM OF WHEAT, quick (1-3 minutes), dry & 08104 & 11 & 124 & 50.187 & 11 & 0.56 & 0.042 & 0 & 0.232 &  & 11 & 1.41 & 0.066 & 11 & 153 & 2.976 & 11 & 4.2 & 0.21 & 2013 \\
+Cereals, oats, instant, fortified, plain, dry & 08122 & 4 & 220 & 7.215 & 2 & 1.5 &  & 0 & 1.346 &  & 4 & 6.9 & 0.041 & 4 & 366 & 1.601 & 2 & 10 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cereals, oats, instant, fortified, with raisins and spice, dry & 08132 & 7 & 462 & 8.8 & 4 & 37.14 & 0.552 & 0 & 0.639 &  & 7 & 4.03 & 0.111 & 7 & 362 & 5.214 & 2 & 5.7 &  & 2013 \\
+Cereals ready-to-eat, MALT-O-MEAL, MARSHMALLOW MATEYS & 08138 & 0 & 667 &  & 1 & 42.8 &  & 1 & 0.719 &  & 0 & 3.6 &  & 1 & 197 &  & 1 & 4.6 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cereals ready-to-eat, KELLOGG, KELLOGG'S Low Fat Granola without Raisins & 08189 & 0 & 257 & \multicolumn{1}{r}{\cellcolor[HTML]{FADADE}} & 0 & 28.3 &  & 0 & 1.4 &  & 0 & 5.7 &  & 0 & 215 &  & 0 & 7 &  & 2013 \\
+Cereals ready-to-eat, POST SELECTS Blueberry Morning & 08192 & 0 & 341 & \multicolumn{1}{r}{} & 0 & 29.2 &  & 0 & 0.6 &  & 0 & 5.3 &  & 0 & 195 &  & 0 & 4.7 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cereals ready-to-eat, GENERAL MILLS, REESE'S PUFFS & 08194 & 0 & 555 &  & 0 & 35.3 &  & 0 & 2.1 &  & 0 & 11.1 &  & 0 & 244 &  & 0 & 4.7 &  & 2013 \\
+Cereals ready-to-eat, GENERAL MILLS, OATMEAL CRISP, Crunchy Almond & 08202 & 0 & 207 &  & 0 & 26.8 &  & 0 & 1.1 &  & 0 & 6.7 &  & 0 & 322 &  & 0 & 8.1 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cereals ready-to-eat, chocolate-flavored frosted puffed corn & 08204 & 0 & 534 &  & 0 & 43.7 &  & 0 & 0.961 &  & 0 & 3.5 &  & 0 & 176 &  & 0 & 3.8 &  & 2013 \\
+Cereals ready-to-eat, MALT-O-MEAL, COCO-ROOS & 08206 & 0 & 454 &  & 0 & 48.97 &  & 0 & 0.8 &  & 0 & 4.67 &  & 0 & 253 &  & 0 & 3.1 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cereals ready-to-eat, QUAKER, HONEY GRAHAM OH!S & 08211 & 0 & 606 & \multicolumn{1}{r}{\cellcolor[HTML]{FADADE}} & 0 & 43.23 &  & 0 & 5.572 &  & 0 & 7.45 &  & 0 & 163 &  & 0 & 2 &  & 2013 \\
+Cereals ready-to-eat, QUAKER, Oatmeal Squares & 08214 & 0 & 345 & \multicolumn{1}{r}{} & 0 & 16.62 &  & 0 & 0.873 &  & 0 & 4.83 &  & 0 & 363 &  & 0 & 8.3 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cereals ready-to-eat, QUAKER, Toasted Multigrain Crisps & 08216 & 0 & 364 &  & 0 & 16.34 &  & 0 & 0.91 &  & 0 & 5.11 &  & 0 & 438 &  & 0 & 9.9 &  & 2013 \\
+Cereals ready-to-eat, QUAKER, QUAKER 100\% Natural Granola with Oats, Wheat, Honey, and Raisins & 08218 & 0 & 54 &  & 0 & 24.63 &  & 0 & 1.146 &  & 0 & 10.38 &  & 0 & 501 &  & 0 & 9.4 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cereals ready-to-eat, QUAKER, Low Fat 100\% Natural Granola with Raisins & 08220 & 0 & 234 &  & 0 & 25.65 &  & 0 & 0.97 &  & 0 & 5.52 &  & 0 & 431 &  & 0 & 9.6 &  & 2013 \\
+Cereals ready-to-eat, GENERAL MILLS, Berry Burst CHEERIOS, Triple Berry & 08239 & 0 & 639 & \multicolumn{1}{r}{} & 0 & 27 &  & 0 & 1 &  & 0 & 4.5 &  & 0 & 230 &  & 0 & 7.6 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cereals ready-to-eat, GENERAL MILLS, HONEY NUT CLUSTERS & 08243 & 0 & 515 & \multicolumn{1}{r}{\cellcolor[HTML]{FADADE}} & 0 & 24.8 &  & 0 & 0.5 &  & 0 & 2 &  & 0 & 184 &  & 0 & 6.3 &  & 2013 \\
+Cereals ready-to-eat, GENERAL MILLS, FIBER ONE Bran Cereal & 08244 & 0 & 320 & \multicolumn{1}{r}{} & 0 & 0.19 &  & 0 & 0.329 &  & 0 & 2.2 &  & 0 & 367 &  & 0 & 47.5 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cereals ready-to-eat, GENERAL MILLS, OATMEAL CRISP, Hearty Raisin & 08245 & 0 & 194 &  & 0 & 30.6 &  & 0 & 0.8 &  & 0 & 3.7 &  & 0 & 342 &  & 0 & 7.5 &  & 2013 \\
+Cereals ready-to-eat, GENERAL MILLS, TOTAL Raisin Bran & 08247 & 0 & 339 &  & 0 & 32.3 &  & 0 & 0.4 &  & 0 & 1.6 &  & 0 & 504 &  & 0 & 9.1 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cereals ready-to-eat, KELLOGG, KELLOGG'S CRISPIX & 08259 & 0 & 611 &  & 0 & 11.6 &  & 0 & 0.3 &  & 0 & 1.1 &  & 0 & 126 &  & 0 & 2.8 &  & 2013 \\
+Cereals ready-to-eat, GENERAL MILLS, RAISIN NUT BRAN & 08261 & 0 & 461 &  & 0 & 28.1 &  & 0 & 1 &  & 0 & 5.8 &  & 0 & 350 &  & 0 & 9.9 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cereals ready-to-eat, GENERAL MILLS, BASIC 4 & 08262 & 0 & 519 &  & 0 & 22.6 &  & 0 & 1.3 &  & 0 & 3.9 &  & 0 & 288 &  & 0 & 6.8 &  & 2013 \\
+Cereals ready-to-eat, GENERAL MILLS, APPLE CINNAMON CHEERIOS & 08263 & 0 & 391 &  & 0 & 34.2 &  & 0 & 1 &  & 0 & 5.7 &  & 0 & 224 &  & 0 & 6.5 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cereals ready-to-eat, GENERAL MILLS, FROSTED CHEERIOS & 08267 & 0 & 610 & \multicolumn{1}{r}{\cellcolor[HTML]{FADADE}} & 0 & 32.1 &  & 0 & 1 &  & 0 & 4.2 &  & 0 & 219 &  & 0 & 6.4 &  & 2013 \\
+Cereals ready-to-eat, GENERAL MILLS, FRANKENBERRY & 08268 & 0 & 458 &  & 0 & 27.29 &  & 0 & 0.5 &  & 0 & 4.3 &  & 0 & 163 &  & 0 & 4.2 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cereals ready-to-eat, GENERAL MILLS, COUNT CHOCULA & 08270 & 0 & 488 &  & 0 & 33.09 &  & 0 & 0.6 &  & 0 & 4.69 &  & 0 & 228 &  & 0 & 5 &  & 2013 \\
+Cereals ready-to-eat, GENERAL MILLS, COCOA PUFFS & 08271 & 0 & 564 &  & 0 & 37.2 &  & 0 & 1 &  & 0 & 5.2 &  & 0 & 272 &  & 0 & 5.7 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cereals ready-to-eat, GENERAL MILLS, CINNAMON TOAST CRUNCH & 08272 & 0 & 580 &  & 0 & 29.7 &  & 0 & 1.1 &  & 0 & 10.1 &  & 0 & 172 &  & 0 & 5.2 &  & 2013 \\
+Cereals ready-to-eat, GENERAL MILLS, BOO BERRY & 08273 & 0 & 458 &  & 0 & 27.29 &  & 0 & 0.5 &  & 0 & 4.3 &  & 0 & 163 &  & 0 & 4.2 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cereals ready-to-eat, GENERAL MILLS, BERRY BERRY KIX & 08274 & 0 & 517 &  & 0 & 20.9 &  & 0 & 0.6 &  & 0 & 4.2 &  & 0 & 227 &  & 0 & 5.8 &  & 2013 \\
+Cereals ready-to-eat, KELLOGG, KELLOGG'S Low Fat Granola with Raisins & 08284 & 0 & 249 &  & 0 & 27.9 &  & 0 & 1.2 &  & 0 & 5.2 &  & 0 & 204 &  & 0 & 7.4 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cereals ready-to-eat, KELLOGG, KELLOGG'S MUESLIX & 08286 & 0 & 252 &  & 0 & 25.5 &  & 0 & 0.6 &  & 0 & 5.5 &  & 0 & 311 &  & 0 & 8.3 &  & 2013 \\
+Cereals ready-to-eat, KELLOGG, KELLOGG'S RICE KRISPIES TREATS Cereal & 08288 & 0 & 554 &  & 0 & 31 &  & 0 & 0.9 &  & 0 & 4.6 &  & 0 & 77 &  & 0 & 0.2 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cereals ready-to-eat, HEALTH VALLEY, FIBER 7 Flakes & 08290 & 0 & 200 &  & 0 & 20 &  & 0 & 0.261 &  & 0 & 1.41 &  & 0 & 480 &  & 0 & 14.1 &  & 2013 \\
+Cereals ready-to-eat, Post, Waffle Crisp & 08305 & 0 & 383 &  & 0 & 40 &  & 0 & 1.4 &  & 0 & 9.8 &  & 0 & 133 &  & 0 & 1.8 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cereals ready-to-eat, KELLOGG, KELLOGG'S HONEY CRUNCH CORN FLAKES & 08309 & 0 & 700 &  & 0 & 33 &  & 0 & 0.3 &  & 0 & 1.9 &  & 0 & 102 &  & 0 & 3.4 &  & 2013 \\
+Cereals ready-to-eat, KELLOGG, KELLOGG'S SMART START Strong Heart Antioxidants Cereal & 08318 & 0 & 426 &  & 0 & 28.7 &  & 0 & 0.3 &  & 0 & 1.6 &  & 0 & 180 &  & 0 & 5.8 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cereals ready-to-eat, MALT-O-MEAL, TOOTIE FRUITIES & 08349 & 1 & 464 & \multicolumn{1}{r}{\cellcolor[HTML]{FADADE}} & 1 & 45.7 &  & 1 & 0.687 &  & 0 & 3.29 &  & 1 & 131 &  & 1 & 2.5 &  & 2013 \\
+Cereals ready-to-eat, KELLOGG, KELLOGG'S, RAISIN BRAN CRUNCH & 08380 & 0 & 377 &  & 0 & 35.9 &  & 0 & 0.4 &  & 0 & 1.7 &  & 0 & 396 &  & 0 & 8 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cereals ready-to-eat, KASHI GOLEAN CRUNCH! & 08386 & 0 & 196 &  & 0 & 24 &  & 0 & 0.6 &  & 0 & 5.7 &  & 0 & 544 &  & 0 & 15.1 &  & 2013 \\
+Cereals ready-to-eat, KASHI HEART TO HEART, Honey Toasted Oat & 08387 & 0 & 256 & \multicolumn{1}{r}{} & 0 & 15.6 &  & 0 & 0.9 &  & 0 & 5.3 &  & 0 & 310 &  & 0 & 15.1 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cereals ready-to-eat, KASHI GOOD FRIENDS & 08390 & 0 & 204 &  & 0 & 18.8 &  & 0 & 0.5 &  & 0 & 3.2 &  & 0 & 366 &  & 0 & 21.7 &  & 2013 \\
+Cereals ready-to-eat, KASHI GOLEAN & 08393 & 0 & 165 & \multicolumn{1}{r}{} & 0 & 12 &  & 0 & 0.4 &  & 0 & 1.9 &  & 0 & 926 &  & 0 & 19.6 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cereals ready-to-eat, MALT-O-MEAL, Frosted Flakes & 08409 & 0 & 580 &  & 0 & 38.04 &  & 0 & 0.1 &  & 0 & 1.1 &  & 0 & 95 &  & 0 & 2.3 &  & 2013 \\
+Cereals ready-to-eat, UNCLE SAM CEREAL & 08435 & 1 & 206 &  & 0 & 1.56 &  & 0 & 1.32 &  & 1 & 11.6 &  & 1 & 446 &  & 1 & 20.3 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cereals ready-to-eat, KELLOGG'S, Reduced Sugar Frosted Flakes Cereal & 08469 & 0 & 548 &  & 0 & 27.4 &  & 0 & 0.1 &  & 0 & 0.4 &  & 0 & 119 &  & 0 & 10 &  & 2013 \\
+Cereals ready-to-eat, MALT-O-MEAL, Fruity DYNO-BITES & 08501 & 0 & 630 &  & 1 & 42.6 &  & 1 & 0.64 &  & 0 & 3.15 &  & 1 & 76 &  & 1 & 1 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Milk and cereal bar & 08510 & 0 & 319 &  & 0 & 45.97 &  & 0 & 9.114 &  & 0 & 10.98 &  & 0 & 254 &  & 0 & 0.4 &  & 2013 \\
+Cereals ready-to-eat, GENERAL MILLS, CHOCOLATE LUCKY CHARMS & 08513 & 0 & 560 &  & 0 & 36.5 &  & 0 & 0.8 &  & 0 & 4.5 &  & 0 & 249 &  & 0 & 5.8 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cereals ready-to-eat, KELLOGG, SPECIAL K, Fruit \& Yogurt & 08531 & 0 & 452 &  & 0 & 32.1 &  & 0 & 1.4 &  & 0 & 2.9 &  & 0 & 188 &  & 0 & 8.1 &  & 2013 \\
+Cereals ready-to-eat, KELLOGG'S, SPECIAL K Vanilla Almond & 08543 & 0 & 569 & \multicolumn{1}{r}{} & 0 & 30.4 &  & 0 & 0.4 &  & 0 & 4.2 &  & 0 & 251 &  & 0 & 9.3 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cereals ready-to-eat, POST GREAT GRAINS Cranberry Almond Crunch & 08544 & 0 & 214 &  & 0 & 25.5 &  & 0 & 0.8 &  & 0 & 5.9 &  & 0 & 308 &  & 0 & 11.1 &  & 2013 \\
+Rice and Wheat cereal bar & 08546 & 1 & 500 &  & 0 & 31.8 &  & 0 & 0 &  & 1 & 9.09 &  & 0 & 143 &  & 0 & 1.8 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cereals ready-to-eat, QUAKER, Christmas Crunch & 08550 & 0 & 724 & \multicolumn{1}{r}{\cellcolor[HTML]{FADADE}} & 0 & 44.31 &  & 0 & 3.081 &  & 0 & 4.83 &  & 0 & 186 &  & 0 & 2.6 &  & 2013 \\
+Cereals ready-to-eat, GENERAL MILLS, CHEERIOS, Yogurt Burst, strawberry & 08553 & 1 & 567 &  & 1 & 30 &  & 1 & 1.667 &  & 0 & 5.23 &  & 1 & 200 &  & 1 & 6.7 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cereals ready-to-eat, POST SELECTS Maple Pecan Crunch & 08554 & 0 & 240 & \multicolumn{1}{r}{\cellcolor[HTML]{FADADE}} & 0 & 23.08 &  & 0 & 0.962 &  & 0 & 8.65 &  & 0 & 269 &  & 0 & 7.7 &  & 2013 \\
+Cereals ready-to-eat, KASHI GO LEAN CRUNCH!, Honey Almond Flax & 08560 & 0 & 269 &  & 0 & 22.1 &  & 0 & 1 &  & 0 & 9.9 &  & 0 & 668 &  & 0 & 15.2 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cereals ready-to-eat, GENERAL MILLS, 25\% Less Sugar CINNAMON TOAST CRUNCH & 08579 & 0 & 581 &  & 0 & 19.7 &  & 0 & 1.708 &  & 0 & 10.1 &  & 0 & 171 &  & 0 & 10.6 &  & 2013 \\
+Cereals ready-to-eat, GENERAL MILLS, DORA THE EXPLORER & 08582 & 0 & 564 &  & 0 & 21.2 &  & 0 & 1 &  & 0 & 5.7 &  & 0 & 198 &  & 0 & 10.2 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cereals ready-to-eat, GENERAL MILLS, Fruity CHEERIOS & 08583 & 0 & 501 &  & 0 & 32.2 &  & 0 & 0.69 &  & 0 & 4.59 &  & 0 & 214 &  & 0 & 5.9 &  & 2013 \\
+Cereals ready-to-eat, KELLOGG'S SPECIAL K Chocolatey Delight & 08584 & 0 & 582 & \multicolumn{1}{r}{} & 0 & 29.9 &  & 0 & 6.3 &  & 0 & 7.3 &  & 0 & 272 &  & 0 & 10.6 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cereals ready-to-eat, GENERAL MILLS, 25\% Less Sugar TRIX & 08586 & 0 & 512 &  & 0 & 23.9 &  & 0 & 0.7 &  & 0 & 5.5 &  & 0 & 181 &  & 0 & 7.7 &  & 2013 \\
+Cereals ready-to-eat, KELLOGG, KELLOGG'S SPECIAL K, Cinnamon Pecan & 08602 & 0 & 650 &  & 0 & 24 &  & 0 & 0.7 &  & 0 & 6 &  & 0 & 267 &  & 0 & 10.3 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cereals ready-to-eat, POST, HONEY BUNCHES OF OATS with vanilla bunches & 08633 & 0 & 267 &  & 0 & 20.6 &  & 0 & 0.6 &  & 0 & 5.1 &  & 0 & 262 &  & 0 & 7.6 &  & 2013 \\
+Cereals ready-to-eat, POST, HONEY BUNCHES OF OATS, pecan bunches & 08655 & 0 & 481 &  & 0 & 21.4 &  & 0 & 0.6 &  & 0 & 5.6 &  & 0 & 174 &  & 0 & 5.1 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cereals ready-to-eat, NATURE'S PATH, Organic FLAX PLUS flakes & 08656 & 0 & 458 & \multicolumn{1}{r}{\cellcolor[HTML]{FADADE}} & 0 & 12.25 &  & 0 & 0.62 &  & 0 & 5.46 &  & 0 & 501 &  & 0 & 16.6 &  & 2013 \\
+Cereals ready-to-eat, BARBARA'S PUFFINS, original & 08657 & 0 & 704 &  & 0 & 18.52 &  & 0 & 0 &  & 0 & 3.7 &  & 0 & 315 &  & 0 & 18.5 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Olives, ripe, canned (small-extra large) & 09193 & 51 & 735 & \multicolumn{1}{r}{\cellcolor[HTML]{FADADE}16.383} & 0 & 0 &  & 0 & 1.415 &  & 2 & 10.68 &  & 2 & 8 &  & 0 & 3.2 &  & 2013 \\
+Olives, ripe, canned (jumbo-super colossal) & 09194 & 51 & 735 & 16.383 & 0 & 0 &  & 0 & 0.909 &  & 2 & 6.87 &  & 2 & 9 &  & 0 & 2.5 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Olives, pickled, canned or bottled, green & 09195 & 6 & 1556 & \multicolumn{1}{r}{\cellcolor[HTML]{FADADE}146.103} & 0 & 0.54 &  & 0 & 2.029 &  & 7 & 15.32 & 1.394 & 6 & 42 & 8.718 & 6 & 3.3 & 0.322 & 2013 \\
+Pork, cured, bacon, unprepared & 10123 & 18 & 662 & \multicolumn{1}{r}{15.87} & 1 & 1 &  & 0 & 13.296 &  & 18 & 39.69 & 1.165 & 18 & 198 & 3.973 & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Pork, cured, feet, pickled & 10132 & 0 & 946 &  & 1 & 0 &  & 0 & 2.945 &  & 1 & 10.02 &  & 1 & 13 &  & 0 & 0 &  & 2013 \\
+Pork, cured, ham, boneless, extra lean (approximately 5\% fat), roasted & 10134 & 0 & 1203 &  & 0 & 0 &  & 0 & 1.81 &  & 0 & 5.53 &  & 0 & 287 &  & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Pork, cured, ham, boneless, regular (approximately 11\% fat), roasted & 10136 & 3 & 1500 & \multicolumn{1}{r}{\cellcolor[HTML]{FADADE}86.297} & 0 & 0 &  & 0 & 3.12 &  & 5 & 9.02 & 0.619 & 3 & 409 & 15.3 & 0 & 0 &  & 2013 \\
+Pork, cured, ham, extra lean (approximately 4\% fat), canned, unheated & 10137 & 21 & 1255 & 39.413 & 0 & 0 &  & 0 & 1.51 &  & 22 & 4.56 & 0.195 & 17 & 364 & 6.582 & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Pork, cured, ham, center slice, country-style, separable lean only, raw & 10141 & 0 & 2695 &  & 0 & 0 &  & 0 & 2.78 &  & 6 & 8.32 & 0.697 & 0 & 510 &  & 0 & 0 &  & 2013 \\
+Pork, cured, ham, whole, separable lean only, unheated & 10152 & 0 & 1516 &  & 0 & 0 &  & 0 & 1.92 &  & 24 & 5.71 & 0.261 & 0 & 371 &  & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Pork, cured, ham, whole, separable lean only, roasted & 10153 & 21 & 1327 & 80.771 & 0 & 0 &  & 0 & 1.84 &  & 25 & 5.5 & 0.177 & 21 & 316 & 8.674 & 0 & 0 &  & 2013 \\
+Pork, cured, salt pork, raw & 10165 & 0 & 2684 & \multicolumn{1}{r}{} & 0 & 0 &  & 0 & 29.38 &  & 2 & 80.5 &  & 2 & 66 &  & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Pork, cured, shoulder, arm picnic, separable lean and fat, roasted & 10168 & 0 & 1072 &  & 0 & 0 &  & 0 & 7.67 &  & 0 & 21.35 &  & 0 & 258 &  & 0 & 0 &  & 2013 \\
+Pork, cured, shoulder, arm picnic, separable lean only, roasted & 10169 & 0 & 1231 &  & 0 & 0 &  & 0 & 2.36 &  & 9 & 7.04 & 0.297 & 0 & 292 &  & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Pork, cured, ham, boneless, extra lean and regular, unheated & 10182 & 74 & 1278 & 31.577 & 0 & 0 &  & 0 & 2.7 &  & 42 & 8.39 & 0.339 & 70 & 297 & 6.227 & 0 & 0 &  & 2013 \\
+Pork, cured, ham, boneless, extra lean and regular, roasted & 10183 & 0 & 1385 &  & 0 & 0 &  & 0 & 2.61 &  & 0 & 7.66 &  & 0 & 362 &  & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Pork, cured, ham, extra lean and regular, canned, unheated & 10184 & 36 & 1276 & 32.532 & 0 & 0 &  & 0 & 2.45 &  & 34 & 7.46 & 0.318 & 28 & 334 & 4.817 & 0 & 0 &  & 2013 \\
+Pork, cured, ham, extra lean and regular, canned, roasted & 10185 & 8 & 1068 & 71.956 & 0 & 0 &  & 0 & 2.81 &  & 8 & 8.43 & 0.946 & 8 & 351 & 17.375 & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Pork, cured, ham and water product, whole, boneless, separable lean only, heated, roasted & 10871 & 2 & 1335 &  & 4 & 4.61 & 0.781 & 0 & 1.841 &  & 4 & 5.46 & 1.403 & 2 & 245 &  & 0 & 0 &  & 2013 \\
+Pork, cured, ham and water product, whole, boneless, separable lean only, unheated & 10872 & 2 & 1310 &  & 4 & 4.22 & 0.714 & 0 & 1.447 &  & 4 & 4.86 & 1.359 & 2 & 268 &  & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Pork, cured, ham -- water added, whole, boneless, separable lean only, heated, roasted & 10879 & 4 & 1193 & 22.867 & 12 & 1.57 & 0.206 & 0 & 1.424 &  & 12 & 4.39 & 0.356 & 4 & 316 & 13.41 & 0 & 0 &  & 2013 \\
+Pork, cured, ham -- water added, whole, boneless, separable lean only, unheated & 10880 & 4 & 1141 & 53.789 & 12 & 1.45 & 0.217 & 0 & 1.428 &  & 12 & 3.97 & 0.313 & 4 & 317 & 7.805 & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Pork, cured, ham with natural juices, whole, boneless, separable lean only, heated, roasted & 10883 & 3 & 1180 & 40 & 9 & 0.81 & 0.116 & 0 & 1.044 &  & 9 & 3.01 & 0.22 & 3 & 367 & 27.622 & 0 & 0 &  & 2013 \\
+Pork, cured, ham with natural juices, whole, boneless, separable lean only, unheated & 10884 & 4 & 1098 & 72.836 & 11 & 1.03 & 0.227 & 0 & 0.934 &  & 11 & 3.21 & 0.271 & 4 & 347 & 15.558 & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Pork, cured, ham with natural juices, whole, boneless, separable lean and fat, unheated & 10900 & 0 & 1096 &  & 0 & 1.02 &  & 0 & 1.005 &  & 0 & 3.43 &  & 0 & 346 &  & 0 & 0 &  & 2013 \\
+Pork, cured, ham and water product, whole, boneless, separable lean and fat, unheated & 10905 & 0 & 1308 &  & 0 & 4.21 &  & 0 & 1.489 &  & 0 & 4.99 &  & 0 & 267 &  & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Pork, cured, ham -- water added, whole, boneless, separable lean and fat, unheated & 10909 & 0 & 1126 &  & 0 & 1.42 &  & 0 & 1.889 &  & 0 & 5.38 &  & 0 & 312 &  & 0 & 0 &  & 2013 \\
+Pork, cured, ham -- water added, whole, boneless, separable lean and fat, heated, roasted & 10917 & 0 & 1181 &  & 0 & 1.54 &  & 0 & 1.787 &  & 0 & 5.48 &  & 0 & 313 &  & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Pork, cured, ham and water product, whole, boneless, separable lean and fat, heated, roasted & 10922 & 0 & 1335 &  & 0 & 4.61 &  & 0 & 1.841 &  & 0 & 5.46 &  & 0 & 245 &  & 0 & 0 &  & 2013 \\
+Pork, cured, ham with natural juices, whole, boneless, separable lean and fat, heated, roasted & 10928 & 0 & 1179 &  & 0 & 0.81 &  & 0 & 1.084 &  & 0 & 3.13 &  & 0 & 367 &  & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Pork, fresh, enhanced, loin, tenderloin, separable lean only, cooked, roasted & 10943 & 11 & 231 & 33.696 & 0 & 0 &  & 0 & 1.077 &  & 12 & 3.15 & 0.26 & 12 & 567 & 66.676 & 0 & 0 &  & 2013 \\
+Pork, fresh, enhanced, loin, tenderloin, separable lean only, raw & 10944 & 12 & 243 & 32.252 & 0 & 0 &  & 0 & 0.671 &  & 12 & 2.09 & 0.175 & 12 & 527 & 65.487 & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Pork, fresh, enhanced, shoulder, (Boston butt), blade (steaks), separable lean only, cooked, braised & 10945 & 12 & 154 & 14.04 & 0 & 0 &  & 0 & 4.62 &  & 12 & 12.14 & 0.874 & 12 & 388 & 46.513 & 0 & 0 &  & 2013 \\
+Pork, fresh, enhanced, loin, top loin (chops), boneless, separable lean and fat, raw & 10949 & 0 & 226 &  & 0 & 0 &  & 0 & 1.486 &  & 0 & 4.21 &  & 0 & 479 &  & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Pork, fresh, enhanced, loin, top loin (chops), boneless, separable lean and fat, cooked, broiled & 10950 & 0 & 234 &  & 0 & 0 &  & 0 & 1.678 &  & 0 & 4.86 &  & 0 & 517 &  & 0 & 0 &  & 2013 \\
+Pork, fresh, enhanced, loin, tenderloin, separable lean and fat, cooked, roasted & 10952 & 0 & 230 &  & 0 & 0 &  & 0 & 1.27 &  & 0 & 3.7 &  & 0 & 563 &  & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Pork, fresh, enhanced, shoulder, (Boston butt), blade (steaks), separable lean and fat, cooked, braised & 10954 & 0 & 151 &  & 0 & 0 &  & 0 & 6.288 &  & 0 & 16.94 &  & 0 & 370 &  & 0 & 0 &  & 2013 \\
+Asparagus, canned, drained solids & 11015 & 0 & 287 &  & 0 & 1.06 &  & 0 & 0.147 &  & 4 & 0.65 & 0.065 & 0 & 172 &  & 0 & 1.6 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Beans, shellie, canned, solids and liquids & 11050 & 12 & 334 & 16.252 & 0 & 0.63 &  & 0 & 0.023 &  & 11 & 0.19 & 0.009 & 12 & 109 & 4.359 & 0 & 3.4 &  & 2013 \\
+Beets, canned, drained solids & 11084 & 0 & 194 &  & 0 & 5.51 &  & 0 & 0.022 &  & 5 & 0.14 & 0.046 & 0 & 148 &  & 1 & 1.8 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Carrots, canned, regular pack, drained solids & 11128 & 0 & 242 &  & 0 & 2.48 &  & 0 & 0.036 &  & 11 & 0.19 & 0.013 & 6 & 179 & 14.472 & 0 & 1.5 &  & 2013 \\
+Corn, sweet, yellow, canned, cream style, regular pack & 11174 & 48 & 261 & 8.312 & 0 & 3.23 &  & 0 & 0.065 &  & 281 & 0.42 & 0.011 & 250 & 134 & 2.209 & 0 & 1.2 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Corn, sweet, yellow, canned, vacuum pack, regular pack & 11176 & 66 & 272 & 7.706 & 0 & 3.56 &  & 0 & 0.077 &  & 71 & 0.5 & 0.026 & 66 & 186 & 5.052 & 0 & 2 &  & 2013 \\
+Mushrooms, canned, drained solids & 11264 & 0 & 425 &  & 0 & 2.34 &  & 0 & 0.038 &  & 5 & 0.29 & 0.068 & 0 & 129 &  & 0 & 2.4 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Peas, green (includes baby and lesuer types), canned, drained solids, unprepared & 11308 & 9 & 273 & \multicolumn{1}{r}{\cellcolor[HTML]{FADADE}12.095} & 0 & 2.99 &  & 0 & 0.143 &  & 9 & 0.8 & 0.021 & 9 & 106 & 6.169 & 7 & 4.9 & 0.188 & 2013 \\
+Peppers, hot chili, green, canned, pods, excluding seeds, solids and liquids & 11329 & 0 & 1173 &  & 0 & 3.12 &  & 0 & 0.01 &  & 0 & 0.1 &  & 0 & 187 &  & 0 & 1.3 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Potatoes, mashed, dehydrated, granules with milk, dry form & 11382 & 0 & 82 &  & 0 & 3.37 &  & 0 & 0.461 &  & 0 & 1.1 &  & 0 & 1848 &  & 0 & 6.6 &  & 2013 \\
+Sauerkraut, canned, solids and liquids & 11439 & 167 & 661 & 8.53 & 0 & 1.78 &  & 0 & 0.034 &  & 146 & 0.14 & 0.003 & 136 & 170 & 3.913 & 2 & 2.9 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Spinach, canned, regular pack, drained solids & 11461 & 0 & 322 &  & 0 & 0.4 &  & 0 & 0.081 &  & 11 & 0.5 & 0.078 & 6 & 346 & 13.831 & 0 & 2.4 &  & 2013 \\
+Tomatoes, red, ripe, canned, stewed & 11533 & 38 & 221 & 10.814 & 0 & 3.52 &  & 0 & 0.026 &  & 40 & 0.19 & 0.011 & 10 & 207 & 13.236 & 39 & 1 & 0.044 & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Vegetables, mixed, canned, drained solids & 11581 & 0 & 214 &  & 0 & 2.41 &  & 0 & 0.051 &  & 0 & 0.25 &  & 0 & 291 &  & 0 & 3 &  & 2013 \\
+Carrot juice, canned & 11655 & 0 & 66 &  & 0 & 3.91 &  & 0 & 0.027 &  & 0 & 0.15 &  & 0 & 292 &  & 0 & 0.8 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Peppers, hot chili, red, canned, excluding seeds, solids and liquids & 11820 & 0 & 1173 &  & 0 & 3.32 &  & 0 & 0.01 &  & 0 & 0.1 &  & 0 & 187 &  & 0 & 1.3 &  & 2013 \\
+Tomato products, canned, puree, with salt added & 11888 & 1 & 202 &  & 0 & 4.83 &  & 0 & 0.029 &  & 36 & 0.21 & 0.027 & 27 & 439 & 15.821 & 33 & 1.9 & 0.06 & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Corn, sweet, white, canned, whole kernel, drained solids & 11905 & 0 & 323 &  & 0 & 2.4 &  & 0 & 0.154 &  & 5 & 1 & 0.097 & 0 & 195 &  & 0 & 2 &  & 2013 \\
+Corn, sweet, white, canned, cream style, regular pack & 11906 & 48 & 261 & 8.312 & 0 & 2.21 &  & 0 & 0.065 &  & 281 & 0.42 & 0.011 & 48 & 119 & 3.069 & 0 & 1.2 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Beans, snap, yellow, canned, regular pack, drained solids & 11932 & 12 & 251 & 17.431 & 0 & 0.96 &  & 0 & 0.022 &  & 17 & 0.1 & 0.005 & 12 & 109 & 1.286 & 0 & 1.3 &  & 2013 \\
+Pickles, cucumber, sweet (includes bread and butter pickles) & 11940 & 4 & 457 & \multicolumn{1}{r}{29.787} & 0 & 18.27 &  & 0 & 0.067 &  & 4 & 0.41 & 0.047 & 3 & 100 & 1.126 & 3 & 1 & 0.067 & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Pickles, cucumber, sour & 11941 & 6 & 1208 & 10.062 & 0 & 1.06 &  & 0 & 0.052 &  & 6 & 0.2 & 0 & 6 & 23 & 0.671 & 0 & 1.2 &  & 2013 \\
+Pickle relish, sweet & 11945 & 7 & 811 & 18.603 & 0 & 29.13 &  & 0 & 0.054 &  & 7 & 0.47 & 0.047 & 6 & 25 & 0.258 & 0 & 1.1 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Pickles, chowchow, with cauliflower onion mustard, sweet & 11983 & 1 & 527 &  & 0 & 23.88 &  & 0 & 0.149 &  & 1 & 0.9 &  & 1 & 200 &  & 1 & 1.5 &  & 2013 \\
+Seeds, pumpkin and squash seed kernels, roasted, with salt added & 12516 & 1 & 256 &  & 1 & 1.29 &  & 0 & 8.544 &  & 1 & 49.05 &  & 2 & 788 &  & 1 & 6.5 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Seeds, sesame seed kernels, toasted, with salt added (decorticated) & 12529 & 0 & 588 &  & 0 & 0.48 &  & 0 & 6.722 &  & 3 & 48 & 0 & 0 & 406 &  & 0 & 16.9 &  & 2013 \\
+Seeds, sunflower seed kernels, dry roasted, with salt added & 12537 & 0 & 368 &  & 0 & 2.73 &  & 0 & 5.219 &  & 1 & 49.8 &  & 1 & 850 &  & 0 & 9 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Seeds, sunflower seed kernels, oil roasted, with salt added & 12538 & 0 & 733 &  & 5 & 3.11 &  & 0 & 7.068 &  & 2 & 51.3 &  & 1 & 483 &  & 1 & 10.6 &  & 2013 \\
+Nuts, almonds, dry roasted, with salt added & 12563 & 0 & 656 &  & 0 & 4.86 &  & 0 & 4.092 &  & 23 & 52.54 & 0.761 & 21 & 713 & 11.424 & 20 & 10.9 & 0.414 & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Nuts, almonds, oil roasted, with salt added & 12565 & 528 & 339 &  & 3 & 4.55 & 0.248 & 0 & 4.208 &  & 3 & 55.17 & 1.198 & 3 & 699 & 14.581 & 3 & 10.5 & 0.614 & 2013 \\
+Nuts, cashew nuts, dry roasted, with salt added & 12585 & 2 & 640 &  & 0 & 5.01 &  & 0 & 9.157 &  & 2 & 46.35 &  & 2 & 565 &  & 0 & 3 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Nuts, cashew nuts, oil roasted, with salt added & 12586 & 6 & 308 & 30.57 & 8 & 5.01 & 0.549 & 0 & 8.478 &  & 3 & 47.77 & 1.866 & 8 & 632 & 20.071 & 2 & 3.3 &  & 2013 \\
+Nuts, cashew butter, plain, with salt added & 12588 & 0 & 406 &  & 0 & 5.01 &  & 0 & 9.763 &  & 3 & 49.41 & 0.376 & 0 & 546 &  & 0 & 2 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Nuts, macadamia nuts, dry roasted, with salt added & 12632 & 0 & 353 & \multicolumn{1}{r}{\cellcolor[HTML]{FADADE}} & 4 & 4.14 & 0.187 & 0 & 11.947 &  & 4 & 76.08 & 1.039 & 4 & 363 & 14.047 & 4 & 8 & 0.709 & 2013 \\
+Nuts, mixed nuts, dry roasted, with peanuts, with salt added & 12635 & 0 & 345 & \multicolumn{1}{r}{} & 0 & 4.8 &  & 0 & 6.5 &  & 0 & 51.45 &  & 0 & 693 &  & 0 & 9 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Nuts, mixed nuts, oil roasted, with peanuts, with salt added & 12637 & 10 & 273 & \multicolumn{1}{r}{\cellcolor[HTML]{FADADE}10.886} & 10 & 4.15 & 0.084 & 0 & 8.711 &  & 10 & 53.95 & 0.464 & 10 & 632 & 7.269 & 10 & 7 & 0.129 & 2013 \\
+Nuts, mixed nuts, oil roasted, without peanuts, with salt added & 12638 & 3 & 306 & \multicolumn{1}{r}{43.482} & 0 & 4.38 &  & 0 & 9.087 &  & 0 & 56.17 &  & 0 & 544 &  & 0 & 5.5 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Nuts, pistachio nuts, dry roasted, with salt added & 12652 & 17 & 428 & \multicolumn{1}{r}{\cellcolor[HTML]{FADADE}34.015} & 13 & 7.74 & 0.36 & 0 & 5.456 &  & 14 & 44.82 & 1.826 & 12 & 1007 & 39.559 & 19 & 9.9 & 0.551 & 2013 \\
+Nuts, almond butter, plain, with salt added & 12695 & 0 & 227 & \multicolumn{1}{r}{} & 0 & 6.27 &  & 0 & 6.55 &  & 8 & 55.5 & 0.716 & 8 & 748 & 21.239 & 8 & 10.3 & 0.403 & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Beef, cured, breakfast strips, cooked & 13345 & 22 & 2253 & \multicolumn{1}{r}{\cellcolor[HTML]{FADADE}43.919} & 0 & 0 &  & 0 & 14.35 &  & 22 & 34.4 & 0.64 & 22 & 412 & 13.432 & 0 & 0 &  & 2013 \\
+Beef, cured, corned beef, brisket, cooked & 13347 & 0 & 973 &  & 0 & 0 &  & 0 & 6.34 &  & 13 & 18.98 & 2.622 & 5 & 145 & 21.466 & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Beef, cured, corned beef, canned & 13348 & 0 & 897 & \multicolumn{1}{r}{\cellcolor[HTML]{FADADE}} & 0 & 0 &  & 0 & 6.18 &  & 11 & 14.93 & 1.049 & 6 & 136 & 9.798 & 0 & 0 &  & 2013 \\
+Beef, cured, dried & 13350 & 1 & 2790 & \multicolumn{1}{r}{} & 0 & 2.7 &  & 0 & 0.95 &  & 1 & 1.94 &  & 0 & 235 &  & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Beef, cured, pastrami & 13355 & 0 & 1078 &  & 0 & 0.1 &  & 0 & 2.681 &  & 5 & 5.82 &  & 0 & 210 &  & 0 & 0 &  & 2013 \\
+Beverages, ABBOTT, EAS whey protein powder & 14033 & 0 & 385 &  & 0 & 5.13 &  & 0 & 2.564 &  & 0 & 5.13 &  & 0 & 564 &  & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Beverages, ABBOTT, EAS soy protein powder & 14035 & 0 & 452 & \multicolumn{1}{r}{\cellcolor[HTML]{FADADE}} & 0 & 40.48 &  & 0 & 0 &  & 0 & 3.57 &  & 0 & 714 &  & 0 & 0 &  & 2013 \\
+Beverages, UNILEVER, SLIMFAST Shake Mix, powder, 3-2-1 Plan & 14047 & 0 & 472 & \multicolumn{1}{r}{} & 0 & 38.02 &  & 0 & 1.45 &  & 0 & 13.34 &  & 0 & 247 &  & 0 & 18.1 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Beverages, UNILEVER, SLIMFAST Shake Mix, high protein, powder, 3-2-1 Plan & 14055 & 0 & 495 &  & 0 & 23.77 &  & 0 & 1.347 &  & 0 & 11.62 &  & 0 & 752 &  & 0 & 18.2 &  & 2013 \\
+Beverages, Whey protein powder isolate & 14058 & 0 & 372 & \multicolumn{1}{r}{} & 0 & 1.16 &  & 0 & 0.581 &  & 0 & 1.16 &  & 0 & 872 &  & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Beverages, chocolate powder, no sugar added & 14063 & 0 & 636 &  & 0 & 27.27 &  & 0 & 4.545 &  & 0 & 9.09 &  & 0 & 1705 &  & 0 & 9.1 &  & 2013 \\
+Beverages, Protein powder whey based & 14066 & 0 & 156 &  & 0 & 0 &  & 0 & 0.781 &  & 0 & 1.56 &  & 0 & 500 &  & 0 & 3.1 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Beverages, Protein powder soy based & 14067 & 0 & 733 &  & 0 & 22.22 &  & 0 & 1.111 &  & 0 & 5.56 &  & 0 & 933 &  & 0 & 6.7 &  & 2013 \\
+Beverages, KELLOGG'S SPECIAL K20, protein water mix & 14068 & 0 & 280 & \multicolumn{1}{r}{} & 0 & 2 &  & 0 & 0.236 &  & 0 & 0.6 &  & 0 & 490 &  & 0 & 37.5 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Malted drink mix, natural, with added nutrients, powder & 14309 & 0 & 636 &  & 0 & 63.38 &  & 0 & 0.679 &  & 0 & 1.33 &  & 0 & 591 &  & 0 & 1.9 &  & 2013 \\
+Malted drink mix, natural, powder & 14311 & 1 & 405 &  & 1 & 47.62 &  & 1 & 4.762 &  & 1 & 9.52 &  & 0 & 758 &  & 0 & 0.1 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Malted drink mix, chocolate, with added nutrients, powder & 14315 & 5 & 594 & \multicolumn{1}{r}{\cellcolor[HTML]{FADADE}} & 1 & 70.56 &  & 0 & 1.964 &  & 4 & 3.4 &  & 2 & 1193 &  & 1 & 4.7 &  & 2013 \\
+Malted drink mix, chocolate, powder & 14317 & 1 & 190 &  & 1 & 66.67 &  & 1 & 2.381 &  & 1 & 4.76 &  & 0 & 618 &  & 1 & 4.8 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Chocolate-flavor beverage mix for milk, powder, with added nutrients & 14557 & 1 & 136 &  & 1 & 81.82 &  & 1 & 2.273 &  & 1 & 2.27 &  & 0 & 280 &  & 1 & 4.5 &  & 2013 \\
+Beverages, nutritional shake mix, high protein, powder & 14654 & 0 & 1214 & \multicolumn{1}{r}{} & 0 & 3.57 &  & 0 & 0 &  & 0 & 10.71 &  & 0 & 1000 &  & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Fish, caviar, black and red, granular & 15012 & 0 & 1500 &  & 0 & 0 &  & 0 & 4.06 &  & 6 & 17.9 &  & 0 & 181 &  & 0 & 0 &  & 2013 \\
+Fish, haddock, smoked & 15035 & 0 & 763 &  & 0 & 0 &  & 0 & 0.173 &  & 0 & 0.96 &  & 0 & 415 &  & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Fish, herring, Atlantic, pickled & 15041 & 2 & 870 &  & 0 & 7.71 &  & 0 & 2.381 &  & 2 & 18 &  & 2 & 69 &  & 0 & 0 &  & 2013 \\
+Fish, herring, Atlantic, kippered & 15042 & 0 & 918 &  & 0 & 0 &  & 0 & 2.791 &  & 0 & 12.37 &  & 0 & 447 &  & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Fish, salmon, chinook, smoked & 15077 & 0 & 672 &  & 0 & 0 &  & 0 & 0.929 &  & 2 & 4.32 &  & 2 & 175 &  & 0 & 0 &  & 2013 \\
+Fish, salmon, chum, canned, drained solids with bone & 15080 & 0 & 391 &  & 0 & 0 &  & 0 & 1.486 &  & 7 & 5.5 & 0.202 & 0 & 300 &  & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Fish, salmon, pink, canned, total can contents & 15084 & 17 & 403 & 8.759 & 0 & 0 &  & 0 & 0.862 &  & 17 & 4.97 & 0.232 & 17 & 344 & 4.296 & 0 & 0 &  & 2013 \\
+Fish, salmon, sockeye, canned, drained solids & 15087 & 12 & 408 & \multicolumn{1}{r}{18.443} & 0 & 0 &  & 0 & 1.44 &  & 12 & 7.39 & 0.237 & 12 & 314 & 5.007 & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Fish, sardine, Atlantic, canned in oil, drained solids with bone & 15088 & 0 & 307 &  & 0 & 0 &  & 0 & 1.528 &  & 13 & 11.45 & 0.31 & 1 & 397 &  & 0 & 0 &  & 2013 \\
+Fish, sardine, Pacific, canned in tomato sauce, drained solids with bone & 15089 & 1 & 414 &  & 0 & 0.43 &  & 0 & 2.684 &  & 0 & 10.45 &  & 1 & 341 &  & 0 & 0.1 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Fish, sturgeon, mixed species, smoked & 15106 & 0 & 739 & \multicolumn{1}{r}{\cellcolor[HTML]{FADADE}} & 0 & 0 &  & 0 & 1.037 &  & 1 & 4.4 &  & 0 & 379 &  & 0 & 0 &  & 2013 \\
+Fish, tuna, light, canned in oil, drained solids & 15119 & 0 & 416 & \multicolumn{1}{r}{} & 0 & 0 &  & 0 & 1.534 &  & 7 & 8.21 & 0.139 & 0 & 207 &  & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Fish, tuna, white, canned in water, drained solids & 15126 & 7 & 377 & \multicolumn{1}{r}{\cellcolor[HTML]{FADADE}40.239} & 0 & 0 &  & 0 & 0.792 &  & 4 & 2.97 & 0.419 & 6 & 237 & 35.011 & 0 & 0 &  & 2013 \\
+Fish, whitefish, mixed species, smoked & 15131 & 2 & 1019 &  & 0 & 0 &  & 0 & 0.228 &  & 2 & 0.93 &  & 2 & 423 &  & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Crustaceans, crab, alaska king, imitation, made from surimi & 15138 & 0 & 529 &  & 2 & 6.25 &  & 0 & 0.216 &  & 2 & 0.46 &  & 3 & 90 & 2.309 & 2 & 0.5 &  & 2013 \\
+Crustaceans, crab, blue, canned & 15141 & 0 & 563 &  & 0 & 0 &  & 0 & 0.201 &  & 0 & 0.74 &  & 0 & 259 &  & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Crustaceans, shrimp, mixed species, raw & 15149 & 4 & 566 & 29.067 & 1 & 0 &  & 0 & 0.261 &  & 4 & 1.01 & 0.064 & 4 & 113 & 15.505 & 0 & 0 &  & 2013 \\
+Crustaceans, shrimp, mixed species, cooked, moist heat & 15151 & 0 & 947 &  & 0 & 0 &  & 0 & 0.521 &  & 0 & 1.7 &  & 0 & 170 &  & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Crustaceans, shrimp, mixed species, canned & 15152 & 0 & 870 &  & 0 & 0 &  & 0 & 0.188 &  & 1 & 1.36 &  & 1 & 80 &  & 0 & 0 &  & 2013 \\
+Mollusks, clam, mixed species, canned, drained solids & 15160 & 0 & 112 &  & 0 & 0 &  & 0 & 0.309 &  & 0 & 1.59 &  & 0 & 628 &  & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Mollusks, clam, mixed species, canned, liquid & 15162 & 1 & 215 &  & 0 & 0 &  & 0 & 0.002 &  & 1 & 0.02 &  & 0 & 149 &  & 0 & 0 &  & 2013 \\
+Mollusks, oyster, eastern, canned & 15170 & 0 & 112 &  & 0 & 0 &  & 0 & 0.631 &  & 0 & 2.47 &  & 0 & 229 &  & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Beans, baked, canned, plain or vegetarian & 16006 & 5 & 343 & 13.808 & 0 & 7.96 &  & 0 & 0.071 &  & 8 & 0.37 & 0.044 & 5 & 224 & 11.179 & 7 & 4.1 & 0.208 & 2013 \\
+Beans, baked, canned, with franks & 16008 & 29 & 430 & 6.607 & 0 & 6.53 &  & 0 & 2.352 &  & 29 & 6.57 & 0.082 & 21 & 235 & 9.263 & 0 & 6.9 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Beans, baked, canned, with pork and tomato sauce & 16011 & 223 & 437 & 0.196 & 0 & 5.67 &  & 0 & 0.293 &  & 243 & 0.93 & 0.059 & 86 & 295 & 0.2 & 5 & 4 & 0.082 & 2013 \\
+Beans, kidney, red, mature seeds, canned, solids and liquids & 16034 & 5 & 256 & 27.075 & 1 & 1.85 &  & 0 & 0.073 &  & 47 & 0.36 & 0.009 & 45 & 260 & 15.14 & 1 & 5.3 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Peanuts, all types, oil-roasted, with salt & 16089 & 4 & 320 & \multicolumn{1}{r}{\cellcolor[HTML]{FADADE}29.138} & 4 & 4.18 & 0.036 & 0 & 8.655 &  & 4 & 52.5 & 0.601 & 4 & 726 & 6.09 & 4 & 9.4 & 0.096 & 2013 \\
+Bacon, meatless & 16104 & 2 & 1465 &  & 0 & 0 &  & 0 & 4.622 &  & 2 & 29.52 &  & 2 & 170 &  & 0 & 2.6 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Sausage, meatless & 16107 & 2 & 888 &  & 0 & 0 &  & 0 & 2.926 &  & 2 & 18.16 &  & 2 & 231 &  & 0 & 2.8 &  & 2013 \\
+Soybeans, mature seeds, roasted, salted & 16110 & 1 & 163 &  & 0 & 4.2 &  & 0 & 3.674 &  & 3 & 25.4 &  & 1 & 1470 &  & 0 & 17.7 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Soy sauce made from soy (tamari) & 16124 & 0 & 5586 &  & 0 & 1.7 &  & 0 & 0.011 &  & 0 & 0.1 &  & 0 & 212 &  & 0 & 0.8 &  & 2013 \\
+Soy sauce made from hydrolyzed vegetable protein & 16125 & 6 & 6820 & \multicolumn{1}{r}{35.87} & 3 & 1.3 & 0.058 & 0 & 0.04 &  & 6 & 0.51 & 0.057 & 6 & 447 & 5.748 & 0 & 0.5 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Veggie burgers or soyburgers, unprepared & 16147 & 4 & 569 & 59.08 & 4 & 1.07 & 0.135 & 0 & 1.44 &  & 4 & 6.3 & 1.254 & 4 & 333 & 65.076 & 4 & 4.9 & 0.942 & 2013 \\
+Peanut butter, smooth, reduced fat & 16150 & 0 & 540 &  & 0 & 9.28 &  & 0 & 5.76 &  & 0 & 34 &  & 0 & 669 &  & 0 & 5.2 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Peanut butter, smooth, vitamin and mineral fortified & 16155 & 0 & 420 & \multicolumn{1}{r}{\cellcolor[HTML]{FADADE}} & 0 & 10.47 &  & 0 & 10.125 &  & 0 & 50.81 &  & 0 & 667 &  & 0 & 5.6 &  & 2013 \\
+Peanut butter, chunky, vitamin and mineral fortified & 16156 & 0 & 366 &  & 0 & 10.94 &  & 0 & 7.972 &  & 0 & 51.47 &  & 0 & 744 &  & 0 & 5.7 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Refried beans, canned, fat-free & 16172 & 2 & 438 &  & 2 & 0.61 &  & 0 & 0.093 &  & 2 & 0.45 &  & 2 & 344 &  & 2 & 4.7 &  & 2013 \\
+Beans, black, mature seeds, canned, low sodium & 16316 & 5 & 138 & 19.943 & 0 & 0.23 &  & 0 & 0.075 &  & 1 & 0.29 &  & 0 & 308 &  & 0 & 6.9 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Beans, great northern, mature seeds, canned, low sodium & 16326 & 0 & 177 &  & 0 & 1.41 &  & 0 & 0.12 &  & 0 & 0.39 &  & 0 & 351 &  & 0 & 4.9 &  & 2013 \\
+Beans, mature, red kidney, canned, solids and liquid, low sodium & 16337 & 4 & 117 & 18.052 & 1 & 1.85 &  & 0 & 0.125 &  & 47 & 0.36 & 0.009 & 45 & 260 & 15.14 & 1 & 5.3 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Beans, pinto, mature seeds, canned, solids and liquids, low sodium & 16347 & 0 & 146 &  & 23 & 1.02 & 0.116 & 0 & 0.116 &  & 27 & 0.56 & 0.032 & 12 & 276 & 17.22 & 23 & 4.6 & 0.165 & 2013 \\
+Chickpeas (garbanzo beans, bengal gram), mature seeds, canned, solids and liquids, low sodium & 16360 & 5 & 132 & 17.309 & 0 & 2.59 &  & 0 & 0.204 &  & 4 & 1.95 & 0.15 & 4 & 144 & 11.456 & 0 & 4.4 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Refried beans, canned, traditional, reduced sodium & 16403 & 0 & 138 &  & 2 & 0.46 &  & 0 & 0.324 &  & 2 & 1.17 &  & 2 & 336 &  & 5 & 5.1 & 0.082 & 2013 \\
+Bagels, plain, toasted, enriched, with calcium propionate (includes onion, poppy, sesame) & 18002 & 0 & 537 &  & 2 & 5.82 &  & 0 & 0.283 &  & 2 & 1.72 &  & 2 & 85 &  & 2 & 2.6 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Bagels, cinnamon-raisin & 18005 & 0 & 344 &  & 0 & 5.98 &  & 0 & 0.274 &  & 1 & 1.7 &  & 0 & 148 &  & 0 & 2.3 &  & 2013 \\
+Bagels, cinnamon-raisin, toasted & 18006 & 0 & 370 & \multicolumn{1}{r}{} & 0 & 6.43 &  & 0 & 0.295 &  & 0 & 1.8 &  & 0 & 163 &  & 0 & 2.5 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Bagels, oat bran & 18007 & 0 & 590 & \multicolumn{1}{r}{\cellcolor[HTML]{FADADE}} & 0 & 1.63 &  & 0 & 0.191 &  & 1 & 1.2 &  & 0 & 115 &  & 0 & 3.6 &  & 2013 \\
+Biscuits, plain or buttermilk, frozen, baked & 18009 & 0 & 942 &  & 0 & 3.48 &  & 0 & 1.676 &  & 0 & 11.03 &  & 20 & 224 & 24.306 & 0 & 1.3 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Biscuits, plain or buttermilk, refrigerated dough, lower fat & 18012 & 2 & 876 &  & 2 & 7.18 &  & 0 & 3.14 &  & 2 & 7.83 &  & 19 & 159 & 32.66 & 2 & 2 &  & 2013 \\
+Biscuits, plain or buttermilk, refrigerated dough, lower fat, baked & 18013 & 0 & 1018 &  & 0 & 8.14 &  & 0 & 1.294 &  & 0 & 5.2 &  & 0 & 185 &  & 0 & 1.9 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Bread, boston brown, canned & 18021 & 3 & 631 & \multicolumn{1}{r}{\cellcolor[HTML]{FADADE}109.775} & 0 & 2.42 &  & 0 & 0.282 &  & 4 & 1.5 & 0.356 & 3 & 318 & 66.076 & 0 & 4.7 &  & 2013 \\
+Bread, cornbread, dry mix, enriched (includes corn muffin mix) & 18022 & 0 & 817 &  & 0 & 20.34 &  & 0 & 3.091 &  & 54 & 12.2 & 0.128 & 43 & 113 & 3.064 & 0 & 6.5 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Bread, egg & 18027 & 0 & 380 & \multicolumn{1}{r}{\cellcolor[HTML]{FADADE}} & 0 & 1.78 &  & 0 & 1.593 &  & 0 & 6 &  & 0 & 115 &  & 0 & 2.3 &  & 2013 \\
+Bread, egg, toasted & 18028 & 0 & 417 & \multicolumn{1}{r}{} & 0 & 1.94 &  & 0 & 1.616 &  & 0 & 6.6 &  & 0 & 126 &  & 0 & 2.5 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Bread, french or vienna (includes sourdough) & 18029 & 0 & 513 &  & 1 & 2.56 &  & 0 & 0.497 &  & 2 & 1.83 &  & 2 & 128 &  & 2 & 2.4 &  & 2013 \\
+Bread, french or vienna, toasted (includes sourdough) & 18030 & 2 & 720 & \multicolumn{1}{r}{} & 2 & 3.59 &  & 0 & 0.502 &  & 2 & 2.14 &  & 2 & 140 &  & 2 & 3.1 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Bread, italian & 18033 & 0 & 613 &  & 0 & 0.83 &  & 0 & 0.855 &  & 38 & 3.5 & 0.124 & 13 & 110 & 2.87 & 0 & 2.7 &  & 2013 \\
+Bread, Multi-Grain (includes whole-grain) & 18035 & 0 & 381 &  & 0 & 6.39 &  & 0 & 0.872 &  & 4 & 4.23 & 0.562 & 4 & 230 & 21.602 & 4 & 7.4 & 0.742 & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Bread, Multi-Grain, toasted (includes whole-grain) & 18036 & 0 & 414 &  & 0 & 6.94 &  & 0 & 0.948 &  & 0 & 4.6 &  & 0 & 250 &  & 0 & 8.1 &  & 2013 \\
+Bread, oat bran & 18037 & 0 & 353 &  & 0 & 7.7 &  & 0 & 0.697 &  & 3 & 4.4 & 0.706 & 0 & 147 &  & 0 & 4.5 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Bread, oat bran, toasted & 18038 & 0 & 387 &  & 0 & 8.46 &  & 0 & 0.766 &  & 0 & 4.8 &  & 0 & 123 &  & 0 & 4.9 &  & 2013 \\
+Bread, oatmeal & 18039 & 0 & 447 &  & 0 & 8.14 &  & 0 & 0.703 &  & 24 & 4.4 & 0.151 & 12 & 142 & 9.03 & 0 & 4 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Bread, oatmeal, toasted & 18040 & 0 & 486 &  & 0 & 8.84 &  & 0 & 0.764 &  & 0 & 4.8 &  & 0 & 154 &  & 0 & 4.3 &  & 2013 \\
+Bread, pita, white, enriched & 18041 & 24 & 536 & 16.93 & 0 & 1.3 &  & 0 & 0.166 &  & 36 & 1.2 & 0.04 & 17 & 120 & 6.316 & 0 & 2.2 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Bread, pita, whole-wheat & 18042 & 0 & 444 &  & 0 & 0.82 &  & 0 & 0.41 &  & 3 & 2.6 & 0.092 & 2 & 170 &  & 0 & 7.4 &  & 2013 \\
+Bread, protein (includes gluten) & 18043 & 0 & 404 &  & 0 & 1.44 &  & 0 & 0.332 &  & 62 & 2.2 & 0.075 & 0 & 322 &  & 0 & 3 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Bread, pumpernickel & 18044 & 0 & 596 &  & 0 & 0.53 &  & 0 & 0.437 &  & 43 & 3.1 & 0.135 & 18 & 208 & 7.178 & 0 & 6.5 &  & 2013 \\
+Bread, pumpernickel, toasted & 18045 & 0 & 655 & \multicolumn{1}{r}{} & 0 & 0.58 &  & 0 & 0.481 &  & 0 & 3.4 &  & 0 & 228 &  & 0 & 7.1 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Bread, raisin, enriched & 18047 & 0 & 347 &  & 0 & 5.68 &  & 0 & 1.081 &  & 54 & 4.4 & 0.144 & 15 & 227 & 11.006 & 0 & 4.3 &  & 2013 \\
+Bread, raisin, toasted, enriched & 18048 & 0 & 377 &  & 0 & 6.18 &  & 0 & 1.175 &  & 0 & 4.8 &  & 0 & 246 &  & 0 & 4.7 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Bread, reduced-calorie, oat bran & 18049 & 0 & 459 &  & 0 & 3.52 &  & 0 & 0.445 &  & 2 & 3.2 &  & 1 & 102 &  & 0 & 12 &  & 2013 \\
+Bread, reduced-calorie, oat bran, toasted & 18050 & 0 & 547 &  & 0 & 4.2 &  & 0 & 0.53 &  & 0 & 3.8 &  & 0 & 122 &  & 0 & 14.3 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Bread, reduced-calorie, rye & 18053 & 0 & 513 &  & 0 & 2.29 &  & 0 & 0.368 &  & 1 & 2.9 &  & 1 & 98 &  & 0 & 12 &  & 2013 \\
+Bread, reduced-calorie, wheat & 18055 & 3 & 332 & 7 & 3 & 3.71 & 0 & 0 & 0.84 &  & 3 & 2.92 & 0.125 & 3 & 150 & 2.25 & 2 & 11.1 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Bread, reduced-calorie, white & 18057 & 0 & 479 &  & 0 & 4.76 &  & 0 & 0.549 &  & 23 & 2.5 & 0.157 & 1 & 76 &  & 0 & 9.7 &  & 2013 \\
+Bread, rice bran & 18059 & 0 & 269 &  & 0 & 4.67 &  & 0 & 0.709 &  & 4 & 4.6 & 0.508 & 0 & 215 &  & 0 & 4.9 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Bread, rye & 18060 & 0 & 603 &  & 0 & 3.85 &  & 0 & 0.626 &  & 78 & 3.3 & 0.084 & 53 & 166 & 3.417 & 0 & 5.8 &  & 2013 \\
+Bread, rye, toasted & 18061 & 0 & 664 &  & 0 & 4.23 &  & 0 & 0.688 &  & 0 & 3.6 &  & 0 & 183 &  & 0 & 6.4 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Bread, wheat, toasted & 18065 & 0 & 601 &  & 3 & 6.42 & 0.412 & 0 & 0.989 &  & 3 & 4.27 & 0.139 & 3 & 223 & 6.173 & 3 & 4.7 & 0.378 & 2013 \\
+Bread, wheat bran & 18066 & 10 & 486 & 17.606 & 0 & 9.68 &  & 0 & 0.779 &  & 20 & 3.4 & 0.138 & 6 & 227 & 20.41 & 0 & 4 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Bread, white, commercially prepared, toasted & 18070 & 0 & 592 & \multicolumn{1}{r}{\cellcolor[HTML]{FADADE}} & 0 & 4.74 &  & 0 & 0.578 &  & 0 & 4 &  & 0 & 131 &  & 0 & 2.5 &  & 2013 \\
+Bread, whole-wheat, commercially prepared & 18075 & 10 & 455 & \multicolumn{1}{r}{25.287} & 7 & 4.34 & 0.417 & 0 & 0.722 &  & 10 & 3.5 & 0.072 & 10 & 254 & 10.154 & 7 & 6 & 0.391 & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Bread, whole-wheat, commercially prepared, toasted & 18076 & 0 & 493 &  & 2 & 5.77 &  & 0 & 0.922 &  & 2 & 4.07 &  & 2 & 326 &  & 2 & 9.2 &  & 2013 \\
+Bread crumbs, dry, grated, plain & 18079 & 6 & 732 & 3.891 & 6 & 6.2 & 0.137 & 0 & 1.203 &  & 6 & 5.3 & 0.106 & 6 & 196 & 2.15 & 6 & 4.5 & 0.086 & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Bread sticks, plain & 18080 & 0 & 713 & \multicolumn{1}{r}{\cellcolor[HTML]{FADADE}} & 0 & 1.26 &  & 0 & 1.41 &  & 7 & 9.5 & 1.657 & 5 & 124 & 33.598 & 0 & 3 &  & 2013 \\
+Bread stuffing, bread, dry mix & 18081 & 0 & 1405 &  & 0 & 8.27 &  & 0 & 0.845 &  & 58 & 3.4 & 0.05 & 19 & 246 & 10.715 & 0 & 3.2 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Bread stuffing, bread, dry mix, prepared & 18082 & 0 & 479 &  & 0 & 2.11 &  & 0 & 1.734 &  & 0 & 8.6 &  & 0 & 74 &  & 0 & 2.9 &  & 2013 \\
+Bread stuffing, cornbread, dry mix, prepared & 18085 & 0 & 455 &  & 0 & 3.92 &  & 0 & 1.755 &  & 0 & 8.8 &  & 0 & 62 &  & 0 & 2.9 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cake mix, angelfood, dry & 18087 & 1 & 822 &  & 1 & 61.33 &  & 0 & 0.06 &  & 1 & 0.27 &  & 1 & 91 &  & 1 & 0.5 &  & 2013 \\
+Cake, angelfood, dry mix, prepared & 18088 & 0 & 511 &  & 0 & 30.51 &  & 0 & 0.043 &  & 0 & 0.3 &  & 0 & 135 &  & 0 & 0.2 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cake, boston cream pie, commercially prepared & 18090 & 0 & 254 &  & 0 & 36.11 &  & 0 & 2.445 &  & 4 & 8.5 & 0.513 & 3 & 39 & 4.65 & 0 & 1.4 &  & 2013 \\
+Cake, cherry fudge with chocolate frosting & 18095 & 0 & 261 & \multicolumn{1}{r}{} & 0 & 32.94 &  & 0 & 5.066 &  & 1 & 12.5 &  & 1 & 166 &  & 0 & 1.2 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cake, chocolate, dry mix, pudding-type & 18097 & 0 & 767 &  & 0 & 39.53 &  & 0 & 2.022 &  & 0 & 8.14 &  & 40 & 337 & 24.241 & 0 & 2.3 &  & 2013 \\
+Coffeecake, cinnamon with crumb topping, dry mix & 18107 & 18 & 596 & \multicolumn{1}{r}{15.384} & 0 & 42.52 &  & 0 & 2.957 &  & 26 & 12 & 0.105 & 18 & 87 & 8.277 & 0 & 1.8 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Coffeecake, cinnamon with crumb topping, dry mix, prepared & 18108 & 0 & 421 & \multicolumn{1}{r}{\cellcolor[HTML]{FADADE}} & 0 & 29.53 &  & 0 & 1.855 &  & 0 & 9.6 &  & 0 & 112 &  & 0 & 1.2 &  & 2013 \\
+Cake, fruitcake, commercially prepared & 18110 & 0 & 101 &  & 0 & 27.42 &  & 0 & 1.048 &  & 4 & 9.1 & 1.072 & 2 & 153 &  & 0 & 3.7 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cake mix, pudding, dry, german chocolate & 18112 & 1 & 841 &  & 1 & 42.13 &  & 0 & 1.852 &  & 1 & 3.24 &  & 1 & 153 &  & 1 & 2.1 &  & 2013 \\
+Cake, gingerbread, dry mix & 18114 & 1 & 657 &  & 0 & 46.62 &  & 0 & 3.46 &  & 1 & 13.8 &  & 1 & 341 &  & 0 & 1.7 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cake, marble, dry mix, pudding-type & 18117 & 0 & 656 &  & 0 & 57.59 &  & 0 & 2.45 &  & 13 & 11.7 & 0.205 & 8 & 123 & 6.4 & 0 & 2.9 &  & 2013 \\
+Cake, snack cakes, creme-filled, chocolate with frosting & 18127 & 0 & 332 &  & 2 & 37.76 &  & 0 & 4.884 &  & 2 & 15.93 &  & 2 & 176 &  & 2 & 3.2 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cake, snack cakes, creme-filled, sponge & 18128 & 0 & 470 &  & 0 & 37.3 &  & 0 & 4.139 &  & 2 & 11.54 &  & 2 & 71 &  & 2 & 1 &  & 2013 \\
+Cake, sponge, commercially prepared & 18133 & 0 & 623 &  & 0 & 36.66 &  & 0 & 0.802 &  & 0 & 2.7 &  & 0 & 99 &  & 0 & 0.5 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cake, white, dry mix, pudding-type, enriched & 18135 & 8 & 665 & 4.266 & 0 & 48.95 &  & 0 & 2.39 &  & 16 & 9.5 & 0.171 & 8 & 72 & 9.52 & 0 & 0.7 &  & 2013 \\
+Cake, yellow, dry mix, pudding-type & 18142 & 0 & 860 &  & 0 & 44.21 &  & 0 & 2.469 &  & 46 & 9.8 & 0.089 & 36 & 63 & 4.962 & 0 & 0.7 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cake, yellow, dry mix, regular, enriched & 18144 & 1 & 728 &  & 1 & 43.29 &  & 1 & 1.62 &  & 0 & 3.5 &  & 1 & 47 &  & 1 & 1.2 &  & 2013 \\
+Cheesecake commercially prepared & 18147 & 0 & 438 &  & 0 & 21.8 &  & 0 & 9.921 &  & 5 & 22.5 & 1.514 & 4 & 90 & 6.067 & 0 & 0.4 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cookies, animal crackers (includes arrowroot, tea biscuits) & 18150 & 0 & 407 &  & 0 & 13.93 &  & 0 & 3.463 &  & 46 & 13.8 & 0.229 & 34 & 100 & 2.786 & 0 & 1.1 &  & 2013 \\
+Cookies, brownies, commercially prepared & 18151 & 0 & 286 &  & 0 & 36.61 &  & 0 & 4.235 &  & 21 & 16.3 & 0.61 & 11 & 149 & 17.04 & 0 & 2.1 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cookies, butter, commercially prepared, enriched & 18155 & 0 & 282 &  & 0 & 20.24 &  & 0 & 11.051 &  & 14 & 18.8 & 0.958 & 3 & 111 & 20.071 & 0 & 0.8 &  & 2013 \\
+Cookies, chocolate wafers & 18157 & 18 & 580 & 38.417 & 0 & 37.43 &  & 0 & 4.241 &  & 15 & 14.2 & 1.023 & 16 & 210 & 11.881 & 0 & 3.4 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cookies, chocolate sandwich, with creme filling, regular, chocolate-coated & 18167 & 11 & 326 & 8.088 & 0 & 61.07 &  & 0 & 7.426 &  & 11 & 26.4 & 0.817 & 11 & 240 & 15.591 & 0 & 5.2 &  & 2013 \\
+Cookies, chocolate sandwich, with extra creme filling & 18168 & 2 & 351 &  & 2 & 46 &  & 0 & 5.454 &  & 2 & 24.52 &  & 2 & 137 &  & 2 & 2.7 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cookies, fig bars & 18170 & 27 & 350 & 21.427 & 0 & 46.36 &  & 0 & 1.123 &  & 31 & 7.3 & 0.285 & 26 & 207 & 9.247 & 0 & 4.6 &  & 2013 \\
+Cookies, gingersnaps & 18172 & 0 & 501 &  & 0 & 19.92 &  & 0 & 2.451 &  & 25 & 9.8 & 0.219 & 22 & 346 & 20.574 & 0 & 2.2 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cookies, graham crackers, plain or honey (includes cinnamon) & 18173 & 0 & 477 &  & 0 & 31.1 &  & 0 & 1.519 &  & 78 & 10.1 & 0.127 & 50 & 135 & 6.528 & 0 & 2.8 &  & 2013 \\
+Cookies, graham crackers, chocolate-coated & 18174 & 0 & 265 &  & 0 & 37.3 &  & 0 & 17.2 &  & 0 & 25.8 &  & 0 & 267 &  & 0 & 2.2 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cookies, ladyfingers, with lemon juice and rind & 18175 & 0 & 147 & \multicolumn{1}{r}{\cellcolor[HTML]{FADADE}} & 0 & 25.39 &  & 0 & 3.069 &  & 0 & 9.1 &  & 0 & 113 &  & 0 & 1 &  & 2013 \\
+Cookies, marshmallow, chocolate-coated (includes marshmallow pies) & 18176 & 0 & 188 &  & 0 & 44.8 &  & 0 & 4.722 &  & 20 & 16.9 & 0.578 & 21 & 182 & 5.627 & 0 & 2 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cookies, molasses & 18177 & 13 & 459 & 21.24 & 0 & 17.6 &  & 0 & 3.212 &  & 15 & 12.8 & 0.489 & 12 & 346 & 30.901 & 0 & 1 &  & 2013 \\
+Cookies, oatmeal, commercially prepared, regular & 18178 & 28 & 383 & 14.081 & 0 & 24.66 &  & 0 & 4.519 &  & 31 & 18.1 & 0.382 & 24 & 142 & 9.343 & 0 & 2.8 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cookies, peanut butter, commercially prepared, regular & 18185 & 0 & 506 & \multicolumn{1}{r}{\cellcolor[HTML]{FADADE}} & 0 & 31.83 &  & 0 & 4.485 &  & 6 & 23.6 & 0.682 & 5 & 167 & 24.641 & 0 & 1.8 &  & 2013 \\
+Cookies, peanut butter sandwich, regular & 18190 & 19 & 368 & 8.869 & 0 & 35.44 &  & 0 & 4.995 &  & 24 & 21.1 & 0.401 & 19 & 192 & 4.326 & 0 & 1.9 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cookies, raisin, soft-type & 18191 & 0 & 418 &  & 0 & 47.56 &  & 0 & 3.46 &  & 4 & 13.6 & 1.3 & 3 & 140 & 22.995 & 0 & 1.2 &  & 2013 \\
+Cookies, shortbread, commercially prepared, plain & 18192 & 0 & 524 &  & 0 & 15.06 &  & 0 & 6.106 &  & 18 & 24.1 & 0.485 & 16 & 100 & 4.379 & 0 & 1.8 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cookies, chocolate chip, commercially prepared, special dietary & 18198 & 0 & 244 &  & 0 & 39.81 &  & 0 & 4.183 &  & 1 & 16.8 &  & 1 & 199 &  & 0 & 1.6 &  & 2013 \\
+Cookies, chocolate sandwich, with creme filling, special dietary & 18199 & 0 & 342 &  & 0 & 19.73 &  & 0 & 3.992 &  & 1 & 22.1 &  & 1 & 295 &  & 0 & 4.1 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cookies, oatmeal, commercially prepared, special dietary & 18200 & 0 & 273 &  & 0 & 31.65 &  & 0 & 2.693 &  & 1 & 18 &  & 1 & 175 &  & 0 & 2.9 &  & 2013 \\
+Cookies, sugar, commercially prepared, regular (includes vanilla) & 18204 & 0 & 298 &  & 0 & 37.7 &  & 0 & 5.435 &  & 8 & 21.1 & 0.771 & 2 & 63 &  & 0 & 0.8 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cookies, sugar, refrigerated dough, baked & 18206 & 0 & 321 &  & 0 & 23.96 &  & 0 & 5.906 &  & 0 & 23.1 &  & 0 & 163 &  & 0 & 0.8 &  & 2013 \\
+Cookies, sugar wafers with creme filling, regular & 18209 & 6 & 103 & 6.471 & 6 & 42.95 & 1.29 & 0 & 11.899 &  & 6 & 23.24 & 0.86 & 6 & 117 & 5.449 & 6 & 1.6 & 0.163 & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cookies, vanilla sandwich with creme filling & 18210 & 36 & 349 & 12.44 & 0 & 39.3 &  & 0 & 2.979 &  & 40 & 20 & 0.306 & 33 & 91 & 6.964 & 0 & 1.5 &  & 2013 \\
+Puff pastry, frozen, ready-to-bake, baked & 18211 & 0 & 253 &  & 0 & 0.75 &  & 0 & 5.502 &  & 0 & 38.5 &  & 0 & 62 &  & 0 & 1.5 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cookies, vanilla wafers, lower fat & 18212 & 0 & 388 &  & 0 & 37.5 &  & 0 & 3.838 &  & 46 & 15.2 & 0.219 & 46 & 97 & 1.863 & 0 & 1.9 &  & 2013 \\
+Crackers, cheese, regular & 18214 & 12 & 973 & 28.651 & 5 & 4.53 & 0.212 & 0 & 5.288 &  & 12 & 22.74 & 0.574 & 12 & 156 & 2.203 & 12 & 2.3 & 0.089 & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Crackers, cheese, sandwich-type with peanut butter filling & 18215 & 0 & 829 & \multicolumn{1}{r}{\cellcolor[HTML]{FADADE}} & 3 & 6.98 & 0.535 & 0 & 4.406 &  & 6 & 25.12 & 0.075 & 6 & 218 & 4.677 & 3 & 3.4 & 0.193 & 2013 \\
+Crackers, crispbread, rye & 18216 & 0 & 410 &  & 0 & 1.07 &  & 0 & 0.145 &  & 6 & 1.3 & 0.328 & 4 & 319 & 34.499 & 0 & 16.5 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Crackers, melba toast, plain & 18220 & 0 & 598 &  & 0 & 0.94 &  & 0 & 0.445 &  & 11 & 3.2 & 0.429 & 13 & 202 & 10.786 & 0 & 6.3 &  & 2013 \\
+Crackers, milk & 18223 & 10 & 592 & 11.45 & 0 & 16.44 &  & 0 & 2.633 &  & 10 & 15.8 & 0.456 & 9 & 114 & 5.834 & 0 & 1.9 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Crackers, rye, wafers, plain & 18226 & 0 & 557 & \multicolumn{1}{r}{\cellcolor[HTML]{FADADE}} & 0 & 1.01 &  & 0 & 0.108 &  & 21 & 0.9 & 0.054 & 2 & 495 &  & 0 & 22.9 &  & 2013 \\
+Crackers, standard snack-type, sandwich, with cheese filling & 18230 & 0 & 978 &  & 0 & 3.18 &  & 0 & 6.125 &  & 7 & 21.1 & 0.579 & 6 & 429 & 53.599 & 0 & 1.9 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Crackers, standard snack-type, sandwich, with peanut butter filling & 18231 & 0 & 801 &  & 3 & 10.5 & 1.04 & 0 & 4.913 &  & 6 & 24.54 & 0.343 & 6 & 215 & 5.131 & 3 & 2.3 & 0.177 & 2013 \\
+Crackers, wheat, regular & 18232 & 0 & 787 &  & 4 & 13.8 & 0.283 & 0 & 2.73 &  & 4 & 17.36 & 1.004 & 4 & 207 & 4.708 & 4 & 3.7 & 0.132 & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Crackers, whole-wheat & 18235 & 0 & 704 &  & 4 & 1.19 & 0.029 & 0 & 2.063 &  & 4 & 14.13 & 0.633 & 4 & 345 & 3.065 & 4 & 10.3 & 0.17 & 2013 \\
+Croissants, butter & 18239 & 0 & 467 &  & 0 & 11.26 &  & 0 & 11.659 &  & 27 & 21 & 0.307 & 25 & 118 & 1.758 & 0 & 2.6 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Croissants, cheese & 18241 & 0 & 361 &  & 0 & 11.35 &  & 0 & 10.628 &  & 3 & 20.9 & 0.294 & 2 & 132 &  & 0 & 2.6 &  & 2013 \\
+Croutons, seasoned & 18243 & 0 & 1089 &  & 0 & 4.41 &  & 0 & 5.247 &  & 40 & 18.3 & 0.346 & 15 & 181 & 6.887 & 0 & 5 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Danish pastry, cinnamon, enriched & 18244 & 0 & 414 & \multicolumn{1}{r}{\cellcolor[HTML]{FADADE}} & 0 & 19.78 &  & 0 & 5.681 &  & 3 & 22.4 & 1.634 & 29 & 125 & 4.168 & 0 & 1.3 &  & 2013 \\
+Danish pastry, cheese & 18245 & 0 & 417 &  & 0 & 6.95 &  & 0 & 6.794 &  & 1 & 21.9 &  & 1 & 98 &  & 0 & 1 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Danish pastry, fruit, enriched (includes apple, cinnamon, raisin, lemon, raspberry, strawberry) & 18246 & 0 & 445 &  & 0 & 27.53 &  & 0 & 4.86 &  & 15 & 18.5 & 0.71 & 11 & 83 & 6.753 & 0 & 1.9 &  & 2013 \\
+Danish pastry, nut (includes almond, raisin nut, cinnamon nut) & 18247 & 0 & 298 &  & 0 & 25.87 &  & 0 & 5.821 &  & 7 & 25.2 & 0.583 & 1 & 95 &  & 0 & 2 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Doughnuts, cake-type, plain, chocolate-coated or frosted & 18249 & 0 & 326 &  & 2 & 26.65 &  & 0 & 13.47 &  & 2 & 25.25 &  & 2 & 201 &  & 2 & 1.9 &  & 2013 \\
+Doughnuts, cake-type, chocolate, sugared or glazed & 18251 & 0 & 215 &  & 0 & 31.92 &  & 0 & 5.132 &  & 2 & 19.9 &  & 0 & 106 &  & 0 & 2.2 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Doughnuts, french crullers, glazed & 18253 & 1 & 345 &  & 0 & 35.11 &  & 0 & 4.667 &  & 1 & 18.3 &  & 1 & 78 &  & 0 & 1.2 &  & 2013 \\
+Doughnuts, yeast-leavened, with creme filling & 18254 & 2 & 309 & \multicolumn{1}{r}{} & 0 & 14.55 &  & 0 & 5.43 &  & 2 & 24.5 &  & 2 & 80 &  & 0 & 0.8 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Doughnuts, yeast-leavened, glazed, enriched (includes honey buns) & 18255 & 8 & 316 & 10.572 & 6 & 22.75 & 1.42 & 0 & 9.453 &  & 8 & 22.7 & 0.706 & 8 & 102 & 1.95 & 2 & 2.1 &  & 2013 \\
+Doughnuts, yeast-leavened, with jelly filling & 18256 & 0 & 455 &  & 0 & 21.1 &  & 0 & 4.843 &  & 2 & 18.7 &  & 2 & 79 &  & 0 & 0.9 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+English muffins, plain, enriched, with ca prop (includes sourdough) & 18258 & 2 & 425 & \multicolumn{1}{r}{\cellcolor[HTML]{FADADE}} & 2 & 3.53 &  & 0 & 0.733 &  & 2 & 1.69 &  & 2 & 109 &  & 2 & 3.5 &  & 2013 \\
+English muffins, plain, toasted, enriched, with calcium propionate (includes sourdough) & 18259 & 2 & 477 & \multicolumn{1}{r}{} & 2 & 3.47 &  & 0 & 0.533 &  & 2 & 2.02 &  & 2 & 129 &  & 2 & 2.8 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+English muffins, mixed-grain (includes granola) & 18260 & 0 & 298 & \multicolumn{1}{r}{\cellcolor[HTML]{FADADE}} & 0 & 0.81 &  & 0 & 0.23 &  & 9 & 1.8 & 0.376 & 2 & 156 &  & 0 & 2.8 &  & 2013 \\
+English muffins, mixed-grain, toasted (includes granola) & 18261 & 0 & 324 &  & 0 & 0.88 &  & 0 & 0.25 &  & 0 & 1.9 &  & 0 & 169 &  & 0 & 3 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+English muffins, raisin-cinnamon (includes apple-cinnamon) & 18262 & 0 & 299 & \multicolumn{1}{r}{\cellcolor[HTML]{FADADE}} & 1 & 14.76 &  & 0 & 0.54 &  & 2 & 1.8 &  & 2 & 173 &  & 2 & 2.6 &  & 2013 \\
+English muffins, raisin-cinnamon, toasted (includes apple-cinnamon) & 18263 & 0 & 342 & \multicolumn{1}{r}{} & 2 & 13.34 &  & 0 & 0.579 &  & 2 & 2.21 &  & 1 & 194 &  & 2 & 3 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+English muffins, wheat & 18264 & 0 & 353 & \multicolumn{1}{r}{\cellcolor[HTML]{FADADE}} & 0 & 1.56 &  & 0 & 0.287 &  & 6 & 2 & 0.246 & 1 & 186 &  & 0 & 4.6 &  & 2013 \\
+English muffins, wheat, toasted & 18265 & 0 & 384 &  & 0 & 1.7 &  & 0 & 0.312 &  & 0 & 2.1 &  & 0 & 202 &  & 0 & 5 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+English muffins, whole-wheat & 18266 & 0 & 364 &  & 0 & 8.09 &  & 0 & 0.334 &  & 1 & 2.1 &  & 1 & 210 &  & 0 & 6.7 &  & 2013 \\
+English muffins, whole-wheat, toasted & 18267 & 0 & 396 &  & 0 & 8.79 &  & 0 & 0.363 &  & 0 & 2.3 &  & 0 & 228 &  & 0 & 7.3 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Ice cream cones, cake or wafer-type & 18271 & 0 & 256 &  & 0 & 6 &  & 0 & 1.222 &  & 10 & 6.9 & 0.567 & 13 & 112 & 5.61 & 0 & 3 &  & 2013 \\
+Ice cream cones, sugar, rolled-type & 18272 & 0 & 298 &  & 0 & 25.66 &  & 0 & 0.573 &  & 14 & 3.8 & 0.256 & 13 & 145 & 6.381 & 0 & 1.7 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Muffins, corn, commercially prepared & 18279 & 0 & 467 & \multicolumn{1}{r}{\cellcolor[HTML]{FADADE}} & 0 & 17.78 &  & 0 & 1.354 &  & 2 & 8.4 &  & 1 & 69 &  & 0 & 3.4 &  & 2013 \\
+Muffins, oat bran & 18283 & 2 & 393 & \multicolumn{1}{r}{} & 0 & 8.22 &  & 0 & 1.087 &  & 3 & 7.4 & 0.081 & 2 & 507 &  & 0 & 4.6 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Pancakes, plain, dry mix, incomplete (includes buttermilk) & 18291 & 0 & 1496 & \multicolumn{1}{r}{\cellcolor[HTML]{FADADE}} & 0 & 2.21 &  & 0 & 0.25 &  & 125 & 1.7 & 0.05 & 82 & 191 & 3.867 & 0 & 5.4 &  & 2013 \\
+Pancakes, buckwheat, dry mix, incomplete & 18295 & 0 & 684 &  & 0 & 7.21 &  & 0 & 0.439 &  & 43 & 2.7 & 0.09 & 20 & 316 & 11.861 & 0 & 8.5 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Pie, apple, commercially prepared, enriched flour & 18301 & 0 & 201 & \multicolumn{1}{r}{\cellcolor[HTML]{FADADE}} & 0 & 15.65 &  & 0 & 3.797 &  & 21 & 11 & 0.514 & 39 & 65 & 1.999 & 0 & 1.6 &  & 2013 \\
+Pie, blueberry, commercially prepared & 18305 & 0 & 287 &  & 0 & 9.89 &  & 0 & 1.679 &  & 1 & 10 &  & 1 & 50 &  & 0 & 1 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Pie, cherry, commercially prepared & 18308 & 5 & 246 & 43.379 & 0 & 14.29 &  & 0 & 2.562 &  & 6 & 11 & 0.555 & 5 & 81 & 8.946 & 0 & 0.8 &  & 2013 \\
+Pie, coconut creme, commercially prepared & 18313 & 0 & 204 &  & 0 & 36.27 &  & 0 & 6.976 &  & 1 & 16.6 &  & 1 & 65 &  & 0 & 1.3 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Pie, egg custard, commercially prepared & 18317 & 0 & 275 &  & 0 & 11.58 &  & 0 & 2.349 &  & 6 & 11.6 & 0.241 & 4 & 106 & 23.552 & 0 & 1.6 &  & 2013 \\
+Pie, fried pies, fruit & 18319 & 0 & 333 &  & 0 & 21.4 &  & 0 & 2.457 &  & 30 & 16.1 & 0.484 & 6 & 65 & 11.54 & 0 & 2.6 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Pie, lemon meringue, commercially prepared & 18320 & 0 & 172 &  & 0 & 23.86 &  & 0 & 1.766 &  & 6 & 8.7 & 1.114 & 3 & 89 & 29.958 & 0 & 1.2 &  & 2013 \\
+Pie, peach & 18323 & 0 & 217 &  & 0 & 6.19 &  & 0 & 1.508 &  & 1 & 10 &  & 1 & 125 &  & 0 & 0.8 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Pie, pecan, commercially prepared & 18324 & 0 & 275 & \multicolumn{1}{r}{\cellcolor[HTML]{FADADE}} & 2 & 25.18 &  & 0 & 2.654 &  & 2 & 16.69 &  & 2 & 99 &  & 2 & 2.1 &  & 2013 \\
+Pie, pumpkin, commercially prepared & 18326 & 0 & 239 & \multicolumn{1}{r}{} & 0 & 18.88 &  & 0 & 1.988 &  & 2 & 9.75 &  & 3 & 167 & 12.019 & 3 & 1.8 & 0.145 & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Pie crust, standard-type, frozen, ready-to-bake, enriched, baked & 18335 & 2 & 467 &  & 0 & 4.23 &  & 0 & 9.277 &  & 2 & 28.59 &  & 2 & 114 &  & 2 & 3.3 &  & 2013 \\
+Phyllo dough & 18338 & 0 & 483 &  & 0 & 0.18 &  & 0 & 1.47 &  & 0 & 6 &  & 0 & 74 &  & 0 & 1.9 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Rolls, dinner, plain, commercially prepared (includes brown-and-serve) & 18342 & 0 & 467 &  & 3 & 5.55 & 0.288 & 0 & 1.375 &  & 3 & 6.47 & 0.272 & 3 & 139 & 9.528 & 3 & 2 & 0.064 & 2013 \\
+Rolls, dinner, egg & 18344 & 0 & 566 &  & 0 & 4.3 &  & 0 & 1.577 &  & 4 & 6.4 & 0.122 & 0 & 104 &  & 0 & 3.7 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Rolls, dinner, oat bran & 18345 & 1 & 413 &  & 0 & 6.67 &  & 0 & 0.619 &  & 1 & 4.6 &  & 0 & 121 &  & 0 & 4.1 &  & 2013 \\
+Rolls, dinner, rye & 18346 & 0 & 650 &  & 0 & 1.17 &  & 0 & 0.605 &  & 1 & 3.4 &  & 1 & 180 &  & 0 & 4.9 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Rolls, dinner, wheat & 18347 & 0 & 524 & \multicolumn{1}{r}{\cellcolor[HTML]{FADADE}} & 0 & 1.63 &  & 0 & 1.497 &  & 2 & 6.3 &  & 0 & 115 &  & 0 & 3.8 &  & 2013 \\
+Rolls, dinner, whole-wheat & 18348 & 0 & 521 &  & 0 & 8.46 &  & 0 & 0.836 &  & 0 & 4.7 &  & 0 & 272 &  & 0 & 7.5 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Rolls, french & 18349 & 0 & 574 & \multicolumn{1}{r}{\cellcolor[HTML]{FADADE}} & 0 & 0.31 &  & 0 & 0.962 &  & 14 & 4.3 & 0.398 & 6 & 114 & 10.125 & 0 & 3.2 &  & 2013 \\
+Rolls, hamburger or hotdog, mixed-grain & 18351 & 3 & 458 & \multicolumn{1}{r}{18.078} & 4 & 6.25 & 0.153 & 0 & 1.39 &  & 15 & 6 & 0.587 & 0 & 160 &  & 0 & 3.8 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Rolls, hamburger or hotdog, reduced-calorie & 18352 & 0 & 410 &  & 0 & 4.76 &  & 0 & 0.325 &  & 1 & 2 &  & 1 & 78 &  & 0 & 6.2 &  & 2013 \\
+Rolls, hard (includes kaiser) & 18353 & 5 & 544 & 28.954 & 0 & 1.77 &  & 0 & 0.606 &  & 26 & 4.3 & 0.191 & 9 & 108 & 5.048 & 0 & 2.3 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Strudel, apple & 18354 & 0 & 135 &  & 0 & 25.75 &  & 0 & 2.044 &  & 2 & 11.2 &  & 0 & 149 &  & 0 & 2.2 &  & 2013 \\
+Sweet rolls, cinnamon, commercially prepared with raisins & 18356 & 0 & 304 &  & 0 & 31.73 &  & 0 & 3.079 &  & 8 & 16.4 & 1.183 & 8 & 111 & 6.286 & 0 & 2.4 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Toaster pastries, fruit (includes apple, blueberry, cherry, strawberry) & 18362 & 1 & 334 &  & 2 & 28.59 &  & 0 & 2.618 &  & 2 & 10.56 &  & 1 & 75 &  & 2 & 1.1 &  & 2013 \\
+Bread crumbs, dry, grated, seasoned & 18376 & 0 & 1336 &  & 3 & 5.74 & 0.286 & 0 & 1.391 &  & 6 & 5.48 & 0.131 & 6 & 231 & 5.897 & 3 & 4.9 & 0.039 & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Bread, protein, toasted (includes gluten) & 18383 & 0 & 444 &  & 0 & 1.44 &  & 0 & 0.364 &  & 0 & 2.4 &  & 0 & 346 &  & 0 & 3.3 &  & 2013 \\
+Bread, rice bran, toasted & 18384 & 0 & 292 &  & 0 & 5.08 &  & 0 & 0.771 &  & 0 & 5 &  & 0 & 212 &  & 0 & 5.3 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Bread, wheat germ, toasted & 18385 & 0 & 621 & \multicolumn{1}{r}{\cellcolor[HTML]{FADADE}} & 0 & 4.14 &  & 0 & 0.738 &  & 0 & 3.3 &  & 0 & 285 &  & 0 & 2.3 &  & 2013 \\
+Waffles, plain, frozen, ready -to-heat, toasted & 18403 & 6 & 730 & 18.186 & 3 & 5.02 & 1.053 & 0 & 1.638 &  & 6 & 9.61 & 0.239 & 6 & 144 & 7.499 & 3 & 2.4 & 0.194 & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Crackers, saltines, low salt (includes oyster, soda, soup) & 18425 & 0 & 198 &  & 8 & 2.22 & 0.324 & 0 & 2.001 &  & 8 & 8.85 & 0.285 & 0 & 724 &  & 8 & 2.9 & 0.065 & 2013 \\
+Crackers, standard snack-type, regular, low salt & 18427 & 0 & 216 &  & 0 & 1.79 &  & 0 & 3.776 &  & 169 & 25.3 & 0.329 & 0 & 355 &  & 0 & 1.6 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Crackers, wheat, low salt & 18428 & 0 & 190 &  & 0 & 13.04 &  & 0 & 5.178 &  & 56 & 20.6 & 0.403 & 0 & 203 &  & 0 & 4.5 &  & 2013 \\
+Crackers, whole-wheat, low salt & 18429 & 0 & 186 &  & 0 & 0.37 &  & 0 & 3.393 &  & 23 & 17.2 & 0.532 & 24 & 297 & 9.566 & 0 & 10.5 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Crackers, cheese, low sodium & 18434 & 0 & 458 &  & 0 & 0.28 &  & 0 & 9.638 &  & 51 & 25.3 & 0.541 & 0 & 106 &  & 0 & 2.4 &  & 2013 \\
+Cake, pound, commercially prepared, fat-free & 18451 & 2 & 341 &  & 0 & 34.34 &  & 0 & 0.259 &  & 2 & 1.2 &  & 2 & 110 &  & 2 & 1.1 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Crackers, saltines, fat-free, low-sodium & 18457 & 0 & 849 &  & 0 & 0.38 &  & 0 & 0.244 &  & 1 & 1.6 &  & 1 & 115 &  & 1 & 2.7 &  & 2013 \\
+Breakfast tart, low fat & 18459 & 0 & 361 & \multicolumn{1}{r}{} & 0 & 4.87 &  & 0 & 1.393 &  & 0 & 5.99 &  & 0 & 66 &  & 0 & 1.5 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Waffle, buttermilk, frozen, ready-to-heat, toasted & 18933 & 6 & 710 & \multicolumn{1}{r}{\cellcolor[HTML]{FADADE}38.481} & 3 & 4.41 & 0.464 & 0 & 2.283 &  & 6 & 9.49 & 0.057 & 6 & 138 & 14.101 & 3 & 2.6 & 0.164 & 2013 \\
+Muffin, blueberry, commercially prepared, low-fat & 18940 & 0 & 413 & \multicolumn{1}{r}{} & 0 & 27.05 &  & 0 & 1.549 &  & 0 & 4.22 &  & 0 & 96 &  & 1 & 4.2 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Pie Crust, Cookie-type, Graham Cracker, Ready Crust & 18942 & 0 & 471 &  & 0 & 18.13 &  & 0 & 4.999 &  & 3 & 24.83 & 1.616 & 3 & 113 & 12.019 & 3 & 1.9 & 0.351 & 2013 \\
+Crackers, whole-wheat, reduced fat & 18949 & 0 & 745 &  & 4 & 1.22 & 0.03 & 0 & 1.067 &  & 4 & 7.59 & 0.32 & 4 & 373 & 2.016 & 4 & 10.9 & 0.085 & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Crackers, wheat, reduced fat & 18950 & 0 & 776 &  & 4 & 15.01 & 0.303 & 0 & 2.112 &  & 4 & 13.37 & 0.201 & 4 & 210 & 1.377 & 4 & 3.4 & 0.122 & 2013 \\
+Waffles, chocolate chip, frozen, ready-to-heat & 18951 & 0 & 529 &  & 0 & 13.1 &  & 0 & 3.567 &  & 0 & 10.1 &  & 0 & 74 &  & 0 & 1.5 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Bread, salvadoran sweet cheese (quesadilla salvadorena) & 18953 & 1 & 510 & \multicolumn{1}{r}{\cellcolor[HTML]{FADADE}} & 0 & 24.9 &  & 0 & 4.612 &  & 1 & 17.12 &  & 1 & 350 &  & 1 & 0.7 &  & 2013 \\
+Bread, pan dulce, sweet yeast bread & 18955 & 3 & 228 & \multicolumn{1}{r}{49.934} & 3 & 12.5 & 2.476 & 0 & 2.183 &  & 3 & 11.58 & 3.69 & 3 & 103 & 14.467 & 3 & 2.3 & 0.088 & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Garlic bread, frozen & 18963 & 10 & 544 & \multicolumn{1}{r}{\cellcolor[HTML]{FADADE}3.81} & 5 & 3.69 & 0.12 & 0 & 5.281 &  & 10 & 16.61 & 0.434 & 10 & 103 & 3.533 & 4 & 2.5 & 0.048 & 2013 \\
+Crackers, cheese, reduced fat & 18965 & 1 & 1167 &  & 1 & 0 &  & 1 & 3.333 &  & 1 & 11.67 &  & 0 & 141 &  & 1 & 3.3 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Crackers, saltines, whole wheat (includes multi-grain) & 18966 & 1 & 1214 & \multicolumn{1}{r}{\cellcolor[HTML]{FADADE}} & 1 & 0 &  & 1 & 0 &  & 1 & 10.71 &  & 0 & 221 &  & 1 & 0 &  & 2013 \\
+Bread, wheat, white wheat & 18967 & 2 & 478 & \multicolumn{1}{r}{} & 2 & 5 &  & 0 & 0.63 &  & 2 & 2.15 &  & 2 & 127 &  & 2 & 9.2 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Bagel, wheat & 18968 & 1 & 439 &  & 1 & 6.12 &  & 1 & 0 &  & 1 & 1.53 &  & 0 & 165 &  & 1 & 4.1 &  & 2013 \\
+Cream puff, eclair, custard or cream filled, iced & 18969 & 1 & 265 &  & 1 & 22.05 &  & 1 & 7.055 &  & 1 & 18.52 &  & 0 & 68 &  & 1 & 0.9 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Bread, potato & 18971 & 1 & 375 &  & 1 & 12.5 &  & 1 & 0 &  & 1 & 3.13 &  & 0 & 718 &  & 1 & 6.3 &  & 2013 \\
+Bread, cheese & 18972 & 1 & 750 &  & 1 & 2.08 &  & 1 & 6.25 &  & 1 & 20.83 &  & 0 & 84 &  & 1 & 2.1 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Focaccia, Italian flatbread, plain & 18973 & 1 & 561 & \multicolumn{1}{r}{\cellcolor[HTML]{FADADE}} & 1 & 1.75 &  & 1 & 0.877 &  & 1 & 7.89 &  & 0 & 114 &  & 1 & 1.8 &  & 2013 \\
+Snacks, beef jerky, chopped and formed & 19002 & 5 & 2081 & \multicolumn{1}{r}{} & 0 & 9 &  & 1 & 10.85 &  & 1 & 25.6 &  & 0 & 597 &  & 1 & 1.8 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Snacks, corn-based, extruded, chips, plain & 19003 & 0 & 545 &  & 4 & 1.16 & 0.28 & 0 & 3.612 &  & 6 & 28.41 & 0.581 & 6 & 135 & 1.432 & 4 & 5.3 & 0.342 & 2013 \\
+Snacks, corn-based, extruded, onion-flavor & 19007 & 0 & 950 &  & 0 & 4.83 &  & 0 & 4.34 &  & 15 & 22.6 & 0.219 & 14 & 143 & 4.997 & 0 & 3.9 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Snacks, KRAFT, CORNNUTS, plain & 19009 & 0 & 564 &  & 0 & 0.61 &  & 0 & 2.43 &  & 0 & 15.64 &  & 8 & 278 & 11.492 & 0 & 6.9 &  & 2013 \\
+Snacks, fruit leather, pieces & 19013 & 7 & 403 & 27.419 & 4 & 57.58 & 2.507 & 0 & 0.65 &  & 0 & 2.68 &  & 7 & 164 & 6.462 & 4 & 0 & 0 & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Snacks, fruit leather, rolls & 19014 & 1 & 317 &  & 0 & 49.16 &  & 0 & 0.672 &  & 17 & 3 & 0.51 & 17 & 294 & 11.212 & 0 & 0 &  & 2013 \\
+Snacks, granola bars, hard, plain & 19015 & 24 & 294 & 7.089 & 0 & 28.57 &  & 0 & 2.37 &  & 27 & 19.8 & 0.445 & 19 & 336 & 10.383 & 0 & 5.3 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Snacks, granola bars, soft, coated, milk chocolate coating, peanut butter & 19026 & 2 & 193 & \multicolumn{1}{r}{\cellcolor[HTML]{FADADE}} & 0 & 23.74 &  & 0 & 17.01 &  & 2 & 31.1 &  & 1 & 339 &  & 0 & 2.8 &  & 2013 \\
+Snacks, oriental mix, rice-based & 19031 & 1 & 413 & \multicolumn{1}{r}{} & 0 & 3 &  & 0 & 3.785 &  & 1 & 25.58 &  & 1 & 328 &  & 1 & 13.2 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Snacks, popcorn, oil-popped, microwave, regular flavor, no trans fat & 19035 & 0 & 679 &  & 3 & 0.46 & 0.024 & 0 & 6.82 &  & 6 & 43.55 & 0.666 & 6 & 182 & 4.616 & 3 & 8.1 & 0.369 & 2013 \\
+Snacks, popcorn, cakes & 19036 & 4 & 288 & 55.434 & 0 & 0.72 &  & 0 & 0.48 &  & 4 & 3.1 & 0.437 & 3 & 327 & 28.48 & 0 & 2.9 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Snacks, popcorn, caramel-coated, with peanuts & 19038 & 0 & 177 & \multicolumn{1}{r}{\cellcolor[HTML]{FADADE}} & 0 & 45.36 &  & 0 & 1.04 &  & 5 & 7.8 & 0.709 & 15 & 355 & 12.151 & 0 & 3.8 &  & 2013 \\
+Snacks, popcorn, caramel-coated, without peanuts & 19039 & 2 & 206 &  & 0 & 53.19 &  & 0 & 3.61 &  & 5 & 12.8 & 3.312 & 1 & 109 &  & 0 & 5.2 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Snacks, pork skins, plain & 19041 & 0 & 1818 &  & 0 & 0 &  & 0 & 11.37 &  & 16 & 31.3 & 0.441 & 24 & 127 & 5.13 & 0 & 0 &  & 2013 \\
+Snacks, potato chips, made from dried potatoes, reduced fat & 19045 & 0 & 450 & \multicolumn{1}{r}{} & 4 & 0.63 & 0.196 & 0 & 6.759 &  & 4 & 26.14 & 0.27 & 4 & 760 & 22.551 & 4 & 3.2 & 0.111 & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Snacks, rice cakes, brown rice, plain & 19051 & 6 & 326 & 37.51 & 0 & 0.88 &  & 0 & 0.57 &  & 10 & 2.8 & 0.34 & 6 & 290 & 21.258 & 0 & 4.2 &  & 2013 \\
+Puddings, chocolate, ready-to-eat & 19183 & 4 & 152 & \multicolumn{1}{r}{3.75} & 4 & 17.17 & 0.752 & 0 & 1.263 &  & 4 & 4.6 & 0.537 & 4 & 184 & 14.857 & 3 & 0 & 0 & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Puddings, chocolate, dry mix, instant & 19184 & 0 & 1771 & \multicolumn{1}{r}{\cellcolor[HTML]{FADADE}} & 1 & 67.86 &  & 0 & 0.825 &  & 8 & 1.9 & 0.117 & 17 & 236 & 10.534 & 1 & 3.6 &  & 2013 \\
+Puddings, chocolate, dry mix, regular & 19188 & 0 & 479 & \multicolumn{1}{r}{} & 0 & 42.88 &  & 0 & 1.234 &  & 11 & 2.1 & 0.148 & 20 & 209 & 13.072 & 0 & 4.5 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Puddings, chocolate, dry mix, regular, prepared with whole milk & 19189 & 0 & 98 &  & 0 & 11.96 &  & 0 & 1.81 &  & 0 & 3.15 &  & 0 & 150 &  & 0 & 0.8 &  & 2013 \\
+Puddings, vanilla, ready-to-eat & 19201 & 4 & 142 & \multicolumn{1}{r}{0.5} & 4 & 16.97 & 1.135 & 0 & 1.016 &  & 4 & 3.78 & 0.345 & 4 & 65 & 1.2 & 4 & 0 & 0 & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Puddings, vanilla, dry mix, instant & 19202 & 16 & 1441 & 33.88 & 0 & 92.9 &  & 0 & 0.432 &  & 20 & 0.6 & 0.024 & 16 & 12 & 1.856 & 0 & 0 &  & 2013 \\
+Puddings, vanilla, dry mix, regular & 19206 & 0 & 635 &  & 0 & 79.34 &  & 0 & 0.09 &  & 11 & 0.4 & 0.037 & 17 & 20 & 1.431 & 0 & 0.6 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Puddings, vanilla, dry mix, regular, prepared with whole milk & 19207 & 0 & 156 &  & 0 & 17.09 &  & 0 & 1.643 &  & 0 & 2.9 &  & 0 & 119 &  & 0 & 0.1 &  & 2013 \\
+Puddings, tapioca, ready-to-eat & 19218 & 2 & 145 &  & 2 & 14.91 &  & 0 & 0.962 &  & 2 & 3.88 &  & 2 & 92 &  & 2 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Frostings, chocolate, creamy, ready-to-eat & 19226 & 15 & 183 & 19.804 & 1 & 57.7 &  & 0 & 5.526 &  & 12 & 17.6 & 0.432 & 9 & 196 & 18.573 & 0 & 0.9 &  & 2013 \\
+Frostings, coconut-nut, ready-to-eat & 19227 & 0 & 160 &  & 0 & 40 &  & 0 & 8.631 &  & 9 & 24 & 0.063 & 9 & 186 & 2.451 & 0 & 2.5 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Frostings, vanilla, creamy, ready-to-eat & 19230 & 6 & 184 & \multicolumn{1}{r}{\cellcolor[HTML]{FADADE}2.798} & 4 & 63.1 & 1.906 & 0 & 2.974 &  & 6 & 16.23 & 0.265 & 6 & 34 & 2.068 & 0 & 0 &  & 2013 \\
+Puddings, vanilla, ready-to-eat, fat free & 19233 & 1 & 191 & \multicolumn{1}{r}{} & 1 & 15.12 &  & 1 & 0 &  & 1 & 0 &  & 0 & 108 &  & 1 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Puddings, tapioca, ready-to-eat, fat free & 19234 & 1 & 187 &  & 1 & 14.18 &  & 0 & 0.122 &  & 1 & 0.35 &  & 1 & 70 &  & 1 & 0 &  & 2013 \\
+Puddings, chocolate, ready-to-eat, fat free & 19235 & 0 & 154 &  & 3 & 15.75 & 0.694 & 3 & 0 & 0 & 0 & 0.3 &  & 0 & 208 &  & 3 & 0.3 & 0.294 & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Puddings, coconut cream, dry mix, instant & 19322 & 1 & 1040 &  & 1 & 64 &  & 0 & 10 &  & 1 & 10 &  & 0 & 96 &  & 1 & 4 &  & 2013 \\
+Puddings, coconut cream, dry mix, regular & 19324 & 1 & 682 & \multicolumn{1}{r}{} & 0 & 80.54 &  & 1 & 11.364 &  & 1 & 11.36 &  & 0 & 133 &  & 0 & 1.6 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Toppings, marshmallow cream & 19365 & 3 & 80 & 12.963 & 1 & 46.8 &  & 0 & 0.056 &  & 1 & 0.3 &  & 0 & 5 &  & 0 & 0.1 &  & 2013 \\
+Snacks, granola bars, soft, uncoated, chocolate chip & 19404 & 0 & 251 & \multicolumn{1}{r}{} & 3 & 28.92 & 0.938 & 0 & 6.061 &  & 3 & 16.57 & 1.867 & 3 & 237 & 20.108 & 3 & 3.8 & 0.371 & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Snack, potato chips, made from dried potatoes, plain & 19410 & 0 & 529 &  & 7 & 1.14 & 0.177 & 0 & 9.492 &  & 8 & 38.41 & 0.315 & 4 & 751 & 21.899 & 8 & 3.1 & 0.241 & 2013 \\
+Snacks, potato sticks & 19415 & 0 & 633 &  & 0 & 0.22 &  & 0 & 8.88 &  & 3 & 34.4 & 0.512 & 3 & 1237 & 10.247 & 0 & 3.4 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Snacks, sesame sticks, wheat-based, salted & 19418 & 1 & 1488 &  & 0 & 0.19 &  & 0 & 6.48 &  & 1 & 36.7 &  & 1 & 177 &  & 0 & 2.8 &  & 2013 \\
+Snacks, potato chips, reduced fat & 19422 & 2 & 492 &  & 0 & 0.22 &  & 0 & 4.16 &  & 6 & 20.8 & 0.314 & 2 & 1744 &  & 0 & 5.9 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Snacks, potato chips, fat-free, made with olestra & 19423 & 1 & 554 &  & 1 & 0 &  & 0 & 0.24 &  & 1 & 0.7 &  & 1 & 1160 &  & 1 & 6.8 &  & 2013 \\
+Tortilla chips, low fat, baked without fat & 19433 & 0 & 517 &  & 0 & 0.67 &  & 0 & 0.85 &  & 0 & 5.7 &  & 0 & 272 &  & 0 & 5.3 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cheese puffs and twists, corn based, baked, low fat & 19434 & 0 & 847 &  & 0 & 7.29 &  & 0 & 2.1 &  & 0 & 12.1 &  & 0 & 286 &  & 0 & 10.7 &  & 2013 \\
+Popcorn, sugar syrup/caramel, fat-free & 19436 & 0 & 286 &  & 0 & 64.68 &  & 0 & 0.2 &  & 0 & 1.4 &  & 0 & 110 &  & 0 & 2.5 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Snacks, potato chips, fat free, salted & 19437 & 0 & 643 &  & 0 & 3.69 &  & 0 & 0.15 &  & 0 & 0.6 &  & 0 & 1628 &  & 0 & 7.5 &  & 2013 \\
+Snacks, KELLOGG'S, NUTRI-GRAIN Cereal Bars, fruit & 19441 & 0 & 315 &  & 0 & 30.84 &  & 0 & 1.6 &  & 0 & 8.76 &  & 0 & 222 &  & 0 & 6.9 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Snacks, tortilla chips, low fat, made with olestra, nacho cheese & 19444 & 0 & 705 &  & 1 & 2.82 &  & 0 & 1.054 &  & 1 & 3.53 &  & 0 & 396 &  & 1 & 6.4 &  & 2013 \\
+Snacks, potato chips, made from dried potatoes, fat-free, made with olestra & 19445 & 4 & 429 & 15.37 & 4 & 0.59 & 0.295 & 0 & 0.355 &  & 1 & 0.93 &  & 4 & 931 & 8.655 & 4 & 7.3 & 0.846 & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Snacks, taro chips & 19524 & 2 & 342 &  & 0 & 3.82 &  & 0 & 6.43 &  & 2 & 24.9 &  & 2 & 755 &  & 0 & 7.2 &  & 2013 \\
+Snacks, pretzels, hard, plain, made with enriched flour, unsalted & 19814 & 0 & 250 &  & 0 & 2.21 &  & 0 & 0.75 &  & 94 & 3.5 & 0.158 & 104 & 146 & 3.832 & 0 & 2.8 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Syrups, chocolate, HERSHEY'S Sugar free, Genuine Chocolate Flavored, Lite Syrup & 19916 & 0 & 343 & \multicolumn{1}{r}{\cellcolor[HTML]{FADADE}} & 0 & 0.27 &  & 0 & 0.746 &  & 0 & 2.03 &  & 0 & 388 &  & 0 & 2.9 &  & 2013 \\
+Candies, M\&M MARS Pretzel Chocolate Candies & 19917 & 0 & 475 &  & 0 & 50 &  & 0 & 8.986 &  & 0 & 15 &  & 0 & 253 &  & 0 & 2.5 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Hominy, canned, white & 20030 & 0 & 345 &  & 0 & 1.82 &  & 0 & 0.123 &  & 7 & 0.88 & 0.176 & 7 & 9 & 2.049 & 0 & 2.5 &  & 2013 \\
+Wheat flour, white, all-purpose, self-rising, enriched & 20082 & 0 & 1193 &  & 1 & 0.22 &  & 0 & 0.154 &  & 29 & 0.97 & 0.036 & 11 & 124 & 5.756 & 0 & 2.7 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Noodles, chinese, chow mein & 20113 & 0 & 847 &  & 0 & 0.94 &  & 0 & 1.764 &  & 0 & 17.64 &  & 3 & 120 & 48.721 & 0 & 2.7 &  & 2013 \\
+Noodles, flat, crunchy, Chinese restaurant & 20118 & 3 & 378 & 48.029 & 0 & 0.25 &  & 0 & 4.931 &  & 4 & 31.72 & 3.136 & 4 & 89 & 8.82 & 0 & 1.9 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Fast foods, biscuit, with egg and bacon & 21003 & 1 & 844 & \multicolumn{1}{r}{\cellcolor[HTML]{FADADE}} & 0 & 2.19 &  & 0 & 5.3 &  & 3 & 20.73 & 1.812 & 1 & 167 &  & 0 & 0.5 &  & 2013 \\
+Fast foods, biscuit, with egg and ham & 21004 & 0 & 1093 &  & 0 & 2.2 &  & 0 & 3.08 &  & 2 & 14.08 &  & 1 & 166 &  & 0 & 0.4 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Fast Foods, biscuit, with egg and sausage & 21005 & 4 & 672 & 22.119 & 4 & 0.95 & 0.073 & 0 & 6.449 &  & 4 & 20.77 & 0.459 & 4 & 149 & 4.95 & 4 & 0.2 & 0 & 2013 \\
+Fast foods, biscuit, with egg, cheese, and bacon & 21007 & 4 & 816 & \multicolumn{1}{r}{35.214} & 4 & 1.74 & 0.145 & 0 & 5.893 &  & 4 & 17.48 & 0.293 & 4 & 131 & 7.45 & 4 & 0.2 & 0 & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Fast foods, biscuit, with ham & 21008 & 0 & 974 &  & 0 & 1.97 &  & 0 & 10.096 &  & 4 & 16.3 & 1.265 & 4 & 174 & 14.834 & 0 & 0.7 &  & 2013 \\
+Fast foods, biscuit, with sausage & 21009 & 4 & 814 & 6.519 & 4 & 1.59 & 0.202 & 0 & 7.427 &  & 4 & 24.42 & 0.35 & 4 & 153 & 4.768 & 4 & 0.4 & 0.22 & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Fast foods, egg, scrambled & 21018 & 0 & 187 &  & 0 & 1.64 &  & 0 & 6.153 &  & 6 & 16.18 & 1.163 & 6 & 147 & 12.173 & 0 & 0 &  & 2013 \\
+Fast foods, english muffin, with cheese and sausage & 21020 & 4 & 668 & 10.973 & 4 & 1.98 & 0.05 & 0 & 8.152 &  & 4 & 20.67 & 0.335 & 4 & 179 & 9.247 & 3 & 0.5 & 0.353 & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Fast foods, english muffin, with egg, cheese, and sausage & 21022 & 0 & 548 & \multicolumn{1}{r}{\cellcolor[HTML]{FADADE}} & 4 & 1.49 & 0.047 & 0 & 6.928 &  & 4 & 18.1 & 0.235 & 4 & 147 & 5.822 & 4 & 0.2 & 0 & 2013 \\
+Fast foods, french toast sticks & 21024 & 0 & 400 &  & 4 & 9.89 & 0.434 & 0 & 3.989 &  & 4 & 17.74 & 1.082 & 4 & 111 & 3.136 & 4 & 1.4 & 0.103 & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Fast foods, vanilla, light, soft-serve ice cream, with cone & 21028 & 0 & 81 &  & 0 & 19.49 &  & 0 & 2.542 &  & 0 & 4.86 &  & 0 & 193 &  & 0 & 0.1 &  & 2013 \\
+Fast foods, burrito, with beans and beef & 21063 & 0 & 570 &  & 0 & 2.19 &  & 0 & 2.905 &  & 0 & 7.47 &  & 0 & 269 &  & 0 & 3 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Fast foods, cheeseburger; single, regular patty, with condiments & 21090 & 3 & 628 &  & 0 & 5.24 &  & 0 & 5.797 &  & 3 & 12.9 &  & 3 & 184 &  & 3 & 1.9 &  & 2013 \\
+Fast foods, cheeseburger; single, regular patty, with condiments and vegetables & 21091 & 0 & 546 & \multicolumn{1}{r}{} & 0 & 5.11 &  & 0 & 5.181 &  & 1 & 11.5 &  & 1 & 178 &  & 1 & 1.4 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Fast foods, hush puppies & 21129 & 6 & 1085 & \multicolumn{1}{r}{\cellcolor[HTML]{FADADE}19.451} & 3 & 3.8 & 0.115 & 0 & 2.621 &  & 6 & 13.25 & 0.606 & 6 & 256 & 7.769 & 3 & 2.9 & 0.285 & 2013 \\
+Fast foods, hamburger, large, single patty, with condiments & 21202 & 1 & 374 & \multicolumn{1}{r}{} & 0 & 3.67 &  & 0 & 4.785 &  & 1 & 11.6 &  & 1 & 225 &  & 1 & 1.1 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Pizza, cheese topping, regular crust, frozen, cooked & 21224 & 8 & 447 & \multicolumn{1}{r}{\cellcolor[HTML]{FADADE}8.589} & 0 & 3.57 &  & 0 & 4.272 &  & 8 & 12.28 & 0.685 & 8 & 152 & 6.458 & 3 & 2.2 & 0.08 & 2013 \\
+Pizza, cheese topping, rising crust, frozen, cooked & 21225 & 4 & 556 & \multicolumn{1}{r}{22.427} & 0 & 5.09 &  & 0 & 3.825 &  & 4 & 8.78 & 0.484 & 4 & 175 & 10.388 & 4 & 2.5 & 0.126 & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Pizza, meat and vegetable topping, regular crust, frozen, cooked & 21226 & 5 & 555 & \multicolumn{1}{r}{\cellcolor[HTML]{FADADE}17.982} & 0 & 4.85 &  & 0 & 5.083 &  & 5 & 14.43 & 0.177 & 5 & 209 & 13.378 & 5 & 2.2 & 0.142 & 2013 \\
+Pizza, meat and vegetable topping, rising crust, frozen, cooked & 21227 & 2 & 640 & \multicolumn{1}{r}{} & 0 & 7.26 &  & 0 & 4.586 &  & 2 & 11.75 &  & 2 & 189 &  & 2 & 2.3 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Fast Food, Pizza Chain, 14" pizza, cheese topping, regular crust & 21299 & 12 & 598 & \multicolumn{1}{r}{\cellcolor[HTML]{FADADE}24.124} & 6 & 3.58 & 0.209 & 0 & 4.465 &  & 12 & 9.69 & 0.242 & 12 & 172 & 5.02 & 6 & 2.3 & 0.089 & 2013 \\
+Fast Food, Pizza Chain, 14" pizza, meat and vegetable topping, regular crust & 21304 & 15 & 589 & 23.43 & 15 & 3.73 & 0.398 & 0 & 4.407 &  & 15 & 10.9 & 0.246 & 15 & 184 & 10.556 & 15 & 2.2 & 0.1 & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Fast foods, griddle cake sandwich, egg, cheese, and sausage & 21305 & 0 & 652 & \multicolumn{1}{r}{\cellcolor[HTML]{FADADE}} & 0 & 7.9 &  & 0 & 5.649 &  & 0 & 17.73 &  & 0 & 146 &  & 0 & 0.6 &  & 2013 \\
+Fast foods, griddle cake sandwich, sausage & 21306 & 0 & 737 &  & 0 & 11.23 &  & 0 & 5.363 &  & 0 & 17.76 &  & 0 & 145 &  & 0 & 1 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Fast foods, griddle cake sandwich, egg, cheese, and bacon & 21307 & 0 & 718 &  & 0 & 9.56 &  & 0 & 4.121 &  & 0 & 13.19 &  & 0 & 158 &  & 0 & 0.8 &  & 2013 \\
+Fast foods, hamburger; double, large patty; with condiments, vegetables and mayonnaise & 21389 & 1 & 289 &  & 1 & 3.52 &  & 0 & 5.773 &  & 1 & 15.66 &  & 1 & 192 &  & 1 & 1.4 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Fast foods, hamburger; single, large patty; with condiments, vegetables and mayonnaise & 21390 & 7 & 342 & 26.727 & 4 & 4 & 0.216 & 0 & 3.972 &  & 8 & 12.37 & 0.919 & 7 & 188 & 9.448 & 7 & 1.5 & 0.167 & 2013 \\
+Fast foods, cheeseburger; single, large patty; with condiments, vegetables and mayonnaise & 21397 & 6 & 473 & 23.898 & 3 & 4.5 & 0.058 & 0 & 5.746 &  & 6 & 15.8 & 0.582 & 6 & 208 & 3.853 & 3 & 1.1 & 0.015 & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Fast foods, cheeseburger; single, large patty; with condiments & 21398 & 1 & 591 &  & 0 & 3.6 &  & 0 & 7.033 &  & 1 & 14.4 &  & 1 & 223 &  & 1 & 1.2 &  & 2013 \\
+Fast foods, cheeseburger; double, regular patty; double decker bun with condiments and special sauce & 21400 & 1 & 485 &  & 0 & 3.26 &  & 0 & 5.045 &  & 1 & 14.1 &  & 1 & 182 &  & 1 & 1.4 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Fast foods, bagel, with egg, sausage patty, cheese, and condiments & 21410 & 3 & 550 & 25.34 & 3 & 2.87 & 0.138 & 0 & 6.396 &  & 3 & 16.97 & 0.219 & 3 & 123 & 5.487 & 3 & 0.2 & 0 & 2013 \\
+Fast foods, bagel, with breakfast steak, egg, cheese, and condiments & 21411 & 0 & 642 &  & 4 & 2.97 & 0.03 & 0 & 5.419 &  & 4 & 14.07 & 0.309 & 4 & 145 & 4.907 & 4 & 0.2 & 0 & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Light Ice Cream, soft serve, blended with cookie pieces & 21413 & 0 & 75 & \multicolumn{1}{r}{\cellcolor[HTML]{FADADE}} & 0 & 21.19 &  & 0 & 2.754 &  & 0 & 5.66 &  & 0 & 198 &  & 0 & 0.1 &  & 2013 \\
+Fast foods, grilled chicken, bacon and tomato club sandwich, with cheese, lettuce, and mayonnaise & 21461 & 0 & 630 &  & 0 & 4.68 &  & 0 & 3.109 &  & 0 & 8.05 &  & 0 & 226 &  & 0 & 1.2 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Fast foods, crispy chicken, bacon, and tomato club sandwich, with cheese, lettuce, and mayonnaise & 21462 & 0 & 605 & \multicolumn{1}{r}{\cellcolor[HTML]{FADADE}} & 0 & 4.99 &  & 0 & 3.372 &  & 0 & 11.76 &  & 0 & 256 &  & 0 & 1.2 &  & 2013 \\
+Fast Food, Pizza Chain, 14" pizza, sausage topping, thick crust & 21482 & 12 & 637 & 14.863 & 6 & 2.82 & 0.463 & 0 & 4.805 &  & 12 & 12.94 & 0.332 & 12 & 190 & 2.422 & 6 & 2.3 & 0.145 & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Fast Food, Pizza Chain, 14" pizza, sausage topping, thin crust & 21483 & 12 & 782 & 19.793 & 6 & 3.02 & 0.188 & 0 & 6.888 &  & 12 & 17.71 & 0.429 & 12 & 225 & 4.204 & 6 & 2.5 & 0.088 & 2013 \\
+Fast Food, Pizza Chain, 14" pizza, sausage topping, regular crust & 21484 & 12 & 633 & 14.948 & 6 & 3.32 & 0.275 & 0 & 5.033 &  & 12 & 12.35 & 0.399 & 12 & 197 & 5.876 & 6 & 2.3 & 0.089 & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Fast Food, Pizza Chain, 14" pizza, pepperoni topping, thin crust & 21485 & 12 & 875 & 29.127 & 6 & 3.22 & 0.2 & 0 & 7.115 &  & 12 & 17.61 & 0.522 & 12 & 223 & 3.839 & 6 & 2.3 & 0.145 & 2013 \\
+Fast foods, quesadilla, with chicken & 21488 & 6 & 745 & 12.068 & 3 & 1.88 & 0.363 & 0 & 6.154 &  & 6 & 15.25 & 0.368 & 6 & 183 & 5.333 & 3 & 1.7 & 0.067 & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Fast Foods, grilled chicken filet sandwich, with lettuce, tomato and spread & 21490 & 1 & 427 &  & 0 & 3.08 &  & 0 & 0.949 &  & 0 & 4.57 &  & 0 & 197 &  & 0 & 0.9 &  & 2013 \\
+Fast Food, Pizza Chain, 14" pizza, cheese topping, stuffed crust & 21511 & 6 & 615 & 5.669 & 3 & 2.9 & 0.058 & 0 & 5.825 &  & 6 & 11.63 & 0.193 & 6 & 229 & 3.683 & 3 & 1.7 & 0.209 & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Macaroni and Cheese, canned entree & 22247 & 0 & 302 &  & 2 & 0.5 &  & 0 & 0.881 &  & 2 & 2.46 &  & 2 & 84 &  & 2 & 0.5 &  & 2013 \\
+Spaghetti with meat sauce, frozen entree & 22401 & 0 & 238 &  & 3 & 2.6 &  & 3 & 0.35 &  & 3 & 1.01 &  & 0 & 144 &  & 3 & 1.8 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Pasta with Sliced Franks in Tomato Sauce, canned entree & 22522 & 0 & 287 &  & 1 & 3.17 &  & 0 & 0.992 &  & 1 & 2.38 &  & 0 & 191 &  & 1 & 1.6 &  & 2013 \\
+HOT POCKETS, CROISSANT POCKETS Chicken, Broccoli, and Cheddar Stuffed Sandwich, frozen & 22535 & 0 & 346 &  & 0 & 7.6 &  & 1 & 2.62 &  & 1 & 8.6 &  & 0 & 188 &  & 1 & 1.1 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+HOT POCKETS Ham 'N Cheese Stuffed Sandwich, frozen & 22537 & 0 & 504 & \multicolumn{1}{r}{\cellcolor[HTML]{FADADE}} & 2 & 7.6 &  & 0 & 3.545 &  & 4 & 9.14 & 0.132 & 4 & 188 & 3.376 & 4 & 1.5 & 0.025 & 2013 \\
+Ravioli, cheese-filled, canned & 22899 & 0 & 306 &  & 1 & 3.72 &  & 2 & 0.723 &  & 2 & 1.45 &  & 0 & 232 &  & 0 & 1.3 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Tortellini, pasta with cheese filling, fresh-refrigerated, as purchased & 22901 & 0 & 406 &  & 0 & 0.95 &  & 0 & 3.6 &  & 0 & 7.23 &  & 0 & 89 &  & 0 & 1.9 &  & 2013 \\
+Beef stew, canned entree & 22905 & 4 & 388 & 23.813 & 0 & 1.76 &  & 0 & 2.185 &  & 4 & 5.53 & 1.032 & 4 & 163 & 12.627 & 1 & 0.9 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Beef, corned beef hash, with potato, canned & 22908 & 0 & 412 &  & 1 & 0.34 &  & 1 & 4.32 &  & 1 & 10.24 &  & 1 & 172 &  & 1 & 1.1 &  & 2013 \\
+Pasta with tomato sauce, no meat, canned & 22914 & 11 & 272 & 17.203 & 6 & 4 & 0.321 & 0 & 0.136 &  & 11 & 0.44 & 0.047 & 11 & 192 & 8.29 & 5 & 0.9 & 0.024 & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Egg rolls, pork, refrigerated, heated & 22953 & 0 & 407 &  & 1 & 5.32 &  & 0 & 1.588 &  & 1 & 7.17 &  & 1 & 212 &  & 1 & 2.1 &  & 2013 \\
+Egg rolls, chicken, refrigerated, heated & 22954 & 0 & 478 & \multicolumn{1}{r}{} & 1 & 5.57 &  & 0 & 0.964 &  & 1 & 4.51 &  & 1 & 281 &  & 1 & 2.4 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Turkey, stuffing, mashed potatoes w/gravy, assorted vegetables, frozen, microwaved & 22957 & 0 & 326 &  & 0 & 4.82 &  & 0 & 0.877 &  & 4 & 3.89 & 0.22 & 4 & 230 & 20.678 & 2 & 1.3 &  & 2013 \\
+Rice bowl with chicken, frozen entree, prepared (includes fried, teriyaki, and sweet and sour varieties) & 22958 & 3 & 333 & 76.884 & 3 & 4.07 & 1.541 & 0 & 0.327 &  & 3 & 1.56 & 0.341 & 3 & 123 & 8.819 & 3 & 0.7 & 0.12 & 2013 \\
+\rowcolor[HTML]{FADADE} 
+HOT POCKETS, meatballs \& mozzarella stuffed sandwich, frozen & 22961 & 0 & 439 &  & 2 & 7.73 &  & 0 & 4.007 &  & 5 & 10.47 & 0.087 & 5 & 204 & 2.588 & 5 & 2.2 & 0.073 & 2013 \\
+LEAN POCKETS, Ham N Cheddar & 22962 & 0 & 423 &  & 0 & 7.6 &  & 0 & 2.389 &  & 4 & 6.53 & 0.076 & 4 & 203 & 2.529 & 4 & 1.7 & 0.048 & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Ravioli, cheese with tomato sauce, frozen, not prepared, includes regular and light entrees & 22976 & 15 & 280 & 12.512 & 9 & 4.09 & 0.225 & 0 & 1.191 &  & 15 & 2.61 & 0.153 & 15 & 233 & 8.985 & 6 & 1.4 & 0.054 & 2013 \\
+Lasagna with meat sauce, frozen, prepared & 22977 & 12 & 373 & 9.43 & 6 & 3.11 & 0.054 & 0 & 2.348 &  & 12 & 4.92 & 0.247 & 12 & 196 & 3.933 & 4 & 1.7 & 0.127 & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Rice and vermicelli mix, chicken flavor, unprepared & 22998 & 6 & 1238 & 59.015 & 3 & 2.4 & 0.1 & 0 & 0.389 &  & 6 & 1.32 & 0.031 & 6 & 153 & 4.41 & 3 & 1.2 & 0.264 & 2013 \\
+Snacks, popcorn, microwave, 94\% fat free & 25000 & 0 & 571 &  & 8 & 0.65 & 0.041 & 0 & 1.184 &  & 7 & 6.1 & 0.113 & 8 & 284 & 19.372 & 4 & 13.6 & 0.89 & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Snacks, popcorn, microwave, low fat & 25001 & 0 & 540 &  & 0 & 0.92 &  & 0 & 1.415 &  & 0 & 9.5 &  & 0 & 241 &  & 0 & 14.2 &  & 2013 \\
+Snacks, popcorn, microwave, regular (butter) flavor, made with partially hydrogenated oil & 25014 & 12 & 764 & 41.658 & 2 & 0.55 &  & 0 & 7.216 &  & 12 & 34.02 & 1.397 & 12 & 240 & 13.167 & 12 & 10 & 0.429 & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Formulated bar, MARS SNACKFOOD US, SNICKERS MARATHON Protein Performance Bar, Caramel Nut Rush & 25015 & 1 & 238 &  & 1 & 28.75 &  & 1 & 6.25 &  & 1 & 12.5 &  & 1 & 188 &  & 1 & 12.5 &  & 2013 \\
+Formulated bar, MARS SNACKFOOD US, SNICKERS Marathon Energy Bar, all flavors & 25016 & 4 & 383 & 34.415 & 4 & 28.71 & 2.557 & 0 & 4.753 &  & 4 & 10.79 & 1.382 & 0 & 351 &  & 4 & 6.7 & 2.34 & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Formulated bar, POWER BAR, chocolate & 25017 & 0 & 308 &  & 1 & 30.07 &  & 0 & 1.32 &  & 1 & 3.11 &  & 1 & 362 &  & 1 & 5.7 &  & 2013 \\
+Formulated bar, SLIM-FAST OPTIMA meal bar, milk chocolate peanut & 25020 & 1 & 253 &  & 0 & 25 &  & 0 & 5.36 &  & 0 & 8.92 &  & 1 & 289 &  & 1 & 5.1 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Pretzels, soft, unsalted & 25024 & 0 & 252 &  & 0 & 0.25 &  & 0 & 0.695 &  & 0 & 3.1 &  & 0 & 88 &  & 0 & 1.7 &  & 2013 \\
+Snacks, soy chips or crisps, salted & 25025 & 2 & 842 &  & 2 & 1.8 &  & 0 & 1.102 &  & 2 & 7.35 &  & 1 & 7 &  & 2 & 3.5 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Snacks, plantain chips, salted & 25027 & 3 & 202 & 87.335 & 4 & 0.92 & 0.564 & 0 & 8.337 &  & 4 & 29.59 & 1.337 & 4 & 786 & 35.594 & 4 & 3.5 & 0.155 & 2013 \\
+Tortilla chips, yellow, plain, salted & 25028 & 18 & 310 & \multicolumn{1}{r}{16.149} & 13 & 1.21 & 0.032 & 0 & 2.776 &  & 19 & 22.33 & 0.476 & 19 & 206 & 4.418 & 13 & 4.7 & 0.132 & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Formulated bar, ZONE PERFECT CLASSIC CRUNCH BAR, mixed flavors & 25031 & 0 & 520 &  & 1 & 27 &  & 0 & 4.499 &  & 1 & 14 &  & 1 & 250 &  & 1 & 2 &  & 2013 \\
+Snacks, granola bar, KASHI GOLEAN, chewy, mixed flavors & 25032 & 1 & 321 &  & 1 & 42.31 &  & 0 & 3.227 &  & 1 & 7.69 &  & 0 & 429 &  & 1 & 7.7 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Snacks, granola bar, KASHI TLC Bar, chewy, mixed flavors & 25033 & 1 & 293 &  & 1 & 17.14 &  & 0 & 1.213 &  & 1 & 15.71 &  & 0 & 415 &  & 1 & 11.4 &  & 2013 \\
+Snacks, granola bar, KASHI GOLEAN, crunchy, mixed flavors & 25034 & 1 & 486 &  & 0 & 27.3 &  & 0 & 4.687 &  & 1 & 9.23 &  & 0 & 300 &  & 1 & 5.9 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Snacks, granola bar, chewy, reduced sugar, all flavors & 25035 & 0 & 312 &  & 0 & 20.8 &  & 0 & 5.008 &  & 0 & 12.5 &  & 0 & 199 &  & 0 & 3.1 &  & 2013 \\
+Snacks, granola bites, mixed flavors & 25036 & 0 & 167 &  & 0 & 30 &  & 0 & 9.888 &  & 0 & 17.5 &  & 0 & 285 &  & 0 & 5.7 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Snacks, pita chips, salted & 25037 & 6 & 854 & 5.366 & 3 & 4.76 & 0.072 & 0 & 1.342 &  & 6 & 15.2 & 0.296 & 6 & 129 & 1.745 & 6 & 3.8 & 0.102 & 2013 \\
+Snacks, granola bars, soft, almond, confectioners coating & 25038 & 0 & 486 &  & 0 & 34 &  & 0 & 5.668 &  & 0 & 20 &  & 0 & 320 &  & 0 & 4.3 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Snacks, granola bars, QUAKER OATMEAL TO GO, all flavors & 25039 & 1 & 367 & \multicolumn{1}{r}{\cellcolor[HTML]{FADADE}} & 0 & 31.54 &  & 0 & 1.299 &  & 1 & 6.67 &  & 1 & 238 &  & 0 & 4.6 &  & 2013 \\
+Snacks, vegetable chips, made from garden vegetables & 25040 & 0 & 357 &  & 0 & 4.04 &  & 0 & 1.762 &  & 0 & 23.3 &  & 0 & 838 &  & 0 & 4.7 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Snacks, granola bar, KASHI TLC Bar, crunchy, mixed flavors & 25041 & 0 & 400 &  & 0 & 20 &  & 0 & 1.436 &  & 0 & 15 &  & 0 & 545 &  & 0 & 10 &  & 2013 \\
+Snacks, candy bits, yogurt covered with vitamin C & 25043 & 0 & 75 &  & 0 & 65 &  & 0 & 1.389 &  & 0 & 7.5 &  & 0 & 338 &  & 0 & 0.2 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Formulated bar, high fiber, chewy, oats and chocolate & 25045 & 0 & 350 &  & 0 & 25 &  & 0 & 3.397 &  & 0 & 10 &  & 0 & 447 &  & 0 & 22.5 &  & 2013 \\
+Snacks, bagel chips, plain & 25046 & 6 & 233 & 3.269 & 3 & 6.02 & 0.15 & 0 & 6.835 &  & 6 & 15.14 & 0.489 & 6 & 140 & 2.154 & 6 & 4.1 & 0.138 & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Snacks, NUTRI-GRAIN FRUIT AND NUT BAR & 25048 & 0 & 195 &  & 0 & 32.45 &  & 0 & 1.93 &  & 0 & 10.93 &  & 0 & 328 &  & 0 & 7.5 &  & 2013 \\
+Snacks, CLIF BAR, mixed flavors & 25051 & 2 & 195 &  & 2 & 31.62 &  & 2 & 1.471 &  & 2 & 5.88 &  & 2 & 412 &  & 2 & 7.4 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Snacks, granola bar, QUAKER, chewy, 90 Calorie Bar & 25052 & 1 & 313 &  & 1 & 29.17 &  & 1 & 2.083 &  & 1 & 8.33 &  & 0 & 224 &  & 1 & 4.2 &  & 2013 \\
+Snacks, granola bar, GENERAL MILLS NATURE VALLEY, SWEET\&SALTY NUT, peanut & 25053 & 1 & 414 &  & 1 & 33.14 &  & 1 & 6.857 &  & 1 & 22.86 &  & 0 & 390 &  & 1 & 2.9 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Snacks, granola bar, GENERAL MILLS, NATURE VALLEY, with yogurt coating & 25054 & 0 & 271 &  & 0 & 40 &  & 0 & 1.372 &  & 0 & 11.43 &  & 0 & 168 &  & 0 & 4.4 &  & 2013 \\
+Snacks, granola bar, GENERAL MILLS, NATURE VALLEY, CHEWY TRAIL MIX & 25055 & 0 & 185 & \multicolumn{1}{r}{} & 1 & 42.86 &  & 1 & 2.857 &  & 1 & 11.43 &  & 0 & 189 &  & 0 & 3.8 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Snacks, granola bar, QUAKER, DIPPS, all flavors & 25056 & 0 & 269 &  & 0 & 37.61 &  & 0 & 8.693 &  & 0 & 20.42 &  & 0 & 231 &  & 0 & 3.2 &  & 2013 \\
+Snacks, brown rice chips & 25059 & 6 & 326 & 37.51 & 0 & 0.6 &  & 0 & 0.642 &  & 10 & 2.8 & 0.34 & 6 & 290 & 21.258 & 0 & 4.2 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Snack, Pretzel, hard chocolate coated & 25060 & 0 & 494 &  & 0 & 38.8 &  & 0 & 8.611 &  & 0 & 17.64 &  & 0 & 199 &  & 0 & 3.5 &  & 2013 \\
+Snack, Mixed Berry Bar & 25062 & 0 & 447 &  & 0 & 26.32 &  & 0 & 3.846 &  & 0 & 10.53 &  & 0 & 446 &  & 0 & 7.9 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Snacks, potato chips, made from dried potatoes (preformed), multigrain & 25063 & 10 & 544 & 22.691 & 6 & 4.08 & 0.269 & 0 & 6.307 &  & 10 & 24.74 & 0.183 & 10 & 330 & 4.655 & 6 & 2.7 & 0.075 & 2013 \\
+Snacks, potato chips, lightly salted & 25064 & 10 & 187 & 14.224 & 12 & 0.34 & 0.016 & 8 & 5.49 & 1.175 & 10 & 35.39 & 0.83 & 16 & 1304 & 37.534 & 3 & 4.2 & 0.156 & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Soup, egg drop, Chinese restaurant & 27000 & 4 & 370 & 48.416 & 0 & 0.09 &  & 0 & 0.166 &  & 4 & 0.61 & 0.155 & 4 & 22 & 5.225 & 0 & 0.4 &  & 2013 \\
+Soup, hot and sour, Chinese restaurant & 27001 & 4 & 376 & 17.762 & 4 & 0.42 & 0.082 & 0 & 0.229 &  & 4 & 1.21 & 0.214 & 4 & 55 & 7.081 & 0 & 0.5 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Soup, wonton, Chinese restaurant & 27002 & 4 & 406 & 67.742 & 4 & 0.34 & 0.075 & 0 & 0.062 &  & 4 & 0.26 & 0.085 & 4 & 32 & 4.621 & 0 & 0.2 &  & 2013 \\
+Soup, ramen noodle, dry, any flavor, reduced fat, reduced sodium & 27035 & 0 & 1200 &  & 0 & 0.85 &  & 0 & 0 &  & 0 & 2.5 &  & 0 & 128 &  & 0 & 2.7 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Soup, clam chowder, new england, reduced sodium, canned, ready-to-serve & 27043 & 4 & 194 & 2.179 & 3 & 0 & 0 & 0 & 0.701 &  & 4 & 4.23 & 0.096 & 4 & 337 & 8.606 & 1 & 0.8 &  & 2013 \\
+Sauce, duck, ready-to-serve & 27046 & 0 & 455 &  & 0 & 30.54 &  & 0 & 0.051 &  & 0 & 0.13 &  & 0 & 87 &  & 0 & 0.6 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Sauce, salsa, verde, ready-to-serve & 27047 & 0 & 600 & \multicolumn{1}{r}{\cellcolor[HTML]{FADADE}} & 0 & 3.5 &  & 0 & 0 &  & 0 & 0.89 &  & 0 & 259 &  & 0 & 1.9 &  & 2013 \\
+Sauce, steak, tomato based & 27048 & 0 & 1647 &  & 0 & 9.82 &  & 0 & 0 &  & 0 & 0.23 &  & 0 & 312 &  & 0 & 1.5 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Sauce, tartar, ready-to-serve & 27049 & 0 & 667 &  & 0 & 4.25 &  & 0 & 3.333 &  & 0 & 16.7 &  & 0 & 68 &  & 0 & 0.5 &  & 2013 \\
+Sauce, sweet and sour, ready-to-serve & 27050 & 0 & 371 &  & 0 & 18.75 &  & 0 & 0 &  & 0 & 0.02 &  & 0 & 99 &  & 0 & 0.1 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Sauce, cocktail, ready-to-serve & 27051 & 0 & 983 &  & 0 & 11.83 &  & 0 & 0 &  & 0 & 1.05 &  & 0 & 309 &  & 0 & 1.8 &  & 2013 \\
+Sauce, peanut, made from peanut butter, water, soy sauce & 27059 & 5 & 1338 & \multicolumn{1}{r}{12.806} & 3 & 17.07 & 0.219 & 0 & 2.907 &  & 5 & 16.02 & 0.372 & 5 & 235 & 4.512 & 2 & 1.8 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Bread, chapati or roti, whole wheat, frozen & 28285 & 3 & 298 &  & 3 & 2.93 &  & 0 & 3.311 &  & 3 & 9.2 &  & 3 & 196 &  & 3 & 9.7 &  & 2013 \\
+Bread, paratha (Indian bread), whole wheat, frozen & 28286 & 2 & 452 & \multicolumn{1}{r}{} & 2 & 4.15 &  & 0 & 5.826 &  & 2 & 13.2 &  & 2 & 139 &  & 2 & 9.6 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Bread, naan (Indian bread), whole wheat, refrigerated & 28287 & 1 & 467 &  & 1 & 3.4 &  & 0 & 2.907 &  & 1 & 6.7 &  & 1 & 185 &  & 1 & 4.8 &  & 2013 \\
+Bread, roll, Mexican, bollilo & 28288 & 2 & 506 &  & 2 & 3.55 &  & 0 & 1.401 &  & 2 & 5.8 &  & 2 & 131 &  & 2 & 2.2 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cookie, vanilla with caramel, coconut, and chocolate coating & 28289 & 0 & 182 &  & 0 & 35.8 &  & 0 & 17.7 &  & 0 & 25.8 &  & 0 & 195 &  & 0 & 4.4 &  & 2013 \\
+Cookie, with peanut butter filling, chocolate-coated & 28290 & 0 & 371 &  & 0 & 30.9 &  & 0 & 19.2 &  & 0 & 35.3 &  & 0 & 217 &  & 0 & 3.5 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cookies, animal, with frosting or icing & 28291 & 0 & 257 & \multicolumn{1}{r}{\cellcolor[HTML]{FADADE}} & 0 & 41.1 &  & 0 & 16.2 &  & 0 & 24.1 &  & 0 & 96 &  & 0 & 0.9 &  & 2013 \\
+Crackers, multigrain & 28292 & 0 & 883 &  & 0 & 12 &  & 0 & 3.3 &  & 0 & 20.4 &  & 0 & 171 &  & 0 & 3.5 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cookie, butter or sugar, with chocolate icing or filling & 28293 & 0 & 348 &  & 0 & 33.8 &  & 0 & 14.8 &  & 0 & 23.5 &  & 0 & 234 &  & 0 & 1.9 &  & 2013 \\
+Cookie, chocolate, with icing or coating & 28294 & 0 & 380 &  & 0 & 32 &  & 0 & 16.5 &  & 0 & 24.2 &  & 0 & 95 &  & 0 & 2.3 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Tortillas, ready-to-bake or -fry, whole wheat & 28295 & 0 & 512 &  & 0 & 2.44 &  & 0 & 4.878 &  & 0 & 9.76 &  & 0 & 262 &  & 0 & 9.8 &  & 2013 \\
+Cake, snack cakes, creme-filled, chocolate with frosting, low-fat & 28296 & 0 & 483 &  & 0 & 33.42 &  & 0 & 5.57 &  & 0 & 13 &  & 0 & 193 &  & 0 & 14.9 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cake, snack cakes, not chocolate, with icing or filling, low-fat & 28297 & 0 & 316 &  & 0 & 29.71 &  & 0 & 3.713 &  & 0 & 11.14 &  & 0 & 326 &  & 0 & 14.9 &  & 2013 \\
+Cookies, brownies, commercially prepared, reduced fat & 28298 & 0 & 290 &  & 0 & 38.73 &  & 0 & 2.766 &  & 0 & 9.68 &  & 0 & 143 &  & 0 & 11.1 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cookies, chocolate sandwich, with creme filling, reduced fat & 28299 & 0 & 471 &  & 0 & 41.18 &  & 0 & 2.941 &  & 0 & 13.24 &  & 0 & 176 &  & 0 & 2.9 &  & 2013 \\
+Cookies, oatmeal sandwich, with creme filling & 28300 & 0 & 444 &  & 0 & 31.36 &  & 0 & 5.226 &  & 0 & 18.29 &  & 0 & 136 &  & 0 & 2.6 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cookies, peanut butter, commercially prepared, sugar free & 28301 & 0 & 448 &  & 0 & 0 &  & 0 & 8.621 &  & 0 & 31.03 &  & 0 & 202 &  & 0 & 3.4 &  & 2013 \\
+Cookies, graham crackers, plain or honey, lowfat & 28302 & 0 & 629 &  & 0 & 22.86 &  & 0 & 0 &  & 0 & 5.71 &  & 0 & 171 &  & 0 & 5.7 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Crackers, cheese, whole grain & 28303 & 0 & 802 &  & 0 & 0 &  & 0 & 3.206 &  & 0 & 16.03 &  & 0 & 212 &  & 0 & 6.4 &  & 2013 \\
+Waffles, whole wheat, lowfat, frozen, ready-to-heat & 28304 & 0 & 557 & \multicolumn{1}{r}{} & 0 & 4.29 &  & 0 & 0.714 &  & 0 & 3.57 &  & 0 & 164 &  & 0 & 4.3 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Pancakes, plain, reduced fat & 28305 & 0 & 429 &  & 0 & 8.57 &  & 0 & 0 &  & 0 & 1.9 &  & 0 & 97 &  & 0 & 1 &  & 2013 \\
+Rice and vermicelli mix, beef flavor, unprepared & 32000 & 6 & 1337 & 72.786 & 0 & 4.27 &  & 0 & 0.31 &  & 6 & 1.27 & 0.021 & 6 & 169 & 7.097 & 3 & 1.6 & 0.334 & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Rice and vermicelli mix, rice pilaf flavor, unprepared & 32002 & 6 & 1303 & 27.406 & 3 & 1.53 & 0.033 & 0 & 0.307 &  & 6 & 1.37 & 0.021 & 6 & 188 & 3.765 & 3 & 1.2 & 0.315 & 2013 \\
+Macaroni and cheese, box mix with cheese sauce, unprepared & 32004 & 12 & 766 & 12.446 & 0 & 6.43 &  & 0 & 1.184 &  & 12 & 10.67 & 0.134 & 12 & 197 & 1.972 & 0 & 1.8 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Taquitos, frozen, chicken and cheese, oven-heated & 32006 & 12 & 453 & 6.195 & 6 & 1.3 & 0.021 & 0 & 2.31 &  & 12 & 12.54 & 0.249 & 12 & 155 & 2.705 & 6 & 2.9 & 0.12 & 2013 \\
+Taquitos, frozen, beef and cheese, oven-heated & 32007 & 11 & 456 & 4.315 & 6 & 1.66 & 0.049 & 0 & 2.621 &  & 11 & 12.79 & 0.131 & 11 & 174 & 1.953 & 6 & 2.8 & 0.076 & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Pasta mix, classic cheeseburger macaroni, unprepared & 32008 & 6 & 2152 & 66.754 & 3 & 4.97 & 0.348 & 0 & 0.368 &  & 6 & 1.88 & 0.06 & 6 & 204 & 6.483 & 2 & 2.7 &  & 2013 \\
+Pasta mix, classic beef, unprepared & 32009 & 6 & 1537 & 34.416 & 3 & 4.95 & 0.506 & 0 & 0.439 &  & 6 & 1.78 & 0.017 & 6 & 342 & 9.119 & 2 & 2 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Pasta mix, Italian lasagna, unprepared & 32010 & 6 & 1850 & 46.332 & 3 & 11.27 & 0.995 & 0 & 0.443 &  & 6 & 1.97 & 0.071 & 6 & 277 & 5.624 & 3 & 2.8 & 0.266 & 2013 \\
+Yellow rice with seasoning, dry packet mix, unprepared & 32011 & 0 & 1316 & \multicolumn{1}{r}{} & 0 & 1.75 &  & 0 & 0 &  & 0 & 1.75 &  & 0 & 801 &  & 0 & 1.8 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Pizza rolls, frozen, unprepared & 32012 & 0 & 599 & \multicolumn{1}{r}{\cellcolor[HTML]{FADADE}} & 0 & 3.74 &  & 0 & 2.494 &  & 0 & 9.98 &  & 0 & 301 &  & 0 & 1.2 &  & 2013 \\
+Potsticker or wonton, pork and vegetable, frozen, unprepared & 32013 & 0 & 441 & \multicolumn{1}{r}{} & 0 & 2.76 &  & 0 & 1.724 &  & 0 & 5.52 &  & 0 & 284 &  & 0 & 1.4 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Macaroni or noodles with cheese, made from reduced fat packaged mix, unprepared & 32014 & 0 & 867 &  & 0 & 5.04 &  & 0 & 0.409 &  & 0 & 4.03 &  & 0 & 203 &  & 0 & 2 &  & 2013 \\
+Turnover, cheese-filled, tomato-based sauce, frozen, unprepared & 32015 & 0 & 598 &  & 0 & 7.87 &  & 0 & 4.724 &  & 0 & 9.45 &  & 0 & 179 &  & 0 & 1.6 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Macaroni or noodles with cheese, microwaveable, unprepared & 32016 & 0 & 902 &  & 0 & 8.2 &  & 0 & 2.814 &  & 0 & 6.56 &  & 0 & 348 &  & 0 & 1.6 &  & 2013 \\
+Restaurant, Chinese, beef and vegetables & 36603 & 24 & 409 & 20.756 & 6 & 2.41 & 0.121 & 0 & 0.978 &  & 12 & 5.3 & 0.347 & 24 & 204 & 5.308 & 6 & 1.5 & 0.099 & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Restaurant, Chinese, lemon chicken & 36617 & 14 & 252 & \multicolumn{1}{r}{\cellcolor[HTML]{FADADE}38.412} & 7 & 8.18 & 1.695 & 0 & 2.033 &  & 14 & 13.55 & 1.748 & 14 & 161 & 10.193 & 7 & 1 & 0.116 & 2013 \\
+Restaurant, Chinese, general tso's chicken & 36618 & 12 & 435 & 15.817 & 6 & 11.6 & 1.542 & 0 & 2.76 &  & 12 & 16.36 & 1.062 & 12 & 201 & 14.941 & 6 & 0.9 & 0.049 & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Restaurant, Chinese, vegetable chow mein, without meat or noodles & 36624 & 10 & 344 & 29.021 & 3 & 2.63 & 0.371 & 0 & 0.293 &  & 10 & 1.68 & 0.361 & 10 & 136 & 4.931 & 3 & 1.2 & 0.18 & 2013 \\
+Restaurant, Chinese, vegetable lo mein, without meat & 36625 & 12 & 430 & 18.058 & 3 & 2.63 & 0.291 & 0 & 0.464 &  & 12 & 2.35 & 0.175 & 12 & 105 & 4.037 & 3 & 1.3 & 0.038 & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Creamy dressing, made with sour cream and/or buttermilk and oil, reduced calorie & 42116 & 0 & 833 &  & 0 & 5.65 &  & 0 & 2.115 &  & 1 & 14 &  & 0 & 36 &  & 0 & 0 &  & 2013 \\
+Imitation cheese, american or cheddar, low cholesterol & 42117 & 0 & 670 & \multicolumn{1}{r}{} & 0 & 1 &  & 0 & 5.815 &  & 0 & 32 &  & 0 & 55 &  & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Turkey ham, sliced, extra lean, prepackaged or deli-sliced & 42128 & 0 & 1038 & \multicolumn{1}{r}{\cellcolor[HTML]{FADADE}} & 0 & 0 &  & 0 & 1.09 &  & 0 & 3.8 &  & 0 & 299 &  & 0 & 0 &  & 2013 \\
+Bologna, beef and pork, low fat & 42129 & 0 & 1108 & \multicolumn{1}{r}{} & 0 & 0 &  & 0 & 7.308 &  & 0 & 19.3 &  & 0 & 156 &  & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Salad dressing, peppercorn dressing, commercial, regular & 42137 & 0 & 1103 &  & 0 & 2.45 &  & 1 & 10.527 &  & 1 & 61.4 &  & 0 & 176 &  & 0 & 0 &  & 2013 \\
+Mayonnaise, reduced-calorie or diet, cholesterol-free & 42138 & 1 & 733 &  & 0 & 4.2 &  & 0 & 4.618 &  & 1 & 33.3 &  & 1 & 67 &  & 1 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Granola bar, soft, milk chocolate coated, peanut butter & 42139 & 0 & 193 &  & 0 & 23.63 &  & 0 & 17.065 &  & 0 & 31.2 &  & 0 & 339 &  & 0 & 3.8 &  & 2013 \\
+Vegetable oil-butter spread, reduced calorie & 42151 & 1 & 581 &  & 0 & 0 &  & 0 & 17.88 &  & 1 & 53 &  & 0 & 6 &  & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Salad dressing, blue or roquefort cheese dressing, light & 42153 & 0 & 939 &  & 0 & 3.6 &  & 0 & 0.628 &  & 1 & 2.7 &  & 0 & 51 &  & 0 & 0 &  & 2013 \\
+Cheese, monterey, low fat & 42155 & 0 & 781 & \multicolumn{1}{r}{} & 0 & 0.56 &  & 0 & 14.04 &  & 0 & 21.6 &  & 0 & 81 &  & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Creamy dressing, made with sour cream and/or buttermilk and oil, reduced calorie, fat-free & 42157 & 0 & 897 &  & 0 & 5.35 &  & 1 & 0.494 &  & 1 & 2.7 &  & 1 & 133 &  & 1 & 0 &  & 2013 \\
+Creamy dressing, made with sour cream and/or buttermilk and oil, reduced calorie, cholesterol-free & 42158 & 0 & 932 &  & 0 & 3.28 &  & 0 & 1.355 &  & 0 & 8 &  & 0 & 49 &  & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Bologna, beef, low fat & 42161 & 0 & 821 &  & 0 & 0 &  & 0 & 5.464 &  & 1 & 14.8 &  & 0 & 147 &  & 0 & 0 &  & 2013 \\
+Turkey and pork sausage, fresh, bulk, patty or link, cooked & 42173 & 0 & 878 &  & 0 & 0 &  & 0 & 7.95 &  & 0 & 23 &  & 0 & 337 &  & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Mayonnaise, made with tofu & 42178 & 0 & 773 &  & 0 & 0.85 &  & 0 & 2.921 &  & 0 & 31.79 &  & 0 & 66 &  & 0 & 1.1 &  & 2013 \\
+Milk, buttermilk, fluid, cultured, reduced fat & 42189 & 0 & 105 &  & 0 & 5.3 &  & 0 & 1.242 &  & 0 & 2 &  & 0 & 180 &  & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Pork sausage rice links, brown and serve, cooked & 42190 & 0 & 880 &  & 0 & 0 &  & 4 & 12.825 &  & 4 & 37.63 &  & 1 & 212 &  & 0 & 0 &  & 2013 \\
+Salad dressing, blue or roquefort cheese dressing, fat-free & 42192 & 1 & 814 &  & 1 & 7.44 &  & 0 & 0.45 &  & 1 & 1.01 &  & 0 & 194 &  & 1 & 1.8 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Salad Dressing, mayonnaise-like, fat-free & 42193 & 0 & 788 &  & 0 & 10.3 &  & 0 & 0.6 &  & 0 & 2.7 &  & 0 & 49 &  & 0 & 1.9 &  & 2013 \\
+Papad & 42200 & 0 & 1745 &  & 0 & 0 &  & 0 & 1.084 &  & 0 & 3.25 &  & 0 & 1000 &  & 0 & 18.6 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Rice cake, cracker (include hain mini rice cakes) & 42204 & 0 & 71 &  & 0 & 0.88 &  & 0 & 0.875 &  & 0 & 4.3 &  & 0 & 428 &  & 0 & 4.2 &  & 2013 \\
+Cheese, pasteurized process, cheddar or American, fat-free & 42205 & 0 & 1528 &  & 0 & 9.95 &  & 0 & 0.504 &  & 0 & 0.8 &  & 0 & 288 &  & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Salad Dressing, coleslaw dressing, reduced fat & 42230 & 0 & 1600 &  & 0 & 38.73 &  & 0 & 2.98 &  & 0 & 20 &  & 0 & 50 &  & 0 & 0.4 &  & 2013 \\
+Cereals ready-to-eat, frosted oat cereal with marshmallows & 42236 & 0 & 533 &  & 0 & 43.5 &  & 0 & 0.62 &  & 0 & 3.5 &  & 0 & 207 &  & 0 & 4.3 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cereals ready-to-eat, WEETABIX WHOLE WHEAT CEREAL & 42237 & 0 & 387 &  & 0 & 2 &  & 0 & 0.48 &  & 0 & 2.8 &  & 0 & 545 &  & 0 & 11.4 &  & 2013 \\
+Cereals ready-to-eat, POST, HONEY BUNCHES OF OATS, with almonds & 42240 & 0 & 417 &  & 0 & 20 &  & 0 & 0.8 &  & 0 & 7.3 &  & 0 & 211 &  & 0 & 5.5 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Margarine-like, vegetable oil spread, stick or tub, sweetened & 42256 & 1 & 542 &  & 0 & 16.7 &  & 1 & 8.35 &  & 1 & 52 &  & 0 & 30 &  & 1 & 0 &  & 2013 \\
+Cheese product, pasteurized process, cheddar, reduced fat & 42258 & 0 & 1587 &  & 0 & 8.02 &  & 0 & 8.85 &  & 0 & 14.1 &  & 0 & 330 &  & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cereals ready-to-eat, POST, GREAT GRAINS Crunchy Pecan Cereal & 42261 & 0 & 287 &  & 0 & 15.4 &  & 0 & 1 &  & 0 & 10.5 &  & 0 & 337 &  & 0 & 9.7 &  & 2013 \\
+Cereals ready-to-eat, POST, GREAT GRAINS, Raisin, Date \& Pecan & 42265 & 0 & 247 &  & 0 & 24.1 &  & 0 & 0.8 &  & 0 & 7.1 &  & 0 & 378 &  & 0 & 9.3 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Snacks, granola bar, with coconut, chocolate coated & 42272 & 0 & 152 &  & 0 & 34.27 &  & 0 & 22.72 &  & 0 & 32.2 &  & 0 & 254 &  & 0 & 6.2 &  & 2013 \\
+Frankfurter, meat and poultry, low fat & 42280 & 0 & 983 &  & 0 & 0 &  & 0 & 0.97 &  & 0 & 2.8 &  & 0 & 261 &  & 0 & 0.1 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Snacks, potato chips, white, restructured, baked & 42283 & 0 & 554 &  & 0 & 5.01 &  & 1 & 2.631 &  & 1 & 18.2 &  & 1 & 721 &  & 1 & 4.8 &  & 2013 \\
+Babyfood, baked product, finger snacks cereal & 42284 & 0 & 214 &  & 0 & 28 &  & 0 & 1.646 &  & 0 & 9.9 &  & 0 & 114 &  & 0 & 2.3 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Peanut butter, reduced sodium & 42291 & 0 & 203 &  & 0 & 9.29 &  & 0 & 7.716 &  & 0 & 49.9 &  & 0 & 747 &  & 0 & 6.6 &  & 2013 \\
+Cereals ready-to-eat, POST GREAT GRAINS Banana Nut Crunch & 42297 & 0 & 243 &  & 0 & 18.1 &  & 0 & 1.3 &  & 0 & 9.7 &  & 0 & 350 &  & 0 & 11.3 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cheese, muenster, low fat & 42303 & 0 & 600 & \multicolumn{1}{r}{\cellcolor[HTML]{FADADE}} & 0 & 3.5 &  & 0 & 10.95 &  & 0 & 17.6 &  & 0 & 134 &  & 0 & 0 &  & 2013 \\
+Cheese, mozzarella, nonfat & 42304 & 1 & 743 &  & 0 & 1.48 &  & 0 & 0 &  & 0 & 0 &  & 0 & 106 &  & 0 & 1.8 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Margarine-like, vegetable oil-butter spread, reduced calorie, tub, with salt & 42309 & 0 & 607 &  & 0 & 0 &  & 0 & 16.669 &  & 0 & 50 &  & 0 & 37 &  & 0 & 0 &  & 2013 \\
+Salad dressing, caesar dressing, regular & 43015 & 0 & 1209 & \multicolumn{1}{r}{} & 1 & 2.81 &  & 0 & 8.789 &  & 0 & 57.85 &  & 1 & 29 &  & 2 & 0.5 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Salad dressing, coleslaw & 43016 & 1 & 710 &  & 0 & 20.11 &  & 1 & 4.9 &  & 1 & 33.4 &  & 1 & 9 &  & 1 & 0.1 &  & 2013 \\
+Salad dressing, green goddess, regular & 43017 & 1 & 867 &  & 0 & 6.67 &  & 0 & 5.978 &  & 0 & 43.33 &  & 1 & 58 &  & 0 & 0.1 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Salad dressing, sweet and sour & 43019 & 1 & 208 &  & 0 & 3.7 &  & 0 & 0 &  & 0 & 0 &  & 1 & 33 &  & 0 & 0 &  & 2013 \\
+Salad dressing, blue or roquefort cheese, low calorie & 43020 & 0 & 939 &  & 0 & 2.82 &  & 0 & 2.575 &  & 1 & 7.2 &  & 1 & 5 &  & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Salad dressing, caesar, low calorie & 43021 & 0 & 1148 &  & 0 & 16.32 &  & 0 & 0.703 &  & 1 & 4.4 &  & 1 & 29 &  & 1 & 0.1 &  & 2013 \\
+Beverage, milkshake mix, dry, not chocolate & 43078 & 0 & 780 &  & 0 & 51.3 &  & 0 & 2.059 &  & 0 & 2.6 &  & 0 & 2200 &  & 0 & 1.6 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Breakfast bars, oats, sugar, raisins, coconut (include granola bar) & 43100 & 0 & 251 &  & 0 & 27.52 &  & 0 & 12.69 &  & 1 & 17.6 &  & 1 & 326 &  & 0 & 3.1 &  & 2013 \\
+Pretzels, soft & 43109 & 0 & 545 & \multicolumn{1}{r}{} & 0 & 0.25 &  & 0 & 0.695 &  & 0 & 3.1 &  & 0 & 88 &  & 0 & 1.7 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Beans, chili, barbecue, ranch style, cooked & 43112 & 0 & 725 &  & 0 & 5.25 &  & 0 & 0.145 &  & 0 & 1 &  & 0 & 450 &  & 0 & 4.2 &  & 2013 \\
+Chicken, meatless & 43128 & 0 & 709 &  & 0 & 0 &  & 0 & 1.534 &  & 0 & 12.73 &  & 0 & 54 &  & 0 & 3.6 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Frankfurter, meatless & 43130 & 0 & 471 & \multicolumn{1}{r}{\cellcolor[HTML]{FADADE}} & 0 & 0 &  & 0 & 1.653 &  & 0 & 13.73 &  & 0 & 98 &  & 0 & 3.9 &  & 2013 \\
+Luncheon slices, meatless & 43131 & 0 & 711 & \multicolumn{1}{r}{} & 0 & 2.22 &  & 0 & 1.338 &  & 0 & 11.11 &  & 0 & 200 &  & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Meatballs, meatless & 43132 & 0 & 550 &  & 0 & 1.25 &  & 0 & 1.425 &  & 0 & 9 &  & 0 & 180 &  & 0 & 4.6 &  & 2013 \\
+Vegetarian fillets & 43134 & 0 & 490 &  & 0 & 0.8 &  & 0 & 2.849 &  & 0 & 18 &  & 0 & 600 &  & 0 & 6.1 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Sandwich spread, meatless & 43135 & 0 & 630 &  & 0 & 4.58 &  & 0 & 1.425 &  & 0 & 9 &  & 0 & 340 &  & 0 & 3.3 &  & 2013 \\
+Vegetarian meatloaf or patties & 43137 & 0 & 550 &  & 0 & 1.2 &  & 0 & 1.425 &  & 0 & 9 &  & 0 & 180 &  & 0 & 4.6 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Sweeteners, tabletop, saccharin (sodium saccharin) & 43158 & 1 & 428 & \multicolumn{1}{r}{\cellcolor[HTML]{FADADE}} & 0 & 85.19 &  & 0 & 0 &  & 3 & 0 & 0 & 3 & 4 & 0.621 & 0 & 0 &  & 2013 \\
+Beverage, instant breakfast powder, chocolate, not reconstituted & 43205 & 0 & 385 &  & 0 & 65.8 &  & 0 & 0.56 &  & 0 & 1.4 &  & 0 & 947 &  & 0 & 0.4 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Bacon bits, meatless & 43212 & 0 & 1770 &  & 0 & 0 &  & 0 & 4.055 &  & 0 & 25.9 &  & 0 & 145 &  & 0 & 10.2 &  & 2013 \\
+Butter replacement, without fat, powder & 43214 & 0 & 1200 &  & 0 & 5.3 &  & 0 & 0.589 &  & 0 & 1 &  & 0 & 2 &  & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Salad dressing, buttermilk, lite & 43215 & 0 & 1120 &  & 4 & 3.77 & 1.055 & 0 & 1.25 &  & 4 & 12.42 & 0.066 & 3 & 132 & 6.766 & 3 & 1.1 & 0.282 & 2013 \\
+Cereals ready-to-eat, wheat and bran, presweetened with nuts and fruits & 43245 & 0 & 245 &  & 0 & 23.6 &  & 0 & 0.8 &  & 0 & 5.6 &  & 0 & 382 &  & 0 & 9.7 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Beverage, instant breakfast powder, chocolate, sugar-free, not reconstituted & 43260 & 0 & 717 &  & 0 & 39 &  & 0 & 2.162 &  & 0 & 5.1 &  & 0 & 1705 &  & 0 & 2 &  & 2013 \\
+Cheese, cream, low fat & 43274 & 0 & 359 &  & 2 & 5.82 &  & 0 & 9.098 &  & 2 & 15.28 &  & 2 & 247 &  & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cheese, pasteurized process, American, low fat & 43275 & 0 & 1789 &  & 0 & 0.59 &  & 0 & 4.41 &  & 0 & 7 &  & 0 & 180 &  & 0 & 0 &  & 2013 \\
+Cheese spread, cream cheese base & 43276 & 0 & 436 &  & 0 & 3.5 &  & 0 & 18.02 &  & 1 & 28.6 &  & 0 & 112 &  & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Pork, cured, ham, boneless, low sodium, extra lean and regular, roasted & 43325 & 0 & 969 &  & 0 & 0 &  & 0 & 2.624 &  & 0 & 7.7 &  & 0 & 362 &  & 0 & 0 &  & 2013 \\
+Pork, cured, ham, low sodium, lean and fat, cooked & 43326 & 0 & 969 &  & 0 & 0 &  & 0 & 2.781 &  & 0 & 8.3 &  & 0 & 386 &  & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Pork, cured, ham, boneless, low sodium, extra lean (approximately 5\% fat), roasted & 43327 & 0 & 969 &  & 0 & 0 &  & 0 & 1.801 &  & 0 & 5.5 &  & 0 & 287 &  & 0 & 0 &  & 2013 \\
+Salad dressing, bacon and tomato & 43331 & 0 & 905 &  & 0 & 2 &  & 0 & 5.435 &  & 0 & 35 &  & 0 & 108 &  & 0 & 0.2 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Turkey, wing, smoked, cooked, with skin, bone removed & 43366 & 0 & 996 & \multicolumn{1}{r}{\cellcolor[HTML]{FADADE}} & 0 & 0 &  & 0 & 3.383 &  & 0 & 12.41 &  & 0 & 266 &  & 0 & 0 &  & 2013 \\
+Turkey, drumstick, smoked, cooked, with skin, bone removed & 43367 & 0 & 996 &  & 0 & 0 &  & 0 & 3.054 &  & 0 & 9.8 &  & 0 & 280 &  & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Chocolate-flavored drink, whey and milk based & 43369 & 0 & 91 & \multicolumn{1}{r}{\cellcolor[HTML]{FADADE}} & 0 & 8.68 &  & 0 & 0.31 &  & 0 & 0.4 &  & 0 & 79 &  & 0 & 0.6 &  & 2013 \\
+Cheese, pasteurized process, swiss, low fat & 43379 & 0 & 1430 &  & 0 & 1.35 &  & 0 & 3.303 &  & 0 & 5.1 &  & 0 & 180 &  & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Beef, bologna, reduced sodium & 43384 & 0 & 682 &  & 0 & 0 &  & 0 & 11.676 &  & 0 & 28.4 &  & 0 & 155 &  & 0 & 0 &  & 2013 \\
+Cheese, cottage, lowfat, 1\% milkfat, with vegetables & 43396 & 0 & 403 &  & 0 & 3 &  & 0 & 0.619 &  & 0 & 1 &  & 0 & 86 &  & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Chicken, meatless, breaded, fried & 43410 & 0 & 400 &  & 0 & 0 &  & 0 & 1.13 &  & 0 & 12.77 &  & 0 & 300 &  & 0 & 4.3 &  & 2013 \\
+Rolls, pumpernickel & 43441 & 0 & 492 &  & 0 & 0.4 &  & 0 & 0.495 &  & 0 & 2.8 &  & 0 & 208 &  & 0 & 5.4 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cereals ready-to-eat, OAT BRAN FLAKES, HEALTH VALLEY & 43495 & 1 & 380 &  & 1 & 22 &  & 1 & 1 &  & 1 & 3 &  & 1 & 340 &  & 1 & 8 &  & 2013 \\
+Frankfurter, low sodium & 43507 & 0 & 311 &  & 0 & 0 &  & 0 & 12.038 &  & 0 & 28.51 &  & 0 & 166 &  & 0 & 0 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Snacks, tortilla chips, light (baked with less oil) & 43566 & 0 & 564 &  & 0 & 0.53 &  & 0 & 2.837 &  & 0 & 15.2 &  & 0 & 272 &  & 0 & 5.7 &  & 2013 \\
+Cereals ready-to-eat, POST, HONEY BUNCHES OF OATS, honey roasted & 43570 & 6 & 482 & 11.387 & 3 & 19.79 & 0.296 & 0 & 0.693 &  & 6 & 5.46 & 0.266 & 6 & 209 & 2.078 & 3 & 4.2 & 0.033 & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cheese, swiss, low fat & 43589 & 0 & 199 &  & 0 & 1.33 &  & 0 & 3.304 &  & 0 & 5.1 &  & 0 & 111 &  & 0 & 0 &  & 2013 \\
+Breakfast bar, corn flake crust with fruit & 43595 & 0 & 297 &  & 0 & 35.1 &  & 0 & 1.5 &  & 0 & 7.5 &  & 0 & 197 &  & 0 & 2.1 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Cheese food, pasteurized process, American, imitation, without added vitamin D & 44048 & 3 & 1297 & 8.819 & 0 & 8.21 &  & 0 & 7.996 &  & 1 & 19.5 &  & 3 & 126 & 7.126 & 0 & 0 &  & 2013 \\
+Puddings, chocolate flavor, low calorie, instant, dry mix & 44061 & 0 & 2838 &  & 0 & 0.7 &  & 0 & 0.984 &  & 0 & 2.4 &  & 0 & 1279 &  & 0 & 6.1 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Puddings, chocolate flavor, low calorie, regular, dry mix & 44258 & 1 & 3326 &  & 0 & 0.7 &  & 0 & 1.578 &  & 0 & 3 &  & 0 & 570 &  & 1 & 10.1 &  & 2013 \\
+Puddings, all flavors except chocolate, low calorie, regular, dry mix & 44259 & 0 & 1765 &  & 0 & 2.9 &  & 0 & 0.018 &  & 0 & 0.1 &  & 0 & 18 &  & 0 & 0.9 &  & 2013 \\
+\rowcolor[HTML]{FADADE} 
+Puddings, all flavors except chocolate, low calorie, instant, dry mix & 44260 & 0 & 3750 &  & 0 & 0.9 &  & 0 & 0.099 &  & 0 & 0.9 &  & 0 & 30 &  & 0 & 0.8 &  & 2013 \\
+SEM: standard error of the mean, SR: National Nutrient Database for Standard Reference &  & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\
+1Five-digit number that uniquely identifies a food item in USDA’s National Nutrient Database for Standard Reference (SR). &  & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\
+2For many food items, values for N=0, range, and SEM are not available because they have not been analyzed. For foods that have been analyzed, most saturated fat and some total sugar values were determined by summing values for individual saturated fatty acids and individual sugars, respectively; hence, values for n = 0 and SEM are not available. &  & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  & 
+\end{tabular}
+\end{table}

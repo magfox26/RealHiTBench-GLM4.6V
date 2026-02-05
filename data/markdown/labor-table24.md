@@ -1,0 +1,10 @@
+|    | No.     | Emp ID.   | Name              | Position                             | Class Room   | E-Learning   |             |             |             |              |             |         |        |
+|---:|:--------|:----------|:------------------|:-------------------------------------|:-------------|:-------------|:------------|:------------|:------------|:-------------|:------------|:--------|:-------|
+|  0 |         |           |                   |                                      |              | Check-in     | Foundations | Our Brand   | Welcome SPG | Be memorable | Impact      | Recover | LSC    |
+|  1 |         |           |                   |                                      |              | 15 min.      | 15 min.     | 15 min.     | 15 min.     | 15 min.      | 15 min.     | 15 min. | 2.5hrs |
+|  2 | Finance |           |                   |                                      |              |              |             |             |             |              |             |         |        |
+|  3 | 3       | 214017.0  | Alfred Adams      | Accounting Executive                 |              | Done         | In Progress | Done        | In Progress | In Progress  | Done        | Done    |        |
+|  4 | 4       | 214040.0  | Bill Billings     | Income Auditor                       |              | In Progress  | In Progress | In Progress | In Progress | In Progress  | In Progress | Done    |        |
+|  5 | 5       | 213108.0  | Charlie Cadsworth | Secretary to the Director of Finance | Done         | Done         | Done        | Done        | In Progress | Done         | Done        | Done    |        |
+|  6 | 6       | 210021.0  | David Donesbury   | Paymaster/General Cashier            |              | Done         | Done        | Done        | In Progress | Done         | Done        | Done    |        |
+|  7 | 7       | 214039.0  | Edward Edwins     | Accountant                           |              | Done         | Done        | Done        | In Progress | Done         | Done        | Done    |        |

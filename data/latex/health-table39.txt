@@ -1,0 +1,28 @@
+\begin{table}[]
+\begin{tabular}{llllllllllllllll}
+Immunoblot &          &          &      &           &                &  &      &           &                &  &      &           &                &               &               \\
+\multicolumn{16}{l}{Expt-1}                                                                                                                                                        \\
+           &          &          & \multicolumn{3}{l}{Runx1}         &  & \multicolumn{3}{l}{Runx3}         &  & \multicolumn{3}{l}{b-actin}       & Runx1/b-actin & Runx3/b-actin \\
+           &          &          & Area & Intensity & Intensity/Area &  & Area & Intensity & Intensity/Area &  & Area & Intensity & Intensity/Area &               &               \\
+Set1       & Uninf    & DC- SAG  & 0.02 & 87.79     & 4389.5         &  & 0.03 & 118.94    & 3964.666667    &  & 0.02 & 91.99     & 4599.5         & 0.954342863   & 0.861977751   \\
+Set2       & Uninf    & DC + SAG & 0.02 & 88.22     & 4411           &  & 0.03 & 127.38    & 4246           &  & 0.02 & 96.08     & 4804           & 0.918193172   & 0.883846794   \\
+Set3       & LDPm 24h & DC- SAG  & 0.02 & 90.63     & 4531.5         &  & 0.03 & 132       & 4400           &  & 0.02 & 85.93     & 4296.5         & 1.054695683   & 1.024089375   \\
+Set4       & LDPm 24h & DC + SAG & 0.02 & 81.86     & 4093           &  & 0.03 & 138.83    & 4627.666667    &  & 0.02 & 87.83     & 4391.5         & 0.932027781   & 1.053778132   \\
+           &          &          &      &           &                &  &      &           &                &  &      &           &                &               &               \\
+\multicolumn{16}{l}{Expt-2}                                                                                                                                                        \\
+           &          &          & \multicolumn{3}{l}{Runx1}         &  & \multicolumn{3}{l}{Runx3}         &  & \multicolumn{3}{l}{b-actin}       & Runx1/b-actin & Runx3/b-actin \\
+           &          &          & Area & Intensity & Intensity/Area &  & Area & Intensity & Intensity/Area &  & Area & Intensity & Intensity/Area &               &               \\
+Set1       & Uninf    & DC- SAG  & 0.01 & 68.93     & 6893           &  & 0.12 & 143.62    & 1196.833333    &  & 0.01 & 67.11     & 6711           & 1.027119654   & 0.178339045   \\
+Set2       & Uninf    & DC + SAG & 0.01 & 64.06     & 6406           &  & 0.12 & 156.74    & 1306.166667    &  & 0.01 & 64.58     & 6458           & 0.991947972   & 0.2022556     \\
+Set3       & LDPm 24h & DC- SAG  & 0.01 & 68.22     & 6822           &  & 0.12 & 162.24    & 1352           &  & 0.01 & 66.61     & 6661           & 1.024170545   & 0.202972527   \\
+Set4       & LDPm 24h & DC + SAG & 0.01 & 77.9      & 7790           &  & 0.12 & 152.21    & 1268.416667    &  & 0.01 & 67.82     & 6782           & 1.148628723   & 0.187026934   \\
+           &          &          &      &           &                &  &      &           &                &  &      &           &                &               &               \\
+\multicolumn{16}{l}{Expt-3}                                                                                                                                                        \\
+           &          &          & \multicolumn{3}{l}{Runx1}         &  & \multicolumn{3}{l}{Runx3}         &  & \multicolumn{3}{l}{b-actin}       & Runx1/b-actin & Runx3/b-actin \\
+           &          &          & Area & Intensity & Intensity/Area &  & Area & Intensity & Intensity/Area &  & Area & Intensity & Intensity/Area &               &               \\
+Set1       & Uninf    & DC- SAG  & 0.01 & 60.27     & 6027           &  & 0.1  & 179.98    & 1799.8         &  & 0.01 & 79.03     & 7903           & 0.762621789   & 0.227736303   \\
+Set2       & Uninf    & DC + SAG & 0.01 & 70.71     & 7071           &  & 0.1  & 200.11    & 2001.1         &  & 0.01 & 79.73     & 7973           & 0.88686818    & 0.250984573   \\
+Set3       & LDPm 24h & DC- SAG  & 0.01 & 71.15     & 7115           &  & 0.1  & 184.01    & 1840.1         &  & 0.01 & 84.54     & 8454           & 0.841613437   & 0.217660279   \\
+Set4       & LDPm 24h & DC + SAG & 0.01 & 87.93     & 8793           &  & 0.1  & 188.15    & 1881.5         &  & 0.01 & 87.12     & 8712           & 1.009297521   & 0.215966483  
+\end{tabular}
+\end{table}

@@ -1,0 +1,39 @@
+% Please add the following required packages to your document preamble:
+% \usepackage{multirow}
+% \usepackage[table,xcdraw]{xcolor}
+% Beamer presentation requires \usepackage{colortbl} instead of \usepackage[table,xcdraw]{xcolor}
+\begin{table}[]
+\begin{tabular}{clclllcc}
+\rowcolor[HTML]{D9E1F2} 
+\textbf{Organism} & \multicolumn{1}{c}{\cellcolor[HTML]{D9E1F2}\textbf{Material}} & \textbf{Sampler} & \multicolumn{1}{c}{\cellcolor[HTML]{D9E1F2}\textbf{Log10 Recovery (Inoculation Control)}} & \multicolumn{1}{c}{\cellcolor[HTML]{D9E1F2}\textbf{Log10 Recovery (Test Sample)}} & \multicolumn{1}{c}{\cellcolor[HTML]{D9E1F2}\textbf{Delta Log Recovery}} & \textbf{Mean Delta Log Recovery} & \textbf{Standard Deviation Log Recovery} \\
+ & ABS Plastic & 3M & 7.791359243 & 4.7276205 & 3.063738743 &  &  \\
+ & ABS Plastic & LabPlas & 7.843715712 & 5.763583851 & 2.080131861 &  &  \\
+ & ABS Plastic & Solar Cult & 7.755597151 & 6.256187694 & 1.499409457 &  &  \\
+ & Glass & 3M & 7.747849818 & 5.473584407 & 2.274265411 &  &  \\
+ & Glass & LabPlas & 7.680897542 & 6.192060811 & 1.488836731 &  &  \\
+ & Glass & Solar Cult & 7.756315819 & 5.757399066 & 1.998916753 &  &  \\
+ & Stainless Steel & 3M & 7.858622522 & 5.830273586 & 2.028348935 &  &  \\
+ & Stainless Steel & LabPlas & 7.630830762 & 4.835871651 & 2.794959111 &  &  \\
+\multirow{-9}{*}{\textit{Escherichia coli}} & Stainless Steel & Solar Cult & 7.773747185 & 6.066739081 & 1.707008103 & \multirow{-9}{*}{2.103957234} & \multirow{-9}{*}{0.5105995} \\
+ & ABS Plastic & Solar Cult & 7.727933336 & 6.607609634 & 1.120323701 &  &  \\
+ & ABS Plastic & 3M & 7.734137876 & 5.57518559 & 2.158952286 &  &  \\
+ & ABS Plastic & LabPlas & 7.067780342 & 3.380526087 & 3.687254255 &  &  \\
+ & Glass & Solar Cult & 7.727933336 & 6.368879771 & 1.359053565 &  &  \\
+ & Glass & 3M & 7.734137876 & 5.398788791 & 2.335349085 &  &  \\
+ & Glass & LabPlas & 7.067780342 & 4.015514176 & 3.052266166 &  &  \\
+ & Stainless Steel & Solar Cult & 7.727933336 & 6.151358605 & 1.576574731 &  &  \\
+ & Stainless Steel & 3M & 7.734137876 & 4.994097667 & 2.740040209 &  &  \\
+\multirow{-9}{*}{\textit{Serratia marcescens}} & Stainless Steel & LabPlas & 7.067780342 & 3.991249691 & 3.07653065 & \multirow{-9}{*}{2.345149405} & \multirow{-9}{*}{0.822609146} \\
+ & ABS Plastic & 3M & 7.745999016 & 3.849110989 & 3.896888027 &  &  \\
+ & ABS Plastic & LabPlas & 7.569018643 & 5.297817943 & 2.2712007 &  &  \\
+ & ABS Plastic & Solar Cult & 7.514200906 & 6.284290779 & 1.229910127 &  &  \\
+ & Glass & 3M & 7.745999016 & 3.807560353 & 3.938438663 &  &  \\
+ & Glass & LabPlas & 7.569018643 & 5.478016197 & 2.091002445 &  &  \\
+ & Glass & Solar Cult & 7.514200906 & 6.298762964 & 1.215437942 &  &  \\
+ & Stainless Steel & 3M & 7.745999016 & 3.72689566 & 4.019103356 &  &  \\
+ & Stainless Steel & LabPlas & 7.569018643 & 5.20089824 & 2.368120403 &  &  \\
+\multirow{-9}{*}{\textit{Yersinia ruckeri}} & Stainless Steel & Solar Cult & 7.514200906 & 6.368279423 & 1.145921484 & \multirow{-9}{*}{2.464002572} & \multirow{-9}{*}{1.137745898}
+\end{tabular}
+\caption{}
+\label{tab:my-table}
+\end{table}

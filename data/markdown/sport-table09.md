@@ -1,0 +1,105 @@
+|     | league                        | gametime   | gamedate   | home                 |   positionH | versus   | away                   |   positionA |
+|----:|:------------------------------|:-----------|:-----------|:---------------------|------------:|:---------|:-----------------------|------------:|
+|   0 | ARGENTINA>SUPERLIGA ARGENTINA | 01:05      | 01/10/2017 | ARGENTINOS JRS       |          26 |          | RACING CLUB            |          14 |
+|   1 |                               | 16:05      | 01/10/2017 | TALLERES CORDOBA     |          10 |          | PATRONATO              |           5 |
+|   2 |                               | 19:05      | 01/10/2017 | SAN MARTIN S.J.      |          19 |          | ROSARIO CENTRAL        |          23 |
+|   3 |                               | 21:05      | 01/10/2017 | INDEPENDIENTE        |          17 |          | VELEZ SARSFIELD        |          11 |
+|   4 |                               | 23:05      | 01/10/2017 | BOCA JUNIORS         |           1 |          | CHACARITA JUNIORS      |          24 |
+|   5 | AUSTRIA>BUNDESLIGA            | 16:30      | 01/10/2017 | AUSTRIA VIENNA       |           3 |          | SCR ALTACH             |           7 |
+|   6 |                               | 19:00      | 01/10/2017 | RED BULL SALZBURG    |           2 |          | WOLFSBERGER AC         |           8 |
+|   7 | BELARUS>DIVISION 1            | 13:00      | 01/10/2017 | FC SLUTSK            |           7 |          | SHAKHTER SOLIGORSK     |           1 |
+|   8 |                               | 15:00      | 01/10/2017 | DINAMO MINSK         |           2 |          | BATE BORISOV           |           3 |
+|   9 |                               | 17:00      | 01/10/2017 | TORPEDO ZHODINO      |           4 |          | GORODEYA               |           9 |
+|  10 | BELGIUM>FIRST DIVISION A      | 14:30      | 01/10/2017 | CLUB BRUGGE          |           1 |          | GENT                   |          14 |
+|  11 |                               | 18:00      | 01/10/2017 | ANDERLECHT           |           7 |          | STANDARD LIEGE         |          11 |
+|  12 |                               | 20:00      | 01/10/2017 | ZULTE-WAREGEM        |           3 |          | LOKEREN                |          12 |
+|  13 | BRAZIL>SERIE A                | 00:00      | 01/10/2017 | PALMEIRAS            |           4 |          | SANTOS                 |           2 |
+|  14 |                               | 21:00      | 01/10/2017 | AVAI                 |          15 |          | ATLETICO GOIANIENSE    |          20 |
+|  15 |                               | 21:00      | 01/10/2017 | BOTAFOGO             |           6 |          | VITORIA                |          16 |
+|  16 |                               | 21:00      | 01/10/2017 | CRUZEIRO             |           5 |          | CORINTHIANS            |           1 |
+|  17 |                               | 21:00      | 01/10/2017 | GREMIO               |           3 |          | FLUMINENSE             |          11 |
+|  18 |                               | 21:00      | 01/10/2017 | SAO PAULO            |          17 |          | SPORT RECIFE           |          14 |
+|  19 | COLOMBIA>CLAUSURA             | 01:00      | 01/10/2017 | ATLETICO NACIONAL    |           2 |          | HUILA                  |          14 |
+|  20 |                               | 02:45      | 01/10/2017 | JUNIOR               |           3 |          | DEPORTIVO CALI         |           8 |
+|  21 |                               | 22:15      | 01/10/2017 | JAGUARES             |          12 |          | TIGRES FC              |          11 |
+|  22 | DENMARK>SUPERLIGAEN           | 12:00      | 01/10/2017 | SILKEBORG            |          11 |          | FC NORDSJAELLAND       |           1 |
+|  23 |                               | 14:00      | 01/10/2017 | FC MIDTJYLLAND       |           2 |          | AALBORG                |           9 |
+|  24 |                               | 16:00      | 01/10/2017 | BRONDBY              |           5 |          | SONDERJYSKE            |          10 |
+|  25 |                               | 18:00      | 01/10/2017 | LYNGBY               |          12 |          | FC COPENHAGEN          |           4 |
+|  26 | ENGLAND>PREMIER LEAGUE        | 13:00      | 01/10/2017 | ARSENAL              |           7 |          | BRIGHTON               |          14 |
+|  27 |                               | 15:15      | 01/10/2017 | EVERTON              |          16 |          | BURNLEY                |           8 |
+|  28 |                               | 17:30      | 01/10/2017 | NEWCASTLE            |           9 |          | LIVERPOOL              |           6 |
+|  29 | FINLAND>VEIKKAUSLIIGA         | 17:30      | 01/10/2017 | IFK MARIEHAMN        |           6 |          | SJK                    |           5 |
+|  30 | FRANCE>LIGUE 1                | 15:00      | 01/10/2017 | ESTAC TROYES         |          13 |          | ST ETIENNE             |           4 |
+|  31 |                               | 17:00      | 01/10/2017 | ANGERS               |          12 |          | LYON                   |           7 |
+|  32 |                               | 21:00      | 01/10/2017 | NICE                 |           9 |          | MARSEILLE              |           5 |
+|  33 | GERMANY>BUNDESLIGA            | 13:30      | 01/10/2017 | SC FREIBURG          |          16 |          | 1899 HOFFENHEIM        |           2 |
+|  34 |                               | 15:30      | 01/10/2017 | HERTHA BERLIN        |          11 |          | BAYERN MUNICH          |           3 |
+|  35 |                               | 18:00      | 01/10/2017 | FC KOLN              |          18 |          | RB LEIPZIG             |           7 |
+|  36 | GREECE>SUPER LEAGUE           | 15:00      | 01/10/2017 | OLYMPIAKOS PIRAEUS   |           4 |          | ATROMITOS ATHINON      |           6 |
+|  37 |                               | 17:15      | 01/10/2017 | A.O.K. KERKYRA       |          11 |          | XANTHI FC              |           8 |
+|  38 |                               | 17:15      | 01/10/2017 | LEVADIAKOS           |           7 |          | APOLLON SMIRNIS        |          16 |
+|  39 |                               | 19:30      | 01/10/2017 | ASTERAS TRIPOLIS     |          14 |          | AEK ATHENS             |           1 |
+|  40 | ITALY>SERIE A                 | 12:30      | 01/10/2017 | NAPOLI               |           1 |          | CAGLIARI               |          13 |
+|  41 |                               | 15:00      | 01/10/2017 | BENEVENTO            |          20 |          | INTER                  |           3 |
+|  42 |                               | 15:00      | 01/10/2017 | CHIEVO               |          10 |          | FIORENTINA             |          12 |
+|  43 |                               | 15:00      | 01/10/2017 | LAZIO                |           4 |          | SASSUOLO               |          15 |
+|  44 |                               | 15:00      | 01/10/2017 | SPAL                 |          14 |          | CROTONE                |          16 |
+|  45 |                               | 15:00      | 01/10/2017 | TORINO               |           8 |          | VERONA                 |          19 |
+|  46 |                               | 18:00      | 01/10/2017 | AC MILAN             |           6 |          | ROMA                   |           5 |
+|  47 |                               | 20:45      | 01/10/2017 | ATALANTA             |           9 |          | JUVENTUS               |           2 |
+|  48 | ITALY>SERIE B                 | 15:00      | 01/10/2017 | FOGGIA               |          19 |          | NOVARA                 |          18 |
+|  49 | JAPAN>J1 LEAGUE               | 07:00      | 01/10/2017 | VEGALTA SENDAI       |          12 |          | URAWA RED DIAMONDS     |           7 |
+|  50 | NETHERLANDS>EREDIVISIE        | 12:30      | 01/10/2017 | AZ ALKMAAR           |           5 |          | FEYENOORD              |           4 |
+|  51 |                               | 14:30      | 01/10/2017 | HEERENVEEN           |           2 |          | AJAX                   |           7 |
+|  52 |                               | 14:30      | 01/10/2017 | VITESSE              |           3 |          | UTRECHT                |           9 |
+|  53 |                               | 16:45      | 01/10/2017 | SPARTA ROTTERDAM     |          16 |          | RODA                   |          18 |
+|  54 | NORWAY>ELITESERIEN            | 18:00      | 01/10/2017 | ODD BALLKLUBB        |           7 |          | HAUGESUND              |           5 |
+|  55 |                               | 18:00      | 01/10/2017 | SANDEFJORD           |           8 |          | AALESUND               |          14 |
+|  56 |                               | 18:00      | 01/10/2017 | SOGNDAL              |          13 |          | MOLDE                  |           4 |
+|  57 |                               | 18:00      | 01/10/2017 | TROMSO               |          15 |          | LILLESTROM             |          11 |
+|  58 |                               | 18:00      | 01/10/2017 | VIKING               |          16 |          | STROMSGODSET           |           6 |
+|  59 |                               | 20:00      | 01/10/2017 | ROSENBORG            |           1 |          | SARPSBORG 08 FF        |           2 |
+|  60 | PERU>CLAUSURA                 | 18:00      | 01/10/2017 | AYACUCHO FC          |          15 |          | SPORTING CRISTAL       |          11 |
+|  61 |                               | 18:30      | 01/10/2017 | FBC MELGAR           |           5 |          | SPORT ROSARIO          |          13 |
+|  62 |                               | 20:30      | 01/10/2017 | REAL GARCILASO       |           2 |          | ACADEMIA CANTOLAO      |          14 |
+|  63 | POLAND>EKSTRAKLASA            | 15:30      | 01/10/2017 | GORNIK ZABRZE        |           1 |          | PIAST GLIWICE          |          15 |
+|  64 |                               | 15:30      | 01/10/2017 | WISLA PLOCK          |          11 |          | TERMALICA NIECIECZA    |          14 |
+|  65 |                               | 18:00      | 01/10/2017 | LECH POZNAN          |           3 |          | LEGIA WARSZAWA         |           6 |
+|  66 | PORTUGAL>PRIMEIRA LIGA        | 18:15      | 01/10/2017 | SC BRAGA             |           5 |          | ESTORIL                |          16 |
+|  67 |                               | 20:15      | 01/10/2017 | SPORTING CP          |           2 |          | FC PORTO               |           1 |
+|  68 |                               | 22:30      | 01/10/2017 | BELENENSES           |           7 |          | GUIMARAES              |           8 |
+|  69 |                               | 22:30      | 01/10/2017 | MARITIMO             |           4 |          | BENFICA                |           3 |
+|  70 | SOUTH KOREA>K LEAGUE          | 08:00      | 01/10/2017 | GANGWON FC           |           6 |          | ULSAN HYUNDAI FC       |           3 |
+|  71 |                               | 08:00      | 01/10/2017 | JEJU UNITED FC       |           2 |          | GWANGJU FC             |          12 |
+|  72 |                               | 08:00      | 01/10/2017 | SUWON BLUEWINGS      |           4 |          | JEONBUK MOTORS         |           1 |
+|  73 | SPAIN>PRIMERA DIVISION        | 12:00      | 01/10/2017 | REAL SOCIEDAD        |           8 |          | BETIS                  |           5 |
+|  74 |                               | 16:15      | 01/10/2017 | BARCELONA            |           1 |          | LAS PALMAS             |          17 |
+|  75 |                               | 18:30      | 01/10/2017 | VALENCIA             |           4 |          | ATHLETIC CLUB          |          12 |
+|  76 |                               | 18:30      | 01/10/2017 | VILLARREAL           |          14 |          | EIBAR                  |          18 |
+|  77 |                               | 20:45      | 01/10/2017 | REAL MADRID          |           6 |          | ESPANYOL               |          13 |
+|  78 | SWEDEN>ALLSVENSKAN            | 15:00      | 01/10/2017 | GIF SUNDSVALL        |          13 |          | DJURGARDEN             |           2 |
+|  79 |                               | 15:00      | 01/10/2017 | MALMO FF             |           1 |          | HALMSTAD               |          16 |
+|  80 |                               | 15:00      | 01/10/2017 | OSTERSUNDS FK        |           6 |          | HACKEN                 |           4 |
+|  81 |                               | 17:30      | 01/10/2017 | AIK                  |           3 |          | IF ELFSBORG            |          11 |
+|  82 |                               | 17:30      | 01/10/2017 | HAMMARBY             |           8 |          | IFK NORRKOPING         |           5 |
+|  83 |                               | 17:30      | 01/10/2017 | OREBRO               |          10 |          | KALMAR FF              |          12 |
+|  84 | SWITZERLAND>SUPER LEAGUE      | 16:00      | 01/10/2017 | BSC YOUNG BOYS       |           1 |          | FC ST. GALLEN          |           2 |
+|  85 |                               | 16:00      | 01/10/2017 | FC THUN              |           9 |          | FC LUZERN              |           7 |
+|  86 |                               | 16:00      | 01/10/2017 | FC ZURICH            |           3 |          | FC LUGANO              |          10 |
+|  87 | TURKEY>SUPER LIG              | 13:00      | 01/10/2017 | YENI MALATYASPOR     |          12 |          | KONYASPOR              |          14 |
+|  88 |                               | 15:30      | 01/10/2017 | ALANYASPOR           |          13 |          | GENCLERBIRLIGI         |          17 |
+|  89 |                               | 18:30      | 01/10/2017 | BESIKTAS             |           3 |          | TRABZONSPOR            |          10 |
+|  90 |                               | 18:30      | 01/10/2017 | GOZTEPE              |           4 |          | ISTANBUL BASAKSEHIR    |           7 |
+|  91 | USA>MAJOR LEAGUE SOCCER       | 01:00      | 01/10/2017 | TORONTO FC           |           1 |          | NEW YORK RED BULLS     |           6 |
+|  92 |                               | 01:30      | 01/10/2017 | COLUMBUS CREW        |           5 |          | DC UNITED              |          11 |
+|  93 |                               | 01:30      | 01/10/2017 | NEW ENG. REVOLUTION  |           8 |          | ATLANTA UNITED FC      |           3 |
+|  94 |                               | 02:30      | 01/10/2017 | CHICAGO FIRE         |           4 |          | NEW YORK CITY FC       |           2 |
+|  95 |                               | 02:30      | 01/10/2017 | HOUSTON DYNAMO       |           7 |          | MINNESOTA UNITED FC    |           9 |
+|  96 |                               | 03:00      | 01/10/2017 | COLORADO RAPIDS      |          11 |          | MONTREAL IMPACT        |           7 |
+|  97 |                               | 03:00      | 01/10/2017 | SPORTING KANSAS CITY |           3 |          | VANCOUVER WHITECAPS    |           1 |
+|  98 |                               | 04:30      | 01/10/2017 | LOS ANGELES GALAXY   |          10 |          | REAL SALT LAKE         |           6 |
+|  99 |                               | 04:30      | 01/10/2017 | SAN JOSE EARTHQUAKES |           8 |          | PORTLAND TIMBERS       |           2 |
+| 100 |                               | 19:00      | 01/10/2017 | PHILADELPHIA UNION   |          10 |          | SEATTLE SOUNDERS       |           4 |
+| 101 | COLOMBIA>CLAUSURA             | (00:30)    | 01/10/2017 | DEPORTES TOLIMA      |           9 |          | INDEPENDIENTE MEDELLIN |           7 |
+| 102 | PERU>CLAUSURA                 | (22:30)    | 01/10/2017 | COMERCIANTES UNIDOS  |           8 |          | UNIVERSITARIO          |           4 |

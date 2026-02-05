@@ -1,0 +1,1407 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <meta name="generator" content="PhpSpreadsheet, https://github.com/PHPOffice/PhpSpreadsheet">
+      <title>Modeled Wage Estimates, 2023</title>
+      <meta name="author" content="U.S Bureau of Labor Statistics" />
+      <meta name="title" content="Modeled Wage Estimates, 2023" />
+      <meta name="company" content="Microsoft Corporation" />
+    <style type="text/css">
+      html { font-family:Calibri, Arial, Helvetica, sans-serif; font-size:11pt; background-color:white }
+      a.comment-indicator:hover + div.comment { background:#ffd; position:absolute; display:block; border:1px solid black; padding:0.5em }
+      a.comment-indicator { background:red; display:inline-block; border:1px solid black; width:0.5em; height:0.5em }
+      div.comment { display:none }
+      table { border-collapse:collapse; page-break-after:always }
+      .gridlines td { border:1px dotted black }
+      .gridlines th { border:1px dotted black }
+      .b { text-align:center }
+      .e { text-align:center }
+      .f { text-align:right }
+      .inlineStr { text-align:left }
+      .n { text-align:right }
+      .s { text-align:left }
+      td.style0 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Aptos Narrow'; font-size:11pt; background-color:white }
+      th.style0 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Aptos Narrow'; font-size:11pt; background-color:white }
+      td.style1 { vertical-align:bottom; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Aptos Narrow'; font-size:11pt; background-color:white }
+      th.style1 { vertical-align:bottom; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Aptos Narrow'; font-size:11pt; background-color:white }
+      td.style2 { vertical-align:top; text-align:left; padding-left:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Aptos Narrow'; font-size:11pt; background-color:white }
+      th.style2 { vertical-align:top; text-align:left; padding-left:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Aptos Narrow'; font-size:11pt; background-color:white }
+      td.style3 { vertical-align:top; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Aptos Narrow'; font-size:11pt; background-color:white }
+      th.style3 { vertical-align:top; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Aptos Narrow'; font-size:11pt; background-color:white }
+      td.style4 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Aptos Narrow'; font-size:11pt; background-color:white }
+      th.style4 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Aptos Narrow'; font-size:11pt; background-color:white }
+      td.style5 { vertical-align:bottom; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Aptos Narrow'; font-size:11pt; background-color:white }
+      th.style5 { vertical-align:bottom; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Aptos Narrow'; font-size:11pt; background-color:white }
+      td.style6 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Aptos Narrow'; font-size:11pt; background-color:white }
+      th.style6 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Aptos Narrow'; font-size:11pt; background-color:white }
+      td.style7 { vertical-align:top; text-align:left; padding-left:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Aptos Narrow'; font-size:11pt; background-color:white }
+      th.style7 { vertical-align:top; text-align:left; padding-left:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Aptos Narrow'; font-size:11pt; background-color:white }
+      td.style8 { vertical-align:top; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Aptos Narrow'; font-size:11pt; background-color:white }
+      th.style8 { vertical-align:top; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Aptos Narrow'; font-size:11pt; background-color:white }
+      td.style9 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Aptos Narrow'; font-size:11pt; background-color:white }
+      th.style9 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Aptos Narrow'; font-size:11pt; background-color:white }
+      td.style10 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Aptos Narrow'; font-size:11pt; background-color:white }
+      th.style10 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Aptos Narrow'; font-size:11pt; background-color:white }
+      td.style11 { vertical-align:top; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+      th.style11 { vertical-align:top; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+      table.sheet0 col.col0 { width:332.1111073pt }
+      table.sheet0 col.col1 { width:71.16666585pt }
+      table.sheet0 col.col2 { width:71.16666585pt }
+      table.sheet0 col.col3 { width:71.16666585pt }
+      table.sheet0 col.col4 { width:71.16666585pt }
+      table.sheet0 tr { height:15pt }
+      table.sheet0 tr.row0 { height:15.75pt }
+      table.sheet0 tr.row1 { height:15pt }
+      table.sheet0 tr.row2 { height:15pt }
+      table.sheet0 tr.row3 { height:15pt }
+      table.sheet0 tr.row4 { height:15pt }
+      table.sheet0 tr.row5 { height:15pt }
+      table.sheet0 tr.row6 { height:15pt }
+      table.sheet0 tr.row7 { height:15pt }
+      table.sheet0 tr.row8 { height:15pt }
+      table.sheet0 tr.row9 { height:15pt }
+      table.sheet0 tr.row10 { height:15pt }
+      table.sheet0 tr.row11 { height:15pt }
+      table.sheet0 tr.row12 { height:15pt }
+      table.sheet0 tr.row13 { height:15pt }
+      table.sheet0 tr.row14 { height:15pt }
+      table.sheet0 tr.row15 { height:15pt }
+      table.sheet0 tr.row16 { height:15pt }
+      table.sheet0 tr.row17 { height:15pt }
+      table.sheet0 tr.row18 { height:15pt }
+      table.sheet0 tr.row19 { height:15pt }
+      table.sheet0 tr.row20 { height:15pt }
+      table.sheet0 tr.row21 { height:15pt }
+      table.sheet0 tr.row22 { height:15pt }
+      table.sheet0 tr.row23 { height:15pt }
+      table.sheet0 tr.row24 { height:15pt }
+      table.sheet0 tr.row25 { height:15pt }
+      table.sheet0 tr.row26 { height:15pt }
+      table.sheet0 tr.row27 { height:15pt }
+      table.sheet0 tr.row28 { height:15pt }
+      table.sheet0 tr.row29 { height:15pt }
+      table.sheet0 tr.row30 { height:15pt }
+      table.sheet0 tr.row31 { height:15pt }
+      table.sheet0 tr.row32 { height:15pt }
+      table.sheet0 tr.row33 { height:15pt }
+      table.sheet0 tr.row34 { height:15pt }
+      table.sheet0 tr.row35 { height:15pt }
+      table.sheet0 tr.row36 { height:15pt }
+      table.sheet0 tr.row37 { height:15pt }
+      table.sheet0 tr.row38 { height:15pt }
+      table.sheet0 tr.row39 { height:15pt }
+      table.sheet0 tr.row40 { height:15pt }
+      table.sheet0 tr.row41 { height:15pt }
+      table.sheet0 tr.row42 { height:15pt }
+      table.sheet0 tr.row43 { height:15pt }
+      table.sheet0 tr.row44 { height:15pt }
+      table.sheet0 tr.row45 { height:15pt }
+      table.sheet0 tr.row46 { height:15pt }
+      table.sheet0 tr.row47 { height:15pt }
+      table.sheet0 tr.row48 { height:15pt }
+      table.sheet0 tr.row49 { height:15pt }
+      table.sheet0 tr.row50 { height:15pt }
+      table.sheet0 tr.row51 { height:15pt }
+      table.sheet0 tr.row52 { height:15pt }
+      table.sheet0 tr.row53 { height:15pt }
+      table.sheet0 tr.row54 { height:15pt }
+      table.sheet0 tr.row55 { height:15pt }
+      table.sheet0 tr.row56 { height:15pt }
+      table.sheet0 tr.row57 { height:15pt }
+      table.sheet0 tr.row58 { height:15pt }
+      table.sheet0 tr.row59 { height:15pt }
+      table.sheet0 tr.row60 { height:15pt }
+      table.sheet0 tr.row61 { height:15pt }
+      table.sheet0 tr.row62 { height:15pt }
+      table.sheet0 tr.row63 { height:15pt }
+      table.sheet0 tr.row64 { height:15pt }
+      table.sheet0 tr.row65 { height:15pt }
+      table.sheet0 tr.row66 { height:15pt }
+      table.sheet0 tr.row67 { height:15pt }
+      table.sheet0 tr.row68 { height:15pt }
+      table.sheet0 tr.row69 { height:15pt }
+      table.sheet0 tr.row70 { height:15pt }
+      table.sheet0 tr.row71 { height:15pt }
+      table.sheet0 tr.row72 { height:15pt }
+      table.sheet0 tr.row73 { height:15pt }
+      table.sheet0 tr.row74 { height:15pt }
+      table.sheet0 tr.row75 { height:15pt }
+      table.sheet0 tr.row76 { height:15pt }
+      table.sheet0 tr.row77 { height:15pt }
+      table.sheet0 tr.row78 { height:15pt }
+      table.sheet0 tr.row79 { height:15pt }
+      table.sheet0 tr.row80 { height:15pt }
+      table.sheet0 tr.row81 { height:15pt }
+      table.sheet0 tr.row82 { height:15pt }
+      table.sheet0 tr.row83 { height:15pt }
+      table.sheet0 tr.row84 { height:15pt }
+      table.sheet0 tr.row85 { height:15pt }
+      table.sheet0 tr.row86 { height:15pt }
+      table.sheet0 tr.row87 { height:15pt }
+      table.sheet0 tr.row88 { height:15pt }
+      table.sheet0 tr.row89 { height:15pt }
+      table.sheet0 tr.row90 { height:15pt }
+      table.sheet0 tr.row91 { height:15pt }
+      table.sheet0 tr.row92 { height:15pt }
+      table.sheet0 tr.row93 { height:15pt }
+      table.sheet0 tr.row94 { height:15pt }
+      table.sheet0 tr.row95 { height:15pt }
+      table.sheet0 tr.row96 { height:15pt }
+      table.sheet0 tr.row97 { height:15pt }
+      table.sheet0 tr.row98 { height:15pt }
+      table.sheet0 tr.row99 { height:15pt }
+      table.sheet0 tr.row100 { height:15pt }
+      table.sheet0 tr.row101 { height:15pt }
+      table.sheet0 tr.row102 { height:15pt }
+      table.sheet0 tr.row103 { height:15pt }
+      table.sheet0 tr.row104 { height:15pt }
+      table.sheet0 tr.row105 { height:15pt }
+      table.sheet0 tr.row106 { height:15pt }
+      table.sheet0 tr.row107 { height:15pt }
+      table.sheet0 tr.row108 { height:15pt }
+      table.sheet0 tr.row109 { height:15pt }
+      table.sheet0 tr.row110 { height:15pt }
+      table.sheet0 tr.row111 { height:15pt }
+      table.sheet0 tr.row112 { height:15pt }
+      table.sheet0 tr.row113 { height:15pt }
+      table.sheet0 tr.row114 { height:15pt }
+      table.sheet0 tr.row115 { height:15pt }
+      table.sheet0 tr.row116 { height:15pt }
+      table.sheet0 tr.row117 { height:15pt }
+      table.sheet0 tr.row118 { height:15pt }
+      table.sheet0 tr.row119 { height:15pt }
+      table.sheet0 tr.row120 { height:15pt }
+      table.sheet0 tr.row121 { height:15pt }
+      table.sheet0 tr.row122 { height:15pt }
+      table.sheet0 tr.row123 { height:15pt }
+      table.sheet0 tr.row124 { height:15pt }
+      table.sheet0 tr.row125 { height:15pt }
+      table.sheet0 tr.row126 { height:15pt }
+      table.sheet0 tr.row127 { height:15pt }
+      table.sheet0 tr.row128 { height:15pt }
+      table.sheet0 tr.row129 { height:15pt }
+      table.sheet0 tr.row130 { height:15pt }
+      table.sheet0 tr.row131 { height:15pt }
+      table.sheet0 tr.row132 { height:15pt }
+      table.sheet0 tr.row133 { height:15pt }
+      table.sheet0 tr.row134 { height:15pt }
+      table.sheet0 tr.row135 { height:15pt }
+      table.sheet0 tr.row136 { height:15pt }
+      table.sheet0 tr.row137 { height:15pt }
+      table.sheet0 tr.row138 { height:15pt }
+      table.sheet0 tr.row139 { height:15pt }
+      table.sheet0 tr.row140 { height:15pt }
+      table.sheet0 tr.row141 { height:15pt }
+      table.sheet0 tr.row142 { height:15pt }
+      table.sheet0 tr.row143 { height:15pt }
+      table.sheet0 tr.row144 { height:15pt }
+      table.sheet0 tr.row145 { height:15pt }
+      table.sheet0 tr.row146 { height:15pt }
+      table.sheet0 tr.row147 { height:15pt }
+      table.sheet0 tr.row148 { height:15pt }
+      table.sheet0 tr.row149 { height:15pt }
+      table.sheet0 tr.row150 { height:15pt }
+      table.sheet0 tr.row151 { height:15pt }
+      table.sheet0 tr.row152 { height:15pt }
+      table.sheet0 tr.row153 { height:15pt }
+      table.sheet0 tr.row154 { height:15pt }
+      table.sheet0 tr.row155 { height:15pt }
+      table.sheet0 tr.row156 { height:15pt }
+      table.sheet0 tr.row157 { height:15pt }
+      table.sheet0 tr.row158 { height:15pt }
+      table.sheet0 tr.row159 { height:15pt }
+      table.sheet0 tr.row160 { height:15pt }
+      table.sheet0 tr.row161 { height:15pt }
+      table.sheet0 tr.row163 { height:15.75pt }
+      table.sheet0 tr.row164 { height:15.75pt }
+      table.sheet0 tr.row165 { height:15.75pt }
+      table.sheet0 tr.row166 { height:15.75pt }
+    </style>
+  </head>
+
+  <body>
+<style>
+@page { margin-left: 0.7in; margin-right: 0.7in; margin-top: 0.75in; margin-bottom: 0.75in; }
+body { margin-left: 0.7in; margin-right: 0.7in; margin-top: 0.75in; margin-bottom: 0.75in; }
+</style>
+    <table border="0" cellpadding="0" cellspacing="0" id="sheet0" class="sheet0 gridlines">
+        <col class="col0">
+        <col class="col1">
+        <col class="col2">
+        <col class="col3">
+        <col class="col4">
+        <tbody>
+          <tr class="row0">
+            <td class="column0 style11 s"><span style="color:#000000; font-family:'Calibri'; font-size:11pt">Average hourly wages for occupational groups and areas by job characteristic, civilian workers</span><span style="color:#000000; font-family:'Calibri'; font-size:11pt"><sup>(1)</sup></span><span style="color:#000000; font-family:'Calibri'; font-size:11pt">, 2023</span></td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+          </tr>
+          <tr class="row1">
+            <td class="column0 style5 s">Selected occupational groups and areas</td>
+            <td class="column1 style6 s">Union</td>
+            <td class="column2 style6 s">Nonunion</td>
+            <td class="column3 style6 s">Full-time</td>
+            <td class="column4 style6 s">Part-time</td>
+          </tr>
+          <tr class="row2">
+            <td class="column0 style7 s"></td>
+            <td class="column1 style8 s"></td>
+            <td class="column2 style5 null"></td>
+            <td class="column3 style5 null"></td>
+            <td class="column4 style5 null"></td>
+          </tr>
+          <tr class="row3">
+            <td class="column0 style9 s">13-0000 Business and Financial Operations Occupations</td>
+            <td class="column1 style5 null"></td>
+            <td class="column2 style5 null"></td>
+            <td class="column3 style5 null"></td>
+            <td class="column4 style5 null"></td>
+          </tr>
+          <tr class="row4">
+            <td class="column0 style9 s">Boston-Cambridge-Nashua, MA-NH</td>
+            <td class="column1 style10 n">&nbsp;$ 41.44 </td>
+            <td class="column2 style10 n">&nbsp;$ 50.70 </td>
+            <td class="column3 style10 n">&nbsp;$ 50.33 </td>
+            <td class="column4 style10 s">–</td>
+          </tr>
+          <tr class="row5">
+            <td class="column0 style9 s">Chicago-Naperville-Elgin, IL-IN-WI</td>
+            <td class="column1 style10 n">&nbsp;$ 42.61 </td>
+            <td class="column2 style10 n">&nbsp;$ 45.25 </td>
+            <td class="column3 style10 n">&nbsp;$ 45.60 </td>
+            <td class="column4 style10 s">–</td>
+          </tr>
+          <tr class="row6">
+            <td class="column0 style9 s">Los Angeles-Long Beach-Anaheim, CA</td>
+            <td class="column1 style10 n">&nbsp;$ 42.25 </td>
+            <td class="column2 style10 n">&nbsp;$ 46.70 </td>
+            <td class="column3 style10 n">&nbsp;$ 46.57 </td>
+            <td class="column4 style10 n">&nbsp;$ 29.77 </td>
+          </tr>
+          <tr class="row7">
+            <td class="column0 style9 s">Minneapolis-St. Paul-Bloomington, MN-WI</td>
+            <td class="column1 style10 n">&nbsp;$ 36.31 </td>
+            <td class="column2 style10 n">&nbsp;$ 45.12 </td>
+            <td class="column3 style10 n">&nbsp;$ 44.79 </td>
+            <td class="column4 style10 s">–</td>
+          </tr>
+          <tr class="row8">
+            <td class="column0 style9 s">New York-Newark-Jersey City, NY-NJ-PA</td>
+            <td class="column1 style10 n">&nbsp;$ 44.87 </td>
+            <td class="column2 style10 n">&nbsp;$ 56.92 </td>
+            <td class="column3 style10 n">&nbsp;$ 56.11 </td>
+            <td class="column4 style10 s">–</td>
+          </tr>
+          <tr class="row9">
+            <td class="column0 style9 s">Philadelphia-Camden-Wilmington, PA-NJ-DE-MD</td>
+            <td class="column1 style10 n">&nbsp;$ 37.99 </td>
+            <td class="column2 style10 n">&nbsp;$ 44.85 </td>
+            <td class="column3 style10 n">&nbsp;$ 44.75 </td>
+            <td class="column4 style10 s">–</td>
+          </tr>
+          <tr class="row10">
+            <td class="column0 style9 s">San Jose-Sunnyvale-Santa Clara, CA</td>
+            <td class="column1 style10 n">&nbsp;$ 46.53 </td>
+            <td class="column2 style10 n">&nbsp;$ 64.06 </td>
+            <td class="column3 style10 n">&nbsp;$ 63.75 </td>
+            <td class="column4 style10 n">&nbsp;$ 40.70 </td>
+          </tr>
+          <tr class="row11">
+            <td class="column0 style9 s">Seattle-Tacoma-Bellevue, WA</td>
+            <td class="column1 style10 n">&nbsp;$ 43.51 </td>
+            <td class="column2 style10 n">&nbsp;$ 51.76 </td>
+            <td class="column3 style10 n">&nbsp;$ 51.19 </td>
+            <td class="column4 style10 s">–</td>
+          </tr>
+          <tr class="row12">
+            <td class="column0 style9 s">Washington-Arlington-Alexandria, DC-VA-MD-WV</td>
+            <td class="column1 style10 s">–</td>
+            <td class="column2 style10 n">&nbsp;$ 55.76 </td>
+            <td class="column3 style10 n">&nbsp;$ 56.01 </td>
+            <td class="column4 style10 s">–</td>
+          </tr>
+          <tr class="row13">
+            <td class="column0 style5 null"></td>
+            <td class="column1 style5 null"></td>
+            <td class="column2 style5 null"></td>
+            <td class="column3 style5 null"></td>
+            <td class="column4 style5 null"></td>
+          </tr>
+          <tr class="row14">
+            <td class="column0 style9 s">21-0000 Community and Social Service Occupations</td>
+            <td class="column1 style5 null"></td>
+            <td class="column2 style5 null"></td>
+            <td class="column3 style5 null"></td>
+            <td class="column4 style5 null"></td>
+          </tr>
+          <tr class="row15">
+            <td class="column0 style9 s">Boston-Cambridge-Nashua, MA-NH</td>
+            <td class="column1 style10 n">&nbsp;$ 35.08 </td>
+            <td class="column2 style10 n">&nbsp;$ 28.60 </td>
+            <td class="column3 style10 n">&nbsp;$ 31.60 </td>
+            <td class="column4 style10 s">–</td>
+          </tr>
+          <tr class="row16">
+            <td class="column0 style9 s">Detroit-Warren-Dearborn, MI</td>
+            <td class="column1 style10 n">&nbsp;$ 32.07 </td>
+            <td class="column2 style10 n">&nbsp;$ 24.46 </td>
+            <td class="column3 style10 n">&nbsp;$ 26.45 </td>
+            <td class="column4 style10 n">&nbsp;$ 25.03 </td>
+          </tr>
+          <tr class="row17">
+            <td class="column0 style9 s">Los Angeles-Long Beach-Anaheim, CA</td>
+            <td class="column1 style10 n">&nbsp;$ 39.55 </td>
+            <td class="column2 style10 n">&nbsp;$ 29.45 </td>
+            <td class="column3 style10 n">&nbsp;$ 33.09 </td>
+            <td class="column4 style10 s">–</td>
+          </tr>
+          <tr class="row18">
+            <td class="column0 style9 s">Miami-Fort Lauderdale-West Palm Beach, FL</td>
+            <td class="column1 style10 n">&nbsp;$ 34.76 </td>
+            <td class="column2 style10 n">&nbsp;$ 25.17 </td>
+            <td class="column3 style10 n">&nbsp;$ 26.25 </td>
+            <td class="column4 style10 s">–</td>
+          </tr>
+          <tr class="row19">
+            <td class="column0 style9 s">Minneapolis-St. Paul-Bloomington, MN-WI</td>
+            <td class="column1 style10 n">&nbsp;$ 33.11 </td>
+            <td class="column2 style10 n">&nbsp;$ 27.51 </td>
+            <td class="column3 style10 n">&nbsp;$ 29.37 </td>
+            <td class="column4 style10 n">&nbsp;$ 27.51 </td>
+          </tr>
+          <tr class="row20">
+            <td class="column0 style9 s">New York-Newark-Jersey City, NY-NJ-PA</td>
+            <td class="column1 style10 s">–</td>
+            <td class="column2 style10 n">&nbsp;$ 31.26 </td>
+            <td class="column3 style10 n">&nbsp;$ 33.83 </td>
+            <td class="column4 style10 n">&nbsp;$ 32.88 </td>
+          </tr>
+          <tr class="row21">
+            <td class="column0 style9 s">Philadelphia-Camden-Wilmington, PA-NJ-DE-MD</td>
+            <td class="column1 style10 n">&nbsp;$ 34.07 </td>
+            <td class="column2 style10 n">&nbsp;$ 26.10 </td>
+            <td class="column3 style10 n">&nbsp;$ 28.52 </td>
+            <td class="column4 style10 n">&nbsp;$ 26.19 </td>
+          </tr>
+          <tr class="row22">
+            <td class="column0 style9 s">San Jose-Sunnyvale-Santa Clara, CA</td>
+            <td class="column1 style10 n">&nbsp;$ 43.91 </td>
+            <td class="column2 style10 n">&nbsp;$ 38.16 </td>
+            <td class="column3 style10 n">&nbsp;$ 40.07 </td>
+            <td class="column4 style10 n">&nbsp;$ 42.12 </td>
+          </tr>
+          <tr class="row23">
+            <td class="column0 style9 s">Seattle-Tacoma-Bellevue, WA</td>
+            <td class="column1 style10 n">&nbsp;$ 36.17 </td>
+            <td class="column2 style10 n">&nbsp;$ 29.55 </td>
+            <td class="column3 style10 n">&nbsp;$ 31.56 </td>
+            <td class="column4 style10 s">–</td>
+          </tr>
+          <tr class="row24">
+            <td class="column0 style9 s">Washington-Arlington-Alexandria, DC-VA-MD-WV</td>
+            <td class="column1 style10 s">–</td>
+            <td class="column2 style10 n">&nbsp;$ 29.86 </td>
+            <td class="column3 style10 n">&nbsp;$ 31.88 </td>
+            <td class="column4 style10 n">&nbsp;$ 31.52 </td>
+          </tr>
+          <tr class="row25">
+            <td class="column0 style5 null"></td>
+            <td class="column1 style5 null"></td>
+            <td class="column2 style5 null"></td>
+            <td class="column3 style5 null"></td>
+            <td class="column4 style5 null"></td>
+          </tr>
+          <tr class="row26">
+            <td class="column0 style9 s">29-0000 Healthcare Practitioners and Technical Occupations</td>
+            <td class="column1 style5 null"></td>
+            <td class="column2 style5 null"></td>
+            <td class="column3 style5 null"></td>
+            <td class="column4 style5 null"></td>
+          </tr>
+          <tr class="row27">
+            <td class="column0 style9 s">Atlanta-Sandy Springs-Roswell, GA</td>
+            <td class="column1 style10 s">–</td>
+            <td class="column2 style10 n">&nbsp;$ 51.00 </td>
+            <td class="column3 style10 n">&nbsp;$ 52.67 </td>
+            <td class="column4 style10 n">&nbsp;$ 43.70 </td>
+          </tr>
+          <tr class="row28">
+            <td class="column0 style9 s">Boston-Cambridge-Nashua, MA-NH</td>
+            <td class="column1 style10 n">&nbsp;$ 52.46 </td>
+            <td class="column2 style10 n">&nbsp;$ 58.14 </td>
+            <td class="column3 style10 n">&nbsp;$ 57.10 </td>
+            <td class="column4 style10 n">&nbsp;$ 56.83 </td>
+          </tr>
+          <tr class="row29">
+            <td class="column0 style9 s">Chicago-Naperville-Elgin, IL-IN-WI</td>
+            <td class="column1 style10 n">&nbsp;$ 52.34 </td>
+            <td class="column2 style10 n">&nbsp;$ 46.59 </td>
+            <td class="column3 style10 n">&nbsp;$ 47.39 </td>
+            <td class="column4 style10 n">&nbsp;$ 45.81 </td>
+          </tr>
+          <tr class="row30">
+            <td class="column0 style9 s">Dallas-Fort Worth-Arlington, TX</td>
+            <td class="column1 style10 s">–</td>
+            <td class="column2 style10 n">&nbsp;$ 46.27 </td>
+            <td class="column3 style10 n">&nbsp;$ 47.66 </td>
+            <td class="column4 style10 n">&nbsp;$ 42.76 </td>
+          </tr>
+          <tr class="row31">
+            <td class="column0 style9 s">Detroit-Warren-Dearborn, MI</td>
+            <td class="column1 style10 n">&nbsp;$ 46.83 </td>
+            <td class="column2 style10 n">&nbsp;$ 46.33 </td>
+            <td class="column3 style10 n">&nbsp;$ 46.72 </td>
+            <td class="column4 style10 s">–</td>
+          </tr>
+          <tr class="row32">
+            <td class="column0 style9 s">Los Angeles-Long Beach-Anaheim, CA</td>
+            <td class="column1 style10 n">&nbsp;$ 60.78 </td>
+            <td class="column2 style10 n">&nbsp;$ 53.49 </td>
+            <td class="column3 style10 n">&nbsp;$ 54.98 </td>
+            <td class="column4 style10 n">&nbsp;$ 60.22 </td>
+          </tr>
+          <tr class="row33">
+            <td class="column0 style9 s">Minneapolis-St. Paul-Bloomington, MN-WI</td>
+            <td class="column1 style10 n">&nbsp;$ 54.88 </td>
+            <td class="column2 style10 n">&nbsp;$ 53.21 </td>
+            <td class="column3 style10 n">&nbsp;$ 54.00 </td>
+            <td class="column4 style10 n">&nbsp;$ 51.98 </td>
+          </tr>
+          <tr class="row34">
+            <td class="column0 style9 s">New York-Newark-Jersey City, NY-NJ-PA</td>
+            <td class="column1 style10 n">&nbsp;$ 52.98 </td>
+            <td class="column2 style10 n">&nbsp;$ 56.97 </td>
+            <td class="column3 style10 n">&nbsp;$ 56.64 </td>
+            <td class="column4 style10 n">&nbsp;$ 53.90 </td>
+          </tr>
+          <tr class="row35">
+            <td class="column0 style9 s">Philadelphia-Camden-Wilmington, PA-NJ-DE-MD</td>
+            <td class="column1 style10 s">–</td>
+            <td class="column2 style10 n">&nbsp;$ 49.70 </td>
+            <td class="column3 style10 n">&nbsp;$ 51.16 </td>
+            <td class="column4 style10 n">&nbsp;$ 44.81 </td>
+          </tr>
+          <tr class="row36">
+            <td class="column0 style9 s">Phoenix-Mesa-Scottsdale, AZ</td>
+            <td class="column1 style10 s">–</td>
+            <td class="column2 style10 n">&nbsp;$ 50.19 </td>
+            <td class="column3 style10 n">&nbsp;$ 51.30 </td>
+            <td class="column4 style10 n">&nbsp;$ 45.14 </td>
+          </tr>
+          <tr class="row37">
+            <td class="column0 style9 s">Seattle-Tacoma-Bellevue, WA</td>
+            <td class="column1 style10 n">&nbsp;$ 55.23 </td>
+            <td class="column2 style10 n">&nbsp;$ 62.93 </td>
+            <td class="column3 style10 n">&nbsp;$ 59.24 </td>
+            <td class="column4 style10 n">&nbsp;$ 61.76 </td>
+          </tr>
+          <tr class="row38">
+            <td class="column0 style9 s">Washington-Arlington-Alexandria, DC-VA-MD-WV</td>
+            <td class="column1 style10 s">–</td>
+            <td class="column2 style10 n">&nbsp;$ 53.96 </td>
+            <td class="column3 style10 n">&nbsp;$ 55.15 </td>
+            <td class="column4 style10 n">&nbsp;$ 49.82 </td>
+          </tr>
+          <tr class="row39">
+            <td class="column0 style5 null"></td>
+            <td class="column1 style5 null"></td>
+            <td class="column2 style5 null"></td>
+            <td class="column3 style5 null"></td>
+            <td class="column4 style5 null"></td>
+          </tr>
+          <tr class="row40">
+            <td class="column0 style9 s">31-0000 Healthcare Support Occupations</td>
+            <td class="column1 style5 null"></td>
+            <td class="column2 style5 null"></td>
+            <td class="column3 style5 null"></td>
+            <td class="column4 style5 null"></td>
+          </tr>
+          <tr class="row41">
+            <td class="column0 style9 s">Boston-Cambridge-Nashua, MA-NH</td>
+            <td class="column1 style10 s">–</td>
+            <td class="column2 style10 n">&nbsp;$ 20.71 </td>
+            <td class="column3 style10 n">&nbsp;$ 22.26 </td>
+            <td class="column4 style10 n">&nbsp;$ 19.62 </td>
+          </tr>
+          <tr class="row42">
+            <td class="column0 style9 s">Chicago-Naperville-Elgin, IL-IN-WI</td>
+            <td class="column1 style10 s">–</td>
+            <td class="column2 style10 n">&nbsp;$ 19.10 </td>
+            <td class="column3 style10 n">&nbsp;$ 21.04 </td>
+            <td class="column4 style10 n">&nbsp;$ 17.97 </td>
+          </tr>
+          <tr class="row43">
+            <td class="column0 style9 s">Dallas-Fort Worth-Arlington, TX</td>
+            <td class="column1 style10 s">–</td>
+            <td class="column2 style10 n">&nbsp;$ 16.53 </td>
+            <td class="column3 style10 n">&nbsp;$ 18.71 </td>
+            <td class="column4 style10 n">&nbsp;$ 13.83 </td>
+          </tr>
+          <tr class="row44">
+            <td class="column0 style9 s">Detroit-Warren-Dearborn, MI</td>
+            <td class="column1 style10 s">–</td>
+            <td class="column2 style10 n">&nbsp;$ 17.41 </td>
+            <td class="column3 style10 n">&nbsp;$ 17.92 </td>
+            <td class="column4 style10 n">&nbsp;$ 17.30 </td>
+          </tr>
+          <tr class="row45">
+            <td class="column0 style9 s">Los Angeles-Long Beach-Anaheim, CA</td>
+            <td class="column1 style10 s">–</td>
+            <td class="column2 style10 n">&nbsp;$ 17.94 </td>
+            <td class="column3 style10 n">&nbsp;$ 18.95 </td>
+            <td class="column4 style10 n">&nbsp;$ 18.23 </td>
+          </tr>
+          <tr class="row46">
+            <td class="column0 style9 s">Miami-Fort Lauderdale-West Palm Beach, FL</td>
+            <td class="column1 style10 s">–</td>
+            <td class="column2 style10 n">&nbsp;$ 18.67 </td>
+            <td class="column3 style10 n">&nbsp;$ 19.81 </td>
+            <td class="column4 style10 n">&nbsp;$ 15.99 </td>
+          </tr>
+          <tr class="row47">
+            <td class="column0 style9 s">Minneapolis-St. Paul-Bloomington, MN-WI</td>
+            <td class="column1 style10 n">&nbsp;$ 25.67 </td>
+            <td class="column2 style10 n">&nbsp;$ 18.37 </td>
+            <td class="column3 style10 s">–</td>
+            <td class="column4 style10 n">&nbsp;$ 17.00 </td>
+          </tr>
+          <tr class="row48">
+            <td class="column0 style9 s">New York-Newark-Jersey City, NY-NJ-PA</td>
+            <td class="column1 style10 n">&nbsp;$ 21.14 </td>
+            <td class="column2 style10 n">&nbsp;$ 19.28 </td>
+            <td class="column3 style10 n">&nbsp;$ 20.75 </td>
+            <td class="column4 style10 n">&nbsp;$ 18.41 </td>
+          </tr>
+          <tr class="row49">
+            <td class="column0 style9 s">Philadelphia-Camden-Wilmington, PA-NJ-DE-MD</td>
+            <td class="column1 style10 n">&nbsp;$ 20.81 </td>
+            <td class="column2 style10 n">&nbsp;$ 16.48 </td>
+            <td class="column3 style10 n">&nbsp;$ 19.45 </td>
+            <td class="column4 style10 n">&nbsp;$ 15.36 </td>
+          </tr>
+          <tr class="row50">
+            <td class="column0 style9 s">Phoenix-Mesa-Scottsdale, AZ</td>
+            <td class="column1 style10 s">–</td>
+            <td class="column2 style10 n">&nbsp;$ 18.71 </td>
+            <td class="column3 style10 n">&nbsp;$ 19.87 </td>
+            <td class="column4 style10 n">&nbsp;$ 17.33 </td>
+          </tr>
+          <tr class="row51">
+            <td class="column0 style9 s">Seattle-Tacoma-Bellevue, WA</td>
+            <td class="column1 style10 n">&nbsp;$ 24.60 </td>
+            <td class="column2 style10 n">&nbsp;$ 23.12 </td>
+            <td class="column3 style10 n">&nbsp;$ 23.60 </td>
+            <td class="column4 style10 s">–</td>
+          </tr>
+          <tr class="row52">
+            <td class="column0 style9 s">Washington-Arlington-Alexandria, DC-VA-MD-WV</td>
+            <td class="column1 style10 n">&nbsp;$ 25.47 </td>
+            <td class="column2 style10 n">&nbsp;$ 19.61 </td>
+            <td class="column3 style10 n">&nbsp;$ 21.49 </td>
+            <td class="column4 style10 n">&nbsp;$ 17.32 </td>
+          </tr>
+          <tr class="row53">
+            <td class="column0 style5 null"></td>
+            <td class="column1 style5 null"></td>
+            <td class="column2 style5 null"></td>
+            <td class="column3 style5 null"></td>
+            <td class="column4 style5 null"></td>
+          </tr>
+          <tr class="row54">
+            <td class="column0 style9 s">33-0000 Protective Service Occupations</td>
+            <td class="column1 style5 null"></td>
+            <td class="column2 style5 null"></td>
+            <td class="column3 style5 null"></td>
+            <td class="column4 style5 null"></td>
+          </tr>
+          <tr class="row55">
+            <td class="column0 style9 s">Boston-Cambridge-Nashua, MA-NH</td>
+            <td class="column1 style10 n">&nbsp;$ 37.22 </td>
+            <td class="column2 style10 n">&nbsp;$ 22.64 </td>
+            <td class="column3 style10 n">&nbsp;$ 34.23 </td>
+            <td class="column4 style10 s">–</td>
+          </tr>
+          <tr class="row56">
+            <td class="column0 style9 s">Chicago-Naperville-Elgin, IL-IN-WI</td>
+            <td class="column1 style10 n">&nbsp;$ 40.21 </td>
+            <td class="column2 style10 n">&nbsp;$ 21.38 </td>
+            <td class="column3 style10 n">&nbsp;$ 33.59 </td>
+            <td class="column4 style10 n">&nbsp;$ 19.28 </td>
+          </tr>
+          <tr class="row57">
+            <td class="column0 style9 s">Dallas-Fort Worth-Arlington, TX</td>
+            <td class="column1 style10 s">–</td>
+            <td class="column2 style10 n">&nbsp;$ 22.80 </td>
+            <td class="column3 style10 n">&nbsp;$ 28.36 </td>
+            <td class="column4 style10 n">&nbsp;$ 17.25 </td>
+          </tr>
+          <tr class="row58">
+            <td class="column0 style9 s">Detroit-Warren-Dearborn, MI</td>
+            <td class="column1 style10 n">&nbsp;$ 32.36 </td>
+            <td class="column2 style10 n">&nbsp;$ 20.30 </td>
+            <td class="column3 style10 n">&nbsp;$ 29.47 </td>
+            <td class="column4 style10 n">&nbsp;$ 16.98 </td>
+          </tr>
+          <tr class="row59">
+            <td class="column0 style9 s">Houston-The Woodlands-Sugar Land, TX</td>
+            <td class="column1 style10 s">–</td>
+            <td class="column2 style10 n">&nbsp;$ 21.70 </td>
+            <td class="column3 style10 n">&nbsp;$ 26.28 </td>
+            <td class="column4 style10 n">&nbsp;$ 15.73 </td>
+          </tr>
+          <tr class="row60">
+            <td class="column0 style9 s">Los Angeles-Long Beach-Anaheim, CA</td>
+            <td class="column1 style10 n">&nbsp;$ 36.53 </td>
+            <td class="column2 style10 n">&nbsp;$ 23.52 </td>
+            <td class="column3 style10 n">&nbsp;$ 33.18 </td>
+            <td class="column4 style10 n">&nbsp;$ 21.62 </td>
+          </tr>
+          <tr class="row61">
+            <td class="column0 style9 s">Miami-Fort Lauderdale-West Palm Beach, FL</td>
+            <td class="column1 style10 n">&nbsp;$ 44.26 </td>
+            <td class="column2 style10 n">&nbsp;$ 21.72 </td>
+            <td class="column3 style10 n">&nbsp;$ 31.74 </td>
+            <td class="column4 style10 n">&nbsp;$ 21.65 </td>
+          </tr>
+          <tr class="row62">
+            <td class="column0 style9 s">New York-Newark-Jersey City, NY-NJ-PA</td>
+            <td class="column1 style10 n">&nbsp;$ 34.61 </td>
+            <td class="column2 style10 n">&nbsp;$ 24.83 </td>
+            <td class="column3 style10 n">&nbsp;$ 34.11 </td>
+            <td class="column4 style10 n">&nbsp;$ 21.06 </td>
+          </tr>
+          <tr class="row63">
+            <td class="column0 style9 s">Philadelphia-Camden-Wilmington, PA-NJ-DE-MD</td>
+            <td class="column1 style10 n">&nbsp;$ 38.99 </td>
+            <td class="column2 style10 n">&nbsp;$ 19.74 </td>
+            <td class="column3 style10 n">&nbsp;$ 32.14 </td>
+            <td class="column4 style10 n">&nbsp;$ 16.80 </td>
+          </tr>
+          <tr class="row64">
+            <td class="column0 style9 s">Phoenix-Mesa-Scottsdale, AZ</td>
+            <td class="column1 style10 n">&nbsp;$ 33.61 </td>
+            <td class="column2 style10 n">&nbsp;$ 23.07 </td>
+            <td class="column3 style10 n">&nbsp;$ 27.03 </td>
+            <td class="column4 style10 s">–</td>
+          </tr>
+          <tr class="row65">
+            <td class="column0 style9 s">Washington-Arlington-Alexandria, DC-VA-MD-WV</td>
+            <td class="column1 style10 n">&nbsp;$ 33.72 </td>
+            <td class="column2 style10 n">&nbsp;$ 27.57 </td>
+            <td class="column3 style10 n">&nbsp;$ 30.64 </td>
+            <td class="column4 style10 s">–</td>
+          </tr>
+          <tr class="row66">
+            <td class="column0 style5 null"></td>
+            <td class="column1 style5 null"></td>
+            <td class="column2 style5 null"></td>
+            <td class="column3 style5 null"></td>
+            <td class="column4 style5 null"></td>
+          </tr>
+          <tr class="row67">
+            <td class="column0 style9 s">35-0000 Food Preparation and Serving Related Occupations</td>
+            <td class="column1 style5 null"></td>
+            <td class="column2 style5 null"></td>
+            <td class="column3 style5 null"></td>
+            <td class="column4 style5 null"></td>
+          </tr>
+          <tr class="row68">
+            <td class="column0 style9 s">Atlanta-Sandy Springs-Roswell, GA</td>
+            <td class="column1 style10 s">–</td>
+            <td class="column2 style10 n">&nbsp;$ 14.54 </td>
+            <td class="column3 style10 n">&nbsp;$ 17.41 </td>
+            <td class="column4 style10 n">&nbsp;$ 12.94 </td>
+          </tr>
+          <tr class="row69">
+            <td class="column0 style9 s">Boston-Cambridge-Nashua, MA-NH</td>
+            <td class="column1 style10 n">&nbsp;$ 24.99 </td>
+            <td class="column2 style10 n">&nbsp;$ 19.11 </td>
+            <td class="column3 style10 n">&nbsp;$ 22.43 </td>
+            <td class="column4 style10 n">&nbsp;$ 17.73 </td>
+          </tr>
+          <tr class="row70">
+            <td class="column0 style9 s">Chicago-Naperville-Elgin, IL-IN-WI</td>
+            <td class="column1 style10 s">–</td>
+            <td class="column2 style10 n">&nbsp;$ 17.27 </td>
+            <td class="column3 style10 n">&nbsp;$ 18.73 </td>
+            <td class="column4 style10 n">&nbsp;$ 16.32 </td>
+          </tr>
+          <tr class="row71">
+            <td class="column0 style9 s">Dallas-Fort Worth-Arlington, TX</td>
+            <td class="column1 style10 s">–</td>
+            <td class="column2 style10 n">&nbsp;$ 14.88 </td>
+            <td class="column3 style10 n">&nbsp;$ 18.32 </td>
+            <td class="column4 style10 n">&nbsp;$ 13.47 </td>
+          </tr>
+          <tr class="row72">
+            <td class="column0 style9 s">Detroit-Warren-Dearborn, MI</td>
+            <td class="column1 style10 n">&nbsp;$ 20.62 </td>
+            <td class="column2 style10 n">&nbsp;$ 16.32 </td>
+            <td class="column3 style10 n">&nbsp;$ 19.30 </td>
+            <td class="column4 style10 n">&nbsp;$ 15.31 </td>
+          </tr>
+          <tr class="row73">
+            <td class="column0 style9 s">Houston-The Woodlands-Sugar Land, TX</td>
+            <td class="column1 style10 s">–</td>
+            <td class="column2 style10 n">&nbsp;$ 13.93 </td>
+            <td class="column3 style10 n">&nbsp;$ 15.80 </td>
+            <td class="column4 style10 n">&nbsp;$ 12.95 </td>
+          </tr>
+          <tr class="row74">
+            <td class="column0 style9 s">Los Angeles-Long Beach-Anaheim, CA</td>
+            <td class="column1 style10 n">&nbsp;$ 27.93 </td>
+            <td class="column2 style10 n">&nbsp;$ 18.49 </td>
+            <td class="column3 style10 n">&nbsp;$ 22.30 </td>
+            <td class="column4 style10 n">&nbsp;$ 17.33 </td>
+          </tr>
+          <tr class="row75">
+            <td class="column0 style9 s">Miami-Fort Lauderdale-West Palm Beach, FL</td>
+            <td class="column1 style10 s">–</td>
+            <td class="column2 style10 n">&nbsp;$ 16.43 </td>
+            <td class="column3 style10 n">&nbsp;$ 18.79 </td>
+            <td class="column4 style10 n">&nbsp;$ 15.08 </td>
+          </tr>
+          <tr class="row76">
+            <td class="column0 style9 s">Minneapolis-St. Paul-Bloomington, MN-WI</td>
+            <td class="column1 style10 n">&nbsp;$ 18.04 </td>
+            <td class="column2 style10 n">&nbsp;$ 16.04 </td>
+            <td class="column3 style10 n">&nbsp;$ 18.25 </td>
+            <td class="column4 style10 n">&nbsp;$ 15.03 </td>
+          </tr>
+          <tr class="row77">
+            <td class="column0 style9 s">New York-Newark-Jersey City, NY-NJ-PA</td>
+            <td class="column1 style10 n">&nbsp;$ 28.88 </td>
+            <td class="column2 style10 n">&nbsp;$ 19.77 </td>
+            <td class="column3 style10 n">&nbsp;$ 24.96 </td>
+            <td class="column4 style10 n">&nbsp;$ 17.92 </td>
+          </tr>
+          <tr class="row78">
+            <td class="column0 style9 s">Philadelphia-Camden-Wilmington, PA-NJ-DE-MD</td>
+            <td class="column1 style10 n">&nbsp;$ 21.93 </td>
+            <td class="column2 style10 n">&nbsp;$ 16.18 </td>
+            <td class="column3 style10 n">&nbsp;$ 18.99 </td>
+            <td class="column4 style10 n">&nbsp;$ 14.79 </td>
+          </tr>
+          <tr class="row79">
+            <td class="column0 style9 s">Phoenix-Mesa-Scottsdale, AZ</td>
+            <td class="column1 style10 n">&nbsp;$ 22.84 </td>
+            <td class="column2 style10 n">&nbsp;$ 18.32 </td>
+            <td class="column3 style10 n">&nbsp;$ 21.21 </td>
+            <td class="column4 style10 n">&nbsp;$ 16.89 </td>
+          </tr>
+          <tr class="row80">
+            <td class="column0 style9 s">San Jose-Sunnyvale-Santa Clara, CA</td>
+            <td class="column1 style10 n">&nbsp;$ 28.69 </td>
+            <td class="column2 style10 n">&nbsp;$ 20.90 </td>
+            <td class="column3 style10 n">&nbsp;$ 24.28 </td>
+            <td class="column4 style10 n">&nbsp;$ 19.56 </td>
+          </tr>
+          <tr class="row81">
+            <td class="column0 style9 s">Seattle-Tacoma-Bellevue, WA</td>
+            <td class="column1 style10 n">&nbsp;$ 26.06 </td>
+            <td class="column2 style10 n">&nbsp;$ 21.72 </td>
+            <td class="column3 style10 n">&nbsp;$ 25.99 </td>
+            <td class="column4 style10 n">&nbsp;$ 19.45 </td>
+          </tr>
+          <tr class="row82">
+            <td class="column0 style9 s">Washington-Arlington-Alexandria, DC-VA-MD-WV</td>
+            <td class="column1 style10 n">&nbsp;$ 25.88 </td>
+            <td class="column2 style10 n">&nbsp;$ 18.62 </td>
+            <td class="column3 style10 n">&nbsp;$ 21.34 </td>
+            <td class="column4 style10 n">&nbsp;$ 16.92 </td>
+          </tr>
+          <tr class="row83">
+            <td class="column0 style5 null"></td>
+            <td class="column1 style5 null"></td>
+            <td class="column2 style5 null"></td>
+            <td class="column3 style5 null"></td>
+            <td class="column4 style5 null"></td>
+          </tr>
+          <tr class="row84">
+            <td class="column0 style9 s">37-0000 Building and Grounds Cleaning and Maintenance Occupations</td>
+            <td class="column1 style5 null"></td>
+            <td class="column2 style5 null"></td>
+            <td class="column3 style5 null"></td>
+            <td class="column4 style5 null"></td>
+          </tr>
+          <tr class="row85">
+            <td class="column0 style9 s">Boston-Cambridge-Nashua, MA-NH</td>
+            <td class="column1 style10 n">&nbsp;$ 23.34 </td>
+            <td class="column2 style10 n">&nbsp;$ 21.85 </td>
+            <td class="column3 style10 n">&nbsp;$ 24.01 </td>
+            <td class="column4 style10 n">&nbsp;$ 18.92 </td>
+          </tr>
+          <tr class="row86">
+            <td class="column0 style9 s">Chicago-Naperville-Elgin, IL-IN-WI</td>
+            <td class="column1 style10 n">&nbsp;$ 21.36 </td>
+            <td class="column2 style10 n">&nbsp;$ 18.89 </td>
+            <td class="column3 style10 n">&nbsp;$ 20.44 </td>
+            <td class="column4 style10 n">&nbsp;$ 16.99 </td>
+          </tr>
+          <tr class="row87">
+            <td class="column0 style9 s">Dallas-Fort Worth-Arlington, TX</td>
+            <td class="column1 style10 s">–</td>
+            <td class="column2 style10 n">&nbsp;$ 16.51 </td>
+            <td class="column3 style10 n">&nbsp;$ 17.64 </td>
+            <td class="column4 style10 n">&nbsp;$ 13.39 </td>
+          </tr>
+          <tr class="row88">
+            <td class="column0 style9 s">Detroit-Warren-Dearborn, MI</td>
+            <td class="column1 style10 n">&nbsp;$ 18.84 </td>
+            <td class="column2 style10 n">&nbsp;$ 17.84 </td>
+            <td class="column3 style10 n">&nbsp;$ 18.77 </td>
+            <td class="column4 style10 n">&nbsp;$ 14.70 </td>
+          </tr>
+          <tr class="row89">
+            <td class="column0 style9 s">Houston-The Woodlands-Sugar Land, TX</td>
+            <td class="column1 style10 s">–</td>
+            <td class="column2 style10 n">&nbsp;$ 15.59 </td>
+            <td class="column3 style10 n">&nbsp;$ 16.11 </td>
+            <td class="column4 style10 s">–</td>
+          </tr>
+          <tr class="row90">
+            <td class="column0 style9 s">Los Angeles-Long Beach-Anaheim, CA</td>
+            <td class="column1 style10 n">&nbsp;$ 26.74 </td>
+            <td class="column2 style10 n">&nbsp;$ 19.33 </td>
+            <td class="column3 style10 n">&nbsp;$ 20.70 </td>
+            <td class="column4 style10 n">&nbsp;$ 20.38 </td>
+          </tr>
+          <tr class="row91">
+            <td class="column0 style9 s">Minneapolis-St. Paul-Bloomington, MN-WI</td>
+            <td class="column1 style10 n">&nbsp;$ 21.60 </td>
+            <td class="column2 style10 n">&nbsp;$ 19.84 </td>
+            <td class="column3 style10 n">&nbsp;$ 20.94 </td>
+            <td class="column4 style10 s">–</td>
+          </tr>
+          <tr class="row92">
+            <td class="column0 style9 s">New York-Newark-Jersey City, NY-NJ-PA</td>
+            <td class="column1 style10 n">&nbsp;$ 23.89 </td>
+            <td class="column2 style10 n">&nbsp;$ 20.83 </td>
+            <td class="column3 style10 n">&nbsp;$ 23.58 </td>
+            <td class="column4 style10 n">&nbsp;$ 18.87 </td>
+          </tr>
+          <tr class="row93">
+            <td class="column0 style9 s">Philadelphia-Camden-Wilmington, PA-NJ-DE-MD</td>
+            <td class="column1 style10 n">&nbsp;$ 20.59 </td>
+            <td class="column2 style10 n">&nbsp;$ 18.52 </td>
+            <td class="column3 style10 n">&nbsp;$ 20.43 </td>
+            <td class="column4 style10 n">&nbsp;$ 16.46 </td>
+          </tr>
+          <tr class="row94">
+            <td class="column0 style9 s">Phoenix-Mesa-Scottsdale, AZ</td>
+            <td class="column1 style10 s">–</td>
+            <td class="column2 style10 n">&nbsp;$ 17.92 </td>
+            <td class="column3 style10 n">&nbsp;$ 18.63 </td>
+            <td class="column4 style10 n">&nbsp;$ 16.97 </td>
+          </tr>
+          <tr class="row95">
+            <td class="column0 style9 s">San Jose-Sunnyvale-Santa Clara, CA</td>
+            <td class="column1 style10 n">&nbsp;$ 26.89 </td>
+            <td class="column2 style10 n">&nbsp;$ 22.19 </td>
+            <td class="column3 style10 n">&nbsp;$ 24.48 </td>
+            <td class="column4 style10 n">&nbsp;$ 21.17 </td>
+          </tr>
+          <tr class="row96">
+            <td class="column0 style9 s">Seattle-Tacoma-Bellevue, WA</td>
+            <td class="column1 style10 n">&nbsp;$ 22.78 </td>
+            <td class="column2 style10 n">&nbsp;$ 22.59 </td>
+            <td class="column3 style10 n">&nbsp;$ 22.36 </td>
+            <td class="column4 style10 s">–</td>
+          </tr>
+          <tr class="row97">
+            <td class="column0 style9 s">Washington-Arlington-Alexandria, DC-VA-MD-WV</td>
+            <td class="column1 style10 n">&nbsp;$ 20.07 </td>
+            <td class="column2 style10 n">&nbsp;$ 19.25 </td>
+            <td class="column3 style10 n">&nbsp;$ 20.38 </td>
+            <td class="column4 style10 n">&nbsp;$ 16.26 </td>
+          </tr>
+          <tr class="row98">
+            <td class="column0 style5 null"></td>
+            <td class="column1 style5 null"></td>
+            <td class="column2 style5 null"></td>
+            <td class="column3 style5 null"></td>
+            <td class="column4 style5 null"></td>
+          </tr>
+          <tr class="row99">
+            <td class="column0 style9 s">41-0000 Sales and Related Occupations</td>
+            <td class="column1 style5 null"></td>
+            <td class="column2 style5 null"></td>
+            <td class="column3 style5 null"></td>
+            <td class="column4 style5 null"></td>
+          </tr>
+          <tr class="row100">
+            <td class="column0 style9 s">Atlanta-Sandy Springs-Roswell, GA</td>
+            <td class="column1 style10 n">&nbsp;$ 20.37 </td>
+            <td class="column2 style10 n">&nbsp;$ 26.37 </td>
+            <td class="column3 style10 n">&nbsp;$ 33.74 </td>
+            <td class="column4 style10 n">&nbsp;$ 14.23 </td>
+          </tr>
+          <tr class="row101">
+            <td class="column0 style9 s">Boston-Cambridge-Nashua, MA-NH</td>
+            <td class="column1 style10 s">–</td>
+            <td class="column2 style10 n">&nbsp;$ 30.33 </td>
+            <td class="column3 style10 n">&nbsp;$ 38.13 </td>
+            <td class="column4 style10 n">&nbsp;$ 16.89 </td>
+          </tr>
+          <tr class="row102">
+            <td class="column0 style9 s">Chicago-Naperville-Elgin, IL-IN-WI</td>
+            <td class="column1 style10 s">–</td>
+            <td class="column2 style10 n">&nbsp;$ 27.97 </td>
+            <td class="column3 style10 n">&nbsp;$ 33.89 </td>
+            <td class="column4 style10 n">&nbsp;$ 16.21 </td>
+          </tr>
+          <tr class="row103">
+            <td class="column0 style9 s">Dallas-Fort Worth-Arlington, TX</td>
+            <td class="column1 style10 n">&nbsp;$ 16.93 </td>
+            <td class="column2 style10 n">&nbsp;$ 26.23 </td>
+            <td class="column3 style10 n">&nbsp;$ 32.24 </td>
+            <td class="column4 style10 n">&nbsp;$ 13.79 </td>
+          </tr>
+          <tr class="row104">
+            <td class="column0 style9 s">Detroit-Warren-Dearborn, MI</td>
+            <td class="column1 style10 n">&nbsp;$ 18.62 </td>
+            <td class="column2 style10 n">&nbsp;$ 26.42 </td>
+            <td class="column3 style10 n">&nbsp;$ 31.92 </td>
+            <td class="column4 style10 n">&nbsp;$ 14.47 </td>
+          </tr>
+          <tr class="row105">
+            <td class="column0 style9 s">Houston-The Woodlands-Sugar Land, TX</td>
+            <td class="column1 style10 s">–</td>
+            <td class="column2 style10 n">&nbsp;$ 24.27 </td>
+            <td class="column3 style10 n">&nbsp;$ 28.92 </td>
+            <td class="column4 style10 n">&nbsp;$ 14.35 </td>
+          </tr>
+          <tr class="row106">
+            <td class="column0 style9 s">Los Angeles-Long Beach-Anaheim, CA</td>
+            <td class="column1 style10 n">&nbsp;$ 21.38 </td>
+            <td class="column2 style10 n">&nbsp;$ 27.71 </td>
+            <td class="column3 style10 s">–</td>
+            <td class="column4 style10 n">&nbsp;$ 17.88 </td>
+          </tr>
+          <tr class="row107">
+            <td class="column0 style9 s">Miami-Fort Lauderdale-West Palm Beach, FL</td>
+            <td class="column1 style10 s">–</td>
+            <td class="column2 style10 n">&nbsp;$ 25.89 </td>
+            <td class="column3 style10 n">&nbsp;$ 30.65 </td>
+            <td class="column4 style10 n">&nbsp;$ 14.93 </td>
+          </tr>
+          <tr class="row108">
+            <td class="column0 style9 s">Minneapolis-St. Paul-Bloomington, MN-WI</td>
+            <td class="column1 style10 s">–</td>
+            <td class="column2 style10 n">&nbsp;$ 28.55 </td>
+            <td class="column3 style10 n">&nbsp;$ 35.86 </td>
+            <td class="column4 style10 n">&nbsp;$ 16.10 </td>
+          </tr>
+          <tr class="row109">
+            <td class="column0 style9 s">New York-Newark-Jersey City, NY-NJ-PA</td>
+            <td class="column1 style10 n">&nbsp;$ 22.88 </td>
+            <td class="column2 style10 n">&nbsp;$ 37.62 </td>
+            <td class="column3 style10 n">&nbsp;$ 45.85 </td>
+            <td class="column4 style10 s">–</td>
+          </tr>
+          <tr class="row110">
+            <td class="column0 style9 s">Philadelphia-Camden-Wilmington, PA-NJ-DE-MD</td>
+            <td class="column1 style10 s">–</td>
+            <td class="column2 style10 n">&nbsp;$ 25.40 </td>
+            <td class="column3 style10 n">&nbsp;$ 33.67 </td>
+            <td class="column4 style10 n">&nbsp;$ 15.00 </td>
+          </tr>
+          <tr class="row111">
+            <td class="column0 style9 s">Phoenix-Mesa-Scottsdale, AZ</td>
+            <td class="column1 style10 s">–</td>
+            <td class="column2 style10 n">&nbsp;$ 26.06 </td>
+            <td class="column3 style10 n">&nbsp;$ 30.02 </td>
+            <td class="column4 style10 n">&nbsp;$ 16.20 </td>
+          </tr>
+          <tr class="row112">
+            <td class="column0 style9 s">Seattle-Tacoma-Bellevue, WA</td>
+            <td class="column1 style10 n">&nbsp;$ 22.91 </td>
+            <td class="column2 style10 n">&nbsp;$ 33.15 </td>
+            <td class="column3 style10 n">&nbsp;$ 37.28 </td>
+            <td class="column4 style10 n">&nbsp;$ 19.57 </td>
+          </tr>
+          <tr class="row113">
+            <td class="column0 style9 s">Washington-Arlington-Alexandria, DC-VA-MD-WV</td>
+            <td class="column1 style10 n">&nbsp;$ 18.35 </td>
+            <td class="column2 style10 n">&nbsp;$ 27.80 </td>
+            <td class="column3 style10 n">&nbsp;$ 33.90 </td>
+            <td class="column4 style10 n">&nbsp;$ 16.43 </td>
+          </tr>
+          <tr class="row114">
+            <td class="column0 style5 null"></td>
+            <td class="column1 style5 null"></td>
+            <td class="column2 style5 null"></td>
+            <td class="column3 style5 null"></td>
+            <td class="column4 style5 null"></td>
+          </tr>
+          <tr class="row115">
+            <td class="column0 style9 s">43-0000 Office and Administrative Support Occupations</td>
+            <td class="column1 style5 null"></td>
+            <td class="column2 style5 null"></td>
+            <td class="column3 style5 null"></td>
+            <td class="column4 style5 null"></td>
+          </tr>
+          <tr class="row116">
+            <td class="column0 style9 s">Atlanta-Sandy Springs-Roswell, GA</td>
+            <td class="column1 style10 n">&nbsp;$ 24.31 </td>
+            <td class="column2 style10 n">&nbsp;$ 22.13 </td>
+            <td class="column3 style10 n">&nbsp;$ 23.13 </td>
+            <td class="column4 style10 n">&nbsp;$ 16.69 </td>
+          </tr>
+          <tr class="row117">
+            <td class="column0 style9 s">Boston-Cambridge-Nashua, MA-NH</td>
+            <td class="column1 style10 n">&nbsp;$ 31.24 </td>
+            <td class="column2 style10 n">&nbsp;$ 26.90 </td>
+            <td class="column3 style10 n">&nbsp;$ 28.51 </td>
+            <td class="column4 style10 n">&nbsp;$ 22.02 </td>
+          </tr>
+          <tr class="row118">
+            <td class="column0 style9 s">Chicago-Naperville-Elgin, IL-IN-WI</td>
+            <td class="column1 style10 n">&nbsp;$ 27.06 </td>
+            <td class="column2 style10 n">&nbsp;$ 23.51 </td>
+            <td class="column3 style10 n">&nbsp;$ 25.41 </td>
+            <td class="column4 style10 n">&nbsp;$ 18.88 </td>
+          </tr>
+          <tr class="row119">
+            <td class="column0 style9 s">Dallas-Fort Worth-Arlington, TX</td>
+            <td class="column1 style10 n">&nbsp;$ 26.49 </td>
+            <td class="column2 style10 n">&nbsp;$ 22.74 </td>
+            <td class="column3 style10 n">&nbsp;$ 23.42 </td>
+            <td class="column4 style10 n">&nbsp;$ 18.57 </td>
+          </tr>
+          <tr class="row120">
+            <td class="column0 style9 s">Detroit-Warren-Dearborn, MI</td>
+            <td class="column1 style10 n">&nbsp;$ 24.99 </td>
+            <td class="column2 style10 n">&nbsp;$ 22.62 </td>
+            <td class="column3 style10 n">&nbsp;$ 24.04 </td>
+            <td class="column4 style10 n">&nbsp;$ 18.31 </td>
+          </tr>
+          <tr class="row121">
+            <td class="column0 style9 s">Houston-The Woodlands-Sugar Land, TX</td>
+            <td class="column1 style10 n">&nbsp;$ 28.09 </td>
+            <td class="column2 style10 n">&nbsp;$ 21.64 </td>
+            <td class="column3 style10 n">&nbsp;$ 22.50 </td>
+            <td class="column4 style10 n">&nbsp;$ 16.92 </td>
+          </tr>
+          <tr class="row122">
+            <td class="column0 style9 s">Los Angeles-Long Beach-Anaheim, CA</td>
+            <td class="column1 style10 n">&nbsp;$ 28.30 </td>
+            <td class="column2 style10 n">&nbsp;$ 25.15 </td>
+            <td class="column3 style10 n">&nbsp;$ 26.73 </td>
+            <td class="column4 style10 n">&nbsp;$ 20.32 </td>
+          </tr>
+          <tr class="row123">
+            <td class="column0 style9 s">Miami-Fort Lauderdale-West Palm Beach, FL</td>
+            <td class="column1 style10 n">&nbsp;$ 23.34 </td>
+            <td class="column2 style10 n">&nbsp;$ 22.07 </td>
+            <td class="column3 style10 n">&nbsp;$ 22.89 </td>
+            <td class="column4 style10 n">&nbsp;$ 17.21 </td>
+          </tr>
+          <tr class="row124">
+            <td class="column0 style9 s">Minneapolis-St. Paul-Bloomington, MN-WI</td>
+            <td class="column1 style10 n">&nbsp;$ 26.66 </td>
+            <td class="column2 style10 n">&nbsp;$ 25.18 </td>
+            <td class="column3 style10 n">&nbsp;$ 26.33 </td>
+            <td class="column4 style10 n">&nbsp;$ 19.98 </td>
+          </tr>
+          <tr class="row125">
+            <td class="column0 style9 s">New York-Newark-Jersey City, NY-NJ-PA</td>
+            <td class="column1 style10 n">&nbsp;$ 30.88 </td>
+            <td class="column2 style10 n">&nbsp;$ 26.29 </td>
+            <td class="column3 style10 n">&nbsp;$ 28.53 </td>
+            <td class="column4 style10 n">&nbsp;$ 21.70 </td>
+          </tr>
+          <tr class="row126">
+            <td class="column0 style9 s">Philadelphia-Camden-Wilmington, PA-NJ-DE-MD</td>
+            <td class="column1 style10 n">&nbsp;$ 25.17 </td>
+            <td class="column2 style10 n">&nbsp;$ 23.61 </td>
+            <td class="column3 style10 n">&nbsp;$ 25.06 </td>
+            <td class="column4 style10 n">&nbsp;$ 18.02 </td>
+          </tr>
+          <tr class="row127">
+            <td class="column0 style9 s">Phoenix-Mesa-Scottsdale, AZ</td>
+            <td class="column1 style10 n">&nbsp;$ 28.47 </td>
+            <td class="column2 style10 n">&nbsp;$ 22.86 </td>
+            <td class="column3 style10 n">&nbsp;$ 23.61 </td>
+            <td class="column4 style10 n">&nbsp;$ 17.85 </td>
+          </tr>
+          <tr class="row128">
+            <td class="column0 style9 s">San Jose-Sunnyvale-Santa Clara, CA</td>
+            <td class="column1 style10 n">&nbsp;$ 34.02 </td>
+            <td class="column2 style10 n">&nbsp;$ 31.29 </td>
+            <td class="column3 style10 n">&nbsp;$ 32.76 </td>
+            <td class="column4 style10 n">&nbsp;$ 26.27 </td>
+          </tr>
+          <tr class="row129">
+            <td class="column0 style9 s">Seattle-Tacoma-Bellevue, WA</td>
+            <td class="column1 style10 n">&nbsp;$ 30.70 </td>
+            <td class="column2 style10 n">&nbsp;$ 27.73 </td>
+            <td class="column3 style10 n">&nbsp;$ 28.68 </td>
+            <td class="column4 style10 n">&nbsp;$ 24.71 </td>
+          </tr>
+          <tr class="row130">
+            <td class="column0 style9 s">Washington-Arlington-Alexandria, DC-VA-MD-WV</td>
+            <td class="column1 style10 n">&nbsp;$ 27.80 </td>
+            <td class="column2 style10 n">&nbsp;$ 25.86 </td>
+            <td class="column3 style10 n">&nbsp;$ 26.92 </td>
+            <td class="column4 style10 n">&nbsp;$ 19.43 </td>
+          </tr>
+          <tr class="row131">
+            <td class="column0 style5 null"></td>
+            <td class="column1 style5 null"></td>
+            <td class="column2 style5 null"></td>
+            <td class="column3 style5 null"></td>
+            <td class="column4 style5 null"></td>
+          </tr>
+          <tr class="row132">
+            <td class="column0 style9 s">51-0000 Production Occupations</td>
+            <td class="column1 style5 null"></td>
+            <td class="column2 style5 null"></td>
+            <td class="column3 style5 null"></td>
+            <td class="column4 style5 null"></td>
+          </tr>
+          <tr class="row133">
+            <td class="column0 style9 s">Atlanta-Sandy Springs-Roswell, GA</td>
+            <td class="column1 style10 n">&nbsp;$ 27.11 </td>
+            <td class="column2 style10 n">&nbsp;$ 21.24 </td>
+            <td class="column3 style10 n">&nbsp;$ 22.18 </td>
+            <td class="column4 style10 s">–</td>
+          </tr>
+          <tr class="row134">
+            <td class="column0 style9 s">Boston-Cambridge-Nashua, MA-NH</td>
+            <td class="column1 style10 n">&nbsp;$ 30.77 </td>
+            <td class="column2 style10 n">&nbsp;$ 24.65 </td>
+            <td class="column3 style10 n">&nbsp;$ 26.07 </td>
+            <td class="column4 style10 n">&nbsp;$ 19.97 </td>
+          </tr>
+          <tr class="row135">
+            <td class="column0 style9 s">Chicago-Naperville-Elgin, IL-IN-WI</td>
+            <td class="column1 style10 n">&nbsp;$ 24.43 </td>
+            <td class="column2 style10 n">&nbsp;$ 22.87 </td>
+            <td class="column3 style10 n">&nbsp;$ 23.62 </td>
+            <td class="column4 style10 n">&nbsp;$ 16.38 </td>
+          </tr>
+          <tr class="row136">
+            <td class="column0 style9 s">Dallas-Fort Worth-Arlington, TX</td>
+            <td class="column1 style10 n">&nbsp;$ 29.27 </td>
+            <td class="column2 style10 n">&nbsp;$ 20.95 </td>
+            <td class="column3 style10 n">&nbsp;$ 22.08 </td>
+            <td class="column4 style10 s">–</td>
+          </tr>
+          <tr class="row137">
+            <td class="column0 style9 s">Detroit-Warren-Dearborn, MI</td>
+            <td class="column1 style10 n">&nbsp;$ 26.50 </td>
+            <td class="column2 style10 n">&nbsp;$ 22.46 </td>
+            <td class="column3 style10 n">&nbsp;$ 24.33 </td>
+            <td class="column4 style10 n">&nbsp;$ 17.12 </td>
+          </tr>
+          <tr class="row138">
+            <td class="column0 style9 s">Houston-The Woodlands-Sugar Land, TX</td>
+            <td class="column1 style10 n">&nbsp;$ 35.42 </td>
+            <td class="column2 style10 n">&nbsp;$ 23.28 </td>
+            <td class="column3 style10 n">&nbsp;$ 25.11 </td>
+            <td class="column4 style10 s">–</td>
+          </tr>
+          <tr class="row139">
+            <td class="column0 style9 s">Los Angeles-Long Beach-Anaheim, CA</td>
+            <td class="column1 style10 n">&nbsp;$ 31.12 </td>
+            <td class="column2 style10 n">&nbsp;$ 22.68 </td>
+            <td class="column3 style10 n">&nbsp;$ 24.23 </td>
+            <td class="column4 style10 n">&nbsp;$ 18.92 </td>
+          </tr>
+          <tr class="row140">
+            <td class="column0 style9 s">Minneapolis-St. Paul-Bloomington, MN-WI</td>
+            <td class="column1 style10 n">&nbsp;$ 25.94 </td>
+            <td class="column2 style10 n">&nbsp;$ 24.09 </td>
+            <td class="column3 style10 n">&nbsp;$ 24.88 </td>
+            <td class="column4 style10 n">&nbsp;$ 19.35 </td>
+          </tr>
+          <tr class="row141">
+            <td class="column0 style9 s">New York-Newark-Jersey City, NY-NJ-PA</td>
+            <td class="column1 style10 n">&nbsp;$ 28.97 </td>
+            <td class="column2 style10 n">&nbsp;$ 23.14 </td>
+            <td class="column3 style10 n">&nbsp;$ 24.87 </td>
+            <td class="column4 style10 n">&nbsp;$ 17.85 </td>
+          </tr>
+          <tr class="row142">
+            <td class="column0 style9 s">Philadelphia-Camden-Wilmington, PA-NJ-DE-MD</td>
+            <td class="column1 style10 n">&nbsp;$ 29.43 </td>
+            <td class="column2 style10 n">&nbsp;$ 23.46 </td>
+            <td class="column3 style10 n">&nbsp;$ 25.08 </td>
+            <td class="column4 style10 n">&nbsp;$ 17.11 </td>
+          </tr>
+          <tr class="row143">
+            <td class="column0 style9 s">San Jose-Sunnyvale-Santa Clara, CA</td>
+            <td class="column1 style10 n">&nbsp;$ 34.73 </td>
+            <td class="column2 style10 n">&nbsp;$ 26.71 </td>
+            <td class="column3 style10 n">&nbsp;$ 28.50 </td>
+            <td class="column4 style10 s">–</td>
+          </tr>
+          <tr class="row144">
+            <td class="column0 style9 s">Seattle-Tacoma-Bellevue, WA</td>
+            <td class="column1 style10 n">&nbsp;$ 35.22 </td>
+            <td class="column2 style10 n">&nbsp;$ 26.42 </td>
+            <td class="column3 style10 n">&nbsp;$ 28.84 </td>
+            <td class="column4 style10 s">–</td>
+          </tr>
+          <tr class="row145">
+            <td class="column0 style9 s">Washington-Arlington-Alexandria, DC-VA-MD-WV</td>
+            <td class="column1 style10 n">&nbsp;$ 32.25 </td>
+            <td class="column2 style10 n">&nbsp;$ 23.61 </td>
+            <td class="column3 style10 n">&nbsp;$ 25.74 </td>
+            <td class="column4 style10 n">&nbsp;$ 18.09 </td>
+          </tr>
+          <tr class="row146">
+            <td class="column0 style5 null"></td>
+            <td class="column1 style5 null"></td>
+            <td class="column2 style5 null"></td>
+            <td class="column3 style5 null"></td>
+            <td class="column4 style5 null"></td>
+          </tr>
+          <tr class="row147">
+            <td class="column0 style9 s">53-0000 Transportation and Material Moving Occupations</td>
+            <td class="column1 style5 null"></td>
+            <td class="column2 style5 null"></td>
+            <td class="column3 style5 null"></td>
+            <td class="column4 style5 null"></td>
+          </tr>
+          <tr class="row148">
+            <td class="column0 style9 s">Atlanta-Sandy Springs-Roswell, GA</td>
+            <td class="column1 style10 s">–</td>
+            <td class="column2 style10 n">&nbsp;$ 21.06 </td>
+            <td class="column3 style10 n">&nbsp;$ 26.59 </td>
+            <td class="column4 style10 n">&nbsp;$ 17.85 </td>
+          </tr>
+          <tr class="row149">
+            <td class="column0 style9 s">Boston-Cambridge-Nashua, MA-NH</td>
+            <td class="column1 style10 n">&nbsp;$ 34.25 </td>
+            <td class="column2 style10 n">&nbsp;$ 21.93 </td>
+            <td class="column3 style10 n">&nbsp;$ 27.32 </td>
+            <td class="column4 style10 n">&nbsp;$ 19.49 </td>
+          </tr>
+          <tr class="row150">
+            <td class="column0 style9 s">Dallas-Fort Worth-Arlington, TX</td>
+            <td class="column1 style10 n">&nbsp;$ 27.37 </td>
+            <td class="column2 style10 n">&nbsp;$ 21.36 </td>
+            <td class="column3 style10 n">&nbsp;$ 24.95 </td>
+            <td class="column4 style10 n">&nbsp;$ 17.40 </td>
+          </tr>
+          <tr class="row151">
+            <td class="column0 style9 s">Detroit-Warren-Dearborn, MI</td>
+            <td class="column1 style10 n">&nbsp;$ 27.85 </td>
+            <td class="column2 style10 n">&nbsp;$ 21.30 </td>
+            <td class="column3 style10 n">&nbsp;$ 24.71 </td>
+            <td class="column4 style10 n">&nbsp;$ 17.69 </td>
+          </tr>
+          <tr class="row152">
+            <td class="column0 style9 s">Houston-The Woodlands-Sugar Land, TX</td>
+            <td class="column1 style10 s">–</td>
+            <td class="column2 style10 n">&nbsp;$ 20.50 </td>
+            <td class="column3 style10 n">&nbsp;$ 23.96 </td>
+            <td class="column4 style10 n">&nbsp;$ 16.71 </td>
+          </tr>
+          <tr class="row153">
+            <td class="column0 style9 s">Los Angeles-Long Beach-Anaheim, CA</td>
+            <td class="column1 style10 n">&nbsp;$ 29.95 </td>
+            <td class="column2 style10 n">&nbsp;$ 21.57 </td>
+            <td class="column3 style10 n">&nbsp;$ 26.02 </td>
+            <td class="column4 style10 n">&nbsp;$ 18.90 </td>
+          </tr>
+          <tr class="row154">
+            <td class="column0 style9 s">Miami-Fort Lauderdale-West Palm Beach, FL</td>
+            <td class="column1 style10 s">–</td>
+            <td class="column2 style10 n">&nbsp;$ 19.70 </td>
+            <td class="column3 style10 n">&nbsp;$ 27.13 </td>
+            <td class="column4 style10 n">&nbsp;$ 16.25 </td>
+          </tr>
+          <tr class="row155">
+            <td class="column0 style9 s">Minneapolis-St. Paul-Bloomington, MN-WI</td>
+            <td class="column1 style10 n">&nbsp;$ 34.04 </td>
+            <td class="column2 style10 n">&nbsp;$ 22.52 </td>
+            <td class="column3 style10 n">&nbsp;$ 27.40 </td>
+            <td class="column4 style10 n">&nbsp;$ 18.65 </td>
+          </tr>
+          <tr class="row156">
+            <td class="column0 style9 s">New York-Newark-Jersey City, NY-NJ-PA</td>
+            <td class="column1 style10 n">&nbsp;$ 30.18 </td>
+            <td class="column2 style10 n">&nbsp;$ 22.71 </td>
+            <td class="column3 style10 n">&nbsp;$ 28.34 </td>
+            <td class="column4 style10 n">&nbsp;$ 20.46 </td>
+          </tr>
+          <tr class="row157">
+            <td class="column0 style9 s">Philadelphia-Camden-Wilmington, PA-NJ-DE-MD</td>
+            <td class="column1 style10 n">&nbsp;$ 30.63 </td>
+            <td class="column2 style10 n">&nbsp;$ 20.85 </td>
+            <td class="column3 style10 n">&nbsp;$ 24.09 </td>
+            <td class="column4 style10 n">&nbsp;$ 18.39 </td>
+          </tr>
+          <tr class="row158">
+            <td class="column0 style9 s">Phoenix-Mesa-Scottsdale, AZ</td>
+            <td class="column1 style10 n">&nbsp;$ 26.06 </td>
+            <td class="column2 style10 n">&nbsp;$ 20.95 </td>
+            <td class="column3 style10 n">&nbsp;$ 24.44 </td>
+            <td class="column4 style10 n">&nbsp;$ 18.71 </td>
+          </tr>
+          <tr class="row159">
+            <td class="column0 style9 s">San Jose-Sunnyvale-Santa Clara, CA</td>
+            <td class="column1 style10 n">&nbsp;$ 27.63 </td>
+            <td class="column2 style10 n">&nbsp;$ 24.13 </td>
+            <td class="column3 style10 n">&nbsp;$ 26.29 </td>
+            <td class="column4 style10 n">&nbsp;$ 21.62 </td>
+          </tr>
+          <tr class="row160">
+            <td class="column0 style9 s">Seattle-Tacoma-Bellevue, WA</td>
+            <td class="column1 style10 s">–</td>
+            <td class="column2 style10 n">&nbsp;$ 25.13 </td>
+            <td class="column3 style10 n">&nbsp;$ 33.00 </td>
+            <td class="column4 style10 n">&nbsp;$ 21.42 </td>
+          </tr>
+          <tr class="row161">
+            <td class="column0 style9 s">Washington-Arlington-Alexandria, DC-VA-MD-WV</td>
+            <td class="column1 style10 n">&nbsp;$ 32.48 </td>
+            <td class="column2 style10 n">&nbsp;$ 21.79 </td>
+            <td class="column3 style10 n">&nbsp;$ 26.89 </td>
+            <td class="column4 style10 n">&nbsp;$ 18.59 </td>
+          </tr>
+          <tr class="row162">
+            <td class="column0 style2 s"></td>
+            <td class="column1 style3 s"></td>
+            <td class="column2 style1 null"></td>
+            <td class="column3 style1 null"></td>
+            <td class="column4 style1 null"></td>
+          </tr>
+          <tr class="row163">
+            <td class="column0 style3 s">Footnotes:</td>
+            <td class="column1 style1 null"></td>
+            <td class="column2 style1 null"></td>
+            <td class="column3 style1 null"></td>
+            <td class="column4 style1 null"></td>
+          </tr>
+          <tr class="row164">
+            <td class="column0 style3 s">(1) For definitions of terms, see the MWE Handbook of Methods, available at https://www.bls.gov/opub/hom/mwe/.</td>
+            <td class="column1 style1 null"></td>
+            <td class="column2 style1 null"></td>
+            <td class="column3 style1 null"></td>
+            <td class="column4 style1 null"></td>
+          </tr>
+          <tr class="row165">
+            <td class="column0 style3 s">Note: Dashes indicate that no data were reported or that data do not meet publication criteria.</td>
+            <td class="column1 style1 null"></td>
+            <td class="column2 style1 null"></td>
+            <td class="column3 style1 null"></td>
+            <td class="column4 style1 null"></td>
+          </tr>
+          <tr class="row166">
+            <td class="column0 style3 s">Source: U.S. Bureau of Labor Statistics, Modeled Wage Estimates.</td>
+            <td class="column1 style1 null"></td>
+            <td class="column2 style1 null"></td>
+            <td class="column3 style1 null"></td>
+            <td class="column4 style1 null"></td>
+          </tr>
+        </tbody>
+    </table>
+  </body>
+</html>

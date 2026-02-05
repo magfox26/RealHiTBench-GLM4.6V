@@ -1,0 +1,95 @@
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+% \usepackage{multirow}
+% \usepackage[table,xcdraw]{xcolor}
+% Beamer presentation requires \usepackage{colortbl} instead of \usepackage[table,xcdraw]{xcolor}
+\begin{table}[]
+\begin{tabular}{@{}clll@{}}
+\rowcolor[HTML]{D9E1F4} 
+\textbf{Test Organism} & \multicolumn{1}{c}{\cellcolor[HTML]{D9E1F4}\textbf{Sample}} & \multicolumn{1}{c}{\cellcolor[HTML]{D9E1F4}\textbf{Average of Log CFU/Sample}} & \multicolumn{1}{c}{\cellcolor[HTML]{D9E1F4}\textbf{Standard Deviation of Log CFU/Sample}} \\
+ & \textbf{ABS Plastic} &  &  \\
+ & Day 0 & 7.046426045 & 0.01616769 \\
+ & Day 1 & 4.729376663 & 0.847790136 \\
+ & Day 3 & 4.760565594 & 0.214742017 \\
+ & \textbf{Glass} &  &  \\
+ & Day 0 & 7.006207968 & 0.045154522 \\
+ & Day 1 & 4.586242721 & 0.449968174 \\
+ & Day 3 & 4.498334926 & 0.491247556 \\
+ & \textbf{Stainless Steel} &  &  \\
+ & Day 0 & 6.998528569 & 0.014091588 \\
+ & Day 1 & 4.570734891 & 0.406172766 \\
+\multirow{-12}{*}{\textit{Pantoea agglomerans}} & Day 3 & 5.104009092 & 0.11273423 \\
+ & \textbf{ABS Plastic} &  &  \\
+ & Day 0 & 7.355882941 & 0.016352255 \\
+ & Day 1 & 3.907886522 & 0.118438819 \\
+ & Day 3 & 4.451284273 & 0.661782528 \\
+ & \textbf{Glass} &  &  \\
+ & Day 0 & 7.393669911 & 0.055381808 \\
+ & Day 1 & 4.695752226 & 0.097223253 \\
+ & Day 3 & 4.621572884 & 0.278876788 \\
+ & \textbf{Stainless Steel} &  &  \\
+ & Day 0 & 7.197848239 & 0.223545515 \\
+ & Day 1 & 4.466280311 & 0.483579196 \\
+\multirow{-12}{*}{\textit{Burkholderia thailandensis}} & Day 3 & 4.483120885 & 0.103833518 \\
+ & \textbf{ABS Plastic} &  &  \\
+ & Day 0 & 6.522795593 & 0.06844429 \\
+ & Day 1 & 4.048303461 & 0.032221713 \\
+ & Day 3 & 0.698970004 & 0 \\
+ & \textbf{Glass} &  &  \\
+ & Day 0 & 6.519879967 & 0.040518553 \\
+ & Day 1 & 4.199680333 & 0.01473806 \\
+ & Day 3 & 1.568834807 & 0.35095798 \\
+ & \textbf{Stainless Steel} &  &  \\
+ & Day 0 & 6.520904703 & 0.021699906 \\
+ & Day 1 & 4.392111226 & 0.031295545 \\
+\multirow{-12}{*}{\textit{Ralstonia pickettii}} & Day 3 & 1.600425016 & 0.262436693 \\
+ & \textbf{ABS Plastic} &  &  \\
+ & Day 0 & 7.16958417 & 0.069218409 \\
+ & Day 1 & 0.25199674 & 0.015517942 \\
+ & Day 3 & 0.070825492 & 0.017917623 \\
+ & \textbf{Glass} &  &  \\
+ & Day 0 & 7.037339622 & 0.075753071 \\
+ & Day 1 & 0.284210964 & 0.016712908 \\
+ & Day 3 & 0.080942923 & 0.005232748 \\
+ & \textbf{Stainless Steel} &  &  \\
+ & Day 0 & 7.2563982 & 0.044960335 \\
+ & Day 1 & 0.287363044 & 0.027490787 \\
+\multirow{-12}{*}{\textit{Vibrio harveyi}} & Day 3 & 0.079188176 & 0.003002911 \\
+ & \textbf{ABS Plastic} &  &  \\
+ & Day 0 & 7.840621051 & 0.047752362 \\
+ & Day 1 & 5.502756152 & 0.265756913 \\
+ & Day 3 & 5.860365308 & 0.205101668 \\
+ & \textbf{Glass} &  &  \\
+ & Day 0 & 7.850941199 & 0.035798383 \\
+ & Day 1 & 5.98962268 & 0.112703041 \\
+ & Day 3 & 6.828023201 & 0.086111703 \\
+ & \textbf{Stainless Steel} &  &  \\
+ & Day 0 & 7.824097432 & 0.059722061 \\
+ & Day 1 & 6.201595316 & 0.445466451 \\
+\multirow{-12}{*}{\textit{Yersinia ruckeri}} & Day 3 & 6.194691604 & 0.533090819 \\
+ & \textbf{ABS Plastic} &  &  \\
+ & Day 0 & 7.352620555 & 0.117697405 \\
+ & Day 1 & 6.744971459 & 0.432991298 \\
+ & Day 3 & 5.470946383 & 0.515041264 \\
+ & \textbf{Glass} &  &  \\
+ & Day 0 & 7.426699568 & 0.064211368 \\
+ & Day 1 & 6.152751667 & 0.50474567 \\
+ & Day 3 & 5.388100088 & 0.241675306 \\
+ & \textbf{Stainless Steel} &  &  \\
+ & Day 0 & 7.431946379 & 0.039089699 \\
+ & Day 1 & 6.711905459 & 0.557308919 \\
+\multirow{-12}{*}{\textit{Escherichia coli}} & Day 3 & 5.765154597 & 0.678957093 \\
+ & \textbf{ABS Plastic} &  &  \\
+ & Day 0 & 8.135605462 & 0.025115148 \\
+ & Day 1 & 6.973039049 & 0.061551269 \\
+ & Day 3 & 6.021901618 & 0.070682695 \\
+ & \textbf{Glass} &  &  \\
+ & Day 0 & 8.060477929 & 0.061897705 \\
+ & Day 1 & 6.926064674 & 0.224712021 \\
+ & Day 3 & 6.360559009 & 0.132150047 \\
+ & \textbf{Stainless Steel} &  &  \\
+ & Day 0 & 8.182404607 & 0.04510748 \\
+ & Day 1 & 7.314758139 & 0.134412995 \\
+\multirow{-12}{*}{\textit{Serratia marcescens}} & Day 3 & 6.340785404 & 0.183509461
+\end{tabular}
+\end{table}

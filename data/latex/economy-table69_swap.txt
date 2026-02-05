@@ -1,0 +1,33 @@
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+% \usepackage{multirow}
+% \usepackage[table,xcdraw]{xcolor}
+% Beamer presentation requires \usepackage{colortbl} instead of \usepackage[table,xcdraw]{xcolor}
+\begin{table}[]
+\begin{tabular}{@{}
+>{\columncolor[HTML]{FADADE}}l 
+>{\columncolor[HTML]{F4B7BE}}l 
+>{\columncolor[HTML]{FADADE}}l 
+>{\columncolor[HTML]{FF0000}}l 
+>{\columncolor[HTML]{FADADE}}l 
+>{\columncolor[HTML]{00B050}}l 
+>{\columncolor[HTML]{FADADE}}l 
+>{\columncolor[HTML]{00B050}}l @{}}
+\multicolumn{1}{c}{\cellcolor[HTML]{C71D32}} & \multicolumn{1}{c}{\cellcolor[HTML]{FFC000}} & \cellcolor[HTML]{C71D32}\textbf{Revenue} & \cellcolor[HTML]{C71D32}\textbf{} & \cellcolor[HTML]{C71D32}\textbf{} & \cellcolor[HTML]{C71D32}\textbf{} & \cellcolor[HTML]{C71D32}\textbf{} & \cellcolor[HTML]{C71D32}\textbf{} \\
+\multicolumn{1}{c}{\cellcolor[HTML]{C71D32}} & \multicolumn{1}{c}{\cellcolor[HTML]{FFC000}} & \multicolumn{2}{c}{\cellcolor[HTML]{E54C5E}{\color[HTML]{333333} }} & \multicolumn{2}{c}{\cellcolor[HTML]{E54C5E}{\color[HTML]{333333} }} & \multicolumn{2}{c}{\cellcolor[HTML]{E54C5E}{\color[HTML]{333333} }} \\
+\multicolumn{1}{c}{\multirow{-3}{*}{\cellcolor[HTML]{C71D32}\textbf{ACCOUNT \#}}} & \multicolumn{1}{c}{\multirow{-3}{*}{\cellcolor[HTML]{FFC000}\textbf{FULL NAME}}} & \multicolumn{2}{c}{\multirow{-2}{*}{\cellcolor[HTML]{E54C5E}{\color[HTML]{333333} \textbf{MAY}}}} & \multicolumn{2}{c}{\multirow{-2}{*}{\cellcolor[HTML]{E54C5E}{\color[HTML]{333333} \textbf{JUN}}}} & \multicolumn{2}{c}{\multirow{-2}{*}{\cellcolor[HTML]{E54C5E}{\color[HTML]{333333} \textbf{APR}}}} \\
+942546 & Big Joe & 2622764.25 & {\color[HTML]{333333} \textit{\textbf{Decline}}} & 2922700.25 & {\color[HTML]{333333} \textbf{Incline}} & {\color[HTML]{333333} 3085605} & {\color[HTML]{333333} \textbf{Incline}} \\
+748448 & Maria Calux & 1140008.265 & {\color[HTML]{333333} \textit{\textbf{Decline}}} & 2963723.603 & {\color[HTML]{333333} \textbf{Incline}} & {\color[HTML]{333333} 1212774.75} & {\color[HTML]{333333} \textbf{Incline}} \\
+2087427 & Giorgio Armani & 956355.9154 & \cellcolor[HTML]{00B050}{\color[HTML]{333333} \textbf{Incline}} & 1311009.505 & \cellcolor[HTML]{FF0000}{\color[HTML]{333333} \textit{\textbf{Decline}}} & {\color[HTML]{333333} 1017399.91} & {\color[HTML]{333333} \textbf{Incline}} \\
+2078869 & Francois Chevalier & 891977.313 & \cellcolor[HTML]{00B050}{\color[HTML]{333333} \textbf{Incline}} & 860720.3239 & {\color[HTML]{333333} \textbf{Incline}} & {\color[HTML]{333333} 1002221.7} & {\color[HTML]{333333} \textbf{Incline}} \\
+186563 & Mia Martina & 876665 & \cellcolor[HTML]{00B050}{\color[HTML]{333333} \textbf{Incline}} & 874137.7667 & \cellcolor[HTML]{FF0000}{\color[HTML]{333333} \textit{\textbf{Decline}}} & {\color[HTML]{333333} 876665} & \cellcolor[HTML]{FF0000}{\color[HTML]{333333} \textit{\textbf{Decline}}} \\
+3374310 & Tia Carrera & 878333.427 & {\color[HTML]{333333} \textit{\textbf{Decline}}} & 841598.4 & {\color[HTML]{333333} \textbf{Incline}} & {\color[HTML]{333333} 852750.9} & \cellcolor[HTML]{FF0000}{\color[HTML]{333333} \textit{\textbf{Decline}}} \\
+3576420 & Feliciano Di Venturi & 953102.0388 & \cellcolor[HTML]{00B050}{\color[HTML]{333333} \textbf{Incline}} & 895900.0955 & \cellcolor[HTML]{FF0000}{\color[HTML]{333333} \textit{\textbf{Decline}}} & {\color[HTML]{333333} 836054.42} & \cellcolor[HTML]{FF0000}{\color[HTML]{333333} \textit{\textbf{Decline}}} \\
+180431 & Global Bob & 731811.6012 & \cellcolor[HTML]{00B050}{\color[HTML]{333333} \textbf{Incline}} & 1038881.222 & {\color[HTML]{333333} \textbf{Incline}} & {\color[HTML]{333333} 841162.76} & {\color[HTML]{333333} \textbf{Incline}} \\
+446076 & Vincenzo Fertino & 697573.004 & {\color[HTML]{333333} \textit{\textbf{Decline}}} & 687902.9051 & {\color[HTML]{333333} \textbf{Incline}} & {\color[HTML]{333333} 811131.4} & {\color[HTML]{333333} \textbf{Incline}} \\
+60609 & Bob Bobitt & 919918.4795 & {\color[HTML]{333333} \textit{\textbf{Decline}}} & 746403.1143 & {\color[HTML]{333333} \textbf{Incline}} & {\color[HTML]{333333} 814087.15} & {\color[HTML]{333333} \textbf{Incline}} \\
+353666 & Ken Cascaval & 721209.3161 & {\color[HTML]{333333} \textit{\textbf{Decline}}} & 993511.9579 & {\color[HTML]{333333} \textbf{Incline}} & {\color[HTML]{333333} 792537.71} & {\color[HTML]{333333} \textbf{Incline}} \\
+2503159 & Billy Joe & 835653.841 & {\color[HTML]{333333} \textit{\textbf{Decline}}} & 735633.5024 & \cellcolor[HTML]{FF0000}{\color[HTML]{333333} \textit{\textbf{Decline}}} & {\color[HTML]{333333} 766654.9} & \cellcolor[HTML]{FF0000}{\color[HTML]{333333} \textit{\textbf{Decline}}} \\
+87772 & Giuseppe Von Firenze & 722028.812 & {\color[HTML]{333333} \textit{\textbf{Decline}}} & 852366.9178 & {\color[HTML]{333333} \textbf{Incline}} & {\color[HTML]{333333} 744359.6} & \cellcolor[HTML]{FF0000}{\color[HTML]{333333} \textit{\textbf{Decline}}}
+\end{tabular}
+\end{table}

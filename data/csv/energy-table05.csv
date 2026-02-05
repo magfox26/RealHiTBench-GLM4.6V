@@ -1,0 +1,104 @@
+"Risk
+ID","Item
+Description","Function","Tech. Class","Novel Aspects","Failure
+Mode","Failure 
+Effects
+(Local, WEC, System)","Failure
+Cause(s)","Initial Mode
+ of
+Operation
+","Risk Reduction 
+Design","Preventative
+Detection","Post Failure
+Detection","Post Failure
+Repair
+Strategy 
+(automated, manual)"
+"0521-1","Smoke alarms","Alarms in case of smoke in nacelle","1","none","No smoke alarm","Failure to alarm with smoke present
+","1) Sensor defect, contamination, or corrosion
+2) wiring fault","Normal","1) V&V (QC)
+2) Redundant sensors","Visual inspection
+","1) SCADA - Loss of other systems, temperature increase
+2) Visual - camera inspection
+","1) Repair in-situ if possible. 
+2) dry dock"
+"0521-2","Smoke alarms","Alarms in case of smoke in nacelle","1","none","False alarm","Alarm sounds with no smoke present
+","1) Sensor defect, contamination, or corrosion
+2) wiring fault","Normal","1) V&V (QC)
+2) Redundant sensors","Visual inspection
+","1) SCADA - All systems & temp are normal
+2) Visual - camera inspection
+","1) Do nothing
+2) Repair in-situ if possible. 
+"
+"0522-1","Flooding Alarms","Monitor for water intrusion and alarm if water present","1","none","No water intrusion alarm","Failure to alarm with water present
+","1) Sensor defect, contamination, or corrosion
+2) wiring fault","Normal","1) V&V (QC)
+2) Redundant sensors","Visual inspection
+","1) SCADA - Loss of other systems, humidity increase
+2) Visual - camera inspection
+","1) Repair in-situ if possible. 
+2) dry dock"
+"0522-2","Flooding Alarms","Monitor for water intrusion and alarm if water present","1","none","False alarm","False alarm with no water present","1) Sensor defect, contamination, or corrosion
+2) wiring fault","Normal","1) V&V (QC)
+2) Redundant sensors","Visual inspection
+","1) SCADA - All systems normal
+2) Visual - camera inspection
+","1) Do nothing
+2) Repair in-situ if possible. 
+"
+"0523-1","Temperature Sensors","Monitor temperature in nacelle","1","none","Erroneous reading","Sensor reading significantly high causes systems shutdown for overheat protection","1) Sensor defect, contamination, or corrosion
+2) wiring fault","Normal","1) V&V (QC)
+2) Redundant sensors","Visual inspection
+","1) SCADA - other systems temperatures normal","1) Do nothing
+2) Repair in-situ if possible. 
+"
+"0523-2","Temperature Sensors","Monitor temperature in nacelle","1","none","Erroneous reading","Sensor reading significantly low results in loss of confidence and iceing concern","1) Sensor defect, contamination, or corrosion
+2) wiring fault","Normal","1) V&V (QC)
+2) Redundant sensors","Visual inspection
+","1) SCADA - other systems temperatures normal","1) Do nothing
+2) Repair in-situ if possible. 
+"
+"0524-1","Humidity Sensors","Monitor humidity in nacelle","1","none","Erroneous reading","Sensor reading significantly high causes systems shutdown for condensation protection","1) Sensor defect, contamination, or corrosion
+2) wiring fault","Normal","1) V&V (QC)
+2) Redundant sensors","Visual inspection
+","1) SCADA - other systems normal, access closed, no water intrusion","1) Do nothing
+2) Repair in-situ if possible. 
+"
+"0524-2","Humidity Sensors","Monitor humidity in nacelle","1","none","Erroneous reading","Sensor reading significantly low results in loss of confidence","1) Sensor defect, contamination, or corrosion
+2) wiring fault","Normal","1) V&V (QC)
+2) Redundant sensors","Visual inspection
+","1) SCADA - other systems normal","1) Do nothing
+2) Repair in-situ if possible. 
+"
+"0525-1","Access Alarms","Monitor access sensors and alarm based on SCADA operational setting.  Indicate hatch status","1","none","Failed CLOSED, hatch sensor fails to identify open access panel","Failure to alarm when access panel is opened","1) Sensor defect, contamination, or corrosion
+2) wiring fault","Normal","1) V&V (QC)
+2) Redundant sensors","Visual inspection
+","1) SCADA - water intrusion, humidity, temperature
+2) Visual - camera inspection","1) Repair in-situ if possible. 
+2) dry dock"
+"0525-2","Access Alarms","Monitor access sensors and alarm based on SCADA operational setting.  Indicate hatch status","1","none","Failed OPEN, hatch sensor inducates false open","Hatch indicates open while closed","1) Sensor defect, contamination, or corrosion
+2) wiring fault","Normal","1) V&V (QC)
+2) Redundant sensors","Visual inspection
+","1) SCADA - water intrusion, humidity, temperature
+2) Visual - camera inspection","1) Do nothing
+2) Repair in-situ if possible. 
+"
+"","","","","","","","","","","","",""
+"","","","","","","","","","","","",""
+"","","","","","","","","","","","",""
+"","","","","","","","","","","","",""
+"","","","","","","","","","","","",""
+"","","","","","","","","","","","",""
+"","","","","","","","","","","","",""
+"","","","","","","","","","","","",""
+"","","","","","","","","","","","",""
+"","","","","","","","","","","","",""
+"","","","","","","","","","","","",""
+"","","","","","","","","","","","",""
+"","","","","","","","","","","","",""
+"","","","","","","","","","","","",""
+"","","","","","","","","","","","",""
+"","","","","","","","","","","","",""
+"","","","","","","","","","","","",""
+"","","","","","","","","","","","",""

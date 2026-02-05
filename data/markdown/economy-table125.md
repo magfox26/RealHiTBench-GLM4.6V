@@ -1,0 +1,16 @@
+|    | Category     | Line Item                                | Quantity   | Unit   | Unit Price   | Tax   | Total   |
+|---:|:-------------|:-----------------------------------------|:-----------|:-------|:-------------|:------|:--------|
+|  0 | Section      | Main House                               |            |        |              |       |         |
+|  1 | Flashing     | Step flashing                            | 15.0       | LF     | 8.14         | 1.66  | 123.76  |
+|  2 | Underlayment | Ice & water shield                       | 10.0       | SF     | 1.65         | 0.26  | 16.75   |
+|  3 | Edge         | Valley metal                             | 25.0       | LF     | 4.34         | 2.76  | 111.26  |
+|  4 | Edge         | Gravel stop                              | 15.0       | LF     | 1.64         | 0.64  | 25.24   |
+|  5 | Edge         | Rake Edge                                | 1.5        | LF     | 1.84         | 0.06  | 2.82    |
+|  6 | Flashing     | Step flashing                            | 23.0       | LF     | 8.14         | 2.54  | 189.76  |
+|  7 | Total        |                                          |            |        |              | 7.92  | 469.6   |
+|  8 | Section      | Shed                                     |            |        |              |       |         |
+|  9 | Flashing     | R&R Chimney flashing - small (24" x 24") | 2.0        | EA     | 242.28       | 4.15  | 488.71  |
+| 10 | Underlayment | Roofing felt - 15 lb.                    | 3.0        | SQ     | 25.97        | 1.38  | 79.29   |
+| 11 | Total        |                                          |            |        |              | 5.53  | 568.0   |
+| 12 |              |                                          |            |        |              |       |         |
+| 13 | Grand Total  |                                          |            |        |              | 13.45 | 1037.6  |

@@ -1,0 +1,156 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <meta name="generator" content="PhpSpreadsheet, https://github.com/PHPOffice/PhpSpreadsheet">
+      <meta name="author" content="mac" />
+      <meta name="company" content="Microsoft Corporation" />
+    <style type="text/css">
+      html { font-family:Calibri, Arial, Helvetica, sans-serif; font-size:11pt; background-color:white }
+      a.comment-indicator:hover + div.comment { background:#ffd; position:absolute; display:block; border:1px solid black; padding:0.5em }
+      a.comment-indicator { background:red; display:inline-block; border:1px solid black; width:0.5em; height:0.5em }
+      div.comment { display:none }
+      table { border-collapse:collapse; page-break-after:always }
+      .gridlines td { border:1px dotted black }
+      .gridlines th { border:1px dotted black }
+      .b { text-align:center }
+      .e { text-align:center }
+      .f { text-align:right }
+      .inlineStr { text-align:left }
+      .n { text-align:right }
+      .s { text-align:left }
+      td.style0 { vertical-align:middle; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style0 { vertical-align:middle; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style1 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#FFFF00 }
+      th.style1 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#FFFF00 }
+      td.style2 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Trebuchet MS'; font-size:10pt; background-color:#EF939E }
+      th.style2 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Trebuchet MS'; font-size:10pt; background-color:#EF939E }
+      td.style3 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Trebuchet MS'; font-size:10pt; background-color:#EF939E }
+      th.style3 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Trebuchet MS'; font-size:10pt; background-color:#EF939E }
+      td.style4 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style4 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style5 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Trebuchet MS'; font-size:10pt; background-color:#EF939E }
+      th.style5 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Trebuchet MS'; font-size:10pt; background-color:#EF939E }
+      td.style6 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Trebuchet MS'; font-size:10pt; background-color:#EF939E }
+      th.style6 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Trebuchet MS'; font-size:10pt; background-color:#EF939E }
+      td.style7 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:1px solid #000000 !important; border-left:none #000000; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#F7D567 }
+      th.style7 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:1px solid #000000 !important; border-left:none #000000; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#F7D567 }
+      td.style8 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Trebuchet MS'; font-size:10pt; background-color:#F7D567 }
+      th.style8 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Trebuchet MS'; font-size:10pt; background-color:#F7D567 }
+      td.style9 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#F7D567 }
+      th.style9 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#F7D567 }
+      td.style10 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#B4BAC3 }
+      th.style10 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#B4BAC3 }
+      td.style11 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Trebuchet MS'; font-size:10pt; background-color:#91ABDF }
+      th.style11 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Trebuchet MS'; font-size:10pt; background-color:#91ABDF }
+      td.style12 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#B4BAC3 }
+      th.style12 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#B4BAC3 }
+      td.style13 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:1px solid #000000 !important; border-left:none #000000; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Trebuchet MS'; font-size:10pt; background-color:#3366FF }
+      th.style13 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:1px solid #000000 !important; border-left:none #000000; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Trebuchet MS'; font-size:10pt; background-color:#3366FF }
+      td.style14 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Trebuchet MS'; font-size:10pt; background-color:#3366FF }
+      th.style14 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Trebuchet MS'; font-size:10pt; background-color:#3366FF }
+      td.style15 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Trebuchet MS'; font-size:10pt; background-color:#3366FF }
+      th.style15 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Trebuchet MS'; font-size:10pt; background-color:#3366FF }
+      table.sheet0 col.col0 { width:42pt }
+      table.sheet0 col.col1 { width:94.8888878pt }
+      table.sheet0 col.col2 { width:42pt }
+      table.sheet0 col.col3 { width:42pt }
+      table.sheet0 tr { height:15pt }
+    </style>
+  </head>
+
+  <body>
+<style>
+@page { margin-left: 0.75in; margin-right: 0.75in; margin-top: 1in; margin-bottom: 1in; }
+body { margin-left: 0.75in; margin-right: 0.75in; margin-top: 1in; margin-bottom: 1in; }
+</style>
+    <table border="0" cellpadding="0" cellspacing="0" id="sheet0" class="sheet0 gridlines">
+        <col class="col0">
+        <col class="col1">
+        <col class="col2">
+        <col class="col3">
+        <tbody>
+          <tr class="row0">
+            <td class="column0 style1 s">Carrier</td>
+            <td class="column1 style1 s">Types</td>
+            <td class="column2 style1 s">Time</td>
+            <td class="column3 style1 s">Total</td>
+          </tr>
+          <tr class="row1">
+            <td class="column0 style2 s style6" rowspan="4">ATT</td>
+            <td class="column1 style3 s">NEW ACTIVATION</td>
+            <td class="column2 style4 s">19.21</td>
+            <td class="column3 style4 n">1048</td>
+          </tr>
+          <tr class="row2">
+            <td class="column1 style3 s">ADD A LINE</td>
+            <td class="column2 style4 s">14.24</td>
+            <td class="column3 style4 n">396</td>
+          </tr>
+          <tr class="row3">
+            <td class="column1 style3 s">PLAN CHANGE</td>
+            <td class="column2 style4 s">9.49</td>
+            <td class="column3 style4 n">560</td>
+          </tr>
+          <tr class="row4">
+            <td class="column1 style3 s">UPGRADE</td>
+            <td class="column2 style4 s">12.50</td>
+            <td class="column3 style4 n">1330</td>
+          </tr>
+          <tr class="row5">
+            <td class="column0 style7 s style9" rowspan="4">SPR</td>
+            <td class="column1 style8 s">NEW ACTIVATION</td>
+            <td class="column2 style4 s">20.6</td>
+            <td class="column3 style4 n">1127</td>
+          </tr>
+          <tr class="row6">
+            <td class="column1 style8 s">ADD A LINE</td>
+            <td class="column2 style4 s">14.25</td>
+            <td class="column3 style4 n">146</td>
+          </tr>
+          <tr class="row7">
+            <td class="column1 style8 s">PLAN CHANGE</td>
+            <td class="column2 style4 s">6.30</td>
+            <td class="column3 style4 n">100</td>
+          </tr>
+          <tr class="row8">
+            <td class="column1 style8 s">UPGRADE</td>
+            <td class="column2 style4 s">14.5</td>
+            <td class="column3 style4 n">1582</td>
+          </tr>
+          <tr class="row9">
+            <td class="column0 style10 s style12" rowspan="4">VZW</td>
+            <td class="column1 style11 s">NEW ACTIVATION</td>
+            <td class="column2 style4 s">18.33</td>
+            <td class="column3 style4 n">1804</td>
+          </tr>
+          <tr class="row10">
+            <td class="column1 style11 s">ADD A LINE</td>
+            <td class="column2 style4 s">14.56</td>
+            <td class="column3 style4 n">450</td>
+          </tr>
+          <tr class="row11">
+            <td class="column1 style11 s">PLAN CHANGE</td>
+            <td class="column2 style4 s">9.45</td>
+            <td class="column3 style4 n">1946</td>
+          </tr>
+          <tr class="row12">
+            <td class="column1 style11 s">UPGRADE</td>
+            <td class="column2 style4 s">13.37</td>
+            <td class="column3 style4 n">3169</td>
+          </tr>
+          <tr class="row13">
+            <td class="column0 style13 s style15" rowspan="2">MTP</td>
+            <td class="column1 style14 s">NEW ACTIVATION</td>
+            <td class="column2 style4 s">10.16</td>
+            <td class="column3 style4 n">25</td>
+          </tr>
+          <tr class="row14">
+            <td class="column1 style14 s">UPGRADE</td>
+            <td class="column2 style4 n">0</td>
+            <td class="column3 style4 n">0</td>
+          </tr>
+        </tbody>
+    </table>
+  </body>
+</html>

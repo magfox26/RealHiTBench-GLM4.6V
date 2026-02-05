@@ -1,0 +1,14 @@
+|    |                | L&T ISSUE MANAGEMENT REPORTS   |                       |                                                                               |                      |         |
+|---:|:---------------|:-------------------------------|:----------------------|:------------------------------------------------------------------------------|:---------------------|:--------|
+|  0 | PROJECT PERIOD | 04-Aug-15                      | Project Name:         | FACT's Kerala Chemical Plant                                                  |                      |         |
+|  1 | DURATION       | 2                              | National Center:      | MUMBAI                                                                        |                      |         |
+|  2 | END PROJECT    | 31-Oct-15                      | Project Manager Name: | JAGAN                                                                         |                      |         |
+|  3 |                |                                | Project Description:  | 2000 tpd ( sulphuric acid plant, urea plant,                                  |                      |         |
+|    |                |                                |                       | NP complex fertilizer plant, SSP plant and ammonia-urea complex)              |                      |         |
+|  4 | Company Code   | Cost Center                    | Intercompany Name     | Line Description                                                              | Statistical Quantity | Average |
+|  5 | 0I79           | MUM                            | HPCL                  | TIL reports progress on new plant.                                            | 55                   | 82.76%  |
+|  6 | 0I80           | DEL                            | ELCOT                 | Pacific Iron Manufacturing to set up integrated steel plant in Madhya Pradesh | 25                   | 14.31%  |
+|  7 | 0I81           | HYD                            | IT COMPANY            | Assam Ferro Alloys plans ferro alloy plant in Kamrup District                 | 15                   | 70.69%  |
+|  8 | 0I82           | MUM                            | MARG                  | Jaypee ASOM Cement to set up cement plant and CPP                             | 85                   | 51.00%  |
+|  9 | 0I83           | CHE                            | EPC                   | Young India Alloys to set up ferro alloys plant in Andhra Pradesh             | 35                   | 74.00%  |
+| 10 | 0I84           | BLR                            | NPTL                  | Vedik Ispat to expand steel plant in Andhra Pradesh                           | 11                   | 90.00%  |

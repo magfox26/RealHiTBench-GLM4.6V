@@ -1,0 +1,430 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <meta name="generator" content="PhpSpreadsheet, https://github.com/PHPOffice/PhpSpreadsheet">
+      <meta name="author" content="xiyan" />
+      <meta name="company" content="Microsoft Corporation" />
+    <style type="text/css">
+      html { font-family:Calibri, Arial, Helvetica, sans-serif; font-size:11pt; background-color:white }
+      a.comment-indicator:hover + div.comment { background:#ffd; position:absolute; display:block; border:1px solid black; padding:0.5em }
+      a.comment-indicator { background:red; display:inline-block; border:1px solid black; width:0.5em; height:0.5em }
+      div.comment { display:none }
+      table { border-collapse:collapse; page-break-after:always }
+      .gridlines td { border:1px dotted black }
+      .gridlines th { border:1px dotted black }
+      .b { text-align:center }
+      .e { text-align:center }
+      .f { text-align:right }
+      .inlineStr { text-align:left }
+      .n { text-align:right }
+      .s { text-align:left }
+      td.style0 { vertical-align:middle; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style0 { vertical-align:middle; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style1 { vertical-align:bottom; text-align:center; border-bottom:1px solid #91ABDF !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#DAE3F4 }
+      th.style1 { vertical-align:bottom; text-align:center; border-bottom:1px solid #91ABDF !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#DAE3F4 }
+      td.style2 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#DAE3F4 }
+      th.style2 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#DAE3F4 }
+      td.style3 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style3 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style4 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style4 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style5 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style5 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style6 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style6 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style7 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style7 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style8 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#DAE3F4 }
+      th.style8 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#DAE3F4 }
+      td.style9 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#DAE3F4 }
+      th.style9 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#DAE3F4 }
+      td.style10 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style10 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style11 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#DAE3F4 }
+      th.style11 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#DAE3F4 }
+      td.style12 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style12 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style13 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#DAE3F4 }
+      th.style13 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#DAE3F4 }
+      table.sheet0 col.col0 { width:86.07777679pt }
+      table.sheet0 col.col1 { width:42pt }
+      table.sheet0 col.col2 { width:57.61111045pt }
+      table.sheet0 col.col3 { width:42pt }
+      table.sheet0 col.col4 { width:42pt }
+      table.sheet0 col.col5 { width:42pt }
+      table.sheet0 col.col6 { width:42pt }
+      table.sheet0 col.col7 { width:42pt }
+      table.sheet0 col.col8 { width:42pt }
+      table.sheet0 col.col9 { width:42pt }
+      table.sheet0 col.col10 { width:42pt }
+      table.sheet0 col.col11 { width:42pt }
+      table.sheet0 col.col12 { width:42pt }
+      table.sheet0 col.col13 { width:42pt }
+      table.sheet0 col.col14 { width:42pt }
+      table.sheet0 col.col15 { width:42pt }
+      table.sheet0 tr { height:15pt }
+    </style>
+  </head>
+
+  <body>
+<style>
+@page { margin-left: 0.75in; margin-right: 0.75in; margin-top: 1in; margin-bottom: 1in; }
+body { margin-left: 0.75in; margin-right: 0.75in; margin-top: 1in; margin-bottom: 1in; }
+</style>
+    <table border="0" cellpadding="0" cellspacing="0" id="sheet0" class="sheet0 gridlines">
+        <col class="col0">
+        <col class="col1">
+        <col class="col2">
+        <col class="col3">
+        <col class="col4">
+        <col class="col5">
+        <col class="col6">
+        <col class="col7">
+        <col class="col8">
+        <col class="col9">
+        <col class="col10">
+        <col class="col11">
+        <col class="col12">
+        <col class="col13">
+        <col class="col14">
+        <col class="col15">
+        <tbody>
+          <tr class="row0">
+            <td class="column0 style1 null"></td>
+            <td class="column1 style1 null"></td>
+            <td class="column2 style1 s">Values</td>
+            <td class="column3 style1 null"></td>
+            <td class="column4 style1 null"></td>
+            <td class="column5 style1 null"></td>
+            <td class="column6 style1 null"></td>
+            <td class="column7 style1 null"></td>
+            <td class="column8 style1 null"></td>
+            <td class="column9 style1 null"></td>
+            <td class="column10 style1 null"></td>
+            <td class="column11 style1 null"></td>
+            <td class="column12 style1 null"></td>
+            <td class="column13 style1 null"></td>
+            <td class="column14 style1 null"></td>
+            <td class="column15 style1 null"></td>
+          </tr>
+          <tr class="row1">
+            <td class="column0 style2 s">Department</td>
+            <td class="column1 style1 s">Week</td>
+            <td class="column2 style2 s">Sum of  CALLS    </td>
+            <td class="column3 style2 s">&nbsp;ACHT</td>
+            <td class="column4 style2 s">&nbsp;Staff Time</td>
+            <td class="column5 style2 s">&nbsp;Login Time </td>
+            <td class="column6 style2 s">&nbsp;Talk Time </td>
+            <td class="column7 style2 s">&nbsp;Pause Time </td>
+            <td class="column8 style2 s">&nbsp;Idle Time </td>
+            <td class="column9 style2 s">&nbsp;Wait Time </td>
+            <td class="column10 style2 s">&nbsp;Dispo Time </td>
+            <td class="column11 style2 s">&nbsp;Idle %</td>
+            <td class="column12 style2 s">&nbsp;Occupancy %</td>
+            <td class="column13 style2 s">&nbsp;Utilization %</td>
+            <td class="column14 style2 s">No of Days</td>
+            <td class="column15 style2 s">Sum of CPA</td>
+          </tr>
+          <tr class="row2">
+            <td class="column0 style3 s style7" rowspan="2">Schedule</td>
+            <td class="column1 style4 s">Week 1</td>
+            <td class="column2 style5 n">1495</td>
+            <td class="column3 style6 n">64</td>
+            <td class="column4 style10 n">&lt;span style=&quot;color:h&quot;&gt;8:15:47&lt;/span&gt;</td>
+            <td class="column5 style10 n">&lt;span style=&quot;color:h&quot;&gt;7:44:02&lt;/span&gt;</td>
+            <td class="column6 style10 n">&lt;span style=&quot;color:h&quot;&gt;1:24:11&lt;/span&gt;</td>
+            <td class="column7 style10 n">&lt;span style=&quot;color:h&quot;&gt;6:16:37&lt;/span&gt;</td>
+            <td class="column8 style10 n">&lt;span style=&quot;color:h&quot;&gt;0:29:38&lt;/span&gt;</td>
+            <td class="column9 style10 n">&lt;span style=&quot;color:h&quot;&gt;0:02:00&lt;/span&gt;</td>
+            <td class="column10 style10 n">&lt;span style=&quot;color:h&quot;&gt;0:03:22&lt;/span&gt;</td>
+            <td class="column11 style12 n">26.54%</td>
+            <td class="column12 style12 n">73.46%</td>
+            <td class="column13 style12 n">18.14%</td>
+            <td class="column14 style6 n">19</td>
+            <td class="column15 style6 n">79</td>
+          </tr>
+          <tr class="row3">
+            <td class="column1 style4 s">Week 2</td>
+            <td class="column2 style5 n">911</td>
+            <td class="column3 style6 n">76</td>
+            <td class="column4 style10 n">&lt;span style=&quot;color:h&quot;&gt;8:04:00&lt;/span&gt;</td>
+            <td class="column5 style10 n">&lt;span style=&quot;color:h&quot;&gt;7:33:10&lt;/span&gt;</td>
+            <td class="column6 style10 n">&lt;span style=&quot;color:h&quot;&gt;1:12:42&lt;/span&gt;</td>
+            <td class="column7 style10 n">&lt;span style=&quot;color:h&quot;&gt;6:15:31&lt;/span&gt;</td>
+            <td class="column8 style10 n">&lt;span style=&quot;color:h&quot;&gt;0:26:07&lt;/span&gt;</td>
+            <td class="column9 style10 n">&lt;span style=&quot;color:h&quot;&gt;0:07:03&lt;/span&gt;</td>
+            <td class="column10 style10 n">&lt;span style=&quot;color:h&quot;&gt;0:02:36&lt;/span&gt;</td>
+            <td class="column11 style12 n">30.58%</td>
+            <td class="column12 style12 n">69.42%</td>
+            <td class="column13 style12 n">16.04%</td>
+            <td class="column14 style6 n">15</td>
+            <td class="column15 style6 n">61</td>
+          </tr>
+          <tr class="row4">
+            <td class="column0 style3 s style7" rowspan="2">Inbound</td>
+            <td class="column1 style4 s">Week 1</td>
+            <td class="column2 style5 n">1943</td>
+            <td class="column3 style6 n">158</td>
+            <td class="column4 style10 n">&lt;span style=&quot;color:h&quot;&gt;8:34:30&lt;/span&gt;</td>
+            <td class="column5 style10 n">&lt;span style=&quot;color:h&quot;&gt;7:46:19&lt;/span&gt;</td>
+            <td class="column6 style10 n">&lt;span style=&quot;color:h&quot;&gt;2:44:47&lt;/span&gt;</td>
+            <td class="column7 style10 n">&lt;span style=&quot;color:h&quot;&gt;0:58:44&lt;/span&gt;</td>
+            <td class="column8 style10 n">&lt;span style=&quot;color:h&quot;&gt;0:04:09&lt;/span&gt;</td>
+            <td class="column9 style10 n">&lt;span style=&quot;color:h&quot;&gt;4:43:09&lt;/span&gt;</td>
+            <td class="column10 style10 n">&lt;span style=&quot;color:h&quot;&gt;0:03:41&lt;/span&gt;</td>
+            <td class="column11 style12 n">63.04%</td>
+            <td class="column12 style12 n">36.96%</td>
+            <td class="column13 style12 n">35.34%</td>
+            <td class="column14 style6 n">30</td>
+            <td class="column15 style6 n">65</td>
+          </tr>
+          <tr class="row5">
+            <td class="column1 style4 s">Week 2</td>
+            <td class="column2 style5 n">1415</td>
+            <td class="column3 style6 n">135</td>
+            <td class="column4 style10 n">&lt;span style=&quot;color:h&quot;&gt;8:41:48&lt;/span&gt;</td>
+            <td class="column5 style10 n">&lt;span style=&quot;color:h&quot;&gt;7:57:50&lt;/span&gt;</td>
+            <td class="column6 style10 n">&lt;span style=&quot;color:h&quot;&gt;2:04:02&lt;/span&gt;</td>
+            <td class="column7 style10 n">&lt;span style=&quot;color:h&quot;&gt;1:08:16&lt;/span&gt;</td>
+            <td class="column8 style10 n">&lt;span style=&quot;color:h&quot;&gt;0:03:26&lt;/span&gt;</td>
+            <td class="column9 style10 n">&lt;span style=&quot;color:h&quot;&gt;5:22:50&lt;/span&gt;</td>
+            <td class="column10 style10 n">&lt;span style=&quot;color:h&quot;&gt;0:03:14&lt;/span&gt;</td>
+            <td class="column11 style12 n">71.94%</td>
+            <td class="column12 style12 n">28.06%</td>
+            <td class="column13 style12 n">25.96%</td>
+            <td class="column14 style6 n">24</td>
+            <td class="column15 style6 n">58</td>
+          </tr>
+          <tr class="row6">
+            <td class="column0 style3 s style7" rowspan="2">FC Followup</td>
+            <td class="column1 style4 s">Week 1</td>
+            <td class="column2 style5 n">930</td>
+            <td class="column3 style6 n">110</td>
+            <td class="column4 style10 n">&lt;span style=&quot;color:h&quot;&gt;8:28:05&lt;/span&gt;</td>
+            <td class="column5 style10 n">&lt;span style=&quot;color:h&quot;&gt;7:36:23&lt;/span&gt;</td>
+            <td class="column6 style10 n">&lt;span style=&quot;color:h&quot;&gt;2:11:08&lt;/span&gt;</td>
+            <td class="column7 style10 n">&lt;span style=&quot;color:h&quot;&gt;5:36:32&lt;/span&gt;</td>
+            <td class="column8 style10 n">&lt;span style=&quot;color:h&quot;&gt;0:25:22&lt;/span&gt;</td>
+            <td class="column9 style10 n">&lt;span style=&quot;color:h&quot;&gt;0:11:05&lt;/span&gt;</td>
+            <td class="column10 style10 n">&lt;span style=&quot;color:h&quot;&gt;0:03:59&lt;/span&gt;</td>
+            <td class="column11 style12 n">21.25%</td>
+            <td class="column12 style12 n">78.75%</td>
+            <td class="column13 style12 n">28.73%</td>
+            <td class="column14 style6 n">11</td>
+            <td class="column15 style6 n">85</td>
+          </tr>
+          <tr class="row7">
+            <td class="column1 style4 s">Week 2</td>
+            <td class="column2 style5 n">911</td>
+            <td class="column3 style6 n">97</td>
+            <td class="column4 style10 n">&lt;span style=&quot;color:h&quot;&gt;8:37:42&lt;/span&gt;</td>
+            <td class="column5 style10 n">&lt;span style=&quot;color:h&quot;&gt;7:49:19&lt;/span&gt;</td>
+            <td class="column6 style10 n">&lt;span style=&quot;color:h&quot;&gt;2:22:10&lt;/span&gt;</td>
+            <td class="column7 style10 n">&lt;span style=&quot;color:h&quot;&gt;5:13:45&lt;/span&gt;</td>
+            <td class="column8 style10 n">&lt;span style=&quot;color:h&quot;&gt;0:31:09&lt;/span&gt;</td>
+            <td class="column9 style10 n">&lt;span style=&quot;color:h&quot;&gt;0:26:02&lt;/span&gt;</td>
+            <td class="column10 style10 n">&lt;span style=&quot;color:h&quot;&gt;0:04:36&lt;/span&gt;</td>
+            <td class="column11 style12 n">28.04%</td>
+            <td class="column12 style12 n">71.96%</td>
+            <td class="column13 style12 n">30.29%</td>
+            <td class="column14 style6 n">10</td>
+            <td class="column15 style6 n">91</td>
+          </tr>
+          <tr class="row8">
+            <td class="column0 style3 s style7" rowspan="2">CWR Followup</td>
+            <td class="column1 style4 s">Week 1</td>
+            <td class="column2 style5 n">870</td>
+            <td class="column3 style6 n">110</td>
+            <td class="column4 style10 n">&lt;span style=&quot;color:h&quot;&gt;8:17:56&lt;/span&gt;</td>
+            <td class="column5 style10 n">&lt;span style=&quot;color:h&quot;&gt;7:45:09&lt;/span&gt;</td>
+            <td class="column6 style10 n">&lt;span style=&quot;color:h&quot;&gt;1:49:58&lt;/span&gt;</td>
+            <td class="column7 style10 n">&lt;span style=&quot;color:h&quot;&gt;5:43:45&lt;/span&gt;</td>
+            <td class="column8 style10 n">&lt;span style=&quot;color:h&quot;&gt;0:38:56&lt;/span&gt;</td>
+            <td class="column9 style10 n">&lt;span style=&quot;color:h&quot;&gt;0:01:36&lt;/span&gt;</td>
+            <td class="column10 style10 n">&lt;span style=&quot;color:h&quot;&gt;0:03:41&lt;/span&gt;</td>
+            <td class="column11 style12 n">26.29%</td>
+            <td class="column12 style12 n">73.71%</td>
+            <td class="column13 style12 n">23.64%</td>
+            <td class="column14 style6 n">14</td>
+            <td class="column15 style6 n">62</td>
+          </tr>
+          <tr class="row9">
+            <td class="column1 style4 s">Week 2</td>
+            <td class="column2 style5 n">771</td>
+            <td class="column3 style6 n">119</td>
+            <td class="column4 style10 n">&lt;span style=&quot;color:h&quot;&gt;8:26:29&lt;/span&gt;</td>
+            <td class="column5 style10 n">&lt;span style=&quot;color:h&quot;&gt;8:01:03&lt;/span&gt;</td>
+            <td class="column6 style10 n">&lt;span style=&quot;color:h&quot;&gt;2:14:12&lt;/span&gt;</td>
+            <td class="column7 style10 n">&lt;span style=&quot;color:h&quot;&gt;5:29:35&lt;/span&gt;</td>
+            <td class="column8 style10 n">&lt;span style=&quot;color:h&quot;&gt;0:31:40&lt;/span&gt;</td>
+            <td class="column9 style10 n">&lt;span style=&quot;color:h&quot;&gt;0:06:39&lt;/span&gt;</td>
+            <td class="column10 style10 n">&lt;span style=&quot;color:h&quot;&gt;0:04:23&lt;/span&gt;</td>
+            <td class="column11 style12 n">21.66%</td>
+            <td class="column12 style12 n">78.34%</td>
+            <td class="column13 style12 n">27.90%</td>
+            <td class="column14 style6 n">11</td>
+            <td class="column15 style6 n">70</td>
+          </tr>
+          <tr class="row10">
+            <td class="column0 style3 s style7" rowspan="2">Ref Genration</td>
+            <td class="column1 style4 s">Week 1</td>
+            <td class="column2 style5 n">90</td>
+            <td class="column3 style6 n">170</td>
+            <td class="column4 style10 n">&lt;span style=&quot;color:h&quot;&gt;8:37:46&lt;/span&gt;</td>
+            <td class="column5 style10 n">&lt;span style=&quot;color:h&quot;&gt;7:59:12&lt;/span&gt;</td>
+            <td class="column6 style10 n">&lt;span style=&quot;color:h&quot;&gt;0:46:55&lt;/span&gt;</td>
+            <td class="column7 style10 n">&lt;span style=&quot;color:h&quot;&gt;3:03:42&lt;/span&gt;</td>
+            <td class="column8 style10 n">&lt;span style=&quot;color:h&quot;&gt;0:02:00&lt;/span&gt;</td>
+            <td class="column9 style10 n">&lt;span style=&quot;color:h&quot;&gt;4:43:34&lt;/span&gt;</td>
+            <td class="column10 style10 n">&lt;span style=&quot;color:h&quot;&gt;0:01:34&lt;/span&gt;</td>
+            <td class="column11 style12 n">85.48%</td>
+            <td class="column12 style12 n">14.52%</td>
+            <td class="column13 style12 n">9.79%</td>
+            <td class="column14 style6 n">6</td>
+            <td class="column15 style6 n">15</td>
+          </tr>
+          <tr class="row11">
+            <td class="column1 style4 s">Week 2</td>
+            <td class="column2 style5 n">66</td>
+            <td class="column3 style6 n">173</td>
+            <td class="column4 style10 n">&lt;span style=&quot;color:h&quot;&gt;8:20:46&lt;/span&gt;</td>
+            <td class="column5 style10 n">&lt;span style=&quot;color:h&quot;&gt;7:52:24&lt;/span&gt;</td>
+            <td class="column6 style10 n">&lt;span style=&quot;color:h&quot;&gt;0:34:22&lt;/span&gt;</td>
+            <td class="column7 style10 n">&lt;span style=&quot;color:h&quot;&gt;3:02:36&lt;/span&gt;</td>
+            <td class="column8 style10 n">&lt;span style=&quot;color:h&quot;&gt;0:11:04&lt;/span&gt;</td>
+            <td class="column9 style10 n">&lt;span style=&quot;color:h&quot;&gt;4:32:00&lt;/span&gt;</td>
+            <td class="column10 style10 n">&lt;span style=&quot;color:h&quot;&gt;0:00:44&lt;/span&gt;</td>
+            <td class="column11 style12 n">88.97%</td>
+            <td class="column12 style12 n">11.03%</td>
+            <td class="column13 style12 n">7.27%</td>
+            <td class="column14 style6 n">5</td>
+            <td class="column15 style6 n">13</td>
+          </tr>
+          <tr class="row12">
+            <td class="column0 style3 s style7" rowspan="2">Library</td>
+            <td class="column1 style4 s">Week 1</td>
+            <td class="column2 style5 n">242</td>
+            <td class="column3 style6 n">32</td>
+            <td class="column4 style10 n">&lt;span style=&quot;color:h&quot;&gt;8:28:28&lt;/span&gt;</td>
+            <td class="column5 style10 n">&lt;span style=&quot;color:h&quot;&gt;7:52:19&lt;/span&gt;</td>
+            <td class="column6 style10 n">&lt;span style=&quot;color:h&quot;&gt;0:11:36&lt;/span&gt;</td>
+            <td class="column7 style10 n">&lt;span style=&quot;color:h&quot;&gt;7:55:40&lt;/span&gt;</td>
+            <td class="column8 style10 n">&lt;span style=&quot;color:h&quot;&gt;0:01:36&lt;/span&gt;</td>
+            <td class="column9 style10 n">&lt;span style=&quot;color:h&quot;&gt;0:18:47&lt;/span&gt;</td>
+            <td class="column10 style10 n">&lt;span style=&quot;color:h&quot;&gt;0:00:51&lt;/span&gt;</td>
+            <td class="column11 style12 n">62.09%</td>
+            <td class="column12 style12 n">37.91%</td>
+            <td class="column13 style12 n">2.45%</td>
+            <td class="column14 style6 n">12</td>
+            <td class="column15 style6 n">20</td>
+          </tr>
+          <tr class="row13">
+            <td class="column1 style4 s">Week 2</td>
+            <td class="column2 style5 n">173</td>
+            <td class="column3 style6 n">42</td>
+            <td class="column4 style10 n">&lt;span style=&quot;color:h&quot;&gt;8:38:49&lt;/span&gt;</td>
+            <td class="column5 style10 n">&lt;span style=&quot;color:h&quot;&gt;8:02:12&lt;/span&gt;</td>
+            <td class="column6 style10 n">&lt;span style=&quot;color:h&quot;&gt;0:20:37&lt;/span&gt;</td>
+            <td class="column7 style10 n">&lt;span style=&quot;color:h&quot;&gt;7:48:06&lt;/span&gt;</td>
+            <td class="column8 style10 n">&lt;span style=&quot;color:h&quot;&gt;0:09:46&lt;/span&gt;</td>
+            <td class="column9 style10 n">&lt;span style=&quot;color:h&quot;&gt;0:18:51&lt;/span&gt;</td>
+            <td class="column10 style10 n">&lt;span style=&quot;color:h&quot;&gt;0:01:30&lt;/span&gt;</td>
+            <td class="column11 style12 n">56.42%</td>
+            <td class="column12 style12 n">43.58%</td>
+            <td class="column13 style12 n">4.27%</td>
+            <td class="column14 style6 n">6</td>
+            <td class="column15 style6 n">29</td>
+          </tr>
+          <tr class="row14">
+            <td class="column0 style3 s style7" rowspan="2">Expert Helpdesk</td>
+            <td class="column1 style4 s">Week 1</td>
+            <td class="column2 style5 n">199</td>
+            <td class="column3 style6 n">170</td>
+            <td class="column4 style10 n">&lt;span style=&quot;color:h&quot;&gt;8:41:29&lt;/span&gt;</td>
+            <td class="column5 style10 n">&lt;span style=&quot;color:h&quot;&gt;8:40:48&lt;/span&gt;</td>
+            <td class="column6 style10 n">&lt;span style=&quot;color:h&quot;&gt;1:15:17&lt;/span&gt;</td>
+            <td class="column7 style10 n">&lt;span style=&quot;color:h&quot;&gt;0:10:48&lt;/span&gt;</td>
+            <td class="column8 style10 n">&lt;span style=&quot;color:h&quot;&gt;0:52:13&lt;/span&gt;</td>
+            <td class="column9 style10 n">&lt;span style=&quot;color:h&quot;&gt;6:21:43&lt;/span&gt;</td>
+            <td class="column10 style10 n">&lt;span style=&quot;color:h&quot;&gt;0:01:28&lt;/span&gt;</td>
+            <td class="column11 style12 n">84.97%</td>
+            <td class="column12 style12 n">15.03%</td>
+            <td class="column13 style12 n">14.46%</td>
+            <td class="column14 style6 n">7</td>
+            <td class="column15 style6 n">28</td>
+          </tr>
+          <tr class="row15">
+            <td class="column1 style4 s">Week 2</td>
+            <td class="column2 style5 n">71</td>
+            <td class="column3 style6 n">155</td>
+            <td class="column4 style10 n">&lt;span style=&quot;color:h&quot;&gt;7:40:32&lt;/span&gt;</td>
+            <td class="column5 style10 n">&lt;span style=&quot;color:h&quot;&gt;7:40:12&lt;/span&gt;</td>
+            <td class="column6 style10 n">&lt;span style=&quot;color:h&quot;&gt;0:31:30&lt;/span&gt;</td>
+            <td class="column7 style10 n">&lt;span style=&quot;color:h&quot;&gt;0:03:07&lt;/span&gt;</td>
+            <td class="column8 style10 n">&lt;span style=&quot;color:h&quot;&gt;2:29:56&lt;/span&gt;</td>
+            <td class="column9 style10 n">&lt;span style=&quot;color:h&quot;&gt;4:35:29&lt;/span&gt;</td>
+            <td class="column10 style10 n">&lt;span style=&quot;color:h&quot;&gt;0:00:30&lt;/span&gt;</td>
+            <td class="column11 style12 n">93.00%</td>
+            <td class="column12 style12 n">7.00%</td>
+            <td class="column13 style12 n">6.85%</td>
+            <td class="column14 style6 n">6</td>
+            <td class="column15 style6 n">12</td>
+          </tr>
+          <tr class="row16">
+            <td class="column0 style3 s style7" rowspan="2">Outbond</td>
+            <td class="column1 style4 s">Week 1</td>
+            <td class="column2 style5 n">714</td>
+            <td class="column3 style6 n">156</td>
+            <td class="column4 style10 n">&lt;span style=&quot;color:h&quot;&gt;8:30:20&lt;/span&gt;</td>
+            <td class="column5 style10 n">&lt;span style=&quot;color:h&quot;&gt;7:54:22&lt;/span&gt;</td>
+            <td class="column6 style10 n">&lt;span style=&quot;color:h&quot;&gt;3:30:18&lt;/span&gt;</td>
+            <td class="column7 style10 n">&lt;span style=&quot;color:h&quot;&gt;2:37:08&lt;/span&gt;</td>
+            <td class="column8 style10 n">&lt;span style=&quot;color:h&quot;&gt;0:24:09&lt;/span&gt;</td>
+            <td class="column9 style10 n">&lt;span style=&quot;color:h&quot;&gt;1:53:48&lt;/span&gt;</td>
+            <td class="column10 style10 n">&lt;span style=&quot;color:h&quot;&gt;0:04:57&lt;/span&gt;</td>
+            <td class="column11 style12 n">39.06%</td>
+            <td class="column12 style12 n">60.94%</td>
+            <td class="column13 style12 n">44.33%</td>
+            <td class="column14 style6 n">8</td>
+            <td class="column15 style6 n">84</td>
+          </tr>
+          <tr class="row17">
+            <td class="column1 style4 s">Week 2</td>
+            <td class="column2 style5 n">651</td>
+            <td class="column3 style6 n">198</td>
+            <td class="column4 style10 n">&lt;span style=&quot;color:h&quot;&gt;8:49:40&lt;/span&gt;</td>
+            <td class="column5 style10 n">&lt;span style=&quot;color:h&quot;&gt;8:03:32&lt;/span&gt;</td>
+            <td class="column6 style10 n">&lt;span style=&quot;color:h&quot;&gt;3:47:54&lt;/span&gt;</td>
+            <td class="column7 style10 n">&lt;span style=&quot;color:h&quot;&gt;2:33:12&lt;/span&gt;</td>
+            <td class="column8 style10 n">&lt;span style=&quot;color:h&quot;&gt;0:28:47&lt;/span&gt;</td>
+            <td class="column9 style10 n">&lt;span style=&quot;color:h&quot;&gt;1:54:40&lt;/span&gt;</td>
+            <td class="column10 style10 n">&lt;span style=&quot;color:h&quot;&gt;0:05:08&lt;/span&gt;</td>
+            <td class="column11 style12 n">38.10%</td>
+            <td class="column12 style12 n">61.90%</td>
+            <td class="column13 style12 n">47.13%</td>
+            <td class="column14 style6 n">9</td>
+            <td class="column15 style6 n">72</td>
+          </tr>
+          <tr class="row18">
+            <td class="column0 style2 s">Grand Total</td>
+            <td class="column1 style2 null"></td>
+            <td class="column2 style8 n">11452</td>
+            <td class="column3 style9 n">120</td>
+            <td class="column4 style11 n">&lt;span style=&quot;color:h&quot;&gt;8:28:00&lt;/span&gt;</td>
+            <td class="column5 style11 n">&lt;span style=&quot;color:h&quot;&gt;7:51:13&lt;/span&gt;</td>
+            <td class="column6 style11 n">&lt;span style=&quot;color:h&quot;&gt;1:52:29&lt;/span&gt;</td>
+            <td class="column7 style11 n">&lt;span style=&quot;color:h&quot;&gt;3:51:08&lt;/span&gt;</td>
+            <td class="column8 style11 n">&lt;span style=&quot;color:h&quot;&gt;0:23:19&lt;/span&gt;</td>
+            <td class="column9 style11 n">&lt;span style=&quot;color:h&quot;&gt;2:17:53&lt;/span&gt;</td>
+            <td class="column10 style11 n">&lt;span style=&quot;color:h&quot;&gt;0:03:10&lt;/span&gt;</td>
+            <td class="column11 style13 n">58.22%</td>
+            <td class="column12 style13 n">41.78%</td>
+            <td class="column13 style13 n">23.87%</td>
+            <td class="column14 style9 n">194</td>
+            <td class="column15 style9 n">59</td>
+          </tr>
+        </tbody>
+    </table>
+  </body>
+</html>

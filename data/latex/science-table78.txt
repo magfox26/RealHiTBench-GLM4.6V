@@ -1,0 +1,12 @@
+% Please add the following required packages to your document preamble:
+% \usepackage{multirow}
+\begin{table}[]
+\begin{tabular}{lllllll}
+                            &          & \multicolumn{3}{l}{MFI fold change}     &             &             \\
+                            &          & Expt1       & Expt2       & Expt3       & mean        & SD          \\
+\multirow{2}{*}{Uninf}      & DC - SAG & 1           & 1           & 1           & 1           & 0           \\
+                            & DC + SAG & 3.17871413  & 4.455839973 & 3.610621831 & 3.748391978 & 0.649613781 \\
+\multirow{2}{*}{LDPm (24h)} & DC - SAG & 0.75009081  & 1.106797762 & 0.540699226 & 0.799195933 & 0.286226087 \\
+                            & DC + SAG & 3.912640756 & 4.062044414 & 3.774219376 & 3.916301515 & 0.143947435
+\end{tabular}
+\end{table}

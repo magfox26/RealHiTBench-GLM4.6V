@@ -1,0 +1,605 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <meta name="generator" content="PhpSpreadsheet, https://github.com/PHPOffice/PhpSpreadsheet">
+      <meta name="company" content="Microsoft Corporation" />
+    <style type="text/css">
+      html { font-family:Calibri, Arial, Helvetica, sans-serif; font-size:11pt; background-color:white }
+      a.comment-indicator:hover + div.comment { background:#ffd; position:absolute; display:block; border:1px solid black; padding:0.5em }
+      a.comment-indicator { background:red; display:inline-block; border:1px solid black; width:0.5em; height:0.5em }
+      div.comment { display:none }
+      table { border-collapse:collapse; page-break-after:always }
+      .gridlines td { border:1px dotted black }
+      .gridlines th { border:1px dotted black }
+      .b { text-align:center }
+      .e { text-align:center }
+      .f { text-align:right }
+      .inlineStr { text-align:left }
+      .n { text-align:right }
+      .s { text-align:left }
+      td.style0 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:12pt; background-color:white }
+      th.style0 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:12pt; background-color:white }
+      td.style1 { vertical-align:middle; text-align:center; border-bottom:1px solid #666666 !important; border-top:1px solid #666666 !important; border-left:1px solid #666666 !important; border-right:1px solid #666666 !important; color:#000000; font-family:'Arial'; font-size:11.5pt; background-color:#B2E1E3 }
+      th.style1 { vertical-align:middle; text-align:center; border-bottom:1px solid #666666 !important; border-top:1px solid #666666 !important; border-left:1px solid #666666 !important; border-right:1px solid #666666 !important; color:#000000; font-family:'Arial'; font-size:11.5pt; background-color:#B2E1E3 }
+      td.style2 { vertical-align:middle; text-align:center; border-bottom:1px solid #666666 !important; border-top:1px solid #666666 !important; border-left:none #000000; border-right:1px solid #666666 !important; color:#000000; font-family:'Arial'; font-size:11.5pt; background-color:#B2E1E3 }
+      th.style2 { vertical-align:middle; text-align:center; border-bottom:1px solid #666666 !important; border-top:1px solid #666666 !important; border-left:none #000000; border-right:1px solid #666666 !important; color:#000000; font-family:'Arial'; font-size:11.5pt; background-color:#B2E1E3 }
+      td.style3 { vertical-align:middle; text-align:center; border-bottom:1px solid #666666 !important; border-top:none #000000; border-left:1px solid #666666 !important; border-right:1px solid #666666 !important; color:#000000; font-family:'Arial'; font-size:11.5pt; background-color:#B2E1E3 }
+      th.style3 { vertical-align:middle; text-align:center; border-bottom:1px solid #666666 !important; border-top:none #000000; border-left:1px solid #666666 !important; border-right:1px solid #666666 !important; color:#000000; font-family:'Arial'; font-size:11.5pt; background-color:#B2E1E3 }
+      td.style4 { vertical-align:middle; text-align:center; border-bottom:1px solid #666666 !important; border-top:none #000000; border-left:none #000000; border-right:1px solid #666666 !important; color:#000000; font-family:'Arial'; font-size:11.5pt; background-color:#B2E1E3 }
+      th.style4 { vertical-align:middle; text-align:center; border-bottom:1px solid #666666 !important; border-top:none #000000; border-left:none #000000; border-right:1px solid #666666 !important; color:#000000; font-family:'Arial'; font-size:11.5pt; background-color:#B2E1E3 }
+      td.style5 { vertical-align:middle; text-align:center; border-bottom:1px solid #666666 !important; border-top:none #000000; border-left:none #000000; border-right:1px solid #666666 !important; color:#000000; font-family:'Arial'; font-size:11.5pt; background-color:#FFFDEE }
+      th.style5 { vertical-align:middle; text-align:center; border-bottom:1px solid #666666 !important; border-top:none #000000; border-left:none #000000; border-right:1px solid #666666 !important; color:#000000; font-family:'Arial'; font-size:11.5pt; background-color:#FFFDEE }
+      td.style6 { vertical-align:middle; text-align:center; border-bottom:1px solid #FFFFFF !important; border-top:none #000000; border-left:1px solid #FFFFFF !important; border-right:1px solid #FFFFFF !important; color:#FFFFFF; font-family:'Arial'; font-size:11.5pt; background-color:#1C8388 }
+      th.style6 { vertical-align:middle; text-align:center; border-bottom:1px solid #FFFFFF !important; border-top:none #000000; border-left:1px solid #FFFFFF !important; border-right:1px solid #FFFFFF !important; color:#FFFFFF; font-family:'Arial'; font-size:11.5pt; background-color:#1C8388 }
+      td.style7 { vertical-align:middle; text-align:center; border-bottom:1px solid #FFFFFF !important; border-top:none #000000; border-left:none #000000; border-right:1px solid #FFFFFF !important; color:#FFFFFF; font-family:'Arial'; font-size:11.5pt; background-color:#1C8388 }
+      th.style7 { vertical-align:middle; text-align:center; border-bottom:1px solid #FFFFFF !important; border-top:none #000000; border-left:none #000000; border-right:1px solid #FFFFFF !important; color:#FFFFFF; font-family:'Arial'; font-size:11.5pt; background-color:#1C8388 }
+      td.style8 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:1px solid #666666 !important; border-top:none #000000; border-left:1px solid #666666 !important; border-right:1px solid #666666 !important; color:#000000; font-family:'Arial'; font-size:11.5pt; background-color:#99D7DA }
+      th.style8 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:1px solid #666666 !important; border-top:none #000000; border-left:1px solid #666666 !important; border-right:1px solid #666666 !important; color:#000000; font-family:'Arial'; font-size:11.5pt; background-color:#99D7DA }
+      td.style9 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:1px solid #666666 !important; border-top:none #000000; border-left:none #000000; border-right:1px solid #666666 !important; color:#000000; font-family:'Arial'; font-size:11.5pt; background-color:#CCCCCC }
+      th.style9 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:1px solid #666666 !important; border-top:none #000000; border-left:none #000000; border-right:1px solid #666666 !important; color:#000000; font-family:'Arial'; font-size:11.5pt; background-color:#CCCCCC }
+      td.style10 { vertical-align:top; text-align:left; padding-left:0px; border-bottom:1px solid #666666 !important; border-top:none #000000; border-left:1px solid #666666 !important; border-right:1px solid #666666 !important; color:#000000; font-family:'Arial'; font-size:11.5pt; background-color:#99D7DA }
+      th.style10 { vertical-align:top; text-align:left; padding-left:0px; border-bottom:1px solid #666666 !important; border-top:none #000000; border-left:1px solid #666666 !important; border-right:1px solid #666666 !important; color:#000000; font-family:'Arial'; font-size:11.5pt; background-color:#99D7DA }
+      td.style11 { vertical-align:middle; text-align:right; padding-right:0px; border-bottom:1px solid #666666 !important; border-top:none #000000; border-left:none #000000; border-right:1px solid #666666 !important; color:#000000; font-family:'Arial'; font-size:11.5pt; background-color:#FFFFFF }
+      th.style11 { vertical-align:middle; text-align:right; padding-right:0px; border-bottom:1px solid #666666 !important; border-top:none #000000; border-left:none #000000; border-right:1px solid #666666 !important; color:#000000; font-family:'Arial'; font-size:11.5pt; background-color:#FFFFFF }
+      td.style12 { vertical-align:middle; text-align:right; padding-right:0px; border-bottom:1px solid #666666 !important; border-top:none #000000; border-left:none #000000; border-right:1px solid #666666 !important; font-weight:bold; color:#000000; font-family:'Arial'; font-size:11.5pt; background-color:#FFFDEE }
+      th.style12 { vertical-align:middle; text-align:right; padding-right:0px; border-bottom:1px solid #666666 !important; border-top:none #000000; border-left:none #000000; border-right:1px solid #666666 !important; font-weight:bold; color:#000000; font-family:'Arial'; font-size:11.5pt; background-color:#FFFDEE }
+      td.style13 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#333333; font-family:'Arial'; font-size:11.5pt; background-color:white }
+      th.style13 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#333333; font-family:'Arial'; font-size:11.5pt; background-color:white }
+      table.sheet0 col.col0 { width:299.57777434pt }
+      table.sheet0 col.col1 { width:54.89999937pt }
+      table.sheet0 col.col2 { width:48.12222167pt }
+      table.sheet0 col.col3 { width:54.89999937pt }
+      table.sheet0 col.col4 { width:48.12222167pt }
+      table.sheet0 col.col5 { width:54.89999937pt }
+      table.sheet0 col.col6 { width:48.12222167pt }
+      table.sheet0 col.col7 { width:54.89999937pt }
+      table.sheet0 col.col8 { width:48.12222167pt }
+      table.sheet0 col.col9 { width:48.12222167pt }
+      table.sheet0 col.col10 { width:54.89999937pt }
+      table.sheet0 col.col11 { width:48.12222167pt }
+      table.sheet0 col.col12 { width:54.89999937pt }
+      table.sheet0 col.col13 { width:48.12222167pt }
+      table.sheet0 col.col14 { width:54.89999937pt }
+      table.sheet0 col.col15 { width:48.12222167pt }
+      table.sheet0 col.col16 { width:54.89999937pt }
+      table.sheet0 col.col17 { width:48.12222167pt }
+      table.sheet0 col.col18 { width:48.12222167pt }
+      table.sheet0 col.col19 { width:54.89999937pt }
+      table.sheet0 col.col20 { width:48.12222167pt }
+      table.sheet0 col.col21 { width:54.89999937pt }
+      table.sheet0 col.col22 { width:48.12222167pt }
+      table.sheet0 col.col23 { width:54.89999937pt }
+      table.sheet0 col.col24 { width:48.12222167pt }
+      table.sheet0 col.col25 { width:54.89999937pt }
+      table.sheet0 col.col26 { width:48.12222167pt }
+      table.sheet0 col.col27 { width:48.12222167pt }
+      table.sheet0 col.col28 { width:54.89999937pt }
+      table.sheet0 col.col29 { width:48.12222167pt }
+      table.sheet0 col.col30 { width:54.89999937pt }
+      table.sheet0 col.col31 { width:48.12222167pt }
+      table.sheet0 col.col32 { width:54.89999937pt }
+      table.sheet0 col.col33 { width:48.12222167pt }
+      table.sheet0 col.col34 { width:54.89999937pt }
+      table.sheet0 col.col35 { width:48.12222167pt }
+      table.sheet0 col.col36 { width:48.12222167pt }
+      table.sheet0 tr { height:16.363636363636pt }
+      table.sheet0 tr.row0 { height:22.5pt }
+      table.sheet0 tr.row1 { height:22.5pt }
+      table.sheet0 tr.row2 { height:73.5pt }
+      table.sheet0 tr.row3 { height:39.75pt }
+      table.sheet0 tr.row4 { height:22.5pt }
+      table.sheet0 tr.row5 { height:22.5pt }
+      table.sheet0 tr.row6 { height:22.5pt }
+      table.sheet0 tr.row7 { height:22.5pt }
+      table.sheet0 tr.row8 { height:22.5pt }
+      table.sheet0 tr.row9 { height:22.5pt }
+      table.sheet0 tr.row10 { height:22.5pt }
+      table.sheet0 tr.row11 { height:22.5pt }
+      table.sheet0 tr.row12 { height:22.5pt }
+      table.sheet0 tr.row13 { height:21pt }
+      table.sheet0 tr.row14 { height:21pt }
+      table.sheet0 tr.row15 { height:21pt }
+      table.sheet0 tr.row16 { height:21pt }
+      table.sheet0 tr.row17 { height:21pt }
+      table.sheet0 tr.row18 { height:88.5pt }
+      table.sheet0 tr.row19 { height:21pt }
+      table.sheet0 tr.row20 { height:21pt }
+    </style>
+  </head>
+
+  <body>
+<style>
+@page { margin-left: 0.75in; margin-right: 0.75in; margin-top: 1in; margin-bottom: 1in; }
+body { margin-left: 0.75in; margin-right: 0.75in; margin-top: 1in; margin-bottom: 1in; }
+</style>
+    <table border="0" cellpadding="0" cellspacing="0" id="sheet0" class="sheet0 gridlines">
+        <col class="col0">
+        <col class="col1">
+        <col class="col2">
+        <col class="col3">
+        <col class="col4">
+        <col class="col5">
+        <col class="col6">
+        <col class="col7">
+        <col class="col8">
+        <col class="col9">
+        <col class="col10">
+        <col class="col11">
+        <col class="col12">
+        <col class="col13">
+        <col class="col14">
+        <col class="col15">
+        <col class="col16">
+        <col class="col17">
+        <col class="col18">
+        <col class="col19">
+        <col class="col20">
+        <col class="col21">
+        <col class="col22">
+        <col class="col23">
+        <col class="col24">
+        <col class="col25">
+        <col class="col26">
+        <col class="col27">
+        <col class="col28">
+        <col class="col29">
+        <col class="col30">
+        <col class="col31">
+        <col class="col32">
+        <col class="col33">
+        <col class="col34">
+        <col class="col35">
+        <col class="col36">
+        <tbody>
+          <tr class="row0">
+            <td class="column0 style1 s">Year</td>
+            <td class="column1 style2 s style2" colspan="9">2020</td>
+            <td class="column10 style2 s style2" colspan="9">2021</td>
+            <td class="column19 style2 s style2" colspan="9">2022</td>
+            <td class="column28 style2 s style2" colspan="9">2023</td>
+          </tr>
+          <tr class="row1">
+            <td class="column0 style3 s">Type of fixed assets</td>
+            <td class="column1 style4 s style4" colspan="2">Land and buildings</td>
+            <td class="column3 style4 s style4" colspan="2">Plant and machinery</td>
+            <td class="column5 style4 s style4" colspan="2">Other fixed assets</td>
+            <td class="column7 style5 s style5" colspan="3">Total</td>
+            <td class="column10 style4 s style4" colspan="2">Land and buildings</td>
+            <td class="column12 style4 s style4" colspan="2">Plant and machinery</td>
+            <td class="column14 style4 s style4" colspan="2">Other fixed assets</td>
+            <td class="column16 style5 s style5" colspan="3">Total</td>
+            <td class="column19 style4 s style4" colspan="2">Land and buildings</td>
+            <td class="column21 style4 s style4" colspan="2">Plant and machinery</td>
+            <td class="column23 style4 s style4" colspan="2">Other fixed assets</td>
+            <td class="column25 style5 s style5" colspan="3">Total</td>
+            <td class="column28 style4 s style4" colspan="2">Land and buildings</td>
+            <td class="column30 style4 s style4" colspan="2">Plant and machinery</td>
+            <td class="column32 style4 s style4" colspan="2">Other fixed assets</td>
+            <td class="column34 style5 s style5" colspan="3">Total</td>
+          </tr>
+          <tr class="row2">
+            <td class="column0 style6 s style6" rowspan="2">&nbsp;</td>
+            <td class="column1 style7 s">Acquisition of fixed assets</td>
+            <td class="column2 style7 s">Disposal of fixed assets</td>
+            <td class="column3 style7 s">Acquisition of fixed assets</td>
+            <td class="column4 style7 s">Disposal of fixed assets</td>
+            <td class="column5 style7 s">Acquisition of fixed assets</td>
+            <td class="column6 style7 s">Disposal of fixed assets</td>
+            <td class="column7 style7 s">Acquisition of fixed assets</td>
+            <td class="column8 style7 s">Disposal of fixed assets</td>
+            <td class="column9 style7 s">Gross additions to fixed assets</td>
+            <td class="column10 style7 s">Acquisition of fixed assets</td>
+            <td class="column11 style7 s">Disposal of fixed assets</td>
+            <td class="column12 style7 s">Acquisition of fixed assets</td>
+            <td class="column13 style7 s">Disposal of fixed assets</td>
+            <td class="column14 style7 s">Acquisition of fixed assets</td>
+            <td class="column15 style7 s">Disposal of fixed assets</td>
+            <td class="column16 style7 s">Acquisition of fixed assets</td>
+            <td class="column17 style7 s">Disposal of fixed assets</td>
+            <td class="column18 style7 s">Gross additions to fixed assets</td>
+            <td class="column19 style7 s">Acquisition of fixed assets</td>
+            <td class="column20 style7 s">Disposal of fixed assets</td>
+            <td class="column21 style7 s">Acquisition of fixed assets</td>
+            <td class="column22 style7 s">Disposal of fixed assets</td>
+            <td class="column23 style7 s">Acquisition of fixed assets</td>
+            <td class="column24 style7 s">Disposal of fixed assets</td>
+            <td class="column25 style7 s">Acquisition of fixed assets</td>
+            <td class="column26 style7 s">Disposal of fixed assets</td>
+            <td class="column27 style7 s">Gross additions to fixed assets</td>
+            <td class="column28 style7 s">Acquisition of fixed assets</td>
+            <td class="column29 style7 s">Disposal of fixed assets</td>
+            <td class="column30 style7 s">Acquisition of fixed assets</td>
+            <td class="column31 style7 s">Disposal of fixed assets</td>
+            <td class="column32 style7 s">Acquisition of fixed assets</td>
+            <td class="column33 style7 s">Disposal of fixed assets</td>
+            <td class="column34 style7 s">Acquisition of fixed assets</td>
+            <td class="column35 style7 s">Disposal of fixed assets</td>
+            <td class="column36 style7 s">Gross additions to fixed assets</td>
+          </tr>
+          <tr class="row3">
+            <td class="column1 style7 s">HK$ thousand</td>
+            <td class="column2 style7 s">HK$ thousand</td>
+            <td class="column3 style7 s">HK$ thousand</td>
+            <td class="column4 style7 s">HK$ thousand</td>
+            <td class="column5 style7 s">HK$ thousand</td>
+            <td class="column6 style7 s">HK$ thousand</td>
+            <td class="column7 style7 s">HK$ thousand</td>
+            <td class="column8 style7 s">HK$ thousand</td>
+            <td class="column9 style7 s">HK$ thousand</td>
+            <td class="column10 style7 s">HK$ thousand</td>
+            <td class="column11 style7 s">HK$ thousand</td>
+            <td class="column12 style7 s">HK$ thousand</td>
+            <td class="column13 style7 s">HK$ thousand</td>
+            <td class="column14 style7 s">HK$ thousand</td>
+            <td class="column15 style7 s">HK$ thousand</td>
+            <td class="column16 style7 s">HK$ thousand</td>
+            <td class="column17 style7 s">HK$ thousand</td>
+            <td class="column18 style7 s">HK$ thousand</td>
+            <td class="column19 style7 s">HK$ thousand</td>
+            <td class="column20 style7 s">HK$ thousand</td>
+            <td class="column21 style7 s">HK$ thousand</td>
+            <td class="column22 style7 s">HK$ thousand</td>
+            <td class="column23 style7 s">HK$ thousand</td>
+            <td class="column24 style7 s">HK$ thousand</td>
+            <td class="column25 style7 s">HK$ thousand</td>
+            <td class="column26 style7 s">HK$ thousand</td>
+            <td class="column27 style7 s">HK$ thousand</td>
+            <td class="column28 style7 s">HK$ thousand</td>
+            <td class="column29 style7 s">HK$ thousand</td>
+            <td class="column30 style7 s">HK$ thousand</td>
+            <td class="column31 style7 s">HK$ thousand</td>
+            <td class="column32 style7 s">HK$ thousand</td>
+            <td class="column33 style7 s">HK$ thousand</td>
+            <td class="column34 style7 s">HK$ thousand</td>
+            <td class="column35 style7 s">HK$ thousand</td>
+            <td class="column36 style7 s">HK$ thousand</td>
+          </tr>
+          <tr class="row4">
+            <td class="column0 style8 s">Industry Grouping</td>
+            <td class="column1 style9 null style9" colspan="36"></td>
+          </tr>
+          <tr class="row5">
+            <td class="column0 style10 s">All manufacturing industries</td>
+            <td class="column1 style11 n">401,990</td>
+            <td class="column2 style11 n">36,200</td>
+            <td class="column3 style11 n">798,590</td>
+            <td class="column4 style11 n">39,141</td>
+            <td class="column5 style11 n">535,791</td>
+            <td class="column6 style11 n">48,366</td>
+            <td class="column7 style12 n">1,736,371</td>
+            <td class="column8 style12 n">123,707</td>
+            <td class="column9 style12 n">1,612,664</td>
+            <td class="column10 style11 n">406,991</td>
+            <td class="column11 style11 n">50,890</td>
+            <td class="column12 style11 n">1,588,502</td>
+            <td class="column13 style11 n">186,471</td>
+            <td class="column14 style11 n">549,465</td>
+            <td class="column15 style11 n">39,331</td>
+            <td class="column16 style12 n">2,544,958</td>
+            <td class="column17 style12 n">276,693</td>
+            <td class="column18 style12 n">2,268,265</td>
+            <td class="column19 style11 n">307,602</td>
+            <td class="column20 style11 n">321,581</td>
+            <td class="column21 style11 n">929,026</td>
+            <td class="column22 style11 n">33,827</td>
+            <td class="column23 style11 n">424,970</td>
+            <td class="column24 style11 n">20,173</td>
+            <td class="column25 style12 n">1,661,598</td>
+            <td class="column26 style12 n">375,582</td>
+            <td class="column27 style12 n">1,286,016</td>
+            <td class="column28 style11 n">356,191</td>
+            <td class="column29 style11 n">100,281</td>
+            <td class="column30 style11 n">929,621</td>
+            <td class="column31 style11 n">24,697</td>
+            <td class="column32 style11 n">422,708</td>
+            <td class="column33 style11 n">39,628</td>
+            <td class="column34 style12 n">1,708,520</td>
+            <td class="column35 style12 n">164,607</td>
+            <td class="column36 style12 n">1,543,914</td>
+          </tr>
+          <tr class="row6">
+            <td class="column0 style10 s">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Food, beverages and tobacco</td>
+            <td class="column1 style11 n">152,111</td>
+            <td class="column2 style11 n">265</td>
+            <td class="column3 style11 n">330,417</td>
+            <td class="column4 style11 n">1,259</td>
+            <td class="column5 style11 n">245,773</td>
+            <td class="column6 style11 n">5,310</td>
+            <td class="column7 style12 n">728,302</td>
+            <td class="column8 style12 n">6,834</td>
+            <td class="column9 style12 n">721,468</td>
+            <td class="column10 style11 n">148,896</td>
+            <td class="column11 style11 n">0</td>
+            <td class="column12 style11 n">555,091</td>
+            <td class="column13 style11 n">3,890</td>
+            <td class="column14 style11 n">313,753</td>
+            <td class="column15 style11 n">10,766</td>
+            <td class="column16 style12 n">1,017,739</td>
+            <td class="column17 style12 n">14,656</td>
+            <td class="column18 style12 n">1,003,083</td>
+            <td class="column19 style11 n">89,596</td>
+            <td class="column20 style11 n">0</td>
+            <td class="column21 style11 n">366,205</td>
+            <td class="column22 style11 n">8,865</td>
+            <td class="column23 style11 n">174,826</td>
+            <td class="column24 style11 n">5,354</td>
+            <td class="column25 style12 n">630,628</td>
+            <td class="column26 style12 n">14,219</td>
+            <td class="column27 style12 n">616,409</td>
+            <td class="column28 style11 n">156,464</td>
+            <td class="column29 style11 n">1,481</td>
+            <td class="column30 style11 n">348,083</td>
+            <td class="column31 style11 n">7,686</td>
+            <td class="column32 style11 n">198,410</td>
+            <td class="column33 style11 n">16,903</td>
+            <td class="column34 style12 n">702,957</td>
+            <td class="column35 style12 n">26,071</td>
+            <td class="column36 style12 n">676,887</td>
+          </tr>
+          <tr class="row7">
+            <td class="column0 style10 s">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Textiles and wearing apparel</td>
+            <td class="column1 style11 n">0</td>
+            <td class="column2 style11 n">235</td>
+            <td class="column3 style11 n">1,988</td>
+            <td class="column4 style11 n">574</td>
+            <td class="column5 style11 n">9,648</td>
+            <td class="column6 style11 n">76</td>
+            <td class="column7 style12 n">11,636</td>
+            <td class="column8 style12 n">885</td>
+            <td class="column9 style12 n">10,751</td>
+            <td class="column10 style11 n">6,185</td>
+            <td class="column11 style11 n">105</td>
+            <td class="column12 style11 n">9,053</td>
+            <td class="column13 style11 n">1,029</td>
+            <td class="column14 style11 n">9,879</td>
+            <td class="column15 style11 n">573</td>
+            <td class="column16 style12 n">25,117</td>
+            <td class="column17 style12 n">1,707</td>
+            <td class="column18 style12 n">23,410</td>
+            <td class="column19 style11 n">7,243</td>
+            <td class="column20 style11 n">0</td>
+            <td class="column21 style11 n">10,158</td>
+            <td class="column22 style11 n">574</td>
+            <td class="column23 style11 n">8,398</td>
+            <td class="column24 style11 n">0</td>
+            <td class="column25 style12 n">25,799</td>
+            <td class="column26 style12 n">574</td>
+            <td class="column27 style12 n">25,225</td>
+            <td class="column28 style11 n">6,240</td>
+            <td class="column29 style11 n">0</td>
+            <td class="column30 style11 n">9,750</td>
+            <td class="column31 style11 n">574</td>
+            <td class="column32 style11 n">8,608</td>
+            <td class="column33 style11 n">327</td>
+            <td class="column34 style12 n">24,598</td>
+            <td class="column35 style12 n">901</td>
+            <td class="column36 style12 n">23,697</td>
+          </tr>
+          <tr class="row8">
+            <td class="column0 style10 s">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Paper products, printing and reproduction of recorded media</td>
+            <td class="column1 style11 n">27,690</td>
+            <td class="column2 style11 n">0</td>
+            <td class="column3 style11 n">69,067</td>
+            <td class="column4 style11 n">13,852</td>
+            <td class="column5 style11 n">33,915</td>
+            <td class="column6 style11 n">255</td>
+            <td class="column7 style12 n">130,673</td>
+            <td class="column8 style12 n">14,107</td>
+            <td class="column9 style12 n">116,566</td>
+            <td class="column10 style11 n">19,961</td>
+            <td class="column11 style11 n">0</td>
+            <td class="column12 style11 n">101,302</td>
+            <td class="column13 style11 n">1,725</td>
+            <td class="column14 style11 n">26,356</td>
+            <td class="column15 style11 n">188</td>
+            <td class="column16 style12 n">147,619</td>
+            <td class="column17 style12 n">1,913</td>
+            <td class="column18 style12 n">145,706</td>
+            <td class="column19 style11 n">13,397</td>
+            <td class="column20 style11 n">0</td>
+            <td class="column21 style11 n">78,598</td>
+            <td class="column22 style11 n">5,326</td>
+            <td class="column23 style11 n">29,497</td>
+            <td class="column24 style11 n">28</td>
+            <td class="column25 style12 n">121,492</td>
+            <td class="column26 style12 n">5,354</td>
+            <td class="column27 style12 n">116,138</td>
+            <td class="column28 style11 n">19,855</td>
+            <td class="column29 style11 n">0</td>
+            <td class="column30 style11 n">132,968</td>
+            <td class="column31 style11 n">2,242</td>
+            <td class="column32 style11 n">29,622</td>
+            <td class="column33 style11 n">455</td>
+            <td class="column34 style12 n">182,445</td>
+            <td class="column35 style12 n">2,697</td>
+            <td class="column36 style12 n">179,748</td>
+          </tr>
+          <tr class="row9">
+            <td class="column0 style10 s">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Chemicals, rubber, plastics and non-metallic mineral products</td>
+            <td class="column1 style11 n">102,482</td>
+            <td class="column2 style11 n">0</td>
+            <td class="column3 style11 n">216,725</td>
+            <td class="column4 style11 n">2,552</td>
+            <td class="column5 style11 n">79,966</td>
+            <td class="column6 style11 n">2,990</td>
+            <td class="column7 style12 n">399,172</td>
+            <td class="column8 style12 n">5,542</td>
+            <td class="column9 style12 n">393,630</td>
+            <td class="column10 style11 n">79,614</td>
+            <td class="column11 style11 n">49,714</td>
+            <td class="column12 style11 n">698,704</td>
+            <td class="column13 style11 n">1,562</td>
+            <td class="column14 style11 n">59,535</td>
+            <td class="column15 style11 n">3,256</td>
+            <td class="column16 style12 n">837,852</td>
+            <td class="column17 style12 n">54,532</td>
+            <td class="column18 style12 n">783,321</td>
+            <td class="column19 style11 n">163,306</td>
+            <td class="column20 style11 n">321,581</td>
+            <td class="column21 style11 n">314,225</td>
+            <td class="column22 style11 n">6,144</td>
+            <td class="column23 style11 n">84,710</td>
+            <td class="column24 style11 n">849</td>
+            <td class="column25 style12 n">562,241</td>
+            <td class="column26 style12 n">328,575</td>
+            <td class="column27 style12 n">233,666</td>
+            <td class="column28 style11 n">98,507</td>
+            <td class="column29 style11 n">0</td>
+            <td class="column30 style11 n">136,705</td>
+            <td class="column31 style11 n">485</td>
+            <td class="column32 style11 n">61,049</td>
+            <td class="column33 style11 n">1,624</td>
+            <td class="column34 style12 n">296,262</td>
+            <td class="column35 style12 n">2,108</td>
+            <td class="column36 style12 n">294,153</td>
+          </tr>
+          <tr class="row10">
+            <td class="column0 style10 s">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Metal products, machinery and equipment</td>
+            <td class="column1 style11 n">93,191</td>
+            <td class="column2 style11 n">31,348</td>
+            <td class="column3 style11 n">112,069</td>
+            <td class="column4 style11 n">7,661</td>
+            <td class="column5 style11 n">144,193</td>
+            <td class="column6 style11 n">36,399</td>
+            <td class="column7 style12 n">349,454</td>
+            <td class="column8 style12 n">75,409</td>
+            <td class="column9 style12 n">274,045</td>
+            <td class="column10 style11 n">42,628</td>
+            <td class="column11 style11 n">0</td>
+            <td class="column12 style11 n">118,016</td>
+            <td class="column13 style11 n">10,805</td>
+            <td class="column14 style11 n">119,887</td>
+            <td class="column15 style11 n">9,350</td>
+            <td class="column16 style12 n">280,531</td>
+            <td class="column17 style12 n">20,155</td>
+            <td class="column18 style12 n">260,376</td>
+            <td class="column19 style11 n">20,165</td>
+            <td class="column20 style11 n">0</td>
+            <td class="column21 style11 n">103,286</td>
+            <td class="column22 style11 n">9,495</td>
+            <td class="column23 style11 n">114,707</td>
+            <td class="column24 style11 n">11,875</td>
+            <td class="column25 style12 n">238,158</td>
+            <td class="column26 style12 n">21,370</td>
+            <td class="column27 style12 n">216,788</td>
+            <td class="column28 style11 n">49,405</td>
+            <td class="column29 style11 n">98,800</td>
+            <td class="column30 style11 n">209,703</td>
+            <td class="column31 style11 n">12,754</td>
+            <td class="column32 style11 n">108,608</td>
+            <td class="column33 style11 n">20,152</td>
+            <td class="column34 style12 n">367,716</td>
+            <td class="column35 style12 n">131,707</td>
+            <td class="column36 style12 n">236,009</td>
+          </tr>
+          <tr class="row11">
+            <td class="column0 style10 s">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Electrical, electronic and optical products</td>
+            <td class="column1 style11 n">12,892</td>
+            <td class="column2 style11 n">469</td>
+            <td class="column3 style11 n">33,304</td>
+            <td class="column4 style11 n">3,975</td>
+            <td class="column5 style11 n">11,136</td>
+            <td class="column6 style11 n">1,368</td>
+            <td class="column7 style12 n">57,331</td>
+            <td class="column8 style12 n">5,813</td>
+            <td class="column9 style12 n">51,518</td>
+            <td class="column10 style11 n">5,521</td>
+            <td class="column11 style11 n">0</td>
+            <td class="column12 style11 n">13,333</td>
+            <td class="column13 style11 n">102</td>
+            <td class="column14 style11 n">9,030</td>
+            <td class="column15 style11 n">31</td>
+            <td class="column16 style12 n">27,883</td>
+            <td class="column17 style12 n">134</td>
+            <td class="column18 style12 n">27,750</td>
+            <td class="column19 style11 n">7,485</td>
+            <td class="column20 style11 n">0</td>
+            <td class="column21 style11 n">16,808</td>
+            <td class="column22 style11 n">3,423</td>
+            <td class="column23 style11 n">6,012</td>
+            <td class="column24 style11 n">641</td>
+            <td class="column25 style12 n">30,305</td>
+            <td class="column26 style12 n">4,064</td>
+            <td class="column27 style12 n">26,241</td>
+            <td class="column28 style11 n">9,756</td>
+            <td class="column29 style11 n">0</td>
+            <td class="column30 style11 n">22,700</td>
+            <td class="column31 style11 n">957</td>
+            <td class="column32 style11 n">8,231</td>
+            <td class="column33 style11 n">166</td>
+            <td class="column34 style12 n">40,688</td>
+            <td class="column35 style12 n">1,122</td>
+            <td class="column36 style12 n">39,565</td>
+          </tr>
+          <tr class="row12">
+            <td class="column0 style10 s">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Other manufacturing industries</td>
+            <td class="column1 style11 n">13,624</td>
+            <td class="column2 style11 n">3,882</td>
+            <td class="column3 style11 n">35,020</td>
+            <td class="column4 style11 n">9,268</td>
+            <td class="column5 style11 n">11,160</td>
+            <td class="column6 style11 n">1,968</td>
+            <td class="column7 style12 n">59,804</td>
+            <td class="column8 style12 n">15,118</td>
+            <td class="column9 style12 n">44,687</td>
+            <td class="column10 style11 n">104,186</td>
+            <td class="column11 style11 n">1,071</td>
+            <td class="column12 style11 n">93,005</td>
+            <td class="column13 style11 n">167,357</td>
+            <td class="column14 style11 n">11,025</td>
+            <td class="column15 style11 n">15,166</td>
+            <td class="column16 style12 n">208,216</td>
+            <td class="column17 style12 n">183,595</td>
+            <td class="column18 style12 n">24,620</td>
+            <td class="column19 style11 n">6,410</td>
+            <td class="column20 style11 n">0</td>
+            <td class="column21 style11 n">39,746</td>
+            <td class="column22 style11 n">0</td>
+            <td class="column23 style11 n">6,819</td>
+            <td class="column24 style11 n">1,426</td>
+            <td class="column25 style12 n">52,976</td>
+            <td class="column26 style12 n">1,426</td>
+            <td class="column27 style12 n">51,549</td>
+            <td class="column28 style11 n">15,963</td>
+            <td class="column29 style11 n">0</td>
+            <td class="column30 style11 n">69,711</td>
+            <td class="column31 style11 n">0</td>
+            <td class="column32 style11 n">8,180</td>
+            <td class="column33 style11 n">0</td>
+            <td class="column34 style12 n">93,854</td>
+            <td class="column35 style12 n">0</td>
+            <td class="column36 style12 n">93,854</td>
+          </tr>
+          <tr class="row13">
+            <td class="column0 style13 s style13" colspan="37">&nbsp;</td>
+          </tr>
+          <tr class="row14">
+            <td class="column0 style13 s style13" colspan="37">Note(s):</td>
+          </tr>
+          <tr class="row15">
+            <td class="column0 style13 s style13" colspan="37">Figures in the table may not add up to the total due to rounding.</td>
+          </tr>
+          <tr class="row16">
+            <td class="column0 style13 s style13" colspan="37">&nbsp;</td>
+          </tr>
+          <tr class="row17">
+            <td class="column0 style13 s style13" colspan="37">Source:</td>
+          </tr>
+          <tr class="row18">
+            <td class="column0 style13 s style13" colspan="37"><span style="color:#333333; font-family:'Arial'; font-size:11.25pt">Annual Survey of Economic Activities</span><span style="color:#333333; font-family:'Arial'; font-size:11.25pt"><br />
+</span><span style="color:#333333; font-family:'Arial'; font-size:11.25pt">Industrial Production Statistics Section,</span><span style="color:#333333; font-family:'Arial'; font-size:11.25pt"><br />
+</span><span style="color:#333333; font-family:'Arial'; font-size:11.25pt">Census and Statistics Department</span><span style="color:#333333; font-family:'Arial'; font-size:11.25pt"><br />
+</span><span style="color:#333333; font-family:'Arial'; font-size:11.25pt">Tel.: (852) 3903 7246</span><span style="color:#333333; font-family:'Arial'; font-size:11.25pt"><br />
+</span><span style="color:#333333; font-family:'Arial'; font-size:11.25pt">Email: </span><span style="font-weight:bold; color:#28676C; font-family:'Arial'; font-size:11.25pt">manufacturing@censtatd.gov.hk</span></td>
+          </tr>
+          <tr class="row19">
+            <td class="column0 style13 s style13" colspan="37">&nbsp;</td>
+          </tr>
+          <tr class="row20">
+            <td class="column0 style13 s style13" colspan="37">Release Date: 31 December, 2024</td>
+          </tr>
+        </tbody>
+    </table>
+  </body>
+</html>

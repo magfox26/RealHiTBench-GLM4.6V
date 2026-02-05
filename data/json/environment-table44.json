@@ -1,0 +1,514 @@
+[
+  {
+    "Animal": "C1",
+    "Genotype": "WT",
+    "Group": "Control",
+    "Treatment": "Vehicle",
+    "GR Fold Change": "1.8404",
+    "FGF2 Fold Change": "1.2018"
+  },
+  {
+    "Animal": "C2",
+    "Genotype": "WT",
+    "Group": "Control",
+    "Treatment": "Vehicle",
+    "GR Fold Change": "1.5911",
+    "FGF2 Fold Change": "1"
+  },
+  {
+    "Animal": "C3",
+    "Genotype": "WT",
+    "Group": "Control",
+    "Treatment": "Vehicle",
+    "GR Fold Change": "1.7901",
+    "FGF2 Fold Change": "0.5305"
+  },
+  {
+    "Animal": "C4",
+    "Genotype": "WT",
+    "Group": "Control",
+    "Treatment": "Vehicle",
+    "GR Fold Change": "1.6818",
+    "FGF2 Fold Change": "0.5725"
+  },
+  {
+    "Animal": "C5",
+    "Genotype": "WT",
+    "Group": "Control",
+    "Treatment": "Vehicle",
+    "GR Fold Change": "2.5669",
+    "FGF2 Fold Change": "3.2454"
+  },
+  {
+    "Animal": "C6",
+    "Genotype": "WT",
+    "Group": "Control",
+    "Treatment": "Vehicle",
+    "GR Fold Change": "1.7291",
+    "FGF2 Fold Change": "1.1784"
+  },
+  {
+    "Animal": "C7",
+    "Genotype": "WT",
+    "Group": "Control",
+    "Treatment": "Vehicle",
+    "GR Fold Change": "2.7511",
+    "FGF2 Fold Change": "0.7188"
+  },
+  {
+    "Animal": "C8",
+    "Genotype": "WT",
+    "Group": "Control",
+    "Treatment": "Vehicle",
+    "GR Fold Change": "0.9727",
+    "FGF2 Fold Change": "0.7255"
+  },
+  {
+    "Animal": "C9",
+    "Genotype": "WT",
+    "Group": "Control",
+    "Treatment": "Vehicle",
+    "GR Fold Change": "3.0105",
+    "FGF2 Fold Change": "0.7645"
+  },
+  {
+    "Animal": "C10",
+    "Genotype": "WT",
+    "Group": "Control",
+    "Treatment": "Vehicle",
+    "GR Fold Change": "1",
+    "FGF2 Fold Change": "0.6132"
+  },
+  {
+    "Animal": "average",
+    "Genotype": null,
+    "Group": null,
+    "Treatment": null,
+    "GR Fold Change": "1.89337",
+    "FGF2 Fold Change": "1.05506"
+  },
+  {
+    "Animal": "stdv",
+    "Genotype": null,
+    "Group": null,
+    "Treatment": null,
+    "GR Fold Change": "0.687964002692001",
+    "FGF2 Fold Change": "0.80600107554381"
+  },
+  {
+    "Animal": "sterror",
+    "Genotype": null,
+    "Group": null,
+    "Treatment": null,
+    "GR Fold Change": "0.217553319671293",
+    "FGF2 Fold Change": "0.254879919526388"
+  },
+  {
+    "Animal": "C11",
+    "Genotype": "WT",
+    "Group": "Control",
+    "Treatment": "Fluoxetine",
+    "GR Fold Change": "1.366",
+    "FGF2 Fold Change": "0.3912"
+  },
+  {
+    "Animal": "C12",
+    "Genotype": "WT",
+    "Group": "Control",
+    "Treatment": "Fluoxetine",
+    "GR Fold Change": "0.7955",
+    "FGF2 Fold Change": "0.5566"
+  },
+  {
+    "Animal": "C13",
+    "Genotype": "WT",
+    "Group": "Control",
+    "Treatment": "Fluoxetine",
+    "GR Fold Change": "1.879",
+    "FGF2 Fold Change": "1.5913"
+  },
+  {
+    "Animal": "C14",
+    "Genotype": "WT",
+    "Group": "Control",
+    "Treatment": "Fluoxetine",
+    "GR Fold Change": "1.8777",
+    "FGF2 Fold Change": "1.9904"
+  },
+  {
+    "Animal": "C15",
+    "Genotype": "WT",
+    "Group": "Control",
+    "Treatment": "Fluoxetine",
+    "GR Fold Change": "2.5669",
+    "FGF2 Fold Change": "1.1853"
+  },
+  {
+    "Animal": "C16",
+    "Genotype": "WT",
+    "Group": "Control",
+    "Treatment": "Fluoxetine",
+    "GR Fold Change": "0.712",
+    "FGF2 Fold Change": "0.3683"
+  },
+  {
+    "Animal": "C17",
+    "Genotype": "WT",
+    "Group": "Control",
+    "Treatment": "Fluoxetine",
+    "GR Fold Change": "1.4142",
+    "FGF2 Fold Change": "5.1949"
+  },
+  {
+    "Animal": "C18",
+    "Genotype": "WT",
+    "Group": "Control",
+    "Treatment": "Fluoxetine",
+    "GR Fold Change": "0.8706",
+    "FGF2 Fold Change": "0.3753"
+  },
+  {
+    "Animal": "C19",
+    "Genotype": "WT",
+    "Group": "Control",
+    "Treatment": "Fluoxetine",
+    "GR Fold Change": "2.4116",
+    "FGF2 Fold Change": "0.2714"
+  },
+  {
+    "Animal": "C20",
+    "Genotype": "WT",
+    "Group": "Control",
+    "Treatment": "Fluoxetine",
+    "GR Fold Change": "2.0279",
+    "FGF2 Fold Change": "0.3613"
+  },
+  {
+    "Animal": "average",
+    "Genotype": null,
+    "Group": null,
+    "Treatment": null,
+    "GR Fold Change": "1.59214",
+    "FGF2 Fold Change": "1.2286"
+  },
+  {
+    "Animal": "stdv",
+    "Genotype": null,
+    "Group": null,
+    "Treatment": null,
+    "GR Fold Change": "0.665673871101057",
+    "FGF2 Fold Change": "1.51784942819328"
+  },
+  {
+    "Animal": "sterror",
+    "Genotype": null,
+    "Group": null,
+    "Treatment": null,
+    "GR Fold Change": "0.210504561154068",
+    "FGF2 Fold Change": "0.479986133827496"
+  },
+  {
+    "Animal": "351",
+    "Genotype": "WT",
+    "Group": "Stress",
+    "Treatment": "Vehicle",
+    "GR Fold Change": "1",
+    "FGF2 Fold Change": "0.024"
+  },
+  {
+    "Animal": "251",
+    "Genotype": "WT",
+    "Group": "Stress",
+    "Treatment": "Vehicle",
+    "GR Fold Change": "0.9299",
+    "FGF2 Fold Change": "0.0114"
+  },
+  {
+    "Animal": "361",
+    "Genotype": "WT",
+    "Group": "Stress",
+    "Treatment": "Vehicle",
+    "GR Fold Change": "1.1218",
+    "FGF2 Fold Change": "0.0402"
+  },
+  {
+    "Animal": "852",
+    "Genotype": "WT",
+    "Group": "Stress",
+    "Treatment": "Vehicle",
+    "GR Fold Change": "1.9545",
+    "FGF2 Fold Change": "0.0326"
+  },
+  {
+    "Animal": "E1",
+    "Genotype": "WT",
+    "Group": "Stress",
+    "Treatment": "Vehicle",
+    "GR Fold Change": "1.4241",
+    "FGF2 Fold Change": "0.1118"
+  },
+  {
+    "Animal": "E2",
+    "Genotype": "WT",
+    "Group": "Stress",
+    "Treatment": "Vehicle",
+    "GR Fold Change": "1.3195",
+    "FGF2 Fold Change": "0.5677"
+  },
+  {
+    "Animal": "E3",
+    "Genotype": "WT",
+    "Group": "Stress",
+    "Treatment": "Vehicle",
+    "GR Fold Change": "1.4641",
+    "FGF2 Fold Change": "0.0016"
+  },
+  {
+    "Animal": "E4",
+    "Genotype": "WT",
+    "Group": "Stress",
+    "Treatment": "Vehicle",
+    "GR Fold Change": "1.021",
+    "FGF2 Fold Change": "0.0305"
+  },
+  {
+    "Animal": "E5",
+    "Genotype": "WT",
+    "Group": "Stress",
+    "Treatment": "Vehicle",
+    "GR Fold Change": "1.1567",
+    "FGF2 Fold Change": "1.0256"
+  },
+  {
+    "Animal": "average",
+    "Genotype": null,
+    "Group": null,
+    "Treatment": null,
+    "GR Fold Change": "1.26573333333333",
+    "FGF2 Fold Change": "0.205044444444444"
+  },
+  {
+    "Animal": "stdv",
+    "Genotype": null,
+    "Group": null,
+    "Treatment": null,
+    "GR Fold Change": "0.319690752916002",
+    "FGF2 Fold Change": "0.355767909286065"
+  },
+  {
+    "Animal": "sterror",
+    "Genotype": null,
+    "Group": null,
+    "Treatment": null,
+    "GR Fold Change": "0.106563584305334",
+    "FGF2 Fold Change": "0.118589303095355"
+  },
+  {
+    "Animal": "211",
+    "Genotype": "WT",
+    "Group": "Stress",
+    "Treatment": "Fluoxetine",
+    "GR Fold Change": "0.7487",
+    "FGF2 Fold Change": "0.4454"
+  },
+  {
+    "Animal": "291",
+    "Genotype": "WT",
+    "Group": "Stress",
+    "Treatment": "Fluoxetine",
+    "GR Fold Change": "1.8718",
+    "FGF2 Fold Change": "0.1006"
+  },
+  {
+    "Animal": "111",
+    "Genotype": "WT",
+    "Group": "Stress",
+    "Treatment": "Fluoxetine",
+    "GR Fold Change": "0.4423",
+    "FGF2 Fold Change": "0.0594"
+  },
+  {
+    "Animal": "672",
+    "Genotype": "WT",
+    "Group": "Stress",
+    "Treatment": "Fluoxetine",
+    "GR Fold Change": "0.8478",
+    "FGF2 Fold Change": "0.0836"
+  },
+  {
+    "Animal": "E6",
+    "Genotype": "WT",
+    "Group": "Stress",
+    "Treatment": "Fluoxetine",
+    "GR Fold Change": "0.4763",
+    "FGF2 Fold Change": "0.5987"
+  },
+  {
+    "Animal": "E7",
+    "Genotype": "WT",
+    "Group": "Stress",
+    "Treatment": "Fluoxetine",
+    "GR Fold Change": "1.7411",
+    "FGF2 Fold Change": "0.8354"
+  },
+  {
+    "Animal": "E8",
+    "Genotype": "WT",
+    "Group": "Stress",
+    "Treatment": "Fluoxetine",
+    "GR Fold Change": "1.366",
+    "FGF2 Fold Change": "0.6463"
+  },
+  {
+    "Animal": "E9",
+    "Genotype": "WT",
+    "Group": "Stress",
+    "Treatment": "Fluoxetine",
+    "GR Fold Change": "1.0281",
+    "FGF2 Fold Change": "1.3769"
+  },
+  {
+    "Animal": "E10",
+    "Genotype": "WT",
+    "Group": "Stress",
+    "Treatment": "Fluoxetine",
+    "GR Fold Change": "0.79",
+    "FGF2 Fold Change": "0.409"
+  },
+  {
+    "Animal": "average",
+    "Genotype": null,
+    "Group": null,
+    "Treatment": null,
+    "GR Fold Change": "1.03467777777778",
+    "FGF2 Fold Change": "0.506144444444444"
+  },
+  {
+    "Animal": "stdv",
+    "Genotype": null,
+    "Group": null,
+    "Treatment": null,
+    "GR Fold Change": "0.518277753183025",
+    "FGF2 Fold Change": "0.425815717509086"
+  },
+  {
+    "Animal": "sterror",
+    "Genotype": null,
+    "Group": null,
+    "Treatment": null,
+    "GR Fold Change": "0.172759251061008",
+    "FGF2 Fold Change": "0.141938572503029"
+  },
+  {
+    "Animal": "411",
+    "Genotype": "FGF2KO",
+    "Group": "Stress",
+    "Treatment": "Vehicle",
+    "GR Fold Change": "0.442",
+    "FGF2 Fold Change": "0.022"
+  },
+  {
+    "Animal": "141",
+    "Genotype": "FGF2KO",
+    "Group": "Stress",
+    "Treatment": "Vehicle",
+    "GR Fold Change": "0.5212",
+    "FGF2 Fold Change": "0.4395"
+  },
+  {
+    "Animal": "151",
+    "Genotype": "FGF2KO",
+    "Group": "Stress",
+    "Treatment": "Vehicle",
+    "GR Fold Change": "0.4309",
+    "FGF2 Fold Change": "0.0399"
+  },
+  {
+    "Animal": "802",
+    "Genotype": "FGF2KO",
+    "Group": "Stress",
+    "Treatment": "Vehicle",
+    "GR Fold Change": "0.5771",
+    "FGF2 Fold Change": "0"
+  },
+  {
+    "Animal": "average",
+    "Genotype": null,
+    "Group": null,
+    "Treatment": null,
+    "GR Fold Change": "0.4928",
+    "FGF2 Fold Change": "0.12535"
+  },
+  {
+    "Animal": "stdv",
+    "Genotype": null,
+    "Group": null,
+    "Treatment": null,
+    "GR Fold Change": "0.0691020983762432",
+    "FGF2 Fold Change": "0.210068060399481"
+  },
+  {
+    "Animal": "sterror",
+    "Genotype": null,
+    "Group": null,
+    "Treatment": null,
+    "GR Fold Change": "0.0345510491881216",
+    "FGF2 Fold Change": "0.105034030199741"
+  },
+  {
+    "Animal": "201",
+    "Genotype": "FGF2KO",
+    "Group": "Stress",
+    "Treatment": "Fluoxetine",
+    "GR Fold Change": "0.326",
+    "FGF2 Fold Change": "0.4567"
+  },
+  {
+    "Animal": "181",
+    "Genotype": "FGF2KO",
+    "Group": "Stress",
+    "Treatment": "Fluoxetine",
+    "GR Fold Change": "0.4278",
+    "FGF2 Fold Change": "0.0309"
+  },
+  {
+    "Animal": "391",
+    "Genotype": "FGF2KO",
+    "Group": "Stress",
+    "Treatment": "Fluoxetine",
+    "GR Fold Change": "0.6638",
+    "FGF2 Fold Change": "0.0134"
+  },
+  {
+    "Animal": "702",
+    "Genotype": "FGF2KO",
+    "Group": "Stress",
+    "Treatment": "Fluoxetine",
+    "GR Fold Change": "0.4217",
+    "FGF2 Fold Change": "0.0058"
+  },
+  {
+    "Animal": "average",
+    "Genotype": null,
+    "Group": null,
+    "Treatment": null,
+    "GR Fold Change": "0.459825",
+    "FGF2 Fold Change": "0.1267"
+  },
+  {
+    "Animal": "stdv",
+    "Genotype": null,
+    "Group": null,
+    "Treatment": null,
+    "GR Fold Change": "0.143752156505563",
+    "FGF2 Fold Change": "0.220250872113294"
+  },
+  {
+    "Animal": "sterror",
+    "Genotype": null,
+    "Group": null,
+    "Treatment": null,
+    "GR Fold Change": "0.0718760782527817",
+    "FGF2 Fold Change": "0.110125436056647"
+  }
+]

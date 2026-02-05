@@ -1,0 +1,1962 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <meta name="generator" content="PhpSpreadsheet, https://github.com/PHPOffice/PhpSpreadsheet">
+      <meta name="author" content="Apache POI" />
+      <meta name="company" content="Microsoft Corporation" />
+    <style type="text/css">
+      html { font-family:Calibri, Arial, Helvetica, sans-serif; font-size:11pt; background-color:white }
+      a.comment-indicator:hover + div.comment { background:#ffd; position:absolute; display:block; border:1px solid black; padding:0.5em }
+      a.comment-indicator { background:red; display:inline-block; border:1px solid black; width:0.5em; height:0.5em }
+      div.comment { display:none }
+      table { border-collapse:collapse; page-break-after:always }
+      .gridlines td { border:1px dotted black }
+      .gridlines th { border:1px dotted black }
+      .b { text-align:center }
+      .e { text-align:center }
+      .f { text-align:right }
+      .inlineStr { text-align:left }
+      .n { text-align:right }
+      .s { text-align:left }
+      td.style0 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      th.style0 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      td.style1 { vertical-align:bottom; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      th.style1 { vertical-align:bottom; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      td.style2 { vertical-align:top; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      th.style2 { vertical-align:top; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      td.style3 { vertical-align:top; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      th.style3 { vertical-align:top; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      td.style4 { vertical-align:top; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      th.style4 { vertical-align:top; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      td.style5 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      th.style5 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      td.style6 { vertical-align:bottom; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      th.style6 { vertical-align:bottom; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      td.style7 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      th.style7 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      td.style8 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      th.style8 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      td.style9 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      th.style9 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      td.style10 { vertical-align:bottom; text-align:left; padding-left:9px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      th.style10 { vertical-align:bottom; text-align:left; padding-left:9px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      td.style11 { vertical-align:bottom; text-align:left; padding-left:18px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      th.style11 { vertical-align:bottom; text-align:left; padding-left:18px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      td.style12 { vertical-align:bottom; text-align:left; padding-left:27px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      th.style12 { vertical-align:bottom; text-align:left; padding-left:27px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      td.style13 { vertical-align:bottom; text-align:left; padding-left:36px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      th.style13 { vertical-align:bottom; text-align:left; padding-left:36px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      td.style14 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      th.style14 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      table.sheet0 col.col0 { width:42pt }
+      table.sheet0 col.col1 { width:332.1111073pt }
+      table.sheet0 col.col2 { width:71.16666585pt }
+      table.sheet0 col.col3 { width:71.16666585pt }
+      table.sheet0 col.col4 { width:71.16666585pt }
+      table.sheet0 col.col5 { width:71.16666585pt }
+      table.sheet0 col.col6 { width:71.16666585pt }
+      table.sheet0 col.col7 { width:71.16666585pt }
+      table.sheet0 col.col8 { width:71.16666585pt }
+      table.sheet0 col.col9 { width:71.16666585pt }
+      table.sheet0 col.col10 { width:71.16666585pt }
+      table.sheet0 col.col11 { width:71.16666585pt }
+      table.sheet0 col.col12 { width:71.16666585pt }
+      table.sheet0 col.col13 { width:71.16666585pt }
+      table.sheet0 col.col14 { width:71.16666585pt }
+      table.sheet0 col.col15 { width:71.16666585pt }
+      table.sheet0 col.col16 { width:71.16666585pt }
+      table.sheet0 col.col17 { width:71.16666585pt }
+      table.sheet0 col.col18 { width:71.16666585pt }
+      table.sheet0 col.col19 { width:71.16666585pt }
+      table.sheet0 col.col20 { width:71.16666585pt }
+      table.sheet0 col.col21 { width:71.16666585pt }
+      table.sheet0 col.col22 { width:71.16666585pt }
+      table.sheet0 col.col23 { width:71.16666585pt }
+      table.sheet0 col.col24 { width:71.16666585pt }
+      table.sheet0 col.col25 { width:71.16666585pt }
+      table.sheet0 col.col26 { width:71.16666585pt }
+      table.sheet0 col.col27 { width:71.16666585pt }
+      table.sheet0 col.col28 { width:71.16666585pt }
+      table.sheet0 col.col29 { width:71.16666585pt }
+      table.sheet0 col.col30 { width:71.16666585pt }
+      table.sheet0 col.col31 { width:71.16666585pt }
+      table.sheet0 col.col32 { width:71.16666585pt }
+      table.sheet0 col.col33 { width:71.16666585pt }
+      table.sheet0 col.col34 { width:71.16666585pt }
+      table.sheet0 col.col35 { width:71.16666585pt }
+      table.sheet0 tr { height:15pt }
+      table.sheet0 tr.row0 { height:28pt }
+      table.sheet0 tr.row1 { height:15.75pt }
+      table.sheet0 tr.row3 { height:63pt }
+      table.sheet0 tr.row4 { height:63pt }
+      table.sheet0 tr.row37 { height:17pt }
+      table.sheet0 tr.row40 { height:17pt }
+      table.sheet0 tr.row46 { height:15.75pt }
+      table.sheet0 tr.row47 { height:15.75pt }
+      table.sheet0 tr.row48 { height:15.75pt }
+    </style>
+  </head>
+
+  <body>
+<style>
+@page { margin-left: 0.7in; margin-right: 0.7in; margin-top: 0.75in; margin-bottom: 0.75in; }
+body { margin-left: 0.7in; margin-right: 0.7in; margin-top: 0.75in; margin-bottom: 0.75in; }
+</style>
+    <table border="0" cellpadding="0" cellspacing="0" id="sheet0" class="sheet0 gridlines">
+        <col class="col0">
+        <col class="col1">
+        <col class="col2">
+        <col class="col3">
+        <col class="col4">
+        <col class="col5">
+        <col class="col6">
+        <col class="col7">
+        <col class="col8">
+        <col class="col9">
+        <col class="col10">
+        <col class="col11">
+        <col class="col12">
+        <col class="col13">
+        <col class="col14">
+        <col class="col15">
+        <col class="col16">
+        <col class="col17">
+        <col class="col18">
+        <col class="col19">
+        <col class="col20">
+        <col class="col21">
+        <col class="col22">
+        <col class="col23">
+        <col class="col24">
+        <col class="col25">
+        <col class="col26">
+        <col class="col27">
+        <col class="col28">
+        <col class="col29">
+        <col class="col30">
+        <col class="col31">
+        <col class="col32">
+        <col class="col33">
+        <col class="col34">
+        <col class="col35">
+        <tbody>
+          <tr class="row0">
+            <td class="column0 style2 s"></td>
+            <td class="column1 style3 s style3" colspan="35">Consumer Price Index for Urban Wage Earners and Clerical Workers (CPI-W):  U.S. city average, by expenditure category, December 2023</td>
+          </tr>
+          <tr class="row1">
+            <td class="column0 style2 s"></td>
+            <td class="column1 style3 s style3" colspan="35">[1982-84=100, unless otherwise noted]</td>
+          </tr>
+          <tr class="row2">
+            <td class="column0 style2 s"></td>
+            <td class="column1 style4 s"></td>
+            <td class="column2 style5 null"></td>
+            <td class="column3 style5 null"></td>
+            <td class="column4 style5 null"></td>
+            <td class="column5 style5 null"></td>
+            <td class="column6 style5 null"></td>
+            <td class="column7 style5 null"></td>
+            <td class="column8 style5 null"></td>
+            <td class="column9 style5 null"></td>
+            <td class="column10 style5 null"></td>
+            <td class="column11 style5 null"></td>
+            <td class="column12 style5 null"></td>
+            <td class="column13 style5 null"></td>
+            <td class="column14 style5 null"></td>
+            <td class="column15 style5 null"></td>
+            <td class="column16 style5 null"></td>
+            <td class="column17 style5 null"></td>
+            <td class="column18 style5 null"></td>
+            <td class="column19 style5 null"></td>
+            <td class="column20 style5 null"></td>
+            <td class="column21 style5 null"></td>
+            <td class="column22 style5 null"></td>
+            <td class="column23 style5 null"></td>
+            <td class="column24 style5 null"></td>
+            <td class="column25 style5 null"></td>
+            <td class="column26 style5 null"></td>
+            <td class="column27 style5 null"></td>
+            <td class="column28 style5 null"></td>
+            <td class="column29 style5 null"></td>
+            <td class="column30 style5 null"></td>
+            <td class="column31 style5 null"></td>
+            <td class="column32 style5 null"></td>
+            <td class="column33 style5 null"></td>
+            <td class="column34 style5 null"></td>
+            <td class="column35 style5 null"></td>
+          </tr>
+          <tr class="row3">
+            <td class="column0 style6 s">Indent Level</td>
+            <td class="column1 style6 s">Expenditure category</td>
+            <td class="column2 style6 s">Relative<br />
+importance<br />
+Nov.<br />
+2023</td>
+            <td class="column3 style6 s style6" colspan="13">Unadjusted indexes</td>
+            <td class="column16 style6 s style6" colspan="13">Seasonally adjusted indexes</td>
+            <td class="column29 style6 s style6" colspan="4">Unadjusted percent change</td>
+            <td class="column33 style6 s style6" colspan="3">Seasonally adjusted percent change</td>
+          </tr>
+          <tr class="row4">
+            <td class="column0 style5 null"></td>
+            <td class="column1 style5 null"></td>
+            <td class="column2 style5 null"></td>
+            <td class="column3 style6 s">Dec.<br />
+2022</td>
+            <td class="column4 style6 s">Jan.<br />
+2023</td>
+            <td class="column5 style6 s">Feb.<br />
+2023</td>
+            <td class="column6 style6 s">Mar.<br />
+2023</td>
+            <td class="column7 style6 s">Apr.<br />
+2023</td>
+            <td class="column8 style6 s">May<br />
+2023</td>
+            <td class="column9 style6 s">Jun.<br />
+2023</td>
+            <td class="column10 style6 s">Jul.<br />
+2023</td>
+            <td class="column11 style6 s">Aug.<br />
+2023</td>
+            <td class="column12 style6 s">Sep.<br />
+2023</td>
+            <td class="column13 style6 s">Oct.<br />
+2023</td>
+            <td class="column14 style6 s">Nov.<br />
+2023</td>
+            <td class="column15 style6 s">Dec.<br />
+2023</td>
+            <td class="column16 style6 s">Dec.<br />
+2022</td>
+            <td class="column17 style6 s">Jan.<br />
+2023</td>
+            <td class="column18 style6 s">Feb.<br />
+2023</td>
+            <td class="column19 style6 s">Mar.<br />
+2023</td>
+            <td class="column20 style6 s">Apr.<br />
+2023</td>
+            <td class="column21 style6 s">May<br />
+2023</td>
+            <td class="column22 style6 s">Jun.<br />
+2023</td>
+            <td class="column23 style6 s">Jul.<br />
+2023</td>
+            <td class="column24 style6 s">Aug.<br />
+2023</td>
+            <td class="column25 style6 s">Sep.<br />
+2023</td>
+            <td class="column26 style6 s">Oct.<br />
+2023</td>
+            <td class="column27 style6 s">Nov.<br />
+2023</td>
+            <td class="column28 style6 s">Dec.<br />
+2023</td>
+            <td class="column29 style6 s">Dec.<br />
+2022-<br />
+Dec.<br />
+2023</td>
+            <td class="column30 style6 s">Sep.<br />
+2023-<br />
+Oct.<br />
+2023</td>
+            <td class="column31 style6 s">Oct.<br />
+2023-<br />
+Nov.<br />
+2023</td>
+            <td class="column32 style6 s">Nov.<br />
+2023-<br />
+Dec.<br />
+2023</td>
+            <td class="column33 style6 s">Sep.<br />
+2023-<br />
+Oct.<br />
+2023</td>
+            <td class="column34 style6 s">Oct.<br />
+2023-<br />
+Nov.<br />
+2023</td>
+            <td class="column35 style6 s">Nov.<br />
+2023-<br />
+Dec.<br />
+2023</td>
+          </tr>
+          <tr class="row5">
+            <td class="column0 style2 s"></td>
+            <td class="column1 style4 s"></td>
+            <td class="column2 style5 null"></td>
+            <td class="column3 style5 null"></td>
+            <td class="column4 style5 null"></td>
+            <td class="column5 style5 null"></td>
+            <td class="column6 style5 null"></td>
+            <td class="column7 style5 null"></td>
+            <td class="column8 style5 null"></td>
+            <td class="column9 style5 null"></td>
+            <td class="column10 style5 null"></td>
+            <td class="column11 style5 null"></td>
+            <td class="column12 style5 null"></td>
+            <td class="column13 style5 null"></td>
+            <td class="column14 style5 null"></td>
+            <td class="column15 style5 null"></td>
+            <td class="column16 style5 null"></td>
+            <td class="column17 style5 null"></td>
+            <td class="column18 style5 null"></td>
+            <td class="column19 style5 null"></td>
+            <td class="column20 style5 null"></td>
+            <td class="column21 style5 null"></td>
+            <td class="column22 style5 null"></td>
+            <td class="column23 style5 null"></td>
+            <td class="column24 style5 null"></td>
+            <td class="column25 style5 null"></td>
+            <td class="column26 style5 null"></td>
+            <td class="column27 style5 null"></td>
+            <td class="column28 style5 null"></td>
+            <td class="column29 style5 null"></td>
+            <td class="column30 style5 null"></td>
+            <td class="column31 style5 null"></td>
+            <td class="column32 style5 null"></td>
+            <td class="column33 style5 null"></td>
+            <td class="column34 style5 null"></td>
+            <td class="column35 style5 null"></td>
+          </tr>
+          <tr class="row6">
+            <td class="column0 style7 n">0</td>
+            <td class="column1 style8 s">All items</td>
+            <td class="column2 style9 n">100.000</td>
+            <td class="column3 style9 n">291.051</td>
+            <td class="column4 style9 n">293.565</td>
+            <td class="column5 style9 n">295.057</td>
+            <td class="column6 style9 n">296.021</td>
+            <td class="column7 style9 n">297.730</td>
+            <td class="column8 style9 n">298.382</td>
+            <td class="column9 style9 n">299.394</td>
+            <td class="column10 style9 n">299.899</td>
+            <td class="column11 style9 n">301.551</td>
+            <td class="column12 style9 n">302.257</td>
+            <td class="column13 style9 n">302.071</td>
+            <td class="column14 style9 n">301.224</td>
+            <td class="column15 style9 n">300.728</td>
+            <td class="column16 style9 n">293.510</td>
+            <td class="column17 style9 n">295.116</td>
+            <td class="column18 style9 n">296.038</td>
+            <td class="column19 style9 n">295.999</td>
+            <td class="column20 style9 n">297.265</td>
+            <td class="column21 style9 n">297.393</td>
+            <td class="column22 style9 n">297.981</td>
+            <td class="column23 style9 n">298.422</td>
+            <td class="column24 style9 n">300.747</td>
+            <td class="column25 style9 n">301.917</td>
+            <td class="column26 style9 n">301.989</td>
+            <td class="column27 style9 n">302.111</td>
+            <td class="column28 style9 n">303.042</td>
+            <td class="column29 style14 n">03.3</td>
+            <td class="column30 style14 n">-0.1</td>
+            <td class="column31 style14 n">-0.3</td>
+            <td class="column32 style14 n">-0.2</td>
+            <td class="column33 style14 n">00.0</td>
+            <td class="column34 style14 n">00.0</td>
+            <td class="column35 style14 n">00.3</td>
+          </tr>
+          <tr class="row7">
+            <td class="column0 style7 n">1</td>
+            <td class="column1 style10 s">Food</td>
+            <td class="column2 style9 n">14.961</td>
+            <td class="column3 style9 n">315.301</td>
+            <td class="column4 style9 n">317.491</td>
+            <td class="column5 style9 n">318.844</td>
+            <td class="column6 style9 n">319.142</td>
+            <td class="column7 style9 n">320.050</td>
+            <td class="column8 style9 n">320.761</td>
+            <td class="column9 style9 n">321.211</td>
+            <td class="column10 style9 n">322.158</td>
+            <td class="column11 style9 n">322.809</td>
+            <td class="column12 style9 n">323.404</td>
+            <td class="column13 style9 n">324.415</td>
+            <td class="column14 style9 n">323.907</td>
+            <td class="column15 style9 n">324.158</td>
+            <td class="column16 style9 n">316.585</td>
+            <td class="column17 style9 n">318.048</td>
+            <td class="column18 style9 n">319.254</td>
+            <td class="column19 style9 n">319.305</td>
+            <td class="column20 style9 n">319.559</td>
+            <td class="column21 style9 n">320.254</td>
+            <td class="column22 style9 n">320.710</td>
+            <td class="column23 style9 n">321.472</td>
+            <td class="column24 style9 n">322.325</td>
+            <td class="column25 style9 n">323.052</td>
+            <td class="column26 style9 n">324.069</td>
+            <td class="column27 style9 n">324.780</td>
+            <td class="column28 style9 n">325.514</td>
+            <td class="column29 style14 n">02.8</td>
+            <td class="column30 style14 n">00.3</td>
+            <td class="column31 style14 n">-0.2</td>
+            <td class="column32 style14 n">00.1</td>
+            <td class="column33 style14 n">00.3</td>
+            <td class="column34 style14 n">00.2</td>
+            <td class="column35 style14 n">00.2</td>
+          </tr>
+          <tr class="row8">
+            <td class="column0 style7 n">2</td>
+            <td class="column1 style11 s">Food at home</td>
+            <td class="column2 style9 n">09.383</td>
+            <td class="column3 style9 n">298.793</td>
+            <td class="column4 style9 n">300.985</td>
+            <td class="column5 style9 n">301.963</td>
+            <td class="column6 style9 n">301.300</td>
+            <td class="column7 style9 n">301.898</td>
+            <td class="column8 style9 n">302.052</td>
+            <td class="column9 style9 n">302.071</td>
+            <td class="column10 style9 n">303.138</td>
+            <td class="column11 style9 n">303.517</td>
+            <td class="column12 style9 n">303.698</td>
+            <td class="column13 style9 n">304.522</td>
+            <td class="column14 style9 n">302.950</td>
+            <td class="column15 style9 n">302.702</td>
+            <td class="column16 style9 n">300.781</td>
+            <td class="column17 style9 n">301.814</td>
+            <td class="column18 style9 n">302.575</td>
+            <td class="column19 style9 n">301.543</td>
+            <td class="column20 style9 n">301.165</td>
+            <td class="column21 style9 n">301.296</td>
+            <td class="column22 style9 n">301.323</td>
+            <td class="column23 style9 n">302.114</td>
+            <td class="column24 style9 n">302.795</td>
+            <td class="column25 style9 n">303.173</td>
+            <td class="column26 style9 n">304.005</td>
+            <td class="column27 style9 n">304.252</td>
+            <td class="column28 style9 n">304.724</td>
+            <td class="column29 style14 n">01.3</td>
+            <td class="column30 style14 n">00.3</td>
+            <td class="column31 style14 n">-0.5</td>
+            <td class="column32 style14 n">-0.1</td>
+            <td class="column33 style14 n">00.3</td>
+            <td class="column34 style14 n">00.1</td>
+            <td class="column35 style14 n">00.2</td>
+          </tr>
+          <tr class="row9">
+            <td class="column0 style7 n">3</td>
+            <td class="column1 style12 s">Cereals and bakery products</td>
+            <td class="column2 style9 n">01.255</td>
+            <td class="column3 style9 n">347.054</td>
+            <td class="column4 style9 n">351.222</td>
+            <td class="column5 style9 n">352.917</td>
+            <td class="column6 style9 n">356.030</td>
+            <td class="column7 style9 n">356.105</td>
+            <td class="column8 style9 n">356.230</td>
+            <td class="column9 style9 n">357.622</td>
+            <td class="column10 style9 n">358.756</td>
+            <td class="column11 style9 n">359.179</td>
+            <td class="column12 style9 n">357.962</td>
+            <td class="column13 style9 n">357.857</td>
+            <td class="column14 style9 n">357.909</td>
+            <td class="column15 style9 n">355.872</td>
+            <td class="column16 style9 n">349.527</td>
+            <td class="column17 style9 n">352.204</td>
+            <td class="column18 style9 n">353.450</td>
+            <td class="column19 style9 n">355.589</td>
+            <td class="column20 style9 n">356.286</td>
+            <td class="column21 style9 n">355.924</td>
+            <td class="column22 style9 n">356.848</td>
+            <td class="column23 style9 n">356.819</td>
+            <td class="column24 style9 n">358.895</td>
+            <td class="column25 style9 n">357.026</td>
+            <td class="column26 style9 n">357.407</td>
+            <td class="column27 style9 n">358.676</td>
+            <td class="column28 style9 n">358.410</td>
+            <td class="column29 style14 n">02.5</td>
+            <td class="column30 style14 n">00.0</td>
+            <td class="column31 style14 n">00.0</td>
+            <td class="column32 style14 n">-0.6</td>
+            <td class="column33 style14 n">00.1</td>
+            <td class="column34 style14 n">00.4</td>
+            <td class="column35 style14 n">-0.1</td>
+          </tr>
+          <tr class="row10">
+            <td class="column0 style7 n">3</td>
+            <td class="column1 style12 s">Meats, poultry, fish, and eggs</td>
+            <td class="column2 style9 n">02.127</td>
+            <td class="column3 style9 n">321.007</td>
+            <td class="column4 style9 n">322.660</td>
+            <td class="column5 style9 n">321.656</td>
+            <td class="column6 style9 n">318.347</td>
+            <td class="column7 style9 n">319.266</td>
+            <td class="column8 style9 n">316.312</td>
+            <td class="column9 style9 n">316.309</td>
+            <td class="column10 style9 n">318.380</td>
+            <td class="column11 style9 n">319.883</td>
+            <td class="column12 style9 n">320.839</td>
+            <td class="column13 style9 n">323.313</td>
+            <td class="column14 style9 n">320.762</td>
+            <td class="column15 style9 n">321.032</td>
+            <td class="column16 style9 n">323.024</td>
+            <td class="column17 style9 n">324.873</td>
+            <td class="column18 style9 n">324.346</td>
+            <td class="column19 style9 n">319.894</td>
+            <td class="column20 style9 n">318.996</td>
+            <td class="column21 style9 n">315.351</td>
+            <td class="column22 style9 n">314.383</td>
+            <td class="column23 style9 n">316.007</td>
+            <td class="column24 style9 n">318.229</td>
+            <td class="column25 style9 n">319.855</td>
+            <td class="column26 style9 n">322.304</td>
+            <td class="column27 style9 n">321.490</td>
+            <td class="column28 style9 n">323.019</td>
+            <td class="column29 style14 n">00.0</td>
+            <td class="column30 style14 n">00.8</td>
+            <td class="column31 style14 n">-0.8</td>
+            <td class="column32 style14 n">00.1</td>
+            <td class="column33 style14 n">00.8</td>
+            <td class="column34 style14 n">-0.3</td>
+            <td class="column35 style14 n">00.5</td>
+          </tr>
+          <tr class="row11">
+            <td class="column0 style7 n">3</td>
+            <td class="column1 style12 s">Dairy and related products</td>
+            <td class="column2 style9 n">00.818</td>
+            <td class="column3 style9 n">269.159</td>
+            <td class="column4 style9 n">269.544</td>
+            <td class="column5 style9 n">269.962</td>
+            <td class="column6 style9 n">268.610</td>
+            <td class="column7 style9 n">268.477</td>
+            <td class="column8 style9 n">267.139</td>
+            <td class="column9 style9 n">265.788</td>
+            <td class="column10 style9 n">266.537</td>
+            <td class="column11 style9 n">265.767</td>
+            <td class="column12 style9 n">266.080</td>
+            <td class="column13 style9 n">266.036</td>
+            <td class="column14 style9 n">265.353</td>
+            <td class="column15 style9 n">265.541</td>
+            <td class="column16 style9 n">270.618</td>
+            <td class="column17 style9 n">270.437</td>
+            <td class="column18 style9 n">270.997</td>
+            <td class="column19 style9 n">270.272</td>
+            <td class="column20 style9 n">268.215</td>
+            <td class="column21 style9 n">265.325</td>
+            <td class="column22 style9 n">264.473</td>
+            <td class="column23 style9 n">265.748</td>
+            <td class="column24 style9 n">264.631</td>
+            <td class="column25 style9 n">265.263</td>
+            <td class="column26 style9 n">266.183</td>
+            <td class="column27 style9 n">266.359</td>
+            <td class="column28 style9 n">266.980</td>
+            <td class="column29 style14 n">-1.3</td>
+            <td class="column30 style14 n">00.0</td>
+            <td class="column31 style14 n">-0.3</td>
+            <td class="column32 style14 n">00.1</td>
+            <td class="column33 style14 n">00.3</td>
+            <td class="column34 style14 n">00.1</td>
+            <td class="column35 style14 n">00.2</td>
+          </tr>
+          <tr class="row12">
+            <td class="column0 style7 n">3</td>
+            <td class="column1 style12 s">Fruits and vegetables</td>
+            <td class="column2 style9 n">01.609</td>
+            <td class="column3 style9 n">346.110</td>
+            <td class="column4 style9 n">347.900</td>
+            <td class="column5 style9 n">347.715</td>
+            <td class="column6 style9 n">342.105</td>
+            <td class="column7 style9 n">342.875</td>
+            <td class="column8 style9 n">348.070</td>
+            <td class="column9 style9 n">347.706</td>
+            <td class="column10 style9 n">348.434</td>
+            <td class="column11 style9 n">347.635</td>
+            <td class="column12 style9 n">348.408</td>
+            <td class="column13 style9 n">348.865</td>
+            <td class="column14 style9 n">347.825</td>
+            <td class="column15 style9 n">346.928</td>
+            <td class="column16 style9 n">348.662</td>
+            <td class="column17 style9 n">346.517</td>
+            <td class="column18 style9 n">347.152</td>
+            <td class="column19 style9 n">342.231</td>
+            <td class="column20 style9 n">340.485</td>
+            <td class="column21 style9 n">345.608</td>
+            <td class="column22 style9 n">347.772</td>
+            <td class="column23 style9 n">349.150</td>
+            <td class="column24 style9 n">348.625</td>
+            <td class="column25 style9 n">348.942</td>
+            <td class="column26 style9 n">348.591</td>
+            <td class="column27 style9 n">350.030</td>
+            <td class="column28 style9 n">349.603</td>
+            <td class="column29 style14 n">00.2</td>
+            <td class="column30 style14 n">00.1</td>
+            <td class="column31 style14 n">-0.3</td>
+            <td class="column32 style14 n">-0.3</td>
+            <td class="column33 style14 n">-0.1</td>
+            <td class="column34 style14 n">00.4</td>
+            <td class="column35 style14 n">-0.1</td>
+          </tr>
+          <tr class="row13">
+            <td class="column0 style7 n">3</td>
+            <td class="column1 style12 s">Nonalcoholic beverages and beverage materials</td>
+            <td class="column2 style9 n">01.185</td>
+            <td class="column3 style9 n">210.588</td>
+            <td class="column4 style9 n">213.537</td>
+            <td class="column5 style9 n">215.974</td>
+            <td class="column6 style9 n">216.583</td>
+            <td class="column7 style9 n">216.637</td>
+            <td class="column8 style9 n">216.612</td>
+            <td class="column9 style9 n">216.581</td>
+            <td class="column10 style9 n">216.464</td>
+            <td class="column11 style9 n">217.233</td>
+            <td class="column12 style9 n">216.967</td>
+            <td class="column13 style9 n">217.641</td>
+            <td class="column14 style9 n">215.899</td>
+            <td class="column15 style9 n">215.957</td>
+            <td class="column16 style9 n">212.189</td>
+            <td class="column17 style9 n">212.896</td>
+            <td class="column18 style9 n">214.883</td>
+            <td class="column19 style9 n">215.562</td>
+            <td class="column20 style9 n">216.055</td>
+            <td class="column21 style9 n">217.064</td>
+            <td class="column22 style9 n">217.152</td>
+            <td class="column23 style9 n">217.111</td>
+            <td class="column24 style9 n">216.958</td>
+            <td class="column25 style9 n">216.420</td>
+            <td class="column26 style9 n">216.849</td>
+            <td class="column27 style9 n">217.400</td>
+            <td class="column28 style9 n">217.597</td>
+            <td class="column29 style14 n">02.5</td>
+            <td class="column30 style14 n">00.3</td>
+            <td class="column31 style14 n">-0.8</td>
+            <td class="column32 style14 n">00.0</td>
+            <td class="column33 style14 n">00.2</td>
+            <td class="column34 style14 n">00.3</td>
+            <td class="column35 style14 n">00.1</td>
+          </tr>
+          <tr class="row14">
+            <td class="column0 style7 n">3</td>
+            <td class="column1 style12 s">Other food at home</td>
+            <td class="column2 style9 n">02.389</td>
+            <td class="column3 style9 n">262.250</td>
+            <td class="column4 style9 n">264.131</td>
+            <td class="column5 style9 n">266.073</td>
+            <td class="column6 style9 n">268.026</td>
+            <td class="column7 style9 n">269.009</td>
+            <td class="column8 style9 n">269.477</td>
+            <td class="column9 style9 n">269.675</td>
+            <td class="column10 style9 n">270.839</td>
+            <td class="column11 style9 n">271.080</td>
+            <td class="column12 style9 n">271.132</td>
+            <td class="column13 style9 n">271.560</td>
+            <td class="column14 style9 n">269.814</td>
+            <td class="column15 style9 n">269.916</td>
+            <td class="column16 style9 n">263.904</td>
+            <td class="column17 style9 n">265.796</td>
+            <td class="column18 style9 n">266.599</td>
+            <td class="column19 style9 n">267.881</td>
+            <td class="column20 style9 n">268.278</td>
+            <td class="column21 style9 n">269.313</td>
+            <td class="column22 style9 n">268.879</td>
+            <td class="column23 style9 n">269.301</td>
+            <td class="column24 style9 n">269.956</td>
+            <td class="column25 style9 n">270.747</td>
+            <td class="column26 style9 n">271.270</td>
+            <td class="column27 style9 n">271.087</td>
+            <td class="column28 style9 n">271.583</td>
+            <td class="column29 style14 n">02.9</td>
+            <td class="column30 style14 n">00.2</td>
+            <td class="column31 style14 n">-0.6</td>
+            <td class="column32 style14 n">00.0</td>
+            <td class="column33 style14 n">00.2</td>
+            <td class="column34 style14 n">-0.1</td>
+            <td class="column35 style14 n">00.2</td>
+          </tr>
+          <tr class="row15">
+            <td class="column0 style7 n">2</td>
+            <td class="column1 style11 s">Food away from home</td>
+            <td class="column2 style9 n">05.578</td>
+            <td class="column3 style9 n">343.820</td>
+            <td class="column4 style9 n">345.976</td>
+            <td class="column5 style9 n">348.060</td>
+            <td class="column6 style9 n">350.282</td>
+            <td class="column7 style9 n">351.800</td>
+            <td class="column8 style9 n">353.616</td>
+            <td class="column9 style9 n">354.925</td>
+            <td class="column10 style9 n">355.618</td>
+            <td class="column11 style9 n">356.805</td>
+            <td class="column12 style9 n">358.222</td>
+            <td class="column13 style9 n">359.593</td>
+            <td class="column14 style9 n">361.224</td>
+            <td class="column15 style9 n">362.474</td>
+            <td class="column16 style9 n">343.820</td>
+            <td class="column17 style9 n">345.976</td>
+            <td class="column18 style9 n">348.060</td>
+            <td class="column19 style9 n">350.282</td>
+            <td class="column20 style9 n">351.800</td>
+            <td class="column21 style9 n">353.616</td>
+            <td class="column22 style9 n">354.925</td>
+            <td class="column23 style9 n">355.618</td>
+            <td class="column24 style9 n">356.805</td>
+            <td class="column25 style9 n">358.222</td>
+            <td class="column26 style9 n">359.593</td>
+            <td class="column27 style9 n">361.224</td>
+            <td class="column28 style9 n">362.474</td>
+            <td class="column29 style14 n">05.4</td>
+            <td class="column30 style14 n">00.4</td>
+            <td class="column31 style14 n">00.5</td>
+            <td class="column32 style14 n">00.3</td>
+            <td class="column33 style14 n">00.4</td>
+            <td class="column34 style14 n">00.5</td>
+            <td class="column35 style14 n">00.3</td>
+          </tr>
+          <tr class="row16">
+            <td class="column0">&nbsp;</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11">&nbsp;</td>
+            <td class="column12">&nbsp;</td>
+            <td class="column13">&nbsp;</td>
+            <td class="column14">&nbsp;</td>
+            <td class="column15">&nbsp;</td>
+            <td class="column16">&nbsp;</td>
+            <td class="column17">&nbsp;</td>
+            <td class="column18">&nbsp;</td>
+            <td class="column19">&nbsp;</td>
+            <td class="column20">&nbsp;</td>
+            <td class="column21">&nbsp;</td>
+            <td class="column22">&nbsp;</td>
+            <td class="column23">&nbsp;</td>
+            <td class="column24">&nbsp;</td>
+            <td class="column25">&nbsp;</td>
+            <td class="column26">&nbsp;</td>
+            <td class="column27">&nbsp;</td>
+            <td class="column28">&nbsp;</td>
+            <td class="column29">&nbsp;</td>
+            <td class="column30">&nbsp;</td>
+            <td class="column31">&nbsp;</td>
+            <td class="column32">&nbsp;</td>
+            <td class="column33">&nbsp;</td>
+            <td class="column34">&nbsp;</td>
+            <td class="column35">&nbsp;</td>
+          </tr>
+          <tr class="row17">
+            <td class="column0 style7 n">1</td>
+            <td class="column1 style10 s">Energy</td>
+            <td class="column2 style9 n">08.231</td>
+            <td class="column3 style9 n">272.372</td>
+            <td class="column4 style9 n">281.404</td>
+            <td class="column5 style9 n">280.098</td>
+            <td class="column6 style9 n">278.248</td>
+            <td class="column7 style9 n">283.757</td>
+            <td class="column8 style9 n">280.151</td>
+            <td class="column9 style9 n">283.964</td>
+            <td class="column10 style9 n">285.068</td>
+            <td class="column11 style9 n">295.157</td>
+            <td class="column12 style9 n">296.707</td>
+            <td class="column13 style9 n">286.777</td>
+            <td class="column14 style9 n">275.873</td>
+            <td class="column15 style9 n">267.514</td>
+            <td class="column16 style9 n">285.510</td>
+            <td class="column17 style9 n">292.127</td>
+            <td class="column18 style9 n">290.773</td>
+            <td class="column19 style9 n">280.409</td>
+            <td class="column20 style9 n">282.769</td>
+            <td class="column21 style9 n">271.930</td>
+            <td class="column22 style9 n">273.359</td>
+            <td class="column23 style9 n">273.666</td>
+            <td class="column24 style9 n">290.075</td>
+            <td class="column25 style9 n">294.535</td>
+            <td class="column26 style9 n">286.574</td>
+            <td class="column27 style9 n">279.302</td>
+            <td class="column28 style9 n">280.552</td>
+            <td class="column29 style14 n">-1.8</td>
+            <td class="column30 style14 n">-3.3</td>
+            <td class="column31 style14 n">-3.8</td>
+            <td class="column32 style14 n">-3.0</td>
+            <td class="column33 style14 n">-2.7</td>
+            <td class="column34 style14 n">-2.5</td>
+            <td class="column35 style14 n">00.4</td>
+          </tr>
+          <tr class="row18">
+            <td class="column0 style7 n">2</td>
+            <td class="column1 style11 s">Energy commodities</td>
+            <td class="column2 style9 n">04.534</td>
+            <td class="column3 style9 n">295.296</td>
+            <td class="column4 style9 n">304.355</td>
+            <td class="column5 style9 n">308.568</td>
+            <td class="column6 style9 n">311.301</td>
+            <td class="column7 style9 n">326.521</td>
+            <td class="column8 style9 n">320.989</td>
+            <td class="column9 style9 n">322.768</td>
+            <td class="column10 style9 n">324.393</td>
+            <td class="column11 style9 n">344.036</td>
+            <td class="column12 style9 n">346.693</td>
+            <td class="column13 style9 n">328.835</td>
+            <td class="column14 style9 n">305.453</td>
+            <td class="column15 style9 n">287.813</td>
+            <td class="column16 style9 n">317.632</td>
+            <td class="column17 style9 n">324.927</td>
+            <td class="column18 style9 n">327.332</td>
+            <td class="column19 style9 n">312.462</td>
+            <td class="column20 style9 n">321.246</td>
+            <td class="column21 style9 n">302.946</td>
+            <td class="column22 style9 n">305.567</td>
+            <td class="column23 style9 n">306.287</td>
+            <td class="column24 style9 n">338.784</td>
+            <td class="column25 style9 n">346.327</td>
+            <td class="column26 style9 n">328.768</td>
+            <td class="column27 style9 n">309.667</td>
+            <td class="column28 style9 n">309.799</td>
+            <td class="column29 style14 n">-2.5</td>
+            <td class="column30 style14 n">-5.2</td>
+            <td class="column31 style14 n">-7.1</td>
+            <td class="column32 style14 n">-5.8</td>
+            <td class="column33 style14 n">-5.1</td>
+            <td class="column34 style14 n">-5.8</td>
+            <td class="column35 style14 n">00.0</td>
+          </tr>
+          <tr class="row19">
+            <td class="column0 style7 n">3</td>
+            <td class="column1 style12 s">Fuel oil</td>
+            <td class="column2 style9 n">00.085</td>
+            <td class="column3 style9 n">478.160</td>
+            <td class="column4 style9 n">471.881</td>
+            <td class="column5 style9 n">439.741</td>
+            <td class="column6 style9 n">419.113</td>
+            <td class="column7 style9 n">403.522</td>
+            <td class="column8 style9 n">372.813</td>
+            <td class="column9 style9 n">367.319</td>
+            <td class="column10 style9 n">376.064</td>
+            <td class="column11 style9 n">412.178</td>
+            <td class="column12 style9 n">444.605</td>
+            <td class="column13 style9 n">443.551</td>
+            <td class="column14 style9 n">430.953</td>
+            <td class="column15 style9 n">406.412</td>
+            <td class="column16 style9 n">478.160</td>
+            <td class="column17 style9 n">471.881</td>
+            <td class="column18 style9 n">439.741</td>
+            <td class="column19 style9 n">419.113</td>
+            <td class="column20 style9 n">403.522</td>
+            <td class="column21 style9 n">372.813</td>
+            <td class="column22 style9 n">367.319</td>
+            <td class="column23 style9 n">376.064</td>
+            <td class="column24 style9 n">412.178</td>
+            <td class="column25 style9 n">444.605</td>
+            <td class="column26 style9 n">443.551</td>
+            <td class="column27 style9 n">430.953</td>
+            <td class="column28 style9 n">406.412</td>
+            <td class="column29 style14 n">-15.0</td>
+            <td class="column30 style14 n">-0.2</td>
+            <td class="column31 style14 n">-2.8</td>
+            <td class="column32 style14 n">-5.7</td>
+            <td class="column33 style14 n">-0.2</td>
+            <td class="column34 style14 n">-2.8</td>
+            <td class="column35 style14 n">-5.7</td>
+          </tr>
+          <tr class="row20">
+            <td class="column0 style7 n">3</td>
+            <td class="column1 style12 s">Motor fuel</td>
+            <td class="column2 style9 n">04.399</td>
+            <td class="column3 style9 n">289.028</td>
+            <td class="column4 style9 n">298.277</td>
+            <td class="column5 style9 n">302.975</td>
+            <td class="column6 style9 n">306.027</td>
+            <td class="column7 style9 n">321.737</td>
+            <td class="column8 style9 n">316.680</td>
+            <td class="column9 style9 n">318.656</td>
+            <td class="column10 style9 n">320.246</td>
+            <td class="column11 style9 n">339.625</td>
+            <td class="column12 style9 n">341.895</td>
+            <td class="column13 style9 n">323.759</td>
+            <td class="column14 style9 n">300.210</td>
+            <td class="column15 style9 n">282.660</td>
+            <td class="column16 style9 n">311.784</td>
+            <td class="column17 style9 n">319.350</td>
+            <td class="column18 style9 n">322.372</td>
+            <td class="column19 style9 n">307.605</td>
+            <td class="column20 style9 n">316.424</td>
+            <td class="column21 style9 n">298.358</td>
+            <td class="column22 style9 n">301.242</td>
+            <td class="column23 style9 n">301.683</td>
+            <td class="column24 style9 n">333.879</td>
+            <td class="column25 style9 n">341.169</td>
+            <td class="column26 style9 n">323.665</td>
+            <td class="column27 style9 n">304.488</td>
+            <td class="column28 style9 n">304.916</td>
+            <td class="column29 style14 n">-2.2</td>
+            <td class="column30 style14 n">-5.3</td>
+            <td class="column31 style14 n">-7.3</td>
+            <td class="column32 style14 n">-5.8</td>
+            <td class="column33 style14 n">-5.1</td>
+            <td class="column34 style14 n">-5.9</td>
+            <td class="column35 style14 n">00.1</td>
+          </tr>
+          <tr class="row21">
+            <td class="column0 style7 n">4</td>
+            <td class="column1 style13 s">Gasoline (all types)</td>
+            <td class="column2 style9 n">04.293</td>
+            <td class="column3 style9 n">286.185</td>
+            <td class="column4 style9 n">295.976</td>
+            <td class="column5 style9 n">300.937</td>
+            <td class="column6 style9 n">304.430</td>
+            <td class="column7 style9 n">320.637</td>
+            <td class="column8 style9 n">315.730</td>
+            <td class="column9 style9 n">317.958</td>
+            <td class="column10 style9 n">319.628</td>
+            <td class="column11 style9 n">338.678</td>
+            <td class="column12 style9 n">340.606</td>
+            <td class="column13 style9 n">322.180</td>
+            <td class="column14 style9 n">298.477</td>
+            <td class="column15 style9 n">281.028</td>
+            <td class="column16 style9 n">308.982</td>
+            <td class="column17 style9 n">317.023</td>
+            <td class="column18 style9 n">320.326</td>
+            <td class="column19 style9 n">306.101</td>
+            <td class="column20 style9 n">315.408</td>
+            <td class="column21 style9 n">297.373</td>
+            <td class="column22 style9 n">300.470</td>
+            <td class="column23 style9 n">300.906</td>
+            <td class="column24 style9 n">332.791</td>
+            <td class="column25 style9 n">339.699</td>
+            <td class="column26 style9 n">322.055</td>
+            <td class="column27 style9 n">302.851</td>
+            <td class="column28 style9 n">303.414</td>
+            <td class="column29 style14 n">-1.8</td>
+            <td class="column30 style14 n">-5.4</td>
+            <td class="column31 style14 n">-7.4</td>
+            <td class="column32 style14 n">-5.8</td>
+            <td class="column33 style14 n">-5.2</td>
+            <td class="column34 style14 n">-6.0</td>
+            <td class="column35 style14 n">00.2</td>
+          </tr>
+          <tr class="row22">
+            <td class="column0 style7 n">2</td>
+            <td class="column1 style11 s">Energy services</td>
+            <td class="column2 style9 n">03.697</td>
+            <td class="column3 style9 n">261.655</td>
+            <td class="column4 style9 n">271.094</td>
+            <td class="column5 style9 n">263.999</td>
+            <td class="column6 style9 n">257.304</td>
+            <td class="column7 style9 n">253.001</td>
+            <td class="column8 style9 n">251.221</td>
+            <td class="column9 style9 n">257.327</td>
+            <td class="column10 style9 n">257.944</td>
+            <td class="column11 style9 n">258.603</td>
+            <td class="column12 style9 n">259.079</td>
+            <td class="column13 style9 n">256.898</td>
+            <td class="column14 style9 n">258.419</td>
+            <td class="column15 style9 n">259.287</td>
+            <td class="column16 style9 n">265.615</td>
+            <td class="column17 style9 n">272.111</td>
+            <td class="column18 style9 n">266.791</td>
+            <td class="column19 style9 n">260.606</td>
+            <td class="column20 style9 n">256.415</td>
+            <td class="column21 style9 n">252.795</td>
+            <td class="column22 style9 n">253.058</td>
+            <td class="column23 style9 n">252.950</td>
+            <td class="column24 style9 n">253.452</td>
+            <td class="column25 style9 n">254.929</td>
+            <td class="column26 style9 n">256.544</td>
+            <td class="column27 style9 n">261.198</td>
+            <td class="column28 style9 n">263.668</td>
+            <td class="column29 style14 n">-0.9</td>
+            <td class="column30 style14 n">-0.8</td>
+            <td class="column31 style14 n">00.6</td>
+            <td class="column32 style14 n">00.3</td>
+            <td class="column33 style14 n">00.6</td>
+            <td class="column34 style14 n">01.8</td>
+            <td class="column35 style14 n">00.9</td>
+          </tr>
+          <tr class="row23">
+            <td class="column0 style7 n">3</td>
+            <td class="column1 style12 s">Electricity</td>
+            <td class="column2 style9 n">02.937</td>
+            <td class="column3 style9 n">257.135</td>
+            <td class="column4 style9 n">262.405</td>
+            <td class="column5 style9 n">263.137</td>
+            <td class="column6 style9 n">260.678</td>
+            <td class="column7 style9 n">259.283</td>
+            <td class="column8 style9 n">258.044</td>
+            <td class="column9 style9 n">266.469</td>
+            <td class="column10 style9 n">266.165</td>
+            <td class="column11 style9 n">266.421</td>
+            <td class="column12 style9 n">268.434</td>
+            <td class="column13 style9 n">264.998</td>
+            <td class="column14 style9 n">264.207</td>
+            <td class="column15 style9 n">265.965</td>
+            <td class="column16 style9 n">263.416</td>
+            <td class="column17 style9 n">264.639</td>
+            <td class="column18 style9 n">266.317</td>
+            <td class="column19 style9 n">263.844</td>
+            <td class="column20 style9 n">262.470</td>
+            <td class="column21 style9 n">259.484</td>
+            <td class="column22 style9 n">260.896</td>
+            <td class="column23 style9 n">259.584</td>
+            <td class="column24 style9 n">260.032</td>
+            <td class="column25 style9 n">263.517</td>
+            <td class="column26 style9 n">264.710</td>
+            <td class="column27 style9 n">268.836</td>
+            <td class="column28 style9 n">272.461</td>
+            <td class="column29 style14 n">03.4</td>
+            <td class="column30 style14 n">-1.3</td>
+            <td class="column31 style14 n">-0.3</td>
+            <td class="column32 style14 n">00.7</td>
+            <td class="column33 style14 n">00.5</td>
+            <td class="column34 style14 n">01.6</td>
+            <td class="column35 style14 n">01.3</td>
+          </tr>
+          <tr class="row24">
+            <td class="column0 style7 n">3</td>
+            <td class="column1 style12 s">Utility (piped) gas service</td>
+            <td class="column2 style9 n">00.760</td>
+            <td class="column3 style9 n">268.678</td>
+            <td class="column4 style9 n">291.881</td>
+            <td class="column5 style9 n">258.607</td>
+            <td class="column6 style9 n">237.838</td>
+            <td class="column7 style9 n">223.858</td>
+            <td class="column8 style9 n">220.311</td>
+            <td class="column9 style9 n">218.404</td>
+            <td class="column10 style9 n">222.106</td>
+            <td class="column11 style9 n">224.102</td>
+            <td class="column12 style9 n">219.379</td>
+            <td class="column13 style9 n">221.500</td>
+            <td class="column14 style9 n">230.776</td>
+            <td class="column15 style9 n">228.613</td>
+            <td class="column16 style9 n">265.283</td>
+            <td class="column17 style9 n">288.763</td>
+            <td class="column18 style9 n">260.006</td>
+            <td class="column19 style9 n">241.491</td>
+            <td class="column20 style9 n">227.933</td>
+            <td class="column21 style9 n">222.287</td>
+            <td class="column22 style9 n">218.667</td>
+            <td class="column23 style9 n">222.621</td>
+            <td class="column24 style9 n">223.291</td>
+            <td class="column25 style9 n">217.945</td>
+            <td class="column26 style9 n">220.936</td>
+            <td class="column27 style9 n">227.225</td>
+            <td class="column28 style9 n">225.724</td>
+            <td class="column29 style14 n">-14.9</td>
+            <td class="column30 style14 n">01.0</td>
+            <td class="column31 style14 n">04.2</td>
+            <td class="column32 style14 n">-0.9</td>
+            <td class="column33 style14 n">01.4</td>
+            <td class="column34 style14 n">02.8</td>
+            <td class="column35 style14 n">-0.7</td>
+          </tr>
+          <tr class="row25">
+            <td class="column0">&nbsp;</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11">&nbsp;</td>
+            <td class="column12">&nbsp;</td>
+            <td class="column13">&nbsp;</td>
+            <td class="column14">&nbsp;</td>
+            <td class="column15">&nbsp;</td>
+            <td class="column16">&nbsp;</td>
+            <td class="column17">&nbsp;</td>
+            <td class="column18">&nbsp;</td>
+            <td class="column19">&nbsp;</td>
+            <td class="column20">&nbsp;</td>
+            <td class="column21">&nbsp;</td>
+            <td class="column22">&nbsp;</td>
+            <td class="column23">&nbsp;</td>
+            <td class="column24">&nbsp;</td>
+            <td class="column25">&nbsp;</td>
+            <td class="column26">&nbsp;</td>
+            <td class="column27">&nbsp;</td>
+            <td class="column28">&nbsp;</td>
+            <td class="column29">&nbsp;</td>
+            <td class="column30">&nbsp;</td>
+            <td class="column31">&nbsp;</td>
+            <td class="column32">&nbsp;</td>
+            <td class="column33">&nbsp;</td>
+            <td class="column34">&nbsp;</td>
+            <td class="column35">&nbsp;</td>
+          </tr>
+          <tr class="row26">
+            <td class="column0 style7 n">1</td>
+            <td class="column1 style10 s">All items less food and energy</td>
+            <td class="column2 style9 n">76.808</td>
+            <td class="column3 style9 n">291.691</td>
+            <td class="column4 style9 n">293.521</td>
+            <td class="column5 style9 n">295.381</td>
+            <td class="column6 style9 n">296.808</td>
+            <td class="column7 style9 n">298.232</td>
+            <td class="column8 style9 n">299.381</td>
+            <td class="column9 style9 n">300.176</td>
+            <td class="column10 style9 n">300.535</td>
+            <td class="column11 style9 n">301.393</td>
+            <td class="column12 style9 n">302.026</td>
+            <td class="column13 style9 n">302.768</td>
+            <td class="column14 style9 n">303.034</td>
+            <td class="column15 style9 n">303.323</td>
+            <td class="column16 style9 n">293.025</td>
+            <td class="column17 style9 n">294.188</td>
+            <td class="column18 style9 n">295.335</td>
+            <td class="column19 style9 n">296.495</td>
+            <td class="column20 style9 n">297.829</td>
+            <td class="column21 style9 n">299.146</td>
+            <td class="column22 style9 n">299.665</td>
+            <td class="column23 style9 n">300.067</td>
+            <td class="column24 style9 n">301.026</td>
+            <td class="column25 style9 n">301.900</td>
+            <td class="column26 style9 n">302.747</td>
+            <td class="column27 style9 n">303.632</td>
+            <td class="column28 style9 n">304.572</td>
+            <td class="column29 style14 n">04.0</td>
+            <td class="column30 style14 n">00.2</td>
+            <td class="column31 style14 n">00.1</td>
+            <td class="column32 style14 n">00.1</td>
+            <td class="column33 style14 n">00.3</td>
+            <td class="column34 style14 n">00.3</td>
+            <td class="column35 style14 n">00.3</td>
+          </tr>
+          <tr class="row27">
+            <td class="column0 style7 n">2</td>
+            <td class="column1 style11 s">Commodities less food and energy commodities</td>
+            <td class="column2 style9 n">21.102</td>
+            <td class="column3 style9 n">169.406</td>
+            <td class="column4 style9 n">170.337</td>
+            <td class="column5 style9 n">171.267</td>
+            <td class="column6 style9 n">171.979</td>
+            <td class="column7 style9 n">173.070</td>
+            <td class="column8 style9 n">173.779</td>
+            <td class="column9 style9 n">173.936</td>
+            <td class="column10 style9 n">173.279</td>
+            <td class="column11 style9 n">173.304</td>
+            <td class="column12 style9 n">172.336</td>
+            <td class="column13 style9 n">171.915</td>
+            <td class="column14 style9 n">170.475</td>
+            <td class="column15 style9 n">169.585</td>
+            <td class="column16 style9 n">171.349</td>
+            <td class="column17 style9 n">171.222</td>
+            <td class="column18 style9 n">171.119</td>
+            <td class="column19 style9 n">171.395</td>
+            <td class="column20 style9 n">172.524</td>
+            <td class="column21 style9 n">173.494</td>
+            <td class="column22 style9 n">173.462</td>
+            <td class="column23 style9 n">172.886</td>
+            <td class="column24 style9 n">172.723</td>
+            <td class="column25 style9 n">171.972</td>
+            <td class="column26 style9 n">171.802</td>
+            <td class="column27 style9 n">171.310</td>
+            <td class="column28 style9 n">171.322</td>
+            <td class="column29 style14 n">00.1</td>
+            <td class="column30 style14 n">-0.2</td>
+            <td class="column31 style14 n">-0.8</td>
+            <td class="column32 style14 n">-0.5</td>
+            <td class="column33 style14 n">-0.1</td>
+            <td class="column34 style14 n">-0.3</td>
+            <td class="column35 style14 n">00.0</td>
+          </tr>
+          <tr class="row28">
+            <td class="column0 style7 n">3</td>
+            <td class="column1 style12 s">Apparel</td>
+            <td class="column2 style9 n">02.963</td>
+            <td class="column3 style9 n">124.557</td>
+            <td class="column4 style9 n">127.164</td>
+            <td class="column5 style9 n">131.835</td>
+            <td class="column6 style9 n">132.906</td>
+            <td class="column7 style9 n">131.980</td>
+            <td class="column8 style9 n">131.337</td>
+            <td class="column9 style9 n">130.582</td>
+            <td class="column10 style9 n">129.083</td>
+            <td class="column11 style9 n">131.324</td>
+            <td class="column12 style9 n">133.281</td>
+            <td class="column13 style9 n">132.788</td>
+            <td class="column14 style9 n">128.361</td>
+            <td class="column15 style9 n">125.665</td>
+            <td class="column16 style9 n">127.798</td>
+            <td class="column17 style9 n">128.448</td>
+            <td class="column18 style9 n">129.779</td>
+            <td class="column19 style9 n">130.379</td>
+            <td class="column20 style9 n">130.845</td>
+            <td class="column21 style9 n">130.968</td>
+            <td class="column22 style9 n">131.545</td>
+            <td class="column23 style9 n">131.687</td>
+            <td class="column24 style9 n">132.155</td>
+            <td class="column25 style9 n">131.331</td>
+            <td class="column26 style9 n">130.972</td>
+            <td class="column27 style9 n">129.288</td>
+            <td class="column28 style9 n">129.051</td>
+            <td class="column29 style14 n">00.9</td>
+            <td class="column30 style14 n">-0.4</td>
+            <td class="column31 style14 n">-3.3</td>
+            <td class="column32 style14 n">-2.1</td>
+            <td class="column33 style14 n">-0.3</td>
+            <td class="column34 style14 n">-1.3</td>
+            <td class="column35 style14 n">-0.2</td>
+          </tr>
+          <tr class="row29">
+            <td class="column0 style7 n">3</td>
+            <td class="column1 style12 s">New vehicles</td>
+            <td class="column2 style9 n">03.916</td>
+            <td class="column3 style9 n">176.837</td>
+            <td class="column4 style9 n">177.670</td>
+            <td class="column5 style9 n">178.235</td>
+            <td class="column6 style9 n">178.746</td>
+            <td class="column7 style9 n">179.231</td>
+            <td class="column8 style9 n">179.654</td>
+            <td class="column9 style9 n">179.868</td>
+            <td class="column10 style9 n">179.899</td>
+            <td class="column11 style9 n">179.842</td>
+            <td class="column12 style9 n">179.868</td>
+            <td class="column13 style9 n">179.517</td>
+            <td class="column14 style9 n">178.746</td>
+            <td class="column15 style9 n">178.296</td>
+            <td class="column16 style9 n">178.188</td>
+            <td class="column17 style9 n">178.613</td>
+            <td class="column18 style9 n">178.922</td>
+            <td class="column19 style9 n">179.590</td>
+            <td class="column20 style9 n">179.154</td>
+            <td class="column21 style9 n">178.925</td>
+            <td class="column22 style9 n">178.850</td>
+            <td class="column23 style9 n">178.628</td>
+            <td class="column24 style9 n">179.067</td>
+            <td class="column25 style9 n">179.590</td>
+            <td class="column26 style9 n">179.374</td>
+            <td class="column27 style9 n">179.210</td>
+            <td class="column28 style9 n">179.658</td>
+            <td class="column29 style14 n">00.8</td>
+            <td class="column30 style14 n">-0.2</td>
+            <td class="column31 style14 n">-0.4</td>
+            <td class="column32 style14 n">-0.3</td>
+            <td class="column33 style14 n">-0.1</td>
+            <td class="column34 style14 n">-0.1</td>
+            <td class="column35 style14 n">00.2</td>
+          </tr>
+          <tr class="row30">
+            <td class="column0 style7 n">3</td>
+            <td class="column1 style12 s">Used cars and trucks</td>
+            <td class="column2 style9 n">02.810</td>
+            <td class="column3 style9 n">190.119</td>
+            <td class="column4 style9 n">187.112</td>
+            <td class="column5 style9 n">184.518</td>
+            <td class="column6 style9 n">186.332</td>
+            <td class="column7 style9 n">194.775</td>
+            <td class="column8 style9 n">201.002</td>
+            <td class="column9 style9 n">203.456</td>
+            <td class="column10 style9 n">203.043</td>
+            <td class="column11 style9 n">200.136</td>
+            <td class="column12 style9 n">188.871</td>
+            <td class="column13 style9 n">186.229</td>
+            <td class="column14 style9 n">187.568</td>
+            <td class="column15 style9 n">187.661</td>
+            <td class="column16 style9 n">195.339</td>
+            <td class="column17 style9 n">191.255</td>
+            <td class="column18 style9 n">186.414</td>
+            <td class="column19 style9 n">184.910</td>
+            <td class="column20 style9 n">192.789</td>
+            <td class="column21 style9 n">200.679</td>
+            <td class="column22 style9 n">199.886</td>
+            <td class="column23 style9 n">197.267</td>
+            <td class="column24 style9 n">194.799</td>
+            <td class="column25 style9 n">189.679</td>
+            <td class="column26 style9 n">188.405</td>
+            <td class="column27 style9 n">191.458</td>
+            <td class="column28 style9 n">192.813</td>
+            <td class="column29 style14 n">-1.3</td>
+            <td class="column30 style14 n">-1.4</td>
+            <td class="column31 style14 n">00.7</td>
+            <td class="column32 style14 n">00.0</td>
+            <td class="column33 style14 n">-0.7</td>
+            <td class="column34 style14 n">01.6</td>
+            <td class="column35 style14 n">00.7</td>
+          </tr>
+          <tr class="row31">
+            <td class="column0 style7 n">3</td>
+            <td class="column1 style12 s">Medical care commodities</td>
+            <td class="column2 style9 n">01.300</td>
+            <td class="column3 style9 n">380.344</td>
+            <td class="column4 style9 n">384.527</td>
+            <td class="column5 style9 n">384.976</td>
+            <td class="column6 style9 n">386.355</td>
+            <td class="column7 style9 n">388.513</td>
+            <td class="column8 style9 n">391.742</td>
+            <td class="column9 style9 n">393.013</td>
+            <td class="column10 style9 n">394.641</td>
+            <td class="column11 style9 n">397.129</td>
+            <td class="column12 style9 n">395.841</td>
+            <td class="column13 style9 n">397.677</td>
+            <td class="column14 style9 n">399.273</td>
+            <td class="column15 style9 n">398.623</td>
+            <td class="column16 style9 n">380.344</td>
+            <td class="column17 style9 n">384.527</td>
+            <td class="column18 style9 n">384.976</td>
+            <td class="column19 style9 n">386.355</td>
+            <td class="column20 style9 n">388.513</td>
+            <td class="column21 style9 n">391.742</td>
+            <td class="column22 style9 n">393.013</td>
+            <td class="column23 style9 n">394.641</td>
+            <td class="column24 style9 n">397.129</td>
+            <td class="column25 style9 n">395.841</td>
+            <td class="column26 style9 n">397.677</td>
+            <td class="column27 style9 n">399.273</td>
+            <td class="column28 style9 n">398.623</td>
+            <td class="column29 style14 n">04.8</td>
+            <td class="column30 style14 n">00.5</td>
+            <td class="column31 style14 n">00.4</td>
+            <td class="column32 style14 n">-0.2</td>
+            <td class="column33 style14 n">00.5</td>
+            <td class="column34 style14 n">00.4</td>
+            <td class="column35 style14 n">-0.2</td>
+          </tr>
+          <tr class="row32">
+            <td class="column0 style7 n">3</td>
+            <td class="column1 style12 s">Alcoholic beverages</td>
+            <td class="column2 style9 n">00.700</td>
+            <td class="column3 style9 n">286.911</td>
+            <td class="column4 style9 n">288.728</td>
+            <td class="column5 style9 n">289.550</td>
+            <td class="column6 style9 n">289.604</td>
+            <td class="column7 style9 n">290.890</td>
+            <td class="column8 style9 n">291.975</td>
+            <td class="column9 style9 n">292.847</td>
+            <td class="column10 style9 n">292.657</td>
+            <td class="column11 style9 n">292.784</td>
+            <td class="column12 style9 n">294.808</td>
+            <td class="column13 style9 n">295.832</td>
+            <td class="column14 style9 n">294.761</td>
+            <td class="column15 style9 n">294.838</td>
+            <td class="column16 style9 n">287.822</td>
+            <td class="column17 style9 n">289.301</td>
+            <td class="column18 style9 n">289.625</td>
+            <td class="column19 style9 n">289.398</td>
+            <td class="column20 style9 n">290.594</td>
+            <td class="column21 style9 n">291.756</td>
+            <td class="column22 style9 n">292.059</td>
+            <td class="column23 style9 n">292.201</td>
+            <td class="column24 style9 n">292.197</td>
+            <td class="column25 style9 n">295.600</td>
+            <td class="column26 style9 n">296.300</td>
+            <td class="column27 style9 n">294.490</td>
+            <td class="column28 style9 n">295.775</td>
+            <td class="column29 style14 n">02.8</td>
+            <td class="column30 style14 n">00.3</td>
+            <td class="column31 style14 n">-0.4</td>
+            <td class="column32 style14 n">00.0</td>
+            <td class="column33 style14 n">00.2</td>
+            <td class="column34 style14 n">-0.6</td>
+            <td class="column35 style14 n">00.4</td>
+          </tr>
+          <tr class="row33">
+            <td class="column0 style7 n">3</td>
+            <td class="column1 style12 s">Tobacco and smoking products</td>
+            <td class="column2 style9 n">00.766</td>
+            <td class="column3 style9 n">1390.128</td>
+            <td class="column4 style9 n">1398.219</td>
+            <td class="column5 style9 n">1412.145</td>
+            <td class="column6 style9 n">1423.457</td>
+            <td class="column7 style9 n">1428.720</td>
+            <td class="column8 style9 n">1437.918</td>
+            <td class="column9 style9 n">1438.701</td>
+            <td class="column10 style9 n">1445.231</td>
+            <td class="column11 style9 n">1452.481</td>
+            <td class="column12 style9 n">1455.165</td>
+            <td class="column13 style9 n">1484.141</td>
+            <td class="column14 style9 n">1499.904</td>
+            <td class="column15 style9 n">1500.121</td>
+            <td class="column16 style9 n">1390.128</td>
+            <td class="column17 style9 n">1398.219</td>
+            <td class="column18 style9 n">1412.145</td>
+            <td class="column19 style9 n">1423.457</td>
+            <td class="column20 style9 n">1428.720</td>
+            <td class="column21 style9 n">1437.918</td>
+            <td class="column22 style9 n">1438.701</td>
+            <td class="column23 style9 n">1445.231</td>
+            <td class="column24 style9 n">1452.481</td>
+            <td class="column25 style9 n">1455.165</td>
+            <td class="column26 style9 n">1484.141</td>
+            <td class="column27 style9 n">1499.904</td>
+            <td class="column28 style9 n">1500.121</td>
+            <td class="column29 style14 n">07.9</td>
+            <td class="column30 style14 n">02.0</td>
+            <td class="column31 style14 n">01.1</td>
+            <td class="column32 style14 n">00.0</td>
+            <td class="column33 style14 n">02.0</td>
+            <td class="column34 style14 n">01.1</td>
+            <td class="column35 style14 n">00.0</td>
+          </tr>
+          <tr class="row34">
+            <td class="column0 style7 n">2</td>
+            <td class="column1 style11 s">Services less energy services</td>
+            <td class="column2 style9 n">55.706</td>
+            <td class="column3 style9 n">379.235</td>
+            <td class="column4 style9 n">381.731</td>
+            <td class="column5 style9 n">384.284</td>
+            <td class="column6 style9 n">386.241</td>
+            <td class="column7 style9 n">387.860</td>
+            <td class="column8 style9 n">389.316</td>
+            <td class="column9 style9 n">390.620</td>
+            <td class="column10 style9 n">391.855</td>
+            <td class="column11 style9 n">393.388</td>
+            <td class="column12 style9 n">395.396</td>
+            <td class="column13 style9 n">397.115</td>
+            <td class="column14 style9 n">398.874</td>
+            <td class="column15 style9 n">400.187</td>
+            <td class="column16 style9 n">379.825</td>
+            <td class="column17 style9 n">382.147</td>
+            <td class="column18 style9 n">384.303</td>
+            <td class="column19 style9 n">386.177</td>
+            <td class="column20 style9 n">387.627</td>
+            <td class="column21 style9 n">389.154</td>
+            <td class="column22 style9 n">390.201</td>
+            <td class="column23 style9 n">391.460</td>
+            <td class="column24 style9 n">393.230</td>
+            <td class="column25 style9 n">395.466</td>
+            <td class="column26 style9 n">397.173</td>
+            <td class="column27 style9 n">399.120</td>
+            <td class="column28 style9 n">400.876</td>
+            <td class="column29 style14 n">05.5</td>
+            <td class="column30 style14 n">00.4</td>
+            <td class="column31 style14 n">00.4</td>
+            <td class="column32 style14 n">00.3</td>
+            <td class="column33 style14 n">00.4</td>
+            <td class="column34 style14 n">00.5</td>
+            <td class="column35 style14 n">00.4</td>
+          </tr>
+          <tr class="row35">
+            <td class="column0 style7 n">3</td>
+            <td class="column1 style12 s">Shelter</td>
+            <td class="column2 style9 n">33.511</td>
+            <td class="column3 style9 n">359.611</td>
+            <td class="column4 style9 n">362.336</td>
+            <td class="column5 style9 n">365.059</td>
+            <td class="column6 style9 n">367.426</td>
+            <td class="column7 style9 n">369.066</td>
+            <td class="column8 style9 n">370.911</td>
+            <td class="column9 style9 n">372.728</td>
+            <td class="column10 style9 n">374.170</td>
+            <td class="column11 style9 n">375.345</td>
+            <td class="column12 style9 n">377.599</td>
+            <td class="column13 style9 n">378.889</td>
+            <td class="column14 style9 n">380.395</td>
+            <td class="column15 style9 n">382.037</td>
+            <td class="column16 style9 n">359.818</td>
+            <td class="column17 style9 n">362.677</td>
+            <td class="column18 style9 n">365.236</td>
+            <td class="column19 style9 n">367.448</td>
+            <td class="column20 style9 n">369.083</td>
+            <td class="column21 style9 n">370.860</td>
+            <td class="column22 style9 n">372.317</td>
+            <td class="column23 style9 n">373.812</td>
+            <td class="column24 style9 n">375.038</td>
+            <td class="column25 style9 n">377.480</td>
+            <td class="column26 style9 n">378.910</td>
+            <td class="column27 style9 n">380.601</td>
+            <td class="column28 style9 n">382.435</td>
+            <td class="column29 style14 n">06.2</td>
+            <td class="column30 style14 n">00.3</td>
+            <td class="column31 style14 n">00.4</td>
+            <td class="column32 style14 n">00.4</td>
+            <td class="column33 style14 n">00.4</td>
+            <td class="column34 style14 n">00.4</td>
+            <td class="column35 style14 n">00.5</td>
+          </tr>
+          <tr class="row36">
+            <td class="column0 style7 n">4</td>
+            <td class="column1 style13 s">Rent of primary residence</td>
+            <td class="column2 style9 n">10.528</td>
+            <td class="column3 style9 n">383.263</td>
+            <td class="column4 style9 n">385.993</td>
+            <td class="column5 style9 n">388.830</td>
+            <td class="column6 style9 n">390.684</td>
+            <td class="column7 style9 n">392.754</td>
+            <td class="column8 style9 n">394.640</td>
+            <td class="column9 style9 n">396.484</td>
+            <td class="column10 style9 n">398.080</td>
+            <td class="column11 style9 n">400.094</td>
+            <td class="column12 style9 n">402.314</td>
+            <td class="column13 style9 n">404.569</td>
+            <td class="column14 style9 n">406.752</td>
+            <td class="column15 style9 n">408.605</td>
+            <td class="column16 style9 n">382.852</td>
+            <td class="column17 style9 n">385.708</td>
+            <td class="column18 style9 n">388.733</td>
+            <td class="column19 style9 n">390.735</td>
+            <td class="column20 style9 n">392.994</td>
+            <td class="column21 style9 n">394.959</td>
+            <td class="column22 style9 n">396.758</td>
+            <td class="column23 style9 n">398.435</td>
+            <td class="column24 style9 n">400.354</td>
+            <td class="column25 style9 n">402.266</td>
+            <td class="column26 style9 n">404.347</td>
+            <td class="column27 style9 n">406.338</td>
+            <td class="column28 style9 n">408.168</td>
+            <td class="column29 style14 n">06.6</td>
+            <td class="column30 style14 n">00.6</td>
+            <td class="column31 style14 n">00.5</td>
+            <td class="column32 style14 n">00.5</td>
+            <td class="column33 style14 n">00.5</td>
+            <td class="column34 style14 n">00.5</td>
+            <td class="column35 style14 n">00.5</td>
+          </tr>
+          <tr class="row37">
+            <td class="column0 style7 n">4</td>
+            <td class="column1 style13 s"><span style="color:#000000; font-family:'Calibri'; font-size:11pt">Owners' equivalent rent of residences</span><span style="color:#000000; font-family:'Calibri'; font-size:11pt"><sup>(1)</sup></span></td>
+            <td class="column2 style9 n">21.881</td>
+            <td class="column3 style9 n">340.236</td>
+            <td class="column4 style9 n">342.488</td>
+            <td class="column5 style9 n">344.621</td>
+            <td class="column6 style9 n">346.164</td>
+            <td class="column7 style9 n">347.888</td>
+            <td class="column8 style9 n">349.617</td>
+            <td class="column9 style9 n">351.299</td>
+            <td class="column10 style9 n">352.913</td>
+            <td class="column11 style9 n">354.437</td>
+            <td class="column12 style9 n">356.472</td>
+            <td class="column13 style9 n">358.098</td>
+            <td class="column14 style9 n">360.054</td>
+            <td class="column15 style9 n">361.767</td>
+            <td class="column16 style9 n">339.971</td>
+            <td class="column17 style9 n">342.296</td>
+            <td class="column18 style9 n">344.549</td>
+            <td class="column19 style9 n">346.265</td>
+            <td class="column20 style9 n">348.181</td>
+            <td class="column21 style9 n">349.957</td>
+            <td class="column22 style9 n">351.478</td>
+            <td class="column23 style9 n">353.107</td>
+            <td class="column24 style9 n">354.465</td>
+            <td class="column25 style9 n">356.454</td>
+            <td class="column26 style9 n">357.887</td>
+            <td class="column27 style9 n">359.672</td>
+            <td class="column28 style9 n">361.485</td>
+            <td class="column29 style14 n">06.3</td>
+            <td class="column30 style14 n">00.5</td>
+            <td class="column31 style14 n">00.5</td>
+            <td class="column32 style14 n">00.5</td>
+            <td class="column33 style14 n">00.4</td>
+            <td class="column34 style14 n">00.5</td>
+            <td class="column35 style14 n">00.5</td>
+          </tr>
+          <tr class="row38">
+            <td class="column0 style7 n">3</td>
+            <td class="column1 style12 s">Medical care services</td>
+            <td class="column2 style9 n">05.515</td>
+            <td class="column3 style9 n">615.656</td>
+            <td class="column4 style9 n">615.509</td>
+            <td class="column5 style9 n">612.143</td>
+            <td class="column6 style9 n">607.516</td>
+            <td class="column7 style9 n">605.596</td>
+            <td class="column8 style9 n">604.518</td>
+            <td class="column9 style9 n">603.694</td>
+            <td class="column10 style9 n">600.908</td>
+            <td class="column11 style9 n">601.448</td>
+            <td class="column12 style9 n">602.252</td>
+            <td class="column13 style9 n">605.172</td>
+            <td class="column14 style9 n">607.479</td>
+            <td class="column15 style9 n">610.137</td>
+            <td class="column16 style9 n">619.394</td>
+            <td class="column17 style9 n">615.725</td>
+            <td class="column18 style9 n">610.811</td>
+            <td class="column19 style9 n">606.515</td>
+            <td class="column20 style9 n">605.257</td>
+            <td class="column21 style9 n">604.367</td>
+            <td class="column22 style9 n">603.712</td>
+            <td class="column23 style9 n">600.044</td>
+            <td class="column24 style9 n">599.709</td>
+            <td class="column25 style9 n">601.662</td>
+            <td class="column26 style9 n">605.420</td>
+            <td class="column27 style9 n">609.380</td>
+            <td class="column28 style9 n">613.845</td>
+            <td class="column29 style14 n">-0.9</td>
+            <td class="column30 style14 n">00.5</td>
+            <td class="column31 style14 n">00.4</td>
+            <td class="column32 style14 n">00.4</td>
+            <td class="column33 style14 n">00.6</td>
+            <td class="column34 style14 n">00.7</td>
+            <td class="column35 style14 n">00.7</td>
+          </tr>
+          <tr class="row39">
+            <td class="column0 style7 n">4</td>
+            <td class="column1 style13 s">Physicians' services</td>
+            <td class="column2 style9 n">01.436</td>
+            <td class="column3 style9 n">417.445</td>
+            <td class="column4 style9 n">419.492</td>
+            <td class="column5 style9 n">417.610</td>
+            <td class="column6 style9 n">416.870</td>
+            <td class="column7 style9 n">416.673</td>
+            <td class="column8 style9 n">414.560</td>
+            <td class="column9 style9 n">417.297</td>
+            <td class="column10 style9 n">417.306</td>
+            <td class="column11 style9 n">417.675</td>
+            <td class="column12 style9 n">417.762</td>
+            <td class="column13 style9 n">414.211</td>
+            <td class="column14 style9 n">416.499</td>
+            <td class="column15 style9 n">417.803</td>
+            <td class="column16 style9 n">417.445</td>
+            <td class="column17 style9 n">419.492</td>
+            <td class="column18 style9 n">417.610</td>
+            <td class="column19 style9 n">416.870</td>
+            <td class="column20 style9 n">416.673</td>
+            <td class="column21 style9 n">414.560</td>
+            <td class="column22 style9 n">417.297</td>
+            <td class="column23 style9 n">417.306</td>
+            <td class="column24 style9 n">417.675</td>
+            <td class="column25 style9 n">417.762</td>
+            <td class="column26 style9 n">414.211</td>
+            <td class="column27 style9 n">416.499</td>
+            <td class="column28 style9 n">417.803</td>
+            <td class="column29 style14 n">00.1</td>
+            <td class="column30 style14 n">-0.9</td>
+            <td class="column31 style14 n">00.6</td>
+            <td class="column32 style14 n">00.3</td>
+            <td class="column33 style14 n">-0.9</td>
+            <td class="column34 style14 n">00.6</td>
+            <td class="column35 style14 n">00.3</td>
+          </tr>
+          <tr class="row40">
+            <td class="column0 style7 n">4</td>
+            <td class="column1 style13 s"><span style="color:#000000; font-family:'Calibri'; font-size:11pt">Hospital services</span><span style="color:#000000; font-family:'Calibri'; font-size:11pt"><sup>(2)</sup></span></td>
+            <td class="column2 style9 n">01.871</td>
+            <td class="column3 style9 n">382.959</td>
+            <td class="column4 style9 n">384.906</td>
+            <td class="column5 style9 n">384.730</td>
+            <td class="column6 style9 n">382.053</td>
+            <td class="column7 style9 n">384.050</td>
+            <td class="column8 style9 n">387.831</td>
+            <td class="column9 style9 n">389.315</td>
+            <td class="column10 style9 n">387.635</td>
+            <td class="column11 style9 n">390.323</td>
+            <td class="column12 style9 n">396.532</td>
+            <td class="column13 style9 n">402.504</td>
+            <td class="column14 style9 n">403.034</td>
+            <td class="column15 style9 n">405.115</td>
+            <td class="column16 style9 n">382.959</td>
+            <td class="column17 style9 n">384.906</td>
+            <td class="column18 style9 n">384.730</td>
+            <td class="column19 style9 n">382.053</td>
+            <td class="column20 style9 n">384.050</td>
+            <td class="column21 style9 n">387.831</td>
+            <td class="column22 style9 n">389.315</td>
+            <td class="column23 style9 n">387.635</td>
+            <td class="column24 style9 n">390.323</td>
+            <td class="column25 style9 n">396.532</td>
+            <td class="column26 style9 n">402.504</td>
+            <td class="column27 style9 n">403.034</td>
+            <td class="column28 style9 n">405.115</td>
+            <td class="column29 style14 n">05.8</td>
+            <td class="column30 style14 n">01.5</td>
+            <td class="column31 style14 n">00.1</td>
+            <td class="column32 style14 n">00.5</td>
+            <td class="column33 style14 n">01.5</td>
+            <td class="column34 style14 n">00.1</td>
+            <td class="column35 style14 n">00.5</td>
+          </tr>
+          <tr class="row41">
+            <td class="column0 style7 n">3</td>
+            <td class="column1 style12 s">Transportation services</td>
+            <td class="column2 style9 n">06.633</td>
+            <td class="column3 style9 n">390.703</td>
+            <td class="column4 style9 n">394.634</td>
+            <td class="column5 style9 n">400.357</td>
+            <td class="column6 style9 n">405.831</td>
+            <td class="column7 style9 n">408.756</td>
+            <td class="column8 style9 n">412.482</td>
+            <td class="column9 style9 n">414.673</td>
+            <td class="column10 style9 n">416.947</td>
+            <td class="column11 style9 n">422.309</td>
+            <td class="column12 style9 n">425.241</td>
+            <td class="column13 style9 n">431.339</td>
+            <td class="column14 style9 n">436.702</td>
+            <td class="column15 style9 n">435.769</td>
+            <td class="column16 style9 n">392.349</td>
+            <td class="column17 style9 n">396.382</td>
+            <td class="column18 style9 n">400.635</td>
+            <td class="column19 style9 n">405.908</td>
+            <td class="column20 style9 n">406.681</td>
+            <td class="column21 style9 n">411.258</td>
+            <td class="column22 style9 n">412.888</td>
+            <td class="column23 style9 n">415.460</td>
+            <td class="column24 style9 n">423.751</td>
+            <td class="column25 style9 n">427.262</td>
+            <td class="column26 style9 n">431.713</td>
+            <td class="column27 style9 n">436.640</td>
+            <td class="column28 style9 n">437.385</td>
+            <td class="column29 style14 n">11.5</td>
+            <td class="column30 style14 n">01.4</td>
+            <td class="column31 style14 n">01.2</td>
+            <td class="column32 style14 n">-0.2</td>
+            <td class="column33 style14 n">01.0</td>
+            <td class="column34 style14 n">01.1</td>
+            <td class="column35 style14 n">00.2</td>
+          </tr>
+          <tr class="row42">
+            <td class="column0 style7 n">4</td>
+            <td class="column1 style13 s">Motor vehicle maintenance and repair</td>
+            <td class="column2 style9 n">01.223</td>
+            <td class="column3 style9 n">371.952</td>
+            <td class="column4 style9 n">375.822</td>
+            <td class="column5 style9 n">375.883</td>
+            <td class="column6 style9 n">377.152</td>
+            <td class="column7 style9 n">379.590</td>
+            <td class="column8 style9 n">381.977</td>
+            <td class="column9 style9 n">387.318</td>
+            <td class="column10 style9 n">391.308</td>
+            <td class="column11 style9 n">396.911</td>
+            <td class="column12 style9 n">398.098</td>
+            <td class="column13 style9 n">397.746</td>
+            <td class="column14 style9 n">399.322</td>
+            <td class="column15 style9 n">398.568</td>
+            <td class="column16 style9 n">371.952</td>
+            <td class="column17 style9 n">375.822</td>
+            <td class="column18 style9 n">375.883</td>
+            <td class="column19 style9 n">377.152</td>
+            <td class="column20 style9 n">379.590</td>
+            <td class="column21 style9 n">381.977</td>
+            <td class="column22 style9 n">387.318</td>
+            <td class="column23 style9 n">391.308</td>
+            <td class="column24 style9 n">396.911</td>
+            <td class="column25 style9 n">398.098</td>
+            <td class="column26 style9 n">397.746</td>
+            <td class="column27 style9 n">399.322</td>
+            <td class="column28 style9 n">398.568</td>
+            <td class="column29 style14 n">07.2</td>
+            <td class="column30 style14 n">-0.1</td>
+            <td class="column31 style14 n">00.4</td>
+            <td class="column32 style14 n">-0.2</td>
+            <td class="column33 style14 n">-0.1</td>
+            <td class="column34 style14 n">00.4</td>
+            <td class="column35 style14 n">-0.2</td>
+          </tr>
+          <tr class="row43">
+            <td class="column0 style7 n">4</td>
+            <td class="column1 style13 s">Motor vehicle insurance</td>
+            <td class="column2 style9 n">03.635</td>
+            <td class="column3 style9 n">654.351</td>
+            <td class="column4 style9 n">665.175</td>
+            <td class="column5 style9 n">675.023</td>
+            <td class="column6 style9 n">684.868</td>
+            <td class="column7 style9 n">690.943</td>
+            <td class="column8 style9 n">702.901</td>
+            <td class="column9 style9 n">712.456</td>
+            <td class="column10 style9 n">726.132</td>
+            <td class="column11 style9 n">742.366</td>
+            <td class="column12 style9 n">751.001</td>
+            <td class="column13 style9 n">768.215</td>
+            <td class="column14 style9 n">778.408</td>
+            <td class="column15 style9 n">790.169</td>
+            <td class="column16 style9 n">654.774</td>
+            <td class="column17 style9 n">664.816</td>
+            <td class="column18 style9 n">670.371</td>
+            <td class="column19 style9 n">679.675</td>
+            <td class="column20 style9 n">687.923</td>
+            <td class="column21 style9 n">701.589</td>
+            <td class="column22 style9 n">712.991</td>
+            <td class="column23 style9 n">728.631</td>
+            <td class="column24 style9 n">746.719</td>
+            <td class="column25 style9 n">755.937</td>
+            <td class="column26 style9 n">770.743</td>
+            <td class="column27 style9 n">779.289</td>
+            <td class="column28 style9 n">790.683</td>
+            <td class="column29 style14 n">20.8</td>
+            <td class="column30 style14 n">02.3</td>
+            <td class="column31 style14 n">01.3</td>
+            <td class="column32 style14 n">01.5</td>
+            <td class="column33 style14 n">02.0</td>
+            <td class="column34 style14 n">01.1</td>
+            <td class="column35 style14 n">01.5</td>
+          </tr>
+          <tr class="row44">
+            <td class="column0 style7 n">4</td>
+            <td class="column1 style13 s">Airline fares</td>
+            <td class="column2 style9 n">00.446</td>
+            <td class="column3 style9 n">270.225</td>
+            <td class="column4 style9 n">267.551</td>
+            <td class="column5 style9 n">285.032</td>
+            <td class="column6 style9 n">289.032</td>
+            <td class="column7 style9 n">295.977</td>
+            <td class="column8 style9 n">299.467</td>
+            <td class="column9 style9 n">279.548</td>
+            <td class="column10 style9 n">254.296</td>
+            <td class="column11 style9 n">247.132</td>
+            <td class="column12 style9 n">247.771</td>
+            <td class="column13 style9 n">256.700</td>
+            <td class="column14 style9 n">258.303</td>
+            <td class="column15 style9 n">243.673</td>
+            <td class="column16 style9 n">280.719</td>
+            <td class="column17 style9 n">275.885</td>
+            <td class="column18 style9 n">293.545</td>
+            <td class="column19 style9 n">304.273</td>
+            <td class="column20 style9 n">294.546</td>
+            <td class="column21 style9 n">285.631</td>
+            <td class="column22 style9 n">263.282</td>
+            <td class="column23 style9 n">244.117</td>
+            <td class="column24 style9 n">254.332</td>
+            <td class="column25 style9 n">255.494</td>
+            <td class="column26 style9 n">251.716</td>
+            <td class="column27 style9 n">250.984</td>
+            <td class="column28 style9 n">253.136</td>
+            <td class="column29 style14 n">-9.8</td>
+            <td class="column30 style14 n">03.6</td>
+            <td class="column31 style14 n">00.6</td>
+            <td class="column32 style14 n">-5.7</td>
+            <td class="column33 style14 n">-1.5</td>
+            <td class="column34 style14 n">-0.3</td>
+            <td class="column35 style14 n">00.9</td>
+          </tr>
+          <tr class="row45">
+            <td class="column0 style2 s"></td>
+            <td class="column1 style4 s"></td>
+            <td class="column2 style5 null"></td>
+            <td class="column3 style5 null"></td>
+            <td class="column4 style5 null"></td>
+            <td class="column5 style5 null"></td>
+            <td class="column6 style5 null"></td>
+            <td class="column7 style5 null"></td>
+            <td class="column8 style5 null"></td>
+            <td class="column9 style5 null"></td>
+            <td class="column10 style5 null"></td>
+            <td class="column11 style5 null"></td>
+            <td class="column12 style5 null"></td>
+            <td class="column13 style5 null"></td>
+            <td class="column14 style5 null"></td>
+            <td class="column15 style5 null"></td>
+            <td class="column16 style5 null"></td>
+            <td class="column17 style5 null"></td>
+            <td class="column18 style5 null"></td>
+            <td class="column19 style5 null"></td>
+            <td class="column20 style5 null"></td>
+            <td class="column21 style5 null"></td>
+            <td class="column22 style5 null"></td>
+            <td class="column23 style5 null"></td>
+            <td class="column24 style5 null"></td>
+            <td class="column25 style5 null"></td>
+            <td class="column26 style5 null"></td>
+            <td class="column27 style5 null"></td>
+            <td class="column28 style5 null"></td>
+            <td class="column29 style5 null"></td>
+            <td class="column30 style5 null"></td>
+            <td class="column31 style5 null"></td>
+            <td class="column32 style5 null"></td>
+            <td class="column33 style5 null"></td>
+            <td class="column34 style5 null"></td>
+            <td class="column35 style5 null"></td>
+          </tr>
+          <tr class="row46">
+            <td class="column0 style2 s"></td>
+            <td class="column1 style4 s">Footnotes:</td>
+            <td class="column2 style5 null"></td>
+            <td class="column3 style5 null"></td>
+            <td class="column4 style5 null"></td>
+            <td class="column5 style5 null"></td>
+            <td class="column6 style5 null"></td>
+            <td class="column7 style5 null"></td>
+            <td class="column8 style5 null"></td>
+            <td class="column9 style5 null"></td>
+            <td class="column10 style5 null"></td>
+            <td class="column11 style5 null"></td>
+            <td class="column12 style5 null"></td>
+            <td class="column13 style5 null"></td>
+            <td class="column14 style5 null"></td>
+            <td class="column15 style5 null"></td>
+            <td class="column16 style5 null"></td>
+            <td class="column17 style5 null"></td>
+            <td class="column18 style5 null"></td>
+            <td class="column19 style5 null"></td>
+            <td class="column20 style5 null"></td>
+            <td class="column21 style5 null"></td>
+            <td class="column22 style5 null"></td>
+            <td class="column23 style5 null"></td>
+            <td class="column24 style5 null"></td>
+            <td class="column25 style5 null"></td>
+            <td class="column26 style5 null"></td>
+            <td class="column27 style5 null"></td>
+            <td class="column28 style5 null"></td>
+            <td class="column29 style5 null"></td>
+            <td class="column30 style5 null"></td>
+            <td class="column31 style5 null"></td>
+            <td class="column32 style5 null"></td>
+            <td class="column33 style5 null"></td>
+            <td class="column34 style5 null"></td>
+            <td class="column35 style5 null"></td>
+          </tr>
+          <tr class="row47">
+            <td class="column0 style2 s"></td>
+            <td class="column1 style4 s">(1) Indexes on a December 1982=100 base.</td>
+            <td class="column2 style5 null"></td>
+            <td class="column3 style5 null"></td>
+            <td class="column4 style5 null"></td>
+            <td class="column5 style5 null"></td>
+            <td class="column6 style5 null"></td>
+            <td class="column7 style5 null"></td>
+            <td class="column8 style5 null"></td>
+            <td class="column9 style5 null"></td>
+            <td class="column10 style5 null"></td>
+            <td class="column11 style5 null"></td>
+            <td class="column12 style5 null"></td>
+            <td class="column13 style5 null"></td>
+            <td class="column14 style5 null"></td>
+            <td class="column15 style5 null"></td>
+            <td class="column16 style5 null"></td>
+            <td class="column17 style5 null"></td>
+            <td class="column18 style5 null"></td>
+            <td class="column19 style5 null"></td>
+            <td class="column20 style5 null"></td>
+            <td class="column21 style5 null"></td>
+            <td class="column22 style5 null"></td>
+            <td class="column23 style5 null"></td>
+            <td class="column24 style5 null"></td>
+            <td class="column25 style5 null"></td>
+            <td class="column26 style5 null"></td>
+            <td class="column27 style5 null"></td>
+            <td class="column28 style5 null"></td>
+            <td class="column29 style5 null"></td>
+            <td class="column30 style5 null"></td>
+            <td class="column31 style5 null"></td>
+            <td class="column32 style5 null"></td>
+            <td class="column33 style5 null"></td>
+            <td class="column34 style5 null"></td>
+            <td class="column35 style5 null"></td>
+          </tr>
+          <tr class="row48">
+            <td class="column0 style2 s"></td>
+            <td class="column1 style4 s">(2) Indexes on a December 1996=100 base.</td>
+            <td class="column2 style5 null"></td>
+            <td class="column3 style5 null"></td>
+            <td class="column4 style5 null"></td>
+            <td class="column5 style5 null"></td>
+            <td class="column6 style5 null"></td>
+            <td class="column7 style5 null"></td>
+            <td class="column8 style5 null"></td>
+            <td class="column9 style5 null"></td>
+            <td class="column10 style5 null"></td>
+            <td class="column11 style5 null"></td>
+            <td class="column12 style5 null"></td>
+            <td class="column13 style5 null"></td>
+            <td class="column14 style5 null"></td>
+            <td class="column15 style5 null"></td>
+            <td class="column16 style5 null"></td>
+            <td class="column17 style5 null"></td>
+            <td class="column18 style5 null"></td>
+            <td class="column19 style5 null"></td>
+            <td class="column20 style5 null"></td>
+            <td class="column21 style5 null"></td>
+            <td class="column22 style5 null"></td>
+            <td class="column23 style5 null"></td>
+            <td class="column24 style5 null"></td>
+            <td class="column25 style5 null"></td>
+            <td class="column26 style5 null"></td>
+            <td class="column27 style5 null"></td>
+            <td class="column28 style5 null"></td>
+            <td class="column29 style5 null"></td>
+            <td class="column30 style5 null"></td>
+            <td class="column31 style5 null"></td>
+            <td class="column32 style5 null"></td>
+            <td class="column33 style5 null"></td>
+            <td class="column34 style5 null"></td>
+            <td class="column35 style5 null"></td>
+          </tr>
+        </tbody>
+    </table>
+  </body>
+</html>

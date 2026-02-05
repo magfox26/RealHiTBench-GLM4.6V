@@ -1,0 +1,705 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <meta name="generator" content="PhpSpreadsheet, https://github.com/PHPOffice/PhpSpreadsheet">
+      <meta name="author" content="mac" />
+      <meta name="company" content="Microsoft Corporation" />
+    <style type="text/css">
+      html { font-family:Calibri, Arial, Helvetica, sans-serif; font-size:11pt; background-color:white }
+      a.comment-indicator:hover + div.comment { background:#ffd; position:absolute; display:block; border:1px solid black; padding:0.5em }
+      a.comment-indicator { background:red; display:inline-block; border:1px solid black; width:0.5em; height:0.5em }
+      div.comment { display:none }
+      table { border-collapse:collapse; page-break-after:always }
+      .gridlines td { border:1px dotted black }
+      .gridlines th { border:1px dotted black }
+      .b { text-align:center }
+      .e { text-align:center }
+      .f { text-align:right }
+      .inlineStr { text-align:left }
+      .n { text-align:right }
+      .s { text-align:left }
+      td.style0 { vertical-align:middle; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style0 { vertical-align:middle; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style1 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#F8CCAB }
+      th.style1 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#F8CCAB }
+      td.style2 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#FFFFFF; font-family:'宋体'; font-size:11pt; background-color:#C00000 }
+      th.style2 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#FFFFFF; font-family:'宋体'; font-size:11pt; background-color:#C00000 }
+      td.style3 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#FFFFFF; font-family:'宋体'; font-size:11pt; background-color:#00B050 }
+      th.style3 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#FFFFFF; font-family:'宋体'; font-size:11pt; background-color:#00B050 }
+      td.style4 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:none #000000; font-weight:bold; color:#FFFFFF; font-family:'宋体'; font-size:11pt; background-color:#7F7F7F }
+      th.style4 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:none #000000; font-weight:bold; color:#FFFFFF; font-family:'宋体'; font-size:11pt; background-color:#7F7F7F }
+      td.style5 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#FFFFFF; font-family:'宋体'; font-size:11pt; background-color:#7F7F7F }
+      th.style5 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#FFFFFF; font-family:'宋体'; font-size:11pt; background-color:#7F7F7F }
+      td.style6 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style6 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style7 { vertical-align:middle; text-align:right; padding-right:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style7 { vertical-align:middle; text-align:right; padding-right:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style8 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style8 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style9 { vertical-align:middle; text-align:right; padding-right:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style9 { vertical-align:middle; text-align:right; padding-right:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style10 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style10 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style11 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:none #000000; font-weight:bold; color:#FFFFFF; font-family:'宋体'; font-size:11pt; background-color:#7F7F7F }
+      th.style11 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:none #000000; font-weight:bold; color:#FFFFFF; font-family:'宋体'; font-size:11pt; background-color:#7F7F7F }
+      td.style12 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#FFFFFF; font-family:'宋体'; font-size:11pt; background-color:#7F7F7F }
+      th.style12 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#FFFFFF; font-family:'宋体'; font-size:11pt; background-color:#7F7F7F }
+      td.style13 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:none #000000; border-right:1px solid #000000 !important; font-weight:bold; color:#FFFFFF; font-family:'宋体'; font-size:11pt; background-color:#7F7F7F }
+      th.style13 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:none #000000; border-right:1px solid #000000 !important; font-weight:bold; color:#FFFFFF; font-family:'宋体'; font-size:11pt; background-color:#7F7F7F }
+      td.style14 { vertical-align:middle; text-align:right; padding-right:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style14 { vertical-align:middle; text-align:right; padding-right:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style15 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:none #000000; border-right:1px solid #000000 !important; font-weight:bold; color:#FFFFFF; font-family:'宋体'; font-size:11pt; background-color:#7F7F7F }
+      th.style15 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:none #000000; border-right:1px solid #000000 !important; font-weight:bold; color:#FFFFFF; font-family:'宋体'; font-size:11pt; background-color:#7F7F7F }
+      td.style16 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style16 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style17 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style17 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style18 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style18 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style19 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style19 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      table.sheet0 col.col0 { width:42pt }
+      table.sheet0 col.col1 { width:79.29999909pt }
+      table.sheet0 col.col2 { width:86.07777679pt }
+      table.sheet0 col.col3 { width:63.03333261pt }
+      table.sheet0 tr { height:15pt }
+    </style>
+  </head>
+
+  <body>
+<style>
+@page { margin-left: 0.75in; margin-right: 0.75in; margin-top: 1in; margin-bottom: 1in; }
+body { margin-left: 0.75in; margin-right: 0.75in; margin-top: 1in; margin-bottom: 1in; }
+</style>
+    <table border="0" cellpadding="0" cellspacing="0" id="sheet0" class="sheet0 gridlines">
+        <col class="col0">
+        <col class="col1">
+        <col class="col2">
+        <col class="col3">
+        <tbody>
+          <tr class="row0">
+            <td class="column0 style1 s">#</td>
+            <td class="column1 style1 s">Product Code</td>
+            <td class="column2 style2 s">Variants</td>
+            <td class="column3 style3 s">Local Price</td>
+          </tr>
+          <tr class="row1">
+            <td class="column0 style4 s style5" colspan="4">North America (USD)</td>
+          </tr>
+          <tr class="row2">
+            <td class="column0 style6 n">1</td>
+            <td class="column1 style6 s">AA</td>
+            <td class="column2 style7 n">$5</td>
+            <td class="column3 style8 n">$5 </td>
+          </tr>
+          <tr class="row3">
+            <td class="column0 style6 n">2</td>
+            <td class="column1 style6 s">AB</td>
+            <td class="column2 style7 n">$10</td>
+            <td class="column3 style8 n">$10 </td>
+          </tr>
+          <tr class="row4">
+            <td class="column0 style6 n">3</td>
+            <td class="column1 style6 s">AC</td>
+            <td class="column2 style9 s">1-Month Premium</td>
+            <td class="column3 style10 n">$12.95 </td>
+          </tr>
+          <tr class="row5">
+            <td class="column0 style6 n">4</td>
+            <td class="column1 style6 s">AD</td>
+            <td class="column2 style9 s">3-Month Premium</td>
+            <td class="column3 style10 n">$31.95 </td>
+          </tr>
+          <tr class="row6">
+            <td class="column0 style6 n">5</td>
+            <td class="column1 style6 s">AE</td>
+            <td class="column2 style9 s">10-Day Premium</td>
+            <td class="column3 style10 n">$4.99 </td>
+          </tr>
+          <tr class="row7">
+            <td class="column0 style11 s style13" colspan="4">Canada (CAD)</td>
+          </tr>
+          <tr class="row8">
+            <td class="column0 style6 n">6</td>
+            <td class="column1 style6 s">BA</td>
+            <td class="column2 style14 n">$5 </td>
+            <td class="column3 style8 n">$5 </td>
+          </tr>
+          <tr class="row9">
+            <td class="column0 style6 n">7</td>
+            <td class="column1 style6 s">BB</td>
+            <td class="column2 style14 n">$10 </td>
+            <td class="column3 style8 n">$10 </td>
+          </tr>
+          <tr class="row10">
+            <td class="column0 style6 n">8</td>
+            <td class="column1 style6 s">BC</td>
+            <td class="column2 style9 s">1-Month Premium</td>
+            <td class="column3 style10 n">$13.99 </td>
+          </tr>
+          <tr class="row11">
+            <td class="column0 style6 n">9</td>
+            <td class="column1 style6 s">BD</td>
+            <td class="column2 style9 s">3-Month Premium</td>
+            <td class="column3 style10 n">$33.99 </td>
+          </tr>
+          <tr class="row12">
+            <td class="column0 style6 n">10</td>
+            <td class="column1 style6 s">BE</td>
+            <td class="column2 style9 s">10-Day Premium</td>
+            <td class="column3 style10 n">$5.99 </td>
+          </tr>
+          <tr class="row13">
+            <td class="column0 style4 s style15" colspan="4">Europe (EUR)</td>
+          </tr>
+          <tr class="row14">
+            <td class="column0 style6 n">11</td>
+            <td class="column1 style6 s">CA</td>
+            <td class="column2 style14 n">$5 </td>
+            <td class="column3 style16 s">€ 5.00</td>
+          </tr>
+          <tr class="row15">
+            <td class="column0 style6 n">12</td>
+            <td class="column1 style6 s">CB</td>
+            <td class="column2 style14 n">$10 </td>
+            <td class="column3 style16 s">€ 10.00</td>
+          </tr>
+          <tr class="row16">
+            <td class="column0 style6 n">13</td>
+            <td class="column1 style6 s">CC</td>
+            <td class="column2 style9 s">1-Month Premium</td>
+            <td class="column3 style16 s">€ 9.50</td>
+          </tr>
+          <tr class="row17">
+            <td class="column0 style6 n">14</td>
+            <td class="column1 style6 s">CD</td>
+            <td class="column2 style9 s">3-Month Premium</td>
+            <td class="column3 style16 s">€ 23.50</td>
+          </tr>
+          <tr class="row18">
+            <td class="column0 style6 n">15</td>
+            <td class="column1 style6 s">CE</td>
+            <td class="column2 style9 s">10-Day Premium</td>
+            <td class="column3 style16 s">€ 3.75</td>
+          </tr>
+          <tr class="row19">
+            <td class="column0 style4 s style15" colspan="4">Europe (GBP)</td>
+          </tr>
+          <tr class="row20">
+            <td class="column0 style6 n">16</td>
+            <td class="column1 style6 s">DA</td>
+            <td class="column2 style14 n">$5 </td>
+            <td class="column3 style17 s">GBP 5</td>
+          </tr>
+          <tr class="row21">
+            <td class="column0 style6 n">17</td>
+            <td class="column1 style6 s">DB</td>
+            <td class="column2 style14 n">$10 </td>
+            <td class="column3 style17 s">GBP 10</td>
+          </tr>
+          <tr class="row22">
+            <td class="column0 style6 n">18</td>
+            <td class="column1 style6 s">DC</td>
+            <td class="column2 style9 s">1-Month Premium</td>
+            <td class="column3 style17 s">GBP 8.25</td>
+          </tr>
+          <tr class="row23">
+            <td class="column0 style6 n">19</td>
+            <td class="column1 style6 s">DD</td>
+            <td class="column2 style9 s">3-Month Premium</td>
+            <td class="column3 style17 s">GBP 20.25</td>
+          </tr>
+          <tr class="row24">
+            <td class="column0 style6 n">20</td>
+            <td class="column1 style6 s">DE</td>
+            <td class="column2 style9 s">10-Day Premium</td>
+            <td class="column3 style17 s">GBP 3.25</td>
+          </tr>
+          <tr class="row25">
+            <td class="column0 style4 s style15" colspan="4">Europe (CHF)</td>
+          </tr>
+          <tr class="row26">
+            <td class="column0 style6 n">21</td>
+            <td class="column1 style6 s">EA</td>
+            <td class="column2 style14 n">$5 </td>
+            <td class="column3 style17 s">CHF 5</td>
+          </tr>
+          <tr class="row27">
+            <td class="column0 style6 n">22</td>
+            <td class="column1 style6 s">EB</td>
+            <td class="column2 style14 n">$10 </td>
+            <td class="column3 style17 s">CHF 10</td>
+          </tr>
+          <tr class="row28">
+            <td class="column0 style6 n">23</td>
+            <td class="column1 style6 s">EC</td>
+            <td class="column2 style9 s">1-Month Premium</td>
+            <td class="column3 style17 s">CHF 12.50</td>
+          </tr>
+          <tr class="row29">
+            <td class="column0 style6 n">24</td>
+            <td class="column1 style6 s">ED</td>
+            <td class="column2 style9 s">3-Month Premium</td>
+            <td class="column3 style17 s">CHF 30.50</td>
+          </tr>
+          <tr class="row30">
+            <td class="column0 style6 n">25</td>
+            <td class="column1 style6 s">EE</td>
+            <td class="column2 style9 s">10-Day Premium</td>
+            <td class="column3 style17 s">CHF 4.75</td>
+          </tr>
+          <tr class="row31">
+            <td class="column0 style4 s style15" colspan="4">Europe (DKK)</td>
+          </tr>
+          <tr class="row32">
+            <td class="column0 style6 n">26</td>
+            <td class="column1 style6 s">FA</td>
+            <td class="column2 style14 n">$5 </td>
+            <td class="column3 style17 s">kr. 30</td>
+          </tr>
+          <tr class="row33">
+            <td class="column0 style6 n">27</td>
+            <td class="column1 style6 s">FF</td>
+            <td class="column2 style14 n">$10 </td>
+            <td class="column3 style17 s">kr. 60</td>
+          </tr>
+          <tr class="row34">
+            <td class="column0 style6 n">28</td>
+            <td class="column1 style6 s">FC</td>
+            <td class="column2 style9 s">1-Month Premium</td>
+            <td class="column3 style17 s">kr. 71</td>
+          </tr>
+          <tr class="row35">
+            <td class="column0 style6 n">29</td>
+            <td class="column1 style6 s">FD</td>
+            <td class="column2 style9 s">3-Month Premium</td>
+            <td class="column3 style17 s">kr. 175</td>
+          </tr>
+          <tr class="row36">
+            <td class="column0 style6 n">30</td>
+            <td class="column1 style6 s">FF</td>
+            <td class="column2 style9 s">10-Day Premium</td>
+            <td class="column3 style17 s">kr. 27.50</td>
+          </tr>
+          <tr class="row37">
+            <td class="column0 style4 s style15" colspan="4">Europe (SEK)</td>
+          </tr>
+          <tr class="row38">
+            <td class="column0 style6 n">31</td>
+            <td class="column1 style6 s">GA</td>
+            <td class="column2 style14 n">$5 </td>
+            <td class="column3 style17 s">40 kr</td>
+          </tr>
+          <tr class="row39">
+            <td class="column0 style6 n">32</td>
+            <td class="column1 style6 s">GB</td>
+            <td class="column2 style14 n">$10 </td>
+            <td class="column3 style17 s">70 kr</td>
+          </tr>
+          <tr class="row40">
+            <td class="column0 style6 n">33</td>
+            <td class="column1 style6 s">GC</td>
+            <td class="column2 style9 s">1-Month Premium</td>
+            <td class="column3 style17 s">87 kr</td>
+          </tr>
+          <tr class="row41">
+            <td class="column0 style6 n">34</td>
+            <td class="column1 style6 s">GD</td>
+            <td class="column2 style9 s">3-Month Premium</td>
+            <td class="column3 style17 s">214.25 kr</td>
+          </tr>
+          <tr class="row42">
+            <td class="column0 style6 n">35</td>
+            <td class="column1 style6 s">GE</td>
+            <td class="column2 style9 s">10-Day Premium</td>
+            <td class="column3 style17 s">33.50 kr</td>
+          </tr>
+          <tr class="row43">
+            <td class="column0 style4 s style15" colspan="4">Europe (NOK)</td>
+          </tr>
+          <tr class="row44">
+            <td class="column0 style6 n">36</td>
+            <td class="column1 style6 s">HA</td>
+            <td class="column2 style14 n">$5 </td>
+            <td class="column3 style17 s">kr 30</td>
+          </tr>
+          <tr class="row45">
+            <td class="column0 style6 n">37</td>
+            <td class="column1 style6 s">HB</td>
+            <td class="column2 style14 n">$10 </td>
+            <td class="column3 style17 s">kr 60</td>
+          </tr>
+          <tr class="row46">
+            <td class="column0 style6 n">38</td>
+            <td class="column1 style6 s">HC</td>
+            <td class="column2 style9 s">1-Month Premium</td>
+            <td class="column3 style17 s">kr 75.50</td>
+          </tr>
+          <tr class="row47">
+            <td class="column0 style6 n">39</td>
+            <td class="column1 style6 s">HD</td>
+            <td class="column2 style9 s">3-Month Premium</td>
+            <td class="column3 style17 s">kr 186</td>
+          </tr>
+          <tr class="row48">
+            <td class="column0 style6 n">40</td>
+            <td class="column1 style6 s">HE</td>
+            <td class="column2 style9 s">10-Day Premium</td>
+            <td class="column3 style17 s">kr 29</td>
+          </tr>
+          <tr class="row49">
+            <td class="column0 style4 s style15" colspan="4">Europe (ILS)</td>
+          </tr>
+          <tr class="row50">
+            <td class="column0 style6 n">41</td>
+            <td class="column1 style6 s">JA</td>
+            <td class="column2 style14 n">$5 </td>
+            <td class="column3 style17 s">₪ 20</td>
+          </tr>
+          <tr class="row51">
+            <td class="column0 style6 n">42</td>
+            <td class="column1 style6 s">JB</td>
+            <td class="column2 style14 n">$10 </td>
+            <td class="column3 style17 s">₪ 40</td>
+          </tr>
+          <tr class="row52">
+            <td class="column0 style6 n">43</td>
+            <td class="column1 style6 s">JC</td>
+            <td class="column2 style9 s">1-Month Premium</td>
+            <td class="column3 style17 s">₪ 47</td>
+          </tr>
+          <tr class="row53">
+            <td class="column0 style6 n">44</td>
+            <td class="column1 style6 s">JD</td>
+            <td class="column2 style9 s">3-Month Premium</td>
+            <td class="column3 style17 s">₪ 115.50</td>
+          </tr>
+          <tr class="row54">
+            <td class="column0 style6 n">45</td>
+            <td class="column1 style6 s">JE</td>
+            <td class="column2 style9 s">10-Day Premium</td>
+            <td class="column3 style17 s">₪ 18</td>
+          </tr>
+          <tr class="row55">
+            <td class="column0 style4 s style15" colspan="4">Middle East (SAR)</td>
+          </tr>
+          <tr class="row56">
+            <td class="column0 style6 n">46</td>
+            <td class="column1 style6 s">KA</td>
+            <td class="column2 style14 n">$5 </td>
+            <td class="column3 style17 s">ر.س.‏ 20 </td>
+          </tr>
+          <tr class="row57">
+            <td class="column0 style6 n">47</td>
+            <td class="column1 style6 s">KB</td>
+            <td class="column2 style14 n">$10 </td>
+            <td class="column3 style17 s">ر.س.‏ 40 </td>
+          </tr>
+          <tr class="row58">
+            <td class="column0 style6 n">48</td>
+            <td class="column1 style6 s">KC</td>
+            <td class="column2 style9 s">1-Month Premium</td>
+            <td class="column3 style17 s">ر.س.‏ 50 </td>
+          </tr>
+          <tr class="row59">
+            <td class="column0 style6 n">49</td>
+            <td class="column1 style6 s">KD</td>
+            <td class="column2 style9 s">3-Month Premium</td>
+            <td class="column3 style17 s">ر.س.‏ 120 </td>
+          </tr>
+          <tr class="row60">
+            <td class="column0 style6 n">50</td>
+            <td class="column1 style6 s">KE</td>
+            <td class="column2 style9 s">10-Day Premium</td>
+            <td class="column3 style17 s">ر.س.‏ 20 </td>
+          </tr>
+          <tr class="row61">
+            <td class="column0 style4 s style15" colspan="4">Middle East (AED)</td>
+          </tr>
+          <tr class="row62">
+            <td class="column0 style6 n">51</td>
+            <td class="column1 style6 s">LA</td>
+            <td class="column2 style14 n">$5 </td>
+            <td class="column3 style17 s">د.إ.‏ 20 </td>
+          </tr>
+          <tr class="row63">
+            <td class="column0 style6 n">52</td>
+            <td class="column1 style6 s">LB</td>
+            <td class="column2 style14 n">$10 </td>
+            <td class="column3 style17 s">د.إ.‏ 40 </td>
+          </tr>
+          <tr class="row64">
+            <td class="column0 style6 n">53</td>
+            <td class="column1 style6 s">LC</td>
+            <td class="column2 style9 s">1-Month Premium</td>
+            <td class="column3 style17 s">د.إ.‏ 50 </td>
+          </tr>
+          <tr class="row65">
+            <td class="column0 style6 n">54</td>
+            <td class="column1 style6 s">LD</td>
+            <td class="column2 style9 s">3-Month Premium</td>
+            <td class="column3 style17 s">د.إ.‏ 120 </td>
+          </tr>
+          <tr class="row66">
+            <td class="column0 style6 n">55</td>
+            <td class="column1 style6 s">LE</td>
+            <td class="column2 style9 s">10-Day Premium</td>
+            <td class="column3 style17 s">د.إ.‏ 20 </td>
+          </tr>
+          <tr class="row67">
+            <td class="column0 style4 s style15" colspan="4">Japan (JPY)</td>
+          </tr>
+          <tr class="row68">
+            <td class="column0 style6 n">56</td>
+            <td class="column1 style6 s">MA</td>
+            <td class="column2 style14 n">$5 </td>
+            <td class="column3 style18 s">¥650</td>
+          </tr>
+          <tr class="row69">
+            <td class="column0 style6 n">57</td>
+            <td class="column1 style6 s">MB</td>
+            <td class="column2 style14 n">$10 </td>
+            <td class="column3 style18 s">¥1,150</td>
+          </tr>
+          <tr class="row70">
+            <td class="column0 style6 n">58</td>
+            <td class="column1 style6 s">MC</td>
+            <td class="column2 style9 s">1-Month Premium</td>
+            <td class="column3 style18 s">¥1,500</td>
+          </tr>
+          <tr class="row71">
+            <td class="column0 style6 n">59</td>
+            <td class="column1 style6 s">MD</td>
+            <td class="column2 style9 s">3-Month Premium</td>
+            <td class="column3 style18 s">¥3,400</td>
+          </tr>
+          <tr class="row72">
+            <td class="column0 style6 n">60</td>
+            <td class="column1 style6 s">MF</td>
+            <td class="column2 style9 s">10-Day Premium</td>
+            <td class="column3 style18 s">¥650</td>
+          </tr>
+          <tr class="row73">
+            <td class="column0 style4 s style15" colspan="4">Asia Pacific (TWD)</td>
+          </tr>
+          <tr class="row74">
+            <td class="column0 style6 n">61</td>
+            <td class="column1 style6 s">NA</td>
+            <td class="column2 style14 n">$5 </td>
+            <td class="column3 style17 s">NT$150</td>
+          </tr>
+          <tr class="row75">
+            <td class="column0 style6 n">62</td>
+            <td class="column1 style6 s">NB</td>
+            <td class="column2 style14 n">$10 </td>
+            <td class="column3 style17 s">NT$290</td>
+          </tr>
+          <tr class="row76">
+            <td class="column0 style6 n">63</td>
+            <td class="column1 style6 s">NC</td>
+            <td class="column2 style9 s">1-Month Premium</td>
+            <td class="column3 style17 s">NT$380</td>
+          </tr>
+          <tr class="row77">
+            <td class="column0 style6 n">64</td>
+            <td class="column1 style6 s">ND</td>
+            <td class="column2 style9 s">3-Month Premium</td>
+            <td class="column3 style17 s">NT$930</td>
+          </tr>
+          <tr class="row78">
+            <td class="column0 style6 n">65</td>
+            <td class="column1 style6 s">NE</td>
+            <td class="column2 style9 s">10-Day Premium</td>
+            <td class="column3 style17 s">NT$150</td>
+          </tr>
+          <tr class="row79">
+            <td class="column0 style4 s style15" colspan="4">Asia Pacific (KRW)</td>
+          </tr>
+          <tr class="row80">
+            <td class="column0 style6 n">66</td>
+            <td class="column1 style6 s">OA</td>
+            <td class="column2 style14 n">$5 </td>
+            <td class="column3 style17 s">₩5,300</td>
+          </tr>
+          <tr class="row81">
+            <td class="column0 style6 n">67</td>
+            <td class="column1 style6 s">OB</td>
+            <td class="column2 style14 n">$10 </td>
+            <td class="column3 style17 s">₩11,000</td>
+          </tr>
+          <tr class="row82">
+            <td class="column0 style6 n">68</td>
+            <td class="column1 style6 s">OC</td>
+            <td class="column2 style9 s">1-Month Premium</td>
+            <td class="column3 style17 s">₩13,700</td>
+          </tr>
+          <tr class="row83">
+            <td class="column0 style6 n">69</td>
+            <td class="column1 style6 s">OD</td>
+            <td class="column2 style9 s">3-Month Premium</td>
+            <td class="column3 style17 s">₩33,700</td>
+          </tr>
+          <tr class="row84">
+            <td class="column0 style6 n">70</td>
+            <td class="column1 style6 s">OE</td>
+            <td class="column2 style9 s">10-Day Premium</td>
+            <td class="column3 style17 s">₩5,300</td>
+          </tr>
+          <tr class="row85">
+            <td class="column0 style4 s style15" colspan="4">Asia Pacific (HKD)</td>
+          </tr>
+          <tr class="row86">
+            <td class="column0 style6 n">71</td>
+            <td class="column1 style6 s">PA</td>
+            <td class="column2 style14 n">$5 </td>
+            <td class="column3 style17 s">HK$40</td>
+          </tr>
+          <tr class="row87">
+            <td class="column0 style6 n">72</td>
+            <td class="column1 style6 s">PB</td>
+            <td class="column2 style14 n">$10 </td>
+            <td class="column3 style17 s">HK$80</td>
+          </tr>
+          <tr class="row88">
+            <td class="column0 style6 n">73</td>
+            <td class="column1 style6 s">PC</td>
+            <td class="column2 style9 s">1-Month Premium</td>
+            <td class="column3 style17 s">HK$100</td>
+          </tr>
+          <tr class="row89">
+            <td class="column0 style6 n">74</td>
+            <td class="column1 style6 s">PD</td>
+            <td class="column2 style9 s">3-Month Premium</td>
+            <td class="column3 style17 s">HK$250</td>
+          </tr>
+          <tr class="row90">
+            <td class="column0 style6 n">75</td>
+            <td class="column1 style6 s">PE</td>
+            <td class="column2 style9 s">10-Day Premium</td>
+            <td class="column3 style17 s">HK$40</td>
+          </tr>
+          <tr class="row91">
+            <td class="column0 style4 s style15" colspan="4">Australia (AUD)</td>
+          </tr>
+          <tr class="row92">
+            <td class="column0 style6 n">76</td>
+            <td class="column1 style6 s">QA</td>
+            <td class="column2 style14 n">$5 </td>
+            <td class="column3 style19 n">$5.50</td>
+          </tr>
+          <tr class="row93">
+            <td class="column0 style6 n">77</td>
+            <td class="column1 style6 s">QB</td>
+            <td class="column2 style14 n">$10 </td>
+            <td class="column3 style19 n">$10.50</td>
+          </tr>
+          <tr class="row94">
+            <td class="column0 style6 n">78</td>
+            <td class="column1 style6 s">QC</td>
+            <td class="column2 style9 s">1-Month Premium</td>
+            <td class="column3 style19 n">$15.00</td>
+          </tr>
+          <tr class="row95">
+            <td class="column0 style6 n">79</td>
+            <td class="column1 style6 s">QD</td>
+            <td class="column2 style9 s">3-Month Premium</td>
+            <td class="column3 style19 n">$36.00</td>
+          </tr>
+          <tr class="row96">
+            <td class="column0 style6 n">80</td>
+            <td class="column1 style6 s">QE</td>
+            <td class="column2 style9 s">10-Day Premium</td>
+            <td class="column3 style19 n">$6.00</td>
+          </tr>
+          <tr class="row97">
+            <td class="column0 style4 s style15" colspan="4">New Zealand (NZD)</td>
+          </tr>
+          <tr class="row98">
+            <td class="column0 style6 n">81</td>
+            <td class="column1 style6 s">RA</td>
+            <td class="column2 style14 n">$5 </td>
+            <td class="column3 style10 n">$6.50 </td>
+          </tr>
+          <tr class="row99">
+            <td class="column0 style6 n">82</td>
+            <td class="column1 style6 s">RB</td>
+            <td class="column2 style14 n">$10 </td>
+            <td class="column3 style8 n">$13 </td>
+          </tr>
+          <tr class="row100">
+            <td class="column0 style6 n">83</td>
+            <td class="column1 style6 s">RC</td>
+            <td class="column2 style9 s">1-Month Premium</td>
+            <td class="column3 style8 n">$19 </td>
+          </tr>
+          <tr class="row101">
+            <td class="column0 style6 n">84</td>
+            <td class="column1 style6 s">RD</td>
+            <td class="column2 style9 s">3-Month Premium</td>
+            <td class="column3 style8 n">$46 </td>
+          </tr>
+          <tr class="row102">
+            <td class="column0 style6 n">85</td>
+            <td class="column1 style6 s">RE</td>
+            <td class="column2 style9 s">10-Day Premium</td>
+            <td class="column3 style10 n">$7.50 </td>
+          </tr>
+          <tr class="row103">
+            <td class="column0 style4 s style15" colspan="4">Philippines (PHP)</td>
+          </tr>
+          <tr class="row104">
+            <td class="column0 style6 n">86</td>
+            <td class="column1 style6 s">SA</td>
+            <td class="column2 style14 n">$5 </td>
+            <td class="column3 style17 s">Php250</td>
+          </tr>
+          <tr class="row105">
+            <td class="column0 style6 n">87</td>
+            <td class="column1 style6 s">SB</td>
+            <td class="column2 style14 n">$10 </td>
+            <td class="column3 style17 s">Php500</td>
+          </tr>
+          <tr class="row106">
+            <td class="column0 style6 n">88</td>
+            <td class="column1 style6 s">SC</td>
+            <td class="column2 style9 s">1-Month Premium</td>
+            <td class="column3 style17 s">Php650</td>
+          </tr>
+          <tr class="row107">
+            <td class="column0 style6 n">89</td>
+            <td class="column1 style6 s">SD</td>
+            <td class="column2 style9 s">3-Month Premium</td>
+            <td class="column3 style17 s">Php1,550</td>
+          </tr>
+          <tr class="row108">
+            <td class="column0 style6 n">90</td>
+            <td class="column1 style6 s">SE</td>
+            <td class="column2 style9 s">10-Day Premium</td>
+            <td class="column3 style17 s">Php250</td>
+          </tr>
+          <tr class="row109">
+            <td class="column0 style4 s style15" colspan="4">FREE TRIAL</td>
+          </tr>
+          <tr class="row110">
+            <td class="column0 style6 n">91</td>
+            <td class="column1 style6 s">TF</td>
+            <td class="column2 style9 s">7-Day Free Trial</td>
+            <td class="column3 style17 s">-</td>
+          </tr>
+          <tr class="row111">
+            <td class="column0 style6 n">92</td>
+            <td class="column1 style6 s">TG</td>
+            <td class="column2 style9 s">14-Day Free Trial</td>
+            <td class="column3 style17 s">-</td>
+          </tr>
+          <tr class="row112">
+            <td class="column0 style6 n">93</td>
+            <td class="column1 style6 s">TH</td>
+            <td class="column2 style9 s">30-Day Premium</td>
+            <td class="column3 style17 s">-</td>
+          </tr>
+        </tbody>
+    </table>
+  </body>
+</html>

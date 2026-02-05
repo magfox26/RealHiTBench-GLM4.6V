@@ -1,0 +1,86 @@
+% Please add the following required packages to your document preamble:
+% \usepackage[table,xcdraw]{xcolor}
+% Beamer presentation requires \usepackage{colortbl} instead of \usepackage[table,xcdraw]{xcolor}
+\begin{table}[]
+\begin{tabular}{ccccccccccccc}
+\textbf{} &  &  &  & \multicolumn{3}{c}{\cellcolor[HTML]{FFFF00}\textbf{EASTING}} & \multicolumn{3}{c}{\cellcolor[HTML]{FFC000}\textbf{NORTHING}} & \multicolumn{3}{c}{\cellcolor[HTML]{00B050}\textbf{DEPTH}} \\
+\textbf{MATERIAL} & TONNAGE (t) & Menge(m³+t) & SG (t/m3) & \cellcolor[HTML]{FFFF00}\textbf{MAX} & \cellcolor[HTML]{FFFF00}\textbf{MIN} & \cellcolor[HTML]{FFFF00}\textbf{DIFF} & \cellcolor[HTML]{FFC000}\textbf{MAX} & \cellcolor[HTML]{FFC000}\textbf{MIN} & \cellcolor[HTML]{FFC000}\textbf{DIFF} & \cellcolor[HTML]{00B050}\textbf{MAX} & \cellcolor[HTML]{00B050}\textbf{MIN} & \cellcolor[HTML]{00B050}\textbf{DIFF} \\
+\textbf{740} & 4750 & 2638 & 1.80060652 & \textbf{33566} & \textbf{32112} & \textbf{1455} & \textbf{61426} & \textbf{60126} & \textbf{1301} & \textbf{80} & \textbf{-41} & \textbf{120} \\
+\textbf{982} & 15730 & 15730 & 1 & \textbf{33556} & \textbf{32114} & \textbf{1441} & \textbf{61158} & \textbf{59910} & \textbf{1248} & \textbf{82} & \textbf{-45} & \textbf{127} \\
+\textbf{410} & 35430 & 20841 & 1.700014395 & \textbf{34041} & \textbf{32225} & \textbf{1816} & \textbf{61841} & \textbf{60515} & \textbf{1326} & \textbf{58} & \textbf{-45} & \textbf{104} \\
+\textbf{982} & 6790 & 6790 & 1 & \textbf{33590} & \textbf{32236} & \textbf{1354} & \textbf{60297} & \textbf{59838} & \textbf{459} & \textbf{70} & \textbf{-39} & \textbf{108} \\
+\textbf{740} & 3720 & 2066 & 1.800580833 & \textbf{33698} & \textbf{32348} & \textbf{1349} & \textbf{61147} & \textbf{60475} & \textbf{672} & \textbf{83} & \textbf{-45} & \textbf{129} \\
+\textbf{410} & 32720 & 19247 & 1.700005196 & \textbf{33802} & \textbf{32453} & \textbf{1349} & \textbf{61396} & \textbf{60900} & \textbf{495} & \textbf{79} & \textbf{-55} & \textbf{134} \\
+\textbf{980} & 14430 & 14430 & 1 & \textbf{33656} & \textbf{32456} & \textbf{1201} & \textbf{61006} & \textbf{57450} & \textbf{3556} & \textbf{78} & \textbf{-51} & \textbf{129} \\
+\textbf{410} & 56900 & 33470 & 1.700029878 & \textbf{33752} & \textbf{32494} & \textbf{1258} & \textbf{60243} & \textbf{57271} & \textbf{2972} & \textbf{68} & \textbf{-53} & \textbf{121} \\
+\textbf{410} & 44040 & 25905 & 1.700057904 & \textbf{33903} & \textbf{32514} & \textbf{1389} & \textbf{61107} & \textbf{57649} & \textbf{3458} & \textbf{68} & \textbf{-53} & \textbf{120} \\
+\textbf{982} & 13480 & 13480 & 1 & \textbf{33808} & \textbf{32527} & \textbf{1281} & \textbf{60480} & \textbf{57685} & \textbf{2794} & \textbf{64} & \textbf{-43} & \textbf{107} \\
+\textbf{410} & 55400 & 32588 & 1.700012274 & \textbf{34088} & \textbf{32532} & \textbf{1556} & \textbf{61402} & \textbf{57690} & \textbf{3713} & \textbf{63} & \textbf{-50} & \textbf{113} \\
+\textbf{410} & 21990 & 12935 & 1.700038655 & \textbf{34197} & \textbf{32567} & \textbf{1630} & \textbf{61870} & \textbf{57225} & \textbf{4644} & \textbf{65} & \textbf{-30} & \textbf{94} \\
+\textbf{410} & 33280 & 19576 & 1.700040866 & \textbf{33415} & \textbf{32667} & \textbf{748} & \textbf{58540} & \textbf{57777} & \textbf{763} & \textbf{58} & \textbf{-49} & \textbf{107} \\
+\textbf{410} & 33740 & 19847 & 1.700005039 & \textbf{33549} & \textbf{32856} & \textbf{692} & \textbf{61672} & \textbf{60527} & \textbf{1145} & \textbf{37} & \textbf{-57} & \textbf{94} \\
+\textbf{982} & 14600 & 14600 & 1 & \textbf{33817} & \textbf{32887} & \textbf{930} & \textbf{60595} & \textbf{58622} & \textbf{1973} & \textbf{61} & \textbf{-38} & \textbf{99} \\
+\textbf{410} & 135350 & 79617 & 1.700013816 & \textbf{34093} & \textbf{32946} & \textbf{1147} & \textbf{60677} & \textbf{58544} & \textbf{2132} & \textbf{38} & \textbf{-58} & \textbf{96} \\
+\textbf{982} & 11560 & 11560 & 1 & \textbf{33731} & \textbf{32953} & \textbf{778} & \textbf{60223} & \textbf{59012} & \textbf{1210} & \textbf{56} & \textbf{-49} & \textbf{105} \\
+\textbf{982} & 5020 & 5020 & 1 & \textbf{33750} & \textbf{32993} & \textbf{757} & \textbf{61432} & \textbf{60244} & \textbf{1188} & \textbf{42} & \textbf{-49} & \textbf{91} \\
+\textbf{410} & 67220 & 39541 & 1.700007587 & \textbf{33559} & \textbf{33005} & \textbf{554} & \textbf{60226} & \textbf{59648} & \textbf{578} & \textbf{42} & \textbf{-50} & \textbf{92} \\
+\textbf{410} & 26988 & 15875 & 1.700031496 & \textbf{33496} & \textbf{33019} & \textbf{477} & \textbf{60576} & \textbf{59852} & \textbf{724} & \textbf{24} & \textbf{-51} & \textbf{74} \\
+\textbf{410} & 21350 & 12558 & 1.700111483 & \textbf{33959} & \textbf{33105} & \textbf{855} & \textbf{60794} & \textbf{60245} & \textbf{549} & \textbf{47} & \textbf{-52} & \textbf{99} \\
+\textbf{410} & 20910 & 12300 & 1.7 & \textbf{33139} & \textbf{33110} & \textbf{29} & \textbf{57164} & \textbf{57136} & \textbf{29} & \textbf{-4} & \textbf{-19} & \textbf{15} \\
+\textbf{980} & 9200 & 9200 & 1 & \textbf{33137} & \textbf{33112} & \textbf{25} & \textbf{57162} & \textbf{57137} & \textbf{25} & \textbf{-4} & \textbf{-19} & \textbf{15} \\
+\textbf{410} & 38280 & 22517 & 1.700048852 & \textbf{33749} & \textbf{33114} & \textbf{635} & \textbf{60575} & \textbf{60044} & \textbf{531} & \textbf{61} & \textbf{-37} & \textbf{98} \\
+\textbf{410} & 11490 & 6758 & 1.700207162 & \textbf{33135} & \textbf{33114} & \textbf{21} & \textbf{57160} & \textbf{57139} & \textbf{21} & \textbf{-4} & \textbf{-19} & \textbf{15} \\
+\textbf{982} & 6230 & 6230 & 1 & \textbf{33135} & \textbf{33115} & \textbf{20} & \textbf{57160} & \textbf{57140} & \textbf{20} & \textbf{-4} & \textbf{-19} & \textbf{15} \\
+\textbf{410} & 5690 & 3347 & 1.700029878 & \textbf{33132} & \textbf{33117} & \textbf{15} & \textbf{57157} & \textbf{57142} & \textbf{15} & \textbf{-4} & \textbf{-19} & \textbf{15} \\
+\textbf{982} & 2680 & 2680 & 1 & \textbf{33131} & \textbf{33118} & \textbf{13} & \textbf{57157} & \textbf{57143} & \textbf{13} & \textbf{-4} & \textbf{-19} & \textbf{15} \\
+\textbf{410} & 4070 & 2394 & 1.700083542 & \textbf{33131} & \textbf{33118} & \textbf{13} & \textbf{57156} & \textbf{57144} & \textbf{13} & \textbf{-4} & \textbf{-19} & \textbf{15} \\
+\textbf{980} & 1370 & 1370 & 1 & \textbf{33130} & \textbf{33120} & \textbf{10} & \textbf{57155} & \textbf{57145} & \textbf{10} & \textbf{-4} & \textbf{-19} & \textbf{15} \\
+\textbf{410} & 12920 & 7600 & 1.7 & \textbf{33137} & \textbf{33125} & \textbf{12} & \textbf{57173} & \textbf{57147} & \textbf{26} & \textbf{-11} & \textbf{-13} & \textbf{1} \\
+\textbf{982} & 10660 & 10660 & 1 & \textbf{33176} & \textbf{33127} & \textbf{48} & \textbf{57229} & \textbf{57179} & \textbf{50} & \textbf{-10} & \textbf{-33} & \textbf{23} \\
+\textbf{410} & 13650 & 8029 & 1.700087184 & \textbf{33154} & \textbf{33129} & \textbf{25} & \textbf{57233} & \textbf{57177} & \textbf{56} & \textbf{-10} & \textbf{-27} & \textbf{16} \\
+\textbf{610} & 31380 & 18458 & 1.700075848 & \textbf{34085} & \textbf{33136} & \textbf{949} & \textbf{61453} & \textbf{60639} & \textbf{813} & \textbf{51} & \textbf{-50} & \textbf{101} \\
+\textbf{982} & 4740 & 4740 & 1 & \textbf{33146} & \textbf{33137} & \textbf{9} & \textbf{57182} & \textbf{57172} & \textbf{10} & \textbf{-13} & \textbf{-32} & \textbf{20} \\
+\textbf{982} & 10230 & 10230 & 1 & \textbf{33193} & \textbf{33138} & \textbf{55} & \textbf{57284} & \textbf{57210} & \textbf{75} & \textbf{-10} & \textbf{-34} & \textbf{23} \\
+\textbf{410} & 950 & 558 & 1.702508961 & \textbf{33157} & \textbf{33139} & \textbf{18} & \textbf{57208} & \textbf{57187} & \textbf{21} & \textbf{-26} & \textbf{-27} & \textbf{1} \\
+\textbf{740} & 2040 & 1133 & 1.800529568 & \textbf{33193} & \textbf{33139} & \textbf{54} & \textbf{57212} & \textbf{57187} & \textbf{24} & \textbf{-26} & \textbf{-33} & \textbf{7} \\
+\textbf{740} & 9530 & 5294 & 1.800151114 & \textbf{33221} & \textbf{33140} & \textbf{81} & \textbf{57313} & \textbf{57254} & \textbf{58} & \textbf{-11} & \textbf{-35} & \textbf{24} \\
+\textbf{984} & 7420 & 7420 & 1 & \textbf{33207} & \textbf{33140} & \textbf{67} & \textbf{57384} & \textbf{57238} & \textbf{146} & \textbf{-11} & \textbf{-20} & \textbf{10} \\
+\textbf{740} & 1540 & 855 & 1.801169591 & \textbf{33213} & \textbf{33141} & \textbf{72} & \textbf{57270} & \textbf{57231} & \textbf{39} & \textbf{-10} & \textbf{-34} & \textbf{23} \\
+\textbf{410} & 19580 & 11517 & 1.700095511 & \textbf{33183} & \textbf{33141} & \textbf{42} & \textbf{57256} & \textbf{57208} & \textbf{48} & \textbf{-12} & \textbf{-34} & \textbf{21} \\
+\textbf{410} & 50890 & 29935 & 1.700016703 & \textbf{33233} & \textbf{33147} & \textbf{86} & \textbf{57356} & \textbf{57295} & \textbf{61} & \textbf{-11} & \textbf{-35} & \textbf{24} \\
+\textbf{982} & 4680 & 4680 & 1 & \textbf{33192} & \textbf{33147} & \textbf{45} & \textbf{57210} & \textbf{57187} & \textbf{23} & \textbf{-32} & \textbf{-33} & \textbf{1} \\
+\textbf{410} & 19640 & 11552 & 1.700138504 & \textbf{33209} & \textbf{33149} & \textbf{60} & \textbf{57377} & \textbf{57323} & \textbf{54} & \textbf{-12} & \textbf{-36} & \textbf{24} \\
+\textbf{410} & 35810 & 21064 & 1.700056969 & \textbf{34104} & \textbf{33149} & \textbf{955} & \textbf{61829} & \textbf{60726} & \textbf{1103} & \textbf{25} & \textbf{-45} & \textbf{71} \\
+\textbf{410} & 5950 & 3500 & 1.7 & \textbf{33174} & \textbf{33150} & \textbf{24} & \textbf{57291} & \textbf{57267} & \textbf{23} & \textbf{-21} & \textbf{-21} & \textbf{1} \\
+\textbf{410} & 46820 & 27541 & 1.700010893 & \textbf{33234} & \textbf{33153} & \textbf{81} & \textbf{57408} & \textbf{57349} & \textbf{59} & \textbf{-10} & \textbf{-33} & \textbf{24} \\
+\textbf{410} & 18570 & 10923 & 1.700082395 & \textbf{33190} & \textbf{33155} & \textbf{35} & \textbf{57295} & \textbf{57258} & \textbf{37} & \textbf{-21} & \textbf{-27} & \textbf{6} \\
+\textbf{410} & 30010 & 17652 & 1.700090641 & \textbf{33214} & \textbf{33156} & \textbf{58} & \textbf{57376} & \textbf{57332} & \textbf{44} & \textbf{-20} & \textbf{-33} & \textbf{12} \\
+\textbf{982} & 7080 & 7077.8 & 1.000310831 & \textbf{33216} & \textbf{33156} & \textbf{60} & \textbf{57347} & \textbf{57294} & \textbf{53} & \textbf{-27} & \textbf{-35} & \textbf{8} \\
+\textbf{984} & 10620 & 10620 & 1 & \textbf{33216} & \textbf{33157} & \textbf{60} & \textbf{57300} & \textbf{57258} & \textbf{42} & \textbf{-26} & \textbf{-34} & \textbf{9} \\
+\textbf{410} & 35260 & 20741 & 1.700014464 & \textbf{33986} & \textbf{33157} & \textbf{829} & \textbf{61776} & \textbf{60475} & \textbf{1301} & \textbf{18} & \textbf{-45} & \textbf{63} \\
+\textbf{410} & 28300 & 16647 & 1.700006007 & \textbf{33268} & \textbf{33157} & \textbf{111} & \textbf{57494} & \textbf{57396} & \textbf{97} & \textbf{-11} & \textbf{-38} & \textbf{27} \\
+\textbf{740} & 3010 & 1672 & 1.800239234 & \textbf{33199} & \textbf{33157} & \textbf{41} & \textbf{57347} & \textbf{57288} & \textbf{59} & \textbf{-21} & \textbf{-28} & \textbf{7} \\
+\textbf{410} & 20040 & 11788 & 1.700033933 & \textbf{33251} & \textbf{33163} & \textbf{88} & \textbf{57468} & \textbf{57375} & \textbf{93} & \textbf{-11} & \textbf{-37} & \textbf{26} \\
+\textbf{410} & 22340 & 13141 & 1.700022829 & \textbf{33236} & \textbf{33165} & \textbf{71} & \textbf{57498} & \textbf{57434} & \textbf{64} & \textbf{-12} & \textbf{-24} & \textbf{13} \\
+\textbf{982} & 4130 & 4130 & 1 & \textbf{33185} & \textbf{33165} & \textbf{20} & \textbf{57315} & \textbf{57300} & \textbf{14} & \textbf{-21} & \textbf{-26} & \textbf{5} \\
+\textbf{410} & 23980 & 14105 & 1.700106345 & \textbf{33228} & \textbf{33167} & \textbf{61} & \textbf{57464} & \textbf{57408} & \textbf{56} & \textbf{-20} & \textbf{-27} & \textbf{7} \\
+\textbf{980} & 1840 & 1840 & 1 & \textbf{33261} & \textbf{33169} & \textbf{92} & \textbf{57763} & \textbf{57272} & \textbf{491} & \textbf{-4} & \textbf{-22} & \textbf{19} \\
+\textbf{410} & 13960 & 8211 & 1.700158324 & \textbf{33206} & \textbf{33169} & \textbf{38} & \textbf{57480} & \textbf{57442} & \textbf{38} & \textbf{-12} & \textbf{-16} & \textbf{5} \\
+\textbf{410} & 32590 & 19170 & 1.700052165 & \textbf{33261} & \textbf{33170} & \textbf{91} & \textbf{57569} & \textbf{57475} & \textbf{94} & \textbf{-10} & \textbf{-38} & \textbf{28} \\
+\textbf{982} & 19130 & 19132.2 & 0.999885011 & \textbf{33246} & \textbf{33171} & \textbf{75} & \textbf{57467} & \textbf{57402} & \textbf{64} & \textbf{-26} & \textbf{-32} & \textbf{6} \\
+\textbf{410} & 66910 & 39358 & 1.700035571 & \textbf{33233} & \textbf{33171} & \textbf{62} & \textbf{57569} & \textbf{57475} & \textbf{94} & \textbf{-11} & \textbf{-26} & \textbf{16} \\
+\textbf{410} & 35030 & 20605 & 1.700072798 & \textbf{33259} & \textbf{33172} & \textbf{87} & \textbf{57544} & \textbf{57459} & \textbf{85} & \textbf{-11} & \textbf{-38} & \textbf{27} \\
+\textbf{984} & 7730 & 7730 & 1 & \textbf{33219} & \textbf{33172} & \textbf{47} & \textbf{57376} & \textbf{57316} & \textbf{60} & \textbf{-29} & \textbf{-36} & \textbf{6} \\
+\textbf{410} & 15670 & 9217 & 1.700119345 & \textbf{33264} & \textbf{33172} & \textbf{92} & \textbf{57487} & \textbf{57450} & \textbf{37} & \textbf{-12} & \textbf{-38} & \textbf{26} \\
+\textbf{410} & 19250 & 11323 & 1.700079484 & \textbf{33243} & \textbf{33175} & \textbf{68} & \textbf{57512} & \textbf{57456} & \textbf{55} & \textbf{-20} & \textbf{-33} & \textbf{13} \\
+\textbf{982} & 7860 & 7860 & 1 & \textbf{33238} & \textbf{33176} & \textbf{61} & \textbf{57604} & \textbf{57550} & \textbf{54} & \textbf{-10} & \textbf{-40} & \textbf{29} \\
+\textbf{982} & 13750 & 13750 & 1 & \textbf{33242} & \textbf{33177} & \textbf{66} & \textbf{57406} & \textbf{57366} & \textbf{40} & \textbf{-31} & \textbf{-36} & \textbf{6} \\
+\textbf{410} & 18100 & 10647 & 1.700009392 & \textbf{33209} & \textbf{33177} & \textbf{33} & \textbf{57586} & \textbf{57513} & \textbf{74} & \textbf{-10} & \textbf{-25} & \textbf{15} \\
+\textbf{410} & 18090 & 10641 & 1.700028193 & \textbf{33205} & \textbf{33178} & \textbf{26} & \textbf{57597} & \textbf{57555} & \textbf{42} & \textbf{-12} & \textbf{-25} & \textbf{12} \\
+\textbf{740} & 3750 & 2083 & 1.800288046 & \textbf{33230} & \textbf{33178} & \textbf{52} & \textbf{57584} & \textbf{57538} & \textbf{46} & \textbf{-11} & \textbf{-39} & \textbf{28} \\
+\textbf{984} & 4160 & 4160 & 1 & \textbf{33228} & \textbf{33179} & \textbf{49} & \textbf{57366} & \textbf{57353} & \textbf{13} & \textbf{-35} & \textbf{-36} & \textbf{0} \\
+\textbf{982} & 5900 & 5900 & 1 & \textbf{33234} & \textbf{33180} & \textbf{54} & \textbf{57409} & \textbf{57384} & \textbf{26} & \textbf{-33} & \textbf{-36} & \textbf{3}
+\end{tabular}
+\caption{}
+\label{tab:my-table}
+\end{table}

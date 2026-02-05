@@ -1,0 +1,69 @@
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+% \usepackage{multirow}
+\begin{table}[]
+\begin{tabular}{@{}cllcll@{}}
+\multicolumn{6}{l}{\textbf{Number of unemployed and unemployment rate, 2011-2016}} \\
+\multicolumn{1}{l}{Year} & Month & Unemployment rate & Year & Month & Number of unemployed \\
+\multirow{12}{*}{2011} & 1 & 7.0 & \multirow{12}{*}{2011} & 1 & 652949 \\
+ & 2 & 7.0 &  & 2 & 647648 \\
+ & 3 & 6.8 &  & 3 & 637639 \\
+ & 4 & 7.3 &  & 4 & 670525 \\
+ & 5 & 7.2 &  & 5 & 660055 \\
+ & 6 & 7.2 &  & 6 & 661755 \\
+ & 7 & 7.1 &  & 7 & 653441 \\
+ & 8 & 7.2 &  & 8 & 661672 \\
+ & 9 & 7.3 &  & 9 & 660774 \\
+ & 10 & 7.1 &  & 10 & 653580 \\
+ & 11 & 7.2 &  & 11 & 657768 \\
+ & 12 & 7.3 &  & 12 & 672938 \\
+\multirow{12}{*}{2012} & 1 & 7.0 & \multirow{12}{*}{2012} & 1 & 645672 \\
+ & 2 & 7.0 &  & 2 & 642032 \\
+ & 3 & 7.0 &  & 3 & 647158 \\
+ & 4 & 6.7 &  & 4 & 620168 \\
+ & 5 & 7 &  & 5 & 641149 \\
+ & 6 & 6.7 &  & 6 & 617559 \\
+ & 7 & 6.9 &  & 7 & 640835 \\
+ & 8 & 6.7 &  & 8 & 615198 \\
+ & 9 & 6.9 &  & 9 & 637389 \\
+ & 10 & 6.7 &  & 10 & 619705 \\
+ & 11 & 6.7 &  & 11 & 622128 \\
+ & 12 & 6.8 &  & 12 & 631611 \\
+\multirow{12}{*}{2013} & 1 & 6.8 & \multirow{12}{*}{2013} & 1 & 630221 \\
+ & 2 & 6.9 &  & 2 & 639387 \\
+ & 3 & 6.9 &  & 3 & 633237 \\
+ & 4 & 7.3 &  & 4 & 673177 \\
+ & 5 & 7 &  & 5 & 651017 \\
+ & 6 & 7.4 &  & 6 & 676320 \\
+ & 7 & 7.0 &  & 7 & 642227 \\
+ & 8 & 7.1 &  & 8 & 655393 \\
+ & 9 & 7.1 &  & 9 & 656511 \\
+ & 10 & 7.1 &  & 10 & 652068 \\
+ & 11 & 7.1 &  & 11 & 650476 \\
+ & 12 & 7 &  & 12 & 650440 \\
+\multirow{12}{*}{2014} & 1 & 6.9 & \multirow{12}{*}{2014} & 1 & 638358 \\
+ & 2 & 6.8 &  & 2 & 624294 \\
+ & 3 & 7.0 &  & 3 & 644482 \\
+ & 4 & 6.8 &  & 4 & 619903 \\
+ & 5 & 6.8 &  & 5 & 625397 \\
+ & 6 & 6.9 &  & 6 & 631513 \\
+ & 7 & 6.9 &  & 7 & 643197 \\
+ & 8 & 6.9 &  & 8 & 639330 \\
+ & 9 & 6.8 &  & 9 & 636932 \\
+ & \multicolumn{1}{r}{10} & \multicolumn{1}{r}{6.8} &  & \multicolumn{1}{r}{10} & \multicolumn{1}{r}{624367} \\
+ & \multicolumn{1}{r}{11} & \multicolumn{1}{r}{6.9} &  & \multicolumn{1}{r}{11} & \multicolumn{1}{r}{643260} \\
+ & \multicolumn{1}{r}{12} & \multicolumn{1}{r}{6.6} &  & \multicolumn{1}{r}{12} & \multicolumn{1}{r}{609623} \\
+\multirow{12}{*}{2015} & \multicolumn{1}{r}{1} & 7.2 & \multirow{12}{*}{2015} & \multicolumn{1}{r}{1} & 630211 \\
+ & \multicolumn{1}{r}{2} & 6.8 &  & \multicolumn{1}{r}{2} & 625974 \\
+ & \multicolumn{1}{r}{3} & 6.7 &  & \multicolumn{1}{r}{3} & 612593 \\
+ & \multicolumn{1}{r}{4} & 6.8 &  & \multicolumn{1}{r}{4} & 632881 \\
+ & \multicolumn{1}{r}{5} & 6.8 &  & \multicolumn{1}{r}{5} & 621971 \\
+ & \multicolumn{1}{r}{6} & 6.7 &  & \multicolumn{1}{r}{6} & 617347 \\
+ & \multicolumn{1}{r}{7} & 6.8 &  & \multicolumn{1}{r}{7} & 624298 \\
+ & \multicolumn{1}{r}{8} & 6.8 &  & \multicolumn{1}{r}{8} & 630086 \\
+ & \multicolumn{1}{r}{9} & 6.9 &  & \multicolumn{1}{r}{9} & 630251 \\
+ & \multicolumn{1}{r}{10} & 6.6 &  & \multicolumn{1}{r}{10} & 613021 \\
+ & \multicolumn{1}{r}{11} & 6.6 &  & \multicolumn{1}{r}{11} & 606698 \\
+ & \multicolumn{1}{r}{12} & 6.7 &  & \multicolumn{1}{r}{12} & 616001
+\end{tabular}
+\end{table}

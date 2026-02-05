@@ -1,0 +1,28 @@
+% Please add the following required packages to your document preamble:
+% \usepackage{multirow}
+% \usepackage[normalem]{ulem}
+% \useunder{\uline}{\ul}{}
+\begin{table}[]
+\begin{tabular}{cccc}
+\multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} \\
+                     & \multicolumn{3}{c}{{\ul \textbf{Actual Table}}}                    \\
+                     & \multirow{5}{*}{A}   & A01101               & 21,051,960           \\
+                     &                      & A01158               & 1,337,120            \\
+                     &                      & A01202               & 31,507,272           \\
+                     &                      & A01203               & 39,588,720           \\
+                     &                      & A01207               & 2,687,400            \\
+                     & \multicolumn{2}{c}{\textbf{TOTAL}}          & \textbf{96,172,472}  \\
+                     & \multirow{5}{*}{B}   & A01101               & 31,336,020           \\
+                     &                      & A01158               & -                    \\
+                     &                      & A01202               & 25,717,440           \\
+                     &                      & A01203               & 42,072,852           \\
+                     &                      & A01207               & 2,745,000            \\
+                     & \multicolumn{2}{c}{\textbf{TOTAL}}          & \textbf{101,871,312} \\
+                     & \multirow{5}{*}{C}   & A01101               & 3,924,390            \\
+                     &                      & A01158               & -                    \\
+                     &                      & A01202               & 497,760              \\
+                     &                      & A01203               & 514,452              \\
+                     &                      & A01207               & 10,800               \\
+                     & \multicolumn{2}{c}{\textbf{TOTAL}}          & \textbf{4,947,402}  
+\end{tabular}
+\end{table}

@@ -1,0 +1,15 @@
+\begin{table}[]
+\begin{tabular}{llllllll}
+Chromosome             & Position  & Reference Allele & Alternate Allele & Gene Symbol & Consequence            & HGVS Name (cDNA)                           & HGVS Name (protein)            \\
+Homozygous Recessive   &           &                  &                  &             &                        &                                            &                                \\
+1                      & 151105831 & T                & C                & SEMA6C      & missense\_variant      & ENST00000368913.3:c.2018N\textgreater{}G   & ENSP00000357909.3:p.Glu673Gly  \\
+                       &           &                  &                  &             &                        &                                            &                                \\
+Compound Heterozygotes &           &                  &                  &             &                        &                                            &                                \\
+8                      & 41790141  & G                & C                & KAT6A       & missense\_variant      & ENST00000396930.3:c.5597N\textgreater{}G   & ENSP00000380136.3:p.Ser1866Cys \\
+8                      & 41906160  & C                & G                & KAT6A       & missense\_variant      & ENST00000396930.3:c.336N\textgreater{}C    & ENSP00000380136.3:p.Glu112Asp  \\
+10                     & 129216807 & T                & C                & DOCK1       & splice\_donor\_variant & ENST00000280333.6:c.4629+2N\textgreater{}C &                                \\
+10                     & 129242460 & C                & T                & DOCK1       & missense\_variant      & ENST00000280333.6:c.5267N\textgreater{}T   & ENSP00000280333.6:p.Ser1756Leu \\
+15                     & 75650903  & C                & T                & MAN2C1      & missense\_variant      & ENST00000565683.1:c.2354N\textgreater{}A   & ENSP00000457788.1:p.Arg785Gln  \\
+15                     & 75653996  & G                & C                & MAN2C1      & missense\_variant      & ENST00000565683.1:c.1167N\textgreater{}G   & ENSP00000457788.1:p.Ile389Met 
+\end{tabular}
+\end{table}

@@ -1,0 +1,35 @@
+% Please add the following required packages to your document preamble:
+% \usepackage{multirow}
+% \usepackage[table,xcdraw]{xcolor}
+% Beamer presentation requires \usepackage{colortbl} instead of \usepackage[table,xcdraw]{xcolor}
+% \usepackage[normalem]{ulem}
+% \useunder{\uline}{\ul}{}
+\begin{table}[]
+\begin{tabular}{ccccccc}
+\multicolumn{2}{c}{Parameter}                                              & {\ul A7}             & {\ul A7C}            & {\ul A7III}          & {\ul A7RIII}         & {\ul A7SIII}         \\
+\multicolumn{2}{c}{\cellcolor[HTML]{E7E6E6}{\ul \textbf{Body}}}            & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} \\
+\multicolumn{2}{c}{Type}                                                   & SLR Mirrorless       & Mirrorless           & SLR Mirrorless       & SLR Mirrorless       & SLR Mirrorless       \\
+\multicolumn{2}{c}{Material}                                               & Magnesium            & Magnesium            & Magnesium            & Magnesium            & Magnesium            \\
+\multicolumn{2}{c}{\cellcolor[HTML]{E7E6E6}{\ul \textbf{Sensor}}}          & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} \\
+\multicolumn{2}{c}{Max Resolution}                                         & 6,000 x 4,000        & 6,000 x 4,000        & 6,000 x 4,000        & 7,952 x 5,304        & 4,240 x 2,832        \\
+\multicolumn{2}{c}{Image Ratio}                                            & 16:09                & 16:09                & 16:09                & 16:09                & 16:09                \\
+\multicolumn{2}{c}{Effective Pixels}                                       & 24 MP                & 24 MP                & 24 MP                & 42 MP                & 12 MP                \\
+\multicolumn{2}{c}{Sensor Size}                                            & Full Frame           & Full Frame           & Full Frame           & Full Frame           & Full Frame           \\
+\multicolumn{2}{c}{\cellcolor[HTML]{E7E6E6}{\ul \textbf{Image}}}           & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} \\
+\multicolumn{2}{c}{ISO}                                                    & 100 - 25,600         & 100 - 51,200         & 100 - 51,200         & 100 - 32,000         & 80 - 102,400         \\
+                                        & Minimum                          & 50                   & 50                   & 50                   & 50                   & 40                   \\
+                                        & Maximum                          & -                    & 204,800              & 204,800              & 102,400              & 409.6                \\
+                                        & WB Presets                       & 10                   & 7                    & 11                   & 10                   & 7                    \\
+\multirow{-4}{*}{Boosted}               & Image Stabilization              & No                   & Yes                  & Yes                  & Yes                  & Yes                  \\
+\multicolumn{2}{c}{\cellcolor[HTML]{E7E6E6}{\ul \textbf{Optics \& Focus}}} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} \\
+\multicolumn{2}{c}{Autofocus}                                              & Eye AF               & Phase AF             & Eye AF               & Eye AF               & Eye AF               \\
+\multicolumn{2}{c}{Digital Zoom}                                           & Yes                  & Yes                  & Yes                  & Yes                  & -                    \\
+\multicolumn{2}{c}{Manual Focus}                                           & Yes                  & Yes                  & Yes                  & Yes                  & Yes                  \\
+\multicolumn{2}{c}{Number of Focus Point}                                  & 117                  & 693                  & 693                  & 399                  & 759                  \\
+\multicolumn{2}{c}{\cellcolor[HTML]{E7E6E6}{\ul \textbf{Screen}}}          & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} \\
+\multicolumn{2}{c}{Size}                                                   & 3"                   & 3"                   & 3"                   & 3"                   & 3"                   \\
+\multicolumn{2}{c}{Dots}                                                   & 1.23k                & 0.921k               & 0.921k               & 1.44k                & 1.44k                \\
+\multicolumn{2}{c}{Touch Screen}                                           & No                   & Yes                  & Yes                  & Yes                  & Yes                  \\
+\multicolumn{2}{c}{Viewfinder Type}                                        & Electronic           & Electronic           & Electronic           & Electronic           & Electronic          
+\end{tabular}
+\end{table}

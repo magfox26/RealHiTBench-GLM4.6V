@@ -1,0 +1,15 @@
+\begin{table}[]
+\begin{tabular}{llllllll}
+DATE  & INVOICE NO & CLIENT NO & DESCRIBE & DEBIT & CREDIT & BALANCE &  \\
+44562 & -          & ABDEND1   & OPENNING & 20000 & 0      & 20000   &  \\
+44565 & PA-B3      & ABDEND1   & PA       & 20000 & 0      & 40000   &  \\
+44566 & SA-B35     & ABDEND1   & SA       & 0     & 1000   & 39000   &  \\
+44567 & -          & ABDEND10  & OPENNING & 10000 & 0      & 10000   &  \\
+44567 & PA-B4      & ABDEND10  & PA       & 0     & 2000   & 8000    &  \\
+44568 & SA-B36     & ABDEND10  & SA       & 0     & 500    & 7500    &  \\
+44570 & PA-B5      & ABDEND1   & PA       & 1200  & 0      & 1200    &  \\
+44571 & PA-B6      & ABDEND1   & SA       & 1000  & 0      & 2200    &  \\
+44572 & SA-B38     & ABDEND1   & SA       & 0     & 2000   & 200     &  \\
+TOTAL &            &           &          & 52200 & 5500   & 46700   & 
+\end{tabular}
+\end{table}

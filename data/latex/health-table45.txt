@@ -1,0 +1,26 @@
+% Please add the following required packages to your document preamble:
+% \usepackage{multirow}
+\begin{table}[]
+\begin{tabular}{lllllll}
+\multirow{2}{*}{S. no.} & \multicolumn{2}{l}{\multirow{2}{*}{Impact on patient management}}   & \multicolumn{3}{l}{\multirow{2}{*}{Severity of Violence}} & \multirow{2}{*}{p-value}          \\
+                        & \multicolumn{2}{l}{}                                                & \multicolumn{3}{l}{}                                      &                                   \\
+\multirow{3}{*}{1.}     & \multirow{3}{*}{Prescribing Drugs}                 & Same as before & 109 (73.6)         & 140 (66.7)        & 75 (63.0)        & \multirow{3}{*}{0.069}            \\
+                        &                                                    & Decreased      & 20 (13.5)          & 26 (12.4)         & 25 (21.0)        &                                   \\
+                        &                                                    & Increased      & 19 (12.8)          & 44 (21.0)         & 19 (16.0)        &                                   \\
+\multirow{3}{*}{2.}     & \multirow{3}{*}{Surgical or Medical interventions} & Same as before & 106 (71.6)         & 111 (52.9)        & 46 (38.7)        & \multirow{3}{*}{\textless{}0.001} \\
+                        &                                                    & Decreased      & 26 (17.6)          & 72 (34.3)         & 62 (52.1)        &                                   \\
+                        &                                                    & Increased      & 16 (10.8)          & 27 (12.9)         & 11 (9.2)         &                                   \\
+\multirow{3}{*}{3.}     & \multirow{3}{*}{Suggesting investigations}         & Same as before & 90 (60.8)          & 90 (42.9)         & 40 (33.6)        & \multirow{3}{*}{\textless{}0.001} \\
+                        &                                                    & Decreased      & 19 (12.8)          & 25 (11.9)         & 22 (18.5)        &                                   \\
+                        &                                                    & Increased      & 39 (26.4)          & 95 (45.2)         & 57 (47.9)        &                                   \\
+\multirow{3}{*}{4.}     & \multirow{3}{*}{Handling emergency/critical cases} & Same as before & 63 (42.6)          & 47 (22.4)         & 30 (25.2)        & \multirow{3}{*}{0.001}            \\
+                        &                                                    & Decreased      & 76 (51.4)          & 145 (69.0)        & 79 (66.4)        &                                   \\
+                        &                                                    & Increased      & 9 (6.1)            & 18 (8.6)          & 10 (8.4)         &                                   \\
+\multirow{3}{*}{5.}     & \multirow{3}{*}{Handling non-complicated cases}    & Same as before & 99 (66.9)          & 133 (63.3)        & 70 (58.8)        & \multirow{3}{*}{0.424}            \\
+                        &                                                    & Decreased      & 22 (14.9)          & 41 (19.5)         & 29 (24.4)        &                                   \\
+                        &                                                    & Increased      & 27 (18.2)          & 36 (17.1)         & 20 (16.8)        &                                   \\
+\multirow{3}{*}{6.}     & \multirow{3}{*}{Referral/Consultation liaison}     & Same as before & 74 (50.0)          & 55 (26.2)         & 22 (18.5)        & \multirow{3}{*}{\textless{}0.001} \\
+                        &                                                    & Decreased      & 15 (10.1)          & 10 (4.8)          & 15 (12.6)        &                                   \\
+                        &                                                    & Increased      & 59 (39.9)          & 145 (69.0)        & 82 (68.9)        &                                  
+\end{tabular}
+\end{table}

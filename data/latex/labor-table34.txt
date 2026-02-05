@@ -1,0 +1,61 @@
+% Please add the following required packages to your document preamble:
+% \usepackage{multirow}
+\begin{table}[]
+\begin{tabular}{clcccl}
+\multicolumn{1}{l}{\textbf{Sources}} & \textbf{Document Name}           & \textbf{Submission Date} & \textbf{Review Completion date} & \textbf{KPI (10 days)} & \multicolumn{1}{c}{\textbf{Result}} \\
+\multirow{32}{*}{CS-CP}              & Detailed Plan                    & 5-Jan-13                 & 15-Jan-13                       & 0                      & TRUE                                \\
+                                     & Detailed Plan \& Estidama        & 9-Jan-13                 & 15-Jan-13                       & 4                      & TRUE                                \\
+                                     & \textit{Method Statement}        & 9-Jan-13                 & 15-Jan-13                       & 4                      & TRUE                                \\
+                                     & Detailed Plan                    & 10-Jan-13                & 22-Jan-13                       & -2                     & FALSE                               \\
+                                     & \textit{Concept Plan}            & 11-Jan-13                & 19-Jan-13                       & 2                      & TRUE                                \\
+                                     & Detailed Plan                    & 20-Jan-13                & 10-Feb-13                       & -10                    & FALSE                               \\
+                                     & Detailed Plan                    & 20-Jan-13                & 31-Jan-13                       & -1                     & FALSE                               \\
+                                     & Detailed Plan \& Estidama        & 3-Feb-13                 & 13-Feb-13                       & 0                      & TRUE                                \\
+                                     & \textit{Work Description}        & 3-Feb-13                 & 9-Feb-13                        & 3                      & TRUE                                \\
+                                     & Detailed Plan \& Estidama        & 3-Feb-13                 & 14-Feb-13                       & -1                     & FALSE                               \\
+                                     & Detailed Plan \& Estidama        & 4-Feb-13                 & 14-Feb-13                       & 0                      & TRUE                                \\
+                                     & \textit{Telecom Service Request} & 18-Feb-13                & 25-Feb-13                       & 3                      & TRUE                                \\
+                                     & Detailed Plan \& Estidama        & 2-Mar-13                 & 12-Mar-13                       & 0                      & TRUE                                \\
+                                     & Detailed Plan                    & 6-Mar-13                 & 17-Mar-13                       & -1                     & FALSE                               \\
+                                     & \textit{Method Statement}        & 5-Mar-13                 & 15-Mar-13                       & 0                      & TRUE                                \\
+                                     & \textit{Factual Report}          & 5-Mar-13                 & 15-Mar-13                       & 0                      & TRUE                                \\
+                                     & Detailed Plan                    & 7-Mar-13                 & 19-Mar-13                       & -2                     & FALSE                               \\
+                                     & \textit{Factual Report}          & 7-Mar-13                 & 19-Mar-13                       & -2                     & FALSE                               \\
+                                     & Detailed Plan                    & 8-Mar-13                 & 12-Mar-13                       & 6                      & TRUE                                \\
+                                     & Detailed Plan \& Estidama        & 8-Mar-13                 & 17-Mar-13                       & 1                      & TRUE                                \\
+                                     & Detailed Plan                    & 5-Jan-12                 & 15-Jan-12                       & 0                      & TRUE                                \\
+                                     & Detailed Plan \& Estidama        & 9-Jan-12                 & 15-Jan-12                       & 4                      & TRUE                                \\
+                                     & \textit{Method Statement}        & 9-Jan-12                 & 15-Jan-13                       & 4                      & TRUE                                \\
+                                     & Detailed Plan                    & 10-Jan-12                & 22-Jan-12                       & -2                     & FALSE                               \\
+                                     & \textit{Concept Plan}            & 11-Jan-12                & 19-Jan-12                       & 2                      & TRUE                                \\
+                                     & Detailed Plan \& Estidama        & 3-Feb-12                 & 13-Feb-12                       & 0                      & TRUE                                \\
+                                     & \textit{Work Description}        & 3-Feb-12                 & 9-Feb-12                        & 3                      & TRUE                                \\
+                                     & Detailed Plan \& Estidama        & 3-Feb-12                 & 14-Feb-12                       & -1                     & FALSE                               \\
+                                     & Detailed Plan \& Estidama        & 4-Feb-12                 & 14-Feb-12                       & 0                      & TRUE                                \\
+                                     & Detailed Plan \& Estidama        & 2-Mar-12                 & 12-Mar-12                       & 0                      & TRUE                                \\
+                                     & Detailed Plan                    & 6-Mar-12                 & 17-Mar-12                       & -1                     & FALSE                               \\
+                                     & \textit{Method Statement}        & 5-Mar-12                 & 15-Mar-12                       & 0                      & TRUE                                \\
+\multirow{12}{*}{Mobilization}       & Site Mobilization                & 5-Jan-13                 & 15-Jan-13                       & 0                      & TRUE                                \\
+                                     & Temporary Fence                  & 11-Jan-12                & 19-Jan-12                       & 2                      & TRUE                                \\
+                                     & Temporary Fence                  & 3-Feb-12                 & 9-Feb-12                        & 3                      & TRUE                                \\
+                                     & Temporary Fence                  & 4-Feb-13                 & 14-Feb-13                       & 0                      & TRUE                                \\
+                                     & Site Mobilization                & 10-Jan-13                & 22-Jan-13                       & -2                     & FALSE                               \\
+                                     & Site Mobilization                & 3-Feb-12                 & 14-Feb-12                       & -1                     & FALSE                               \\
+                                     & Site Mobilization                & 10-Jan-12                & 22-Jan-12                       & -2                     & FALSE                               \\
+                                     & Site Mobilization                & 4-Feb-13                 & 14-Feb-13                       & 0                      & TRUE                                \\
+                                     & Temporary Fence                  & 6-Mar-12                 & 17-Mar-12                       & -1                     & FALSE                               \\
+                                     & Temporary Fence                  & 4-Feb-13                 & 14-Feb-13                       & 0                      & TRUE                                \\
+                                     & Site Mobilization                & 7-Mar-13                 & 19-Mar-13                       & -2                     & FALSE                               \\
+                                     & Site Mobilization                & 6-Mar-12                 & 17-Mar-12                       & -1                     & FALSE                               \\
+\multirow{10}{*}{DOT}                & DOT                              & 5-Jan-13                 & 15-Jan-13                       & 0                      & TRUE                                \\
+                                     & DOT                              & 5-Jan-12                 & 15-Jan-12                       & 0                      & TRUE                                \\
+                                     & DOT                              & 3-Feb-13                 & 13-Feb-13                       & 0                      & TRUE                                \\
+                                     & DOT                              & 3-Feb-12                 & 13-Feb-12                       & 0                      & TRUE                                \\
+                                     & DOT                              & 4-Feb-12                 & 14-Feb-12                       & 0                      & TRUE                                \\
+                                     & DOT                              & 2-Mar-12                 & 12-Mar-12                       & 0                      & TRUE                                \\
+                                     & DOT                              & 20-Jan-13                & 10-Feb-13                       & -10                    & FALSE                               \\
+                                     & DOT                              & 10-Jan-12                & 22-Jan-12                       & -2                     & FALSE                               \\
+                                     & DOT                              & 7-Mar-13                 & 19-Mar-13                       & -2                     & FALSE                               \\
+                                     & DOT                              & 8-Mar-13                 & 12-Mar-13                       & 6                      & TRUE                               
+\end{tabular}
+\end{table}

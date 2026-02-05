@@ -1,0 +1,183 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <meta name="generator" content="PhpSpreadsheet, https://github.com/PHPOffice/PhpSpreadsheet">
+      <meta name="author" content="mac" />
+      <meta name="company" content="Microsoft Corporation" />
+    <style type="text/css">
+      html { font-family:Calibri, Arial, Helvetica, sans-serif; font-size:11pt; background-color:white }
+      a.comment-indicator:hover + div.comment { background:#ffd; position:absolute; display:block; border:1px solid black; padding:0.5em }
+      a.comment-indicator { background:red; display:inline-block; border:1px solid black; width:0.5em; height:0.5em }
+      div.comment { display:none }
+      table { border-collapse:collapse; page-break-after:always }
+      .gridlines td { border:1px dotted black }
+      .gridlines th { border:1px dotted black }
+      .b { text-align:center }
+      .e { text-align:center }
+      .f { text-align:right }
+      .inlineStr { text-align:left }
+      .n { text-align:right }
+      .s { text-align:left }
+      td.style0 { vertical-align:middle; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style0 { vertical-align:middle; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style1 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style1 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style2 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#FFFFFF; font-family:'Arial'; font-size:14pt; background-color:#000000 }
+      th.style2 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#FFFFFF; font-family:'Arial'; font-size:14pt; background-color:#000000 }
+      td.style3 { vertical-align:bottom; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#C7E4B3 }
+      th.style3 { vertical-align:bottom; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#C7E4B3 }
+      td.style4 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style4 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style5 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Arial'; font-size:8pt; background-color:#CFCFCF }
+      th.style5 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'Arial'; font-size:8pt; background-color:#CFCFCF }
+      td.style6 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style6 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style7 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style7 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style8 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style8 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style9 { vertical-align:bottom; border-bottom:none #000000; border-top:1px solid #7F7F7F !important; border-left:1px solid #7F7F7F !important; border-right:1px solid #7F7F7F !important; font-weight:bold; color:#000000; font-family:'Tahoma'; font-size:10pt; background-color:#00CCFF }
+      th.style9 { vertical-align:bottom; border-bottom:none #000000; border-top:1px solid #7F7F7F !important; border-left:1px solid #7F7F7F !important; border-right:1px solid #7F7F7F !important; font-weight:bold; color:#000000; font-family:'Tahoma'; font-size:10pt; background-color:#00CCFF }
+      td.style10 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:1px solid #7F7F7F !important; border-left:1px solid #7F7F7F !important; border-right:1px solid #7F7F7F !important; font-weight:bold; color:#000000; font-family:'Tahoma'; font-size:10pt; background-color:#00CCFF }
+      th.style10 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:1px solid #7F7F7F !important; border-left:1px solid #7F7F7F !important; border-right:1px solid #7F7F7F !important; font-weight:bold; color:#000000; font-family:'Tahoma'; font-size:10pt; background-color:#00CCFF }
+      td.style11 { vertical-align:bottom; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Tahoma'; font-size:10pt; background-color:#FFFFFF }
+      th.style11 { vertical-align:bottom; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'Tahoma'; font-size:10pt; background-color:#FFFFFF }
+      td.style12 { vertical-align:bottom; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style12 { vertical-align:bottom; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style13 { vertical-align:bottom; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#6A6A6A; font-family:'Arial'; font-size:12pt; background-color:white }
+      th.style13 { vertical-align:bottom; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#6A6A6A; font-family:'Arial'; font-size:12pt; background-color:white }
+      td.style14 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:1px solid #7F7F7F !important; border-left:1px solid #7F7F7F !important; border-right:1px solid #7F7F7F !important; font-weight:bold; color:#000000; font-family:'Tahoma'; font-size:10pt; background-color:#C7E4B3 }
+      th.style14 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:1px solid #7F7F7F !important; border-left:1px solid #7F7F7F !important; border-right:1px solid #7F7F7F !important; font-weight:bold; color:#000000; font-family:'Tahoma'; font-size:10pt; background-color:#C7E4B3 }
+      td.style15 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:1px solid #7F7F7F !important; border-left:1px solid #7F7F7F !important; border-right:1px solid #7F7F7F !important; font-weight:bold; color:#000000; font-family:'Tahoma'; font-size:10pt; background-color:#C7E4B3 }
+      th.style15 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:1px solid #7F7F7F !important; border-left:1px solid #7F7F7F !important; border-right:1px solid #7F7F7F !important; font-weight:bold; color:#000000; font-family:'Tahoma'; font-size:10pt; background-color:#C7E4B3 }
+      td.style16 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style16 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style17 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style17 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      table.sheet0 col.col0 { width:116.57777644pt }
+      table.sheet0 col.col1 { width:100.31110996pt }
+      table.sheet0 col.col2 { width:103.69999881pt }
+      table.sheet0 col.col3 { width:348.37777378pt }
+      table.sheet0 col.col4 { width:69.81111031pt }
+      table.sheet0 col.col5 { width:42pt }
+      table.sheet0 tr { height:15pt }
+      table.sheet0 tr.row0 { height:20.4pt }
+      table.sheet0 tr.row4 { height:34pt }
+      table.sheet0 tr.row5 { height:44pt }
+      table.sheet0 tr.row6 { height:17.6pt }
+    </style>
+  </head>
+
+  <body>
+<style>
+@page { margin-left: 0.75in; margin-right: 0.75in; margin-top: 1in; margin-bottom: 1in; }
+body { margin-left: 0.75in; margin-right: 0.75in; margin-top: 1in; margin-bottom: 1in; }
+</style>
+    <table border="0" cellpadding="0" cellspacing="0" id="sheet0" class="sheet0 gridlines">
+        <col class="col0">
+        <col class="col1">
+        <col class="col2">
+        <col class="col3">
+        <col class="col4">
+        <col class="col5">
+        <tbody>
+          <tr class="row0">
+            <td class="column0 style1 null"></td>
+            <td class="column1 style2 s style2" colspan="3">L&amp;T ISSUE MANAGEMENT REPORTS</td>
+            <td class="column4 style1 null"></td>
+            <td class="column5 style1 null"></td>
+          </tr>
+          <tr class="row1">
+            <td class="column0 style3 s">PROJECT PERIOD</td>
+            <td class="column1 style4 n">04-Aug-15</td>
+            <td class="column2 style5 s">Project Name:</td>
+            <td class="column3 style6 s">FACT's Kerala Chemical Plant</td>
+            <td class="column4 style1 null"></td>
+            <td class="column5 style1 null"></td>
+          </tr>
+          <tr class="row2">
+            <td class="column0 style3 s">DURATION</td>
+            <td class="column1 style7 n">2</td>
+            <td class="column2 style5 s">National Center:</td>
+            <td class="column3 style6 s">MUMBAI</td>
+            <td class="column4 style1 null"></td>
+            <td class="column5 style1 null"></td>
+          </tr>
+          <tr class="row3">
+            <td class="column0 style3 s">END PROJECT</td>
+            <td class="column1 style4 n">31-Oct-15</td>
+            <td class="column2 style5 s">Project Manager Name:</td>
+            <td class="column3 style6 s">JAGAN</td>
+            <td class="column4 style1 null"></td>
+            <td class="column5 style1 null"></td>
+          </tr>
+          <tr class="row4">
+            <td class="column0 style1 null"></td>
+            <td class="column1 style1 null"></td>
+            <td class="column2 style5 s">Project Description:</td>
+            <td class="column3 style8 s">2000 tpd ( sulphuric acid plant, urea plant, <br />
+NP complex fertilizer plant, SSP plant and ammonia-urea complex)</td>
+            <td class="column4 style1 null"></td>
+            <td class="column5 style1 null"></td>
+          </tr>
+          <tr class="row5">
+            <td class="column0 style9 s">Company Code</td>
+            <td class="column1 style9 s">Cost Center</td>
+            <td class="column2 style9 s">Intercompany Name </td>
+            <td class="column3 style10 s">Line Description</td>
+            <td class="column4 style14 s">Statistical Quantity</td>
+            <td class="column5 style15 s">Average </td>
+          </tr>
+          <tr class="row6">
+            <td class="column0 style11 s">0I79</td>
+            <td class="column1 style12 s">MUM</td>
+            <td class="column2 style13 s">HPCL</td>
+            <td class="column3 style12 s">TIL reports progress on new plant.</td>
+            <td class="column4 style16 n">55</td>
+            <td class="column5 style17 n">82.76%</td>
+          </tr>
+          <tr class="row7">
+            <td class="column0 style11 s">0I80</td>
+            <td class="column1 style12 s">DEL</td>
+            <td class="column2 style12 s">ELCOT</td>
+            <td class="column3 style12 s">Pacific Iron Manufacturing to set up integrated steel plant in Madhya Pradesh</td>
+            <td class="column4 style16 n">25</td>
+            <td class="column5 style17 n">14.31%</td>
+          </tr>
+          <tr class="row8">
+            <td class="column0 style11 s">0I81</td>
+            <td class="column1 style12 s">HYD</td>
+            <td class="column2 style12 s">IT COMPANY</td>
+            <td class="column3 style12 s">Assam Ferro Alloys plans ferro alloy plant in Kamrup District</td>
+            <td class="column4 style16 n">15</td>
+            <td class="column5 style17 n">70.69%</td>
+          </tr>
+          <tr class="row9">
+            <td class="column0 style11 s">0I82</td>
+            <td class="column1 style12 s">MUM</td>
+            <td class="column2 style12 s">MARG</td>
+            <td class="column3 style12 s">Jaypee ASOM Cement to set up cement plant and CPP</td>
+            <td class="column4 style16 n">85</td>
+            <td class="column5 style17 n">51.00%</td>
+          </tr>
+          <tr class="row10">
+            <td class="column0 style11 s">0I83</td>
+            <td class="column1 style12 s">CHE</td>
+            <td class="column2 style12 s">EPC</td>
+            <td class="column3 style12 s">Young India Alloys to set up ferro alloys plant in Andhra Pradesh</td>
+            <td class="column4 style16 n">35</td>
+            <td class="column5 style17 n">74.00%</td>
+          </tr>
+          <tr class="row11">
+            <td class="column0 style11 s">0I84</td>
+            <td class="column1 style12 s">BLR</td>
+            <td class="column2 style12 s">NPTL</td>
+            <td class="column3 style12 s">Vedik Ispat to expand steel plant in Andhra Pradesh</td>
+            <td class="column4 style16 n">11</td>
+            <td class="column5 style17 n">90.00%</td>
+          </tr>
+        </tbody>
+    </table>
+  </body>
+</html>

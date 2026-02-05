@@ -1,0 +1,34 @@
+% Please add the following required packages to your document preamble:
+% \usepackage{multirow}
+% \usepackage[table,xcdraw]{xcolor}
+% Beamer presentation requires \usepackage{colortbl} instead of \usepackage[table,xcdraw]{xcolor}
+\begin{table}[]
+\begin{tabular}{lllll}
+\rowcolor[HTML]{C0C0C0} 
+\cellcolor[HTML]{C0C0C0}                                & \cellcolor[HTML]{C0C0C0}                                 & \multicolumn{1}{r}{\cellcolor[HTML]{C0C0C0}}                                                                 & \multicolumn{1}{r}{\cellcolor[HTML]{C0C0C0}}                                                                           & \multicolumn{1}{r}{\cellcolor[HTML]{C0C0C0}}                                 \\
+\rowcolor[HTML]{C0C0C0} 
+\multirow{-2}{*}{\cellcolor[HTML]{C0C0C0}\textbf{Year}} & \multirow{-2}{*}{\cellcolor[HTML]{C0C0C0}\textbf{Month}} & \multicolumn{1}{r}{\multirow{-2}{*}{\cellcolor[HTML]{C0C0C0}\textbf{Failure to attend mandatory interview}}} & \multicolumn{1}{r}{\multirow{-2}{*}{\cellcolor[HTML]{C0C0C0}\textbf{Failure to participate in Work Related Activity}}} & \multicolumn{1}{r}{\multirow{-2}{*}{\cellcolor[HTML]{C0C0C0}\textbf{Total}}} \\
+\rowcolor[HTML]{FFFFFF} 
+\textbf{2012}                                           & December                                                 & 387                                                                                                          & 775                                                                                                                    & \textbf{1,161}                                                               \\
+\rowcolor[HTML]{FFFFFF} 
+\textbf{2013}                                           & January                                                  & 547                                                                                                          & 921                                                                                                                    & \textbf{1,466}                                                               \\
+\rowcolor[HTML]{FFFFFF} 
+\textbf{}                                               & February                                                 & 480                                                                                                          & 750                                                                                                                    & \textbf{1,233}                                                               \\
+\rowcolor[HTML]{FFFFFF} 
+\textbf{}                                               & March                                                    & 499                                                                                                          & 752                                                                                                                    & \textbf{1,252}                                                               \\
+\rowcolor[HTML]{FFFFFF} 
+\textbf{}                                               & April                                                    & 443                                                                                                          & 1,245                                                                                                                  & \textbf{1,689}                                                               \\
+\rowcolor[HTML]{FFFFFF} 
+\textbf{}                                               & May                                                      & 510                                                                                                          & 1,507                                                                                                                  & \textbf{2,012}                                                               \\
+\rowcolor[HTML]{FFFFFF} 
+\textbf{}                                               & June                                                     & 445                                                                                                          & 1,543                                                                                                                  & \textbf{1,990}                                                               \\
+\rowcolor[HTML]{FFFFFF} 
+\textbf{}                                               & July                                                     & 578                                                                                                          & 2,167                                                                                                                  & \textbf{2,743}                                                               \\
+\rowcolor[HTML]{FFFFFF} 
+\textbf{}                                               & August                                                   & 463                                                                                                          & 2,207                                                                                                                  & \textbf{2,671}                                                               \\
+\rowcolor[HTML]{FFFFFF} 
+\textbf{}                                               & September                                                & 484                                                                                                          & 2,627                                                                                                                  & \textbf{3,107}                                                               \\
+\rowcolor[HTML]{C0C0C0} 
+\multicolumn{2}{l}{\cellcolor[HTML]{C0C0C0}\textbf{Total}}                                                         & \textbf{4,835}                                                                                               & \textbf{14,492}                                                                                                        & \multicolumn{1}{r}{\cellcolor[HTML]{C0C0C0}\textbf{19,325}}                 
+\end{tabular}
+\end{table}

@@ -1,0 +1,16 @@
+\begin{table}[]
+\begin{tabular}{lllllllllllllllll}
+\multicolumn{3}{l}{Consolidated data}          &              &              &              &             &             &  &              &                   &                   &              &              &              &             &             \\
+             &              &                  & \multicolumn{3}{l}{Pr1/Oct1 (fold change)} &             &             &  &              &                   &                   & \multicolumn{3}{l}{Pr2/Oct1 (fold change)} &             &             \\
+             &              &                  & Expt-1       & Expt-2       & Expt-3       & Mean        & SD          &  &              &                   &                   & Expt-1       & Expt-2       & Expt-3       & Mean        & SD          \\
+Set1         & Uninf        & DC- SAG          & 1            & 1            & 1            & 1           & 0           &  & Set1         & Uninf             & DC- SAG           & 1            & 1            & 1            & 1           & 0           \\
+Set2         & Uninf        & DC + SAG         & 4.009648071  & 3.258249117  & 4.589423071  & 3.952440086 & 0.66742834  &  & Set2         & Uninf             & DC + SAG          & 5.06696108   & 4.080432757  & 3.819211157  & 4.322201665 & 0.658072276 \\
+Set3         & LDPm 24h     & DC- SAG          & 1.045238791  & 0.653927388  & 1.334964475  & 1.011376884 & 0.341778949 &  & Set3         & LDPm 24h          & DC- SAG           & 0.815365461  & 1.102792673  & 0.762976189  & 0.893711441 & 0.182954585 \\
+Set4         & LDPm 24h     & DC + SAG         & 3.997834201  & 2.811506735  & 4.147522681  & 3.652287872 & 0.731974283 &  & Set4         & LDPm 24h          & DC + SAG          & 5.163344045  & 3.997367739  & 3.025381454  & 4.062031079 & 1.070447113 \\
+             &              &                  &              &              &              &             &             &  &              &                   &                   &              &              &              &             &             \\
+Statistics   & Oneway ANOVA &                  &              &              &              &             &             &  & Statistics   & Oneway ANOVA      &                   &              &              &              &             &             \\
+Set1 Vs Set2 & p=0.002      & p\textless{}0.01 &              &              &              &             &             &  & Set1 Vs Set2 & p\textless{}0.001 & p\textless{}0.001 &              &              &              &             &             \\
+Set3 Vs Set4 & p=0.005      & p\textless{}0.01 &              &              &              &             &             &  & Set3 Vs Set4 & p=0.007           & p\textless{}0.01  &              &              &              &             &             \\
+Set2 Vs Set4 & p=0.627      & NS               &              &              &              &             &             &  & Set2 Vs Set4 & p=0.738           & NS                &              &              &              &             &            
+\end{tabular}
+\end{table}

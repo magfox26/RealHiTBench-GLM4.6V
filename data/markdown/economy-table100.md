@@ -1,0 +1,16 @@
+|    | Table 4: Fuel source1                                                                 |                   |                   |             |             |     |                 |        |
+|---:|:--------------------------------------------------------------------------------------|:------------------|:------------------|:------------|:------------|:----|:----------------|:-------|
+|  0 |                                                                                       |                   |                   |             |             |     |                 |        |
+|  1 |                                                                                       |                   |                   |             |             |     |                 |        |
+|  2 |                                                                                       |                   |                   |             |             |     |                 |        |
+|  3 |                                                                                       | Bioenergy & Waste | Coal & Solid Fuel | Electricity | Natural Gas | Oil | Other / Unknown | Total  |
+|  4 |                                                                                       |                   |                   |             |             |     |                 |        |
+|  5 | England                                                                               | 206               | 11                | 695         | 11,615      | 156 | 98              | 12,781 |
+|  6 | Scotland                                                                              | 77                | 0                 | 35          | 692         | 19  | 9               | 832    |
+|  7 | Wales                                                                                 | ….                | 0                 | 14          | 274         | 5   | …               | 299    |
+|  8 | Northern Ireland                                                                      | ….                | 0                 | 0           | 64          | 18  | …               | 83     |
+|  9 | United Kingdom                                                                        | 289               | 11                | 744         | 12,645      | 198 | 108             | 13,995 |
+| 10 |                                                                                       |                   |                   |             |             |     |                 |        |
+| 11 |                                                                                       |                   |                   |             |             |     |                 |        |
+| 12 | 1Primary fuel only; some may have been erroneously allocated to secondary fuel source |                   |                   |             |             |     |                 |        |
+| 13 | … values have been supressed due to risk of disclosure                                |                   |                   |             |             |     |                 |        |

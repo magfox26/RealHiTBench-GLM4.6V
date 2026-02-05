@@ -1,0 +1,26 @@
+% Please add the following required packages to your document preamble:
+% \usepackage[table,xcdraw]{xcolor}
+% Beamer presentation requires \usepackage{colortbl} instead of \usepackage[table,xcdraw]{xcolor}
+\begin{table}[]
+\begin{tabular}{cc}
+                                         &                                                                                  \\
+\multicolumn{2}{l}{\textbf{Meeting.\# 03}}                                                                                  \\
+\multicolumn{2}{l}{\textbf{Meeting Date: 26 Oct, 24}}                                                                       \\
+\rowcolor[HTML]{ACB9CA} 
+\textbf{Status}                          & \textbf{Remarks}                                                                 \\
+\cellcolor[HTML]{FF0000}Work in Progress &                                                                                  \\
+\cellcolor[HTML]{FF0000}Work in Progress &                                                                                  \\
+\cellcolor[HTML]{FF0000}Work in Progress &                                                                                  \\
+\cellcolor[HTML]{FF0000}Work in Progress &                                                                                  \\
+\cellcolor[HTML]{FF0000}Work in Progress &                                                                                  \\
+\cellcolor[HTML]{FF0000}Work in Progress &                                                                                  \\
+\cellcolor[HTML]{FF0000}Work in Progress &                                                                                  \\
+\cellcolor[HTML]{FF0000}Work in Progress & Construction work going on in LTM, Scrap Area visit to be conducted on Wednesday \\
+\cellcolor[HTML]{FF0000}Work in Progress &                                                                                  \\
+                                         &                                                                                  \\
+                                         &                                                                                  \\
+                                         &                                                                                  \\
+                                         &                                                                                  \\
+                                         &                                                                                 
+\end{tabular}
+\end{table}

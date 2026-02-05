@@ -1,0 +1,47 @@
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+% \usepackage{multirow}
+% \usepackage[table,xcdraw]{xcolor}
+% Beamer presentation requires \usepackage{colortbl} instead of \usepackage[table,xcdraw]{xcolor}
+\begin{table}[]
+\begin{tabular}{@{}ccccc@{}}
+\multicolumn{1}{l}{CAMPAIGN} & Agent & Campaign NR & DISPOSITION & CALLS \\
+ & 0 & N92 & Abandon & \cellcolor[HTML]{FFFF00}1 \\
+ & 0 & N93 & Answering Machine & \cellcolor[HTML]{FFFF00}136 \\
+ & 0 & N94 & Busy & \cellcolor[HTML]{FFFF00}53 \\
+ & 0 & N95 & Dial Error & \cellcolor[HTML]{FFFF00}30 \\
+ & 0 & N96 & Hangup & \cellcolor[HTML]{FFFF00}2 \\
+ & 0 & N97 & No Answer & \cellcolor[HTML]{FFFF00}414 \\
+ & 0 & N98 & Operator Intercept & \cellcolor[HTML]{FFFF00}12 \\
+ & 6120 & N99 & \cellcolor[HTML]{5B9BD5}Regret & \cellcolor[HTML]{FFFF00}1 \\
+ & 6120 & N100 & Callback & \cellcolor[HTML]{FFFF00}2 \\
+ & 6120 & N101 & Do not call & \cellcolor[HTML]{FFFF00}4 \\
+ & 6129 & N102 & Callback & \cellcolor[HTML]{FFFF00}3 \\
+ & 6129 & N103 & \cellcolor[HTML]{5B9BD5}Call completed & \cellcolor[HTML]{FFFF00}20 \\
+ & 6129 & N104 & Callback & \cellcolor[HTML]{FFFF00}24 \\
+ & 6154 & N105 & Do not call & \cellcolor[HTML]{FFFF00}1 \\
+ & 6154 & N106 & Callback & \cellcolor[HTML]{FFFF00}2 \\
+ & 6158 & N107 & \cellcolor[HTML]{5B9BD5}Call completed & \cellcolor[HTML]{FFFF00}1 \\
+ & 6158 & N108 & Callback & \cellcolor[HTML]{FFFF00}1 \\
+ & 6158 & N109 & Callback & \cellcolor[HTML]{FFFF00}2 \\
+\multirow{-19}{*}{N92 Test 2} & 6158 & N110 & \cellcolor[HTML]{5B9BD5}Call completed & \cellcolor[HTML]{FFFF00}4 \\
+ & 0 & N91 & Abandon & \cellcolor[HTML]{FFFF00}2 \\
+ & 0 & N91 & Answering Machine & \cellcolor[HTML]{FFFF00}129 \\
+ & 0 & N91 & Busy & \cellcolor[HTML]{FFFF00}41 \\
+ & 0 & N91 & Dial Error & \cellcolor[HTML]{FFFF00}30 \\
+ & 0 & N91 & Hangup & \cellcolor[HTML]{FFFF00}2 \\
+ & 0 & N91 & No Answer & \cellcolor[HTML]{FFFF00}458 \\
+ & 0 & N91 & Operator Intercept & \cellcolor[HTML]{FFFF00}14 \\
+ & 6120 & N91 & \cellcolor[HTML]{5B9BD5}Regret & \cellcolor[HTML]{FFFF00}1 \\
+ & 6120 & N91 & Callback & \cellcolor[HTML]{FFFF00}2 \\
+ & 6120 & N91 & Do not call & \cellcolor[HTML]{FFFF00}3 \\
+ & 6120 & N91 & Callback & \cellcolor[HTML]{FFFF00}12 \\
+ & 6120 & N91 & \cellcolor[HTML]{5B9BD5}Call completed & \cellcolor[HTML]{FFFF00}26 \\
+ & 6154 & N91 & Callback & \cellcolor[HTML]{FFFF00}2 \\
+ & 6154 & N91 & Do not call & \cellcolor[HTML]{FFFF00}1 \\
+ & 6154 & N91 & Callback & \cellcolor[HTML]{FFFF00}17 \\
+ & 6154 & N91 & \cellcolor[HTML]{5B9BD5}Call completed & \cellcolor[HTML]{FFFF00}31 \\
+ & 6158 & N91 & Callback & \cellcolor[HTML]{FFFF00}1 \\
+\multirow{-18}{*}{N91 Test} & 6158 & N91 & Callback & \cellcolor[HTML]{FFFF00}1
+\end{tabular}
+\end{table}

@@ -1,0 +1,672 @@
+[
+  {
+    "Regions and States": "Northeast",
+    "Cropland": "12435",
+    "Grassland pasture and range": "4808",
+    "Forest-use land": "64525",
+    "Special-use areas": "11840",
+    "Urban areas ": "13788",
+    "Miscellaneous other land": "3727",
+    "Total land area": "111123"
+  },
+  {
+    "Regions and States": "  Maine ",
+    "Cropland": "415",
+    "Grassland pasture and range": "154",
+    "Forest-use land": "16778",
+    "Special-use areas": "687",
+    "Urban areas ": "232",
+    "Miscellaneous other land": "1474",
+    "Total land area": "19739"
+  },
+  {
+    "Regions and States": "  New Hampshire",
+    "Cropland": "101",
+    "Grassland pasture and range": "104",
+    "Forest-use land": "4174",
+    "Special-use areas": "538",
+    "Urban areas ": "451",
+    "Miscellaneous other land": "363",
+    "Total land area": "5730"
+  },
+  {
+    "Regions and States": "  Vermont",
+    "Cropland": "435",
+    "Grassland pasture and range": "320",
+    "Forest-use land": "4288",
+    "Special-use areas": "447",
+    "Urban areas ": "104",
+    "Miscellaneous other land": "305",
+    "Total land area": "5899"
+  },
+  {
+    "Regions and States": "  Massachusetts",
+    "Cropland": "164",
+    "Grassland pasture and range": "70",
+    "Forest-use land": "2036",
+    "Special-use areas": "724",
+    "Urban areas ": "1993",
+    "Miscellaneous other land": "6",
+    "Total land area": "4992"
+  },
+  {
+    "Regions and States": "  Rhode Island",
+    "Cropland": "19",
+    "Grassland pasture and range": "6",
+    "Forest-use land": "291",
+    "Special-use areas": "30",
+    "Urban areas ": "262",
+    "Miscellaneous other land": "54",
+    "Total land area": "662"
+  },
+  {
+    "Regions and States": "  Connecticut",
+    "Cropland": "111",
+    "Grassland pasture and range": "28",
+    "Forest-use land": "1421",
+    "Special-use areas": "301",
+    "Urban areas ": "1200",
+    "Miscellaneous other land": "38",
+    "Total land area": "3099"
+  },
+  {
+    "Regions and States": "  New York",
+    "Cropland": "4125",
+    "Grassland pasture and range": "2409",
+    "Forest-use land": "15703",
+    "Special-use areas": "5113",
+    "Urban areas ": "2687",
+    "Miscellaneous other land": "123",
+    "Total land area": "30161"
+  },
+  {
+    "Regions and States": "  New Jersey",
+    "Cropland": "453",
+    "Grassland pasture and range": "76",
+    "Forest-use land": "1011",
+    "Special-use areas": "758",
+    "Urban areas ": "1927",
+    "Miscellaneous other land": "481",
+    "Total land area": "4707"
+  },
+  {
+    "Regions and States": "  Pennsylvania",
+    "Cropland": "4755",
+    "Grassland pasture and range": "1236",
+    "Forest-use land": "16312",
+    "Special-use areas": "2614",
+    "Urban areas ": "3213",
+    "Miscellaneous other land": "507",
+    "Total land area": "28635"
+  },
+  {
+    "Regions and States": "  Delaware",
+    "Cropland": "427",
+    "Grassland pasture and range": "18",
+    "Forest-use land": "331",
+    "Special-use areas": "136",
+    "Urban areas ": "307",
+    "Miscellaneous other land": "28",
+    "Total land area": "1247"
+  },
+  {
+    "Regions and States": "  Maryland",
+    "Cropland": "1429",
+    "Grassland pasture and range": "387",
+    "Forest-use land": "2180",
+    "Special-use areas": "494",
+    "Urban areas ": "1373",
+    "Miscellaneous other land": "349",
+    "Total land area": "6213"
+  },
+  {
+    "Regions and States": "  District of Columbia",
+    "Cropland": "0",
+    "Grassland pasture and range": "0",
+    "Forest-use land": "0",
+    "Special-use areas": "0",
+    "Urban areas ": "39",
+    "Miscellaneous other land": "0",
+    "Total land area": "39"
+  },
+  {
+    "Regions and States": "Corn Belt",
+    "Cropland": "89269",
+    "Grassland pasture and range": "17228",
+    "Forest-use land": "34780",
+    "Special-use areas": "6797",
+    "Urban areas ": "9563",
+    "Miscellaneous other land": "6718",
+    "Total land area": "164355"
+  },
+  {
+    "Regions and States": "  Ohio",
+    "Cropland": "10819",
+    "Grassland pasture and range": "1913",
+    "Forest-use land": "7734",
+    "Special-use areas": "940",
+    "Urban areas ": "3020",
+    "Miscellaneous other land": "1726",
+    "Total land area": "26151"
+  },
+  {
+    "Regions and States": "  Indiana",
+    "Cropland": "12684",
+    "Grassland pasture and range": "1653",
+    "Forest-use land": "4713",
+    "Special-use areas": "1154",
+    "Urban areas ": "1759",
+    "Miscellaneous other land": "966",
+    "Total land area": "22929"
+  },
+  {
+    "Regions and States": "  Illinois",
+    "Cropland": "23832",
+    "Grassland pasture and range": "1773",
+    "Forest-use land": "4679",
+    "Special-use areas": "1821",
+    "Urban areas ": "2692",
+    "Miscellaneous other land": "736",
+    "Total land area": "35532"
+  },
+  {
+    "Regions and States": "  Iowa",
+    "Cropland": "26728",
+    "Grassland pasture and range": "3085",
+    "Forest-use land": "2804",
+    "Special-use areas": "1381",
+    "Urban areas ": "672",
+    "Miscellaneous other land": "1079",
+    "Total land area": "35749"
+  },
+  {
+    "Regions and States": "  Missouri",
+    "Cropland": "15207",
+    "Grassland pasture and range": "8805",
+    "Forest-use land": "14850",
+    "Special-use areas": "1502",
+    "Urban areas ": "1420",
+    "Miscellaneous other land": "2211",
+    "Total land area": "43995"
+  },
+  {
+    "Regions and States": "Lake States",
+    "Cropland": "38913",
+    "Grassland pasture and range": "8239",
+    "Forest-use land": "51375",
+    "Special-use areas": "8013",
+    "Urban areas ": "4936",
+    "Miscellaneous other land": "10331",
+    "Total land area": "121807"
+  },
+  {
+    "Regions and States": "  Michigan",
+    "Cropland": "7422",
+    "Grassland pasture and range": "1890",
+    "Forest-use land": "19124",
+    "Special-use areas": "2212",
+    "Urban areas ": "2446",
+    "Miscellaneous other land": "3091",
+    "Total land area": "36185"
+  },
+  {
+    "Regions and States": "  Wisconsin",
+    "Cropland": "9646",
+    "Grassland pasture and range": "2812",
+    "Forest-use land": "16548",
+    "Special-use areas": "1837",
+    "Urban areas ": "1312",
+    "Miscellaneous other land": "2507",
+    "Total land area": "34661"
+  },
+  {
+    "Regions and States": "  Minnesota  ",
+    "Cropland": "21845",
+    "Grassland pasture and range": "3537",
+    "Forest-use land": "15703",
+    "Special-use areas": "3964",
+    "Urban areas ": "1179",
+    "Miscellaneous other land": "4733",
+    "Total land area": "50961"
+  },
+  {
+    "Regions and States": "Northern Plains",
+    "Cropland": "98588",
+    "Grassland pasture and range": "79450",
+    "Forest-use land": "6085",
+    "Special-use areas": "7029",
+    "Urban areas ": "1344",
+    "Miscellaneous other land": "1677",
+    "Total land area": "194173"
+  },
+  {
+    "Regions and States": "  North Dakota",
+    "Cropland": "27461",
+    "Grassland pasture and range": "13379",
+    "Forest-use land": "490",
+    "Special-use areas": "1941",
+    "Urban areas ": "135",
+    "Miscellaneous other land": "756",
+    "Total land area": "44161"
+  },
+  {
+    "Regions and States": "  South Dakota",
+    "Cropland": "19618",
+    "Grassland pasture and range": "24935",
+    "Forest-use land": "1799",
+    "Special-use areas": "1793",
+    "Urban areas ": "171",
+    "Miscellaneous other land": "204",
+    "Total land area": "48519"
+  },
+  {
+    "Regions and States": "  Nebraska",
+    "Cropland": "22239",
+    "Grassland pasture and range": "23583",
+    "Forest-use land": "1403",
+    "Special-use areas": "1462",
+    "Urban areas ": "366",
+    "Miscellaneous other land": "114",
+    "Total land area": "49167"
+  },
+  {
+    "Regions and States": "  Kansas",
+    "Cropland": "29270",
+    "Grassland pasture and range": "17554",
+    "Forest-use land": "2393",
+    "Special-use areas": "1834",
+    "Urban areas ": "672",
+    "Miscellaneous other land": "603",
+    "Total land area": "52326"
+  },
+  {
+    "Regions and States": "Appalachian",
+    "Cropland": "19967",
+    "Grassland pasture and range": "12436",
+    "Forest-use land": "70394",
+    "Special-use areas": "7946",
+    "Urban areas ": "8773",
+    "Miscellaneous other land": "3920",
+    "Total land area": "123435"
+  },
+  {
+    "Regions and States": "  Virginia",
+    "Cropland": "2837",
+    "Grassland pasture and range": "2505",
+    "Forest-use land": "15389",
+    "Special-use areas": "1423",
+    "Urban areas ": "1839",
+    "Miscellaneous other land": "1281",
+    "Total land area": "25274"
+  },
+  {
+    "Regions and States": "  West Virginia",
+    "Cropland": "829",
+    "Grassland pasture and range": "1248",
+    "Forest-use land": "11624",
+    "Special-use areas": "627",
+    "Urban areas ": "444",
+    "Miscellaneous other land": "613",
+    "Total land area": "15384"
+  },
+  {
+    "Regions and States": "  North Carolina",
+    "Cropland": "4673",
+    "Grassland pasture and range": "1461",
+    "Forest-use land": "18139",
+    "Special-use areas": "2739",
+    "Urban areas ": "3426",
+    "Miscellaneous other land": "677",
+    "Total land area": "31115"
+  },
+  {
+    "Regions and States": "  Kentucky",
+    "Cropland": "6573",
+    "Grassland pasture and range": "3863",
+    "Forest-use land": "11835",
+    "Special-use areas": "1253",
+    "Urban areas ": "991",
+    "Miscellaneous other land": "757",
+    "Total land area": "25271"
+  },
+  {
+    "Regions and States": "  Tennessee",
+    "Cropland": "5055",
+    "Grassland pasture and range": "3360",
+    "Forest-use land": "13407",
+    "Special-use areas": "1904",
+    "Urban areas ": "2072",
+    "Miscellaneous other land": "592",
+    "Total land area": "26390"
+  },
+  {
+    "Regions and States": "Southeast",
+    "Cropland": "12143",
+    "Grassland pasture and range": "10380",
+    "Forest-use land": "73176",
+    "Special-use areas": "11557",
+    "Urban areas ": "12222",
+    "Miscellaneous other land": "3303",
+    "Total land area": "122780"
+  },
+  {
+    "Regions and States": "  South Carolina",
+    "Cropland": "1966",
+    "Grassland pasture and range": "1073",
+    "Forest-use land": "12756",
+    "Special-use areas": "1109",
+    "Urban areas ": "1759",
+    "Miscellaneous other land": "576",
+    "Total land area": "19239"
+  },
+  {
+    "Regions and States": "  Georgia",
+    "Cropland": "4501",
+    "Grassland pasture and range": "1549",
+    "Forest-use land": "24061",
+    "Special-use areas": "1914",
+    "Urban areas ": "3550",
+    "Miscellaneous other land": "1234",
+    "Total land area": "36809"
+  },
+  {
+    "Regions and States": "  Florida",
+    "Cropland": "2865",
+    "Grassland pasture and range": "4910",
+    "Forest-use land": "13330",
+    "Special-use areas": "7275",
+    "Urban areas ": "5309",
+    "Miscellaneous other land": "631",
+    "Total land area": "34320"
+  },
+  {
+    "Regions and States": "  Alabama",
+    "Cropland": "2811",
+    "Grassland pasture and range": "2848",
+    "Forest-use land": "23029",
+    "Special-use areas": "1260",
+    "Urban areas ": "1604",
+    "Miscellaneous other land": "862",
+    "Total land area": "32413"
+  },
+  {
+    "Regions and States": "Delta States",
+    "Cropland": "17757",
+    "Grassland pasture and range": "9117",
+    "Forest-use land": "51822",
+    "Special-use areas": "5277",
+    "Urban areas ": "2971",
+    "Miscellaneous other land": "4040",
+    "Total land area": "90984"
+  },
+  {
+    "Regions and States": "  Mississippi",
+    "Cropland": "5116",
+    "Grassland pasture and range": "2567",
+    "Forest-use land": "19179",
+    "Special-use areas": "1046",
+    "Urban areas ": "786",
+    "Miscellaneous other land": "1337",
+    "Total land area": "30031"
+  },
+  {
+    "Regions and States": "  Arkansas",
+    "Cropland": "8018",
+    "Grassland pasture and range": "4217",
+    "Forest-use land": "17936",
+    "Special-use areas": "1993",
+    "Urban areas ": "788",
+    "Miscellaneous other land": "351",
+    "Total land area": "33303"
+  },
+  {
+    "Regions and States": "  Louisiana",
+    "Cropland": "4624",
+    "Grassland pasture and range": "2333",
+    "Forest-use land": "14707",
+    "Special-use areas": "2238",
+    "Urban areas ": "1397",
+    "Miscellaneous other land": "2351",
+    "Total land area": "27650"
+  },
+  {
+    "Regions and States": "Southern Plains",
+    "Cropland": "40655",
+    "Grassland pasture and range": "122827",
+    "Forest-use land": "21278",
+    "Special-use areas": "9138",
+    "Urban areas ": "7228",
+    "Miscellaneous other land": "9962",
+    "Total land area": "211089"
+  },
+  {
+    "Regions and States": "  Oklahoma",
+    "Cropland": "11636",
+    "Grassland pasture and range": "19060",
+    "Forest-use land": "7141",
+    "Special-use areas": "2022",
+    "Urban areas ": "905",
+    "Miscellaneous other land": "3136",
+    "Total land area": "43901"
+  },
+  {
+    "Regions and States": "  Texas",
+    "Cropland": "29019",
+    "Grassland pasture and range": "103767",
+    "Forest-use land": "14137",
+    "Special-use areas": "7116",
+    "Urban areas ": "6323",
+    "Miscellaneous other land": "6826",
+    "Total land area": "167188"
+  },
+  {
+    "Regions and States": "Mountain",
+    "Cropland": "39319",
+    "Grassland pasture and range": "330736",
+    "Forest-use land": "97125",
+    "Special-use areas": "63904",
+    "Urban areas ": "5269",
+    "Miscellaneous other land": "11339",
+    "Total land area": "547691"
+  },
+  {
+    "Regions and States": "  Montana",
+    "Cropland": "15341",
+    "Grassland pasture and range": "49871",
+    "Forest-use land": "18568",
+    "Special-use areas": "7553",
+    "Urban areas ": "207",
+    "Miscellaneous other land": "1610",
+    "Total land area": "93149"
+  },
+  {
+    "Regions and States": "  Idaho",
+    "Cropland": "5896",
+    "Grassland pasture and range": "18431",
+    "Forest-use land": "16532",
+    "Special-use areas": "6529",
+    "Urban areas ": "361",
+    "Miscellaneous other land": "5143",
+    "Total land area": "52892"
+  },
+  {
+    "Regions and States": "  Wyoming",
+    "Cropland": "2351",
+    "Grassland pasture and range": "45628",
+    "Forest-use land": "6381",
+    "Special-use areas": "6567",
+    "Urban areas ": "136",
+    "Miscellaneous other land": "1077",
+    "Total land area": "62140"
+  },
+  {
+    "Regions and States": "  Colorado",
+    "Cropland": "10870",
+    "Grassland pasture and range": "31884",
+    "Forest-use land": "14511",
+    "Special-use areas": "7780",
+    "Urban areas ": "1097",
+    "Miscellaneous other land": "190",
+    "Total land area": "66331"
+  },
+  {
+    "Regions and States": "  New Mexico",
+    "Cropland": "1655",
+    "Grassland pasture and range": "54466",
+    "Forest-use land": "13172",
+    "Special-use areas": "7319",
+    "Urban areas ": "563",
+    "Miscellaneous other land": "456",
+    "Total land area": "77631"
+  },
+  {
+    "Regions and States": "  Arizona",
+    "Cropland": "1163",
+    "Grassland pasture and range": "44095",
+    "Forest-use land": "13012",
+    "Special-use areas": "11117",
+    "Urban areas ": "1628",
+    "Miscellaneous other land": "1685",
+    "Total land area": "72700"
+  },
+  {
+    "Regions and States": "  Utah",
+    "Cropland": "1474",
+    "Grassland pasture and range": "34032",
+    "Forest-use land": "9749",
+    "Special-use areas": "5698",
+    "Urban areas ": "686",
+    "Miscellaneous other land": "949",
+    "Total land area": "52589"
+  },
+  {
+    "Regions and States": "  Nevada",
+    "Cropland": "569",
+    "Grassland pasture and range": "52329",
+    "Forest-use land": "5200",
+    "Special-use areas": "11342",
+    "Urban areas ": "591",
+    "Miscellaneous other land": "228",
+    "Total land area": "70260"
+  },
+  {
+    "Regions and States": "Pacific",
+    "Cropland": "21038",
+    "Grassland pasture and range": "62595",
+    "Forest-use land": "58045",
+    "Special-use areas": "37834",
+    "Urban areas ": "7776",
+    "Miscellaneous other land": "16375",
+    "Total land area": "203663"
+  },
+  {
+    "Regions and States": "  Washington",
+    "Cropland": "7504",
+    "Grassland pasture and range": "7387",
+    "Forest-use land": "17794",
+    "Special-use areas": "7846",
+    "Urban areas ": "1635",
+    "Miscellaneous other land": "366",
+    "Total land area": "42532"
+  },
+  {
+    "Regions and States": "  Oregon",
+    "Cropland": "4220",
+    "Grassland pasture and range": "24133",
+    "Forest-use land": "23668",
+    "Special-use areas": "5182",
+    "Urban areas ": "744",
+    "Miscellaneous other land": "3486",
+    "Total land area": "61432"
+  },
+  {
+    "Regions and States": "  California",
+    "Cropland": "9314",
+    "Grassland pasture and range": "31076",
+    "Forest-use land": "16583",
+    "Special-use areas": "24807",
+    "Urban areas ": "5396",
+    "Miscellaneous other land": "12523",
+    "Total land area": "99699"
+  },
+  {
+    "Regions and States": "48 States",
+    "Cropland": "390084",
+    "Grassland pasture and range": "657816",
+    "Forest-use land": "528605",
+    "Special-use areas": "169334",
+    "Urban areas ": "73870",
+    "Miscellaneous other land": "71390",
+    "Total land area": "1891099"
+  },
+  {
+    "Regions and States": "  Alaska",
+    "Cropland": "75",
+    "Grassland pasture and range": "714",
+    "Forest-use land": "91996",
+    "Special-use areas": "146950",
+    "Urban areas ": "166",
+    "Miscellaneous other land": "125308",
+    "Total land area": "365210"
+  },
+  {
+    "Regions and States": "  Hawaii",
+    "Cropland": "65",
+    "Grassland pasture and range": "762",
+    "Forest-use land": "1344",
+    "Special-use areas": "1376",
+    "Urban areas ": "269",
+    "Miscellaneous other land": "296",
+    "Total land area": "4110"
+  },
+  {
+    "Regions and States": "U.S. total",
+    "Cropland": "390223",
+    "Grassland pasture and range": "659292",
+    "Forest-use land": "621945",
+    "Special-use areas": "317661",
+    "Urban areas ": "74305",
+    "Miscellaneous other land": "196994",
+    "Total land area": "2260420"
+  },
+  {
+    "Regions and States": "Note: See documentation for definitions. Distributions may not add to totals due to rounding.",
+    "Cropland": null,
+    "Grassland pasture and range": null,
+    "Forest-use land": null,
+    "Special-use areas": null,
+    "Urban areas ": null,
+    "Miscellaneous other land": null,
+    "Total land area": null
+  },
+  {
+    "Regions and States": "Source: USDA, Economic Research Service estimates based on data from USDA, National Agricultural Statistics Service, Acreage, Agricultural land: Land values and cash rents, and 2017 Census of Agriculture; USDA, Farm Service Agency, Conservation Reserve Program (CRP), summary and enrollment statistics, fiscal year 2017, and CRP emergency haying and grazing data, fiscal year 2017; USDA, Natural Resources Conservation Service, Summary report: 2017 national resources inventory, 2017 national resources inventory, table F-1 Cropland and pastureland by specific land cover/use and year, Wetland Reserve Program (WRP) cumulative agreement data by State and fiscal year, and Agricultural Conservation Easement Program (ACEP) cumulative agreement data by State and fiscal year; USDA, Forest Service (FS), Grazing statistical summary, fiscal year 2017, Land areas of the National Forest System as of September 30, 2017, and USDA, FS grazing allotments; U.S. Department of Commerce, Bureau of the Census, 2010 Census of Population and Housing, summary population and housing characteristics, United States, 2013 American Housing Survey, and Census urban area national Topologically Integrated Geographic Encoding and Referencing (TIGER)/line shapefile; U.S. Department of Defense, Base structure report fiscal year 2018 Baseline; U.S. Department of the Interior, Bureau of Land Management, Fiscal year 2015 rangeland inventory, monitoring, and evaluation report, and Public land statistics 2017; U.S. Department of the Interior, National Park Service, National Park Service acreage report: Calendar year 2017; U.S. Department of Transportation, Bureau of Transportation Statistics, National Transportation Atlas Databases (NTAD), North American Rail Network (NARN) dataset, and National Transportation Atlas Databases (NTAD), Aviation facilities dataset; U.S. Department of Transportation, Federal Highway Administration, Highway statistics series: Highway statistics 2017; U.S. Department of the Interior, U.S. Geological Survey, Protected Areas Database of the United States (PAD-US); Oswalt, N.S., Smith, W.B., Miles, P.D., & Pugh, S.A. (2019). Forest resources of the United States, 2017: A technical document supporting the Forest Service 2020 RPA Assessment (Report No. General Technical Report WO-97). U.S. Department of Agriculture, Forest Service.; and Smith, J., & Leung, Y.F. (2019). Select metrics describing the operations of America's state park systems. Utah State University, University Libraries. For more information, see Winters-Michaud, C., Haro, A., Callahan, S., & Bigelow, D. P. (2024). Major Uses of Land in the United States, 2017 (Report No. EIB-275). U.S. Department of Agriculture, Economic Research Service.",
+    "Cropland": null,
+    "Grassland pasture and range": null,
+    "Forest-use land": null,
+    "Special-use areas": null,
+    "Urban areas ": null,
+    "Miscellaneous other land": null,
+    "Total land area": null
+  },
+  {
+    "Regions and States": "Contact: Clayton Winters-Michaud, USDA, Economic Research Service (CLAYTON.MICHAUD@USDA.GOV).",
+    "Cropland": null,
+    "Grassland pasture and range": null,
+    "Forest-use land": null,
+    "Special-use areas": null,
+    "Urban areas ": null,
+    "Miscellaneous other land": null,
+    "Total land area": null
+  },
+  {
+    "Regions and States": "Data as of September 13, 2024.",
+    "Cropland": null,
+    "Grassland pasture and range": null,
+    "Forest-use land": null,
+    "Special-use areas": null,
+    "Urban areas ": null,
+    "Miscellaneous other land": null,
+    "Total land area": null
+  }
+]

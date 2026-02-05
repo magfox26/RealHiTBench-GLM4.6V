@@ -1,0 +1,24 @@
+% Please add the following required packages to your document preamble:
+% \usepackage{multirow}
+\begin{table}[]
+\begin{tabular}{lccccccccccccc}
+\multirow{2}{*}{\textbf{}} & \multicolumn{11}{c}{\textbf{2015}} & \multicolumn{2}{c}{\textbf{2016}} \\
+ & Feb. & Mar. & Apr. & May & Jun. & Jul. & Aug. & Sept. & Oct. & Nov. & Dec. & Ian. P & Feb. P \\
+\textbf{Total} &  &  &  &  &  &  &  &  &  &  &  &  & \multicolumn{1}{l}{} \\
+15-74 years & 6.8 & 6.7 & 6.8 & 6.8 & 6.7 & 6.8 & 6.8 & 6.9 & 6.6 & 6.6 & 6.7 & 6,5 & 6,5 \\
+15-24 years & 22.4 & 22.4 & 21.8 & 21.8 & 21.8 & 21.2 & 21.2 & 21.2 & 20.9 P & 20.9 P & 20.9 P & .. & .. \\
+25-74 years & 5.6 & 5.4 & 5.6 & 5.6 & 5.5 & 5.6 & 5.7 & 5.7 & 5.5 & 5.5 & 5.6 & 5,5 & 5,4 \\
+\textbf{Male} &  &  &  &  &  &  &  &  &  &  &  &  & \multicolumn{1}{l}{} \\
+15-74 years & 7.6 & 7.4 & 7.5 & 7.5 & 7.5 & 7.4 & 7.4 & 7.5 & 7.3 & 7.3 & 7.3 & 7,1 & 7,0 \\
+15-24 years & 22.2 & 22.2 & 20.8 & 20.8 & 20.8 & 19.5 & 19.5 & 19.5 & 18.9 P & 18.9 P & 18.9 P & .. & .. \\
+25-74 years & 6.3 & 6.2 & 6.4 & 6.3 & 6.3 & 6.3 & 6.4 & 6.5 & 6.3 & 6.3 & 6.4 & 6,2 & 6,0 \\
+\textbf{Female} &  &  &  &  &  &  &  &  &  &  &  &  & \multicolumn{1}{l}{} \\
+15-74 years & 5.9 & 5.7 & 5.9 & 5.8 & 5.7 & 5.9 & 6 & 6 & 5.8 & 5.7 & 5.9 & 5,8 & 5,8 \\
+15-24 years & 22.7 & 22.7 & 23.4 & 23.4 & 23.4 & 23.9 & 23.9 & 23.9 & 24.3 P & 24.3 P & 24.3 P & .. & .. \\
+25-74 years & 4.6 & 4.4 & 4.6 & 4.5 & 4.4 & 4.6 & 4.7 & 4.7 & 4.5 & 4.4 & 4.6 & 4,5 & 4,6 \\
+P Provisional series - according to data revising policy (see point 6 in Methodological explanations). & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} \\
+.. - Unavailable data. & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{}
+\end{tabular}
+\caption{}
+\label{tab:my-table}
+\end{table}

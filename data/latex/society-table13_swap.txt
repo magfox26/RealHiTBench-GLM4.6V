@@ -1,0 +1,69 @@
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+% \usepackage{multirow}
+\begin{table}[]
+\begin{tabular}{@{}llllllllll@{}}
+\multicolumn{3}{l}{\multirow{2}{*}{State or area}} & \multicolumn{2}{c}{Category} & \multicolumn{3}{c}{Age} & \multicolumn{1}{r}{\multirow{2}{*}{\begin{tabular}[c]{@{}r@{}}SSI\\ recipients\\ also\\ receiving\\ OASDI\end{tabular}}} & \multicolumn{1}{r}{\multirow{2}{*}{Total}} \\
+\multicolumn{3}{l}{} & \multicolumn{1}{r}{Aged} & \multicolumn{1}{r}{\begin{tabular}[c]{@{}r@{}}Blind and\\ disabled\end{tabular}} & \multicolumn{1}{r}{Under 18} & \multicolumn{1}{r}{18–64} & \multicolumn{1}{r}{\begin{tabular}[c]{@{}r@{}}65 or\\ older\end{tabular}} & \multicolumn{1}{r}{} & \multicolumn{1}{r}{} \\
+ &  & Total, United States & 1,232,802 & 5,669,562 & 959,379 & 3,953,248 & 1,989,737 & 2,421,362 & 6,902,364 \\
+\multicolumn{3}{l}{Alabama} & 21,005 & 142,767 & 27,308 & 97,739 & 38,725 & 67,035 & 163,772 \\
+\multicolumn{3}{l}{Alaska} & 2,229 & 8,422 & 1,064 & 6,539 & 3,048 & 3,697 & 10,651 \\
+\multicolumn{3}{l}{Arizona} & 13,244 & 78,609 & 15,556 & 53,555 & 22,742 & 29,928 & 91,853 \\
+\multicolumn{3}{l}{Arkansas} & 11,182 & 75,381 & 15,363 & 50,313 & 20,887 & 37,422 & 86,563 \\
+\multicolumn{3}{l}{California} & 345,681 & 815,786 & 92,704 & 566,668 & 502,095 & 433,485 & 1,161,467 \\
+\multicolumn{3}{l}{Colorado} & 8,555 & 45,499 & 6,587 & 33,808 & 13,659 & 19,566 & 54,054 \\
+\multicolumn{3}{l}{Connecticut} & 6,945 & 44,225 & 6,293 & 32,450 & 12,427 & 15,490 & 51,170 \\
+\multicolumn{3}{l}{Delaware} & 1,307 & 11,661 & 2,977 & 7,568 & 2,423 & 4,315 & 12,968 \\
+\multicolumn{3}{l}{District of Columbia} & 2,157 & 18,236 & 3,907 & 12,045 & 4,441 & 5,211 & 20,393 \\
+\multicolumn{3}{l}{Florida} & 95,672 & 314,355 & 77,292 & 195,795 & 136,940 & 137,389 & 410,027 \\
+\multicolumn{3}{l}{Georgia} & 29,708 & 170,283 & 30,857 & 115,188 & 53,946 & 77,774 & 199,991 \\
+\multicolumn{3}{l}{Hawaii} & 6,523 & 15,234 & 1,380 & 11,884 & 8,493 & 6,905 & 21,757 \\
+\multicolumn{3}{l}{Idaho} & 1,714 & 18,565 & 3,543 & 13,730 & 3,006 & 7,350 & 20,279 \\
+\multicolumn{3}{l}{Illinois} & 30,892 & 224,370 & 42,559 & 155,318 & 57,385 & 60,744 & 255,262 \\
+\multicolumn{3}{l}{Indiana} & 6,310 & 87,717 & 19,036 & 62,363 & 12,628 & 30,272 & 94,027 \\
+\multicolumn{3}{l}{Iowa} & 3,836 & 38,054 & 6,295 & 28,383 & 7,212 & 16,484 & 41,890 \\
+\multicolumn{3}{l}{Kansas} & 3,481 & 34,332 & 6,608 & 24,591 & 6,614 & 13,690 & 37,813 \\
+\multicolumn{3}{l}{Kentucky} & 15,732 & 163,120 & 25,184 & 118,258 & 35,410 & 63,095 & 178,852 \\
+\multicolumn{3}{l}{Louisiana} & 20,713 & 147,087 & 29,460 & 98,939 & 39,401 & 58,708 & 167,800 \\
+\multicolumn{3}{l}{Maine} & 2,750 & 28,688 & 3,198 & 22,580 & 5,660 & 13,794 & 31,438 \\
+\multicolumn{3}{l}{Maryland} & 15,541 & 75,442 & 14,046 & 52,124 & 24,813 & 26,307 & 90,983 \\
+\multicolumn{3}{l}{Massachusetts} & 44,795 & 123,088 & 16,610 & 103,163 & 48,110 & 62,696 & 167,883 \\
+\multicolumn{3}{l}{Michigan} & 17,624 & 199,005 & 35,552 & 144,705 & 36,372 & 65,796 & 216,629 \\
+\multicolumn{3}{l}{Minnesota} & 9,806 & 59,214 & 9,593 & 43,802 & 15,625 & 22,090 & 69,020 \\
+\multicolumn{3}{l}{Mississippi} & 17,536 & 108,746 & 21,262 & 71,364 & 33,656 & 52,691 & 126,282 \\
+\multicolumn{3}{l}{Missouri} & 10,606 & 104,525 & 18,101 & 75,861 & 21,169 & 42,756 & 115,131 \\
+\multicolumn{3}{l}{Montana} & 1,212 & 13,153 & 1,805 & 10,080 & 2,480 & 5,662 & 14,365 \\
+\multicolumn{3}{l}{Nebraska} & 2,184 & 19,692 & 3,399 & 14,519 & 3,958 & 8,737 & 21,876 \\
+\multicolumn{3}{l}{Nevada} & 7,920 & 23,063 & 5,251 & 17,375 & 8,357 & 10,193 & 30,983 \\
+\multicolumn{3}{l}{New Hampshire} & 930 & 11,832 & 1,725 & 9,201 & 1,836 & 4,756 & 12,762 \\
+\multicolumn{3}{l}{New Jersey} & 33,654 & 115,722 & 20,861 & 78,236 & 50,279 & 47,485 & 149,376 \\
+\multicolumn{3}{l}{New Mexico} & 8,711 & 41,501 & 6,273 & 28,498 & 15,441 & 19,845 & 50,212 \\
+\multicolumn{3}{l}{New York} & 133,964 & 489,810 & 67,961 & 333,258 & 222,555 & 196,206 & 623,774 \\
+\multicolumn{3}{l}{North Carolina} & 28,241 & 166,370 & 33,450 & 109,308 & 51,853 & 83,446 & 194,611 \\
+\multicolumn{3}{l}{North Dakota} & 1,145 & 6,956 & 935 & 5,174 & 1,992 & 3,711 & 8,101 \\
+\multicolumn{3}{l}{Ohio} & 15,938 & 227,741 & 41,456 & 165,968 & 36,255 & 67,420 & 243,679 \\
+\multicolumn{3}{l}{Oklahoma} & 8,939 & 66,323 & 11,602 & 47,024 & 16,636 & 27,454 & 75,262 \\
+\multicolumn{3}{l}{Oregon} & 7,587 & 49,919 & 7,508 & 37,598 & 12,400 & 19,968 & 57,506 \\
+\multicolumn{3}{l}{Pennsylvania} & 32,883 & 277,602 & 50,888 & 195,711 & 63,886 & 96,816 & 310,485 \\
+\multicolumn{3}{l}{Rhode Island} & 4,145 & 24,998 & 3,738 & 18,076 & 7,329 & 11,241 & 29,143 \\
+\multicolumn{3}{l}{South Carolina} & 13,872 & 91,821 & 17,721 & 61,098 & 26,874 & 42,472 & 105,693 \\
+\multicolumn{3}{l}{South Dakota} & 1,777 & 10,797 & 1,885 & 7,495 & 3,194 & 5,253 & 12,574 \\
+\multicolumn{3}{l}{Tennessee} & 18,854 & 142,507 & 21,907 & 101,263 & 38,191 & 63,860 & 161,361 \\
+\multicolumn{3}{l}{Texas} & 111,313 & 343,919 & 65,288 & 228,697 & 161,247 & 181,997 & 455,232 \\
+\multicolumn{3}{l}{Utah} & 2,140 & 19,254 & 3,837 & 13,846 & 3,711 & 6,424 & 21,394 \\
+\multicolumn{3}{l}{Vermont} & 1,307 & 11,512 & 1,487 & 8,639 & 2,693 & 6,066 & 12,819 \\
+\multicolumn{3}{l}{Virginia} & 22,183 & 111,548 & 20,351 & 76,567 & 36,813 & 49,948 & 133,731 \\
+\multicolumn{3}{l}{Washington} & 14,192 & 94,864 & 13,105 & 71,006 & 24,945 & 29,616 & 109,056 \\
+\multicolumn{3}{l}{West Virginia} & 4,700 & 70,557 & 8,207 & 54,468 & 12,582 & 24,057 & 75,257 \\
+\multicolumn{3}{l}{Wisconsin} & 8,823 & 79,927 & 15,415 & 57,112 & 16,223 & 31,638 & 88,750 \\
+\multicolumn{3}{l}{Wyoming} & 484 & 5,181 & 822 & 3,926 & 917 & 2,198 & 5,665 \\
+\multicolumn{3}{l}{Outlying area} &  &  &  &  &  &  &  \\
+ & \multicolumn{2}{l}{Northern Mariana Islands} & 159 & 575 & 166 & 366 & 202 & 202 & 734 \\
+\multicolumn{3}{l}{Unknown} & 1 & 7 & 1 & 6 & 1 & 1 & 8 \\
+ &  &  &  &  &  &  &  &  &  \\
+ &  &  &  &  &  &  &  &  &  \\
+\multicolumn{10}{l}{SOURCE:  Social Security Administration, Supplemental Security Record (Characteristic Extract Record format), 100 percent data.} \\
+ &  &  &  &  &  &  &  &  &  \\
+\multicolumn{10}{l}{\begin{tabular}[c]{@{}l@{}}File available from:\\ Social Security Administration, Office of Policy\\ SSI Recipients by State and County, 2003http://www.socialsecurity.gov/policy/docs/statcomps/ssi\_sc/2003/\end{tabular}}
+\end{tabular}
+\end{table}

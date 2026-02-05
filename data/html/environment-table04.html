@@ -1,0 +1,1549 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <meta name="generator" content="PhpSpreadsheet, https://github.com/PHPOffice/PhpSpreadsheet">
+      <meta name="company" content="Microsoft Corporation" />
+    <style type="text/css">
+      html { font-family:Calibri, Arial, Helvetica, sans-serif; font-size:11pt; background-color:white }
+      a.comment-indicator:hover + div.comment { background:#ffd; position:absolute; display:block; border:1px solid black; padding:0.5em }
+      a.comment-indicator { background:red; display:inline-block; border:1px solid black; width:0.5em; height:0.5em }
+      div.comment { display:none }
+      table { border-collapse:collapse; page-break-after:always }
+      .gridlines td { border:1px dotted black }
+      .gridlines th { border:1px dotted black }
+      .b { text-align:center }
+      .e { text-align:center }
+      .f { text-align:right }
+      .inlineStr { text-align:left }
+      .n { text-align:right }
+      .s { text-align:left }
+      td.style0 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style0 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style1 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style1 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style2 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style2 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style3 { vertical-align:top; text-align:left; padding-left:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#FFFFFF; font-family:'宋体'; font-size:11pt; background-color:#0549AB }
+      th.style3 { vertical-align:top; text-align:left; padding-left:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#FFFFFF; font-family:'宋体'; font-size:11pt; background-color:#0549AB }
+      td.style4 { vertical-align:top; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#FFFFFF; font-family:'宋体'; font-size:11pt; background-color:#0549AB }
+      th.style4 { vertical-align:top; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#FFFFFF; font-family:'宋体'; font-size:11pt; background-color:#0549AB }
+      td.style5 { vertical-align:top; text-align:left; padding-left:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#E2F2FB }
+      th.style5 { vertical-align:top; text-align:left; padding-left:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#E2F2FB }
+      td.style6 { vertical-align:top; text-align:left; padding-left:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#F1F1F1 }
+      th.style6 { vertical-align:top; text-align:left; padding-left:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#F1F1F1 }
+      td.style7 { vertical-align:top; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:1px solid #000000 !important; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#B7DEF6 }
+      th.style7 { vertical-align:top; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:1px solid #000000 !important; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#B7DEF6 }
+      td.style8 { vertical-align:top; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#B7DEF6 }
+      th.style8 { vertical-align:top; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#B7DEF6 }
+      td.style9 { vertical-align:top; text-align:left; padding-left:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#E2F2FB }
+      th.style9 { vertical-align:top; text-align:left; padding-left:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#E2F2FB }
+      td.style10 { vertical-align:top; text-align:right; padding-right:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#F1F1F1 }
+      th.style10 { vertical-align:top; text-align:right; padding-right:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#F1F1F1 }
+      td.style11 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style11 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style12 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style12 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style13 { vertical-align:top; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#B7DEF6 }
+      th.style13 { vertical-align:top; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#B7DEF6 }
+      td.style14 { vertical-align:top; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#B7DEF6 }
+      th.style14 { vertical-align:top; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#B7DEF6 }
+      td.style15 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; text-decoration:underline; color:#0563C1; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style15 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; text-decoration:underline; color:#0563C1; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style16 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; text-decoration:underline; color:#0563C1; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style16 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; text-decoration:underline; color:#0563C1; font-family:'宋体'; font-size:11pt; background-color:white }
+      table.sheet0 col.col0 { width:42pt }
+      table.sheet0 col.col1 { width:137.58888731pt }
+      table.sheet0 col.col2 { width:104.37777658pt }
+      table.sheet0 col.col3 { width:104.37777658pt }
+      table.sheet0 col.col4 { width:104.37777658pt }
+      table.sheet0 col.col5 { width:104.37777658pt }
+      table.sheet0 col.col6 { width:104.37777658pt }
+      table.sheet0 col.col7 { width:85.39999902pt }
+      table.sheet0 col.col8 { width:85.39999902pt }
+      table.sheet0 col.col9 { width:61.67777707pt }
+      table.sheet0 col.col10 { width:61.67777707pt }
+      table.sheet0 col.col11 { width:61.67777707pt }
+      table.sheet0 col.col12 { width:61.67777707pt }
+      table.sheet0 col.col13 { width:42pt }
+      table.sheet0 tr { height:15pt }
+      table.sheet0 tr.row5 { height:30pt }
+      table.sheet0 tr.row6 { height:17pt }
+      table.sheet0 tr.row7 { height:15pt }
+      table.sheet0 tr.row8 { height:15pt }
+      table.sheet0 tr.row9 { height:17pt }
+      table.sheet0 tr.row10 { height:17pt }
+      table.sheet0 tr.row11 { height:17pt }
+      table.sheet0 tr.row12 { height:17pt }
+      table.sheet0 tr.row13 { height:17pt }
+      table.sheet0 tr.row14 { height:17pt }
+      table.sheet0 tr.row15 { height:17pt }
+      table.sheet0 tr.row16 { height:15pt }
+      table.sheet0 tr.row17 { height:15pt }
+      table.sheet0 tr.row18 { height:17pt }
+      table.sheet0 tr.row19 { height:17pt }
+      table.sheet0 tr.row20 { height:17pt }
+      table.sheet0 tr.row21 { height:17pt }
+      table.sheet0 tr.row22 { height:17pt }
+      table.sheet0 tr.row23 { height:17pt }
+      table.sheet0 tr.row24 { height:17pt }
+      table.sheet0 tr.row25 { height:15pt }
+      table.sheet0 tr.row26 { height:15pt }
+      table.sheet0 tr.row27 { height:17pt }
+      table.sheet0 tr.row28 { height:17pt }
+      table.sheet0 tr.row29 { height:17pt }
+      table.sheet0 tr.row30 { height:17pt }
+      table.sheet0 tr.row31 { height:17pt }
+      table.sheet0 tr.row32 { height:17pt }
+      table.sheet0 tr.row33 { height:17pt }
+      table.sheet0 tr.row34 { height:17pt }
+      table.sheet0 tr.row35 { height:15pt }
+      table.sheet0 tr.row36 { height:15pt }
+      table.sheet0 tr.row37 { height:17pt }
+      table.sheet0 tr.row38 { height:17pt }
+      table.sheet0 tr.row39 { height:17pt }
+      table.sheet0 tr.row40 { height:17pt }
+      table.sheet0 tr.row41 { height:17pt }
+      table.sheet0 tr.row42 { height:17pt }
+      table.sheet0 tr.row43 { height:17pt }
+      table.sheet0 tr.row44 { height:17pt }
+      table.sheet0 tr.row45 { height:15pt }
+      table.sheet0 tr.row46 { height:15pt }
+      table.sheet0 tr.row47 { height:17pt }
+      table.sheet0 tr.row48 { height:17pt }
+      table.sheet0 tr.row49 { height:17pt }
+      table.sheet0 tr.row50 { height:17pt }
+      table.sheet0 tr.row51 { height:17pt }
+      table.sheet0 tr.row52 { height:17pt }
+      table.sheet0 tr.row53 { height:17pt }
+      table.sheet0 tr.row54 { height:17pt }
+      table.sheet0 tr.row55 { height:15pt }
+      table.sheet0 tr.row56 { height:15pt }
+      table.sheet0 tr.row57 { height:17pt }
+      table.sheet0 tr.row58 { height:17pt }
+      table.sheet0 tr.row59 { height:17pt }
+      table.sheet0 tr.row60 { height:17pt }
+      table.sheet0 tr.row61 { height:17pt }
+      table.sheet0 tr.row62 { height:17pt }
+      table.sheet0 tr.row63 { height:17pt }
+      table.sheet0 tr.row64 { height:17pt }
+      table.sheet0 tr.row65 { height:15pt }
+      table.sheet0 tr.row66 { height:15pt }
+      table.sheet0 tr.row67 { height:17pt }
+      table.sheet0 tr.row68 { height:17pt }
+      table.sheet0 tr.row69 { height:17pt }
+      table.sheet0 tr.row70 { height:17pt }
+      table.sheet0 tr.row71 { height:17pt }
+      table.sheet0 tr.row72 { height:17pt }
+      table.sheet0 tr.row73 { height:17pt }
+      table.sheet0 tr.row74 { height:17pt }
+      table.sheet0 tr.row75 { height:15pt }
+      table.sheet0 tr.row76 { height:15pt }
+      table.sheet0 tr.row77 { height:17pt }
+      table.sheet0 tr.row78 { height:17pt }
+      table.sheet0 tr.row79 { height:17pt }
+      table.sheet0 tr.row80 { height:17pt }
+      table.sheet0 tr.row81 { height:17pt }
+      table.sheet0 tr.row82 { height:17pt }
+      table.sheet0 tr.row83 { height:17pt }
+      table.sheet0 tr.row84 { height:17pt }
+      table.sheet0 tr.row85 { height:15pt }
+      table.sheet0 tr.row86 { height:15pt }
+      table.sheet0 tr.row87 { height:17pt }
+      table.sheet0 tr.row88 { height:17pt }
+      table.sheet0 tr.row89 { height:17pt }
+      table.sheet0 tr.row90 { height:17pt }
+      table.sheet0 tr.row91 { height:17pt }
+      table.sheet0 tr.row92 { height:17pt }
+      table.sheet0 tr.row93 { height:17pt }
+      table.sheet0 tr.row94 { height:17pt }
+    </style>
+  </head>
+
+  <body>
+<style>
+@page { margin-left: 0.7in; margin-right: 0.7in; margin-top: 0.75in; margin-bottom: 0.75in; }
+body { margin-left: 0.7in; margin-right: 0.7in; margin-top: 0.75in; margin-bottom: 0.75in; }
+</style>
+    <table border="0" cellpadding="0" cellspacing="0" id="sheet0" class="sheet0 gridlines">
+        <col class="col0">
+        <col class="col1">
+        <col class="col2">
+        <col class="col3">
+        <col class="col4">
+        <col class="col5">
+        <col class="col6">
+        <col class="col7">
+        <col class="col8">
+        <col class="col9">
+        <col class="col10">
+        <col class="col11">
+        <col class="col12">
+        <col class="col13">
+        <tbody>
+          <tr class="row0">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style1 s">Mineral and Energy Resources</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11">&nbsp;</td>
+            <td class="column12">&nbsp;</td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row1">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style2 s">Reference area: Canada</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11">&nbsp;</td>
+            <td class="column12">&nbsp;</td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row2">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style2 s">Frequency of observation: Annual</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11">&nbsp;</td>
+            <td class="column12">&nbsp;</td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row3">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style2 s">Class: Commercially recoverable resources</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11">&nbsp;</td>
+            <td class="column12">&nbsp;</td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row4">
+            <td class="column0">&nbsp;</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11">&nbsp;</td>
+            <td class="column12">&nbsp;</td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row5">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style3 s style3" colspan="2">Time period</td>
+            <td class="column3 style4 s">2012</td>
+            <td class="column4 style4 s">2013</td>
+            <td class="column5 style4 s">2014</td>
+            <td class="column6 style4 s">2015</td>
+            <td class="column7 style4 s">2016</td>
+            <td class="column8 style4 s">2017</td>
+            <td class="column9 style4 s">2018</td>
+            <td class="column10 style4 s">2019</td>
+            <td class="column11 style4 s">2020</td>
+            <td class="column12 style4 s">2021</td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row6">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style5 s">Stocks and flows</td>
+            <td class="column2 style6 s"></td>
+            <td class="column3 style6 s"></td>
+            <td class="column4 style6 s"></td>
+            <td class="column5 style6 s"></td>
+            <td class="column6 style6 s"></td>
+            <td class="column7 style6 s"></td>
+            <td class="column8 style6 s"></td>
+            <td class="column9 style6 s"></td>
+            <td class="column10 style6 s"></td>
+            <td class="column11 style6 s"></td>
+            <td class="column12 style6 s"></td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row7">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style7 s style8" colspan="11">Resource: Crude oil</td>
+            <td class="column12 style13 s style14" rowspan="2"></td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row8">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style7 s style8" colspan="11">Combined unit of measure: Barrels, Billions</td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row9">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Opening stock</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style11 n">3.746</td>
+            <td class="column4 style11 n">3.793</td>
+            <td class="column5 style11 n">3.942</td>
+            <td class="column6 style11 n">3.771</td>
+            <td class="column7 style11 n">4.015</td>
+            <td class="column8 style11 n">4.080</td>
+            <td class="column9 style11 n">4.229</td>
+            <td class="column10 style11 n">4.853</td>
+            <td class="column11 style11 n">4.632</td>
+            <td class="column12 style11 n">4.644</td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row10">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Total additions to stock</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style11 n">0.525</td>
+            <td class="column4 style11 n">0.654</td>
+            <td class="column5 style11 n">0.339</td>
+            <td class="column6 style11 n">0.706</td>
+            <td class="column7 style11 n">0.498</td>
+            <td class="column8 style11 n">0.592</td>
+            <td class="column9 style11 n">1.089</td>
+            <td class="column10 style11 n">0.255</td>
+            <td class="column11 style11 n">0.450</td>
+            <td class="column12 style11 n">0.446</td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row11">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">·  Upward reappraisals</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style11 n">0.525</td>
+            <td class="column4 style11 n">0.654</td>
+            <td class="column5 style11 n">0.339</td>
+            <td class="column6 style11 n">0.706</td>
+            <td class="column7 style11 n">0.498</td>
+            <td class="column8 style11 n">0.592</td>
+            <td class="column9 style11 n">1.089</td>
+            <td class="column10 style11 n">0.255</td>
+            <td class="column11 style11 n">0.450</td>
+            <td class="column12 style11 n">0.446</td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row12">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Total reductions in stock</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style11 n">0.479</td>
+            <td class="column4 style11 n">0.504</td>
+            <td class="column5 style11 n">0.511</td>
+            <td class="column6 style11 n">0.462</td>
+            <td class="column7 style11 n">0.434</td>
+            <td class="column8 style11 n">0.443</td>
+            <td class="column9 style11 n">0.465</td>
+            <td class="column10 style11 n">0.476</td>
+            <td class="column11 style11 n">0.438</td>
+            <td class="column12 style11 n">0.435</td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row13">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">·  Extractions</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style11 n">0.479</td>
+            <td class="column4 style11 n">0.504</td>
+            <td class="column5 style11 n">0.511</td>
+            <td class="column6 style11 n">0.462</td>
+            <td class="column7 style11 n">0.434</td>
+            <td class="column8 style11 n">0.443</td>
+            <td class="column9 style11 n">0.465</td>
+            <td class="column10 style11 n">0.476</td>
+            <td class="column11 style11 n">0.438</td>
+            <td class="column12 style11 n">0.435</td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row14">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Closing stock</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style11 n">3.793</td>
+            <td class="column4 style11 n">3.942</td>
+            <td class="column5 style11 n">3.771</td>
+            <td class="column6 style11 n">4.015</td>
+            <td class="column7 style11 n">4.080</td>
+            <td class="column8 style11 n">4.229</td>
+            <td class="column9 style11 n">4.853</td>
+            <td class="column10 style11 n">4.632</td>
+            <td class="column11 style11 n">4.644</td>
+            <td class="column12 style11 n">4.654</td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row15">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Discrepancies</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style11 n">0.000</td>
+            <td class="column4 style11 n">0.000</td>
+            <td class="column5 style11 n">0.000</td>
+            <td class="column6 style11 n">0.001</td>
+            <td class="column7 style11 n">0.000</td>
+            <td class="column8 style11 n">0.000</td>
+            <td class="column9 style11 n">0.000</td>
+            <td class="column10 style11 n">0.000</td>
+            <td class="column11 style11 n">0.000</td>
+            <td class="column12 style11 n">0.000</td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row16">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style7 s style8" colspan="11">Resource: Natural gas</td>
+            <td class="column12 style13 s style14" rowspan="2"></td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row17">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style7 s style8" colspan="11">Combined unit of measure: Cubic metres, Billions</td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row18">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Opening stock</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style11 n">1,903.100</td>
+            <td class="column4 style11 n">1,995.700</td>
+            <td class="column5 style11 n">2,024.300</td>
+            <td class="column6 style11 n">1,987.100</td>
+            <td class="column7 style11 n">2,118.100</td>
+            <td class="column8 style11 n">2,095.100</td>
+            <td class="column9 style11 n">2,083.000</td>
+            <td class="column10 style11 n">2,093.500</td>
+            <td class="column11 style11 n">2,471.300</td>
+            <td class="column12 style11 n">2,477.300</td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row19">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Total additions to stock</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style11 n">233.900</td>
+            <td class="column4 style11 n">170.000</td>
+            <td class="column5 style11 n">106.500</td>
+            <td class="column6 style11 n">280.100</td>
+            <td class="column7 style11 n">136.900</td>
+            <td class="column8 style11 n">161.300</td>
+            <td class="column9 style11 n">188.300</td>
+            <td class="column10 style11 n">549.300</td>
+            <td class="column11 style11 n">172.900</td>
+            <td class="column12 style11 n">179.400</td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row20">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">·  Upward reappraisals</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style11 n">233.900</td>
+            <td class="column4 style11 n">170.000</td>
+            <td class="column5 style11 n">106.500</td>
+            <td class="column6 style11 n">280.100</td>
+            <td class="column7 style11 n">136.900</td>
+            <td class="column8 style11 n">161.300</td>
+            <td class="column9 style11 n">188.300</td>
+            <td class="column10 style11 n">549.300</td>
+            <td class="column11 style11 n">172.900</td>
+            <td class="column12 style11 n">179.400</td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row21">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Total reductions in stock</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style11 n">141.300</td>
+            <td class="column4 style11 n">141.400</td>
+            <td class="column5 style11 n">147.100</td>
+            <td class="column6 style11 n">149.100</td>
+            <td class="column7 style11 n">159.800</td>
+            <td class="column8 style11 n">173.500</td>
+            <td class="column9 style11 n">177.800</td>
+            <td class="column10 style11 n">171.500</td>
+            <td class="column11 style11 n">166.900</td>
+            <td class="column12 style11 n">173.500</td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row22">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">·  Extractions</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style11 n">141.300</td>
+            <td class="column4 style11 n">141.400</td>
+            <td class="column5 style11 n">147.100</td>
+            <td class="column6 style11 n">149.100</td>
+            <td class="column7 style11 n">159.800</td>
+            <td class="column8 style11 n">173.500</td>
+            <td class="column9 style11 n">177.800</td>
+            <td class="column10 style11 n">171.500</td>
+            <td class="column11 style11 n">166.900</td>
+            <td class="column12 style11 n">173.500</td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row23">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Closing stock</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style11 n">1,995.700</td>
+            <td class="column4 style11 n">2,024.300</td>
+            <td class="column5 style11 n">1,983.700</td>
+            <td class="column6 style11 n">2,118.100</td>
+            <td class="column7 style11 n">2,095.100</td>
+            <td class="column8 style11 n">2,083.000</td>
+            <td class="column9 style11 n">2,093.500</td>
+            <td class="column10 style11 n">2,471.300</td>
+            <td class="column11 style11 n">2,477.300</td>
+            <td class="column12 style11 n">2,483.200</td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row24">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Discrepancies</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style11 n">0.000</td>
+            <td class="column4 style11 n">0.000</td>
+            <td class="column5 style11 n">0.000</td>
+            <td class="column6 style11 n">0.000</td>
+            <td class="column7 style11 n">-0.100</td>
+            <td class="column8 style11 n">0.100</td>
+            <td class="column9 style11 n">0.000</td>
+            <td class="column10 style11 n">0.000</td>
+            <td class="column11 style11 n">0.000</td>
+            <td class="column12 style11 n">0.000</td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row25">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style7 s style8" colspan="11">Resource: Iron-Ore</td>
+            <td class="column12 style13 s style14" rowspan="2"></td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row26">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style7 s style8" colspan="11">Combined unit of measure: Tonnes, Billions</td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row27">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Opening stock</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style11 n">3.123</td>
+            <td class="column4 style11 n">3.283</td>
+            <td class="column5 style11 n">3.559</td>
+            <td class="column6 style11 n">4.141</td>
+            <td class="column7 style11 n">3.005</td>
+            <td class="column8 style11 n">2.959</td>
+            <td class="column9 style11 n">2.902</td>
+            <td class="column10 style11 n">3.523</td>
+            <td class="column11 style11 n">3.468</td>
+            <td class="column12 style11 n">3.409</td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row28">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Total additions to stock</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style11 n">0.199</td>
+            <td class="column4 style11 n">0.318</td>
+            <td class="column5 style11 n">0.625</td>
+            <td class="column6 style12 s"></td>
+            <td class="column7 style11 n">0.001</td>
+            <td class="column8 style12 s"></td>
+            <td class="column9 style11 n">0.674</td>
+            <td class="column10 style11 n">0.001</td>
+            <td class="column11 style12 s"></td>
+            <td class="column12 style12 s"></td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row29">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">·  Upward reappraisals</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style11 n">0.199</td>
+            <td class="column4 style11 n">0.318</td>
+            <td class="column5 style11 n">0.625</td>
+            <td class="column6 style12 s"></td>
+            <td class="column7 style11 n">0.001</td>
+            <td class="column8 style12 s"></td>
+            <td class="column9 style11 n">0.674</td>
+            <td class="column10 style11 n">0.001</td>
+            <td class="column11 style12 s"></td>
+            <td class="column12 style12 s"></td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row30">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Total reductions in stock</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style11 n">0.039</td>
+            <td class="column4 style11 n">0.042</td>
+            <td class="column5 style11 n">0.043</td>
+            <td class="column6 style11 n">1.136</td>
+            <td class="column7 style11 n">0.047</td>
+            <td class="column8 style11 n">0.057</td>
+            <td class="column9 style11 n">0.053</td>
+            <td class="column10 style11 n">0.056</td>
+            <td class="column11 style11 n">0.059</td>
+            <td class="column12 style11 n">0.058</td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row31">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">·  Extractions</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style11 n">0.039</td>
+            <td class="column4 style11 n">0.042</td>
+            <td class="column5 style11 n">0.043</td>
+            <td class="column6 style11 n">0.046</td>
+            <td class="column7 style11 n">0.047</td>
+            <td class="column8 style11 n">0.043</td>
+            <td class="column9 style11 n">0.053</td>
+            <td class="column10 style11 n">0.056</td>
+            <td class="column11 style11 n">0.059</td>
+            <td class="column12 style11 n">0.058</td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row32">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">·  Downward reappraisals</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style12 s"></td>
+            <td class="column4 style12 s"></td>
+            <td class="column5 style12 s"></td>
+            <td class="column6 style11 n">1.090</td>
+            <td class="column7 style12 s"></td>
+            <td class="column8 style11 n">0.014</td>
+            <td class="column9 style12 s"></td>
+            <td class="column10 style12 s"></td>
+            <td class="column11 style11 n">0.000</td>
+            <td class="column12 style11 n">0.000</td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row33">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Closing stock</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style11 n">3.283</td>
+            <td class="column4 style11 n">3.559</td>
+            <td class="column5 style11 n">4.141</td>
+            <td class="column6 style11 n">3.005</td>
+            <td class="column7 style11 n">2.959</td>
+            <td class="column8 style11 n">2.902</td>
+            <td class="column9 style11 n">3.523</td>
+            <td class="column10 style11 n">3.468</td>
+            <td class="column11 style11 n">3.409</td>
+            <td class="column12 style11 n">3.351</td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row34">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Discrepancies</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style11 n">0.000</td>
+            <td class="column4 style11 n">0.000</td>
+            <td class="column5 style11 n">0.000</td>
+            <td class="column6 style11 n">0.000</td>
+            <td class="column7 style11 n">0.000</td>
+            <td class="column8 style11 n">0.000</td>
+            <td class="column9 style11 n">0.000</td>
+            <td class="column10 style11 n">0.000</td>
+            <td class="column11 style11 n">0.000</td>
+            <td class="column12 style11 n">0.000</td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row35">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style7 s style8" colspan="11">Resource: Copper</td>
+            <td class="column12 style13 s style14" rowspan="2"></td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row36">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style7 s style8" colspan="11">Combined unit of measure: Tonnes, Millions</td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row37">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Opening stock</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style11 n">10.570</td>
+            <td class="column4 style11 n">10.364</td>
+            <td class="column5 style11 n">10.777</td>
+            <td class="column6 style11 n">10.215</td>
+            <td class="column7 style11 n">9.937</td>
+            <td class="column8 style11 n">9.101</td>
+            <td class="column9 style11 n">8.984</td>
+            <td class="column10 style11 n">8.115</td>
+            <td class="column11 style11 n">7.348</td>
+            <td class="column12 style11 n">7.001</td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row38">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Total additions to stock</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style11 n">0.355</td>
+            <td class="column4 style11 n">1.034</td>
+            <td class="column5 style11 n">0.092</td>
+            <td class="column6 style11 n">0.420</td>
+            <td class="column7 style12 s"></td>
+            <td class="column8 style11 n">0.463</td>
+            <td class="column9 style12 s"></td>
+            <td class="column10 style12 s"></td>
+            <td class="column11 style11 n">0.232</td>
+            <td class="column12 style11 n">1.161</td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row39">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">·  Upward reappraisals</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style11 n">0.355</td>
+            <td class="column4 style11 n">1.034</td>
+            <td class="column5 style11 n">0.092</td>
+            <td class="column6 style11 n">0.420</td>
+            <td class="column7 style12 s"></td>
+            <td class="column8 style11 n">0.463</td>
+            <td class="column9 style12 s"></td>
+            <td class="column10 style12 s"></td>
+            <td class="column11 style11 n">0.232</td>
+            <td class="column12 style11 n">1.161</td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row40">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Total reductions in stock</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style11 n">0.561</td>
+            <td class="column4 style11 n">0.621</td>
+            <td class="column5 style11 n">0.655</td>
+            <td class="column6 style11 n">0.697</td>
+            <td class="column7 style11 n">0.836</td>
+            <td class="column8 style11 n">0.580</td>
+            <td class="column9 style11 n">0.869</td>
+            <td class="column10 style11 n">0.767</td>
+            <td class="column11 style11 n">0.579</td>
+            <td class="column12 style11 n">0.542</td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row41">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">·  Extractions</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style11 n">0.561</td>
+            <td class="column4 style11 n">0.621</td>
+            <td class="column5 style11 n">0.655</td>
+            <td class="column6 style11 n">0.697</td>
+            <td class="column7 style11 n">0.708</td>
+            <td class="column8 style11 n">0.580</td>
+            <td class="column9 style11 n">0.528</td>
+            <td class="column10 style11 n">0.557</td>
+            <td class="column11 style11 n">0.579</td>
+            <td class="column12 style11 n">0.542</td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row42">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">·  Downward reappraisals</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style12 s"></td>
+            <td class="column4 style12 s"></td>
+            <td class="column5 style12 s"></td>
+            <td class="column6 style12 s"></td>
+            <td class="column7 style11 n">0.129</td>
+            <td class="column8 style12 s"></td>
+            <td class="column9 style11 n">0.342</td>
+            <td class="column10 style11 n">0.210</td>
+            <td class="column11 style12 s"></td>
+            <td class="column12 style12 s"></td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row43">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Closing stock</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style11 n">10.364</td>
+            <td class="column4 style11 n">10.777</td>
+            <td class="column5 style11 n">10.215</td>
+            <td class="column6 style11 n">9.937</td>
+            <td class="column7 style11 n">9.101</td>
+            <td class="column8 style11 n">8.984</td>
+            <td class="column9 style11 n">8.115</td>
+            <td class="column10 style11 n">7.348</td>
+            <td class="column11 style11 n">7.001</td>
+            <td class="column12 style11 n">7.620</td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row44">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Discrepancies</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style11 n">0.000</td>
+            <td class="column4 style11 n">0.000</td>
+            <td class="column5 style11 n">0.000</td>
+            <td class="column6 style11 n">0.000</td>
+            <td class="column7 style11 n">0.000</td>
+            <td class="column8 style11 n">0.000</td>
+            <td class="column9 style11 n">0.000</td>
+            <td class="column10 style11 n">0.000</td>
+            <td class="column11 style11 n">0.000</td>
+            <td class="column12 style11 n">0.000</td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row45">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style7 s style8" colspan="11">Resource: Zinc</td>
+            <td class="column12 style13 s style14" rowspan="2"></td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row46">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style7 s style8" colspan="11">Combined unit of measure: Tonnes, Millions</td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row47">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Opening stock</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style11 n">4.807</td>
+            <td class="column4 style11 n">4.163</td>
+            <td class="column5 style11 n">3.532</td>
+            <td class="column6 style11 n">2.972</td>
+            <td class="column7 style11 n">3.009</td>
+            <td class="column8 style11 n">2.231</td>
+            <td class="column9 style11 n">2.286</td>
+            <td class="column10 style11 n">1.913</td>
+            <td class="column11 style11 n">2.180</td>
+            <td class="column12 style11 n">1.630</td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row48">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Total additions to stock</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style12 s"></td>
+            <td class="column4 style12 s"></td>
+            <td class="column5 style12 s"></td>
+            <td class="column6 style11 n">0.312</td>
+            <td class="column7 style12 s"></td>
+            <td class="column8 style11 n">0.360</td>
+            <td class="column9 style12 s"></td>
+            <td class="column10 style11 n">0.536</td>
+            <td class="column11 style12 s"></td>
+            <td class="column12 style12 s"></td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row49">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">·  Upward reappraisals</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style12 s"></td>
+            <td class="column4 style12 s"></td>
+            <td class="column5 style12 s"></td>
+            <td class="column6 style11 n">0.312</td>
+            <td class="column7 style12 s"></td>
+            <td class="column8 style11 n">0.360</td>
+            <td class="column9 style12 s"></td>
+            <td class="column10 style11 n">0.536</td>
+            <td class="column11 style12 s"></td>
+            <td class="column12 style12 s"></td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row50">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Total reductions in stock</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style11 n">0.644</td>
+            <td class="column4 style11 n">0.631</td>
+            <td class="column5 style11 n">0.560</td>
+            <td class="column6 style11 n">0.275</td>
+            <td class="column7 style11 n">0.778</td>
+            <td class="column8 style11 n">0.305</td>
+            <td class="column9 style11 n">0.373</td>
+            <td class="column10 style11 n">0.269</td>
+            <td class="column11 style11 n">0.550</td>
+            <td class="column12 style11 n">0.392</td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row51">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">·  Extractions</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style11 n">0.602</td>
+            <td class="column4 style11 n">0.412</td>
+            <td class="column5 style11 n">0.323</td>
+            <td class="column6 style11 n">0.275</td>
+            <td class="column7 style11 n">0.301</td>
+            <td class="column8 style11 n">0.305</td>
+            <td class="column9 style11 n">0.269</td>
+            <td class="column10 style11 n">0.269</td>
+            <td class="column11 style11 n">0.248</td>
+            <td class="column12 style11 n">0.310</td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row52">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">·  Downward reappraisals</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style11 n">0.043</td>
+            <td class="column4 style11 n">0.219</td>
+            <td class="column5 style11 n">0.237</td>
+            <td class="column6 style12 s"></td>
+            <td class="column7 style11 n">0.477</td>
+            <td class="column8 style12 s"></td>
+            <td class="column9 style11 n">0.104</td>
+            <td class="column10 style12 s"></td>
+            <td class="column11 style11 n">0.303</td>
+            <td class="column12 style11 n">0.082</td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row53">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Closing stock</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style11 n">4.163</td>
+            <td class="column4 style11 n">3.532</td>
+            <td class="column5 style11 n">2.972</td>
+            <td class="column6 style11 n">3.009</td>
+            <td class="column7 style11 n">2.231</td>
+            <td class="column8 style11 n">2.286</td>
+            <td class="column9 style11 n">1.913</td>
+            <td class="column10 style11 n">2.180</td>
+            <td class="column11 style11 n">1.630</td>
+            <td class="column12 style11 n">1.238</td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row54">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Discrepancies</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style11 n">0.000</td>
+            <td class="column4 style11 n">0.000</td>
+            <td class="column5 style11 n">0.000</td>
+            <td class="column6 style11 n">0.000</td>
+            <td class="column7 style11 n">0.000</td>
+            <td class="column8 style11 n">0.000</td>
+            <td class="column9 style11 n">0.000</td>
+            <td class="column10 style11 n">0.000</td>
+            <td class="column11 style11 n">0.000</td>
+            <td class="column12 style11 n">0.000</td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row55">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style7 s style8" colspan="11">Resource: Lead</td>
+            <td class="column12 style13 s style14" rowspan="2"></td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row56">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style7 s style8" colspan="11">Combined unit of measure: Tonnes, Millions</td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row57">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Opening stock</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style11 n">0.247</td>
+            <td class="column4 style11 n">0.126</td>
+            <td class="column5 style11 n">0.116</td>
+            <td class="column6 style11 n">0.088</td>
+            <td class="column7 style11 n">0.083</td>
+            <td class="column8 style11 n">0.040</td>
+            <td class="column9 style11 n">0.165</td>
+            <td class="column10 style11 n">0.118</td>
+            <td class="column11 style11 n">0.203</td>
+            <td class="column12 style11 n">0.176</td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row58">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Total additions to stock</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style12 s"></td>
+            <td class="column4 style11 n">0.013</td>
+            <td class="column5 style12 s"></td>
+            <td class="column6 style12 s"></td>
+            <td class="column7 style12 s"></td>
+            <td class="column8 style11 n">0.139</td>
+            <td class="column9 style12 s"></td>
+            <td class="column10 style11 n">0.107</td>
+            <td class="column11 style12 s"></td>
+            <td class="column12 style11 n">0.025</td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row59">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">·  Upward reappraisals</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style12 s"></td>
+            <td class="column4 style11 n">0.013</td>
+            <td class="column5 style12 s"></td>
+            <td class="column6 style12 s"></td>
+            <td class="column7 style12 s"></td>
+            <td class="column8 style11 n">0.139</td>
+            <td class="column9 style12 s"></td>
+            <td class="column10 style11 n">0.107</td>
+            <td class="column11 style12 s"></td>
+            <td class="column12 style11 n">0.025</td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row60">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Total reductions in stock</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style11 n">0.121</td>
+            <td class="column4 style11 n">0.023</td>
+            <td class="column5 style11 n">0.028</td>
+            <td class="column6 style11 n">0.005</td>
+            <td class="column7 style11 n">0.043</td>
+            <td class="column8 style11 n">0.014</td>
+            <td class="column9 style11 n">0.047</td>
+            <td class="column10 style11 n">0.022</td>
+            <td class="column11 style12 s"></td>
+            <td class="column12 style11 n">0.070</td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row61">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">·  Extractions</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style11 n">0.062</td>
+            <td class="column4 style11 n">0.023</td>
+            <td class="column5 style11 n">0.004</td>
+            <td class="column6 style11 n">0.004</td>
+            <td class="column7 style11 n">0.012</td>
+            <td class="column8 style11 n">0.014</td>
+            <td class="column9 style11 n">0.019</td>
+            <td class="column10 style11 n">0.022</td>
+            <td class="column11 style12 s"></td>
+            <td class="column12 style11 n">0.070</td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row62">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">·  Downward reappraisals</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style11 n">0.059</td>
+            <td class="column4 style12 s"></td>
+            <td class="column5 style11 n">0.024</td>
+            <td class="column6 style11 n">0.001</td>
+            <td class="column7 style11 n">0.031</td>
+            <td class="column8 style12 s"></td>
+            <td class="column9 style11 n">0.028</td>
+            <td class="column10 style12 s"></td>
+            <td class="column11 style12 s"></td>
+            <td class="column12 style12 s"></td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row63">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Closing stock</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style11 n">0.126</td>
+            <td class="column4 style11 n">0.116</td>
+            <td class="column5 style11 n">0.088</td>
+            <td class="column6 style11 n">0.083</td>
+            <td class="column7 style11 n">0.040</td>
+            <td class="column8 style11 n">0.165</td>
+            <td class="column9 style11 n">0.118</td>
+            <td class="column10 style11 n">0.203</td>
+            <td class="column11 style11 n">0.176</td>
+            <td class="column12 style11 n">0.131</td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row64">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Discrepancies</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style11 n">0.000</td>
+            <td class="column4 style11 n">0.000</td>
+            <td class="column5 style11 n">0.000</td>
+            <td class="column6 style11 n">0.000</td>
+            <td class="column7 style11 n">0.000</td>
+            <td class="column8 style11 n">0.000</td>
+            <td class="column9 style11 n">0.000</td>
+            <td class="column10 style11 n">0.000</td>
+            <td class="column11 style11 n">-0.027</td>
+            <td class="column12 style11 n">0.000</td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row65">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style7 s style8" colspan="11">Resource: Nickel</td>
+            <td class="column12 style13 s style14" rowspan="2"></td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row66">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style7 s style8" colspan="11">Combined unit of measure: Tonnes, Millions</td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row67">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Opening stock</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style11 n">2.936</td>
+            <td class="column4 style11 n">2.617</td>
+            <td class="column5 style11 n">2.682</td>
+            <td class="column6 style11 n">2.287</td>
+            <td class="column7 style11 n">2.725</td>
+            <td class="column8 style11 n">2.604</td>
+            <td class="column9 style11 n">2.790</td>
+            <td class="column10 style11 n">2.296</td>
+            <td class="column11 style11 n">2.236</td>
+            <td class="column12 style11 n">1.977</td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row68">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Total additions to stock</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style12 s"></td>
+            <td class="column4 style11 n">0.283</td>
+            <td class="column5 style12 s"></td>
+            <td class="column6 style11 n">0.663</td>
+            <td class="column7 style11 n">0.109</td>
+            <td class="column8 style11 n">0.392</td>
+            <td class="column9 style12 s"></td>
+            <td class="column10 style11 n">0.116</td>
+            <td class="column11 style12 s"></td>
+            <td class="column12 style11 n">0.066</td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row69">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">·  Upward reappraisals</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style12 s"></td>
+            <td class="column4 style11 n">0.283</td>
+            <td class="column5 style12 s"></td>
+            <td class="column6 style11 n">0.663</td>
+            <td class="column7 style11 n">0.109</td>
+            <td class="column8 style11 n">0.392</td>
+            <td class="column9 style12 s"></td>
+            <td class="column10 style11 n">0.116</td>
+            <td class="column11 style12 s"></td>
+            <td class="column12 style11 n">0.066</td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row70">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Total reductions in stock</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style11 n">0.319</td>
+            <td class="column4 style11 n">0.218</td>
+            <td class="column5 style11 n">0.395</td>
+            <td class="column6 style11 n">0.225</td>
+            <td class="column7 style11 n">0.230</td>
+            <td class="column8 style11 n">0.206</td>
+            <td class="column9 style11 n">0.494</td>
+            <td class="column10 style11 n">0.176</td>
+            <td class="column11 style11 n">0.259</td>
+            <td class="column12 style11 n">0.134</td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row71">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">·  Extractions</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style11 n">0.204</td>
+            <td class="column4 style11 n">0.218</td>
+            <td class="column5 style11 n">0.218</td>
+            <td class="column6 style11 n">0.225</td>
+            <td class="column7 style11 n">0.230</td>
+            <td class="column8 style11 n">0.206</td>
+            <td class="column9 style11 n">0.176</td>
+            <td class="column10 style11 n">0.176</td>
+            <td class="column11 style11 n">0.158</td>
+            <td class="column12 style11 n">0.134</td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row72">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">·  Downward reappraisals</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style11 n">0.115</td>
+            <td class="column4 style12 s"></td>
+            <td class="column5 style11 n">0.177</td>
+            <td class="column6 style12 s"></td>
+            <td class="column7 style12 s"></td>
+            <td class="column8 style12 s"></td>
+            <td class="column9 style11 n">0.318</td>
+            <td class="column10 style12 s"></td>
+            <td class="column11 style11 n">0.101</td>
+            <td class="column12 style12 s"></td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row73">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Closing stock</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style11 n">2.617</td>
+            <td class="column4 style11 n">2.682</td>
+            <td class="column5 style11 n">2.287</td>
+            <td class="column6 style11 n">2.725</td>
+            <td class="column7 style11 n">2.604</td>
+            <td class="column8 style11 n">2.790</td>
+            <td class="column9 style11 n">2.296</td>
+            <td class="column10 style11 n">2.236</td>
+            <td class="column11 style11 n">1.977</td>
+            <td class="column12 style11 n">1.909</td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row74">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Discrepancies</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style11 n">0.000</td>
+            <td class="column4 style11 n">0.000</td>
+            <td class="column5 style11 n">0.000</td>
+            <td class="column6 style11 n">0.000</td>
+            <td class="column7 style11 n">0.000</td>
+            <td class="column8 style11 n">0.000</td>
+            <td class="column9 style11 n">0.000</td>
+            <td class="column10 style11 n">0.000</td>
+            <td class="column11 style11 n">0.000</td>
+            <td class="column12 style11 n">0.000</td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row75">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style7 s style8" colspan="11">Resource: Gold</td>
+            <td class="column12 style13 s style14" rowspan="2"></td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row76">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style7 s style8" colspan="11">Combined unit of measure: Tonnes, Units</td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row77">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Opening stock</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style11 n">2,044.000</td>
+            <td class="column4 style11 n">2,148.000</td>
+            <td class="column5 style11 n">2,140.000</td>
+            <td class="column6 style11 n">2,069.900</td>
+            <td class="column7 style11 n">1,983.800</td>
+            <td class="column8 style11 n">1,910.000</td>
+            <td class="column9 style11 n">2,578.000</td>
+            <td class="column10 style11 n">2,597.000</td>
+            <td class="column11 style11 n">2,359.000</td>
+            <td class="column12 style11 n">2,659.000</td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row78">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Total additions to stock</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style11 n">210.400</td>
+            <td class="column4 style11 n">123.400</td>
+            <td class="column5 style11 n">81.400</td>
+            <td class="column6 style11 n">74.700</td>
+            <td class="column7 style11 n">85.000</td>
+            <td class="column8 style11 n">833.600</td>
+            <td class="column9 style11 n">210.900</td>
+            <td class="column10 style12 s"></td>
+            <td class="column11 style11 n">478.100</td>
+            <td class="column12 style11 n">272.500</td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row79">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">·  Upward reappraisals</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style11 n">210.400</td>
+            <td class="column4 style11 n">123.400</td>
+            <td class="column5 style11 n">81.400</td>
+            <td class="column6 style11 n">74.700</td>
+            <td class="column7 style11 n">85.000</td>
+            <td class="column8 style11 n">833.600</td>
+            <td class="column9 style11 n">210.900</td>
+            <td class="column10 style12 s"></td>
+            <td class="column11 style11 n">478.100</td>
+            <td class="column12 style11 n">272.500</td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row80">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Total reductions in stock</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style11 n">106.400</td>
+            <td class="column4 style11 n">131.400</td>
+            <td class="column5 style11 n">151.500</td>
+            <td class="column6 style11 n">160.800</td>
+            <td class="column7 style11 n">158.800</td>
+            <td class="column8 style11 n">165.600</td>
+            <td class="column9 style11 n">191.900</td>
+            <td class="column10 style11 n">238.000</td>
+            <td class="column11 style11 n">178.100</td>
+            <td class="column12 style11 n">222.500</td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row81">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">·  Extractions</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style11 n">106.400</td>
+            <td class="column4 style11 n">131.400</td>
+            <td class="column5 style11 n">151.500</td>
+            <td class="column6 style11 n">160.800</td>
+            <td class="column7 style11 n">158.800</td>
+            <td class="column8 style11 n">165.600</td>
+            <td class="column9 style11 n">191.900</td>
+            <td class="column10 style11 n">190.700</td>
+            <td class="column11 style11 n">178.100</td>
+            <td class="column12 style11 n">222.500</td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row82">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">·  Downward reappraisals</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style12 s"></td>
+            <td class="column4 style12 s"></td>
+            <td class="column5 style12 s"></td>
+            <td class="column6 style12 s"></td>
+            <td class="column7 style12 s"></td>
+            <td class="column8 style12 s"></td>
+            <td class="column9 style12 s"></td>
+            <td class="column10 style11 n">47.300</td>
+            <td class="column11 style12 s"></td>
+            <td class="column12 style12 s"></td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row83">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Closing stock</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style11 n">2,148.000</td>
+            <td class="column4 style11 n">2,140.000</td>
+            <td class="column5 style11 n">2,069.900</td>
+            <td class="column6 style11 n">1,983.800</td>
+            <td class="column7 style11 n">1,910.000</td>
+            <td class="column8 style11 n">2,578.000</td>
+            <td class="column9 style11 n">2,597.000</td>
+            <td class="column10 style11 n">2,359.000</td>
+            <td class="column11 style11 n">2,659.000</td>
+            <td class="column12 style11 n">2,709.000</td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row84">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Discrepancies</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style11 n">0.000</td>
+            <td class="column4 style11 n">0.000</td>
+            <td class="column5 style11 n">0.000</td>
+            <td class="column6 style11 n">0.000</td>
+            <td class="column7 style11 n">0.000</td>
+            <td class="column8 style11 n">0.000</td>
+            <td class="column9 style11 n">0.000</td>
+            <td class="column10 style11 n">0.000</td>
+            <td class="column11 style11 n">0.000</td>
+            <td class="column12 style11 n">0.000</td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row85">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style7 s style8" colspan="11">Resource: Silver</td>
+            <td class="column12 style13 s style14" rowspan="2"></td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row86">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style7 s style8" colspan="11">Combined unit of measure: Tonnes, Thousands</td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row87">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Opening stock</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style11 n">6.953</td>
+            <td class="column4 style11 n">5.598</td>
+            <td class="column5 style11 n">5.013</td>
+            <td class="column6 style11 n">5.498</td>
+            <td class="column7 style11 n">5.345</td>
+            <td class="column8 style11 n">3.626</td>
+            <td class="column9 style11 n">5.074</td>
+            <td class="column10 style11 n">4.865</td>
+            <td class="column11 style11 n">4.480</td>
+            <td class="column12 style11 n">5.223</td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row88">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Total additions to stock</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style12 s"></td>
+            <td class="column4 style11 n">0.035</td>
+            <td class="column5 style11 n">0.957</td>
+            <td class="column6 style11 n">0.218</td>
+            <td class="column7 style12 s"></td>
+            <td class="column8 style11 n">1.814</td>
+            <td class="column9 style11 n">0.150</td>
+            <td class="column10 style11 n">0.014</td>
+            <td class="column11 style11 n">1.068</td>
+            <td class="column12 style12 s"></td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row89">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">·  Upward reappraisals</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style12 s"></td>
+            <td class="column4 style11 n">0.035</td>
+            <td class="column5 style11 n">0.957</td>
+            <td class="column6 style11 n">0.218</td>
+            <td class="column7 style12 s"></td>
+            <td class="column8 style11 n">1.814</td>
+            <td class="column9 style11 n">0.150</td>
+            <td class="column10 style11 n">0.014</td>
+            <td class="column11 style11 n">1.068</td>
+            <td class="column12 style12 s"></td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row90">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Total reductions in stock</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style11 n">1.355</td>
+            <td class="column4 style11 n">0.620</td>
+            <td class="column5 style11 n">0.472</td>
+            <td class="column6 style11 n">0.371</td>
+            <td class="column7 style11 n">1.719</td>
+            <td class="column8 style11 n">0.366</td>
+            <td class="column9 style11 n">0.359</td>
+            <td class="column10 style11 n">0.399</td>
+            <td class="column11 style11 n">0.325</td>
+            <td class="column12 style11 n">1.026</td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row91">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">·  Extractions</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style11 n">0.657</td>
+            <td class="column4 style11 n">0.620</td>
+            <td class="column5 style11 n">0.472</td>
+            <td class="column6 style11 n">0.371</td>
+            <td class="column7 style11 n">0.385</td>
+            <td class="column8 style11 n">0.366</td>
+            <td class="column9 style11 n">0.359</td>
+            <td class="column10 style11 n">0.399</td>
+            <td class="column11 style11 n">0.325</td>
+            <td class="column12 style11 n">0.325</td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row92">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">·  Downward reappraisals</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style11 n">0.698</td>
+            <td class="column4 style12 s"></td>
+            <td class="column5 style12 s"></td>
+            <td class="column6 style12 s"></td>
+            <td class="column7 style11 n">1.334</td>
+            <td class="column8 style12 s"></td>
+            <td class="column9 style12 s"></td>
+            <td class="column10 style12 s"></td>
+            <td class="column11 style12 s"></td>
+            <td class="column12 style11 n">0.701</td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row93">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Closing stock</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style11 n">5.598</td>
+            <td class="column4 style11 n">5.013</td>
+            <td class="column5 style11 n">5.498</td>
+            <td class="column6 style11 n">5.345</td>
+            <td class="column7 style11 n">3.626</td>
+            <td class="column8 style11 n">5.074</td>
+            <td class="column9 style11 n">4.865</td>
+            <td class="column10 style11 n">4.480</td>
+            <td class="column11 style11 n">5.223</td>
+            <td class="column12 style11 n">4.197</td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row94">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style9 s">Discrepancies</td>
+            <td class="column2 style10 s"></td>
+            <td class="column3 style11 n">0.000</td>
+            <td class="column4 style11 n">0.000</td>
+            <td class="column5 style11 n">0.000</td>
+            <td class="column6 style11 n">0.000</td>
+            <td class="column7 style11 n">0.000</td>
+            <td class="column8 style11 n">0.000</td>
+            <td class="column9 style11 n">0.000</td>
+            <td class="column10 style11 n">0.000</td>
+            <td class="column11 style11 n">0.000</td>
+            <td class="column12 style11 n">0.000</td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row95">
+            <td class="column0">&nbsp;</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11">&nbsp;</td>
+            <td class="column12">&nbsp;</td>
+            <td class="column13">&nbsp;</td>
+          </tr>
+          <tr class="row96">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style15 s"><a href="http://www.oecd.org/termsandconditions/" title="">© Terms &amp; conditions </a></td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11">&nbsp;</td>
+            <td class="column12">&nbsp;</td>
+            <td class="column13 style16 s"><a href="https://data-explorer.oecd.org/vis?lc=en&amp;df[ds]=dsDisseminateFinalDMZ&amp;df[id]=DSD_NAT_RES%40DF_NAT_RES&amp;df[ag]=OECD.SDD.NAD.SEEA&amp;dq=CAN.A....&amp;lom=LASTNPERIODS&amp;lo=10&amp;to[TIME_PERIOD]=false&amp;vw=tb" title="">Mineral and Energy Resources</a></td>
+          </tr>
+        </tbody>
+    </table>
+  </body>
+</html>

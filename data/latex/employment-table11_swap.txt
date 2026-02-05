@@ -1,0 +1,616 @@
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+% \usepackage{multirow}
+\begin{table}[]
+\begin{tabular}{@{}lllllll@{}}
+\multicolumn{7}{l}{\begin{tabular}[c]{@{}l@{}}HOUSEHOLD DATA\\ ANNUAL AVERAGES\\ 11. Employed persons by detailed occupation, sex, race, and Hispanic or Latino ethnicity\end{tabular}} \\
+{[}Numbers in thousands{]} &  &  &  &  &  &  \\
+ &  &  &  &  &  &  \\
+\multirow{3}{*}{Occupation} & \multicolumn{6}{l}{2023} \\
+ & \multirow{2}{*}{\begin{tabular}[c]{@{}l@{}}Total\\ employed\end{tabular}} & \multicolumn{5}{l}{Percent of total employed} \\
+ &  & Women & White & \begin{tabular}[c]{@{}l@{}}Black or\\ African\\ American\end{tabular} & Asian & \begin{tabular}[c]{@{}l@{}}Hispanic\\ or Latino\end{tabular} \\
+ &  &  &  &  &  &  \\
+Total, 16 years and over & 161037 & 46.9 & 76.5 & 12.8 & 6.9 & 18.8 \\
+ &  &  &  &  &  &  \\
+Management, professional, and related occupations & 70275 & 51.8 & 76.9 & 10.6 & 9.3 & 11.2 \\
+Management, business, and financial operations occupations & 30544 & 45.7 & 79.7 & 9.8 & 7.5 & 11.8 \\
+Management occupations & 20906 & 41.9 & 80.9 & 9.2 & 7 & 12.1 \\
+Chief executives & 1780 & 30.6 & 85.8 & 5.2 & 7.3 & 6.3 \\
+General and operations managers & 1359 & 37.1 & 82.8 & 8.4 & 5.8 & 13 \\
+Legislators & 12 & – & – & – & – & – \\
+Advertising and promotions managers & 49 & – & – & – & – & – \\
+Marketing managers & 567 & 62.4 & 84.1 & 7.1 & 7.1 & 10.6 \\
+Sales managers & 569 & 33.1 & 89.7 & 4.8 & 2.9 & 11.7 \\
+Public relations and fundraising managers & 110 & 66.4 & 82.1 & 12.2 & 3 & 9.2 \\
+Administrative services managers & 78 & 74 & 71.9 & 11.9 & 7.2 & 15.2 \\
+Facilities managers & 149 & 23.4 & 86 & 11.1 & 1.5 & 9.4 \\
+Computer and information systems managers & 793 & 27.7 & 72.3 & 7.9 & 17.7 & 9.6 \\
+Financial managers & 1411 & 56.2 & 77.7 & 10.1 & 9.9 & 11.9 \\
+Compensation and benefits managers & 16 & – & – & – & – & – \\
+Human resources managers & 335 & 76.5 & 76.7 & 14.7 & 5.4 & 12.8 \\
+Training and development managers & 62 & 48 & 83.8 & 12.3 & 1.4 & 4.2 \\
+Industrial production managers & 279 & 19.1 & 83.5 & 6.3 & 8.4 & 14.3 \\
+Purchasing managers & 241 & 47.7 & 74.5 & 16.1 & 8 & 7.3 \\
+Transportation, storage, and distribution managers & 382 & 21.4 & 78.4 & 13.1 & 5.1 & 13.5 \\
+Farmers, ranchers, and other agricultural managers & 876 & 27.4 & 96.2 & 1.4 & 0.8 & 6.4 \\
+Construction managers & 1136 & 10.6 & 89.8 & 4.8 & 2 & 16.1 \\
+Education and childcare administrators & 1108 & 68.6 & 75.4 & 15.5 & 5.7 & 12 \\
+Architectural and engineering managers & 206 & 12.8 & 73.2 & 5.4 & 18.4 & 9.5 \\
+Food service managers & 1198 & 46.7 & 73.1 & 11.5 & 12.2 & 19.3 \\
+Funeral home managers & 10 & – & – & – & – & – \\
+Entertainment and recreation managers & 81 & 50.1 & 82.4 & 7.1 & 4.5 & 24.2 \\
+Lodging managers & 141 & 61.6 & 72.3 & 10.2 & 13.3 & 9.8 \\
+Medical and health services managers & 838 & 71.8 & 75.7 & 14.2 & 5.7 & 10.7 \\
+Natural sciences managers & 39 & – & – & – & – & – \\
+Postmasters and mail superintendents & 19 & – & – & – & – & – \\
+Property, real estate, and community association managers & 880 & 51.7 & 80.8 & 10.4 & 5.5 & 12.6 \\
+Social and community service managers & 486 & 71.7 & 73.6 & 17.5 & 3.5 & 11.2 \\
+Emergency management directors & 12 & – & – & – & – & – \\
+Personal service managers, all other & 16 & – & – & – & – & – \\
+Managers, all other & 5666 & 37.5 & 80.7 & 9.2 & 7.1 & 13.1 \\
+Business and financial operations occupations & 9638 & 54 & 77.1 & 11 & 8.6 & 11.2 \\
+Agents and business managers of artists, performers, and athletes & 50 & 43.3 & 77.4 & 10.9 & 7.2 & 18.5 \\
+Buyers and purchasing agents, farm products & 13 & – & – & – & – & – \\
+Wholesale and retail buyers, except farm products & 225 & 57.6 & 77.6 & 8 & 6.8 & 23.3 \\
+Purchasing agents, except wholesale, retail, and farm products & 319 & 51.9 & 78.2 & 11.7 & 6.4 & 9.1 \\
+Claims adjusters, appraisers, examiners, and investigators & 362 & 55.2 & 77.3 & 18.1 & 2.3 & 10.4 \\
+Compliance officers & 333 & 51.8 & 78.9 & 12.5 & 4.2 & 14.5 \\
+Cost estimators & 148 & 17.7 & 96.2 & 0.3 & 1.9 & 7.6 \\
+Human resources workers & 980 & 76.5 & 74.9 & 14.7 & 6 & 16.7 \\
+Compensation, benefits, and job analysis specialists & 65 & 78.2 & 78.6 & 7.7 & 10.5 & 19 \\
+Training and development specialists & 138 & 56.7 & 80.7 & 14.1 & 3.5 & 12.5 \\
+Logisticians & 197 & 38.7 & 67.5 & 22.2 & 6.6 & 16.1 \\
+Project management specialists & 935 & 47.3 & 77 & 9.6 & 10.1 & 7.8 \\
+Management analysts & 1060 & 46.6 & 78.5 & 6.9 & 11.7 & 6.9 \\
+Meeting, convention, and event planners & 169 & 69.2 & 77.7 & 11.8 & 7.1 & 17.5 \\
+Fundraisers & 102 & 74.9 & 88.9 & 4.8 & 3.1 & 8.4 \\
+Market research analysts and marketing specialists & 511 & 61.7 & 78.9 & 7.3 & 10.3 & 10.8 \\
+Business operations specialists, all other & 531 & 57.7 & 73.3 & 12.7 & 7.7 & 14.1 \\
+Accountants and auditors & 1624 & 57 & 73.4 & 11.9 & 12.7 & 8.5 \\
+Property appraisers and assessors & 97 & 34.2 & 94.7 & 0.6 & 4.1 & 11.9 \\
+Budget analysts & 40 & – & – & – & – & – \\
+Credit analysts & 44 & – & – & – & – & – \\
+Financial and investment analysts & 395 & 43.9 & 70.6 & 13.8 & 11.7 & 8.3 \\
+Personal financial advisors & 506 & 32.6 & 86 & 6.4 & 6.3 & 8.6 \\
+Insurance underwriters & 108 & 56.9 & 77.3 & 15.6 & 5.8 & 10.7 \\
+Financial examiners & 21 & – & – & – & – & – \\
+Credit counselors and loan officers & 343 & 51.6 & 81.5 & 10.6 & 5.6 & 16.4 \\
+Tax examiners and collectors, and revenue agents & 71 & 60.8 & 78.5 & 14.9 & 4.5 & 11.8 \\
+Tax preparers & 116 & 66.3 & 78 & 11.8 & 9.3 & 17.2 \\
+Other financial specialists & 135 & 57.8 & 65.8 & 14 & 12.6 & 10.6 \\
+Professional and related occupations & 39731 & 56.5 & 74.8 & 11.3 & 10.7 & 10.8 \\
+Computer and mathematical occupations & 6502 & 26.9 & 63.5 & 9.2 & 24 & 8.8 \\
+Computer and information research scientists & 44 & – & – & – & – & – \\
+Computer systems analysts & 513 & 37.8 & 65.5 & 12 & 18.3 & 9.4 \\
+Information security analysts & 231 & 19.3 & 79.3 & 11.1 & 7.9 & 12.6 \\
+Computer programmers & 402 & 21.5 & 66.1 & 6.5 & 24.2 & 9.9 \\
+Software developers & 2134 & 20.2 & 54.6 & 6.5 & 36.2 & 6 \\
+Software quality assurance analysts and testers & 76 & 44.1 & 57 & 10.4 & 27.3 & 5.2 \\
+Web developers & 76 & 19.4 & 84.2 & 1.2 & 9.2 & 20.4 \\
+Web and digital interface designers & 79 & 42.7 & 82.9 & 3.6 & 7.9 & 5.4 \\
+Computer support specialists & 687 & 26.2 & 67 & 13.2 & 15 & 9.7 \\
+Database administrators and architects & 122 & 30.8 & 58.8 & 10.6 & 29.3 & 2.1 \\
+Network and computer systems administrators & 202 & 16.7 & 73.2 & 8.6 & 14.7 & 11.6 \\
+Computer network architects & 104 & 7.7 & 73.7 & 10.9 & 10.7 & 15.5 \\
+Computer occupations, all other & 1197 & 26 & 66 & 12.4 & 18.5 & 11.8 \\
+Actuaries & 43 & – & – & – & – & – \\
+Mathematicians & 5 & – & – & – & – & – \\
+Operations research analysts & 138 & 55 & 68 & 16.1 & 13 & 8.7 \\
+Statisticians & 46 & – & – & – & – & – \\
+Other mathematical science occupations & 402 & 50.7 & 63.8 & 7.4 & 24.4 & 8.8 \\
+Architecture and engineering occupations & 3602 & 16.7 & 78 & 6.1 & 13.1 & 10.1 \\
+Architects, except landscape and naval & 203 & 31 & 83.6 & 3.5 & 10.1 & 11.3 \\
+Landscape architects & 28 & – & – & – & – & – \\
+Surveyors, cartographers, and photogrammetrists & 44 & – & – & – & – & – \\
+Aerospace engineers & 166 & 15.2 & 75.8 & 8.6 & 12.7 & 3.6 \\
+Agricultural engineers & 4 & – & – & – & – & – \\
+Bioengineers and biomedical engineers & 26 & – & – & – & – & – \\
+Chemical engineers & 83 & 21.6 & 80.2 & 5 & 10.6 & 6.1 \\
+Civil engineers & 517 & 16.9 & 78.2 & 7.2 & 12.7 & 11.4 \\
+Computer hardware engineers & 71 & 5.9 & 60.2 & 4.9 & 29.6 & 8 \\
+Electrical and electronics engineers & 250 & 11.6 & 73.9 & 7.7 & 17.4 & 10.1 \\
+Environmental engineers & 38 & – & – & – & – & – \\
+Industrial engineers, including health and safety & 298 & 24.6 & 78.4 & 6.1 & 12.6 & 10.3 \\
+Marine engineers and naval architects & 16 & – & – & – & – & – \\
+Materials engineers & 54 & 13.5 & 80.9 & 0 & 16.6 & 12.8 \\
+Mechanical engineers & 433 & 10.1 & 78.9 & 6.2 & 12.8 & 9.5 \\
+Mining and geological engineers, including mining safety engineers & 10 & – & – & – & – & – \\
+Nuclear engineers & 3 & – & – & – & – & – \\
+Petroleum engineers & 12 & – & – & – & – & – \\
+Engineers, all other & 669 & 15.4 & 72.4 & 5.9 & 18.2 & 9.9 \\
+Architectural and civil drafters & 33 & – & – & – & – & – \\
+Other drafters & 98 & 20.5 & 88.6 & 3.2 & 8.2 & 8.9 \\
+Electrical and electronic engineering technologists and technicians & 97 & 11.6 & 88.4 & 2.4 & 8.8 & 17.7 \\
+Other engineering technologists and technicians, except drafters & 366 & 17.3 & 78 & 8.5 & 7.8 & 13.5 \\
+Surveying and mapping technicians & 87 & 12 & 94.8 & 2.3 & 1.5 & 8.7 \\
+Life, physical, and social science occupations & 1870 & 49.8 & 71.8 & 8.2 & 16.5 & 9.9 \\
+Agricultural and food scientists & 29 & – & – & – & – & – \\
+Biological scientists & 118 & 55 & 84.6 & 3.1 & 9.8 & 5.4 \\
+Conservation scientists and foresters & 32 & – & – & – & – & – \\
+Medical scientists & 130 & 51.8 & 49.2 & 8.3 & 41.1 & 9.4 \\
+Life scientists, all other & 8 & – & – & – & – & – \\
+Astronomers and physicists & 25 & – & – & – & – & – \\
+Atmospheric and space scientists & 15 & – & – & – & – & – \\
+Chemists and materials scientists & 93 & 36 & 64.7 & 3 & 24.1 & 10 \\
+Environmental scientists and specialists, including health & 46 & – & – & – & – & – \\
+Geoscientists and hydrologists, except geographers & 33 & – & – & – & – & – \\
+Physical scientists, all other & 441 & 43.1 & 58.8 & 9.2 & 29.7 & 7.5 \\
+Economists & 28 & – & – & – & – & – \\
+Survey researchers & 2 & – & – & – & – & – \\
+Clinical and counseling psychologists & 19 & – & – & – & – & – \\
+School psychologists & 56 & 87.9 & 91.2 & 5.7 & 0 & 4.5 \\
+Other psychologists & 153 & 78.4 & 85.5 & 7.4 & 4.1 & 10.7 \\
+Sociologists & 4 & – & – & – & – & – \\
+Urban and regional planners & 37 & – & – & – & – & – \\
+Miscellaneous social scientists and related workers & 55 & 53.9 & 91.4 & 3 & 4.6 & 6.9 \\
+Agricultural and food science technicians & 48 & – & – & – & – & – \\
+Biological technicians & 32 & – & – & – & – & – \\
+Chemical technicians & 63 & 35 & 90.1 & 6 & 3.9 & 31.9 \\
+Environmental science and geoscience technicians & 18 & – & – & – & – & – \\
+Nuclear technicians & 6 & – & – & – & – & – \\
+Social science research assistants & 4 & – & – & – & – & – \\
+Other life, physical, and social science technicians & 304 & 58.6 & 70.8 & 12.3 & 13 & 8 \\
+Occupational health and safety specialists and technicians & 71 & 17.9 & 78.8 & 12.6 & 1.8 & 16 \\
+Community and social service occupations & 2879 & 69.6 & 72.9 & 19.6 & 3.9 & 14.5 \\
+Substance abuse and behavioral disorder counselors & 133 & 78.1 & 72.6 & 15.6 & 6.2 & 13.8 \\
+Educational, guidance, and career counselors and advisors & 384 & 79.2 & 76 & 17.2 & 2.5 & 14.1 \\
+Marriage and family therapists & 34 & – & – & – & – & – \\
+Mental health counselors & 219 & 74.6 & 75.9 & 18.4 & 2.8 & 16.8 \\
+Rehabilitation counselors & 17 & – & – & – & – & – \\
+Counselors, all other & 255 & 72.3 & 71 & 23.1 & 3.5 & 11.3 \\
+Child, family, and school social workers & 60 & 88.1 & 65.8 & 26.3 & 3.9 & 14.2 \\
+Healthcare social workers & 79 & 77.9 & 65.1 & 28.9 & 2.6 & 19.3 \\
+Mental health and substance abuse social workers & 20 & – & – & – & – & – \\
+Social workers, all other & 704 & 84.2 & 70.7 & 23.2 & 3.2 & 17.1 \\
+Probation officers and correctional treatment specialists & 77 & 57.4 & 62.6 & 34.9 & 1.1 & 15.9 \\
+Social and human service assistants & 245 & 75.3 & 64.9 & 24.4 & 5 & 19.8 \\
+Other community and social service specialists & 99 & 74.4 & 65.6 & 26.9 & 1.2 & 25.5 \\
+Clergy & 403 & 21.4 & 80.3 & 9.5 & 7.4 & 7.5 \\
+Directors, religious activities and education & 78 & 67.3 & 75.7 & 12.2 & 4.1 & 9.9 \\
+Religious workers, all other & 74 & 67.6 & 91.1 & 3.7 & 4.5 & 6.7 \\
+Legal occupations & 1897 & 52.1 & 82.7 & 10 & 4.4 & 9.7 \\
+Lawyers & 1189 & 39.5 & 86.1 & 6.8 & 4.4 & 5.7 \\
+Judicial law clerks & 19 & – & – & – & – & – \\
+Judges, magistrates, and other judicial workers & 76 & 46.5 & 72.3 & 26.2 & 0 & 11.2 \\
+Paralegals and legal assistants & 434 & 83 & 76.3 & 15.3 & 5 & 16.8 \\
+Title examiners, abstractors, and searchers & 97 & 65.5 & 80.4 & 8.6 & 6.6 & 17.6 \\
+Legal support workers, all other & 83 & 56.1 & 80.5 & 15.3 & 3.5 & 18.3 \\
+Education, training, and library occupations & 9403 & 72.8 & 80 & 11.2 & 5.7 & 12.1 \\
+Postsecondary teachers & 1013 & 46.6 & 78.5 & 8.4 & 10.9 & 7.9 \\
+Preschool and kindergarten teachers & 669 & 96.7 & 73.5 & 18.7 & 3.2 & 16.5 \\
+Elementary and middle school teachers & 3436 & 78.6 & 83.2 & 11.2 & 3.8 & 11.1 \\
+Secondary school teachers & 944 & 56.9 & 87.8 & 6.1 & 2.7 & 9.6 \\
+Special education teachers & 341 & 86.6 & 83.4 & 9.8 & 2.8 & 7.2 \\
+Tutors & 141 & 70.4 & 80.6 & 6.7 & 8.1 & 24.3 \\
+Other teachers and instructors & 973 & 62.5 & 75.3 & 14.2 & 6.4 & 13 \\
+Archivists, curators, and museum technicians & 76 & 63.2 & 76.8 & 7.9 & 8.4 & 9 \\
+Librarians and media collections specialists & 146 & 82.5 & 81.2 & 7 & 5.5 & 11.1 \\
+Library technicians & 33 & – & – & – & – & – \\
+Teaching assistants & 1426 & 79.5 & 73.7 & 12.3 & 9.7 & 16.9 \\
+Other educational instruction and library workers & 204 & 78.8 & 79.2 & 14.4 & 4.6 & 11.1 \\
+Arts, design, entertainment, sports, and media occupations & 3478 & 48 & 79.6 & 9.6 & 6.7 & 13 \\
+Artists and related workers & 334 & 51.6 & 79.6 & 6.7 & 8.1 & 11.3 \\
+Commercial and industrial designers & 17 & – & – & – & – & – \\
+Fashion designers & 39 & – & – & – & – & – \\
+Floral designers & 63 & 89.1 & 94.6 & 2.7 & 1.1 & 27.6 \\
+Graphic designers & 312 & 54.7 & 77.9 & 6.8 & 8.5 & 13.4 \\
+Interior designers & 103 & 85.3 & 90.7 & 2.3 & 7 & 9.9 \\
+Merchandise displayers and window trimmers & 28 & – & – & – & – & – \\
+Other designers & 384 & 43.1 & 77.6 & 8.3 & 10.7 & 13.8 \\
+Actors & 50 & 47 & 75.6 & 21 & 0 & 19.5 \\
+Producers and directors & 167 & 43.6 & 80.4 & 12.1 & 5.3 & 11 \\
+Athletes and sports competitors & 42 & – & – & – & – & – \\
+Coaches and scouts & 288 & 40.9 & 74.7 & 14.6 & 5.6 & 14.4 \\
+Umpires, referees, and other sports officials & 25 & – & – & – & – & – \\
+Dancers and choreographers & 16 & – & – & – & – & – \\
+Music directors and composers & 46 & – & – & – & – & – \\
+Musicians and singers & 170 & 27.1 & 73.6 & 15.9 & 5 & 10.9 \\
+Disc jockeys, except radio & 28 & – & – & – & – & – \\
+Entertainers and performers, sports and related workers, all other & 36 & – & – & – & – & – \\
+Broadcast announcers and radio disc jockeys & 27 & – & – & – & – & – \\
+News analysts, reporters, and journalists & 65 & 51.3 & 74.9 & 13.2 & 8.8 & 15.8 \\
+Public relations specialists & 140 & 76.2 & 80.5 & 11.2 & 3.4 & 7.8 \\
+Editors & 125 & 56.6 & 91.2 & 3.5 & 4.6 & 6.5 \\
+Technical writers & 49 & – & – & – & – & – \\
+Writers and authors & 271 & 53.8 & 88.3 & 5.5 & 4.9 & 9 \\
+Interpreters and translators & 101 & 74.4 & 77.3 & 5.7 & 12.2 & 42.8 \\
+Court reporters and simultaneous captioners & 21 & – & – & – & – & – \\
+Media and communication workers, all other & 30 & – & – & – & – & – \\
+Broadcast, sound, and lighting technicians & 124 & 12.2 & 87 & 4.5 & 3 & 11.1 \\
+Photographers & 228 & 48.5 & 79.4 & 9.2 & 6.3 & 10.4 \\
+Television, video, and film camera operators and editors & 148 & 18.8 & 72 & 12.5 & 6.3 & 16.8 \\
+Media and communication equipment workers, all other & 1 & – & – & – & – & – \\
+Healthcare practitioners and technical occupations & 10099 & 75.9 & 74 & 13.5 & 9.5 & 9.5 \\
+Chiropractors & 60 & 41.1 & 83.6 & 6.6 & 7.1 & 0.7 \\
+Dentists & 164 & 39.5 & 77.2 & 4.3 & 14.5 & 8 \\
+Dietitians and nutritionists & 114 & 86.3 & 75.9 & 13 & 8.2 & 14.5 \\
+Optometrists & 47 & – & – & – & – & – \\
+Pharmacists & 354 & 57.8 & 68.5 & 10 & 20.8 & 5.8 \\
+Emergency medicine physicians & 27 & – & – & – & – & – \\
+Radiologists & 19 & – & – & – & – & – \\
+Other physicians & 903 & 45.5 & 67.4 & 9 & 20.2 & 6.7 \\
+Surgeons & 59 & 20 & 75 & 5.7 & 18.6 & 2.5 \\
+Physician assistants & 178 & 68.8 & 84.2 & 4.8 & 6.4 & 7.5 \\
+Podiatrists & 11 & – & – & – & – & – \\
+Audiologists & 19 & – & – & – & – & – \\
+Occupational therapists & 155 & 88.6 & 82.5 & 8 & 4.8 & 4.8 \\
+Physical therapists & 312 & 67.5 & 86.5 & 5 & 5.2 & 6 \\
+Radiation therapists & 16 & – & – & – & – & – \\
+Recreational therapists & 17 & – & – & – & – & – \\
+Respiratory therapists & 92 & 62.4 & 80.2 & 5.6 & 10.4 & 11.3 \\
+Speech-language pathologists & 185 & 94.3 & 90 & 6.4 & 2.6 & 6.9 \\
+Exercise physiologists & 6 & – & – & – & – & – \\
+Therapists, all other & 303 & 83.9 & 77.4 & 16.2 & 3.7 & 14.1 \\
+Veterinarians & 87 & 69.1 & 90 & 1.3 & 5.9 & 7.9 \\
+Registered nurses & 3472 & 87.4 & 72.6 & 15.6 & 8.9 & 8.9 \\
+Nurse anesthetists & 22 & – & – & – & – & – \\
+Nurse midwives & 6 & – & – & – & – & – \\
+Nurse practitioners & 276 & 89.8 & 77.8 & 13.5 & 7.3 & 5.5 \\
+Acupuncturists & 27 & – & – & – & – & – \\
+Healthcare diagnosing or treating practitioners, all other & 13 & – & – & – & – & – \\
+Clinical laboratory technologists and technicians & 302 & 76.3 & 66.3 & 14.3 & 15 & 11.8 \\
+Dental hygienists & 206 & 95.7 & 88.6 & 4 & 5.6 & 11.8 \\
+Cardiovascular technologists and technicians & 48 & – & – & – & – & – \\
+Diagnostic medical sonographers & 105 & 76.1 & 76.9 & 6.1 & 15 & 11.6 \\
+Radiologic technologists and technicians & 259 & 70.3 & 82.5 & 8 & 6.8 & 12.6 \\
+Magnetic resonance imaging technologists & 46 & – & – & – & – & – \\
+Nuclear medicine technologists and medical dosimetrists & 42 & – & – & – & – & – \\
+Emergency medical technicians & 156 & 39.4 & 84 & 9.2 & 4 & 16.6 \\
+Paramedics & 107 & 29.5 & 83.8 & 8.5 & 5.4 & 7.6 \\
+Pharmacy technicians & 330 & 79.3 & 70.3 & 14.8 & 9.3 & 17.6 \\
+Psychiatric technicians & 113 & 69.5 & 59.2 & 33 & 4.2 & 22.6 \\
+Surgical technologists & 110 & 76.9 & 72 & 22 & 2.8 & 12.1 \\
+Veterinary technologists and technicians & 142 & 89.9 & 89.8 & 5.7 & 2.5 & 10.2 \\
+Dietetic technicians and ophthalmic medical technicians & 70 & 73.7 & 65 & 26.3 & 1.9 & 6.5 \\
+Licensed practical and licensed vocational nurses & 584 & 88.7 & 59.2 & 31.8 & 5.8 & 12.6 \\
+Medical records specialists & 211 & 88.9 & 75 & 14.4 & 6.2 & 12.2 \\
+Opticians, dispensing & 49 & – & – & – & – & – \\
+Miscellaneous health technologists and technicians & 146 & 72.7 & 65.7 & 18.9 & 7.9 & 10 \\
+Other healthcare practitioners and technical occupations & 130 & 66.7 & 74.5 & 13.8 & 9 & 10.6 \\
+ &  &  &  &  &  &  \\
+Service occupations & 26171 & 57.2 & 71.7 & 17 & 6.3 & 27.3 \\
+Healthcare support occupations & 5123 & 84.3 & 62.7 & 25 & 7.6 & 21.2 \\
+Home health aides & 585 & 87.2 & 53.3 & 29.8 & 14 & 24.9 \\
+Personal care aides & 1521 & 79.8 & 61.8 & 25.3 & 7.9 & 21.7 \\
+Nursing assistants & 1261 & 90.1 & 51.8 & 38.1 & 6.5 & 15 \\
+Orderlies and psychiatric aides & 67 & 53.5 & 59.6 & 33 & 5.4 & 22.1 \\
+Occupational therapy assistants and aides & 30 & – & – & – & – & – \\
+Physical therapist assistants and aides & 106 & 68.7 & 86 & 4.3 & 1.3 & 8 \\
+Massage therapists & 145 & 83.7 & 82.3 & 8 & 6.5 & 12.4 \\
+Dental assistants & 288 & 92.8 & 82.6 & 8.4 & 4.9 & 32.1 \\
+Medical assistants & 593 & 88.8 & 74.7 & 15 & 5.2 & 31.8 \\
+Medical transcriptionists & 41 & – & – & – & – & – \\
+Pharmacy aides & 32 & – & – & – & – & – \\
+Veterinary assistants and laboratory animal caretakers & 77 & 79.6 & 85.7 & 3.7 & 1.3 & 22.9 \\
+Phlebotomists & 139 & 90.3 & 61.3 & 20.2 & 9.7 & 19.9 \\
+Other healthcare support workers & 237 & 72.1 & 65.8 & 22.3 & 7.1 & 17.8 \\
+Protective service occupations & 3105 & 24.1 & 70.2 & 22.3 & 3.2 & 16.1 \\
+First-line supervisors of correctional officers & 61 & 35.9 & 76.4 & 21 & 1.2 & 19.6 \\
+First-line supervisors of police and detectives & 103 & 10.5 & 86.4 & 12 & 0.3 & 10.7 \\
+First-line supervisors of firefighting and prevention workers & 50 & 6.1 & 89.1 & 5 & 3.9 & 4.8 \\
+First-line supervisors of security workers & 71 & 22.5 & 61.1 & 31.6 & 2.9 & 12 \\
+First-line supervisors of protective service workers, all other & 4 & – & – & – & – & – \\
+Firefighters & 296 & 3.9 & 88 & 8 & 1.3 & 16.7 \\
+Fire inspectors & 23 & – & – & – & – & – \\
+Bailiffs & 17 & – & – & – & – & – \\
+Correctional officers and jailers & 300 & 33.9 & 64.5 & 27.1 & 3.5 & 12.8 \\
+Detectives and criminal investigators & 145 & 26.3 & 77.3 & 16.7 & 2.3 & 9.7 \\
+Fish and game wardens & 6 & – & – & – & – & – \\
+Parking enforcement workers & 7 & – & – & – & – & – \\
+Police officers & 702 & 14.4 & 81.4 & 14.2 & 2.8 & 16.7 \\
+Animal control workers & 10 & – & – & – & – & – \\
+Private detectives and investigators & 123 & 43 & 73.5 & 19.2 & 3.1 & 10.4 \\
+Security guards and gambling surveillance officers & 925 & 24.9 & 53 & 36.1 & 4.4 & 20.2 \\
+Crossing guards and flaggers & 51 & 55.8 & 74 & 20 & 4.2 & 10.7 \\
+Transportation security screeners & 47 & – & – & – & – & – \\
+School bus monitors & 26 & – & – & – & – & – \\
+Other protective service workers & 137 & 45.7 & 78.1 & 8.7 & 3.9 & 13.1 \\
+Food preparation and serving related occupations & 8189 & 53.9 & 73.4 & 13.5 & 6.9 & 29.6 \\
+Chefs and head cooks & 476 & 23.3 & 58.8 & 18.9 & 18.5 & 20.7 \\
+First-line supervisors of food preparation and serving workers & 542 & 53.5 & 75.6 & 17 & 3.3 & 22.8 \\
+Cooks & 2016 & 39.8 & 69.1 & 17.2 & 7 & 39.6 \\
+Food preparation workers & 933 & 58.7 & 71.1 & 15.5 & 4.9 & 29.8 \\
+Bartenders & 408 & 50.8 & 85.9 & 7.3 & 3.1 & 22.3 \\
+Fast food and counter workers & 885 & 66.3 & 77.6 & 10 & 5.2 & 24.6 \\
+Waiters and waitresses & 1805 & 68.8 & 75.5 & 9.9 & 8.5 & 26.4 \\
+Food servers, nonrestaurant & 215 & 69.2 & 69.7 & 18.9 & 6.9 & 24.9 \\
+Dining room and cafeteria attendants and bartender helpers & 303 & 43.3 & 81.3 & 9.7 & 4.6 & 32.6 \\
+Dishwashers & 268 & 23.1 & 73.1 & 14.5 & 4 & 37.9 \\
+Hosts and hostesses, restaurant, lounge, and coffee shop & 327 & 86.5 & 80.6 & 8.2 & 5.1 & 25.9 \\
+Food preparation and serving related workers, all other & 9 & – & – & – & – & – \\
+Building and grounds cleaning and maintenance occupations & 5534 & 42.1 & 78.1 & 14.3 & 2.7 & 41.6 \\
+First-line supervisors of housekeeping and janitorial workers & 321 & 44.1 & 77.2 & 17.3 & 2.1 & 31.8 \\
+First-line supervisors of landscaping, lawn service, and groundskeeping workers & 283 & 8 & 84.7 & 12 & 1.4 & 30.4 \\
+Janitors and building cleaners & 2204 & 38.7 & 76.2 & 16.7 & 2.6 & 35.1 \\
+Maids and housekeeping cleaners & 1380 & 88.4 & 74 & 16.1 & 4.3 & 51.9 \\
+Pest control workers & 90 & 5.1 & 84.7 & 9.2 & 1.7 & 21.6 \\
+Landscaping and groundskeeping workers & 1119 & 7.3 & 84 & 8.6 & 1.7 & 49.6 \\
+Tree trimmers and pruners & 118 & 3 & 85.3 & 5.5 & 1.6 & 36.7 \\
+Other grounds maintenance workers & 19 & – & – & – & – & – \\
+Personal care and service occupations & 4220 & 74.8 & 71.9 & 13.5 & 10.5 & 19.8 \\
+Supervisors of personal care and service workers & 253 & 65.8 & 65.3 & 10.6 & 20.5 & 11.2 \\
+Animal trainers & 82 & 69.1 & 86.9 & 4.1 & 0 & 22 \\
+Animal caretakers & 361 & 76 & 87.8 & 6 & 1.3 & 16.5 \\
+Gambling services workers & 90 & 40.2 & 52.5 & 22.4 & 16.3 & 14.1 \\
+Ushers, lobby attendants, and ticket takers & 34 & – & – & – & – & – \\
+Other entertainment attendants and related workers & 231 & 42.9 & 76.7 & 14 & 6.4 & 14.8 \\
+Embalmers, crematory operators, and funeral attendants & 21 & – & – & – & – & – \\
+Morticians, undertakers, and funeral arrangers & 45 & – & – & – & – & – \\
+Barbers & 149 & 28.4 & 61.5 & 31.1 & 4.6 & 39.3 \\
+Hairdressers, hairstylists, and cosmetologists & 717 & 92.1 & 77 & 13.2 & 6.8 & 18 \\
+Manicurists and pedicurists & 324 & 83.5 & 23.8 & 6.4 & 64.8 & 13.7 \\
+Skincare specialists & 102 & 99 & 72.7 & 17.7 & 3.4 & 25.6 \\
+Other personal appearance workers & 21 & – & – & – & – & – \\
+Baggage porters, bellhops, and concierges & 78 & 29.1 & 65.5 & 20.2 & 11 & 34.7 \\
+Tour and travel guides & 55 & 48.2 & 85.4 & 3.6 & 8 & 9.1 \\
+Childcare workers & 1036 & 93.8 & 76.5 & 15.8 & 3.8 & 25.9 \\
+Exercise trainers and group fitness instructors & 257 & 56.7 & 78.9 & 10.9 & 6.2 & 16.8 \\
+Recreation workers & 182 & 58.9 & 74.9 & 17.7 & 2.5 & 12.9 \\
+Residential advisors & 40 & – & – & – & – & – \\
+Personal care and service workers, all other & 143 & 60.7 & 79.2 & 8.3 & 7.8 & 20.9 \\
+ &  &  &  &  &  &  \\
+Sales and office occupations & 30279 & 60.6 & 77.3 & 13.5 & 5.5 & 17.6 \\
+Sales and related occupations & 14325 & 48.7 & 78.8 & 11.7 & 6.1 & 16.6 \\
+First-line supervisors of retail sales workers & 3157 & 44.6 & 78.6 & 11.1 & 6.8 & 14.2 \\
+First-line supervisors of non-retail sales workers & 1268 & 35.9 & 83.8 & 8.3 & 6.2 & 16.4 \\
+Cashiers & 2576 & 69.8 & 69.9 & 16.3 & 8.1 & 22.7 \\
+Counter and rental clerks & 79 & 38.7 & 73 & 17.8 & 7 & 22.5 \\
+Parts salespersons & 117 & 22.9 & 91.7 & 5.4 & 1.2 & 16.2 \\
+Retail salespersons & 2721 & 49.2 & 77.6 & 13.4 & 5.2 & 19.6 \\
+Advertising sales agents & 111 & 52.7 & 89.6 & 7.3 & 2.7 & 8.4 \\
+Insurance sales agents & 632 & 54.9 & 80.6 & 13.3 & 4.1 & 18.2 \\
+Securities, commodities, and financial services sales agents & 249 & 24.6 & 80.7 & 8.6 & 9 & 11.8 \\
+Travel agents & 77 & 79.7 & 85.3 & 9.2 & 5.5 & 16 \\
+Sales representatives of services, except advertising, insurance, financial services, and travel & 638 & 31.6 & 82.7 & 10.7 & 4.1 & 10.1 \\
+Sales representatives, wholesale and manufacturing & 1152 & 27.9 & 87.8 & 6 & 4.1 & 11 \\
+Models, demonstrators, and product promoters & 33 & – & – & – & – & – \\
+Real estate brokers and sales agents & 1031 & 57 & 81.4 & 8.8 & 6.6 & 11.2 \\
+Sales engineers & 41 & – & – & – & – & – \\
+Telemarketers & 31 & – & – & – & – & – \\
+Door-to-door sales workers, news and street vendors, and related workers & 73 & 54.3 & 71.4 & 15.4 & 2.7 & 24.3 \\
+Sales and related workers, all other & 339 & 56.1 & 81 & 12 & 5.1 & 17.4 \\
+Office and administrative support occupations & 15954 & 71.2 & 75.9 & 15.1 & 5 & 18.5 \\
+First-line supervisors of office and administrative support workers & 1154 & 65.8 & 80.6 & 12.5 & 3.5 & 16.6 \\
+Switchboard operators, including answering service & 18 & – & – & – & – & – \\
+Telephone operators & 17 & – & – & – & – & – \\
+Communications equipment operators, all other & 1 & – & – & – & – & – \\
+Bill and account collectors & 87 & 71.2 & 66.1 & 25.8 & 5.5 & 15 \\
+Billing and posting clerks & 436 & 91.4 & 79 & 14.8 & 3.8 & 16.5 \\
+Bookkeeping, accounting, and auditing clerks & 1210 & 86.2 & 83.9 & 7.2 & 5.8 & 15.9 \\
+Gambling cage workers & 29 & – & – & – & – & – \\
+Payroll and timekeeping clerks & 132 & 88.2 & 76.7 & 12.3 & 8.2 & 19.4 \\
+Procurement clerks & 46 & – & – & – & – & – \\
+Tellers & 204 & 78.9 & 75.3 & 15.4 & 4.3 & 16.2 \\
+Financial clerks, all other & 128 & 57.7 & 73.7 & 14.7 & 11.2 & 11.9 \\
+Brokerage clerks & 6 & – & – & – & – & – \\
+Correspondence clerks & 4 & – & – & – & – & – \\
+Court, municipal, and license clerks & 82 & 71.9 & 77.6 & 18.5 & 1.9 & 10.9 \\
+Credit authorizers, checkers, and clerks & 32 & – & – & – & – & – \\
+Customer service representatives & 2822 & 65.3 & 72 & 18.2 & 5.3 & 19.8 \\
+Eligibility interviewers, government programs & 94 & 79.7 & 58.9 & 29.2 & 2.6 & 19.9 \\
+File Clerks & 130 & 76 & 79 & 15.4 & 4.5 & 17 \\
+Hotel, motel, and resort desk clerks & 106 & 67.5 & 61.9 & 19.4 & 10.6 & 17.8 \\
+Interviewers, except eligibility and loan & 205 & 79.6 & 62.3 & 25.2 & 3 & 24.9 \\
+Library assistants, clerical & 71 & 83.2 & 72.8 & 11.9 & 8.7 & 7.9 \\
+Loan interviewers and clerks & 125 & 76.9 & 83.5 & 13.6 & 2.4 & 17.4 \\
+New accounts clerks & 18 & – & – & – & – & – \\
+Order clerks & 106 & 58.3 & 75.6 & 12.3 & 10 & 25.8 \\
+Human resources assistants, except payroll and timekeeping & 84 & 88.1 & 79.1 & 13.7 & 6 & 16.8 \\
+Receptionists and information clerks & 1196 & 89.1 & 78.6 & 12.8 & 3.5 & 22.5 \\
+Reservation and transportation ticket agents and travel clerks & 123 & 45.9 & 69.7 & 19.9 & 7.8 & 19.1 \\
+Information and record clerks, all other & 92 & 77.1 & 68.2 & 17.5 & 4.6 & 18.4 \\
+Cargo and freight agents & 26 & – & – & – & – & – \\
+Couriers and messengers & 929 & 27.8 & 67.6 & 23.7 & 5.1 & 21.7 \\
+Public safety telecommunicators & 76 & 78.2 & 77 & 17.5 & 2 & 7.2 \\
+Dispatchers, except police, fire, and ambulance & 184 & 54.4 & 74.4 & 14.3 & 4.5 & 19.2 \\
+Meter readers, utilities & 14 & – & – & – & – & – \\
+Postal service clerks & 96 & 54.1 & 55 & 36 & 2.9 & 8.4 \\
+Postal service mail carriers & 302 & 34.7 & 69.3 & 21.9 & 5.7 & 13.3 \\
+Postal service mail sorters, processors, and processing machine operators & 65 & 63.1 & 35.8 & 48.4 & 6.1 & 11.8 \\
+Production, planning, and expediting clerks & 212 & 43.6 & 81.7 & 6.5 & 7.2 & 16.1 \\
+Shipping, receiving, and inventory clerks & 621 & 36.8 & 77.8 & 12.5 & 5.5 & 29.1 \\
+Weighers, measurers, checkers, and samplers, recordkeeping & 67 & 48.7 & 75.6 & 15.1 & 0 & 32.5 \\
+Executive secretaries and executive administrative assistants & 210 & 90 & 73.6 & 18.5 & 4.1 & 15 \\
+Legal secretaries and administrative assistants & 54 & 96.4 & 71.3 & 18.4 & 6.1 & 15 \\
+Medical secretaries and administrative assistants & 103 & 92.8 & 84.4 & 8.2 & 5.1 & 18.7 \\
+Secretaries and administrative assistants, except legal, medical, and executive & 1841 & 91.9 & 82.9 & 11.1 & 3.1 & 14.8 \\
+Data entry keyers & 224 & 72.7 & 70.1 & 16.1 & 7.6 & 17.6 \\
+Word processors and typists & 46 & – & – & – & – & – \\
+Desktop publishers & 3 & – & – & – & – & – \\
+Insurance claims and policy processing clerks & 308 & 80.1 & 72.3 & 19.2 & 6.1 & 17.9 \\
+Mail clerks and mail machine operators, except postal service & 44 & – & – & – & – & – \\
+Office clerks, general & 1274 & 81.3 & 76.6 & 13.6 & 6.4 & 20.5 \\
+Office machine operators, except computer & 29 & – & – & – & – & – \\
+Proofreaders and copy markers & 7 & – & – & – & – & – \\
+Statistical assistants & 16 & – & – & – & – & – \\
+Office and administrative support workers, all other & 447 & 68.8 & 77.7 & 12 & 5.2 & 18.6 \\
+ &  &  &  &  &  &  \\
+Natural resources, construction, and maintenance occupations & 14326 & 5.8 & 86.1 & 7.8 & 1.8 & 34.5 \\
+Farming, fishing, and forestry occupations & 987 & 27.1 & 89.7 & 5.1 & 0.9 & 44.6 \\
+First-line supervisors of farming, fishing, and forestry workers & 70 & 18.1 & 91.6 & 4.3 & 0.2 & 37.9 \\
+Agricultural inspectors & 26 & – & – & – & – & – \\
+Animal breeders & 15 & – & – & – & – & – \\
+Graders and sorters, agricultural products & 45 & – & – & – & – & – \\
+Miscellaneous agricultural workers & 731 & 28.7 & 91.2 & 3.9 & 0.8 & 49.2 \\
+Fishing and hunting workers & 26 & – & – & – & – & – \\
+Forest and conservation workers & 16 & – & – & – & – & – \\
+Logging workers & 58 & 1.7 & 94 & 3.4 & 0 & 13.6 \\
+Construction and extraction occupations & 8457 & 4.3 & 86.8 & 7.2 & 1.3 & 40.8 \\
+First-line supervisors of construction trades and extraction workers & 702 & 5.1 & 89.1 & 4.8 & 1.4 & 26.6 \\
+Boilermakers & 13 & – & – & – & – & – \\
+Brickmasons, blockmasons, and stonemasons & 117 & 1.5 & 93.4 & 1.1 & 0 & 50.5 \\
+Carpenters & 1275 & 3.1 & 89 & 5.2 & 1.3 & 44.2 \\
+Carpet, floor, and tile installers and finishers & 114 & 5.8 & 88.9 & 1.5 & 1.5 & 61.1 \\
+Cement masons, concrete finishers, and terrazzo workers & 56 & 4.7 & 89.4 & 1.9 & 0 & 50.5 \\
+Construction laborers & 2223 & 4.5 & 84 & 9.1 & 1.3 & 51.9 \\
+Construction equipment operators & 395 & 1 & 89.8 & 5.7 & 0.7 & 20.7 \\
+Drywall installers, ceiling tile installers, and tapers & 162 & 4.1 & 86.8 & 7.9 & 0.9 & 74.3 \\
+Electricians & 959 & 2.9 & 87.3 & 6.7 & 1.6 & 24.6 \\
+Glaziers & 39 & – & – & – & – & – \\
+Insulation workers & 59 & 5 & 83.8 & 7.5 & 0.4 & 45.6 \\
+Painters and paperhangers & 561 & 10.4 & 90.2 & 5.5 & 0.4 & 60.6 \\
+Pipelayers & 54 & 1.4 & 84.6 & 7.8 & 0 & 49.7 \\
+Plumbers, pipefitters, and steamfitters & 635 & 2.2 & 84.7 & 10.1 & 2.2 & 28.3 \\
+Plasterers and stucco masons & 21 & – & – & – & – & – \\
+Reinforcing iron and rebar workers & 11 & – & – & – & – & – \\
+Roofers & 235 & 4.4 & 88.5 & 5.5 & 0.5 & 63.1 \\
+Sheet metal workers & 127 & 6.5 & 85.5 & 9.9 & 1.5 & 16.9 \\
+Structural iron and steel workers & 42 & – & – & – & – & – \\
+Solar photovoltaic installers & 20 & – & – & – & – & – \\
+Helpers, construction trades & 64 & 6.2 & 88.4 & 5.3 & 1.3 & 51.8 \\
+Construction and building inspectors & 115 & 10.5 & 80.9 & 9.4 & 5.4 & 20.6 \\
+Elevator and escalator installers and repairers & 46 & – & – & – & – & – \\
+Fence erectors & 40 & – & – & – & – & – \\
+Hazardous materials removal workers & 25 & – & – & – & – & – \\
+Highway maintenance workers & 93 & 2.2 & 84.3 & 11 & 2.6 & 20.8 \\
+Rail-track laying and maintenance equipment operators & 22 & – & – & – & – & – \\
+Septic tank servicers and sewer pipe cleaners & 7 & – & – & – & – & – \\
+Miscellaneous construction and related workers & 65 & 7.5 & 94.9 & 4.1 & 0 & 42.4 \\
+Derrick, rotary drill, and service unit operators, oil and gas & 24 & – & – & – & – & – \\
+Excavating and loading machine and dragline operators, surface mining & 10 & – & – & – & – & – \\
+Earth drillers, except oil and gas & 25 & – & – & – & – & – \\
+Explosives workers, ordnance handling experts, and blasters & 8 & – & – & – & – & – \\
+Underground mining machine operators & 38 & – & – & – & – & – \\
+Roustabouts, oil and gas & 8 & – & – & – & – & – \\
+Other extraction workers & 47 & – & – & – & – & – \\
+Installation, maintenance, and repair occupations & 4881 & 4.1 & 84 & 9.4 & 2.9 & 21.6 \\
+First-line supervisors of mechanics, installers, and repairers & 239 & 7.1 & 90.3 & 5.6 & 1.8 & 15.2 \\
+Computer, automated teller, and office machine repairers & 134 & 13.8 & 71.5 & 14.7 & 10.8 & 9.3 \\
+Radio and telecommunications equipment installers and repairers & 116 & 5.9 & 82.6 & 11.5 & 3 & 18.2 \\
+Avionics technicians & 12 & – & – & – & – & – \\
+Electric motor, power tool, and related repairers & 22 & – & – & – & – & – \\
+Electrical and electronics installers and repairers, transportation equipment & 1 & – & – & – & – & – \\
+Electrical and electronics repairers, industrial and utility & 6 & – & – & – & – & – \\
+Electronic equipment installers and repairers, motor vehicles & 5 & – & – & – & – & – \\
+Audiovisual equipment installers and repairers & 26 & – & – & – & – & – \\
+Security and fire alarm systems installers & 48 & – & – & – & – & – \\
+Aircraft mechanics and service technicians & 124 & 4.3 & 83.4 & 9.5 & 5 & 21.1 \\
+Automotive body and related repairers & 127 & 6.8 & 85.9 & 9.6 & 1.8 & 21.6 \\
+Automotive glass installers and repairers & 24 & – & – & – & – & – \\
+Automotive service technicians and mechanics & 933 & 2.5 & 82.9 & 8.1 & 3.5 & 28.7 \\
+Bus and truck mechanics and diesel engine specialists & 334 & 1.6 & 87.4 & 6.9 & 1.8 & 20.6 \\
+Heavy vehicle and mobile equipment service technicians and mechanics & 201 & 2.3 & 94.7 & 3.7 & 0.2 & 19.3 \\
+Small engine mechanics & 41 & – & – & – & – & – \\
+Miscellaneous vehicle and mobile equipment mechanics, installers, and repairers & 90 & 3.2 & 93.9 & 4.5 & 0.1 & 22.7 \\
+Control and valve installers and repairers & 26 & – & – & – & – & – \\
+Heating, air conditioning, and refrigeration mechanics and installers & 546 & 2.3 & 86.1 & 9.5 & 0.7 & 23.1 \\
+Home appliance repairers & 41 & – & – & – & – & – \\
+Industrial and refractory machinery mechanics & 416 & 3.9 & 81.7 & 9.9 & 5.5 & 18.9 \\
+Maintenance and repair workers, general & 672 & 4.7 & 79.6 & 12.2 & 3.6 & 24 \\
+Maintenance workers, machinery & 22 & – & – & – & – & – \\
+Millwrights & 42 & – & – & – & – & – \\
+Electrical power-line installers and repairers & 130 & 2.3 & 94.6 & 4.1 & 0 & 13.6 \\
+Telecommunications line installers and repairers & 160 & 5.3 & 77.2 & 19.2 & 0.6 & 12.9 \\
+Precision instrument and equipment repairers & 46 & – & – & – & – & – \\
+Wind turbine service technicians & 7 & – & – & – & – & – \\
+Coin, vending, and amusement machine servicers and repairers & 33 & – & – & – & – & – \\
+Commercial divers & 1 & – & – & – & – & – \\
+Locksmiths and safe repairers & 29 & – & – & – & – & – \\
+Manufactured building and mobile home installers & 5 & – & – & – & – & – \\
+Riggers & 14 & – & – & – & – & – \\
+Helpers--installation, maintenance, and repair workers & 18 & – & – & – & – & – \\
+Other installation, maintenance, and repair workers & 190 & 4.1 & 85 & 6.9 & 3.6 & 33.5 \\
+ &  &  &  &  &  &  \\
+Production, transportation, and material moving occupations & 19986 & 24.9 & 73.2 & 17.8 & 4.8 & 25.1 \\
+Production occupations & 8280 & 29.9 & 76.1 & 14.7 & 5.4 & 25.6 \\
+First-line supervisors of production and operating workers & 776 & 23.5 & 76.7 & 14 & 6.4 & 18.5 \\
+Aircraft structure, surfaces, rigging, and systems assemblers & 10 & – & – & – & – & – \\
+Electrical, electronics, and electromechanical assemblers & 114 & 45.9 & 60 & 24.8 & 14.9 & 24.9 \\
+Engine and other machine assemblers & 15 & – & – & – & – & – \\
+Structural metal fabricators and fitters & 22 & – & – & – & – & – \\
+Other assemblers and fabricators & 1048 & 37.1 & 67.8 & 21.3 & 7.3 & 25.5 \\
+Bakers & 233 & 65.5 & 80.2 & 7.4 & 5.6 & 37.1 \\
+Butchers and other meat, poultry, and fish processing workers & 243 & 27.6 & 72 & 16.3 & 7.3 & 36.6 \\
+Food and tobacco roasting, baking, and drying machine operators and tenders & 8 & – & – & – & – & – \\
+Food batchmakers & 79 & 55.7 & 80.7 & 14.7 & 3.6 & 32.3 \\
+Food cooking machine operators and tenders & 10 & – & – & – & – & – \\
+Food processing workers, all other & 140 & 27.3 & 69.6 & 22.1 & 3.1 & 39.9 \\
+Computer numerically controlled tool operators and programmers & 100 & 7.8 & 82.2 & 6.8 & 6.1 & 23.3 \\
+Forming machine setters, operators, and tenders, metal and plastic & 34 & – & – & – & – & – \\
+Cutting, punching, and press machine setters, operators, and tenders, metal and plastic & 74 & 7 & 88.9 & 8.2 & 0.7 & 21.7 \\
+Grinding, lapping, polishing, and buffing machine tool setters, operators, and tenders, metal and plastic & 38 & – & – & – & – & – \\
+Other machine tool setters, operators, and tenders, metal and plastic & 6 & – & – & – & – & – \\
+Machinists & 307 & 6.3 & 82.9 & 6 & 7.5 & 13.3 \\
+Metal furnace operators, tenders, pourers, and casters & 16 & – & – & – & – & – \\
+Model makers and patternmakers, metal and plastic & 4 & – & – & – & – & – \\
+Molders and molding machine setters, operators, and tenders, metal and plastic & 29 & – & – & – & – & – \\
+Tool and die makers & 39 & – & – & – & – & – \\
+Welding, soldering, and brazing workers & 559 & 5.8 & 82.6 & 11.1 & 2.3 & 26.4 \\
+Other metal workers and plastic workers & 361 & 20.8 & 73.8 & 16 & 7.5 & 21.1 \\
+Prepress technicians and workers & 15 & – & – & – & – & – \\
+Printing press operators & 148 & 24.7 & 80.9 & 14.7 & 3.8 & 22 \\
+Print binding and finishing workers & 13 & – & – & – & – & – \\
+Laundry and dry-cleaning workers & 121 & 74.5 & 76.6 & 13 & 5.3 & 44.4 \\
+Pressers, textile, garment, and related materials & 28 & – & – & – & – & – \\
+Sewing machine operators & 129 & 70.7 & 82.7 & 10.9 & 4.4 & 41.1 \\
+Shoe and leather workers & 13 & – & – & – & – & – \\
+Tailors, dressmakers, and sewers & 51 & 81.4 & 79.9 & 6.3 & 12.5 & 28.6 \\
+Textile machine setters, operators, and tenders & 21 & – & – & – & – & – \\
+Upholsterers & 17 & – & – & – & – & – \\
+Other textile, apparel, and furnishings workers & 14 & – & – & – & – & – \\
+Cabinetmakers and bench carpenters & 60 & 5.5 & 91.6 & 3.3 & 0.7 & 16.4 \\
+Furniture finishers & 16 & – & – & – & – & – \\
+Sawing machine setters, operators, and tenders, wood & 23 & – & – & – & – & – \\
+Woodworking machine setters, operators, and tenders, except sawing & 28 & – & – & – & – & – \\
+Other woodworkers & 27 & – & – & – & – & – \\
+Power plant operators, distributors, and dispatchers & 46 & – & – & – & – & – \\
+Stationary engineers and boiler operators & 73 & 7.1 & 83.5 & 11.2 & 3.1 & 16.5 \\
+Water and wastewater treatment plant and system operators & 89 & 7.3 & 84.5 & 11.5 & 0 & 12.7 \\
+Miscellaneous plant and system operators & 37 & – & – & – & – & – \\
+Chemical processing machine setters, operators, and tenders & 45 & – & – & – & – & – \\
+Crushing, grinding, polishing, mixing, and blending workers & 87 & 15.5 & 70.8 & 14.8 & 6.1 & 24.1 \\
+Cutting workers & 56 & 31.1 & 74.5 & 16.5 & 5.2 & 30.2 \\
+Extruding, forming, pressing, and compacting machine setters, operators, and tenders & 14 & – & – & – & – & – \\
+Furnace, kiln, oven, drier, and kettle operators and tenders & 10 & – & – & – & – & – \\
+Inspectors, testers, sorters, samplers, and weighers & 793 & 39 & 74.5 & 13.5 & 6.9 & 17.8 \\
+Jewelers and precious stone and metal workers & 58 & 46 & 77.8 & 4.9 & 10.8 & 29.3 \\
+Dental and ophthalmic laboratory technicians and medical appliance technicians & 76 & 58.9 & 85 & 3.8 & 8.7 & 17.4 \\
+Packaging and filling machine operators and tenders & 301 & 57.3 & 67.4 & 24.5 & 4.6 & 48.4 \\
+Painting workers & 142 & 11.3 & 80.4 & 13.8 & 2.7 & 36.2 \\
+Photographic process workers and processing machine operators & 30 & – & – & – & – & – \\
+Adhesive bonding machine operators and tenders & 10 & – & – & – & – & – \\
+Etchers and engravers & 8 & – & – & – & – & – \\
+Molders, shapers, and casters, except metal and plastic & 32 & – & – & – & – & – \\
+Paper goods machine setters, operators, and tenders & 15 & – & – & – & – & – \\
+Tire builders & 9 & – & – & – & – & – \\
+Helpers--production workers & 68 & 44.4 & 83.5 & 11.2 & 3.3 & 30.9 \\
+Other production equipment operators and tenders & 8 & – & – & – & – & – \\
+Other production workers & 1280 & 28.8 & 75.1 & 16.8 & 4.1 & 28.1 \\
+Transportation and material moving occupations & 11706 & 21.4 & 71.1 & 20.1 & 4.4 & 24.8 \\
+Supervisors of transportation and material moving workers & 349 & 25.5 & 67.6 & 19.6 & 8.6 & 19.3 \\
+Aircraft pilots and flight engineers & 211 & 8.3 & 92.4 & 3.6 & 2.7 & 10.7 \\
+Air traffic controllers and airfield operations specialists & 39 & – & – & – & – & – \\
+Flight attendants & 115 & 78 & 79.7 & 16.3 & 3.7 & 20 \\
+Ambulance drivers and attendants, except emergency medical technicians & 16 & – & – & – & – & – \\
+Bus drivers, school & 218 & 56.1 & 72.7 & 23.7 & 1.1 & 14.8 \\
+Bus drivers, transit and intercity & 284 & 37.2 & 61.4 & 32.5 & 3.1 & 19.4 \\
+Driver/sales workers and truck drivers & 3551 & 6.9 & 72.4 & 20.5 & 3.5 & 24.1 \\
+Shuttle drivers and chauffeurs & 78 & 10.7 & 55.9 & 30 & 9.6 & 14.2 \\
+Taxi drivers & 456 & 15.3 & 52.5 & 24.9 & 19.5 & 23.9 \\
+Motor vehicle operators, all other & 212 & 18.2 & 61.9 & 27.4 & 4.9 & 19.1 \\
+Locomotive engineers and operators & 44 & – & – & – & – & – \\
+Railroad conductors and yardmasters & 48 & – & – & – & – & – \\
+Other rail transportation workers & 24 & – & – & – & – & – \\
+Sailors and marine oilers & 17 & – & – & – & – & – \\
+Ship and boat captains and operators & 42 & – & – & – & – & – \\
+Ship engineers & 1 & – & – & – & – & – \\
+Parking attendants & 61 & 13.5 & 66.6 & 22.6 & 9.3 & 41.8 \\
+Transportation service attendants & 79 & 23.4 & 76.8 & 12.2 & 1.2 & 18.5 \\
+Transportation inspectors & 35 & – & – & – & – & – \\
+Passenger attendants & 26 & – & – & – & – & – \\
+Other transportation workers & 36 & – & – & – & – & – \\
+Crane and tower operators & 60 & 2.9 & 88.5 & 9 & 0.4 & 20.3 \\
+Conveyor, dredge, and hoist and winch operators & 37 & – & – & – & – & – \\
+Industrial truck and tractor operators & 629 & 9.5 & 68.2 & 24.6 & 1.9 & 31.1 \\
+Cleaners of vehicles and equipment & 401 & 20.4 & 73.2 & 19.7 & 3.3 & 33.5 \\
+Laborers and freight, stock, and material movers, hand & 2090 & 24.2 & 72.2 & 19.3 & 2.7 & 27.1 \\
+Machine feeders and offbearers & 30 & – & – & – & – & – \\
+Packers and packagers, hand & 690 & 51.7 & 61.8 & 25.8 & 6.3 & 35.3 \\
+Stockers and order fillers & 1640 & 36.5 & 74.7 & 15.5 & 4.8 & 23.6 \\
+Pumping station operators & 21 & – & – & – & – & – \\
+Refuse and recyclable material collectors & 112 & 12.8 & 79.2 & 17.1 & 0.3 & 33.7 \\
+Other material moving workers & 55 & 19.3 & 86.8 & 10.3 & 0.4 & 18.7 \\
+ &  &  &  &  &  &  \\
+\multicolumn{7}{l}{NOTE: Estimates for the above race groups (White, Black or African American, and Asian) do not sum to totals because data are not presented for all races. Persons whose ethnicity is identified as Hispanic or Latino may be of any race. Updated population controls are introduced annually with the release of January data. Dash indicates no data or data that do not meet publication criteria (values not shown where base is less than 50,000).}
+\end{tabular}
+\end{table}

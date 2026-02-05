@@ -1,0 +1,218 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <meta name="generator" content="PhpSpreadsheet, https://github.com/PHPOffice/PhpSpreadsheet">
+      <meta name="company" content="Microsoft Corporation" />
+    <style type="text/css">
+      html { font-family:Calibri, Arial, Helvetica, sans-serif; font-size:11pt; background-color:white }
+      a.comment-indicator:hover + div.comment { background:#ffd; position:absolute; display:block; border:1px solid black; padding:0.5em }
+      a.comment-indicator { background:red; display:inline-block; border:1px solid black; width:0.5em; height:0.5em }
+      div.comment { display:none }
+      table { border-collapse:collapse; page-break-after:always }
+      .gridlines td { border:1px dotted black }
+      .gridlines th { border:1px dotted black }
+      .b { text-align:center }
+      .e { text-align:center }
+      .f { text-align:right }
+      .inlineStr { text-align:left }
+      .n { text-align:right }
+      .s { text-align:left }
+      td.style0 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style0 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style1 { vertical-align:middle; text-align:center; border-bottom:2px solid #000000 !important; border-top:2px solid #000000 !important; border-left:2px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style1 { vertical-align:middle; text-align:center; border-bottom:2px solid #000000 !important; border-top:2px solid #000000 !important; border-left:2px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style2 { vertical-align:middle; text-align:center; border-bottom:2px solid #000000 !important; border-top:2px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style2 { vertical-align:middle; text-align:center; border-bottom:2px solid #000000 !important; border-top:2px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style3 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style3 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style4 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style4 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style5 { vertical-align:middle; text-align:center; border-bottom:2px solid #000000 !important; border-top:2px solid #000000 !important; border-left:1px solid #000000 !important; border-right:2px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style5 { vertical-align:middle; text-align:center; border-bottom:2px solid #000000 !important; border-top:2px solid #000000 !important; border-left:1px solid #000000 !important; border-right:2px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      table.sheet0 col.col0 { width:127.42222076pt }
+      table.sheet0 col.col1 { width:107.08888766pt }
+      table.sheet0 col.col2 { width:128.09999853pt }
+      table.sheet0 col.col3 { width:127.42222076pt }
+      table.sheet0 col.col4 { width:127.42222076pt }
+      table.sheet0 col.col5 { width:127.42222076pt }
+      table.sheet0 col.col6 { width:126.74444299pt }
+      table.sheet0 tr { height:15pt }
+      table.sheet0 tr.row0 { height:38.25pt }
+      table.sheet0 tr.row1 { height:74.25pt }
+      table.sheet0 tr.row2 { height:39pt }
+      table.sheet0 tr.row3 { height:74.25pt }
+      table.sheet0 tr.row4 { height:77.25pt }
+      table.sheet0 tr.row5 { height:38.25pt }
+      table.sheet0 tr.row6 { height:78.75pt }
+      table.sheet0 tr.row7 { height:38.25pt }
+      table.sheet0 tr.row8 { height:78.75pt }
+      table.sheet0 tr.row9 { height:39.75pt }
+      table.sheet0 tr.row10 { height:77.25pt }
+      table.sheet0 tr.row11 { height:39.75pt }
+      table.sheet0 tr.row12 { height:77.25pt }
+      table.sheet0 tr.row13 { height:39.75pt }
+      table.sheet0 tr.row14 { height:77.25pt }
+    </style>
+  </head>
+
+  <body>
+<style>
+@page { margin-left: 0.7in; margin-right: 0.7in; margin-top: 0.75in; margin-bottom: 0.75in; }
+body { margin-left: 0.7in; margin-right: 0.7in; margin-top: 0.75in; margin-bottom: 0.75in; }
+</style>
+    <table border="0" cellpadding="0" cellspacing="0" id="sheet0" class="sheet0 gridlines">
+        <col class="col0">
+        <col class="col1">
+        <col class="col2">
+        <col class="col3">
+        <col class="col4">
+        <col class="col5">
+        <col class="col6">
+        <tbody>
+          <tr class="row0">
+            <td class="column0 style1 s style5" colspan="7">Probability of Failure</td>
+          </tr>
+          <tr class="row1">
+            <td class="column0 style3 s style4" rowspan="2">Criticality</td>
+            <td class="column1 style3 s style4" rowspan="2">Weightage<br />
+Factor</td>
+            <td class="column2 style3 s style3" colspan="5">Criticality Rating (CR)</td>
+          </tr>
+          <tr class="row2">
+            <td class="column2 style4 s">Severe</td>
+            <td class="column3 style4 s">High</td>
+            <td class="column4 style4 s">Moderate</td>
+            <td class="column5 style4 s">Low</td>
+            <td class="column6 style4 s">Negligible</td>
+          </tr>
+          <tr class="row3">
+            <td class="column0 style4 s style4" rowspan="2">Fatigue<br />
+Loading</td>
+            <td class="column1 style4 s style4" rowspan="2">0.20</td>
+            <td class="column2 style4 s">10</td>
+            <td class="column3 style4 s">7</td>
+            <td class="column4 style4 s">5</td>
+            <td class="column5 style4 s">3</td>
+            <td class="column6 style4 s">1</td>
+          </tr>
+          <tr class="row4">
+            <td class="column2 style4 s">PoF ≥10-2</td>
+            <td class="column3 style4 s">10-2&gt;PoF&gt;<br />
+10-3</td>
+            <td class="column4 style4 s">10-3&gt;PoF&gt;<br />
+10-4</td>
+            <td class="column5 style4 s">10-4&gt;PoF≥<br />
+10-5</td>
+            <td class="column6 style4 s">PoF ≥10-5</td>
+          </tr>
+          <tr class="row5">
+            <td class="column0 style4 s style4" rowspan="2">Corrosion</td>
+            <td class="column1 style4 s style4" rowspan="2">0.20</td>
+            <td class="column2 style4 s">10</td>
+            <td class="column3 style4 s">7</td>
+            <td class="column4 style4 s">5</td>
+            <td class="column5 style4 s">3</td>
+            <td class="column6 style4 s">1</td>
+          </tr>
+          <tr class="row6">
+            <td class="column2 style4 s">CorrLife &lt; 5yrs</td>
+            <td class="column3 style4 s">10yrs&gt;<br />
+CorrLife &gt; 5yrs</td>
+            <td class="column4 style4 s">20yrs&gt;<br />
+CorrLife&gt;</td>
+            <td class="column5 style4 s">30yrs&gt;<br />
+CorrLife&gt;</td>
+            <td class="column6 style4 s">CorrLife&gt;<br />
+30yrs</td>
+          </tr>
+          <tr class="row7">
+            <td class="column0 style4 s style4" rowspan="2">Coating<br />
+Defect</td>
+            <td class="column1 style4 s style4" rowspan="2">0.15</td>
+            <td class="column2 style4 s">10</td>
+            <td class="column3 style4 s">7</td>
+            <td class="column4 style4 s">5</td>
+            <td class="column5 style4 s">3</td>
+            <td class="column6 style4 s">1</td>
+          </tr>
+          <tr class="row8">
+            <td class="column2 style4 s">Breakdown of<br />
+coating&gt;30%</td>
+            <td class="column3 style4 s">Breakdown of<br />
+coating&gt;20%</td>
+            <td class="column4 style4 s">Breakdown of<br />
+coating&gt;10%</td>
+            <td class="column5 style4 s">Breakdown of<br />
+coating &gt;5%</td>
+            <td class="column6 style4 s">No breakdown</td>
+          </tr>
+          <tr class="row9">
+            <td class="column0 style4 s style4" rowspan="2">In-Service<br />
+Defect</td>
+            <td class="column1 style4 s style4" rowspan="2">0.25</td>
+            <td class="column2 style4 s">10</td>
+            <td class="column3 style4 s">7</td>
+            <td class="column4 style4 s">5</td>
+            <td class="column5 style4 s">3</td>
+            <td class="column6 style4 s">1</td>
+          </tr>
+          <tr class="row10">
+            <td class="column2 style4 s">Accidental<br />
+damage</td>
+            <td class="column3 style4 s">Structural<br />
+variations</td>
+            <td class="column4 style4 s">Poor coating<br />
+damage</td>
+            <td class="column5 style4 s">Minor coating<br />
+damage</td>
+            <td class="column6 style4 s">No defect</td>
+          </tr>
+          <tr class="row11">
+            <td class="column0 style4 s style4" rowspan="2">In-Service<br />
+Loading</td>
+            <td class="column1 style4 s style4" rowspan="2">0.10</td>
+            <td class="column2 style4 s">10</td>
+            <td class="column3 style4 s">7</td>
+            <td class="column4 style4 s">5</td>
+            <td class="column5 style4 s">3</td>
+            <td class="column6 style4 s">1</td>
+          </tr>
+          <tr class="row12">
+            <td class="column2 style4 s">L.S.U.R&gt;1.0</td>
+            <td class="column3 style4 s">1.0&gt;L.S.U.R&gt;<br />
+0.9</td>
+            <td class="column4 style4 s">0.9&gt;L.S.U.R&gt;<br />
+0.8</td>
+            <td class="column5 style4 s">0.8&gt;L.S.U.R&gt;<br />
+0.6</td>
+            <td class="column6 style4 s">L.S.U.R&lt;0.6</td>
+          </tr>
+          <tr class="row13">
+            <td class="column0 style4 s style4" rowspan="2">Last<br />
+Inspection</td>
+            <td class="column1 style4 s style4" rowspan="2">0.10</td>
+            <td class="column2 style4 s">10</td>
+            <td class="column3 style4 s">7</td>
+            <td class="column4 style4 s">5</td>
+            <td class="column5 style4 s">3</td>
+            <td class="column6 style4 s">1</td>
+          </tr>
+          <tr class="row14">
+            <td class="column2 style4 s">Never<br />
+Inspected</td>
+            <td class="column3 style4 s">Inspected<br />
+within 5 years</td>
+            <td class="column4 style4 s">Inspected<br />
+within last year</td>
+            <td class="column5 style4 s">Detail<br />
+inspection<br />
+within 5 years</td>
+            <td class="column6 style4 s">Detail<br />
+inspection<br />
+within last year</td>
+          </tr>
+        </tbody>
+    </table>
+  </body>
+</html>

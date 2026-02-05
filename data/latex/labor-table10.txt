@@ -1,0 +1,46 @@
+% Please add the following required packages to your document preamble:
+% \usepackage{multirow}
+% \usepackage[table,xcdraw]{xcolor}
+% Beamer presentation requires \usepackage{colortbl} instead of \usepackage[table,xcdraw]{xcolor}
+\begin{table}[]
+\begin{tabular}{clcc}
+\multicolumn{4}{c}{QUESTIONNAIRE}                                                                                                                                                                                                                            \\
+\multicolumn{1}{l}{}                                                               &                                                                                              & \multicolumn{1}{l}{}                & \multicolumn{1}{l}{}               \\
+\rowcolor[HTML]{339966} 
+\cellcolor[HTML]{339966}                                                           & \multicolumn{1}{c}{\cellcolor[HTML]{339966}}                                                 & \multicolumn{2}{c}{\cellcolor[HTML]{339966}\textbf{responses}}           \\
+\rowcolor[HTML]{339966} 
+\multirow{-2}{*}{\cellcolor[HTML]{339966}\textbf{}}                                & \multicolumn{1}{c}{\multirow{-2}{*}{\cellcolor[HTML]{339966}\textbf{Questions}}}             & \textbf{Yes}                        & \textbf{No}                        \\
+\rowcolor[HTML]{FFFF99} 
+\cellcolor[HTML]{FFFF99}                                                           & Is your organisation meeting its own expectations as regards managing its own information?   & \textbf{37}                         & \textbf{3}                         \\
+\rowcolor[HTML]{FFFF99} 
+\cellcolor[HTML]{FFFF99}                                                           & Does your organisation have a Knowledge and Information Management (KIM) strategy?           & \textbf{40}                         & \textbf{0}                         \\
+\rowcolor[HTML]{FFFF99} 
+\multirow{-3}{*}{\cellcolor[HTML]{FFFF99}\textbf{Strategic Management}}            & If there is a strategy, is it integrated within the corporate strategy of your organisation? & \textbf{39}                         & \textbf{1}                         \\
+\rowcolor[HTML]{993300} 
+{\color[HTML]{FFFFFF} \textbf{}}                                                   & \multicolumn{1}{r}{\cellcolor[HTML]{993300}{\color[HTML]{FFFFFF} \textbf{}}}                 & {\color[HTML]{FFFFFF} \textbf{116}} & {\color[HTML]{FFFFFF} \textbf{4}}  \\
+\rowcolor[HTML]{CCFFFF} 
+\cellcolor[HTML]{CCFFFF}                                                           & Are there performance measures for KIM?                                                      & \textbf{40}                         & \textbf{0}                         \\
+\rowcolor[HTML]{CCFFFF} 
+\cellcolor[HTML]{CCFFFF}                                                           & If there are, have they been reported to executive board within the last 2 years?            & \textbf{39}                         & \textbf{1}                         \\
+\rowcolor[HTML]{CCFFFF} 
+\cellcolor[HTML]{CCFFFF}                                                           & Has the business identified what information and knowledge is business critical?             & \textbf{36}                         & \textbf{4}                         \\
+\rowcolor[HTML]{CCFFFF} 
+\cellcolor[HTML]{CCFFFF}                                                           & If so, has business critical information been included in a business continuity plan?        & \textbf{40}                         & \textbf{0}                         \\
+\rowcolor[HTML]{CCFFFF} 
+\multirow{-5}{*}{\cellcolor[HTML]{CCFFFF}\textbf{Business Objectives}}             & Have costs and resource needs for KIM been determined?                                       & \textbf{39}                         & \textbf{1}                         \\
+\rowcolor[HTML]{993300} 
+\multicolumn{1}{l}{\cellcolor[HTML]{993300}{\color[HTML]{FFFFFF} \textbf{}}}       & \multicolumn{1}{r}{\cellcolor[HTML]{993300}{\color[HTML]{FFFFFF} \textbf{}}}                 & {\color[HTML]{FFFFFF} \textbf{194}} & {\color[HTML]{FFFFFF} \textbf{6}}  \\
+\rowcolor[HTML]{FF99CC} 
+\cellcolor[HTML]{FF99CC}                                                           & What level of manager has corporate responsibility for KIM?                                  & \textbf{35}                         & \textbf{5}                         \\
+\rowcolor[HTML]{FF99CC} 
+\cellcolor[HTML]{FF99CC}                                                           & Do managers understand why and how KIM is critical to the organisation?                      & \textbf{36}                         & \textbf{4}                         \\
+\rowcolor[HTML]{FF99CC} 
+\cellcolor[HTML]{FF99CC}                                                           & Is there a KIM champion at Board level?                                                      & \textbf{33}                         & \textbf{7}                         \\
+\rowcolor[HTML]{FF99CC} 
+\cellcolor[HTML]{FF99CC}                                                           & Does the organisation have a full list of its information assets?                            & \textbf{35}                         & \textbf{5}                         \\
+\rowcolor[HTML]{FF99CC} 
+\multirow{-5}{*}{\cellcolor[HTML]{FF99CC}\textbf{Management support and controls}} & Is there an identified owner for each information asset?                                     & \textbf{37}                         & \textbf{3}                         \\
+\rowcolor[HTML]{993300} 
+\multicolumn{1}{l}{\cellcolor[HTML]{993300}{\color[HTML]{FFFFFF} }}                & \multicolumn{1}{r}{\cellcolor[HTML]{993300}{\color[HTML]{FFFFFF} \textbf{}}}                 & {\color[HTML]{FFFFFF} \textbf{176}} & {\color[HTML]{FFFFFF} \textbf{24}}
+\end{tabular}
+\end{table}

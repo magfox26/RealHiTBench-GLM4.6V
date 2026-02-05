@@ -1,0 +1,558 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <meta name="generator" content="PhpSpreadsheet, https://github.com/PHPOffice/PhpSpreadsheet">
+      <meta name="author" content="旭 鲁" />
+      <meta name="company" content="Microsoft Corporation" />
+    <style type="text/css">
+      html { font-family:Calibri, Arial, Helvetica, sans-serif; font-size:11pt; background-color:white }
+      a.comment-indicator:hover + div.comment { background:#ffd; position:absolute; display:block; border:1px solid black; padding:0.5em }
+      a.comment-indicator { background:red; display:inline-block; border:1px solid black; width:0.5em; height:0.5em }
+      div.comment { display:none }
+      table { border-collapse:collapse; page-break-after:always }
+      .gridlines td { border:1px dotted black }
+      .gridlines th { border:1px dotted black }
+      .b { text-align:center }
+      .e { text-align:center }
+      .f { text-align:right }
+      .inlineStr { text-align:left }
+      .n { text-align:right }
+      .s { text-align:left }
+      td.style0 { vertical-align:middle; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      th.style0 { vertical-align:middle; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      td.style1 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Microsoft YaHei'; font-size:10pt; background-color:white }
+      th.style1 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Microsoft YaHei'; font-size:10pt; background-color:white }
+      td.style2 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; text-decoration:underline; color:#000000; font-family:'Microsoft YaHei'; font-size:10pt; background-color:white }
+      th.style2 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; text-decoration:underline; color:#000000; font-family:'Microsoft YaHei'; font-size:10pt; background-color:white }
+      td.style3 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Microsoft YaHei'; font-size:10pt; background-color:white }
+      th.style3 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Microsoft YaHei'; font-size:10pt; background-color:white }
+      td.style4 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Microsoft YaHei'; font-size:10pt; background-color:white }
+      th.style4 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Microsoft YaHei'; font-size:10pt; background-color:white }
+      td.style5 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Microsoft YaHei'; font-size:10pt; background-color:white }
+      th.style5 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Microsoft YaHei'; font-size:10pt; background-color:white }
+      table.sheet0 col.col0 { width:88.1111101pt }
+      table.sheet0 col.col1 { width:86.75555456pt }
+      table.sheet0 col.col2 { width:86.75555456pt }
+      table.sheet0 col.col3 { width:93.53333226pt }
+      table.sheet0 col.col4 { width:42pt }
+      table.sheet0 col.col5 { width:88.1111101pt }
+      table.sheet0 col.col6 { width:86.75555456pt }
+      table.sheet0 col.col7 { width:86.75555456pt }
+      table.sheet0 col.col8 { width:93.53333226pt }
+      table.sheet0 tr { height:15pt }
+      table.sheet0 tr.row0 { height:25.5pt }
+      table.sheet0 tr.row1 { height:25.5pt }
+      table.sheet0 tr.row2 { height:25.5pt }
+      table.sheet0 tr.row3 { height:25.5pt }
+      table.sheet0 tr.row4 { height:25.5pt }
+      table.sheet0 tr.row5 { height:25.5pt }
+      table.sheet0 tr.row6 { height:25.5pt }
+      table.sheet0 tr.row7 { height:25.5pt }
+      table.sheet0 tr.row8 { height:25.5pt }
+      table.sheet0 tr.row9 { height:25.5pt }
+      table.sheet0 tr.row10 { height:25.5pt }
+      table.sheet0 tr.row11 { height:25.5pt }
+      table.sheet0 tr.row12 { height:25.5pt }
+      table.sheet0 tr.row13 { height:25.5pt }
+      table.sheet0 tr.row14 { height:25.5pt }
+      table.sheet0 tr.row15 { height:25.5pt }
+      table.sheet0 tr.row16 { height:25.5pt }
+      table.sheet0 tr.row17 { height:25.5pt }
+      table.sheet0 tr.row18 { height:25.5pt }
+      table.sheet0 tr.row19 { height:25.5pt }
+      table.sheet0 tr.row20 { height:25.5pt }
+      table.sheet0 tr.row21 { height:25.5pt }
+      table.sheet0 tr.row22 { height:25.5pt }
+      table.sheet0 tr.row23 { height:25.5pt }
+      table.sheet0 tr.row24 { height:25.5pt }
+      table.sheet0 tr.row25 { height:25.5pt }
+      table.sheet0 tr.row26 { height:25.5pt }
+      table.sheet0 tr.row27 { height:25.5pt }
+      table.sheet0 tr.row28 { height:25.5pt }
+      table.sheet0 tr.row29 { height:25.5pt }
+      table.sheet0 tr.row30 { height:25.5pt }
+      table.sheet0 tr.row31 { height:25.5pt }
+      table.sheet0 tr.row32 { height:25.5pt }
+      table.sheet0 tr.row33 { height:25.5pt }
+      table.sheet0 tr.row34 { height:25.5pt }
+      table.sheet0 tr.row35 { height:25.5pt }
+      table.sheet0 tr.row36 { height:25.5pt }
+      table.sheet0 tr.row37 { height:25.5pt }
+      table.sheet0 tr.row38 { height:25.5pt }
+      table.sheet0 tr.row39 { height:25.5pt }
+      table.sheet0 tr.row40 { height:25.5pt }
+    </style>
+  </head>
+
+  <body>
+<style>
+@page { margin-left: 0.7in; margin-right: 0.7in; margin-top: 0.75in; margin-bottom: 0.75in; }
+body { margin-left: 0.7in; margin-right: 0.7in; margin-top: 0.75in; margin-bottom: 0.75in; }
+</style>
+    <table border="0" cellpadding="0" cellspacing="0" id="sheet0" class="sheet0 gridlines">
+        <col class="col0">
+        <col class="col1">
+        <col class="col2">
+        <col class="col3">
+        <col class="col4">
+        <col class="col5">
+        <col class="col6">
+        <col class="col7">
+        <col class="col8">
+        <tbody>
+          <tr class="row0">
+            <td class="column0 style1 null"></td>
+            <td class="column1 style2 n">100</td>
+            <td class="column2 style2 n">500</td>
+            <td class="column3 style2 n">1000</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5 style1 null"></td>
+            <td class="column6 style2 n">250</td>
+            <td class="column7 style2 n">500</td>
+            <td class="column8 style2 n">1000</td>
+          </tr>
+          <tr class="row1">
+            <td class="column0 style3 s">578 Eclaire</td>
+            <td class="column1 style4 n">&nbsp;$ 2.30 </td>
+            <td class="column2 style4 n">&nbsp;$ 2.21 </td>
+            <td class="column3 style4 n">&nbsp;$ 2.12 </td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5 style3 s">373 Diamo</td>
+            <td class="column6 style4 n">&nbsp;$ 0.79 </td>
+            <td class="column7 style4 n">&nbsp;$ 0.74 </td>
+            <td class="column8 style4 n">&nbsp;$ 0.70 </td>
+          </tr>
+          <tr class="row2">
+            <td class="column0 style1 s">Cost</td>
+            <td class="column1 style4 n">&nbsp;$ 115.00 </td>
+            <td class="column2 style4 n">&nbsp;$ 553.50 </td>
+            <td class="column3 style4 n">&nbsp;$ 1,060.00 </td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5 style1 s">Cost</td>
+            <td class="column6 style4 n">&nbsp;$ 98.75 </td>
+            <td class="column7 style4 n">&nbsp;$ 185.00 </td>
+            <td class="column8 style4 n">&nbsp;$ 350.00 </td>
+          </tr>
+          <tr class="row3">
+            <td class="column0 style1 s">Setup Charge</td>
+            <td class="column1 style4 n">&nbsp;$ 42.00 </td>
+            <td class="column2 style4 n">&nbsp;$ 42.00 </td>
+            <td class="column3 style4 n">&nbsp;$ 42.00 </td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5 style1 s">Setup Charge</td>
+            <td class="column6 style4 n">&nbsp;$ 14.00 </td>
+            <td class="column7 style4 n">&nbsp;$ 14.00 </td>
+            <td class="column8 style4 n">&nbsp;$ 14.00 </td>
+          </tr>
+          <tr class="row4">
+            <td class="column0 style4 s">36% exchange</td>
+            <td class="column1 style4 n">&nbsp;$ 213.52 </td>
+            <td class="column2 style4 n">&nbsp;$ 809.88 </td>
+            <td class="column3 style4 n">&nbsp;$ 1,498.72 </td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5 style1 s">36% exchange</td>
+            <td class="column6 style4 n">&nbsp;$ 153.34 </td>
+            <td class="column7 style4 n">&nbsp;$ 270.64 </td>
+            <td class="column8 style4 n">&nbsp;$ 495.04 </td>
+          </tr>
+          <tr class="row5">
+            <td class="column0 style1 s">Markup</td>
+            <td class="column1 style4 n">&nbsp;$ 75.00 </td>
+            <td class="column2 style4 n">&nbsp;$ 100.00 </td>
+            <td class="column3 style4 n">&nbsp;$ 150.00 </td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5 style1 s">Markup</td>
+            <td class="column6 style4 n">&nbsp;$ 75.00 </td>
+            <td class="column7 style4 n">&nbsp;$ 100.00 </td>
+            <td class="column8 style4 n">&nbsp;$ 150.00 </td>
+          </tr>
+          <tr class="row6">
+            <td class="column0 style1 null"></td>
+            <td class="column1 style4 n">&nbsp;$ 288.52 </td>
+            <td class="column2 style4 n">&nbsp;$ 909.88 </td>
+            <td class="column3 style4 n">&nbsp;$ 1,648.72 </td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5 style1 null"></td>
+            <td class="column6 style4 n">&nbsp;$ 228.34 </td>
+            <td class="column7 style4 n">&nbsp;$ 370.64 </td>
+            <td class="column8 style4 n">&nbsp;$ 645.04 </td>
+          </tr>
+          <tr class="row7">
+            <td class="column0 style1 s">Cost Each</td>
+            <td class="column1 style4 n">&nbsp;$ 2.89 </td>
+            <td class="column2 style4 n">&nbsp;$ 1.82 </td>
+            <td class="column3 style4 n">&nbsp;$ 1.65 </td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5 style1 s">Cost Each</td>
+            <td class="column6 style4 n">&nbsp;$ 0.91 </td>
+            <td class="column7 style4 n">&nbsp;$ 0.74 </td>
+            <td class="column8 style4 n">&nbsp;$ 0.65 </td>
+          </tr>
+          <tr class="row8">
+            <td class="column0 style1 null"></td>
+            <td class="column1 style2 n">250</td>
+            <td class="column2 style2 n">500</td>
+            <td class="column3 style2 n">1000</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5 style1 null"></td>
+            <td class="column6 style2 n">100</td>
+            <td class="column7 style2 n">500</td>
+            <td class="column8 style2 n">1000</td>
+          </tr>
+          <tr class="row9">
+            <td class="column0 style3 s">363 Carico</td>
+            <td class="column1 style4 n">&nbsp;$ 0.64 </td>
+            <td class="column2 style4 n">&nbsp;$ 0.60 </td>
+            <td class="column3 style4 n">&nbsp;$ 0.56 </td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5 style3 s">597Moisant</td>
+            <td class="column6 style4 n">&nbsp;$ 2.53 </td>
+            <td class="column7 style4 n">&nbsp;$ 2.42 </td>
+            <td class="column8 style4 n">&nbsp;$ 2.30 </td>
+          </tr>
+          <tr class="row10">
+            <td class="column0 style1 s">Cost</td>
+            <td class="column1 style4 n">&nbsp;$ 80.00 </td>
+            <td class="column2 style4 n">&nbsp;$ 150.00 </td>
+            <td class="column3 style4 n">&nbsp;$ 280.00 </td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5 style1 s">Cost</td>
+            <td class="column6 style4 n">&nbsp;$ 126.50 </td>
+            <td class="column7 style4 n">&nbsp;$ 605.00 </td>
+            <td class="column8 style4 n">&nbsp;$ 1,150.00 </td>
+          </tr>
+          <tr class="row11">
+            <td class="column0 style1 s">Setup Charge</td>
+            <td class="column1 style4 n">&nbsp;$ 14.00 </td>
+            <td class="column2 style4 n">&nbsp;$ 14.00 </td>
+            <td class="column3 style4 n">&nbsp;$ 14.00 </td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5 style1 s">Setup Charge</td>
+            <td class="column6 style4 n">&nbsp;$ 42.00 </td>
+            <td class="column7 style4 n">&nbsp;$ 42.00 </td>
+            <td class="column8 style4 n">&nbsp;$ 42.00 </td>
+          </tr>
+          <tr class="row12">
+            <td class="column0 style4 s">36% exchange</td>
+            <td class="column1 style4 n">&nbsp;$ 127.84 </td>
+            <td class="column2 style4 n">&nbsp;$ 223.04 </td>
+            <td class="column3 style4 n">&nbsp;$ 399.84 </td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5 style1 s">36% exchange</td>
+            <td class="column6 style4 n">&nbsp;$ 229.16 </td>
+            <td class="column7 style4 n">&nbsp;$ 879.92 </td>
+            <td class="column8 style4 n">&nbsp;$ 1,621.12 </td>
+          </tr>
+          <tr class="row13">
+            <td class="column0 style1 s">Markup</td>
+            <td class="column1 style4 n">&nbsp;$ 75.00 </td>
+            <td class="column2 style4 n">&nbsp;$ 100.00 </td>
+            <td class="column3 style4 n">&nbsp;$ 150.00 </td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5 style1 s">Markup</td>
+            <td class="column6 style4 n">&nbsp;$ 75.00 </td>
+            <td class="column7 style4 n">&nbsp;$ 100.00 </td>
+            <td class="column8 style4 n">&nbsp;$ 150.00 </td>
+          </tr>
+          <tr class="row14">
+            <td class="column0 style1 null"></td>
+            <td class="column1 style4 n">&nbsp;$ 202.84 </td>
+            <td class="column2 style4 n">&nbsp;$ 323.04 </td>
+            <td class="column3 style4 n">&nbsp;$ 549.84 </td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5 style1 null"></td>
+            <td class="column6 style4 n">&nbsp;$ 304.16 </td>
+            <td class="column7 style4 n">&nbsp;$ 979.92 </td>
+            <td class="column8 style4 n">&nbsp;$ 1,771.12 </td>
+          </tr>
+          <tr class="row15">
+            <td class="column0 style1 s">Cost Each</td>
+            <td class="column1 style4 n">&nbsp;$ 0.81 </td>
+            <td class="column2 style4 n">&nbsp;$ 0.65 </td>
+            <td class="column3 style4 n">&nbsp;$ 0.55 </td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5 style1 s">Cost Each</td>
+            <td class="column6 style4 n">&nbsp;$ 3.04 </td>
+            <td class="column7 style4 n">&nbsp;$ 1.96 </td>
+            <td class="column8 style4 n">&nbsp;$ 1.77 </td>
+          </tr>
+          <tr class="row16">
+            <td class="column0 style1 null"></td>
+            <td class="column1 style2 n">300</td>
+            <td class="column2 style2 n">500</td>
+            <td class="column3 style2 n">1000</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5 style1 null"></td>
+            <td class="column6 style2 n">250</td>
+            <td class="column7 style2 n">500</td>
+            <td class="column8 style2 n">1000</td>
+          </tr>
+          <tr class="row17">
+            <td class="column0 style3 s">304 Gassetto</td>
+            <td class="column1 style4 n">&nbsp;$ 0.52 </td>
+            <td class="column2 style4 n">&nbsp;$ 0.47 </td>
+            <td class="column3 style4 n">&nbsp;$ 0.43 </td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5 style3 s">433  Mosaic</td>
+            <td class="column6 style4 n">&nbsp;$ 0.76 </td>
+            <td class="column7 style4 n">&nbsp;$ 0.72 </td>
+            <td class="column8 style4 n">&nbsp;$ 0.67 </td>
+          </tr>
+          <tr class="row18">
+            <td class="column0 style1 s">Cost</td>
+            <td class="column1 style4 n">&nbsp;$ 78.00 </td>
+            <td class="column2 style4 n">&nbsp;$ 117.50 </td>
+            <td class="column3 style4 n">&nbsp;$ 215.00 </td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5 style1 s">Cost</td>
+            <td class="column6 style4 n">&nbsp;$ 95.00 </td>
+            <td class="column7 style4 n">&nbsp;$ 180.00 </td>
+            <td class="column8 style4 n">&nbsp;$ 335.00 </td>
+          </tr>
+          <tr class="row19">
+            <td class="column0 style1 s">Setup Charge</td>
+            <td class="column1 style4 n">&nbsp;$ 14.00 </td>
+            <td class="column2 style4 n">&nbsp;$ 14.00 </td>
+            <td class="column3 style4 n">&nbsp;$ 14.00 </td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5 style1 s">Setup Charge</td>
+            <td class="column6 style4 n">&nbsp;$ 14.00 </td>
+            <td class="column7 style4 n">&nbsp;$ 14.00 </td>
+            <td class="column8 style4 n">&nbsp;$ 14.00 </td>
+          </tr>
+          <tr class="row20">
+            <td class="column0 style4 s">30% exchange</td>
+            <td class="column1 style4 n">&nbsp;$ 119.60 </td>
+            <td class="column2 style4 n">&nbsp;$ 170.95 </td>
+            <td class="column3 style4 n">&nbsp;$ 297.70 </td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5 style1 s">30% exchange</td>
+            <td class="column6 style4 n">&nbsp;$ 141.70 </td>
+            <td class="column7 style4 n">&nbsp;$ 252.20 </td>
+            <td class="column8 style4 n">&nbsp;$ 453.70 </td>
+          </tr>
+          <tr class="row21">
+            <td class="column0 style1 s">Markup</td>
+            <td class="column1 style4 n">&nbsp;$ 75.00 </td>
+            <td class="column2 style4 n">&nbsp;$ 100.00 </td>
+            <td class="column3 style4 n">&nbsp;$ 150.00 </td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5 style1 s">Markup</td>
+            <td class="column6 style4 n">&nbsp;$ 75.00 </td>
+            <td class="column7 style4 n">&nbsp;$ 100.00 </td>
+            <td class="column8 style4 n">&nbsp;$ 150.00 </td>
+          </tr>
+          <tr class="row22">
+            <td class="column0 style1 null"></td>
+            <td class="column1 style4 n">&nbsp;$ 194.60 </td>
+            <td class="column2 style4 n">&nbsp;$ 270.95 </td>
+            <td class="column3 style4 n">&nbsp;$ 447.70 </td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5 style1 null"></td>
+            <td class="column6 style4 n">&nbsp;$ 216.70 </td>
+            <td class="column7 style4 n">&nbsp;$ 352.20 </td>
+            <td class="column8 style4 n">&nbsp;$ 603.70 </td>
+          </tr>
+          <tr class="row23">
+            <td class="column0 style1 s">Cost Each</td>
+            <td class="column1 style4 n">&nbsp;$ 0.65 </td>
+            <td class="column2 style4 n">&nbsp;$ 0.54 </td>
+            <td class="column3 style4 n">&nbsp;$ 0.45 </td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5 style1 s">Cost Each</td>
+            <td class="column6 style4 n">&nbsp;$ 0.87 </td>
+            <td class="column7 style4 n">&nbsp;$ 0.70 </td>
+            <td class="column8 style4 n">&nbsp;$ 0.60 </td>
+          </tr>
+          <tr class="row24">
+            <td class="column0 style1 null"></td>
+            <td class="column1 style2 n">250</td>
+            <td class="column2 style2 n">500</td>
+            <td class="column3 style2 n">1000</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5 style1 null"></td>
+            <td class="column6 style2 n">250</td>
+            <td class="column7 style2 n">500</td>
+            <td class="column8 style2 n">1000</td>
+          </tr>
+          <tr class="row25">
+            <td class="column0 style3 s">Tryit</td>
+            <td class="column1 style4 n">&nbsp;$ 0.53 </td>
+            <td class="column2 style4 n">&nbsp;$ 0.46 </td>
+            <td class="column3 style4 n">&nbsp;$ 0.39 </td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5 style3 s">Meemo</td>
+            <td class="column6 style4 n">&nbsp;$ 1.01 </td>
+            <td class="column7 style4 n">&nbsp;$ 0.94 </td>
+            <td class="column8 style4 n">&nbsp;$ 0.88 </td>
+          </tr>
+          <tr class="row26">
+            <td class="column0 style1 s">Cost</td>
+            <td class="column1 style4 n">&nbsp;$ 66.25 </td>
+            <td class="column2 style4 n">&nbsp;$ 115.00 </td>
+            <td class="column3 style4 n">&nbsp;$ 195.00 </td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5 style1 s">Cost</td>
+            <td class="column6 style4 n">&nbsp;$ 126.25 </td>
+            <td class="column7 style4 n">&nbsp;$ 235.00 </td>
+            <td class="column8 style4 n">&nbsp;$ 440.00 </td>
+          </tr>
+          <tr class="row27">
+            <td class="column0 style1 s">Setup Charge</td>
+            <td class="column1 style4 n">&nbsp;$ 12.00 </td>
+            <td class="column2 style4 n">&nbsp;$ 12.00 </td>
+            <td class="column3 style4 n">&nbsp;$ 12.00 </td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5 style1 s">Setup Charge</td>
+            <td class="column6 style4 n">&nbsp;$ 12.00 </td>
+            <td class="column7 style4 n">&nbsp;$ 12.00 </td>
+            <td class="column8 style4 n">&nbsp;$ 12.00 </td>
+          </tr>
+          <tr class="row28">
+            <td class="column0 style1 s">37% exchange</td>
+            <td class="column1 style4 n">&nbsp;$ 107.20 </td>
+            <td class="column2 style4 n">&nbsp;$ 173.99 </td>
+            <td class="column3 style4 n">&nbsp;$ 283.59 </td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5 style1 s">37% exchange</td>
+            <td class="column6 style4 n">&nbsp;$ 189.40 </td>
+            <td class="column7 style4 n">&nbsp;$ 338.39 </td>
+            <td class="column8 style4 n">&nbsp;$ 619.24 </td>
+          </tr>
+          <tr class="row29">
+            <td class="column0 style1 s">Markup</td>
+            <td class="column1 style4 n">&nbsp;$ 75.00 </td>
+            <td class="column2 style4 n">&nbsp;$ 100.00 </td>
+            <td class="column3 style4 n">&nbsp;$ 150.00 </td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5 style1 s">Markup</td>
+            <td class="column6 style4 n">&nbsp;$ 75.00 </td>
+            <td class="column7 style4 n">&nbsp;$ 100.00 </td>
+            <td class="column8 style4 n">&nbsp;$ 150.00 </td>
+          </tr>
+          <tr class="row30">
+            <td class="column0 style1 null"></td>
+            <td class="column1 style4 n">&nbsp;$ 182.20 </td>
+            <td class="column2 style4 n">&nbsp;$ 273.99 </td>
+            <td class="column3 style4 n">&nbsp;$ 433.59 </td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5 style1 null"></td>
+            <td class="column6 style4 n">&nbsp;$ 264.40 </td>
+            <td class="column7 style4 n">&nbsp;$ 438.39 </td>
+            <td class="column8 style4 n">&nbsp;$ 769.24 </td>
+          </tr>
+          <tr class="row31">
+            <td class="column0 style1 s">Cost Each</td>
+            <td class="column1 style4 n">&nbsp;$ 0.73 </td>
+            <td class="column2 style4 n">&nbsp;$ 0.55 </td>
+            <td class="column3 style4 n">&nbsp;$ 0.43 </td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5 style1 s">Cost Each</td>
+            <td class="column6 style4 n">&nbsp;$ 1.06 </td>
+            <td class="column7 style4 n">&nbsp;$ 0.88 </td>
+            <td class="column8 style4 n">&nbsp;$ 0.77 </td>
+          </tr>
+          <tr class="row32">
+            <td class="column0 style5 null"></td>
+            <td class="column1 style5 null"></td>
+            <td class="column2 style5 null"></td>
+            <td class="column3 style5 null"></td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5 style5 null"></td>
+            <td class="column6 style5 null"></td>
+            <td class="column7 style5 null"></td>
+            <td class="column8 style5 null"></td>
+          </tr>
+          <tr class="row33">
+            <td class="column0 style1 null"></td>
+            <td class="column1 style2 n">250</td>
+            <td class="column2 style2 n">500</td>
+            <td class="column3 style2 n">1000</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5 style1 null"></td>
+            <td class="column6 style2 n">250</td>
+            <td class="column7 style2 n">500</td>
+            <td class="column8 style2 n">1000</td>
+          </tr>
+          <tr class="row34">
+            <td class="column0 style3 s">Streamglide</td>
+            <td class="column1 style4 n">&nbsp;$ 0.67 </td>
+            <td class="column2 style4 n">&nbsp;$ 0.62 </td>
+            <td class="column3 style4 n">&nbsp;$ 0.58 </td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5 style3 s">Sparrow</td>
+            <td class="column6 style4 n">&nbsp;$ 0.58 </td>
+            <td class="column7 style4 n">&nbsp;$ 0.55 </td>
+            <td class="column8 style4 n">&nbsp;$ 0.53 </td>
+          </tr>
+          <tr class="row35">
+            <td class="column0 style1 s">Cost</td>
+            <td class="column1 style4 n">&nbsp;$ 83.75 </td>
+            <td class="column2 style4 n">&nbsp;$ 155.00 </td>
+            <td class="column3 style4 n">&nbsp;$ 290.00 </td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5 style1 s">Cost</td>
+            <td class="column6 style4 n">&nbsp;$ 72.50 </td>
+            <td class="column7 style4 n">&nbsp;$ 137.50 </td>
+            <td class="column8 style4 n">&nbsp;$ 265.00 </td>
+          </tr>
+          <tr class="row36">
+            <td class="column0 style1 s">Setup Charge</td>
+            <td class="column1 style4 n">&nbsp;$ 12.00 </td>
+            <td class="column2 style4 n">&nbsp;$ 12.00 </td>
+            <td class="column3 style4 n">&nbsp;$ 12.00 </td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5 style1 s">Setup Charge</td>
+            <td class="column6 style4 n">&nbsp;$ 12.00 </td>
+            <td class="column7 style4 n">&nbsp;$ 12.00 </td>
+            <td class="column8 style4 n">&nbsp;$ 12.00 </td>
+          </tr>
+          <tr class="row37">
+            <td class="column0 style1 s">37% exchange</td>
+            <td class="column1 style4 n">&nbsp;$ 131.18 </td>
+            <td class="column2 style4 n">&nbsp;$ 228.79 </td>
+            <td class="column3 style4 n">&nbsp;$ 413.74 </td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5 style1 s">37% exchange</td>
+            <td class="column6 style4 n">&nbsp;$ 115.77 </td>
+            <td class="column7 style4 n">&nbsp;$ 204.82 </td>
+            <td class="column8 style4 n">&nbsp;$ 379.49 </td>
+          </tr>
+          <tr class="row38">
+            <td class="column0 style1 s">Markup</td>
+            <td class="column1 style4 n">&nbsp;$ 75.00 </td>
+            <td class="column2 style4 n">&nbsp;$ 100.00 </td>
+            <td class="column3 style4 n">&nbsp;$ 150.00 </td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5 style1 s">Markup</td>
+            <td class="column6 style4 n">&nbsp;$ 75.00 </td>
+            <td class="column7 style4 n">&nbsp;$ 100.00 </td>
+            <td class="column8 style4 n">&nbsp;$ 150.00 </td>
+          </tr>
+          <tr class="row39">
+            <td class="column0 style1 null"></td>
+            <td class="column1 style4 n">&nbsp;$ 206.18 </td>
+            <td class="column2 style4 n">&nbsp;$ 328.79 </td>
+            <td class="column3 style4 n">&nbsp;$ 563.74 </td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5 style1 null"></td>
+            <td class="column6 style4 n">&nbsp;$ 190.77 </td>
+            <td class="column7 style4 n">&nbsp;$ 304.82 </td>
+            <td class="column8 style4 n">&nbsp;$ 529.49 </td>
+          </tr>
+          <tr class="row40">
+            <td class="column0 style1 s">Cost Each</td>
+            <td class="column1 style4 n">&nbsp;$ 0.82 </td>
+            <td class="column2 style4 n">&nbsp;$ 0.66 </td>
+            <td class="column3 style4 n">&nbsp;$ 0.56 </td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5 style1 s">Cost Each</td>
+            <td class="column6 style4 n">&nbsp;$ 0.76 </td>
+            <td class="column7 style4 n">&nbsp;$ 0.61 </td>
+            <td class="column8 style4 n">&nbsp;$ 0.53 </td>
+          </tr>
+        </tbody>
+    </table>
+  </body>
+</html>

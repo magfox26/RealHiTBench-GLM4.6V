@@ -1,0 +1,77 @@
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+% \usepackage[table,xcdraw]{xcolor}
+% Beamer presentation requires \usepackage{colortbl} instead of \usepackage[table,xcdraw]{xcolor}
+\begin{table}[]
+\begin{tabular}{@{}llllll@{}}
+\textbf{Item} & \textbf{FOB} & \textbf{\#/Pal} & \textbf{freight} & \textbf{Brok} & \textbf{Del} \\
+\rowcolor[HTML]{D9D9D9} 
+\textbf{Bulk Beets} &  &  &  &  &  \\
+Tx 25\# & \cellcolor[HTML]{FFFFFF}\$8.85 & 80 & 0.00 & \$0.35 & \$9.20 \\
+Tx 50\# & \$12.85 & 40 & 0.00 & \$0.35 & \$13.20 \\
+Mx Jbo & \$0.00 & 0 & 0.00 & \$0.35 & \$0.35 \\
+Gold 25 & \$11.85 & 80 & 0.00 & \$0.35 & \$12.20 \\
+ &  &  &  &  &  \\
+\rowcolor[HTML]{D9D9D9} 
+\textbf{BEETS} &  &  &  &  &  \\
+12's & \$9.35 & 56 & 0.00 & \$0.35 & \cellcolor[HTML]{FFFF00}\$9.70 \\
+24's & \$12.35 & 35 & 0.00 & \$0.35 & \cellcolor[HTML]{FFFF00}\$12.70 \\
+ &  &  &  &  &  \\
+\rowcolor[HTML]{D9D9D9} 
+\textbf{Collards} &  &  &  &  &  \\
+12's & \$5.85 & 64 & 0.00 & \$0.35 & \$6.20 \\
+24's & \$8.85 & 42 & 0.00 & \$0.35 & \$9.20 \\
+ &  &  &  &  &  \\
+\rowcolor[HTML]{D9D9D9} 
+\textbf{Daikon} &  &  &  &  &  \\
+W/Tops & \$12.35 & 35 & 0.00 & \$0.35 & \$12.70 \\
+no/Tops & \$20.00 & 42 & 0.00 & \$0.35 & \$20.35 \\
+ &  &  &  &  &  \\
+\rowcolor[HTML]{D9D9D9} 
+\textbf{BukTturnips} &  &  &  &  &  \\
+25\# & \$10.85 & 80 & 0.00 & \$0.35 & \$11.20 \\
+ &  &  &  &  &  \\
+\rowcolor[HTML]{D9D9D9} 
+\textbf{TURNIP GREENS} &  &  &  &  &  \\
+12's & \$5.85 & 64 & 0.00 & \$0.35 & \$6.20 \\
+24's & \$8.85 & 42 & 0.00 & \$0.35 & \$9.20 \\
+ &  &  &  &  &  \\
+\rowcolor[HTML]{D9D9D9} 
+\textbf{Plain Mustard} &  &  &  &  &  \\
+12's & \$0.00 & 64 & 0.00 & \$0.35 & \$0.35 \\
+24's & \$0.00 & 42 & 0.00 & \$0.35 & \$0.35 \\
+ &  &  &  &  &  \\
+\rowcolor[HTML]{D9D9D9} 
+\textbf{Curly Mustard} &  &  &  &  &  \\
+12's & \$5.85 & 64 & 0 & \$0.35 & \$6.20 \\
+24's & \$8.85 & 42 & \#REF! & \$0.35 & \#REF! \\
+\textbf{Item} & \textbf{FOB} & \textbf{\#/pal} & \textbf{freight} & \textbf{Brok} & \textbf{Del} \\
+ &  &  &  &  &  \\
+\rowcolor[HTML]{D9D9D9} 
+\textbf{Cabbage Sprouts} &  &  &  &  &  \\
+\textbf{Ctn} & \$0.00 & 42 & \$0.00 & \$0.35 & \$0.35 \\
+\textbf{} &  &  &  &  &  \\
+ &  &  &  &  &  \\
+\rowcolor[HTML]{D9D9D9} 
+\textbf{Curly parsly} &  &  &  &  &  \\
+30's & \$11.35 & 64 & \$0.00 & \$0.35 & \$11.70 \\
+60's & \$14.85 & 42 & \$0.00 & \$0.35 & \$15.20 \\
+ &  &  &  &  &  \\
+\rowcolor[HTML]{D9D9D9} 
+\textbf{Plain Parsley} &  &  &  &  &  \\
+30's & \$11.35 & 64 & \$0.00 & \$0.35 & \$11.70 \\
+60's & \$14.85 & 42 & \$0.00 & \$0.35 & \$15.20 \\
+Root 12's & \$0.00 & 80 & \$0.00 & \$0.35 & \$0.35 \\
+Root 24's & \$0.00 & 42 & \$0.00 & \$0.35 & \$0.35 \\
+ &  &  &  &  &  \\
+\rowcolor[HTML]{D9D9D9} 
+\textbf{Tx Cilantro} &  &  &  &  &  \\
+30's & \$7.85 & 64 & \$0.00 & \$0.35 & \$8.20 \\
+60's & \$10.85 & 42 & \$0.00 & \$0.35 & \$11.20 \\
+ &  &  &  &  &  \\
+\rowcolor[HTML]{D9D9D9} 
+\textbf{Cilantro Root} &  &  &  &  &  \\
+ctn 24's & \$8.35 & 64 & \$0.00 & \$0.35 & \$8.70 \\
+wood 24's & \$8.85 & 48 & \$0.00 & \$0.35 & \$9.20
+\end{tabular}
+\end{table}

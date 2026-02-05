@@ -1,0 +1,868 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <meta name="generator" content="PhpSpreadsheet, https://github.com/PHPOffice/PhpSpreadsheet">
+      <meta name="author" content="openpyxl" />
+      <meta name="company" content="Microsoft Corporation" />
+    <style type="text/css">
+      html { font-family:Calibri, Arial, Helvetica, sans-serif; font-size:11pt; background-color:white }
+      a.comment-indicator:hover + div.comment { background:#ffd; position:absolute; display:block; border:1px solid black; padding:0.5em }
+      a.comment-indicator { background:red; display:inline-block; border:1px solid black; width:0.5em; height:0.5em }
+      div.comment { display:none }
+      table { border-collapse:collapse; page-break-after:always }
+      .gridlines td { border:1px dotted black }
+      .gridlines th { border:1px dotted black }
+      .b { text-align:center }
+      .e { text-align:center }
+      .f { text-align:right }
+      .inlineStr { text-align:left }
+      .n { text-align:right }
+      .s { text-align:left }
+      td.style0 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:#FFFFFF }
+      th.style0 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:#FFFFFF }
+      table.sheet0 col.col0 { width:42pt }
+      table.sheet0 col.col1 { width:42pt }
+      table.sheet0 col.col2 { width:42pt }
+      table.sheet0 col.col3 { width:42pt }
+      table.sheet0 col.col4 { width:42pt }
+      table.sheet0 col.col5 { width:42pt }
+      table.sheet0 col.col6 { width:42pt }
+      table.sheet0 tr { height:15pt }
+    </style>
+  </head>
+
+  <body>
+<style>
+@page { margin-left: 0.75in; margin-right: 0.75in; margin-top: 1in; margin-bottom: 1in; }
+body { margin-left: 0.75in; margin-right: 0.75in; margin-top: 1in; margin-bottom: 1in; }
+</style>
+    <table border="0" cellpadding="0" cellspacing="0" id="sheet0" class="sheet0 gridlines">
+        <col class="col0">
+        <col class="col1">
+        <col class="col2">
+        <col class="col3">
+        <col class="col4">
+        <col class="col5">
+        <col class="col6">
+        <tbody>
+          <tr class="row0">
+            <td class="column0 style0 inlineStr">Table A1: Estimated odds ratios from logistic regression of economic activity</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6 style0 inlineStr">Contents</td>
+          </tr>
+          <tr class="row1">
+            <td class="column0">&nbsp;</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+          </tr>
+          <tr class="row2">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">(1) All</td>
+            <td class="column2 style0 inlineStr">(2) Male</td>
+            <td class="column3 style0 inlineStr">(3) Female</td>
+            <td class="column4 style0 inlineStr">(4) All</td>
+            <td class="column5 style0 inlineStr">(5) Male</td>
+            <td class="column6 style0 inlineStr">(6) Female</td>
+          </tr>
+          <tr class="row3">
+            <td class="column0 style0 null style0" colspan="7"></td>
+          </tr>
+          <tr class="row4">
+            <td class="column0 style0 inlineStr style0" colspan="7">Religious affiliation (omitted category Christian)</td>
+          </tr>
+          <tr class="row5">
+            <td class="column0 style0 inlineStr">No answer</td>
+            <td class="column1 style0 inlineStr">0.753***</td>
+            <td class="column2 style0 inlineStr">0.737***</td>
+            <td class="column3 style0 inlineStr">0.744***</td>
+            <td class="column4 style0 inlineStr">0.822***</td>
+            <td class="column5 style0 inlineStr">0.842***</td>
+            <td class="column6 style0 inlineStr">0.875***</td>
+          </tr>
+          <tr class="row6">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">(0.006)</td>
+            <td class="column2 style0 inlineStr">(0.009)</td>
+            <td class="column3 style0 inlineStr">(0.008)</td>
+            <td class="column4 style0 inlineStr">(0.007)</td>
+            <td class="column5 style0 inlineStr">(0.011)</td>
+            <td class="column6 style0 inlineStr">(0.010)</td>
+          </tr>
+          <tr class="row7">
+            <td class="column0 style0 inlineStr">No Religion</td>
+            <td class="column1 style0 inlineStr">1.125***</td>
+            <td class="column2 style0 inlineStr">1.072***</td>
+            <td class="column3 style0 inlineStr">1.088***</td>
+            <td class="column4 style0 inlineStr">0.973***</td>
+            <td class="column5 style0 inlineStr">0.954***</td>
+            <td class="column6 style0 inlineStr">0.979***</td>
+          </tr>
+          <tr class="row8">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">(0.001)</td>
+            <td class="column2 style0 inlineStr">(0.001)</td>
+            <td class="column3 style0 inlineStr">(0.001)</td>
+            <td class="column4 style0 inlineStr">(0.001)</td>
+            <td class="column5 style0 inlineStr">(0.001)</td>
+            <td class="column6 style0 inlineStr">(0.001)</td>
+          </tr>
+          <tr class="row9">
+            <td class="column0 style0 inlineStr">Buddhist</td>
+            <td class="column1 style0 inlineStr">0.676***</td>
+            <td class="column2 style0 inlineStr">0.666***</td>
+            <td class="column3 style0 inlineStr">0.706***</td>
+            <td class="column4 style0 inlineStr">0.698***</td>
+            <td class="column5 style0 inlineStr">0.511***</td>
+            <td class="column6 style0 inlineStr">0.854***</td>
+          </tr>
+          <tr class="row10">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">(0.004)</td>
+            <td class="column2 style0 inlineStr">(0.006)</td>
+            <td class="column3 style0 inlineStr">(0.005)</td>
+            <td class="column4 style0 inlineStr">(0.004)</td>
+            <td class="column5 style0 inlineStr">(0.005)</td>
+            <td class="column6 style0 inlineStr">(0.006)</td>
+          </tr>
+          <tr class="row11">
+            <td class="column0 style0 inlineStr">Hindu</td>
+            <td class="column1 style0 inlineStr">1.076***</td>
+            <td class="column2 style0 inlineStr">1.337***</td>
+            <td class="column3 style0 inlineStr">0.886***</td>
+            <td class="column4 style0 inlineStr">1.030***</td>
+            <td class="column5 style0 inlineStr">1.052***</td>
+            <td class="column6 style0 inlineStr">1.038***</td>
+          </tr>
+          <tr class="row12">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">(0.003)</td>
+            <td class="column2 style0 inlineStr">(0.007)</td>
+            <td class="column3 style0 inlineStr">(0.004)</td>
+            <td class="column4 style0 inlineStr">(0.004)</td>
+            <td class="column5 style0 inlineStr">(0.008)</td>
+            <td class="column6 style0 inlineStr">(0.006)</td>
+          </tr>
+          <tr class="row13">
+            <td class="column0 style0 inlineStr">Jewish</td>
+            <td class="column1 style0 inlineStr">0.880***</td>
+            <td class="column2 style0 inlineStr">0.830***</td>
+            <td class="column3 style0 inlineStr">0.878***</td>
+            <td class="column4 style0 inlineStr">0.748***</td>
+            <td class="column5 style0 inlineStr">0.766***</td>
+            <td class="column6 style0 inlineStr">0.735***</td>
+          </tr>
+          <tr class="row14">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">(0.005)</td>
+            <td class="column2 style0 inlineStr">(0.007)</td>
+            <td class="column3 style0 inlineStr">(0.006)</td>
+            <td class="column4 style0 inlineStr">(0.005)</td>
+            <td class="column5 style0 inlineStr">(0.007)</td>
+            <td class="column6 style0 inlineStr">(0.006)</td>
+          </tr>
+          <tr class="row15">
+            <td class="column0 style0 inlineStr">Muslim</td>
+            <td class="column1 style0 inlineStr">0.420***</td>
+            <td class="column2 style0 inlineStr">0.667***</td>
+            <td class="column3 style0 inlineStr">0.265***</td>
+            <td class="column4 style0 inlineStr">0.501***</td>
+            <td class="column5 style0 inlineStr">0.721***</td>
+            <td class="column6 style0 inlineStr">0.375***</td>
+          </tr>
+          <tr class="row16">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">(0.001)</td>
+            <td class="column2 style0 inlineStr">(0.002)</td>
+            <td class="column3 style0 inlineStr">(0.001)</td>
+            <td class="column4 style0 inlineStr">(0.001)</td>
+            <td class="column5 style0 inlineStr">(0.003)</td>
+            <td class="column6 style0 inlineStr">(0.001)</td>
+          </tr>
+          <tr class="row17">
+            <td class="column0 style0 inlineStr">Sikh</td>
+            <td class="column1 style0 inlineStr">0.949***</td>
+            <td class="column2 style0 inlineStr">0.968***</td>
+            <td class="column3 style0 inlineStr">0.897***</td>
+            <td class="column4 style0 inlineStr">1.042***</td>
+            <td class="column5 style0 inlineStr">0.829***</td>
+            <td class="column6 style0 inlineStr">1.182***</td>
+          </tr>
+          <tr class="row18">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">(0.005)</td>
+            <td class="column2 style0 inlineStr">(0.007)</td>
+            <td class="column3 style0 inlineStr">(0.006)</td>
+            <td class="column4 style0 inlineStr">(0.006)</td>
+            <td class="column5 style0 inlineStr">(0.008)</td>
+            <td class="column6 style0 inlineStr">(0.009)</td>
+          </tr>
+          <tr class="row19">
+            <td class="column0 style0 inlineStr">Other</td>
+            <td class="column1 style0 inlineStr">0.876***</td>
+            <td class="column2 style0 inlineStr">0.741***</td>
+            <td class="column3 style0 inlineStr">0.953***</td>
+            <td class="column4 style0 inlineStr">0.700***</td>
+            <td class="column5 style0 inlineStr">0.577***</td>
+            <td class="column6 style0 inlineStr">0.810***</td>
+          </tr>
+          <tr class="row20">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">(0.003)</td>
+            <td class="column2 style0 inlineStr">(0.003)</td>
+            <td class="column3 style0 inlineStr">(0.004)</td>
+            <td class="column4 style0 inlineStr">(0.002)</td>
+            <td class="column5 style0 inlineStr">(0.003)</td>
+            <td class="column6 style0 inlineStr">(0.004)</td>
+          </tr>
+          <tr class="row21">
+            <td class="column0 style0 inlineStr">Age</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4 style0 inlineStr">1.374***</td>
+            <td class="column5 style0 inlineStr">1.505***</td>
+            <td class="column6 style0 inlineStr">1.294***</td>
+          </tr>
+          <tr class="row22">
+            <td class="column0">&nbsp;</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4 style0 inlineStr">(0.000)</td>
+            <td class="column5 style0 inlineStr">(0.001)</td>
+            <td class="column6 style0 inlineStr">(0.000)</td>
+          </tr>
+          <tr class="row23">
+            <td class="column0 style0 inlineStr">Age squared</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4 style0 inlineStr">0.996***</td>
+            <td class="column5 style0 inlineStr">0.995***</td>
+            <td class="column6 style0 inlineStr">0.997***</td>
+          </tr>
+          <tr class="row24">
+            <td class="column0">&nbsp;</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4 style0 inlineStr">(0.000)</td>
+            <td class="column5 style0 inlineStr">(0.000)</td>
+            <td class="column6 style0 inlineStr">(0.000)</td>
+          </tr>
+          <tr class="row25">
+            <td class="column0 style0 inlineStr">Female</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4 style0 inlineStr">0.477***</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 inlineStr"></td>
+          </tr>
+          <tr class="row26">
+            <td class="column0">&nbsp;</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4 style0 inlineStr">(0.000)</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 inlineStr"></td>
+          </tr>
+          <tr class="row27">
+            <td class="column0 style0 inlineStr style0" colspan="7">Marital status (omitted category - Single)</td>
+          </tr>
+          <tr class="row28">
+            <td class="column0 style0 inlineStr style0" rowspan="2">Married, living with spouse</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4 style0 inlineStr">1.219***</td>
+            <td class="column5 style0 inlineStr">2.562***</td>
+            <td class="column6 style0 inlineStr">0.821***</td>
+          </tr>
+          <tr class="row29">
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4 style0 inlineStr">(0.002)</td>
+            <td class="column5 style0 inlineStr">(0.006)</td>
+            <td class="column6 style0 inlineStr">(0.001)</td>
+          </tr>
+          <tr class="row30">
+            <td class="column0 style0 inlineStr style0" rowspan="2">Married, separated</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4 style0 inlineStr">1.005</td>
+            <td class="column5 style0 inlineStr">1.304***</td>
+            <td class="column6 style0 inlineStr">0.917***</td>
+          </tr>
+          <tr class="row31">
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4 style0 inlineStr">(0.003)</td>
+            <td class="column5 style0 inlineStr">(0.007)</td>
+            <td class="column6 style0 inlineStr">(0.003)</td>
+          </tr>
+          <tr class="row32">
+            <td class="column0 style0 inlineStr">Divorced</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4 style0 inlineStr">1.281***</td>
+            <td class="column5 style0 inlineStr">1.649***</td>
+            <td class="column6 style0 inlineStr">1.111***</td>
+          </tr>
+          <tr class="row33">
+            <td class="column0">&nbsp;</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4 style0 inlineStr">(0.003)</td>
+            <td class="column5 style0 inlineStr">(0.006)</td>
+            <td class="column6 style0 inlineStr">(0.003)</td>
+          </tr>
+          <tr class="row34">
+            <td class="column0 style0 inlineStr">Widowed</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4 style0 inlineStr">0.944***</td>
+            <td class="column5 style0 inlineStr">1.134***</td>
+            <td class="column6 style0 inlineStr">0.779***</td>
+          </tr>
+          <tr class="row35">
+            <td class="column0">&nbsp;</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4 style0 inlineStr">(0.004)</td>
+            <td class="column5 style0 inlineStr">(0.008)</td>
+            <td class="column6 style0 inlineStr">(0.003)</td>
+          </tr>
+          <tr class="row36">
+            <td class="column0 style0 inlineStr style0" rowspan="2">Civil partnership</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4 style0 inlineStr">1.019*</td>
+            <td class="column5 style0 inlineStr">0.873***</td>
+            <td class="column6 style0 inlineStr">1.215***</td>
+          </tr>
+          <tr class="row37">
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4 style0 inlineStr">(0.011)</td>
+            <td class="column5 style0 inlineStr">(0.013)</td>
+            <td class="column6 style0 inlineStr">(0.018)</td>
+          </tr>
+          <tr class="row38">
+            <td class="column0 style0 inlineStr style0" colspan="7">Highest qualification held (omitted category – No qualifications)</td>
+          </tr>
+          <tr class="row39">
+            <td class="column0 style0 inlineStr">Degree or equivalent</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4 style0 inlineStr">5.793***</td>
+            <td class="column5 style0 inlineStr">4.711***</td>
+            <td class="column6 style0 inlineStr">6.912***</td>
+          </tr>
+          <tr class="row40">
+            <td class="column0">&nbsp;</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4 style0 inlineStr">(0.010)</td>
+            <td class="column5 style0 inlineStr">(0.012)</td>
+            <td class="column6 style0 inlineStr">(0.016)</td>
+          </tr>
+          <tr class="row41">
+            <td class="column0 style0 inlineStr">Higher education</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4 style0 inlineStr">4.317***</td>
+            <td class="column5 style0 inlineStr">3.765***</td>
+            <td class="column6 style0 inlineStr">4.843***</td>
+          </tr>
+          <tr class="row42">
+            <td class="column0">&nbsp;</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4 style0 inlineStr">(0.009)</td>
+            <td class="column5 style0 inlineStr">(0.013)</td>
+            <td class="column6 style0 inlineStr">(0.014)</td>
+          </tr>
+          <tr class="row43">
+            <td class="column0 style0 inlineStr">A level or equivalent</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4 style0 inlineStr">3.475***</td>
+            <td class="column5 style0 inlineStr">3.087***</td>
+            <td class="column6 style0 inlineStr">3.952***</td>
+          </tr>
+          <tr class="row44">
+            <td class="column0">&nbsp;</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4 style0 inlineStr">(0.006)</td>
+            <td class="column5 style0 inlineStr">(0.007)</td>
+            <td class="column6 style0 inlineStr">(0.009)</td>
+          </tr>
+          <tr class="row45">
+            <td class="column0 style0 inlineStr">GCSE A*-C or equivalent</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4 style0 inlineStr">2.831***</td>
+            <td class="column5 style0 inlineStr">2.754***</td>
+            <td class="column6 style0 inlineStr">3.031***</td>
+          </tr>
+          <tr class="row46">
+            <td class="column0">&nbsp;</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4 style0 inlineStr">(0.005)</td>
+            <td class="column5 style0 inlineStr">(0.007)</td>
+            <td class="column6 style0 inlineStr">(0.007)</td>
+          </tr>
+          <tr class="row47">
+            <td class="column0 style0 inlineStr">Other qualification</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4 style0 inlineStr">2.361***</td>
+            <td class="column5 style0 inlineStr">2.523***</td>
+            <td class="column6 style0 inlineStr">2.337***</td>
+          </tr>
+          <tr class="row48">
+            <td class="column0">&nbsp;</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4 style0 inlineStr">(0.005)</td>
+            <td class="column5 style0 inlineStr">(0.007)</td>
+            <td class="column6 style0 inlineStr">(0.006)</td>
+          </tr>
+          <tr class="row49">
+            <td class="column0 style0 inlineStr">No answer</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4 style0 inlineStr">1.422***</td>
+            <td class="column5 style0 inlineStr">1.416***</td>
+            <td class="column6 style0 inlineStr">1.380***</td>
+          </tr>
+          <tr class="row50">
+            <td class="column0">&nbsp;</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4 style0 inlineStr">(0.010)</td>
+            <td class="column5 style0 inlineStr">(0.015)</td>
+            <td class="column6 style0 inlineStr">(0.015)</td>
+          </tr>
+          <tr class="row51">
+            <td class="column0 style0 inlineStr">Don’t know</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4 style0 inlineStr">3.318***</td>
+            <td class="column5 style0 inlineStr">3.208***</td>
+            <td class="column6 style0 inlineStr">3.423***</td>
+          </tr>
+          <tr class="row52">
+            <td class="column0">&nbsp;</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4 style0 inlineStr">(0.012)</td>
+            <td class="column5 style0 inlineStr">(0.017)</td>
+            <td class="column6 style0 inlineStr">(0.017)</td>
+          </tr>
+          <tr class="row53">
+            <td class="column0 style0 inlineStr style0" colspan="7">Government Office Region (omitted category – North East) </td>
+          </tr>
+          <tr class="row54">
+            <td class="column0 style0 inlineStr">North West</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4 style0 inlineStr">1.169***</td>
+            <td class="column5 style0 inlineStr">1.253***</td>
+            <td class="column6 style0 inlineStr">1.115***</td>
+          </tr>
+          <tr class="row55">
+            <td class="column0">&nbsp;</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4 style0 inlineStr">(0.003)</td>
+            <td class="column5 style0 inlineStr">(0.005)</td>
+            <td class="column6 style0 inlineStr">(0.004)</td>
+          </tr>
+          <tr class="row56">
+            <td class="column0 style0 inlineStr">Merseyside</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4 style0 inlineStr">0.935***</td>
+            <td class="column5 style0 inlineStr">0.903***</td>
+            <td class="column6 style0 inlineStr">0.959***</td>
+          </tr>
+          <tr class="row57">
+            <td class="column0">&nbsp;</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4 style0 inlineStr">(0.003)</td>
+            <td class="column5 style0 inlineStr">(0.005)</td>
+            <td class="column6 style0 inlineStr">(0.004)</td>
+          </tr>
+          <tr class="row58">
+            <td class="column0 style0 inlineStr">Yorkshire and Humberside</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4 style0 inlineStr">1.151***</td>
+            <td class="column5 style0 inlineStr">1.188***</td>
+            <td class="column6 style0 inlineStr">1.125***</td>
+          </tr>
+          <tr class="row59">
+            <td class="column0">&nbsp;</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4 style0 inlineStr">(0.003)</td>
+            <td class="column5 style0 inlineStr">(0.005)</td>
+            <td class="column6 style0 inlineStr">(0.004)</td>
+          </tr>
+          <tr class="row60">
+            <td class="column0 style0 inlineStr">East Midlands</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4 style0 inlineStr">1.206***</td>
+            <td class="column5 style0 inlineStr">1.306***</td>
+            <td class="column6 style0 inlineStr">1.146***</td>
+          </tr>
+          <tr class="row61">
+            <td class="column0">&nbsp;</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4 style0 inlineStr">(0.003)</td>
+            <td class="column5 style0 inlineStr">(0.005)</td>
+            <td class="column6 style0 inlineStr">(0.004)</td>
+          </tr>
+          <tr class="row62">
+            <td class="column0 style0 inlineStr">West Midlands</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4 style0 inlineStr">1.202***</td>
+            <td class="column5 style0 inlineStr">1.294***</td>
+            <td class="column6 style0 inlineStr">1.140***</td>
+          </tr>
+          <tr class="row63">
+            <td class="column0">&nbsp;</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4 style0 inlineStr">(0.003)</td>
+            <td class="column5 style0 inlineStr">(0.005)</td>
+            <td class="column6 style0 inlineStr">(0.004)</td>
+          </tr>
+          <tr class="row64">
+            <td class="column0 style0 inlineStr">Eastern</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4 style0 inlineStr">1.361***</td>
+            <td class="column5 style0 inlineStr">1.540***</td>
+            <td class="column6 style0 inlineStr">1.264***</td>
+          </tr>
+          <tr class="row65">
+            <td class="column0">&nbsp;</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4 style0 inlineStr">(0.003)</td>
+            <td class="column5 style0 inlineStr">(0.006)</td>
+            <td class="column6 style0 inlineStr">(0.004)</td>
+          </tr>
+          <tr class="row66">
+            <td class="column0 style0 inlineStr">London</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4 style0 inlineStr">1.157***</td>
+            <td class="column5 style0 inlineStr">1.342***</td>
+            <td class="column6 style0 inlineStr">1.052***</td>
+          </tr>
+          <tr class="row67">
+            <td class="column0">&nbsp;</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4 style0 inlineStr">(0.003)</td>
+            <td class="column5 style0 inlineStr">(0.005)</td>
+            <td class="column6 style0 inlineStr">(0.003)</td>
+          </tr>
+          <tr class="row68">
+            <td class="column0 style0 inlineStr">South East</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4 style0 inlineStr">1.273***</td>
+            <td class="column5 style0 inlineStr">1.428***</td>
+            <td class="column6 style0 inlineStr">1.189***</td>
+          </tr>
+          <tr class="row69">
+            <td class="column0">&nbsp;</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4 style0 inlineStr">(0.003)</td>
+            <td class="column5 style0 inlineStr">(0.005)</td>
+            <td class="column6 style0 inlineStr">(0.004)</td>
+          </tr>
+          <tr class="row70">
+            <td class="column0 style0 inlineStr">South West</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4 style0 inlineStr">1.349***</td>
+            <td class="column5 style0 inlineStr">1.400***</td>
+            <td class="column6 style0 inlineStr">1.324***</td>
+          </tr>
+          <tr class="row71">
+            <td class="column0">&nbsp;</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4 style0 inlineStr">(0.003)</td>
+            <td class="column5 style0 inlineStr">(0.005)</td>
+            <td class="column6 style0 inlineStr">(0.004)</td>
+          </tr>
+          <tr class="row72">
+            <td class="column0 style0 inlineStr">Wales</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4 style0 inlineStr">1.052***</td>
+            <td class="column5 style0 inlineStr">1.100***</td>
+            <td class="column6 style0 inlineStr">1.028***</td>
+          </tr>
+          <tr class="row73">
+            <td class="column0">&nbsp;</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4 style0 inlineStr">(0.003)</td>
+            <td class="column5 style0 inlineStr">(0.005)</td>
+            <td class="column6 style0 inlineStr">(0.004)</td>
+          </tr>
+          <tr class="row74">
+            <td class="column0 style0 inlineStr style0" colspan="7">Ethnicity (omitted category – White)</td>
+          </tr>
+          <tr class="row75">
+            <td class="column0 style0 inlineStr">No answer</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4 style0 inlineStr">1.244***</td>
+            <td class="column5 style0 inlineStr">2.349***</td>
+            <td class="column6 style0 inlineStr">0.898***</td>
+          </tr>
+          <tr class="row76">
+            <td class="column0">&nbsp;</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4 style0 inlineStr">(0.021)</td>
+            <td class="column5 style0 inlineStr">(0.067)</td>
+            <td class="column6 style0 inlineStr">(0.019)</td>
+          </tr>
+          <tr class="row77">
+            <td class="column0 style0 inlineStr">Mixed/multiple ethnic groups</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4 style0 inlineStr">0.715***</td>
+            <td class="column5 style0 inlineStr">0.686***</td>
+            <td class="column6 style0 inlineStr">0.729***</td>
+          </tr>
+          <tr class="row78">
+            <td class="column0">&nbsp;</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4 style0 inlineStr">(0.003)</td>
+            <td class="column5 style0 inlineStr">(0.004)</td>
+            <td class="column6 style0 inlineStr">(0.003)</td>
+          </tr>
+          <tr class="row79">
+            <td class="column0 style0 inlineStr">Asian / Asian British</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4 style0 inlineStr">0.691***</td>
+            <td class="column5 style0 inlineStr">0.732***</td>
+            <td class="column6 style0 inlineStr">0.667***</td>
+          </tr>
+          <tr class="row80">
+            <td class="column0">&nbsp;</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4 style0 inlineStr">(0.002)</td>
+            <td class="column5 style0 inlineStr">(0.003)</td>
+            <td class="column6 style0 inlineStr">(0.002)</td>
+          </tr>
+          <tr class="row81">
+            <td class="column0 style0 inlineStr">Black / Black British</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4 style0 inlineStr">0.754***</td>
+            <td class="column5 style0 inlineStr">0.697***</td>
+            <td class="column6 style0 inlineStr">0.787***</td>
+          </tr>
+          <tr class="row82">
+            <td class="column0">&nbsp;</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4 style0 inlineStr">(0.002)</td>
+            <td class="column5 style0 inlineStr">(0.003)</td>
+            <td class="column6 style0 inlineStr">(0.002)</td>
+          </tr>
+          <tr class="row83">
+            <td class="column0 style0 inlineStr">Chinese</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4 style0 inlineStr">0.348***</td>
+            <td class="column5 style0 inlineStr">0.268***</td>
+            <td class="column6 style0 inlineStr">0.409***</td>
+          </tr>
+          <tr class="row84">
+            <td class="column0">&nbsp;</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4 style0 inlineStr">(0.002)</td>
+            <td class="column5 style0 inlineStr">(0.002)</td>
+            <td class="column6 style0 inlineStr">(0.002)</td>
+          </tr>
+          <tr class="row85">
+            <td class="column0 style0 inlineStr">Arab</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4 style0 inlineStr">0.355***</td>
+            <td class="column5 style0 inlineStr">0.327***</td>
+            <td class="column6 style0 inlineStr">0.331***</td>
+          </tr>
+          <tr class="row86">
+            <td class="column0">&nbsp;</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4 style0 inlineStr">(0.002)</td>
+            <td class="column5 style0 inlineStr">(0.003)</td>
+            <td class="column6 style0 inlineStr">(0.003)</td>
+          </tr>
+          <tr class="row87">
+            <td class="column0 style0 inlineStr">Other</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4 style0 inlineStr">0.586***</td>
+            <td class="column5 style0 inlineStr">0.551***</td>
+            <td class="column6 style0 inlineStr">0.589***</td>
+          </tr>
+          <tr class="row88">
+            <td class="column0">&nbsp;</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4 style0 inlineStr">(0.002)</td>
+            <td class="column5 style0 inlineStr">(0.003)</td>
+            <td class="column6 style0 inlineStr">(0.003)</td>
+          </tr>
+          <tr class="row89">
+            <td class="column0 style0 inlineStr">Constant</td>
+            <td class="column1 style0 inlineStr">3.736***</td>
+            <td class="column2 style0 inlineStr">5.053***</td>
+            <td class="column3 style0 inlineStr">2.997***</td>
+            <td class="column4 style0 inlineStr">0.006***</td>
+            <td class="column5 style0 inlineStr">0.001***</td>
+            <td class="column6 style0 inlineStr">0.009***</td>
+          </tr>
+          <tr class="row90">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">(0.002)</td>
+            <td class="column2 style0 inlineStr">(0.005)</td>
+            <td class="column3 style0 inlineStr">(0.002)</td>
+            <td class="column4 style0 inlineStr">(0.000)</td>
+            <td class="column5 style0 inlineStr">(0.000)</td>
+            <td class="column6 style0 inlineStr">(0.000)</td>
+          </tr>
+          <tr class="row91">
+            <td class="column0 style0 inlineStr">Number of Observations (thousands)</td>
+            <td class="column1 style0 n">36640</td>
+            <td class="column2 style0 n">18255</td>
+            <td class="column3 style0 n">18385</td>
+            <td class="column4 style0 n">36640</td>
+            <td class="column5 style0 n">18255</td>
+            <td class="column6 style0 n">18385</td>
+          </tr>
+          <tr class="row92">
+            <td class="column0 style0 inlineStr">Other Controls in the Model</td>
+            <td class="column1 style0 inlineStr">No</td>
+            <td class="column2 style0 inlineStr">No</td>
+            <td class="column3 style0 inlineStr">No</td>
+            <td class="column4 style0 inlineStr">Yes</td>
+            <td class="column5 style0 inlineStr">Yes</td>
+            <td class="column6 style0 inlineStr">Yes</td>
+          </tr>
+          <tr class="row93">
+            <td class="column0">&nbsp;</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+          </tr>
+          <tr class="row94">
+            <td class="column0 style0 inlineStr">Note – standard errors are in parenthesis. *** p&lt;0.01, ** p&lt;0.05, * p&lt;0.1</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+          </tr>
+        </tbody>
+    </table>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+% Please add the following required packages to your document preamble:
+% \usepackage{multirow}
+\begin{table}[]
+\begin{tabular}{lllllllll}
+Consolidated data             &      &                                 &          &             &             &             &             &             \\
+                              &      &                                 &          &             &             &             &             &             \\
+                              &      &                                 &          & \multicolumn{3}{l}{MFI fold change}     &             &             \\
+                              &      &                                 &          & Expt1       & Expt2       & Expt3       & mean        & SD          \\
+\multirow{6}{*}{CD40 stained} & Set1 & \multirow{2}{*}{Uninf}          & DC -SAG  & 1           & 1           & 1           & 1           & 0           \\
+                              & Set2 &                                 & DC + SAG & 6.610878661 & 4.588825215 & 5.767373811 & 5.655692562 & 1.015642437 \\
+                              & Set3 & \multirow{2}{*}{AG83 (SbSLD)}   & DC -SAG  & 0.70209205  & 1.059455587 & 0.467812729 & 0.743120122 & 0.297947638 \\
+                              & Set4 &                                 & DC + SAG & 6.223430962 & 5.019340974 & 5.543891734 & 5.595554557 & 0.603705193 \\
+                              & Set5 & \multirow{2}{*}{GE1F8R (SbRLD)} & DC -SAG  & 0.657740586 & 1.628939828 & 1.86430139  & 1.383660601 & 0.639584762 \\
+                              & Set6 &                                 & DC + SAG & 1.755648536 & 1.866045845 & 2.798829554 & 2.140174645 & 0.573076442
+\end{tabular}
+\end{table}

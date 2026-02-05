@@ -1,0 +1,920 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <meta name="generator" content="PhpSpreadsheet, https://github.com/PHPOffice/PhpSpreadsheet">
+      <meta name="company" content="Microsoft Corporation" />
+    <style type="text/css">
+      html { font-family:Calibri, Arial, Helvetica, sans-serif; font-size:11pt; background-color:white }
+      a.comment-indicator:hover + div.comment { background:#ffd; position:absolute; display:block; border:1px solid black; padding:0.5em }
+      a.comment-indicator { background:red; display:inline-block; border:1px solid black; width:0.5em; height:0.5em }
+      div.comment { display:none }
+      table { border-collapse:collapse; page-break-after:always }
+      .gridlines td { border:1px dotted black }
+      .gridlines th { border:1px dotted black }
+      .b { text-align:center }
+      .e { text-align:center }
+      .f { text-align:right }
+      .inlineStr { text-align:left }
+      .n { text-align:right }
+      .s { text-align:left }
+      td.style0 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style0 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style1 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style1 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style2 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style2 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style3 { vertical-align:top; text-align:left; padding-left:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#FFFFFF; font-family:'宋体'; font-size:11pt; background-color:#0549AB }
+      th.style3 { vertical-align:top; text-align:left; padding-left:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#FFFFFF; font-family:'宋体'; font-size:11pt; background-color:#0549AB }
+      td.style4 { vertical-align:top; text-align:left; padding-left:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#E2F2FB }
+      th.style4 { vertical-align:top; text-align:left; padding-left:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; font-weight:bold; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#E2F2FB }
+      td.style5 { vertical-align:top; text-align:left; padding-left:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#F1F1F1 }
+      th.style5 { vertical-align:top; text-align:left; padding-left:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#F1F1F1 }
+      td.style6 { vertical-align:top; text-align:left; padding-left:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#E2F2FB }
+      th.style6 { vertical-align:top; text-align:left; padding-left:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#E2F2FB }
+      td.style7 { vertical-align:top; text-align:right; padding-right:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#F1F1F1 }
+      th.style7 { vertical-align:top; text-align:right; padding-right:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:#F1F1F1 }
+      td.style8 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; text-decoration:underline; color:#0563C1; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style8 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; text-decoration:underline; color:#0563C1; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style9 { vertical-align:top; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#FFFFFF; font-family:'宋体'; font-size:11pt; background-color:#0549AB }
+      th.style9 { vertical-align:top; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#FFFFFF; font-family:'宋体'; font-size:11pt; background-color:#0549AB }
+      td.style10 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style10 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style11 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style11 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style12 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style12 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style13 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style13 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style14 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; text-decoration:underline; color:#0563C1; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style14 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; text-decoration:underline; color:#0563C1; font-family:'宋体'; font-size:11pt; background-color:white }
+      table.sheet0 col.col0 { width:42pt }
+      table.sheet0 col.col1 { width:332.1111073pt }
+      table.sheet0 col.col2 { width:332.1111073pt }
+      table.sheet0 col.col3 { width:66.42222146pt }
+      table.sheet0 col.col4 { width:66.42222146pt }
+      table.sheet0 col.col5 { width:66.42222146pt }
+      table.sheet0 col.col6 { width:66.42222146pt }
+      table.sheet0 col.col7 { width:66.42222146pt }
+      table.sheet0 col.col8 { width:66.42222146pt }
+      table.sheet0 col.col9 { width:66.42222146pt }
+      table.sheet0 col.col10 { width:66.42222146pt }
+      table.sheet0 col.col11 { width:66.42222146pt }
+      table.sheet0 col.col12 { width:66.42222146pt }
+      table.sheet0 col.col13 { width:61.67777707pt }
+      table.sheet0 col.col14 { width:42pt }
+      table.sheet0 tr { height:15pt }
+      table.sheet0 tr.row5 { height:30pt }
+      table.sheet0 tr.row6 { height:17pt }
+      table.sheet0 tr.row7 { height:17pt }
+      table.sheet0 tr.row8 { height:17pt }
+      table.sheet0 tr.row9 { height:17pt }
+      table.sheet0 tr.row10 { height:17pt }
+      table.sheet0 tr.row11 { height:17pt }
+      table.sheet0 tr.row12 { height:17pt }
+      table.sheet0 tr.row13 { height:17pt }
+      table.sheet0 tr.row14 { height:17pt }
+      table.sheet0 tr.row15 { height:17pt }
+      table.sheet0 tr.row16 { height:17pt }
+      table.sheet0 tr.row17 { height:17pt }
+      table.sheet0 tr.row18 { height:17pt }
+      table.sheet0 tr.row19 { height:17pt }
+      table.sheet0 tr.row20 { height:17pt }
+      table.sheet0 tr.row21 { height:17pt }
+      table.sheet0 tr.row22 { height:17pt }
+      table.sheet0 tr.row23 { height:17pt }
+      table.sheet0 tr.row24 { height:17pt }
+      table.sheet0 tr.row25 { height:17pt }
+      table.sheet0 tr.row26 { height:17pt }
+      table.sheet0 tr.row27 { height:17pt }
+      table.sheet0 tr.row28 { height:17pt }
+      table.sheet0 tr.row29 { height:17pt }
+      table.sheet0 tr.row30 { height:17pt }
+      table.sheet0 tr.row31 { height:17pt }
+      table.sheet0 tr.row32 { height:17pt }
+      table.sheet0 tr.row33 { height:17pt }
+      table.sheet0 tr.row34 { height:17pt }
+      table.sheet0 tr.row35 { height:17pt }
+      table.sheet0 tr.row36 { height:17pt }
+      table.sheet0 tr.row37 { height:17pt }
+      table.sheet0 tr.row38 { height:17pt }
+      table.sheet0 tr.row39 { height:17pt }
+      table.sheet0 tr.row40 { height:17pt }
+      table.sheet0 tr.row41 { height:17pt }
+    </style>
+  </head>
+
+  <body>
+<style>
+@page { margin-left: 0.7in; margin-right: 0.7in; margin-top: 0.75in; margin-bottom: 0.75in; }
+body { margin-left: 0.7in; margin-right: 0.7in; margin-top: 0.75in; margin-bottom: 0.75in; }
+</style>
+    <table border="0" cellpadding="0" cellspacing="0" id="sheet0" class="sheet0 gridlines">
+        <col class="col0">
+        <col class="col1">
+        <col class="col2">
+        <col class="col3">
+        <col class="col4">
+        <col class="col5">
+        <col class="col6">
+        <col class="col7">
+        <col class="col8">
+        <col class="col9">
+        <col class="col10">
+        <col class="col11">
+        <col class="col12">
+        <col class="col13">
+        <col class="col14">
+        <tbody>
+          <tr class="row0">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style1 s">Annual national disposable income, US $, volume, constant PPPs</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11">&nbsp;</td>
+            <td class="column12">&nbsp;</td>
+            <td class="column13">&nbsp;</td>
+            <td class="column14">&nbsp;</td>
+          </tr>
+          <tr class="row1">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style2 s">Institutional sector: Total economy</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11">&nbsp;</td>
+            <td class="column12">&nbsp;</td>
+            <td class="column13">&nbsp;</td>
+            <td class="column14">&nbsp;</td>
+          </tr>
+          <tr class="row2">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style2 s">Counterpart institutional sector: Total economy</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11">&nbsp;</td>
+            <td class="column12">&nbsp;</td>
+            <td class="column13">&nbsp;</td>
+            <td class="column14">&nbsp;</td>
+          </tr>
+          <tr class="row3">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style2 s">Transaction: Disposable income, net</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11">&nbsp;</td>
+            <td class="column12">&nbsp;</td>
+            <td class="column13">&nbsp;</td>
+            <td class="column14">&nbsp;</td>
+          </tr>
+          <tr class="row4">
+            <td class="column0">&nbsp;</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11">&nbsp;</td>
+            <td class="column12">&nbsp;</td>
+            <td class="column13">&nbsp;</td>
+            <td class="column14">&nbsp;</td>
+          </tr>
+          <tr class="row5">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style3 s style3" colspan="3">Time period</td>
+            <td class="column4 style9 s">2014</td>
+            <td class="column5 style9 s">2015</td>
+            <td class="column6 style9 s">2016</td>
+            <td class="column7 style9 s">2017</td>
+            <td class="column8 style9 s">2018</td>
+            <td class="column9 style9 s">2019</td>
+            <td class="column10 style9 s">2020</td>
+            <td class="column11 style9 s">2021</td>
+            <td class="column12 style9 s">2022</td>
+            <td class="column13 style9 s">2023</td>
+            <td class="column14">&nbsp;</td>
+          </tr>
+          <tr class="row6">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style4 s">Reference area</td>
+            <td class="column2 style4 s">Combined unit of measure</td>
+            <td class="column3 style5 s"></td>
+            <td class="column4 style5 s"></td>
+            <td class="column5 style5 s"></td>
+            <td class="column6 style5 s"></td>
+            <td class="column7 style5 s"></td>
+            <td class="column8 style5 s"></td>
+            <td class="column9 style5 s"></td>
+            <td class="column10 style5 s"></td>
+            <td class="column11 style5 s"></td>
+            <td class="column12 style5 s"></td>
+            <td class="column13 style5 s"></td>
+            <td class="column14">&nbsp;</td>
+          </tr>
+          <tr class="row7">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style6 s">Australia</td>
+            <td class="column2 style6 s">US dollars, PPP converted, Chain linked volume (rebased), 2020, Millions</td>
+            <td class="column3 style7 s"></td>
+            <td class="column4 style10 n">990,171.9</td>
+            <td class="column5 style10 n">986,788.4</td>
+            <td class="column6 style10 n">1,040,399.9</td>
+            <td class="column7 style10 n">1,071,493.1</td>
+            <td class="column8 style10 n">1,110,720.7</td>
+            <td class="column9 style10 n">1,121,843.1</td>
+            <td class="column10 style10 n">1,188,706.3</td>
+            <td class="column11 style10 n">1,238,645.8</td>
+            <td class="column12 style10 n">1,267,755.8</td>
+            <td class="column13 style13 s"></td>
+            <td class="column14">&nbsp;</td>
+          </tr>
+          <tr class="row8">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style6 s">Austria</td>
+            <td class="column2 style6 s">US dollars, PPP converted, Chain linked volume (rebased), 2020, Millions</td>
+            <td class="column3 style7 s"></td>
+            <td class="column4 style10 n">414,013.5</td>
+            <td class="column5 style10 n">415,896.3</td>
+            <td class="column6 style10 n">431,230.0</td>
+            <td class="column7 style10 n">433,701.9</td>
+            <td class="column8 style10 n">441,054.1</td>
+            <td class="column9 style10 n">448,207.4</td>
+            <td class="column10 style10 n">419,227.9</td>
+            <td class="column11 style10 n">440,395.0</td>
+            <td class="column12 style10 n">441,477.2</td>
+            <td class="column13 style13 s"></td>
+            <td class="column14">&nbsp;</td>
+          </tr>
+          <tr class="row9">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style6 s">Belgium</td>
+            <td class="column2 style6 s">US dollars, PPP converted, Chain linked volume (rebased), 2020, Millions</td>
+            <td class="column3 style7 s"></td>
+            <td class="column4 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   498,647.8</td>
+            <td class="column5 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   512,155.1</td>
+            <td class="column6 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   520,042.1</td>
+            <td class="column7 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   528,436.2</td>
+            <td class="column8 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   531,659.1</td>
+            <td class="column9 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   546,617.5</td>
+            <td class="column10 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   510,913.2</td>
+            <td class="column11 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   548,555.5</td>
+            <td class="column12 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   546,673.0</td>
+            <td class="column13 style13 s"></td>
+            <td class="column14">&nbsp;</td>
+          </tr>
+          <tr class="row10">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style6 s">Canada</td>
+            <td class="column2 style6 s">US dollars, PPP converted, Chain linked volume (rebased), 2020, Millions</td>
+            <td class="column3 style7 s"></td>
+            <td class="column4 style10 n">1,493,670.2</td>
+            <td class="column5 style10 n">1,451,632.8</td>
+            <td class="column6 style10 n">1,464,383.1</td>
+            <td class="column7 style10 n">1,539,644.3</td>
+            <td class="column8 style10 n">1,579,425.4</td>
+            <td class="column9 style10 n">1,613,268.3</td>
+            <td class="column10 style10 n">1,501,422.1</td>
+            <td class="column11 style10 n">1,666,335.4</td>
+            <td class="column12 style10 n">1,751,791.9</td>
+            <td class="column13 style10 n">1,721,386.1</td>
+            <td class="column14">&nbsp;</td>
+          </tr>
+          <tr class="row11">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style6 s">Chile</td>
+            <td class="column2 style6 s">US dollars, PPP converted, Chain linked volume (rebased), 2020, Millions</td>
+            <td class="column3 style7 s"></td>
+            <td class="column4 style10 n">438,445.2</td>
+            <td class="column5 style10 n">453,186.4</td>
+            <td class="column6 style10 n">462,892.9</td>
+            <td class="column7 style10 n">475,202.1</td>
+            <td class="column8 style10 n">490,132.2</td>
+            <td class="column9 style10 n">491,014.1</td>
+            <td class="column10 style10 n">459,615.7</td>
+            <td class="column11 style10 n">527,269.5</td>
+            <td class="column12 style10 n">533,416.4</td>
+            <td class="column13 style10 n">537,271.6</td>
+            <td class="column14">&nbsp;</td>
+          </tr>
+          <tr class="row12">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style6 s">Costa Rica</td>
+            <td class="column2 style6 s">US dollars, PPP converted, Chain linked volume (rebased), 2020, Millions</td>
+            <td class="column3 style7 s"></td>
+            <td class="column4 style10 n">87,762.6</td>
+            <td class="column5 style10 n">92,811.4</td>
+            <td class="column6 style10 n">97,814.9</td>
+            <td class="column7 style10 n">100,052.5</td>
+            <td class="column8 style10 n">101,619.0</td>
+            <td class="column9 style10 n">104,472.4</td>
+            <td class="column10 style10 n">99,709.4</td>
+            <td class="column11 style10 n">105,045.4</td>
+            <td class="column12 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   105,870.4</td>
+            <td class="column13 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   113,203.2</td>
+            <td class="column14">&nbsp;</td>
+          </tr>
+          <tr class="row13">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style6 s">Czechia</td>
+            <td class="column2 style6 s">US dollars, PPP converted, Chain linked volume (rebased), 2020, Millions</td>
+            <td class="column3 style7 s"></td>
+            <td class="column4 style10 n">296,802.8</td>
+            <td class="column5 style10 n">312,035.8</td>
+            <td class="column6 style10 n">319,968.2</td>
+            <td class="column7 style10 n">341,164.6</td>
+            <td class="column8 style10 n">353,473.0</td>
+            <td class="column9 style10 n">364,912.6</td>
+            <td class="column10 style10 n">343,132.6</td>
+            <td class="column11 style10 n">366,018.7</td>
+            <td class="column12 style10 n">362,878.9</td>
+            <td class="column13 style10 n">384,085.2</td>
+            <td class="column14">&nbsp;</td>
+          </tr>
+          <tr class="row14">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style6 s">Denmark</td>
+            <td class="column2 style6 s">US dollars, PPP converted, Chain linked volume (rebased), 2020, Millions</td>
+            <td class="column3 style7 s"></td>
+            <td class="column4 style10 n">278,256.2</td>
+            <td class="column5 style10 n">284,290.1</td>
+            <td class="column6 style10 n">291,181.9</td>
+            <td class="column7 style10 n">300,524.3</td>
+            <td class="column8 style10 n">305,441.7</td>
+            <td class="column9 style10 n">309,957.2</td>
+            <td class="column10 style10 n">307,680.4</td>
+            <td class="column11 style10 n">340,292.7</td>
+            <td class="column12 style10 n">350,344.7</td>
+            <td class="column13 style10 n">325,884.6</td>
+            <td class="column14">&nbsp;</td>
+          </tr>
+          <tr class="row15">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style6 s">Estonia</td>
+            <td class="column2 style6 s">US dollars, PPP converted, Chain linked volume (rebased), 2020, Millions</td>
+            <td class="column3 style7 s"></td>
+            <td class="column4 style10 n">37,446.1</td>
+            <td class="column5 style10 n">38,129.3</td>
+            <td class="column6 style10 n">39,686.7</td>
+            <td class="column7 style10 n">42,363.9</td>
+            <td class="column8 style10 n">44,345.4</td>
+            <td class="column9 style10 n">46,149.7</td>
+            <td class="column10 style10 n">43,634.5</td>
+            <td class="column11 style10 n">47,988.2</td>
+            <td class="column12 style10 n">47,045.2</td>
+            <td class="column13 style13 s"></td>
+            <td class="column14">&nbsp;</td>
+          </tr>
+          <tr class="row16">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style6 s">Finland</td>
+            <td class="column2 style6 s">US dollars, PPP converted, Chain linked volume (rebased), 2020, Millions</td>
+            <td class="column3 style7 s"></td>
+            <td class="column4 style10 n">220,885.5</td>
+            <td class="column5 style10 n">225,287.4</td>
+            <td class="column6 style10 n">230,832.0</td>
+            <td class="column7 style10 n">238,207.4</td>
+            <td class="column8 style10 n">241,998.3</td>
+            <td class="column9 style10 n">243,748.4</td>
+            <td class="column10 style10 n">240,385.3</td>
+            <td class="column11 style10 n">247,858.8</td>
+            <td class="column12 style10 n">247,016.5</td>
+            <td class="column13 style10 n">237,190.6</td>
+            <td class="column14">&nbsp;</td>
+          </tr>
+          <tr class="row17">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style6 s">France</td>
+            <td class="column2 style6 s">US dollars, PPP converted, Chain linked volume (rebased), 2020, Millions</td>
+            <td class="column3 style7 s"></td>
+            <td class="column4 style10 n">2,744,845.5</td>
+            <td class="column5 style10 n">2,807,937.3</td>
+            <td class="column6 style10 n">2,836,997.2</td>
+            <td class="column7 style10 n">2,887,596.5</td>
+            <td class="column8 style10 n">2,922,160.0</td>
+            <td class="column9 style10 n">3,012,159.1</td>
+            <td class="column10 style10 n">2,709,025.9</td>
+            <td class="column11 style10 n">2,955,196.4</td>
+            <td class="column12 style12 n"><a class="comment-indicator"></a><div class="comment">Observation status: Provisional value</div>
+P   2,958,550.4</td>
+            <td class="column13 style12 n"><a class="comment-indicator"></a><div class="comment">Observation status: Provisional value</div>
+P   2,964,615.5</td>
+            <td class="column14">&nbsp;</td>
+          </tr>
+          <tr class="row18">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style6 s">Germany</td>
+            <td class="column2 style6 s">US dollars, PPP converted, Chain linked volume (rebased), 2020, Millions</td>
+            <td class="column3 style7 s"></td>
+            <td class="column4 style10 n">3,733,586.3</td>
+            <td class="column5 style10 n">3,842,823.5</td>
+            <td class="column6 style10 n">3,968,154.1</td>
+            <td class="column7 style10 n">4,047,021.6</td>
+            <td class="column8 style10 n">4,113,456.7</td>
+            <td class="column9 style12 n"><a class="comment-indicator"></a><div class="comment">Observation status: Provisional value</div>
+P   4,178,680.1</td>
+            <td class="column10 style12 n"><a class="comment-indicator"></a><div class="comment">Observation status: Provisional value</div>
+P   3,948,819.6</td>
+            <td class="column11 style12 n"><a class="comment-indicator"></a><div class="comment">Observation status: Provisional value</div>
+P   4,092,277.2</td>
+            <td class="column12 style12 n"><a class="comment-indicator"></a><div class="comment">Observation status: Provisional value</div>
+P   4,037,802.5</td>
+            <td class="column13 style12 n"><a class="comment-indicator"></a><div class="comment">Observation status: Provisional value</div>
+P   4,107,078.1</td>
+            <td class="column14">&nbsp;</td>
+          </tr>
+          <tr class="row19">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style6 s">Greece</td>
+            <td class="column2 style6 s">US dollars, PPP converted, Chain linked volume (rebased), 2020, Millions</td>
+            <td class="column3 style7 s"></td>
+            <td class="column4 style10 n">272,538.3</td>
+            <td class="column5 style10 n">275,960.5</td>
+            <td class="column6 style10 n">275,568.6</td>
+            <td class="column7 style10 n">280,316.5</td>
+            <td class="column8 style10 n">281,771.8</td>
+            <td class="column9 style10 n">290,895.9</td>
+            <td class="column10 style12 n"><a class="comment-indicator"></a><div class="comment">Observation status: Provisional value</div>
+P   260,605.6</td>
+            <td class="column11 style12 n"><a class="comment-indicator"></a><div class="comment">Observation status: Provisional value</div>
+P   280,944.5</td>
+            <td class="column12 style12 n"><a class="comment-indicator"></a><div class="comment">Observation status: Provisional value</div>
+P   303,349.2</td>
+            <td class="column13 style13 s"></td>
+            <td class="column14">&nbsp;</td>
+          </tr>
+          <tr class="row20">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style6 s">Hungary</td>
+            <td class="column2 style6 s">US dollars, PPP converted, Chain linked volume (rebased), 2020, Millions</td>
+            <td class="column3 style7 s"></td>
+            <td class="column4 style10 n">225,267.9</td>
+            <td class="column5 style10 n">234,071.2</td>
+            <td class="column6 style10 n">245,166.7</td>
+            <td class="column7 style10 n">252,712.7</td>
+            <td class="column8 style10 n">267,954.5</td>
+            <td class="column9 style10 n">284,869.1</td>
+            <td class="column10 style10 n">272,146.5</td>
+            <td class="column11 style10 n">279,663.5</td>
+            <td class="column12 style12 n"><a class="comment-indicator"></a><div class="comment">Observation status: Provisional value</div>
+P   277,397.6</td>
+            <td class="column13 style13 s"></td>
+            <td class="column14">&nbsp;</td>
+          </tr>
+          <tr class="row21">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style6 s">Ireland</td>
+            <td class="column2 style6 s">US dollars, PPP converted, Chain linked volume (rebased), 2020, Millions</td>
+            <td class="column3 style7 s"></td>
+            <td class="column4 style10 n">188,861.6</td>
+            <td class="column5 style10 n">203,138.6</td>
+            <td class="column6 style10 n">206,877.7</td>
+            <td class="column7 style10 n">215,258.9</td>
+            <td class="column8 style10 n">217,371.4</td>
+            <td class="column9 style10 n">228,009.4</td>
+            <td class="column10 style10 n">217,642.4</td>
+            <td class="column11 style10 n">256,025.1</td>
+            <td class="column12 style10 n">269,453.6</td>
+            <td class="column13 style10 n">282,576.6</td>
+            <td class="column14">&nbsp;</td>
+          </tr>
+          <tr class="row22">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style6 s">Israel</td>
+            <td class="column2 style6 s">US dollars, PPP converted, Chain linked volume (rebased), 2020, Millions</td>
+            <td class="column3 style7 s"></td>
+            <td class="column4 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   268,233.2</td>
+            <td class="column5 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   278,982.8</td>
+            <td class="column6 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   294,195.0</td>
+            <td class="column7 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   306,680.5</td>
+            <td class="column8 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   317,231.9</td>
+            <td class="column9 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   332,041.0</td>
+            <td class="column10 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   323,419.8</td>
+            <td class="column11 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   356,359.4</td>
+            <td class="column12 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   382,887.2</td>
+            <td class="column13 style13 s"></td>
+            <td class="column14">&nbsp;</td>
+          </tr>
+          <tr class="row23">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style6 s">Italy</td>
+            <td class="column2 style6 s">US dollars, PPP converted, Chain linked volume (rebased), 2020, Millions</td>
+            <td class="column3 style7 s"></td>
+            <td class="column4 style10 n">2,167,399.2</td>
+            <td class="column5 style10 n">2,186,247.6</td>
+            <td class="column6 style10 n">2,265,901.7</td>
+            <td class="column7 style10 n">2,308,069.2</td>
+            <td class="column8 style10 n">2,336,125.2</td>
+            <td class="column9 style10 n">2,344,320.6</td>
+            <td class="column10 style10 n">2,121,285.2</td>
+            <td class="column11 style10 n">2,306,078.7</td>
+            <td class="column12 style10 n">2,346,965.1</td>
+            <td class="column13 style10 n">2,407,240.1</td>
+            <td class="column14">&nbsp;</td>
+          </tr>
+          <tr class="row24">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style6 s">Japan</td>
+            <td class="column2 style6 s">US dollars, PPP converted, Chain linked volume (rebased), 2020, Millions</td>
+            <td class="column3 style7 s"></td>
+            <td class="column4 style10 n">4,147,415.2</td>
+            <td class="column5 style10 n">4,320,272.5</td>
+            <td class="column6 style10 n">4,378,714.9</td>
+            <td class="column7 style10 n">4,441,831.3</td>
+            <td class="column8 style10 n">4,426,828.5</td>
+            <td class="column9 style10 n">4,408,053.4</td>
+            <td class="column10 style10 n">4,181,451.6</td>
+            <td class="column11 style10 n">4,302,641.7</td>
+            <td class="column12 style10 n">4,266,803.1</td>
+            <td class="column13 style13 s"></td>
+            <td class="column14">&nbsp;</td>
+          </tr>
+          <tr class="row25">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style6 s">Korea</td>
+            <td class="column2 style6 s">US dollars, PPP converted, Chain linked volume (rebased), 2020, Millions</td>
+            <td class="column3 style7 s"></td>
+            <td class="column4 style10 n">1,734,435.2</td>
+            <td class="column5 style10 n">1,841,550.2</td>
+            <td class="column6 style10 n">1,919,751.6</td>
+            <td class="column7 style10 n">1,983,633.5</td>
+            <td class="column8 style10 n">2,014,687.5</td>
+            <td class="column9 style10 n">2,008,511.5</td>
+            <td class="column10 style10 n">1,988,183.9</td>
+            <td class="column11 style10 n">2,066,311.6</td>
+            <td class="column12 style10 n">2,027,625.8</td>
+            <td class="column13 style12 n"><a class="comment-indicator"></a><div class="comment">Observation status: Provisional value</div>
+P   2,053,338.2</td>
+            <td class="column14">&nbsp;</td>
+          </tr>
+          <tr class="row26">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style6 s">Latvia</td>
+            <td class="column2 style6 s">US dollars, PPP converted, Chain linked volume (rebased), 2020, Millions</td>
+            <td class="column3 style7 s"></td>
+            <td class="column4 style10 n">42,514.9</td>
+            <td class="column5 style10 n">44,352.3</td>
+            <td class="column6 style10 n">46,789.1</td>
+            <td class="column7 style10 n">49,178.5</td>
+            <td class="column8 style10 n">51,107.2</td>
+            <td class="column9 style10 n">52,480.6</td>
+            <td class="column10 style10 n">51,452.1</td>
+            <td class="column11 style10 n">53,261.4</td>
+            <td class="column12 style10 n">53,357.6</td>
+            <td class="column13 style10 n">56,382.7</td>
+            <td class="column14">&nbsp;</td>
+          </tr>
+          <tr class="row27">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style6 s">Lithuania</td>
+            <td class="column2 style6 s">US dollars, PPP converted, Chain linked volume (rebased), 2020, Millions</td>
+            <td class="column3 style7 s"></td>
+            <td class="column4 style10 n">82,204.7</td>
+            <td class="column5 style10 n">82,370.6</td>
+            <td class="column6 style10 n">85,632.8</td>
+            <td class="column7 style10 n">90,113.4</td>
+            <td class="column8 style10 n">93,116.1</td>
+            <td class="column9 style10 n">97,972.9</td>
+            <td class="column10 style10 n">97,681.2</td>
+            <td class="column11 style10 n">98,923.9</td>
+            <td class="column12 style10 n">96,419.9</td>
+            <td class="column13 style13 s"></td>
+            <td class="column14">&nbsp;</td>
+          </tr>
+          <tr class="row28">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style6 s">Luxembourg</td>
+            <td class="column2 style6 s">US dollars, PPP converted, Chain linked volume (rebased), 2020, Millions</td>
+            <td class="column3 style7 s"></td>
+            <td class="column4 style10 n">42,540.8</td>
+            <td class="column5 style10 n">38,840.6</td>
+            <td class="column6 style10 n">41,135.2</td>
+            <td class="column7 style10 n">43,957.5</td>
+            <td class="column8 style10 n">44,430.0</td>
+            <td class="column9 style10 n">43,270.2</td>
+            <td class="column10 style10 n">44,368.0</td>
+            <td class="column11 style10 n">47,190.9</td>
+            <td class="column12 style10 n">45,357.8</td>
+            <td class="column13 style13 s"></td>
+            <td class="column14">&nbsp;</td>
+          </tr>
+          <tr class="row29">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style6 s">Mexico</td>
+            <td class="column2 style6 s">US dollars, PPP converted, Chain linked volume (rebased), 2020, Millions</td>
+            <td class="column3 style7 s"></td>
+            <td class="column4 style10 n">2,017,550.3</td>
+            <td class="column5 style10 n">2,058,276.4</td>
+            <td class="column6 style10 n">2,077,273.6</td>
+            <td class="column7 style10 n">2,129,788.6</td>
+            <td class="column8 style10 n">2,177,500.9</td>
+            <td class="column9 style10 n">2,198,108.2</td>
+            <td class="column10 style10 n">1,951,675.1</td>
+            <td class="column11 style10 n">2,085,678.8</td>
+            <td class="column12 style12 n"><a class="comment-indicator"></a><div class="comment">Observation status: Provisional value</div>
+P   2,138,810.9</td>
+            <td class="column13 style12 n"><a class="comment-indicator"></a><div class="comment">Observation status: Provisional value</div>
+P   2,279,129.8</td>
+            <td class="column14">&nbsp;</td>
+          </tr>
+          <tr class="row30">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style6 s">Netherlands</td>
+            <td class="column2 style6 s">US dollars, PPP converted, Chain linked volume (rebased), 2020, Millions</td>
+            <td class="column3 style7 s"></td>
+            <td class="column4 style10 n">808,737.4</td>
+            <td class="column5 style10 n">829,656.7</td>
+            <td class="column6 style10 n">844,399.5</td>
+            <td class="column7 style10 n">880,218.8</td>
+            <td class="column8 style10 n">912,103.4</td>
+            <td class="column9 style10 n">919,796.3</td>
+            <td class="column10 style10 n">857,001.8</td>
+            <td class="column11 style10 n">966,552.9</td>
+            <td class="column12 style10 n">979,882.6</td>
+            <td class="column13 style12 n"><a class="comment-indicator"></a><div class="comment">Observation status: Provisional value</div>
+P   1,007,744.5</td>
+            <td class="column14">&nbsp;</td>
+          </tr>
+          <tr class="row31">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style6 s">New Zealand</td>
+            <td class="column2 style6 s">US dollars, PPP converted, Chain linked volume (rebased), 2020, Millions</td>
+            <td class="column3 style7 s"></td>
+            <td class="column4 style10 n">155,557.6</td>
+            <td class="column5 style10 n">161,859.3</td>
+            <td class="column6 style10 n">169,734.9</td>
+            <td class="column7 style10 n">178,153.0</td>
+            <td class="column8 style10 n">181,914.5</td>
+            <td class="column9 style10 n">192,414.3</td>
+            <td class="column10 style10 n">192,784.4</td>
+            <td class="column11 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   199,780.2</td>
+            <td class="column12 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   200,087.9</td>
+            <td class="column13 style13 s"></td>
+            <td class="column14">&nbsp;</td>
+          </tr>
+          <tr class="row32">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style6 s">Norway</td>
+            <td class="column2 style6 s">US dollars, PPP converted, Chain linked volume (rebased), 2020, Millions</td>
+            <td class="column3 style7 s"></td>
+            <td class="column4 style10 n">328,010.8</td>
+            <td class="column5 style10 n">316,714.8</td>
+            <td class="column6 style10 n">307,931.7</td>
+            <td class="column7 style10 n">322,019.1</td>
+            <td class="column8 style10 n">339,084.9</td>
+            <td class="column9 style10 n">324,314.2</td>
+            <td class="column10 style10 n">295,792.2</td>
+            <td class="column11 style10 n">355,036.0</td>
+            <td class="column12 style10 n">467,637.4</td>
+            <td class="column13 style13 s"></td>
+            <td class="column14">&nbsp;</td>
+          </tr>
+          <tr class="row33">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style6 s">Poland</td>
+            <td class="column2 style6 s">US dollars, PPP converted, Chain linked volume (rebased), 2020, Millions</td>
+            <td class="column3 style7 s"></td>
+            <td class="column4 style10 n">928,621.9</td>
+            <td class="column5 style10 n">979,355.6</td>
+            <td class="column6 style10 n">998,357.6</td>
+            <td class="column7 style10 n">1,057,146.8</td>
+            <td class="column8 style10 n">1,116,494.1</td>
+            <td class="column9 style10 n">1,174,723.7</td>
+            <td class="column10 style10 n">1,168,052.1</td>
+            <td class="column11 style10 n">1,223,098.8</td>
+            <td class="column12 style10 n">1,280,890.5</td>
+            <td class="column13 style13 s"></td>
+            <td class="column14">&nbsp;</td>
+          </tr>
+          <tr class="row34">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style6 s">Portugal</td>
+            <td class="column2 style6 s">US dollars, PPP converted, Chain linked volume (rebased), 2020, Millions</td>
+            <td class="column3 style7 s"></td>
+            <td class="column4 style10 n">285,648.6</td>
+            <td class="column5 style10 n">293,904.9</td>
+            <td class="column6 style10 n">302,299.1</td>
+            <td class="column7 style10 n">313,588.5</td>
+            <td class="column8 style10 n">319,813.0</td>
+            <td class="column9 style10 n">328,469.1</td>
+            <td class="column10 style10 n">300,107.7</td>
+            <td class="column11 style10 n">319,070.6</td>
+            <td class="column12 style12 n"><a class="comment-indicator"></a><div class="comment">Observation status: Provisional value</div>
+P   331,192.8</td>
+            <td class="column13 style11 n"><a class="comment-indicator"></a><div class="comment">Observation status: Estimated value</div>
+E   347,892.6</td>
+            <td class="column14">&nbsp;</td>
+          </tr>
+          <tr class="row35">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style6 s">Slovak Republic</td>
+            <td class="column2 style6 s">US dollars, PPP converted, Chain linked volume (rebased), 2020, Millions</td>
+            <td class="column3 style7 s"></td>
+            <td class="column4 style10 n">138,038.7</td>
+            <td class="column5 style10 n">143,043.5</td>
+            <td class="column6 style10 n">142,475.6</td>
+            <td class="column7 style10 n">149,643.3</td>
+            <td class="column8 style10 n">156,222.5</td>
+            <td class="column9 style10 n">158,144.6</td>
+            <td class="column10 style10 n">154,336.5</td>
+            <td class="column11 style10 n">156,847.2</td>
+            <td class="column12 style10 n">156,022.9</td>
+            <td class="column13 style10 n">162,173.7</td>
+            <td class="column14">&nbsp;</td>
+          </tr>
+          <tr class="row36">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style6 s">Slovenia</td>
+            <td class="column2 style6 s">US dollars, PPP converted, Chain linked volume (rebased), 2020, Millions</td>
+            <td class="column3 style7 s"></td>
+            <td class="column4 style10 n">58,949.6</td>
+            <td class="column5 style10 n">59,125.9</td>
+            <td class="column6 style10 n">62,043.9</td>
+            <td class="column7 style10 n">66,434.1</td>
+            <td class="column8 style10 n">70,097.9</td>
+            <td class="column9 style10 n">72,851.0</td>
+            <td class="column10 style10 n">69,805.3</td>
+            <td class="column11 style10 n">74,012.1</td>
+            <td class="column12 style10 n">72,570.2</td>
+            <td class="column13 style13 s"></td>
+            <td class="column14">&nbsp;</td>
+          </tr>
+          <tr class="row37">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style6 s">Spain</td>
+            <td class="column2 style6 s">US dollars, PPP converted, Chain linked volume (rebased), 2020, Millions</td>
+            <td class="column3 style7 s"></td>
+            <td class="column4 style10 n">1,486,432.2</td>
+            <td class="column5 style10 n">1,558,747.4</td>
+            <td class="column6 style10 n">1,613,365.0</td>
+            <td class="column7 style10 n">1,662,943.8</td>
+            <td class="column8 style10 n">1,700,352.2</td>
+            <td class="column9 style10 n">1,733,388.0</td>
+            <td class="column10 style10 n">1,509,479.2</td>
+            <td class="column11 style10 n">1,626,595.0</td>
+            <td class="column12 style12 n"><a class="comment-indicator"></a><div class="comment">Observation status: Provisional value</div>
+P   1,666,971.2</td>
+            <td class="column13 style13 s"></td>
+            <td class="column14">&nbsp;</td>
+          </tr>
+          <tr class="row38">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style6 s">Sweden</td>
+            <td class="column2 style6 s">US dollars, PPP converted, Chain linked volume (rebased), 2020, Millions</td>
+            <td class="column3 style7 s"></td>
+            <td class="column4 style10 n">448,984.7</td>
+            <td class="column5 style10 n">465,553.3</td>
+            <td class="column6 style10 n">476,511.6</td>
+            <td class="column7 style10 n">488,030.2</td>
+            <td class="column8 style10 n">495,393.1</td>
+            <td class="column9 style10 n">514,049.2</td>
+            <td class="column10 style10 n">502,791.6</td>
+            <td class="column11 style10 n">541,487.8</td>
+            <td class="column12 style10 n">538,816.2</td>
+            <td class="column13 style10 n">529,482.7</td>
+            <td class="column14">&nbsp;</td>
+          </tr>
+          <tr class="row39">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style6 s">Switzerland</td>
+            <td class="column2 style6 s">US dollars, PPP converted, Chain linked volume (rebased), 2020, Millions</td>
+            <td class="column3 style7 s"></td>
+            <td class="column4 style10 n">446,782.0</td>
+            <td class="column5 style10 n">467,799.5</td>
+            <td class="column6 style10 n">460,771.2</td>
+            <td class="column7 style10 n">457,285.4</td>
+            <td class="column8 style10 n">458,639.1</td>
+            <td class="column9 style10 n">461,800.6</td>
+            <td class="column10 style10 n">435,645.2</td>
+            <td class="column11 style10 n">473,744.5</td>
+            <td class="column12 style12 n"><a class="comment-indicator"></a><div class="comment">Observation status: Provisional value</div>
+P   499,341.7</td>
+            <td class="column13 style12 n"><a class="comment-indicator"></a><div class="comment">Observation status: Provisional value</div>
+P   488,752.1</td>
+            <td class="column14">&nbsp;</td>
+          </tr>
+          <tr class="row40">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style6 s">United Kingdom</td>
+            <td class="column2 style6 s">US dollars, PPP converted, Chain linked volume (rebased), 2020, Millions</td>
+            <td class="column3 style7 s"></td>
+            <td class="column4 style10 n">2,660,827.7</td>
+            <td class="column5 style10 n">2,726,874.0</td>
+            <td class="column6 style10 n">2,771,643.1</td>
+            <td class="column7 style10 n">2,876,399.9</td>
+            <td class="column8 style10 n">2,899,816.4</td>
+            <td class="column9 style10 n">2,995,285.0</td>
+            <td class="column10 style10 n">2,584,322.5</td>
+            <td class="column11 style10 n">2,947,254.5</td>
+            <td class="column12 style10 n">3,059,686.0</td>
+            <td class="column13 style10 n">3,050,620.3</td>
+            <td class="column14">&nbsp;</td>
+          </tr>
+          <tr class="row41">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style6 s">United States</td>
+            <td class="column2 style6 s">US dollars, PPP converted, Chain linked volume (rebased), 2020, Millions</td>
+            <td class="column3 style7 s"></td>
+            <td class="column4 style10 n">16,243,370.1</td>
+            <td class="column5 style10 n">16,744,768.6</td>
+            <td class="column6 style10 n">16,933,667.0</td>
+            <td class="column7 style10 n">17,392,063.8</td>
+            <td class="column8 style10 n">17,909,782.1</td>
+            <td class="column9 style10 n">18,359,263.3</td>
+            <td class="column10 style10 n">17,695,860.0</td>
+            <td class="column11 style10 n">18,931,479.5</td>
+            <td class="column12 style10 n">19,299,820.4</td>
+            <td class="column13 style13 s"></td>
+            <td class="column14">&nbsp;</td>
+          </tr>
+          <tr class="row42">
+            <td class="column0">&nbsp;</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11">&nbsp;</td>
+            <td class="column12">&nbsp;</td>
+            <td class="column13">&nbsp;</td>
+            <td class="column14">&nbsp;</td>
+          </tr>
+          <tr class="row43">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style8 s"><a href="http://www.oecd.org/termsandconditions/" title="">© Terms &amp; conditions </a></td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11">&nbsp;</td>
+            <td class="column12">&nbsp;</td>
+            <td class="column13">&nbsp;</td>
+            <td class="column14 style14 s"><a href="https://data-explorer.oecd.org/vis?lc=en&amp;df[ds]=dsDisseminateFinalDMZ&amp;df[id]=DSD_NAMAIN10%40DF_TABLE2_B6_VPVOP&amp;df[ag]=OECD.SDD.NAD&amp;dq=A.AUS%2BAUT%2BBEL%2BCAN%2BCHL%2BCRI%2BCZE%2BDNK%2BEST%2BFIN%2BFRA%2BDEU%2BGRC%2BHUN%2BIRL%2BISR%2BITA%2BJPN%2BKOR%2BLVA%2BLTU%2BLUX%2BMEX%2BNLD%2BNZL%2BNOR%2BPOL%2BPRT%2BSVK%2BSVN%2BESP%2BSWE%2BCHE%2BGBR%2BUSA...B6N.......&amp;lom=LASTNPERIODS&amp;lo=10&amp;to[TIME_PERIOD]=false&amp;vw=tb" title="">Annual national disposable income, US $, volume, constant PPPs</a></td>
+          </tr>
+        </tbody>
+    </table>
+  </body>
+</html>

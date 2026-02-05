@@ -1,0 +1,16 @@
+\begin{table}[]
+\begin{tabular}{lllllllllllllllll}
+\multicolumn{3}{l}{Consolidated data} &                &                &               &             &             &  &              &             &          &                &                &               &             &             \\
+             &             &          & \multicolumn{3}{l}{Runx1/b-actin (fold change)} &             &             &  &              &             &          & \multicolumn{3}{l}{Runx3/b-actin (fold change)} &             &             \\
+             &             &          & Expt-1         & Expt-2         & Expt-3        & Mean        & SD          &  &              &             &          & Expt-1         & Expt-2         & Expt-3        & Mean        & SD          \\
+Set1         & Uninf       & DC- SAG  & 1              & 1              & 1             & 1           & 0           &  & Set1         & Uninf       & DC- SAG  & 1              & 1              & 1             & 1           & 0           \\
+Set2         & Uninf       & DC + SAG & 0.962120856    & 0.965756976    & 1.162920064   & 1.030265965 & 0.114896204 &  & Set2         & Uninf       & DC + SAG & 1.025370774    & 1.134107228    & 1.102084165   & 1.087187389 & 0.055877898 \\
+Set3         & LDPm 24h    & DC- SAG  & 1.105153843    & 0.997128758    & 1.10357906    & 1.068620554 & 0.061918718 &  & Set3         & LDPm 24h    & DC- SAG  & 1.188069383    & 1.138127247    & 0.955755743   & 1.093984124 & 0.12228601  \\
+Set4         & LDPm 24h    & DC + SAG & 0.976617332    & 1.118300792    & 1.323457492   & 1.139458539 & 0.174385383 &  & Set4         & LDPm 24h    & DC + SAG & 1.222511985    & 1.048715572    & 0.94831821    & 1.073181923 & 0.138724577 \\
+             &             &          &                &                &               &             &             &  &              &             &          &                &                &               &             &             \\
+Statistics   & Onway ANOVA &          &                &                &               &             &             &  & Statistics   & Onway ANOVA &          &                &                &               &             &             \\
+Set1 Vs Set2 & p=0.710     & NS       &                &                &               &             &             &  & Set1 Vs Set2 & p=0.064     & NS       &                &                &               &             &             \\
+Set3 Vs Set4 & p=0.553     & NS       &                &                &               &             &             &  & Set3 Vs Set4 & p=0.862     & NS       &                &                &               &             &             \\
+Set2 Vs Set4 & p=0.430     & NS       &                &                &               &             &             &  & Set2 Vs Set4 & p=0.859     & NS       &                &                &               &             &            
+\end{tabular}
+\end{table}

@@ -1,0 +1,26 @@
+\begin{table}[]
+\begin{tabular}{llllll}
+\multicolumn{2}{l}{HIV-DNA} & HIV - vDNA    & HBV-RNAscope   & DNA+ by qPCR  & Positive by either method \\
+first round  & second round &               &                &               &                           \\
++            & +            & +             & ++             &               & +                         \\
+-            & +            & +             & -              & +             & +                         \\
+-            & -            & -             & -              &               &                           \\
+-            & -            & -             & +              & +             & +                         \\
+-            & -            & -             & ++             &               &                           \\
+-            & +            & +             & +++            &               & +                         \\
++            & +            & +             & -              & +             & +                         \\
++            & +            & +             & + small biopsy &               & +                         \\
++            & +            & +             & + small biopsy & +             & +                         \\
+-            & -            & -             & ++             & +             & +                         \\
+-            & -            & -             & -              &               &                           \\
+-            & -            & -             & ++             & +             & +                         \\
+-            & -            & -             & -              & +             & +                         \\
+-            & -            & -             & -              &               &                           \\
+-            & -            & -             & -              &               &                           \\
+-            & -            & -             & + small biopsy &               &                           \\
+-            & -            & -             & -              & +             & +                         \\
++            & -            & +             & -              &               & +                         \\
+-            & -            & -             & -              &               &                           \\
+             &              & 7/19 positive &                & 8/19 positive & 12/19 positive           
+\end{tabular}
+\end{table}

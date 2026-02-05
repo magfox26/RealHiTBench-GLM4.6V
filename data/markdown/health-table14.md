@@ -1,0 +1,33 @@
+|    | DAILY TRACKER   |           |              |                 |                       | NUTRITION   |      |         |          |          | ACTIVITY   |       |     |      |      | WEIGHT   |
+|---:|:----------------|:----------|:-------------|:----------------|:----------------------|:------------|:-----|:--------|:---------|:---------|:-----------|:------|:----|:-----|:-----|:---------|
+|  0 | DATE            | TIME      | ACTION       | ACTIVITY        | DESCRIPTION           | SERVING     | KCAL | FAT (g) | CARB (g) | PROT (g) | MIN        | MILES | LBS | REPS | SETS | LBS      |
+|  1 | Thu, Mar 02     | MORNING   | FOOD         | FRUITS          | Fruit Salad           | 2 cups      | 100  | 2       | 15       | 4        |            |       |     |      |      |          |
+|  2 |                 | MORNING   | DRINK        | COFFEE          | 2 Creamers            | 20 oz       | 200  | 4       | 2        | 2        |            |       |     |      |      |          |
+|  3 |                 | AFTERNOON | FOOD         | GRAINS          | Sub Roll              | 1           | 300  | 5       | 20       | 5        |            |       |     |      |      |          |
+|  4 |                 | AFTERNOON | FOOD         | MEATS & POULTRY | Roast Beef            | 6 oz        | 400  | 4       | 2        | 16       |            |       |     | 350  |      |          |
+|  5 |                 | EVENING   | FOOD         | OILS & FATS     | Mayonnaise            | 1 tbsp      | 500  | 5       | 4        | 1        |            |       |     |      |      |          |
+|  6 |                 | EVENING   | DRINK        | BEER            | 2 Lagers              | 24 oz       | 600  | 0       | 36       | 2        |            |       |     |      |      |          |
+|  7 |                 | EVENING   | ACTIVITY     | WEIGHTLIFTING   | Bicep Curls           |             | 700  |         |          |          |            |       | 200 | 10   | 3    |          |
+|  8 |                 | EVENING   | WEIGH-IN     |                 |                       |             |      |         |          |          |            |       |     |      |      | 220      |
+|  9 |                 |           | DAILY TOTALS |                 |                       |             | 2800 | 20      | 79       | 30       | 0          | 0     | 200 | 360  | 3    | 220      |
+| 10 | Fri, Mar 03     | MORNING   | ACTIVITY     | RUNNING         | Morning run in park   |             |      |         |          |          | 30         | 2     |     |      |      |          |
+| 11 |                 | MORNING   | FOOD         | EGGS            | 2 Scrambled           | 2           | 120  | 4       | 2        | 16       |            |       |     |      |      |          |
+| 12 |                 | MORNING   | FOOD         | GRAINS          | Wheat Toast           | 1 slice     | 100  | 2       | 24       | 6        |            |       |     |      |      |          |
+| 13 |                 | MORNING   | DRINK        | COFFEE          | 2 Creamers            | 20 oz       | 90   | 4       | 2        | 2        |            |       |     |      |      |          |
+| 14 |                 | AFTERNOON | FOOD         | VEGETABLES      | Garden Salad          | 2 cups      | 45   | 0       | 100      | 8        |            |       |     |      |      |          |
+| 15 |                 | AFTERNOON | FOOD         | OILS & FATS     | Ranch Dressing        | 1 tbsp      | 80   | 5       | 100      | 1        |            |       |     |      |      |          |
+| 16 |                 | AFTERNOON | DRINK        | WATER           |                       | 20 oz       | 0    | 0       | 0        | 0        |            |       |     |      |      |          |
+| 17 |                 | AFTERNOON | ACTIVITY     | WALKING         | Walk around the block |             |      |         |          |          | 30         | 1     |     |      |      |          |
+| 18 |                 | EVENING   | FOOD         | FISH & SEAFOOD  | Salmon                | 6 oz        | 110  | 2       | 4        | 24       |            |       |     |      |      |          |
+| 19 |                 | EVENING   | FOOD         | GRAINS          | Hamburger Bun         | 1           | 125  | 2       | 28       | 4        |            |       |     |      |      |          |
+| 20 |                 | EVENING   | FOOD         | VEGETABLES      | Lettuce & Tomato      | 2 oz        | 15   | 0       | 2        | 1        |            |       |     |      |      |          |
+| 21 |                 | EVENING   | DRINK        | WINE            | a nice Cabernet       | 8 oz        | 125  | 0       | 0        | 0        |            |       |     |      |      |          |
+| 22 |                 | EVENING   | ACTIVITY     | PUSH-UPS        | Buzzed Push-ups       |             |      |         |          |          |            |       |     | 10   | 3    |          |
+| 23 |                 | EVENING   | WEIGH-IN     |                 |                       |             |      |         |          |          |            |       |     |      |      | 219      |
+| 24 |                 |           | DAILY TOTALS |                 |                       |             | 810  | 19      | 262      | 62       | 60         | 3     | 0   | 10   | 3    | 219      |
+| 25 | Sat, Mar 04     | MORNING   | ACTIVITY     | RUNNING         | Springfield Marathon  |             |      |         |          |          | 160        | 26.2  |     |      |      |          |
+| 26 |                 | MORNING   | FOOD         | SUGARS & EXTRAS | 1 Bacon Ranch Pizza   | 8           | 3000 | 240     | 200      | 45       |            |       |     |      |      |          |
+| 27 |                 | MORNING   | DRINK        | BEER            | 1 Case of beer        | 24          | 2880 | 0       | 450      | 24       |            |       |     |      |      |          |
+| 28 |                 | AFTERNOON | FOOD         | VEGETABLES      | 1 Jar of Olives       | 10          | 300  | 30      | 50       | 4        |            |       |     |      |      |          |
+| 29 |                 | AFTERNOON | ACTIVITY     | YOGA            | Bikram Yoga           |             |      |         |          |          | 60         |       |     |      |      |          |
+| 30 |                 |           | DAILY TOTALS |                 |                       |             | 6180 | 270     | 700      | 73       | 220        | 26.2  | 0   | 0    | 0    | 0        |

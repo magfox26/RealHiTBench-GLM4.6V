@@ -1,0 +1,92 @@
+[
+  {
+    "Chromosome": "Homozygous Recessive",
+    "Position": null,
+    "Reference Allele": null,
+    "Alternate Allele": null,
+    "Gene Symbol": null,
+    "Consequence": null,
+    "HGVS Name (cDNA)": null,
+    "HGVS Name (protein)": null
+  },
+  {
+    "Chromosome": "1",
+    "Position": "151105831",
+    "Reference Allele": "T",
+    "Alternate Allele": "C",
+    "Gene Symbol": "SEMA6C",
+    "Consequence": "missense_variant",
+    "HGVS Name (cDNA)": "ENST00000368913.3:c.2018N>G",
+    "HGVS Name (protein)": "ENSP00000357909.3:p.Glu673Gly"
+  },
+  {
+    "Chromosome": "Compound Heterozygotes",
+    "Position": null,
+    "Reference Allele": null,
+    "Alternate Allele": null,
+    "Gene Symbol": null,
+    "Consequence": null,
+    "HGVS Name (cDNA)": null,
+    "HGVS Name (protein)": null
+  },
+  {
+    "Chromosome": "8",
+    "Position": "41790141",
+    "Reference Allele": "G",
+    "Alternate Allele": "C",
+    "Gene Symbol": "KAT6A",
+    "Consequence": "missense_variant",
+    "HGVS Name (cDNA)": "ENST00000396930.3:c.5597N>G",
+    "HGVS Name (protein)": "ENSP00000380136.3:p.Ser1866Cys"
+  },
+  {
+    "Chromosome": "8",
+    "Position": "41906160",
+    "Reference Allele": "C",
+    "Alternate Allele": "G",
+    "Gene Symbol": "KAT6A",
+    "Consequence": "missense_variant",
+    "HGVS Name (cDNA)": "ENST00000396930.3:c.336N>C",
+    "HGVS Name (protein)": "ENSP00000380136.3:p.Glu112Asp"
+  },
+  {
+    "Chromosome": "10",
+    "Position": "129216807",
+    "Reference Allele": "T",
+    "Alternate Allele": "C",
+    "Gene Symbol": "DOCK1",
+    "Consequence": "splice_donor_variant",
+    "HGVS Name (cDNA)": "ENST00000280333.6:c.4629+2N>C",
+    "HGVS Name (protein)": null
+  },
+  {
+    "Chromosome": "10",
+    "Position": "129242460",
+    "Reference Allele": "C",
+    "Alternate Allele": "T",
+    "Gene Symbol": "DOCK1",
+    "Consequence": "missense_variant",
+    "HGVS Name (cDNA)": "ENST00000280333.6:c.5267N>T",
+    "HGVS Name (protein)": "ENSP00000280333.6:p.Ser1756Leu"
+  },
+  {
+    "Chromosome": "15",
+    "Position": "75650903",
+    "Reference Allele": "C",
+    "Alternate Allele": "T",
+    "Gene Symbol": "MAN2C1",
+    "Consequence": "missense_variant",
+    "HGVS Name (cDNA)": "ENST00000565683.1:c.2354N>A",
+    "HGVS Name (protein)": "ENSP00000457788.1:p.Arg785Gln"
+  },
+  {
+    "Chromosome": "15",
+    "Position": "75653996",
+    "Reference Allele": "G",
+    "Alternate Allele": "C",
+    "Gene Symbol": "MAN2C1",
+    "Consequence": "missense_variant",
+    "HGVS Name (cDNA)": "ENST00000565683.1:c.1167N>G",
+    "HGVS Name (protein)": "ENSP00000457788.1:p.Ile389Met"
+  }
+]

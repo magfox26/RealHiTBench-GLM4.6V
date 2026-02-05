@@ -1,0 +1,1628 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <meta name="generator" content="PhpSpreadsheet, https://github.com/PHPOffice/PhpSpreadsheet">
+      <meta name="author" content="pallen2" />
+      <meta name="company" content="Department for Transport" />
+    <style type="text/css">
+      html { font-family:Calibri, Arial, Helvetica, sans-serif; font-size:11pt; background-color:white }
+      a.comment-indicator:hover + div.comment { background:#ffd; position:absolute; display:block; border:1px solid black; padding:0.5em }
+      a.comment-indicator { background:red; display:inline-block; border:1px solid black; width:0.5em; height:0.5em }
+      div.comment { display:none }
+      table { border-collapse:collapse; page-break-after:always }
+      .gridlines td { border:1px dotted black }
+      .gridlines th { border:1px dotted black }
+      .b { text-align:center }
+      .e { text-align:center }
+      .f { text-align:right }
+      .inlineStr { text-align:left }
+      .n { text-align:right }
+      .s { text-align:left }
+      td.style0 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:white }
+      th.style0 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:white }
+      td.style1 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      th.style1 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      td.style2 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      th.style2 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      td.style3 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      th.style3 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      td.style4 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      th.style4 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      td.style5 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      th.style5 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      td.style6 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      th.style6 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      td.style7 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Arial'; font-size:12pt; background-color:#FFFFFF }
+      th.style7 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Arial'; font-size:12pt; background-color:#FFFFFF }
+      td.style8 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; text-decoration:underline; color:#0000FF; font-family:'Arial'; font-size:10pt; background-color:white }
+      th.style8 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; text-decoration:underline; color:#0000FF; font-family:'Arial'; font-size:10pt; background-color:white }
+      td.style9 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; text-decoration:underline; color:#0000FF; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      th.style9 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; text-decoration:underline; color:#0000FF; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      td.style10 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#008080; font-family:'Arial'; font-size:12pt; background-color:#FFFFFF }
+      th.style10 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#008080; font-family:'Arial'; font-size:12pt; background-color:#FFFFFF }
+      td.style11 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:2px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      th.style11 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:2px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      td.style12 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      th.style12 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      td.style13 { vertical-align:bottom; text-align:center; border-bottom:2px solid #000000 !important; border-top:2px solid #000000 !important; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      th.style13 { vertical-align:bottom; text-align:center; border-bottom:2px solid #000000 !important; border-top:2px solid #000000 !important; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      td.style14 { vertical-align:bottom; text-align:center; border-bottom:2px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      th.style14 { vertical-align:bottom; text-align:center; border-bottom:2px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      td.style15 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:2px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      th.style15 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:2px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      td.style16 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:2px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      th.style16 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:2px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      td.style17 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      th.style17 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      td.style18 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      th.style18 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      td.style19 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      th.style19 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      td.style20 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      th.style20 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      td.style21 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      th.style21 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      td.style22 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      th.style22 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      td.style23 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:1px dashed #000000 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      th.style23 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:1px dashed #000000 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      td.style24 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-style:italic; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      th.style24 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-style:italic; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      td.style25 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:1px dashed #000000 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-style:italic; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      th.style25 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:1px dashed #000000 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-style:italic; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      td.style26 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-style:italic; color:#000000; font-family:'Arial'; font-size:10pt; background-color:white }
+      th.style26 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-style:italic; color:#000000; font-family:'Arial'; font-size:10pt; background-color:white }
+      td.style27 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:2px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      th.style27 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:2px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      td.style28 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:2px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      th.style28 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:2px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      td.style29 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:2px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-style:italic; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      th.style29 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:2px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-style:italic; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      td.style30 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      th.style30 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      td.style31 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      th.style31 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      td.style32 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      th.style32 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      td.style33 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      th.style33 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      td.style34 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      th.style34 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      td.style35 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:2px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      th.style35 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:2px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      td.style36 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:white }
+      th.style36 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:white }
+      td.style37 { vertical-align:bottom; text-align:center; border-bottom:2px solid #000000 !important; border-top:2px solid #000000 !important; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      th.style37 { vertical-align:bottom; text-align:center; border-bottom:2px solid #000000 !important; border-top:2px solid #000000 !important; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      td.style38 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      th.style38 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:#FFFFFF }
+      table.sheet0 col.col0 { width:35.92222181pt }
+      table.sheet0 col.col1 { width:166.05555365pt }
+      table.sheet0 col.col2 { width:61.67777707pt }
+      table.sheet0 col.col3 { width:59.64444376pt }
+      table.sheet0 col.col4 { width:55.57777714pt }
+      table.sheet0 col.col5 { width:56.93333268pt }
+      table.sheet0 col.col6 { width:50.83333275pt }
+      table.sheet0 col.col7 { width:56.25555491pt }
+      table.sheet0 col.col8 { width:57.61111045pt }
+      table.sheet0 col.col9 { width:50.15555498pt }
+      table.sheet0 col.col10 { width:59.64444376pt }
+      table.sheet0 col.col11 { width:57.61111045pt }
+      table.sheet0 col.col12 { width:50.15555498pt }
+      table.sheet0 col.col13 { width:54.89999937pt }
+      table.sheet0 col.col14 { width:58.28888822pt }
+      table.sheet0 col.col15 { width:57.61111045pt }
+      table.sheet0 col.col16 { width:53.54444383pt }
+      table.sheet0 col.col17 { width:52.86666606pt }
+      table.sheet0 col.col18 { width:43.37777728pt }
+      table.sheet0 tr { height:12.75pt }
+      table.sheet0 tr.row0 { height:17.6pt }
+      table.sheet0 tr.row1 { height:13.5pt }
+      table.sheet0 tr.row2 { height:24.75pt }
+      table.sheet0 tr.row3 { height:18pt }
+      table.sheet0 tr.row4 { height:18.75pt }
+      table.sheet0 tr.row5 { height:18.75pt }
+      table.sheet0 tr.row6 { height:27.75pt }
+      table.sheet0 tr.row7 { height:33pt }
+      table.sheet0 tr.row8 { height:19.5pt }
+      table.sheet0 tr.row9 { height:16pt }
+      table.sheet0 tr.row10 { height:16pt }
+      table.sheet0 tr.row11 { height:16pt }
+      table.sheet0 tr.row12 { height:21pt }
+      table.sheet0 tr.row13 { height:16pt }
+      table.sheet0 tr.row14 { height:16pt }
+      table.sheet0 tr.row15 { height:21pt }
+      table.sheet0 tr.row16 { height:16pt }
+      table.sheet0 tr.row17 { height:16pt }
+      table.sheet0 tr.row18 { height:21pt }
+      table.sheet0 tr.row19 { height:16pt }
+      table.sheet0 tr.row20 { height:16pt }
+      table.sheet0 tr.row21 { height:16pt }
+      table.sheet0 tr.row22 { height:21pt }
+      table.sheet0 tr.row23 { height:16pt }
+      table.sheet0 tr.row24 { height:16pt }
+      table.sheet0 tr.row25 { height:16pt }
+      table.sheet0 tr.row26 { height:23.25pt }
+      table.sheet0 tr.row27 { height:16pt }
+      table.sheet0 tr.row28 { height:16pt }
+      table.sheet0 tr.row29 { height:23.25pt }
+      table.sheet0 tr.row30 { height:16pt }
+      table.sheet0 tr.row31 { height:16pt }
+      table.sheet0 tr.row32 { height:27.75pt }
+      table.sheet0 tr.row33 { height:24pt }
+      table.sheet0 tr.row36 { height:25.5pt }
+      table.sheet0 tr.row39 { height:25.5pt }
+      table.sheet0 tr.row42 { height:25.5pt }
+      table.sheet0 tr.row46 { height:25.5pt }
+      table.sheet0 tr.row47 { height:16pt }
+      table.sheet0 tr.row49 { height:16pt }
+      table.sheet0 tr.row50 { height:23.25pt }
+      table.sheet0 tr.row51 { height:12.75pt }
+      table.sheet0 tr.row52 { height:12.75pt }
+      table.sheet0 tr.row53 { height:23.25pt }
+      table.sheet0 tr.row55 { height:15.95pt }
+      table.sheet0 tr.row56 { height:19.5pt }
+      table.sheet0 tr.row60 { height:12.75pt }
+      table.sheet0 tr.row61 { height:12.75pt }
+      table.sheet0 tr.row62 { height:18.75pt }
+      table.sheet0 tr.row65 { height:21.75pt }
+    </style>
+  </head>
+
+  <body>
+<style>
+@page { margin-left: 0.2in; margin-right: 0.19in; margin-top: 0.32in; margin-bottom: 0.24in; }
+body { margin-left: 0.2in; margin-right: 0.19in; margin-top: 0.32in; margin-bottom: 0.24in; }
+</style>
+    <table border="0" cellpadding="0" cellspacing="0" id="sheet0" class="sheet0">
+        <col class="col0">
+        <col class="col1">
+        <col class="col2">
+        <col class="col3">
+        <col class="col4">
+        <col class="col5">
+        <col class="col6">
+        <col class="col7">
+        <col class="col8">
+        <col class="col9">
+        <col class="col10">
+        <col class="col11">
+        <col class="col12">
+        <col class="col13">
+        <col class="col14">
+        <col class="col15">
+        <col class="col16">
+        <col class="col17">
+        <col class="col18">
+        <tbody>
+          <tr class="row0">
+            <td class="column0 style7 s">Department for Transport statistics</td>
+            <td class="column1 style7 null"></td>
+            <td class="column2 style7 null"></td>
+            <td class="column3 style7 null"></td>
+            <td class="column4 style7 null"></td>
+            <td class="column5 style7 null"></td>
+            <td class="column6 style7 null"></td>
+            <td class="column7 style7 null"></td>
+            <td class="column8 style7 null"></td>
+            <td class="column9 style7 null"></td>
+            <td class="column10 style7 null"></td>
+            <td class="column11 style7 null"></td>
+            <td class="column12">&nbsp;</td>
+            <td class="column13">&nbsp;</td>
+            <td class="column14">&nbsp;</td>
+            <td class="column15">&nbsp;</td>
+            <td class="column16">&nbsp;</td>
+            <td class="column17">&nbsp;</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row1">
+            <td class="column0 style8 s">https://www.gov.uk/government/organisations/department-for-transport/series/transport-accessibility-statistics--3</td>
+            <td class="column1 style9 null"></td>
+            <td class="column2 style9 null"></td>
+            <td class="column3 style9 null"></td>
+            <td class="column4 style9 null"></td>
+            <td class="column5 style9 null"></td>
+            <td class="column6 style9 null"></td>
+            <td class="column7 style9 null"></td>
+            <td class="column8 style9 null"></td>
+            <td class="column9 style9 null"></td>
+            <td class="column10 style9 null"></td>
+            <td class="column11 style9 null"></td>
+            <td class="column12">&nbsp;</td>
+            <td class="column13">&nbsp;</td>
+            <td class="column14">&nbsp;</td>
+            <td class="column15">&nbsp;</td>
+            <td class="column16">&nbsp;</td>
+            <td class="column17">&nbsp;</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row2">
+            <td class="column0 style10 s">Table ACS0203</td>
+            <td class="column1 style10 null"></td>
+            <td class="column2 style10 null"></td>
+            <td class="column3 style10 null"></td>
+            <td class="column4 style10 null"></td>
+            <td class="column5 style10 null"></td>
+            <td class="column6 style10 null"></td>
+            <td class="column7 style10 null"></td>
+            <td class="column8 style10 null"></td>
+            <td class="column9 style10 null"></td>
+            <td class="column10 style10 null"></td>
+            <td class="column11 style10 null"></td>
+            <td class="column12">&nbsp;</td>
+            <td class="column13">&nbsp;</td>
+            <td class="column14">&nbsp;</td>
+            <td class="column15">&nbsp;</td>
+            <td class="column16">&nbsp;</td>
+            <td class="column17">&nbsp;</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row3">
+            <td class="column0 style10 s">At risk users<span style="font-weight:bold; color:#008080; font-family:'Arial'; font-size:12pt"><sup>1</sup></span><span style="font-weight:bold; color:#008080; font-family:'Arial'; font-size:12pt"> with access to key services within lower</span><span style="font-weight:bold; color:#008080; font-family:'Arial'; font-size:12pt"><sup>2</sup></span><span style="font-weight:bold; color:#008080; font-family:'Arial'; font-size:12pt"> and upper</span><span style="font-weight:bold; color:#008080; font-family:'Arial'; font-size:12pt"><sup>2</sup></span><span style="font-weight:bold; color:#008080; font-family:'Arial'; font-size:12pt"> threshold by mode of travel, England, 2007 to 2013</span></td>
+            <td class="column1 style10 null"></td>
+            <td class="column2 style10 null"></td>
+            <td class="column3 style10 null"></td>
+            <td class="column4 style10 null"></td>
+            <td class="column5 style10 null"></td>
+            <td class="column6 style10 null"></td>
+            <td class="column7 style10 null"></td>
+            <td class="column8 style10 null"></td>
+            <td class="column9 style10 null"></td>
+            <td class="column10 style10 null"></td>
+            <td class="column11 style10 null"></td>
+            <td class="column12">&nbsp;</td>
+            <td class="column13">&nbsp;</td>
+            <td class="column14">&nbsp;</td>
+            <td class="column15">&nbsp;</td>
+            <td class="column16">&nbsp;</td>
+            <td class="column17">&nbsp;</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row4">
+            <td class="column0 style11 null"></td>
+            <td class="column1 style11 null"></td>
+            <td class="column2 style11 null"></td>
+            <td class="column3 style11 null"></td>
+            <td class="column4 style11 null"></td>
+            <td class="column5 style11 null"></td>
+            <td class="column6 style11 null"></td>
+            <td class="column7 style11 null"></td>
+            <td class="column8 style11 null"></td>
+            <td class="column9 style11 null"></td>
+            <td class="column10 style11 null"></td>
+            <td class="column11 style11 null"></td>
+            <td class="column12 style35 null"></td>
+            <td class="column13 style35 null"></td>
+            <td class="column14 style35 null"></td>
+            <td class="column15 style35 null"></td>
+            <td class="column16 style35 null"></td>
+            <td class="column17 style35 s">Number / Percentage</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row5">
+            <td class="column0 style12 null"></td>
+            <td class="column1 style12 null"></td>
+            <td class="column2 style13 s style13" colspan="16">Key services</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row6">
+            <td class="column0 style12 null"></td>
+            <td class="column1 style12 null"></td>
+            <td class="column2 style14 s style14" colspan="2">Employment</td>
+            <td class="column4 style14 s style14" colspan="2">Primary school</td>
+            <td class="column6 style14 s style14" colspan="2">Secondary school</td>
+            <td class="column8 style14 s style14" colspan="2">Further Education<span style="font-weight:bold; color:#000000; font-family:'Arial'; font-size:10pt"><sup>3</sup></span></td>
+            <td class="column10 style14 s style14" colspan="2">GP</td>
+            <td class="column12 style14 s style14" colspan="2">Hospital</td>
+            <td class="column14 style14 s style14" colspan="2">Food store</td>
+            <td class="column16 style37 s style37" colspan="2">Town Centres</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row7">
+            <td class="column0 style15 s">Year</td>
+            <td class="column1 style15 s">Mode</td>
+            <td class="column2 style16 s">Lower threshold<span style="font-weight:bold; color:#000000; font-family:'Arial'; font-size:10pt"><sup>2</sup></span></td>
+            <td class="column3 style16 s">Upper threshold<span style="font-weight:bold; color:#000000; font-family:'Arial'; font-size:10pt"><sup>2</sup></span></td>
+            <td class="column4 style16 s">Lower threshold<span style="font-weight:bold; color:#000000; font-family:'Arial'; font-size:10pt"><sup>2</sup></span></td>
+            <td class="column5 style16 s">Upper threshold<span style="font-weight:bold; color:#000000; font-family:'Arial'; font-size:10pt"><sup>2</sup></span></td>
+            <td class="column6 style16 s">Lower threshold<span style="font-weight:bold; color:#000000; font-family:'Arial'; font-size:10pt"><sup>2</sup></span></td>
+            <td class="column7 style16 s">Upper threshold<span style="font-weight:bold; color:#000000; font-family:'Arial'; font-size:10pt"><sup>2</sup></span></td>
+            <td class="column8 style16 s">Lower threshold<span style="font-weight:bold; color:#000000; font-family:'Arial'; font-size:10pt"><sup>2</sup></span></td>
+            <td class="column9 style16 s">Upper threshold<span style="font-weight:bold; color:#000000; font-family:'Arial'; font-size:10pt"><sup>2</sup></span></td>
+            <td class="column10 style16 s">Lower threshold<span style="font-weight:bold; color:#000000; font-family:'Arial'; font-size:10pt"><sup>2</sup></span></td>
+            <td class="column11 style16 s">Upper threshold<span style="font-weight:bold; color:#000000; font-family:'Arial'; font-size:10pt"><sup>2</sup></span></td>
+            <td class="column12 style16 s">Lower threshold<span style="font-weight:bold; color:#000000; font-family:'Arial'; font-size:10pt"><sup>2</sup></span></td>
+            <td class="column13 style16 s">Upper threshold<span style="font-weight:bold; color:#000000; font-family:'Arial'; font-size:10pt"><sup>2</sup></span></td>
+            <td class="column14 style16 s">Lower threshold<span style="font-weight:bold; color:#000000; font-family:'Arial'; font-size:10pt"><sup>2</sup></span></td>
+            <td class="column15 style16 s">Upper threshold<span style="font-weight:bold; color:#000000; font-family:'Arial'; font-size:10pt"><sup>2</sup></span></td>
+            <td class="column16 style16 s">Lower threshold<span style="font-weight:bold; color:#000000; font-family:'Arial'; font-size:10pt"><sup>2</sup></span></td>
+            <td class="column17 style16 s">Upper threshold<span style="font-weight:bold; color:#000000; font-family:'Arial'; font-size:10pt"><sup>2</sup></span></td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row8">
+            <td class="column0 style17 s">Number of people with access</td>
+            <td class="column1 style18 null"></td>
+            <td class="column2 style19 null"></td>
+            <td class="column3 style19 null"></td>
+            <td class="column4 style19 null"></td>
+            <td class="column5 style19 null"></td>
+            <td class="column6 style19 null"></td>
+            <td class="column7 style19 null"></td>
+            <td class="column8 style19 null"></td>
+            <td class="column9 style19 null"></td>
+            <td class="column10 style19 null"></td>
+            <td class="column11 style19 null"></td>
+            <td class="column12 style19 null"></td>
+            <td class="column13 style19 null"></td>
+            <td class="column14 style19 null"></td>
+            <td class="column15 style19 null"></td>
+            <td class="column16 style19 null"></td>
+            <td class="column17 style19 null"></td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row9">
+            <td class="column0 style17 n">2007</td>
+            <td class="column1 style20 s">Public Transport / Walking</td>
+            <td class="column2 style21 n">702,300</td>
+            <td class="column3 style21 n">716,800</td>
+            <td class="column4 style21 n">564,500</td>
+            <td class="column5 style21 n">569,300</td>
+            <td class="column6 style21 n">404,700</td>
+            <td class="column7 style21 n">432,800</td>
+            <td class="column8 style21 s">..</td>
+            <td class="column9 style21 s">..</td>
+            <td class="column10 style21 n">5,357,900</td>
+            <td class="column11 style21 n">5,630,100</td>
+            <td class="column12 style21 n">4,762,500</td>
+            <td class="column13 style21 n">5,573,300</td>
+            <td class="column14 style21 n">5,546,400</td>
+            <td class="column15 style21 n">5,643,200</td>
+            <td class="column16 style21 s">..</td>
+            <td class="column17 style21 s">..</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row10">
+            <td class="column0 style17 null"></td>
+            <td class="column1 style20 s">Cycle</td>
+            <td class="column2 style21 n">707,200</td>
+            <td class="column3 style21 n">716,800</td>
+            <td class="column4 style21 n">568,500</td>
+            <td class="column5 style21 n">569,700</td>
+            <td class="column6 style21 n">424,600</td>
+            <td class="column7 style21 n">433,600</td>
+            <td class="column8 style21 s">..</td>
+            <td class="column9 style21 s">..</td>
+            <td class="column10 style21 n">5,512,800</td>
+            <td class="column11 style21 n">5,634,200</td>
+            <td class="column12 style21 n">5,252,000</td>
+            <td class="column13 style21 n">5,601,400</td>
+            <td class="column14 style21 n">5,571,600</td>
+            <td class="column15 style21 n">5,640,400</td>
+            <td class="column16 style21 s">..</td>
+            <td class="column17 style21 s">..</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row11">
+            <td class="column0 style17 null"></td>
+            <td class="column1 style20 s">Car</td>
+            <td class="column2 style21 n">719,300</td>
+            <td class="column3 style21 n">719,300</td>
+            <td class="column4 style21 n">569,700</td>
+            <td class="column5 style21 n">569,700</td>
+            <td class="column6 style21 n">434,900</td>
+            <td class="column7 style21 n">434,900</td>
+            <td class="column8 style21 s">..</td>
+            <td class="column9 style21 s">..</td>
+            <td class="column10 style21 n">5,652,500</td>
+            <td class="column11 style21 n">5,652,600</td>
+            <td class="column12 style21 n">5,652,400</td>
+            <td class="column13 style21 n">5,652,600</td>
+            <td class="column14 style21 n">5,652,500</td>
+            <td class="column15 style21 n">5,652,600</td>
+            <td class="column16 style21 s">..</td>
+            <td class="column17 style21 s">..</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row12">
+            <td class="column0 style17 n">2008</td>
+            <td class="column1 style20 s">Public Transport / Walking</td>
+            <td class="column2 style21 n">889,800</td>
+            <td class="column3 style21 n">903,100</td>
+            <td class="column4 style21 n">548,700</td>
+            <td class="column5 style21 n">553,300</td>
+            <td class="column6 style21 n">390,200</td>
+            <td class="column7 style21 n">420,300</td>
+            <td class="column8 style21 s">..</td>
+            <td class="column9 style21 s">..</td>
+            <td class="column10 style21 n">5,344,700</td>
+            <td class="column11 style21 n">5,625,100</td>
+            <td class="column12 style21 n">4,743,600</td>
+            <td class="column13 style21 n">5,563,200</td>
+            <td class="column14 style21 n">5,540,200</td>
+            <td class="column15 style21 n">5,637,000</td>
+            <td class="column16 style21 s">..</td>
+            <td class="column17 style21 s">..</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row13">
+            <td class="column0 style17 null"></td>
+            <td class="column1 style20 s">Cycle</td>
+            <td class="column2 style21 n">891,600</td>
+            <td class="column3 style21 n">903,600</td>
+            <td class="column4 style21 n">552,500</td>
+            <td class="column5 style21 n">553,700</td>
+            <td class="column6 style21 n">412,100</td>
+            <td class="column7 style21 n">421,200</td>
+            <td class="column8 style21 s">..</td>
+            <td class="column9 style21 s">..</td>
+            <td class="column10 style21 n">5,507,400</td>
+            <td class="column11 style21 n">5,628,900</td>
+            <td class="column12 style21 n">5,246,200</td>
+            <td class="column13 style21 n">5,596,000</td>
+            <td class="column14 style21 n">5,566,800</td>
+            <td class="column15 style21 n">5,634,800</td>
+            <td class="column16 style21 s">..</td>
+            <td class="column17 style21 s">..</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row14">
+            <td class="column0 style17 null"></td>
+            <td class="column1 style20 s">Car</td>
+            <td class="column2 style21 n">904,900</td>
+            <td class="column3 style21 n">905,000</td>
+            <td class="column4 style21 n">553,800</td>
+            <td class="column5 style21 n">553,800</td>
+            <td class="column6 style21 n">422,400</td>
+            <td class="column7 style21 n">422,500</td>
+            <td class="column8 style21 s">..</td>
+            <td class="column9 style21 s">..</td>
+            <td class="column10 style21 n">5,647,100</td>
+            <td class="column11 style21 n">5,647,300</td>
+            <td class="column12 style21 n">5,647,000</td>
+            <td class="column13 style21 n">5,647,300</td>
+            <td class="column14 style21 n">5,647,100</td>
+            <td class="column15 style21 n">5,647,300</td>
+            <td class="column16 style21 s">..</td>
+            <td class="column17 style21 s">..</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row15">
+            <td class="column0 style17 n">2009</td>
+            <td class="column1 style20 s">Public Transport / Walking</td>
+            <td class="column2 style21 n">1,200,000</td>
+            <td class="column3 style21 n">1,217,100</td>
+            <td class="column4 style21 n">558,600</td>
+            <td class="column5 style21 n">562,600</td>
+            <td class="column6 style21 n">399,300</td>
+            <td class="column7 style21 n">424,700</td>
+            <td class="column8 style21 s">..</td>
+            <td class="column9 style21 s">..</td>
+            <td class="column10 style21 n">5,791,000</td>
+            <td class="column11 style21 n">5,947,700</td>
+            <td class="column12 style21 n">4,769,700</td>
+            <td class="column13 style21 n">5,810,400</td>
+            <td class="column14 style21 n">5,860,400</td>
+            <td class="column15 style21 n">5,949,200</td>
+            <td class="column16 style21 n">4,127,700</td>
+            <td class="column17 style21 n">5,699,700</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row16">
+            <td class="column0 style17 null"></td>
+            <td class="column1 style20 s">Cycle</td>
+            <td class="column2 style21 n">1,200,500</td>
+            <td class="column3 style21 n">1,217,600</td>
+            <td class="column4 style21 n">561,700</td>
+            <td class="column5 style21 n">563,100</td>
+            <td class="column6 style21 n">416,200</td>
+            <td class="column7 style21 n">425,200</td>
+            <td class="column8 style21 s">..</td>
+            <td class="column9 style21 s">..</td>
+            <td class="column10 style21 n">5,866,100</td>
+            <td class="column11 style21 n">5,952,900</td>
+            <td class="column12 style21 n">5,268,800</td>
+            <td class="column13 style21 n">5,629,100</td>
+            <td class="column14 style21 n">5,867,300</td>
+            <td class="column15 style21 n">5,945,700</td>
+            <td class="column16 style21 n">4,977,800</td>
+            <td class="column17 style21 n">5,657,500</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row17">
+            <td class="column0 style17 null"></td>
+            <td class="column1 style20 s">Car</td>
+            <td class="column2 style21 n">1,219,500</td>
+            <td class="column3 style21 n">1,219,500</td>
+            <td class="column4 style21 n">563,200</td>
+            <td class="column5 style21 n">563,200</td>
+            <td class="column6 style21 n">426,900</td>
+            <td class="column7 style21 n">426,900</td>
+            <td class="column8 style21 s">..</td>
+            <td class="column9 style21 s">..</td>
+            <td class="column10 style21 n">5,960,000</td>
+            <td class="column11 style21 n">5,960,100</td>
+            <td class="column12 style21 n">5,959,700</td>
+            <td class="column13 style21 n">5,960,100</td>
+            <td class="column14 style21 n">5,959,900</td>
+            <td class="column15 style21 n">5,960,100</td>
+            <td class="column16 style21 n">5,943,400</td>
+            <td class="column17 style21 n">5,959,700</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row18">
+            <td class="column0 style17 n">2010</td>
+            <td class="column1 style20 s">Public Transport / Walking</td>
+            <td class="column2 style22 n">&nbsp;&nbsp;1,054,100 </td>
+            <td class="column3 style22 n">&nbsp;&nbsp;1,074,300 </td>
+            <td class="column4 style22 n">&nbsp;&nbsp;604,900 </td>
+            <td class="column5 style22 n">&nbsp;&nbsp;610,900 </td>
+            <td class="column6 style22 n">&nbsp;&nbsp;410,400 </td>
+            <td class="column7 style22 n">&nbsp;&nbsp;445,400 </td>
+            <td class="column8 style22 s">..</td>
+            <td class="column9 style22 s">..</td>
+            <td class="column10 style22 n">&nbsp;&nbsp;5,753,600 </td>
+            <td class="column11 style22 n">&nbsp;&nbsp;5,929,100 </td>
+            <td class="column12 style22 n">&nbsp;&nbsp;4,432,600 </td>
+            <td class="column13 style22 n">&nbsp;&nbsp;5,694,500 </td>
+            <td class="column14 style22 n">&nbsp;&nbsp;5,839,600 </td>
+            <td class="column15 style22 n">&nbsp;&nbsp;5,931,300 </td>
+            <td class="column16 style22 n">&nbsp;&nbsp;3,931,000 </td>
+            <td class="column17 style22 n">&nbsp;&nbsp;5,640,600 </td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row19">
+            <td class="column0 style17 null"></td>
+            <td class="column1 style20 s">Cycle</td>
+            <td class="column2 style22 n">&nbsp;&nbsp;1,062,100 </td>
+            <td class="column3 style22 n">&nbsp;&nbsp;1,075,900 </td>
+            <td class="column4 style22 n">&nbsp;&nbsp;610,500 </td>
+            <td class="column5 style22 n">&nbsp;&nbsp;611,900 </td>
+            <td class="column6 style22 n">&nbsp;&nbsp;437,300 </td>
+            <td class="column7 style22 n">&nbsp;&nbsp;447,500 </td>
+            <td class="column8 style22 s">..</td>
+            <td class="column9 style22 s">..</td>
+            <td class="column10 style22 n">&nbsp;&nbsp;5,877,800 </td>
+            <td class="column11 style22 n">&nbsp;&nbsp;5,939,100 </td>
+            <td class="column12 style22 n">&nbsp;&nbsp;5,282,900 </td>
+            <td class="column13 style22 n">&nbsp;&nbsp;5,812,500 </td>
+            <td class="column14 style22 n">&nbsp;&nbsp;5,867,000 </td>
+            <td class="column15 style22 n">&nbsp;&nbsp;5,932,600 </td>
+            <td class="column16 style22 n">&nbsp;&nbsp;5,125,700 </td>
+            <td class="column17 style22 n">&nbsp;&nbsp;5,724,700 </td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row20">
+            <td class="column0 style17 null"></td>
+            <td class="column1 style20 s">Car</td>
+            <td class="column2 style23 n">&nbsp;&nbsp;1,077,500 </td>
+            <td class="column3 style23 n">&nbsp;&nbsp;1,077,600 </td>
+            <td class="column4 style23 n">&nbsp;&nbsp;611,900 </td>
+            <td class="column5 style23 n">&nbsp;&nbsp;611,900 </td>
+            <td class="column6 style23 n">&nbsp;&nbsp;449,000 </td>
+            <td class="column7 style23 n">&nbsp;&nbsp;449,000 </td>
+            <td class="column8 style23 s">..</td>
+            <td class="column9 style23 s">..</td>
+            <td class="column10 style23 n">&nbsp;&nbsp;5,945,600 </td>
+            <td class="column11 style23 n">&nbsp;&nbsp;5,945,700 </td>
+            <td class="column12 style23 n">&nbsp;&nbsp;5,944,800 </td>
+            <td class="column13 style23 n">&nbsp;&nbsp;5,945,700 </td>
+            <td class="column14 style23 n">&nbsp;&nbsp;5,945,100 </td>
+            <td class="column15 style23 n">&nbsp;&nbsp;5,945,400 </td>
+            <td class="column16 style23 n">&nbsp;&nbsp;5,928,100 </td>
+            <td class="column17 style23 n">&nbsp;&nbsp;5,945,200 </td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row21">
+            <td class="column0 style17 null"></td>
+            <td class="column1 style20 s">Car (New method)<span style="color:#000000; font-family:'Arial'; font-size:10pt"><sup>4</sup></span></td>
+            <td class="column2 style22 n">&nbsp;&nbsp;1,076,600 </td>
+            <td class="column3 style22 n">&nbsp;&nbsp;1,076,700 </td>
+            <td class="column4 style22 n">&nbsp;&nbsp;611,300 </td>
+            <td class="column5 style22 n">&nbsp;&nbsp;611,300 </td>
+            <td class="column6 style22 n">&nbsp;&nbsp;448,400 </td>
+            <td class="column7 style22 n">&nbsp;&nbsp;448,500 </td>
+            <td class="column8 style22 s">..</td>
+            <td class="column9 style22 s">..</td>
+            <td class="column10 style22 n">&nbsp;&nbsp;5,938,800 </td>
+            <td class="column11 style22 n">&nbsp;&nbsp;5,939,500 </td>
+            <td class="column12 style22 n">&nbsp;&nbsp;5,926,000 </td>
+            <td class="column13 style22 n">&nbsp;&nbsp;5,939,300 </td>
+            <td class="column14 style22 n">&nbsp;&nbsp;5,938,300 </td>
+            <td class="column15 style22 n">&nbsp;&nbsp;5,939,400 </td>
+            <td class="column16 style22 n">&nbsp;&nbsp;5,849,900 </td>
+            <td class="column17 style22 n">&nbsp;&nbsp;5,937,000 </td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row22">
+            <td class="column0 style17 n">2011</td>
+            <td class="column1 style20 s">Public Transport / Walking</td>
+            <td class="column2 style23 n">&nbsp;&nbsp;877,200 </td>
+            <td class="column3 style23 n">&nbsp;&nbsp;901,500 </td>
+            <td class="column4 style23 n">&nbsp;&nbsp;603,300 </td>
+            <td class="column5 style23 n">&nbsp;&nbsp;610,700 </td>
+            <td class="column6 style23 n">&nbsp;&nbsp;405,500 </td>
+            <td class="column7 style23 n">&nbsp;&nbsp;444,900 </td>
+            <td class="column8 style23 s">..</td>
+            <td class="column9 style23 s">..</td>
+            <td class="column10 style23 n">&nbsp;&nbsp;4,206,300 </td>
+            <td class="column11 style23 n">&nbsp;&nbsp;5,687,100 </td>
+            <td class="column12 style23 n">&nbsp;&nbsp;5,893,800 </td>
+            <td class="column13 style23 n">&nbsp;&nbsp;5,992,000 </td>
+            <td class="column14 style23 n">&nbsp;&nbsp;3,862,500 </td>
+            <td class="column15 style23 n">&nbsp;&nbsp;5,667,700 </td>
+            <td class="column16 style23 n">&nbsp;&nbsp;2,700,700 </td>
+            <td class="column17 style23 n">&nbsp;&nbsp;3,161,300 </td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row23">
+            <td class="column0 style17 s">Revised</td>
+            <td class="column1 style20 s">Public Transport / Walking<span style="color:#000000; font-family:'Arial'; font-size:10pt"><sup>6</sup></span></td>
+            <td class="column2 style22 n">&nbsp;&nbsp;887,600 </td>
+            <td class="column3 style22 n">&nbsp;&nbsp;903,000 </td>
+            <td class="column4 style22 n">&nbsp;&nbsp;608,900 </td>
+            <td class="column5 style22 n">&nbsp;&nbsp;611,600 </td>
+            <td class="column6 style22 n">&nbsp;&nbsp;428,200 </td>
+            <td class="column7 style22 n">&nbsp;&nbsp;446,400 </td>
+            <td class="column8 style21 s">..</td>
+            <td class="column9 style21 s">..</td>
+            <td class="column10 style22 n">&nbsp;&nbsp;5,893,100 </td>
+            <td class="column11 style22 n">&nbsp;&nbsp;5,996,800 </td>
+            <td class="column12 style22 n">&nbsp;&nbsp;4,555,800 </td>
+            <td class="column13 style22 n">&nbsp;&nbsp;5,762,000 </td>
+            <td class="column14 style22 n">&nbsp;&nbsp;5,941,800 </td>
+            <td class="column15 style22 n">&nbsp;&nbsp;5,998,000 </td>
+            <td class="column16 style22 n">&nbsp;&nbsp;4,360,500 </td>
+            <td class="column17 style22 n">&nbsp;&nbsp;5,748,300 </td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row24">
+            <td class="column0 style17 null"></td>
+            <td class="column1 style20 s">Cycle</td>
+            <td class="column2 style22 n">&nbsp;&nbsp;890,000 </td>
+            <td class="column3 style22 n">&nbsp;&nbsp;903,300 </td>
+            <td class="column4 style22 n">&nbsp;&nbsp;610,900 </td>
+            <td class="column5 style22 n">&nbsp;&nbsp;610,900 </td>
+            <td class="column6 style22 n">&nbsp;&nbsp;436,900 </td>
+            <td class="column7 style22 n">&nbsp;&nbsp;447,300 </td>
+            <td class="column8 style21 s">..</td>
+            <td class="column9 style21 s">..</td>
+            <td class="column10 style22 n">&nbsp;&nbsp;5,246,500 </td>
+            <td class="column11 style22 n">&nbsp;&nbsp;5,833,100 </td>
+            <td class="column12 style22 n">&nbsp;&nbsp;5,932,300 </td>
+            <td class="column13 style22 n">&nbsp;&nbsp;5,997,200 </td>
+            <td class="column14 style36 n">&nbsp;&nbsp;5,180,500 </td>
+            <td class="column15 style22 n">&nbsp;&nbsp;5,786,200 </td>
+            <td class="column16 style22 n">&nbsp;&nbsp;3,028,700 </td>
+            <td class="column17 style22 n">&nbsp;&nbsp;3,196,900 </td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row25">
+            <td class="column0 style17 null"></td>
+            <td class="column1 style20 s">Car (New method)<span style="color:#000000; font-family:'Arial'; font-size:10pt"><sup>4</sup></span></td>
+            <td class="column2 style22 n">&nbsp;&nbsp;903,400 </td>
+            <td class="column3 style22 n">&nbsp;&nbsp;903,500 </td>
+            <td class="column4 style22 n">&nbsp;&nbsp;610,900 </td>
+            <td class="column5 style22 n">&nbsp;&nbsp;610,900 </td>
+            <td class="column6 style22 n">&nbsp;&nbsp;448,200 </td>
+            <td class="column7 style22 n">&nbsp;&nbsp;448,300 </td>
+            <td class="column8 style21 s">..</td>
+            <td class="column9 style21 s">..</td>
+            <td class="column10 style22 n">&nbsp;&nbsp;5,969,400 </td>
+            <td class="column11 style22 n">&nbsp;&nbsp;5,998,900 </td>
+            <td class="column12 style22 n">&nbsp;&nbsp;5,997,600 </td>
+            <td class="column13 style22 n">&nbsp;&nbsp;5,999,000 </td>
+            <td class="column14 style36 n">&nbsp;&nbsp;5,898,300 </td>
+            <td class="column15 style22 n">&nbsp;&nbsp;5,994,900 </td>
+            <td class="column16 style22 n">&nbsp;&nbsp;3,228,300 </td>
+            <td class="column17 style22 n">&nbsp;&nbsp;3,244,300 </td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row26">
+            <td class="column0 style17 n">2012</td>
+            <td class="column1 style20 s">Public Transport / Walking<span style="color:#000000; font-family:'Arial'; font-size:10pt"><sup>5</sup></span></td>
+            <td class="column2 style22 null"></td>
+            <td class="column3 style22 null"></td>
+            <td class="column4 style22 null"></td>
+            <td class="column5 style22 null"></td>
+            <td class="column6 style22 null"></td>
+            <td class="column7 style22 null"></td>
+            <td class="column8 style21 null"></td>
+            <td class="column9 style21 null"></td>
+            <td class="column10 style22 null"></td>
+            <td class="column11 style22 null"></td>
+            <td class="column12 style22 null"></td>
+            <td class="column13 style22 null"></td>
+            <td class="column14 style36 null"></td>
+            <td class="column15 style22 null"></td>
+            <td class="column16 style22 null"></td>
+            <td class="column17 style22 null"></td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row27">
+            <td class="column0 style17 null"></td>
+            <td class="column1 style20 s">Cycle</td>
+            <td class="column2 style22 n">&nbsp;&nbsp;1,309,000 </td>
+            <td class="column3 style22 n">&nbsp;&nbsp;1,326,300 </td>
+            <td class="column4 style22 n">&nbsp;&nbsp;662,300 </td>
+            <td class="column5 style22 n">&nbsp;&nbsp;663,800 </td>
+            <td class="column6 style22 n">&nbsp;&nbsp;447,600 </td>
+            <td class="column7 style22 n">&nbsp;&nbsp;458,700 </td>
+            <td class="column8 style21 s">..</td>
+            <td class="column9 style21 s">..</td>
+            <td class="column10 style22 n">&nbsp;&nbsp;5,306,500 </td>
+            <td class="column11 style22 n">&nbsp;&nbsp;5,815,100 </td>
+            <td class="column12 style22 n">&nbsp;&nbsp;5,864,700 </td>
+            <td class="column13 style22 n">&nbsp;&nbsp;5,925,100 </td>
+            <td class="column14 style22 n">&nbsp;&nbsp;5,145,500 </td>
+            <td class="column15 style22 n">&nbsp;&nbsp;5,727,500 </td>
+            <td class="column16 style22 n">&nbsp;&nbsp;3,054,800 </td>
+            <td class="column17 style22 n">&nbsp;&nbsp;3,210,000 </td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row28">
+            <td class="column0 style17 null"></td>
+            <td class="column1 style20 s">car (new method)</td>
+            <td class="column2 style22 n">&nbsp;&nbsp;1,325,900 </td>
+            <td class="column3 style22 n">&nbsp;&nbsp;1,326,000 </td>
+            <td class="column4 style22 n">&nbsp;&nbsp;662,800 </td>
+            <td class="column5 style22 n">&nbsp;&nbsp;662,800 </td>
+            <td class="column6 style22 n">&nbsp;&nbsp;459,900 </td>
+            <td class="column7 style22 n">&nbsp;&nbsp;460,000 </td>
+            <td class="column8 style21 s">..</td>
+            <td class="column9 style21 s">..</td>
+            <td class="column10 style22 n">&nbsp;&nbsp;5,909,800 </td>
+            <td class="column11 style22 n">&nbsp;&nbsp;5,925,800 </td>
+            <td class="column12 style22 n">&nbsp;&nbsp;5,924,900 </td>
+            <td class="column13 style22 n">&nbsp;&nbsp;5,925,800 </td>
+            <td class="column14 style22 n">&nbsp;&nbsp;5,840,600 </td>
+            <td class="column15 style22 n">&nbsp;&nbsp;5,922,100 </td>
+            <td class="column16 style22 n">&nbsp;&nbsp;3,235,600 </td>
+            <td class="column17 style22 n">&nbsp;&nbsp;3,248,000 </td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row29">
+            <td class="column0 style17 n">2013</td>
+            <td class="column1 style20 s">Public Transport / Walking</td>
+            <td class="column2 style22 n">&nbsp;&nbsp;1,308,700 </td>
+            <td class="column3 style22 n">&nbsp;&nbsp;1,325,900 </td>
+            <td class="column4 style22 n">&nbsp;&nbsp;660,700 </td>
+            <td class="column5 style22 n">&nbsp;&nbsp;663,500 </td>
+            <td class="column6 style22 n">&nbsp;&nbsp;441,800 </td>
+            <td class="column7 style22 n">&nbsp;&nbsp;458,300 </td>
+            <td class="column8 style21 s">..</td>
+            <td class="column9 style21 s">..</td>
+            <td class="column10 style22 n">&nbsp;&nbsp;5,874,300 </td>
+            <td class="column11 style22 n">&nbsp;&nbsp;5,977,900 </td>
+            <td class="column12 style22 n">&nbsp;&nbsp;4,706,300 </td>
+            <td class="column13 style22 n">&nbsp;&nbsp;5,837,700 </td>
+            <td class="column14 style22 n">&nbsp;&nbsp;5,932,100 </td>
+            <td class="column15 style22 n">&nbsp;&nbsp;5,979,500 </td>
+            <td class="column16 style22 n">&nbsp;&nbsp;4,329,700 </td>
+            <td class="column17 style22 n">&nbsp;&nbsp;5,719,300 </td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row30">
+            <td class="column0 style17 null"></td>
+            <td class="column1 style20 s">Cycle</td>
+            <td class="column2 style22 n">&nbsp;&nbsp;1,309,000 </td>
+            <td class="column3 style22 n">&nbsp;&nbsp;1,326,300 </td>
+            <td class="column4 style22 n">&nbsp;&nbsp;663,700 </td>
+            <td class="column5 style22 n">&nbsp;&nbsp;664,700 </td>
+            <td class="column6 style22 n">&nbsp;&nbsp;447,900 </td>
+            <td class="column7 style22 n">&nbsp;&nbsp;458,900 </td>
+            <td class="column8 style21 s">..</td>
+            <td class="column9 style21 s">..</td>
+            <td class="column10 style22 n">&nbsp;&nbsp;5,911,200 </td>
+            <td class="column11 style22 n">&nbsp;&nbsp;5,980,100 </td>
+            <td class="column12 style22 n">&nbsp;&nbsp;5,385,700 </td>
+            <td class="column13 style22 n">&nbsp;&nbsp;5,868,400 </td>
+            <td class="column14 style22 n">&nbsp;&nbsp;5,926,200 </td>
+            <td class="column15 style22 n">&nbsp;&nbsp;5,978,200 </td>
+            <td class="column16 style22 n">&nbsp;&nbsp;5,157,100 </td>
+            <td class="column17 style22 n">&nbsp;&nbsp;5,739,300 </td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row31">
+            <td class="column0 style17 null"></td>
+            <td class="column1 style20 s">car (new method)</td>
+            <td class="column2 style22 n">&nbsp;&nbsp;1,331,800 </td>
+            <td class="column3 style22 n">&nbsp;&nbsp;1,328,100 </td>
+            <td class="column4 style22 n">&nbsp;&nbsp;665,300 </td>
+            <td class="column5 style22 n">&nbsp;&nbsp;664,900 </td>
+            <td class="column6 style22 n">&nbsp;&nbsp;460,600 </td>
+            <td class="column7 style22 n">&nbsp;&nbsp;460,700 </td>
+            <td class="column8 style21 s">..</td>
+            <td class="column9 style21 s">..</td>
+            <td class="column10 style22 n">&nbsp;&nbsp;5,986,800 </td>
+            <td class="column11 style22 n">&nbsp;&nbsp;5,987,300 </td>
+            <td class="column12 style22 n">&nbsp;&nbsp;5,977,100 </td>
+            <td class="column13 style22 n">&nbsp;&nbsp;5,987,700 </td>
+            <td class="column14 style22 n">&nbsp;&nbsp;5,985,700 </td>
+            <td class="column15 style22 n">&nbsp;&nbsp;5,986,900 </td>
+            <td class="column16 style22 n">&nbsp;&nbsp;5,875,600 </td>
+            <td class="column17 style22 n">&nbsp;&nbsp;5,944,700 </td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row32">
+            <td class="column0 style17 s">Percentage of people with access</td>
+            <td class="column1 style18 null"></td>
+            <td class="column2 style19 null"></td>
+            <td class="column3 style19 null"></td>
+            <td class="column4 style19 null"></td>
+            <td class="column5 style19 null"></td>
+            <td class="column6 style19 null"></td>
+            <td class="column7 style19 null"></td>
+            <td class="column8 style34 null"></td>
+            <td class="column9 style34 null"></td>
+            <td class="column10 style19 null"></td>
+            <td class="column11 style19 null"></td>
+            <td class="column12 style19 null"></td>
+            <td class="column13 style19 null"></td>
+            <td class="column14 style19 null"></td>
+            <td class="column15 style19 null"></td>
+            <td class="column16 style19 null"></td>
+            <td class="column17 style19 null"></td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row33">
+            <td class="column0 style17 n">2007</td>
+            <td class="column1 style20 s">Public Transport / Walking</td>
+            <td class="column2 style24 n">97.6</td>
+            <td class="column3 style24 n">99.7</td>
+            <td class="column4 style24 n">99.1</td>
+            <td class="column5 style24 n">99.9</td>
+            <td class="column6 style24 n">93.0</td>
+            <td class="column7 style24 n">99.5</td>
+            <td class="column8 style24 s">..</td>
+            <td class="column9 style24 s">..</td>
+            <td class="column10 style24 n">94.8</td>
+            <td class="column11 style24 n">99.6</td>
+            <td class="column12 style24 n">84.2</td>
+            <td class="column13 style24 n">98.6</td>
+            <td class="column14 style24 n">98.1</td>
+            <td class="column15 style24 n">99.8</td>
+            <td class="column16 style24 s">..</td>
+            <td class="column17 style24 s">..</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row34">
+            <td class="column0 style17 null"></td>
+            <td class="column1 style20 s">Cycle</td>
+            <td class="column2 style24 n">98.3</td>
+            <td class="column3 style24 n">99.7</td>
+            <td class="column4 style24 n">99.8</td>
+            <td class="column5 style24 n">100.0</td>
+            <td class="column6 style24 n">97.6</td>
+            <td class="column7 style24 n">99.7</td>
+            <td class="column8 style24 s">..</td>
+            <td class="column9 style24 s">..</td>
+            <td class="column10 style24 n">97.5</td>
+            <td class="column11 style24 n">99.7</td>
+            <td class="column12 style24 n">92.9</td>
+            <td class="column13 style24 n">99.1</td>
+            <td class="column14 style24 n">98.6</td>
+            <td class="column15 style24 n">99.8</td>
+            <td class="column16 style24 s">..</td>
+            <td class="column17 style24 s">..</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row35">
+            <td class="column0 style17 null"></td>
+            <td class="column1 style20 s">Car</td>
+            <td class="column2 style24 n">100.0</td>
+            <td class="column3 style24 n">100.0</td>
+            <td class="column4 style24 n">100.0</td>
+            <td class="column5 style24 n">100.0</td>
+            <td class="column6 style24 n">100.0</td>
+            <td class="column7 style24 n">100.0</td>
+            <td class="column8 style24 s">..</td>
+            <td class="column9 style24 s">..</td>
+            <td class="column10 style24 n">100.0</td>
+            <td class="column11 style24 n">100.0</td>
+            <td class="column12 style24 n">100.0</td>
+            <td class="column13 style24 n">100.0</td>
+            <td class="column14 style24 n">100.0</td>
+            <td class="column15 style24 n">100.0</td>
+            <td class="column16 style24 s">..</td>
+            <td class="column17 style24 s">..</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row36">
+            <td class="column0 style17 n">2008</td>
+            <td class="column1 style20 s">Public Transport / Walking</td>
+            <td class="column2 style24 n">98.3</td>
+            <td class="column3 style24 n">99.8</td>
+            <td class="column4 style24 n">99.1</td>
+            <td class="column5 style24 n">99.9</td>
+            <td class="column6 style24 n">92.3</td>
+            <td class="column7 style24 n">99.5</td>
+            <td class="column8 style24 s">..</td>
+            <td class="column9 style24 s">..</td>
+            <td class="column10 style24 n">94.6</td>
+            <td class="column11 style24 n">99.6</td>
+            <td class="column12 style24 n">84.0</td>
+            <td class="column13 style24 n">98.5</td>
+            <td class="column14 style24 n">98.1</td>
+            <td class="column15 style24 n">99.8</td>
+            <td class="column16 style24 s">..</td>
+            <td class="column17 style24 s">..</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row37">
+            <td class="column0 style17 null"></td>
+            <td class="column1 style20 s">Cycle</td>
+            <td class="column2 style24 n">98.5</td>
+            <td class="column3 style24 n">99.8</td>
+            <td class="column4 style24 n">99.8</td>
+            <td class="column5 style24 n">100.0</td>
+            <td class="column6 style24 n">97.5</td>
+            <td class="column7 style24 n">99.7</td>
+            <td class="column8 style24 s">..</td>
+            <td class="column9 style24 s">..</td>
+            <td class="column10 style24 n">97.5</td>
+            <td class="column11 style24 n">99.7</td>
+            <td class="column12 style24 n">92.9</td>
+            <td class="column13 style24 n">99.1</td>
+            <td class="column14 style24 n">98.6</td>
+            <td class="column15 style24 n">99.8</td>
+            <td class="column16 style24 s">..</td>
+            <td class="column17 style24 s">..</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row38">
+            <td class="column0 style17 null"></td>
+            <td class="column1 style20 s">Car</td>
+            <td class="column2 style24 n">100.0</td>
+            <td class="column3 style24 n">100.0</td>
+            <td class="column4 style24 n">100.0</td>
+            <td class="column5 style24 n">100.0</td>
+            <td class="column6 style24 n">100.0</td>
+            <td class="column7 style24 n">100.0</td>
+            <td class="column8 style24 s">..</td>
+            <td class="column9 style24 s">..</td>
+            <td class="column10 style24 n">100.0</td>
+            <td class="column11 style24 n">100.0</td>
+            <td class="column12 style24 n">100.0</td>
+            <td class="column13 style24 n">100.0</td>
+            <td class="column14 style24 n">100.0</td>
+            <td class="column15 style24 n">100.0</td>
+            <td class="column16 style24 s">..</td>
+            <td class="column17 style24 s">..</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row39">
+            <td class="column0 style17 n">2009</td>
+            <td class="column1 style20 s">Public Transport / Walking</td>
+            <td class="column2 style24 n">98.4</td>
+            <td class="column3 style24 n">99.8</td>
+            <td class="column4 style24 n">99.2</td>
+            <td class="column5 style24 n">99.9</td>
+            <td class="column6 style24 n">93.5</td>
+            <td class="column7 style24 n">99.5</td>
+            <td class="column8 style24 s">..</td>
+            <td class="column9 style24 s">..</td>
+            <td class="column10 style24 n">97.2</td>
+            <td class="column11 style24 n">99.8</td>
+            <td class="column12 style24 n">80.0</td>
+            <td class="column13 style24 n">97.5</td>
+            <td class="column14 style24 n">98.3</td>
+            <td class="column15 style24 n">99.8</td>
+            <td class="column16 style24 n">69.2</td>
+            <td class="column17 style24 n">95.6</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row40">
+            <td class="column0 style17 null"></td>
+            <td class="column1 style20 s">Cycle</td>
+            <td class="column2 style24 n">98.4</td>
+            <td class="column3 style24 n">99.8</td>
+            <td class="column4 style24 n">99.8</td>
+            <td class="column5 style24 n">100.0</td>
+            <td class="column6 style24 n">97.5</td>
+            <td class="column7 style24 n">99.6</td>
+            <td class="column8 style24 s">..</td>
+            <td class="column9 style24 s">..</td>
+            <td class="column10 style24 n">98.4</td>
+            <td class="column11 style24 n">99.9</td>
+            <td class="column12 style24 n">88.4</td>
+            <td class="column13 style24 n">94.4</td>
+            <td class="column14 style24 n">98.4</td>
+            <td class="column15 style24 n">99.8</td>
+            <td class="column16 style24 n">83.5</td>
+            <td class="column17 style24 n">94.9</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row41">
+            <td class="column0 style17 null"></td>
+            <td class="column1 style20 s">Car</td>
+            <td class="column2 style24 n">100.0</td>
+            <td class="column3 style24 n">100.0</td>
+            <td class="column4 style24 n">100.0</td>
+            <td class="column5 style24 n">100.0</td>
+            <td class="column6 style24 n">100.0</td>
+            <td class="column7 style24 n">100.0</td>
+            <td class="column8 style24 s">..</td>
+            <td class="column9 style24 s">..</td>
+            <td class="column10 style24 n">100.0</td>
+            <td class="column11 style24 n">100.0</td>
+            <td class="column12 style24 n">100.0</td>
+            <td class="column13 style24 n">100.0</td>
+            <td class="column14 style24 n">100.0</td>
+            <td class="column15 style24 n">100.0</td>
+            <td class="column16 style24 n">99.7</td>
+            <td class="column17 style24 n">100.0</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row42">
+            <td class="column0 style17 n">2010</td>
+            <td class="column1 style20 s">Public Transport / Walking</td>
+            <td class="column2 style24 n">97.8</td>
+            <td class="column3 style24 n">99.7</td>
+            <td class="column4 style24 n">98.8</td>
+            <td class="column5 style24 n">99.8</td>
+            <td class="column6 style24 n">91.4</td>
+            <td class="column7 style24 n">99.2</td>
+            <td class="column8 style24 s">..</td>
+            <td class="column9 style24 s">..</td>
+            <td class="column10 style24 n">96.8</td>
+            <td class="column11 style24 n">99.7</td>
+            <td class="column12 style24 n">74.5</td>
+            <td class="column13 style24 n">95.8</td>
+            <td class="column14 style24 n">98.2</td>
+            <td class="column15 style24 n">99.8</td>
+            <td class="column16 style24 n">66.1</td>
+            <td class="column17 style24 n">94.9</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row43">
+            <td class="column0 style17 null"></td>
+            <td class="column1 style20 s">Cycle</td>
+            <td class="column2 style24 n">98.6</td>
+            <td class="column3 style24 n">99.8</td>
+            <td class="column4 style24 n">99.8</td>
+            <td class="column5 style24 n">100.0</td>
+            <td class="column6 style24 n">97.4</td>
+            <td class="column7 style24 n">99.7</td>
+            <td class="column8 style24 s">..</td>
+            <td class="column9 style24 s">..</td>
+            <td class="column10 style24 n">98.9</td>
+            <td class="column11 style24 n">99.9</td>
+            <td class="column12 style24 n">88.8</td>
+            <td class="column13 style24 n">97.8</td>
+            <td class="column14 style24 n">98.7</td>
+            <td class="column15 style24 n">99.8</td>
+            <td class="column16 style24 n">86.2</td>
+            <td class="column17 style24 n">96.3</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row44">
+            <td class="column0 style17 null"></td>
+            <td class="column1 style20 s">Car</td>
+            <td class="column2 style25 n">100.0</td>
+            <td class="column3 style25 n">100.0</td>
+            <td class="column4 style25 n">100.0</td>
+            <td class="column5 style25 n">100.0</td>
+            <td class="column6 style25 n">100.0</td>
+            <td class="column7 style25 n">100.0</td>
+            <td class="column8 style25 s">..</td>
+            <td class="column9 style25 s">..</td>
+            <td class="column10 style25 n">100.0</td>
+            <td class="column11 style25 n">100.0</td>
+            <td class="column12 style25 n">100.0</td>
+            <td class="column13 style25 n">100.0</td>
+            <td class="column14 style25 n">100.0</td>
+            <td class="column15 style25 n">100.0</td>
+            <td class="column16 style25 n">99.7</td>
+            <td class="column17 style25 n">100.0</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row45">
+            <td class="column0 style17 null"></td>
+            <td class="column1 style20 s">Car (New method)4</td>
+            <td class="column2 style24 n">99.9</td>
+            <td class="column3 style24 n">99.9</td>
+            <td class="column4 style24 n">99.9</td>
+            <td class="column5 style24 n">99.9</td>
+            <td class="column6 style24 n">99.9</td>
+            <td class="column7 style24 n">99.9</td>
+            <td class="column8 style24 s">..</td>
+            <td class="column9 style24 s">..</td>
+            <td class="column10 style24 n">99.9</td>
+            <td class="column11 style24 n">99.9</td>
+            <td class="column12 style24 n">99.7</td>
+            <td class="column13 style24 n">99.9</td>
+            <td class="column14 style24 n">99.9</td>
+            <td class="column15 style24 n">99.9</td>
+            <td class="column16 style24 n">98.4</td>
+            <td class="column17 style24 n">99.8</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row46">
+            <td class="column0 style17 n">2011</td>
+            <td class="column1 style20 s">Public Transport / Walking</td>
+            <td class="column2 style25 n">96.9</td>
+            <td class="column3 style25 n">99.6</td>
+            <td class="column4 style25 n">98.6</td>
+            <td class="column5 style25 n">99.8</td>
+            <td class="column6 style25 n">90.3</td>
+            <td class="column7 style25 n">99.1</td>
+            <td class="column8 style25 s">..</td>
+            <td class="column9 style25 s">..</td>
+            <td class="column10 style25 n">70.0</td>
+            <td class="column11 style25 n">94.6</td>
+            <td class="column12 style25 n">98.1</td>
+            <td class="column13 style25 n">99.7</td>
+            <td class="column14 style25 n">64.3</td>
+            <td class="column15 style25 n">94.3</td>
+            <td class="column16 style25 n">83.1</td>
+            <td class="column17 style25 n">97.2</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row47">
+            <td class="column0 style17 null"></td>
+            <td class="column1 style20 s">Public Transport / Walking<span style="color:#000000; font-family:'Arial'; font-size:10pt"><sup>6 </sup></span><span style="color:#000000; font-family:'Arial'; font-size:10pt">(revised)</span></td>
+            <td class="column2 style26 n">98.1</td>
+            <td class="column3 style26 n">99.8</td>
+            <td class="column4 style26 n">99.5</td>
+            <td class="column5 style26 n">99.9</td>
+            <td class="column6 style26 n">95.4</td>
+            <td class="column7 style26 n">99.4</td>
+            <td class="column8 style24 s">..</td>
+            <td class="column9 style24 s">..</td>
+            <td class="column10 style26 n">98.1</td>
+            <td class="column11 style26 n">99.8</td>
+            <td class="column12 style26 n">75.8</td>
+            <td class="column13 style26 n">95.9</td>
+            <td class="column14 style26 n">98.9</td>
+            <td class="column15 style26 n">99.8</td>
+            <td class="column16 style26 n">72.6</td>
+            <td class="column17 style26 n">95.7</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row48">
+            <td class="column0 style17 null"></td>
+            <td class="column1 style20 s">Cycle</td>
+            <td class="column2 style24 n">98.3</td>
+            <td class="column3 style24 n">99.8</td>
+            <td class="column4 style24 n">99.8</td>
+            <td class="column5 style24 n">99.8</td>
+            <td class="column6 style24 n">97.3</td>
+            <td class="column7 style24 n">99.6</td>
+            <td class="column8 style24 s">..</td>
+            <td class="column9 style24 s">..</td>
+            <td class="column10 style24 n">87.3</td>
+            <td class="column11 style24 n">97.1</td>
+            <td class="column12 style24 n">98.7</td>
+            <td class="column13 style24 n">99.8</td>
+            <td class="column14 style26 n">86.2</td>
+            <td class="column15 style24 n">96.3</td>
+            <td class="column16 style24 n">93.2</td>
+            <td class="column17 style24 n">98.3</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row49">
+            <td class="column0 style17 null"></td>
+            <td class="column1 style20 s">Car (New method)<span style="color:#000000; font-family:'Arial'; font-size:10pt"><sup>4</sup></span></td>
+            <td class="column2 style24 n">99.8</td>
+            <td class="column3 style24 n">99.8</td>
+            <td class="column4 style24 n">99.8</td>
+            <td class="column5 style24 n">99.8</td>
+            <td class="column6 style24 n">99.8</td>
+            <td class="column7 style24 n">99.8</td>
+            <td class="column8 style24 s">..</td>
+            <td class="column9 style24 s">..</td>
+            <td class="column10 style24 n">99.3</td>
+            <td class="column11 style24 n">99.8</td>
+            <td class="column12 style24 n">99.8</td>
+            <td class="column13 style24 n">99.8</td>
+            <td class="column14 style26 n">98.1</td>
+            <td class="column15 style24 n">99.8</td>
+            <td class="column16 style24 n">99.3</td>
+            <td class="column17 style24 n">99.8</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row50">
+            <td class="column0 style17 n">2012</td>
+            <td class="column1 style20 s">Public Transport / Walking<span style="color:#000000; font-family:'Arial'; font-size:10pt"><sup>5</sup></span></td>
+            <td class="column2 style24 null"></td>
+            <td class="column3 style24 null"></td>
+            <td class="column4 style24 null"></td>
+            <td class="column5 style24 null"></td>
+            <td class="column6 style24 null"></td>
+            <td class="column7 style24 null"></td>
+            <td class="column8 style24 s">..</td>
+            <td class="column9 style24 s">..</td>
+            <td class="column10 style24 null"></td>
+            <td class="column11 style24 null"></td>
+            <td class="column12 style24 null"></td>
+            <td class="column13 style24 null"></td>
+            <td class="column14 style26 null"></td>
+            <td class="column15 style24 null"></td>
+            <td class="column16 style24 null"></td>
+            <td class="column17 style24 null"></td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row51">
+            <td class="column0 style17 null"></td>
+            <td class="column1 style20 s">Cycle</td>
+            <td class="column2 style24 n">98.6</td>
+            <td class="column3 style24 n">99.9</td>
+            <td class="column4 style24 n">99.8</td>
+            <td class="column5 style24 n">100.0</td>
+            <td class="column6 style24 n">97.2</td>
+            <td class="column7 style24 n">99.6</td>
+            <td class="column8 style24 s">..</td>
+            <td class="column9 style24 s">..</td>
+            <td class="column10 style24 n">89.4</td>
+            <td class="column11 style24 n">98.0</td>
+            <td class="column12 style24 n">98.8</td>
+            <td class="column13 style24 n">99.8</td>
+            <td class="column14 style24 n">86.7</td>
+            <td class="column15 style24 n">96.5</td>
+            <td class="column16 style24 n">93.9</td>
+            <td class="column17 style24 n">98.7</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row52">
+            <td class="column0 style17 null"></td>
+            <td class="column1 style20 s">car (new method)</td>
+            <td class="column2 style24 n">99.8</td>
+            <td class="column3 style24 n">99.8</td>
+            <td class="column4 style24 n">99.8</td>
+            <td class="column5 style24 n">99.8</td>
+            <td class="column6 style24 n">99.8</td>
+            <td class="column7 style24 n">99.8</td>
+            <td class="column8 style24 s">..</td>
+            <td class="column9 style24 s">..</td>
+            <td class="column10 style24 n">99.6</td>
+            <td class="column11 style24 n">99.8</td>
+            <td class="column12 style24 n">99.8</td>
+            <td class="column13 style24 n">99.8</td>
+            <td class="column14 style24 n">98.4</td>
+            <td class="column15 style24 n">99.8</td>
+            <td class="column16 style24 n">99.4</td>
+            <td class="column17 style24 n">99.8</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row53">
+            <td class="column0 style17 n">2013</td>
+            <td class="column1 style20 s">Public Transport / Walking<span style="color:#000000; font-family:'Arial'; font-size:10pt"><sup>6</sup></span></td>
+            <td class="column2 style24 n">98.5</td>
+            <td class="column3 style24 n">99.8</td>
+            <td class="column4 style24 n">99.5</td>
+            <td class="column5 style24 n">100.0</td>
+            <td class="column6 style24 n">95.9</td>
+            <td class="column7 style24 n">99.5</td>
+            <td class="column8 style24 s">..</td>
+            <td class="column9 style24 s">..</td>
+            <td class="column10 style24 n">98.1</td>
+            <td class="column11 style24 n">99.8</td>
+            <td class="column12 style24 n">78.6</td>
+            <td class="column13 style24 n">97.5</td>
+            <td class="column14 style24 n">99.0</td>
+            <td class="column15 style24 n">99.8</td>
+            <td class="column16 style24 n">72.3</td>
+            <td class="column17 style24 n">95.5</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row54">
+            <td class="column0 style17 null"></td>
+            <td class="column1 style20 s">Cycle</td>
+            <td class="column2 style24 n">98.6</td>
+            <td class="column3 style24 n">99.9</td>
+            <td class="column4 style24 n">100.0</td>
+            <td class="column5 style24 n">100.1</td>
+            <td class="column6 style24 n">97.2</td>
+            <td class="column7 style24 n">99.6</td>
+            <td class="column8 style24 s">..</td>
+            <td class="column9 style24 s">..</td>
+            <td class="column10 style24 n">98.7</td>
+            <td class="column11 style24 n">99.8</td>
+            <td class="column12 style24 n">89.9</td>
+            <td class="column13 style24 n">98.0</td>
+            <td class="column14 style24 n">98.9</td>
+            <td class="column15 style24 n">99.8</td>
+            <td class="column16 style24 n">86.1</td>
+            <td class="column17 style24 n">95.8</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row55">
+            <td class="column0 style27 null"></td>
+            <td class="column1 style28 s">car (new method)</td>
+            <td class="column2 style29 n">100.3</td>
+            <td class="column3 style29 n">100.0</td>
+            <td class="column4 style29 n">100.2</td>
+            <td class="column5 style29 n">100.2</td>
+            <td class="column6 style29 n">100.0</td>
+            <td class="column7 style29 n">100.0</td>
+            <td class="column8 style29 s">..</td>
+            <td class="column9 style29 s">..</td>
+            <td class="column10 style29 n">99.9</td>
+            <td class="column11 style29 n">99.9</td>
+            <td class="column12 style29 n">99.8</td>
+            <td class="column13 style29 n">100.0</td>
+            <td class="column14 style29 n">99.9</td>
+            <td class="column15 style29 n">99.9</td>
+            <td class="column16 style29 n">98.1</td>
+            <td class="column17 style29 n">99.2</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row56">
+            <td class="column0 style20 s">1 The at risk users looks at particular social groups at risk of exclusion, e.g. for primary schools, the at risk users are children aged 5-10 known to be eligible for free school meals. Please see the guidance note for a full list of user groups.</td>
+            <td class="column1 style17 null"></td>
+            <td class="column2 style30 null"></td>
+            <td class="column3 style30 null"></td>
+            <td class="column4 style30 null"></td>
+            <td class="column5 style30 null"></td>
+            <td class="column6 style30 null"></td>
+            <td class="column7 style30 null"></td>
+            <td class="column8 style30 null"></td>
+            <td class="column9 style30 null"></td>
+            <td class="column10 style30 null"></td>
+            <td class="column11 style30 null"></td>
+            <td class="column12 style30 null"></td>
+            <td class="column13 style30 null"></td>
+            <td class="column14 style30 null"></td>
+            <td class="column15 style30 null"></td>
+            <td class="column16 style30 null"></td>
+            <td class="column17 style30 null"></td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row57">
+            <td class="column0 style20 s">2 The number and proportion of users in a local area who can access a service within set time limits. For further information on details on the lower and upper thresholds and how they are derived please see the guidance note.</td>
+            <td class="column1 style17 null"></td>
+            <td class="column2 style30 null"></td>
+            <td class="column3 style30 null"></td>
+            <td class="column4 style30 null"></td>
+            <td class="column5 style30 null"></td>
+            <td class="column6 style30 null"></td>
+            <td class="column7 style30 null"></td>
+            <td class="column8 style30 null"></td>
+            <td class="column9 style30 null"></td>
+            <td class="column10 style30 null"></td>
+            <td class="column11 style30 null"></td>
+            <td class="column12 style30 null"></td>
+            <td class="column13 style30 null"></td>
+            <td class="column14 style30 null"></td>
+            <td class="column15 style30 null"></td>
+            <td class="column16 style30 null"></td>
+            <td class="column17 style30 null"></td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row58">
+            <td class="column0 style20 s">3 An at risk group is not measured for the Further Education service.</td>
+            <td class="column1 style17 null"></td>
+            <td class="column2 style30 null"></td>
+            <td class="column3 style30 null"></td>
+            <td class="column4 style30 null"></td>
+            <td class="column5 style30 null"></td>
+            <td class="column6 style30 null"></td>
+            <td class="column7 style30 null"></td>
+            <td class="column8 style30 null"></td>
+            <td class="column9 style30 null"></td>
+            <td class="column10 style30 null"></td>
+            <td class="column11 style30 null"></td>
+            <td class="column12 style30 null"></td>
+            <td class="column13 style30 null"></td>
+            <td class="column14 style30 null"></td>
+            <td class="column15 style30 null"></td>
+            <td class="column16 style30 null"></td>
+            <td class="column17 style30 null"></td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row59">
+            <td class="column0 style20 s">4 A new method has been adopted in 2010 using Trafficmaster congestion data to calculate travel times for the car mode, as opposed to using default speeds. Please see the guidance note for further information.</td>
+            <td class="column1 style17 null"></td>
+            <td class="column2 style30 null"></td>
+            <td class="column3 style30 null"></td>
+            <td class="column4 style30 null"></td>
+            <td class="column5 style30 null"></td>
+            <td class="column6 style30 null"></td>
+            <td class="column7 style30 null"></td>
+            <td class="column8 style30 null"></td>
+            <td class="column9 style30 null"></td>
+            <td class="column10 style30 null"></td>
+            <td class="column11 style30 null"></td>
+            <td class="column12 style30 null"></td>
+            <td class="column13 style30 null"></td>
+            <td class="column14 style30 null"></td>
+            <td class="column15 style30 null"></td>
+            <td class="column16 style30 null"></td>
+            <td class="column17 style30 null"></td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row60">
+            <td class="column0 style31 s">5 Public transport/walking data were not updated for 2012 due to a data quality issue. Please see 2013 statistical release or the guidance notes document for details.</td>
+            <td class="column1 style31 null"></td>
+            <td class="column2 style32 null"></td>
+            <td class="column3 style32 null"></td>
+            <td class="column4 style32 null"></td>
+            <td class="column5 style32 null"></td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11">&nbsp;</td>
+            <td class="column12">&nbsp;</td>
+            <td class="column13">&nbsp;</td>
+            <td class="column14">&nbsp;</td>
+            <td class="column15">&nbsp;</td>
+            <td class="column16">&nbsp;</td>
+            <td class="column17">&nbsp;</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row61">
+            <td class="column0 style20 s">6 A new method has been adopted in 2013 for the public transport/walking mode. Please see guidance notes document for details. The 2011 results have been recalculated on the new basis.</td>
+            <td class="column1 style31 null"></td>
+            <td class="column2 style32 null"></td>
+            <td class="column3 style32 null"></td>
+            <td class="column4 style32 null"></td>
+            <td class="column5 style32 null"></td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11">&nbsp;</td>
+            <td class="column12">&nbsp;</td>
+            <td class="column13">&nbsp;</td>
+            <td class="column14">&nbsp;</td>
+            <td class="column15">&nbsp;</td>
+            <td class="column16">&nbsp;</td>
+            <td class="column17">&nbsp;</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row62">
+            <td class="column0 style20 s">Telephone: 020 7944 4139</td>
+            <td class="column1 style12 null"></td>
+            <td class="column2 style12 null"></td>
+            <td class="column3 style12 null"></td>
+            <td class="column4 style12 null"></td>
+            <td class="column5 style12 null"></td>
+            <td class="column6 style12 null"></td>
+            <td class="column7 style12 null"></td>
+            <td class="column8 style6 null"></td>
+            <td class="column9 style6 null"></td>
+            <td class="column10 style12 null"></td>
+            <td class="column11 style12 null"></td>
+            <td class="column12 style30 null"></td>
+            <td class="column13 style30 null"></td>
+            <td class="column14 style30 null"></td>
+            <td class="column15 style30 null"></td>
+            <td class="column16 style30 null"></td>
+            <td class="column17 style38 s">Source: DfT Accessibility Statistics</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row63">
+            <td class="column0 style20 s">Email: subnational.stats@dft.gsi.gov.uk</td>
+            <td class="column1 style33 null"></td>
+            <td class="column2 style33 null"></td>
+            <td class="column3 style33 null"></td>
+            <td class="column4 style33 null"></td>
+            <td class="column5 style33 null"></td>
+            <td class="column6 style33 null"></td>
+            <td class="column7 style33 null"></td>
+            <td class="column8 style6 null"></td>
+            <td class="column9 style6 null"></td>
+            <td class="column10 style33 null"></td>
+            <td class="column11 style33 null"></td>
+            <td class="column12">&nbsp;</td>
+            <td class="column13">&nbsp;</td>
+            <td class="column14">&nbsp;</td>
+            <td class="column15">&nbsp;</td>
+            <td class="column16">&nbsp;</td>
+            <td class="column17 style38 s">Last updated: September 2014</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row64">
+            <td class="column0 style8 s">https://www.gov.uk/transport-statistics-notes-and-guidance-transport-accessibility</td>
+            <td class="column1 style6 null"></td>
+            <td class="column2 style20 null"></td>
+            <td class="column3 style20 null"></td>
+            <td class="column4 style20 null"></td>
+            <td class="column5 style20 null"></td>
+            <td class="column6 style20 null"></td>
+            <td class="column7 style20 null"></td>
+            <td class="column8 style6 null"></td>
+            <td class="column9 style6 null"></td>
+            <td class="column10 style20 null"></td>
+            <td class="column11 style20 null"></td>
+            <td class="column12">&nbsp;</td>
+            <td class="column13">&nbsp;</td>
+            <td class="column14">&nbsp;</td>
+            <td class="column15">&nbsp;</td>
+            <td class="column16">&nbsp;</td>
+            <td class="column17 style38 s">Next update: To be advised</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row65">
+            <td class="column0 style20 s">The figures in this table are outside the scope of National Statistics</td>
+            <td class="column1 style20 null"></td>
+            <td class="column2 style20 null"></td>
+            <td class="column3 style20 null"></td>
+            <td class="column4 style20 null"></td>
+            <td class="column5 style20 null"></td>
+            <td class="column6 style20 null"></td>
+            <td class="column7 style20 null"></td>
+            <td class="column8 style20 null"></td>
+            <td class="column9 style20 null"></td>
+            <td class="column10 style20 null"></td>
+            <td class="column11 style20 null"></td>
+            <td class="column12">&nbsp;</td>
+            <td class="column13">&nbsp;</td>
+            <td class="column14">&nbsp;</td>
+            <td class="column15">&nbsp;</td>
+            <td class="column16">&nbsp;</td>
+            <td class="column17">&nbsp;</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row66">
+            <td class="column0 style20 null"></td>
+            <td class="column1 style20 null"></td>
+            <td class="column2 style9 null"></td>
+            <td class="column3 style9 null"></td>
+            <td class="column4 style9 null"></td>
+            <td class="column5 style9 null"></td>
+            <td class="column6 style9 null"></td>
+            <td class="column7 style9 null"></td>
+            <td class="column8 style9 null"></td>
+            <td class="column9 style9 null"></td>
+            <td class="column10 style9 null"></td>
+            <td class="column11 style9 null"></td>
+            <td class="column12">&nbsp;</td>
+            <td class="column13">&nbsp;</td>
+            <td class="column14">&nbsp;</td>
+            <td class="column15">&nbsp;</td>
+            <td class="column16">&nbsp;</td>
+            <td class="column17">&nbsp;</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row67">
+            <td class="column0 style9 null"></td>
+            <td class="column1 style9 null"></td>
+            <td class="column2 style20 null"></td>
+            <td class="column3 style20 null"></td>
+            <td class="column4 style20 null"></td>
+            <td class="column5 style20 null"></td>
+            <td class="column6 style20 null"></td>
+            <td class="column7 style20 null"></td>
+            <td class="column8 style20 null"></td>
+            <td class="column9 style20 null"></td>
+            <td class="column10 style20 null"></td>
+            <td class="column11 style20 null"></td>
+            <td class="column12">&nbsp;</td>
+            <td class="column13">&nbsp;</td>
+            <td class="column14">&nbsp;</td>
+            <td class="column15">&nbsp;</td>
+            <td class="column16">&nbsp;</td>
+            <td class="column17">&nbsp;</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+          <tr class="row68">
+            <td class="column0 style20 null"></td>
+            <td class="column1 style20 null"></td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11">&nbsp;</td>
+            <td class="column12">&nbsp;</td>
+            <td class="column13">&nbsp;</td>
+            <td class="column14">&nbsp;</td>
+            <td class="column15">&nbsp;</td>
+            <td class="column16">&nbsp;</td>
+            <td class="column17">&nbsp;</td>
+            <td class="column18">&nbsp;</td>
+          </tr>
+        </tbody>
+    </table>
+  </body>
+</html>

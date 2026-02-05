@@ -1,0 +1,949 @@
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+% \usepackage{multirow}
+% \usepackage[table,xcdraw]{xcolor}
+% Beamer presentation requires \usepackage{colortbl} instead of \usepackage[table,xcdraw]{xcolor}
+\begin{table}[]
+\begin{tabular}{@{}lrrrrrrr@{}}
+\textbf{Timely indicators of entrepreneurship by enterprise characteristics, Italy} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} \\
+Frequency of observation: Quarterly & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} \\
+Adjustment: Neither seasonally adjusted nor calendar adjusted & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} \\
+Combined unit of measure: Enterprises, Units & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} \\
+ & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} \\
+\rowcolor[HTML]{0549AB} 
+\multicolumn{2}{l}{\cellcolor[HTML]{0549AB}{\color[HTML]{FFFFFF} \textbf{Time period}}} & \multicolumn{1}{c}{\cellcolor[HTML]{0549AB}{\color[HTML]{FFFFFF} 2023-Q1}} & \multicolumn{1}{c}{\cellcolor[HTML]{0549AB}{\color[HTML]{FFFFFF} 2023-Q2}} & \multicolumn{1}{c}{\cellcolor[HTML]{0549AB}{\color[HTML]{FFFFFF} 2023-Q3}} & \multicolumn{1}{c}{\cellcolor[HTML]{0549AB}{\color[HTML]{FFFFFF} 2023-Q4}} & \multicolumn{1}{c}{\cellcolor[HTML]{0549AB}{\color[HTML]{FFFFFF} 2024-Q1}} & \multicolumn{1}{c}{\cellcolor[HTML]{0549AB}{\color[HTML]{FFFFFF} 2024-Q2}} \\
+\rowcolor[HTML]{F1F1F1} 
+\cellcolor[HTML]{E2F2FB}\textbf{Legal form} & \multicolumn{1}{l}{\cellcolor[HTML]{F1F1F1}} & \multicolumn{1}{l}{\cellcolor[HTML]{F1F1F1}} & \multicolumn{1}{l}{\cellcolor[HTML]{F1F1F1}} & \multicolumn{1}{l}{\cellcolor[HTML]{F1F1F1}} & \multicolumn{1}{l}{\cellcolor[HTML]{F1F1F1}} & \multicolumn{1}{l}{\cellcolor[HTML]{F1F1F1}} & \multicolumn{1}{l}{\cellcolor[HTML]{F1F1F1}} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Measure: Business bankruptcies} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Reference area: Italy} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Economic activity: Wholesale and retail trade; repair of motor vehicles and motorcycles} & \multirow{-3}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}Total - All legal forms & \cellcolor[HTML]{F1F1F1} & 480 & 490 & 381 &  &  &  \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Measure: Business entries} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Reference area: Italy} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Economic activity: Wholesale and retail trade; repair of motor vehicles and motorcycles} & \multirow{-3}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}Total - All legal forms & \cellcolor[HTML]{F1F1F1} & 14,735 & 11,227 & 7,803 & 9,416 & 14,158 & 10,541 \\
+\cellcolor[HTML]{E2F2FB}·  Unspecified & \cellcolor[HTML]{F1F1F1} & 18 & 13 & 16 & 10 & 16 & 14 \\
+\cellcolor[HTML]{E2F2FB}·  Limited liability & \cellcolor[HTML]{F1F1F1} & 2,057 & 1,391 & 956 & 1,463 & 2,081 & 1,463 \\
+\cellcolor[HTML]{E2F2FB}·  Partnership & \cellcolor[HTML]{F1F1F1} & 443 & 262 & 165 & 238 & 383 & 214 \\
+\cellcolor[HTML]{E2F2FB}·  Sole proprietorship & \cellcolor[HTML]{F1F1F1} & 12,217 & 9,561 & 6,666 & 7,705 & 11,678 & 8,850 \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Measure: Business entries} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Reference area: Italy} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Economic activity: Manufacturing} & \multirow{-3}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}Total - All legal forms & \cellcolor[HTML]{F1F1F1} & 4,517 & 3,218 & 2,268 & 2,596 & 4,567 & 3,045 \\
+\cellcolor[HTML]{E2F2FB}·  Unspecified & \cellcolor[HTML]{F1F1F1} & 18 & 19 & 10 & 11 & 7 & 10 \\
+\cellcolor[HTML]{E2F2FB}·  Limited liability & \cellcolor[HTML]{F1F1F1} & 933 & 641 & 495 & 732 & 982 & 670 \\
+\cellcolor[HTML]{E2F2FB}·  Partnership & \cellcolor[HTML]{F1F1F1} & 158 & 93 & 66 & 75 & 168 & 82 \\
+\cellcolor[HTML]{E2F2FB}·  Sole proprietorship & \cellcolor[HTML]{F1F1F1} & 3,408 & 2,465 & 1,697 & 1,778 & 3,410 & 2,283 \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Measure: Business entries} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Reference area: Piedmont} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Economic activity: Manufacturing} & \multirow{-3}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}Total - All legal forms & \cellcolor[HTML]{F1F1F1} & 410 & 263 & 208 & 178 & 422 & 244 \\
+\cellcolor[HTML]{E2F2FB}·  Unspecified & \cellcolor[HTML]{F1F1F1} & 1 & 3 & 0 & 0 & 0 & 0 \\
+\cellcolor[HTML]{E2F2FB}·  Limited liability & \cellcolor[HTML]{F1F1F1} & 50 & 41 & 29 & 36 & 71 & 45 \\
+\cellcolor[HTML]{E2F2FB}·  Partnership & \cellcolor[HTML]{F1F1F1} & 24 & 6 & 11 & 8 & 22 & 5 \\
+\cellcolor[HTML]{E2F2FB}·  Sole proprietorship & \cellcolor[HTML]{F1F1F1} & 335 & 213 & 168 & 134 & 329 & 194 \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Measure: Business entries} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Reference area: Piedmont} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Economic activity: Wholesale and retail trade; repair of motor vehicles and motorcycles} & \multirow{-3}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}Total - All legal forms & \cellcolor[HTML]{F1F1F1} & 1,271 & 870 & 645 & 706 & 1,194 & 800 \\
+\cellcolor[HTML]{E2F2FB}·  Unspecified & \cellcolor[HTML]{F1F1F1} & 2 & 2 & 2 & 1 & 0 & 1 \\
+\cellcolor[HTML]{E2F2FB}·  Limited liability & \cellcolor[HTML]{F1F1F1} & 99 & 71 & 40 & 80 & 82 & 61 \\
+\cellcolor[HTML]{E2F2FB}·  Partnership & \cellcolor[HTML]{F1F1F1} & 56 & 29 & 15 & 30 & 39 & 19 \\
+\cellcolor[HTML]{E2F2FB}·  Sole proprietorship & \cellcolor[HTML]{F1F1F1} & 1,114 & 768 & 588 & 595 & 1,073 & 719 \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Measure: Business entries} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Reference area: Aosta Valley} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Economic activity: Manufacturing} & \multirow{-3}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}Total - All legal forms & \cellcolor[HTML]{F1F1F1} & 6 & 10 & 9 & 5 & 13 & 6 \\
+\cellcolor[HTML]{E2F2FB}·  Unspecified & \cellcolor[HTML]{F1F1F1} & 0 & 0 & 0 & 0 & 0 & 0 \\
+\cellcolor[HTML]{E2F2FB}·  Limited liability & \cellcolor[HTML]{F1F1F1} & 2 & 3 & 1 & 3 & 2 & 1 \\
+\cellcolor[HTML]{E2F2FB}·  Partnership & \cellcolor[HTML]{F1F1F1} & 0 & 1 & 0 & 0 & 0 & 0 \\
+\cellcolor[HTML]{E2F2FB}·  Sole proprietorship & \cellcolor[HTML]{F1F1F1} & 4 & 6 & 8 & 2 & 11 & 5 \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Measure: Business entries} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Reference area: Aosta Valley} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Economic activity: Wholesale and retail trade; repair of motor vehicles and motorcycles} & \multirow{-3}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}Total - All legal forms & \cellcolor[HTML]{F1F1F1} & 33 & 14 & 8 & 16 & 19 & 12 \\
+\cellcolor[HTML]{E2F2FB}·  Unspecified & \cellcolor[HTML]{F1F1F1} & 0 & 0 & 0 & 0 & 0 & 0 \\
+\cellcolor[HTML]{E2F2FB}·  Limited liability & \cellcolor[HTML]{F1F1F1} & 3 & 1 & 1 & 3 & 1 & 1 \\
+\cellcolor[HTML]{E2F2FB}·  Partnership & \cellcolor[HTML]{F1F1F1} & 0 & 0 & 0 & 1 & 1 & 0 \\
+\cellcolor[HTML]{E2F2FB}·  Sole proprietorship & \cellcolor[HTML]{F1F1F1} & 30 & 13 & 7 & 12 & 17 & 11 \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Measure: Business entries} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Reference area: Liguria} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Economic activity: Manufacturing} & \multirow{-3}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}Total - All legal forms & \cellcolor[HTML]{F1F1F1} & 112 & 97 & 47 & 68 & 129 & 94 \\
+\cellcolor[HTML]{E2F2FB}·  Unspecified & \cellcolor[HTML]{F1F1F1} & 0 & 1 & 0 & 1 & 0 & 0 \\
+\cellcolor[HTML]{E2F2FB}·  Limited liability & \cellcolor[HTML]{F1F1F1} & 15 & 16 & 9 & 8 & 11 & 16 \\
+\cellcolor[HTML]{E2F2FB}·  Partnership & \cellcolor[HTML]{F1F1F1} & 5 & 7 & 1 & 0 & 7 & 2 \\
+\cellcolor[HTML]{E2F2FB}·  Sole proprietorship & \cellcolor[HTML]{F1F1F1} & 92 & 73 & 37 & 59 & 111 & 76 \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Measure: Business entries} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Reference area: Liguria} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Economic activity: Wholesale and retail trade; repair of motor vehicles and motorcycles} & \multirow{-3}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}Total - All legal forms & \cellcolor[HTML]{F1F1F1} & 348 & 254 & 203 & 189 & 311 & 205 \\
+\cellcolor[HTML]{E2F2FB}·  Unspecified & \cellcolor[HTML]{F1F1F1} & 1 & 0 & 0 & 0 & 1 & 0 \\
+\cellcolor[HTML]{E2F2FB}·  Limited liability & \cellcolor[HTML]{F1F1F1} & 33 & 19 & 8 & 15 & 22 & 15 \\
+\cellcolor[HTML]{E2F2FB}·  Partnership & \cellcolor[HTML]{F1F1F1} & 12 & 12 & 6 & 3 & 11 & 8 \\
+\cellcolor[HTML]{E2F2FB}·  Sole proprietorship & \cellcolor[HTML]{F1F1F1} & 302 & 223 & 189 & 171 & 277 & 182 \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Measure: Business entries} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Reference area: Lombardy} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Economic activity: Manufacturing} & \multirow{-3}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}Total - All legal forms & \cellcolor[HTML]{F1F1F1} & 834 & 541 & 389 & 487 & 861 & 523 \\
+\cellcolor[HTML]{E2F2FB}·  Unspecified & \cellcolor[HTML]{F1F1F1} & 3 & 2 & 0 & 1 & 0 & 1 \\
+\cellcolor[HTML]{E2F2FB}·  Limited liability & \cellcolor[HTML]{F1F1F1} & 208 & 131 & 88 & 168 & 223 & 137 \\
+\cellcolor[HTML]{E2F2FB}·  Partnership & \cellcolor[HTML]{F1F1F1} & 21 & 13 & 13 & 17 & 24 & 17 \\
+\cellcolor[HTML]{E2F2FB}·  Sole proprietorship & \cellcolor[HTML]{F1F1F1} & 602 & 395 & 288 & 301 & 614 & 368 \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Measure: Business entries} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Reference area: Lombardy} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Economic activity: Wholesale and retail trade; repair of motor vehicles and motorcycles} & \multirow{-3}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}Total - All legal forms & \cellcolor[HTML]{F1F1F1} & 2,470 & 1,725 & 1,250 & 1,489 & 2,429 & 1,710 \\
+\cellcolor[HTML]{E2F2FB}·  Unspecified & \cellcolor[HTML]{F1F1F1} & 4 & 1 & 5 & 4 & 1 & 4 \\
+\cellcolor[HTML]{E2F2FB}·  Limited liability & \cellcolor[HTML]{F1F1F1} & 403 & 325 & 230 & 328 & 448 & 343 \\
+\cellcolor[HTML]{E2F2FB}·  Partnership & \cellcolor[HTML]{F1F1F1} & 83 & 51 & 41 & 56 & 63 & 49 \\
+\cellcolor[HTML]{E2F2FB}·  Sole proprietorship & \cellcolor[HTML]{F1F1F1} & 1,980 & 1,348 & 974 & 1,101 & 1,917 & 1,314 \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Measure: Business entries} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Reference area: Abruzzo} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Economic activity: Manufacturing} & \multirow{-3}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}Total - All legal forms & \cellcolor[HTML]{F1F1F1} & 91 & 52 & 50 & 54 & 104 & 61 \\
+\cellcolor[HTML]{E2F2FB}·  Unspecified & \cellcolor[HTML]{F1F1F1} & 2 & 1 & 0 & 0 & 0 & 1 \\
+\cellcolor[HTML]{E2F2FB}·  Limited liability & \cellcolor[HTML]{F1F1F1} & 27 & 7 & 18 & 9 & 33 & 11 \\
+\cellcolor[HTML]{E2F2FB}·  Partnership & \cellcolor[HTML]{F1F1F1} & 2 & 3 & 0 & 0 & 4 & 0 \\
+\cellcolor[HTML]{E2F2FB}·  Sole proprietorship & \cellcolor[HTML]{F1F1F1} & 60 & 41 & 32 & 45 & 67 & 49 \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Measure: Business entries} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Reference area: Abruzzo} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Economic activity: Wholesale and retail trade; repair of motor vehicles and motorcycles} & \multirow{-3}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}Total - All legal forms & \cellcolor[HTML]{F1F1F1} & 307 & 232 & 169 & 189 & 318 & 224 \\
+\cellcolor[HTML]{E2F2FB}·  Unspecified & \cellcolor[HTML]{F1F1F1} & 1 & 1 & 1 & 0 & 0 & 0 \\
+\cellcolor[HTML]{E2F2FB}·  Limited liability & \cellcolor[HTML]{F1F1F1} & 53 & 31 & 24 & 33 & 47 & 25 \\
+\cellcolor[HTML]{E2F2FB}·  Partnership & \cellcolor[HTML]{F1F1F1} & 13 & 3 & 3 & 5 & 10 & 2 \\
+\cellcolor[HTML]{E2F2FB}·  Sole proprietorship & \cellcolor[HTML]{F1F1F1} & 240 & 197 & 141 & 151 & 261 & 197 \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Measure: Business entries} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Reference area: Molise} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Economic activity: Manufacturing} & \multirow{-3}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}Total - All legal forms & \cellcolor[HTML]{F1F1F1} & 8 & 15 & 7 & 9 & 11 & 13 \\
+\cellcolor[HTML]{E2F2FB}·  Unspecified & \cellcolor[HTML]{F1F1F1} & 0 & 0 & 0 & 0 & 0 & 0 \\
+\cellcolor[HTML]{E2F2FB}·  Limited liability & \cellcolor[HTML]{F1F1F1} & 3 & 5 & 2 & 2 & 5 & 5 \\
+\cellcolor[HTML]{E2F2FB}·  Partnership & \cellcolor[HTML]{F1F1F1} & 1 & 0 & 0 & 0 & 0 & 0 \\
+\cellcolor[HTML]{E2F2FB}·  Sole proprietorship & \cellcolor[HTML]{F1F1F1} & 4 & 10 & 5 & 7 & 6 & 8 \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Measure: Business entries} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Reference area: Molise} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Economic activity: Wholesale and retail trade; repair of motor vehicles and motorcycles} & \multirow{-3}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}Total - All legal forms & \cellcolor[HTML]{F1F1F1} & 66 & 60 & 32 & 44 & 58 & 54 \\
+\cellcolor[HTML]{E2F2FB}·  Unspecified & \cellcolor[HTML]{F1F1F1} & 1 & 0 & 0 & 0 & 1 & 0 \\
+\cellcolor[HTML]{E2F2FB}·  Limited liability & \cellcolor[HTML]{F1F1F1} & 13 & 9 & 8 & 4 & 7 & 12 \\
+\cellcolor[HTML]{E2F2FB}·  Partnership & \cellcolor[HTML]{F1F1F1} & 2 & 1 & 1 & 0 & 1 & 1 \\
+\cellcolor[HTML]{E2F2FB}·  Sole proprietorship & \cellcolor[HTML]{F1F1F1} & 50 & 50 & 23 & 40 & 49 & 41 \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Measure: Business entries} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Reference area: Campania} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Economic activity: Manufacturing} & \multirow{-3}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}Total - All legal forms & \cellcolor[HTML]{F1F1F1} & 206 & 194 & 167 & 166 & 239 & 187 \\
+\cellcolor[HTML]{E2F2FB}·  Unspecified & \cellcolor[HTML]{F1F1F1} & 2 & 2 & 1 & 3 & 4 & 2 \\
+\cellcolor[HTML]{E2F2FB}·  Limited liability & \cellcolor[HTML]{F1F1F1} & 63 & 46 & 43 & 50 & 74 & 47 \\
+\cellcolor[HTML]{E2F2FB}·  Partnership & \cellcolor[HTML]{F1F1F1} & 2 & 3 & 5 & 3 & 5 & 2 \\
+\cellcolor[HTML]{E2F2FB}·  Sole proprietorship & \cellcolor[HTML]{F1F1F1} & 139 & 143 & 118 & 110 & 156 & 136 \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Measure: Business entries} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Reference area: Campania} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Economic activity: Wholesale and retail trade; repair of motor vehicles and motorcycles} & \multirow{-3}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}Total - All legal forms & \cellcolor[HTML]{F1F1F1} & 1,708 & 1,422 & 969 & 1,290 & 1,672 & 1,453 \\
+\cellcolor[HTML]{E2F2FB}·  Unspecified & \cellcolor[HTML]{F1F1F1} & 1 & 0 & 0 & 2 & 0 & 1 \\
+\cellcolor[HTML]{E2F2FB}·  Limited liability & \cellcolor[HTML]{F1F1F1} & 316 & 180 & 133 & 179 & 330 & 204 \\
+\cellcolor[HTML]{E2F2FB}·  Partnership & \cellcolor[HTML]{F1F1F1} & 18 & 11 & 5 & 9 & 19 & 13 \\
+\cellcolor[HTML]{E2F2FB}·  Sole proprietorship & \cellcolor[HTML]{F1F1F1} & 1,373 & 1,231 & 831 & 1,100 & 1,323 & 1,235 \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Measure: Business entries} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Reference area: Apulia} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Economic activity: Manufacturing} & \multirow{-3}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}Total - All legal forms & \cellcolor[HTML]{F1F1F1} & 162 & 123 & 71 & 106 & 181 & 148 \\
+\cellcolor[HTML]{E2F2FB}·  Unspecified & \cellcolor[HTML]{F1F1F1} & 2 & 0 & 2 & 1 & 0 & 1 \\
+\cellcolor[HTML]{E2F2FB}·  Limited liability & \cellcolor[HTML]{F1F1F1} & 36 & 22 & 19 & 31 & 48 & 41 \\
+\cellcolor[HTML]{E2F2FB}·  Partnership & \cellcolor[HTML]{F1F1F1} & 7 & 3 & 1 & 2 & 5 & 4 \\
+\cellcolor[HTML]{E2F2FB}·  Sole proprietorship & \cellcolor[HTML]{F1F1F1} & 117 & 98 & 49 & 72 & 128 & 102 \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Measure: Business entries} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Reference area: Apulia} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Economic activity: Wholesale and retail trade; repair of motor vehicles and motorcycles} & \multirow{-3}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}Total - All legal forms & \cellcolor[HTML]{F1F1F1} & 1,047 & 866 & 628 & 729 & 1,078 & 828 \\
+\cellcolor[HTML]{E2F2FB}·  Unspecified & \cellcolor[HTML]{F1F1F1} & 1 & 1 & 2 & 1 & 3 & 5 \\
+\cellcolor[HTML]{E2F2FB}·  Limited liability & \cellcolor[HTML]{F1F1F1} & 153 & 91 & 65 & 108 & 163 & 100 \\
+\cellcolor[HTML]{E2F2FB}·  Partnership & \cellcolor[HTML]{F1F1F1} & 24 & 11 & 10 & 11 & 27 & 12 \\
+\cellcolor[HTML]{E2F2FB}·  Sole proprietorship & \cellcolor[HTML]{F1F1F1} & 869 & 763 & 551 & 609 & 885 & 711 \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Measure: Business entries} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Reference area: Basilicata} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Economic activity: Manufacturing} & \multirow{-3}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}Total - All legal forms & \cellcolor[HTML]{F1F1F1} & 23 & 10 & 12 & 9 & 21 & 20 \\
+\cellcolor[HTML]{E2F2FB}·  Unspecified & \cellcolor[HTML]{F1F1F1} & 1 & 0 & 0 & 1 & 0 & 0 \\
+\cellcolor[HTML]{E2F2FB}·  Limited liability & \cellcolor[HTML]{F1F1F1} & 7 & 2 & 5 & 1 & 6 & 3 \\
+\cellcolor[HTML]{E2F2FB}·  Partnership & \cellcolor[HTML]{F1F1F1} & 1 & 0 & 1 & 0 & 0 & 0 \\
+\cellcolor[HTML]{E2F2FB}·  Sole proprietorship & \cellcolor[HTML]{F1F1F1} & 14 & 8 & 6 & 7 & 15 & 17 \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Measure: Business entries} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Reference area: Basilicata} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Economic activity: Wholesale and retail trade; repair of motor vehicles and motorcycles} & \multirow{-3}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}Total - All legal forms & \cellcolor[HTML]{F1F1F1} & 101 & 101 & 63 & 72 & 122 & 85 \\
+\cellcolor[HTML]{E2F2FB}·  Unspecified & \cellcolor[HTML]{F1F1F1} & 0 & 1 & 0 & 0 & 0 & 0 \\
+\cellcolor[HTML]{E2F2FB}·  Limited liability & \cellcolor[HTML]{F1F1F1} & 9 & 11 & 15 & 8 & 21 & 13 \\
+\cellcolor[HTML]{E2F2FB}·  Partnership & \cellcolor[HTML]{F1F1F1} & 3 & 2 & 0 & 0 & 1 & 2 \\
+\cellcolor[HTML]{E2F2FB}·  Sole proprietorship & \cellcolor[HTML]{F1F1F1} & 89 & 87 & 48 & 64 & 100 & 70 \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Measure: Business entries} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Reference area: Calabria} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Economic activity: Manufacturing} & \multirow{-3}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}Total - All legal forms & \cellcolor[HTML]{F1F1F1} & 66 & 57 & 33 & 43 & 69 & 59 \\
+\cellcolor[HTML]{E2F2FB}·  Unspecified & \cellcolor[HTML]{F1F1F1} & 1 & 1 & 0 & 0 & 0 & 1 \\
+\cellcolor[HTML]{E2F2FB}·  Limited liability & \cellcolor[HTML]{F1F1F1} & 11 & 11 & 5 & 8 & 13 & 20 \\
+\cellcolor[HTML]{E2F2FB}·  Partnership & \cellcolor[HTML]{F1F1F1} & 1 & 1 & 2 & 3 & 3 & 1 \\
+\cellcolor[HTML]{E2F2FB}·  Sole proprietorship & \cellcolor[HTML]{F1F1F1} & 53 & 44 & 26 & 32 & 53 & 37 \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Measure: Business entries} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Reference area: Calabria} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Economic activity: Wholesale and retail trade; repair of motor vehicles and motorcycles} & \multirow{-3}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}Total - All legal forms & \cellcolor[HTML]{F1F1F1} & 514 & 484 & 277 & 399 & 523 & 370 \\
+\cellcolor[HTML]{E2F2FB}·  Unspecified & \cellcolor[HTML]{F1F1F1} & 1 & 0 & 1 & 0 & 0 & 1 \\
+\cellcolor[HTML]{E2F2FB}·  Limited liability & \cellcolor[HTML]{F1F1F1} & 70 & 55 & 25 & 43 & 69 & 45 \\
+\cellcolor[HTML]{E2F2FB}·  Partnership & \cellcolor[HTML]{F1F1F1} & 6 & 7 & 4 & 7 & 8 & 4 \\
+\cellcolor[HTML]{E2F2FB}·  Sole proprietorship & \cellcolor[HTML]{F1F1F1} & 437 & 422 & 247 & 349 & 446 & 320 \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Measure: Business entries} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Reference area: Sicily} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Economic activity: Manufacturing} & \multirow{-3}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}Total - All legal forms & \cellcolor[HTML]{F1F1F1} & 147 & 128 & 87 & 100 & 162 & 133 \\
+\cellcolor[HTML]{E2F2FB}·  Unspecified & \cellcolor[HTML]{F1F1F1} & 0 & 1 & 0 & 1 & 0 & 2 \\
+\cellcolor[HTML]{E2F2FB}·  Limited liability & \cellcolor[HTML]{F1F1F1} & 30 & 22 & 10 & 29 & 35 & 20 \\
+\cellcolor[HTML]{E2F2FB}·  Partnership & \cellcolor[HTML]{F1F1F1} & 3 & 1 & 1 & 0 & 5 & 2 \\
+\cellcolor[HTML]{E2F2FB}·  Sole proprietorship & \cellcolor[HTML]{F1F1F1} & 114 & 104 & 76 & 70 & 122 & 109 \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Measure: Business entries} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Reference area: Sicily} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Economic activity: Wholesale and retail trade; repair of motor vehicles and motorcycles} & \multirow{-3}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}Total - All legal forms & \cellcolor[HTML]{F1F1F1} & 858 & 781 & 553 & 674 & 924 & 790 \\
+\cellcolor[HTML]{E2F2FB}·  Unspecified & \cellcolor[HTML]{F1F1F1} & 0 & 2 & 1 & 0 & 1 & 0 \\
+\cellcolor[HTML]{E2F2FB}·  Limited liability & \cellcolor[HTML]{F1F1F1} & 76 & 74 & 41 & 63 & 104 & 79 \\
+\cellcolor[HTML]{E2F2FB}·  Partnership & \cellcolor[HTML]{F1F1F1} & 9 & 8 & 8 & 5 & 19 & 9 \\
+\cellcolor[HTML]{E2F2FB}·  Sole proprietorship & \cellcolor[HTML]{F1F1F1} & 773 & 697 & 503 & 606 & 800 & 702 \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Measure: Business entries} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Reference area: Sardinia} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Economic activity: Manufacturing} & \multirow{-3}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}Total - All legal forms & \cellcolor[HTML]{F1F1F1} & 64 & 58 & 24 & 52 & 73 & 66 \\
+\cellcolor[HTML]{E2F2FB}·  Unspecified & \cellcolor[HTML]{F1F1F1} & 0 & 0 & 0 & 1 & 0 & 0 \\
+\cellcolor[HTML]{E2F2FB}·  Limited liability & \cellcolor[HTML]{F1F1F1} & 8 & 4 & 1 & 1 & 8 & 9 \\
+\cellcolor[HTML]{E2F2FB}·  Partnership & \cellcolor[HTML]{F1F1F1} & 2 & 1 & 1 & 3 & 3 & 0 \\
+\cellcolor[HTML]{E2F2FB}·  Sole proprietorship & \cellcolor[HTML]{F1F1F1} & 54 & 53 & 22 & 47 & 62 & 57 \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Measure: Business entries} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Reference area: Sardinia} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Economic activity: Wholesale and retail trade; repair of motor vehicles and motorcycles} & \multirow{-3}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}Total - All legal forms & \cellcolor[HTML]{F1F1F1} & 305 & 230 & 185 & 287 & 265 & 258 \\
+\cellcolor[HTML]{E2F2FB}·  Unspecified & \cellcolor[HTML]{F1F1F1} & 1 & 0 & 0 & 0 & 0 & 1 \\
+\cellcolor[HTML]{E2F2FB}·  Limited liability & \cellcolor[HTML]{F1F1F1} & 35 & 20 & 4 & 16 & 20 & 10 \\
+\cellcolor[HTML]{E2F2FB}·  Partnership & \cellcolor[HTML]{F1F1F1} & 6 & 2 & 3 & 3 & 10 & 2 \\
+\cellcolor[HTML]{E2F2FB}·  Sole proprietorship & \cellcolor[HTML]{F1F1F1} & 263 & 208 & 178 & 268 & 235 & 245 \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Measure: Business entries} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Reference area: Autonomous prov. Trento} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Economic activity: Manufacturing} & \multirow{-3}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}Total - All legal forms & \cellcolor[HTML]{F1F1F1} & 72 & 52 &  & 40 &  &  \\
+\cellcolor[HTML]{E2F2FB}·  Unspecified & \cellcolor[HTML]{F1F1F1} & 0 & 0 &  & 0 &  &  \\
+\cellcolor[HTML]{E2F2FB}·  Limited liability & \cellcolor[HTML]{F1F1F1} & 18 & 9 &  & 18 &  &  \\
+\cellcolor[HTML]{E2F2FB}·  Partnership & \cellcolor[HTML]{F1F1F1} & 4 & 2 &  & 2 &  &  \\
+\cellcolor[HTML]{E2F2FB}·  Sole proprietorship & \cellcolor[HTML]{F1F1F1} & 50 & 41 &  & 20 &  &  \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Measure: Business entries} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Reference area: Autonomous prov. Trento} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Economic activity: Wholesale and retail trade; repair of motor vehicles and motorcycles} & \multirow{-3}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}Total - All legal forms & \cellcolor[HTML]{F1F1F1} & 210 & 157 &  & 119 &  &  \\
+\cellcolor[HTML]{E2F2FB}·  Unspecified & \cellcolor[HTML]{F1F1F1} & 0 & 1 &  & 0 &  &  \\
+\cellcolor[HTML]{E2F2FB}·  Limited liability & \cellcolor[HTML]{F1F1F1} & 36 & 26 &  & 26 &  &  \\
+\cellcolor[HTML]{E2F2FB}·  Partnership & \cellcolor[HTML]{F1F1F1} & 12 & 4 &  & 9 &  &  \\
+\cellcolor[HTML]{E2F2FB}·  Sole proprietorship & \cellcolor[HTML]{F1F1F1} & 162 & 126 &  & 84 &  &  \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Measure: Business entries} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Reference area: Veneto} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Economic activity: Manufacturing} & \multirow{-3}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}Total - All legal forms & \cellcolor[HTML]{F1F1F1} & 574 & 421 & 283 & 289 & 629 & 396 \\
+\cellcolor[HTML]{E2F2FB}·  Unspecified & \cellcolor[HTML]{F1F1F1} & 1 & 0 & 0 & 0 & 1 & 1 \\
+\cellcolor[HTML]{E2F2FB}·  Limited liability & \cellcolor[HTML]{F1F1F1} & 109 & 85 & 72 & 99 & 119 & 74 \\
+\cellcolor[HTML]{E2F2FB}·  Partnership & \cellcolor[HTML]{F1F1F1} & 29 & 17 & 8 & 15 & 31 & 16 \\
+\cellcolor[HTML]{E2F2FB}·  Sole proprietorship & \cellcolor[HTML]{F1F1F1} & 435 & 319 & 203 & 175 & 478 & 305 \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Measure: Business entries} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Reference area: Veneto} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Economic activity: Wholesale and retail trade; repair of motor vehicles and motorcycles} & \multirow{-3}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}Total - All legal forms & \cellcolor[HTML]{F1F1F1} & 1,173 & 854 & 677 & 621 & 1,142 & 843 \\
+\cellcolor[HTML]{E2F2FB}·  Unspecified & \cellcolor[HTML]{F1F1F1} & 0 & 2 & 0 & 0 & 1 & 0 \\
+\cellcolor[HTML]{E2F2FB}·  Limited liability & \cellcolor[HTML]{F1F1F1} & 151 & 84 & 80 & 111 & 157 & 120 \\
+\cellcolor[HTML]{E2F2FB}·  Partnership & \cellcolor[HTML]{F1F1F1} & 46 & 36 & 26 & 27 & 43 & 31 \\
+\cellcolor[HTML]{E2F2FB}·  Sole proprietorship & \cellcolor[HTML]{F1F1F1} & 976 & 732 & 571 & 483 & 941 & 692 \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Measure: Business entries} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Reference area: Friuli-Venezia Giulia} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Economic activity: Manufacturing} & \multirow{-3}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}Total - All legal forms & \cellcolor[HTML]{F1F1F1} & 127 & 67 &  & 59 &  &  \\
+\cellcolor[HTML]{E2F2FB}·  Unspecified & \cellcolor[HTML]{F1F1F1} & 1 & 0 &  & 0 &  &  \\
+\cellcolor[HTML]{E2F2FB}·  Limited liability & \cellcolor[HTML]{F1F1F1} & 21 & 11 &  & 19 &  &  \\
+\cellcolor[HTML]{E2F2FB}·  Partnership & \cellcolor[HTML]{F1F1F1} & 4 & 2 &  & 2 &  &  \\
+\cellcolor[HTML]{E2F2FB}·  Sole proprietorship & \cellcolor[HTML]{F1F1F1} & 101 & 54 &  & 38 &  &  \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Measure: Business entries} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Reference area: Friuli-Venezia Giulia} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Economic activity: Wholesale and retail trade; repair of motor vehicles and motorcycles} & \multirow{-3}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}Total - All legal forms & \cellcolor[HTML]{F1F1F1} & 221 & 160 &  & 125 &  &  \\
+\cellcolor[HTML]{E2F2FB}·  Unspecified & \cellcolor[HTML]{F1F1F1} & 1 & 0 &  & 1 &  &  \\
+\cellcolor[HTML]{E2F2FB}·  Limited liability & \cellcolor[HTML]{F1F1F1} & 19 & 12 &  & 14 &  &  \\
+\cellcolor[HTML]{E2F2FB}·  Partnership & \cellcolor[HTML]{F1F1F1} & 11 & 6 &  & 7 &  &  \\
+\cellcolor[HTML]{E2F2FB}·  Sole proprietorship & \cellcolor[HTML]{F1F1F1} & 190 & 142 &  & 103 &  &  \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Measure: Business entries} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Reference area: Emilia-Romagna} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Economic activity: Manufacturing} & \multirow{-3}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}Total - All legal forms & \cellcolor[HTML]{F1F1F1} & 541 & 357 & 293 & 305 & 574 & 386 \\
+\cellcolor[HTML]{E2F2FB}·  Unspecified & \cellcolor[HTML]{F1F1F1} & 3 & 5 & 2 & 0 & 1 & 1 \\
+\cellcolor[HTML]{E2F2FB}·  Limited liability & \cellcolor[HTML]{F1F1F1} & 103 & 70 & 42 & 89 & 108 & 89 \\
+\cellcolor[HTML]{E2F2FB}·  Partnership & \cellcolor[HTML]{F1F1F1} & 15 & 13 & 6 & 7 & 19 & 9 \\
+\cellcolor[HTML]{E2F2FB}·  Sole proprietorship & \cellcolor[HTML]{F1F1F1} & 420 & 269 & 243 & 209 & 446 & 287 \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Measure: Business entries} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Reference area: Emilia-Romagna} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Economic activity: Wholesale and retail trade; repair of motor vehicles and motorcycles} & \multirow{-3}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}Total - All legal forms & \cellcolor[HTML]{F1F1F1} & 1,232 & 841 & 623 & 690 & 1,203 & 839 \\
+\cellcolor[HTML]{E2F2FB}·  Unspecified & \cellcolor[HTML]{F1F1F1} & 1 & 0 & 0 & 0 & 2 & 1 \\
+\cellcolor[HTML]{E2F2FB}·  Limited liability & \cellcolor[HTML]{F1F1F1} & 144 & 98 & 82 & 97 & 153 & 110 \\
+\cellcolor[HTML]{E2F2FB}·  Partnership & \cellcolor[HTML]{F1F1F1} & 43 & 22 & 10 & 15 & 32 & 19 \\
+\cellcolor[HTML]{E2F2FB}·  Sole proprietorship & \cellcolor[HTML]{F1F1F1} & 1,044 & 721 & 531 & 578 & 1,016 & 709 \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Measure: Business entries} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Reference area: Tuscany} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Economic activity: Manufacturing} & \multirow{-3}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}Total - All legal forms & \cellcolor[HTML]{F1F1F1} & 659 & 446 & 359 & 365 & 609 & 393 \\
+\cellcolor[HTML]{E2F2FB}·  Unspecified & \cellcolor[HTML]{F1F1F1} & 1 & 0 & 3 & 1 & 0 & 0 \\
+\cellcolor[HTML]{E2F2FB}·  Limited liability & \cellcolor[HTML]{F1F1F1} & 119 & 78 & 80 & 70 & 103 & 72 \\
+\cellcolor[HTML]{E2F2FB}·  Partnership & \cellcolor[HTML]{F1F1F1} & 24 & 13 & 9 & 6 & 15 & 13 \\
+\cellcolor[HTML]{E2F2FB}·  Sole proprietorship & \cellcolor[HTML]{F1F1F1} & 515 & 355 & 267 & 288 & 491 & 308 \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Measure: Business entries} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Reference area: Tuscany} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Economic activity: Wholesale and retail trade; repair of motor vehicles and motorcycles} & \multirow{-3}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}Total - All legal forms & \cellcolor[HTML]{F1F1F1} & 1,109 & 819 & 577 & 631 & 1,054 & 734 \\
+\cellcolor[HTML]{E2F2FB}·  Unspecified & \cellcolor[HTML]{F1F1F1} & 1 & 1 & 2 & 0 & 0 & 0 \\
+\cellcolor[HTML]{E2F2FB}·  Limited liability & \cellcolor[HTML]{F1F1F1} & 160 & 101 & 62 & 107 & 132 & 93 \\
+\cellcolor[HTML]{E2F2FB}·  Partnership & \cellcolor[HTML]{F1F1F1} & 54 & 34 & 20 & 24 & 50 & 18 \\
+\cellcolor[HTML]{E2F2FB}·  Sole proprietorship & \cellcolor[HTML]{F1F1F1} & 894 & 683 & 493 & 500 & 872 & 623 \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Measure: Business entries} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Reference area: Umbria} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Economic activity: Manufacturing} & \multirow{-3}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}Total - All legal forms & \cellcolor[HTML]{F1F1F1} & 57 & 44 & 37 & 38 & 72 & 55 \\
+\cellcolor[HTML]{E2F2FB}·  Unspecified & \cellcolor[HTML]{F1F1F1} & 0 & 0 & 0 & 0 & 0 & 0 \\
+\cellcolor[HTML]{E2F2FB}·  Limited liability & \cellcolor[HTML]{F1F1F1} & 16 & 9 & 12 & 12 & 3 & 14 \\
+\cellcolor[HTML]{E2F2FB}·  Partnership & \cellcolor[HTML]{F1F1F1} & 2 & 1 & 1 & 1 & 8 & 2 \\
+\cellcolor[HTML]{E2F2FB}·  Sole proprietorship & \cellcolor[HTML]{F1F1F1} & 39 & 34 & 24 & 25 & 61 & 39 \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Measure: Business entries} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Reference area: Umbria} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Economic activity: Wholesale and retail trade; repair of motor vehicles and motorcycles} & \multirow{-3}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}Total - All legal forms & \cellcolor[HTML]{F1F1F1} & 178 & 157 & 113 & 131 & 171 & 158 \\
+\cellcolor[HTML]{E2F2FB}·  Unspecified & \cellcolor[HTML]{F1F1F1} & 0 & 0 & 0 & 0 & 0 & 0 \\
+\cellcolor[HTML]{E2F2FB}·  Limited liability & \cellcolor[HTML]{F1F1F1} & 22 & 19 & 10 & 11 & 21 & 29 \\
+\cellcolor[HTML]{E2F2FB}·  Partnership & \cellcolor[HTML]{F1F1F1} & 9 & 3 & 1 & 4 & 14 & 6 \\
+\cellcolor[HTML]{E2F2FB}·  Sole proprietorship & \cellcolor[HTML]{F1F1F1} & 147 & 135 & 102 & 116 & 136 & 123 \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Measure: Business entries} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Reference area: Marche} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Economic activity: Manufacturing} & \multirow{-3}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}Total - All legal forms & \cellcolor[HTML]{F1F1F1} & 183 & 143 & 113 & 125 & 226 & 130 \\
+\cellcolor[HTML]{E2F2FB}·  Unspecified & \cellcolor[HTML]{F1F1F1} & 0 & 1 & 0 & 0 & 1 & 0 \\
+\cellcolor[HTML]{E2F2FB}·  Limited liability & \cellcolor[HTML]{F1F1F1} & 32 & 40 & 32 & 43 & 57 & 28 \\
+\cellcolor[HTML]{E2F2FB}·  Partnership & \cellcolor[HTML]{F1F1F1} & 9 & 5 & 6 & 5 & 13 & 3 \\
+\cellcolor[HTML]{E2F2FB}·  Sole proprietorship & \cellcolor[HTML]{F1F1F1} & 142 & 97 & 75 & 77 & 155 & 99 \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Measure: Business entries} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Reference area: Marche} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Economic activity: Wholesale and retail trade; repair of motor vehicles and motorcycles} & \multirow{-3}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}Total - All legal forms & \cellcolor[HTML]{F1F1F1} & 355 & 272 & 197 & 215 & 415 & 261 \\
+\cellcolor[HTML]{E2F2FB}·  Unspecified & \cellcolor[HTML]{F1F1F1} & 1 & 0 & 0 & 0 & 1 & 0 \\
+\cellcolor[HTML]{E2F2FB}·  Limited liability & \cellcolor[HTML]{F1F1F1} & 33 & 27 & 15 & 33 & 51 & 30 \\
+\cellcolor[HTML]{E2F2FB}·  Partnership & \cellcolor[HTML]{F1F1F1} & 16 & 11 & 5 & 6 & 15 & 8 \\
+\cellcolor[HTML]{E2F2FB}·  Sole proprietorship & \cellcolor[HTML]{F1F1F1} & 305 & 234 & 177 & 176 & 348 & 223 \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Measure: Business entries} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Reference area: Lazio} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Economic activity: Manufacturing} & \multirow{-3}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}Total - All legal forms & \cellcolor[HTML]{F1F1F1} & 175 & 140 & 79 & 98 & 172 & 131 \\
+\cellcolor[HTML]{E2F2FB}·  Unspecified & \cellcolor[HTML]{F1F1F1} & 0 & 2 & 2 & 1 & 0 & 0 \\
+\cellcolor[HTML]{E2F2FB}·  Limited liability & \cellcolor[HTML]{F1F1F1} & 55 & 29 & 27 & 36 & 63 & 38 \\
+\cellcolor[HTML]{E2F2FB}·  Partnership & \cellcolor[HTML]{F1F1F1} & 2 & 1 & 0 & 1 & 4 & 6 \\
+\cellcolor[HTML]{E2F2FB}·  Sole proprietorship & \cellcolor[HTML]{F1F1F1} & 118 & 108 & 50 & 60 & 105 & 87 \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Measure: Business entries} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Reference area: Lazio} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Economic activity: Wholesale and retail trade; repair of motor vehicles and motorcycles} & \multirow{-3}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}Total - All legal forms & \cellcolor[HTML]{F1F1F1} & 1,229 & 928 & 634 & 800 & 1,260 & 917 \\
+\cellcolor[HTML]{E2F2FB}·  Unspecified & \cellcolor[HTML]{F1F1F1} & 1 & 1 & 2 & 1 & 5 & 0 \\
+\cellcolor[HTML]{E2F2FB}·  Limited liability & \cellcolor[HTML]{F1F1F1} & 229 & 137 & 113 & 184 & 253 & 173 \\
+\cellcolor[HTML]{E2F2FB}·  Partnership & \cellcolor[HTML]{F1F1F1} & 20 & 9 & 7 & 16 & 20 & 11 \\
+\cellcolor[HTML]{E2F2FB}·  Sole proprietorship & \cellcolor[HTML]{F1F1F1} & 979 & 781 & 512 & 599 & 982 & 733 \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Measure: Business exits} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Reference area: Italy} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Economic activity: Manufacturing} & \multirow{-3}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}Total - All legal forms & \cellcolor[HTML]{F1F1F1} & 8,666 & 3,937 & 3,282 & 5,293 & 9,035 & 3,901 \\
+\cellcolor[HTML]{E2F2FB}·  Unspecified & \cellcolor[HTML]{F1F1F1} & 78 & 44 & 43 & 68 & 89 & 47 \\
+\cellcolor[HTML]{E2F2FB}·  Limited liability & \cellcolor[HTML]{F1F1F1} & 2,030 & 950 & 813 & 1,595 & 2,145 & 934 \\
+\cellcolor[HTML]{E2F2FB}·  Partnership & \cellcolor[HTML]{F1F1F1} & 1,016 & 495 & 391 & 983 & 1,238 & 479 \\
+\cellcolor[HTML]{E2F2FB}·  Sole proprietorship & \cellcolor[HTML]{F1F1F1} & 5,542 & 2,448 & 2,035 & 2,647 & 5,563 & 2,441 \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Measure: Business exits} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Reference area: Italy} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Economic activity: Wholesale and retail trade; repair of motor vehicles and motorcycles} & \multirow{-3}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}Total - All legal forms & \cellcolor[HTML]{F1F1F1} & 28,618 & 14,752 & 12,101 & 16,796 & 29,025 & 13,949 \\
+\cellcolor[HTML]{E2F2FB}·  Unspecified & \cellcolor[HTML]{F1F1F1} & 78 & 48 & 39 & 70 & 115 & 45 \\
+\cellcolor[HTML]{E2F2FB}·  Limited liability & \cellcolor[HTML]{F1F1F1} & 3,813 & 1,687 & 1,290 & 2,437 & 3,995 & 1,730 \\
+\cellcolor[HTML]{E2F2FB}·  Partnership & \cellcolor[HTML]{F1F1F1} & 2,506 & 1,099 & 941 & 2,119 & 2,665 & 1,064 \\
+\cellcolor[HTML]{E2F2FB}·  Sole proprietorship & \cellcolor[HTML]{F1F1F1} & 22,221 & 11,918 & 9,831 & 12,170 & 22,250 & 11,110 \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Measure: Business exits} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Reference area: Piedmont} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Economic activity: Manufacturing} & \multirow{-3}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}Total - All legal forms & \cellcolor[HTML]{F1F1F1} & 740 & 303 & 308 & 402 & 740 & 269 \\
+\cellcolor[HTML]{E2F2FB}·  Unspecified & \cellcolor[HTML]{F1F1F1} & 4 & 2 & 2 & 8 & 4 & 1 \\
+\cellcolor[HTML]{E2F2FB}·  Limited liability & \cellcolor[HTML]{F1F1F1} & 118 & 55 & 52 & 94 & 128 & 56 \\
+\cellcolor[HTML]{E2F2FB}·  Partnership & \cellcolor[HTML]{F1F1F1} & 103 & 44 & 46 & 79 & 129 & 44 \\
+\cellcolor[HTML]{E2F2FB}·  Sole proprietorship & \cellcolor[HTML]{F1F1F1} & 515 & 202 & 208 & 221 & 479 & 168 \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Measure: Business exits} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Reference area: Piedmont} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Economic activity: Wholesale and retail trade; repair of motor vehicles and motorcycles} & \multirow{-3}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}Total - All legal forms & \cellcolor[HTML]{F1F1F1} & 2,349 & 1,092 & 1,020 & 1,203 & 2,441 & 1,068 \\
+\cellcolor[HTML]{E2F2FB}·  Unspecified & \cellcolor[HTML]{F1F1F1} & 6 & 2 & 4 & 3 & 6 & 3 \\
+\cellcolor[HTML]{E2F2FB}·  Limited liability & \cellcolor[HTML]{F1F1F1} & 189 & 75 & 66 & 127 & 170 & 82 \\
+\cellcolor[HTML]{E2F2FB}·  Partnership & \cellcolor[HTML]{F1F1F1} & 237 & 108 & 89 & 166 & 307 & 107 \\
+\cellcolor[HTML]{E2F2FB}·  Sole proprietorship & \cellcolor[HTML]{F1F1F1} & 1,917 & 907 & 861 & 907 & 1,958 & 876 \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Measure: Business exits} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Reference area: Aosta Valley} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Economic activity: Manufacturing} & \multirow{-3}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}Total - All legal forms & \cellcolor[HTML]{F1F1F1} & 14 & 10 & 3 & 11 & 16 & 5 \\
+\cellcolor[HTML]{E2F2FB}·  Unspecified & \cellcolor[HTML]{F1F1F1} & 0 & 0 & 0 & 1 & 0 & 1 \\
+\cellcolor[HTML]{E2F2FB}·  Limited liability & \cellcolor[HTML]{F1F1F1} & 2 & 0 & 0 & 1 & 3 & 1 \\
+\cellcolor[HTML]{E2F2FB}·  Partnership & \cellcolor[HTML]{F1F1F1} & 2 & 2 & 0 & 1 & 0 & 0 \\
+\cellcolor[HTML]{E2F2FB}·  Sole proprietorship & \cellcolor[HTML]{F1F1F1} & 10 & 8 & 3 & 8 & 13 & 3 \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Measure: Business exits} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Reference area: Aosta Valley} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Economic activity: Wholesale and retail trade; repair of motor vehicles and motorcycles} & \multirow{-3}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}Total - All legal forms & \cellcolor[HTML]{F1F1F1} & 49 & 16 & 8 & 28 & 44 & 19 \\
+\cellcolor[HTML]{E2F2FB}·  Unspecified & \cellcolor[HTML]{F1F1F1} & 0 & 0 & 0 & 0 & 0 & 0 \\
+\cellcolor[HTML]{E2F2FB}·  Limited liability & \cellcolor[HTML]{F1F1F1} & 5 & 1 & 1 & 2 & 1 & 1 \\
+\cellcolor[HTML]{E2F2FB}·  Partnership & \cellcolor[HTML]{F1F1F1} & 2 & 1 & 0 & 7 & 5 & 6 \\
+\cellcolor[HTML]{E2F2FB}·  Sole proprietorship & \cellcolor[HTML]{F1F1F1} & 42 & 14 & 7 & 19 & 38 & 12 \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Measure: Business exits} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Reference area: Liguria} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Economic activity: Manufacturing} & \multirow{-3}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}Total - All legal forms & \cellcolor[HTML]{F1F1F1} & 203 & 134 & 87 & 99 & 204 & 70 \\
+\cellcolor[HTML]{E2F2FB}·  Unspecified & \cellcolor[HTML]{F1F1F1} & 3 & 2 & 1 & 2 & 0 & 1 \\
+\cellcolor[HTML]{E2F2FB}·  Limited liability & \cellcolor[HTML]{F1F1F1} & 26 & 26 & 14 & 22 & 28 & 10 \\
+\cellcolor[HTML]{E2F2FB}·  Partnership & \cellcolor[HTML]{F1F1F1} & 23 & 57 & 5 & 17 & 33 & 5 \\
+\cellcolor[HTML]{E2F2FB}·  Sole proprietorship & \cellcolor[HTML]{F1F1F1} & 151 & 49 & 67 & 58 & 143 & 54 \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Measure: Business exits} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Reference area: Liguria} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Economic activity: Wholesale and retail trade; repair of motor vehicles and motorcycles} & \multirow{-3}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}Total - All legal forms & \cellcolor[HTML]{F1F1F1} & 799 & 553 & 339 & 463 & 735 & 377 \\
+\cellcolor[HTML]{E2F2FB}·  Unspecified & \cellcolor[HTML]{F1F1F1} & 2 & 9 & 1 & 4 & 4 & 0 \\
+\cellcolor[HTML]{E2F2FB}·  Limited liability & \cellcolor[HTML]{F1F1F1} & 61 & 61 & 16 & 56 & 81 & 28 \\
+\cellcolor[HTML]{E2F2FB}·  Partnership & \cellcolor[HTML]{F1F1F1} & 110 & 133 & 29 & 88 & 100 & 27 \\
+\cellcolor[HTML]{E2F2FB}·  Sole proprietorship & \cellcolor[HTML]{F1F1F1} & 626 & 350 & 293 & 315 & 550 & 322 \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Measure: Business exits} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Reference area: Lombardy} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Economic activity: Manufacturing} & \multirow{-3}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}Total - All legal forms & \cellcolor[HTML]{F1F1F1} & 1,642 & 670 & 573 & 1,033 & 1,808 & 700 \\
+\cellcolor[HTML]{E2F2FB}·  Unspecified & \cellcolor[HTML]{F1F1F1} & 15 & 7 & 4 & 8 & 7 & 3 \\
+\cellcolor[HTML]{E2F2FB}·  Limited liability & \cellcolor[HTML]{F1F1F1} & 458 & 217 & 193 & 346 & 552 & 214 \\
+\cellcolor[HTML]{E2F2FB}·  Partnership & \cellcolor[HTML]{F1F1F1} & 217 & 92 & 77 & 248 & 272 & 100 \\
+\cellcolor[HTML]{E2F2FB}·  Sole proprietorship & \cellcolor[HTML]{F1F1F1} & 952 & 354 & 299 & 431 & 977 & 383 \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Measure: Business exits} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Reference area: Lombardy} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Economic activity: Wholesale and retail trade; repair of motor vehicles and motorcycles} & \multirow{-3}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}Total - All legal forms & \cellcolor[HTML]{F1F1F1} & 4,356 & 2,024 & 1,825 & 2,648 & 4,537 & 1,895 \\
+\cellcolor[HTML]{E2F2FB}·  Unspecified & \cellcolor[HTML]{F1F1F1} & 10 & 4 & 2 & 14 & 11 & 8 \\
+\cellcolor[HTML]{E2F2FB}·  Limited liability & \cellcolor[HTML]{F1F1F1} & 731 & 325 & 262 & 466 & 880 & 281 \\
+\cellcolor[HTML]{E2F2FB}·  Partnership & \cellcolor[HTML]{F1F1F1} & 388 & 164 & 161 & 407 & 455 & 146 \\
+\cellcolor[HTML]{E2F2FB}·  Sole proprietorship & \cellcolor[HTML]{F1F1F1} & 3,227 & 1,531 & 1,400 & 1,761 & 3,191 & 1,460 \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Measure: Business exits} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Reference area: Abruzzo} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Economic activity: Manufacturing} & \multirow{-3}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}Total - All legal forms & \cellcolor[HTML]{F1F1F1} & 216 & 91 & 86 & 104 & 252 & 82 \\
+\cellcolor[HTML]{E2F2FB}·  Unspecified & \cellcolor[HTML]{F1F1F1} & 1 & 0 & 2 & 3 & 1 & 1 \\
+\cellcolor[HTML]{E2F2FB}·  Limited liability & \cellcolor[HTML]{F1F1F1} & 63 & 23 & 16 & 36 & 69 & 17 \\
+\cellcolor[HTML]{E2F2FB}·  Partnership & \cellcolor[HTML]{F1F1F1} & 23 & 9 & 13 & 13 & 36 & 12 \\
+\cellcolor[HTML]{E2F2FB}·  Sole proprietorship & \cellcolor[HTML]{F1F1F1} & 129 & 59 & 55 & 52 & 146 & 52 \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Measure: Business exits} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Reference area: Abruzzo} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Economic activity: Wholesale and retail trade; repair of motor vehicles and motorcycles} & \multirow{-3}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}Total - All legal forms & \cellcolor[HTML]{F1F1F1} & 681 & 341 & 292 & 380 & 785 & 294 \\
+\cellcolor[HTML]{E2F2FB}·  Unspecified & \cellcolor[HTML]{F1F1F1} & 1 & 2 & 0 & 0 & 4 & 1 \\
+\cellcolor[HTML]{E2F2FB}·  Limited liability & \cellcolor[HTML]{F1F1F1} & 77 & 45 & 26 & 55 & 90 & 36 \\
+\cellcolor[HTML]{E2F2FB}·  Partnership & \cellcolor[HTML]{F1F1F1} & 60 & 17 & 16 & 39 & 93 & 16 \\
+\cellcolor[HTML]{E2F2FB}·  Sole proprietorship & \cellcolor[HTML]{F1F1F1} & 543 & 277 & 250 & 286 & 598 & 241 \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Measure: Business exits} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Reference area: Molise} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Economic activity: Manufacturing} & \multirow{-3}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}Total - All legal forms & \cellcolor[HTML]{F1F1F1} & 42 & 35 & 9 & 28 & 43 & 15 \\
+\cellcolor[HTML]{E2F2FB}·  Unspecified & \cellcolor[HTML]{F1F1F1} & 1 & 1 & 0 & 1 & 0 & 1 \\
+\cellcolor[HTML]{E2F2FB}·  Limited liability & \cellcolor[HTML]{F1F1F1} & 11 & 23 & 4 & 8 & 12 & 4 \\
+\cellcolor[HTML]{E2F2FB}·  Partnership & \cellcolor[HTML]{F1F1F1} & 3 & 1 & 0 & 2 & 8 & 1 \\
+\cellcolor[HTML]{E2F2FB}·  Sole proprietorship & \cellcolor[HTML]{F1F1F1} & 27 & 10 & 5 & 17 & 23 & 9 \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Measure: Business exits} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Reference area: Molise} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Economic activity: Wholesale and retail trade; repair of motor vehicles and motorcycles} & \multirow{-3}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}Total - All legal forms & \cellcolor[HTML]{F1F1F1} & 160 & 84 & 67 & 80 & 156 & 54 \\
+\cellcolor[HTML]{E2F2FB}·  Unspecified & \cellcolor[HTML]{F1F1F1} & 1 & 0 & 0 & 0 & 0 & 0 \\
+\cellcolor[HTML]{E2F2FB}·  Limited liability & \cellcolor[HTML]{F1F1F1} & 38 & 22 & 5 & 5 & 21 & 5 \\
+\cellcolor[HTML]{E2F2FB}·  Partnership & \cellcolor[HTML]{F1F1F1} & 15 & 7 & 9 & 9 & 9 & 3 \\
+\cellcolor[HTML]{E2F2FB}·  Sole proprietorship & \cellcolor[HTML]{F1F1F1} & 106 & 55 & 53 & 66 & 126 & 46 \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Measure: Business exits} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Reference area: Campania} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Economic activity: Manufacturing} & \multirow{-3}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}Total - All legal forms & \cellcolor[HTML]{F1F1F1} & 531 & 311 & 235 & 303 & 547 & 281 \\
+\cellcolor[HTML]{E2F2FB}·  Unspecified & \cellcolor[HTML]{F1F1F1} & 7 & 2 & 4 & 6 & 8 & 2 \\
+\cellcolor[HTML]{E2F2FB}·  Limited liability & \cellcolor[HTML]{F1F1F1} & 146 & 83 & 71 & 118 & 168 & 80 \\
+\cellcolor[HTML]{E2F2FB}·  Partnership & \cellcolor[HTML]{F1F1F1} & 67 & 45 & 29 & 42 & 80 & 53 \\
+\cellcolor[HTML]{E2F2FB}·  Sole proprietorship & \cellcolor[HTML]{F1F1F1} & 311 & 181 & 131 & 137 & 291 & 146 \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Measure: Business exits} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Reference area: Campania} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Economic activity: Wholesale and retail trade; repair of motor vehicles and motorcycles} & \multirow{-3}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}Total - All legal forms & \cellcolor[HTML]{F1F1F1} & 3,490 & 1,991 & 1,573 & 1,781 & 3,426 & 1,884 \\
+\cellcolor[HTML]{E2F2FB}·  Unspecified & \cellcolor[HTML]{F1F1F1} & 7 & 2 & 5 & 4 & 11 & 2 \\
+\cellcolor[HTML]{E2F2FB}·  Limited liability & \cellcolor[HTML]{F1F1F1} & 551 & 206 & 200 & 282 & 496 & 269 \\
+\cellcolor[HTML]{E2F2FB}·  Partnership & \cellcolor[HTML]{F1F1F1} & 267 & 124 & 127 & 136 & 268 & 117 \\
+\cellcolor[HTML]{E2F2FB}·  Sole proprietorship & \cellcolor[HTML]{F1F1F1} & 2,665 & 1,659 & 1,241 & 1,359 & 2,651 & 1,496 \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Measure: Business exits} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Reference area: Apulia} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Economic activity: Manufacturing} & \multirow{-3}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}Total - All legal forms & \cellcolor[HTML]{F1F1F1} & 411 & 160 & 137 & 227 & 452 & 201 \\
+\cellcolor[HTML]{E2F2FB}·  Unspecified & \cellcolor[HTML]{F1F1F1} & 4 & 3 & 6 & 2 & 15 & 6 \\
+\cellcolor[HTML]{E2F2FB}·  Limited liability & \cellcolor[HTML]{F1F1F1} & 102 & 44 & 43 & 58 & 101 & 42 \\
+\cellcolor[HTML]{E2F2FB}·  Partnership & \cellcolor[HTML]{F1F1F1} & 44 & 20 & 11 & 35 & 41 & 18 \\
+\cellcolor[HTML]{E2F2FB}·  Sole proprietorship & \cellcolor[HTML]{F1F1F1} & 261 & 93 & 77 & 132 & 295 & 135 \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Measure: Business exits} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Reference area: Apulia} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Economic activity: Wholesale and retail trade; repair of motor vehicles and motorcycles} & \multirow{-3}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}Total - All legal forms & \cellcolor[HTML]{F1F1F1} & 1,951 & 1,031 & 881 & 1,121 & 2,012 & 898 \\
+\cellcolor[HTML]{E2F2FB}·  Unspecified & \cellcolor[HTML]{F1F1F1} & 5 & 2 & 2 & 5 & 13 & 2 \\
+\cellcolor[HTML]{E2F2FB}·  Limited liability & \cellcolor[HTML]{F1F1F1} & 194 & 99 & 85 & 132 & 235 & 94 \\
+\cellcolor[HTML]{E2F2FB}·  Partnership & \cellcolor[HTML]{F1F1F1} & 118 & 43 & 40 & 75 & 123 & 42 \\
+\cellcolor[HTML]{E2F2FB}·  Sole proprietorship & \cellcolor[HTML]{F1F1F1} & 1,634 & 887 & 754 & 909 & 1,641 & 760 \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Measure: Business exits} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Reference area: Basilicata} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Economic activity: Manufacturing} & \multirow{-3}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}Total - All legal forms & \cellcolor[HTML]{F1F1F1} & 58 & 24 & 29 & 33 & 61 & 30 \\
+\cellcolor[HTML]{E2F2FB}·  Unspecified & \cellcolor[HTML]{F1F1F1} & 2 & 0 & 1 & 0 & 1 & 1 \\
+\cellcolor[HTML]{E2F2FB}·  Limited liability & \cellcolor[HTML]{F1F1F1} & 12 & 6 & 12 & 17 & 10 & 7 \\
+\cellcolor[HTML]{E2F2FB}·  Partnership & \cellcolor[HTML]{F1F1F1} & 4 & 4 & 1 & 1 & 5 & 5 \\
+\cellcolor[HTML]{E2F2FB}·  Sole proprietorship & \cellcolor[HTML]{F1F1F1} & 40 & 14 & 15 & 15 & 45 & 17 \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Measure: Business exits} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Reference area: Basilicata} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Economic activity: Wholesale and retail trade; repair of motor vehicles and motorcycles} & \multirow{-3}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}Total - All legal forms & \cellcolor[HTML]{F1F1F1} & 274 & 133 & 86 & 142 & 277 & 126 \\
+\cellcolor[HTML]{E2F2FB}·  Unspecified & \cellcolor[HTML]{F1F1F1} & 5 & 1 & 0 & 2 & 4 & 2 \\
+\cellcolor[HTML]{E2F2FB}·  Limited liability & \cellcolor[HTML]{F1F1F1} & 29 & 21 & 10 & 19 & 26 & 12 \\
+\cellcolor[HTML]{E2F2FB}·  Partnership & \cellcolor[HTML]{F1F1F1} & 23 & 5 & 5 & 16 & 16 & 6 \\
+\cellcolor[HTML]{E2F2FB}·  Sole proprietorship & \cellcolor[HTML]{F1F1F1} & 217 & 106 & 71 & 105 & 231 & 106 \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Measure: Business exits} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Reference area: Calabria} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Economic activity: Manufacturing} & \multirow{-3}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}Total - All legal forms & \cellcolor[HTML]{F1F1F1} & 180 & 83 & 74 & 90 & 204 & 71 \\
+\cellcolor[HTML]{E2F2FB}·  Unspecified & \cellcolor[HTML]{F1F1F1} & 1 & 1 & 0 & 1 & 2 & 1 \\
+\cellcolor[HTML]{E2F2FB}·  Limited liability & \cellcolor[HTML]{F1F1F1} & 16 & 8 & 11 & 16 & 21 & 11 \\
+\cellcolor[HTML]{E2F2FB}·  Partnership & \cellcolor[HTML]{F1F1F1} & 27 & 10 & 13 & 15 & 18 & 8 \\
+\cellcolor[HTML]{E2F2FB}·  Sole proprietorship & \cellcolor[HTML]{F1F1F1} & 136 & 64 & 50 & 58 & 163 & 51 \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Measure: Business exits} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Reference area: Calabria} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Economic activity: Wholesale and retail trade; repair of motor vehicles and motorcycles} & \multirow{-3}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}Total - All legal forms & \cellcolor[HTML]{F1F1F1} & 936 & 580 & 427 & 592 & 970 & 537 \\
+\cellcolor[HTML]{E2F2FB}·  Unspecified & \cellcolor[HTML]{F1F1F1} & 0 & 2 & 1 & 1 & 2 & 2 \\
+\cellcolor[HTML]{E2F2FB}·  Limited liability & \cellcolor[HTML]{F1F1F1} & 43 & 32 & 29 & 38 & 69 & 35 \\
+\cellcolor[HTML]{E2F2FB}·  Partnership & \cellcolor[HTML]{F1F1F1} & 48 & 38 & 17 & 36 & 55 & 31 \\
+\cellcolor[HTML]{E2F2FB}·  Sole proprietorship & \cellcolor[HTML]{F1F1F1} & 845 & 508 & 380 & 517 & 844 & 469 \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Measure: Business exits} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Reference area: Sicily} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Economic activity: Manufacturing} & \multirow{-3}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}Total - All legal forms & \cellcolor[HTML]{F1F1F1} & 416 & 219 & 189 & 258 & 371 & 259 \\
+\cellcolor[HTML]{E2F2FB}·  Unspecified & \cellcolor[HTML]{F1F1F1} & 3 & 5 & 6 & 5 & 6 & 9 \\
+\cellcolor[HTML]{E2F2FB}·  Limited liability & \cellcolor[HTML]{F1F1F1} & 57 & 34 & 27 & 58 & 59 & 39 \\
+\cellcolor[HTML]{E2F2FB}·  Partnership & \cellcolor[HTML]{F1F1F1} & 39 & 23 & 13 & 33 & 39 & 32 \\
+\cellcolor[HTML]{E2F2FB}·  Sole proprietorship & \cellcolor[HTML]{F1F1F1} & 317 & 157 & 143 & 162 & 267 & 179 \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Measure: Business exits} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Reference area: Sicily} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Economic activity: Wholesale and retail trade; repair of motor vehicles and motorcycles} & \multirow{-3}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}Total - All legal forms & \cellcolor[HTML]{F1F1F1} & 2,131 & 1,251 & 1,062 & 1,177 & 2,349 & 1,277 \\
+\cellcolor[HTML]{E2F2FB}·  Unspecified & \cellcolor[HTML]{F1F1F1} & 3 & 3 & 5 & 7 & 11 & 1 \\
+\cellcolor[HTML]{E2F2FB}·  Limited liability & \cellcolor[HTML]{F1F1F1} & 202 & 151 & 88 & 130 & 259 & 122 \\
+\cellcolor[HTML]{E2F2FB}·  Partnership & \cellcolor[HTML]{F1F1F1} & 144 & 70 & 50 & 88 & 138 & 89 \\
+\cellcolor[HTML]{E2F2FB}·  Sole proprietorship & \cellcolor[HTML]{F1F1F1} & 1,782 & 1,027 & 919 & 952 & 1,941 & 1,065 \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Measure: Business exits} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Reference area: Sardinia} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Economic activity: Manufacturing} & \multirow{-3}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}Total - All legal forms & \cellcolor[HTML]{F1F1F1} & 117 & 88 & 74 & 93 & 161 & 107 \\
+\cellcolor[HTML]{E2F2FB}·  Unspecified & \cellcolor[HTML]{F1F1F1} & 2 & 3 & 0 & 1 & 4 & 2 \\
+\cellcolor[HTML]{E2F2FB}·  Limited liability & \cellcolor[HTML]{F1F1F1} & 11 & 15 & 15 & 14 & 27 & 11 \\
+\cellcolor[HTML]{E2F2FB}·  Partnership & \cellcolor[HTML]{F1F1F1} & 15 & 13 & 12 & 15 & 29 & 7 \\
+\cellcolor[HTML]{E2F2FB}·  Sole proprietorship & \cellcolor[HTML]{F1F1F1} & 89 & 57 & 47 & 63 & 101 & 87 \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Measure: Business exits} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Reference area: Sardinia} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Economic activity: Wholesale and retail trade; repair of motor vehicles and motorcycles} & \multirow{-3}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}Total - All legal forms & \cellcolor[HTML]{F1F1F1} & 497 & 430 & 298 & 481 & 642 & 532 \\
+\cellcolor[HTML]{E2F2FB}·  Unspecified & \cellcolor[HTML]{F1F1F1} & 2 & 0 & 2 & 0 & 2 & 2 \\
+\cellcolor[HTML]{E2F2FB}·  Limited liability & \cellcolor[HTML]{F1F1F1} & 38 & 46 & 14 & 32 & 47 & 47 \\
+\cellcolor[HTML]{E2F2FB}·  Partnership & \cellcolor[HTML]{F1F1F1} & 56 & 32 & 31 & 34 & 58 & 47 \\
+\cellcolor[HTML]{E2F2FB}·  Sole proprietorship & \cellcolor[HTML]{F1F1F1} & 401 & 352 & 251 & 415 & 535 & 436 \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Measure: Business exits} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Reference area: Autonomous prov. Trento} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Economic activity: Manufacturing} & \multirow{-3}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}Total - All legal forms & \cellcolor[HTML]{F1F1F1} & 128 & 39 &  & 81 &  &  \\
+\cellcolor[HTML]{E2F2FB}·  Unspecified & \cellcolor[HTML]{F1F1F1} & 1 & 0 &  & 1 &  &  \\
+\cellcolor[HTML]{E2F2FB}·  Limited liability & \cellcolor[HTML]{F1F1F1} & 18 & 7 &  & 21 &  &  \\
+\cellcolor[HTML]{E2F2FB}·  Partnership & \cellcolor[HTML]{F1F1F1} & 10 & 3 &  & 16 &  &  \\
+\cellcolor[HTML]{E2F2FB}·  Sole proprietorship & \cellcolor[HTML]{F1F1F1} & 99 & 29 &  & 43 &  &  \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Measure: Business exits} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Reference area: Autonomous prov. Trento} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Economic activity: Wholesale and retail trade; repair of motor vehicles and motorcycles} & \multirow{-3}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}Total - All legal forms & \cellcolor[HTML]{F1F1F1} & 335 & 115 &  & 234 &  &  \\
+\cellcolor[HTML]{E2F2FB}·  Unspecified & \cellcolor[HTML]{F1F1F1} & 2 & 1 &  & 0 &  &  \\
+\cellcolor[HTML]{E2F2FB}·  Limited liability & \cellcolor[HTML]{F1F1F1} & 43 & 8 &  & 38 &  &  \\
+\cellcolor[HTML]{E2F2FB}·  Partnership & \cellcolor[HTML]{F1F1F1} & 29 & 9 &  & 52 &  &  \\
+\cellcolor[HTML]{E2F2FB}·  Sole proprietorship & \cellcolor[HTML]{F1F1F1} & 261 & 97 &  & 144 &  &  \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Measure: Business exits} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Reference area: Veneto} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Economic activity: Manufacturing} & \multirow{-3}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}Total - All legal forms & \cellcolor[HTML]{F1F1F1} & 986 & 420 & 369 & 580 & 1,075 & 457 \\
+\cellcolor[HTML]{E2F2FB}·  Unspecified & \cellcolor[HTML]{F1F1F1} & 5 & 3 & 2 & 5 & 8 & 4 \\
+\cellcolor[HTML]{E2F2FB}·  Limited liability & \cellcolor[HTML]{F1F1F1} & 255 & 105 & 95 & 209 & 259 & 140 \\
+\cellcolor[HTML]{E2F2FB}·  Partnership & \cellcolor[HTML]{F1F1F1} & 106 & 31 & 41 & 88 & 130 & 41 \\
+\cellcolor[HTML]{E2F2FB}·  Sole proprietorship & \cellcolor[HTML]{F1F1F1} & 620 & 281 & 231 & 278 & 678 & 272 \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Measure: Business exits} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Reference area: Veneto} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Economic activity: Wholesale and retail trade; repair of motor vehicles and motorcycles} & \multirow{-3}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}Total - All legal forms & \cellcolor[HTML]{F1F1F1} & 2,258 & 997 & 906 & 1,232 & 2,320 & 993 \\
+\cellcolor[HTML]{E2F2FB}·  Unspecified & \cellcolor[HTML]{F1F1F1} & 6 & 4 & 2 & 3 & 4 & 4 \\
+\cellcolor[HTML]{E2F2FB}·  Limited liability & \cellcolor[HTML]{F1F1F1} & 294 & 105 & 89 & 204 & 311 & 134 \\
+\cellcolor[HTML]{E2F2FB}·  Partnership & \cellcolor[HTML]{F1F1F1} & 194 & 52 & 61 & 225 & 192 & 75 \\
+\cellcolor[HTML]{E2F2FB}·  Sole proprietorship & \cellcolor[HTML]{F1F1F1} & 1,764 & 836 & 754 & 800 & 1,813 & 780 \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Measure: Business exits} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Reference area: Friuli-Venezia Giulia} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Economic activity: Manufacturing} & \multirow{-3}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}Total - All legal forms & \cellcolor[HTML]{F1F1F1} & 181 & 63 &  & 116 &  &  \\
+\cellcolor[HTML]{E2F2FB}·  Unspecified & \cellcolor[HTML]{F1F1F1} & 0 & 1 &  & 1 &  &  \\
+\cellcolor[HTML]{E2F2FB}·  Limited liability & \cellcolor[HTML]{F1F1F1} & 50 & 15 &  & 45 &  &  \\
+\cellcolor[HTML]{E2F2FB}·  Partnership & \cellcolor[HTML]{F1F1F1} & 27 & 8 &  & 25 &  &  \\
+\cellcolor[HTML]{E2F2FB}·  Sole proprietorship & \cellcolor[HTML]{F1F1F1} & 104 & 39 &  & 45 &  &  \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Measure: Business exits} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Reference area: Friuli-Venezia Giulia} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Economic activity: Wholesale and retail trade; repair of motor vehicles and motorcycles} & \multirow{-3}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}Total - All legal forms & \cellcolor[HTML]{F1F1F1} & 443 & 197 &  & 307 &  &  \\
+\cellcolor[HTML]{E2F2FB}·  Unspecified & \cellcolor[HTML]{F1F1F1} & 4 & 1 &  & 2 &  &  \\
+\cellcolor[HTML]{E2F2FB}·  Limited liability & \cellcolor[HTML]{F1F1F1} & 44 & 19 &  & 33 &  &  \\
+\cellcolor[HTML]{E2F2FB}·  Partnership & \cellcolor[HTML]{F1F1F1} & 56 & 13 &  & 60 &  &  \\
+\cellcolor[HTML]{E2F2FB}·  Sole proprietorship & \cellcolor[HTML]{F1F1F1} & 339 & 164 &  & 212 &  &  \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Measure: Business exits} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Reference area: Emilia-Romagna} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Economic activity: Manufacturing} & \multirow{-3}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}Total - All legal forms & \cellcolor[HTML]{F1F1F1} & 844 & 369 & 316 & 615 & 937 & 379 \\
+\cellcolor[HTML]{E2F2FB}·  Unspecified & \cellcolor[HTML]{F1F1F1} & 4 & 1 & 3 & 8 & 13 & 3 \\
+\cellcolor[HTML]{E2F2FB}·  Limited liability & \cellcolor[HTML]{F1F1F1} & 210 & 87 & 74 & 206 & 210 & 83 \\
+\cellcolor[HTML]{E2F2FB}·  Partnership & \cellcolor[HTML]{F1F1F1} & 98 & 37 & 32 & 146 & 138 & 55 \\
+\cellcolor[HTML]{E2F2FB}·  Sole proprietorship & \cellcolor[HTML]{F1F1F1} & 532 & 244 & 207 & 255 & 576 & 238 \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Measure: Business exits} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Reference area: Emilia-Romagna} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Economic activity: Wholesale and retail trade; repair of motor vehicles and motorcycles} & \multirow{-3}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}Total - All legal forms & \cellcolor[HTML]{F1F1F1} & 2,212 & 1,014 & 858 & 1,375 & 2,217 & 999 \\
+\cellcolor[HTML]{E2F2FB}·  Unspecified & \cellcolor[HTML]{F1F1F1} & 5 & 2 & 4 & 7 & 11 & 4 \\
+\cellcolor[HTML]{E2F2FB}·  Limited liability & \cellcolor[HTML]{F1F1F1} & 285 & 95 & 83 & 212 & 266 & 101 \\
+\cellcolor[HTML]{E2F2FB}·  Partnership & \cellcolor[HTML]{F1F1F1} & 210 & 96 & 76 & 256 & 244 & 110 \\
+\cellcolor[HTML]{E2F2FB}·  Sole proprietorship & \cellcolor[HTML]{F1F1F1} & 1,712 & 821 & 695 & 900 & 1,696 & 784 \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Measure: Business exits} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Reference area: Tuscany} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Economic activity: Manufacturing} & \multirow{-3}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}Total - All legal forms & \cellcolor[HTML]{F1F1F1} & 1,043 & 497 & 405 & 619 & 1,097 & 471 \\
+\cellcolor[HTML]{E2F2FB}·  Unspecified & \cellcolor[HTML]{F1F1F1} & 4 & 1 & 4 & 4 & 1 & 2 \\
+\cellcolor[HTML]{E2F2FB}·  Limited liability & \cellcolor[HTML]{F1F1F1} & 216 & 87 & 75 & 132 & 210 & 74 \\
+\cellcolor[HTML]{E2F2FB}·  Partnership & \cellcolor[HTML]{F1F1F1} & 101 & 46 & 43 & 101 & 124 & 41 \\
+\cellcolor[HTML]{E2F2FB}·  Sole proprietorship & \cellcolor[HTML]{F1F1F1} & 722 & 363 & 283 & 382 & 762 & 354 \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Measure: Business exits} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Reference area: Tuscany} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Economic activity: Wholesale and retail trade; repair of motor vehicles and motorcycles} & \multirow{-3}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}Total - All legal forms & \cellcolor[HTML]{F1F1F1} & 2,061 & 997 & 851 & 1,275 & 2,093 & 971 \\
+\cellcolor[HTML]{E2F2FB}·  Unspecified & \cellcolor[HTML]{F1F1F1} & 3 & 5 & 0 & 5 & 4 & 2 \\
+\cellcolor[HTML]{E2F2FB}·  Limited liability & \cellcolor[HTML]{F1F1F1} & 276 & 106 & 85 & 181 & 245 & 91 \\
+\cellcolor[HTML]{E2F2FB}·  Partnership & \cellcolor[HTML]{F1F1F1} & 224 & 74 & 77 & 198 & 207 & 84 \\
+\cellcolor[HTML]{E2F2FB}·  Sole proprietorship & \cellcolor[HTML]{F1F1F1} & 1,558 & 812 & 689 & 891 & 1,637 & 794 \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Measure: Business exits} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Reference area: Umbria} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Economic activity: Manufacturing} & \multirow{-3}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}Total - All legal forms & \cellcolor[HTML]{F1F1F1} & 122 & 62 & 81 & 128 & 205 & 85 \\
+\cellcolor[HTML]{E2F2FB}·  Unspecified & \cellcolor[HTML]{F1F1F1} & 4 & 3 & 1 & 3 & 3 & 2 \\
+\cellcolor[HTML]{E2F2FB}·  Limited liability & \cellcolor[HTML]{F1F1F1} & 30 & 16 & 21 & 54 & 65 & 28 \\
+\cellcolor[HTML]{E2F2FB}·  Partnership & \cellcolor[HTML]{F1F1F1} & 13 & 9 & 20 & 27 & 42 & 13 \\
+\cellcolor[HTML]{E2F2FB}·  Sole proprietorship & \cellcolor[HTML]{F1F1F1} & 75 & 34 & 39 & 44 & 95 & 42 \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Measure: Business exits} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Reference area: Umbria} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Economic activity: Wholesale and retail trade; repair of motor vehicles and motorcycles} & \multirow{-3}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}Total - All legal forms & \cellcolor[HTML]{F1F1F1} & 374 & 196 & 223 & 242 & 465 & 213 \\
+\cellcolor[HTML]{E2F2FB}·  Unspecified & \cellcolor[HTML]{F1F1F1} & 1 & 0 & 1 & 1 & 2 & 2 \\
+\cellcolor[HTML]{E2F2FB}·  Limited liability & \cellcolor[HTML]{F1F1F1} & 30 & 29 & 26 & 35 & 78 & 32 \\
+\cellcolor[HTML]{E2F2FB}·  Partnership & \cellcolor[HTML]{F1F1F1} & 42 & 11 & 38 & 45 & 66 & 35 \\
+\cellcolor[HTML]{E2F2FB}·  Sole proprietorship & \cellcolor[HTML]{F1F1F1} & 301 & 156 & 158 & 161 & 319 & 144 \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Measure: Business exits} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Reference area: Marche} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Economic activity: Manufacturing} & \multirow{-3}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}Total - All legal forms & \cellcolor[HTML]{F1F1F1} & 362 & 151 & 131 & 181 & 417 & 158 \\
+\cellcolor[HTML]{E2F2FB}·  Unspecified & \cellcolor[HTML]{F1F1F1} & 3 & 1 & 0 & 1 & 5 & 1 \\
+\cellcolor[HTML]{E2F2FB}·  Limited liability & \cellcolor[HTML]{F1F1F1} & 94 & 41 & 36 & 56 & 93 & 28 \\
+\cellcolor[HTML]{E2F2FB}·  Partnership & \cellcolor[HTML]{F1F1F1} & 46 & 21 & 11 & 37 & 58 & 20 \\
+\cellcolor[HTML]{E2F2FB}·  Sole proprietorship & \cellcolor[HTML]{F1F1F1} & 219 & 88 & 84 & 87 & 261 & 109 \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Measure: Business exits} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Reference area: Marche} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Economic activity: Wholesale and retail trade; repair of motor vehicles and motorcycles} & \multirow{-3}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}Total - All legal forms & \cellcolor[HTML]{F1F1F1} & 786 & 364 & 280 & 433 & 814 & 308 \\
+\cellcolor[HTML]{E2F2FB}·  Unspecified & \cellcolor[HTML]{F1F1F1} & 4 & 2 & 3 & 3 & 5 & 1 \\
+\cellcolor[HTML]{E2F2FB}·  Limited liability & \cellcolor[HTML]{F1F1F1} & 102 & 35 & 25 & 79 & 99 & 30 \\
+\cellcolor[HTML]{E2F2FB}·  Partnership & \cellcolor[HTML]{F1F1F1} & 89 & 29 & 33 & 63 & 99 & 31 \\
+\cellcolor[HTML]{E2F2FB}·  Sole proprietorship & \cellcolor[HTML]{F1F1F1} & 591 & 298 & 219 & 288 & 611 & 246 \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Measure: Business exits} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Reference area: Lazio} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Economic activity: Manufacturing} & \multirow{-3}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}Total - All legal forms & \cellcolor[HTML]{F1F1F1} & 430 & 208 & 176 & 292 & 445 & 261 \\
+\cellcolor[HTML]{E2F2FB}·  Unspecified & \cellcolor[HTML]{F1F1F1} & 14 & 8 & 7 & 7 & 11 & 6 \\
+\cellcolor[HTML]{E2F2FB}·  Limited liability & \cellcolor[HTML]{F1F1F1} & 135 & 58 & 54 & 84 & 130 & 89 \\
+\cellcolor[HTML]{E2F2FB}·  Partnership & \cellcolor[HTML]{F1F1F1} & 48 & 20 & 24 & 42 & 56 & 24 \\
+\cellcolor[HTML]{E2F2FB}·  Sole proprietorship & \cellcolor[HTML]{F1F1F1} & 233 & 122 & 91 & 159 & 248 & 142 \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Measure: Business exits} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Reference area: Lazio} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{7}{l}{\cellcolor[HTML]{B7DEF6}Economic activity: Wholesale and retail trade; repair of motor vehicles and motorcycles} & \multirow{-3}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}Total - All legal forms & \cellcolor[HTML]{F1F1F1} & 2,476 & 1,346 & 1,105 & 1,602 & 2,742 & 1,504 \\
+\cellcolor[HTML]{E2F2FB}·  Unspecified & \cellcolor[HTML]{F1F1F1} & 11 & 6 & 7 & 9 & 21 & 9 \\
+\cellcolor[HTML]{E2F2FB}·  Limited liability & \cellcolor[HTML]{F1F1F1} & 581 & 206 & 180 & 311 & 621 & 330 \\
+\cellcolor[HTML]{E2F2FB}·  Partnership & \cellcolor[HTML]{F1F1F1} & 194 & 73 & 82 & 119 & 230 & 92 \\
+\cellcolor[HTML]{E2F2FB}·  Sole proprietorship & \cellcolor[HTML]{F1F1F1} & 1,690 & 1,061 & 836 & 1,163 & 1,870 & 1,073
+\end{tabular}
+\end{table}

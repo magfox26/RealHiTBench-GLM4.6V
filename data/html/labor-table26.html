@@ -1,0 +1,245 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <meta name="generator" content="PhpSpreadsheet, https://github.com/PHPOffice/PhpSpreadsheet">
+      <meta name="author" content="mac" />
+      <meta name="company" content="Microsoft Corporation" />
+    <style type="text/css">
+      html { font-family:Calibri, Arial, Helvetica, sans-serif; font-size:11pt; background-color:white }
+      a.comment-indicator:hover + div.comment { background:#ffd; position:absolute; display:block; border:1px solid black; padding:0.5em }
+      a.comment-indicator { background:red; display:inline-block; border:1px solid black; width:0.5em; height:0.5em }
+      div.comment { display:none }
+      table { border-collapse:collapse; page-break-after:always }
+      .gridlines td { border:1px dotted black }
+      .gridlines th { border:1px dotted black }
+      .b { text-align:center }
+      .e { text-align:center }
+      .f { text-align:right }
+      .inlineStr { text-align:left }
+      .n { text-align:right }
+      .s { text-align:left }
+      td.style0 { vertical-align:middle; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style0 { vertical-align:middle; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style1 { vertical-align:middle; text-align:center; border-bottom:1px solid #A5A5A5 !important; border-top:none #000000; border-left:none #000000; border-right:1px solid #A5A5A5 !important; color:#000000; font-family:'PF DinDisplay Pro Light'; font-size:10pt; background-color:#FFFFFF }
+      th.style1 { vertical-align:middle; text-align:center; border-bottom:1px solid #A5A5A5 !important; border-top:none #000000; border-left:none #000000; border-right:1px solid #A5A5A5 !important; color:#000000; font-family:'PF DinDisplay Pro Light'; font-size:10pt; background-color:#FFFFFF }
+      td.style2 { vertical-align:middle; text-align:center; border-bottom:3px double #00B0F0 !important; border-top:1px solid #A5A5A5 !important; border-left:1px solid #A5A5A5 !important; border-right:1px solid #A5A5A5 !important; font-weight:bold; color:#FFFFFF; font-family:'PF DinDisplay Pro Light'; font-size:10pt; background-color:#595959 }
+      th.style2 { vertical-align:middle; text-align:center; border-bottom:3px double #00B0F0 !important; border-top:1px solid #A5A5A5 !important; border-left:1px solid #A5A5A5 !important; border-right:1px solid #A5A5A5 !important; font-weight:bold; color:#FFFFFF; font-family:'PF DinDisplay Pro Light'; font-size:10pt; background-color:#595959 }
+      td.style3 { vertical-align:middle; text-align:center; border-bottom:3px double #00B0F0 !important; border-top:1px solid #A5A5A5 !important; border-left:1px solid #A5A5A5 !important; border-right:1px solid #A5A5A5 !important; font-weight:bold; color:#FFFFFF; font-family:'PF DinDisplay Pro Light'; font-size:10pt; background-color:#595959 }
+      th.style3 { vertical-align:middle; text-align:center; border-bottom:3px double #00B0F0 !important; border-top:1px solid #A5A5A5 !important; border-left:1px solid #A5A5A5 !important; border-right:1px solid #A5A5A5 !important; font-weight:bold; color:#FFFFFF; font-family:'PF DinDisplay Pro Light'; font-size:10pt; background-color:#595959 }
+      td.style4 { vertical-align:middle; text-align:center; border-bottom:1px solid #A5A5A5 !important; border-top:1px solid #A5A5A5 !important; border-left:none #000000; border-right:1px solid #A5A5A5 !important; color:#FFFFFF; font-family:'PF DinDisplay Pro Light'; font-size:10pt; background-color:#595959 }
+      th.style4 { vertical-align:middle; text-align:center; border-bottom:1px solid #A5A5A5 !important; border-top:1px solid #A5A5A5 !important; border-left:none #000000; border-right:1px solid #A5A5A5 !important; color:#FFFFFF; font-family:'PF DinDisplay Pro Light'; font-size:10pt; background-color:#595959 }
+      td.style5 { vertical-align:middle; text-align:center; border-bottom:1px solid #A5A5A5 !important; border-top:none #000000; border-left:1px solid #A5A5A5 !important; border-right:1px solid #A5A5A5 !important; color:#FFFFFF; font-family:'PF DinDisplay Pro Light'; font-size:10pt; background-color:#595959 }
+      th.style5 { vertical-align:middle; text-align:center; border-bottom:1px solid #A5A5A5 !important; border-top:none #000000; border-left:1px solid #A5A5A5 !important; border-right:1px solid #A5A5A5 !important; color:#FFFFFF; font-family:'PF DinDisplay Pro Light'; font-size:10pt; background-color:#595959 }
+      td.style6 { vertical-align:middle; text-align:center; border-bottom:1px solid #A5A5A5 !important; border-top:1px solid #A5A5A5 !important; border-left:none #000000; border-right:1px solid #A5A5A5 !important; color:#000000; font-family:'PF DinDisplay Pro Light'; font-size:8pt; background-color:#FFFFFF }
+      th.style6 { vertical-align:middle; text-align:center; border-bottom:1px solid #A5A5A5 !important; border-top:1px solid #A5A5A5 !important; border-left:none #000000; border-right:1px solid #A5A5A5 !important; color:#000000; font-family:'PF DinDisplay Pro Light'; font-size:8pt; background-color:#FFFFFF }
+      td.style7 { vertical-align:middle; text-align:center; border-bottom:1px solid #A5A5A5 !important; border-top:1px solid #A5A5A5 !important; border-left:1px solid #A5A5A5 !important; border-right:1px solid #A5A5A5 !important; color:#000000; font-family:'PF DinDisplay Pro Light'; font-size:8pt; background-color:#FFFFFF }
+      th.style7 { vertical-align:middle; text-align:center; border-bottom:1px solid #A5A5A5 !important; border-top:1px solid #A5A5A5 !important; border-left:1px solid #A5A5A5 !important; border-right:1px solid #A5A5A5 !important; color:#000000; font-family:'PF DinDisplay Pro Light'; font-size:8pt; background-color:#FFFFFF }
+      td.style8 { vertical-align:middle; text-align:center; border-bottom:1px solid #A5A5A5 !important; border-top:1px solid #A5A5A5 !important; border-left:1px solid #A5A5A5 !important; border-right:1px solid #A5A5A5 !important; color:#000000; font-family:'PF DinDisplay Pro Light'; font-size:8pt; background-color:#FFFFFF }
+      th.style8 { vertical-align:middle; text-align:center; border-bottom:1px solid #A5A5A5 !important; border-top:1px solid #A5A5A5 !important; border-left:1px solid #A5A5A5 !important; border-right:1px solid #A5A5A5 !important; color:#000000; font-family:'PF DinDisplay Pro Light'; font-size:8pt; background-color:#FFFFFF }
+      td.style9 { vertical-align:middle; text-align:center; border-bottom:3px double #00BCE8 !important; border-top:1px solid #A5A5A5 !important; border-left:none #000000; border-right:1px solid #A5A5A5 !important; color:#000000; font-family:'PF DinDisplay Pro Light'; font-size:8pt; background-color:#FFFFFF }
+      th.style9 { vertical-align:middle; text-align:center; border-bottom:3px double #00BCE8 !important; border-top:1px solid #A5A5A5 !important; border-left:none #000000; border-right:1px solid #A5A5A5 !important; color:#000000; font-family:'PF DinDisplay Pro Light'; font-size:8pt; background-color:#FFFFFF }
+      td.style10 { vertical-align:middle; text-align:center; border-bottom:3px double #00BCE8 !important; border-top:1px solid #A5A5A5 !important; border-left:1px solid #A5A5A5 !important; border-right:1px solid #A5A5A5 !important; color:#000000; font-family:'PF DinDisplay Pro Light'; font-size:8pt; background-color:#FFFFFF }
+      th.style10 { vertical-align:middle; text-align:center; border-bottom:3px double #00BCE8 !important; border-top:1px solid #A5A5A5 !important; border-left:1px solid #A5A5A5 !important; border-right:1px solid #A5A5A5 !important; color:#000000; font-family:'PF DinDisplay Pro Light'; font-size:8pt; background-color:#FFFFFF }
+      td.style11 { vertical-align:middle; text-align:center; border-bottom:3px double #00BCE8 !important; border-top:1px solid #A5A5A5 !important; border-left:1px solid #A5A5A5 !important; border-right:1px solid #A5A5A5 !important; color:#000000; font-family:'PF DinDisplay Pro Light'; font-size:8pt; background-color:#FFFFFF }
+      th.style11 { vertical-align:middle; text-align:center; border-bottom:3px double #00BCE8 !important; border-top:1px solid #A5A5A5 !important; border-left:1px solid #A5A5A5 !important; border-right:1px solid #A5A5A5 !important; color:#000000; font-family:'PF DinDisplay Pro Light'; font-size:8pt; background-color:#FFFFFF }
+      td.style12 { vertical-align:middle; text-align:center; border-bottom:1px solid #A5A5A5 !important; border-top:none #000000; border-left:none #000000; border-right:1px solid #A5A5A5 !important; color:#000000; font-family:'PF DinDisplay Pro Light'; font-size:8pt; background-color:#FFFFFF }
+      th.style12 { vertical-align:middle; text-align:center; border-bottom:1px solid #A5A5A5 !important; border-top:none #000000; border-left:none #000000; border-right:1px solid #A5A5A5 !important; color:#000000; font-family:'PF DinDisplay Pro Light'; font-size:8pt; background-color:#FFFFFF }
+      td.style13 { vertical-align:middle; text-align:center; border-bottom:1px solid #A5A5A5 !important; border-top:none #000000; border-left:1px solid #A5A5A5 !important; border-right:1px solid #A5A5A5 !important; color:#000000; font-family:'PF DinDisplay Pro Light'; font-size:8pt; background-color:#FFFFFF }
+      th.style13 { vertical-align:middle; text-align:center; border-bottom:1px solid #A5A5A5 !important; border-top:none #000000; border-left:1px solid #A5A5A5 !important; border-right:1px solid #A5A5A5 !important; color:#000000; font-family:'PF DinDisplay Pro Light'; font-size:8pt; background-color:#FFFFFF }
+      td.style14 { vertical-align:middle; text-align:center; border-bottom:1px solid #A5A5A5 !important; border-top:none #000000; border-left:1px solid #A5A5A5 !important; border-right:1px solid #A5A5A5 !important; color:#000000; font-family:'PF DinDisplay Pro Light'; font-size:8pt; background-color:#FFFFFF }
+      th.style14 { vertical-align:middle; text-align:center; border-bottom:1px solid #A5A5A5 !important; border-top:none #000000; border-left:1px solid #A5A5A5 !important; border-right:1px solid #A5A5A5 !important; color:#000000; font-family:'PF DinDisplay Pro Light'; font-size:8pt; background-color:#FFFFFF }
+      td.style15 { vertical-align:middle; text-align:center; border-bottom:1px solid #A5A5A5 !important; border-top:none #000000; border-left:1px solid #A5A5A5 !important; border-right:none #000000; color:#FFFFFF; font-family:'PF DinDisplay Pro Light'; font-size:10pt; background-color:#595959 }
+      th.style15 { vertical-align:middle; text-align:center; border-bottom:1px solid #A5A5A5 !important; border-top:none #000000; border-left:1px solid #A5A5A5 !important; border-right:none #000000; color:#FFFFFF; font-family:'PF DinDisplay Pro Light'; font-size:10pt; background-color:#595959 }
+      td.style16 { vertical-align:middle; text-align:center; border-bottom:1px solid #A5A5A5 !important; border-top:1px solid #A5A5A5 !important; border-left:1px solid #A5A5A5 !important; border-right:none #000000; color:#000000; font-family:'PF DinDisplay Pro Light'; font-size:8pt; background-color:#FFFFFF }
+      th.style16 { vertical-align:middle; text-align:center; border-bottom:1px solid #A5A5A5 !important; border-top:1px solid #A5A5A5 !important; border-left:1px solid #A5A5A5 !important; border-right:none #000000; color:#000000; font-family:'PF DinDisplay Pro Light'; font-size:8pt; background-color:#FFFFFF }
+      td.style17 { vertical-align:middle; text-align:center; border-bottom:3px double #00BCE8 !important; border-top:1px solid #A5A5A5 !important; border-left:1px solid #A5A5A5 !important; border-right:none #000000; color:#000000; font-family:'PF DinDisplay Pro Light'; font-size:8pt; background-color:#FFFFFF }
+      th.style17 { vertical-align:middle; text-align:center; border-bottom:3px double #00BCE8 !important; border-top:1px solid #A5A5A5 !important; border-left:1px solid #A5A5A5 !important; border-right:none #000000; color:#000000; font-family:'PF DinDisplay Pro Light'; font-size:8pt; background-color:#FFFFFF }
+      td.style18 { vertical-align:middle; text-align:center; border-bottom:1px solid #A5A5A5 !important; border-top:none #000000; border-left:1px solid #A5A5A5 !important; border-right:1px solid #A5A5A5 !important; color:#000000; font-family:'PF DinDisplay Pro Light'; font-size:8pt; background-color:#FBE5D5 }
+      th.style18 { vertical-align:middle; text-align:center; border-bottom:1px solid #A5A5A5 !important; border-top:none #000000; border-left:1px solid #A5A5A5 !important; border-right:1px solid #A5A5A5 !important; color:#000000; font-family:'PF DinDisplay Pro Light'; font-size:8pt; background-color:#FBE5D5 }
+      td.style19 { vertical-align:middle; text-align:center; border-bottom:1px solid #A5A5A5 !important; border-top:none #000000; border-left:1px solid #A5A5A5 !important; border-right:none #000000; color:#000000; font-family:'PF DinDisplay Pro Light'; font-size:8pt; background-color:#FFFFFF }
+      th.style19 { vertical-align:middle; text-align:center; border-bottom:1px solid #A5A5A5 !important; border-top:none #000000; border-left:1px solid #A5A5A5 !important; border-right:none #000000; color:#000000; font-family:'PF DinDisplay Pro Light'; font-size:8pt; background-color:#FFFFFF }
+      table.sheet0 col.col0 { width:42pt }
+      table.sheet0 col.col1 { width:42pt }
+      table.sheet0 col.col2 { width:42pt }
+      table.sheet0 col.col3 { width:42pt }
+      table.sheet0 col.col4 { width:42pt }
+      table.sheet0 col.col5 { width:42pt }
+      table.sheet0 col.col6 { width:42pt }
+      table.sheet0 col.col7 { width:42pt }
+      table.sheet0 col.col8 { width:42pt }
+      table.sheet0 col.col9 { width:42pt }
+      table.sheet0 col.col10 { width:42pt }
+      table.sheet0 col.col11 { width:42pt }
+      table.sheet0 col.col12 { width:42pt }
+      table.sheet0 col.col13 { width:42pt }
+      table.sheet0 col.col14 { width:42pt }
+      table.sheet0 tr { height:15pt }
+      table.sheet0 tr.row0 { height:45pt }
+      table.sheet0 tr.row1 { height:44.75pt }
+      table.sheet0 tr.row6 { height:17.55pt }
+      table.sheet0 tr.row7 { height:17.55pt }
+    </style>
+  </head>
+
+  <body>
+<style>
+@page { margin-left: 0.75in; margin-right: 0.75in; margin-top: 1in; margin-bottom: 1in; }
+body { margin-left: 0.75in; margin-right: 0.75in; margin-top: 1in; margin-bottom: 1in; }
+</style>
+    <table border="0" cellpadding="0" cellspacing="0" id="sheet0" class="sheet0 gridlines">
+        <col class="col0">
+        <col class="col1">
+        <col class="col2">
+        <col class="col3">
+        <col class="col4">
+        <col class="col5">
+        <col class="col6">
+        <col class="col7">
+        <col class="col8">
+        <col class="col9">
+        <col class="col10">
+        <col class="col11">
+        <col class="col12">
+        <col class="col13">
+        <col class="col14">
+        <tbody>
+          <tr class="row0">
+            <td class="column0 style1 null"></td>
+            <td class="column1 style2 s style3" colspan="2"><span style="font-weight:bold; color:#FFFFFF; font-family:'PF DinDisplay Pro Light'; font-size:10pt">Bad Records<br />
+</span><span style="color:#FFFFFF; font-family:'PF DinDisplay Pro Light'; font-size:10pt">(not imported)</span><span style="font-weight:bold; color:#FFFFFF; font-family:'PF DinDisplay Pro Light'; font-size:10pt"> of Total</span></td>
+            <td class="column3 style2 s style3" colspan="2"><span style="font-weight:bold; color:#FFFFFF; font-family:'PF DinDisplay Pro Light'; font-size:10pt">Delivered <br />
+</span><span style="color:#FFFFFF; font-family:'PF DinDisplay Pro Light'; font-size:10pt">of Total</span></td>
+            <td class="column5 style2 s style2" colspan="2"><span style="font-weight:bold; color:#FFFFFF; font-family:'PF DinDisplay Pro Light'; font-size:10pt">Not Attempted / </span><span style="color:#FFFFFF; font-family:'PF DinDisplay Pro Light'; font-size:10pt">Bounced of Total</span></td>
+            <td class="column7 style2 s style2" colspan="2"><span style="font-weight:bold; color:#FFFFFF; font-family:'PF DinDisplay Pro Light'; font-size:10pt">Unsubscribed<br />
+</span><span style="color:#FFFFFF; font-family:'PF DinDisplay Pro Light'; font-size:10pt">of Total</span></td>
+            <td class="column9 style2 s style2" colspan="2"><span style="font-weight:bold; color:#FFFFFF; font-family:'PF DinDisplay Pro Light'; font-size:10pt">Opens </span><span style="color:#FFFFFF; font-family:'PF DinDisplay Pro Light'; font-size:10pt"><br />
+of Delivered</span></td>
+            <td class="column11 style2 s style2" colspan="2"><span style="font-weight:bold; color:#FFFFFF; font-family:'PF DinDisplay Pro Light'; font-size:10pt">Click Through </span><span style="color:#FFFFFF; font-family:'PF DinDisplay Pro Light'; font-size:10pt"><br />
+of Delivered</span></td>
+            <td class="column13 style2 s style2" colspan="2"><span style="font-weight:bold; color:#FFFFFF; font-family:'PF DinDisplay Pro Light'; font-size:10pt">Form Submissions <br />
+</span><span style="color:#FFFFFF; font-family:'PF DinDisplay Pro Light'; font-size:10pt">of Delivered</span></td>
+          </tr>
+          <tr class="row1">
+            <td class="column0 style4 s">Date EM Stats Updated</td>
+            <td class="column1 style5 s">Vol</td>
+            <td class="column2 style5 s">%</td>
+            <td class="column3 style5 s">Vol</td>
+            <td class="column4 style5 s">%</td>
+            <td class="column5 style5 s">Vol</td>
+            <td class="column6 style5 s">%</td>
+            <td class="column7 style5 s">Vol</td>
+            <td class="column8 style5 s">%</td>
+            <td class="column9 style5 s">Vol</td>
+            <td class="column10 style5 s">%</td>
+            <td class="column11 style5 s">Vol</td>
+            <td class="column12 style5 s">%</td>
+            <td class="column13 style5 s">Vol</td>
+            <td class="column14 style15 s">%</td>
+          </tr>
+          <tr class="row2">
+            <td class="column0 style6 n">7/16/2014</td>
+            <td class="column1 style7 n">0</td>
+            <td class="column2 style8 n">0.00%</td>
+            <td class="column3 style7 n">449</td>
+            <td class="column4 style8 n">89.80%</td>
+            <td class="column5 style7 n">54</td>
+            <td class="column6 style8 n">10.80%</td>
+            <td class="column7 style7 n">11</td>
+            <td class="column8 style8 n">2.20%</td>
+            <td class="column9 style7 n">79</td>
+            <td class="column10 style8 n">17.59%</td>
+            <td class="column11 style7 n">0</td>
+            <td class="column12 style8 n">0.00%</td>
+            <td class="column13 style7 n">0</td>
+            <td class="column14 style16 n">0.00%</td>
+          </tr>
+          <tr class="row3">
+            <td class="column0 style6 n">7/16/2014</td>
+            <td class="column1 style7 n">10</td>
+            <td class="column2 style8 n">0.02%</td>
+            <td class="column3 style7 n">43328</td>
+            <td class="column4 style8 n">86.66%</td>
+            <td class="column5 style7 n">6665</td>
+            <td class="column6 style8 n">13.33%</td>
+            <td class="column7 style7 n">593</td>
+            <td class="column8 style8 n">1.19%</td>
+            <td class="column9 style7 n">6017</td>
+            <td class="column10 style8 n">13.89%</td>
+            <td class="column11 style7 n">109</td>
+            <td class="column12 style8 n">0.25%</td>
+            <td class="column13 style7 n">21</td>
+            <td class="column14 style16 n">0.05%</td>
+          </tr>
+          <tr class="row4">
+            <td class="column0 style6 n">7/16/2014</td>
+            <td class="column1 style7 n">8</td>
+            <td class="column2 style8 n">0.02%</td>
+            <td class="column3 style7 n">43598</td>
+            <td class="column4 style8 n">87.20%</td>
+            <td class="column5 style7 n">6397</td>
+            <td class="column6 style8 n">12.79%</td>
+            <td class="column7 style7 n">476</td>
+            <td class="column8 style8 n">0.95%</td>
+            <td class="column9 style7 n">4303</td>
+            <td class="column10 style8 n">9.87%</td>
+            <td class="column11 style7 n">89</td>
+            <td class="column12 style8 n">0.20%</td>
+            <td class="column13 style7 n">21</td>
+            <td class="column14 style16 n">0.05%</td>
+          </tr>
+          <tr class="row5">
+            <td class="column0 style6 n">7/16/2014</td>
+            <td class="column1 style7 n">4</td>
+            <td class="column2 style8 n">0.01%</td>
+            <td class="column3 style7 n">44813</td>
+            <td class="column4 style8 n">89.63%</td>
+            <td class="column5 style7 n">5186</td>
+            <td class="column6 style8 n">10.37%</td>
+            <td class="column7 style7 n">517</td>
+            <td class="column8 style8 n">1.03%</td>
+            <td class="column9 style7 n">4261</td>
+            <td class="column10 style8 n">9.51%</td>
+            <td class="column11 style7 n">64</td>
+            <td class="column12 style8 n">0.14%</td>
+            <td class="column13 style7 n">10</td>
+            <td class="column14 style16 n">0.02%</td>
+          </tr>
+          <tr class="row6">
+            <td class="column0 style9 n">7/16/2014</td>
+            <td class="column1 style10 n">7</td>
+            <td class="column2 style11 n">0.01%</td>
+            <td class="column3 style10 n">45405</td>
+            <td class="column4 style11 n">91.73%</td>
+            <td class="column5 style10 n">4091</td>
+            <td class="column6 style11 n">8.26%</td>
+            <td class="column7 style10 n">474</td>
+            <td class="column8 style11 n">0.96%</td>
+            <td class="column9 style10 n">5704</td>
+            <td class="column10 style11 n">12.56%</td>
+            <td class="column11 style10 n">79</td>
+            <td class="column12 style11 n">0.17%</td>
+            <td class="column13 style10 n">5</td>
+            <td class="column14 style17 n">0.01%</td>
+          </tr>
+          <tr class="row7">
+            <td class="column0 style12 n">7/16/2014</td>
+            <td class="column1 style13 n">5</td>
+            <td class="column2 style14 n">0.01%</td>
+            <td class="column3 style13 n">37349</td>
+            <td class="column4 style14 n">93.37%</td>
+            <td class="column5 style13 n">2649</td>
+            <td class="column6 style14 n">6.62%</td>
+            <td class="column7 style13 n">153</td>
+            <td class="column8 style14 n">0.38%</td>
+            <td class="column9 style13 n">1130</td>
+            <td class="column10 style14 n">3.03%</td>
+            <td class="column11 style13 n">28</td>
+            <td class="column12 style14 n">0.07%</td>
+            <td class="column13 style18 null"></td>
+            <td class="column14 style19 n">0.00%</td>
+          </tr>
+        </tbody>
+    </table>
+  </body>
+</html>

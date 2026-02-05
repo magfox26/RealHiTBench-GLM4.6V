@@ -1,0 +1,45 @@
+% Please add the following required packages to your document preamble:
+% \usepackage[table,xcdraw]{xcolor}
+% Beamer presentation requires \usepackage{colortbl} instead of \usepackage[table,xcdraw]{xcolor}
+\begin{table}[]
+\begin{tabular}{lllll}
+\cellcolor[HTML]{FFFFFF}\textbf{Statement of Employee Travel Expenses}                   &                                             &  &  &  \\
+\multicolumn{5}{l}{\cellcolor[HTML]{FFFFFF}\textbf{Car Allowance}}                                                                              \\
+\cellcolor[HTML]{FFFFFF}\textit{\textbf{For the period January 1 to September 30, 2023}} &                                             &  &  &  \\
+                                                                                         &                                             &  &  &  \\
+                                                                                         &                                             &  &  &  \\
+                                                                                         &                                             &  &  &  \\
+\cellcolor[HTML]{D9E1F2}\textbf{Name}                                                    & \cellcolor[HTML]{D9E1F2}\textbf{Total}      &  &  &  \\
+Adair,Brendan                                                                            & 4,356.00                                    &  &  &  \\
+Archer,Ed                                                                                & 7,560.00                                    &  &  &  \\
+Archibald,Aaron                                                                          & 4,356.00                                    &  &  &  \\
+Armstrong,Meredith                                                                       & 4,356.00                                    &  &  &  \\
+Babcock,Glenys                                                                           & 484.00                                      &  &  &  \\
+Brownlee,Renee                                                                           & 4,356.00                                    &  &  &  \\
+Campbell,Tyler                                                                           & 4,356.00                                    &  &  &  \\
+Cecutti,Anthony Albert                                                                   & 6,480.00                                    &  &  &  \\
+Dubois,Barbara                                                                           & 4,356.00                                    &  &  &  \\
+Fowke,Kevin G                                                                            & 6,480.00                                    &  &  &  \\
+Gravelle,Kelly                                                                           & 4,356.00                                    &  &  &  \\
+Hallam,Brittany                                                                          & 4,356.00                                    &  &  &  \\
+Halushenski,Natalie                                                                      & 1,050.00                                    &  &  &  \\
+Harding,Brian                                                                            & 6,480.00                                    &  &  &  \\
+Jacques,Steve                                                                            & 6,480.00                                    &  &  &  \\
+Jensen,Mike                                                                              & 484.00                                      &  &  &  \\
+Kelly,Joanne                                                                             & 4,356.00                                    &  &  &  \\
+Labelle,Eric                                                                             & 4,356.00                                    &  &  &  \\
+Litalien,Marie-Catherine                                                                 & 4,356.00                                    &  &  &  \\
+Longston,Kris                                                                            & 4,356.00                                    &  &  &  \\
+Mazza,Guido                                                                              & 4,356.00                                    &  &  &  \\
+Moulton,Melissa                                                                          & 1,050.00                                    &  &  &  \\
+Pafford,Jeff                                                                             & 4,356.00                                    &  &  &  \\
+Rocca,Giuseppe                                                                           & 4,356.00                                    &  &  &  \\
+Rowe,Jennifer                                                                            & 1,050.00                                    &  &  &  \\
+Shelsted,David                                                                           & 4,356.00                                    &  &  &  \\
+Taylor,Peter                                                                             & 4,356.00                                    &  &  &  \\
+Turner,Shawn                                                                             & 4,356.00                                    &  &  &  \\
+Verrilli,Giovanna                                                                        & 7,200.00                                    &  &  &  \\
+Wood,Ian                                                                                 & 6,480.00                                    &  &  &  \\
+\cellcolor[HTML]{D9E1F2}\textbf{Grand Total}                                             & \cellcolor[HTML]{D9E1F2}\textbf{129,686.00} &  &  & 
+\end{tabular}
+\end{table}

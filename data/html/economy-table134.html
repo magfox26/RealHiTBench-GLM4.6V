@@ -1,0 +1,2045 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <meta name="generator" content="PhpSpreadsheet, https://github.com/PHPOffice/PhpSpreadsheet">
+      <meta name="author" content="Apache POI" />
+      <meta name="company" content="Microsoft Corporation" />
+    <style type="text/css">
+      html { font-family:Calibri, Arial, Helvetica, sans-serif; font-size:11pt; background-color:white }
+      a.comment-indicator:hover + div.comment { background:#ffd; position:absolute; display:block; border:1px solid black; padding:0.5em }
+      a.comment-indicator { background:red; display:inline-block; border:1px solid black; width:0.5em; height:0.5em }
+      div.comment { display:none }
+      table { border-collapse:collapse; page-break-after:always }
+      .gridlines td { border:1px dotted black }
+      .gridlines th { border:1px dotted black }
+      .b { text-align:center }
+      .e { text-align:center }
+      .f { text-align:right }
+      .inlineStr { text-align:left }
+      .n { text-align:right }
+      .s { text-align:left }
+      td.style0 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      th.style0 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      td.style1 { vertical-align:bottom; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      th.style1 { vertical-align:bottom; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      td.style2 { vertical-align:top; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      th.style2 { vertical-align:top; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      td.style3 { vertical-align:top; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      th.style3 { vertical-align:top; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      td.style4 { vertical-align:top; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      th.style4 { vertical-align:top; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      td.style5 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      th.style5 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      td.style6 { vertical-align:bottom; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      th.style6 { vertical-align:bottom; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      td.style7 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      th.style7 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      td.style8 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      th.style8 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      td.style9 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      th.style9 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      td.style10 { vertical-align:bottom; text-align:left; padding-left:9px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      th.style10 { vertical-align:bottom; text-align:left; padding-left:9px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      td.style11 { vertical-align:bottom; text-align:left; padding-left:18px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      th.style11 { vertical-align:bottom; text-align:left; padding-left:18px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      td.style12 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      th.style12 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      table.sheet0 col.col0 { width:42pt }
+      table.sheet0 col.col1 { width:332.1111073pt }
+      table.sheet0 col.col2 { width:71.16666585pt }
+      table.sheet0 col.col3 { width:71.16666585pt }
+      table.sheet0 col.col4 { width:71.16666585pt }
+      table.sheet0 col.col5 { width:71.16666585pt }
+      table.sheet0 col.col6 { width:71.16666585pt }
+      table.sheet0 col.col7 { width:71.16666585pt }
+      table.sheet0 col.col8 { width:71.16666585pt }
+      table.sheet0 col.col9 { width:71.16666585pt }
+      table.sheet0 col.col10 { width:71.16666585pt }
+      table.sheet0 col.col11 { width:71.16666585pt }
+      table.sheet0 col.col12 { width:71.16666585pt }
+      table.sheet0 col.col13 { width:71.16666585pt }
+      table.sheet0 col.col14 { width:71.16666585pt }
+      table.sheet0 col.col15 { width:71.16666585pt }
+      table.sheet0 col.col16 { width:71.16666585pt }
+      table.sheet0 col.col17 { width:71.16666585pt }
+      table.sheet0 col.col18 { width:71.16666585pt }
+      table.sheet0 col.col19 { width:71.16666585pt }
+      table.sheet0 col.col20 { width:71.16666585pt }
+      table.sheet0 col.col21 { width:71.16666585pt }
+      table.sheet0 col.col22 { width:71.16666585pt }
+      table.sheet0 tr { height:15pt }
+      table.sheet0 tr.row0 { height:28pt }
+      table.sheet0 tr.row3 { height:31.5pt }
+      table.sheet0 tr.row4 { height:28pt }
+      table.sheet0 tr.row8 { height:17pt }
+      table.sheet0 tr.row12 { height:17pt }
+      table.sheet0 tr.row13 { height:17pt }
+      table.sheet0 tr.row14 { height:17pt }
+      table.sheet0 tr.row18 { height:17pt }
+      table.sheet0 tr.row19 { height:17pt }
+      table.sheet0 tr.row20 { height:17pt }
+      table.sheet0 tr.row24 { height:17pt }
+      table.sheet0 tr.row25 { height:17pt }
+      table.sheet0 tr.row26 { height:17pt }
+      table.sheet0 tr.row27 { height:17pt }
+      table.sheet0 tr.row31 { height:17pt }
+      table.sheet0 tr.row32 { height:17pt }
+      table.sheet0 tr.row33 { height:17pt }
+      table.sheet0 tr.row37 { height:17pt }
+      table.sheet0 tr.row38 { height:17pt }
+      table.sheet0 tr.row47 { height:17pt }
+      table.sheet0 tr.row52 { height:17pt }
+      table.sheet0 tr.row62 { height:17pt }
+      table.sheet0 tr.row64 { height:17pt }
+      table.sheet0 tr.row66 { height:17pt }
+      table.sheet0 tr.row69 { height:56pt }
+      table.sheet0 tr.row77 { height:84pt }
+    </style>
+  </head>
+
+  <body>
+<style>
+@page { margin-left: 0.7in; margin-right: 0.7in; margin-top: 0.75in; margin-bottom: 0.75in; }
+body { margin-left: 0.7in; margin-right: 0.7in; margin-top: 0.75in; margin-bottom: 0.75in; }
+</style>
+    <table border="0" cellpadding="0" cellspacing="0" id="sheet0" class="sheet0 gridlines">
+        <col class="col0">
+        <col class="col1">
+        <col class="col2">
+        <col class="col3">
+        <col class="col4">
+        <col class="col5">
+        <col class="col6">
+        <col class="col7">
+        <col class="col8">
+        <col class="col9">
+        <col class="col10">
+        <col class="col11">
+        <col class="col12">
+        <col class="col13">
+        <col class="col14">
+        <col class="col15">
+        <col class="col16">
+        <col class="col17">
+        <col class="col18">
+        <col class="col19">
+        <col class="col20">
+        <col class="col21">
+        <col class="col22">
+        <tbody>
+          <tr class="row0">
+            <td class="column0 style2 s"></td>
+            <td class="column1 style3 s style3" colspan="22">Consumer Price Index for All Urban Consumers (CPI-U): Selected areas, all items index, March 2024</td>
+          </tr>
+          <tr class="row1">
+            <td class="column0 style2 s"></td>
+            <td class="column1 style3 s style3" colspan="22">[1982-84=100, unless otherwise noted]</td>
+          </tr>
+          <tr class="row2">
+            <td class="column0 style2 s"></td>
+            <td class="column1 style4 s"></td>
+            <td class="column2 style5 null"></td>
+            <td class="column3 style5 null"></td>
+            <td class="column4 style5 null"></td>
+            <td class="column5 style5 null"></td>
+            <td class="column6 style5 null"></td>
+            <td class="column7 style5 null"></td>
+            <td class="column8 style5 null"></td>
+            <td class="column9 style5 null"></td>
+            <td class="column10 style5 null"></td>
+            <td class="column11 style5 null"></td>
+            <td class="column12 style5 null"></td>
+            <td class="column13 style5 null"></td>
+            <td class="column14 style5 null"></td>
+            <td class="column15 style5 null"></td>
+            <td class="column16 style5 null"></td>
+            <td class="column17 style5 null"></td>
+            <td class="column18 style5 null"></td>
+            <td class="column19 style5 null"></td>
+            <td class="column20 style5 null"></td>
+            <td class="column21 style5 null"></td>
+            <td class="column22 style5 null"></td>
+          </tr>
+          <tr class="row3">
+            <td class="column0 style6 s">Indent Level</td>
+            <td class="column1 style6 s">Area</td>
+            <td class="column2 style6 s"><span style="color:#000000; font-family:'Calibri'; font-size:11pt">Pricing<br />
+Schedule</span><span style="color:#000000; font-family:'Calibri'; font-size:11pt"><sup>(1)</sup></span></td>
+            <td class="column3 style6 s style6" colspan="14">Unadjusted indexes</td>
+            <td class="column17 style6 s style6" colspan="6">Percent change to Mar. 2024 from:</td>
+          </tr>
+          <tr class="row4">
+            <td class="column0 style5 null"></td>
+            <td class="column1 style5 null"></td>
+            <td class="column2 style5 null"></td>
+            <td class="column3 style6 s">Feb.<br />
+2023</td>
+            <td class="column4 style6 s">Mar.<br />
+2023</td>
+            <td class="column5 style6 s">Apr.<br />
+2023</td>
+            <td class="column6 style6 s">May<br />
+2023</td>
+            <td class="column7 style6 s">Jun.<br />
+2023</td>
+            <td class="column8 style6 s">Jul.<br />
+2023</td>
+            <td class="column9 style6 s">Aug.<br />
+2023</td>
+            <td class="column10 style6 s">Sep.<br />
+2023</td>
+            <td class="column11 style6 s">Oct.<br />
+2023</td>
+            <td class="column12 style6 s">Nov.<br />
+2023</td>
+            <td class="column13 style6 s">Dec.<br />
+2023</td>
+            <td class="column14 style6 s">Jan.<br />
+2024</td>
+            <td class="column15 style6 s">Feb.<br />
+2024</td>
+            <td class="column16 style6 s">Mar.<br />
+2024</td>
+            <td class="column17 style6 s">Mar.<br />
+2023</td>
+            <td class="column18 style6 s">Jan.<br />
+2024</td>
+            <td class="column19 style6 s">Feb.<br />
+2024</td>
+            <td class="column20 style6 s">Feb.<br />
+2023</td>
+            <td class="column21 style6 s">Dec.<br />
+2023</td>
+            <td class="column22 style6 s">Jan.<br />
+2024</td>
+          </tr>
+          <tr class="row5">
+            <td class="column0 style2 s"></td>
+            <td class="column1 style4 s"></td>
+            <td class="column2 style5 null"></td>
+            <td class="column3 style5 null"></td>
+            <td class="column4 style5 null"></td>
+            <td class="column5 style5 null"></td>
+            <td class="column6 style5 null"></td>
+            <td class="column7 style5 null"></td>
+            <td class="column8 style5 null"></td>
+            <td class="column9 style5 null"></td>
+            <td class="column10 style5 null"></td>
+            <td class="column11 style5 null"></td>
+            <td class="column12 style5 null"></td>
+            <td class="column13 style5 null"></td>
+            <td class="column14 style5 null"></td>
+            <td class="column15 style5 null"></td>
+            <td class="column16 style5 null"></td>
+            <td class="column17 style5 null"></td>
+            <td class="column18 style5 null"></td>
+            <td class="column19 style5 null"></td>
+            <td class="column20 style5 null"></td>
+            <td class="column21 style5 null"></td>
+            <td class="column22 style5 null"></td>
+          </tr>
+          <tr class="row6">
+            <td class="column0 style7 n">0</td>
+            <td class="column1 style8 s">U.S. city average</td>
+            <td class="column2 style8 s">M</td>
+            <td class="column3 style9 n">300.840</td>
+            <td class="column4 style9 n">301.836</td>
+            <td class="column5 style9 n">303.363</td>
+            <td class="column6 style9 n">304.127</td>
+            <td class="column7 style9 n">305.109</td>
+            <td class="column8 style9 n">305.691</td>
+            <td class="column9 style9 n">307.026</td>
+            <td class="column10 style9 n">307.789</td>
+            <td class="column11 style9 n">307.671</td>
+            <td class="column12 style9 n">307.051</td>
+            <td class="column13 style9 n">306.746</td>
+            <td class="column14 style9 n">308.417</td>
+            <td class="column15 style9 n">310.326</td>
+            <td class="column16 style9 n">312.332</td>
+            <td class="column17 style12 n">03.5</td>
+            <td class="column18 style12 n">01.3</td>
+            <td class="column19 style12 n">00.6</td>
+            <td class="column20 style12 n">03.2</td>
+            <td class="column21 style12 n">01.2</td>
+            <td class="column22 style12 n">00.6</td>
+          </tr>
+          <tr class="row7">
+            <td class="column0">&nbsp;</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11">&nbsp;</td>
+            <td class="column12">&nbsp;</td>
+            <td class="column13">&nbsp;</td>
+            <td class="column14">&nbsp;</td>
+            <td class="column15">&nbsp;</td>
+            <td class="column16">&nbsp;</td>
+            <td class="column17">&nbsp;</td>
+            <td class="column18">&nbsp;</td>
+            <td class="column19">&nbsp;</td>
+            <td class="column20">&nbsp;</td>
+            <td class="column21">&nbsp;</td>
+            <td class="column22">&nbsp;</td>
+          </tr>
+          <tr class="row8">
+            <td class="column0 style7 n">0</td>
+            <td class="column1 style8 s"><span style="color:#000000; font-family:'Calibri'; font-size:11pt">Region and area size</span><span style="color:#000000; font-family:'Calibri'; font-size:11pt"><sup>(2)</sup></span></td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11">&nbsp;</td>
+            <td class="column12">&nbsp;</td>
+            <td class="column13">&nbsp;</td>
+            <td class="column14">&nbsp;</td>
+            <td class="column15">&nbsp;</td>
+            <td class="column16">&nbsp;</td>
+            <td class="column17">&nbsp;</td>
+            <td class="column18">&nbsp;</td>
+            <td class="column19">&nbsp;</td>
+            <td class="column20">&nbsp;</td>
+            <td class="column21">&nbsp;</td>
+            <td class="column22">&nbsp;</td>
+          </tr>
+          <tr class="row9">
+            <td class="column0">&nbsp;</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11">&nbsp;</td>
+            <td class="column12">&nbsp;</td>
+            <td class="column13">&nbsp;</td>
+            <td class="column14">&nbsp;</td>
+            <td class="column15">&nbsp;</td>
+            <td class="column16">&nbsp;</td>
+            <td class="column17">&nbsp;</td>
+            <td class="column18">&nbsp;</td>
+            <td class="column19">&nbsp;</td>
+            <td class="column20">&nbsp;</td>
+            <td class="column21">&nbsp;</td>
+            <td class="column22">&nbsp;</td>
+          </tr>
+          <tr class="row10">
+            <td class="column0 style7 n">1</td>
+            <td class="column1 style10 s">Northeast</td>
+            <td class="column2 style8 s">M</td>
+            <td class="column3 style9 n">311.986</td>
+            <td class="column4 style9 n">311.243</td>
+            <td class="column5 style9 n">311.848</td>
+            <td class="column6 style9 n">312.241</td>
+            <td class="column7 style9 n">313.329</td>
+            <td class="column8 style9 n">313.952</td>
+            <td class="column9 style9 n">315.441</td>
+            <td class="column10 style9 n">316.373</td>
+            <td class="column11 style9 n">316.300</td>
+            <td class="column12 style9 n">316.252</td>
+            <td class="column13 style9 n">316.143</td>
+            <td class="column14 style9 n">318.133</td>
+            <td class="column15 style9 n">319.577</td>
+            <td class="column16 style9 n">321.741</td>
+            <td class="column17 style12 n">03.4</td>
+            <td class="column18 style12 n">01.1</td>
+            <td class="column19 style12 n">00.7</td>
+            <td class="column20 style12 n">02.4</td>
+            <td class="column21 style12 n">01.1</td>
+            <td class="column22 style12 n">00.5</td>
+          </tr>
+          <tr class="row11">
+            <td class="column0 style7 n">2</td>
+            <td class="column1 style11 s">Northeast - Size Class A</td>
+            <td class="column2 style8 s">M</td>
+            <td class="column3 style9 n">314.914</td>
+            <td class="column4 style9 n">314.624</td>
+            <td class="column5 style9 n">314.883</td>
+            <td class="column6 style9 n">315.599</td>
+            <td class="column7 style9 n">316.672</td>
+            <td class="column8 style9 n">317.576</td>
+            <td class="column9 style9 n">319.371</td>
+            <td class="column10 style9 n">320.262</td>
+            <td class="column11 style9 n">320.051</td>
+            <td class="column12 style9 n">319.788</td>
+            <td class="column13 style9 n">320.124</td>
+            <td class="column14 style9 n">322.713</td>
+            <td class="column15 style9 n">323.953</td>
+            <td class="column16 style9 n">325.503</td>
+            <td class="column17 style12 n">03.5</td>
+            <td class="column18 style12 n">00.9</td>
+            <td class="column19 style12 n">00.5</td>
+            <td class="column20 style12 n">02.9</td>
+            <td class="column21 style12 n">01.2</td>
+            <td class="column22 style12 n">00.4</td>
+          </tr>
+          <tr class="row12">
+            <td class="column0 style7 n">2</td>
+            <td class="column1 style11 s"><span style="color:#000000; font-family:'Calibri'; font-size:11pt">Northeast - Size Class B/C</span><span style="color:#000000; font-family:'Calibri'; font-size:11pt"><sup>(3)</sup></span></td>
+            <td class="column2 style8 s">M</td>
+            <td class="column3 style9 n">184.308</td>
+            <td class="column4 style9 n">183.514</td>
+            <td class="column5 style9 n">184.143</td>
+            <td class="column6 style9 n">184.128</td>
+            <td class="column7 style9 n">184.790</td>
+            <td class="column8 style9 n">184.946</td>
+            <td class="column9 style9 n">185.600</td>
+            <td class="column10 style9 n">186.188</td>
+            <td class="column11 style9 n">186.251</td>
+            <td class="column12 style9 n">186.389</td>
+            <td class="column13 style9 n">185.979</td>
+            <td class="column14 style9 n">186.808</td>
+            <td class="column15 style9 n">187.790</td>
+            <td class="column16 style9 n">189.446</td>
+            <td class="column17 style12 n">03.2</td>
+            <td class="column18 style12 n">01.4</td>
+            <td class="column19 style12 n">00.9</td>
+            <td class="column20 style12 n">01.9</td>
+            <td class="column21 style12 n">01.0</td>
+            <td class="column22 style12 n">00.5</td>
+          </tr>
+          <tr class="row13">
+            <td class="column0 style7 n">2</td>
+            <td class="column1 style11 s"><span style="color:#000000; font-family:'Calibri'; font-size:11pt">New England</span><span style="color:#000000; font-family:'Calibri'; font-size:11pt"><sup>(4)</sup></span></td>
+            <td class="column2 style8 s">M</td>
+            <td class="column3 style9 n">119.083</td>
+            <td class="column4 style9 n">119.099</td>
+            <td class="column5 style9 n">119.459</td>
+            <td class="column6 style9 n">119.166</td>
+            <td class="column7 style9 n">119.462</td>
+            <td class="column8 style9 n">119.390</td>
+            <td class="column9 style9 n">119.875</td>
+            <td class="column10 style9 n">120.174</td>
+            <td class="column11 style9 n">120.315</td>
+            <td class="column12 style9 n">120.745</td>
+            <td class="column13 style9 n">120.579</td>
+            <td class="column14 style9 n">121.182</td>
+            <td class="column15 style9 n">121.624</td>
+            <td class="column16 style9 n">122.807</td>
+            <td class="column17 style12 n">03.1</td>
+            <td class="column18 style12 n">01.3</td>
+            <td class="column19 style12 n">01.0</td>
+            <td class="column20 style12 n">02.1</td>
+            <td class="column21 style12 n">00.9</td>
+            <td class="column22 style12 n">00.4</td>
+          </tr>
+          <tr class="row14">
+            <td class="column0 style7 n">2</td>
+            <td class="column1 style11 s"><span style="color:#000000; font-family:'Calibri'; font-size:11pt">Middle Atlantic</span><span style="color:#000000; font-family:'Calibri'; font-size:11pt"><sup>(4)</sup></span></td>
+            <td class="column2 style8 s">M</td>
+            <td class="column3 style9 n">119.859</td>
+            <td class="column4 style9 n">119.465</td>
+            <td class="column5 style9 n">119.651</td>
+            <td class="column6 style9 n">119.962</td>
+            <td class="column7 style9 n">120.423</td>
+            <td class="column8 style9 n">120.775</td>
+            <td class="column9 style9 n">121.377</td>
+            <td class="column10 style9 n">121.756</td>
+            <td class="column11 style9 n">121.666</td>
+            <td class="column12 style9 n">121.486</td>
+            <td class="column13 style9 n">121.489</td>
+            <td class="column14 style9 n">122.321</td>
+            <td class="column15 style9 n">122.922</td>
+            <td class="column16 style9 n">123.601</td>
+            <td class="column17 style12 n">03.5</td>
+            <td class="column18 style12 n">01.0</td>
+            <td class="column19 style12 n">00.6</td>
+            <td class="column20 style12 n">02.6</td>
+            <td class="column21 style12 n">01.2</td>
+            <td class="column22 style12 n">00.5</td>
+          </tr>
+          <tr class="row15">
+            <td class="column0">&nbsp;</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11">&nbsp;</td>
+            <td class="column12">&nbsp;</td>
+            <td class="column13">&nbsp;</td>
+            <td class="column14">&nbsp;</td>
+            <td class="column15">&nbsp;</td>
+            <td class="column16">&nbsp;</td>
+            <td class="column17">&nbsp;</td>
+            <td class="column18">&nbsp;</td>
+            <td class="column19">&nbsp;</td>
+            <td class="column20">&nbsp;</td>
+            <td class="column21">&nbsp;</td>
+            <td class="column22">&nbsp;</td>
+          </tr>
+          <tr class="row16">
+            <td class="column0 style7 n">1</td>
+            <td class="column1 style10 s">Midwest</td>
+            <td class="column2 style8 s">M</td>
+            <td class="column3 style9 n">278.672</td>
+            <td class="column4 style9 n">280.330</td>
+            <td class="column5 style9 n">281.927</td>
+            <td class="column6 style9 n">282.656</td>
+            <td class="column7 style9 n">283.741</td>
+            <td class="column8 style9 n">284.640</td>
+            <td class="column9 style9 n">285.122</td>
+            <td class="column10 style9 n">285.276</td>
+            <td class="column11 style9 n">284.981</td>
+            <td class="column12 style9 n">284.539</td>
+            <td class="column13 style9 n">283.908</td>
+            <td class="column14 style9 n">284.731</td>
+            <td class="column15 style9 n">286.346</td>
+            <td class="column16 style9 n">288.301</td>
+            <td class="column17 style12 n">02.8</td>
+            <td class="column18 style12 n">01.3</td>
+            <td class="column19 style12 n">00.7</td>
+            <td class="column20 style12 n">02.8</td>
+            <td class="column21 style12 n">00.9</td>
+            <td class="column22 style12 n">00.6</td>
+          </tr>
+          <tr class="row17">
+            <td class="column0 style7 n">2</td>
+            <td class="column1 style11 s">Midwest - Size Class A</td>
+            <td class="column2 style8 s">M</td>
+            <td class="column3 style9 n">277.090</td>
+            <td class="column4 style9 n">278.882</td>
+            <td class="column5 style9 n">280.827</td>
+            <td class="column6 style9 n">281.840</td>
+            <td class="column7 style9 n">282.753</td>
+            <td class="column8 style9 n">284.803</td>
+            <td class="column9 style9 n">283.896</td>
+            <td class="column10 style9 n">284.190</td>
+            <td class="column11 style9 n">284.180</td>
+            <td class="column12 style9 n">283.400</td>
+            <td class="column13 style9 n">283.197</td>
+            <td class="column14 style9 n">284.072</td>
+            <td class="column15 style9 n">285.912</td>
+            <td class="column16 style9 n">288.104</td>
+            <td class="column17 style12 n">03.3</td>
+            <td class="column18 style12 n">01.4</td>
+            <td class="column19 style12 n">00.8</td>
+            <td class="column20 style12 n">03.2</td>
+            <td class="column21 style12 n">01.0</td>
+            <td class="column22 style12 n">00.6</td>
+          </tr>
+          <tr class="row18">
+            <td class="column0 style7 n">2</td>
+            <td class="column1 style11 s"><span style="color:#000000; font-family:'Calibri'; font-size:11pt">Midwest - Size Class B/C</span><span style="color:#000000; font-family:'Calibri'; font-size:11pt"><sup>(3)</sup></span></td>
+            <td class="column2 style8 s">M</td>
+            <td class="column3 style9 n">179.052</td>
+            <td class="column4 style9 n">180.059</td>
+            <td class="column5 style9 n">180.940</td>
+            <td class="column6 style9 n">181.292</td>
+            <td class="column7 style9 n">182.056</td>
+            <td class="column8 style9 n">182.165</td>
+            <td class="column9 style9 n">183.036</td>
+            <td class="column10 style9 n">183.078</td>
+            <td class="column11 style9 n">182.774</td>
+            <td class="column12 style9 n">182.628</td>
+            <td class="column13 style9 n">182.050</td>
+            <td class="column14 style9 n">182.558</td>
+            <td class="column15 style9 n">183.505</td>
+            <td class="column16 style9 n">184.667</td>
+            <td class="column17 style12 n">02.6</td>
+            <td class="column18 style12 n">01.2</td>
+            <td class="column19 style12 n">00.6</td>
+            <td class="column20 style12 n">02.5</td>
+            <td class="column21 style12 n">00.8</td>
+            <td class="column22 style12 n">00.5</td>
+          </tr>
+          <tr class="row19">
+            <td class="column0 style7 n">2</td>
+            <td class="column1 style11 s"><span style="color:#000000; font-family:'Calibri'; font-size:11pt">East North Central</span><span style="color:#000000; font-family:'Calibri'; font-size:11pt"><sup>(4)</sup></span></td>
+            <td class="column2 style8 s">M</td>
+            <td class="column3 style9 n">120.738</td>
+            <td class="column4 style9 n">121.651</td>
+            <td class="column5 style9 n">122.432</td>
+            <td class="column6 style9 n">122.832</td>
+            <td class="column7 style9 n">123.181</td>
+            <td class="column8 style9 n">123.558</td>
+            <td class="column9 style9 n">123.424</td>
+            <td class="column10 style9 n">123.278</td>
+            <td class="column11 style9 n">123.157</td>
+            <td class="column12 style9 n">123.038</td>
+            <td class="column13 style9 n">122.867</td>
+            <td class="column14 style9 n">123.327</td>
+            <td class="column15 style9 n">123.920</td>
+            <td class="column16 style9 n">124.812</td>
+            <td class="column17 style12 n">02.6</td>
+            <td class="column18 style12 n">01.2</td>
+            <td class="column19 style12 n">00.7</td>
+            <td class="column20 style12 n">02.6</td>
+            <td class="column21 style12 n">00.9</td>
+            <td class="column22 style12 n">00.5</td>
+          </tr>
+          <tr class="row20">
+            <td class="column0 style7 n">2</td>
+            <td class="column1 style11 s"><span style="color:#000000; font-family:'Calibri'; font-size:11pt">West North Central</span><span style="color:#000000; font-family:'Calibri'; font-size:11pt"><sup>(4)</sup></span></td>
+            <td class="column2 style8 s">M</td>
+            <td class="column3 style9 n">121.216</td>
+            <td class="column4 style9 n">121.506</td>
+            <td class="column5 style9 n">122.002</td>
+            <td class="column6 style9 n">122.132</td>
+            <td class="column7 style9 n">122.874</td>
+            <td class="column8 style9 n">123.293</td>
+            <td class="column9 style9 n">124.262</td>
+            <td class="column10 style9 n">124.800</td>
+            <td class="column11 style9 n">124.658</td>
+            <td class="column12 style9 n">124.305</td>
+            <td class="column13 style9 n">123.803</td>
+            <td class="column14 style9 n">123.930</td>
+            <td class="column15 style9 n">124.871</td>
+            <td class="column16 style9 n">125.620</td>
+            <td class="column17 style12 n">03.4</td>
+            <td class="column18 style12 n">01.4</td>
+            <td class="column19 style12 n">00.6</td>
+            <td class="column20 style12 n">03.0</td>
+            <td class="column21 style12 n">00.9</td>
+            <td class="column22 style12 n">00.8</td>
+          </tr>
+          <tr class="row21">
+            <td class="column0">&nbsp;</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11">&nbsp;</td>
+            <td class="column12">&nbsp;</td>
+            <td class="column13">&nbsp;</td>
+            <td class="column14">&nbsp;</td>
+            <td class="column15">&nbsp;</td>
+            <td class="column16">&nbsp;</td>
+            <td class="column17">&nbsp;</td>
+            <td class="column18">&nbsp;</td>
+            <td class="column19">&nbsp;</td>
+            <td class="column20">&nbsp;</td>
+            <td class="column21">&nbsp;</td>
+            <td class="column22">&nbsp;</td>
+          </tr>
+          <tr class="row22">
+            <td class="column0 style7 n">1</td>
+            <td class="column1 style10 s">South</td>
+            <td class="column2 style8 s">M</td>
+            <td class="column3 style9 n">292.285</td>
+            <td class="column4 style9 n">293.358</td>
+            <td class="column5 style9 n">295.315</td>
+            <td class="column6 style9 n">295.889</td>
+            <td class="column7 style9 n">296.789</td>
+            <td class="column8 style9 n">297.279</td>
+            <td class="column9 style9 n">298.975</td>
+            <td class="column10 style9 n">299.657</td>
+            <td class="column11 style9 n">299.394</td>
+            <td class="column12 style9 n">298.930</td>
+            <td class="column13 style9 n">298.754</td>
+            <td class="column14 style9 n">300.421</td>
+            <td class="column15 style9 n">303.144</td>
+            <td class="column16 style9 n">304.490</td>
+            <td class="column17 style12 n">03.8</td>
+            <td class="column18 style12 n">01.4</td>
+            <td class="column19 style12 n">00.4</td>
+            <td class="column20 style12 n">03.7</td>
+            <td class="column21 style12 n">01.5</td>
+            <td class="column22 style12 n">00.9</td>
+          </tr>
+          <tr class="row23">
+            <td class="column0 style7 n">2</td>
+            <td class="column1 style11 s">South - Size Class A</td>
+            <td class="column2 style8 s">M</td>
+            <td class="column3 style9 n">297.391</td>
+            <td class="column4 style9 n">298.969</td>
+            <td class="column5 style9 n">300.758</td>
+            <td class="column6 style9 n">302.034</td>
+            <td class="column7 style9 n">302.839</td>
+            <td class="column8 style9 n">303.148</td>
+            <td class="column9 style9 n">304.961</td>
+            <td class="column10 style9 n">306.034</td>
+            <td class="column11 style9 n">305.774</td>
+            <td class="column12 style9 n">305.824</td>
+            <td class="column13 style9 n">305.927</td>
+            <td class="column14 style9 n">306.838</td>
+            <td class="column15 style9 n">309.562</td>
+            <td class="column16 style9 n">310.723</td>
+            <td class="column17 style12 n">03.9</td>
+            <td class="column18 style12 n">01.3</td>
+            <td class="column19 style12 n">00.4</td>
+            <td class="column20 style12 n">04.1</td>
+            <td class="column21 style12 n">01.2</td>
+            <td class="column22 style12 n">00.9</td>
+          </tr>
+          <tr class="row24">
+            <td class="column0 style7 n">2</td>
+            <td class="column1 style11 s"><span style="color:#000000; font-family:'Calibri'; font-size:11pt">South - Size Class B/C</span><span style="color:#000000; font-family:'Calibri'; font-size:11pt"><sup>(3)</sup></span></td>
+            <td class="column2 style8 s">M</td>
+            <td class="column3 style9 n">184.804</td>
+            <td class="column4 style9 n">185.325</td>
+            <td class="column5 style9 n">186.628</td>
+            <td class="column6 style9 n">186.768</td>
+            <td class="column7 style9 n">187.373</td>
+            <td class="column8 style9 n">187.743</td>
+            <td class="column9 style9 n">188.787</td>
+            <td class="column10 style9 n">189.097</td>
+            <td class="column11 style9 n">188.928</td>
+            <td class="column12 style9 n">188.467</td>
+            <td class="column13 style9 n">188.266</td>
+            <td class="column14 style9 n">189.599</td>
+            <td class="column15 style9 n">191.338</td>
+            <td class="column16 style9 n">192.264</td>
+            <td class="column17 style12 n">03.7</td>
+            <td class="column18 style12 n">01.4</td>
+            <td class="column19 style12 n">00.5</td>
+            <td class="column20 style12 n">03.5</td>
+            <td class="column21 style12 n">01.6</td>
+            <td class="column22 style12 n">00.9</td>
+          </tr>
+          <tr class="row25">
+            <td class="column0 style7 n">2</td>
+            <td class="column1 style11 s"><span style="color:#000000; font-family:'Calibri'; font-size:11pt">South Atlantic</span><span style="color:#000000; font-family:'Calibri'; font-size:11pt"><sup>(4)</sup></span></td>
+            <td class="column2 style8 s">M</td>
+            <td class="column3 style9 n">123.943</td>
+            <td class="column4 style9 n">124.513</td>
+            <td class="column5 style9 n">125.328</td>
+            <td class="column6 style9 n">125.605</td>
+            <td class="column7 style9 n">125.949</td>
+            <td class="column8 style9 n">126.136</td>
+            <td class="column9 style9 n">126.873</td>
+            <td class="column10 style9 n">127.251</td>
+            <td class="column11 style9 n">127.150</td>
+            <td class="column12 style9 n">126.979</td>
+            <td class="column13 style9 n">126.951</td>
+            <td class="column14 style9 n">127.550</td>
+            <td class="column15 style9 n">128.774</td>
+            <td class="column16 style9 n">129.338</td>
+            <td class="column17 style12 n">03.9</td>
+            <td class="column18 style12 n">01.4</td>
+            <td class="column19 style12 n">00.4</td>
+            <td class="column20 style12 n">03.9</td>
+            <td class="column21 style12 n">01.4</td>
+            <td class="column22 style12 n">01.0</td>
+          </tr>
+          <tr class="row26">
+            <td class="column0 style7 n">2</td>
+            <td class="column1 style11 s"><span style="color:#000000; font-family:'Calibri'; font-size:11pt">East South Central</span><span style="color:#000000; font-family:'Calibri'; font-size:11pt"><sup>(4)</sup></span></td>
+            <td class="column2 style8 s">M</td>
+            <td class="column3 style9 n">120.973</td>
+            <td class="column4 style9 n">121.282</td>
+            <td class="column5 style9 n">122.069</td>
+            <td class="column6 style9 n">122.567</td>
+            <td class="column7 style9 n">123.082</td>
+            <td class="column8 style9 n">123.385</td>
+            <td class="column9 style9 n">123.838</td>
+            <td class="column10 style9 n">123.999</td>
+            <td class="column11 style9 n">123.920</td>
+            <td class="column12 style9 n">123.556</td>
+            <td class="column13 style9 n">123.186</td>
+            <td class="column14 style9 n">124.107</td>
+            <td class="column15 style9 n">125.231</td>
+            <td class="column16 style9 n">126.131</td>
+            <td class="column17 style12 n">04.0</td>
+            <td class="column18 style12 n">01.6</td>
+            <td class="column19 style12 n">00.7</td>
+            <td class="column20 style12 n">03.5</td>
+            <td class="column21 style12 n">01.7</td>
+            <td class="column22 style12 n">00.9</td>
+          </tr>
+          <tr class="row27">
+            <td class="column0 style7 n">2</td>
+            <td class="column1 style11 s"><span style="color:#000000; font-family:'Calibri'; font-size:11pt">West South Central</span><span style="color:#000000; font-family:'Calibri'; font-size:11pt"><sup>(4)</sup></span></td>
+            <td class="column2 style8 s">M</td>
+            <td class="column3 style9 n">120.727</td>
+            <td class="column4 style9 n">121.013</td>
+            <td class="column5 style9 n">121.862</td>
+            <td class="column6 style9 n">121.902</td>
+            <td class="column7 style9 n">122.274</td>
+            <td class="column8 style9 n">122.467</td>
+            <td class="column9 style9 n">123.258</td>
+            <td class="column10 style9 n">123.429</td>
+            <td class="column11 style9 n">123.284</td>
+            <td class="column12 style9 n">123.129</td>
+            <td class="column13 style9 n">123.115</td>
+            <td class="column14 style9 n">123.913</td>
+            <td class="column15 style9 n">124.901</td>
+            <td class="column16 style9 n">125.314</td>
+            <td class="column17 style12 n">03.6</td>
+            <td class="column18 style12 n">01.1</td>
+            <td class="column19 style12 n">00.3</td>
+            <td class="column20 style12 n">03.5</td>
+            <td class="column21 style12 n">01.5</td>
+            <td class="column22 style12 n">00.8</td>
+          </tr>
+          <tr class="row28">
+            <td class="column0">&nbsp;</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11">&nbsp;</td>
+            <td class="column12">&nbsp;</td>
+            <td class="column13">&nbsp;</td>
+            <td class="column14">&nbsp;</td>
+            <td class="column15">&nbsp;</td>
+            <td class="column16">&nbsp;</td>
+            <td class="column17">&nbsp;</td>
+            <td class="column18">&nbsp;</td>
+            <td class="column19">&nbsp;</td>
+            <td class="column20">&nbsp;</td>
+            <td class="column21">&nbsp;</td>
+            <td class="column22">&nbsp;</td>
+          </tr>
+          <tr class="row29">
+            <td class="column0 style7 n">1</td>
+            <td class="column1 style10 s">West</td>
+            <td class="column2 style8 s">M</td>
+            <td class="column3 style9 n">319.130</td>
+            <td class="column4 style9 n">320.715</td>
+            <td class="column5 style9 n">322.187</td>
+            <td class="column6 style9 n">323.525</td>
+            <td class="column7 style9 n">324.448</td>
+            <td class="column8 style9 n">324.865</td>
+            <td class="column9 style9 n">326.234</td>
+            <td class="column10 style9 n">327.491</td>
+            <td class="column11 style9 n">327.708</td>
+            <td class="column12 style9 n">326.299</td>
+            <td class="column13 style9 n">325.932</td>
+            <td class="column14 style9 n">328.053</td>
+            <td class="column15 style9 n">329.339</td>
+            <td class="column16 style9 n">332.202</td>
+            <td class="column17 style12 n">03.6</td>
+            <td class="column18 style12 n">01.3</td>
+            <td class="column19 style12 n">00.9</td>
+            <td class="column20 style12 n">03.2</td>
+            <td class="column21 style12 n">01.0</td>
+            <td class="column22 style12 n">00.4</td>
+          </tr>
+          <tr class="row30">
+            <td class="column0 style7 n">2</td>
+            <td class="column1 style11 s">West - Size Class A</td>
+            <td class="column2 style8 s">M</td>
+            <td class="column3 style9 n">328.569</td>
+            <td class="column4 style9 n">329.536</td>
+            <td class="column5 style9 n">331.296</td>
+            <td class="column6 style9 n">332.600</td>
+            <td class="column7 style9 n">333.674</td>
+            <td class="column8 style9 n">333.779</td>
+            <td class="column9 style9 n">335.462</td>
+            <td class="column10 style9 n">336.532</td>
+            <td class="column11 style9 n">336.826</td>
+            <td class="column12 style9 n">335.522</td>
+            <td class="column13 style9 n">335.308</td>
+            <td class="column14 style9 n">337.095</td>
+            <td class="column15 style9 n">339.135</td>
+            <td class="column16 style9 n">341.299</td>
+            <td class="column17 style12 n">03.6</td>
+            <td class="column18 style12 n">01.2</td>
+            <td class="column19 style12 n">00.6</td>
+            <td class="column20 style12 n">03.2</td>
+            <td class="column21 style12 n">01.1</td>
+            <td class="column22 style12 n">00.6</td>
+          </tr>
+          <tr class="row31">
+            <td class="column0 style7 n">2</td>
+            <td class="column1 style11 s"><span style="color:#000000; font-family:'Calibri'; font-size:11pt">West - Size Class B/C</span><span style="color:#000000; font-family:'Calibri'; font-size:11pt"><sup>(3)</sup></span></td>
+            <td class="column2 style8 s">M</td>
+            <td class="column3 style9 n">185.968</td>
+            <td class="column4 style9 n">187.301</td>
+            <td class="column5 style9 n">188.008</td>
+            <td class="column6 style9 n">188.833</td>
+            <td class="column7 style9 n">189.295</td>
+            <td class="column8 style9 n">189.737</td>
+            <td class="column9 style9 n">190.368</td>
+            <td class="column10 style9 n">191.238</td>
+            <td class="column11 style9 n">191.321</td>
+            <td class="column12 style9 n">190.409</td>
+            <td class="column13 style9 n">190.095</td>
+            <td class="column14 style9 n">191.586</td>
+            <td class="column15 style9 n">191.874</td>
+            <td class="column16 style9 n">194.047</td>
+            <td class="column17 style12 n">03.6</td>
+            <td class="column18 style12 n">01.3</td>
+            <td class="column19 style12 n">01.1</td>
+            <td class="column20 style12 n">03.2</td>
+            <td class="column21 style12 n">00.9</td>
+            <td class="column22 style12 n">00.2</td>
+          </tr>
+          <tr class="row32">
+            <td class="column0 style7 n">2</td>
+            <td class="column1 style11 s"><span style="color:#000000; font-family:'Calibri'; font-size:11pt">Mountain</span><span style="color:#000000; font-family:'Calibri'; font-size:11pt"><sup>(4)</sup></span></td>
+            <td class="column2 style8 s">M</td>
+            <td class="column3 style9 n">126.934</td>
+            <td class="column4 style9 n">127.950</td>
+            <td class="column5 style9 n">128.390</td>
+            <td class="column6 style9 n">128.647</td>
+            <td class="column7 style9 n">128.574</td>
+            <td class="column8 style9 n">128.805</td>
+            <td class="column9 style9 n">129.171</td>
+            <td class="column10 style9 n">129.933</td>
+            <td class="column11 style9 n">129.978</td>
+            <td class="column12 style9 n">129.252</td>
+            <td class="column13 style9 n">129.156</td>
+            <td class="column14 style9 n">129.814</td>
+            <td class="column15 style9 n">130.059</td>
+            <td class="column16 style9 n">131.176</td>
+            <td class="column17 style12 n">02.5</td>
+            <td class="column18 style12 n">01.0</td>
+            <td class="column19 style12 n">00.9</td>
+            <td class="column20 style12 n">02.5</td>
+            <td class="column21 style12 n">00.7</td>
+            <td class="column22 style12 n">00.2</td>
+          </tr>
+          <tr class="row33">
+            <td class="column0 style7 n">2</td>
+            <td class="column1 style11 s"><span style="color:#000000; font-family:'Calibri'; font-size:11pt">Pacific</span><span style="color:#000000; font-family:'Calibri'; font-size:11pt"><sup>(4)</sup></span></td>
+            <td class="column2 style8 s">M</td>
+            <td class="column3 style9 n">122.935</td>
+            <td class="column4 style9 n">123.395</td>
+            <td class="column5 style9 n">124.019</td>
+            <td class="column6 style9 n">124.642</td>
+            <td class="column7 style9 n">125.169</td>
+            <td class="column8 style9 n">125.304</td>
+            <td class="column9 style9 n">125.901</td>
+            <td class="column10 style9 n">126.283</td>
+            <td class="column11 style9 n">126.382</td>
+            <td class="column12 style9 n">125.904</td>
+            <td class="column13 style9 n">125.743</td>
+            <td class="column14 style9 n">126.632</td>
+            <td class="column15 style9 n">127.230</td>
+            <td class="column16 style9 n">128.341</td>
+            <td class="column17 style12 n">04.0</td>
+            <td class="column18 style12 n">01.3</td>
+            <td class="column19 style12 n">00.9</td>
+            <td class="column20 style12 n">03.5</td>
+            <td class="column21 style12 n">01.2</td>
+            <td class="column22 style12 n">00.5</td>
+          </tr>
+          <tr class="row34">
+            <td class="column0">&nbsp;</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11">&nbsp;</td>
+            <td class="column12">&nbsp;</td>
+            <td class="column13">&nbsp;</td>
+            <td class="column14">&nbsp;</td>
+            <td class="column15">&nbsp;</td>
+            <td class="column16">&nbsp;</td>
+            <td class="column17">&nbsp;</td>
+            <td class="column18">&nbsp;</td>
+            <td class="column19">&nbsp;</td>
+            <td class="column20">&nbsp;</td>
+            <td class="column21">&nbsp;</td>
+            <td class="column22">&nbsp;</td>
+          </tr>
+          <tr class="row35">
+            <td class="column0 style7 n">0</td>
+            <td class="column1 style8 s">Size classes</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11">&nbsp;</td>
+            <td class="column12">&nbsp;</td>
+            <td class="column13">&nbsp;</td>
+            <td class="column14">&nbsp;</td>
+            <td class="column15">&nbsp;</td>
+            <td class="column16">&nbsp;</td>
+            <td class="column17">&nbsp;</td>
+            <td class="column18">&nbsp;</td>
+            <td class="column19">&nbsp;</td>
+            <td class="column20">&nbsp;</td>
+            <td class="column21">&nbsp;</td>
+            <td class="column22">&nbsp;</td>
+          </tr>
+          <tr class="row36">
+            <td class="column0">&nbsp;</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11">&nbsp;</td>
+            <td class="column12">&nbsp;</td>
+            <td class="column13">&nbsp;</td>
+            <td class="column14">&nbsp;</td>
+            <td class="column15">&nbsp;</td>
+            <td class="column16">&nbsp;</td>
+            <td class="column17">&nbsp;</td>
+            <td class="column18">&nbsp;</td>
+            <td class="column19">&nbsp;</td>
+            <td class="column20">&nbsp;</td>
+            <td class="column21">&nbsp;</td>
+            <td class="column22">&nbsp;</td>
+          </tr>
+          <tr class="row37">
+            <td class="column0 style7 n">1</td>
+            <td class="column1 style10 s"><span style="color:#000000; font-family:'Calibri'; font-size:11pt">Size Class A</span><span style="color:#000000; font-family:'Calibri'; font-size:11pt"><sup>(5)</sup></span></td>
+            <td class="column2 style8 s">M</td>
+            <td class="column3 style9 n">276.262</td>
+            <td class="column4 style9 n">277.162</td>
+            <td class="column5 style9 n">278.466</td>
+            <td class="column6 style9 n">279.460</td>
+            <td class="column7 style9 n">280.329</td>
+            <td class="column8 style9 n">280.972</td>
+            <td class="column9 style9 n">282.112</td>
+            <td class="column10 style9 n">282.909</td>
+            <td class="column11 style9 n">282.872</td>
+            <td class="column12 style9 n">282.358</td>
+            <td class="column13 style9 n">282.367</td>
+            <td class="column14 style9 n">283.744</td>
+            <td class="column15 style9 n">285.579</td>
+            <td class="column16 style9 n">287.138</td>
+            <td class="column17 style12 n">03.6</td>
+            <td class="column18 style12 n">01.2</td>
+            <td class="column19 style12 n">00.5</td>
+            <td class="column20 style12 n">03.4</td>
+            <td class="column21 style12 n">01.1</td>
+            <td class="column22 style12 n">00.6</td>
+          </tr>
+          <tr class="row38">
+            <td class="column0 style7 n">1</td>
+            <td class="column1 style10 s"><span style="color:#000000; font-family:'Calibri'; font-size:11pt">Size Class B/C</span><span style="color:#000000; font-family:'Calibri'; font-size:11pt"><sup>(3)</sup></span></td>
+            <td class="column2 style8 s">M</td>
+            <td class="column3 style9 n">183.757</td>
+            <td class="column4 style9 n">184.373</td>
+            <td class="column5 style9 n">185.357</td>
+            <td class="column6 style9 n">185.672</td>
+            <td class="column7 style9 n">186.288</td>
+            <td class="column8 style9 n">186.587</td>
+            <td class="column9 style9 n">187.447</td>
+            <td class="column10 style9 n">187.863</td>
+            <td class="column11 style9 n">187.754</td>
+            <td class="column12 style9 n">187.346</td>
+            <td class="column13 style9 n">187.010</td>
+            <td class="column14 style9 n">188.112</td>
+            <td class="column15 style9 n">189.235</td>
+            <td class="column16 style9 n">190.607</td>
+            <td class="column17 style12 n">03.4</td>
+            <td class="column18 style12 n">01.3</td>
+            <td class="column19 style12 n">00.7</td>
+            <td class="column20 style12 n">03.0</td>
+            <td class="column21 style12 n">01.2</td>
+            <td class="column22 style12 n">00.6</td>
+          </tr>
+          <tr class="row39">
+            <td class="column0">&nbsp;</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11">&nbsp;</td>
+            <td class="column12">&nbsp;</td>
+            <td class="column13">&nbsp;</td>
+            <td class="column14">&nbsp;</td>
+            <td class="column15">&nbsp;</td>
+            <td class="column16">&nbsp;</td>
+            <td class="column17">&nbsp;</td>
+            <td class="column18">&nbsp;</td>
+            <td class="column19">&nbsp;</td>
+            <td class="column20">&nbsp;</td>
+            <td class="column21">&nbsp;</td>
+            <td class="column22">&nbsp;</td>
+          </tr>
+          <tr class="row40">
+            <td class="column0 style7 n">0</td>
+            <td class="column1 style8 s">Selected local areas</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11">&nbsp;</td>
+            <td class="column12">&nbsp;</td>
+            <td class="column13">&nbsp;</td>
+            <td class="column14">&nbsp;</td>
+            <td class="column15">&nbsp;</td>
+            <td class="column16">&nbsp;</td>
+            <td class="column17">&nbsp;</td>
+            <td class="column18">&nbsp;</td>
+            <td class="column19">&nbsp;</td>
+            <td class="column20">&nbsp;</td>
+            <td class="column21">&nbsp;</td>
+            <td class="column22">&nbsp;</td>
+          </tr>
+          <tr class="row41">
+            <td class="column0">&nbsp;</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11">&nbsp;</td>
+            <td class="column12">&nbsp;</td>
+            <td class="column13">&nbsp;</td>
+            <td class="column14">&nbsp;</td>
+            <td class="column15">&nbsp;</td>
+            <td class="column16">&nbsp;</td>
+            <td class="column17">&nbsp;</td>
+            <td class="column18">&nbsp;</td>
+            <td class="column19">&nbsp;</td>
+            <td class="column20">&nbsp;</td>
+            <td class="column21">&nbsp;</td>
+            <td class="column22">&nbsp;</td>
+          </tr>
+          <tr class="row42">
+            <td class="column0 style7 n">1</td>
+            <td class="column1 style10 s">Chicago-Naperville-Elgin, IL-IN-WI</td>
+            <td class="column2 style8 s">M</td>
+            <td class="column3 style9 n">277.978</td>
+            <td class="column4 style9 n">280.279</td>
+            <td class="column5 style9 n">282.423</td>
+            <td class="column6 style9 n">283.415</td>
+            <td class="column7 style9 n">283.627</td>
+            <td class="column8 style9 n">283.528</td>
+            <td class="column9 style9 n">283.957</td>
+            <td class="column10 style9 n">284.375</td>
+            <td class="column11 style9 n">285.211</td>
+            <td class="column12 style9 n">283.859</td>
+            <td class="column13 style9 n">283.760</td>
+            <td class="column14 style9 n">286.022</td>
+            <td class="column15 style9 n">287.394</td>
+            <td class="column16 style9 n">289.069</td>
+            <td class="column17 style12 n">03.1</td>
+            <td class="column18 style12 n">01.1</td>
+            <td class="column19 style12 n">00.6</td>
+            <td class="column20 style12 n">03.4</td>
+            <td class="column21 style12 n">01.3</td>
+            <td class="column22 style12 n">00.5</td>
+          </tr>
+          <tr class="row43">
+            <td class="column0 style7 n">1</td>
+            <td class="column1 style10 s">Los Angeles-Long Beach-Anaheim, CA</td>
+            <td class="column2 style8 s">M</td>
+            <td class="column3 style9 n">317.571</td>
+            <td class="column4 style9 n">317.873</td>
+            <td class="column5 style9 n">320.089</td>
+            <td class="column6 style9 n">320.514</td>
+            <td class="column7 style9 n">322.055</td>
+            <td class="column8 style9 n">321.931</td>
+            <td class="column9 style9 n">324.050</td>
+            <td class="column10 style9 n">324.984</td>
+            <td class="column11 style9 n">324.545</td>
+            <td class="column12 style9 n">323.341</td>
+            <td class="column13 style9 n">323.456</td>
+            <td class="column14 style9 n">326.640</td>
+            <td class="column15 style9 n">328.232</td>
+            <td class="column16 style9 n">330.671</td>
+            <td class="column17 style12 n">04.0</td>
+            <td class="column18 style12 n">01.2</td>
+            <td class="column19 style12 n">00.7</td>
+            <td class="column20 style12 n">03.4</td>
+            <td class="column21 style12 n">01.5</td>
+            <td class="column22 style12 n">00.5</td>
+          </tr>
+          <tr class="row44">
+            <td class="column0 style7 n">1</td>
+            <td class="column1 style10 s">New York-Newark-Jersey City, NY-NJ-PA</td>
+            <td class="column2 style8 s">M</td>
+            <td class="column3 style9 n">319.295</td>
+            <td class="column4 style9 n">319.038</td>
+            <td class="column5 style9 n">319.211</td>
+            <td class="column6 style9 n">320.002</td>
+            <td class="column7 style9 n">321.290</td>
+            <td class="column8 style9 n">322.496</td>
+            <td class="column9 style9 n">324.380</td>
+            <td class="column10 style9 n">325.613</td>
+            <td class="column11 style9 n">325.288</td>
+            <td class="column12 style9 n">324.520</td>
+            <td class="column13 style9 n">324.691</td>
+            <td class="column14 style9 n">328.006</td>
+            <td class="column15 style9 n">328.606</td>
+            <td class="column16 style9 n">329.829</td>
+            <td class="column17 style12 n">03.4</td>
+            <td class="column18 style12 n">00.6</td>
+            <td class="column19 style12 n">00.4</td>
+            <td class="column20 style12 n">02.9</td>
+            <td class="column21 style12 n">01.2</td>
+            <td class="column22 style12 n">00.2</td>
+          </tr>
+          <tr class="row45">
+            <td class="column0">&nbsp;</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11">&nbsp;</td>
+            <td class="column12">&nbsp;</td>
+            <td class="column13">&nbsp;</td>
+            <td class="column14">&nbsp;</td>
+            <td class="column15">&nbsp;</td>
+            <td class="column16">&nbsp;</td>
+            <td class="column17">&nbsp;</td>
+            <td class="column18">&nbsp;</td>
+            <td class="column19">&nbsp;</td>
+            <td class="column20">&nbsp;</td>
+            <td class="column21">&nbsp;</td>
+            <td class="column22">&nbsp;</td>
+          </tr>
+          <tr class="row46">
+            <td class="column0 style7 n">1</td>
+            <td class="column1 style10 s">Atlanta-Sandy Springs-Roswell, GA</td>
+            <td class="column2 style8 s">2</td>
+            <td class="column3 style9 n">299.916</td>
+            <td class="column4 style8 null"></td>
+            <td class="column5 style9 n">301.447</td>
+            <td class="column6 style8 null"></td>
+            <td class="column7 style9 n">305.066</td>
+            <td class="column8 style8 null"></td>
+            <td class="column9 style9 n">308.336</td>
+            <td class="column10 style8 null"></td>
+            <td class="column11 style9 n">306.435</td>
+            <td class="column12 style8 null"></td>
+            <td class="column13 style9 n">305.978</td>
+            <td class="column14 style8 null"></td>
+            <td class="column15 style9 n">309.912</td>
+            <td class="column16 style8 null"></td>
+            <td class="column17 style8 null"></td>
+            <td class="column18 style8 null"></td>
+            <td class="column19 style8 null"></td>
+            <td class="column20 style12 n">03.3</td>
+            <td class="column21 style12 n">01.3</td>
+            <td class="column22 style8 null"></td>
+          </tr>
+          <tr class="row47">
+            <td class="column0 style7 n">1</td>
+            <td class="column1 style10 s"><span style="color:#000000; font-family:'Calibri'; font-size:11pt">Baltimore-Columbia-Towson, MD</span><span style="color:#000000; font-family:'Calibri'; font-size:11pt"><sup>(6)</sup></span></td>
+            <td class="column2 style8 s">2</td>
+            <td class="column3 style9 n">303.749</td>
+            <td class="column4 style8 null"></td>
+            <td class="column5 style9 n">306.015</td>
+            <td class="column6 style8 null"></td>
+            <td class="column7 style9 n">306.506</td>
+            <td class="column8 style8 null"></td>
+            <td class="column9 style9 n">307.978</td>
+            <td class="column10 style8 null"></td>
+            <td class="column11 style9 n">307.284</td>
+            <td class="column12 style8 null"></td>
+            <td class="column13 style9 n">306.379</td>
+            <td class="column14 style8 null"></td>
+            <td class="column15 style9 n">311.665</td>
+            <td class="column16 style8 null"></td>
+            <td class="column17 style8 null"></td>
+            <td class="column18 style8 null"></td>
+            <td class="column19 style8 null"></td>
+            <td class="column20 style12 n">02.6</td>
+            <td class="column21 style12 n">01.7</td>
+            <td class="column22 style8 null"></td>
+          </tr>
+          <tr class="row48">
+            <td class="column0 style7 n">1</td>
+            <td class="column1 style10 s">Detroit-Warren-Dearborn, MI</td>
+            <td class="column2 style8 s">2</td>
+            <td class="column3 style9 n">276.741</td>
+            <td class="column4 style8 null"></td>
+            <td class="column5 style9 n">282.486</td>
+            <td class="column6 style8 null"></td>
+            <td class="column7 style9 n">285.638</td>
+            <td class="column8 style8 null"></td>
+            <td class="column9 style9 n">287.480</td>
+            <td class="column10 style8 null"></td>
+            <td class="column11 style9 n">283.874</td>
+            <td class="column12 style8 null"></td>
+            <td class="column13 style9 n">283.757</td>
+            <td class="column14 style8 null"></td>
+            <td class="column15 style9 n">284.455</td>
+            <td class="column16 style8 null"></td>
+            <td class="column17 style8 null"></td>
+            <td class="column18 style8 null"></td>
+            <td class="column19 style8 null"></td>
+            <td class="column20 style12 n">02.8</td>
+            <td class="column21 style12 n">00.2</td>
+            <td class="column22 style8 null"></td>
+          </tr>
+          <tr class="row49">
+            <td class="column0 style7 n">1</td>
+            <td class="column1 style10 s">Houston-The Woodlands-Sugar Land, TX</td>
+            <td class="column2 style8 s">2</td>
+            <td class="column3 style9 n">263.537</td>
+            <td class="column4 style8 null"></td>
+            <td class="column5 style9 n">267.002</td>
+            <td class="column6 style8 null"></td>
+            <td class="column7 style9 n">268.379</td>
+            <td class="column8 style8 null"></td>
+            <td class="column9 style9 n">271.154</td>
+            <td class="column10 style8 null"></td>
+            <td class="column11 style9 n">270.329</td>
+            <td class="column12 style8 null"></td>
+            <td class="column13 style9 n">270.133</td>
+            <td class="column14 style8 null"></td>
+            <td class="column15 style9 n">272.772</td>
+            <td class="column16 style8 null"></td>
+            <td class="column17 style8 null"></td>
+            <td class="column18 style8 null"></td>
+            <td class="column19 style8 null"></td>
+            <td class="column20 style12 n">03.5</td>
+            <td class="column21 style12 n">01.0</td>
+            <td class="column22 style8 null"></td>
+          </tr>
+          <tr class="row50">
+            <td class="column0 style7 n">1</td>
+            <td class="column1 style10 s">Miami-Fort Lauderdale-West Palm Beach, FL</td>
+            <td class="column2 style8 s">2</td>
+            <td class="column3 style9 n">329.065</td>
+            <td class="column4 style8 null"></td>
+            <td class="column5 style9 n">333.592</td>
+            <td class="column6 style8 null"></td>
+            <td class="column7 style9 n">335.270</td>
+            <td class="column8 style8 null"></td>
+            <td class="column9 style9 n">339.347</td>
+            <td class="column10 style8 null"></td>
+            <td class="column11 style9 n">341.180</td>
+            <td class="column12 style8 null"></td>
+            <td class="column13 style9 n">340.459</td>
+            <td class="column14 style8 null"></td>
+            <td class="column15 style9 n">345.151</td>
+            <td class="column16 style8 null"></td>
+            <td class="column17 style8 null"></td>
+            <td class="column18 style8 null"></td>
+            <td class="column19 style8 null"></td>
+            <td class="column20 style12 n">04.9</td>
+            <td class="column21 style12 n">01.4</td>
+            <td class="column22 style8 null"></td>
+          </tr>
+          <tr class="row51">
+            <td class="column0 style7 n">1</td>
+            <td class="column1 style10 s">Philadelphia-Camden-Wilmington, PA-NJ-DE-MD</td>
+            <td class="column2 style8 s">2</td>
+            <td class="column3 style9 n">300.882</td>
+            <td class="column4 style8 null"></td>
+            <td class="column5 style9 n">301.225</td>
+            <td class="column6 style8 null"></td>
+            <td class="column7 style9 n">303.446</td>
+            <td class="column8 style8 null"></td>
+            <td class="column9 style9 n">305.742</td>
+            <td class="column10 style8 null"></td>
+            <td class="column11 style9 n">306.276</td>
+            <td class="column12 style8 null"></td>
+            <td class="column13 style9 n">306.386</td>
+            <td class="column14 style8 null"></td>
+            <td class="column15 style9 n">311.227</td>
+            <td class="column16 style8 null"></td>
+            <td class="column17 style8 null"></td>
+            <td class="column18 style8 null"></td>
+            <td class="column19 style8 null"></td>
+            <td class="column20 style12 n">03.4</td>
+            <td class="column21 style12 n">01.6</td>
+            <td class="column22 style8 null"></td>
+          </tr>
+          <tr class="row52">
+            <td class="column0 style7 n">1</td>
+            <td class="column1 style10 s"><span style="color:#000000; font-family:'Calibri'; font-size:11pt">Phoenix-Mesa-Scottsdale, AZ</span><span style="color:#000000; font-family:'Calibri'; font-size:11pt"><sup>(7)</sup></span></td>
+            <td class="column2 style8 s">2</td>
+            <td class="column3 style9 n">177.118</td>
+            <td class="column4 style8 null"></td>
+            <td class="column5 style9 n">179.824</td>
+            <td class="column6 style8 null"></td>
+            <td class="column7 style9 n">180.251</td>
+            <td class="column8 style8 null"></td>
+            <td class="column9 style9 n">180.387</td>
+            <td class="column10 style8 null"></td>
+            <td class="column11 style9 n">181.391</td>
+            <td class="column12 style8 null"></td>
+            <td class="column13 style9 n">179.733</td>
+            <td class="column14 style8 null"></td>
+            <td class="column15 style9 n">181.010</td>
+            <td class="column16 style8 null"></td>
+            <td class="column17 style8 null"></td>
+            <td class="column18 style8 null"></td>
+            <td class="column19 style8 null"></td>
+            <td class="column20 style12 n">02.2</td>
+            <td class="column21 style12 n">00.7</td>
+            <td class="column22 style8 null"></td>
+          </tr>
+          <tr class="row53">
+            <td class="column0 style7 n">1</td>
+            <td class="column1 style10 s">San Francisco-Oakland-Hayward, CA</td>
+            <td class="column2 style8 s">2</td>
+            <td class="column3 style9 n">337.173</td>
+            <td class="column4 style8 null"></td>
+            <td class="column5 style9 n">338.496</td>
+            <td class="column6 style8 null"></td>
+            <td class="column7 style9 n">340.056</td>
+            <td class="column8 style8 null"></td>
+            <td class="column9 style9 n">340.094</td>
+            <td class="column10 style8 null"></td>
+            <td class="column11 style9 n">341.219</td>
+            <td class="column12 style8 null"></td>
+            <td class="column13 style9 n">339.915</td>
+            <td class="column14 style8 null"></td>
+            <td class="column15 style9 n">345.151</td>
+            <td class="column16 style8 null"></td>
+            <td class="column17 style8 null"></td>
+            <td class="column18 style8 null"></td>
+            <td class="column19 style8 null"></td>
+            <td class="column20 style12 n">02.4</td>
+            <td class="column21 style12 n">01.5</td>
+            <td class="column22 style8 null"></td>
+          </tr>
+          <tr class="row54">
+            <td class="column0 style7 n">1</td>
+            <td class="column1 style10 s">Seattle-Tacoma-Bellevue, WA</td>
+            <td class="column2 style8 s">2</td>
+            <td class="column3 style9 n">334.987</td>
+            <td class="column4 style8 null"></td>
+            <td class="column5 style9 n">338.487</td>
+            <td class="column6 style8 null"></td>
+            <td class="column7 style9 n">341.734</td>
+            <td class="column8 style8 null"></td>
+            <td class="column9 style9 n">344.449</td>
+            <td class="column10 style8 null"></td>
+            <td class="column11 style9 n">345.992</td>
+            <td class="column12 style8 null"></td>
+            <td class="column13 style9 n">344.982</td>
+            <td class="column14 style8 null"></td>
+            <td class="column15 style9 n">349.288</td>
+            <td class="column16 style8 null"></td>
+            <td class="column17 style8 null"></td>
+            <td class="column18 style8 null"></td>
+            <td class="column19 style8 null"></td>
+            <td class="column20 style12 n">04.3</td>
+            <td class="column21 style12 n">01.2</td>
+            <td class="column22 style8 null"></td>
+          </tr>
+          <tr class="row55">
+            <td class="column0 style7 n">1</td>
+            <td class="column1 style10 s">St. Louis, MO-IL</td>
+            <td class="column2 style8 s">2</td>
+            <td class="column3 style9 n">271.581</td>
+            <td class="column4 style8 null"></td>
+            <td class="column5 style9 n">273.234</td>
+            <td class="column6 style8 null"></td>
+            <td class="column7 style9 n">276.792</td>
+            <td class="column8 style8 null"></td>
+            <td class="column9 style9 n">277.451</td>
+            <td class="column10 style8 null"></td>
+            <td class="column11 style9 n">277.471</td>
+            <td class="column12 style8 null"></td>
+            <td class="column13 style9 n">276.991</td>
+            <td class="column14 style8 null"></td>
+            <td class="column15 style9 n">281.311</td>
+            <td class="column16 style8 null"></td>
+            <td class="column17 style8 null"></td>
+            <td class="column18 style8 null"></td>
+            <td class="column19 style8 null"></td>
+            <td class="column20 style12 n">03.6</td>
+            <td class="column21 style12 n">01.6</td>
+            <td class="column22 style8 null"></td>
+          </tr>
+          <tr class="row56">
+            <td class="column0 style7 n">1</td>
+            <td class="column1 style10 s">Urban Alaska</td>
+            <td class="column2 style8 s">2</td>
+            <td class="column3 style9 n">256.856</td>
+            <td class="column4 style8 null"></td>
+            <td class="column5 style9 n">258.866</td>
+            <td class="column6 style8 null"></td>
+            <td class="column7 style9 n">259.930</td>
+            <td class="column8 style8 null"></td>
+            <td class="column9 style9 n">263.407</td>
+            <td class="column10 style8 null"></td>
+            <td class="column11 style9 n">263.984</td>
+            <td class="column12 style8 null"></td>
+            <td class="column13 style9 n">261.178</td>
+            <td class="column14 style8 null"></td>
+            <td class="column15 style9 n">261.340</td>
+            <td class="column16 style8 null"></td>
+            <td class="column17 style8 null"></td>
+            <td class="column18 style8 null"></td>
+            <td class="column19 style8 null"></td>
+            <td class="column20 style12 n">01.7</td>
+            <td class="column21 style12 n">00.1</td>
+            <td class="column22 style8 null"></td>
+          </tr>
+          <tr class="row57">
+            <td class="column0">&nbsp;</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11">&nbsp;</td>
+            <td class="column12">&nbsp;</td>
+            <td class="column13">&nbsp;</td>
+            <td class="column14">&nbsp;</td>
+            <td class="column15">&nbsp;</td>
+            <td class="column16">&nbsp;</td>
+            <td class="column17">&nbsp;</td>
+            <td class="column18">&nbsp;</td>
+            <td class="column19">&nbsp;</td>
+            <td class="column20">&nbsp;</td>
+            <td class="column21">&nbsp;</td>
+            <td class="column22">&nbsp;</td>
+          </tr>
+          <tr class="row58">
+            <td class="column0 style7 n">1</td>
+            <td class="column1 style10 s">Boston-Cambridge-Newton, MA-NH</td>
+            <td class="column2 style8 s">1</td>
+            <td class="column3 style8 null"></td>
+            <td class="column4 style9 n">324.859</td>
+            <td class="column5 style8 null"></td>
+            <td class="column6 style9 n">324.927</td>
+            <td class="column7 style8 null"></td>
+            <td class="column8 style9 n">324.746</td>
+            <td class="column9 style8 null"></td>
+            <td class="column10 style9 n">327.145</td>
+            <td class="column11 style8 null"></td>
+            <td class="column12 style9 n">328.362</td>
+            <td class="column13 style8 null"></td>
+            <td class="column14 style9 n">330.746</td>
+            <td class="column15 style8 null"></td>
+            <td class="column16 style9 n">335.599</td>
+            <td class="column17 style12 n">03.3</td>
+            <td class="column18 style12 n">01.5</td>
+            <td class="column19 style8 null"></td>
+            <td class="column20 style8 null"></td>
+            <td class="column21 style8 null"></td>
+            <td class="column22 style8 null"></td>
+          </tr>
+          <tr class="row59">
+            <td class="column0 style7 n">1</td>
+            <td class="column1 style10 s">Dallas-Fort Worth-Arlington, TX</td>
+            <td class="column2 style8 s">1</td>
+            <td class="column3 style8 null"></td>
+            <td class="column4 style9 n">284.862</td>
+            <td class="column5 style8 null"></td>
+            <td class="column6 style9 n">287.133</td>
+            <td class="column7 style8 null"></td>
+            <td class="column8 style9 n">288.006</td>
+            <td class="column9 style8 null"></td>
+            <td class="column10 style9 n">291.001</td>
+            <td class="column11 style8 null"></td>
+            <td class="column12 style9 n">293.591</td>
+            <td class="column13 style8 null"></td>
+            <td class="column14 style9 n">296.121</td>
+            <td class="column15 style8 null"></td>
+            <td class="column16 style9 n">298.719</td>
+            <td class="column17 style12 n">04.9</td>
+            <td class="column18 style12 n">00.9</td>
+            <td class="column19 style8 null"></td>
+            <td class="column20 style8 null"></td>
+            <td class="column21 style8 null"></td>
+            <td class="column22 style8 null"></td>
+          </tr>
+          <tr class="row60">
+            <td class="column0 style7 n">1</td>
+            <td class="column1 style10 s">Denver-Aurora-Lakewood, CO</td>
+            <td class="column2 style8 s">1</td>
+            <td class="column3 style8 null"></td>
+            <td class="column4 style9 n">316.566</td>
+            <td class="column5 style8 null"></td>
+            <td class="column6 style9 n">319.132</td>
+            <td class="column7 style8 null"></td>
+            <td class="column8 style9 n">323.298</td>
+            <td class="column9 style8 null"></td>
+            <td class="column10 style9 n">324.704</td>
+            <td class="column11 style8 null"></td>
+            <td class="column12 style9 n">323.598</td>
+            <td class="column13 style8 null"></td>
+            <td class="column14 style9 n">323.278</td>
+            <td class="column15 style8 null"></td>
+            <td class="column16 style9 n">325.485</td>
+            <td class="column17 style12 n">02.8</td>
+            <td class="column18 style12 n">00.7</td>
+            <td class="column19 style8 null"></td>
+            <td class="column20 style8 null"></td>
+            <td class="column21 style8 null"></td>
+            <td class="column22 style8 null"></td>
+          </tr>
+          <tr class="row61">
+            <td class="column0 style7 n">1</td>
+            <td class="column1 style10 s">Minneapolis-St.Paul-Bloomington, MN-WI</td>
+            <td class="column2 style8 s">1</td>
+            <td class="column3 style8 null"></td>
+            <td class="column4 style9 n">289.968</td>
+            <td class="column5 style8 null"></td>
+            <td class="column6 style9 n">291.001</td>
+            <td class="column7 style8 null"></td>
+            <td class="column8 style9 n">292.223</td>
+            <td class="column9 style8 null"></td>
+            <td class="column10 style9 n">296.730</td>
+            <td class="column11 style8 null"></td>
+            <td class="column12 style9 n">295.511</td>
+            <td class="column13 style8 null"></td>
+            <td class="column14 style9 n">296.135</td>
+            <td class="column15 style8 null"></td>
+            <td class="column16 style9 n">297.769</td>
+            <td class="column17 style12 n">02.7</td>
+            <td class="column18 style12 n">00.6</td>
+            <td class="column19 style8 null"></td>
+            <td class="column20 style8 null"></td>
+            <td class="column21 style8 null"></td>
+            <td class="column22 style8 null"></td>
+          </tr>
+          <tr class="row62">
+            <td class="column0 style7 n">1</td>
+            <td class="column1 style10 s"><span style="color:#000000; font-family:'Calibri'; font-size:11pt">Riverside-San Bernardino-Ontario, CA</span><span style="color:#000000; font-family:'Calibri'; font-size:11pt"><sup>(4)</sup></span></td>
+            <td class="column2 style8 s">1</td>
+            <td class="column3 style8 null"></td>
+            <td class="column4 style9 n">127.707</td>
+            <td class="column5 style8 null"></td>
+            <td class="column6 style9 n">128.768</td>
+            <td class="column7 style8 null"></td>
+            <td class="column8 style9 n">129.525</td>
+            <td class="column9 style8 null"></td>
+            <td class="column10 style9 n">131.372</td>
+            <td class="column11 style8 null"></td>
+            <td class="column12 style9 n">131.372</td>
+            <td class="column13 style8 null"></td>
+            <td class="column14 style9 n">131.358</td>
+            <td class="column15 style8 null"></td>
+            <td class="column16 style9 n">133.144</td>
+            <td class="column17 style12 n">04.3</td>
+            <td class="column18 style12 n">01.4</td>
+            <td class="column19 style8 null"></td>
+            <td class="column20 style8 null"></td>
+            <td class="column21 style8 null"></td>
+            <td class="column22 style8 null"></td>
+          </tr>
+          <tr class="row63">
+            <td class="column0 style7 n">1</td>
+            <td class="column1 style10 s">San Diego-Carlsbad, CA</td>
+            <td class="column2 style8 s">1</td>
+            <td class="column3 style8 null"></td>
+            <td class="column4 style9 n">358.026</td>
+            <td class="column5 style8 null"></td>
+            <td class="column6 style9 n">361.339</td>
+            <td class="column7 style8 null"></td>
+            <td class="column8 style9 n">362.412</td>
+            <td class="column9 style8 null"></td>
+            <td class="column10 style9 n">367.185</td>
+            <td class="column11 style8 null"></td>
+            <td class="column12 style9 n">366.343</td>
+            <td class="column13 style8 null"></td>
+            <td class="column14 style9 n">367.917</td>
+            <td class="column15 style8 null"></td>
+            <td class="column16 style9 n">370.858</td>
+            <td class="column17 style12 n">03.6</td>
+            <td class="column18 style12 n">00.8</td>
+            <td class="column19 style8 null"></td>
+            <td class="column20 style8 null"></td>
+            <td class="column21 style8 null"></td>
+            <td class="column22 style8 null"></td>
+          </tr>
+          <tr class="row64">
+            <td class="column0 style7 n">1</td>
+            <td class="column1 style10 s"><span style="color:#000000; font-family:'Calibri'; font-size:11pt">Tampa-St. Petersburg-Clearwater, FL</span><span style="color:#000000; font-family:'Calibri'; font-size:11pt"><sup>(8)</sup></span></td>
+            <td class="column2 style8 s">1</td>
+            <td class="column3 style8 null"></td>
+            <td class="column4 style9 n">288.319</td>
+            <td class="column5 style8 null"></td>
+            <td class="column6 style9 n">293.269</td>
+            <td class="column7 style8 null"></td>
+            <td class="column8 style9 n">292.974</td>
+            <td class="column9 style8 null"></td>
+            <td class="column10 style9 n">296.146</td>
+            <td class="column11 style8 null"></td>
+            <td class="column12 style9 n">295.029</td>
+            <td class="column13 style8 null"></td>
+            <td class="column14 style9 n">296.477</td>
+            <td class="column15 style8 null"></td>
+            <td class="column16 style9 n">299.030</td>
+            <td class="column17 style12 n">03.7</td>
+            <td class="column18 style12 n">00.9</td>
+            <td class="column19 style8 null"></td>
+            <td class="column20 style8 null"></td>
+            <td class="column21 style8 null"></td>
+            <td class="column22 style8 null"></td>
+          </tr>
+          <tr class="row65">
+            <td class="column0 style7 n">1</td>
+            <td class="column1 style10 s">Urban Hawaii</td>
+            <td class="column2 style8 s">1</td>
+            <td class="column3 style8 null"></td>
+            <td class="column4 style9 n">322.608</td>
+            <td class="column5 style8 null"></td>
+            <td class="column6 style9 n">323.708</td>
+            <td class="column7 style8 null"></td>
+            <td class="column8 style9 n">325.836</td>
+            <td class="column9 style8 null"></td>
+            <td class="column10 style9 n">328.905</td>
+            <td class="column11 style8 null"></td>
+            <td class="column12 style9 n">331.428</td>
+            <td class="column13 style8 null"></td>
+            <td class="column14 style9 n">333.172</td>
+            <td class="column15 style8 null"></td>
+            <td class="column16 style9 n">338.060</td>
+            <td class="column17 style12 n">04.8</td>
+            <td class="column18 style12 n">01.5</td>
+            <td class="column19 style8 null"></td>
+            <td class="column20 style8 null"></td>
+            <td class="column21 style8 null"></td>
+            <td class="column22 style8 null"></td>
+          </tr>
+          <tr class="row66">
+            <td class="column0 style7 n">1</td>
+            <td class="column1 style10 s"><span style="color:#000000; font-family:'Calibri'; font-size:11pt">Washington-Arlington-Alexandria, DC-VA-MD-WV</span><span style="color:#000000; font-family:'Calibri'; font-size:11pt"><sup>(6)</sup></span></td>
+            <td class="column2 style8 s">1</td>
+            <td class="column3 style8 null"></td>
+            <td class="column4 style9 n">302.930</td>
+            <td class="column5 style8 null"></td>
+            <td class="column6 style9 n">305.614</td>
+            <td class="column7 style8 null"></td>
+            <td class="column8 style9 n">305.273</td>
+            <td class="column9 style8 null"></td>
+            <td class="column10 style9 n">309.254</td>
+            <td class="column11 style8 null"></td>
+            <td class="column12 style9 n">308.419</td>
+            <td class="column13 style8 null"></td>
+            <td class="column14 style9 n">309.961</td>
+            <td class="column15 style8 null"></td>
+            <td class="column16 style9 n">313.108</td>
+            <td class="column17 style12 n">03.4</td>
+            <td class="column18 style12 n">01.0</td>
+            <td class="column19 style8 null"></td>
+            <td class="column20 style8 null"></td>
+            <td class="column21 style8 null"></td>
+            <td class="column22 style8 null"></td>
+          </tr>
+          <tr class="row67">
+            <td class="column0 style2 s"></td>
+            <td class="column1 style4 s"></td>
+            <td class="column2 style5 null"></td>
+            <td class="column3 style5 null"></td>
+            <td class="column4 style5 null"></td>
+            <td class="column5 style5 null"></td>
+            <td class="column6 style5 null"></td>
+            <td class="column7 style5 null"></td>
+            <td class="column8 style5 null"></td>
+            <td class="column9 style5 null"></td>
+            <td class="column10 style5 null"></td>
+            <td class="column11 style5 null"></td>
+            <td class="column12 style5 null"></td>
+            <td class="column13 style5 null"></td>
+            <td class="column14 style5 null"></td>
+            <td class="column15 style5 null"></td>
+            <td class="column16 style5 null"></td>
+            <td class="column17 style5 null"></td>
+            <td class="column18 style5 null"></td>
+            <td class="column19 style5 null"></td>
+            <td class="column20 style5 null"></td>
+            <td class="column21 style5 null"></td>
+            <td class="column22 style5 null"></td>
+          </tr>
+          <tr class="row68">
+            <td class="column0 style2 s"></td>
+            <td class="column1 style4 s">Footnotes:</td>
+            <td class="column2 style5 null"></td>
+            <td class="column3 style5 null"></td>
+            <td class="column4 style5 null"></td>
+            <td class="column5 style5 null"></td>
+            <td class="column6 style5 null"></td>
+            <td class="column7 style5 null"></td>
+            <td class="column8 style5 null"></td>
+            <td class="column9 style5 null"></td>
+            <td class="column10 style5 null"></td>
+            <td class="column11 style5 null"></td>
+            <td class="column12 style5 null"></td>
+            <td class="column13 style5 null"></td>
+            <td class="column14 style5 null"></td>
+            <td class="column15 style5 null"></td>
+            <td class="column16 style5 null"></td>
+            <td class="column17 style5 null"></td>
+            <td class="column18 style5 null"></td>
+            <td class="column19 style5 null"></td>
+            <td class="column20 style5 null"></td>
+            <td class="column21 style5 null"></td>
+            <td class="column22 style5 null"></td>
+          </tr>
+          <tr class="row69">
+            <td class="column0 style2 s"></td>
+            <td class="column1 style4 s">(1) Foods, fuels, and several other items are priced every month in all areas.  Most other goods and services are priced as indicated: M - Every month. 1 - January, March, May, July, September, and November. 2 - February, April, June, August, October, and December.</td>
+            <td class="column2 style5 null"></td>
+            <td class="column3 style5 null"></td>
+            <td class="column4 style5 null"></td>
+            <td class="column5 style5 null"></td>
+            <td class="column6 style5 null"></td>
+            <td class="column7 style5 null"></td>
+            <td class="column8 style5 null"></td>
+            <td class="column9 style5 null"></td>
+            <td class="column10 style5 null"></td>
+            <td class="column11 style5 null"></td>
+            <td class="column12 style5 null"></td>
+            <td class="column13 style5 null"></td>
+            <td class="column14 style5 null"></td>
+            <td class="column15 style5 null"></td>
+            <td class="column16 style5 null"></td>
+            <td class="column17 style5 null"></td>
+            <td class="column18 style5 null"></td>
+            <td class="column19 style5 null"></td>
+            <td class="column20 style5 null"></td>
+            <td class="column21 style5 null"></td>
+            <td class="column22 style5 null"></td>
+          </tr>
+          <tr class="row70">
+            <td class="column0 style2 s"></td>
+            <td class="column1 style4 s">(2) Regions defined as the four Census regions.</td>
+            <td class="column2 style5 null"></td>
+            <td class="column3 style5 null"></td>
+            <td class="column4 style5 null"></td>
+            <td class="column5 style5 null"></td>
+            <td class="column6 style5 null"></td>
+            <td class="column7 style5 null"></td>
+            <td class="column8 style5 null"></td>
+            <td class="column9 style5 null"></td>
+            <td class="column10 style5 null"></td>
+            <td class="column11 style5 null"></td>
+            <td class="column12 style5 null"></td>
+            <td class="column13 style5 null"></td>
+            <td class="column14 style5 null"></td>
+            <td class="column15 style5 null"></td>
+            <td class="column16 style5 null"></td>
+            <td class="column17 style5 null"></td>
+            <td class="column18 style5 null"></td>
+            <td class="column19 style5 null"></td>
+            <td class="column20 style5 null"></td>
+            <td class="column21 style5 null"></td>
+            <td class="column22 style5 null"></td>
+          </tr>
+          <tr class="row71">
+            <td class="column0 style2 s"></td>
+            <td class="column1 style4 s">(3) Indexes on a December 1996=100 base.</td>
+            <td class="column2 style5 null"></td>
+            <td class="column3 style5 null"></td>
+            <td class="column4 style5 null"></td>
+            <td class="column5 style5 null"></td>
+            <td class="column6 style5 null"></td>
+            <td class="column7 style5 null"></td>
+            <td class="column8 style5 null"></td>
+            <td class="column9 style5 null"></td>
+            <td class="column10 style5 null"></td>
+            <td class="column11 style5 null"></td>
+            <td class="column12 style5 null"></td>
+            <td class="column13 style5 null"></td>
+            <td class="column14 style5 null"></td>
+            <td class="column15 style5 null"></td>
+            <td class="column16 style5 null"></td>
+            <td class="column17 style5 null"></td>
+            <td class="column18 style5 null"></td>
+            <td class="column19 style5 null"></td>
+            <td class="column20 style5 null"></td>
+            <td class="column21 style5 null"></td>
+            <td class="column22 style5 null"></td>
+          </tr>
+          <tr class="row72">
+            <td class="column0 style2 s"></td>
+            <td class="column1 style4 s">(4) Indexes on a December 2017=100 base.</td>
+            <td class="column2 style5 null"></td>
+            <td class="column3 style5 null"></td>
+            <td class="column4 style5 null"></td>
+            <td class="column5 style5 null"></td>
+            <td class="column6 style5 null"></td>
+            <td class="column7 style5 null"></td>
+            <td class="column8 style5 null"></td>
+            <td class="column9 style5 null"></td>
+            <td class="column10 style5 null"></td>
+            <td class="column11 style5 null"></td>
+            <td class="column12 style5 null"></td>
+            <td class="column13 style5 null"></td>
+            <td class="column14 style5 null"></td>
+            <td class="column15 style5 null"></td>
+            <td class="column16 style5 null"></td>
+            <td class="column17 style5 null"></td>
+            <td class="column18 style5 null"></td>
+            <td class="column19 style5 null"></td>
+            <td class="column20 style5 null"></td>
+            <td class="column21 style5 null"></td>
+            <td class="column22 style5 null"></td>
+          </tr>
+          <tr class="row73">
+            <td class="column0 style2 s"></td>
+            <td class="column1 style4 s">(5) Indexes on a December 1986=100 base.</td>
+            <td class="column2 style5 null"></td>
+            <td class="column3 style5 null"></td>
+            <td class="column4 style5 null"></td>
+            <td class="column5 style5 null"></td>
+            <td class="column6 style5 null"></td>
+            <td class="column7 style5 null"></td>
+            <td class="column8 style5 null"></td>
+            <td class="column9 style5 null"></td>
+            <td class="column10 style5 null"></td>
+            <td class="column11 style5 null"></td>
+            <td class="column12 style5 null"></td>
+            <td class="column13 style5 null"></td>
+            <td class="column14 style5 null"></td>
+            <td class="column15 style5 null"></td>
+            <td class="column16 style5 null"></td>
+            <td class="column17 style5 null"></td>
+            <td class="column18 style5 null"></td>
+            <td class="column19 style5 null"></td>
+            <td class="column20 style5 null"></td>
+            <td class="column21 style5 null"></td>
+            <td class="column22 style5 null"></td>
+          </tr>
+          <tr class="row74">
+            <td class="column0 style2 s"></td>
+            <td class="column1 style4 s">(6) 1998 - 2017 indexes based on substantially smaller sample.</td>
+            <td class="column2 style5 null"></td>
+            <td class="column3 style5 null"></td>
+            <td class="column4 style5 null"></td>
+            <td class="column5 style5 null"></td>
+            <td class="column6 style5 null"></td>
+            <td class="column7 style5 null"></td>
+            <td class="column8 style5 null"></td>
+            <td class="column9 style5 null"></td>
+            <td class="column10 style5 null"></td>
+            <td class="column11 style5 null"></td>
+            <td class="column12 style5 null"></td>
+            <td class="column13 style5 null"></td>
+            <td class="column14 style5 null"></td>
+            <td class="column15 style5 null"></td>
+            <td class="column16 style5 null"></td>
+            <td class="column17 style5 null"></td>
+            <td class="column18 style5 null"></td>
+            <td class="column19 style5 null"></td>
+            <td class="column20 style5 null"></td>
+            <td class="column21 style5 null"></td>
+            <td class="column22 style5 null"></td>
+          </tr>
+          <tr class="row75">
+            <td class="column0 style2 s"></td>
+            <td class="column1 style4 s">(7) Indexes on a December 2001=100 base.</td>
+            <td class="column2 style5 null"></td>
+            <td class="column3 style5 null"></td>
+            <td class="column4 style5 null"></td>
+            <td class="column5 style5 null"></td>
+            <td class="column6 style5 null"></td>
+            <td class="column7 style5 null"></td>
+            <td class="column8 style5 null"></td>
+            <td class="column9 style5 null"></td>
+            <td class="column10 style5 null"></td>
+            <td class="column11 style5 null"></td>
+            <td class="column12 style5 null"></td>
+            <td class="column13 style5 null"></td>
+            <td class="column14 style5 null"></td>
+            <td class="column15 style5 null"></td>
+            <td class="column16 style5 null"></td>
+            <td class="column17 style5 null"></td>
+            <td class="column18 style5 null"></td>
+            <td class="column19 style5 null"></td>
+            <td class="column20 style5 null"></td>
+            <td class="column21 style5 null"></td>
+            <td class="column22 style5 null"></td>
+          </tr>
+          <tr class="row76">
+            <td class="column0 style2 s"></td>
+            <td class="column1 style4 s">(8) Indexes on a 1987=100 base.</td>
+            <td class="column2 style5 null"></td>
+            <td class="column3 style5 null"></td>
+            <td class="column4 style5 null"></td>
+            <td class="column5 style5 null"></td>
+            <td class="column6 style5 null"></td>
+            <td class="column7 style5 null"></td>
+            <td class="column8 style5 null"></td>
+            <td class="column9 style5 null"></td>
+            <td class="column10 style5 null"></td>
+            <td class="column11 style5 null"></td>
+            <td class="column12 style5 null"></td>
+            <td class="column13 style5 null"></td>
+            <td class="column14 style5 null"></td>
+            <td class="column15 style5 null"></td>
+            <td class="column16 style5 null"></td>
+            <td class="column17 style5 null"></td>
+            <td class="column18 style5 null"></td>
+            <td class="column19 style5 null"></td>
+            <td class="column20 style5 null"></td>
+            <td class="column21 style5 null"></td>
+            <td class="column22 style5 null"></td>
+          </tr>
+          <tr class="row77">
+            <td class="column0 style2 s"></td>
+            <td class="column1 style4 s">NOTE: Local area indexes are byproducts of the national CPI program.  Each local index has a smaller sample size than the national index and is, therefore, subject to substantially more sampling and other measurement error.  As a result, local area indexes show greater volatility than the national index, although their long-term trends are similar.  Therefore, the Bureau of Labor Statistics strongly urges users to consider adopting the national average CPI for use in their escalator clauses.</td>
+            <td class="column2 style5 null"></td>
+            <td class="column3 style5 null"></td>
+            <td class="column4 style5 null"></td>
+            <td class="column5 style5 null"></td>
+            <td class="column6 style5 null"></td>
+            <td class="column7 style5 null"></td>
+            <td class="column8 style5 null"></td>
+            <td class="column9 style5 null"></td>
+            <td class="column10 style5 null"></td>
+            <td class="column11 style5 null"></td>
+            <td class="column12 style5 null"></td>
+            <td class="column13 style5 null"></td>
+            <td class="column14 style5 null"></td>
+            <td class="column15 style5 null"></td>
+            <td class="column16 style5 null"></td>
+            <td class="column17 style5 null"></td>
+            <td class="column18 style5 null"></td>
+            <td class="column19 style5 null"></td>
+            <td class="column20 style5 null"></td>
+            <td class="column21 style5 null"></td>
+            <td class="column22 style5 null"></td>
+          </tr>
+        </tbody>
+    </table>
+  </body>
+</html>

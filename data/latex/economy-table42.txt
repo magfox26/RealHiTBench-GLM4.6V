@@ -1,0 +1,38 @@
+% Please add the following required packages to your document preamble:
+% \usepackage{multirow}
+% \usepackage[table,xcdraw]{xcolor}
+% Beamer presentation requires \usepackage{colortbl} instead of \usepackage[table,xcdraw]{xcolor}
+% \usepackage[normalem]{ulem}
+% \useunder{\uline}{\ul}{}
+\begin{table}[]
+\begin{tabular}{clllll}
+\multicolumn{1}{l}{{\ul \textbf{Sales Report}}} &                                      &                                     &                                     &                                       &                                                \\
+\textbf{Item}                                   & \multicolumn{1}{c}{\textbf{Country}} & \multicolumn{1}{c}{\textbf{Budget}} & \multicolumn{1}{c}{\textbf{Actual}} & \multicolumn{1}{c}{\textbf{Variance}} & \multicolumn{1}{c}{\textbf{Absolute Variance}} \\
+{\color[HTML]{00CCFF} }                         & USA                                  & 15                                  & 13                                  & -2                                    & 2                                              \\
+{\color[HTML]{00CCFF} }                         & UK                                   & 29                                  & 41                                  & 12                                    & 12                                             \\
+{\color[HTML]{00CCFF} }                         & Belgium                              & 14                                  & 10                                  & -4                                    & 4                                              \\
+{\color[HTML]{00CCFF} }                         & {\color[HTML]{33CCCC} Denmark}       & 11                                  & 36                                  & 25                                    & {\color[HTML]{00CCFF} 25}                      \\
+{\color[HTML]{00CCFF} }                         & Germany                              & 42                                  & 55                                  & 13                                    & 13                                             \\
+{\color[HTML]{00CCFF} }                         & Austria                              & 3                                   & 22                                  & 19                                    & 19                                             \\
+{\color[HTML]{00CCFF} }                         & {\color[HTML]{FF6600} France}        & 66                                  & 1                                   & -65                                   & {\color[HTML]{00CCFF} 65}                      \\
+{\color[HTML]{00CCFF} }                         & Italy                                & 5                                   & 30                                  & 25                                    & {\color[HTML]{00CCFF} 25}                      \\
+\multirow{-9}{*}{{\color[HTML]{00CCFF} Pen}}    & New Zealand                          & 37                                  & 32                                  & -5                                    & 5                                              \\
+{\color[HTML]{008080} }                         & France                               & 25                                  & 22                                  & -3                                    & 3                                              \\
+{\color[HTML]{008080} }                         & Denmark                              & 18                                  & 3                                   & -15                                   & 15                                             \\
+{\color[HTML]{008080} }                         & New Zealand                          & 43                                  & 33                                  & -10                                   & 10                                             \\
+{\color[HTML]{008080} }                         & Germany                              & 28                                  & 27                                  & -1                                    & 1                                              \\
+{\color[HTML]{008080} }                         & {\color[HTML]{00CCFF} Australia}     & 4                                   & 23                                  & 19                                    & {\color[HTML]{008080} 19}                      \\
+{\color[HTML]{008080} }                         & UK                                   & 19                                  & 24                                  & 5                                     & 5                                              \\
+{\color[HTML]{008080} }                         & USA                                  & 9                                   & 1                                   & -8                                    & 8                                              \\
+{\color[HTML]{008080} }                         & Spain                                & 16                                  & 34                                  & 18                                    & 18                                             \\
+\multirow{-9}{*}{{\color[HTML]{008080} Pencil}} & {\color[HTML]{008080} Ukraine}       & 45                                  & 21                                  & -24                                   & {\color[HTML]{008080} 24}                      \\
+{\color[HTML]{666699} }                         & {\color[HTML]{969696} Spain}         & 8                                   & 46                                  & 38                                    & {\color[HTML]{666699} 38}                      \\
+{\color[HTML]{666699} }                         & Denmark                              & 38                                  & 42                                  & 4                                     & 4                                              \\
+{\color[HTML]{666699} }                         & New Zealand                          & 39                                  & 35                                  & -4                                    & 4                                              \\
+{\color[HTML]{666699} }                         & Belgium                              & 26                                  & 20                                  & -6                                    & 6                                              \\
+{\color[HTML]{666699} }                         & UK                                   & 40                                  & 31                                  & -9                                    & 9                                              \\
+{\color[HTML]{666699} }                         & France                               & 17                                  & 7                                   & -10                                   & 10                                             \\
+{\color[HTML]{666699} }                         & Germany                              & 2                                   & 6                                   & 4                                     & 4                                              \\
+\multirow{-8}{*}{{\color[HTML]{666699} Ruler}}  & {\color[HTML]{808000} USA}           & 44                                  & 12                                  & -32                                   & {\color[HTML]{666699} 32}                     
+\end{tabular}
+\end{table}

@@ -1,0 +1,65 @@
+[
+  {
+    "Source": "Other Department",
+    "Device": "Workstation",
+    "Activation Count": "96",
+    "Restart Count": "68",
+    "Crash Count": "0",
+    "% Crash": "0",
+    "% Restart": "0.708333333333333"
+  },
+  {
+    "Source": null,
+    "Device": "Register",
+    "Activation Count": "664",
+    "Restart Count": "997",
+    "Crash Count": "2",
+    "% Crash": "0.00301204819277108",
+    "% Restart": "1.50150602409639"
+  },
+  {
+    "Source": null,
+    "Device": "Total",
+    "Activation Count": "760",
+    "Restart Count": "1065",
+    "Crash Count": "2",
+    "% Crash": "0.00263157894736842",
+    "% Restart": "1.40131578947368"
+  },
+  {
+    "Source": "Mobile Department",
+    "Device": "Workstation",
+    "Activation Count": "9635",
+    "Restart Count": "494",
+    "Crash Count": "14",
+    "% Crash": "0.00145303580695381",
+    "% Restart": "0.0512714063310846"
+  },
+  {
+    "Source": null,
+    "Device": "Register",
+    "Activation Count": "3162",
+    "Restart Count": "712",
+    "Crash Count": "9",
+    "% Crash": "0.00284629981024668",
+    "% Restart": "0.22517394054396"
+  },
+  {
+    "Source": null,
+    "Device": "Total",
+    "Activation Count": "12797",
+    "Restart Count": "1206",
+    "Crash Count": "23",
+    "% Crash": "0.00179729624130656",
+    "% Restart": "0.0942408376963351"
+  },
+  {
+    "Source": "Grand Total",
+    "Device": null,
+    "Activation Count": "13557",
+    "Restart Count": "2271",
+    "Crash Count": "25",
+    "% Crash": "0.00184406579626761",
+    "% Restart": "0.16751493693295"
+  }
+]

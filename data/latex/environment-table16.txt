@@ -1,0 +1,93 @@
+% Please add the following required packages to your document preamble:
+% \usepackage[table,xcdraw]{xcolor}
+% Beamer presentation requires \usepackage{colortbl} instead of \usepackage[table,xcdraw]{xcolor}
+\begin{table}[]
+\begin{tabular}{lrrrrrrrrrr}
+\textbf{Table 1 Scientific procedures by species of animal and primary purpose of the procedure, page 1 of 2} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} \\
+\textbf{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} \\
+\textbf{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} \\
+\textbf{Great Britain 2011} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \textbf{Number of procedures} \\
+\rowcolor[HTML]{FFFF99} 
+\textbf{Species of animal} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFF99}\textbf{Primary purpose of the procedure}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFF99}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFF99}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFF99}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFF99}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFF99}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFF99}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFF99}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFF99}} & \multicolumn{1}{c}{\cellcolor[HTML]{FFFF99}\textbf{Total}} \\
+\rowcolor[HTML]{FFFF99} 
+ & \multicolumn{1}{c}{\cellcolor[HTML]{FFFF99}Fundamental biological research} & \multicolumn{1}{c}{\cellcolor[HTML]{FFFF99}Applied studies -human medicine or dentistry} & \multicolumn{1}{c}{\cellcolor[HTML]{FFFF99}Applied studies -veterinary medicine} & \multicolumn{1}{c}{\cellcolor[HTML]{FFFF99}Protection of man, animals or environment} & \multicolumn{1}{c}{\cellcolor[HTML]{FFFF99}Education} & \multicolumn{1}{c}{\cellcolor[HTML]{FFFF99}Training} & \multicolumn{1}{c}{\cellcolor[HTML]{FFFF99}Forensic enquiries} & \multicolumn{1}{c}{\cellcolor[HTML]{FFFF99}Direct diagnosis} & \multicolumn{1}{c}{\cellcolor[HTML]{FFFF99}Breeding of GM or HM animals} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFF99}\textbf{}} \\
+{\color[HTML]{008000} \textbf{Mammal}} & {\color[HTML]{008000} \textbf{}} & {\color[HTML]{008000} \textbf{}} & {\color[HTML]{008000} \textbf{}} & {\color[HTML]{008000} \textbf{}} & {\color[HTML]{008000} \textbf{}} & {\color[HTML]{008000} \textbf{}} & {\color[HTML]{008000} \textbf{}} & {\color[HTML]{008000} \textbf{}} & {\color[HTML]{008000} \textbf{}} & {\color[HTML]{008000} \textbf{}} \\
+\rowcolor[HTML]{FFCC99} 
+\textbf{Mouse} & 864,182 & 318,304 & 14,612 & 17,776 & 903 & 0 & 0 & 4,433 & 1,459,553 & \textbf{2,679,763} \\
+\textbf{Rat} & 86,491 & 137,751 & 121 & 33,064 & 445 & 720 & 0 & 6 & 12,937 & \textbf{271,535} \\
+\rowcolor[HTML]{FFCC99} 
+\textbf{Guinea pig} & 2,283 & 7,811 & 1,112 & 122 & 100 & 0 & 0 & 109 & 0 & \textbf{11,537} \\
+\textbf{Hamster} & 883 & 787 & 118 & 206 & 0 & 0 & 0 & 0 & 0 & \textbf{1,994} \\
+\rowcolor[HTML]{FFCC99} 
+\textbf{Gerbil} & 508 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & \textbf{508} \\
+\textbf{Other rodent} & 2,969 & 214 & 60 & 653 & 0 & 0 & 0 & 0 & 0 & \textbf{3,896} \\
+\rowcolor[HTML]{FFCC99} 
+\textbf{Rabbit} & 1,467 & 8,346 & 2,373 & 1,767 & 20 & 0 & 0 & 1,462 & 26 & \textbf{15,461} \\
+\textbf{Cat} & 207 & 0 & 28 & 0 & 0 & 0 & 0 & 0 & 0 & \textbf{235} \\
+\rowcolor[HTML]{FFCC99} 
+\textbf{Dog} &  &  &  &  &  &  &  &  &  & \textbf{} \\
+Beagle & 125 & 3,811 & 229 & 193 & 0 & 0 & 0 & 0 & 0 & \textbf{4,358} \\
+\rowcolor[HTML]{FFCC99} 
+Greyhound & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & \textbf{-} \\
+Other including cross-bred dogs & 158 & 0 & 36 & 0 & 0 & 0 & 0 & 0 & 0 & \textbf{194} \\
+\rowcolor[HTML]{FFCC99} 
+\textbf{Ferret} & 285 & 380 & 4 & 0 & 13 & 0 & 0 & 9 & 0 & \textbf{691} \\
+\textbf{Other carnivore} & 565 & 0 & 68 & 162 & 0 & 0 & 0 & 0 & 0 & \textbf{795} \\
+\rowcolor[HTML]{FFCC99} 
+\textbf{Horse and other equids} & 144 & 0 & 308 & 0 & 0 & 0 & 0 & 7,928 & 0 & \textbf{8,380} \\
+\textbf{Pig} & 1,371 & 908 & 1,976 & 24 & 0 & 0 & 0 & 0 & 61 & \textbf{4,340} \\
+\rowcolor[HTML]{FFCC99} 
+\textbf{Goat} & 113 & 5 & 2 & 7 & 0 & 0 & 0 & 69 & 0 & \textbf{196} \\
+\textbf{Sheep} & 4,306 & 699 & 1,263 & 82 & 0 & 0 & 0 & 31,183 & 181 & \textbf{37,714} \\
+\rowcolor[HTML]{FFCC99} 
+\textbf{Cattle} & 3,410 & 0 & 1,551 & 21 & 0 & 0 & 0 & 120 & 0 & \textbf{5,102} \\
+\textbf{Deer} & 50 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & \textbf{50} \\
+\rowcolor[HTML]{FFCC99} 
+\textbf{Camelid} & 257 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & \textbf{257} \\
+\textbf{Other ungulate} & 12 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & \textbf{12} \\
+\textbf{Primate} &  &  &  &  &  &  &  &  &  & \textbf{} \\
+\rowcolor[HTML]{FFCC99} 
+Prosimian & - & - & - & - & - & - & - & - & - & \textbf{-} \\
+\textbf{New World monkey} &  &  &  &  &  &  &  &  &  & \textbf{} \\
+\rowcolor[HTML]{FFCC99} 
+marmoset, tamarin & 154 & 197 & - & - & - & - & - & - & - & \textbf{351} \\
+Squirrel, owl, spider monkey & - & - & - & - & - & - & - & - & - & - \\
+\rowcolor[HTML]{FFCC99} 
+Other New World monkey & - & - & - & - & - & - & - & - & - & \textbf{-} \\
+\textbf{Old World monkey} & {\color[HTML]{008000} \textbf{}} & {\color[HTML]{008000} \textbf{}} & {\color[HTML]{008000} \textbf{}} & {\color[HTML]{008000} \textbf{}} & {\color[HTML]{008000} \textbf{}} & {\color[HTML]{008000} \textbf{}} & {\color[HTML]{008000} \textbf{}} & {\color[HTML]{008000} \textbf{}} & {\color[HTML]{008000} \textbf{}} & {\color[HTML]{008000} \textbf{}} \\
+\rowcolor[HTML]{FFCC99} 
+Macaque & 177 & 1,652 & - & 287 & - & - & - & 8 & - & \textbf{2,124} \\
+Baboon & - & - & - & - & - & - & - & - & - & \textbf{-} \\
+\rowcolor[HTML]{FFCC99} 
+Other Old World monkey & - & - & - & - & - & - & - & - & - & \textbf{-} \\
+\textbf{Ape} &  &  &  &  &  &  &  &  &  & \textbf{} \\
+\rowcolor[HTML]{FFCC99} 
+Gibbon & - & - & - & - & - & - & - & - & - & \textbf{-} \\
+Great ape & - & - & - & - & - & - & - & - & - & \textbf{-} \\
+\rowcolor[HTML]{FFCC99} 
+\textbf{Other mammal} & 525 & - & 20 & - & - & - & - & - & - & \textbf{545} \\
+{\color[HTML]{008000} \textbf{Bird}} &  &  &  &  &  &  &  &  &  & \textbf{} \\
+\rowcolor[HTML]{FFCC99} 
+Domestic fowl (Gallus domesticus) & 6,234 & 28 & 140,529 & 274 & - & - & - & 1,377 & 602 & \textbf{149,044} \\
+Turkey & 460 & 171 & 2,628 & - & - & - & - & 150 & - & \textbf{3,409} \\
+\rowcolor[HTML]{FFCC99} 
+Quail (Coturnix coturnix) & 34 & - & - & - & - & - & - & - & - & \textbf{34} \\
+Quail (not Coturnix coturnix) & 131 & - & - & 752 & - & - & - & - & - & \textbf{883} \\
+\rowcolor[HTML]{FFCC99} 
+Other bird & 6,680 & - & - & 2,099 & - & - & - & 469 & - & \textbf{9,248} \\
+{\color[HTML]{99CC00} \textbf{Reptile - any reptilian species}} & 383 & - & - & - & - & - & - & - & - & \textbf{383} \\
+\rowcolor[HTML]{FFCC99} 
+{\color[HTML]{008000} \textbf{Amphibian - any amphibian species}} & 11,867 & - & - & 419 & - & - & - & - & 3,629 & \textbf{15,915} \\
+{\color[HTML]{008000} \textbf{Fish - any fish species}} & 342,442 & 1,731 & 19,975 & 58,908 & - & - & 23 & - & 140,824 & \textbf{563,903} \\
+\rowcolor[HTML]{FFCC99} 
+{\color[HTML]{008000} \textbf{Cephalopod - Octopus vulgaris}} & - & - & - & - & - & - & - & - & - & \textbf{-} \\
+\rowcolor[HTML]{FFFF99} 
+\textbf{Total} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFF99}\textbf{1,338,873}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFF99}\textbf{482,795}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFF99}\textbf{187,013}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFF99}\textbf{116,816}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFF99}\textbf{1,481}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFF99}\textbf{720}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFF99}\textbf{23}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFF99}\textbf{47,323}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFF99}\textbf{1,617,813}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFF99}\textbf{3,792,857}} \\
+Increase on 2010 & 44,370 & {\color[HTML]{FF0000} -40,593} & 26,531 & 41,019 & {\color[HTML]{FF0000} -679} & 43 & 23 & 616 & {\color[HTML]{FF0000} -3,199} & 68,131 \\
+Percentage change from 2010 & 3\% & {\color[HTML]{FF0000} -8\%} & 17\% & 54\% & {\color[HTML]{FF0000} -31\%} & 6\% & N/A & 1\% & {\color[HTML]{FF0000} -0\%} & 2\% \\
+Percentage of total for 2011 & 35\% & 13\% & 5\% & 3\% & 0.0\% & 0.0\% & 0\% & 1\% & 43\% & 100\% \\
+2010 Totals & \multicolumn{1}{l}{1,294,503} & \multicolumn{1}{l}{523,388} & \multicolumn{1}{l}{160,482} & \multicolumn{1}{l}{75,797} & \multicolumn{1}{l}{2,160} & \multicolumn{1}{l}{677} & \multicolumn{1}{l}{0} & \multicolumn{1}{l}{46,707} & \multicolumn{1}{l}{1,621,012} & \multicolumn{1}{l}{3,724,726}
+\end{tabular}
+\caption{}
+\label{tab:my-table}
+\end{table}

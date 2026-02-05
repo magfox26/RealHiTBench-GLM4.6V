@@ -1,0 +1,35 @@
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+% \usepackage{multirow}
+\begin{table}[]
+\begin{tabular}{@{}lcccccccccc@{}}
+\multicolumn{1}{c}{\multirow{3}{*}{Activity}} & \multicolumn{5}{c}{Average hours per day spent in primary activities(1)} & \multicolumn{5}{c}{Percent doing the activity on an average day} \\
+\multicolumn{1}{c}{} & \multicolumn{3}{c}{Married mothers} & \multicolumn{2}{c}{Married fathers(2)} & \multicolumn{3}{c}{Married mothers} & \multicolumn{2}{c}{Married fathers(2)} \\
+\multicolumn{1}{c}{} & Employed full time & Employed part time & Not employed & Employed full time & Not employed & Employed full time & Employed part time & Not employed & Employed full time & Not employed \\
+Total, all activities & 24.00 & 24.00 & 24.00 & 24.00 & 24.00 & 100.0 & 100.0 & 100.0 & 100.0 & 100.0 \\
+Working and work-related activities(3) & 5.30 & 2.82 & 0.10 & 6.26 & 0.43 & 70.7 & 56.7 & 4.0 & 75.1 & 12.8 \\
+Working(3) & 5.27 & 2.78 & 0.04 & 6.23 & 0.13 & 70.4 & 56.0 & 1.1 & 74.7 & 2.3 \\
+Personal care activities & 9.04 & 9.24 & 9.72 & 8.71 & 9.64 & 100.0 & 100.0 & 100.0 & 100.0 & 99.9 \\
+Sleeping & 8.21 & 8.48 & 9.02 & 8.11 & 9.11 & 99.9 & 100.0 & 99.9 & 99.9 & 99.4 \\
+Household activities & 1.86 & 2.67 & 3.60 & 1.18 & 2.22 & 87.6 & 92.9 & 95.9 & 65.3 & 77.2 \\
+Housework & 0.74 & 1.15 & 1.55 & 0.23 & 0.67 & 48.2 & 63.9 & 72.1 & 17.4 & 39.2 \\
+Food preparation and cleanup & 0.81 & 1.07 & 1.62 & 0.35 & 0.67 & 76.2 & 81.4 & 89.6 & 44.5 & 56.5 \\
+Lawn and garden care & 0.07 & 0.12 & 0.12 & 0.21 & 0.31 & 4.9 & 7.4 & 8.4 & 9.8 & 13.8 \\
+Purchasing goods and services & 0.51 & 0.63 & 0.64 & 0.32 & 0.53 & 48.9 & 55.5 & 50.4 & 36.7 & 42.6 \\
+Grocery shopping & 0.13 & 0.19 & 0.21 & 0.07 & 0.16 & 17.3 & 24.0 & 23.3 & 8.9 & 16.8 \\
+Consumer goods purchases, except grocery shopping & 0.31 & 0.34 & 0.31 & 0.21 & 0.25 & 36.4 & 38.5 & 31.6 & 28.8 & 27.8 \\
+Caring for and helping household members & 1.32 & 1.75 & 2.52 & 0.87 & 1.53 & 74.4 & 82.1 & 84.2 & 57.5 & 66.6 \\
+Caring for and helping household children & 1.30 & 1.72 & 2.49 & 0.85 & 1.45 & 72.8 & 81.3 & 83.4 & 55.5 & 64.1 \\
+Physical care & 0.54 & 0.64 & 0.95 & 0.26 & 0.37 & 53.7 & 60.0 & 69.4 & 34.2 & 38.7 \\
+Education-related activities & 0.11 & 0.20 & 0.29 & 0.08 & 0.15 & 12.3 & 18.8 & 22.7 & 8.0 & 13.3 \\
+Reading to/with children & 0.04 & 0.07 & 0.08 & 0.03 & 0.04 & 10.3 & 14.1 & 14.5 & 6.9 & 6.5 \\
+Playing/doing hobbies with children & 0.27 & 0.33 & 0.60 & 0.29 & 0.36 & 16.2 & 19.3 & 29.4 & 17.5 & 17.6 \\
+Leisure and sports & 2.97 & 3.32 & 4.01 & 3.54 & 6.35 & 91.6 & 95.7 & 95.1 & 93.6 & 96.6 \\
+Socializing and communicating & 0.63 & 0.69 & 0.80 & 0.61 & 0.89 & 37.0 & 42.2 & 41.5 & 34.5 & 39.9 \\
+Watching television & 1.51 & 1.59 & 2.12 & 1.97 & 3.80 & 70.7 & 73.3 & 76.7 & 75.5 & 85.1 \\
+Participating in sports, exercise, and recreation & 0.19 & 0.24 & 0.23 & 0.28 & 0.37 & 15.8 & 19.9 & 17.5 & 17.5 & 20.6 \\
+Travel & 1.33 & 1.45 & 1.13 & 1.41 & 1.13 & 93.8 & 94.6 & 80.3 & 93.9 & 77.1 \\
+Travel related to caring for and helping household children & 0.23 & 0.31 & 0.31 & 0.13 & 0.24 & 40.6 & 49.7 & 42.4 & 25.0 & 34.4 \\
+Other activities, not elsewhere classified & 1.66 & 2.12 & 2.27 & 1.71 & 2.17 & 98.3 & 98.7 & 98.1 & 97.2 & 97.1
+\end{tabular}
+\end{table}

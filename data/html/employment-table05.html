@@ -1,0 +1,734 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <meta name="generator" content="PhpSpreadsheet, https://github.com/PHPOffice/PhpSpreadsheet">
+      <meta name="author" content="openpyxl" />
+      <meta name="company" content="Microsoft Corporation" />
+    <style type="text/css">
+      html { font-family:Calibri, Arial, Helvetica, sans-serif; font-size:11pt; background-color:white }
+      a.comment-indicator:hover + div.comment { background:#ffd; position:absolute; display:block; border:1px solid black; padding:0.5em }
+      a.comment-indicator { background:red; display:inline-block; border:1px solid black; width:0.5em; height:0.5em }
+      div.comment { display:none }
+      table { border-collapse:collapse; page-break-after:always }
+      .gridlines td { border:1px dotted black }
+      .gridlines th { border:1px dotted black }
+      .b { text-align:center }
+      .e { text-align:center }
+      .f { text-align:right }
+      .inlineStr { text-align:left }
+      .n { text-align:right }
+      .s { text-align:left }
+      td.style0 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style0 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      table.sheet0 col.col0 { width:42pt }
+      table.sheet0 col.col1 { width:42pt }
+      table.sheet0 col.col2 { width:42pt }
+      table.sheet0 col.col3 { width:42pt }
+      table.sheet0 col.col4 { width:42pt }
+      table.sheet0 col.col5 { width:42pt }
+      table.sheet0 col.col6 { width:42pt }
+      table.sheet0 col.col7 { width:42pt }
+      table.sheet0 col.col8 { width:42pt }
+      table.sheet0 tr { height:15pt }
+    </style>
+  </head>
+
+  <body>
+<style>
+@page { margin-left: 0.75in; margin-right: 0.75in; margin-top: 1in; margin-bottom: 1in; }
+body { margin-left: 0.75in; margin-right: 0.75in; margin-top: 1in; margin-bottom: 1in; }
+</style>
+    <table border="0" cellpadding="0" cellspacing="0" id="sheet0" class="sheet0 gridlines">
+        <col class="col0">
+        <col class="col1">
+        <col class="col2">
+        <col class="col3">
+        <col class="col4">
+        <col class="col5">
+        <col class="col6">
+        <col class="col7">
+        <col class="col8">
+        <tbody>
+          <tr class="row0">
+            <td class="column0 style0 s style0" rowspan="2">Employment status, sex, and age</td>
+            <td class="column1 style0 s style0" colspan="2">Total</td>
+            <td class="column3 style0 s style0" colspan="2">White</td>
+            <td class="column5 style0 s style0" colspan="2">Black or African<br />
+American</td>
+            <td class="column7 style0 s style0" colspan="2">Asian</td>
+          </tr>
+          <tr class="row1">
+            <td class="column1 style0 n">2022</td>
+            <td class="column2 style0 n">2023</td>
+            <td class="column3 style0 n">2022</td>
+            <td class="column4 style0 n">2023</td>
+            <td class="column5 style0 n">2022</td>
+            <td class="column6 style0 n">2023</td>
+            <td class="column7 style0 n">2022</td>
+            <td class="column8 style0 n">2023</td>
+          </tr>
+          <tr class="row2">
+            <td class="column0 style0 s"></td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row3">
+            <td class="column0 style0 s">TOTAL</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row4">
+            <td class="column0 style0 s">Civilian noninstitutional population</td>
+            <td class="column1 style0 n">263973</td>
+            <td class="column2 style0 n">266942</td>
+            <td class="column3 style0 n">203214</td>
+            <td class="column4 style0 n">204515</td>
+            <td class="column5 style0 n">34131</td>
+            <td class="column6 style0 n">34667</td>
+            <td class="column7 style0 n">16933</td>
+            <td class="column8 style0 n">17591</td>
+          </tr>
+          <tr class="row5">
+            <td class="column0 style0 s">Civilian labor force</td>
+            <td class="column1 style0 n">164287</td>
+            <td class="column2 style0 n">167116</td>
+            <td class="column3 style0 n">125957</td>
+            <td class="column4 style0 n">127327</td>
+            <td class="column5 style0 n">21236</td>
+            <td class="column6 style0 n">21886</td>
+            <td class="column7 style0 n">10921</td>
+            <td class="column8 style0 n">11439</td>
+          </tr>
+          <tr class="row6">
+            <td class="column0 style0 s">Participation rate</td>
+            <td class="column1 style0 n">62.2</td>
+            <td class="column2 style0 n">62.6</td>
+            <td class="column3 style0 n">62</td>
+            <td class="column4 style0 n">62.3</td>
+            <td class="column5 style0 n">62.2</td>
+            <td class="column6 style0 n">63.1</td>
+            <td class="column7 style0 n">64.5</td>
+            <td class="column8 style0 n">65</td>
+          </tr>
+          <tr class="row7">
+            <td class="column0 style0 s">Employed</td>
+            <td class="column1 style0 n">158291</td>
+            <td class="column2 style0 n">161037</td>
+            <td class="column3 style0 n">121908</td>
+            <td class="column4 style0 n">123165</td>
+            <td class="column5 style0 n">19937</td>
+            <td class="column6 style0 n">20674</td>
+            <td class="column7 style0 n">10615</td>
+            <td class="column8 style0 n">11096</td>
+          </tr>
+          <tr class="row8">
+            <td class="column0 style0 s">Employment-population ratio</td>
+            <td class="column1 style0 n">60</td>
+            <td class="column2 style0 n">60.3</td>
+            <td class="column3 style0 n">60</td>
+            <td class="column4 style0 n">60.2</td>
+            <td class="column5 style0 n">58.4</td>
+            <td class="column6 style0 n">59.6</td>
+            <td class="column7 style0 n">62.7</td>
+            <td class="column8 style0 n">63.1</td>
+          </tr>
+          <tr class="row9">
+            <td class="column0 style0 s">Unemployed</td>
+            <td class="column1 style0 n">5996</td>
+            <td class="column2 style0 n">6080</td>
+            <td class="column3 style0 n">4049</td>
+            <td class="column4 style0 n">4162</td>
+            <td class="column5 style0 n">1300</td>
+            <td class="column6 style0 n">1212</td>
+            <td class="column7 style0 n">306</td>
+            <td class="column8 style0 n">344</td>
+          </tr>
+          <tr class="row10">
+            <td class="column0 style0 s">Unemployment rate</td>
+            <td class="column1 style0 n">3.6</td>
+            <td class="column2 style0 n">3.6</td>
+            <td class="column3 style0 n">3.2</td>
+            <td class="column4 style0 n">3.3</td>
+            <td class="column5 style0 n">6.1</td>
+            <td class="column6 style0 n">5.5</td>
+            <td class="column7 style0 n">2.8</td>
+            <td class="column8 style0 n">3</td>
+          </tr>
+          <tr class="row11">
+            <td class="column0 style0 s">Not in labor force</td>
+            <td class="column1 style0 n">99686</td>
+            <td class="column2 style0 n">99826</td>
+            <td class="column3 style0 n">77257</td>
+            <td class="column4 style0 n">77188</td>
+            <td class="column5 style0 n">12895</td>
+            <td class="column6 style0 n">12781</td>
+            <td class="column7 style0 n">6012</td>
+            <td class="column8 style0 n">6152</td>
+          </tr>
+          <tr class="row12">
+            <td class="column0">&nbsp;</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row13">
+            <td class="column0 style0 s">Men, 16 years and over</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row14">
+            <td class="column0 style0 s">Civilian noninstitutional population</td>
+            <td class="column1 style0 n">128617</td>
+            <td class="column2 style0 n">130476</td>
+            <td class="column3 style0 n">100122</td>
+            <td class="column4 style0 n">101059</td>
+            <td class="column5 style0 n">15740</td>
+            <td class="column6 style0 n">16067</td>
+            <td class="column7 style0 n">8013</td>
+            <td class="column8 style0 n">8325</td>
+          </tr>
+          <tr class="row15">
+            <td class="column0 style0 s">Civilian labor force</td>
+            <td class="column1 style0 n">87421</td>
+            <td class="column2 style0 n">88877</td>
+            <td class="column3 style0 n">68162</td>
+            <td class="column4 style0 n">68892</td>
+            <td class="column5 style0 n">10259</td>
+            <td class="column6 style0 n">10543</td>
+            <td class="column7 style0 n">5775</td>
+            <td class="column8 style0 n">6057</td>
+          </tr>
+          <tr class="row16">
+            <td class="column0 style0 s">Participation rate</td>
+            <td class="column1 style0 n">68</td>
+            <td class="column2 style0 n">68.1</td>
+            <td class="column3 style0 n">68.1</td>
+            <td class="column4 style0 n">68.2</td>
+            <td class="column5 style0 n">65.2</td>
+            <td class="column6 style0 n">65.6</td>
+            <td class="column7 style0 n">72.1</td>
+            <td class="column8 style0 n">72.8</td>
+          </tr>
+          <tr class="row17">
+            <td class="column0 style0 s">Employed</td>
+            <td class="column1 style0 n">84203</td>
+            <td class="column2 style0 n">85500</td>
+            <td class="column3 style0 n">65924</td>
+            <td class="column4 style0 n">66524</td>
+            <td class="column5 style0 n">9617</td>
+            <td class="column6 style0 n">9943</td>
+            <td class="column7 style0 n">5610</td>
+            <td class="column8 style0 n">5852</td>
+          </tr>
+          <tr class="row18">
+            <td class="column0 style0 s">Employment-population ratio</td>
+            <td class="column1 style0 n">65.5</td>
+            <td class="column2 style0 n">65.5</td>
+            <td class="column3 style0 n">65.8</td>
+            <td class="column4 style0 n">65.8</td>
+            <td class="column5 style0 n">61.1</td>
+            <td class="column6 style0 n">61.9</td>
+            <td class="column7 style0 n">70</td>
+            <td class="column8 style0 n">70.3</td>
+          </tr>
+          <tr class="row19">
+            <td class="column0 style0 s">Unemployed</td>
+            <td class="column1 style0 n">3218</td>
+            <td class="column2 style0 n">3377</td>
+            <td class="column3 style0 n">2238</td>
+            <td class="column4 style0 n">2368</td>
+            <td class="column5 style0 n">642</td>
+            <td class="column6 style0 n">599</td>
+            <td class="column7 style0 n">165</td>
+            <td class="column8 style0 n">204</td>
+          </tr>
+          <tr class="row20">
+            <td class="column0 style0 s">Unemployment rate</td>
+            <td class="column1 style0 n">3.7</td>
+            <td class="column2 style0 n">3.8</td>
+            <td class="column3 style0 n">3.3</td>
+            <td class="column4 style0 n">3.4</td>
+            <td class="column5 style0 n">6.3</td>
+            <td class="column6 style0 n">5.7</td>
+            <td class="column7 style0 n">2.9</td>
+            <td class="column8 style0 n">3.4</td>
+          </tr>
+          <tr class="row21">
+            <td class="column0 style0 s">Not in labor force</td>
+            <td class="column1 style0 n">41197</td>
+            <td class="column2 style0 n">41599</td>
+            <td class="column3 style0 n">31959</td>
+            <td class="column4 style0 n">32168</td>
+            <td class="column5 style0 n">5480</td>
+            <td class="column6 style0 n">5524</td>
+            <td class="column7 style0 n">2238</td>
+            <td class="column8 style0 n">2268</td>
+          </tr>
+          <tr class="row22">
+            <td class="column0">&nbsp;</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row23">
+            <td class="column0 style0 s">Men, 20 years and over</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row24">
+            <td class="column0 style0 s">Civilian noninstitutional population</td>
+            <td class="column1 style0 n">119965</td>
+            <td class="column2 style0 n">121714</td>
+            <td class="column3 style0 n">93759</td>
+            <td class="column4 style0 n">94665</td>
+            <td class="column5 style0 n">14508</td>
+            <td class="column6 style0 n">14801</td>
+            <td class="column7 style0 n">7566</td>
+            <td class="column8 style0 n">7858</td>
+          </tr>
+          <tr class="row25">
+            <td class="column0 style0 s">Civilian labor force</td>
+            <td class="column1 style0 n">84276</td>
+            <td class="column2 style0 n">85683</td>
+            <td class="column3 style0 n">65738</td>
+            <td class="column4 style0 n">66407</td>
+            <td class="column5 style0 n">9866</td>
+            <td class="column6 style0 n">10159</td>
+            <td class="column7 style0 n">5671</td>
+            <td class="column8 style0 n">5955</td>
+          </tr>
+          <tr class="row26">
+            <td class="column0 style0 s">Participation rate</td>
+            <td class="column1 style0 n">70.3</td>
+            <td class="column2 style0 n">70.4</td>
+            <td class="column3 style0 n">70.1</td>
+            <td class="column4 style0 n">70.1</td>
+            <td class="column5 style0 n">68</td>
+            <td class="column6 style0 n">68.6</td>
+            <td class="column7 style0 n">74.9</td>
+            <td class="column8 style0 n">75.8</td>
+          </tr>
+          <tr class="row27">
+            <td class="column0 style0 s">Employed</td>
+            <td class="column1 style0 n">81409</td>
+            <td class="column2 style0 n">82698</td>
+            <td class="column3 style0 n">63743</td>
+            <td class="column4 style0 n">64316</td>
+            <td class="column5 style0 n">9294</td>
+            <td class="column6 style0 n">9617</td>
+            <td class="column7 style0 n">5517</td>
+            <td class="column8 style0 n">5764</td>
+          </tr>
+          <tr class="row28">
+            <td class="column0 style0 s">Employment-population ratio</td>
+            <td class="column1 style0 n">67.9</td>
+            <td class="column2 style0 n">67.9</td>
+            <td class="column3 style0 n">68</td>
+            <td class="column4 style0 n">67.9</td>
+            <td class="column5 style0 n">64.1</td>
+            <td class="column6 style0 n">65</td>
+            <td class="column7 style0 n">72.9</td>
+            <td class="column8 style0 n">73.4</td>
+          </tr>
+          <tr class="row29">
+            <td class="column0 style0 s">Unemployed</td>
+            <td class="column1 style0 n">2867</td>
+            <td class="column2 style0 n">2985</td>
+            <td class="column3 style0 n">1995</td>
+            <td class="column4 style0 n">2091</td>
+            <td class="column5 style0 n">572</td>
+            <td class="column6 style0 n">542</td>
+            <td class="column7 style0 n">154</td>
+            <td class="column8 style0 n">191</td>
+          </tr>
+          <tr class="row30">
+            <td class="column0 style0 s">Unemployment rate</td>
+            <td class="column1 style0 n">3.4</td>
+            <td class="column2 style0 n">3.5</td>
+            <td class="column3 style0 n">3</td>
+            <td class="column4 style0 n">3.1</td>
+            <td class="column5 style0 n">5.8</td>
+            <td class="column6 style0 n">5.3</td>
+            <td class="column7 style0 n">2.7</td>
+            <td class="column8 style0 n">3.2</td>
+          </tr>
+          <tr class="row31">
+            <td class="column0 style0 s">Not in labor force</td>
+            <td class="column1 style0 n">35689</td>
+            <td class="column2 style0 n">36031</td>
+            <td class="column3 style0 n">28021</td>
+            <td class="column4 style0 n">28258</td>
+            <td class="column5 style0 n">4642</td>
+            <td class="column6 style0 n">4642</td>
+            <td class="column7 style0 n">1896</td>
+            <td class="column8 style0 n">1903</td>
+          </tr>
+          <tr class="row32">
+            <td class="column0">&nbsp;</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row33">
+            <td class="column0 style0 s">Women, 16 years and over</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row34">
+            <td class="column0 style0 s">Civilian noninstitutional population</td>
+            <td class="column1 style0 n">135356</td>
+            <td class="column2 style0 n">136466</td>
+            <td class="column3 style0 n">103093</td>
+            <td class="column4 style0 n">103455</td>
+            <td class="column5 style0 n">18392</td>
+            <td class="column6 style0 n">18600</td>
+            <td class="column7 style0 n">8920</td>
+            <td class="column8 style0 n">9266</td>
+          </tr>
+          <tr class="row35">
+            <td class="column0 style0 s">Civilian labor force</td>
+            <td class="column1 style0 n">76866</td>
+            <td class="column2 style0 n">78239</td>
+            <td class="column3 style0 n">57794</td>
+            <td class="column4 style0 n">58435</td>
+            <td class="column5 style0 n">10977</td>
+            <td class="column6 style0 n">11344</td>
+            <td class="column7 style0 n">5146</td>
+            <td class="column8 style0 n">5383</td>
+          </tr>
+          <tr class="row36">
+            <td class="column0 style0 s">Participation rate</td>
+            <td class="column1 style0 n">56.8</td>
+            <td class="column2 style0 n">57.3</td>
+            <td class="column3 style0 n">56.1</td>
+            <td class="column4 style0 n">56.5</td>
+            <td class="column5 style0 n">59.7</td>
+            <td class="column6 style0 n">61</td>
+            <td class="column7 style0 n">57.7</td>
+            <td class="column8 style0 n">58.1</td>
+          </tr>
+          <tr class="row37">
+            <td class="column0 style0 s">Employed</td>
+            <td class="column1 style0 n">74089</td>
+            <td class="column2 style0 n">75537</td>
+            <td class="column3 style0 n">55984</td>
+            <td class="column4 style0 n">56642</td>
+            <td class="column5 style0 n">10319</td>
+            <td class="column6 style0 n">10731</td>
+            <td class="column7 style0 n">5006</td>
+            <td class="column8 style0 n">5243</td>
+          </tr>
+          <tr class="row38">
+            <td class="column0 style0 s">Employment-population ratio</td>
+            <td class="column1 style0 n">54.7</td>
+            <td class="column2 style0 n">55.4</td>
+            <td class="column3 style0 n">54.3</td>
+            <td class="column4 style0 n">54.7</td>
+            <td class="column5 style0 n">56.1</td>
+            <td class="column6 style0 n">57.7</td>
+            <td class="column7 style0 n">56.1</td>
+            <td class="column8 style0 n">56.6</td>
+          </tr>
+          <tr class="row39">
+            <td class="column0 style0 s">Unemployed</td>
+            <td class="column1 style0 n">2778</td>
+            <td class="column2 style0 n">2702</td>
+            <td class="column3 style0 n">1811</td>
+            <td class="column4 style0 n">1794</td>
+            <td class="column5 style0 n">658</td>
+            <td class="column6 style0 n">612</td>
+            <td class="column7 style0 n">140</td>
+            <td class="column8 style0 n">139</td>
+          </tr>
+          <tr class="row40">
+            <td class="column0 style0 s">Unemployment rate</td>
+            <td class="column1 style0 n">3.6</td>
+            <td class="column2 style0 n">3.5</td>
+            <td class="column3 style0 n">3.1</td>
+            <td class="column4 style0 n">3.1</td>
+            <td class="column5 style0 n">6</td>
+            <td class="column6 style0 n">5.4</td>
+            <td class="column7 style0 n">2.7</td>
+            <td class="column8 style0 n">2.6</td>
+          </tr>
+          <tr class="row41">
+            <td class="column0 style0 s">Not in labor force</td>
+            <td class="column1 style0 n">58490</td>
+            <td class="column2 style0 n">58227</td>
+            <td class="column3 style0 n">45298</td>
+            <td class="column4 style0 n">45020</td>
+            <td class="column5 style0 n">7415</td>
+            <td class="column6 style0 n">7257</td>
+            <td class="column7 style0 n">3774</td>
+            <td class="column8 style0 n">3884</td>
+          </tr>
+          <tr class="row42">
+            <td class="column0">&nbsp;</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row43">
+            <td class="column0 style0 s">Women, 20 years and over</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row44">
+            <td class="column0 style0 s">Civilian noninstitutional population</td>
+            <td class="column1 style0 n">126937</td>
+            <td class="column2 style0 n">128005</td>
+            <td class="column3 style0 n">96967</td>
+            <td class="column4 style0 n">97338</td>
+            <td class="column5 style0 n">17141</td>
+            <td class="column6 style0 n">17329</td>
+            <td class="column7 style0 n">8471</td>
+            <td class="column8 style0 n">8788</td>
+          </tr>
+          <tr class="row45">
+            <td class="column0 style0 s">Civilian labor force</td>
+            <td class="column1 style0 n">73736</td>
+            <td class="column2 style0 n">75074</td>
+            <td class="column3 style0 n">55352</td>
+            <td class="column4 style0 n">56021</td>
+            <td class="column5 style0 n">10631</td>
+            <td class="column6 style0 n">10958</td>
+            <td class="column7 style0 n">5044</td>
+            <td class="column8 style0 n">5266</td>
+          </tr>
+          <tr class="row46">
+            <td class="column0 style0 s">Participation rate</td>
+            <td class="column1 style0 n">58.1</td>
+            <td class="column2 style0 n">58.6</td>
+            <td class="column3 style0 n">57.1</td>
+            <td class="column4 style0 n">57.6</td>
+            <td class="column5 style0 n">62</td>
+            <td class="column6 style0 n">63.2</td>
+            <td class="column7 style0 n">59.5</td>
+            <td class="column8 style0 n">59.9</td>
+          </tr>
+          <tr class="row47">
+            <td class="column0 style0 s">Employed</td>
+            <td class="column1 style0 n">71283</td>
+            <td class="column2 style0 n">72692</td>
+            <td class="column3 style0 n">53767</td>
+            <td class="column4 style0 n">54441</td>
+            <td class="column5 style0 n">10034</td>
+            <td class="column6 style0 n">10420</td>
+            <td class="column7 style0 n">4912</td>
+            <td class="column8 style0 n">5134</td>
+          </tr>
+          <tr class="row48">
+            <td class="column0 style0 s">Employment-population ratio</td>
+            <td class="column1 style0 n">56.2</td>
+            <td class="column2 style0 n">56.8</td>
+            <td class="column3 style0 n">55.4</td>
+            <td class="column4 style0 n">55.9</td>
+            <td class="column5 style0 n">58.5</td>
+            <td class="column6 style0 n">60.1</td>
+            <td class="column7 style0 n">58</td>
+            <td class="column8 style0 n">58.4</td>
+          </tr>
+          <tr class="row49">
+            <td class="column0 style0 s">Unemployed</td>
+            <td class="column1 style0 n">2453</td>
+            <td class="column2 style0 n">2382</td>
+            <td class="column3 style0 n">1585</td>
+            <td class="column4 style0 n">1580</td>
+            <td class="column5 style0 n">596</td>
+            <td class="column6 style0 n">538</td>
+            <td class="column7 style0 n">132</td>
+            <td class="column8 style0 n">131</td>
+          </tr>
+          <tr class="row50">
+            <td class="column0 style0 s">Unemployment rate</td>
+            <td class="column1 style0 n">3.3</td>
+            <td class="column2 style0 n">3.2</td>
+            <td class="column3 style0 n">2.9</td>
+            <td class="column4 style0 n">2.8</td>
+            <td class="column5 style0 n">5.6</td>
+            <td class="column6 style0 n">4.9</td>
+            <td class="column7 style0 n">2.6</td>
+            <td class="column8 style0 n">2.5</td>
+          </tr>
+          <tr class="row51">
+            <td class="column0 style0 s">Not in labor force</td>
+            <td class="column1 style0 n">53201</td>
+            <td class="column2 style0 n">52932</td>
+            <td class="column3 style0 n">41615</td>
+            <td class="column4 style0 n">41317</td>
+            <td class="column5 style0 n">6511</td>
+            <td class="column6 style0 n">6371</td>
+            <td class="column7 style0 n">3427</td>
+            <td class="column8 style0 n">3523</td>
+          </tr>
+          <tr class="row52">
+            <td class="column0">&nbsp;</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row53">
+            <td class="column0 style0 s">Both sexes, 16 to 19 years</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row54">
+            <td class="column0 style0 s">Civilian noninstitutional population</td>
+            <td class="column1 style0 n">17071</td>
+            <td class="column2 style0 n">17223</td>
+            <td class="column3 style0 n">12488</td>
+            <td class="column4 style0 n">12512</td>
+            <td class="column5 style0 n">2482</td>
+            <td class="column6 style0 n">2537</td>
+            <td class="column7 style0 n">895</td>
+            <td class="column8 style0 n">945</td>
+          </tr>
+          <tr class="row55">
+            <td class="column0 style0 s">Civilian labor force</td>
+            <td class="column1 style0 n">6275</td>
+            <td class="column2 style0 n">6360</td>
+            <td class="column3 style0 n">4867</td>
+            <td class="column4 style0 n">4899</td>
+            <td class="column5 style0 n">739</td>
+            <td class="column6 style0 n">769</td>
+            <td class="column7 style0 n">206</td>
+            <td class="column8 style0 n">218</td>
+          </tr>
+          <tr class="row56">
+            <td class="column0 style0 s">Participation rate</td>
+            <td class="column1 style0 n">36.8</td>
+            <td class="column2 style0 n">36.9</td>
+            <td class="column3 style0 n">39</td>
+            <td class="column4 style0 n">39.2</td>
+            <td class="column5 style0 n">29.8</td>
+            <td class="column6 style0 n">30.3</td>
+            <td class="column7 style0 n">23</td>
+            <td class="column8 style0 n">23.1</td>
+          </tr>
+          <tr class="row57">
+            <td class="column0 style0 s">Employed</td>
+            <td class="column1 style0 n">5600</td>
+            <td class="column2 style0 n">5647</td>
+            <td class="column3 style0 n">4398</td>
+            <td class="column4 style0 n">4408</td>
+            <td class="column5 style0 n">608</td>
+            <td class="column6 style0 n">638</td>
+            <td class="column7 style0 n">187</td>
+            <td class="column8 style0 n">197</td>
+          </tr>
+          <tr class="row58">
+            <td class="column0 style0 s">Employment-population ratio</td>
+            <td class="column1 style0 n">32.8</td>
+            <td class="column2 style0 n">32.8</td>
+            <td class="column3 style0 n">35.2</td>
+            <td class="column4 style0 n">35.2</td>
+            <td class="column5 style0 n">24.5</td>
+            <td class="column6 style0 n">25.1</td>
+            <td class="column7 style0 n">20.8</td>
+            <td class="column8 style0 n">20.9</td>
+          </tr>
+          <tr class="row59">
+            <td class="column0 style0 s">Unemployed</td>
+            <td class="column1 style0 n">675</td>
+            <td class="column2 style0 n">713</td>
+            <td class="column3 style0 n">470</td>
+            <td class="column4 style0 n">491</td>
+            <td class="column5 style0 n">131</td>
+            <td class="column6 style0 n">131</td>
+            <td class="column7 style0 n">20</td>
+            <td class="column8 style0 n">21</td>
+          </tr>
+          <tr class="row60">
+            <td class="column0 style0 s">Unemployment rate</td>
+            <td class="column1 style0 n">10.8</td>
+            <td class="column2 style0 n">11.2</td>
+            <td class="column3 style0 n">9.7</td>
+            <td class="column4 style0 n">10</td>
+            <td class="column5 style0 n">17.7</td>
+            <td class="column6 style0 n">17.1</td>
+            <td class="column7 style0 n">9.6</td>
+            <td class="column8 style0 n">9.6</td>
+          </tr>
+          <tr class="row61">
+            <td class="column0 style0 s">Not in labor force</td>
+            <td class="column1 style0 n">10796</td>
+            <td class="column2 style0 n">10863</td>
+            <td class="column3 style0 n">7621</td>
+            <td class="column4 style0 n">7613</td>
+            <td class="column5 style0 n">1743</td>
+            <td class="column6 style0 n">1768</td>
+            <td class="column7 style0 n">689</td>
+            <td class="column8 style0 n">727</td>
+          </tr>
+        </tbody>
+    </table>
+  </body>
+</html>

@@ -1,0 +1,56 @@
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+% \usepackage{multirow}
+\begin{table}[]
+\begin{tabular}{@{}cccccc@{}}
+\textbf{Forest Type} & \textbf{Fire} & \textbf{Replicate} & \textbf{Season} & \textbf{Year} & \textbf{\% Cover Herbaceous Vegetation} \\
+\multirow{24}{*}{Mixed conifer} & \multirow{12}{*}{Control} & \multirow{3}{*}{1} & \multirow{3}{*}{Fall} & 2012 & 28.0 \\
+ &  &  &  & 2013 & 26.0 \\
+ &  &  &  & 2014 & 55.7 \\
+ &  & \multirow{3}{*}{2} & \multirow{3}{*}{Fall} & 2012 & 27.7 \\
+ &  &  &  & 2013 & 13.3 \\
+ &  &  &  & 2014 & 29.7 \\
+ &  & \multirow{3}{*}{3} & \multirow{3}{*}{Fall} & 2012 & 17.7 \\
+ &  &  &  & 2013 & 24.0 \\
+ &  &  &  & 2014 & 32.3 \\
+ &  & \multirow{3}{*}{4} & \multirow{3}{*}{Fall} & 2012 & 10.3 \\
+ &  &  &  & 2013 & 18.3 \\
+ &  &  &  & 2014 & 17.0 \\
+ & \multirow{12}{*}{Burn} & \multirow{3}{*}{1} & \multirow{3}{*}{Fall} & 2012 & 3.7 \\
+ &  &  &  & 2013 & 39.7 \\
+ &  &  &  & 2014 & 95.0 \\
+ &  & \multirow{3}{*}{2} & \multirow{3}{*}{Fall} & 2012 & 7.0 \\
+ &  &  &  & 2013 & 55.3 \\
+ &  &  &  & 2014 & 91.0 \\
+ &  & \multirow{3}{*}{3} & \multirow{3}{*}{Fall} & 2012 & 29.0 \\
+ &  &  &  & 2013 & 55.3 \\
+ &  &  &  & 2014 & 88.3 \\
+ &  & \multirow{3}{*}{4} & \multirow{3}{*}{Fall} & 2012 & 19.3 \\
+ &  &  &  & 2013 & 45.3 \\
+ &  &  &  & 2014 & 96.7 \\
+\multirow{24}{*}{Ponderosa pine} & \multirow{12}{*}{Burn} & \multirow{3}{*}{1} & \multirow{3}{*}{Fall} & 2012 & 72.0 \\
+ &  &  &  & 2013 & 93.7 \\
+ &  &  &  & 2014 & 97.7 \\
+ &  & \multirow{3}{*}{2} & \multirow{3}{*}{Fall} & 2012 & 15.3 \\
+ &  &  &  & 2013 & 32.0 \\
+ &  &  &  & 2014 & 57.3 \\
+ &  & \multirow{3}{*}{3} & \multirow{3}{*}{Fall} & 2012 & 56.3 \\
+ &  &  &  & 2013 & 79.7 \\
+ &  &  &  & 2014 & 86.7 \\
+ &  & \multirow{3}{*}{4} & \multirow{3}{*}{Fall} & 2012 & 26.3 \\
+ &  &  &  & 2013 & 61.0 \\
+ &  &  &  & 2014 & 95.3 \\
+ & \multirow{12}{*}{Control} & \multirow{3}{*}{1} & \multirow{3}{*}{Fall} & 2012 & 27.0 \\
+ &  &  &  & 2013 & 15.7 \\
+ &  &  &  & 2014 & 31.7 \\
+ &  & \multirow{3}{*}{2} & \multirow{3}{*}{Fall} & 2012 & 35.3 \\
+ &  &  &  & 2013 & 48.3 \\
+ &  &  &  & 2014 & 47.0 \\
+ &  & \multirow{3}{*}{3} & \multirow{3}{*}{Fall} & 2012 & 8.0 \\
+ &  &  &  & 2013 & 37.3 \\
+ &  &  &  & 2014 & 35.7 \\
+ &  & \multirow{3}{*}{4} & \multirow{3}{*}{Fall} & 2012 & 20.0 \\
+ &  &  &  & 2013 & 31.3 \\
+ &  &  &  & 2014 & 27.7
+\end{tabular}
+\end{table}

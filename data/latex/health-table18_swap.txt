@@ -1,0 +1,38 @@
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+% \usepackage{multirow}
+% \usepackage[table,xcdraw]{xcolor}
+% Beamer presentation requires \usepackage{colortbl} instead of \usepackage[table,xcdraw]{xcolor}
+\begin{table}[]
+\begin{tabular}{@{}clclllcc@{}}
+\rowcolor[HTML]{D9E1F2} 
+\textbf{Material} & \multicolumn{1}{c}{\cellcolor[HTML]{D9E1F2}\textbf{Organism}} & \textbf{Sampler} & \multicolumn{1}{c}{\cellcolor[HTML]{D9E1F2}\textbf{Log10 Recovery (Inoculation Control)}} & \multicolumn{1}{c}{\cellcolor[HTML]{D9E1F2}\textbf{Log10 Recovery (Test Sample)}} & \multicolumn{1}{c}{\cellcolor[HTML]{D9E1F2}\textbf{Delta Log Recovery}} & \textbf{Mean Delta Log Recovery} & \textbf{Standard Deviation Log Recovery} \\
+ & \textit{Serratia marcescens} & Solar Cult & 7.727933336 & 6.368879771 & 1.359053565 &  &  \\
+ & \textit{Escherichia coli} & 3M & 7.747849818 & 5.473584407 & 2.274265411 &  &  \\
+ & \textit{Escherichia coli} & LabPlas & 7.680897542 & 6.192060811 & 1.488836731 &  &  \\
+ & \textit{Escherichia coli} & Solar Cult & 7.756315819 & 5.757399066 & 1.998916753 &  &  \\
+ & \textit{Serratia marcescens} & 3M & 7.734137876 & 5.398788791 & 2.335349085 &  &  \\
+ & \textit{Serratia marcescens} & LabPlas & 7.067780342 & 4.015514176 & 3.052266166 &  &  \\
+ & \textit{Yersinia ruckeri} & 3M & 7.745999016 & 3.807560353 & 3.938438663 &  &  \\
+ & \textit{Yersinia ruckeri} & LabPlas & 7.569018643 & 5.478016197 & 2.091002445 &  &  \\
+\multirow{-9}{*}{Glass} & \textit{Yersinia ruckeri} & Solar Cult & 7.514200906 & 6.298762964 & 1.215437942 & \multirow{-9}{*}{2.194840751} & \multirow{-9}{*}{0.816955272} \\
+ & \textit{Serratia marcescens} & Solar Cult & 7.727933336 & 6.607609634 & 1.120323701 &  &  \\
+ & \textit{Escherichia coli} & 3M & 7.791359243 & 4.7276205 & 3.063738743 &  &  \\
+ & \textit{Escherichia coli} & LabPlas & 7.843715712 & 5.763583851 & 2.080131861 &  &  \\
+ & \textit{Escherichia coli} & Solar Cult & 7.755597151 & 6.256187694 & 1.499409457 &  &  \\
+ & \textit{Serratia marcescens} & 3M & 7.734137876 & 5.57518559 & 2.158952286 &  &  \\
+ & \textit{Serratia marcescens} & LabPlas & 7.067780342 & 3.380526087 & 3.687254255 &  &  \\
+ & \textit{Yersinia ruckeri} & 3M & 7.745999016 & 3.849110989 & 3.896888027 &  &  \\
+ & \textit{Yersinia ruckeri} & LabPlas & 7.569018643 & 5.297817943 & 2.2712007 &  &  \\
+\multirow{-9}{*}{ABS Plastic} & \textit{Yersinia ruckeri} & Solar Cult & 7.514200906 & 6.284290779 & 1.229910127 & \multirow{-9}{*}{2.334201017} & \multirow{-9}{*}{0.959978865} \\
+ & \textit{Serratia marcescens} & Solar Cult & 7.727933336 & 6.151358605 & 1.576574731 &  &  \\
+ & \textit{Yersinia ruckeri} & 3M & 7.745999016 & 3.72689566 & 4.019103356 &  &  \\
+ & \textit{Escherichia coli} & 3M & 7.858622522 & 5.830273586 & 2.028348935 &  &  \\
+ & \textit{Escherichia coli} & LabPlas & 7.630830762 & 4.835871651 & 2.794959111 &  &  \\
+ & \textit{Escherichia coli} & Solar Cult & 7.773747185 & 6.066739081 & 1.707008103 &  &  \\
+ & \textit{Serratia marcescens} & 3M & 7.734137876 & 4.994097667 & 2.740040209 &  &  \\
+ & \textit{Serratia marcescens} & LabPlas & 7.067780342 & 3.991249691 & 3.07653065 &  &  \\
+ & \textit{Yersinia ruckeri} & LabPlas & 7.569018643 & 5.20089824 & 2.368120403 &  &  \\
+\multirow{-9}{*}{Stainless Steel} & \textit{Yersinia ruckeri} & Solar Cult & 7.514200906 & 6.368279423 & 1.145921484 & \multirow{-9}{*}{2.384067443} & \multirow{-9}{*}{0.831240406}
+\end{tabular}
+\end{table}

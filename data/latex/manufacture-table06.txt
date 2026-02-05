@@ -1,0 +1,35 @@
+% Please add the following required packages to your document preamble:
+% \usepackage{multirow}
+% \usepackage[table,xcdraw]{xcolor}
+% Beamer presentation requires \usepackage{colortbl} instead of \usepackage[table,xcdraw]{xcolor}
+% \usepackage[normalem]{ulem}
+% \useunder{\uline}{\ul}{}
+\begin{table}[]
+\begin{tabular}{ccccc}
+\multicolumn{2}{c}{Parameter}                                              & {\ul Z6}       & {\ul Z5}      & {\ul Z50}      \\
+\multicolumn{2}{c}{\cellcolor[HTML]{E7E6E6}{\ul \textbf{Body}}}            &                &               &                \\
+\multicolumn{2}{c}{Type}                                                   & SLR Mirrorless & Mirrorless    & SLR Mirrorless \\
+\multicolumn{2}{c}{Material}                                               & Magnesium      & Composite     & Magnesium      \\
+\multicolumn{2}{c}{\cellcolor[HTML]{E7E6E6}{\ul \textbf{Sensor}}}          &                &               &                \\
+\multicolumn{2}{c}{Max Resolution}                                         & 6,048 x 4,024  & 6,016 x 4,016 & 5,568 x 3,712  \\
+\multicolumn{2}{c}{Image Ratio}                                            & 16:09          & 16:09         & 16:09          \\
+\multicolumn{2}{c}{Effective Pixels}                                       & 25 MP          & 24 MP         & 21 MP          \\
+\multicolumn{2}{c}{Sensor Size}                                            & Full Frame     & Full Frame    & APS-C          \\
+\multicolumn{2}{c}{\cellcolor[HTML]{E7E6E6}{\ul \textbf{Image}}}           &                &               &                \\
+\multicolumn{2}{c}{ISO}                                                    & 100 - 51,200   & 100 - 51,200  & 100 - 51,200   \\
+                                        & Minimum                          & 50             & 50            & -              \\
+                                        & Maximum                          & 204,800        & 102,400       & 204,800        \\
+                                        & WB Presets                       & 12             & 12            & -              \\
+\multirow{-4}{*}{Boosted}               & Image Stabilization              & Yes            & Yes           & No             \\
+\multicolumn{2}{c}{\cellcolor[HTML]{E7E6E6}{\ul \textbf{Optics \& Focus}}} &                &               &                \\
+\multicolumn{2}{c}{Autofocus}                                              & Contrast       & Contrast      & Contrast       \\
+\multicolumn{2}{c}{Digital Zoom}                                           & No             & No            & No             \\
+\multicolumn{2}{c}{Manual Focus}                                           & Yes            & Yes           & Yes            \\
+\multicolumn{2}{c}{Number of Focus Point}                                  & 273            & 273           & 209            \\
+\multicolumn{2}{c}{\cellcolor[HTML]{E7E6E6}{\ul \textbf{Screen}}}          &                &               &                \\
+\multicolumn{2}{c}{Size}                                                   & 3.2"           & 3.2"          & 3.2"           \\
+\multicolumn{2}{c}{Dots}                                                   & 2.1k           & 1.04k         & 1.04k          \\
+\multicolumn{2}{c}{Touch Screen}                                           & No             & Yes           & Yes            \\
+\multicolumn{2}{c}{Viewfinder Type}                                        & Electronic     & Electronic    & Electronic    
+\end{tabular}
+\end{table}

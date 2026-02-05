@@ -1,0 +1,541 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <meta name="generator" content="PhpSpreadsheet, https://github.com/PHPOffice/PhpSpreadsheet">
+      <meta name="author" content="旭 鲁" />
+      <meta name="company" content="Microsoft Corporation" />
+    <style type="text/css">
+      html { font-family:Calibri, Arial, Helvetica, sans-serif; font-size:11pt; background-color:white }
+      a.comment-indicator:hover + div.comment { background:#ffd; position:absolute; display:block; border:1px solid black; padding:0.5em }
+      a.comment-indicator { background:red; display:inline-block; border:1px solid black; width:0.5em; height:0.5em }
+      div.comment { display:none }
+      table { border-collapse:collapse; page-break-after:always }
+      .gridlines td { border:1px dotted black }
+      .gridlines th { border:1px dotted black }
+      .b { text-align:center }
+      .e { text-align:center }
+      .f { text-align:right }
+      .inlineStr { text-align:left }
+      .n { text-align:right }
+      .s { text-align:left }
+      td.style0 { vertical-align:middle; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      th.style0 { vertical-align:middle; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      td.style1 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      th.style1 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      td.style2 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:#FFFF00 }
+      th.style2 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:#FFFF00 }
+      td.style3 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:#FFFF00 }
+      th.style3 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:#FFFF00 }
+      td.style4 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:none #000000; border-right:1px solid #000000 !important; color:#000000; font-family:'等线'; font-size:11pt; background-color:#FFFF00 }
+      th.style4 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:none #000000; border-right:1px solid #000000 !important; color:#000000; font-family:'等线'; font-size:11pt; background-color:#FFFF00 }
+      td.style5 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      th.style5 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      td.style6 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      th.style6 { vertical-align:middle; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      td.style7 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      th.style7 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      td.style8 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      th.style8 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      td.style9 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      th.style9 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      td.style10 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; text-decoration:underline; color:#0066CC; font-family:'等线'; font-size:11pt; background-color:white }
+      th.style10 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; text-decoration:underline; color:#0066CC; font-family:'等线'; font-size:11pt; background-color:white }
+      td.style11 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:#92D050 }
+      th.style11 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:#92D050 }
+      td.style12 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:#92D050 }
+      th.style12 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:#92D050 }
+      td.style13 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:none #000000; border-right:1px solid #000000 !important; color:#000000; font-family:'等线'; font-size:11pt; background-color:#92D050 }
+      th.style13 { vertical-align:bottom; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:none #000000; border-right:1px solid #000000 !important; color:#000000; font-family:'等线'; font-size:11pt; background-color:#92D050 }
+      td.style14 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'等线'; font-size:11pt; background-color:#FFC000 }
+      th.style14 { vertical-align:middle; text-align:center; border-bottom:1px solid #000000 !important; border-top:1px solid #000000 !important; border-left:1px solid #000000 !important; border-right:1px solid #000000 !important; color:#000000; font-family:'等线'; font-size:11pt; background-color:#FFC000 }
+      td.style15 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#FF0000; font-family:'等线'; font-size:11pt; background-color:white }
+      th.style15 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#FF0000; font-family:'等线'; font-size:11pt; background-color:white }
+      td.style16 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      th.style16 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      td.style17 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#FF0000; font-family:'等线'; font-size:11pt; background-color:white }
+      th.style17 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#FF0000; font-family:'等线'; font-size:11pt; background-color:white }
+      table.sheet0 col.col0 { width:167.41110919pt }
+      table.sheet0 col.col1 { width:41.34444397pt }
+      table.sheet0 col.col2 { width:41.34444397pt }
+      table.sheet0 col.col3 { width:41.34444397pt }
+      table.sheet0 col.col4 { width:159.27777595pt }
+      table.sheet0 col.col5 { width:41.34444397pt }
+      table.sheet0 col.col6 { width:41.34444397pt }
+      table.sheet0 col.col7 { width:41.34444397pt }
+      table.sheet0 col.col8 { width:41.34444397pt }
+      table.sheet0 col.col9 { width:41.34444397pt }
+      table.sheet0 col.col10 { width:58.28888822pt }
+      table.sheet0 col.col11 { width:41.34444397pt }
+      table.sheet0 tr { height:15pt }
+      table.sheet0 tr.row1 { height:51pt }
+    </style>
+  </head>
+
+  <body>
+<style>
+@page { margin-left: 0.7in; margin-right: 0.7in; margin-top: 0.75in; margin-bottom: 0.75in; }
+body { margin-left: 0.7in; margin-right: 0.7in; margin-top: 0.75in; margin-bottom: 0.75in; }
+</style>
+    <table border="0" cellpadding="0" cellspacing="0" id="sheet0" class="sheet0 gridlines">
+        <col class="col0">
+        <col class="col1">
+        <col class="col2">
+        <col class="col3">
+        <col class="col4">
+        <col class="col5">
+        <col class="col6">
+        <col class="col7">
+        <col class="col8">
+        <col class="col9">
+        <col class="col10">
+        <col class="col11">
+        <tbody>
+          <tr class="row0">
+            <td class="column0 style2 s style4" colspan="3">Period 1</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4 style11 s style13" colspan="3">Period 2</td>
+            <td class="column7 style1 s">B+F or F</td>
+            <td class="column8 style1 s">C+G or G</td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10 style16 s">column H -&gt;</td>
+            <td class="column11 style1 s">If A match E =&gt; B+F or If A no match E =&gt; F</td>
+          </tr>
+          <tr class="row1">
+            <td class="column0 style5 s">SKU</td>
+            <td class="column1 style5 s">Units Ordered</td>
+            <td class="column2 style5 s">Ordered Product Sales</td>
+            <td class="column3 style6 null"></td>
+            <td class="column4 style5 s">SKU</td>
+            <td class="column5 style5 s">Units Ordered</td>
+            <td class="column6 style5 s">Ordered Product Sales</td>
+            <td class="column7 style14 s">Units Ordered</td>
+            <td class="column8 style14 s">Ordered Product Sales</td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10 style16 s">column I -&gt;</td>
+            <td class="column11 style1 s">If A match E =&gt; C+G or If A no match E =&gt; G</td>
+          </tr>
+          <tr class="row2">
+            <td class="column0 style7 s">NJ-7HP9-MTHK</td>
+            <td class="column1 style7 n">129</td>
+            <td class="column2 style8 n">$3.00 </td>
+            <td class="column3 style7 null"></td>
+            <td class="column4 style7 s">bis-fba-64</td>
+            <td class="column5 style1 n">95</td>
+            <td class="column6 style9 n">$3.00 </td>
+            <td class="column7 style15 f">218</td>
+            <td class="column8 style17 f">$11.00 </td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11">&nbsp;</td>
+          </tr>
+          <tr class="row3">
+            <td class="column0 style7 s">bis-fba-64</td>
+            <td class="column1 style7 n">123</td>
+            <td class="column2 style8 n">$8.00 </td>
+            <td class="column3 style7 null"></td>
+            <td class="column4 style7 s">NU-VEBP-BXH5</td>
+            <td class="column5 style1 n">86</td>
+            <td class="column6 style9 n">$8.00 </td>
+            <td class="column7 style15 f">157</td>
+            <td class="column8 style17 f">$63.00 </td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11">&nbsp;</td>
+          </tr>
+          <tr class="row4">
+            <td class="column0 style7 s">6M-5F1N-06EK</td>
+            <td class="column1 style7 n">107</td>
+            <td class="column2 style8 n">$2.00 </td>
+            <td class="column3 style7 null"></td>
+            <td class="column4 style7 s">bis-devacurl-onecond-nopoo-33duo</td>
+            <td class="column5 style1 n">83</td>
+            <td class="column6 style9 n">$2.00 </td>
+            <td class="column7 style15 f">171</td>
+            <td class="column8 style17 f">$7.00 </td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11">&nbsp;</td>
+          </tr>
+          <tr class="row5">
+            <td class="column0 style7 s">bis-devacurl-onecond-nopoo-33duo</td>
+            <td class="column1 style7 n">88</td>
+            <td class="column2 style8 n">$5.00 </td>
+            <td class="column3 style7 null"></td>
+            <td class="column4 style7 s">FBA-41868</td>
+            <td class="column5 style1 n">71</td>
+            <td class="column6 style9 n">$5.00 </td>
+            <td class="column7 style15 f">71</td>
+            <td class="column8 style17 f">$5.00 </td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11">&nbsp;</td>
+          </tr>
+          <tr class="row6">
+            <td class="column0 style7 s">bis-pmteatree-spec33-fba2</td>
+            <td class="column1 style7 n">64</td>
+            <td class="column2 style8 n">$11.00 </td>
+            <td class="column3 style7 null"></td>
+            <td class="column4 style7 s">WI-X8ZF-8N71</td>
+            <td class="column5 style1 n">61</td>
+            <td class="column6 style9 n">$11.00 </td>
+            <td class="column7 style15 f">104</td>
+            <td class="column8 style17 f">$59.97 </td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11">&nbsp;</td>
+          </tr>
+          <tr class="row7">
+            <td class="column0 style7 s">NU-VEBP-BXH5</td>
+            <td class="column1 style7 n">71</td>
+            <td class="column2 style8 n">$55.00 </td>
+            <td class="column3 style7 null"></td>
+            <td class="column4 style7 s">C8-N9WZ-1ZKN</td>
+            <td class="column5 style1 n">45</td>
+            <td class="column6 style9 n">$55.00 </td>
+            <td class="column7 style15 f">45</td>
+            <td class="column8 style17 f">$55.00 </td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11">&nbsp;</td>
+          </tr>
+          <tr class="row8">
+            <td class="column0 style7 s">TC-CYLE-U49U</td>
+            <td class="column1 style7 n">51</td>
+            <td class="column2 style8 n">$41.20 </td>
+            <td class="column3 style7 null"></td>
+            <td class="column4 style7 s">9U-YHWZ-X4CX</td>
+            <td class="column5 style1 n">34</td>
+            <td class="column6 style9 n">$41.20 </td>
+            <td class="column7 style15 f">72</td>
+            <td class="column8 style17 f">$97.94 </td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11">&nbsp;</td>
+          </tr>
+          <tr class="row9">
+            <td class="column0 style7 s">WI-X8ZF-8N71</td>
+            <td class="column1 style7 n">43</td>
+            <td class="column2 style8 n">$48.97 </td>
+            <td class="column3 style7 null"></td>
+            <td class="column4 style7 s">5X-UG7O-7124</td>
+            <td class="column5 style1 n">28</td>
+            <td class="column6 style9 n">$48.97 </td>
+            <td class="column7 style15 f">59</td>
+            <td class="column8 style17 f">$129.03 </td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11">&nbsp;</td>
+          </tr>
+          <tr class="row10">
+            <td class="column0 style7 s">9U-YHWZ-X4CX</td>
+            <td class="column1 style7 n">38</td>
+            <td class="column2 style8 n">$56.74 </td>
+            <td class="column3 style7 null"></td>
+            <td class="column4 style7 s">FBA-3160</td>
+            <td class="column5 style1 n">23</td>
+            <td class="column6 style9 n">$56.74 </td>
+            <td class="column7 style15 f">23</td>
+            <td class="column8 style17 f">$56.74 </td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11">&nbsp;</td>
+          </tr>
+          <tr class="row11">
+            <td class="column0 style7 s">SN-FI7L-YI6U</td>
+            <td class="column1 style7 n">37</td>
+            <td class="column2 style8 n">$64.51 </td>
+            <td class="column3 style7 null"></td>
+            <td class="column4 style7 s">S9-E5I6-TFX8</td>
+            <td class="column5 style1 n">21</td>
+            <td class="column6 style9 n">$64.51 </td>
+            <td class="column7 style15 f">50</td>
+            <td class="column8 style17 f">$152.34 </td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11">&nbsp;</td>
+          </tr>
+          <tr class="row12">
+            <td class="column0 style7 s">KV-XWOB-XD6F</td>
+            <td class="column1 style7 n">37</td>
+            <td class="column2 style8 n">$72.29 </td>
+            <td class="column3 style7 null"></td>
+            <td class="column4 style7 s">P7-V16P-W6GR</td>
+            <td class="column5 style1 n">20</td>
+            <td class="column6 style9 n">$72.29 </td>
+            <td class="column7 style15 f">29</td>
+            <td class="column8 style17 f">$253.37 </td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11">&nbsp;</td>
+          </tr>
+          <tr class="row13">
+            <td class="column0 style7 s">5X-UG7O-7124</td>
+            <td class="column1 style7 n">31</td>
+            <td class="column2 style8 n">$80.06 </td>
+            <td class="column3 style7 null"></td>
+            <td class="column4 style7 s">NJ-7HP9-MTHK</td>
+            <td class="column5 style1 n">16</td>
+            <td class="column6 style9 n">$80.06 </td>
+            <td class="column7 style15 f">145</td>
+            <td class="column8 style17 f">$83.06 </td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11">&nbsp;</td>
+          </tr>
+          <tr class="row14">
+            <td class="column0 style7 s">S9-E5I6-TFX8</td>
+            <td class="column1 style7 n">29</td>
+            <td class="column2 style8 n">$87.83 </td>
+            <td class="column3 style7 null"></td>
+            <td class="column4 style7 s">2D-GR8I-IWPY</td>
+            <td class="column5 style1 n">15</td>
+            <td class="column6 style9 n">$87.83 </td>
+            <td class="column7 style15 f">34</td>
+            <td class="column8 style17 f">$183.43 </td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11">&nbsp;</td>
+          </tr>
+          <tr class="row15">
+            <td class="column0 style7 s">2D-GR8I-IWPY</td>
+            <td class="column1 style7 n">19</td>
+            <td class="column2 style8 n">$95.60 </td>
+            <td class="column3 style7 null"></td>
+            <td class="column4 style7 s">MY-S76M-EUNF</td>
+            <td class="column5 style1 n">14</td>
+            <td class="column6 style9 n">$95.60 </td>
+            <td class="column7 style15 f">14</td>
+            <td class="column8 style17 f">$95.60 </td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11">&nbsp;</td>
+          </tr>
+          <tr class="row16">
+            <td class="column0 style7 s">HJ-ZJQ7-FW3Q</td>
+            <td class="column1 style7 n">15</td>
+            <td class="column2 style8 n">$103.37 </td>
+            <td class="column3 style7 null"></td>
+            <td class="column4 style7 s">G2-DIW7-8TOO</td>
+            <td class="column5 style1 n">13</td>
+            <td class="column6 style9 n">$103.37 </td>
+            <td class="column7 style15 f">13</td>
+            <td class="column8 style17 f">$103.37 </td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11">&nbsp;</td>
+          </tr>
+          <tr class="row17">
+            <td class="column0 style7 s">B5-O8T6-1R6M</td>
+            <td class="column1 style7 n">13</td>
+            <td class="column2 style8 n">$111.14 </td>
+            <td class="column3 style7 null"></td>
+            <td class="column4 style7 s">PF-PBRK-1OI2</td>
+            <td class="column5 style1 n">11</td>
+            <td class="column6 style9 n">$111.14 </td>
+            <td class="column7 style15 f">11</td>
+            <td class="column8 style17 f">$111.14 </td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11">&nbsp;</td>
+          </tr>
+          <tr class="row18">
+            <td class="column0 style7 s">bis-fba-77</td>
+            <td class="column1 style7 n">13</td>
+            <td class="column2 style8 n">$118.91 </td>
+            <td class="column3 style7 null"></td>
+            <td class="column4 style7 s">bis-alt-cav-volduo-fba</td>
+            <td class="column5 style1 n">10</td>
+            <td class="column6 style9 n">$118.91 </td>
+            <td class="column7 style15 f">10</td>
+            <td class="column8 style17 f">$118.91 </td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11">&nbsp;</td>
+          </tr>
+          <tr class="row19">
+            <td class="column0 style7 s">QL-TCGJ-L795</td>
+            <td class="column1 style7 n">13</td>
+            <td class="column2 style8 n">$126.69 </td>
+            <td class="column3 style7 null"></td>
+            <td class="column4 style7 s">6P-AT4U-JXCF</td>
+            <td class="column5 style1 n">10</td>
+            <td class="column6 style9 n">$126.69 </td>
+            <td class="column7 style15 f">10</td>
+            <td class="column8 style17 f">$126.69 </td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11">&nbsp;</td>
+          </tr>
+          <tr class="row20">
+            <td class="column0 style7 s">4U-DNF0-7B8Q</td>
+            <td class="column1 style7 n">12</td>
+            <td class="column2 style8 n">$134.46 </td>
+            <td class="column3 style7 null"></td>
+            <td class="column4 style7 s">TN-EMK0-EOBG</td>
+            <td class="column5 style1 n">9</td>
+            <td class="column6 style9 n">$134.46 </td>
+            <td class="column7 style15 f">9</td>
+            <td class="column8 style17 f">$134.46 </td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11">&nbsp;</td>
+          </tr>
+          <tr class="row21">
+            <td class="column0 style7 s">bis-pureo-perfsmduo-fba</td>
+            <td class="column1 style7 n">11</td>
+            <td class="column2 style8 n">$142.23 </td>
+            <td class="column3 style7 null"></td>
+            <td class="column4 style7 s">LV-20Q9-FUOD</td>
+            <td class="column5 style1 n">8</td>
+            <td class="column6 style9 n">$142.23 </td>
+            <td class="column7 style15 f">8</td>
+            <td class="column8 style17 f">$142.23 </td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11">&nbsp;</td>
+          </tr>
+          <tr class="row22">
+            <td class="column0 style1 s">bis-fba-80</td>
+            <td class="column1 style1 n">10</td>
+            <td class="column2 style9 n">$150.00 </td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4 style1 s">FBA-45682</td>
+            <td class="column5 style1 n">9</td>
+            <td class="column6 style9 n">$150.00 </td>
+            <td class="column7 style15 f">9</td>
+            <td class="column8 style17 f">$150.00 </td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11">&nbsp;</td>
+          </tr>
+          <tr class="row23">
+            <td class="column0 style1 s">FBA-4714-4715</td>
+            <td class="column1 style1 n">10</td>
+            <td class="column2 style9 n">$157.77 </td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4 style1 s">bis-pureo-perfsmduo-fba</td>
+            <td class="column5 style1 n">8</td>
+            <td class="column6 style9 n">$157.77 </td>
+            <td class="column7 style15 f">19</td>
+            <td class="column8 style17 f">$300.00 </td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11">&nbsp;</td>
+          </tr>
+          <tr class="row24">
+            <td class="column0 style1 s">F2-4GIQ-UFHE</td>
+            <td class="column1 style1 n">10</td>
+            <td class="column2 style9 n">$165.54 </td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4 style1 s">C0-RJM5-YW6U</td>
+            <td class="column5 style1 n">8</td>
+            <td class="column6 style9 n">$165.54 </td>
+            <td class="column7 style15 f">8</td>
+            <td class="column8 style17 f">$165.54 </td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11">&nbsp;</td>
+          </tr>
+          <tr class="row25">
+            <td class="column0 style1 s">FBA-17340</td>
+            <td class="column1 style1 n">10</td>
+            <td class="column2 style9 n">$173.31 </td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4 style1 s">FBA-47672</td>
+            <td class="column5 style1 n">8</td>
+            <td class="column6 style9 n">$173.31 </td>
+            <td class="column7 style15 f">17</td>
+            <td class="column8 style17 f">$362.17 </td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11">&nbsp;</td>
+          </tr>
+          <tr class="row26">
+            <td class="column0 style1 s">P7-V16P-W6GR</td>
+            <td class="column1 style1 n">9</td>
+            <td class="column2 style9 n">$181.09 </td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4 style1 s">FBA-17315</td>
+            <td class="column5 style1 n">7</td>
+            <td class="column6 style9 n">$181.09 </td>
+            <td class="column7 style15 f">7</td>
+            <td class="column8 style17 f">$181.09 </td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11">&nbsp;</td>
+          </tr>
+          <tr class="row27">
+            <td class="column0 style1 s">FBA-47672</td>
+            <td class="column1 style1 n">9</td>
+            <td class="column2 style9 n">$188.86 </td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4 style1 s">bis-pmteatree-spec33-fba2</td>
+            <td class="column5 style1 n">7</td>
+            <td class="column6 style9 n">$188.86 </td>
+            <td class="column7 style15 f">71</td>
+            <td class="column8 style17 f">$199.86 </td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11">&nbsp;</td>
+          </tr>
+          <tr class="row28">
+            <td class="column0">&nbsp;</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11">&nbsp;</td>
+          </tr>
+          <tr class="row29">
+            <td class="column0">&nbsp;</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11">&nbsp;</td>
+          </tr>
+          <tr class="row30">
+            <td class="column0 style10 null"></td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11">&nbsp;</td>
+          </tr>
+          <tr class="row31">
+            <td class="column0 style10 null"></td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+            <td class="column9">&nbsp;</td>
+            <td class="column10">&nbsp;</td>
+            <td class="column11">&nbsp;</td>
+          </tr>
+        </tbody>
+    </table>
+  </body>
+</html>

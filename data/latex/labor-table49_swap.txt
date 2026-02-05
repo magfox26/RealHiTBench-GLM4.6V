@@ -1,0 +1,81 @@
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+% \usepackage{multirow}
+\begin{table}[]
+\begin{tabular}{@{}cll@{}}
+\multicolumn{1}{l}{Count of Employees} &  &  \\
+\multicolumn{1}{l}{Australia Total} &  & 20 \\
+\multirow{8}{*}{Brazil} & Finance & 1 \\
+ & HR & 4 \\
+ & IT & 4 \\
+ & Legal & 1 \\
+ & Marketing & 1 \\
+ & Procurement & 1 \\
+ & Sales & 3 \\
+ & Travel & 2 \\
+\multicolumn{1}{l}{Country} & Function & Total \\
+\multirow{7}{*}{Australia} & Finance & 3 \\
+ & HR & 3 \\
+ & IT & 2 \\
+ & Legal & 3 \\
+ & Marketing & 3 \\
+ & Procurement & 4 \\
+ & Sales & 2 \\
+\multicolumn{1}{l}{Brazil Total} &  & 17 \\
+\multirow{6}{*}{Cannada} & Finance & 1 \\
+ & HR & 4 \\
+ & IT & 3 \\
+ & Legal & 3 \\
+ & Sales & 1 \\
+ & Travel & 3 \\
+\multicolumn{1}{l}{Cannada Total} &  & 15 \\
+\multirow{4}{*}{China} & Finance & 1 \\
+ & HR & 4 \\
+ & Legal & 1 \\
+ & Procurement & 1 \\
+\multicolumn{1}{l}{China Total} &  & 7 \\
+\multirow{6}{*}{Germany} & HR & 4 \\
+ & IT & 2 \\
+ & Legal & 3 \\
+ & Procurement & 6 \\
+ & Sales & 1 \\
+ & Travel & 3 \\
+\multicolumn{1}{l}{Germany Total} &  & 19 \\
+\multirow{4}{*}{India} & Finance & 1 \\
+ & HR & 4 \\
+ & Legal & 1 \\
+ & Procurement & 1 \\
+\multicolumn{1}{l}{India Total} &  & 7 \\
+\multirow{6}{*}{Russia} & Finance & 1 \\
+ & HR & 1 \\
+ & IT & 1 \\
+ & Marketing & 5 \\
+ & Procurement & 2 \\
+ & Sales & 2 \\
+\multicolumn{1}{l}{Russia Total} &  & 12 \\
+\multirow{8}{*}{Spain} & Finance & 4 \\
+ & HR & 2 \\
+ & IT & 1 \\
+ & Legal & 1 \\
+ & Marketing & 2 \\
+ & Procurement & 6 \\
+ & Sales & 3 \\
+ & Travel & 3 \\
+\multicolumn{1}{l}{Spain Total} &  & 22 \\
+\multirow{7}{*}{UK} & Finance & 2 \\
+ & HR & 1 \\
+ & IT & 2 \\
+ & Marketing & 5 \\
+ & Procurement & 4 \\
+ & Sales & 3 \\
+ & Travel & 3 \\
+\multicolumn{1}{l}{UK Total} &  & 20 \\
+\multirow{5}{*}{USA} & HR & 4 \\
+ & IT & 1 \\
+ & Legal & 1 \\
+ & Procurement & 4 \\
+ & Travel & 1 \\
+\multicolumn{1}{l}{USA Total} &  & 11 \\
+\multicolumn{1}{l}{Grand Total} &  & 150
+\end{tabular}
+\end{table}

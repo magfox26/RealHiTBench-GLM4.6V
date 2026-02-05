@@ -1,0 +1,23 @@
+% Please add the following required packages to your document preamble:
+% \usepackage{multirow}
+% \usepackage[table,xcdraw]{xcolor}
+% Beamer presentation requires \usepackage{colortbl} instead of \usepackage[table,xcdraw]{xcolor}
+\begin{table}[]
+\begin{tabular}{lll}
+\rowcolor[HTML]{70AD47} 
+\cellcolor[HTML]{70AD47}                                                                                                    & \multicolumn{2}{l}{\cellcolor[HTML]{70AD47}\textbf{\% Yield 50th centile}}                                \\
+\rowcolor[HTML]{C6E0B4} 
+\multirow{-2}{*}{\cellcolor[HTML]{70AD47}\textbf{Crop}}                                                                     & \textbf{Removal of negative changes in crop yield} & \textbf{Inclusion of negative changes in crop yield} \\
+\cellcolor[HTML]{C6E0B4}\textbf{All crops}                                                                                  & 17                                                 & 18.6                                                 \\
+\cellcolor[HTML]{C6E0B4}\textbf{Barley}                                                                                     & 13.7                                               & 14.5                                                 \\
+\cellcolor[HTML]{C6E0B4}\textbf{Canola}                                                                                     & 46.3                                               & NA                                                   \\
+\cellcolor[HTML]{C6E0B4}\textbf{Corn}                                                                                       & 32                                                 & 26.5                                                 \\
+\cellcolor[HTML]{C6E0B4}\textbf{Oat}                                                                                        & NA*                                                & NA                                                   \\
+\cellcolor[HTML]{C6E0B4}\textbf{Soybean}                                                                                    & 12                                                 & 13.5                                                 \\
+\cellcolor[HTML]{C6E0B4}\textbf{Wheat}                                                                                      & 30.2                                               & 23.6                                                 \\
+\textbf{}                                                                                                                   &                                                    &                                                      \\
+\textit{Determined from R output of reviewed pesticide yield studies}                                                       & \textit{}                                          & \textit{}                                            \\
+NA* = Not applicable as a cumulative frequency distribution could not be constructed due to a lack of data                  &                                                    &                                                      \\
+NA = Not applicable as the studies for the given crop did not report negative changes in yield due to a pesticide treatment &                                                    &                                                     
+\end{tabular}
+\end{table}

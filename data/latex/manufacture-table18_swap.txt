@@ -1,0 +1,38 @@
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+% \usepackage{multirow}
+% \usepackage[table,xcdraw]{xcolor}
+% Beamer presentation requires \usepackage{colortbl} instead of \usepackage[table,xcdraw]{xcolor}
+\begin{table}[]
+\begin{tabular}{@{}ccll@{}}
+\rowcolor[HTML]{FFFF00} 
+\multicolumn{1}{l}{\cellcolor[HTML]{FFFF00}{\color[HTML]{FF0000} \textbf{Clasiification}}} & \multicolumn{1}{l}{\cellcolor[HTML]{FFFF00}{\color[HTML]{FF0000} \textbf{sub classification}}} & {\color[HTML]{FF0000} \textbf{category}} & {\color[HTML]{FF0000} \textbf{value}} \\
+\multicolumn{1}{l}{} & \multicolumn{1}{l}{} &  &  \\
+ &  & Process & 78 \\
+ &  & dark & 71 \\
+ &  & High & 70 \\
+ &  & unsorted & 48 \\
+ & \multirow{-5}{*}{PinK Lady} & Light & 44 \\
+ &  & Old & 79 \\
+ &  & low & 74 \\
+ &  & unsorted & 53 \\
+ &  & Light & 49 \\
+\multirow{-10}{*}{Apple} & \multirow{-5}{*}{Golden} & Process & 43 \\
+\multicolumn{1}{l}{} & \multicolumn{1}{l}{} &  &  \\
+ &  & unsorted & 80 \\
+ &  & High & 77 \\
+ &  & sort & 70 \\
+ &  & Old & 68 \\
+ & \multirow{-5}{*}{Navel} & Process & 47 \\
+ &  & unsorted & 75 \\
+ &  & sort & 65 \\
+ &  & High & 50 \\
+ &  & dark & 45 \\
+ & \multirow{-5}{*}{mandrin} & Process & 42 \\
+ &  & low & 81 \\
+ &  & Process & 73 \\
+ &  & unsorted & 45 \\
+ &  & dark & 44 \\
+\multirow{-15}{*}{Orange} & \multirow{-5}{*}{Red} & Light & 41
+\end{tabular}
+\end{table}

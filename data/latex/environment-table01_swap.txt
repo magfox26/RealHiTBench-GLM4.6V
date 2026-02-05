@@ -1,0 +1,513 @@
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+% \usepackage{multirow}
+% \usepackage[table,xcdraw]{xcolor}
+% Beamer presentation requires \usepackage{colortbl} instead of \usepackage[table,xcdraw]{xcolor}
+\begin{table}[]
+\begin{tabular}{@{}lrrrrrr@{}}
+\textbf{Climate hasard statistics - Regions} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} \\
+Frequency of observation: Annual & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} \\
+Territorial level: TL2 & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} \\
+ & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} \\
+\rowcolor[HTML]{0549AB} 
+\multicolumn{2}{l}{\cellcolor[HTML]{0549AB}{\color[HTML]{FFFFFF} \textbf{Time period}}} & \multicolumn{1}{c}{\cellcolor[HTML]{0549AB}{\color[HTML]{FFFFFF} 2017}} & \multicolumn{1}{c}{\cellcolor[HTML]{0549AB}{\color[HTML]{FFFFFF} 2018}} & \multicolumn{1}{c}{\cellcolor[HTML]{0549AB}{\color[HTML]{FFFFFF} 2019}} & \multicolumn{1}{c}{\cellcolor[HTML]{0549AB}{\color[HTML]{FFFFFF} 2020}} & \multicolumn{1}{c}{\cellcolor[HTML]{0549AB}{\color[HTML]{FFFFFF} 2021}} \\
+\rowcolor[HTML]{F1F1F1} 
+\cellcolor[HTML]{E2F2FB}\textbf{Reference area} & \multicolumn{1}{l}{\cellcolor[HTML]{F1F1F1}} & \multicolumn{1}{l}{\cellcolor[HTML]{F1F1F1}} & \multicolumn{1}{l}{\cellcolor[HTML]{F1F1F1}} & \multicolumn{1}{l}{\cellcolor[HTML]{F1F1F1}} & \multicolumn{1}{l}{\cellcolor[HTML]{F1F1F1}} & \multicolumn{1}{l}{\cellcolor[HTML]{F1F1F1}} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Measure: Land exposure to river flooding} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Combined unit of measure: Percentage of area} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Return period: 20 years} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Heat stress threshold: Not applicable} & \multirow{-4}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}New South Wales & \cellcolor[HTML]{F1F1F1} & 8.9 & 8.9 & 8.9 & 8.9 &  \\
+\cellcolor[HTML]{E2F2FB}Victoria & \cellcolor[HTML]{F1F1F1} & 2.7 & 2.7 & 2.7 & 2.7 &  \\
+\cellcolor[HTML]{E2F2FB}Queensland & \cellcolor[HTML]{F1F1F1} & 7.8 & 7.8 & 7.8 & 7.8 &  \\
+\cellcolor[HTML]{E2F2FB}South Australia & \cellcolor[HTML]{F1F1F1} & 2.2 & 2.2 & 2.2 & 2.2 &  \\
+\cellcolor[HTML]{E2F2FB}Western Australia & \cellcolor[HTML]{F1F1F1} & 1.3 & 1.3 & 1.3 & 1.3 &  \\
+\cellcolor[HTML]{E2F2FB}Tasmania & \cellcolor[HTML]{F1F1F1} & 0.2 & 0.2 & 0.2 & 0.2 &  \\
+\cellcolor[HTML]{E2F2FB}Northern Territory & \cellcolor[HTML]{F1F1F1} & 2.3 & 2.3 & 2.3 & 2.3 &  \\
+\cellcolor[HTML]{E2F2FB}Australian Capital Territory & \cellcolor[HTML]{F1F1F1} & 1.4 & 1.4 & 1.4 & 1.4 &  \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Measure: Land exposure to river flooding} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Combined unit of measure: Percentage of area} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Return period: 10 years} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Heat stress threshold: Not applicable} & \multirow{-4}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}New South Wales & \cellcolor[HTML]{F1F1F1} & 8.0 & 8.0 & 8.0 & 8.0 &  \\
+\cellcolor[HTML]{E2F2FB}Victoria & \cellcolor[HTML]{F1F1F1} & 2.4 & 2.4 & 2.4 & 2.4 &  \\
+\cellcolor[HTML]{E2F2FB}Queensland & \cellcolor[HTML]{F1F1F1} & 7.2 & 7.2 & 7.2 & 7.2 &  \\
+\cellcolor[HTML]{E2F2FB}South Australia & \cellcolor[HTML]{F1F1F1} & 2.0 & 2.0 & 2.0 & 2.0 &  \\
+\cellcolor[HTML]{E2F2FB}Western Australia & \cellcolor[HTML]{F1F1F1} & 1.1 & 1.1 & 1.1 & 1.1 &  \\
+\cellcolor[HTML]{E2F2FB}Tasmania & \cellcolor[HTML]{F1F1F1} & 0.2 & 0.2 & 0.2 & 0.2 &  \\
+\cellcolor[HTML]{E2F2FB}Northern Territory & \cellcolor[HTML]{F1F1F1} & 2.1 & 2.1 & 2.1 & 2.1 &  \\
+\cellcolor[HTML]{E2F2FB}Australian Capital Territory & \cellcolor[HTML]{F1F1F1} & 1.4 & 1.4 & 1.4 & 1.4 &  \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Measure: Land exposure to river flooding} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Combined unit of measure: Percentage of area} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Return period: 50 years} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Heat stress threshold: Not applicable} & \multirow{-4}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}New South Wales & \cellcolor[HTML]{F1F1F1} & 9.9 & 9.9 & 9.9 & 9.9 &  \\
+\cellcolor[HTML]{E2F2FB}Victoria & \cellcolor[HTML]{F1F1F1} & 2.9 & 2.9 & 2.9 & 2.9 &  \\
+\cellcolor[HTML]{E2F2FB}Queensland & \cellcolor[HTML]{F1F1F1} & 8.5 & 8.5 & 8.5 & 8.5 &  \\
+\cellcolor[HTML]{E2F2FB}South Australia & \cellcolor[HTML]{F1F1F1} & 2.4 & 2.4 & 2.4 & 2.4 &  \\
+\cellcolor[HTML]{E2F2FB}Western Australia & \cellcolor[HTML]{F1F1F1} & 1.5 & 1.5 & 1.5 & 1.5 &  \\
+\cellcolor[HTML]{E2F2FB}Tasmania & \cellcolor[HTML]{F1F1F1} & 0.2 & 0.2 & 0.2 & 0.2 &  \\
+\cellcolor[HTML]{E2F2FB}Northern Territory & \cellcolor[HTML]{F1F1F1} & 2.5 & 2.5 & 2.5 & 2.5 &  \\
+\cellcolor[HTML]{E2F2FB}Australian Capital Territory & \cellcolor[HTML]{F1F1F1} & 1.4 & 1.4 & 1.4 & 1.4 &  \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Measure: Land exposure to river flooding} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Combined unit of measure: Percentage of area} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Return period: 100 years} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Heat stress threshold: Not applicable} & \multirow{-4}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}New South Wales & \cellcolor[HTML]{F1F1F1} & 10.5 & 10.5 & 10.5 & 10.5 &  \\
+\cellcolor[HTML]{E2F2FB}Victoria & \cellcolor[HTML]{F1F1F1} & 3.1 & 3.1 & 3.1 & 3.1 &  \\
+\cellcolor[HTML]{E2F2FB}Queensland & \cellcolor[HTML]{F1F1F1} & 8.9 & 8.9 & 8.9 & 8.9 &  \\
+\cellcolor[HTML]{E2F2FB}South Australia & \cellcolor[HTML]{F1F1F1} & 2.6 & 2.6 & 2.6 & 2.6 &  \\
+\cellcolor[HTML]{E2F2FB}Western Australia & \cellcolor[HTML]{F1F1F1} & 1.6 & 1.6 & 1.6 & 1.6 &  \\
+\cellcolor[HTML]{E2F2FB}Tasmania & \cellcolor[HTML]{F1F1F1} & 0.2 & 0.2 & 0.2 & 0.2 &  \\
+\cellcolor[HTML]{E2F2FB}Northern Territory & \cellcolor[HTML]{F1F1F1} & 2.7 & 2.7 & 2.7 & 2.7 &  \\
+\cellcolor[HTML]{E2F2FB}Australian Capital Territory & \cellcolor[HTML]{F1F1F1} & 1.5 & 1.5 & 1.5 & 1.5 &  \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Measure: Built-up area exposure to river flooding} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Combined unit of measure: Percentage of built-up area} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Return period: 10 years} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Heat stress threshold: Not applicable} & \multirow{-4}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}New South Wales & \cellcolor[HTML]{F1F1F1} & 4.0 & 4.0 & 4.0 & 4.0 &  \\
+\cellcolor[HTML]{E2F2FB}Victoria & \cellcolor[HTML]{F1F1F1} & 2.0 & 2.0 & 2.1 & 2.1 &  \\
+\cellcolor[HTML]{E2F2FB}Queensland & \cellcolor[HTML]{F1F1F1} & 7.2 & 7.1 & 7.2 & 7.2 &  \\
+\cellcolor[HTML]{E2F2FB}South Australia & \cellcolor[HTML]{F1F1F1} & 4.5 & 4.6 & 4.7 & 4.7 &  \\
+\cellcolor[HTML]{E2F2FB}Western Australia & \cellcolor[HTML]{F1F1F1} & 2.4 & 2.3 & 2.3 & 2.3 &  \\
+\cellcolor[HTML]{E2F2FB}Tasmania & \cellcolor[HTML]{F1F1F1} & 3.3 & 3.3 & 3.3 & 3.3 &  \\
+\cellcolor[HTML]{E2F2FB}Northern Territory & \cellcolor[HTML]{F1F1F1} & 4.0 & 4.0 & 3.7 & 3.7 &  \\
+\cellcolor[HTML]{E2F2FB}Australian Capital Territory & \cellcolor[HTML]{F1F1F1} & 0.0 & 0.0 & 0.0 & 0.0 &  \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Measure: Built-up area exposure to river flooding} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Combined unit of measure: Percentage of built-up area} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Return period: 20 years} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Heat stress threshold: Not applicable} & \multirow{-4}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}New South Wales & \cellcolor[HTML]{F1F1F1} & 4.3 & 4.3 & 4.4 & 4.4 &  \\
+\cellcolor[HTML]{E2F2FB}Victoria & \cellcolor[HTML]{F1F1F1} & 2.3 & 2.3 & 2.4 & 2.4 &  \\
+\cellcolor[HTML]{E2F2FB}Queensland & \cellcolor[HTML]{F1F1F1} & 7.6 & 7.5 & 7.5 & 7.5 &  \\
+\cellcolor[HTML]{E2F2FB}South Australia & \cellcolor[HTML]{F1F1F1} & 4.8 & 4.9 & 5.0 & 5.0 &  \\
+\cellcolor[HTML]{E2F2FB}Western Australia & \cellcolor[HTML]{F1F1F1} & 2.5 & 2.5 & 2.4 & 2.4 &  \\
+\cellcolor[HTML]{E2F2FB}Tasmania & \cellcolor[HTML]{F1F1F1} & 3.5 & 3.5 & 3.5 & 3.5 &  \\
+\cellcolor[HTML]{E2F2FB}Northern Territory & \cellcolor[HTML]{F1F1F1} & 4.0 & 4.0 & 3.7 & 3.7 &  \\
+\cellcolor[HTML]{E2F2FB}Australian Capital Territory & \cellcolor[HTML]{F1F1F1} & 0.0 & 0.1 & 0.1 & 0.1 &  \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Measure: Built-up area exposure to river flooding} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Combined unit of measure: Percentage of built-up area} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Return period: 50 years} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Heat stress threshold: Not applicable} & \multirow{-4}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}New South Wales & \cellcolor[HTML]{F1F1F1} & 4.7 & 4.7 & 4.8 & 4.8 &  \\
+\cellcolor[HTML]{E2F2FB}Victoria & \cellcolor[HTML]{F1F1F1} & 2.4 & 2.4 & 2.5 & 2.5 &  \\
+\cellcolor[HTML]{E2F2FB}Queensland & \cellcolor[HTML]{F1F1F1} & 7.9 & 7.9 & 7.9 & 7.9 &  \\
+\cellcolor[HTML]{E2F2FB}South Australia & \cellcolor[HTML]{F1F1F1} & 5.1 & 5.1 & 5.2 & 5.2 &  \\
+\cellcolor[HTML]{E2F2FB}Western Australia & \cellcolor[HTML]{F1F1F1} & 2.6 & 2.6 & 2.6 & 2.6 &  \\
+\cellcolor[HTML]{E2F2FB}Tasmania & \cellcolor[HTML]{F1F1F1} & 4.1 & 4.1 & 4.1 & 4.1 &  \\
+\cellcolor[HTML]{E2F2FB}Northern Territory & \cellcolor[HTML]{F1F1F1} & 4.3 & 4.3 & 4.0 & 4.0 &  \\
+\cellcolor[HTML]{E2F2FB}Australian Capital Territory & \cellcolor[HTML]{F1F1F1} & 0.0 & 0.1 & 0.1 & 0.1 &  \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Measure: Built-up area exposure to river flooding} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Combined unit of measure: Percentage of built-up area} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Return period: 100 years} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Heat stress threshold: Not applicable} & \multirow{-4}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}New South Wales & \cellcolor[HTML]{F1F1F1} & 5.1 & 5.1 & 5.1 & 5.1 &  \\
+\cellcolor[HTML]{E2F2FB}Victoria & \cellcolor[HTML]{F1F1F1} & 2.5 & 2.5 & 2.6 & 2.6 &  \\
+\cellcolor[HTML]{E2F2FB}Queensland & \cellcolor[HTML]{F1F1F1} & 8.1 & 8.1 & 8.1 & 8.1 &  \\
+\cellcolor[HTML]{E2F2FB}South Australia & \cellcolor[HTML]{F1F1F1} & 5.1 & 5.2 & 5.3 & 5.3 &  \\
+\cellcolor[HTML]{E2F2FB}Western Australia & \cellcolor[HTML]{F1F1F1} & 2.9 & 2.9 & 2.9 & 2.9 &  \\
+\cellcolor[HTML]{E2F2FB}Tasmania & \cellcolor[HTML]{F1F1F1} & 4.1 & 4.1 & 4.1 & 4.1 &  \\
+\cellcolor[HTML]{E2F2FB}Northern Territory & \cellcolor[HTML]{F1F1F1} & 4.6 & 4.6 & 4.2 & 4.2 &  \\
+\cellcolor[HTML]{E2F2FB}Australian Capital Territory & \cellcolor[HTML]{F1F1F1} & 0.0 & 0.1 & 0.1 & 0.1 &  \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Measure: Land exposure to coastal flooding} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Combined unit of measure: Percentage of area} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Return period: 10 years} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Heat stress threshold: Not applicable} & \multirow{-4}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}New South Wales & \cellcolor[HTML]{F1F1F1} & 0.0 & 0.0 & 0.0 & 0.0 &  \\
+\cellcolor[HTML]{E2F2FB}Victoria & \cellcolor[HTML]{F1F1F1} & 0.0 & 0.0 & 0.0 & 0.0 &  \\
+\cellcolor[HTML]{E2F2FB}Queensland & \cellcolor[HTML]{F1F1F1} & 0.3 & 0.3 & 0.3 & 0.3 &  \\
+\cellcolor[HTML]{E2F2FB}South Australia & \cellcolor[HTML]{F1F1F1} & 0.0 & 0.0 & 0.0 & 0.0 &  \\
+\cellcolor[HTML]{E2F2FB}Western Australia & \cellcolor[HTML]{F1F1F1} & 0.2 & 0.2 & 0.2 & 0.2 &  \\
+\cellcolor[HTML]{E2F2FB}Tasmania & \cellcolor[HTML]{F1F1F1} & 0.1 & 0.1 & 0.1 & 0.1 &  \\
+\cellcolor[HTML]{E2F2FB}Northern Territory & \cellcolor[HTML]{F1F1F1} & 0.4 & 0.4 & 0.4 & 0.4 &  \\
+\cellcolor[HTML]{E2F2FB}Australian Capital Territory & \cellcolor[HTML]{F1F1F1} & 0.0 & 0.0 & 0.0 & 0.0 &  \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Measure: Land exposure to coastal flooding} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Combined unit of measure: Percentage of area} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Return period: 20 years} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Heat stress threshold: Not applicable} & \multirow{-4}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}New South Wales & \cellcolor[HTML]{F1F1F1} & 0.0 & 0.0 & 0.0 & 0.0 &  \\
+\cellcolor[HTML]{E2F2FB}Victoria & \cellcolor[HTML]{F1F1F1} & 0.0 & 0.0 & 0.0 & 0.0 &  \\
+\cellcolor[HTML]{E2F2FB}Queensland & \cellcolor[HTML]{F1F1F1} & 0.4 & 0.4 & 0.4 & 0.4 &  \\
+\cellcolor[HTML]{E2F2FB}South Australia & \cellcolor[HTML]{F1F1F1} & 0.0 & 0.0 & 0.0 & 0.0 &  \\
+\cellcolor[HTML]{E2F2FB}Western Australia & \cellcolor[HTML]{F1F1F1} & 0.2 & 0.2 & 0.2 & 0.2 &  \\
+\cellcolor[HTML]{E2F2FB}Tasmania & \cellcolor[HTML]{F1F1F1} & 0.1 & 0.1 & 0.1 & 0.1 &  \\
+\cellcolor[HTML]{E2F2FB}Northern Territory & \cellcolor[HTML]{F1F1F1} & 0.4 & 0.4 & 0.4 & 0.4 &  \\
+\cellcolor[HTML]{E2F2FB}Australian Capital Territory & \cellcolor[HTML]{F1F1F1} & 0.0 & 0.0 & 0.0 & 0.0 &  \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Measure: Land exposure to coastal flooding} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Combined unit of measure: Percentage of area} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Return period: 50 years} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Heat stress threshold: Not applicable} & \multirow{-4}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}New South Wales & \cellcolor[HTML]{F1F1F1} & 0.0 & 0.0 & 0.0 & 0.0 &  \\
+\cellcolor[HTML]{E2F2FB}Victoria & \cellcolor[HTML]{F1F1F1} & 0.0 & 0.0 & 0.0 & 0.0 &  \\
+\cellcolor[HTML]{E2F2FB}Queensland & \cellcolor[HTML]{F1F1F1} & 0.4 & 0.4 & 0.4 & 0.4 &  \\
+\cellcolor[HTML]{E2F2FB}South Australia & \cellcolor[HTML]{F1F1F1} & 0.0 & 0.0 & 0.0 & 0.0 &  \\
+\cellcolor[HTML]{E2F2FB}Western Australia & \cellcolor[HTML]{F1F1F1} & 0.2 & 0.2 & 0.2 & 0.2 &  \\
+\cellcolor[HTML]{E2F2FB}Tasmania & \cellcolor[HTML]{F1F1F1} & 0.1 & 0.1 & 0.1 & 0.1 &  \\
+\cellcolor[HTML]{E2F2FB}Northern Territory & \cellcolor[HTML]{F1F1F1} & 0.5 & 0.5 & 0.5 & 0.5 &  \\
+\cellcolor[HTML]{E2F2FB}Australian Capital Territory & \cellcolor[HTML]{F1F1F1} & 0.0 & 0.0 & 0.0 & 0.0 &  \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Measure: Land exposure to coastal flooding} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Combined unit of measure: Percentage of area} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Return period: 100 years} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Heat stress threshold: Not applicable} & \multirow{-4}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}New South Wales & \cellcolor[HTML]{F1F1F1} & 0.0 & 0.0 & 0.0 & 0.0 &  \\
+\cellcolor[HTML]{E2F2FB}Victoria & \cellcolor[HTML]{F1F1F1} & 0.0 & 0.0 & 0.0 & 0.0 &  \\
+\cellcolor[HTML]{E2F2FB}Queensland & \cellcolor[HTML]{F1F1F1} & 0.4 & 0.4 & 0.4 & 0.4 &  \\
+\cellcolor[HTML]{E2F2FB}South Australia & \cellcolor[HTML]{F1F1F1} & 0.0 & 0.0 & 0.0 & 0.0 &  \\
+\cellcolor[HTML]{E2F2FB}Western Australia & \cellcolor[HTML]{F1F1F1} & 0.2 & 0.2 & 0.2 & 0.2 &  \\
+\cellcolor[HTML]{E2F2FB}Tasmania & \cellcolor[HTML]{F1F1F1} & 0.1 & 0.1 & 0.1 & 0.1 &  \\
+\cellcolor[HTML]{E2F2FB}Northern Territory & \cellcolor[HTML]{F1F1F1} & 0.5 & 0.5 & 0.5 & 0.5 &  \\
+\cellcolor[HTML]{E2F2FB}Australian Capital Territory & \cellcolor[HTML]{F1F1F1} & 0.0 & 0.0 & 0.0 & 0.0 &  \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Measure: Built-up area exposure to coastal flooding} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Combined unit of measure: Percentage of built-up area} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Return period: 10 years} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Heat stress threshold: Not applicable} & \multirow{-4}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}New South Wales & \cellcolor[HTML]{F1F1F1} & 0.1 & 0.1 & 0.1 & 0.1 &  \\
+\cellcolor[HTML]{E2F2FB}Victoria & \cellcolor[HTML]{F1F1F1} & 0.0 & 0.0 & 0.0 & 0.0 &  \\
+\cellcolor[HTML]{E2F2FB}Queensland & \cellcolor[HTML]{F1F1F1} & 0.4 & 0.4 & 0.4 & 0.4 &  \\
+\cellcolor[HTML]{E2F2FB}South Australia & \cellcolor[HTML]{F1F1F1} & 0.1 & 0.1 & 0.1 & 0.1 &  \\
+\cellcolor[HTML]{E2F2FB}Western Australia & \cellcolor[HTML]{F1F1F1} & 0.1 & 0.1 & 0.1 & 0.1 &  \\
+\cellcolor[HTML]{E2F2FB}Tasmania & \cellcolor[HTML]{F1F1F1} & 0.0 & 0.0 & 0.0 & 0.0 &  \\
+\cellcolor[HTML]{E2F2FB}Northern Territory & \cellcolor[HTML]{F1F1F1} & 0.1 & 0.1 & 0.1 & 0.1 &  \\
+\cellcolor[HTML]{E2F2FB}Australian Capital Territory & \cellcolor[HTML]{F1F1F1} & 0.0 & 0.0 & 0.0 & 0.0 &  \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Measure: Built-up area exposure to coastal flooding} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Combined unit of measure: Percentage of built-up area} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Return period: 20 years} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Heat stress threshold: Not applicable} & \multirow{-4}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}New South Wales & \cellcolor[HTML]{F1F1F1} & 0.1 & 0.1 & 0.1 & 0.1 &  \\
+\cellcolor[HTML]{E2F2FB}Victoria & \cellcolor[HTML]{F1F1F1} & 0.0 & 0.0 & 0.0 & 0.0 &  \\
+\cellcolor[HTML]{E2F2FB}Queensland & \cellcolor[HTML]{F1F1F1} & 0.4 & 0.4 & 0.4 & 0.4 &  \\
+\cellcolor[HTML]{E2F2FB}South Australia & \cellcolor[HTML]{F1F1F1} & 0.1 & 0.1 & 0.1 & 0.1 &  \\
+\cellcolor[HTML]{E2F2FB}Western Australia & \cellcolor[HTML]{F1F1F1} & 0.1 & 0.1 & 0.1 & 0.1 &  \\
+\cellcolor[HTML]{E2F2FB}Tasmania & \cellcolor[HTML]{F1F1F1} & 0.0 & 0.0 & 0.0 & 0.0 &  \\
+\cellcolor[HTML]{E2F2FB}Northern Territory & \cellcolor[HTML]{F1F1F1} & 0.1 & 0.1 & 0.1 & 0.1 &  \\
+\cellcolor[HTML]{E2F2FB}Australian Capital Territory & \cellcolor[HTML]{F1F1F1} & 0.0 & 0.0 & 0.0 & 0.0 &  \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Measure: Built-up area exposure to coastal flooding} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Combined unit of measure: Percentage of built-up area} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Return period: 50 years} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Heat stress threshold: Not applicable} & \multirow{-4}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}New South Wales & \cellcolor[HTML]{F1F1F1} & 0.1 & 0.1 & 0.1 & 0.1 &  \\
+\cellcolor[HTML]{E2F2FB}Victoria & \cellcolor[HTML]{F1F1F1} & 0.0 & 0.0 & 0.0 & 0.0 &  \\
+\cellcolor[HTML]{E2F2FB}Queensland & \cellcolor[HTML]{F1F1F1} & 0.5 & 0.5 & 0.5 & 0.5 &  \\
+\cellcolor[HTML]{E2F2FB}South Australia & \cellcolor[HTML]{F1F1F1} & 0.2 & 0.2 & 0.2 & 0.2 &  \\
+\cellcolor[HTML]{E2F2FB}Western Australia & \cellcolor[HTML]{F1F1F1} & 0.1 & 0.1 & 0.1 & 0.1 &  \\
+\cellcolor[HTML]{E2F2FB}Tasmania & \cellcolor[HTML]{F1F1F1} & 0.0 & 0.0 & 0.0 & 0.0 &  \\
+\cellcolor[HTML]{E2F2FB}Northern Territory & \cellcolor[HTML]{F1F1F1} & 0.1 & 0.1 & 0.1 & 0.1 &  \\
+\cellcolor[HTML]{E2F2FB}Australian Capital Territory & \cellcolor[HTML]{F1F1F1} & 0.0 & 0.0 & 0.0 & 0.0 &  \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Measure: Built-up area exposure to coastal flooding} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Combined unit of measure: Percentage of built-up area} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Return period: 100 years} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Heat stress threshold: Not applicable} & \multirow{-4}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}New South Wales & \cellcolor[HTML]{F1F1F1} & 0.1 & 0.1 & 0.1 & 0.1 &  \\
+\cellcolor[HTML]{E2F2FB}Victoria & \cellcolor[HTML]{F1F1F1} & 0.0 & 0.0 & 0.0 & 0.0 &  \\
+\cellcolor[HTML]{E2F2FB}Queensland & \cellcolor[HTML]{F1F1F1} & 0.5 & 0.5 & 0.5 & 0.5 &  \\
+\cellcolor[HTML]{E2F2FB}South Australia & \cellcolor[HTML]{F1F1F1} & 0.2 & 0.2 & 0.2 & 0.2 &  \\
+\cellcolor[HTML]{E2F2FB}Western Australia & \cellcolor[HTML]{F1F1F1} & 0.1 & 0.1 & 0.1 & 0.1 &  \\
+\cellcolor[HTML]{E2F2FB}Tasmania & \cellcolor[HTML]{F1F1F1} & 0.0 & 0.0 & 0.0 & 0.0 &  \\
+\cellcolor[HTML]{E2F2FB}Northern Territory & \cellcolor[HTML]{F1F1F1} & 0.1 & 0.1 & 0.1 & 0.1 &  \\
+\cellcolor[HTML]{E2F2FB}Australian Capital Territory & \cellcolor[HTML]{F1F1F1} & 0.0 & 0.0 & 0.0 & 0.0 &  \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Measure: Cropland exposure to coastal flooding} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Combined unit of measure: Percentage of agricultural land area} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Return period: 10 years} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Heat stress threshold: Not applicable} & \multirow{-4}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}New South Wales & \cellcolor[HTML]{F1F1F1} & 0.0 & 0.0 & 0.0 & 0.0 &  \\
+\cellcolor[HTML]{E2F2FB}Victoria & \cellcolor[HTML]{F1F1F1} & 0.0 & 0.0 & 0.0 & 0.0 &  \\
+\cellcolor[HTML]{E2F2FB}Queensland & \cellcolor[HTML]{F1F1F1} & 0.6 & 0.6 & 0.6 & 0.6 &  \\
+\cellcolor[HTML]{E2F2FB}South Australia & \cellcolor[HTML]{F1F1F1} & 0.0 & 0.0 & 0.0 & 0.0 &  \\
+\cellcolor[HTML]{E2F2FB}Western Australia & \cellcolor[HTML]{F1F1F1} & 0.0 & 0.0 & 0.0 & 0.0 &  \\
+\cellcolor[HTML]{E2F2FB}Tasmania & \cellcolor[HTML]{F1F1F1} & 0.0 & 0.0 & 0.0 & 0.0 &  \\
+\cellcolor[HTML]{E2F2FB}Northern Territory & \cellcolor[HTML]{F1F1F1} & 2.3 & 2.3 & 2.3 & 2.3 &  \\
+\cellcolor[HTML]{E2F2FB}Australian Capital Territory & \cellcolor[HTML]{F1F1F1} & 0.0 & 0.0 & 0.0 & 0.0 &  \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Measure: Cropland exposure to coastal flooding} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Combined unit of measure: Percentage of agricultural land area} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Return period: 20 years} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Heat stress threshold: Not applicable} & \multirow{-4}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}New South Wales & \cellcolor[HTML]{F1F1F1} & 0.0 & 0.0 & 0.0 & 0.0 &  \\
+\cellcolor[HTML]{E2F2FB}Victoria & \cellcolor[HTML]{F1F1F1} & 0.0 & 0.0 & 0.0 & 0.0 &  \\
+\cellcolor[HTML]{E2F2FB}Queensland & \cellcolor[HTML]{F1F1F1} & 0.6 & 0.6 & 0.6 & 0.6 &  \\
+\cellcolor[HTML]{E2F2FB}South Australia & \cellcolor[HTML]{F1F1F1} & 0.0 & 0.0 & 0.0 & 0.0 &  \\
+\cellcolor[HTML]{E2F2FB}Western Australia & \cellcolor[HTML]{F1F1F1} & 0.0 & 0.0 & 0.0 & 0.0 &  \\
+\cellcolor[HTML]{E2F2FB}Tasmania & \cellcolor[HTML]{F1F1F1} & 0.0 & 0.0 & 0.0 & 0.0 &  \\
+\cellcolor[HTML]{E2F2FB}Northern Territory & \cellcolor[HTML]{F1F1F1} & 2.6 & 2.6 & 2.5 & 2.5 &  \\
+\cellcolor[HTML]{E2F2FB}Australian Capital Territory & \cellcolor[HTML]{F1F1F1} & 0.0 & 0.0 & 0.0 & 0.0 &  \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Measure: Cropland exposure to coastal flooding} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Combined unit of measure: Percentage of agricultural land area} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Return period: 50 years} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Heat stress threshold: Not applicable} & \multirow{-4}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}New South Wales & \cellcolor[HTML]{F1F1F1} & 0.0 & 0.0 & 0.0 & 0.0 &  \\
+\cellcolor[HTML]{E2F2FB}Victoria & \cellcolor[HTML]{F1F1F1} & 0.0 & 0.0 & 0.0 & 0.0 &  \\
+\cellcolor[HTML]{E2F2FB}Queensland & \cellcolor[HTML]{F1F1F1} & 0.6 & 0.6 & 0.6 & 0.6 &  \\
+\cellcolor[HTML]{E2F2FB}South Australia & \cellcolor[HTML]{F1F1F1} & 0.0 & 0.0 & 0.0 & 0.0 &  \\
+\cellcolor[HTML]{E2F2FB}Western Australia & \cellcolor[HTML]{F1F1F1} & 0.0 & 0.0 & 0.0 & 0.0 &  \\
+\cellcolor[HTML]{E2F2FB}Tasmania & \cellcolor[HTML]{F1F1F1} & 0.0 & 0.0 & 0.0 & 0.0 &  \\
+\cellcolor[HTML]{E2F2FB}Northern Territory & \cellcolor[HTML]{F1F1F1} & 2.7 & 2.8 & 2.7 & 2.7 &  \\
+\cellcolor[HTML]{E2F2FB}Australian Capital Territory & \cellcolor[HTML]{F1F1F1} & 0.0 & 0.0 & 0.0 & 0.0 &  \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Measure: Cropland exposure to coastal flooding} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Combined unit of measure: Percentage of agricultural land area} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Return period: 100 years} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Heat stress threshold: Not applicable} & \multirow{-4}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}New South Wales & \cellcolor[HTML]{F1F1F1} & 0.0 & 0.0 & 0.0 & 0.0 &  \\
+\cellcolor[HTML]{E2F2FB}Victoria & \cellcolor[HTML]{F1F1F1} & 0.0 & 0.0 & 0.0 & 0.0 &  \\
+\cellcolor[HTML]{E2F2FB}Queensland & \cellcolor[HTML]{F1F1F1} & 0.6 & 0.6 & 0.6 & 0.6 &  \\
+\cellcolor[HTML]{E2F2FB}South Australia & \cellcolor[HTML]{F1F1F1} & 0.0 & 0.0 & 0.0 & 0.0 &  \\
+\cellcolor[HTML]{E2F2FB}Western Australia & \cellcolor[HTML]{F1F1F1} & 0.0 & 0.0 & 0.0 & 0.0 &  \\
+\cellcolor[HTML]{E2F2FB}Tasmania & \cellcolor[HTML]{F1F1F1} & 0.0 & 0.0 & 0.0 & 0.0 &  \\
+\cellcolor[HTML]{E2F2FB}Northern Territory & \cellcolor[HTML]{F1F1F1} & 2.9 & 2.9 & 2.9 & 2.9 &  \\
+\cellcolor[HTML]{E2F2FB}Australian Capital Territory & \cellcolor[HTML]{F1F1F1} & 0.0 & 0.0 & 0.0 & 0.0 &  \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Measure: Mean population exposure to heat stress} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Combined unit of measure: Days per year} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Return period: Not applicable} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Heat stress threshold: Strong heat stress (\textgreater 32°C)} & \multirow{-4}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}New South Wales & \cellcolor[HTML]{F1F1F1} & 53 & 58 & 65 & 42 & 28 \\
+\cellcolor[HTML]{E2F2FB}Victoria & \cellcolor[HTML]{F1F1F1} & 39 & 34 & 38 & 24 & 21 \\
+\cellcolor[HTML]{E2F2FB}Queensland & \cellcolor[HTML]{F1F1F1} & 109 & 90 & 104 & 105 & 92 \\
+\cellcolor[HTML]{E2F2FB}South Australia & \cellcolor[HTML]{F1F1F1} & 37 & 39 & 42 & 26 & 23 \\
+\cellcolor[HTML]{E2F2FB}Western Australia & \cellcolor[HTML]{F1F1F1} & 63 & 54 & 79 & 71 & 67 \\
+\cellcolor[HTML]{E2F2FB}Tasmania & \cellcolor[HTML]{F1F1F1} & 2 & 3 & 6 & 3 & 1 \\
+\cellcolor[HTML]{E2F2FB}Northern Territory & \cellcolor[HTML]{F1F1F1} & 284 & 288 & 279 & 293 & 288 \\
+\cellcolor[HTML]{E2F2FB}Australian Capital Territory & \cellcolor[HTML]{F1F1F1} & 14 & 19 & 34 & 14 & 3 \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Measure: Mean population exposure to heat stress} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Combined unit of measure: Days per year} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Return period: Not applicable} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Heat stress threshold: Very strong heat stress (\textgreater 38°C)} & \multirow{-4}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}New South Wales & \cellcolor[HTML]{F1F1F1} & 15 & 11 & 15 & 10 & 3 \\
+\cellcolor[HTML]{E2F2FB}Victoria & \cellcolor[HTML]{F1F1F1} & 4 & 8 & 15 & 4 & 2 \\
+\cellcolor[HTML]{E2F2FB}Queensland & \cellcolor[HTML]{F1F1F1} & 15 & 15 & 16 & 13 & 6 \\
+\cellcolor[HTML]{E2F2FB}South Australia & \cellcolor[HTML]{F1F1F1} & 9 & 12 & 16 & 5 & 5 \\
+\cellcolor[HTML]{E2F2FB}Western Australia & \cellcolor[HTML]{F1F1F1} & 14 & 11 & 19 & 16 & 16 \\
+\cellcolor[HTML]{E2F2FB}Tasmania & \cellcolor[HTML]{F1F1F1} & 0 & 0 & 0 & 0 & 0 \\
+\cellcolor[HTML]{E2F2FB}Northern Territory & \cellcolor[HTML]{F1F1F1} & 108 & 111 & 109 & 116 & 113 \\
+\cellcolor[HTML]{E2F2FB}Australian Capital Territory & \cellcolor[HTML]{F1F1F1} & 0 & 0 & 3 & 2 & 0 \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Measure: Mean population exposure to heat stress} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Combined unit of measure: Days per year} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Return period: Not applicable} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Heat stress threshold: Extreme heat stress (\textgreater 46°C)} & \multirow{-4}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}New South Wales & \cellcolor[HTML]{F1F1F1} & 1 & 0 & 1 & 1 & 0 \\
+\cellcolor[HTML]{E2F2FB}Victoria & \cellcolor[HTML]{F1F1F1} & 0 & 0 & 2 & 0 & 0 \\
+\cellcolor[HTML]{E2F2FB}Queensland & \cellcolor[HTML]{F1F1F1} & 0 & 0 & 0 & 0 & 0 \\
+\cellcolor[HTML]{E2F2FB}South Australia & \cellcolor[HTML]{F1F1F1} & 0 & 1 & 2 & 0 & 0 \\
+\cellcolor[HTML]{E2F2FB}Western Australia & \cellcolor[HTML]{F1F1F1} & 0 & 1 & 2 & 1 & 1 \\
+\cellcolor[HTML]{E2F2FB}Tasmania & \cellcolor[HTML]{F1F1F1} & 0 & 0 & 0 & 0 & 0 \\
+\cellcolor[HTML]{E2F2FB}Northern Territory & \cellcolor[HTML]{F1F1F1} & 1 & 4 & 8 & 3 & 2 \\
+\cellcolor[HTML]{E2F2FB}Australian Capital Territory & \cellcolor[HTML]{F1F1F1} & 0 & 0 & 0 & 0 & 0 \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Measure: Cooling degree days} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Combined unit of measure: Degree days} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Return period: Not applicable} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Heat stress threshold: Not applicable} & \multirow{-4}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}New South Wales & \cellcolor[HTML]{F1F1F1} & 689.5 & 750.4 &  &  &  \\
+\cellcolor[HTML]{E2F2FB}Victoria & \cellcolor[HTML]{F1F1F1} & 216.7 & 264.5 &  &  &  \\
+\cellcolor[HTML]{E2F2FB}Queensland & \cellcolor[HTML]{F1F1F1} & 1,521.7 & 1,566.4 &  &  &  \\
+\cellcolor[HTML]{E2F2FB}South Australia & \cellcolor[HTML]{F1F1F1} & 1,050.4 & 1,141.9 &  &  &  \\
+\cellcolor[HTML]{E2F2FB}Western Australia & \cellcolor[HTML]{F1F1F1} & 1,441.6 & 1,558.5 &  &  &  \\
+\cellcolor[HTML]{E2F2FB}Tasmania & \cellcolor[HTML]{F1F1F1} & 1.0 & 5.1 &  &  &  \\
+\cellcolor[HTML]{E2F2FB}Northern Territory & \cellcolor[HTML]{F1F1F1} & 2,006.5 & 2,129.0 &  &  &  \\
+\cellcolor[HTML]{E2F2FB}Australian Capital Territory & \cellcolor[HTML]{F1F1F1} & 52.0 & 71.0 &  &  &  \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Measure: Heating degree days} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Combined unit of measure: Degree days} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Return period: Not applicable} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Heat stress threshold: Not applicable} & \multirow{-4}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}New South Wales & \cellcolor[HTML]{F1F1F1} & 587.7 & 542.0 &  &  &  \\
+\cellcolor[HTML]{E2F2FB}Victoria & \cellcolor[HTML]{F1F1F1} & 1,072.7 & 978.0 &  &  &  \\
+\cellcolor[HTML]{E2F2FB}Queensland & \cellcolor[HTML]{F1F1F1} & 37.3 & 46.8 &  &  &  \\
+\cellcolor[HTML]{E2F2FB}South Australia & \cellcolor[HTML]{F1F1F1} & 205.9 & 209.5 &  &  &  \\
+\cellcolor[HTML]{E2F2FB}Western Australia & \cellcolor[HTML]{F1F1F1} & 127.4 & 112.1 &  &  &  \\
+\cellcolor[HTML]{E2F2FB}Tasmania & \cellcolor[HTML]{F1F1F1} & 1,725.7 & 1,651.0 &  &  &  \\
+\cellcolor[HTML]{E2F2FB}Northern Territory & \cellcolor[HTML]{F1F1F1} & 24.8 & 36.6 &  &  &  \\
+\cellcolor[HTML]{E2F2FB}Australian Capital Territory & \cellcolor[HTML]{F1F1F1} & 1,713.5 & 1,546.0 &  &  &  \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Measure: Population exposure to wildfires} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Combined unit of measure: Percentage of population} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Return period: Not applicable} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Heat stress threshold: Not applicable} & \multirow{-4}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}New South Wales & \cellcolor[HTML]{F1F1F1} & 6.8 & 10.5 & 6.3 & 6.8 & 4.8 \\
+\cellcolor[HTML]{E2F2FB}Victoria & \cellcolor[HTML]{F1F1F1} & 1.2 & 3.6 & 0.7 & 0.5 & 2.5 \\
+\cellcolor[HTML]{E2F2FB}Queensland & \cellcolor[HTML]{F1F1F1} & 6.7 & 6.7 & 8.7 & 4.4 & 4.0 \\
+\cellcolor[HTML]{E2F2FB}South Australia & \cellcolor[HTML]{F1F1F1} & 5.7 & 2.5 & 0.5 & 1.6 & 0.8 \\
+\cellcolor[HTML]{E2F2FB}Western Australia & \cellcolor[HTML]{F1F1F1} & 9.1 & 4.3 & 7.9 & 5.2 & 4.8 \\
+\cellcolor[HTML]{E2F2FB}Tasmania & \cellcolor[HTML]{F1F1F1} & 0.4 & 0.6 & 1.4 & 0.5 & 0.0 \\
+\cellcolor[HTML]{E2F2FB}Northern Territory & \cellcolor[HTML]{F1F1F1} & 61.6 & 66.5 & 53.5 & 55.7 & 56.7 \\
+\cellcolor[HTML]{E2F2FB}Australian Capital Territory & \cellcolor[HTML]{F1F1F1} & 0.1 & 0.0 & 0.0 & 11.0 & 9.9 \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Measure: Land exposure to wildfires} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Combined unit of measure: Square kilometres} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Return period: Not applicable} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Heat stress threshold: Not applicable} & \multirow{-4}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}New South Wales & \cellcolor[HTML]{F1F1F1} & 8,529.4 & 3,386.1 & 14,836.0 & 29,181.7 & 4,877.8 \\
+\cellcolor[HTML]{E2F2FB}Victoria & \cellcolor[HTML]{F1F1F1} & 1,111.9 & 1,171.1 & 1,829.8 & 12,784.7 & 2,022.0 \\
+\cellcolor[HTML]{E2F2FB}Queensland & \cellcolor[HTML]{F1F1F1} & 49,644.9 & 86,584.3 & 41,948.0 & 63,038.6 & 55,715.3 \\
+\cellcolor[HTML]{E2F2FB}South Australia & \cellcolor[HTML]{F1F1F1} & 2,280.4 & 4,659.3 & 4,703.8 & 4,232.9 & 329.9 \\
+\cellcolor[HTML]{E2F2FB}Western Australia & \cellcolor[HTML]{F1F1F1} & 177,664.6 & 252,438.7 & 122,422.7 & 48,763.4 & 66,704.0 \\
+\cellcolor[HTML]{E2F2FB}Tasmania & \cellcolor[HTML]{F1F1F1} & 123.4 & 58.6 & 1,784.0 & 306.7 & 15.3 \\
+\cellcolor[HTML]{E2F2FB}Northern Territory & \cellcolor[HTML]{F1F1F1} & 197,934.4 & 197,468.5 & 115,803.5 & 60,576.7 & 112,310.8 \\
+\cellcolor[HTML]{E2F2FB}Australian Capital Territory & \cellcolor[HTML]{F1F1F1} & 0.2 & 1.9 & 0.4 & 766.4 & 0.4 \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Measure: Land exposure to wildfires} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Combined unit of measure: Percentage of land area} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Return period: Not applicable} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Heat stress threshold: Not applicable} & \multirow{-4}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}New South Wales & \cellcolor[HTML]{F1F1F1} & 1.1 & 0.4 & 1.8 & 3.6 & 0.6 \\
+\cellcolor[HTML]{E2F2FB}Victoria & \cellcolor[HTML]{F1F1F1} & 0.5 & 0.5 & 0.8 & 5.5 & 0.9 \\
+\cellcolor[HTML]{E2F2FB}Queensland & \cellcolor[HTML]{F1F1F1} & 2.8 & 4.9 & 2.4 & 3.6 & 3.2 \\
+\cellcolor[HTML]{E2F2FB}South Australia & \cellcolor[HTML]{F1F1F1} & 0.2 & 0.5 & 0.5 & 0.4 & 0.0 \\
+\cellcolor[HTML]{E2F2FB}Western Australia & \cellcolor[HTML]{F1F1F1} & 7.4 & 10.5 & 5.1 & 2.0 & 2.8 \\
+\cellcolor[HTML]{E2F2FB}Tasmania & \cellcolor[HTML]{F1F1F1} & 0.2 & 0.1 & 2.6 & 0.5 & 0.0 \\
+\cellcolor[HTML]{E2F2FB}Northern Territory & \cellcolor[HTML]{F1F1F1} & 14.5 & 14.4 & 8.5 & 4.4 & 8.2 \\
+\cellcolor[HTML]{E2F2FB}Australian Capital Territory & \cellcolor[HTML]{F1F1F1} & 0.0 & 0.1 & 0.0 & 32.3 & 0.0 \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Measure: Built-up area exposure to wildfires} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Combined unit of measure: Percentage of built-up area} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Return period: Not applicable} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Heat stress threshold: Not applicable} & \multirow{-4}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}New South Wales & \cellcolor[HTML]{F1F1F1} & 0.1 & 0.1 & 0.1 & 0.5 & 0.0 \\
+\cellcolor[HTML]{E2F2FB}Victoria & \cellcolor[HTML]{F1F1F1} & 0.0 & 0.0 & 0.0 & 0.0 & 0.0 \\
+\cellcolor[HTML]{E2F2FB}Queensland & \cellcolor[HTML]{F1F1F1} & 0.1 & 0.1 & 0.2 & 0.0 & 0.1 \\
+\cellcolor[HTML]{E2F2FB}South Australia & \cellcolor[HTML]{F1F1F1} & 0.0 & 0.0 & 0.0 & 0.2 & 0.0 \\
+\cellcolor[HTML]{E2F2FB}Western Australia & \cellcolor[HTML]{F1F1F1} & 0.0 & 0.1 & 0.0 & 0.0 & 0.1 \\
+\cellcolor[HTML]{E2F2FB}Tasmania & \cellcolor[HTML]{F1F1F1} & 0.0 & 0.0 & 0.1 & 0.0 & 0.0 \\
+\cellcolor[HTML]{E2F2FB}Northern Territory & \cellcolor[HTML]{F1F1F1} & 1.5 & 1.4 & 1.4 & 0.8 & 0.6 \\
+\cellcolor[HTML]{E2F2FB}Australian Capital Territory & \cellcolor[HTML]{F1F1F1} & 0.0 & 0.0 & 0.0 & 0.3 & 0.1 \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Measure: Cropland area exposure to wildfires} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Combined unit of measure: Percentage of agricultural land area} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Return period: Not applicable} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Heat stress threshold: Not applicable} & \multirow{-4}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}New South Wales & \cellcolor[HTML]{F1F1F1} & 3.0 & 0.8 & 0.2 & 0.6 & 2.0 \\
+\cellcolor[HTML]{E2F2FB}Victoria & \cellcolor[HTML]{F1F1F1} & 0.9 & 0.9 & 0.3 & 0.9 & 1.7 \\
+\cellcolor[HTML]{E2F2FB}Queensland & \cellcolor[HTML]{F1F1F1} & 1.7 & 0.8 & 0.8 & 1.1 & 1.0 \\
+\cellcolor[HTML]{E2F2FB}South Australia & \cellcolor[HTML]{F1F1F1} & 1.1 & 0.3 & 0.1 & 0.7 & 0.1 \\
+\cellcolor[HTML]{E2F2FB}Western Australia & \cellcolor[HTML]{F1F1F1} & 4.1 & 1.2 & 3.5 & 0.7 & 0.3 \\
+\cellcolor[HTML]{E2F2FB}Tasmania & \cellcolor[HTML]{F1F1F1} & 0.0 & 0.0 & 0.1 & 0.1 & 0.0 \\
+\cellcolor[HTML]{E2F2FB}Northern Territory & \cellcolor[HTML]{F1F1F1} & 12.4 & 18.9 & 20.9 & 6.2 & 15.1 \\
+\cellcolor[HTML]{E2F2FB}Australian Capital Territory & \cellcolor[HTML]{F1F1F1} & 0.0 & 0.0 & 0.0 & 1.0 & 0.0 \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Measure: Forest exposure to wildfires} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Combined unit of measure: Percentage of forested area} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Return period: Not applicable} & \cellcolor[HTML]{B7DEF6} \\
+\rowcolor[HTML]{B7DEF6} 
+\multicolumn{6}{l}{\cellcolor[HTML]{B7DEF6}Heat stress threshold: Not applicable} & \multirow{-4}{*}{\cellcolor[HTML]{B7DEF6}} \\
+\cellcolor[HTML]{E2F2FB}New South Wales & \cellcolor[HTML]{F1F1F1} & 0.5 & 0.7 & 7.4 & 15.0 & 0.1 \\
+\cellcolor[HTML]{E2F2FB}Victoria & \cellcolor[HTML]{F1F1F1} & 0.2 & 0.2 & 2.0 & 15.7 & 0.1 \\
+\cellcolor[HTML]{E2F2FB}Queensland & \cellcolor[HTML]{F1F1F1} & 4.2 & 7.0 & 4.5 & 4.6 & 4.4 \\
+\cellcolor[HTML]{E2F2FB}South Australia & \cellcolor[HTML]{F1F1F1} & 0.6 & 0.5 & 0.8 & 5.2 & 0.0 \\
+\cellcolor[HTML]{E2F2FB}Western Australia & \cellcolor[HTML]{F1F1F1} & 3.7 & 5.4 & 5.6 & 6.0 & 2.6 \\
+\cellcolor[HTML]{E2F2FB}Tasmania & \cellcolor[HTML]{F1F1F1} & 0.2 & 0.1 & 3.3 & 0.5 & 0.0 \\
+\cellcolor[HTML]{E2F2FB}Northern Territory & \cellcolor[HTML]{F1F1F1} & 19.2 & 27.4 & 20.7 & 11.6 & 18.6 \\
+\cellcolor[HTML]{E2F2FB}Australian Capital Territory & \cellcolor[HTML]{F1F1F1} & 0.0 & 0.1 & 0.0 & 52.0 & 0.0
+\end{tabular}
+\end{table}

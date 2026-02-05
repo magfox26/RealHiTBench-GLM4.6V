@@ -1,0 +1,1273 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <meta name="generator" content="PhpSpreadsheet, https://github.com/PHPOffice/PhpSpreadsheet">
+      <meta name="author" content="mac" />
+      <meta name="company" content="Microsoft Corporation" />
+    <style type="text/css">
+      html { font-family:Calibri, Arial, Helvetica, sans-serif; font-size:11pt; background-color:white }
+      a.comment-indicator:hover + div.comment { background:#ffd; position:absolute; display:block; border:1px solid black; padding:0.5em }
+      a.comment-indicator { background:red; display:inline-block; border:1px solid black; width:0.5em; height:0.5em }
+      div.comment { display:none }
+      table { border-collapse:collapse; page-break-after:always }
+      .gridlines td { border:1px dotted black }
+      .gridlines th { border:1px dotted black }
+      .b { text-align:center }
+      .e { text-align:center }
+      .f { text-align:right }
+      .inlineStr { text-align:left }
+      .n { text-align:right }
+      .s { text-align:left }
+      td.style0 { vertical-align:middle; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style0 { vertical-align:middle; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style1 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; text-decoration:underline; color:#000000; font-family:'Arial'; font-size:12pt; background-color:white }
+      th.style1 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; text-decoration:underline; color:#000000; font-family:'Arial'; font-size:12pt; background-color:white }
+      td.style2 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; text-decoration:underline; color:#000000; font-family:'Arial'; font-size:12pt; background-color:white }
+      th.style2 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; text-decoration:underline; color:#000000; font-family:'Arial'; font-size:12pt; background-color:white }
+      td.style3 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:20pt; background-color:white }
+      th.style3 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:20pt; background-color:white }
+      td.style4 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:20pt; background-color:white }
+      th.style4 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:20pt; background-color:white }
+      td.style5 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style5 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style6 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:12pt; background-color:white }
+      th.style6 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:12pt; background-color:white }
+      td.style7 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:white }
+      th.style7 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:white }
+      td.style8 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:white }
+      th.style8 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:white }
+      td.style9 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:white }
+      th.style9 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:white }
+      td.style10 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:white }
+      th.style10 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:white }
+      td.style11 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:white }
+      th.style11 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:white }
+      td.style12 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:white }
+      th.style12 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:white }
+      td.style13 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style13 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style14 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:18pt; background-color:white }
+      th.style14 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:18pt; background-color:white }
+      td.style15 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:18pt; background-color:white }
+      th.style15 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:18pt; background-color:white }
+      td.style16 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style16 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style17 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:white }
+      th.style17 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:white }
+      td.style18 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+      th.style18 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+      td.style19 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:18pt; background-color:white }
+      th.style19 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:18pt; background-color:white }
+      td.style20 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:white }
+      th.style20 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:white }
+      td.style21 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style21 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style22 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:white }
+      th.style22 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:white }
+      td.style23 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:white }
+      th.style23 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:white }
+      td.style24 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      th.style24 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'宋体'; font-size:11pt; background-color:white }
+      td.style25 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:white }
+      th.style25 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:white }
+      td.style26 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+      th.style26 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:white }
+      td.style27 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:white }
+      th.style27 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:white }
+      td.style28 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:white }
+      th.style28 { vertical-align:bottom; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:10pt; background-color:white }
+      table.sheet0 col.col0 { width:42pt }
+      table.sheet0 col.col1 { width:42pt }
+      table.sheet0 col.col2 { width:42pt }
+      table.sheet0 col.col3 { width:42pt }
+      table.sheet0 col.col4 { width:42pt }
+      table.sheet0 col.col5 { width:42pt }
+      table.sheet0 col.col6 { width:42pt }
+      table.sheet0 tr { height:15pt }
+      table.sheet0 tr.row0 { height:17.6pt }
+      table.sheet0 tr.row1 { height:28.8pt }
+      table.sheet0 tr.row34 { height:26pt }
+      table.sheet0 tr.row39 { height:26pt }
+      table.sheet0 tr.row45 { height:28.8pt }
+    </style>
+  </head>
+
+  <body>
+<style>
+@page { margin-left: 0.75in; margin-right: 0.75in; margin-top: 1in; margin-bottom: 1in; }
+body { margin-left: 0.75in; margin-right: 0.75in; margin-top: 1in; margin-bottom: 1in; }
+</style>
+    <table border="0" cellpadding="0" cellspacing="0" id="sheet0" class="sheet0 gridlines">
+        <col class="col0">
+        <col class="col1">
+        <col class="col2">
+        <col class="col3">
+        <col class="col4">
+        <col class="col5">
+        <col class="col6">
+        <tbody>
+          <tr class="row0">
+            <td class="column0 style1 s">Weekly Café Target - w/e 21st September  to w/e 26th October 2014 - 6 weeks</td>
+            <td class="column1 style2 null"></td>
+            <td class="column2 style2 null"></td>
+            <td class="column3 style2 null"></td>
+            <td class="column4 style2 null"></td>
+            <td class="column5 style2 null"></td>
+            <td class="column6 style2 null"></td>
+          </tr>
+          <tr class="row1">
+            <td class="column0 style3 s">Druckers</td>
+            <td class="column1 style4 null"></td>
+            <td class="column2 style5 null"></td>
+            <td class="column3 style5 null"></td>
+            <td class="column4 style5 null"></td>
+            <td class="column5 style5 null"></td>
+            <td class="column6 style5 null"></td>
+          </tr>
+          <tr class="row2">
+            <td class="column0 style6 s style6" rowspan="2">Café</td>
+            <td class="column1 style7 s">Target </td>
+            <td class="column2 style7 s">Target </td>
+            <td class="column3 style8 s">Target</td>
+            <td class="column4 style7 s">Target </td>
+            <td class="column5 style7 s">Target </td>
+            <td class="column6 style7 s">Target</td>
+          </tr>
+          <tr class="row3">
+            <td class="column1 style9 s">w/e 14/12</td>
+            <td class="column2 style9 s">w/e 21/12</td>
+            <td class="column3 style10 s">w/e28/12</td>
+            <td class="column4 style9 s">w/e 04/01</td>
+            <td class="column5 style27 s">w/e 11/01</td>
+            <td class="column6 style27 s">w/e 18/01</td>
+          </tr>
+          <tr class="row4">
+            <td class="column0 style11 s">TOUCHWOOD</td>
+            <td class="column1 style12 n">&nbsp;&nbsp;18,200 </td>
+            <td class="column2 style12 n">&nbsp;&nbsp;18,100 </td>
+            <td class="column3 style12 n">&nbsp;&nbsp;15,400 </td>
+            <td class="column4 style12 n">&nbsp;&nbsp;16,100 </td>
+            <td class="column5 style12 n">&nbsp;&nbsp;13,000 </td>
+            <td class="column6 style12 n">&nbsp;&nbsp;13,500 </td>
+          </tr>
+          <tr class="row5">
+            <td class="column0 style11 s">MILTON KEYNES</td>
+            <td class="column1 style12 n">&nbsp;&nbsp;28,000 </td>
+            <td class="column2 style12 n">&nbsp;&nbsp;28,000 </td>
+            <td class="column3 style12 n">&nbsp;&nbsp;27,100 </td>
+            <td class="column4 style12 n">&nbsp;&nbsp;25,800 </td>
+            <td class="column5 style12 n">&nbsp;&nbsp;15,700 </td>
+            <td class="column6 style12 n">&nbsp;&nbsp;15,200 </td>
+          </tr>
+          <tr class="row6">
+            <td class="column0 style11 s">WESTON</td>
+            <td class="column1 style12 n">&nbsp;&nbsp;8,800 </td>
+            <td class="column2 style12 n">&nbsp;&nbsp;7,800 </td>
+            <td class="column3 style12 n">&nbsp;&nbsp;8,100 </td>
+            <td class="column4 style12 n">&nbsp;&nbsp;6,300 </td>
+            <td class="column5 style12 n">&nbsp;&nbsp;6,100 </td>
+            <td class="column6 style12 n">&nbsp;&nbsp;6,000 </td>
+          </tr>
+          <tr class="row7">
+            <td class="column0 style11 s">CHELTENHAM</td>
+            <td class="column1 style12 n">&nbsp;&nbsp;14,800 </td>
+            <td class="column2 style12 n">&nbsp;&nbsp;14,500 </td>
+            <td class="column3 style12 n">&nbsp;&nbsp;11,600 </td>
+            <td class="column4 style12 n">&nbsp;&nbsp;11,700 </td>
+            <td class="column5 style12 n">&nbsp;&nbsp;8,700 </td>
+            <td class="column6 style12 n">&nbsp;&nbsp;8,700 </td>
+          </tr>
+          <tr class="row8">
+            <td class="column0 style11 s">MERRY HILL</td>
+            <td class="column1 style12 n">&nbsp;&nbsp;14,400 </td>
+            <td class="column2 style12 n">&nbsp;&nbsp;13,600 </td>
+            <td class="column3 style12 n">&nbsp;&nbsp;9,300 </td>
+            <td class="column4 style12 n">&nbsp;&nbsp;11,500 </td>
+            <td class="column5 style12 n">&nbsp;&nbsp;10,000 </td>
+            <td class="column6 style12 n">&nbsp;&nbsp;9,300 </td>
+          </tr>
+          <tr class="row9">
+            <td class="column0 style11 s">NOTTINGHAM</td>
+            <td class="column1 style12 n">&nbsp;&nbsp;16,300 </td>
+            <td class="column2 style12 n">&nbsp;&nbsp;16,400 </td>
+            <td class="column3 style12 n">&nbsp;&nbsp;14,100 </td>
+            <td class="column4 style12 n">&nbsp;&nbsp;13,600 </td>
+            <td class="column5 style12 n">&nbsp;&nbsp;11,000 </td>
+            <td class="column6 style12 n">&nbsp;&nbsp;10,400 </td>
+          </tr>
+          <tr class="row10">
+            <td class="column0 style11 s">TELFORD</td>
+            <td class="column1 style12 n">&nbsp;&nbsp;18,200 </td>
+            <td class="column2 style12 n">&nbsp;&nbsp;18,600 </td>
+            <td class="column3 style12 n">&nbsp;&nbsp;15,400 </td>
+            <td class="column4 style12 n">&nbsp;&nbsp;14,900 </td>
+            <td class="column5 style12 n">&nbsp;&nbsp;11,400 </td>
+            <td class="column6 style12 n">&nbsp;&nbsp;10,400 </td>
+          </tr>
+          <tr class="row11">
+            <td class="column0 style11 s">PAVILIONS</td>
+            <td class="column1 style12 n">&nbsp;&nbsp;9,700 </td>
+            <td class="column2 style12 n">&nbsp;&nbsp;9,300 </td>
+            <td class="column3 style12 n">&nbsp;&nbsp;6,300 </td>
+            <td class="column4 style12 n">&nbsp;&nbsp;6,300 </td>
+            <td class="column5 style12 n">&nbsp;&nbsp;5,600 </td>
+            <td class="column6 style12 n">&nbsp;&nbsp;5,800 </td>
+          </tr>
+          <tr class="row12">
+            <td class="column0 style11 s">COVENTRY</td>
+            <td class="column1 style12 n">&nbsp;&nbsp;5,600 </td>
+            <td class="column2 style12 n">&nbsp;&nbsp;6,000 </td>
+            <td class="column3 style12 n">&nbsp;&nbsp;4,000 </td>
+            <td class="column4 style12 n">&nbsp;&nbsp;3,800 </td>
+            <td class="column5 style12 n">&nbsp;&nbsp;4,200 </td>
+            <td class="column6 style12 n">&nbsp;&nbsp;4,800 </td>
+          </tr>
+          <tr class="row13">
+            <td class="column0 style11 s">LEAMINGTON</td>
+            <td class="column1 style12 n">&nbsp;&nbsp;12,800 </td>
+            <td class="column2 style12 n">&nbsp;&nbsp;13,100 </td>
+            <td class="column3 style12 n">&nbsp;&nbsp;10,800 </td>
+            <td class="column4 style12 n">&nbsp;&nbsp;10,200 </td>
+            <td class="column5 style12 n">&nbsp;&nbsp;8,600 </td>
+            <td class="column6 style12 n">&nbsp;&nbsp;8,900 </td>
+          </tr>
+          <tr class="row14">
+            <td class="column0 style11 s">REDDITCH</td>
+            <td class="column1 style12 n">&nbsp;&nbsp;9,400 </td>
+            <td class="column2 style12 n">&nbsp;&nbsp;9,500 </td>
+            <td class="column3 style12 n">&nbsp;&nbsp;6,400 </td>
+            <td class="column4 style12 n">&nbsp;&nbsp;7,600 </td>
+            <td class="column5 style12 n">&nbsp;&nbsp;6,000 </td>
+            <td class="column6 style12 n">&nbsp;&nbsp;6,200 </td>
+          </tr>
+          <tr class="row15">
+            <td class="column0 style11 s">HENLEY STREET</td>
+            <td class="column1 style12 n">&nbsp;&nbsp;4,800 </td>
+            <td class="column2 style12 n">&nbsp;&nbsp;4,900 </td>
+            <td class="column3 style12 n">&nbsp;&nbsp;6,000 </td>
+            <td class="column4 style12 n">&nbsp;&nbsp;5,600 </td>
+            <td class="column5 style12 n">&nbsp;&nbsp;4,000 </td>
+            <td class="column6 style12 n">&nbsp;&nbsp;3,700 </td>
+          </tr>
+          <tr class="row16">
+            <td class="column0 style11 s">GT.WESTERN</td>
+            <td class="column1 style12 n">&nbsp;&nbsp;5,100 </td>
+            <td class="column2 style12 n">&nbsp;&nbsp;5,500 </td>
+            <td class="column3 style12 n">&nbsp;&nbsp;2,800 </td>
+            <td class="column4 style12 n">&nbsp;&nbsp;2,700 </td>
+            <td class="column5 style12 n">&nbsp;&nbsp;3,000 </td>
+            <td class="column6 style12 n">&nbsp;&nbsp;3,100 </td>
+          </tr>
+          <tr class="row17">
+            <td class="column0 style11 s">TAMWORTH</td>
+            <td class="column1 style12 n">&nbsp;&nbsp;6,300 </td>
+            <td class="column2 style12 n">&nbsp;&nbsp;6,800 </td>
+            <td class="column3 style12 n">&nbsp;&nbsp;4,600 </td>
+            <td class="column4 style12 n">&nbsp;&nbsp;4,800 </td>
+            <td class="column5 style12 n">&nbsp;&nbsp;5,000 </td>
+            <td class="column6 style12 n">&nbsp;&nbsp;5,200 </td>
+          </tr>
+          <tr class="row18">
+            <td class="column0 style11 s">BURTON</td>
+            <td class="column1 style12 n">&nbsp;&nbsp;11,600 </td>
+            <td class="column2 style12 n">&nbsp;&nbsp;12,200 </td>
+            <td class="column3 style12 n">&nbsp;&nbsp;9,600 </td>
+            <td class="column4 style12 n">&nbsp;&nbsp;8,800 </td>
+            <td class="column5 style12 n">&nbsp;&nbsp;8,400 </td>
+            <td class="column6 style12 n">&nbsp;&nbsp;7,900 </td>
+          </tr>
+          <tr class="row19">
+            <td class="column0 style11 s">FOSSE PARK</td>
+            <td class="column1 style12 n">&nbsp;&nbsp;12,600 </td>
+            <td class="column2 style12 n">&nbsp;&nbsp;12,600 </td>
+            <td class="column3 style12 n">&nbsp;&nbsp;8,600 </td>
+            <td class="column4 style12 n">&nbsp;&nbsp;10,700 </td>
+            <td class="column5 style12 n">&nbsp;&nbsp;9,700 </td>
+            <td class="column6 style12 n">&nbsp;&nbsp;10,400 </td>
+          </tr>
+          <tr class="row20">
+            <td class="column0 style11 s">SUTTON</td>
+            <td class="column1 style12 n">&nbsp;&nbsp;7,800 </td>
+            <td class="column2 style12 n">&nbsp;&nbsp;7,900 </td>
+            <td class="column3 style12 n">&nbsp;&nbsp;5,800 </td>
+            <td class="column4 style12 n">&nbsp;&nbsp;6,200 </td>
+            <td class="column5 style12 n">&nbsp;&nbsp;5,700 </td>
+            <td class="column6 style12 n">&nbsp;&nbsp;5,700 </td>
+          </tr>
+          <tr class="row21">
+            <td class="column0 style11 s">WOLVERHAMPTON</td>
+            <td class="column1 style12 n">&nbsp;&nbsp;6,700 </td>
+            <td class="column2 style12 n">&nbsp;&nbsp;7,300 </td>
+            <td class="column3 style12 n">&nbsp;&nbsp;5,200 </td>
+            <td class="column4 style12 n">&nbsp;&nbsp;4,800 </td>
+            <td class="column5 style12 n">&nbsp;&nbsp;5,100 </td>
+            <td class="column6 style12 n">&nbsp;&nbsp;4,900 </td>
+          </tr>
+          <tr class="row22">
+            <td class="column0 style13 s">SPARKHILL</td>
+            <td class="column1 style12 n">&nbsp;&nbsp;1,000 </td>
+            <td class="column2 style12 n">&nbsp;&nbsp;1,000 </td>
+            <td class="column3 style12 n">&nbsp;&nbsp;1,000 </td>
+            <td class="column4 style12 n">&nbsp;&nbsp;1,000 </td>
+            <td class="column5 style12 n">&nbsp;&nbsp;1,000 </td>
+            <td class="column6 style12 n">&nbsp;&nbsp;1,000 </td>
+          </tr>
+          <tr class="row23">
+            <td class="column0 style11 s">BULLRING</td>
+            <td class="column1 style12 n">&nbsp;&nbsp;23,600 </td>
+            <td class="column2 style12 n">&nbsp;&nbsp;23,100 </td>
+            <td class="column3 style12 n">&nbsp;&nbsp;21,100 </td>
+            <td class="column4 style12 n">&nbsp;&nbsp;19,100 </td>
+            <td class="column5 style12 n">&nbsp;&nbsp;14,700 </td>
+            <td class="column6 style12 n">&nbsp;&nbsp;15,700 </td>
+          </tr>
+          <tr class="row24">
+            <td class="column0 style11 s">CRIBBS</td>
+            <td class="column1 style12 n">&nbsp;&nbsp;31,800 </td>
+            <td class="column2 style12 n">&nbsp;&nbsp;31,200 </td>
+            <td class="column3 style12 n">&nbsp;&nbsp;25,800 </td>
+            <td class="column4 style12 n">&nbsp;&nbsp;26,200 </td>
+            <td class="column5 style12 n">&nbsp;&nbsp;20,200 </td>
+            <td class="column6 style12 n">&nbsp;&nbsp;19,900 </td>
+          </tr>
+          <tr class="row25">
+            <td class="column0 style11 s">HALESOWEN</td>
+            <td class="column1 style12 n">&nbsp;&nbsp;6,600 </td>
+            <td class="column2 style12 n">&nbsp;&nbsp;7,300 </td>
+            <td class="column3 style12 n">&nbsp;&nbsp;4,800 </td>
+            <td class="column4 style12 n">&nbsp;&nbsp;5,100 </td>
+            <td class="column5 style12 n">&nbsp;&nbsp;5,600 </td>
+            <td class="column6 style12 n">&nbsp;&nbsp;5,700 </td>
+          </tr>
+          <tr class="row26">
+            <td class="column0 style11 s">BROMLEY</td>
+            <td class="column1 style12 n">&nbsp;&nbsp;21,000 </td>
+            <td class="column2 style12 n">&nbsp;&nbsp;23,200 </td>
+            <td class="column3 style12 n">&nbsp;&nbsp;17,400 </td>
+            <td class="column4 style12 n">&nbsp;&nbsp;17,400 </td>
+            <td class="column5 style12 n">&nbsp;&nbsp;14,100 </td>
+            <td class="column6 style12 n">&nbsp;&nbsp;14,900 </td>
+          </tr>
+          <tr class="row27">
+            <td class="column0 style11 s">CRAWLEY</td>
+            <td class="column1 style12 n">&nbsp;&nbsp;10,600 </td>
+            <td class="column2 style12 n">&nbsp;&nbsp;12,500 </td>
+            <td class="column3 style12 n">&nbsp;&nbsp;9,200 </td>
+            <td class="column4 style12 n">&nbsp;&nbsp;9,600 </td>
+            <td class="column5 style12 n">&nbsp;&nbsp;7,200 </td>
+            <td class="column6 style12 n">&nbsp;&nbsp;6,600 </td>
+          </tr>
+          <tr class="row28">
+            <td class="column0 style11 s">POOLE</td>
+            <td class="column1 style12 n">&nbsp;&nbsp;10,500 </td>
+            <td class="column2 style12 n">&nbsp;&nbsp;12,000 </td>
+            <td class="column3 style12 n">&nbsp;&nbsp;10,000 </td>
+            <td class="column4 style12 n">&nbsp;&nbsp;7,900 </td>
+            <td class="column5 style12 n">&nbsp;&nbsp;6,800 </td>
+            <td class="column6 style12 n">&nbsp;&nbsp;7,200 </td>
+          </tr>
+          <tr class="row29">
+            <td class="column0 style11 s">BANBURY</td>
+            <td class="column1 style12 n">&nbsp;&nbsp;8,700 </td>
+            <td class="column2 style12 n">&nbsp;&nbsp;8,900 </td>
+            <td class="column3 style12 n">&nbsp;&nbsp;6,900 </td>
+            <td class="column4 style12 n">&nbsp;&nbsp;7,400 </td>
+            <td class="column5 style12 n">&nbsp;&nbsp;6,700 </td>
+            <td class="column6 style12 n">&nbsp;&nbsp;6,500 </td>
+          </tr>
+          <tr class="row30">
+            <td class="column0 style11 s">HANLEY</td>
+            <td class="column1 style12 n">&nbsp;&nbsp;17,200 </td>
+            <td class="column2 style12 n">&nbsp;&nbsp;18,600 </td>
+            <td class="column3 style12 n">&nbsp;&nbsp;15,400 </td>
+            <td class="column4 style12 n">&nbsp;&nbsp;14,000 </td>
+            <td class="column5 style12 n">&nbsp;&nbsp;11,500 </td>
+            <td class="column6 style12 n">&nbsp;&nbsp;10,900 </td>
+          </tr>
+          <tr class="row31">
+            <td class="column0 style11 s">LEEDS</td>
+            <td class="column1 style12 n">&nbsp;&nbsp;15,500 </td>
+            <td class="column2 style12 n">&nbsp;&nbsp;15,600 </td>
+            <td class="column3 style12 n">&nbsp;&nbsp;12,200 </td>
+            <td class="column4 style12 n">&nbsp;&nbsp;12,600 </td>
+            <td class="column5 style12 n">&nbsp;&nbsp;9,400 </td>
+            <td class="column6 style12 n">&nbsp;&nbsp;9,400 </td>
+          </tr>
+          <tr class="row32">
+            <td class="column0 style11 s">MANCHESTER</td>
+            <td class="column1 style12 n">&nbsp;&nbsp;15,700 </td>
+            <td class="column2 style12 n">&nbsp;&nbsp;14,500 </td>
+            <td class="column3 style12 n">&nbsp;&nbsp;11,600 </td>
+            <td class="column4 style12 n">&nbsp;&nbsp;11,700 </td>
+            <td class="column5 style12 n">&nbsp;&nbsp;8,700 </td>
+            <td class="column6 style12 n">&nbsp;&nbsp;9,200 </td>
+          </tr>
+          <tr class="row33">
+            <td class="column0 style11 null"></td>
+            <td class="column1 style5 null"></td>
+            <td class="column2 style5 null"></td>
+            <td class="column3 style5 null"></td>
+            <td class="column4 style5 null"></td>
+            <td class="column5 style5 null"></td>
+            <td class="column6 style5 null"></td>
+          </tr>
+          <tr class="row34">
+            <td class="column0 style14 s">Baker &amp; Spice</td>
+            <td class="column1 style15 null"></td>
+            <td class="column2 style16 null"></td>
+            <td class="column3 style5 null"></td>
+            <td class="column4 style5 null"></td>
+            <td class="column5 style5 null"></td>
+            <td class="column6 style5 null"></td>
+          </tr>
+          <tr class="row35">
+            <td class="column0 style17 s">Belgravia</td>
+            <td class="column1 style12 n">&nbsp;&nbsp;24,000 </td>
+            <td class="column2 style12 n">&nbsp;&nbsp;24,000 </td>
+            <td class="column3 style18 n">&nbsp;&nbsp;17,000 </td>
+            <td class="column4 style18 n">&nbsp;&nbsp;19,500 </td>
+            <td class="column5 style12 n">&nbsp;&nbsp;19,500 </td>
+            <td class="column6 style12 n">&nbsp;&nbsp;19,500 </td>
+          </tr>
+          <tr class="row36">
+            <td class="column0 style17 s">Chelsea</td>
+            <td class="column1 style12 n">&nbsp;&nbsp;34,000 </td>
+            <td class="column2 style12 n">&nbsp;&nbsp;34,000 </td>
+            <td class="column3 style18 n">&nbsp;&nbsp;23,000 </td>
+            <td class="column4 style18 n">&nbsp;&nbsp;27,000 </td>
+            <td class="column5 style12 n">&nbsp;&nbsp;30,000 </td>
+            <td class="column6 style12 n">&nbsp;&nbsp;30,000 </td>
+          </tr>
+          <tr class="row37">
+            <td class="column0 style17 s">Maida Vale</td>
+            <td class="column1 style12 n">&nbsp;&nbsp;22,000 </td>
+            <td class="column2 style12 n">&nbsp;&nbsp;22,000 </td>
+            <td class="column3 style18 n">&nbsp;&nbsp;16,000 </td>
+            <td class="column4 style18 n">&nbsp;&nbsp;18,000 </td>
+            <td class="column5 style12 n">&nbsp;&nbsp;18,000 </td>
+            <td class="column6 style12 n">&nbsp;&nbsp;18,100 </td>
+          </tr>
+          <tr class="row38">
+            <td class="column0 style17 s">Selfridge's</td>
+            <td class="column1 style12 n">&nbsp;&nbsp;25,600 </td>
+            <td class="column2 style12 n">&nbsp;&nbsp;24,600 </td>
+            <td class="column3 style18 n">&nbsp;&nbsp;18,000 </td>
+            <td class="column4 style18 n">&nbsp;&nbsp;19,000 </td>
+            <td class="column5 style12 n">&nbsp;&nbsp;22,000 </td>
+            <td class="column6 style12 n">&nbsp;&nbsp;22,000 </td>
+          </tr>
+          <tr class="row39">
+            <td class="column0 style19 s">Other Income</td>
+            <td class="column1 style20 null"></td>
+            <td class="column2 style16 null"></td>
+            <td class="column3 style5 null"></td>
+            <td class="column4 style5 null"></td>
+            <td class="column5 style5 null"></td>
+            <td class="column6 style5 null"></td>
+          </tr>
+          <tr class="row40">
+            <td class="column0 style21 s">Wholesale-Druckers</td>
+            <td class="column1 style16 n">1000</td>
+            <td class="column2 style16 n">1000</td>
+            <td class="column3 style5 n">1000</td>
+            <td class="column4 style5 n">1000</td>
+            <td class="column5 style5 n">1000</td>
+            <td class="column6 style5 n">1000</td>
+          </tr>
+          <tr class="row41">
+            <td class="column0 style21 s">FPC</td>
+            <td class="column1 style16 n">50000</td>
+            <td class="column2 style16 n">50000</td>
+            <td class="column3 style16 n">50000</td>
+            <td class="column4 style16 n">50000</td>
+            <td class="column5 style16 n">50000</td>
+            <td class="column6 style16 n">50000</td>
+          </tr>
+          <tr class="row42">
+            <td class="column0 style21 s">Websales-Druckers</td>
+            <td class="column1 style16 n">1000</td>
+            <td class="column2 style16 n">1000</td>
+            <td class="column3 style5 n">1000</td>
+            <td class="column4 style5 n">1000</td>
+            <td class="column5 style5 n">1000</td>
+            <td class="column6 style5 n">1000</td>
+          </tr>
+          <tr class="row43">
+            <td class="column0 style21 s">Websales-P.V</td>
+            <td class="column1 style22 n">35000</td>
+            <td class="column2 style22 n">35000</td>
+            <td class="column3 style23 n">35000</td>
+            <td class="column4 style23 n">35000</td>
+            <td class="column5 style23 n">35000</td>
+            <td class="column6 style23 n">35000</td>
+          </tr>
+          <tr class="row44">
+            <td class="column0 style24 null"></td>
+            <td class="column1 style25 null"></td>
+            <td class="column2 style25 null"></td>
+            <td class="column3 style23 null"></td>
+            <td class="column4 style23 null"></td>
+            <td class="column5 style23 null"></td>
+            <td class="column6 style23 null"></td>
+          </tr>
+          <tr class="row45">
+            <td class="column0 style3 s">Patisserie Valerie</td>
+            <td class="column1 style9 s">w/e 14/12</td>
+            <td class="column2 style9 s">w/e 21/12</td>
+            <td class="column3 style10 s">w/e28/12</td>
+            <td class="column4 style9 s">w/e 04/01</td>
+            <td class="column5 style27 s">w/e 11/01</td>
+            <td class="column6 style27 s">w/e 18/01</td>
+          </tr>
+          <tr class="row46">
+            <td class="column0 style10 s">Queensway</td>
+            <td class="column1 style12 n">&nbsp;&nbsp;13,000 </td>
+            <td class="column2 style12 n">&nbsp;&nbsp;13,000 </td>
+            <td class="column3 style26 n">&nbsp;&nbsp;9,000 </td>
+            <td class="column4 style26 n">&nbsp;&nbsp;9,000 </td>
+            <td class="column5 style12 n">&nbsp;&nbsp;12,000 </td>
+            <td class="column6 style12 n">&nbsp;&nbsp;13,000 </td>
+          </tr>
+          <tr class="row47">
+            <td class="column0 style10 s">Spitalfield</td>
+            <td class="column1 style12 n">&nbsp;&nbsp;27,000 </td>
+            <td class="column2 style12 n">&nbsp;&nbsp;27,000 </td>
+            <td class="column3 style18 n">&nbsp;&nbsp;17,500 </td>
+            <td class="column4 style18 n">&nbsp;&nbsp;17,500 </td>
+            <td class="column5 style12 n">&nbsp;&nbsp;23,000 </td>
+            <td class="column6 style12 n">&nbsp;&nbsp;23,000 </td>
+          </tr>
+          <tr class="row48">
+            <td class="column0 style10 s">Kensington</td>
+            <td class="column1 style12 n">&nbsp;&nbsp;6,900 </td>
+            <td class="column2 style12 n">&nbsp;&nbsp;6,900 </td>
+            <td class="column3 style12 n">&nbsp;&nbsp;4,900 </td>
+            <td class="column4 style12 n">&nbsp;&nbsp;5,900 </td>
+            <td class="column5 style12 n">&nbsp;&nbsp;5,900 </td>
+            <td class="column6 style12 n">&nbsp;&nbsp;6,600 </td>
+          </tr>
+          <tr class="row49">
+            <td class="column0 style10 s">Piccadilly</td>
+            <td class="column1 style12 n">&nbsp;&nbsp;22,200 </td>
+            <td class="column2 style12 n">&nbsp;&nbsp;22,200 </td>
+            <td class="column3 style12 n">&nbsp;&nbsp;17,700 </td>
+            <td class="column4 style12 n">&nbsp;&nbsp;20,000 </td>
+            <td class="column5 style12 n">&nbsp;&nbsp;20,000 </td>
+            <td class="column6 style12 n">&nbsp;&nbsp;22,000 </td>
+          </tr>
+          <tr class="row50">
+            <td class="column0 style10 s">Soho</td>
+            <td class="column1 style12 n">&nbsp;&nbsp;20,200 </td>
+            <td class="column2 style12 n">&nbsp;&nbsp;20,200 </td>
+            <td class="column3 style12 n">&nbsp;&nbsp;18,000 </td>
+            <td class="column4 style12 n">&nbsp;&nbsp;18,000 </td>
+            <td class="column5 style12 n">&nbsp;&nbsp;20,000 </td>
+            <td class="column6 style12 n">&nbsp;&nbsp;20,200 </td>
+          </tr>
+          <tr class="row51">
+            <td class="column0 style10 s">Chelsea</td>
+            <td class="column1 style12 n">0</td>
+            <td class="column2 style12 n">0</td>
+            <td class="column3 style12 n">0</td>
+            <td class="column4 style12 n">0</td>
+            <td class="column5 style12 n">0</td>
+            <td class="column6 style12 n">0</td>
+          </tr>
+          <tr class="row52">
+            <td class="column0 style10 s">Gelateria</td>
+            <td class="column1 style12 n">0</td>
+            <td class="column2 style12 n">0</td>
+            <td class="column3 style12 n">0</td>
+            <td class="column4 style12 n">0</td>
+            <td class="column5 style12 n">0</td>
+            <td class="column6 style12 n">0</td>
+          </tr>
+          <tr class="row53">
+            <td class="column0 style10 s">Belgravia</td>
+            <td class="column1 style18 n">&nbsp;&nbsp;10,000 </td>
+            <td class="column2 style12 n">&nbsp;&nbsp;9,500 </td>
+            <td class="column3 style12 n">&nbsp;&nbsp;7,600 </td>
+            <td class="column4 style12 n">&nbsp;&nbsp;8,500 </td>
+            <td class="column5 style12 n">&nbsp;&nbsp;8,800 </td>
+            <td class="column6 style12 n">&nbsp;&nbsp;9,500 </td>
+          </tr>
+          <tr class="row54">
+            <td class="column0 style10 s">Marylebone</td>
+            <td class="column1 style18 n">&nbsp;&nbsp;24,000 </td>
+            <td class="column2 style12 n">&nbsp;&nbsp;24,000 </td>
+            <td class="column3 style12 n">&nbsp;&nbsp;20,800 </td>
+            <td class="column4 style12 n">&nbsp;&nbsp;20,400 </td>
+            <td class="column5 style12 n">&nbsp;&nbsp;29,100 </td>
+            <td class="column6 style12 n">&nbsp;&nbsp;22,400 </td>
+          </tr>
+          <tr class="row55">
+            <td class="column0 style10 s">Marble Arch</td>
+            <td class="column1 style18 n">&nbsp;&nbsp;18,500 </td>
+            <td class="column2 style12 n">&nbsp;&nbsp;18,500 </td>
+            <td class="column3 style12 n">&nbsp;&nbsp;14,400 </td>
+            <td class="column4 style12 n">&nbsp;&nbsp;16,700 </td>
+            <td class="column5 style12 n">&nbsp;&nbsp;15,500 </td>
+            <td class="column6 style12 n">&nbsp;&nbsp;16,000 </td>
+          </tr>
+          <tr class="row56">
+            <td class="column0 style10 s">Covent Garden</td>
+            <td class="column1 style18 n">&nbsp;&nbsp;15,500 </td>
+            <td class="column2 style18 n">&nbsp;&nbsp;15,500 </td>
+            <td class="column3 style18 n">&nbsp;&nbsp;13,500 </td>
+            <td class="column4 style18 n">&nbsp;&nbsp;15,500 </td>
+            <td class="column5 style18 n">&nbsp;&nbsp;14,500 </td>
+            <td class="column6 style18 n">&nbsp;&nbsp;14,500 </td>
+          </tr>
+          <tr class="row57">
+            <td class="column0 style10 s">Torrington</td>
+            <td class="column1 style18 n">&nbsp;&nbsp;13,500 </td>
+            <td class="column2 style18 n">&nbsp;&nbsp;13,500 </td>
+            <td class="column3 style18 n">&nbsp;&nbsp;7,500 </td>
+            <td class="column4 style18 n">&nbsp;&nbsp;6,500 </td>
+            <td class="column5 style18 n">&nbsp;&nbsp;10,000 </td>
+            <td class="column6 style18 n">&nbsp;&nbsp;11,000 </td>
+          </tr>
+          <tr class="row58">
+            <td class="column0 style10 s">Brunswick</td>
+            <td class="column1 style18 n">&nbsp;&nbsp;10,000 </td>
+            <td class="column2 style18 n">&nbsp;&nbsp;10,000 </td>
+            <td class="column3 style18 n">&nbsp;&nbsp;6,500 </td>
+            <td class="column4 style18 n">&nbsp;&nbsp;6,500 </td>
+            <td class="column5 style18 n">&nbsp;&nbsp;8,500 </td>
+            <td class="column6 style18 n">&nbsp;&nbsp;8,500 </td>
+          </tr>
+          <tr class="row59">
+            <td class="column0 style10 s">Cabot's Circus</td>
+            <td class="column1 style18 n">&nbsp;&nbsp;19,000 </td>
+            <td class="column2 style18 n">&nbsp;&nbsp;19,000 </td>
+            <td class="column3 style18 n">&nbsp;&nbsp;16,300 </td>
+            <td class="column4 style18 n">&nbsp;&nbsp;17,100 </td>
+            <td class="column5 style18 n">&nbsp;&nbsp;11,800 </td>
+            <td class="column6 style18 n">&nbsp;&nbsp;13,000 </td>
+          </tr>
+          <tr class="row60">
+            <td class="column0 style9 s">Oxford</td>
+            <td class="column1 style18 n">&nbsp;&nbsp;12,000 </td>
+            <td class="column2 style18 n">&nbsp;&nbsp;12,000 </td>
+            <td class="column3 style18 n">&nbsp;&nbsp;9,000 </td>
+            <td class="column4 style18 n">&nbsp;&nbsp;8,400 </td>
+            <td class="column5 style18 n">&nbsp;&nbsp;8,600 </td>
+            <td class="column6 style18 n">&nbsp;&nbsp;9,800 </td>
+          </tr>
+          <tr class="row61">
+            <td class="column0 style9 s">Chiswick</td>
+            <td class="column1 style18 n">&nbsp;&nbsp;5,750 </td>
+            <td class="column2 style18 n">&nbsp;&nbsp;6,000 </td>
+            <td class="column3 style18 n">&nbsp;&nbsp;5,000 </td>
+            <td class="column4 style18 n">&nbsp;&nbsp;4,500 </td>
+            <td class="column5 style18 n">&nbsp;&nbsp;5,000 </td>
+            <td class="column6 style18 n">&nbsp;&nbsp;5,500 </td>
+          </tr>
+          <tr class="row62">
+            <td class="column0 style9 s">Holland Park</td>
+            <td class="column1 style18 n">&nbsp;&nbsp;6,500 </td>
+            <td class="column2 style18 n">&nbsp;&nbsp;6,750 </td>
+            <td class="column3 style18 n">&nbsp;&nbsp;5,500 </td>
+            <td class="column4 style18 n">&nbsp;&nbsp;5,000 </td>
+            <td class="column5 style18 n">&nbsp;&nbsp;6,000 </td>
+            <td class="column6 style18 n">&nbsp;&nbsp;6,250 </td>
+          </tr>
+          <tr class="row63">
+            <td class="column0 style9 s">Clifton</td>
+            <td class="column1 style18 n">&nbsp;&nbsp;5,000 </td>
+            <td class="column2 style18 n">&nbsp;&nbsp;5,000 </td>
+            <td class="column3 style18 n">&nbsp;&nbsp;4,000 </td>
+            <td class="column4 style18 n">&nbsp;&nbsp;4,500 </td>
+            <td class="column5 style18 n">&nbsp;&nbsp;4,500 </td>
+            <td class="column6 style18 n">&nbsp;&nbsp;4,500 </td>
+          </tr>
+          <tr class="row64">
+            <td class="column0 style9 s">Kingston</td>
+            <td class="column1 style18 n">&nbsp;&nbsp;16,700 </td>
+            <td class="column2 style18 n">&nbsp;&nbsp;16,700 </td>
+            <td class="column3 style18 n">&nbsp;&nbsp;16,400 </td>
+            <td class="column4 style18 n">&nbsp;&nbsp;15,100 </td>
+            <td class="column5 style18 n">&nbsp;&nbsp;12,500 </td>
+            <td class="column6 style18 n">&nbsp;&nbsp;12,800 </td>
+          </tr>
+          <tr class="row65">
+            <td class="column0 style9 s">Long Acre</td>
+            <td class="column1 style18 n">&nbsp;&nbsp;12,500 </td>
+            <td class="column2 style18 n">&nbsp;&nbsp;12,500 </td>
+            <td class="column3 style18 n">&nbsp;&nbsp;10,000 </td>
+            <td class="column4 style18 n">&nbsp;&nbsp;11,000 </td>
+            <td class="column5 style18 n">&nbsp;&nbsp;11,000 </td>
+            <td class="column6 style18 n">&nbsp;&nbsp;13,000 </td>
+          </tr>
+          <tr class="row66">
+            <td class="column0 style9 s">Sicilian Avenue</td>
+            <td class="column1 style18 n">&nbsp;&nbsp;11,200 </td>
+            <td class="column2 style18 n">&nbsp;&nbsp;10,200 </td>
+            <td class="column3 style18 n">&nbsp;&nbsp;8,200 </td>
+            <td class="column4 style18 n">&nbsp;&nbsp;12,300 </td>
+            <td class="column5 style18 n">&nbsp;&nbsp;11,100 </td>
+            <td class="column6 style18 n">&nbsp;&nbsp;11,800 </td>
+          </tr>
+          <tr class="row67">
+            <td class="column0 style9 s">Victoria</td>
+            <td class="column1 style18 n">&nbsp;&nbsp;10,500 </td>
+            <td class="column2 style18 n">&nbsp;&nbsp;10,500 </td>
+            <td class="column3 style18 n">&nbsp;&nbsp;10,000 </td>
+            <td class="column4 style18 n">&nbsp;&nbsp;9,000 </td>
+            <td class="column5 style18 n">&nbsp;&nbsp;9,000 </td>
+            <td class="column6 style18 n">&nbsp;&nbsp;9,500 </td>
+          </tr>
+          <tr class="row68">
+            <td class="column0 style9 s">Cambridge</td>
+            <td class="column1 style18 n">&nbsp;&nbsp;25,000 </td>
+            <td class="column2 style18 n">&nbsp;&nbsp;25,000 </td>
+            <td class="column3 style18 n">&nbsp;&nbsp;21,500 </td>
+            <td class="column4 style18 n">&nbsp;&nbsp;23,000 </td>
+            <td class="column5 style18 n">&nbsp;&nbsp;18,000 </td>
+            <td class="column6 style18 n">&nbsp;&nbsp;20,000 </td>
+          </tr>
+          <tr class="row69">
+            <td class="column0 style9 s">Canterbury</td>
+            <td class="column1 style18 n">&nbsp;&nbsp;13,000 </td>
+            <td class="column2 style18 n">&nbsp;&nbsp;13,000 </td>
+            <td class="column3 style18 n">&nbsp;&nbsp;12,500 </td>
+            <td class="column4 style18 n">&nbsp;&nbsp;11,900 </td>
+            <td class="column5 style18 n">&nbsp;&nbsp;10,100 </td>
+            <td class="column6 style18 n">&nbsp;&nbsp;10,500 </td>
+          </tr>
+          <tr class="row70">
+            <td class="column0 style9 s">Bath</td>
+            <td class="column1 style18 n">&nbsp;&nbsp;20,300 </td>
+            <td class="column2 style18 n">&nbsp;&nbsp;14,400 </td>
+            <td class="column3 style18 n">&nbsp;&nbsp;13,800 </td>
+            <td class="column4 style18 n">&nbsp;&nbsp;12,900 </td>
+            <td class="column5 style18 n">&nbsp;&nbsp;10,100 </td>
+            <td class="column6 style18 n">&nbsp;&nbsp;10,600 </td>
+          </tr>
+          <tr class="row71">
+            <td class="column0 style9 s">Leeds PV</td>
+            <td class="column1 style18 n">&nbsp;&nbsp;14,000 </td>
+            <td class="column2 style18 n">&nbsp;&nbsp;13,600 </td>
+            <td class="column3 style18 n">&nbsp;&nbsp;10,200 </td>
+            <td class="column4 style18 n">&nbsp;&nbsp;12,000 </td>
+            <td class="column5 style18 n">&nbsp;&nbsp;10,000 </td>
+            <td class="column6 style18 n">&nbsp;&nbsp;10,000 </td>
+          </tr>
+          <tr class="row72">
+            <td class="column0 style9 s">Marshall Street</td>
+            <td class="column1 style18 n">&nbsp;&nbsp;12,000 </td>
+            <td class="column2 style18 n">&nbsp;&nbsp;12,000 </td>
+            <td class="column3 style18 n">&nbsp;&nbsp;9,600 </td>
+            <td class="column4 style18 n">&nbsp;&nbsp;9,000 </td>
+            <td class="column5 style18 n">&nbsp;&nbsp;7,500 </td>
+            <td class="column6 style18 n">&nbsp;&nbsp;8,200 </td>
+          </tr>
+          <tr class="row73">
+            <td class="column0 style9 s">Twickenham</td>
+            <td class="column1 style18 n">&nbsp;&nbsp;7,500 </td>
+            <td class="column2 style18 n">&nbsp;&nbsp;8,000 </td>
+            <td class="column3 style18 n">&nbsp;&nbsp;7,000 </td>
+            <td class="column4 style18 n">&nbsp;&nbsp;7,000 </td>
+            <td class="column5 style18 n">&nbsp;&nbsp;7,250 </td>
+            <td class="column6 style18 n">&nbsp;&nbsp;7,750 </td>
+          </tr>
+          <tr class="row74">
+            <td class="column0 style9 s">Charing Cross</td>
+            <td class="column1 style18 n">&nbsp;&nbsp;23,000 </td>
+            <td class="column2 style18 n">&nbsp;&nbsp;23,000 </td>
+            <td class="column3 style18 n">&nbsp;&nbsp;22,300 </td>
+            <td class="column4 style18 n">&nbsp;&nbsp;21,000 </td>
+            <td class="column5 style18 n">&nbsp;&nbsp;20,000 </td>
+            <td class="column6 style18 n">&nbsp;&nbsp;22,000 </td>
+          </tr>
+          <tr class="row75">
+            <td class="column0 style9 s">Salisbury</td>
+            <td class="column1 style18 n">&nbsp;&nbsp;11,000 </td>
+            <td class="column2 style18 n">&nbsp;&nbsp;11,000 </td>
+            <td class="column3 style18 n">&nbsp;&nbsp;8,200 </td>
+            <td class="column4 style18 n">&nbsp;&nbsp;8,200 </td>
+            <td class="column5 style18 n">&nbsp;&nbsp;9,000 </td>
+            <td class="column6 style18 n">&nbsp;&nbsp;9,000 </td>
+          </tr>
+          <tr class="row76">
+            <td class="column0 style9 s">York</td>
+            <td class="column1 style18 n">&nbsp;&nbsp;20,000 </td>
+            <td class="column2 style18 n">&nbsp;&nbsp;19,500 </td>
+            <td class="column3 style18 n">&nbsp;&nbsp;15,200 </td>
+            <td class="column4 style18 n">&nbsp;&nbsp;15,200 </td>
+            <td class="column5 style18 n">&nbsp;&nbsp;10,500 </td>
+            <td class="column6 style18 n">&nbsp;&nbsp;10,500 </td>
+          </tr>
+          <tr class="row77">
+            <td class="column0 style9 s">Windsor</td>
+            <td class="column1 style18 n">&nbsp;&nbsp;15,000 </td>
+            <td class="column2 style18 n">&nbsp;&nbsp;15,000 </td>
+            <td class="column3 style18 n">&nbsp;&nbsp;15,000 </td>
+            <td class="column4 style18 n">&nbsp;&nbsp;16,600 </td>
+            <td class="column5 style18 n">&nbsp;&nbsp;10,700 </td>
+            <td class="column6 style18 n">&nbsp;&nbsp;11,500 </td>
+          </tr>
+          <tr class="row78">
+            <td class="column0 style9 s">MANCHESTER</td>
+            <td class="column1 style18 n">&nbsp;&nbsp;26,600 </td>
+            <td class="column2 style18 n">&nbsp;&nbsp;24,100 </td>
+            <td class="column3 style18 n">&nbsp;&nbsp;21,500 </td>
+            <td class="column4 style18 n">&nbsp;&nbsp;20,700 </td>
+            <td class="column5 style18 n">&nbsp;&nbsp;15,800 </td>
+            <td class="column6 style18 n">&nbsp;&nbsp;17,700 </td>
+          </tr>
+          <tr class="row79">
+            <td class="column0 style9 s">Liverpool</td>
+            <td class="column1 style18 n">&nbsp;&nbsp;16,000 </td>
+            <td class="column2 style18 n">&nbsp;&nbsp;16,000 </td>
+            <td class="column3 style18 n">&nbsp;&nbsp;13,700 </td>
+            <td class="column4 style18 n">&nbsp;&nbsp;12,800 </td>
+            <td class="column5 style18 n">&nbsp;&nbsp;10,500 </td>
+            <td class="column6 style18 n">&nbsp;&nbsp;10,500 </td>
+          </tr>
+          <tr class="row80">
+            <td class="column0 style9 s">Chichester</td>
+            <td class="column1 style18 n">&nbsp;&nbsp;14,500 </td>
+            <td class="column2 style18 n">&nbsp;&nbsp;13,100 </td>
+            <td class="column3 style18 n">&nbsp;&nbsp;11,100 </td>
+            <td class="column4 style18 n">&nbsp;&nbsp;10,800 </td>
+            <td class="column5 style18 n">&nbsp;&nbsp;9,900 </td>
+            <td class="column6 style18 n">&nbsp;&nbsp;8,500 </td>
+          </tr>
+          <tr class="row81">
+            <td class="column0 style9 s">Chester</td>
+            <td class="column1 style18 n">&nbsp;&nbsp;16,200 </td>
+            <td class="column2 style18 n">&nbsp;&nbsp;16,000 </td>
+            <td class="column3 style18 n">&nbsp;&nbsp;14,800 </td>
+            <td class="column4 style18 n">&nbsp;&nbsp;15,200 </td>
+            <td class="column5 style18 n">&nbsp;&nbsp;9,300 </td>
+            <td class="column6 style18 n">&nbsp;&nbsp;9,800 </td>
+          </tr>
+          <tr class="row82">
+            <td class="column0 style9 s">Peterborough</td>
+            <td class="column1 style18 n">&nbsp;&nbsp;9,300 </td>
+            <td class="column2 style18 n">&nbsp;&nbsp;9,800 </td>
+            <td class="column3 style18 n">&nbsp;&nbsp;8,600 </td>
+            <td class="column4 style18 n">&nbsp;&nbsp;7,700 </td>
+            <td class="column5 style18 n">&nbsp;&nbsp;6,200 </td>
+            <td class="column6 style18 n">&nbsp;&nbsp;6,500 </td>
+          </tr>
+          <tr class="row83">
+            <td class="column0 style9 s">Richmond</td>
+            <td class="column1 style18 n">&nbsp;&nbsp;6,000 </td>
+            <td class="column2 style18 n">&nbsp;&nbsp;6,800 </td>
+            <td class="column3 style18 n">&nbsp;&nbsp;5,500 </td>
+            <td class="column4 style18 n">&nbsp;&nbsp;5,000 </td>
+            <td class="column5 style18 n">&nbsp;&nbsp;5,700 </td>
+            <td class="column6 style18 n">&nbsp;&nbsp;6,000 </td>
+          </tr>
+          <tr class="row84">
+            <td class="column0 style9 s">Knightsbridge</td>
+            <td class="column1 style18 n">&nbsp;&nbsp;30,100 </td>
+            <td class="column2 style18 n">&nbsp;&nbsp;30,100 </td>
+            <td class="column3 style18 n">&nbsp;&nbsp;27,800 </td>
+            <td class="column4 style18 n">&nbsp;&nbsp;32,900 </td>
+            <td class="column5 style18 n">&nbsp;&nbsp;23,100 </td>
+            <td class="column6 style18 n">&nbsp;&nbsp;23,800 </td>
+          </tr>
+          <tr class="row85">
+            <td class="column0 style9 s">Hove</td>
+            <td class="column1 style18 n">&nbsp;&nbsp;9,900 </td>
+            <td class="column2 style18 n">&nbsp;&nbsp;9,200 </td>
+            <td class="column3 style18 n">&nbsp;&nbsp;9,600 </td>
+            <td class="column4 style18 n">&nbsp;&nbsp;11,700 </td>
+            <td class="column5 style18 n">&nbsp;&nbsp;10,900 </td>
+            <td class="column6 style18 n">&nbsp;&nbsp;11,100 </td>
+          </tr>
+          <tr class="row86">
+            <td class="column0 style9 s">Edgware Road</td>
+            <td class="column1 style18 n">&nbsp;&nbsp;21,600 </td>
+            <td class="column2 style18 n">&nbsp;&nbsp;21,600 </td>
+            <td class="column3 style18 n">&nbsp;&nbsp;17,000 </td>
+            <td class="column4 style18 n">&nbsp;&nbsp;19,000 </td>
+            <td class="column5 style18 n">&nbsp;&nbsp;21,000 </td>
+            <td class="column6 style18 n">&nbsp;&nbsp;22,000 </td>
+          </tr>
+          <tr class="row87">
+            <td class="column0 style9 s">Henley on Thames</td>
+            <td class="column1 style18 n">&nbsp;&nbsp;8,800 </td>
+            <td class="column2 style18 n">&nbsp;&nbsp;8,600 </td>
+            <td class="column3 style18 n">&nbsp;&nbsp;9,600 </td>
+            <td class="column4 style18 n">&nbsp;&nbsp;8,600 </td>
+            <td class="column5 style18 n">&nbsp;&nbsp;8,500 </td>
+            <td class="column6 style18 n">&nbsp;&nbsp;8,900 </td>
+          </tr>
+          <tr class="row88">
+            <td class="column0 style9 s">Sheffield</td>
+            <td class="column1 style18 n">&nbsp;&nbsp;18,600 </td>
+            <td class="column2 style18 n">&nbsp;&nbsp;20,200 </td>
+            <td class="column3 style18 n">&nbsp;&nbsp;15,800 </td>
+            <td class="column4 style18 n">&nbsp;&nbsp;14,900 </td>
+            <td class="column5 style18 n">&nbsp;&nbsp;13,500 </td>
+            <td class="column6 style18 n">&nbsp;&nbsp;14,900 </td>
+          </tr>
+          <tr class="row89">
+            <td class="column0 style9 s">Bury</td>
+            <td class="column1 style18 n">&nbsp;&nbsp;12,000 </td>
+            <td class="column2 style18 n">&nbsp;&nbsp;1,200 </td>
+            <td class="column3 style18 n">&nbsp;&nbsp;10,300 </td>
+            <td class="column4 style18 n">&nbsp;&nbsp;8,900 </td>
+            <td class="column5 style18 n">&nbsp;&nbsp;7,000 </td>
+            <td class="column6 style18 n">&nbsp;&nbsp;7,400 </td>
+          </tr>
+          <tr class="row90">
+            <td class="column0 style9 s">Sutton </td>
+            <td class="column1 style18 n">&nbsp;&nbsp;12,500 </td>
+            <td class="column2 style18 n">&nbsp;&nbsp;12,500 </td>
+            <td class="column3 style18 n">&nbsp;&nbsp;10,000 </td>
+            <td class="column4 style18 n">&nbsp;&nbsp;9,500 </td>
+            <td class="column5 style18 n">&nbsp;&nbsp;10,500 </td>
+            <td class="column6 style18 n">&nbsp;&nbsp;10,000 </td>
+          </tr>
+          <tr class="row91">
+            <td class="column0 style9 s">Leicester</td>
+            <td class="column1 style18 n">&nbsp;&nbsp;15,900 </td>
+            <td class="column2 style18 n">&nbsp;&nbsp;16,500 </td>
+            <td class="column3 style18 n">&nbsp;&nbsp;13,100 </td>
+            <td class="column4 style18 n">&nbsp;&nbsp;12,200 </td>
+            <td class="column5 style18 n">&nbsp;&nbsp;10,000 </td>
+            <td class="column6 style18 n">&nbsp;&nbsp;10,300 </td>
+          </tr>
+          <tr class="row92">
+            <td class="column0 style9 s">Kings Cross</td>
+            <td class="column1 style18 n">&nbsp;&nbsp;21,500 </td>
+            <td class="column2 style18 n">&nbsp;&nbsp;20,000 </td>
+            <td class="column3 style18 n">&nbsp;&nbsp;11,200 </td>
+            <td class="column4 style18 n">&nbsp;&nbsp;16,400 </td>
+            <td class="column5 style18 n">&nbsp;&nbsp;16,000 </td>
+            <td class="column6 style18 n">&nbsp;&nbsp;17,000 </td>
+          </tr>
+          <tr class="row93">
+            <td class="column0 style9 s">Reading</td>
+            <td class="column1 style18 n">&nbsp;&nbsp;20,500 </td>
+            <td class="column2 style18 n">&nbsp;&nbsp;20,700 </td>
+            <td class="column3 style18 n">&nbsp;&nbsp;17,000 </td>
+            <td class="column4 style18 n">&nbsp;&nbsp;18,300 </td>
+            <td class="column5 style18 n">&nbsp;&nbsp;14,400 </td>
+            <td class="column6 style18 n">&nbsp;&nbsp;15,000 </td>
+          </tr>
+          <tr class="row94">
+            <td class="column0 style28 s">Trafford Centre</td>
+            <td class="column1 style18 n">&nbsp;&nbsp;11,500 </td>
+            <td class="column2 style18 n">&nbsp;&nbsp;11,100 </td>
+            <td class="column3 style18 n">&nbsp;&nbsp;7,500 </td>
+            <td class="column4 style18 n">&nbsp;&nbsp;11,000 </td>
+            <td class="column5 style18 n">&nbsp;&nbsp;7,100 </td>
+            <td class="column6 style18 n">&nbsp;&nbsp;7,400 </td>
+          </tr>
+          <tr class="row95">
+            <td class="column0 style10 s">North Bridge</td>
+            <td class="column1 style18 n">&nbsp;&nbsp;19,750 </td>
+            <td class="column2 style18 n">&nbsp;&nbsp;19,750 </td>
+            <td class="column3 style18 n">&nbsp;&nbsp;15,500 </td>
+            <td class="column4 style18 n">&nbsp;&nbsp;20,600 </td>
+            <td class="column5 style18 n">&nbsp;&nbsp;14,500 </td>
+            <td class="column6 style18 n">&nbsp;&nbsp;14,750 </td>
+          </tr>
+          <tr class="row96">
+            <td class="column0 style9 s">Rose street</td>
+            <td class="column1 style18 n">&nbsp;&nbsp;14,500 </td>
+            <td class="column2 style18 n">&nbsp;&nbsp;14,500 </td>
+            <td class="column3 style18 n">&nbsp;&nbsp;13,400 </td>
+            <td class="column4 style18 n">&nbsp;&nbsp;15,900 </td>
+            <td class="column5 style18 n">&nbsp;&nbsp;10,000 </td>
+            <td class="column6 style18 n">&nbsp;&nbsp;10,000 </td>
+          </tr>
+          <tr class="row97">
+            <td class="column0 style9 s">Lincoln</td>
+            <td class="column1 style18 n">&nbsp;&nbsp;11,700 </td>
+            <td class="column2 style18 n">&nbsp;&nbsp;11,300 </td>
+            <td class="column3 style18 n">&nbsp;&nbsp;12,500 </td>
+            <td class="column4 style18 n">&nbsp;&nbsp;10,700 </td>
+            <td class="column5 style18 n">&nbsp;&nbsp;8,600 </td>
+            <td class="column6 style18 n">&nbsp;&nbsp;8,700 </td>
+          </tr>
+          <tr class="row98">
+            <td class="column0 style9 s">Eastbourne</td>
+            <td class="column1 style18 n">&nbsp;&nbsp;13,800 </td>
+            <td class="column2 style18 n">&nbsp;&nbsp;14,100 </td>
+            <td class="column3 style18 n">&nbsp;&nbsp;13,400 </td>
+            <td class="column4 style18 n">&nbsp;&nbsp;12,800 </td>
+            <td class="column5 style18 n">&nbsp;&nbsp;10,400 </td>
+            <td class="column6 style18 n">&nbsp;&nbsp;10,600 </td>
+          </tr>
+          <tr class="row99">
+            <td class="column0 style9 s">Nottingham</td>
+            <td class="column1 style18 n">&nbsp;&nbsp;23,800 </td>
+            <td class="column2 style18 n">&nbsp;&nbsp;22,800 </td>
+            <td class="column3 style18 n">&nbsp;&nbsp;22,000 </td>
+            <td class="column4 style18 n">&nbsp;&nbsp;18,900 </td>
+            <td class="column5 style18 n">&nbsp;&nbsp;14,800 </td>
+            <td class="column6 style18 n">&nbsp;&nbsp;15,800 </td>
+          </tr>
+          <tr class="row100">
+            <td class="column0 style9 s">Ipswich</td>
+            <td class="column1 style18 n">&nbsp;&nbsp;13,400 </td>
+            <td class="column2 style18 n">&nbsp;&nbsp;15,400 </td>
+            <td class="column3 style18 n">&nbsp;&nbsp;13,500 </td>
+            <td class="column4 style18 n">&nbsp;&nbsp;12,300 </td>
+            <td class="column5 style18 n">&nbsp;&nbsp;9,800 </td>
+            <td class="column6 style18 n">&nbsp;&nbsp;10,100 </td>
+          </tr>
+          <tr class="row101">
+            <td class="column0 style9 s">Norwich</td>
+            <td class="column1 style18 n">&nbsp;&nbsp;18,400 </td>
+            <td class="column2 style18 n">&nbsp;&nbsp;18,200 </td>
+            <td class="column3 style18 n">&nbsp;&nbsp;17,000 </td>
+            <td class="column4 style18 n">&nbsp;&nbsp;15,400 </td>
+            <td class="column5 style18 n">&nbsp;&nbsp;12,100 </td>
+            <td class="column6 style18 n">&nbsp;&nbsp;12,100 </td>
+          </tr>
+          <tr class="row102">
+            <td class="column0 style9 s">Bournemouth</td>
+            <td class="column1 style18 n">&nbsp;&nbsp;12,900 </td>
+            <td class="column2 style18 n">&nbsp;&nbsp;13,400 </td>
+            <td class="column3 style18 n">&nbsp;&nbsp;13,400 </td>
+            <td class="column4 style18 n">&nbsp;&nbsp;11,100 </td>
+            <td class="column5 style18 n">&nbsp;&nbsp;9,500 </td>
+            <td class="column6 style18 n">&nbsp;&nbsp;9,200 </td>
+          </tr>
+          <tr class="row103">
+            <td class="column0 style9 s">Portsmouth</td>
+            <td class="column1 style18 n">&nbsp;&nbsp;11,000 </td>
+            <td class="column2 style18 n">&nbsp;&nbsp;11,000 </td>
+            <td class="column3 style18 n">&nbsp;&nbsp;8,000 </td>
+            <td class="column4 style18 n">&nbsp;&nbsp;8,500 </td>
+            <td class="column5 style18 n">&nbsp;&nbsp;7,100 </td>
+            <td class="column6 style18 n">&nbsp;&nbsp;6,700 </td>
+          </tr>
+          <tr class="row104">
+            <td class="column0 style9 s">Gloucester</td>
+            <td class="column1 style18 n">&nbsp;&nbsp;8,300 </td>
+            <td class="column2 style18 n">&nbsp;&nbsp;8,100 </td>
+            <td class="column3 style18 n">&nbsp;&nbsp;7,000 </td>
+            <td class="column4 style18 n">&nbsp;&nbsp;6,700 </td>
+            <td class="column5 style18 n">&nbsp;&nbsp;6,400 </td>
+            <td class="column6 style18 n">&nbsp;&nbsp;6,300 </td>
+          </tr>
+          <tr class="row105">
+            <td class="column0 style9 s">Southend</td>
+            <td class="column1 style18 n">&nbsp;&nbsp;21,300 </td>
+            <td class="column2 style18 n">&nbsp;&nbsp;21,000 </td>
+            <td class="column3 style18 n">&nbsp;&nbsp;19,000 </td>
+            <td class="column4 style18 n">&nbsp;&nbsp;19,000 </td>
+            <td class="column5 style18 n">&nbsp;&nbsp;16,000 </td>
+            <td class="column6 style18 n">&nbsp;&nbsp;16,000 </td>
+          </tr>
+          <tr class="row106">
+            <td class="column0 style9 s">Colchester</td>
+            <td class="column1 style18 n">&nbsp;&nbsp;10,000 </td>
+            <td class="column2 style18 n">&nbsp;&nbsp;9,900 </td>
+            <td class="column3 style18 n">&nbsp;&nbsp;9,000 </td>
+            <td class="column4 style18 n">&nbsp;&nbsp;7,800 </td>
+            <td class="column5 style18 n">&nbsp;&nbsp;7,100 </td>
+            <td class="column6 style18 n">&nbsp;&nbsp;7,300 </td>
+          </tr>
+          <tr class="row107">
+            <td class="column0 style9 s">Paddington Station</td>
+            <td class="column1 style18 n">&nbsp;&nbsp;6,300 </td>
+            <td class="column2 style18 n">&nbsp;&nbsp;6,000 </td>
+            <td class="column3 style18 n">&nbsp;&nbsp;4,000 </td>
+            <td class="column4 style18 n">&nbsp;&nbsp;4,500 </td>
+            <td class="column5 style18 n">&nbsp;&nbsp;5,000 </td>
+            <td class="column6 style18 n">&nbsp;&nbsp;5,000 </td>
+          </tr>
+          <tr class="row108">
+            <td class="column0 style9 s">Euston Station</td>
+            <td class="column1 style18 n">&nbsp;&nbsp;11,000 </td>
+            <td class="column2 style18 n">&nbsp;&nbsp;11,000 </td>
+            <td class="column3 style18 n">&nbsp;&nbsp;5,000 </td>
+            <td class="column4 style18 n">&nbsp;&nbsp;4,500 </td>
+            <td class="column5 style18 n">&nbsp;&nbsp;7,000 </td>
+            <td class="column6 style18 n">&nbsp;&nbsp;7,200 </td>
+          </tr>
+          <tr class="row109">
+            <td class="column0 style9 s">Victoria Station</td>
+            <td class="column1 style18 n">&nbsp;&nbsp;9,100 </td>
+            <td class="column2 style18 n">&nbsp;&nbsp;9,000 </td>
+            <td class="column3 style18 n">&nbsp;&nbsp;5,000 </td>
+            <td class="column4 style18 n">&nbsp;&nbsp;6,600 </td>
+            <td class="column5 style18 n">&nbsp;&nbsp;7,000 </td>
+            <td class="column6 style18 n">&nbsp;&nbsp;7,400 </td>
+          </tr>
+          <tr class="row110">
+            <td class="column0 style9 s">Waterloo Station</td>
+            <td class="column1 style18 n">0</td>
+            <td class="column2 style18 n">0</td>
+            <td class="column3 style18 n">0</td>
+            <td class="column4 style18 n">0</td>
+            <td class="column5 style18 n">0</td>
+            <td class="column6 style18 n">0</td>
+          </tr>
+          <tr class="row111">
+            <td class="column0 style9 s">Marylebone Station</td>
+            <td class="column1 style18 n">&nbsp;&nbsp;20,400 </td>
+            <td class="column2 style18 n">&nbsp;&nbsp;19,300 </td>
+            <td class="column3 style18 n">&nbsp;&nbsp;11,400 </td>
+            <td class="column4 style18 n">&nbsp;&nbsp;14,300 </td>
+            <td class="column5 style18 n">&nbsp;&nbsp;16,300 </td>
+            <td class="column6 style18 n">&nbsp;&nbsp;16,800 </td>
+          </tr>
+          <tr class="row112">
+            <td class="column0 style9 s">26 St Pancras Station</td>
+            <td class="column1 style18 n">&nbsp;&nbsp;21,000 </td>
+            <td class="column2 style18 n">&nbsp;&nbsp;21,000 </td>
+            <td class="column3 style18 n">&nbsp;&nbsp;13,800 </td>
+            <td class="column4 style18 n">&nbsp;&nbsp;15,300 </td>
+            <td class="column5 style18 n">&nbsp;&nbsp;14,100 </td>
+            <td class="column6 style18 n">&nbsp;&nbsp;15,700 </td>
+          </tr>
+          <tr class="row113">
+            <td class="column0 style28 s">41 St Pancras</td>
+            <td class="column1 style18 n">0</td>
+            <td class="column2 style18 n">0</td>
+            <td class="column3 style18 n">0</td>
+            <td class="column4 style18 n">0</td>
+            <td class="column5 style18 n">0</td>
+            <td class="column6 style18 n">0</td>
+          </tr>
+          <tr class="row114">
+            <td class="column0 style9 s">Derby</td>
+            <td class="column1 style18 n">&nbsp;&nbsp;13,900 </td>
+            <td class="column2 style18 n">&nbsp;&nbsp;14,600 </td>
+            <td class="column3 style18 n">&nbsp;&nbsp;12,300 </td>
+            <td class="column4 style18 n">&nbsp;&nbsp;12,600 </td>
+            <td class="column5 style18 n">&nbsp;&nbsp;9,500 </td>
+            <td class="column6 style18 n">&nbsp;&nbsp;9,100 </td>
+          </tr>
+          <tr class="row115">
+            <td class="column0 style9 s">Edinburgh George IV Bridge</td>
+            <td class="column1 style18 n">&nbsp;&nbsp;11,000 </td>
+            <td class="column2 style18 n">&nbsp;&nbsp;11,000 </td>
+            <td class="column3 style18 n">&nbsp;&nbsp;8,200 </td>
+            <td class="column4 style18 n">&nbsp;&nbsp;8,500 </td>
+            <td class="column5 style18 n">&nbsp;&nbsp;7,500 </td>
+            <td class="column6 style18 n">&nbsp;&nbsp;7,500 </td>
+          </tr>
+          <tr class="row116">
+            <td class="column0 style9 s">Leeds St Pauls</td>
+            <td class="column1 style18 n">&nbsp;&nbsp;6,200 </td>
+            <td class="column2 style18 n">&nbsp;&nbsp;7,100 </td>
+            <td class="column3 style18 n">&nbsp;&nbsp;1,200 </td>
+            <td class="column4 style18 n">&nbsp;&nbsp;2,100 </td>
+            <td class="column5 style18 n">&nbsp;&nbsp;5,100 </td>
+            <td class="column6 style18 n">&nbsp;&nbsp;6,300 </td>
+          </tr>
+          <tr class="row117">
+            <td class="column0 style9 s">Glasgow Station</td>
+            <td class="column1 style18 n">&nbsp;&nbsp;8,000 </td>
+            <td class="column2 style18 n">&nbsp;&nbsp;8,000 </td>
+            <td class="column3 style18 n">&nbsp;&nbsp;6,000 </td>
+            <td class="column4 style18 n">&nbsp;&nbsp;5,400 </td>
+            <td class="column5 style18 n">&nbsp;&nbsp;5,100 </td>
+            <td class="column6 style18 n">&nbsp;&nbsp;5,900 </td>
+          </tr>
+          <tr class="row118">
+            <td class="column0 style9 s">Glasgow West Nile St</td>
+            <td class="column1 style18 n">&nbsp;&nbsp;19,000 </td>
+            <td class="column2 style18 n">&nbsp;&nbsp;19,000 </td>
+            <td class="column3 style18 n">&nbsp;&nbsp;14,500 </td>
+            <td class="column4 style18 n">&nbsp;&nbsp;13,700 </td>
+            <td class="column5 style18 n">&nbsp;&nbsp;10,800 </td>
+            <td class="column6 style18 n">&nbsp;&nbsp;13,700 </td>
+          </tr>
+          <tr class="row119">
+            <td class="column0 style9 s">Woking</td>
+            <td class="column1 style18 n">&nbsp;&nbsp;13,000 </td>
+            <td class="column2 style18 n">&nbsp;&nbsp;13,000 </td>
+            <td class="column3 style18 n">&nbsp;&nbsp;11,200 </td>
+            <td class="column4 style18 n">&nbsp;&nbsp;11,900 </td>
+            <td class="column5 style18 n">&nbsp;&nbsp;10,400 </td>
+            <td class="column6 style18 n">&nbsp;&nbsp;10,400 </td>
+          </tr>
+          <tr class="row120">
+            <td class="column0 style9 s">Aberdeen</td>
+            <td class="column1 style18 n">&nbsp;&nbsp;36,000 </td>
+            <td class="column2 style18 n">&nbsp;&nbsp;36,000 </td>
+            <td class="column3 style18 n">&nbsp;&nbsp;26,500 </td>
+            <td class="column4 style18 n">&nbsp;&nbsp;29,000 </td>
+            <td class="column5 style18 n">&nbsp;&nbsp;31,000 </td>
+            <td class="column6 style18 n">&nbsp;&nbsp;31,500 </td>
+          </tr>
+          <tr class="row121">
+            <td class="column0 style28 s">Selfridges Bull Ring</td>
+            <td class="column1 style18 n">&nbsp;&nbsp;12,500 </td>
+            <td class="column2 style18 n">&nbsp;&nbsp;12,500 </td>
+            <td class="column3 style18 n">&nbsp;&nbsp;9,000 </td>
+            <td class="column4 style18 n">&nbsp;&nbsp;12,000 </td>
+            <td class="column5 style18 n">&nbsp;&nbsp;10,000 </td>
+            <td class="column6 style18 n">&nbsp;&nbsp;10,000 </td>
+          </tr>
+          <tr class="row122">
+            <td class="column0 style9 s">Cheltenham</td>
+            <td class="column1 style18 n">&nbsp;&nbsp;11,000 </td>
+            <td class="column2 style18 n">&nbsp;&nbsp;11,000 </td>
+            <td class="column3 style18 n">&nbsp;&nbsp;9,000 </td>
+            <td class="column4 style18 n">&nbsp;&nbsp;10,000 </td>
+            <td class="column5 style18 n">&nbsp;&nbsp;10,000 </td>
+            <td class="column6 style18 n">&nbsp;&nbsp;10,000 </td>
+          </tr>
+          <tr class="row123">
+            <td class="column0 style9 s">Edinburgh Fort</td>
+            <td class="column1 style18 n">&nbsp;&nbsp;11,000 </td>
+            <td class="column2 style18 n">&nbsp;&nbsp;11,000 </td>
+            <td class="column3 style18 n">&nbsp;&nbsp;8,000 </td>
+            <td class="column4 style18 n">&nbsp;&nbsp;9,500 </td>
+            <td class="column5 style18 n">&nbsp;&nbsp;11,000 </td>
+            <td class="column6 style18 n">&nbsp;&nbsp;11,000 </td>
+          </tr>
+          <tr class="row124">
+            <td class="column0 style9 s">Exeter</td>
+            <td class="column1 style18 n">&nbsp;&nbsp;19,000 </td>
+            <td class="column2 style18 n">&nbsp;&nbsp;19,000 </td>
+            <td class="column3 style18 n">&nbsp;&nbsp;13,500 </td>
+            <td class="column4 style18 n">&nbsp;&nbsp;18,000 </td>
+            <td class="column5 style18 n">&nbsp;&nbsp;15,000 </td>
+            <td class="column6 style18 n">&nbsp;&nbsp;15,000 </td>
+          </tr>
+          <tr class="row125">
+            <td class="column0 style9 s">Shrewsbury</td>
+            <td class="column1 style18 n">&nbsp;&nbsp;9,300 </td>
+            <td class="column2 style18 n">&nbsp;&nbsp;9,800 </td>
+            <td class="column3 style18 n">&nbsp;&nbsp;8,600 </td>
+            <td class="column4 style18 n">&nbsp;&nbsp;7,700 </td>
+            <td class="column5 style18 n">&nbsp;&nbsp;6,200 </td>
+            <td class="column6 style18 n">&nbsp;&nbsp;6,500 </td>
+          </tr>
+          <tr class="row126">
+            <td class="column0 style9 s">Manchester Fort</td>
+            <td class="column1 style18 n">&nbsp;&nbsp;4,500 </td>
+            <td class="column2 style18 n">&nbsp;&nbsp;4,500 </td>
+            <td class="column3 style18 n">&nbsp;&nbsp;4,000 </td>
+            <td class="column4 style18 n">&nbsp;&nbsp;4,000 </td>
+            <td class="column5 style18 n">&nbsp;&nbsp;4,000 </td>
+            <td class="column6 style18 n">&nbsp;&nbsp;4,000 </td>
+          </tr>
+          <tr class="row127">
+            <td class="column0 style9 s">Cheltenham Next </td>
+            <td class="column1 style18 n">&nbsp;&nbsp;4,500 </td>
+            <td class="column2 style18 n">&nbsp;&nbsp;4,500 </td>
+            <td class="column3 style18 n">&nbsp;&nbsp;4,000 </td>
+            <td class="column4 style18 n">&nbsp;&nbsp;4,000 </td>
+            <td class="column5 style18 n">&nbsp;&nbsp;4,000 </td>
+            <td class="column6 style18 n">&nbsp;&nbsp;4,000 </td>
+          </tr>
+          <tr class="row128">
+            <td class="column0 style9 s">Barton Square</td>
+            <td class="column1 style18 n">&nbsp;&nbsp;6,000 </td>
+            <td class="column2 style18 n">&nbsp;&nbsp;6,000 </td>
+            <td class="column3 style18 n">&nbsp;&nbsp;4,000 </td>
+            <td class="column4 style18 n">&nbsp;&nbsp;5,000 </td>
+            <td class="column5 style18 n">&nbsp;&nbsp;5,500 </td>
+            <td class="column6 style18 n">&nbsp;&nbsp;5,500 </td>
+          </tr>
+        </tbody>
+    </table>
+  </body>
+</html>

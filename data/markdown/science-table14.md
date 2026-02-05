@@ -1,0 +1,12 @@
+|    | Chromosome             | Position    | Reference Allele   | Alternate Allele   | Gene Symbol   | Consequence          | HGVS Name (cDNA)              | HGVS Name (protein)            |
+|---:|:-----------------------|:------------|:-------------------|:-------------------|:--------------|:---------------------|:------------------------------|:-------------------------------|
+|  0 | Homozygous Recessive   |             |                    |                    |               |                      |                               |                                |
+|  1 | 1                      | 151105831.0 | T                  | C                  | SEMA6C        | missense_variant     | ENST00000368913.3:c.2018N>G   | ENSP00000357909.3:p.Glu673Gly  |
+|  2 |                        |             |                    |                    |               |                      |                               |                                |
+|  3 | Compound Heterozygotes |             |                    |                    |               |                      |                               |                                |
+|  4 | 8                      | 41790141.0  | G                  | C                  | KAT6A         | missense_variant     | ENST00000396930.3:c.5597N>G   | ENSP00000380136.3:p.Ser1866Cys |
+|  5 | 8                      | 41906160.0  | C                  | G                  | KAT6A         | missense_variant     | ENST00000396930.3:c.336N>C    | ENSP00000380136.3:p.Glu112Asp  |
+|  6 | 10                     | 129216807.0 | T                  | C                  | DOCK1         | splice_donor_variant | ENST00000280333.6:c.4629+2N>C |                                |
+|  7 | 10                     | 129242460.0 | C                  | T                  | DOCK1         | missense_variant     | ENST00000280333.6:c.5267N>T   | ENSP00000280333.6:p.Ser1756Leu |
+|  8 | 15                     | 75650903.0  | C                  | T                  | MAN2C1        | missense_variant     | ENST00000565683.1:c.2354N>A   | ENSP00000457788.1:p.Arg785Gln  |
+|  9 | 15                     | 75653996.0  | G                  | C                  | MAN2C1        | missense_variant     | ENST00000565683.1:c.1167N>G   | ENSP00000457788.1:p.Ile389Met  |

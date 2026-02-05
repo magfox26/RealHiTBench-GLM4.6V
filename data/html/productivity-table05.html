@@ -1,0 +1,1859 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <meta name="generator" content="PhpSpreadsheet, https://github.com/PHPOffice/PhpSpreadsheet">
+      <meta name="author" content="openpyxl" />
+      <meta name="company" content="Microsoft Corporation" />
+    <style type="text/css">
+      html { font-family:Calibri, Arial, Helvetica, sans-serif; font-size:11pt; background-color:white }
+      a.comment-indicator:hover + div.comment { background:#ffd; position:absolute; display:block; border:1px solid black; padding:0.5em }
+      a.comment-indicator { background:red; display:inline-block; border:1px solid black; width:0.5em; height:0.5em }
+      div.comment { display:none }
+      table { border-collapse:collapse; page-break-after:always }
+      .gridlines td { border:1px dotted black }
+      .gridlines th { border:1px dotted black }
+      .b { text-align:center }
+      .e { text-align:center }
+      .f { text-align:right }
+      .inlineStr { text-align:left }
+      .n { text-align:right }
+      .s { text-align:left }
+      td.style0 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:#FFFFFF }
+      th.style0 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Calibri'; font-size:11pt; background-color:#FFFFFF }
+      table.sheet0 col.col0 { width:42pt }
+      table.sheet0 col.col1 { width:42pt }
+      table.sheet0 col.col2 { width:42pt }
+      table.sheet0 col.col3 { width:42pt }
+      table.sheet0 col.col4 { width:42pt }
+      table.sheet0 col.col5 { width:42pt }
+      table.sheet0 col.col6 { width:42pt }
+      table.sheet0 col.col7 { width:42pt }
+      table.sheet0 col.col8 { width:42pt }
+      table.sheet0 tr { height:15pt }
+    </style>
+  </head>
+
+  <body>
+<style>
+@page { margin-left: 0.75in; margin-right: 0.75in; margin-top: 1in; margin-bottom: 1in; }
+body { margin-left: 0.75in; margin-right: 0.75in; margin-top: 1in; margin-bottom: 1in; }
+</style>
+    <table border="0" cellpadding="0" cellspacing="0" id="sheet0" class="sheet0 gridlines">
+        <col class="col0">
+        <col class="col1">
+        <col class="col2">
+        <col class="col3">
+        <col class="col4">
+        <col class="col5">
+        <col class="col6">
+        <col class="col7">
+        <col class="col8">
+        <tbody>
+          <tr class="row0">
+            <td class="column0 style0 n style0" rowspan="2">6</td>
+            <td class="column1 style0 inlineStr">&nbsp;Market sector productivity</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row1">
+            <td class="column1 style0 inlineStr">&nbsp;United Kingdom</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row2">
+            <td class="column0">&nbsp;</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8 style0 inlineStr">&nbsp;Seasonally adjusted (2019=100)</td>
+          </tr>
+          <tr class="row3">
+            <td class="column0">&nbsp;</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3 style0 inlineStr">&nbsp;Output per worker</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7 style0 inlineStr">&nbsp;Output per hour worked</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row4">
+            <td class="column0">&nbsp;</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3 style0 inlineStr">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7">&nbsp;</td>
+            <td class="column8">&nbsp;</td>
+          </tr>
+          <tr class="row5">
+            <td class="column0">&nbsp;</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3 style0 inlineStr">&nbsp;Per cent </td>
+            <td class="column4 style0 inlineStr">&nbsp;Per cent </td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7 style0 inlineStr">&nbsp;Per cent </td>
+            <td class="column8 style0 inlineStr">&nbsp;Per cent </td>
+          </tr>
+          <tr class="row6">
+            <td class="column0">&nbsp;</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3 style0 inlineStr">change on </td>
+            <td class="column4 style0 inlineStr">change on </td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7 style0 inlineStr">change on </td>
+            <td class="column8 style0 inlineStr">change on </td>
+          </tr>
+          <tr class="row7">
+            <td class="column0">&nbsp;</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3 style0 inlineStr">quarter a </td>
+            <td class="column4 style0 inlineStr">previous </td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6">&nbsp;</td>
+            <td class="column7 style0 inlineStr">quarter a </td>
+            <td class="column8 style0 inlineStr">previous </td>
+          </tr>
+          <tr class="row8">
+            <td class="column0">&nbsp;</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2 style0 inlineStr">&nbsp;Index</td>
+            <td class="column3 style0 inlineStr">year ago </td>
+            <td class="column4 style0 inlineStr">quarter</td>
+            <td class="column5">&nbsp;</td>
+            <td class="column6 style0 inlineStr">&nbsp;Index</td>
+            <td class="column7 style0 inlineStr">year ago </td>
+            <td class="column8 style0 inlineStr">quarter</td>
+          </tr>
+          <tr class="row9">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr"></td>
+            <td class="column2 style0 inlineStr">GYY4</td>
+            <td class="column3 style0 inlineStr">GYY5</td>
+            <td class="column4 style0 inlineStr">GYY6</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 inlineStr">GYY7</td>
+            <td class="column7 style0 inlineStr">GYY8</td>
+            <td class="column8 style0 inlineStr">GYY9</td>
+          </tr>
+          <tr class="row10">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 n">1993</td>
+            <td class="column2 style0 n">73.1</td>
+            <td class="column3 style0 inlineStr"></td>
+            <td class="column4 style0 inlineStr"></td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">71</td>
+            <td class="column7 style0 inlineStr"></td>
+            <td class="column8 style0 inlineStr"></td>
+          </tr>
+          <tr class="row11">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 n">1994</td>
+            <td class="column2 style0 n">75.8</td>
+            <td class="column3 style0 inlineStr"></td>
+            <td class="column4 style0 inlineStr"></td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">72.3</td>
+            <td class="column7 style0 inlineStr"></td>
+            <td class="column8 style0 inlineStr"></td>
+          </tr>
+          <tr class="row12">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 n">1995</td>
+            <td class="column2 style0 n">76.9</td>
+            <td class="column3 style0 inlineStr"></td>
+            <td class="column4 style0 inlineStr"></td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">73.4</td>
+            <td class="column7 style0 inlineStr"></td>
+            <td class="column8 style0 inlineStr"></td>
+          </tr>
+          <tr class="row13">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 n">1996</td>
+            <td class="column2 style0 n">77.5</td>
+            <td class="column3 style0 inlineStr"></td>
+            <td class="column4 style0 inlineStr"></td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">74</td>
+            <td class="column7 style0 inlineStr"></td>
+            <td class="column8 style0 inlineStr"></td>
+          </tr>
+          <tr class="row14">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 n">1997</td>
+            <td class="column2 style0 n">78.7</td>
+            <td class="column3 style0 inlineStr"></td>
+            <td class="column4 style0 inlineStr"></td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">75.3</td>
+            <td class="column7 style0 inlineStr"></td>
+            <td class="column8 style0 inlineStr"></td>
+          </tr>
+          <tr class="row15">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 n">1998</td>
+            <td class="column2 style0 n">80.6</td>
+            <td class="column3 style0 inlineStr"></td>
+            <td class="column4 style0 inlineStr"></td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">77.4</td>
+            <td class="column7 style0 inlineStr"></td>
+            <td class="column8 style0 inlineStr"></td>
+          </tr>
+          <tr class="row16">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 n">1999</td>
+            <td class="column2 style0 n">82.1</td>
+            <td class="column3 style0 inlineStr"></td>
+            <td class="column4 style0 inlineStr"></td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">79.4</td>
+            <td class="column7 style0 inlineStr"></td>
+            <td class="column8 style0 inlineStr"></td>
+          </tr>
+          <tr class="row17">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 n">2000</td>
+            <td class="column2 style0 n">85.2</td>
+            <td class="column3 style0 inlineStr"></td>
+            <td class="column4 style0 inlineStr"></td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">83</td>
+            <td class="column7 style0 inlineStr"></td>
+            <td class="column8 style0 inlineStr"></td>
+          </tr>
+          <tr class="row18">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 n">2001</td>
+            <td class="column2 style0 n">85.9</td>
+            <td class="column3 style0 inlineStr"></td>
+            <td class="column4 style0 inlineStr"></td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">83.6</td>
+            <td class="column7 style0 inlineStr"></td>
+            <td class="column8 style0 inlineStr"></td>
+          </tr>
+          <tr class="row19">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 n">2002</td>
+            <td class="column2 style0 n">87.7</td>
+            <td class="column3 style0 inlineStr"></td>
+            <td class="column4 style0 inlineStr"></td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">86.3</td>
+            <td class="column7 style0 inlineStr"></td>
+            <td class="column8 style0 inlineStr"></td>
+          </tr>
+          <tr class="row20">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 n">2003</td>
+            <td class="column2 style0 n">90.2</td>
+            <td class="column3 style0 inlineStr"></td>
+            <td class="column4 style0 inlineStr"></td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">89.2</td>
+            <td class="column7 style0 inlineStr"></td>
+            <td class="column8 style0 inlineStr"></td>
+          </tr>
+          <tr class="row21">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 n">2004</td>
+            <td class="column2 style0 n">91.7</td>
+            <td class="column3 style0 inlineStr"></td>
+            <td class="column4 style0 inlineStr"></td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">90.9</td>
+            <td class="column7 style0 inlineStr"></td>
+            <td class="column8 style0 inlineStr"></td>
+          </tr>
+          <tr class="row22">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 n">2005</td>
+            <td class="column2 style0 n">93.7</td>
+            <td class="column3 style0 inlineStr"></td>
+            <td class="column4 style0 inlineStr"></td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">92.7</td>
+            <td class="column7 style0 inlineStr"></td>
+            <td class="column8 style0 inlineStr"></td>
+          </tr>
+          <tr class="row23">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 n">2006</td>
+            <td class="column2 style0 n">95.7</td>
+            <td class="column3 style0 inlineStr"></td>
+            <td class="column4 style0 inlineStr"></td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">95</td>
+            <td class="column7 style0 inlineStr"></td>
+            <td class="column8 style0 inlineStr"></td>
+          </tr>
+          <tr class="row24">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 n">2007</td>
+            <td class="column2 style0 n">97.4</td>
+            <td class="column3 style0 inlineStr"></td>
+            <td class="column4 style0 inlineStr"></td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">96.6</td>
+            <td class="column7 style0 inlineStr"></td>
+            <td class="column8 style0 inlineStr"></td>
+          </tr>
+          <tr class="row25">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 n">2008</td>
+            <td class="column2 style0 n">96.5</td>
+            <td class="column3 style0 inlineStr"></td>
+            <td class="column4 style0 inlineStr"></td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">96.1</td>
+            <td class="column7 style0 inlineStr"></td>
+            <td class="column8 style0 inlineStr"></td>
+          </tr>
+          <tr class="row26">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 n">2009</td>
+            <td class="column2 style0 n">93.5</td>
+            <td class="column3 style0 inlineStr"></td>
+            <td class="column4 style0 inlineStr"></td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">94.5</td>
+            <td class="column7 style0 inlineStr"></td>
+            <td class="column8 style0 inlineStr"></td>
+          </tr>
+          <tr class="row27">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 n">2010</td>
+            <td class="column2 style0 n">95.8</td>
+            <td class="column3 style0 inlineStr"></td>
+            <td class="column4 style0 inlineStr"></td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">96.5</td>
+            <td class="column7 style0 inlineStr"></td>
+            <td class="column8 style0 inlineStr"></td>
+          </tr>
+          <tr class="row28">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 n">2011</td>
+            <td class="column2 style0 n">96.2</td>
+            <td class="column3 style0 inlineStr"></td>
+            <td class="column4 style0 inlineStr"></td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">97.1</td>
+            <td class="column7 style0 inlineStr"></td>
+            <td class="column8 style0 inlineStr"></td>
+          </tr>
+          <tr class="row29">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 n">2012</td>
+            <td class="column2 style0 n">96.1</td>
+            <td class="column3 style0 inlineStr"></td>
+            <td class="column4 style0 inlineStr"></td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">96.5</td>
+            <td class="column7 style0 inlineStr"></td>
+            <td class="column8 style0 inlineStr"></td>
+          </tr>
+          <tr class="row30">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 n">2013</td>
+            <td class="column2 style0 n">97.1</td>
+            <td class="column3 style0 inlineStr"></td>
+            <td class="column4 style0 inlineStr"></td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">96.9</td>
+            <td class="column7 style0 inlineStr"></td>
+            <td class="column8 style0 inlineStr"></td>
+          </tr>
+          <tr class="row31">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 n">2014</td>
+            <td class="column2 style0 n">97.6</td>
+            <td class="column3 style0 inlineStr"></td>
+            <td class="column4 style0 inlineStr"></td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">97.1</td>
+            <td class="column7 style0 inlineStr"></td>
+            <td class="column8 style0 inlineStr"></td>
+          </tr>
+          <tr class="row32">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 n">2015</td>
+            <td class="column2 style0 n">97.7</td>
+            <td class="column3 style0 inlineStr"></td>
+            <td class="column4 style0 inlineStr"></td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">97.4</td>
+            <td class="column7 style0 inlineStr"></td>
+            <td class="column8 style0 inlineStr"></td>
+          </tr>
+          <tr class="row33">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 n">2016</td>
+            <td class="column2 style0 n">98.3</td>
+            <td class="column3 style0 inlineStr"></td>
+            <td class="column4 style0 inlineStr"></td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">98.1</td>
+            <td class="column7 style0 inlineStr"></td>
+            <td class="column8 style0 inlineStr"></td>
+          </tr>
+          <tr class="row34">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 n">2017</td>
+            <td class="column2 style0 n">99.4</td>
+            <td class="column3 style0 inlineStr"></td>
+            <td class="column4 style0 inlineStr"></td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">99.3</td>
+            <td class="column7 style0 inlineStr"></td>
+            <td class="column8 style0 inlineStr"></td>
+          </tr>
+          <tr class="row35">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 n">2018</td>
+            <td class="column2 style0 n">99.4</td>
+            <td class="column3 style0 inlineStr"></td>
+            <td class="column4 style0 inlineStr"></td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">99.7</td>
+            <td class="column7 style0 inlineStr"></td>
+            <td class="column8 style0 inlineStr"></td>
+          </tr>
+          <tr class="row36">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 n">2019</td>
+            <td class="column2 style0 n">100</td>
+            <td class="column3 style0 inlineStr"></td>
+            <td class="column4 style0 inlineStr"></td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">100</td>
+            <td class="column7 style0 inlineStr"></td>
+            <td class="column8 style0 inlineStr"></td>
+          </tr>
+          <tr class="row37">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 n">2020</td>
+            <td class="column2 style0 n">91.3</td>
+            <td class="column3 style0 inlineStr"></td>
+            <td class="column4 style0 inlineStr"></td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">103</td>
+            <td class="column7 style0 inlineStr"></td>
+            <td class="column8 style0 inlineStr"></td>
+          </tr>
+          <tr class="row38">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr"></td>
+            <td class="column2 style0 inlineStr"></td>
+            <td class="column3 style0 inlineStr"></td>
+            <td class="column4 style0 inlineStr"></td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 inlineStr"></td>
+            <td class="column7 style0 inlineStr"></td>
+            <td class="column8 style0 inlineStr"></td>
+          </tr>
+          <tr class="row39">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">1992 Q1</td>
+            <td class="column2 style0 inlineStr"></td>
+            <td class="column3 style0 inlineStr"></td>
+            <td class="column4 style0 inlineStr"></td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 inlineStr"></td>
+            <td class="column7 style0 inlineStr"></td>
+            <td class="column8 style0 inlineStr"></td>
+          </tr>
+          <tr class="row40">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">Q2</td>
+            <td class="column2 style0 n">70</td>
+            <td class="column3 style0 inlineStr"></td>
+            <td class="column4 style0 inlineStr"></td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 inlineStr"></td>
+            <td class="column7 style0 inlineStr"></td>
+            <td class="column8 style0 inlineStr"></td>
+          </tr>
+          <tr class="row41">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">Q3</td>
+            <td class="column2 style0 n">70.8</td>
+            <td class="column3 style0 inlineStr"></td>
+            <td class="column4 style0 n">1.2</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 inlineStr"></td>
+            <td class="column7 style0 inlineStr"></td>
+            <td class="column8 style0 inlineStr"></td>
+          </tr>
+          <tr class="row42">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">Q4</td>
+            <td class="column2 style0 n">71.8</td>
+            <td class="column3 style0 inlineStr"></td>
+            <td class="column4 style0 n">1.4</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 inlineStr"></td>
+            <td class="column7 style0 inlineStr"></td>
+            <td class="column8 style0 inlineStr"></td>
+          </tr>
+          <tr class="row43">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">1993 Q1</td>
+            <td class="column2 style0 n">72.4</td>
+            <td class="column3 style0 inlineStr"></td>
+            <td class="column4 style0 n">0.8</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 inlineStr"></td>
+            <td class="column7 style0 inlineStr"></td>
+            <td class="column8 style0 inlineStr"></td>
+          </tr>
+          <tr class="row44">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">Q2</td>
+            <td class="column2 style0 n">72.7</td>
+            <td class="column3 style0 n">3.9</td>
+            <td class="column4 style0 n">0.4</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 inlineStr"></td>
+            <td class="column7 style0 inlineStr"></td>
+            <td class="column8 style0 inlineStr"></td>
+          </tr>
+          <tr class="row45">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">Q3</td>
+            <td class="column2 style0 n">73.4</td>
+            <td class="column3 style0 n">3.6</td>
+            <td class="column4 style0 n">0.9</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 inlineStr"></td>
+            <td class="column7 style0 inlineStr"></td>
+            <td class="column8 style0 inlineStr"></td>
+          </tr>
+          <tr class="row46">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">Q4</td>
+            <td class="column2 style0 n">73.8</td>
+            <td class="column3 style0 n">2.8</td>
+            <td class="column4 style0 n">0.6</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">71</td>
+            <td class="column7 style0 inlineStr"></td>
+            <td class="column8 style0 inlineStr"></td>
+          </tr>
+          <tr class="row47">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">1994 Q1</td>
+            <td class="column2 style0 n">74.7</td>
+            <td class="column3 style0 n">3.2</td>
+            <td class="column4 style0 n">1.2</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">71.6</td>
+            <td class="column7 style0 inlineStr"></td>
+            <td class="column8 style0 n">0.8</td>
+          </tr>
+          <tr class="row48">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">Q2</td>
+            <td class="column2 style0 n">75.6</td>
+            <td class="column3 style0 n">4</td>
+            <td class="column4 style0 n">1.2</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">72.3</td>
+            <td class="column7 style0 inlineStr"></td>
+            <td class="column8 style0 n">1</td>
+          </tr>
+          <tr class="row49">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">Q3</td>
+            <td class="column2 style0 n">76.2</td>
+            <td class="column3 style0 n">3.8</td>
+            <td class="column4 style0 n">0.7</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">72.6</td>
+            <td class="column7 style0 inlineStr"></td>
+            <td class="column8 style0 n">0.4</td>
+          </tr>
+          <tr class="row50">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">Q4</td>
+            <td class="column2 style0 n">76.7</td>
+            <td class="column3 style0 n">3.9</td>
+            <td class="column4 style0 n">0.7</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">72.7</td>
+            <td class="column7 style0 n">2.4</td>
+            <td class="column8 style0 n">0.1</td>
+          </tr>
+          <tr class="row51">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">1995 Q1</td>
+            <td class="column2 style0 n">76.8</td>
+            <td class="column3 style0 n">2.8</td>
+            <td class="column4 style0 n">0.1</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">73.1</td>
+            <td class="column7 style0 n">2</td>
+            <td class="column8 style0 n">0.5</td>
+          </tr>
+          <tr class="row52">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">Q2</td>
+            <td class="column2 style0 n">76.8</td>
+            <td class="column3 style0 n">1.6</td>
+            <td class="column4 style0 n">0</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">73.2</td>
+            <td class="column7 style0 n">1.2</td>
+            <td class="column8 style0 n">0.2</td>
+          </tr>
+          <tr class="row53">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">Q3</td>
+            <td class="column2 style0 n">77.1</td>
+            <td class="column3 style0 n">1.2</td>
+            <td class="column4 style0 n">0.4</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">73.8</td>
+            <td class="column7 style0 n">1.6</td>
+            <td class="column8 style0 n">0.7</td>
+          </tr>
+          <tr class="row54">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">Q4</td>
+            <td class="column2 style0 n">76.9</td>
+            <td class="column3 style0 n">0.2</td>
+            <td class="column4 style0 n">-0.3</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">73.5</td>
+            <td class="column7 style0 n">1.1</td>
+            <td class="column8 style0 n">-0.3</td>
+          </tr>
+          <tr class="row55">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">1996 Q1</td>
+            <td class="column2 style0 n">77.1</td>
+            <td class="column3 style0 n">0.4</td>
+            <td class="column4 style0 n">0.3</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">73.5</td>
+            <td class="column7 style0 n">0.6</td>
+            <td class="column8 style0 n">0</td>
+          </tr>
+          <tr class="row56">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">Q2</td>
+            <td class="column2 style0 n">77.3</td>
+            <td class="column3 style0 n">0.7</td>
+            <td class="column4 style0 n">0.3</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">73.8</td>
+            <td class="column7 style0 n">0.7</td>
+            <td class="column8 style0 n">0.3</td>
+          </tr>
+          <tr class="row57">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">Q3</td>
+            <td class="column2 style0 n">77.7</td>
+            <td class="column3 style0 n">0.8</td>
+            <td class="column4 style0 n">0.5</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">74.2</td>
+            <td class="column7 style0 n">0.6</td>
+            <td class="column8 style0 n">0.6</td>
+          </tr>
+          <tr class="row58">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">Q4</td>
+            <td class="column2 style0 n">77.8</td>
+            <td class="column3 style0 n">1.2</td>
+            <td class="column4 style0 n">0.1</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">74.5</td>
+            <td class="column7 style0 n">1.4</td>
+            <td class="column8 style0 n">0.4</td>
+          </tr>
+          <tr class="row59">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">1997 Q1</td>
+            <td class="column2 style0 n">78.1</td>
+            <td class="column3 style0 n">1.4</td>
+            <td class="column4 style0 n">0.4</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">74.7</td>
+            <td class="column7 style0 n">1.6</td>
+            <td class="column8 style0 n">0.2</td>
+          </tr>
+          <tr class="row60">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">Q2</td>
+            <td class="column2 style0 n">78.5</td>
+            <td class="column3 style0 n">1.5</td>
+            <td class="column4 style0 n">0.4</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">74.9</td>
+            <td class="column7 style0 n">1.6</td>
+            <td class="column8 style0 n">0.3</td>
+          </tr>
+          <tr class="row61">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">Q3</td>
+            <td class="column2 style0 n">78.7</td>
+            <td class="column3 style0 n">1.3</td>
+            <td class="column4 style0 n">0.3</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">75.2</td>
+            <td class="column7 style0 n">1.4</td>
+            <td class="column8 style0 n">0.4</td>
+          </tr>
+          <tr class="row62">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">Q4</td>
+            <td class="column2 style0 n">79.5</td>
+            <td class="column3 style0 n">2.2</td>
+            <td class="column4 style0 n">1.1</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">76.2</td>
+            <td class="column7 style0 n">2.3</td>
+            <td class="column8 style0 n">1.3</td>
+          </tr>
+          <tr class="row63">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">1998 Q1</td>
+            <td class="column2 style0 n">80</td>
+            <td class="column3 style0 n">2.4</td>
+            <td class="column4 style0 n">0.6</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">76.5</td>
+            <td class="column7 style0 n">2.4</td>
+            <td class="column8 style0 n">0.4</td>
+          </tr>
+          <tr class="row64">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">Q2</td>
+            <td class="column2 style0 n">80.6</td>
+            <td class="column3 style0 n">2.7</td>
+            <td class="column4 style0 n">0.7</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">77</td>
+            <td class="column7 style0 n">2.8</td>
+            <td class="column8 style0 n">0.7</td>
+          </tr>
+          <tr class="row65">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">Q3</td>
+            <td class="column2 style0 n">80.7</td>
+            <td class="column3 style0 n">2.5</td>
+            <td class="column4 style0 n">0.1</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">77.3</td>
+            <td class="column7 style0 n">2.8</td>
+            <td class="column8 style0 n">0.4</td>
+          </tr>
+          <tr class="row66">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">Q4</td>
+            <td class="column2 style0 n">81.1</td>
+            <td class="column3 style0 n">1.9</td>
+            <td class="column4 style0 n">0.5</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">78.6</td>
+            <td class="column7 style0 n">3.1</td>
+            <td class="column8 style0 n">1.6</td>
+          </tr>
+          <tr class="row67">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">1999 Q1</td>
+            <td class="column2 style0 n">81.3</td>
+            <td class="column3 style0 n">1.6</td>
+            <td class="column4 style0 n">0.2</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">78.6</td>
+            <td class="column7 style0 n">2.8</td>
+            <td class="column8 style0 n">0.1</td>
+          </tr>
+          <tr class="row68">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">Q2</td>
+            <td class="column2 style0 n">81.5</td>
+            <td class="column3 style0 n">1.1</td>
+            <td class="column4 style0 n">0.3</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">78.8</td>
+            <td class="column7 style0 n">2.3</td>
+            <td class="column8 style0 n">0.2</td>
+          </tr>
+          <tr class="row69">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">Q3</td>
+            <td class="column2 style0 n">82.3</td>
+            <td class="column3 style0 n">2</td>
+            <td class="column4 style0 n">1</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">79.5</td>
+            <td class="column7 style0 n">2.8</td>
+            <td class="column8 style0 n">0.9</td>
+          </tr>
+          <tr class="row70">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">Q4</td>
+            <td class="column2 style0 n">83.4</td>
+            <td class="column3 style0 n">2.8</td>
+            <td class="column4 style0 n">1.3</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">80.5</td>
+            <td class="column7 style0 n">2.5</td>
+            <td class="column8 style0 n">1.3</td>
+          </tr>
+          <tr class="row71">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">2000 Q1</td>
+            <td class="column2 style0 n">84.4</td>
+            <td class="column3 style0 n">3.8</td>
+            <td class="column4 style0 n">1.2</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">82.9</td>
+            <td class="column7 style0 n">5.4</td>
+            <td class="column8 style0 n">2.9</td>
+          </tr>
+          <tr class="row72">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">Q2</td>
+            <td class="column2 style0 n">85.1</td>
+            <td class="column3 style0 n">4.4</td>
+            <td class="column4 style0 n">0.9</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">82.8</td>
+            <td class="column7 style0 n">5.1</td>
+            <td class="column8 style0 n">0</td>
+          </tr>
+          <tr class="row73">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">Q3</td>
+            <td class="column2 style0 n">85.3</td>
+            <td class="column3 style0 n">3.6</td>
+            <td class="column4 style0 n">0.2</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">83.2</td>
+            <td class="column7 style0 n">4.7</td>
+            <td class="column8 style0 n">0.5</td>
+          </tr>
+          <tr class="row74">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">Q4</td>
+            <td class="column2 style0 n">85.8</td>
+            <td class="column3 style0 n">2.9</td>
+            <td class="column4 style0 n">0.5</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">83</td>
+            <td class="column7 style0 n">3.1</td>
+            <td class="column8 style0 n">-0.3</td>
+          </tr>
+          <tr class="row75">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">2001 Q1</td>
+            <td class="column2 style0 n">85.7</td>
+            <td class="column3 style0 n">1.5</td>
+            <td class="column4 style0 n">-0.1</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">83.3</td>
+            <td class="column7 style0 n">0.6</td>
+            <td class="column8 style0 n">0.4</td>
+          </tr>
+          <tr class="row76">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">Q2</td>
+            <td class="column2 style0 n">85.8</td>
+            <td class="column3 style0 n">0.8</td>
+            <td class="column4 style0 n">0.2</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">83.1</td>
+            <td class="column7 style0 n">0.3</td>
+            <td class="column8 style0 n">-0.3</td>
+          </tr>
+          <tr class="row77">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">Q3</td>
+            <td class="column2 style0 n">86</td>
+            <td class="column3 style0 n">0.8</td>
+            <td class="column4 style0 n">0.3</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">83.5</td>
+            <td class="column7 style0 n">0.3</td>
+            <td class="column8 style0 n">0.5</td>
+          </tr>
+          <tr class="row78">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">Q4</td>
+            <td class="column2 style0 n">86.2</td>
+            <td class="column3 style0 n">0.6</td>
+            <td class="column4 style0 n">0.3</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">84.3</td>
+            <td class="column7 style0 n">1.5</td>
+            <td class="column8 style0 n">0.9</td>
+          </tr>
+          <tr class="row79">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">2002 Q1</td>
+            <td class="column2 style0 n">87.1</td>
+            <td class="column3 style0 n">1.7</td>
+            <td class="column4 style0 n">1</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">85.4</td>
+            <td class="column7 style0 n">2.5</td>
+            <td class="column8 style0 n">1.4</td>
+          </tr>
+          <tr class="row80">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">Q2</td>
+            <td class="column2 style0 n">87.3</td>
+            <td class="column3 style0 n">1.7</td>
+            <td class="column4 style0 n">0.1</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">86.3</td>
+            <td class="column7 style0 n">3.8</td>
+            <td class="column8 style0 n">1</td>
+          </tr>
+          <tr class="row81">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">Q3</td>
+            <td class="column2 style0 n">88.1</td>
+            <td class="column3 style0 n">2.4</td>
+            <td class="column4 style0 n">1</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">86.4</td>
+            <td class="column7 style0 n">3.5</td>
+            <td class="column8 style0 n">0.2</td>
+          </tr>
+          <tr class="row82">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">Q4</td>
+            <td class="column2 style0 n">88.1</td>
+            <td class="column3 style0 n">2.2</td>
+            <td class="column4 style0 n">0</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">86.9</td>
+            <td class="column7 style0 n">3.2</td>
+            <td class="column8 style0 n">0.5</td>
+          </tr>
+          <tr class="row83">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">2003 Q1</td>
+            <td class="column2 style0 n">89</td>
+            <td class="column3 style0 n">2.2</td>
+            <td class="column4 style0 n">1</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">88</td>
+            <td class="column7 style0 n">3</td>
+            <td class="column8 style0 n">1.2</td>
+          </tr>
+          <tr class="row84">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">Q2</td>
+            <td class="column2 style0 n">89.5</td>
+            <td class="column3 style0 n">2.6</td>
+            <td class="column4 style0 n">0.6</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">88.5</td>
+            <td class="column7 style0 n">2.5</td>
+            <td class="column8 style0 n">0.6</td>
+          </tr>
+          <tr class="row85">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">Q3</td>
+            <td class="column2 style0 n">90.6</td>
+            <td class="column3 style0 n">2.8</td>
+            <td class="column4 style0 n">1.2</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">89.6</td>
+            <td class="column7 style0 n">3.7</td>
+            <td class="column8 style0 n">1.3</td>
+          </tr>
+          <tr class="row86">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">Q4</td>
+            <td class="column2 style0 n">91.4</td>
+            <td class="column3 style0 n">3.7</td>
+            <td class="column4 style0 n">0.9</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">90.8</td>
+            <td class="column7 style0 n">4.5</td>
+            <td class="column8 style0 n">1.4</td>
+          </tr>
+          <tr class="row87">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">2004 Q1</td>
+            <td class="column2 style0 n">91.5</td>
+            <td class="column3 style0 n">2.8</td>
+            <td class="column4 style0 n">0.1</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">90.8</td>
+            <td class="column7 style0 n">3.2</td>
+            <td class="column8 style0 n">-0.1</td>
+          </tr>
+          <tr class="row88">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">Q2</td>
+            <td class="column2 style0 n">91.7</td>
+            <td class="column3 style0 n">2.4</td>
+            <td class="column4 style0 n">0.2</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">91.1</td>
+            <td class="column7 style0 n">3</td>
+            <td class="column8 style0 n">0.3</td>
+          </tr>
+          <tr class="row89">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">Q3</td>
+            <td class="column2 style0 n">91.9</td>
+            <td class="column3 style0 n">1.4</td>
+            <td class="column4 style0 n">0.2</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">91.3</td>
+            <td class="column7 style0 n">1.9</td>
+            <td class="column8 style0 n">0.3</td>
+          </tr>
+          <tr class="row90">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">Q4</td>
+            <td class="column2 style0 n">91.9</td>
+            <td class="column3 style0 n">0.5</td>
+            <td class="column4 style0 n">0.1</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">90.6</td>
+            <td class="column7 style0 n">-0.3</td>
+            <td class="column8 style0 n">-0.8</td>
+          </tr>
+          <tr class="row91">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">2005 Q1</td>
+            <td class="column2 style0 n">91.9</td>
+            <td class="column3 style0 n">0.5</td>
+            <td class="column4 style0 n">0</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">91</td>
+            <td class="column7 style0 n">0.2</td>
+            <td class="column8 style0 n">0.5</td>
+          </tr>
+          <tr class="row92">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">Q2</td>
+            <td class="column2 style0 n">93.3</td>
+            <td class="column3 style0 n">1.8</td>
+            <td class="column4 style0 n">1.5</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">92.6</td>
+            <td class="column7 style0 n">1.7</td>
+            <td class="column8 style0 n">1.8</td>
+          </tr>
+          <tr class="row93">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">Q3</td>
+            <td class="column2 style0 n">93.7</td>
+            <td class="column3 style0 n">2</td>
+            <td class="column4 style0 n">0.4</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">92.7</td>
+            <td class="column7 style0 n">1.6</td>
+            <td class="column8 style0 n">0.1</td>
+          </tr>
+          <tr class="row94">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">Q4</td>
+            <td class="column2 style0 n">95.7</td>
+            <td class="column3 style0 n">4.1</td>
+            <td class="column4 style0 n">2.2</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">94.5</td>
+            <td class="column7 style0 n">4.3</td>
+            <td class="column8 style0 n">1.9</td>
+          </tr>
+          <tr class="row95">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">2006 Q1</td>
+            <td class="column2 style0 n">95.8</td>
+            <td class="column3 style0 n">4.2</td>
+            <td class="column4 style0 n">0.1</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">94.9</td>
+            <td class="column7 style0 n">4.3</td>
+            <td class="column8 style0 n">0.5</td>
+          </tr>
+          <tr class="row96">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">Q2</td>
+            <td class="column2 style0 n">95.7</td>
+            <td class="column3 style0 n">2.6</td>
+            <td class="column4 style0 n">-0.1</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">95.1</td>
+            <td class="column7 style0 n">2.7</td>
+            <td class="column8 style0 n">0.2</td>
+          </tr>
+          <tr class="row97">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">Q3</td>
+            <td class="column2 style0 n">95.5</td>
+            <td class="column3 style0 n">1.9</td>
+            <td class="column4 style0 n">-0.2</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">95</td>
+            <td class="column7 style0 n">2.4</td>
+            <td class="column8 style0 n">-0.2</td>
+          </tr>
+          <tr class="row98">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">Q4</td>
+            <td class="column2 style0 n">95.9</td>
+            <td class="column3 style0 n">0.2</td>
+            <td class="column4 style0 n">0.4</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">95</td>
+            <td class="column7 style0 n">0.6</td>
+            <td class="column8 style0 n">0.1</td>
+          </tr>
+          <tr class="row99">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">2007 Q1</td>
+            <td class="column2 style0 n">96.7</td>
+            <td class="column3 style0 n">1</td>
+            <td class="column4 style0 n">0.9</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">95.7</td>
+            <td class="column7 style0 n">0.8</td>
+            <td class="column8 style0 n">0.7</td>
+          </tr>
+          <tr class="row100">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">Q2</td>
+            <td class="column2 style0 n">97.2</td>
+            <td class="column3 style0 n">1.6</td>
+            <td class="column4 style0 n">0.5</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">96.1</td>
+            <td class="column7 style0 n">1</td>
+            <td class="column8 style0 n">0.5</td>
+          </tr>
+          <tr class="row101">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">Q3</td>
+            <td class="column2 style0 n">97.6</td>
+            <td class="column3 style0 n">2.3</td>
+            <td class="column4 style0 n">0.4</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">96.9</td>
+            <td class="column7 style0 n">2</td>
+            <td class="column8 style0 n">0.8</td>
+          </tr>
+          <tr class="row102">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">Q4</td>
+            <td class="column2 style0 n">98</td>
+            <td class="column3 style0 n">2.2</td>
+            <td class="column4 style0 n">0.4</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">97.8</td>
+            <td class="column7 style0 n">2.9</td>
+            <td class="column8 style0 n">0.9</td>
+          </tr>
+          <tr class="row103">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">2008 Q1</td>
+            <td class="column2 style0 n">98</td>
+            <td class="column3 style0 n">1.3</td>
+            <td class="column4 style0 n">0</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">96.8</td>
+            <td class="column7 style0 n">1.2</td>
+            <td class="column8 style0 n">-1</td>
+          </tr>
+          <tr class="row104">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">Q2</td>
+            <td class="column2 style0 n">97.3</td>
+            <td class="column3 style0 n">0.1</td>
+            <td class="column4 style0 n">-0.7</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">97.4</td>
+            <td class="column7 style0 n">1.3</td>
+            <td class="column8 style0 n">0.5</td>
+          </tr>
+          <tr class="row105">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">Q3</td>
+            <td class="column2 style0 n">96.1</td>
+            <td class="column3 style0 n">-1.6</td>
+            <td class="column4 style0 n">-1.3</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">95.7</td>
+            <td class="column7 style0 n">-1.3</td>
+            <td class="column8 style0 n">-1.7</td>
+          </tr>
+          <tr class="row106">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">Q4</td>
+            <td class="column2 style0 n">94.6</td>
+            <td class="column3 style0 n">-3.5</td>
+            <td class="column4 style0 n">-1.6</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">94.6</td>
+            <td class="column7 style0 n">-3.3</td>
+            <td class="column8 style0 n">-1.1</td>
+          </tr>
+          <tr class="row107">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">2009 Q1</td>
+            <td class="column2 style0 n">92.9</td>
+            <td class="column3 style0 n">-5.2</td>
+            <td class="column4 style0 n">-1.8</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">94.3</td>
+            <td class="column7 style0 n">-2.6</td>
+            <td class="column8 style0 n">-0.3</td>
+          </tr>
+          <tr class="row108">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">Q2</td>
+            <td class="column2 style0 n">93.3</td>
+            <td class="column3 style0 n">-4.1</td>
+            <td class="column4 style0 n">0.5</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">94.3</td>
+            <td class="column7 style0 n">-3.2</td>
+            <td class="column8 style0 n">0</td>
+          </tr>
+          <tr class="row109">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">Q3</td>
+            <td class="column2 style0 n">93.5</td>
+            <td class="column3 style0 n">-2.7</td>
+            <td class="column4 style0 n">0.1</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">94.4</td>
+            <td class="column7 style0 n">-1.3</td>
+            <td class="column8 style0 n">0.1</td>
+          </tr>
+          <tr class="row110">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">Q4</td>
+            <td class="column2 style0 n">94.2</td>
+            <td class="column3 style0 n">-0.4</td>
+            <td class="column4 style0 n">0.7</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">95.1</td>
+            <td class="column7 style0 n">0.6</td>
+            <td class="column8 style0 n">0.8</td>
+          </tr>
+          <tr class="row111">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">2010 Q1</td>
+            <td class="column2 style0 n">95.4</td>
+            <td class="column3 style0 n">2.8</td>
+            <td class="column4 style0 n">1.4</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">96.4</td>
+            <td class="column7 style0 n">2.2</td>
+            <td class="column8 style0 n">1.3</td>
+          </tr>
+          <tr class="row112">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">Q2</td>
+            <td class="column2 style0 n">96</td>
+            <td class="column3 style0 n">2.9</td>
+            <td class="column4 style0 n">0.6</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">96.7</td>
+            <td class="column7 style0 n">2.5</td>
+            <td class="column8 style0 n">0.3</td>
+          </tr>
+          <tr class="row113">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">Q3</td>
+            <td class="column2 style0 n">95.9</td>
+            <td class="column3 style0 n">2.6</td>
+            <td class="column4 style0 n">-0.2</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">96.9</td>
+            <td class="column7 style0 n">2.6</td>
+            <td class="column8 style0 n">0.2</td>
+          </tr>
+          <tr class="row114">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">Q4</td>
+            <td class="column2 style0 n">95.8</td>
+            <td class="column3 style0 n">1.7</td>
+            <td class="column4 style0 n">-0.1</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">95.9</td>
+            <td class="column7 style0 n">0.8</td>
+            <td class="column8 style0 n">-1</td>
+          </tr>
+          <tr class="row115">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">2011 Q1</td>
+            <td class="column2 style0 n">95.7</td>
+            <td class="column3 style0 n">0.3</td>
+            <td class="column4 style0 n">-0.1</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">96.4</td>
+            <td class="column7 style0 n">0</td>
+            <td class="column8 style0 n">0.5</td>
+          </tr>
+          <tr class="row116">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">Q2</td>
+            <td class="column2 style0 n">95.9</td>
+            <td class="column3 style0 n">-0.2</td>
+            <td class="column4 style0 n">0.2</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">97.5</td>
+            <td class="column7 style0 n">0.9</td>
+            <td class="column8 style0 n">1.2</td>
+          </tr>
+          <tr class="row117">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">Q3</td>
+            <td class="column2 style0 n">96.6</td>
+            <td class="column3 style0 n">0.8</td>
+            <td class="column4 style0 n">0.8</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">97.3</td>
+            <td class="column7 style0 n">0.4</td>
+            <td class="column8 style0 n">-0.3</td>
+          </tr>
+          <tr class="row118">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">Q4</td>
+            <td class="column2 style0 n">96.6</td>
+            <td class="column3 style0 n">0.9</td>
+            <td class="column4 style0 n">0</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">97.3</td>
+            <td class="column7 style0 n">1.5</td>
+            <td class="column8 style0 n">0.1</td>
+          </tr>
+          <tr class="row119">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">2012 Q1</td>
+            <td class="column2 style0 n">96.7</td>
+            <td class="column3 style0 n">1.1</td>
+            <td class="column4 style0 n">0.1</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">97.3</td>
+            <td class="column7 style0 n">1</td>
+            <td class="column8 style0 n">-0.1</td>
+          </tr>
+          <tr class="row120">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">Q2</td>
+            <td class="column2 style0 n">95.7</td>
+            <td class="column3 style0 n">-0.2</td>
+            <td class="column4 style0 n">-1.1</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">96.3</td>
+            <td class="column7 style0 n">-1.2</td>
+            <td class="column8 style0 n">-1</td>
+          </tr>
+          <tr class="row121">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">Q3</td>
+            <td class="column2 style0 n">96.4</td>
+            <td class="column3 style0 n">-0.2</td>
+            <td class="column4 style0 n">0.8</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">96.5</td>
+            <td class="column7 style0 n">-0.7</td>
+            <td class="column8 style0 n">0.2</td>
+          </tr>
+          <tr class="row122">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">Q4</td>
+            <td class="column2 style0 n">95.5</td>
+            <td class="column3 style0 n">-1.1</td>
+            <td class="column4 style0 n">-0.9</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">95.9</td>
+            <td class="column7 style0 n">-1.5</td>
+            <td class="column8 style0 n">-0.6</td>
+          </tr>
+          <tr class="row123">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">2013 Q1</td>
+            <td class="column2 style0 n">96.2</td>
+            <td class="column3 style0 n">-0.6</td>
+            <td class="column4 style0 n">0.7</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">96.1</td>
+            <td class="column7 style0 n">-1.2</td>
+            <td class="column8 style0 n">0.2</td>
+          </tr>
+          <tr class="row124">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">Q2</td>
+            <td class="column2 style0 n">97.3</td>
+            <td class="column3 style0 n">1.7</td>
+            <td class="column4 style0 n">1.2</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">97.2</td>
+            <td class="column7 style0 n">0.9</td>
+            <td class="column8 style0 n">1.1</td>
+          </tr>
+          <tr class="row125">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">Q3</td>
+            <td class="column2 style0 n">97.4</td>
+            <td class="column3 style0 n">1</td>
+            <td class="column4 style0 n">0.1</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">96.9</td>
+            <td class="column7 style0 n">0.4</td>
+            <td class="column8 style0 n">-0.3</td>
+          </tr>
+          <tr class="row126">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">Q4</td>
+            <td class="column2 style0 n">97.6</td>
+            <td class="column3 style0 n">2.1</td>
+            <td class="column4 style0 n">0.2</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">97.3</td>
+            <td class="column7 style0 n">1.5</td>
+            <td class="column8 style0 n">0.4</td>
+          </tr>
+          <tr class="row127">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">2014 Q1</td>
+            <td class="column2 style0 n">97.6</td>
+            <td class="column3 style0 n">1.5</td>
+            <td class="column4 style0 n">0</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">97.4</td>
+            <td class="column7 style0 n">1.3</td>
+            <td class="column8 style0 n">0.1</td>
+          </tr>
+          <tr class="row128">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">Q2</td>
+            <td class="column2 style0 n">97.6</td>
+            <td class="column3 style0 n">0.4</td>
+            <td class="column4 style0 n">0</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">97.1</td>
+            <td class="column7 style0 n">-0.1</td>
+            <td class="column8 style0 n">-0.3</td>
+          </tr>
+          <tr class="row129">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">Q3</td>
+            <td class="column2 style0 n">97.6</td>
+            <td class="column3 style0 n">0.3</td>
+            <td class="column4 style0 n">0</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">97.3</td>
+            <td class="column7 style0 n">0.3</td>
+            <td class="column8 style0 n">0.2</td>
+          </tr>
+          <tr class="row130">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">Q4</td>
+            <td class="column2 style0 n">97.5</td>
+            <td class="column3 style0 n">0</td>
+            <td class="column4 style0 n">-0.1</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">96.7</td>
+            <td class="column7 style0 n">-0.7</td>
+            <td class="column8 style0 n">-0.6</td>
+          </tr>
+          <tr class="row131">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">2015 Q1</td>
+            <td class="column2 style0 n">97.6</td>
+            <td class="column3 style0 n">0</td>
+            <td class="column4 style0 n">0.1</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">97.3</td>
+            <td class="column7 style0 n">0</td>
+            <td class="column8 style0 n">0.7</td>
+          </tr>
+          <tr class="row132">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">Q2</td>
+            <td class="column2 style0 n">98.3</td>
+            <td class="column3 style0 n">0.7</td>
+            <td class="column4 style0 n">0.7</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">97.7</td>
+            <td class="column7 style0 n">0.6</td>
+            <td class="column8 style0 n">0.4</td>
+          </tr>
+          <tr class="row133">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">Q3</td>
+            <td class="column2 style0 n">97.6</td>
+            <td class="column3 style0 n">0</td>
+            <td class="column4 style0 n">-0.7</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">97.9</td>
+            <td class="column7 style0 n">0.6</td>
+            <td class="column8 style0 n">0.2</td>
+          </tr>
+          <tr class="row134">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">Q4</td>
+            <td class="column2 style0 n">97.4</td>
+            <td class="column3 style0 n">-0.1</td>
+            <td class="column4 style0 n">-0.2</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">96.7</td>
+            <td class="column7 style0 n">0</td>
+            <td class="column8 style0 n">-1.2</td>
+          </tr>
+          <tr class="row135">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">2016 Q1</td>
+            <td class="column2 style0 n">98.1</td>
+            <td class="column3 style0 n">0.5</td>
+            <td class="column4 style0 n">0.7</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">97.7</td>
+            <td class="column7 style0 n">0.4</td>
+            <td class="column8 style0 n">1.1</td>
+          </tr>
+          <tr class="row136">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">Q2</td>
+            <td class="column2 style0 n">98</td>
+            <td class="column3 style0 n">-0.2</td>
+            <td class="column4 style0 n">0</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">98</td>
+            <td class="column7 style0 n">0.3</td>
+            <td class="column8 style0 n">0.3</td>
+          </tr>
+          <tr class="row137">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">Q3</td>
+            <td class="column2 style0 n">98.2</td>
+            <td class="column3 style0 n">0.6</td>
+            <td class="column4 style0 n">0.2</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">98.2</td>
+            <td class="column7 style0 n">0.4</td>
+            <td class="column8 style0 n">0.3</td>
+          </tr>
+          <tr class="row138">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">Q4</td>
+            <td class="column2 style0 n">98.9</td>
+            <td class="column3 style0 n">1.5</td>
+            <td class="column4 style0 n">0.7</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">98.7</td>
+            <td class="column7 style0 n">2.1</td>
+            <td class="column8 style0 n">0.4</td>
+          </tr>
+          <tr class="row139">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">2017 Q1</td>
+            <td class="column2 style0 n">99.3</td>
+            <td class="column3 style0 n">1.2</td>
+            <td class="column4 style0 n">0.3</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">98.6</td>
+            <td class="column7 style0 n">0.9</td>
+            <td class="column8 style0 n">0</td>
+          </tr>
+          <tr class="row140">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">Q2</td>
+            <td class="column2 style0 n">99.3</td>
+            <td class="column3 style0 n">1.3</td>
+            <td class="column4 style0 n">0.1</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">98.5</td>
+            <td class="column7 style0 n">0.6</td>
+            <td class="column8 style0 n">-0.1</td>
+          </tr>
+          <tr class="row141">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">Q3</td>
+            <td class="column2 style0 n">99.5</td>
+            <td class="column3 style0 n">1.3</td>
+            <td class="column4 style0 n">0.1</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">99.9</td>
+            <td class="column7 style0 n">1.7</td>
+            <td class="column8 style0 n">1.4</td>
+          </tr>
+          <tr class="row142">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">Q4</td>
+            <td class="column2 style0 n">99.4</td>
+            <td class="column3 style0 n">0.5</td>
+            <td class="column4 style0 n">-0.1</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">100.1</td>
+            <td class="column7 style0 n">1.4</td>
+            <td class="column8 style0 n">0.2</td>
+          </tr>
+          <tr class="row143">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">2018 Q1</td>
+            <td class="column2 style0 n">98.7</td>
+            <td class="column3 style0 n">-0.6</td>
+            <td class="column4 style0 n">-0.7</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">99.3</td>
+            <td class="column7 style0 n">0.7</td>
+            <td class="column8 style0 n">-0.8</td>
+          </tr>
+          <tr class="row144">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">Q2</td>
+            <td class="column2 style0 n">99.5</td>
+            <td class="column3 style0 n">0.1</td>
+            <td class="column4 style0 n">0.8</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">99.9</td>
+            <td class="column7 style0 n">1.3</td>
+            <td class="column8 style0 n">0.6</td>
+          </tr>
+          <tr class="row145">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">Q3</td>
+            <td class="column2 style0 n">99.7</td>
+            <td class="column3 style0 n">0.2</td>
+            <td class="column4 style0 n">0.2</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">99.7</td>
+            <td class="column7 style0 n">-0.2</td>
+            <td class="column8 style0 n">-0.2</td>
+          </tr>
+          <tr class="row146">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">Q4</td>
+            <td class="column2 style0 n">99.6</td>
+            <td class="column3 style0 n">0.2</td>
+            <td class="column4 style0 n">0</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">99.9</td>
+            <td class="column7 style0 n">-0.1</td>
+            <td class="column8 style0 n">0.3</td>
+          </tr>
+          <tr class="row147">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">2019 Q1</td>
+            <td class="column2 style0 n">100</td>
+            <td class="column3 style0 n">1.3</td>
+            <td class="column4 style0 n">0.3</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">99.4</td>
+            <td class="column7 style0 n">0.1</td>
+            <td class="column8 style0 n">-0.5</td>
+          </tr>
+          <tr class="row148">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">Q2</td>
+            <td class="column2 style0 n">100</td>
+            <td class="column3 style0 n">0.6</td>
+            <td class="column4 style0 n">0.1</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">99.9</td>
+            <td class="column7 style0 n">0.1</td>
+            <td class="column8 style0 n">0.5</td>
+          </tr>
+          <tr class="row149">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">Q3</td>
+            <td class="column2 style0 n">100.4</td>
+            <td class="column3 style0 n">0.7</td>
+            <td class="column4 style0 n">0.3</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">100.3</td>
+            <td class="column7 style0 n">0.7</td>
+            <td class="column8 style0 n">0.4</td>
+          </tr>
+          <tr class="row150">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">Q4</td>
+            <td class="column2 style0 n">99.6</td>
+            <td class="column3 style0 n">0</td>
+            <td class="column4 style0 n">-0.7</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">100.3</td>
+            <td class="column7 style0 n">0.4</td>
+            <td class="column8 style0 n">0</td>
+          </tr>
+          <tr class="row151">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">2020 Q1</td>
+            <td class="column2 style0 n">96.8</td>
+            <td class="column3 style0 n">-3.1</td>
+            <td class="column4 style0 n">-2.8</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">99.7</td>
+            <td class="column7 style0 n">0.3</td>
+            <td class="column8 style0 n">-0.5</td>
+          </tr>
+          <tr class="row152">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">Q2</td>
+            <td class="column2 style0 n">78.7</td>
+            <td class="column3 style0 n">-21.3</td>
+            <td class="column4 style0 n">-18.7</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">100.2</td>
+            <td class="column7 style0 n">0.2</td>
+            <td class="column8 style0 n">0.4</td>
+          </tr>
+          <tr class="row153">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">Q3</td>
+            <td class="column2 style0 n">94.3</td>
+            <td class="column3 style0 n">-6.1</td>
+            <td class="column4 style0 n">19.7</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">108.7</td>
+            <td class="column7 style0 n">8.3</td>
+            <td class="column8 style0 n">8.5</td>
+          </tr>
+          <tr class="row154">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">Q4</td>
+            <td class="column2 style0 n">95.5</td>
+            <td class="column3 style0 n">-4.1</td>
+            <td class="column4 style0 n">1.4</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">103.4</td>
+            <td class="column7 style0 n">3.1</td>
+            <td class="column8 style0 n">-4.8</td>
+          </tr>
+          <tr class="row155">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">2021 Q1</td>
+            <td class="column2 style0 n">95</td>
+            <td class="column3 style0 n">-1.9</td>
+            <td class="column4 style0 n">-0.6</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">104.9</td>
+            <td class="column7 style0 n">5.2</td>
+            <td class="column8 style0 n">1.4</td>
+          </tr>
+          <tr class="row156">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">Q2</td>
+            <td class="column2 style0 n">99.6</td>
+            <td class="column3 style0 n">26.5</td>
+            <td class="column4 style0 n">4.9</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">104</td>
+            <td class="column7 style0 n">3.9</td>
+            <td class="column8 style0 n">-0.8</td>
+          </tr>
+          <tr class="row157">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">Q3</td>
+            <td class="column2 style0 n">99.8</td>
+            <td class="column3 style0 n">5.9</td>
+            <td class="column4 style0 n">0.2</td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 n">102.4</td>
+            <td class="column7 style0 n">-5.8</td>
+            <td class="column8 style0 n">-1.6</td>
+          </tr>
+          <tr class="row158">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr"></td>
+            <td class="column2 style0 inlineStr"></td>
+            <td class="column3 style0 inlineStr"></td>
+            <td class="column4 style0 inlineStr"></td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 inlineStr"></td>
+            <td class="column7 style0 inlineStr"></td>
+            <td class="column8 style0 inlineStr"></td>
+          </tr>
+          <tr class="row159">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr"></td>
+            <td class="column2 style0 inlineStr"></td>
+            <td class="column3 style0 inlineStr"></td>
+            <td class="column4 style0 inlineStr"></td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 inlineStr"></td>
+            <td class="column7 style0 inlineStr"></td>
+            <td class="column8 style0 inlineStr"></td>
+          </tr>
+          <tr class="row160">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">The estimates in this spreadsheet correspond to the estimates published in the Labour Productivity Statistical Bulletin Q3 2021 on 11 January 2022</td>
+            <td class="column2 style0 inlineStr"></td>
+            <td class="column3 style0 inlineStr"></td>
+            <td class="column4 style0 inlineStr"></td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 inlineStr"></td>
+            <td class="column7 style0 inlineStr"></td>
+            <td class="column8 style0 inlineStr"></td>
+          </tr>
+          <tr class="row161">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">Contact details:</td>
+            <td class="column2 style0 inlineStr"></td>
+            <td class="column3 style0 inlineStr"></td>
+            <td class="column4 style0 inlineStr"></td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 inlineStr"></td>
+            <td class="column7 style0 inlineStr"></td>
+            <td class="column8 style0 inlineStr"></td>
+          </tr>
+          <tr class="row162">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">productivity@ons.gsi.gov.uk</td>
+            <td class="column2 style0 inlineStr"></td>
+            <td class="column3 style0 inlineStr"></td>
+            <td class="column4 style0 inlineStr"></td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 inlineStr"></td>
+            <td class="column7 style0 inlineStr"></td>
+            <td class="column8 style0 inlineStr"></td>
+          </tr>
+          <tr class="row163">
+            <td class="column0">&nbsp;</td>
+            <td class="column1 style0 inlineStr">+ 44(0)1633 455086</td>
+            <td class="column2 style0 inlineStr"></td>
+            <td class="column3 style0 inlineStr"></td>
+            <td class="column4 style0 inlineStr"></td>
+            <td class="column5 style0 inlineStr"></td>
+            <td class="column6 style0 inlineStr"></td>
+            <td class="column7 style0 inlineStr"></td>
+            <td class="column8 style0 inlineStr"></td>
+          </tr>
+        </tbody>
+    </table>
+  </body>
+</html>

@@ -1,0 +1,122 @@
+% Please add the following required packages to your document preamble:
+% \usepackage[table,xcdraw]{xcolor}
+% Beamer presentation requires \usepackage{colortbl} instead of \usepackage[table,xcdraw]{xcolor}
+\begin{table}[]
+\begin{tabular}{ll}
+\rowcolor[HTML]{76933C} 
+{\color[HTML]{FFFFFF} ROW LABLE} & {\color[HTML]{FFFFFF} Sum of Amount} \\
+\rowcolor[HTML]{C4D79B} 
+{\color[HTML]{FFFFFF} local} & {\color[HTML]{FFFFFF} 71,565} \\
+\rowcolor[HTML]{EBF1DE} 
+Fruit & 18,915 \\
+Sales & 16,500 \\
+\rowcolor[HTML]{C4D79B} 
+{\color[HTML]{FFFFFF} auto} & {\color[HTML]{FFFFFF} 15,000} \\
+Gross sales citrus & 10,000 \\
+Gross sales tropical & 5,000 \\
+\rowcolor[HTML]{C4D79B} 
+{\color[HTML]{FFFFFF} manual} & {\color[HTML]{FFFFFF} 1,500} \\
+Gross sales citrus & 1,000 \\
+Gross sales tropical & 500 \\
+Discount & 2,415 \\
+\rowcolor[HTML]{C4D79B} 
+{\color[HTML]{FFFFFF} staff} & {\color[HTML]{FFFFFF} 15} \\
+Staff discounts citrus & 10 \\
+Staff discounts tropical & 5 \\
+\rowcolor[HTML]{C4D79B} 
+{\color[HTML]{FFFFFF} retail} & {\color[HTML]{FFFFFF} 150} \\
+Retail discounts citrus & 100 \\
+Retail discounts tropical & 50 \\
+\rowcolor[HTML]{C4D79B} 
+{\color[HTML]{FFFFFF} trade} & {\color[HTML]{FFFFFF} 2,250} \\
+Trade discounts citrus & 1,500 \\
+Trade discounts tropical & 750 \\
+\rowcolor[HTML]{EBF1DE} 
+veg & 52,650 \\
+Sales & 49,500 \\
+\rowcolor[HTML]{C4D79B} 
+{\color[HTML]{FFFFFF} auto} & {\color[HTML]{FFFFFF} 45,000} \\
+Gross sales leaves & 15,000 \\
+Gross sales roots & 20,000 \\
+Gross sales stems & 10,000 \\
+\rowcolor[HTML]{C4D79B} 
+{\color[HTML]{FFFFFF} manual} & {\color[HTML]{FFFFFF} 4,500} \\
+Gross sales leaves & 1,500 \\
+Gross sales roots & 2,000 \\
+Gross sales stems & 1,000 \\
+Discount & 3,150 \\
+\rowcolor[HTML]{C4D79B} 
+{\color[HTML]{FFFFFF} staff} & {\color[HTML]{FFFFFF} 450} \\
+Staff discounts leaves & 150 \\
+Staff discounts roots & 200 \\
+Staff discounts stems & 100 \\
+\rowcolor[HTML]{C4D79B} 
+{\color[HTML]{FFFFFF} retail} & {\color[HTML]{FFFFFF} 900} \\
+Retail discounts leaves & 300 \\
+Retail discounts roots & 400 \\
+Retail discounts stems & 200 \\
+\rowcolor[HTML]{C4D79B} 
+{\color[HTML]{FFFFFF} trade} & {\color[HTML]{FFFFFF} 1,800} \\
+Trade discounts leaves & 600 \\
+Trade discounts roots & 800 \\
+Trade discounts stems & 400 \\
+\rowcolor[HTML]{C4D79B} 
+{\color[HTML]{FFFFFF} export} & {\color[HTML]{FFFFFF} 107,348} \\
+\rowcolor[HTML]{EBF1DE} 
+Fruit & 28,373 \\
+Sales & 24,750 \\
+\rowcolor[HTML]{C4D79B} 
+{\color[HTML]{FFFFFF} auto} & {\color[HTML]{FFFFFF} 22,500} \\
+Gross sales citrus & 15,000 \\
+Gross sales tropical & 7,500 \\
+\rowcolor[HTML]{C4D79B} 
+{\color[HTML]{FFFFFF} manual} & {\color[HTML]{FFFFFF} 2,250} \\
+Gross sales citrus & 1,500 \\
+Gross sales tropical & 750 \\
+Discount & 3,623 \\
+\rowcolor[HTML]{C4D79B} 
+{\color[HTML]{FFFFFF} staff} & {\color[HTML]{FFFFFF} 23} \\
+Staff discounts citrus & 15 \\
+Staff discounts tropical & 8 \\
+\rowcolor[HTML]{C4D79B} 
+{\color[HTML]{FFFFFF} retail} & {\color[HTML]{FFFFFF} 225} \\
+Retail discounts citrus & 150 \\
+Retail discounts tropical & 75 \\
+\rowcolor[HTML]{C4D79B} 
+{\color[HTML]{FFFFFF} trade} & {\color[HTML]{FFFFFF} 3,375} \\
+Trade discounts citrus & 2,250 \\
+Trade discounts tropical & 1,125 \\
+\rowcolor[HTML]{EBF1DE} 
+veg & 78,975 \\
+Sales & 74,250 \\
+\rowcolor[HTML]{C4D79B} 
+{\color[HTML]{FFFFFF} auto} & {\color[HTML]{FFFFFF} 67,500} \\
+Gross sales leaves & 22,500 \\
+Gross sales roots & 30,000 \\
+Gross sales stems & 15,000 \\
+\rowcolor[HTML]{C4D79B} 
+{\color[HTML]{FFFFFF} manual} & {\color[HTML]{FFFFFF} 6,750} \\
+Gross sales leaves & 2,250 \\
+Gross sales roots & 3,000 \\
+Gross sales stems & 1,500 \\
+Discount & 4,725 \\
+\rowcolor[HTML]{C4D79B} 
+{\color[HTML]{FFFFFF} staff} & {\color[HTML]{FFFFFF} 675} \\
+Staff discounts leaves & 225 \\
+Staff discounts roots & 300 \\
+Staff discounts stems & 150 \\
+\rowcolor[HTML]{C4D79B} 
+{\color[HTML]{FFFFFF} retail} & {\color[HTML]{FFFFFF} 1,350} \\
+Retail discounts leaves & 450 \\
+Retail discounts roots & 600 \\
+Retail discounts stems & 300 \\
+\rowcolor[HTML]{C4D79B} 
+{\color[HTML]{FFFFFF} trade} & {\color[HTML]{FFFFFF} 2,700} \\
+Trade discounts leaves & 900 \\
+Trade discounts roots & 1,200 \\
+Trade discounts stems & 600 \\
+\textbf{总计} & \textbf{178,913}
+\end{tabular}
+\caption{}
+\label{tab:my-table}
+\end{table}

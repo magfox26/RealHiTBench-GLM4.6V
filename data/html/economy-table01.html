@@ -1,0 +1,601 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <meta name="generator" content="PhpSpreadsheet, https://github.com/PHPOffice/PhpSpreadsheet">
+      <title>Top 10 U.S. export markets for soybeans, corn, wheat, and cotton, by volume</title>
+      <meta name="author" content="Bart Kenner" />
+      <meta name="title" content="Top 10 U.S. export markets for soybeans, corn, wheat, and cotton, by volume" />
+      <meta name="subject" content="Agricultural economics" />
+      <meta name="keywords" content="exports, imports, fiscal, calendar, year-to-date, FATUS, Foreign agricultural trade of the United States" />
+      <meta name="company" content="USDA, Economic Research Service" />
+    <style type="text/css">
+      html { font-family:Calibri, Arial, Helvetica, sans-serif; font-size:11pt; background-color:white }
+      a.comment-indicator:hover + div.comment { background:#ffd; position:absolute; display:block; border:1px solid black; padding:0.5em }
+      a.comment-indicator { background:red; display:inline-block; border:1px solid black; width:0.5em; height:0.5em }
+      div.comment { display:none }
+      table { border-collapse:collapse; page-break-after:always }
+      .gridlines td { border:1px dotted black }
+      .gridlines th { border:1px dotted black }
+      .b { text-align:center }
+      .e { text-align:center }
+      .f { text-align:right }
+      .inlineStr { text-align:left }
+      .n { text-align:right }
+      .s { text-align:left }
+      td.style0 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      th.style0 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      td.style1 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      th.style1 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      td.style2 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:9pt; background-color:white }
+      th.style2 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:9pt; background-color:white }
+      td.style3 { vertical-align:bottom; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:9pt; background-color:white }
+      th.style3 { vertical-align:bottom; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:9pt; background-color:white }
+      td.style4 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:9pt; background-color:white }
+      th.style4 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:9pt; background-color:white }
+      td.style5 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:9pt; background-color:white }
+      th.style5 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:9pt; background-color:white }
+      td.style6 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:9pt; background-color:white }
+      th.style6 { vertical-align:bottom; text-align:right; padding-right:0px; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:9pt; background-color:white }
+      td.style7 { vertical-align:bottom; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-style:italic; color:#000000; font-family:'Arial'; font-size:9pt; background-color:white }
+      th.style7 { vertical-align:bottom; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-style:italic; color:#000000; font-family:'Arial'; font-size:9pt; background-color:white }
+      td.style8 { vertical-align:bottom; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:9pt; background-color:white }
+      th.style8 { vertical-align:bottom; text-align:center; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:9pt; background-color:white }
+      td.style9 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Arial'; font-size:9pt; background-color:white }
+      th.style9 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; font-weight:bold; color:#000000; font-family:'Arial'; font-size:9pt; background-color:white }
+      td.style10 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:9pt; background-color:white }
+      th.style10 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:9pt; background-color:white }
+      td.style11 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      th.style11 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      td.style12 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:9pt; background-color:white }
+      th.style12 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:9pt; background-color:white }
+      td.style13 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:9pt; background-color:white }
+      th.style13 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:9pt; background-color:white }
+      td.style14 { vertical-align:bottom; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:9pt; background-color:white }
+      th.style14 { vertical-align:bottom; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:9pt; background-color:white }
+      td.style15 { vertical-align:bottom; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      th.style15 { vertical-align:bottom; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      td.style16 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:8pt; background-color:white }
+      th.style16 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:8pt; background-color:white }
+      td.style17 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      th.style17 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      td.style18 { vertical-align:top; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:8pt; background-color:white }
+      th.style18 { vertical-align:top; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:8pt; background-color:white }
+      td.style19 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:9pt; background-color:white }
+      th.style19 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:9pt; background-color:white }
+      td.style20 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:8pt; background-color:white }
+      th.style20 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:8pt; background-color:white }
+      td.style21 { vertical-align:bottom; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      th.style21 { vertical-align:bottom; border-bottom:1px solid #000000 !important; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'等线'; font-size:11pt; background-color:white }
+      td.style22 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:8pt; background-color:white }
+      th.style22 { vertical-align:bottom; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:8pt; background-color:white }
+      td.style23 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:8pt; background-color:white }
+      th.style23 { vertical-align:middle; text-align:left; padding-left:0px; border-bottom:none #000000; border-top:none #000000; border-left:none #000000; border-right:none #000000; color:#000000; font-family:'Arial'; font-size:8pt; background-color:white }
+      table.sheet0 col.col0 { width:121.32222083pt }
+      table.sheet0 col.col1 { width:69.13333254pt }
+      table.sheet0 col.col2 { width:69.13333254pt }
+      table.sheet0 col.col3 { width:69.13333254pt }
+      table.sheet0 col.col4 { width:50.83333275pt }
+      table.sheet0 col.col5 { width:44.05555505pt }
+      table.sheet0 tr { height:15pt }
+      table.sheet0 tr.row57 { height:81pt }
+    </style>
+  </head>
+
+  <body>
+<style>
+@page { margin-left: 0.7in; margin-right: 0.7in; margin-top: 0.75in; margin-bottom: 0.75in; }
+body { margin-left: 0.7in; margin-right: 0.7in; margin-top: 0.75in; margin-bottom: 0.75in; }
+</style>
+    <table border="0" cellpadding="0" cellspacing="0" id="sheet0" class="sheet0 gridlines">
+        <col class="col0">
+        <col class="col1">
+        <col class="col2">
+        <col class="col3">
+        <col class="col4">
+        <col class="col5">
+        <tbody>
+          <tr class="row0">
+            <td class="column0 style2 s">Top 10 U.S. export markets for soybeans, corn, wheat, and cotton, by volume 1/ 2/</td>
+            <td class="column1 style3 null"></td>
+            <td class="column2 style3 null"></td>
+            <td class="column3 style3 null"></td>
+            <td class="column4 style21 null"></td>
+            <td class="column5">&nbsp;</td>
+          </tr>
+          <tr class="row1">
+            <td class="column0 style4 null"></td>
+            <td class="column1 style5 s">Oct.−Aug.</td>
+            <td class="column2 style5 s">Oct.−Aug.</td>
+            <td class="column3 style5 s">Aug.</td>
+            <td class="column4 style5 s">Aug.</td>
+            <td class="column5">&nbsp;</td>
+          </tr>
+          <tr class="row2">
+            <td class="column0 style3 s">Commodity</td>
+            <td class="column1 style6 n">2022</td>
+            <td class="column2 style6 n">2023</td>
+            <td class="column3 style6 n">2022</td>
+            <td class="column4 style6 n">2023</td>
+            <td class="column5">&nbsp;</td>
+          </tr>
+          <tr class="row3">
+            <td class="column0 style4 null"></td>
+            <td class="column1 style7 s">Metric tons</td>
+            <td class="column2 style8 null"></td>
+            <td class="column3 style8 null"></td>
+            <td class="column4 style8 null"></td>
+            <td class="column5">&nbsp;</td>
+          </tr>
+          <tr class="row4">
+            <td class="column0 style9 s">Soybeans</td>
+            <td class="column1 style4 null"></td>
+            <td class="column2 style4 null"></td>
+            <td class="column3 style4 null"></td>
+            <td class="column4 style4 null"></td>
+            <td class="column5">&nbsp;</td>
+          </tr>
+          <tr class="row5">
+            <td class="column0 style10 s">China</td>
+            <td class="column1 style11 n">29,028,989</td>
+            <td class="column2 style11 n">30,940,497</td>
+            <td class="column3 style11 n">1,202,067</td>
+            <td class="column4 style11 n">238,665</td>
+            <td class="column5">&nbsp;</td>
+          </tr>
+          <tr class="row6">
+            <td class="column0 style10 s">European Union-27</td>
+            <td class="column1 style11 n">4,936,585</td>
+            <td class="column2 style11 n">5,281,724</td>
+            <td class="column3 style11 n">551,110</td>
+            <td class="column4 style11 n">569,951</td>
+            <td class="column5">&nbsp;</td>
+          </tr>
+          <tr class="row7">
+            <td class="column0 style10 s">Mexico</td>
+            <td class="column1 style11 n">5,331,466</td>
+            <td class="column2 style11 n">4,493,101</td>
+            <td class="column3 style11 n">591,336</td>
+            <td class="column4 style11 n">298,360</td>
+            <td class="column5">&nbsp;</td>
+          </tr>
+          <tr class="row8">
+            <td class="column0 style10 s">Japan</td>
+            <td class="column1 style11 n">2,486,894</td>
+            <td class="column2 style11 n">2,220,876</td>
+            <td class="column3 style11 n">254,009</td>
+            <td class="column4 style11 n">163,657</td>
+            <td class="column5">&nbsp;</td>
+          </tr>
+          <tr class="row9">
+            <td class="column0 style10 s">Indonesia</td>
+            <td class="column1 style11 n">1,851,897</td>
+            <td class="column2 style11 n">1,881,648</td>
+            <td class="column3 style11 n">109,928</td>
+            <td class="column4 style11 n">183,842</td>
+            <td class="column5">&nbsp;</td>
+          </tr>
+          <tr class="row10">
+            <td class="column0 style10 s">Taiwan</td>
+            <td class="column1 style11 n">1,573,025</td>
+            <td class="column2 style11 n">1,230,998</td>
+            <td class="column3 style11 n">72,615</td>
+            <td class="column4 style11 n">51,899</td>
+            <td class="column5">&nbsp;</td>
+          </tr>
+          <tr class="row11">
+            <td class="column0 style10 s">Egypt</td>
+            <td class="column1 style11 n">3,965,623</td>
+            <td class="column2 style11 n">1,190,959</td>
+            <td class="column3 style11 n">0</td>
+            <td class="column4 style11 n">87,188</td>
+            <td class="column5">&nbsp;</td>
+          </tr>
+          <tr class="row12">
+            <td class="column0 style10 s">South Korea</td>
+            <td class="column1 style11 n">576,970</td>
+            <td class="column2 style11 n">644,220</td>
+            <td class="column3 style11 n">65,688</td>
+            <td class="column4 style11 n">2,492</td>
+            <td class="column5">&nbsp;</td>
+          </tr>
+          <tr class="row13">
+            <td class="column0 style10 s">Vietnam</td>
+            <td class="column1 style11 n">557,165</td>
+            <td class="column2 style11 n">569,948</td>
+            <td class="column3 style11 n">42,073</td>
+            <td class="column4 style11 n">37,651</td>
+            <td class="column5">&nbsp;</td>
+          </tr>
+          <tr class="row14">
+            <td class="column0 style10 s">Thailand</td>
+            <td class="column1 style11 n">710,627</td>
+            <td class="column2 style11 n">407,008</td>
+            <td class="column3 style11 n">19,553</td>
+            <td class="column4 style11 n">1,236</td>
+            <td class="column5">&nbsp;</td>
+          </tr>
+          <tr class="row15">
+            <td class="column0 style10 s">World total</td>
+            <td class="column1 style11 n">56,471,884</td>
+            <td class="column2 style11 n">52,130,425</td>
+            <td class="column3 style11 n">3,232,094</td>
+            <td class="column4 style11 n">1,702,563</td>
+            <td class="column5">&nbsp;</td>
+          </tr>
+          <tr class="row16">
+            <td class="column0 style10 null"></td>
+            <td class="column1 style11 null"></td>
+            <td class="column2 style11 null"></td>
+            <td class="column3 style11 null"></td>
+            <td class="column4 style11 null"></td>
+            <td class="column5">&nbsp;</td>
+          </tr>
+          <tr class="row17">
+            <td class="column0 style9 s">Corn</td>
+            <td class="column1 style12 null"></td>
+            <td class="column2 style12 null"></td>
+            <td class="column3 style12 null"></td>
+            <td class="column4 style12 null"></td>
+            <td class="column5">&nbsp;</td>
+          </tr>
+          <tr class="row18">
+            <td class="column0 style4 s">Mexico</td>
+            <td class="column1 style11 n">15,806,332</td>
+            <td class="column2 style11 n">15,171,758</td>
+            <td class="column3 style11 n">1,168,583</td>
+            <td class="column4 style11 n">1,205,075</td>
+            <td class="column5">&nbsp;</td>
+          </tr>
+          <tr class="row19">
+            <td class="column0 style4 s">China</td>
+            <td class="column1 style11 n">14,161,383</td>
+            <td class="column2 style11 n">6,845,097</td>
+            <td class="column3 style11 n">1,170,911</td>
+            <td class="column4 style11 n">69,633</td>
+            <td class="column5">&nbsp;</td>
+          </tr>
+          <tr class="row20">
+            <td class="column0 style4 s">Japan</td>
+            <td class="column1 style11 n">9,823,914</td>
+            <td class="column2 style11 n">6,455,051</td>
+            <td class="column3 style11 n">354,735</td>
+            <td class="column4 style11 n">255,827</td>
+            <td class="column5">&nbsp;</td>
+          </tr>
+          <tr class="row21">
+            <td class="column0 style4 s">Colombia</td>
+            <td class="column1 style11 n">4,241,227</td>
+            <td class="column2 style11 n">2,296,191</td>
+            <td class="column3 style11 n">13,802</td>
+            <td class="column4 style11 n">305,479</td>
+            <td class="column5">&nbsp;</td>
+          </tr>
+          <tr class="row22">
+            <td class="column0 style4 s">Canada</td>
+            <td class="column1 style11 n">5,913,785</td>
+            <td class="column2 style11 n">1,794,021</td>
+            <td class="column3 style11 n">311,073</td>
+            <td class="column4 style11 n">248,439</td>
+            <td class="column5">&nbsp;</td>
+          </tr>
+          <tr class="row23">
+            <td class="column0 style10 s">Guatemala</td>
+            <td class="column1 style11 n">1,299,666</td>
+            <td class="column2 style11 n">833,199</td>
+            <td class="column3 style11 n">57,942</td>
+            <td class="column4 style11 n">13,706</td>
+            <td class="column5">&nbsp;</td>
+          </tr>
+          <tr class="row24">
+            <td class="column0 style4 s">South Korea</td>
+            <td class="column1 style11 n">1,366,539</td>
+            <td class="column2 style11 n">822,919</td>
+            <td class="column3 style11 n">6,778</td>
+            <td class="column4 style11 n">2,921</td>
+            <td class="column5">&nbsp;</td>
+          </tr>
+          <tr class="row25">
+            <td class="column0 style4 s">Honduras</td>
+            <td class="column1 style11 n">824,154</td>
+            <td class="column2 style11 n">774,052</td>
+            <td class="column3 style11 n">18,625</td>
+            <td class="column4 style11 n">93,544</td>
+            <td class="column5">&nbsp;</td>
+          </tr>
+          <tr class="row26">
+            <td class="column0 style4 s">Taiwan</td>
+            <td class="column1 style11 n">774,537</td>
+            <td class="column2 style11 n">678,377</td>
+            <td class="column3 style11 n">22,962</td>
+            <td class="column4 style11 n">58,507</td>
+            <td class="column5">&nbsp;</td>
+          </tr>
+          <tr class="row27">
+            <td class="column0 style4 s">El Salvador</td>
+            <td class="column1 style11 n">625,063</td>
+            <td class="column2 style11 n">563,155</td>
+            <td class="column3 style11 n">30,070</td>
+            <td class="column4 style11 n">16,331</td>
+            <td class="column5">&nbsp;</td>
+          </tr>
+          <tr class="row28">
+            <td class="column0 style10 s">World total</td>
+            <td class="column1 style11 n">60,297,548</td>
+            <td class="column2 style11 n">39,559,421</td>
+            <td class="column3 style11 n">3,325,552</td>
+            <td class="column4 style11 n">2,546,751</td>
+            <td class="column5">&nbsp;</td>
+          </tr>
+          <tr class="row29">
+            <td class="column0 style4 null"></td>
+            <td class="column1 style11 null"></td>
+            <td class="column2 style11 null"></td>
+            <td class="column3 style11 null"></td>
+            <td class="column4 style11 null"></td>
+            <td class="column5">&nbsp;</td>
+          </tr>
+          <tr class="row30">
+            <td class="column0 style9 s">Wheat, unmilled</td>
+            <td class="column1 style13 null"></td>
+            <td class="column2 style13 null"></td>
+            <td class="column3 style13 null"></td>
+            <td class="column4 style13 null"></td>
+            <td class="column5">&nbsp;</td>
+          </tr>
+          <tr class="row31">
+            <td class="column0 style10 s">Mexico</td>
+            <td class="column1 style11 n">3,671,582</td>
+            <td class="column2 style11 n">2,700,015</td>
+            <td class="column3 style11 n">523,191</td>
+            <td class="column4 style11 n">283,088</td>
+            <td class="column5">&nbsp;</td>
+          </tr>
+          <tr class="row32">
+            <td class="column0 style10 s">Japan</td>
+            <td class="column1 style11 n">1,987,974</td>
+            <td class="column2 style11 n">1,796,534</td>
+            <td class="column3 style11 n">360,965</td>
+            <td class="column4 style11 n">250,549</td>
+            <td class="column5">&nbsp;</td>
+          </tr>
+          <tr class="row33">
+            <td class="column0 style10 s">Philippines</td>
+            <td class="column1 style11 n">1,914,467</td>
+            <td class="column2 style11 n">1,689,540</td>
+            <td class="column3 style11 n">197,255</td>
+            <td class="column4 style11 n">184,441</td>
+            <td class="column5">&nbsp;</td>
+          </tr>
+          <tr class="row34">
+            <td class="column0 style10 s">South Korea</td>
+            <td class="column1 style11 n">1,024,694</td>
+            <td class="column2 style11 n">1,147,953</td>
+            <td class="column3 style11 n">159,415</td>
+            <td class="column4 style11 n">133,960</td>
+            <td class="column5">&nbsp;</td>
+          </tr>
+          <tr class="row35">
+            <td class="column0 style10 s">China</td>
+            <td class="column1 style11 n">365,413</td>
+            <td class="column2 style11 n">1,124,244</td>
+            <td class="column3 style11 n">81,627</td>
+            <td class="column4 style11 n">1,992</td>
+            <td class="column5">&nbsp;</td>
+          </tr>
+          <tr class="row36">
+            <td class="column0 style10 s">Taiwan</td>
+            <td class="column1 style11 n">795,866</td>
+            <td class="column2 style11 n">861,812</td>
+            <td class="column3 style11 n">44,356</td>
+            <td class="column4 style11 n">125,507</td>
+            <td class="column5">&nbsp;</td>
+          </tr>
+          <tr class="row37">
+            <td class="column0 style10 s">Thailand</td>
+            <td class="column1 style11 n">439,706</td>
+            <td class="column2 style11 n">568,943</td>
+            <td class="column3 style11 n">3,561</td>
+            <td class="column4 style11 n">58,724</td>
+            <td class="column5">&nbsp;</td>
+          </tr>
+          <tr class="row38">
+            <td class="column0 style10 s">Ethiopia</td>
+            <td class="column1 style11 n">339,780</td>
+            <td class="column2 style11 n">529,049</td>
+            <td class="column3 style11 n">0</td>
+            <td class="column4 style11 n">0</td>
+            <td class="column5">&nbsp;</td>
+          </tr>
+          <tr class="row39">
+            <td class="column0 style10 s">Nigeria</td>
+            <td class="column1 style11 n">1,153,732</td>
+            <td class="column2 style11 n">471,383</td>
+            <td class="column3 style11 n">112,453</td>
+            <td class="column4 style11 n">0</td>
+            <td class="column5">&nbsp;</td>
+          </tr>
+          <tr class="row40">
+            <td class="column0 style10 s">Yemen</td>
+            <td class="column1 style11 n">466,578</td>
+            <td class="column2 style11 n">394,620</td>
+            <td class="column3 style11 n">153,268</td>
+            <td class="column4 style11 n">28,000</td>
+            <td class="column5">&nbsp;</td>
+          </tr>
+          <tr class="row41">
+            <td class="column0 style10 s">World total</td>
+            <td class="column1 style11 n">17,673,860</td>
+            <td class="column2 style11 n">15,927,976</td>
+            <td class="column3 style11 n">2,515,933</td>
+            <td class="column4 style11 n">1,454,272</td>
+            <td class="column5">&nbsp;</td>
+          </tr>
+          <tr class="row42">
+            <td class="column0 style10 null"></td>
+            <td class="column1 style11 null"></td>
+            <td class="column2 style11 null"></td>
+            <td class="column3 style11 null"></td>
+            <td class="column4 style11 null"></td>
+            <td class="column5">&nbsp;</td>
+          </tr>
+          <tr class="row43">
+            <td class="column0 style9 s">Cotton, ex linters</td>
+            <td class="column1 style13 null"></td>
+            <td class="column2 style13 null"></td>
+            <td class="column3 style13 null"></td>
+            <td class="column4 style13 null"></td>
+            <td class="column5">&nbsp;</td>
+          </tr>
+          <tr class="row44">
+            <td class="column0 style10 s">China</td>
+            <td class="column1 style11 n">1,066,943</td>
+            <td class="column2 style11 n">705,146</td>
+            <td class="column3 style11 n">72,892</td>
+            <td class="column4 style11 n">100,520</td>
+            <td class="column5 style1 s">&nbsp;</td>
+          </tr>
+          <tr class="row45">
+            <td class="column0 style10 s">Pakistan</td>
+            <td class="column1 style11 n">331,377</td>
+            <td class="column2 style11 n">411,122</td>
+            <td class="column3 style11 n">19,346</td>
+            <td class="column4 style11 n">19,526</td>
+            <td class="column5">&nbsp;</td>
+          </tr>
+          <tr class="row46">
+            <td class="column0 style10 s">Turkey</td>
+            <td class="column1 style11 n">388,962</td>
+            <td class="column2 style11 n">322,073</td>
+            <td class="column3 style11 n">46,075</td>
+            <td class="column4 style11 n">8,906</td>
+            <td class="column5">&nbsp;</td>
+          </tr>
+          <tr class="row47">
+            <td class="column0 style10 s">Vietnam</td>
+            <td class="column1 style11 n">419,741</td>
+            <td class="column2 style11 n">306,196</td>
+            <td class="column3 style11 n">38,847</td>
+            <td class="column4 style11 n">15,128</td>
+            <td class="column5">&nbsp;</td>
+          </tr>
+          <tr class="row48">
+            <td class="column0 style10 s">Bangladesh</td>
+            <td class="column1 style11 n">138,394</td>
+            <td class="column2 style11 n">132,338</td>
+            <td class="column3 style11 n">24,131</td>
+            <td class="column4 style11 n">14,443</td>
+            <td class="column5">&nbsp;</td>
+          </tr>
+          <tr class="row49">
+            <td class="column0 style10 s">Mexico</td>
+            <td class="column1 style11 n">183,783</td>
+            <td class="column2 style11 n">109,279</td>
+            <td class="column3 style11 n">16,393</td>
+            <td class="column4 style11 n">10,469</td>
+            <td class="column5">&nbsp;</td>
+          </tr>
+          <tr class="row50">
+            <td class="column0 style10 s">Macau</td>
+            <td class="column1 style11 n">7,383</td>
+            <td class="column2 style11 n">99,593</td>
+            <td class="column3 style11 n">2,566</td>
+            <td class="column4 style11 n">300</td>
+            <td class="column5">&nbsp;</td>
+          </tr>
+          <tr class="row51">
+            <td class="column0 style10 s">Indonesia</td>
+            <td class="column1 style11 n">88,248</td>
+            <td class="column2 style11 n">81,589</td>
+            <td class="column3 style11 n">5,668</td>
+            <td class="column4 style11 n">3,270</td>
+            <td class="column5">&nbsp;</td>
+          </tr>
+          <tr class="row52">
+            <td class="column0 style10 s">India</td>
+            <td class="column1 style11 n">148,032</td>
+            <td class="column2 style11 n">68,238</td>
+            <td class="column3 style11 n">11,784</td>
+            <td class="column4 style11 n">3,622</td>
+            <td class="column5">&nbsp;</td>
+          </tr>
+          <tr class="row53">
+            <td class="column0 style10 s">Hong Kong</td>
+            <td class="column1 style11 n">6,356</td>
+            <td class="column2 style11 n">55,671</td>
+            <td class="column3 style11 n">461</td>
+            <td class="column4 style11 n">24,766</td>
+            <td class="column5">&nbsp;</td>
+          </tr>
+          <tr class="row54">
+            <td class="column0 style14 s">World total</td>
+            <td class="column1 style15 n">3,175,565</td>
+            <td class="column2 style15 n">2,636,105</td>
+            <td class="column3 style15 n">274,354</td>
+            <td class="column4 style15 n">226,189</td>
+            <td class="column5">&nbsp;</td>
+          </tr>
+          <tr class="row55">
+            <td class="column0 style16 s">All data are preliminary.</td>
+            <td class="column1 style17 null"></td>
+            <td class="column2 style17 null"></td>
+            <td class="column3 style17 null"></td>
+            <td class="column4 style17 null"></td>
+            <td class="column5">&nbsp;</td>
+          </tr>
+          <tr class="row56">
+            <td class="column0 style22 s">1/ The value &quot;0&quot; indicates that a value was rounded to 0.</td>
+            <td class="column1 style10 null"></td>
+            <td class="column2 style10 null"></td>
+            <td class="column3 style10 null"></td>
+            <td class="column4 style10 null"></td>
+            <td class="column5">&nbsp;</td>
+          </tr>
+          <tr class="row57">
+            <td class="column0 style18 s style18" colspan="5">2/ USDA defines &quot;agricultural products&quot; for trade to include: live animals, meat, and products of livestock, poultry, and dairy; hides and skins (but not leather products); animal fats and greases; food and feed grains and grain products; ethanol; oilseeds and oilseed products; fruits, nuts, and vegetables and products of these; juices, wine, malt beverages, and distilled spirits; essential oils; planting seeds; raw cotton, wool, and other fibers (not manufactured products of these); tobacco (unmanufactured and manufactured tobacco products); sugar and sugar products; coffee, cocoa, tea, and products of these; stock for nurseries and greenhouses; spices; and crude or natural drugs. Fish, shellfish, and forestry products are not included in &quot;agriculture.&quot;</td>
+            <td class="column5">&nbsp;</td>
+          </tr>
+          <tr class="row58">
+            <td class="column0 style23 s">Source: USDA, Economic Research Service summary of data released by U.S. Department of Commerce, Bureau </td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+          </tr>
+          <tr class="row59">
+            <td class="column0 style23 s">of the Census through October 5, 2023.</td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+          </tr>
+          <tr class="row60">
+            <td class="column0 style19 null"></td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+          </tr>
+          <tr class="row61">
+            <td class="column0 style19 null"></td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+          </tr>
+          <tr class="row62">
+            <td class="column0 style20 null"></td>
+            <td class="column1">&nbsp;</td>
+            <td class="column2">&nbsp;</td>
+            <td class="column3">&nbsp;</td>
+            <td class="column4">&nbsp;</td>
+            <td class="column5">&nbsp;</td>
+          </tr>
+        </tbody>
+    </table>
+  </body>
+</html>

@@ -1,0 +1,18 @@
+% Please add the following required packages to your document preamble:
+% \usepackage{multirow}
+\begin{table}[]
+\begin{tabular}{llllllllll}
+                        &            & Uninf       & \multicolumn{7}{l}{Infected}                                                                                                                                  \\
+                        &            & no DC Trnf  & no DC Trnf  & DC + PBS    & DC + SAG    & DC (Ctrl siRNA) + SAG & DC (Runx1+3 siRNA) + SAG & DC (Runx1+3 siRNA + Vec) + SAG & DC (Runx1+3 siRNA + CD40) + SAG \\
+                        &            & Set1        & Set2        & Set3        & Set4        & Set5                  & Set6                     & Set7                           & Set8                            \\
+\multirow{3}{*}{Expt-1} & Replicate1 & 0.045       & 1.13        & 1.16        & 0.31        & 0.21                  & 1.16                     & 0.74                           & 0.24                            \\
+                        & Replicate2 & 0.19        & 2.28        & 1.29        & 0.31        & 0.66                  & 1.53                     & 1.2                            & 0.32                            \\
+                        & Replicate3 & 0.2         & 0.7         & 0.31        & 0.18        & 0.13                  & 0.27                     & 0.28                           & 0.19                            \\
+\multirow{3}{*}{Expt-2} & Replicate1 & 0.27        & 0.58        & 0.81        & 0.22        & 0.2                   & 0.36                     & 0.46                           & 0.12                            \\
+                        & Replicate2 & 0.049       & 0.49        & 0.23        & 0.035       & 0.023                 & 0.78                     & 0.25                           & 0.1                             \\
+                        & Replicate3 & 0.31        & 2.01        & 2.56        & 0.41        & 0.16                  & 0.94                     & 0.63                           & 0.13                            \\
+                        &            &             &             &             &             &                       &                          &                                &                                 \\
+                        & Mean       & 0.177333333 & 1.198333333 & 1.06        & 0.244166667 & 0.2305                & 0.84                     & 0.593333333                    & 0.183333333                     \\
+                        & SD         & 0.11031168  & 0.770179633 & 0.851680691 & 0.130092916 & 0.220883453           & 0.479040708              & 0.353477958                    & 0.08453796                     
+\end{tabular}
+\end{table}

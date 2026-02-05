@@ -1,0 +1,48 @@
+% Please add the following required packages to your document preamble:
+% \usepackage{multirow}
+\begin{table}[]
+\begin{tabular}{lllllllll}
+\multicolumn{9}{l}{\begin{tabular}[c]{@{}l@{}}HOUSEHOLD DATA\\ ANNUAL AVERAGES \\ 12. Employed persons by sex, occupation, class of worker, full- or part-time status, and race\end{tabular}} \\
+{[}In thousands{]} &  &  &  &  &  &  &  &  \\
+ &  &  &  &  &  &  &  &  \\
+\multirow{2}{*}{Category} & \multicolumn{2}{l}{Total} & \multicolumn{2}{l}{White} & \multicolumn{2}{l}{\begin{tabular}[c]{@{}l@{}}Black or African\\ American\end{tabular}} & \multicolumn{2}{l}{Asian} \\
+ & 2022 & 2023 & 2022 & 2023 & 2022 & 2023 & 2022 & 2023 \\
+ &  &  &  &  &  &  &  &  \\
+Total, 16 years and over & 158291 & 161037 & 121908 & 123165 & 19937 & 20674 & 10615 & 11096 \\
+Men & 84203 & 85500 & 65924 & 66524 & 9617 & 9943 & 5610 & 5852 \\
+Women & 74089 & 75537 & 55984 & 56642 & 10319 & 10731 & 5006 & 5243 \\
+ &  &  &  &  &  &  &  &  \\
+OCCUPATION &  &  &  &  &  &  &  &  \\
+Management, professional, and related occupations & 68099 & 70275 & 52943 & 54058 & 6969 & 7460 & 6154 & 6566 \\
+Management, business, and financial operations occupations & 29350 & 30544 & 23606 & 24343 & 2753 & 2987 & 2147 & 2301 \\
+Management occupations & 20199 & 20906 & 16479 & 16914 & 1821 & 1925 & 1334 & 1469 \\
+Business and financial operations occupations & 9152 & 9638 & 7127 & 7429 & 932 & 1062 & 813 & 833 \\
+Professional and related occupations & 38749 & 39731 & 29337 & 29715 & 4216 & 4473 & 4007 & 4264 \\
+Computer and mathematical occupations & 6171 & 6502 & 4019 & 4128 & 562 & 598 & 1375 & 1560 \\
+Architecture and engineering occupations & 3464 & 3602 & 2677 & 2811 & 229 & 218 & 481 & 470 \\
+Life, physical, and social science occupations & 1840 & 1870 & 1349 & 1342 & 113 & 154 & 314 & 309 \\
+Community and social service occupations & 2945 & 2879 & 2168 & 2100 & 568 & 563 & 107 & 113 \\
+Legal occupations & 1861 & 1897 & 1565 & 1569 & 158 & 190 & 91 & 84 \\
+Education, training, and library occupations & 9220 & 9403 & 7410 & 7526 & 1033 & 1056 & 501 & 535 \\
+Arts, design, entertainment, sports, and media occupations & 3441 & 3478 & 2850 & 2768 & 287 & 333 & 190 & 233 \\
+Healthcare practitioners and technical occupations & 9808 & 10099 & 7299 & 7470 & 1267 & 1360 & 949 & 961 \\
+Service occupations & 25438 & 26171 & 18381 & 18758 & 4274 & 4446 & 1553 & 1644 \\
+Healthcare support occupations & 4930 & 5123 & 3085 & 3214 & 1270 & 1283 & 366 & 390 \\
+Protective service occupations & 3057 & 3105 & 2192 & 2179 & 638 & 694 & 90 & 99 \\
+Food preparation and serving related occupations & 7907 & 8189 & 5786 & 6010 & 1101 & 1109 & 533 & 563 \\
+Building and grounds cleaning and maintenance occupations & 5576 & 5534 & 4388 & 4322 & 782 & 792 & 170 & 151 \\
+Personal care and service occupations & 3968 & 4220 & 2930 & 3034 & 482 & 569 & 393 & 441 \\
+Sales and office occupations & 30412 & 30279 & 23616 & 23394 & 3993 & 4088 & 1636 & 1665 \\
+Sales and related occupations & 14316 & 14325 & 11389 & 11283 & 1572 & 1675 & 819 & 871 \\
+Office and administrative support occupations & 16096 & 15954 & 12227 & 12111 & 2422 & 2413 & 817 & 794 \\
+Natural resources, construction, and maintenance occupations & 14260 & 14326 & 12367 & 12332 & 1055 & 1114 & 271 & 260 \\
+Farming, fishing, and forestry occupations & 980 & 987 & 874 & 886 & 45 & 50 & 17 & 9 \\
+Construction and extraction occupations & 8427 & 8457 & 7337 & 7344 & 598 & 606 & 137 & 110 \\
+Installation, maintenance, and repair occupations & 4853 & 4881 & 4157 & 4101 & 412 & 458 & 117 & 141 \\
+Production, transportation, and material moving occupations & 20082 & 19986 & 14601 & 14624 & 3646 & 3567 & 1002 & 961 \\
+Production occupations & 8256 & 8280 & 6215 & 6302 & 1240 & 1216 & 484 & 448 \\
+Transportation and material moving occupations & 11826 & 11706 & 8386 & 8322 & 2406 & 2351 & 518 & 513
+\end{tabular}
+\caption{}
+\label{tab:my-table}
+\end{table}

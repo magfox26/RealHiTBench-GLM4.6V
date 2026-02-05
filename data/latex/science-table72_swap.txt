@@ -1,0 +1,15 @@
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+\begin{table}[]
+\begin{tabular}{@{}llccccccccccccc@{}}
+ &  & \multicolumn{3}{c}{\textbf{Pr2}} & \multicolumn{1}{l}{} & \multicolumn{3}{c}{\textbf{Pr1}} & \textbf{} & \multicolumn{3}{c}{\textbf{Oct1 probe}} & \textbf{Pr1/Oct1} & \textbf{Pr2/Oct1} \\
+ &  & \multicolumn{1}{l}{Area} & \multicolumn{1}{l}{Intensity} & \multicolumn{1}{l}{Intensity/Area} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{Area} & \multicolumn{1}{l}{Intensity} & \multicolumn{1}{l}{Intensity/Area} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{Area} & \multicolumn{1}{l}{Intensity} & \multicolumn{1}{l}{Intensity/Area} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} \\
+Set 1 & LPS 0h & 0.04 & 71.04 & 1776 &  & 0.05 & 34.23 & 684.6 &  & 0.03 & 146.73 & 4891 & 0.139971376 & 0.363115927 \\
+Set 2 & LPS 0.5 h & 0.04 & 178.93 & 4473.25 &  & 0.05 & 132.74 & 2654.8 &  & 0.03 & 182.11 & 6070.333333 & 0.437340069 & 0.73690352 \\
+Set 3 & LPS 1h & 0.04 & 196.6 & 4915 &  & 0.05 & 156.93 & 3138.6 &  & 0.03 & 150.31 & 5010.333333 & 0.626425388 & 0.980972657 \\
+Set 4 & LPS 3h & 0.04 & 161.52 & 4038 &  & 0.05 & 133.69 & 2673.8 &  & 0.03 & 151.31 & 5043.666667 & 0.530130196 & 0.800608023 \\
+Set 5 & LPS 6h & 0.04 & 145.05 & 3626.25 &  & 0.05 & 118.05 & 2361 &  & 0.03 & 149.7 & 4990 & 0.473146293 & 0.726703407 \\
+Set 6 & LPS 12h & 0.04 & 116.8 & 2920 &  & 0.05 & 83.34 & 1666.8 &  & 0.03 & 145.86 & 4862 & 0.342821884 & 0.600575895 \\
+Set 7 & LPS 24h & 0.04 & 70.58 & 1764.5 &  & 0.05 & 27.34 & 546.8 &  & 0.03 & 152.02 & 5067.333333 & 0.107906854 & 0.348210762
+\end{tabular}
+\end{table}
